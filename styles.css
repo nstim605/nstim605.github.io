@@ -215,6 +215,9 @@ h3 { margin-bottom: 10px; font-size: 1.2rem; letter-spacing: -.02em; }
 }
 .feature-card p { margin: 0; color: var(--muted); }
 .feature-mark { width: 44px; height: 44px; display: grid; place-items: center; margin-bottom: 28px; border-radius: 15px; background: var(--control); color: var(--text); font-size: 1.25rem; font-weight: 900; }
+.feature-mark-globe { position: relative; }
+.feature-mark-globe::before { content: ""; position: absolute; width: 20px; height: 20px; border: 2px solid currentColor; border-radius: 50%; background: linear-gradient(currentColor, currentColor) center / 100% 2px no-repeat; box-sizing: border-box; }
+.feature-mark-globe::after { content: ""; position: absolute; width: 10px; height: 20px; border-inline: 2px solid currentColor; border-radius: 50%; box-sizing: border-box; }
 .feature-card-accent { border-color: var(--primary-border); background: var(--primary-soft); }
 .feature-card-accent .feature-mark { background: var(--primary); color: white; }
 
