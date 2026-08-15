@@ -6,7 +6,7 @@
   <meta name="theme-color" content="#f7f8fa" media="(prefers-color-scheme: light)">
   <meta name="theme-color" content="#070a0f" media="(prefers-color-scheme: dark)">
   <title>Privacy Policy — Balkan Currency Converter</title>
-  <meta name="description" content="Privacy Policy for the Balkan Currency Converter Android application.">
+  <meta name="description" content="Privacy Policy for the Balkan Currency Converter Android application and website.">
   <link rel="canonical" href="https://balkanconverter.com/privacy-policy.html">
   <meta property="og:type" content="website">
   <meta property="og:title" content="Privacy Policy — Balkan Currency Converter">
@@ -38,13 +38,20 @@
     <header class="policy-hero">
       <p class="eyebrow">Balkan Currency Converter</p>
       <h1>Privacy Policy</h1>
-      <p class="policy-meta"><strong>Last updated:</strong> August 10, 2026</p>
+      <p class="policy-meta"><strong>Last updated:</strong> August 15, 2026</p>
     </header>
     <article class="policy-card">
-      <p>Balkan Currency Converter respects your privacy. This Privacy Policy explains what information is used when you use the application.</p>
+      <p>Balkan Currency Converter respects your privacy. This Privacy Policy explains what information is used when you use the application or visit balkanconverter.com.</p>
 
       <h2>Information We Collect</h2>
-      <p>Balkan Currency Converter does not require an account. The developer does not directly collect your name, email address, phone number, precise location, contacts, photos, microphone data, or other personal information during normal use.</p>
+      <p>Balkan Currency Converter does not require an account. Except for the optional website analytics described below, the developer does not directly collect your name, email address, phone number, precise location, contacts, photos, microphone data, or other personal information during normal use.</p>
+
+      <h2 id="website-analytics">Website Analytics and Consent</h2>
+      <p>balkanconverter.com uses Firebase Analytics, provided by Google Analytics, only after you select <strong>Accept analytics</strong>. Analytics helps measure page views, traffic sources and campaign parameters such as UTM tags, referring pages, browser and device information, and aggregated engagement with the website.</p>
+      <p>The website records a custom <code>google_play_click</code> event when an enabled visitor selects a Google Play link. The event includes the destination URL and the link's location on the page, such as the header, hero, download section, or footer.</p>
+      <p>Firebase Analytics may use first-party cookies or similar first-party identifiers, where available, to distinguish browsers and sessions and provide analytics reports. Google may also receive technical request information such as an IP address when processing analytics events. Advertising storage, advertising user data, and advertising personalization consent remain disabled by this website integration.</p>
+      <p>If you select <strong>Reject analytics</strong>, the Firebase and Google Analytics libraries are not loaded and no analytics events are sent. Your choice is stored locally in your browser so the website can remember it. You can change the choice using <strong>Analytics choices</strong> in the footer or by clearing this site's browser data.</p>
+      <p>Learn more in the <a href="https://policies.google.com/privacy">Google Privacy Policy</a> and Google's information about <a href="https://support.google.com/analytics/answer/11593727">data collected by Google Analytics</a>.</p>
 
       <h2>Exchange Rate Data</h2>
       <p>Exchange rates, historical chart data, and the currency catalog are retrieved from the Frankfurter API, which uses institutional and non-commercial data sources. Frankfurter or its hosting provider may receive network information such as your IP address when processing a request.</p>
@@ -77,10 +84,11 @@
   <footer class="site-footer">
     <div class="shell footer-grid">
       <div class="footer-brand"><img src="assets/app-icon.png" width="44" height="44" alt=""><div><strong>Balkan Currency Converter</strong><span>Currency conversion for Android</span></div></div>
-      <nav aria-label="Footer navigation"><a href="/">Home</a><a href="https://play.google.com/store/apps/details?id=io.github.nstim605.balkanconverter">Google Play</a></nav>
+      <nav aria-label="Footer navigation"><a href="/">Home</a><a href="https://play.google.com/store/apps/details?id=io.github.nstim605.balkanconverter">Google Play</a><button class="footer-link-button analytics-consent-settings" type="button">Analytics choices</button></nav>
       <p>© 2026 Balkan Currency Converter</p>
     </div>
   </footer>
   <script src="script.js" defer></script>
+  <script type="module" src="analytics.js"></script>
 </body>
 </html>
