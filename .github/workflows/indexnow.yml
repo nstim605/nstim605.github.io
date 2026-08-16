@@ -1,0 +1,155 @@
+name: IndexNow
+
+on:
+  push:
+    branches:
+      - main
+
+permissions:
+  actions: read
+  contents: read
+
+concurrency:
+  group: indexnow-main
+  cancel-in-progress: true
+
+jobs:
+  submit-sitemap:
+    runs-on: ubuntu-latest
+    env:
+      INDEXNOW_KEY: 1b4bd43e10a1c8cba47f779b1a7d218e
+      INDEXNOW_KEY_URL: https://balkanconverter.com/1b4bd43e10a1c8cba47f779b1a7d218e.txt
+      INDEXNOW_ENDPOINT: https://api.indexnow.org/indexnow
+
+    steps:
+      - name: Check out the pushed revision
+        uses: actions/checkout@v4
+
+      - name: Wait for the matching GitHub Pages deployment
+        env:
+          GH_TOKEN: ${{ github.token }}
+        shell: bash
+        run: |
+          for attempt in $(seq 1 60); do
+            runs_json="$(curl --fail --silent --show-error \
+              --header "Accept: application/vnd.github+json" \
+              --header "Authorization: Bearer ${GH_TOKEN}" \
+              --header "X-GitHub-Api-Version: 2022-11-28" \
+              "https://api.github.com/repos/${GITHUB_REPOSITORY}/actions/runs?branch=main&head_sha=${GITHUB_SHA}&per_page=100")"
+
+            pages_state="$(printf '%s' "${runs_json}" | python -c '
+          import json
+          import sys
+
+          runs = json.load(sys.stdin).get("workflow_runs", [])
+          matches = [
+              run for run in runs
+              if run.get("name") == "pages build and deployment"
+              and run.get("head_sha") == __import__("os").environ["GITHUB_SHA"]
+          ]
+          if not matches:
+              print("pending")
+          else:
+              latest = max(matches, key=lambda run: (run.get("run_number", 0), run.get("run_attempt", 0)))
+              if latest.get("status") != "completed":
+                  print("pending")
+              elif latest.get("conclusion") == "success":
+                  print("success")
+              else:
+                  print("failed:" + str(latest.get("conclusion")))
+          ')"
+
+            if [[ "${pages_state}" == "success" ]]; then
+              echo "Matching GitHub Pages deployment completed successfully."
+              break
+            fi
+            if [[ "${pages_state}" == failed:* ]]; then
+              echo "GitHub Pages deployment did not succeed: ${pages_state}" >&2
+              exit 1
+            fi
+            if [[ "${attempt}" -eq 60 ]]; then
+              echo "Timed out waiting for the GitHub Pages deployment for ${GITHUB_SHA}." >&2
+              exit 1
+            fi
+            sleep 10
+          done
+
+      - name: Verify the published IndexNow key
+        shell: bash
+        run: |
+          for attempt in $(seq 1 60); do
+            published_key="$(curl --fail --silent --show-error \
+              --header "Cache-Control: no-cache" \
+              "${INDEXNOW_KEY_URL}?commit=${GITHUB_SHA}" || true)"
+            if [[ "${published_key}" == "${INDEXNOW_KEY}" ]]; then
+              echo "Published IndexNow key verified."
+              break
+            fi
+            if [[ "${attempt}" -eq 60 ]]; then
+              echo "Published IndexNow key was not available or did not match." >&2
+              exit 1
+            fi
+            sleep 5
+          done
+
+      - name: Build one IndexNow payload from sitemap.xml
+        id: payload
+        shell: bash
+        run: |
+          python - <<'PY'
+          import json
+          import os
+          from pathlib import Path
+          from urllib.parse import urlparse
+          from xml.etree import ElementTree
+
+          host = "balkanconverter.com"
+          root = ElementTree.parse("sitemap.xml").getroot()
+          urls = []
+          for element in root.findall(".//{*}loc"):
+              url = (element.text or "").strip()
+              if not url or url in urls:
+                  continue
+              parsed = urlparse(url)
+              if parsed.scheme != "https" or parsed.hostname != host:
+                  raise SystemExit(f"Unexpected sitemap URL: {url}")
+              urls.append(url)
+
+          if not urls:
+              raise SystemExit("sitemap.xml contains no URLs")
+          if len(urls) > 10_000:
+              raise SystemExit("sitemap.xml exceeds the IndexNow 10,000 URL limit")
+
+          payload = {
+              "host": host,
+              "key": os.environ["INDEXNOW_KEY"],
+              "keyLocation": os.environ["INDEXNOW_KEY_URL"],
+              "urlList": urls,
+          }
+          payload_path = Path(os.environ["RUNNER_TEMP"]) / "indexnow-payload.json"
+          payload_path.write_text(json.dumps(payload, separators=(",", ":")), encoding="utf-8")
+          with open(os.environ["GITHUB_OUTPUT"], "a", encoding="utf-8") as output:
+              output.write(f"count={len(urls)}\n")
+              output.write(f"path={payload_path}\n")
+          print(f"Prepared one IndexNow request containing {len(urls)} URL(s).")
+          PY
+
+      - name: Submit sitemap URLs to IndexNow
+        shell: bash
+        run: |
+          response_file="${RUNNER_TEMP}/indexnow-response.txt"
+          http_status="$(curl --silent --show-error \
+            --output "${response_file}" \
+            --write-out "%{http_code}" \
+            --request POST \
+            --header "Content-Type: application/json; charset=utf-8" \
+            --data-binary "@${{ steps.payload.outputs.path }}" \
+            "${INDEXNOW_ENDPOINT}")"
+
+          if [[ "${http_status}" != "200" && "${http_status}" != "202" ]]; then
+            echo "IndexNow rejected the request with HTTP ${http_status}." >&2
+            cat "${response_file}" >&2
+            exit 1
+          fi
+
+          echo "IndexNow accepted ${{ steps.payload.outputs.count }} URL(s) with HTTP ${http_status}."
