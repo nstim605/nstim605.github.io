@@ -1,0 +1,636 @@
+{
+  "generatedAt": "2026-08-18T16:55:52.435Z",
+  "androidSource": "../app/src/main/res/xml/locales_config.xml",
+  "preservedLocales": [
+    "sr",
+    "bs",
+    "hr",
+    "sq",
+    "mk",
+    "bg"
+  ],
+  "generatedLocales": [
+    "ro",
+    "hu",
+    "pl",
+    "cs",
+    "sk",
+    "sl",
+    "de",
+    "fr",
+    "it",
+    "es-ES",
+    "es-419",
+    "pt-BR",
+    "pt-PT",
+    "nl",
+    "da",
+    "sv",
+    "nb",
+    "fi",
+    "is",
+    "el",
+    "tr",
+    "ru",
+    "uk",
+    "ar",
+    "iw",
+    "fa",
+    "ur",
+    "hi",
+    "bn",
+    "in",
+    "ms",
+    "th",
+    "vi",
+    "zh-Hans",
+    "zh-Hant",
+    "ja",
+    "ko"
+  ],
+  "terminologySources": [
+    {
+      "locale": "ro",
+      "webLocale": "ro",
+      "androidResource": "app/src/main/res/values-ro/strings.xml"
+    },
+    {
+      "locale": "hu",
+      "webLocale": "hu",
+      "androidResource": "app/src/main/res/values-hu/strings.xml"
+    },
+    {
+      "locale": "pl",
+      "webLocale": "pl",
+      "androidResource": "app/src/main/res/values-pl/strings.xml"
+    },
+    {
+      "locale": "cs",
+      "webLocale": "cs",
+      "androidResource": "app/src/main/res/values-cs/strings.xml"
+    },
+    {
+      "locale": "sk",
+      "webLocale": "sk",
+      "androidResource": "app/src/main/res/values-sk/strings.xml"
+    },
+    {
+      "locale": "sl",
+      "webLocale": "sl",
+      "androidResource": "app/src/main/res/values-sl/strings.xml"
+    },
+    {
+      "locale": "de",
+      "webLocale": "de",
+      "androidResource": "app/src/main/res/values-de/strings.xml"
+    },
+    {
+      "locale": "fr",
+      "webLocale": "fr",
+      "androidResource": "app/src/main/res/values-fr/strings.xml"
+    },
+    {
+      "locale": "it",
+      "webLocale": "it",
+      "androidResource": "app/src/main/res/values-it/strings.xml"
+    },
+    {
+      "locale": "es-ES",
+      "webLocale": "es-ES",
+      "androidResource": "app/src/main/res/values-es-rES/strings.xml"
+    },
+    {
+      "locale": "es-419",
+      "webLocale": "es-419",
+      "androidResource": "app/src/main/res/values-b+es+419/strings.xml"
+    },
+    {
+      "locale": "pt-BR",
+      "webLocale": "pt-BR",
+      "androidResource": "app/src/main/res/values-pt-rBR/strings.xml"
+    },
+    {
+      "locale": "pt-PT",
+      "webLocale": "pt-PT",
+      "androidResource": "app/src/main/res/values-pt-rPT/strings.xml"
+    },
+    {
+      "locale": "nl",
+      "webLocale": "nl",
+      "androidResource": "app/src/main/res/values-nl/strings.xml"
+    },
+    {
+      "locale": "da",
+      "webLocale": "da",
+      "androidResource": "app/src/main/res/values-da/strings.xml"
+    },
+    {
+      "locale": "sv",
+      "webLocale": "sv",
+      "androidResource": "app/src/main/res/values-sv/strings.xml"
+    },
+    {
+      "locale": "nb",
+      "webLocale": "nb",
+      "androidResource": "app/src/main/res/values-nb/strings.xml"
+    },
+    {
+      "locale": "fi",
+      "webLocale": "fi",
+      "androidResource": "app/src/main/res/values-fi/strings.xml"
+    },
+    {
+      "locale": "is",
+      "webLocale": "is",
+      "androidResource": "app/src/main/res/values-is/strings.xml"
+    },
+    {
+      "locale": "el",
+      "webLocale": "el",
+      "androidResource": "app/src/main/res/values-el/strings.xml"
+    },
+    {
+      "locale": "tr",
+      "webLocale": "tr",
+      "androidResource": "app/src/main/res/values-tr/strings.xml"
+    },
+    {
+      "locale": "ru",
+      "webLocale": "ru",
+      "androidResource": "app/src/main/res/values-ru/strings.xml"
+    },
+    {
+      "locale": "uk",
+      "webLocale": "uk",
+      "androidResource": "app/src/main/res/values-uk/strings.xml"
+    },
+    {
+      "locale": "ar",
+      "webLocale": "ar",
+      "androidResource": "app/src/main/res/values-ar/strings.xml"
+    },
+    {
+      "locale": "iw",
+      "webLocale": "he",
+      "androidResource": "app/src/main/res/values-iw/strings.xml"
+    },
+    {
+      "locale": "fa",
+      "webLocale": "fa",
+      "androidResource": "app/src/main/res/values-fa/strings.xml"
+    },
+    {
+      "locale": "ur",
+      "webLocale": "ur",
+      "androidResource": "app/src/main/res/values-ur/strings.xml"
+    },
+    {
+      "locale": "hi",
+      "webLocale": "hi",
+      "androidResource": "app/src/main/res/values-hi/strings.xml"
+    },
+    {
+      "locale": "bn",
+      "webLocale": "bn",
+      "androidResource": "app/src/main/res/values-bn/strings.xml"
+    },
+    {
+      "locale": "in",
+      "webLocale": "id",
+      "androidResource": "app/src/main/res/values-in/strings.xml"
+    },
+    {
+      "locale": "ms",
+      "webLocale": "ms",
+      "androidResource": "app/src/main/res/values-ms/strings.xml"
+    },
+    {
+      "locale": "th",
+      "webLocale": "th",
+      "androidResource": "app/src/main/res/values-th/strings.xml"
+    },
+    {
+      "locale": "vi",
+      "webLocale": "vi",
+      "androidResource": "app/src/main/res/values-vi/strings.xml"
+    },
+    {
+      "locale": "zh-Hans",
+      "webLocale": "zh-Hans",
+      "androidResource": "app/src/main/res/values-b+zh+Hans/strings.xml"
+    },
+    {
+      "locale": "zh-Hant",
+      "webLocale": "zh-Hant",
+      "androidResource": "app/src/main/res/values-b+zh+Hant/strings.xml"
+    },
+    {
+      "locale": "ja",
+      "webLocale": "ja",
+      "androidResource": "app/src/main/res/values-ja/strings.xml"
+    },
+    {
+      "locale": "ko",
+      "webLocale": "ko",
+      "androidResource": "app/src/main/res/values-ko/strings.xml"
+    }
+  ],
+  "locales": [
+    {
+      "androidLocale": "en",
+      "webLocale": "en",
+      "hreflang": "en",
+      "url": "/",
+      "privacyUrl": "/privacy-policy.html",
+      "dir": "ltr",
+      "name": "English"
+    },
+    {
+      "androidLocale": "sr",
+      "webLocale": "sr",
+      "hreflang": "sr",
+      "url": "/sr/",
+      "privacyUrl": "/sr/privacy-policy.html",
+      "dir": "ltr",
+      "name": "Српски"
+    },
+    {
+      "androidLocale": "bs",
+      "webLocale": "bs",
+      "hreflang": "bs",
+      "url": "/bs/",
+      "privacyUrl": "/bs/privacy-policy.html",
+      "dir": "ltr",
+      "name": "Bosanski"
+    },
+    {
+      "androidLocale": "hr",
+      "webLocale": "hr",
+      "hreflang": "hr",
+      "url": "/hr/",
+      "privacyUrl": "/hr/privacy-policy.html",
+      "dir": "ltr",
+      "name": "Hrvatski"
+    },
+    {
+      "androidLocale": "sq",
+      "webLocale": "sq",
+      "hreflang": "sq",
+      "url": "/sq/",
+      "privacyUrl": "/sq/privacy-policy.html",
+      "dir": "ltr",
+      "name": "Shqip"
+    },
+    {
+      "androidLocale": "mk",
+      "webLocale": "mk",
+      "hreflang": "mk",
+      "url": "/mk/",
+      "privacyUrl": "/mk/privacy-policy.html",
+      "dir": "ltr",
+      "name": "Македонски"
+    },
+    {
+      "androidLocale": "bg",
+      "webLocale": "bg",
+      "hreflang": "bg",
+      "url": "/bg/",
+      "privacyUrl": "/bg/privacy-policy.html",
+      "dir": "ltr",
+      "name": "Български"
+    },
+    {
+      "androidLocale": "ro",
+      "webLocale": "ro",
+      "hreflang": "ro",
+      "url": "/ro/",
+      "privacyUrl": "/ro/privacy-policy.html",
+      "dir": "ltr",
+      "name": "Română"
+    },
+    {
+      "androidLocale": "hu",
+      "webLocale": "hu",
+      "hreflang": "hu",
+      "url": "/hu/",
+      "privacyUrl": "/hu/privacy-policy.html",
+      "dir": "ltr",
+      "name": "Magyar"
+    },
+    {
+      "androidLocale": "pl",
+      "webLocale": "pl",
+      "hreflang": "pl",
+      "url": "/pl/",
+      "privacyUrl": "/pl/privacy-policy.html",
+      "dir": "ltr",
+      "name": "Polski"
+    },
+    {
+      "androidLocale": "cs",
+      "webLocale": "cs",
+      "hreflang": "cs",
+      "url": "/cs/",
+      "privacyUrl": "/cs/privacy-policy.html",
+      "dir": "ltr",
+      "name": "Čeština"
+    },
+    {
+      "androidLocale": "sk",
+      "webLocale": "sk",
+      "hreflang": "sk",
+      "url": "/sk/",
+      "privacyUrl": "/sk/privacy-policy.html",
+      "dir": "ltr",
+      "name": "Slovenčina"
+    },
+    {
+      "androidLocale": "sl",
+      "webLocale": "sl",
+      "hreflang": "sl",
+      "url": "/sl/",
+      "privacyUrl": "/sl/privacy-policy.html",
+      "dir": "ltr",
+      "name": "Slovenščina"
+    },
+    {
+      "androidLocale": "de",
+      "webLocale": "de",
+      "hreflang": "de",
+      "url": "/de/",
+      "privacyUrl": "/de/privacy-policy.html",
+      "dir": "ltr",
+      "name": "Deutsch"
+    },
+    {
+      "androidLocale": "fr",
+      "webLocale": "fr",
+      "hreflang": "fr",
+      "url": "/fr/",
+      "privacyUrl": "/fr/privacy-policy.html",
+      "dir": "ltr",
+      "name": "Français"
+    },
+    {
+      "androidLocale": "it",
+      "webLocale": "it",
+      "hreflang": "it",
+      "url": "/it/",
+      "privacyUrl": "/it/privacy-policy.html",
+      "dir": "ltr",
+      "name": "Italiano"
+    },
+    {
+      "androidLocale": "es-ES",
+      "webLocale": "es-ES",
+      "hreflang": "es-ES",
+      "url": "/es-es/",
+      "privacyUrl": "/es-es/privacy-policy.html",
+      "dir": "ltr",
+      "name": "Español (España)"
+    },
+    {
+      "androidLocale": "es-419",
+      "webLocale": "es-419",
+      "hreflang": "es-419",
+      "url": "/es-419/",
+      "privacyUrl": "/es-419/privacy-policy.html",
+      "dir": "ltr",
+      "name": "Español (Latinoamérica)"
+    },
+    {
+      "androidLocale": "pt-BR",
+      "webLocale": "pt-BR",
+      "hreflang": "pt-BR",
+      "url": "/pt-br/",
+      "privacyUrl": "/pt-br/privacy-policy.html",
+      "dir": "ltr",
+      "name": "Português (Brasil)"
+    },
+    {
+      "androidLocale": "pt-PT",
+      "webLocale": "pt-PT",
+      "hreflang": "pt-PT",
+      "url": "/pt-pt/",
+      "privacyUrl": "/pt-pt/privacy-policy.html",
+      "dir": "ltr",
+      "name": "Português (Portugal)"
+    },
+    {
+      "androidLocale": "nl",
+      "webLocale": "nl",
+      "hreflang": "nl",
+      "url": "/nl/",
+      "privacyUrl": "/nl/privacy-policy.html",
+      "dir": "ltr",
+      "name": "Nederlands"
+    },
+    {
+      "androidLocale": "da",
+      "webLocale": "da",
+      "hreflang": "da",
+      "url": "/da/",
+      "privacyUrl": "/da/privacy-policy.html",
+      "dir": "ltr",
+      "name": "Dansk"
+    },
+    {
+      "androidLocale": "sv",
+      "webLocale": "sv",
+      "hreflang": "sv",
+      "url": "/sv/",
+      "privacyUrl": "/sv/privacy-policy.html",
+      "dir": "ltr",
+      "name": "Svenska"
+    },
+    {
+      "androidLocale": "nb",
+      "webLocale": "nb",
+      "hreflang": "nb",
+      "url": "/nb/",
+      "privacyUrl": "/nb/privacy-policy.html",
+      "dir": "ltr",
+      "name": "Norsk bokmål"
+    },
+    {
+      "androidLocale": "fi",
+      "webLocale": "fi",
+      "hreflang": "fi",
+      "url": "/fi/",
+      "privacyUrl": "/fi/privacy-policy.html",
+      "dir": "ltr",
+      "name": "Suomi"
+    },
+    {
+      "androidLocale": "is",
+      "webLocale": "is",
+      "hreflang": "is",
+      "url": "/is/",
+      "privacyUrl": "/is/privacy-policy.html",
+      "dir": "ltr",
+      "name": "Íslenska"
+    },
+    {
+      "androidLocale": "el",
+      "webLocale": "el",
+      "hreflang": "el",
+      "url": "/el/",
+      "privacyUrl": "/el/privacy-policy.html",
+      "dir": "ltr",
+      "name": "Ελληνικά"
+    },
+    {
+      "androidLocale": "tr",
+      "webLocale": "tr",
+      "hreflang": "tr",
+      "url": "/tr/",
+      "privacyUrl": "/tr/privacy-policy.html",
+      "dir": "ltr",
+      "name": "Türkçe"
+    },
+    {
+      "androidLocale": "ru",
+      "webLocale": "ru",
+      "hreflang": "ru",
+      "url": "/ru/",
+      "privacyUrl": "/ru/privacy-policy.html",
+      "dir": "ltr",
+      "name": "Русский"
+    },
+    {
+      "androidLocale": "uk",
+      "webLocale": "uk",
+      "hreflang": "uk",
+      "url": "/uk/",
+      "privacyUrl": "/uk/privacy-policy.html",
+      "dir": "ltr",
+      "name": "Українська"
+    },
+    {
+      "androidLocale": "ar",
+      "webLocale": "ar",
+      "hreflang": "ar",
+      "url": "/ar/",
+      "privacyUrl": "/ar/privacy-policy.html",
+      "dir": "rtl",
+      "name": "العربية"
+    },
+    {
+      "androidLocale": "iw",
+      "webLocale": "he",
+      "hreflang": "he",
+      "url": "/he/",
+      "privacyUrl": "/he/privacy-policy.html",
+      "dir": "rtl",
+      "name": "עברית"
+    },
+    {
+      "androidLocale": "fa",
+      "webLocale": "fa",
+      "hreflang": "fa",
+      "url": "/fa/",
+      "privacyUrl": "/fa/privacy-policy.html",
+      "dir": "rtl",
+      "name": "فارسی"
+    },
+    {
+      "androidLocale": "ur",
+      "webLocale": "ur",
+      "hreflang": "ur",
+      "url": "/ur/",
+      "privacyUrl": "/ur/privacy-policy.html",
+      "dir": "rtl",
+      "name": "اردو"
+    },
+    {
+      "androidLocale": "hi",
+      "webLocale": "hi",
+      "hreflang": "hi",
+      "url": "/hi/",
+      "privacyUrl": "/hi/privacy-policy.html",
+      "dir": "ltr",
+      "name": "हिन्दी"
+    },
+    {
+      "androidLocale": "bn",
+      "webLocale": "bn",
+      "hreflang": "bn",
+      "url": "/bn/",
+      "privacyUrl": "/bn/privacy-policy.html",
+      "dir": "ltr",
+      "name": "বাংলা"
+    },
+    {
+      "androidLocale": "in",
+      "webLocale": "id",
+      "hreflang": "id",
+      "url": "/id/",
+      "privacyUrl": "/id/privacy-policy.html",
+      "dir": "ltr",
+      "name": "Bahasa Indonesia"
+    },
+    {
+      "androidLocale": "ms",
+      "webLocale": "ms",
+      "hreflang": "ms",
+      "url": "/ms/",
+      "privacyUrl": "/ms/privacy-policy.html",
+      "dir": "ltr",
+      "name": "Bahasa Melayu"
+    },
+    {
+      "androidLocale": "th",
+      "webLocale": "th",
+      "hreflang": "th",
+      "url": "/th/",
+      "privacyUrl": "/th/privacy-policy.html",
+      "dir": "ltr",
+      "name": "ไทย"
+    },
+    {
+      "androidLocale": "vi",
+      "webLocale": "vi",
+      "hreflang": "vi",
+      "url": "/vi/",
+      "privacyUrl": "/vi/privacy-policy.html",
+      "dir": "ltr",
+      "name": "Tiếng Việt"
+    },
+    {
+      "androidLocale": "zh-Hans",
+      "webLocale": "zh-Hans",
+      "hreflang": "zh-Hans",
+      "url": "/zh-hans/",
+      "privacyUrl": "/zh-hans/privacy-policy.html",
+      "dir": "ltr",
+      "name": "简体中文"
+    },
+    {
+      "androidLocale": "zh-Hant",
+      "webLocale": "zh-Hant",
+      "hreflang": "zh-Hant",
+      "url": "/zh-hant/",
+      "privacyUrl": "/zh-hant/privacy-policy.html",
+      "dir": "ltr",
+      "name": "繁體中文"
+    },
+    {
+      "androidLocale": "ja",
+      "webLocale": "ja",
+      "hreflang": "ja",
+      "url": "/ja/",
+      "privacyUrl": "/ja/privacy-policy.html",
+      "dir": "ltr",
+      "name": "日本語"
+    },
+    {
+      "androidLocale": "ko",
+      "webLocale": "ko",
+      "hreflang": "ko",
+      "url": "/ko/",
+      "privacyUrl": "/ko/privacy-policy.html",
+      "dir": "ltr",
+      "name": "한국어"
+    }
+  ]
+}

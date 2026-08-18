@@ -132,7 +132,8 @@ function showConsentBanner() {
   banner.setAttribute('role', 'dialog');
   banner.setAttribute('aria-labelledby', 'analytics-consent-title');
   banner.setAttribute('aria-describedby', 'analytics-consent-description');
-  banner.innerHTML = `
+  const localizedTemplate = document.querySelector('#analytics-consent-template');
+  banner.innerHTML = localizedTemplate ? localizedTemplate.innerHTML : `
     <div class="analytics-consent-copy">
       <strong id="analytics-consent-title">Optional analytics</strong>
       <p id="analytics-consent-description">Help us understand site usage. Firebase Analytics stays off unless you accept. <a href="privacy-policy.html#website-analytics">Learn more</a>.</p>

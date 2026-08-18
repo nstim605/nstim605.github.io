@@ -15,8 +15,9 @@
 
   function updateLabel() {
     const nextTheme = activeTheme() === 'dark' ? 'light' : 'dark';
-    toggle.setAttribute('aria-label', `Switch to ${nextTheme} theme`);
-    toggle.setAttribute('title', `Switch to ${nextTheme} theme`);
+    const label = nextTheme === 'light' ? toggle.dataset.labelLight : toggle.dataset.labelDark;
+    toggle.setAttribute('aria-label', label);
+    toggle.setAttribute('title', label);
   }
 
   toggle.addEventListener('click', function () {
