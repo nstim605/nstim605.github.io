@@ -1,15 +1,15 @@
 {
-  "generatedAt": "2026-08-18T16:55:52.435Z",
+  "generatedAt": "2026-08-19T09:17:08.648Z",
   "androidSource": "../app/src/main/res/xml/locales_config.xml",
-  "preservedLocales": [
+  "preservedLocales": [],
+  "generatedLocales": [
+    "en",
     "sr",
     "bs",
     "hr",
     "sq",
     "mk",
-    "bg"
-  ],
-  "generatedLocales": [
+    "bg",
     "ro",
     "hu",
     "pl",
@@ -49,6 +49,41 @@
     "ko"
   ],
   "terminologySources": [
+    {
+      "locale": "en",
+      "webLocale": "en",
+      "androidResource": "app/src/main/res/values/strings.xml"
+    },
+    {
+      "locale": "sr",
+      "webLocale": "sr",
+      "androidResource": "app/src/main/res/values-sr/strings.xml"
+    },
+    {
+      "locale": "bs",
+      "webLocale": "bs",
+      "androidResource": "app/src/main/res/values-bs/strings.xml"
+    },
+    {
+      "locale": "hr",
+      "webLocale": "hr",
+      "androidResource": "app/src/main/res/values-hr/strings.xml"
+    },
+    {
+      "locale": "sq",
+      "webLocale": "sq",
+      "androidResource": "app/src/main/res/values-sq/strings.xml"
+    },
+    {
+      "locale": "mk",
+      "webLocale": "mk",
+      "androidResource": "app/src/main/res/values-mk/strings.xml"
+    },
+    {
+      "locale": "bg",
+      "webLocale": "bg",
+      "androidResource": "app/src/main/res/values-bg/strings.xml"
+    },
     {
       "locale": "ro",
       "webLocale": "ro",

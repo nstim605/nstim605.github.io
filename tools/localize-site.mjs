@@ -3,7 +3,8 @@ import path from 'node:path';
 
 const root = path.resolve(import.meta.dirname, '..');
 const androidRoot = path.resolve(root, '..');
-const preserved = new Set(['sr', 'bs', 'hr', 'sq', 'mk', 'bg']);
+const preserved = new Set();
+const preservedPolicies = new Set(['en', 'sr', 'bs', 'hr', 'sq', 'mk', 'bg']);
 const locales = [
   ['en', '', 'English', 'ltr'], ['sr', 'sr', 'Српски', 'ltr'], ['bs', 'bs', 'Bosanski', 'ltr'],
   ['hr', 'hr', 'Hrvatski', 'ltr'], ['sq', 'sq', 'Shqip', 'ltr'], ['mk', 'mk', 'Македонски', 'ltr'],
@@ -55,7 +56,9 @@ async function androidStrings(locale) {
     'calculator_subtract', 'calculator_multiply', 'calculator_divide', 'history_title', 'history_empty_body',
     'theme', 'theme_dark', 'theme_light', 'about_description', 'data_source', 'disclaimer', 'privacy_policy',
     'contact_developer', 'privacy_last_updated', 'privacy_policy_body', 'all_currencies', 'offline_ready',
-    'prepare_offline', 'back'];
+    'prepare_offline', 'back', 'actual_cost_title', 'actual_cost_explanation', 'travel_board_title',
+    'trip_presets_title', 'trip_presets_explanation', 'pinned_pairs_title', 'no_pinned_pairs_body',
+    'use_again', 'widget_description', 'move_up', 'move_down', 'add_currency'];
   const missing = required.filter(key => !strings[key]);
   if (missing.length) throw new Error(`${locale.android}: missing Android strings: ${missing.join(', ')}`);
   return { strings, folder };
@@ -67,11 +70,10 @@ const webPolicyDate = value => value.replace('10', '15').replace('١٠', '١٥')
 
 function localMap(strings, copy) {
   const calculator = [strings.calculator_add, strings.calculator_subtract, strings.calculator_multiply, strings.calculator_divide].join(' · ');
-  const themePair = `${strings.theme_light} / ${strings.theme_dark}`;
   const map = {
-    'Balkan Currency Converter — Fast currency conversion': `${brand} — ${copy.h1}`,
-    'Convert Balkan and global currencies with current reference rates, offline access to saved rates, a calculator, favorites, and history.': strings.about_description,
-    'Fast currency conversion for the Balkans and beyond.': copy.h1,
+    'Balkan Currency Converter — Convert currencies quickly, anywhere': `${brand} — ${copy.h1}`,
+    'Convert currencies worldwide with Actual Cost, Travel Board, saved sets, offline rates, pinned pairs, history, and a home-screen widget.': copy.marketingSummary,
+    'Convert currencies worldwide with travel-ready tools, offline rates, and a clear view of exchange costs.': copy.marketingSummary,
     'Balkan Currency Converter app preview': `${brand} — ${copy.seeApp}`,
     'Skip to content': copy.seeApp,
     'Balkan Currency Converter home': brand,
@@ -84,48 +86,48 @@ function localMap(strings, copy) {
     'Get it on Google Play': 'Google Play',
     'Currency utility for Android': strings.about_description,
     'Convert currencies quickly, anywhere': copy.h1,
-    'Check current reference rates, calculate as you convert, and keep working offline with the latest rates saved on your device.': strings.data_source,
+    'Compare exchange terms with Actual Cost, view several currencies on the Travel Board, and save rates for offline trips.': copy.marketingSummary,
     'See the app': copy.seeApp,
     'App highlights': copy.features,
-    'Current reference rates': strings.refresh_rates,
+    'Actual Cost comparison': strings.actual_cost_title,
+    'Multi-currency Travel Board': strings.travel_board_title,
     'Offline saved rates': strings.prepare_offline,
-    'Light &amp; dark themes': themePair,
     'Saved for offline use': strings.offline_ready,
     'Everything you need': copy.features,
     'Useful tools, without the clutter': copy.toolsHeading,
-    'Built for quick everyday calculations while travelling, shopping, or comparing prices.': strings.about_description,
-    'Current exchange rates': strings.refresh_rates,
-    'Refresh reference rates when you are connected.': strings.data_source,
-    'Works offline': strings.offline_ready,
-    'Use the latest successfully saved rates without a connection.': strings.prepare_offline,
-    'Built-in calculator': calculator,
-    'Do the arithmetic directly in your conversion.': strings.about_description,
-    'Favorites': strings.favorites,
-    'Keep the currencies you use most within easy reach.': strings.search_currency,
-    'Conversion history': strings.history_title,
-    'Review recent conversions and their rate dates.': strings.history_empty_body,
+    'Built for quick everyday calculations while travelling, shopping, or comparing prices.': copy.marketingSummary,
+    'Actual Cost': strings.actual_cost_title,
+    'Compare exchange terms and fees with the app’s reference rate.': strings.actual_cost_explanation,
+    'Travel Board': strings.travel_board_title,
+    'View several currencies together and reorder them for each trip.': `${strings.add_currency}. ${strings.move_up} / ${strings.move_down}.`,
+    'Saved sets &amp; offline travel': `${strings.trip_presets_title} · ${strings.prepare_offline}`,
+    'Open saved trip sets and prepare their rates for offline use.': `${strings.trip_presets_explanation} ${strings.prepare_offline}.`,
+    'Pinned pairs': strings.pinned_pairs_title,
+    'Pin a pair from History for quick access.': strings.no_pinned_pairs_body,
+    'History &amp; 30-day charts': strings.history_title,
+    'Reuse past conversions and review a pair’s recent direction.': `${strings.use_again}. ${strings.history_empty_body}`,
     'Global currency coverage': copy.globalCoverage,
-    'Convert currencies used across dozens of countries worldwide.': strings.all_currencies,
+    'Convert currencies used across dozens of countries with an adaptive, localized interface.': strings.all_currencies,
     'Inside the app': copy.seeApp,
     'A clear view of every conversion': copy.screenshots,
     'Real screens from Balkan Currency Converter on Android.': strings.about_description,
-    'Main currency converter with calculator keypad': `${copy.seeApp}: ${calculator}`,
-    'Balkan Currency Converter main conversion screen showing euros and US dollars': `${brand}: ${strings.select_currency}`,
+    'Balkan Currency Converter 1.4 main converter with calculator keypad': `${copy.seeApp}: ${calculator}`,
+    'Balkan Currency Converter 1.4 main conversion screen showing euros and US dollars': `${brand}: ${strings.select_currency}`,
     'Convert and calculate': calculator,
     'Rates and arithmetic in one place': strings.about_description,
-    'Currency picker showing favorite currencies': `${strings.select_currency}: ${strings.favorites}`,
-    'Pick favorites': strings.favorites,
-    'Find regular currencies faster': strings.search_currency,
-    'Converter showing cached exchange rate status for offline use': strings.offline_ready,
-    'Keep converting offline': strings.prepare_offline,
-    'Saved rates show their status and date': strings.offline_ready,
-    'Conversion history grouped by date': strings.history_title,
-    'Review history': strings.history_title,
-    'See conversions and rate dates': strings.history_empty_body,
+    'Actual Cost screen comparing an exchange quote and fees with the reference rate': strings.actual_cost_explanation,
+    'See the real exchange cost': strings.actual_cost_title,
+    'Compare offered terms and fees': strings.actual_cost_explanation,
+    'Travel Board showing several currencies with flags and reorder controls': strings.travel_board_title,
+    'Compare a whole trip': strings.travel_board_title,
+    'View and reorder several currencies': `${strings.move_up} / ${strings.move_down}`,
+    'Saved Sets screen with trips ready for offline use': `${strings.trip_presets_title}: ${strings.offline_ready}`,
+    'Prepare trips offline': strings.prepare_offline,
+    'Save sets and cache their rates': `${strings.trip_presets_title} · ${strings.prepare_offline}`,
     'Why Balkan Currency Converter': brand,
     'Made for real-world calculations wherever you are': copy.h1,
     'Whether you are travelling, shopping across borders, or checking an everyday price, the app gives you access to currencies used across many countries worldwide.': strings.about_description,
-    'Choose your decimal precision, save favorites, revisit conversion history, and use the theme that suits your screen.': `${strings.favorites}. ${strings.history_title}. ${themePair}.`,
+    'Save trip sets, pin pairs from your history, check 30-day rate charts, and keep a cached conversion on your home screen.': `${strings.trip_presets_title}. ${strings.pinned_pairs_title}. ${strings.history_title}. ${strings.widget_description}.`,
     'Balkan Currency Converter app icon': brand,
     'Ready when you are': copy.seeApp,
     'Take the converter with you': copy.ctaHeading,
@@ -214,7 +216,8 @@ function finalize(html, locale, page, copy, strings) {
   html = html.replaceAll('<span>Balkan Currency Converter</span>', '<span dir="ltr">Balkan Currency Converter</span>');
   html = html.replaceAll('<strong>Balkan Currency Converter</strong>', '<strong dir="ltr">Balkan Currency Converter</strong>');
   html = html.replace('</body>', `${consentTemplate(copy, page)}\n</body>`);
-  html = html.replace(/"description": "[^"]+"/, `"description": ${JSON.stringify(strings.about_description)}`);
+  const marketingDescription = `${strings.about_description} ${strings.actual_cost_title} · ${strings.travel_board_title} · ${strings.trip_presets_title} · ${strings.prepare_offline} · ${strings.pinned_pairs_title} · ${strings.history_title} · ${strings.widget_description}.`;
+  html = html.replace(/"description": "[^"]+"/, `"description": ${JSON.stringify(marketingDescription)}`);
   return html;
 }
 
@@ -236,12 +239,12 @@ await fs.writeFile(path.join(root, 'tools', 'production-strings.json'), `${JSON.
 const generated = [];
 const sources = [];
 for (const locale of locales) {
-  if (locale.android === 'en' || preserved.has(locale.android)) continue;
   const copy = webCopy[locale.web];
   if (!copy) throw new Error(`${locale.android}: missing local web copy (${locale.web})`);
+  if (!copy.marketingSummary) throw new Error(`${locale.android}: missing localized marketing summary (${locale.web})`);
   const { strings, folder } = await androidStrings(locale);
   const map = localMap(strings, copy);
-  let home = applyMap(homeTemplate, map);
+  let home = locale.android === 'en' ? homeTemplate : applyMap(homeTemplate, map);
   let policy = policyTemplate.replace(/    <article class="policy-card">[\s\S]*?    <\/article>/, policyArticle(strings, copy));
   policy = applyMap(policy, map);
   policy = policy.replace(/<p class="policy-meta"><strong>[^<]+<\/strong> August 15, 2026<\/p>/, `<p class="policy-meta">${esc(webPolicyDate(strings.privacy_last_updated))}</p>`);
@@ -250,7 +253,7 @@ for (const locale of locales) {
   const directory = path.join(root, locale.route);
   await fs.mkdir(directory, { recursive: true });
   await fs.writeFile(path.join(directory, 'index.html'), home);
-  await fs.writeFile(path.join(directory, 'privacy-policy.html'), policy);
+  if (!preservedPolicies.has(locale.android)) await fs.writeFile(path.join(directory, 'privacy-policy.html'), policy);
   generated.push(locale.android);
   sources.push({ locale: locale.android, webLocale: locale.web, androidResource: `app/src/main/res/${folder}/strings.xml` });
 }
