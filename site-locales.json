@@ -1,9 +1,10 @@
 {
-  "generatedAt": "2026-08-19T09:17:08.648Z",
+  "generatedAt": "2026-08-23T13:17:13.018Z",
   "androidSource": "../app/src/main/res/xml/locales_config.xml",
-  "preservedLocales": [],
+  "preservedLocales": [
+    "en"
+  ],
   "generatedLocales": [
-    "en",
     "sr",
     "bs",
     "hr",

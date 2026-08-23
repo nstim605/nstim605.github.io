@@ -1,3 +1,17 @@
+import {
+  analyticsConsentStorageKey,
+  applyAnalyticsConsentChoice,
+  createAnalyticsInitializationController,
+  createGooglePlayTrackingController,
+  googlePlayLinkLocation,
+  initializeAnalyticsConsent,
+  isAnalyticsQaEnvironment,
+  readAnalyticsConsent,
+  runWhenDocumentReady
+} from './analytics-core.mjs';
+
+const analyticsQaEnvironment = isAnalyticsQaEnvironment(window.location);
+
 const firebaseConfig = {
   apiKey: 'AIzaSyCnJTlzhTVyoT3Nokfm9N3i2D-7LiWRwuM',
   authDomain: 'balkan-converter.firebaseapp.com',
@@ -7,7 +21,7 @@ const firebaseConfig = {
   measurementId: 'G-0ESFSLH97R'
 };
 
-const consentKey = 'balkan-analytics-consent';
+const consentKey = analyticsConsentStorageKey(analyticsQaEnvironment);
 const googlePlayUrl = 'play.google.com/store/apps/details';
 const grantedConsent = {
   analytics_storage: 'granted',
@@ -24,24 +38,9 @@ const deniedConsent = {
 
 let analyticsInstance;
 let analyticsSdk;
-let analyticsEnabled = false;
-let initializationPromise;
-let trackingAttached = false;
 
 function storedConsent() {
-  try {
-    return localStorage.getItem(consentKey);
-  } catch {
-    return null;
-  }
-}
-
-function persistConsent(value) {
-  try {
-    localStorage.setItem(consentKey, value);
-  } catch {
-    // The choice applies to this page even when storage is unavailable.
-  }
+  return readAnalyticsConsent(localStorage, consentKey);
 }
 
 function queueConsentMode() {
@@ -54,74 +53,51 @@ function queueConsentMode() {
   gtag('consent', 'update', grantedConsent);
 }
 
-function linkLocation(link) {
-  if (link.closest('.site-header')) return 'header';
-  if (link.closest('.hero-actions')) return 'hero';
-  if (link.closest('.cta-section')) return 'download_cta';
-  if (link.closest('.site-footer')) return 'footer';
-  return 'content';
-}
+let analyticsRuntime;
+const googlePlayTracking = createGooglePlayTrackingController({
+  documentLike: document,
+  googlePlayUrl,
+  qaExcluded: analyticsQaEnvironment,
+  isAnalyticsActive: () => analyticsRuntime?.isActive() === true && Boolean(analyticsInstance),
+  logEvent: (name, parameters) => analyticsSdk.logEvent(analyticsInstance, name, parameters),
+  linkLocation: googlePlayLinkLocation
+});
 
-function attachGooglePlayTracking() {
-  if (trackingAttached) return;
-
-  document.querySelectorAll(`a[href*="${googlePlayUrl}"]`).forEach((link) => {
-    link.addEventListener('click', () => {
-      if (!analyticsEnabled || !analyticsInstance) return;
-
-      analyticsSdk.logEvent(analyticsInstance, 'google_play_click', {
-        link_url: link.href,
-        link_location: linkLocation(link)
-      });
-    });
-  });
-
-  trackingAttached = true;
-}
-
-async function enableAnalytics() {
-  queueConsentMode();
-
-  if (analyticsInstance) {
-    analyticsSdk.setConsent(grantedConsent);
-    analyticsSdk.setAnalyticsCollectionEnabled(analyticsInstance, true);
-    analyticsEnabled = true;
-    return;
-  }
-
-  if (initializationPromise) return initializationPromise;
-
-  initializationPromise = (async () => {
-    try {
-      const [appSdk, loadedAnalyticsSdk] = await Promise.all([
+analyticsRuntime = createAnalyticsInitializationController({
+  qaExcluded: analyticsQaEnvironment,
+  loadDependencies: async () => {
+    const [appSdk, loadedAnalyticsSdk] = await Promise.all([
         import('https://www.gstatic.com/firebasejs/12.16.0/firebase-app.js'),
         import('https://www.gstatic.com/firebasejs/12.16.0/firebase-analytics.js')
-      ]);
-
-      if (!(await loadedAnalyticsSdk.isSupported())) return;
-
+    ]);
+    if (!(await loadedAnalyticsSdk.isSupported())) return null;
+    return { appSdk, loadedAnalyticsSdk };
+  },
+  activate: ({ appSdk, loadedAnalyticsSdk }, existingInstance) => {
+    if (!existingInstance) {
       const app = appSdk.initializeApp(firebaseConfig);
       analyticsSdk = loadedAnalyticsSdk;
       analyticsInstance = analyticsSdk.getAnalytics(app);
-      analyticsSdk.setConsent(grantedConsent);
-      analyticsEnabled = true;
-      attachGooglePlayTracking();
-    } catch {
-      analyticsEnabled = false;
-    } finally {
-      initializationPromise = undefined;
     }
-  })();
+    analyticsSdk.setConsent(grantedConsent);
+    analyticsSdk.setAnalyticsCollectionEnabled(analyticsInstance, true);
+    googlePlayTracking.attach();
+    return analyticsInstance;
+  },
+  deactivate: () => {
+    analyticsSdk.setConsent(deniedConsent);
+    analyticsSdk.setAnalyticsCollectionEnabled(analyticsInstance, false);
+  }
+});
 
-  return initializationPromise;
+function enableAnalytics() {
+  if (analyticsQaEnvironment) return Promise.resolve(false);
+  queueConsentMode();
+  return analyticsRuntime.enable();
 }
 
 function disableAnalytics() {
-  analyticsEnabled = false;
-  if (!analyticsInstance) return;
-
-  analyticsSdk.setConsent(deniedConsent);
-  analyticsSdk.setAnalyticsCollectionEnabled(analyticsInstance, false);
+  analyticsRuntime.disable();
 }
 
 function showConsentBanner() {
@@ -144,26 +120,46 @@ function showConsentBanner() {
     </div>`;
 
   banner.querySelector('.analytics-consent-accept').addEventListener('click', () => {
-    persistConsent('granted');
     banner.remove();
-    void enableAnalytics();
+    void applyAnalyticsConsentChoice({
+      choice: 'granted',
+      qaExcluded: analyticsQaEnvironment,
+      storage: localStorage,
+      enableAnalytics,
+      disableAnalytics
+    });
   });
 
   banner.querySelector('.analytics-consent-reject').addEventListener('click', () => {
-    persistConsent('denied');
-    disableAnalytics();
     banner.remove();
+    void applyAnalyticsConsentChoice({
+      choice: 'denied',
+      qaExcluded: analyticsQaEnvironment,
+      storage: localStorage,
+      enableAnalytics,
+      disableAnalytics
+    });
   });
 
   document.body.append(banner);
 }
 
-document.querySelectorAll('.analytics-consent-settings').forEach((button) => {
-  button.addEventListener('click', showConsentBanner);
-});
+let bootstrapStarted = false;
+function bootstrapAnalytics() {
+  if (bootstrapStarted) return;
+  bootstrapStarted = true;
 
-if (storedConsent() === 'granted') {
-  void enableAnalytics();
-} else if (storedConsent() !== 'denied') {
-  showConsentBanner();
+  document.querySelectorAll('.analytics-consent-settings').forEach((button) => {
+    button.addEventListener('click', showConsentBanner);
+  });
+
+  void initializeAnalyticsConsent({
+    consent: storedConsent(),
+    qaExcluded: analyticsQaEnvironment,
+    enableAnalytics,
+    showConsentBanner
+  });
 }
+
+runWhenDocumentReady(document, bootstrapAnalytics);
+window.addEventListener('pagehide', () => analyticsRuntime.dispose(), { once: true });

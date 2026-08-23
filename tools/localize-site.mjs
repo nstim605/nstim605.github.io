@@ -1,9 +1,14 @@
 import fs from 'node:fs/promises';
 import path from 'node:path';
+import { createRunTimestamp, writeGeneratedJson } from './generated-json.mjs';
 
 const root = path.resolve(import.meta.dirname, '..');
 const androidRoot = path.resolve(root, '..');
-const preserved = new Set();
+const getRunTimestamp = createRunTimestamp();
+// The English production homepage contains separately approved metadata that is
+// intentionally newer than the localization template. Never overwrite it while
+// regenerating localized policy pages.
+const preserved = new Set(['en']);
 const preservedPolicies = new Set(['en', 'sr', 'bs', 'hr', 'sq', 'mk', 'bg']);
 const locales = [
   ['en', '', 'English', 'ltr'], ['sr', 'sr', 'Српски', 'ltr'], ['bs', 'bs', 'Bosanski', 'ltr'],
@@ -37,6 +42,8 @@ const resourceFolders = {
   'pt-PT': 'values-pt-rPT', 'zh-Hans': 'values-b+zh+Hans', 'zh-Hant': 'values-b+zh+Hant'
 };
 const webCopy = JSON.parse(await fs.readFile(path.join(root, 'tools', 'web-copy.json'), 'utf8'));
+const phase1dPolicyCopy = JSON.parse(await fs.readFile(path.join(root, 'tools', 'privacy-policy-phase1d.json'), 'utf8'));
+const phase1dPolicySupplement = JSON.parse(await fs.readFile(path.join(root, 'tools', 'privacy-policy-phase1d-supplement.json'), 'utf8'));
 const homeTemplate = await fs.readFile(path.join(root, 'tools', 'templates', 'index.html'), 'utf8');
 const policyTemplate = await fs.readFile(path.join(root, 'tools', 'templates', 'privacy-policy.html'), 'utf8');
 
@@ -66,7 +73,7 @@ async function androidStrings(locale) {
 
 const esc = value => String(value).replaceAll('&', '&amp;').replaceAll('"', '&quot;').replaceAll('<', '&lt;').replaceAll('>', '&gt;');
 const brand = 'Balkan Currency Converter';
-const webPolicyDate = value => value.replace('10', '15').replace('١٠', '١٥').replace('۱۰', '۱۵').replace('১০', '১৫');
+const webPolicyDate = value => value;
 
 function localMap(strings, copy) {
   const calculator = [strings.calculator_add, strings.calculator_subtract, strings.calculator_multiply, strings.calculator_divide].join(' · ');
@@ -172,13 +179,54 @@ function linkify(value) {
     .replace(/https:\/\/policies\.google\.com\/technologies\/ads/g, '<a href="https://policies.google.com/technologies/ads">Google advertising policies</a>');
 }
 
-function policyArticle(strings, copy) {
-  const paragraphs = strings.privacy_policy_body.split(/\n\n+/).map(paragraph => `      <p>${linkify(esc(paragraph))}</p>`);
+function phase1dPolicySection(copy) {
+  return `      <!-- PHASE1D_POLICY_START -->
+      <h2 id="android-analytics">${esc(copy.analyticsHeading)}</h2>
+      <p>${esc(copy.analyticsConsent)}</p>
+      <p>${esc(copy.analyticsData)}</p>
+      <p>${esc(copy.analyticsWithdrawal)}</p>
+
+      <h2 id="app-advertising-consent">${esc(copy.advertisingHeading)}</h2>
+      <p>${esc(copy.advertisingSummary)}</p>
+
+      <h2 id="local-app-data">${esc(copy.localHeading)}</h2>
+      <p>${esc(copy.localSummary)}</p>
+
+      <h2 id="website-qa-isolation">${esc(copy.websiteQaHeading)}</h2>
+      <p>${esc(copy.websiteQaSummary)}</p>
+
+      <h2 id="security">${esc(copy.securityHeading)}</h2>
+      <p>${esc(copy.securitySummary)}</p>
+      <!-- PHASE1D_POLICY_END -->`;
+}
+
+function policyArticle(strings, copy, policyCopy) {
+  const phaseParagraphs = new Set([
+    policyCopy.analyticsConsent, policyCopy.analyticsData, policyCopy.analyticsWithdrawal,
+    policyCopy.advertisingSummary, policyCopy.localSummary,
+    policyCopy.websiteQaSummary, policyCopy.securitySummary
+  ]);
+  const paragraphs = strings.privacy_policy_body.split(/\n\n+/)
+    .filter(paragraph => !phaseParagraphs.has(paragraph))
+    .map(paragraph => `      <p>${linkify(esc(paragraph))}</p>`);
   paragraphs.splice(1, 0, `      <h2 id="website-analytics">${esc(copy.consentTitle)}</h2>`,
     `      <p>${esc(copy.analyticsSummary)}</p>`,
     `      <p>${esc(copy.learnMore)}: <a href="https://policies.google.com/privacy">Google Privacy Policy</a> · <a href="https://support.google.com/analytics/answer/11593727">Google Analytics</a>.</p>`);
+  paragraphs.push(phase1dPolicySection(policyCopy));
   paragraphs.push(`      <h2 id="contact">${esc(strings.contact_developer)}</h2>`);
   return `    <article class="policy-card">\n${paragraphs.join('\n\n')}\n    </article>`;
+}
+
+function updatePreservedPolicy(html, policyCopy, lastUpdated) {
+  const withoutPrevious = html.replace(/\s*<!-- PHASE1D_POLICY_START -->[\s\S]*?<!-- PHASE1D_POLICY_END -->\s*/g, '\n\n');
+  const withSection = withoutPrevious.replace(
+    /\s*<h2 id="website-analytics">/,
+    `\n\n${phase1dPolicySection(policyCopy)}\n\n      <h2 id="website-analytics">`
+  );
+  return withSection.replace(
+    /<p class="policy-meta">[\s\S]*?<\/p>/,
+    `<p class="policy-meta">${esc(lastUpdated)}</p>`
+  );
 }
 
 function consentTemplate(copy, page) {
@@ -232,37 +280,48 @@ function sourceStrings(html) {
   return [...values];
 }
 
-const sourceInventory = { source: ['tools/templates/index.html', 'tools/templates/privacy-policy.html'], generatedAt: new Date().toISOString(),
+const sourceInventory = { source: ['tools/templates/index.html', 'tools/templates/privacy-policy.html'],
   home: sourceStrings(homeTemplate), privacyPolicy: sourceStrings(policyTemplate) };
-await fs.writeFile(path.join(root, 'tools', 'production-strings.json'), `${JSON.stringify(sourceInventory, null, 2)}\n`);
+await writeGeneratedJson(path.join(root, 'tools', 'production-strings.json'), sourceInventory, {
+  getRunTimestamp,
+  generatedAtIndex: 1
+});
 
 const generated = [];
 const sources = [];
 for (const locale of locales) {
   const copy = webCopy[locale.web];
+  const policyCopy = { ...phase1dPolicyCopy[locale.web], ...phase1dPolicySupplement[locale.web] };
   if (!copy) throw new Error(`${locale.android}: missing local web copy (${locale.web})`);
+  if (!policyCopy) throw new Error(`${locale.android}: missing Phase 1D policy copy (${locale.web})`);
   if (!copy.marketingSummary) throw new Error(`${locale.android}: missing localized marketing summary (${locale.web})`);
   const { strings, folder } = await androidStrings(locale);
   const map = localMap(strings, copy);
   let home = locale.android === 'en' ? homeTemplate : applyMap(homeTemplate, map);
-  let policy = policyTemplate.replace(/    <article class="policy-card">[\s\S]*?    <\/article>/, policyArticle(strings, copy));
+  let policy = policyTemplate.replace(/    <article class="policy-card">[\s\S]*?    <\/article>/, policyArticle(strings, copy, policyCopy));
   policy = applyMap(policy, map);
-  policy = policy.replace(/<p class="policy-meta"><strong>[^<]+<\/strong> August 15, 2026<\/p>/, `<p class="policy-meta">${esc(webPolicyDate(strings.privacy_last_updated))}</p>`);
+  policy = policy.replace(/<p class="policy-meta">[\s\S]*?<\/p>/, `<p class="policy-meta">${esc(webPolicyDate(strings.privacy_last_updated))}</p>`);
   home = finalize(home, locale, 'home', copy, strings);
   policy = finalize(policy, locale, 'policy', copy, strings);
   const directory = path.join(root, locale.route);
   await fs.mkdir(directory, { recursive: true });
-  await fs.writeFile(path.join(directory, 'index.html'), home);
-  if (!preservedPolicies.has(locale.android)) await fs.writeFile(path.join(directory, 'privacy-policy.html'), policy);
-  generated.push(locale.android);
+  if (!preserved.has(locale.android)) await fs.writeFile(path.join(directory, 'index.html'), home);
+  if (preservedPolicies.has(locale.android)) {
+    const preservedPath = path.join(directory, 'privacy-policy.html');
+    const preservedPolicy = await fs.readFile(preservedPath, 'utf8');
+    await fs.writeFile(preservedPath, updatePreservedPolicy(preservedPolicy, policyCopy, webPolicyDate(strings.privacy_last_updated)));
+  } else {
+    await fs.writeFile(path.join(directory, 'privacy-policy.html'), policy);
+  }
+  if (!preserved.has(locale.android)) generated.push(locale.android);
   sources.push({ locale: locale.android, webLocale: locale.web, androidResource: `app/src/main/res/${folder}/strings.xml` });
 }
 
-const manifest = { generatedAt: new Date().toISOString(), androidSource: '../app/src/main/res/xml/locales_config.xml',
+const manifest = { androidSource: '../app/src/main/res/xml/locales_config.xml',
   preservedLocales: [...preserved], generatedLocales: generated, terminologySources: sources,
   locales: locales.map(locale => ({ androidLocale: locale.android, webLocale: locale.web, hreflang: locale.web,
     url: urlFor(locale), privacyUrl: urlFor(locale, 'policy'), dir: locale.dir, name: locale.name })) };
-await fs.writeFile(path.join(root, 'site-locales.json'), `${JSON.stringify(manifest, null, 2)}\n`);
+await writeGeneratedJson(path.join(root, 'site-locales.json'), manifest, { getRunTimestamp });
 
 const xmlEsc = value => value.replaceAll('&', '&amp;');
 const sitemapLinks = page => locales.map(locale => `    <xhtml:link rel="alternate" hreflang="${locale.web}" href="${xmlEsc(`https://balkanconverter.com${urlFor(locale, page)}`)}" />`)
