@@ -1,11 +1,14 @@
 import assert from 'node:assert/strict';
+import { execFile } from 'node:child_process';
 import crypto from 'node:crypto';
 import fs from 'node:fs/promises';
 import path from 'node:path';
 import test from 'node:test';
+import { promisify } from 'node:util';
 
 const root = path.resolve(import.meta.dirname, '..');
 const androidRoot = path.resolve(root, '..');
+const execFileAsync = promisify(execFile);
 const manifest = JSON.parse(await fs.readFile(path.join(root, 'site-locales.json'), 'utf8'));
 const baseCopy = JSON.parse(await fs.readFile(path.join(root, 'tools', 'privacy-policy-phase1d.json'), 'utf8'));
 const supplement = JSON.parse(await fs.readFile(path.join(root, 'tools', 'privacy-policy-phase1d-supplement.json'), 'utf8'));
@@ -31,6 +34,23 @@ function policyFile(locale) {
   return locale.privacyUrl === '/privacy-policy.html'
     ? path.join(root, 'privacy-policy.html')
     : path.join(root, locale.privacyUrl.replace(/^\//, '').replaceAll('/', path.sep));
+}
+
+function assertAcceptedManifestDigest({
+  repository,
+  file,
+  expectedSha,
+  actualSha,
+  acceptedSupersessions,
+  usedSupersessions
+}) {
+  if (actualSha === expectedSha) return;
+  const key = `${repository}:${file}`;
+  const accepted = acceptedSupersessions.get(key);
+  assert.ok(accepted, `unexplained manifest SHA:${key}`);
+  assert.equal(accepted.historicalSha256, expectedSha, `historical SHA:${key}`);
+  assert.equal(accepted.acceptedSha256, actualSha, `superseded SHA:${key}`);
+  usedSupersessions.add(key);
 }
 
 function resourceFile(locale) {
@@ -171,16 +191,67 @@ test('real generated outputs avoid prohibited claims', async () => {
   }
 });
 
+test('integrity supersession rejects unexplained or future file mutations', () => {
+  const key = 'Website:tools/localize-site.mjs';
+  const acceptedSupersessions = new Map([[key, {
+    historicalSha256: 'a'.repeat(64),
+    acceptedSha256: 'b'.repeat(64)
+  }]]);
+  const usedSupersessions = new Set();
+  assert.throws(() => assertAcceptedManifestDigest({
+    repository: 'Website', file: 'tools/localize-site.mjs',
+    expectedSha: 'a'.repeat(64), actualSha: 'c'.repeat(64),
+    acceptedSupersessions, usedSupersessions
+  }), /superseded SHA/);
+  assert.throws(() => assertAcceptedManifestDigest({
+    repository: 'Website', file: 'tools/unexplained.mjs',
+    expectedSha: 'a'.repeat(64), actualSha: 'b'.repeat(64),
+    acceptedSupersessions, usedSupersessions
+  }), /unexplained manifest SHA/);
+  assert.equal(usedSupersessions.size, 0);
+});
+
 test('publication manifest has exactly 107 current, scoped entries', async () => {
   const manifestFile = path.join(androidRoot, 'artifacts', 'validation',
     'phase1d-privacy-publication-manifest.md');
   const markdown = await fs.readFile(manifestFile, 'utf8');
+  const supersessionFile = path.join(androidRoot, 'artifacts', 'validation',
+    'phase1d-post-generator-supersession.json');
+  const supersession = JSON.parse(await fs.readFile(supersessionFile, 'utf8'));
+  assert.equal(supersession.schemaVersion, 1);
+  assert.equal(supersession.historicalManifest.path,
+    'artifacts/validation/phase1d-privacy-publication-manifest.md');
+  assert.equal(crypto.createHash('sha256').update(markdown).digest('hex'),
+    supersession.historicalManifest.sha256, 'historical manifest was mutated');
+  const acceptedSupersessions = new Map();
+  for (const entry of supersession.supersessions) {
+    const key = `${entry.repository}:${entry.file}`;
+    assert.equal(acceptedSupersessions.has(key), false, `duplicate supersession:${key}`);
+    assert.match(entry.historicalSha256, /^[a-f0-9]{64}$/);
+    assert.match(entry.acceptedSha256, /^[a-f0-9]{64}$/);
+    assert.notEqual(entry.historicalSha256, entry.acceptedSha256);
+    assert.ok(entry.reason.length >= 20, `missing supersession reason:${key}`);
+    if (entry.acceptedCommit) {
+      assert.match(entry.acceptedCommit, /^[a-f0-9]{40}$/);
+      const repositoryRoot = entry.repository === 'Android' ? androidRoot : root;
+      const { stdout } = await execFileAsync('git', [
+        '-c', `safe.directory=${repositoryRoot.replaceAll('\\', '/')}`,
+        'show', `${entry.acceptedCommit}:${entry.file}`
+      ], { cwd: repositoryRoot, encoding: 'buffer', maxBuffer: 10 * 1024 * 1024 });
+      assert.equal(crypto.createHash('sha256').update(stdout).digest('hex'),
+        entry.acceptedSha256, `accepted commit content:${key}`);
+    } else {
+      assert.ok(entry.acceptedTask.length >= 20, `missing accepted task:${key}`);
+    }
+    acceptedSupersessions.set(key, entry);
+  }
   const rows = markdown.split(/\r?\n/)
     .filter(line => line.startsWith('|Android|') || line.startsWith('|Website|'))
     .map(line => line.slice(1, -1).split('|'));
   assert.equal(rows.length, 107);
   const policyUrls = [];
   const androidLocales = [];
+  const usedSupersessions = new Set();
   for (const row of rows) {
     assert.equal(row.length, 10, `manifest columns:${row[1]}`);
     const [repository, file, sourceOrGenerated, locale, publicUrl, expectedSha] = row;
@@ -188,11 +259,16 @@ test('publication manifest has exactly 107 current, scoped entries', async () =>
     const repositoryRoot = repository === 'Android' ? androidRoot : root;
     const absolute = path.join(repositoryRoot, ...file.split('/'));
     const digest = crypto.createHash('sha256').update(await fs.readFile(absolute)).digest('hex');
-    assert.equal(digest, expectedSha, `manifest SHA:${repository}:${file}`);
+    assertAcceptedManifestDigest({
+      repository, file, expectedSha, actualSha: digest,
+      acceptedSupersessions, usedSupersessions
+    });
     if (sourceOrGenerated.includes('policy page')) policyUrls.push(publicUrl);
     if (sourceOrGenerated === 'localized policy source') androidLocales.push(locale);
     assert.ok(!/(?:index\.html|assets\/|screenshot|marketing)/i.test(file), `unrelated manifest file:${file}`);
   }
+  assert.deepEqual([...usedSupersessions].sort(), [...acceptedSupersessions.keys()].sort(),
+    'supersession entries must correspond exactly to current manifest mismatches');
   assert.equal(policyUrls.length, 44);
   assert.equal(new Set(policyUrls).size, 44);
   assert.equal(androidLocales.length, 44);

@@ -1,6 +1,66 @@
 export const productionConsentKey = 'balkan-analytics-consent';
 export const qaConsentKey = 'balkan-analytics-consent-qa';
 
+export const deniedWebsiteConsent = Object.freeze({
+  analytics_storage: 'denied',
+  ad_storage: 'denied',
+  ad_user_data: 'denied',
+  ad_personalization: 'denied'
+});
+
+export const grantedWebsiteAnalyticsConsent = Object.freeze({
+  analytics_storage: 'granted',
+  ad_storage: 'denied',
+  ad_user_data: 'denied',
+  ad_personalization: 'denied'
+});
+
+export function createBasicConsentModeController({ qaExcluded, windowLike }) {
+  let defaultQueued = false;
+  let currentState = qaExcluded ? null : deniedWebsiteConsent;
+
+  function queueConsent(command, settings) {
+    windowLike.dataLayer = windowLike.dataLayer || [];
+    function gtag() {
+      windowLike.dataLayer.push(arguments);
+    }
+    gtag('consent', command, { ...settings });
+  }
+
+  function initializeDefault() {
+    if (qaExcluded || defaultQueued) return false;
+    queueConsent('default', deniedWebsiteConsent);
+    defaultQueued = true;
+    currentState = deniedWebsiteConsent;
+    return true;
+  }
+
+  function grantAnalytics() {
+    if (qaExcluded) return false;
+    initializeDefault();
+    if (currentState?.analytics_storage === 'granted') return false;
+    queueConsent('update', grantedWebsiteAnalyticsConsent);
+    currentState = grantedWebsiteAnalyticsConsent;
+    return true;
+  }
+
+  function denyAnalytics() {
+    if (qaExcluded) return false;
+    initializeDefault();
+    if (currentState?.analytics_storage === 'denied') return false;
+    queueConsent('update', deniedWebsiteConsent);
+    currentState = deniedWebsiteConsent;
+    return true;
+  }
+
+  return {
+    denyAnalytics,
+    getState: () => currentState ? { ...currentState } : null,
+    grantAnalytics,
+    initializeDefault
+  };
+}
+
 export function isAnalyticsQaEnvironment(locationLike) {
   const hostname = String(locationLike?.hostname ?? '').toLowerCase();
   if (hostname === 'localhost' || hostname === '127.0.0.1' || hostname === '::1' || hostname === '[::1]') {

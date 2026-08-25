@@ -1,6 +1,7 @@
 import {
   analyticsConsentStorageKey,
   applyAnalyticsConsentChoice,
+  createBasicConsentModeController,
   createAnalyticsInitializationController,
   createGooglePlayTrackingController,
   googlePlayLinkLocation,
@@ -23,34 +24,20 @@ const firebaseConfig = {
 
 const consentKey = analyticsConsentStorageKey(analyticsQaEnvironment);
 const googlePlayUrl = 'play.google.com/store/apps/details';
-const grantedConsent = {
-  analytics_storage: 'granted',
-  ad_storage: 'denied',
-  ad_user_data: 'denied',
-  ad_personalization: 'denied'
-};
-const deniedConsent = {
-  analytics_storage: 'denied',
-  ad_storage: 'denied',
-  ad_user_data: 'denied',
-  ad_personalization: 'denied'
-};
+const consentMode = createBasicConsentModeController({
+  qaExcluded: analyticsQaEnvironment,
+  windowLike: window
+});
+
+// Queue a denied default without loading Google or Firebase. QA/local pages do not
+// create a dataLayer or queue any consent command.
+consentMode.initializeDefault();
 
 let analyticsInstance;
 let analyticsSdk;
 
 function storedConsent() {
   return readAnalyticsConsent(localStorage, consentKey);
-}
-
-function queueConsentMode() {
-  window.dataLayer = window.dataLayer || [];
-  function gtag() {
-    window.dataLayer.push(arguments);
-  }
-
-  gtag('consent', 'default', deniedConsent);
-  gtag('consent', 'update', grantedConsent);
 }
 
 let analyticsRuntime;
@@ -79,24 +66,25 @@ analyticsRuntime = createAnalyticsInitializationController({
       analyticsSdk = loadedAnalyticsSdk;
       analyticsInstance = analyticsSdk.getAnalytics(app);
     }
-    analyticsSdk.setConsent(grantedConsent);
     analyticsSdk.setAnalyticsCollectionEnabled(analyticsInstance, true);
     googlePlayTracking.attach();
     return analyticsInstance;
   },
   deactivate: () => {
-    analyticsSdk.setConsent(deniedConsent);
     analyticsSdk.setAnalyticsCollectionEnabled(analyticsInstance, false);
   }
 });
 
 function enableAnalytics() {
   if (analyticsQaEnvironment) return Promise.resolve(false);
-  queueConsentMode();
+  // The granted update is queued before imports/getAnalytics, so Firebase's first
+  // automatic measurement cannot race ahead of the explicit consent state.
+  consentMode.grantAnalytics();
   return analyticsRuntime.enable();
 }
 
 function disableAnalytics() {
+  consentMode.denyAnalytics();
   analyticsRuntime.disable();
 }
 
