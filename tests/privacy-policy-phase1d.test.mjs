@@ -290,6 +290,9 @@ test('publication manifest has exactly 107 current, scoped entries', async () =>
   const productionSourceCommit = '84ab517f24732f833d2c6b57629a840795cc6cd1';
   const productionEvidenceFiles = new Set(['app/src/main/res/values-ru/strings.xml',
     'docs/PRIVACY_DATA_SAFETY.md']);
+  const standaloneTitles = JSON.parse(await fs.readFile(path.join(root,
+    'tools/privacy-title-copy.json'), 'utf8'));
+  const titleBaselineCommit = '0406901fcb071f465366c1b5518888dbb7f4389a';
   for (const row of rows) {
     assert.equal(row.length, 10, `manifest columns:${row[1]}`);
     const [repository, file, sourceOrGenerated, locale, publicUrl, expectedSha] = row;
@@ -314,6 +317,35 @@ test('publication manifest has exactly 107 current, scoped entries', async () =>
       const publishedDigest = crypto.createHash('sha256').update(stdout).digest('hex');
       if (publishedDigest !== expectedSha) acceptedSupersessions.set(`${repository}:${file}`, {
         historicalSha256: expectedSha, acceptedSha256: publishedDigest
+      });
+    }
+    const titleCopy = Object.entries(standaloneTitles).find(([locale]) =>
+      file === locale.toLowerCase() + '/privacy-policy.html')?.[1];
+    if (repository === 'Website' && titleCopy) {
+      // Authenticate the old policy, then allow only the five standalone initial
+      // letters. The complete legal body, date, URLs and other bytes stay pinned.
+      const { stdout: original } = await execFileAsync('git', [
+        '-c', `safe.directory=${root.replaceAll('\\', '/')}`,
+        'show', `${titleBaselineCommit}:${file}`
+      ], { cwd: root, encoding: 'buffer' });
+      const previous = acceptedSupersessions.get(`Website:${file}`);
+      assert.equal(crypto.createHash('sha256').update(original).digest('hex'),
+        previous?.acceptedSha256 ?? expectedSha, `original standalone-title policy:${file}`);
+      const { before, title } = titleCopy;
+      assert.equal(title, before[0].toLocaleUpperCase(locale) + before.slice(1));
+      let approved = original.toString('utf8');
+      for (const slot of [
+        `<title>${before} — Balkan Currency Converter</title>`,
+        `<meta name="description" content="${before}">`,
+        `<meta property="og:title" content="${before} — Balkan Currency Converter">`,
+        `<h1>${before}</h1>`, `<nav aria-label="${before}">`
+      ]) {
+        assert.equal(approved.split(slot).length - 1, 1, `exact standalone slot:${file}`);
+        approved = approved.replace(slot, slot.replace(before, title));
+      }
+      assert.equal(manifestContent.toString('utf8'), approved, `only standalone titles:${file}`);
+      acceptedSupersessions.set(`Website:${file}`, {
+        historicalSha256: expectedSha, acceptedSha256: digest
       });
     }
     assertAcceptedManifestDigest({

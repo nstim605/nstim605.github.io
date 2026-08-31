@@ -42,6 +42,7 @@ const resourceFolders = {
   'pt-PT': 'values-pt-rPT', 'zh-Hans': 'values-b+zh+Hans', 'zh-Hant': 'values-b+zh+Hant'
 };
 const webCopy = JSON.parse(await fs.readFile(path.join(root, 'tools', 'web-copy.json'), 'utf8'));
+const privacyTitleCopy = JSON.parse(await fs.readFile(path.join(root, 'tools', 'privacy-title-copy.json'), 'utf8'));
 const phase1dPolicyCopy = JSON.parse(await fs.readFile(path.join(root, 'tools', 'privacy-policy-phase1d.json'), 'utf8'));
 const phase1dPolicySupplement = JSON.parse(await fs.readFile(path.join(root, 'tools', 'privacy-policy-phase1d-supplement.json'), 'utf8'));
 const homeTemplate = await fs.readFile(path.join(root, 'tools', 'templates', 'index.html'), 'utf8');
@@ -75,7 +76,7 @@ const esc = value => String(value).replaceAll('&', '&amp;').replaceAll('"', '&qu
 const brand = 'Balkan Currency Converter';
 const webPolicyDate = value => value;
 
-function localMap(strings, copy) {
+function localMap(strings, copy, privacyTitle) {
   const calculator = [strings.calculator_add, strings.calculator_subtract, strings.calculator_multiply, strings.calculator_divide].join(' · ');
   const map = {
     'Balkan Currency Converter — Convert currencies quickly, anywhere': `${brand} — ${copy.h1}`,
@@ -87,7 +88,7 @@ function localMap(strings, copy) {
     'Main navigation': copy.features,
     'Features': copy.features,
     'Screenshots': copy.screenshots,
-    'Privacy': strings.privacy_policy,
+    'Privacy': privacyTitle,
     'Switch color theme': strings.theme,
     'Get Balkan Currency Converter on Google Play': `${brand} — Google Play`,
     'Get it on Google Play': 'Google Play',
@@ -140,14 +141,14 @@ function localMap(strings, copy) {
     'Take the converter with you': copy.ctaHeading,
     'Download Balkan Currency Converter for Android from Google Play.': `${brand} — Google Play`,
     'Currency conversion for Android': strings.about_description,
-    'Footer navigation': strings.privacy_policy,
-    'Privacy Policy': strings.privacy_policy,
+    'Footer navigation': privacyTitle,
+    'Privacy Policy': privacyTitle,
     'Analytics choices': copy.analyticsChoices,
     'Contact': strings.contact_developer,
     'Switch to light theme': `${strings.theme}: ${strings.theme_light}`,
     'Switch to dark theme': `${strings.theme}: ${strings.theme_dark}`,
-    'Privacy Policy — Balkan Currency Converter': `${strings.privacy_policy} — ${brand}`,
-    'Privacy Policy for the Balkan Currency Converter Android application and website.': strings.privacy_policy,
+    'Privacy Policy — Balkan Currency Converter': `${privacyTitle} — ${brand}`,
+    'Privacy Policy for the Balkan Currency Converter Android application and website.': privacyTitle,
     'How Balkan Currency Converter handles app data, exchange-rate requests, local storage, and advertising.': strings.privacy_policy_body.split('\n\n')[0],
     'Back to home': strings.back,
     'Last updated:': webPolicyDate(strings.privacy_last_updated),
@@ -296,7 +297,9 @@ for (const locale of locales) {
   if (!policyCopy) throw new Error(`${locale.android}: missing Phase 1D policy copy (${locale.web})`);
   if (!copy.marketingSummary) throw new Error(`${locale.android}: missing localized marketing summary (${locale.web})`);
   const { strings, folder } = await androidStrings(locale);
-  const map = localMap(strings, copy);
+  // Explicit standalone copy; never change case inside the legal policy body.
+  const privacyTitle = privacyTitleCopy[locale.web]?.title ?? strings.privacy_policy;
+  const map = localMap(strings, copy, privacyTitle);
   let home = locale.android === 'en' ? homeTemplate : applyMap(homeTemplate, map);
   let policy = policyTemplate.replace(/    <article class="policy-card">[\s\S]*?    <\/article>/, policyArticle(strings, copy, policyCopy));
   policy = applyMap(policy, map);

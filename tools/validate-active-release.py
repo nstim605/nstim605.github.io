@@ -47,6 +47,29 @@ def git(*args):
                           stderr=subprocess.PIPE).stdout
 
 
+def approved_title_baseline(source, path):
+    """Allow only reviewed standalone title slots; preserve every other byte."""
+    changes = json.loads((SITE/'tools/privacy-title-copy.json').read_text(encoding='utf-8'))
+    route, _, filename = path.partition('/')
+    entry = next((value for locale, value in changes.items() if locale.lower() == route), None)
+    if not entry or filename not in {'index.html', 'privacy-policy.html'}:
+        return source
+    before, title = entry['before'], entry['title']
+    require(title == before[0].upper() + before[1:], f'initial-only title change: {path}')
+    slots = [(f'<nav aria-label="{before}">', 1)]
+    if filename == 'index.html':
+        slots.append((f'<a href="privacy-policy.html">{before}</a>', 2))
+    else:
+        slots += [(f'<title>{before} — Balkan Currency Converter</title>', 1),
+                  (f'<meta name="description" content="{before}">', 1),
+                  (f'<meta property="og:title" content="{before} — Balkan Currency Converter">', 1),
+                  (f'<h1>{before}</h1>', 1)]
+    for old, count in slots:
+        require(source.count(old) == count, f'exact approved title slots: {path}/{old}')
+        source = source.replace(old, old.replace(before, title))
+    return source
+
+
 class Page(HTMLParser):
     """This site's explicit-close HTML: strict nesting, unique IDs, references."""
     def __init__(self, source, name):
@@ -123,7 +146,9 @@ def validate(args):
         inventory - set(git('ls-tree', '-r', '--name-only', base).decode().splitlines()))
     require(changed == set(manifest['reviewed_changes']), 'unreviewed change set')
     for path in manifest['protected_files']:
-        require(canonical((SITE/path).read_bytes(), files[path]['hash_mode']) == git('show', f'{base}:{path}'),
+        original = git('show', f'{base}:{path}')
+        expected = approved_title_baseline(original.decode(), path).encode() if path.endswith('.html') else original
+        require(canonical((SITE/path).read_bytes(), files[path]['hash_mode']) == expected,
                 f'protected baseline changed: {path}')
 
     image_count = 0
@@ -151,7 +176,7 @@ def validate(args):
             pages[path] = Page((SITE/path).read_text(encoding='utf-8'), path)
             active.add(path)
         page = pages[home]
-        old = Page(git('show', f'{base}:{home}').decode(), 'baseline:' + home)
+        old = Page(approved_title_baseline(git('show', f'{base}:{home}').decode(), home), 'baseline:' + home)
         require(page.text == old.text and page.links == old.links, f'visible copy/navigation changed: {home}')
         require(len(page.scripts) == len(old.scripts) == 1, f'inline script count: {home}')
         structured, old_structured = json.loads(page.scripts[0]), json.loads(old.scripts[0])

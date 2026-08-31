@@ -2,7 +2,7 @@
   "schema": 1,
   "release": "Balkan Converter website visual refresh 1.5 (11)",
   "baseline_commit": "5390a8a650fe6f843a738a691d1232d8d064c6f7",
-  "rationale": "Exact source allowlist; user-approved B with empty advertising reserve replaces only 12 image exports. All other visuals and protected baseline files unchanged. Historical evidence assertions remain separate and unchanged.",
+  "rationale": "Exact source allowlist; user-approved B with empty advertising reserve preserves all visual assets. Authorized heading layout and standalone privacy-title capitalization are separately recorded; all other protected baseline bytes and legal bodies remain unchanged. Historical evidence assertions remain separate and unchanged.",
   "canonical_visual_manifest_sha256": "b916b2682431819f4dfd63de8940b5a659900184867edf9df0a29bfff2b7ce17",
   "locales": [
     "en",
@@ -51,9 +51,6 @@
     "ko"
   ],
   "reviewed_changes": [
-    "tests/heading-layout.test.mjs",
-    "tools/check-heading-layout.html",
-    "tools/heading-layout-audit.mjs",
     "ar/index.html",
     "assets/app-icon.png",
     "assets/icons/v1-5-11/app-icon-v1-5-11.png",
@@ -83,10 +80,13 @@
     "de/index.html",
     "el/index.html",
     "es-419/index.html",
+    "es-419/privacy-policy.html",
     "es-es/index.html",
+    "es-es/privacy-policy.html",
     "fa/index.html",
     "fi/index.html",
     "fr/index.html",
+    "fr/privacy-policy.html",
     "he/index.html",
     "hi/index.html",
     "hr/index.html",
@@ -95,6 +95,7 @@
     "index.html",
     "is/index.html",
     "it/index.html",
+    "it/privacy-policy.html",
     "ja/index.html",
     "ko/index.html",
     "mk/index.html",
@@ -103,9 +104,12 @@
     "nl/index.html",
     "pl/index.html",
     "pt-br/index.html",
+    "pt-br/privacy-policy.html",
     "pt-pt/index.html",
+    "pt-pt/privacy-policy.html",
     "ro/index.html",
     "ru/index.html",
+    "ru/privacy-policy.html",
     "site.webmanifest",
     "sk/index.html",
     "sl/index.html",
@@ -113,12 +117,17 @@
     "sr/index.html",
     "styles.css",
     "sv/index.html",
+    "tests/heading-layout.test.mjs",
     "tests/privacy-policy-phase1d.test.mjs",
+    "tests/privacy-title-case.test.mjs",
     "tests/visual-refresh.test.mjs",
     "th/index.html",
     "tools/active-release-manifest.json",
+    "tools/check-heading-layout.html",
     "tools/check-locales.mjs",
+    "tools/heading-layout-audit.mjs",
     "tools/localize-site.mjs",
+    "tools/privacy-title-copy.json",
     "tools/production-strings.json",
     "tools/refresh-home-visuals.mjs",
     "tools/templates/index.html",
@@ -541,21 +550,6 @@
     }
   },
   "files": {
-    "tests/heading-layout.test.mjs": {
-      "sha256": "c8c6a3880400b52bd2dd4b9d6252c6ae2d4149b9269bed31aadaec50fb9bb2f4",
-      "size": 2459,
-      "hash_mode": "git-lf"
-    },
-    "tools/check-heading-layout.html": {
-      "sha256": "4e8077b3e5df5bbe319c3702673bbe84e3ea2cc21adbfa9570313a727c41aa5c",
-      "size": 5621,
-      "hash_mode": "git-lf"
-    },
-    "tools/heading-layout-audit.mjs": {
-      "sha256": "f95fa00524733849da99754f450c1f76554fd7f66804591ded13de31c3ec815e",
-      "size": 3448,
-      "hash_mode": "git-lf"
-    },
     ".github/workflows/indexnow.yml": {
       "sha256": "899cba94d9534e4789b2e2e51b4b365b333e11ace8115b151430f91ee7dccd3c",
       "size": 5645,
@@ -802,22 +796,22 @@
       "hash_mode": "git-lf"
     },
     "es-419/index.html": {
-      "sha256": "9c03dc092a93340caecf5326620864d83a76f472706af15c042d6ffb39b0b4f4",
+      "sha256": "d1c2e0bdb8ebd827c8421c0eebcee7c0314202e66197f603a244ffd5a909d3c2",
       "size": 21111,
       "hash_mode": "git-lf"
     },
     "es-419/privacy-policy.html": {
-      "sha256": "b0f8554b39ea2a04df9ba7618df1f3b1173d840a9160540826ba8e1861fcec8c",
+      "sha256": "dda39fcdadd20a23580e870cbfd6e73103ed7b6c6e4d5808840a7a381a6e678b",
       "size": 19605,
       "hash_mode": "git-lf"
     },
     "es-es/index.html": {
-      "sha256": "af6b3c7d27f00ebfa0f63b36efd57cf623858f0bdd62710b11e958d95cb2dfb4",
+      "sha256": "65b9bef82af4a269fc6c3d6cb0b833a7eba5f108e3a68e113b48cbefc3d733c5",
       "size": 21134,
       "hash_mode": "git-lf"
     },
     "es-es/privacy-policy.html": {
-      "sha256": "78ee6ae5670598e0326d3b63e872a4aeac8b02637c294b3451c9474a901b7d2f",
+      "sha256": "fac4bd9ffe01d2862848989e7bb121692e33833da516f9dc40acacb5d0dfe3bb",
       "size": 19544,
       "hash_mode": "git-lf"
     },
@@ -842,12 +836,12 @@
       "hash_mode": "git-lf"
     },
     "fr/index.html": {
-      "sha256": "443f163c3a86de6bb46f2da17a10b2c72318e3ce99b270fbf8fc9129bdf97ccd",
+      "sha256": "9656ad150436455f616c36dc26dc8daf0c8b8a65404609d54eb9362859289543",
       "size": 21392,
       "hash_mode": "git-lf"
     },
     "fr/privacy-policy.html": {
-      "sha256": "64ab92a9df139dee57536cd50a0767a5c0c0cf968e83f582c824ccbecf2ad8dd",
+      "sha256": "b9bec9e759985160a4c3dfcbce619f52bb8b727a3c5fec1ec4da3765a2fab65a",
       "size": 19860,
       "hash_mode": "git-lf"
     },
@@ -917,12 +911,12 @@
       "hash_mode": "git-lf"
     },
     "it/index.html": {
-      "sha256": "32685eab6c6d5c99c6eab040b1d3869145fce2981ca32a5e6504cffd773aaa42",
+      "sha256": "70fadd2807536dee6da7a65a71fdb9764fd459a834026ad204a5664dbfb6021b",
       "size": 21061,
       "hash_mode": "git-lf"
     },
     "it/privacy-policy.html": {
-      "sha256": "29e67e713e04df62694699f0786358f887af72228d52c31264533cd3372d4e03",
+      "sha256": "9834e9648e072f5ea345f480264f4f3708ff873d6e159e31ff5dc06f84f22b06",
       "size": 19113,
       "hash_mode": "git-lf"
     },
@@ -1002,22 +996,22 @@
       "hash_mode": "git-lf"
     },
     "pt-br/index.html": {
-      "sha256": "acafa0cb302e8f3545b10078286413bc69b4576f32a45236b7596cb215d85611",
+      "sha256": "0ea998f56eb0bd0a57fdbfe694644daa78c54078101c9897cd9efc47946adf48",
       "size": 20906,
       "hash_mode": "git-lf"
     },
     "pt-br/privacy-policy.html": {
-      "sha256": "bc5e29205bfa2ea7f4c27d52a5dfc5b1c826195e58eafd883de112f6e997b673",
+      "sha256": "51d60e3c6118398b244dd08ce6cfc64127f980ec5cda3815544112bac3c4b9d4",
       "size": 19203,
       "hash_mode": "git-lf"
     },
     "pt-pt/index.html": {
-      "sha256": "a9ee15af9dcd1fc02baf1f1f2c012f4ae8254bf9cf07748a1a2d9d1d171f7fbf",
+      "sha256": "03acb04c3253e65bfdc79dbe01414b475b7e37b8ef4b11d60b2e7decee09ad8f",
       "size": 21056,
       "hash_mode": "git-lf"
     },
     "pt-pt/privacy-policy.html": {
-      "sha256": "6cf6ab8965f796b2411756c0b672b5ee3570b960cde15d17262493c06a5a1da7",
+      "sha256": "2407e292115eee71f6430b485646b899a153073e354eb3d38ca07c301b5b1913",
       "size": 19452,
       "hash_mode": "git-lf"
     },
@@ -1037,12 +1031,12 @@
       "hash_mode": "git-lf"
     },
     "ru/index.html": {
-      "sha256": "14102b4fb273d8f2b1664d12ba7aea6d4ecc3de21d21a098cc40552460e9912c",
+      "sha256": "986fc5f2eac257dc3fa9e05e6d2fc54c685cf6ab7c1085c146bf1f425cb7ce57",
       "size": 23618,
       "hash_mode": "git-lf"
     },
     "ru/privacy-policy.html": {
-      "sha256": "38eb4f2756d902f62e8d234c6b5416005cbeacd34aeaca6fa2715f3c193c0cfa",
+      "sha256": "61fe0e8a49308d14cc5afde250ec2a8dce13ca3b5474113733200b1a3a63f4be",
       "size": 23805,
       "hash_mode": "git-lf"
     },
@@ -1136,9 +1130,19 @@
       "size": 9918,
       "hash_mode": "git-lf"
     },
+    "tests/heading-layout.test.mjs": {
+      "sha256": "c8c6a3880400b52bd2dd4b9d6252c6ae2d4149b9269bed31aadaec50fb9bb2f4",
+      "size": 2459,
+      "hash_mode": "git-lf"
+    },
     "tests/privacy-policy-phase1d.test.mjs": {
-      "sha256": "e07f7521209e20fd89122e35cc6d7a2a59a489f168e57f5f06700edf233a42c0",
-      "size": 18397,
+      "sha256": "b2c62b5be0142bb56917f195106ccff4ea87c1c032cd725867015cded368b10e",
+      "size": 20292,
+      "hash_mode": "git-lf"
+    },
+    "tests/privacy-title-case.test.mjs": {
+      "sha256": "18f2c86910ee851671f5e174f98509dbf4401cd488d00e1880ac6d3b08d3148d",
+      "size": 5114,
       "hash_mode": "git-lf"
     },
     "tests/visual-refresh.test.mjs": {
@@ -1156,6 +1160,11 @@
       "size": 26498,
       "hash_mode": "git-lf"
     },
+    "tools/check-heading-layout.html": {
+      "sha256": "4e8077b3e5df5bbe319c3702673bbe84e3ea2cc21adbfa9570313a727c41aa5c",
+      "size": 5621,
+      "hash_mode": "git-lf"
+    },
     "tools/check-locales.mjs": {
       "sha256": "db77b7905e4d005969b812a7a86df8b6fdecdf9670d93c5c41c6d42c12d40a7b",
       "size": 7426,
@@ -1166,9 +1175,14 @@
       "size": 4389,
       "hash_mode": "git-lf"
     },
+    "tools/heading-layout-audit.mjs": {
+      "sha256": "f95fa00524733849da99754f450c1f76554fd7f66804591ded13de31c3ec815e",
+      "size": 3448,
+      "hash_mode": "git-lf"
+    },
     "tools/localize-site.mjs": {
-      "sha256": "b0a07ee26ab3cfa1dd5fa3feec4d92b9f7a7e7b16fafd5946a949c3c60a0ac8e",
-      "size": 23903,
+      "sha256": "5adbdbe43bf1dfdf05296fca1a8e1ea13566d2c4791fe4346f96817d6ae7ea02",
+      "size": 24163,
       "hash_mode": "git-lf"
     },
     "tools/privacy-policy-phase1d-supplement.json": {
@@ -1179,6 +1193,11 @@
     "tools/privacy-policy-phase1d.json": {
       "sha256": "904cbbfd7431eb88b9b37fe2a74f1167787cbee70b8d0ea1f9d10f1eb5926032",
       "size": 160894,
+      "hash_mode": "git-lf"
+    },
+    "tools/privacy-title-copy.json": {
+      "sha256": "01292fdff9058ee2808982dbb2ee96055ea3c33b101aaecd4d5d086d7baf051b",
+      "size": 765,
       "hash_mode": "git-lf"
     },
     "tools/production-strings.json": {
@@ -1202,13 +1221,13 @@
       "hash_mode": "git-lf"
     },
     "tools/validate-active-release.py": {
-      "sha256": "b91696005f846e38a774f2955cccfb05ab3bde7757d6b835d760419bfef61363",
-      "size": 14076,
+      "sha256": "884f8f1d7b8a7be241baf1631d718613eba4f5c5ebd49d2ff1f6bf5562b3c243",
+      "size": 15520,
       "hash_mode": "git-lf"
     },
     "tools/visual-refresh-integrity.json": {
-      "sha256": "6638be458f784fd1d08ec4e0f72df5708b21bd3155d7547754b59b4e07022648",
-      "size": 1550,
+      "sha256": "80dfeaf1ec2d2bae8b0c968688e8244cc13e47ffa1f58ac48ed1b8d314c30255",
+      "size": 1699,
       "hash_mode": "git-lf"
     },
     "tools/web-copy.json": {
@@ -1294,7 +1313,48 @@
   "heading_wrap_revision": {
     "date": "2026-08-31",
     "previous_release_commit": "d5ac9cf8a47d0ea79750e78960adecd839d9fef6",
-    "scope": ["styles.css", "tests/heading-layout.test.mjs", "tools/check-heading-layout.html", "tools/heading-layout-audit.mjs"],
+    "scope": [
+      "styles.css",
+      "tests/heading-layout.test.mjs",
+      "tools/check-heading-layout.html",
+      "tools/heading-layout-audit.mjs"
+    ],
     "rationale": "User-requested intact heading words across all locales: container-aware typography and rendered regression checks only. Translations, policy HTML, runtime scripts, images and historical checks remain unchanged."
+  },
+  "privacy_title_revision": {
+    "date": "2026-08-31",
+    "previous_commit": "0406901fcb071f465366c1b5518888dbb7f4389a",
+    "locales": [
+      "fr",
+      "it",
+      "es-ES",
+      "es-419",
+      "pt-BR",
+      "pt-PT",
+      "ru"
+    ],
+    "scope": [
+      "fr/index.html",
+      "fr/privacy-policy.html",
+      "it/index.html",
+      "it/privacy-policy.html",
+      "es-es/index.html",
+      "es-es/privacy-policy.html",
+      "es-419/index.html",
+      "es-419/privacy-policy.html",
+      "pt-br/index.html",
+      "pt-br/privacy-policy.html",
+      "pt-pt/index.html",
+      "pt-pt/privacy-policy.html",
+      "ru/index.html",
+      "ru/privacy-policy.html",
+      "tools/localize-site.mjs",
+      "tools/validate-active-release.py",
+      "tests/privacy-policy-phase1d.test.mjs",
+      "tools/visual-refresh-integrity.json",
+      "tests/privacy-title-case.test.mjs",
+      "tools/privacy-title-copy.json"
+    ],
+    "rationale": "User explicitly authorized checking all 44 website languages and publishing headings. Seven variants needed only the initial letter capitalized in three home and five policy standalone slots. Full legal bodies, dates, links, images, Android and all other page bytes are unchanged; original policy bytes are authenticated against fixed commits."
   }
 }

@@ -1,0 +1,30 @@
+{
+  "fr": {
+    "before": "politique de confidentialité",
+    "title": "Politique de confidentialité"
+  },
+  "it": {
+    "before": "politica sulla riservatezza",
+    "title": "Politica sulla riservatezza"
+  },
+  "es-ES": {
+    "before": "política de privacidad",
+    "title": "Política de privacidad"
+  },
+  "es-419": {
+    "before": "política de privacidad",
+    "title": "Política de privacidad"
+  },
+  "pt-BR": {
+    "before": "política de Privacidade",
+    "title": "Política de Privacidade"
+  },
+  "pt-PT": {
+    "before": "política de Privacidade",
+    "title": "Política de Privacidade"
+  },
+  "ru": {
+    "before": "политика конфиденциальности",
+    "title": "Политика конфиденциальности"
+  }
+}
