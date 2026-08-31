@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<title>Heading layout regression — all production locales</title>
+<style>
+  body { margin: 20px; font: 16px system-ui; background: #eee; color: #111; }
+  label { display: inline-block; margin: 8px; } input { width: 230px; }
+  button { padding: 12px; } iframe { display: block; height: 1000px; border: 1px solid #aaa; }
+  #frames { display: flex; align-items: start; gap: 20px; } #frames > div { flex: none; }
+  pre { white-space: pre-wrap; } #result { max-height: 600px; overflow: auto; }
+</style>
+<h1>Rendered heading regression</h1>
+<p>Actual home and Privacy Policy documents, their current CSS and browser font metrics. Asian-script natural character/dictionary wrapping is allowed; glyph overflow is never allowed. No production content is modified.</p>
+<label>Widths <input id="widths" value="320,360,390,540,768,980,1440"></label>
+<label>Root font scales <input id="scales" value="1,1.25"></label>
+<label>Locales (empty = all) <input id="locales" value=""></label>
+<label>Comparison CSS (optional local path) <input id="comparison-css" value=""></label>
+<button id="run">Run all heading checks</button>
+<p id="status" role="status">Ready</p>
+<pre id="result"></pre>
+<div id="frames"></div>
+<script type="module">
+const { auditHeadings } = await import(`./heading-layout-audit.mjs?qa=${Date.now()}`);
+const button = document.querySelector('#run');
+const status = document.querySelector('#status');
+const result = document.querySelector('#result');
+const frames = document.querySelector('#frames');
+button.addEventListener('click', async () => {
+  if (!['localhost', '127.0.0.1', '[::1]'].includes(location.hostname)) {
+    status.textContent = 'Local QA only'; return;
+  }
+  button.disabled = true; frames.replaceChildren(); result.textContent = '';
+  const widths = document.querySelector('#widths').value.split(',').map(Number);
+  const scales = document.querySelector('#scales').value.split(',').map(Number);
+  const selected = document.querySelector('#locales').value.split(',').filter(Boolean);
+  const comparisonCss = document.querySelector('#comparison-css').value.trim();
+  const { locales } = await (await fetch('../site-locales.json')).json();
+  const pages = locales.filter(l => !selected.length || selected.includes(l.webLocale))
+    .flatMap(l => [l.url, l.privacyUrl].map(url => ({ url, locale: l.webLocale })));
+  const total = pages.length * widths.length * scales.length;
+  const results = [];
+  let next = 0;
+  await Promise.all(Array.from({ length: 4 }, async () => {
+    const host = document.createElement('div');
+    const caption = document.createElement('p');
+    const frame = document.createElement('iframe');
+    frame.title = 'Actual localized page under layout test';
+    host.append(caption, frame); frames.append(host);
+    while (next < pages.length) {
+      const page = pages[next++];
+      frame.style.width = `${widths[0]}px`;
+      try {
+        await new Promise((resolve, reject) => {
+          const timer = setTimeout(() => reject(new Error('Frame load timeout')), 15000);
+          frame.onload = () => { clearTimeout(timer); resolve(); };
+          frame.src = `${page.url}?analytics_qa=1&heading_layout_qa=1`;
+        });
+        const doc = frame.contentDocument;
+        // Defeat stale development CSS without altering any production styles.
+        await Promise.all([...doc.querySelectorAll('link[rel="stylesheet"]')].map(link => new Promise((resolve, reject) => {
+          const timer = setTimeout(() => reject(new Error('Stylesheet load timeout')), 15000);
+          link.onload = () => { clearTimeout(timer); resolve(); };
+          link.onerror = () => { clearTimeout(timer); reject(new Error('Stylesheet load failed')); };
+          const url = new URL(comparisonCss || link.href, location.href);
+          if (url.origin !== location.origin) { clearTimeout(timer); reject(new Error('Local CSS only')); return; }
+          url.searchParams.set('heading_qa', Date.now()); link.href = url.href;
+        })));
+        await doc.fonts.ready;
+        for (const width of widths) for (const scale of scales) {
+          frame.style.width = `${width}px`;
+          caption.textContent = `${page.locale}: ${page.url} / ${width}px / ${scale}`;
+          // Test-only user root-font preference; not a production auto-fit.
+          doc.documentElement.style.fontSize = `${16 * scale}px`;
+          // Offscreen iframe animation frames can be throttled. Bounding-range
+          // reads below force layout; allow style/font changes a task first.
+          await new Promise(resolve => setTimeout(resolve, 60));
+          results.push({ ...page, width, scale, ...auditHeadings(doc) });
+          status.textContent = `Running: ${results.length}/${total}`;
+        }
+      } catch (error) {
+        for (const width of widths) for (const scale of scales) results.push({ ...page, width, scale, failures: [{ kind: 'test-error', message: error.message }] });
+      }
+      if (results.length % 28 === 0) result.textContent = JSON.stringify({ done: false, results });
+    }
+  }));
+  const failed = results.filter(r => r.pageOverflow || r.failures.length);
+  status.textContent = `${failed.length ? 'FAIL' : 'PASS'}: ${results.length - failed.length}/${total} cases; ${locales.filter(l => !selected.length || selected.includes(l.webLocale)).length} locales`;
+  result.textContent = JSON.stringify({ done: true, total, failed: failed.length, results });
+  button.disabled = false;
+});
+</script>
+</html>

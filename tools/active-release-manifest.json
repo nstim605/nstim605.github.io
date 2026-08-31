@@ -51,6 +51,9 @@
     "ko"
   ],
   "reviewed_changes": [
+    "tests/heading-layout.test.mjs",
+    "tools/check-heading-layout.html",
+    "tools/heading-layout-audit.mjs",
     "ar/index.html",
     "assets/app-icon.png",
     "assets/icons/v1-5-11/app-icon-v1-5-11.png",
@@ -538,6 +541,21 @@
     }
   },
   "files": {
+    "tests/heading-layout.test.mjs": {
+      "sha256": "c8c6a3880400b52bd2dd4b9d6252c6ae2d4149b9269bed31aadaec50fb9bb2f4",
+      "size": 2459,
+      "hash_mode": "git-lf"
+    },
+    "tools/check-heading-layout.html": {
+      "sha256": "4e8077b3e5df5bbe319c3702673bbe84e3ea2cc21adbfa9570313a727c41aa5c",
+      "size": 5621,
+      "hash_mode": "git-lf"
+    },
+    "tools/heading-layout-audit.mjs": {
+      "sha256": "f95fa00524733849da99754f450c1f76554fd7f66804591ded13de31c3ec815e",
+      "size": 3448,
+      "hash_mode": "git-lf"
+    },
     ".github/workflows/indexnow.yml": {
       "sha256": "899cba94d9534e4789b2e2e51b4b365b333e11ace8115b151430f91ee7dccd3c",
       "size": 5645,
@@ -1089,8 +1107,8 @@
       "hash_mode": "git-lf"
     },
     "styles.css": {
-      "sha256": "ace2a13b299a10a5810c4d080ce5a46a6ab6ca09ac226616cb77e2c46e93705a",
-      "size": 16388,
+      "sha256": "fe54e473cb9473baae9a5477372c0f374d0b8a1ae0db90d74dab309605af4af7",
+      "size": 17067,
       "hash_mode": "git-lf"
     },
     "sv/index.html": {
@@ -1272,5 +1290,11 @@
     "source_frame_sha256": "f603fc0f33235b54b3cb437bd8efa39a440caa9d2ba82fa55fc8896d75b9c467",
     "native_blank_height": 118,
     "source_metadata": "phone-frame-correction/b-with-ad-space/reports/ASSET_VERIFICATION.json"
+  },
+  "heading_wrap_revision": {
+    "date": "2026-08-31",
+    "previous_release_commit": "d5ac9cf8a47d0ea79750e78960adecd839d9fef6",
+    "scope": ["styles.css", "tests/heading-layout.test.mjs", "tools/check-heading-layout.html", "tools/heading-layout-audit.mjs"],
+    "rationale": "User-requested intact heading words across all locales: container-aware typography and rendered regression checks only. Translations, policy HTML, runtime scripts, images and historical checks remain unchanged."
   }
 }
