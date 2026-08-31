@@ -1,0 +1,1276 @@
+{
+  "schema": 1,
+  "release": "Balkan Converter website visual refresh 1.5 (11)",
+  "baseline_commit": "5390a8a650fe6f843a738a691d1232d8d064c6f7",
+  "rationale": "Exact source allowlist; user-approved B with empty advertising reserve replaces only 12 image exports. All other visuals and protected baseline files unchanged. Historical evidence assertions remain separate and unchanged.",
+  "canonical_visual_manifest_sha256": "b916b2682431819f4dfd63de8940b5a659900184867edf9df0a29bfff2b7ce17",
+  "locales": [
+    "en",
+    "sr",
+    "bs",
+    "hr",
+    "sq",
+    "mk",
+    "bg",
+    "ro",
+    "hu",
+    "pl",
+    "cs",
+    "sk",
+    "sl",
+    "de",
+    "fr",
+    "it",
+    "es-ES",
+    "es-419",
+    "pt-BR",
+    "pt-PT",
+    "nl",
+    "da",
+    "sv",
+    "nb",
+    "fi",
+    "is",
+    "el",
+    "tr",
+    "ru",
+    "uk",
+    "ar",
+    "he",
+    "fa",
+    "ur",
+    "hi",
+    "bn",
+    "id",
+    "ms",
+    "th",
+    "vi",
+    "zh-Hans",
+    "zh-Hant",
+    "ja",
+    "ko"
+  ],
+  "reviewed_changes": [
+    "ar/index.html",
+    "assets/app-icon.png",
+    "assets/icons/v1-5-11/app-icon-v1-5-11.png",
+    "assets/icons/v1-5-11/apple-touch-icon-180.png",
+    "assets/icons/v1-5-11/favicon-32.png",
+    "assets/icons/v1-5-11/favicon-48.png",
+    "assets/icons/v1-5-11/favicon-96.png",
+    "assets/icons/v1-5-11/icon-192.png",
+    "assets/og-v1-5-11.png",
+    "assets/screenshots/v1-5-11/actual-cost-540.webp",
+    "assets/screenshots/v1-5-11/actual-cost-810.webp",
+    "assets/screenshots/v1-5-11/actual-cost.webp",
+    "assets/screenshots/v1-5-11/main-converter-540.webp",
+    "assets/screenshots/v1-5-11/main-converter-810.webp",
+    "assets/screenshots/v1-5-11/main-converter.webp",
+    "assets/screenshots/v1-5-11/saved-sets-540.webp",
+    "assets/screenshots/v1-5-11/saved-sets-810.webp",
+    "assets/screenshots/v1-5-11/saved-sets.webp",
+    "assets/screenshots/v1-5-11/travel-board-540.webp",
+    "assets/screenshots/v1-5-11/travel-board-810.webp",
+    "assets/screenshots/v1-5-11/travel-board.webp",
+    "bg/index.html",
+    "bn/index.html",
+    "bs/index.html",
+    "cs/index.html",
+    "da/index.html",
+    "de/index.html",
+    "el/index.html",
+    "es-419/index.html",
+    "es-es/index.html",
+    "fa/index.html",
+    "fi/index.html",
+    "fr/index.html",
+    "he/index.html",
+    "hi/index.html",
+    "hr/index.html",
+    "hu/index.html",
+    "id/index.html",
+    "index.html",
+    "is/index.html",
+    "it/index.html",
+    "ja/index.html",
+    "ko/index.html",
+    "mk/index.html",
+    "ms/index.html",
+    "nb/index.html",
+    "nl/index.html",
+    "pl/index.html",
+    "pt-br/index.html",
+    "pt-pt/index.html",
+    "ro/index.html",
+    "ru/index.html",
+    "site.webmanifest",
+    "sk/index.html",
+    "sl/index.html",
+    "sq/index.html",
+    "sr/index.html",
+    "styles.css",
+    "sv/index.html",
+    "tests/privacy-policy-phase1d.test.mjs",
+    "tests/visual-refresh.test.mjs",
+    "th/index.html",
+    "tools/active-release-manifest.json",
+    "tools/check-locales.mjs",
+    "tools/localize-site.mjs",
+    "tools/production-strings.json",
+    "tools/refresh-home-visuals.mjs",
+    "tools/templates/index.html",
+    "tools/validate-active-release.py",
+    "tools/visual-refresh-integrity.json",
+    "tr/index.html",
+    "uk/index.html",
+    "ur/index.html",
+    "vi/index.html",
+    "zh-hans/index.html",
+    "zh-hant/index.html"
+  ],
+  "protected_files": [
+    ".github/workflows/indexnow.yml",
+    "1b4bd43e10a1c8cba47f779b1a7d218e.txt",
+    "CNAME",
+    "README.md",
+    "analytics-core.mjs",
+    "analytics.js",
+    "app-ads.txt",
+    "ar/privacy-policy.html",
+    "assets/balkan-converter-og-1200x630.png",
+    "assets/og.png",
+    "assets/screenshots/actual-cost.webp",
+    "assets/screenshots/main-converter.webp",
+    "assets/screenshots/saved-sets.webp",
+    "assets/screenshots/travel-board.webp",
+    "bg/privacy-policy.html",
+    "bn/privacy-policy.html",
+    "bs/privacy-policy.html",
+    "cs/privacy-policy.html",
+    "da/privacy-policy.html",
+    "de/privacy-policy.html",
+    "el/privacy-policy.html",
+    "es-419/privacy-policy.html",
+    "es-es/privacy-policy.html",
+    "fa/privacy-policy.html",
+    "fi/privacy-policy.html",
+    "fr/privacy-policy.html",
+    "he/privacy-policy.html",
+    "hi/privacy-policy.html",
+    "hr/privacy-policy.html",
+    "hu/privacy-policy.html",
+    "id/privacy-policy.html",
+    "is/privacy-policy.html",
+    "it/privacy-policy.html",
+    "ja/privacy-policy.html",
+    "ko/privacy-policy.html",
+    "mk/privacy-policy.html",
+    "ms/privacy-policy.html",
+    "nb/privacy-policy.html",
+    "nl/privacy-policy.html",
+    "pl/privacy-policy.html",
+    "privacy-policy.html",
+    "pt-br/privacy-policy.html",
+    "pt-pt/privacy-policy.html",
+    "ro/privacy-policy.html",
+    "robots.txt",
+    "ru/privacy-policy.html",
+    "script.js",
+    "site-locales.json",
+    "sitemap.xml",
+    "sk/privacy-policy.html",
+    "sl/privacy-policy.html",
+    "sq/privacy-policy.html",
+    "sr/privacy-policy.html",
+    "sv/privacy-policy.html",
+    "tests/analytics-qa-isolation.test.mjs",
+    "tests/basic-consent-mode-v2.test.mjs",
+    "tests/generator-idempotence.test.mjs",
+    "th/privacy-policy.html",
+    "tools/generated-json.mjs",
+    "tools/privacy-policy-phase1d-supplement.json",
+    "tools/privacy-policy-phase1d.json",
+    "tools/templates/privacy-policy.html",
+    "tools/web-copy.json",
+    "tr/privacy-policy.html",
+    "uk/privacy-policy.html",
+    "ur/privacy-policy.html",
+    "vi/privacy-policy.html",
+    "yandex_313487399cecc4f0.html",
+    "zh-hans/privacy-policy.html",
+    "zh-hant/privacy-policy.html"
+  ],
+  "active_runtime_files": [
+    "analytics-core.mjs",
+    "analytics.js",
+    "ar/index.html",
+    "ar/privacy-policy.html",
+    "assets/app-icon.png",
+    "assets/icons/v1-5-11/app-icon-v1-5-11.png",
+    "assets/icons/v1-5-11/apple-touch-icon-180.png",
+    "assets/icons/v1-5-11/favicon-32.png",
+    "assets/icons/v1-5-11/favicon-48.png",
+    "assets/icons/v1-5-11/favicon-96.png",
+    "assets/icons/v1-5-11/icon-192.png",
+    "assets/og-v1-5-11.png",
+    "assets/screenshots/v1-5-11/actual-cost-540.webp",
+    "assets/screenshots/v1-5-11/actual-cost-810.webp",
+    "assets/screenshots/v1-5-11/actual-cost.webp",
+    "assets/screenshots/v1-5-11/main-converter-540.webp",
+    "assets/screenshots/v1-5-11/main-converter-810.webp",
+    "assets/screenshots/v1-5-11/main-converter.webp",
+    "assets/screenshots/v1-5-11/saved-sets-540.webp",
+    "assets/screenshots/v1-5-11/saved-sets-810.webp",
+    "assets/screenshots/v1-5-11/saved-sets.webp",
+    "assets/screenshots/v1-5-11/travel-board-540.webp",
+    "assets/screenshots/v1-5-11/travel-board-810.webp",
+    "assets/screenshots/v1-5-11/travel-board.webp",
+    "bg/index.html",
+    "bg/privacy-policy.html",
+    "bn/index.html",
+    "bn/privacy-policy.html",
+    "bs/index.html",
+    "bs/privacy-policy.html",
+    "cs/index.html",
+    "cs/privacy-policy.html",
+    "da/index.html",
+    "da/privacy-policy.html",
+    "de/index.html",
+    "de/privacy-policy.html",
+    "el/index.html",
+    "el/privacy-policy.html",
+    "es-419/index.html",
+    "es-419/privacy-policy.html",
+    "es-es/index.html",
+    "es-es/privacy-policy.html",
+    "fa/index.html",
+    "fa/privacy-policy.html",
+    "fi/index.html",
+    "fi/privacy-policy.html",
+    "fr/index.html",
+    "fr/privacy-policy.html",
+    "he/index.html",
+    "he/privacy-policy.html",
+    "hi/index.html",
+    "hi/privacy-policy.html",
+    "hr/index.html",
+    "hr/privacy-policy.html",
+    "hu/index.html",
+    "hu/privacy-policy.html",
+    "id/index.html",
+    "id/privacy-policy.html",
+    "index.html",
+    "is/index.html",
+    "is/privacy-policy.html",
+    "it/index.html",
+    "it/privacy-policy.html",
+    "ja/index.html",
+    "ja/privacy-policy.html",
+    "ko/index.html",
+    "ko/privacy-policy.html",
+    "mk/index.html",
+    "mk/privacy-policy.html",
+    "ms/index.html",
+    "ms/privacy-policy.html",
+    "nb/index.html",
+    "nb/privacy-policy.html",
+    "nl/index.html",
+    "nl/privacy-policy.html",
+    "pl/index.html",
+    "pl/privacy-policy.html",
+    "privacy-policy.html",
+    "pt-br/index.html",
+    "pt-br/privacy-policy.html",
+    "pt-pt/index.html",
+    "pt-pt/privacy-policy.html",
+    "ro/index.html",
+    "ro/privacy-policy.html",
+    "ru/index.html",
+    "ru/privacy-policy.html",
+    "script.js",
+    "site.webmanifest",
+    "sk/index.html",
+    "sk/privacy-policy.html",
+    "sl/index.html",
+    "sl/privacy-policy.html",
+    "sq/index.html",
+    "sq/privacy-policy.html",
+    "sr/index.html",
+    "sr/privacy-policy.html",
+    "styles.css",
+    "sv/index.html",
+    "sv/privacy-policy.html",
+    "th/index.html",
+    "th/privacy-policy.html",
+    "tr/index.html",
+    "tr/privacy-policy.html",
+    "uk/index.html",
+    "uk/privacy-policy.html",
+    "ur/index.html",
+    "ur/privacy-policy.html",
+    "vi/index.html",
+    "vi/privacy-policy.html",
+    "zh-hans/index.html",
+    "zh-hans/privacy-policy.html",
+    "zh-hant/index.html",
+    "zh-hant/privacy-policy.html"
+  ],
+  "visual_assets": {
+    "assets/screenshots/v1-5-11/main-converter-540.webp": {
+      "sha256": "31d7be25320fbb18c324aca8715927089755184333acc9958c76de396f7159c0",
+      "size": 120134,
+      "dimensions": [
+        540,
+        942
+      ],
+      "format": "WebP",
+      "canonical_source": "phone-frame-correction/b-with-ad-space/website/main-converter-540.webp",
+      "source_relationship": "User-approved B with empty ad reserve; unchanged raw V2 UI uniformly scaled; separate frame/mask sources retained"
+    },
+    "assets/screenshots/v1-5-11/main-converter-810.webp": {
+      "sha256": "6b99548a9d200df833a29db444fa603507f8101a34244dd5d5bc44afafc3d7b9",
+      "size": 239854,
+      "dimensions": [
+        810,
+        1413
+      ],
+      "format": "WebP",
+      "canonical_source": "phone-frame-correction/b-with-ad-space/website/main-converter-810.webp",
+      "source_relationship": "User-approved B with empty ad reserve; unchanged raw V2 UI uniformly scaled; separate frame/mask sources retained"
+    },
+    "assets/screenshots/v1-5-11/main-converter.webp": {
+      "sha256": "4f8af9e4dc8e41cf8ea36c68244407f34b01d10531c907b8eef272d42d2c6460",
+      "size": 371460,
+      "dimensions": [
+        1080,
+        1884
+      ],
+      "format": "WebP",
+      "canonical_source": "phone-frame-correction/b-with-ad-space/website/main-converter.webp",
+      "source_relationship": "User-approved B with empty ad reserve; unchanged raw V2 UI uniformly scaled; separate frame/mask sources retained"
+    },
+    "assets/screenshots/v1-5-11/actual-cost-540.webp": {
+      "sha256": "ab2600257850ab020076b5c8c071d55cfad0e7bc1db3706878d81b9402126ac6",
+      "size": 125834,
+      "dimensions": [
+        540,
+        942
+      ],
+      "format": "WebP",
+      "canonical_source": "phone-frame-correction/b-with-ad-space/website/actual-cost-540.webp",
+      "source_relationship": "User-approved B with empty ad reserve; unchanged raw V2 UI uniformly scaled; separate frame/mask sources retained"
+    },
+    "assets/screenshots/v1-5-11/actual-cost-810.webp": {
+      "sha256": "69f62f70ea0c8d742f1530b830adcd85aee2268aa31efb0dc91daccaf5704878",
+      "size": 251890,
+      "dimensions": [
+        810,
+        1413
+      ],
+      "format": "WebP",
+      "canonical_source": "phone-frame-correction/b-with-ad-space/website/actual-cost-810.webp",
+      "source_relationship": "User-approved B with empty ad reserve; unchanged raw V2 UI uniformly scaled; separate frame/mask sources retained"
+    },
+    "assets/screenshots/v1-5-11/actual-cost.webp": {
+      "sha256": "130a2ae2920d21e5b3bbcd6985c0b41dda418376c80ca59844047797368de1f0",
+      "size": 388438,
+      "dimensions": [
+        1080,
+        1884
+      ],
+      "format": "WebP",
+      "canonical_source": "phone-frame-correction/b-with-ad-space/website/actual-cost.webp",
+      "source_relationship": "User-approved B with empty ad reserve; unchanged raw V2 UI uniformly scaled; separate frame/mask sources retained"
+    },
+    "assets/screenshots/v1-5-11/travel-board-540.webp": {
+      "sha256": "c948f8a956963185a66d190168d967c5ef6893d382220caf58eef0107df9d6df",
+      "size": 119250,
+      "dimensions": [
+        540,
+        942
+      ],
+      "format": "WebP",
+      "canonical_source": "phone-frame-correction/b-with-ad-space/website/travel-board-540.webp",
+      "source_relationship": "User-approved B with empty ad reserve; unchanged raw V2 UI uniformly scaled; separate frame/mask sources retained"
+    },
+    "assets/screenshots/v1-5-11/travel-board-810.webp": {
+      "sha256": "ccbea461079a54d31719c1b6bdb621704fbf569e979f59ba48a0e652a4d78f04",
+      "size": 235594,
+      "dimensions": [
+        810,
+        1413
+      ],
+      "format": "WebP",
+      "canonical_source": "phone-frame-correction/b-with-ad-space/website/travel-board-810.webp",
+      "source_relationship": "User-approved B with empty ad reserve; unchanged raw V2 UI uniformly scaled; separate frame/mask sources retained"
+    },
+    "assets/screenshots/v1-5-11/travel-board.webp": {
+      "sha256": "f1c39b42466a3e6fc7a913044789735c95cbb2b71cb7c424e21b2e65d7d0f8c0",
+      "size": 362010,
+      "dimensions": [
+        1080,
+        1884
+      ],
+      "format": "WebP",
+      "canonical_source": "phone-frame-correction/b-with-ad-space/website/travel-board.webp",
+      "source_relationship": "User-approved B with empty ad reserve; unchanged raw V2 UI uniformly scaled; separate frame/mask sources retained"
+    },
+    "assets/screenshots/v1-5-11/saved-sets-540.webp": {
+      "sha256": "b87f654cc0fd4537ff2fa46abac37252ff4ec3fc12cf04b7394f098aed60b36b",
+      "size": 122074,
+      "dimensions": [
+        540,
+        942
+      ],
+      "format": "WebP",
+      "canonical_source": "phone-frame-correction/b-with-ad-space/website/saved-sets-540.webp",
+      "source_relationship": "User-approved B with empty ad reserve; unchanged raw V2 UI uniformly scaled; separate frame/mask sources retained"
+    },
+    "assets/screenshots/v1-5-11/saved-sets-810.webp": {
+      "sha256": "199e7a3490e24e1aaf583cefd6bcc60a12f9ca53f812d78f412b34898604ee19",
+      "size": 245958,
+      "dimensions": [
+        810,
+        1413
+      ],
+      "format": "WebP",
+      "canonical_source": "phone-frame-correction/b-with-ad-space/website/saved-sets-810.webp",
+      "source_relationship": "User-approved B with empty ad reserve; unchanged raw V2 UI uniformly scaled; separate frame/mask sources retained"
+    },
+    "assets/screenshots/v1-5-11/saved-sets.webp": {
+      "sha256": "f6b18b76773a2fb834ec7f135ef21f6d207ae26dd58401e333e98d7fa55bc4b5",
+      "size": 383900,
+      "dimensions": [
+        1080,
+        1884
+      ],
+      "format": "WebP",
+      "canonical_source": "phone-frame-correction/b-with-ad-space/website/saved-sets.webp",
+      "source_relationship": "User-approved B with empty ad reserve; unchanged raw V2 UI uniformly scaled; separate frame/mask sources retained"
+    },
+    "assets/icons/v1-5-11/app-icon-v1-5-11.png": {
+      "sha256": "85826126bfbe45d1f5331376ee40f47cd09cd3a34b262f9dc3dd12682efc50ab",
+      "size": 146417,
+      "dimensions": [
+        512,
+        512
+      ],
+      "format": "PNG",
+      "canonical_source": "site/icons/v1-5-11/app-icon-v1-5-11.png",
+      "source_relationship": "approved icon SHA-256 85826126bfbe45d1f5331376ee40f47cd09cd3a34b262f9dc3dd12682efc50ab"
+    },
+    "assets/icons/v1-5-11/icon-192.png": {
+      "sha256": "d786799f9d48ef201fe7d2ef9bfb8d83e123d157e19c74d98013c6fe7c2f2237",
+      "size": 21787,
+      "dimensions": [
+        192,
+        192
+      ],
+      "format": "PNG",
+      "canonical_source": "site/icons/v1-5-11/icon-192.png",
+      "source_relationship": "approved icon SHA-256 85826126bfbe45d1f5331376ee40f47cd09cd3a34b262f9dc3dd12682efc50ab"
+    },
+    "assets/icons/v1-5-11/apple-touch-icon-180.png": {
+      "sha256": "40f0490efe8fa5d9b2dac99f9e10a686f986845d6f88732a42ddb66a85421c84",
+      "size": 19495,
+      "dimensions": [
+        180,
+        180
+      ],
+      "format": "PNG",
+      "canonical_source": "site/icons/v1-5-11/apple-touch-icon-180.png",
+      "source_relationship": "approved icon SHA-256 85826126bfbe45d1f5331376ee40f47cd09cd3a34b262f9dc3dd12682efc50ab"
+    },
+    "assets/icons/v1-5-11/favicon-96.png": {
+      "sha256": "3f52060e77bacf0797ac85f688cb7a41cb859b36c4e9beb352fc9bc20ef4524e",
+      "size": 7141,
+      "dimensions": [
+        96,
+        96
+      ],
+      "format": "PNG",
+      "canonical_source": "site/icons/v1-5-11/favicon-96.png",
+      "source_relationship": "approved icon SHA-256 85826126bfbe45d1f5331376ee40f47cd09cd3a34b262f9dc3dd12682efc50ab"
+    },
+    "assets/icons/v1-5-11/favicon-48.png": {
+      "sha256": "0584223f9ce2340f18bfb2167d4ad1d091d03d0f1b49fdc406bd5acf9dc1b854",
+      "size": 2529,
+      "dimensions": [
+        48,
+        48
+      ],
+      "format": "PNG",
+      "canonical_source": "site/icons/v1-5-11/favicon-48.png",
+      "source_relationship": "approved icon SHA-256 85826126bfbe45d1f5331376ee40f47cd09cd3a34b262f9dc3dd12682efc50ab"
+    },
+    "assets/icons/v1-5-11/favicon-32.png": {
+      "sha256": "26216d0d98044b5caf29687fe5769d226f03d7a3fd07bf946b9e3409229cff65",
+      "size": 1443,
+      "dimensions": [
+        32,
+        32
+      ],
+      "format": "PNG",
+      "canonical_source": "site/icons/v1-5-11/favicon-32.png",
+      "source_relationship": "approved icon SHA-256 85826126bfbe45d1f5331376ee40f47cd09cd3a34b262f9dc3dd12682efc50ab"
+    },
+    "assets/og-v1-5-11.png": {
+      "sha256": "d117369a4b78fc695a96941cb0b8ece33302a8b41be15f0989f1b3742b56d392",
+      "size": 83032,
+      "dimensions": [
+        1200,
+        630
+      ],
+      "format": "PNG",
+      "canonical_source": "og/og-v1-5-11.png",
+      "source_relationship": "approved icon SHA-256 85826126bfbe45d1f5331376ee40f47cd09cd3a34b262f9dc3dd12682efc50ab; play-phone/01-converter-light.png"
+    },
+    "assets/app-icon.png": {
+      "sha256": "85826126bfbe45d1f5331376ee40f47cd09cd3a34b262f9dc3dd12682efc50ab",
+      "size": 146417,
+      "dimensions": [
+        512,
+        512
+      ],
+      "format": "PNG",
+      "canonical_source": "site/icons/v1-5-11/app-icon-v1-5-11.png",
+      "source_relationship": "Exact approved-icon compatibility alias; privacy HTML unchanged"
+    }
+  },
+  "files": {
+    ".github/workflows/indexnow.yml": {
+      "sha256": "899cba94d9534e4789b2e2e51b4b365b333e11ace8115b151430f91ee7dccd3c",
+      "size": 5645,
+      "hash_mode": "git-lf"
+    },
+    "1b4bd43e10a1c8cba47f779b1a7d218e.txt": {
+      "sha256": "0f664a2cad33176eea3cebd212bdd0a85c270a701583ad4cc295008920af2842",
+      "size": 33,
+      "hash_mode": "git-lf"
+    },
+    "CNAME": {
+      "sha256": "92a156253c3157feac5f4724047e86cf50078e14ebcfb8c2de13ac718a582af2",
+      "size": 19,
+      "hash_mode": "git-lf"
+    },
+    "README.md": {
+      "sha256": "a4ee57144c212541ed2a3cfa98608861a52d2f8d16c6dcad4bc94300ec374561",
+      "size": 60,
+      "hash_mode": "git-lf"
+    },
+    "analytics-core.mjs": {
+      "sha256": "9f306d65d65050d00361c0ddb78c56d02de82136aa877f06200ce4af78b4f8f1",
+      "size": 6434,
+      "hash_mode": "git-lf"
+    },
+    "analytics.js": {
+      "sha256": "91226266eab26c090b9ad5fb2a0d18f39871de3c76a34c2f9d5605e4ff9127aa",
+      "size": 5398,
+      "hash_mode": "git-lf"
+    },
+    "app-ads.txt": {
+      "sha256": "b5588bb8a7f7779602550ea91f744d84f2eddaa7b52728d89817af0d1d491ba6",
+      "size": 59,
+      "hash_mode": "git-lf"
+    },
+    "ar/index.html": {
+      "sha256": "11c029dc0b1f98ab04febdfa03d3ba0212a9d2836842cd9c0d8f2c63479380c2",
+      "size": 22259,
+      "hash_mode": "git-lf"
+    },
+    "ar/privacy-policy.html": {
+      "sha256": "a9d82a2eb2a2e0cb1d5ac2754fdf56face0d044b4de52f52f81e7adcb60d6db7",
+      "size": 21455,
+      "hash_mode": "git-lf"
+    },
+    "assets/app-icon.png": {
+      "sha256": "85826126bfbe45d1f5331376ee40f47cd09cd3a34b262f9dc3dd12682efc50ab",
+      "size": 146417,
+      "hash_mode": "binary"
+    },
+    "assets/balkan-converter-og-1200x630.png": {
+      "sha256": "2a4fedaa52eb885c186dc938f67cadc4db95ca6845bcbfa628642c2662395008",
+      "size": 668803,
+      "hash_mode": "binary"
+    },
+    "assets/icons/v1-5-11/app-icon-v1-5-11.png": {
+      "sha256": "85826126bfbe45d1f5331376ee40f47cd09cd3a34b262f9dc3dd12682efc50ab",
+      "size": 146417,
+      "hash_mode": "binary"
+    },
+    "assets/icons/v1-5-11/apple-touch-icon-180.png": {
+      "sha256": "40f0490efe8fa5d9b2dac99f9e10a686f986845d6f88732a42ddb66a85421c84",
+      "size": 19495,
+      "hash_mode": "binary"
+    },
+    "assets/icons/v1-5-11/favicon-32.png": {
+      "sha256": "26216d0d98044b5caf29687fe5769d226f03d7a3fd07bf946b9e3409229cff65",
+      "size": 1443,
+      "hash_mode": "binary"
+    },
+    "assets/icons/v1-5-11/favicon-48.png": {
+      "sha256": "0584223f9ce2340f18bfb2167d4ad1d091d03d0f1b49fdc406bd5acf9dc1b854",
+      "size": 2529,
+      "hash_mode": "binary"
+    },
+    "assets/icons/v1-5-11/favicon-96.png": {
+      "sha256": "3f52060e77bacf0797ac85f688cb7a41cb859b36c4e9beb352fc9bc20ef4524e",
+      "size": 7141,
+      "hash_mode": "binary"
+    },
+    "assets/icons/v1-5-11/icon-192.png": {
+      "sha256": "d786799f9d48ef201fe7d2ef9bfb8d83e123d157e19c74d98013c6fe7c2f2237",
+      "size": 21787,
+      "hash_mode": "binary"
+    },
+    "assets/og-v1-5-11.png": {
+      "sha256": "d117369a4b78fc695a96941cb0b8ece33302a8b41be15f0989f1b3742b56d392",
+      "size": 83032,
+      "hash_mode": "binary"
+    },
+    "assets/og.png": {
+      "sha256": "bc47bb5422c96d801afad759cfe4407e32df0d5f3306c6d8d7386f296ba53c65",
+      "size": 121726,
+      "hash_mode": "binary"
+    },
+    "assets/screenshots/actual-cost.webp": {
+      "sha256": "e98f8d69947f1f34b0392f89b6d707530a36452493ad583d6d8d9e6ee48857dd",
+      "size": 277798,
+      "hash_mode": "binary"
+    },
+    "assets/screenshots/main-converter.webp": {
+      "sha256": "8e35e568565f5c0f1dc9d349bd7c382b1ba4283279ce10bf3853ba32c26c0913",
+      "size": 267322,
+      "hash_mode": "binary"
+    },
+    "assets/screenshots/saved-sets.webp": {
+      "sha256": "a50bb0ac1968c207aff82ef95208287e76f057912086801b2ea2e438772b8c8f",
+      "size": 257764,
+      "hash_mode": "binary"
+    },
+    "assets/screenshots/travel-board.webp": {
+      "sha256": "0cff5cf29c2cece5564e4a9df2d46e614eea42c2ca11990b24f319af817d9887",
+      "size": 259850,
+      "hash_mode": "binary"
+    },
+    "assets/screenshots/v1-5-11/actual-cost-540.webp": {
+      "sha256": "ab2600257850ab020076b5c8c071d55cfad0e7bc1db3706878d81b9402126ac6",
+      "size": 125834,
+      "hash_mode": "binary"
+    },
+    "assets/screenshots/v1-5-11/actual-cost-810.webp": {
+      "sha256": "69f62f70ea0c8d742f1530b830adcd85aee2268aa31efb0dc91daccaf5704878",
+      "size": 251890,
+      "hash_mode": "binary"
+    },
+    "assets/screenshots/v1-5-11/actual-cost.webp": {
+      "sha256": "130a2ae2920d21e5b3bbcd6985c0b41dda418376c80ca59844047797368de1f0",
+      "size": 388438,
+      "hash_mode": "binary"
+    },
+    "assets/screenshots/v1-5-11/main-converter-540.webp": {
+      "sha256": "31d7be25320fbb18c324aca8715927089755184333acc9958c76de396f7159c0",
+      "size": 120134,
+      "hash_mode": "binary"
+    },
+    "assets/screenshots/v1-5-11/main-converter-810.webp": {
+      "sha256": "6b99548a9d200df833a29db444fa603507f8101a34244dd5d5bc44afafc3d7b9",
+      "size": 239854,
+      "hash_mode": "binary"
+    },
+    "assets/screenshots/v1-5-11/main-converter.webp": {
+      "sha256": "4f8af9e4dc8e41cf8ea36c68244407f34b01d10531c907b8eef272d42d2c6460",
+      "size": 371460,
+      "hash_mode": "binary"
+    },
+    "assets/screenshots/v1-5-11/saved-sets-540.webp": {
+      "sha256": "b87f654cc0fd4537ff2fa46abac37252ff4ec3fc12cf04b7394f098aed60b36b",
+      "size": 122074,
+      "hash_mode": "binary"
+    },
+    "assets/screenshots/v1-5-11/saved-sets-810.webp": {
+      "sha256": "199e7a3490e24e1aaf583cefd6bcc60a12f9ca53f812d78f412b34898604ee19",
+      "size": 245958,
+      "hash_mode": "binary"
+    },
+    "assets/screenshots/v1-5-11/saved-sets.webp": {
+      "sha256": "f6b18b76773a2fb834ec7f135ef21f6d207ae26dd58401e333e98d7fa55bc4b5",
+      "size": 383900,
+      "hash_mode": "binary"
+    },
+    "assets/screenshots/v1-5-11/travel-board-540.webp": {
+      "sha256": "c948f8a956963185a66d190168d967c5ef6893d382220caf58eef0107df9d6df",
+      "size": 119250,
+      "hash_mode": "binary"
+    },
+    "assets/screenshots/v1-5-11/travel-board-810.webp": {
+      "sha256": "ccbea461079a54d31719c1b6bdb621704fbf569e979f59ba48a0e652a4d78f04",
+      "size": 235594,
+      "hash_mode": "binary"
+    },
+    "assets/screenshots/v1-5-11/travel-board.webp": {
+      "sha256": "f1c39b42466a3e6fc7a913044789735c95cbb2b71cb7c424e21b2e65d7d0f8c0",
+      "size": 362010,
+      "hash_mode": "binary"
+    },
+    "bg/index.html": {
+      "sha256": "f4ea1e8d93dce1522815ed278cdbc8f8277f8c9b34832693ad2e2751986cf868",
+      "size": 23412,
+      "hash_mode": "git-lf"
+    },
+    "bg/privacy-policy.html": {
+      "sha256": "d4ffd46cd3e15e03bd3f4f51fe523647024a28104d88626bed8d783f097b32a8",
+      "size": 28335,
+      "hash_mode": "git-lf"
+    },
+    "bn/index.html": {
+      "sha256": "268a716bb12ed56ec7c8bba48a3ec512d63d369f80587b1406a0547fc8d788d2",
+      "size": 24512,
+      "hash_mode": "git-lf"
+    },
+    "bn/privacy-policy.html": {
+      "sha256": "d87430f3c4c972d2b391cdb5f13cb05de43278defb663e6a3c889e2a8c43d533",
+      "size": 26534,
+      "hash_mode": "git-lf"
+    },
+    "bs/index.html": {
+      "sha256": "39728f86cb58bc31a80101c6494351945e6ccd2cecb3189d0302726c6c6b546d",
+      "size": 20949,
+      "hash_mode": "git-lf"
+    },
+    "bs/privacy-policy.html": {
+      "sha256": "6cc94f5a4003b92514b997d59888c2bac6f27b727fc9abb1b5fa6eb0cdc28eea",
+      "size": 21235,
+      "hash_mode": "git-lf"
+    },
+    "cs/index.html": {
+      "sha256": "cc9ab62028e2d78c369c9cb9baf1f0779599bb7f96d5b1b2b60b469ddc110522",
+      "size": 21165,
+      "hash_mode": "git-lf"
+    },
+    "cs/privacy-policy.html": {
+      "sha256": "e07e8fa2f8e4d618ff767a5a8b8fa40fa8abdda327251a23e9a65b30dd0b93b6",
+      "size": 18959,
+      "hash_mode": "git-lf"
+    },
+    "da/index.html": {
+      "sha256": "b04102c84d3e0db28335b4037e49c6cbbb3bc9f404de0d20f34ba31f8e78727c",
+      "size": 20571,
+      "hash_mode": "git-lf"
+    },
+    "da/privacy-policy.html": {
+      "sha256": "4dfde66f0945b12df41b3eb692f23852a0bbd7a3498ffcb6e89763853cb72fe4",
+      "size": 18304,
+      "hash_mode": "git-lf"
+    },
+    "de/index.html": {
+      "sha256": "fa270e45ad5b632d97ea81aecc982af50a453427466f234872a0ab2b6b9bcc76",
+      "size": 21231,
+      "hash_mode": "git-lf"
+    },
+    "de/privacy-policy.html": {
+      "sha256": "dd422ad3b92e608186452f65156b38170add012945ca8acafc833fbdfcb674b7",
+      "size": 19307,
+      "hash_mode": "git-lf"
+    },
+    "el/index.html": {
+      "sha256": "d42323ba0a175ea69eee13555a4ecd35ec9a5c735a375d054f43267ba05fae80",
+      "size": 24097,
+      "hash_mode": "git-lf"
+    },
+    "el/privacy-policy.html": {
+      "sha256": "e9a5a1b1845848ec2ddfa5a1bb89d8c4ed450e293200aadc131c53fab267f7ad",
+      "size": 25121,
+      "hash_mode": "git-lf"
+    },
+    "es-419/index.html": {
+      "sha256": "9c03dc092a93340caecf5326620864d83a76f472706af15c042d6ffb39b0b4f4",
+      "size": 21111,
+      "hash_mode": "git-lf"
+    },
+    "es-419/privacy-policy.html": {
+      "sha256": "b0f8554b39ea2a04df9ba7618df1f3b1173d840a9160540826ba8e1861fcec8c",
+      "size": 19605,
+      "hash_mode": "git-lf"
+    },
+    "es-es/index.html": {
+      "sha256": "af6b3c7d27f00ebfa0f63b36efd57cf623858f0bdd62710b11e958d95cb2dfb4",
+      "size": 21134,
+      "hash_mode": "git-lf"
+    },
+    "es-es/privacy-policy.html": {
+      "sha256": "78ee6ae5670598e0326d3b63e872a4aeac8b02637c294b3451c9474a901b7d2f",
+      "size": 19544,
+      "hash_mode": "git-lf"
+    },
+    "fa/index.html": {
+      "sha256": "3fc932847772b8980ee6f4c872a58e28776487254aec761a0049d606cf364746",
+      "size": 22504,
+      "hash_mode": "git-lf"
+    },
+    "fa/privacy-policy.html": {
+      "sha256": "74d4bd2976c77a35d9204fa53d5bb423a10221f2772da5531e9627b2c44e3876",
+      "size": 22212,
+      "hash_mode": "git-lf"
+    },
+    "fi/index.html": {
+      "sha256": "e81413543c186c95b6e1130df46ed4e309d6d77428aa85177ff498a199df0de0",
+      "size": 21137,
+      "hash_mode": "git-lf"
+    },
+    "fi/privacy-policy.html": {
+      "sha256": "0e0f4899c7be91d538d4565ad4fb8f3d42f48d9ffe92e11ce5438d63435f45a1",
+      "size": 19165,
+      "hash_mode": "git-lf"
+    },
+    "fr/index.html": {
+      "sha256": "443f163c3a86de6bb46f2da17a10b2c72318e3ce99b270fbf8fc9129bdf97ccd",
+      "size": 21392,
+      "hash_mode": "git-lf"
+    },
+    "fr/privacy-policy.html": {
+      "sha256": "64ab92a9df139dee57536cd50a0767a5c0c0cf968e83f582c824ccbecf2ad8dd",
+      "size": 19860,
+      "hash_mode": "git-lf"
+    },
+    "he/index.html": {
+      "sha256": "b37235d346ff8863f21fbd904cf42a6133d614fed8459bcbef452d586ec83aa2",
+      "size": 22100,
+      "hash_mode": "git-lf"
+    },
+    "he/privacy-policy.html": {
+      "sha256": "a1c727289c76f20dba08a537650e29147152d69adbea1aba625293651bf3e876",
+      "size": 20871,
+      "hash_mode": "git-lf"
+    },
+    "hi/index.html": {
+      "sha256": "1a2fed7903f29e71ad3afa6bbde208982afd97fe764f74c9675e6e3938097cab",
+      "size": 23930,
+      "hash_mode": "git-lf"
+    },
+    "hi/privacy-policy.html": {
+      "sha256": "d64e219c74cb35e2d6e953d7b2f6e87a5de9fef833c9955d8413f295a29400d5",
+      "size": 25997,
+      "hash_mode": "git-lf"
+    },
+    "hr/index.html": {
+      "sha256": "e33901d3bf4ff15f7d723aeb87b3c0cd8c43b5f98429ec5ae25faf12dec2deba",
+      "size": 21028,
+      "hash_mode": "git-lf"
+    },
+    "hr/privacy-policy.html": {
+      "sha256": "076e57f1af9d4fe06d6b8e0fad6055d42545878e0bcdcf25a56a1c38f7304c51",
+      "size": 21274,
+      "hash_mode": "git-lf"
+    },
+    "hu/index.html": {
+      "sha256": "37868f8eb62649a5f95bf230c6179e7dc514f766cd6fe96b116c256594e3c503",
+      "size": 21389,
+      "hash_mode": "git-lf"
+    },
+    "hu/privacy-policy.html": {
+      "sha256": "963572ae62617dc2803829675a7716e1bdfa4882c7bf9c351421af0fd2004d66",
+      "size": 19969,
+      "hash_mode": "git-lf"
+    },
+    "id/index.html": {
+      "sha256": "b21266ee515e7a1127715e532c694a1dd188ba11483468e5854c5faf4ac3b762",
+      "size": 20767,
+      "hash_mode": "git-lf"
+    },
+    "id/privacy-policy.html": {
+      "sha256": "cdf211ef118c65b2420bac52ee15da33fc6e887d6845424a2cfaeb121875e966",
+      "size": 18745,
+      "hash_mode": "git-lf"
+    },
+    "index.html": {
+      "sha256": "9db11f54861ea77f14f8c77a912510352cbead4f4fa20cd667fba297c4892509",
+      "size": 21091,
+      "hash_mode": "git-lf"
+    },
+    "is/index.html": {
+      "sha256": "abdaf843ce3e9771cdc9e1134bedd04b7998b928f29dfeda4fc1a3363a36b790",
+      "size": 21099,
+      "hash_mode": "git-lf"
+    },
+    "is/privacy-policy.html": {
+      "sha256": "6c379f089087ac9e3eca72286e112ba10662e22b59518839ec3e2d61b589deab",
+      "size": 18783,
+      "hash_mode": "git-lf"
+    },
+    "it/index.html": {
+      "sha256": "32685eab6c6d5c99c6eab040b1d3869145fce2981ca32a5e6504cffd773aaa42",
+      "size": 21061,
+      "hash_mode": "git-lf"
+    },
+    "it/privacy-policy.html": {
+      "sha256": "29e67e713e04df62694699f0786358f887af72228d52c31264533cd3372d4e03",
+      "size": 19113,
+      "hash_mode": "git-lf"
+    },
+    "ja/index.html": {
+      "sha256": "019bff6c620d7b6c1860790ec678e7c7bac74474a7f6b7c01d080e86594bd808",
+      "size": 21325,
+      "hash_mode": "git-lf"
+    },
+    "ja/privacy-policy.html": {
+      "sha256": "8f865f5d546bf9373766cd8c8b5df1585ecaf8e5ff0d7042bdf835741a0d0b7d",
+      "size": 20291,
+      "hash_mode": "git-lf"
+    },
+    "ko/index.html": {
+      "sha256": "19986bc58055dd14c7ed5067ec6794532aff2c1225c0106b33bb5a3fb2c5a64b",
+      "size": 20964,
+      "hash_mode": "git-lf"
+    },
+    "ko/privacy-policy.html": {
+      "sha256": "55b0ec59ba7d3d5564b789168daad1ac856672181a5dfd20c95f451026c34f04",
+      "size": 19165,
+      "hash_mode": "git-lf"
+    },
+    "mk/index.html": {
+      "sha256": "a4f3df39cd3e035555c11bdbb34ea86b641658a8ec8a0fb60646f975d6d52e0a",
+      "size": 23544,
+      "hash_mode": "git-lf"
+    },
+    "mk/privacy-policy.html": {
+      "sha256": "f73400008e38d94749c65eedaa8d70c8053325265c528f0f8203a5d81b0d0eb0",
+      "size": 28364,
+      "hash_mode": "git-lf"
+    },
+    "ms/index.html": {
+      "sha256": "024b0535739506ab36e384373a293e204f196e68a9b978573037df7f41fb40de",
+      "size": 20728,
+      "hash_mode": "git-lf"
+    },
+    "ms/privacy-policy.html": {
+      "sha256": "58b4217ed42999d24a018ab6ce36301a10ea2bdd4dee447b2acd6cbbd06c8265",
+      "size": 18698,
+      "hash_mode": "git-lf"
+    },
+    "nb/index.html": {
+      "sha256": "0a083158c7853718d5a43873aec4e3cad076618cfc1a26d579e62739e8ad312e",
+      "size": 20580,
+      "hash_mode": "git-lf"
+    },
+    "nb/privacy-policy.html": {
+      "sha256": "554135194117d08d88284be39764c7339c97346cbf89649485537d666e43f22a",
+      "size": 18213,
+      "hash_mode": "git-lf"
+    },
+    "nl/index.html": {
+      "sha256": "e012a8fefed7b77dc7feeedb3fa2423b86f32535d8afb16bb9259a48b6929c3b",
+      "size": 20954,
+      "hash_mode": "git-lf"
+    },
+    "nl/privacy-policy.html": {
+      "sha256": "ce1a89ca1a7e6fbc5a2265870b49b04b563621a1d360435cfeec9acb2f2ca5c1",
+      "size": 18871,
+      "hash_mode": "git-lf"
+    },
+    "pl/index.html": {
+      "sha256": "74d183d2aa77fbb83e753567b5a33a587605524098a484b94dc6c7e643664708",
+      "size": 21039,
+      "hash_mode": "git-lf"
+    },
+    "pl/privacy-policy.html": {
+      "sha256": "657d8bb5fe60b9662972b1390a7a05cd4c1255466e5025ddfb687ed2d864dc50",
+      "size": 19253,
+      "hash_mode": "git-lf"
+    },
+    "privacy-policy.html": {
+      "sha256": "e6b7880e26660936aa25709577d65e0ff72a0eb1ed26ba58dce9863c6b92681e",
+      "size": 20711,
+      "hash_mode": "git-lf"
+    },
+    "pt-br/index.html": {
+      "sha256": "acafa0cb302e8f3545b10078286413bc69b4576f32a45236b7596cb215d85611",
+      "size": 20906,
+      "hash_mode": "git-lf"
+    },
+    "pt-br/privacy-policy.html": {
+      "sha256": "bc5e29205bfa2ea7f4c27d52a5dfc5b1c826195e58eafd883de112f6e997b673",
+      "size": 19203,
+      "hash_mode": "git-lf"
+    },
+    "pt-pt/index.html": {
+      "sha256": "a9ee15af9dcd1fc02baf1f1f2c012f4ae8254bf9cf07748a1a2d9d1d171f7fbf",
+      "size": 21056,
+      "hash_mode": "git-lf"
+    },
+    "pt-pt/privacy-policy.html": {
+      "sha256": "6cf6ab8965f796b2411756c0b672b5ee3570b960cde15d17262493c06a5a1da7",
+      "size": 19452,
+      "hash_mode": "git-lf"
+    },
+    "ro/index.html": {
+      "sha256": "cf69000c313e102f03d9c3bdef377366482eec2f14de943ad19be4b93b75efc9",
+      "size": 21113,
+      "hash_mode": "git-lf"
+    },
+    "ro/privacy-policy.html": {
+      "sha256": "bc11e68662ded5a8de6c3ea73c1136a5d595005670868d1e9720f319baddcd1a",
+      "size": 19547,
+      "hash_mode": "git-lf"
+    },
+    "robots.txt": {
+      "sha256": "dc40b3337d1bff509a00b3f2e415c9953d6334952e22c16ab339bdc25fb1578a",
+      "size": 73,
+      "hash_mode": "git-lf"
+    },
+    "ru/index.html": {
+      "sha256": "14102b4fb273d8f2b1664d12ba7aea6d4ecc3de21d21a098cc40552460e9912c",
+      "size": 23618,
+      "hash_mode": "git-lf"
+    },
+    "ru/privacy-policy.html": {
+      "sha256": "38eb4f2756d902f62e8d234c6b5416005cbeacd34aeaca6fa2715f3c193c0cfa",
+      "size": 23805,
+      "hash_mode": "git-lf"
+    },
+    "script.js": {
+      "sha256": "7f6558a7ab08d1ba5d8867c68ae2c70cf3af00cceb68866c419b0d8b377c0371",
+      "size": 1068,
+      "hash_mode": "git-lf"
+    },
+    "site-locales.json": {
+      "sha256": "1f06c6fd12c9392f86e1bad5b2fdfb2ba7497e588478ab01d8dc4f344895a50f",
+      "size": 15547,
+      "hash_mode": "git-lf"
+    },
+    "site.webmanifest": {
+      "sha256": "0ad802bb0d09895f56bfc2c7d510701d0f80918b5454399d57cb98fcf6ae620a",
+      "size": 417,
+      "hash_mode": "git-lf"
+    },
+    "sitemap.xml": {
+      "sha256": "f29030eb1c09986c113d66d138a7c681233457d19d979e18e8dd67590054f003",
+      "size": 396897,
+      "hash_mode": "git-lf"
+    },
+    "sk/index.html": {
+      "sha256": "7be971911f0971d130b964b45ad1b15252358a8278cced2f64f6a2aa333803f1",
+      "size": 21229,
+      "hash_mode": "git-lf"
+    },
+    "sk/privacy-policy.html": {
+      "sha256": "1d187ace3adfe9f3de01c0a7b7dc1d9f7e9d8079f0d6ed66c41d3831c535e2e4",
+      "size": 19092,
+      "hash_mode": "git-lf"
+    },
+    "sl/index.html": {
+      "sha256": "fe91241398381c1178517871ddafc57fe2cdd65294cc59a9f41d21ac4f0d9a96",
+      "size": 21053,
+      "hash_mode": "git-lf"
+    },
+    "sl/privacy-policy.html": {
+      "sha256": "ed226220ec226e1bc048e2c231d8cca86a0e24bdd3db9a2e0ba6478cafb90add",
+      "size": 18741,
+      "hash_mode": "git-lf"
+    },
+    "sq/index.html": {
+      "sha256": "033a79c6d877274b0c7bf58b484049764e9b41ea1f0d22c3d526f59506eda80b",
+      "size": 21286,
+      "hash_mode": "git-lf"
+    },
+    "sq/privacy-policy.html": {
+      "sha256": "95d1f043d4e828b245712d9869c6b363ad6999829c21f123da271ff5b8eb13cd",
+      "size": 23036,
+      "hash_mode": "git-lf"
+    },
+    "sr/index.html": {
+      "sha256": "b79a6412e3db813c00a0a03161016655d2d5e0f15c1cca64dc1d1171ee789439",
+      "size": 23102,
+      "hash_mode": "git-lf"
+    },
+    "sr/privacy-policy.html": {
+      "sha256": "2dd22d9d6a01f9e94713583a933b78ae713a801cc73b10f8064929aaee4ef178",
+      "size": 27100,
+      "hash_mode": "git-lf"
+    },
+    "styles.css": {
+      "sha256": "ace2a13b299a10a5810c4d080ce5a46a6ab6ca09ac226616cb77e2c46e93705a",
+      "size": 16388,
+      "hash_mode": "git-lf"
+    },
+    "sv/index.html": {
+      "sha256": "ad634b7b4e39993539e7242f92c12926874da99c416366843451bb04270ae438",
+      "size": 20662,
+      "hash_mode": "git-lf"
+    },
+    "sv/privacy-policy.html": {
+      "sha256": "a4d950b4eab4710649b0e56ba6c24371f0a314435a55c7bba20dac9437a26158",
+      "size": 18399,
+      "hash_mode": "git-lf"
+    },
+    "tests/analytics-qa-isolation.test.mjs": {
+      "sha256": "c5cc3e4930d3e6e0e7c251da3565a18beaf67b856455cefabe06d0e946053f3f",
+      "size": 24806,
+      "hash_mode": "git-lf"
+    },
+    "tests/basic-consent-mode-v2.test.mjs": {
+      "sha256": "da851e1a3ddf11de2d95664a0adb86b70432ac5657f3d5c9e19fc1dbc3ad6064",
+      "size": 6926,
+      "hash_mode": "git-lf"
+    },
+    "tests/generator-idempotence.test.mjs": {
+      "sha256": "b1a7a8afa4bddb130b053a351230ddd05de4afbeabeb39cd29425cd88cf5482b",
+      "size": 9918,
+      "hash_mode": "git-lf"
+    },
+    "tests/privacy-policy-phase1d.test.mjs": {
+      "sha256": "e07f7521209e20fd89122e35cc6d7a2a59a489f168e57f5f06700edf233a42c0",
+      "size": 18397,
+      "hash_mode": "git-lf"
+    },
+    "tests/visual-refresh.test.mjs": {
+      "sha256": "554d738f441fe234c0cdd7f0b952e30d9ce9e7581b52c08d181d6e19b436b7ad",
+      "size": 4395,
+      "hash_mode": "git-lf"
+    },
+    "th/index.html": {
+      "sha256": "5dfb0727d3ec8c76f63dff5c89fc8cbfe2cdc36c26d7b64cf78b907b9a0520ca",
+      "size": 25057,
+      "hash_mode": "git-lf"
+    },
+    "th/privacy-policy.html": {
+      "sha256": "2996307e2253c1467680af7611d41127f25a99af1a12efa640ae1647d12d1fef",
+      "size": 26498,
+      "hash_mode": "git-lf"
+    },
+    "tools/check-locales.mjs": {
+      "sha256": "db77b7905e4d005969b812a7a86df8b6fdecdf9670d93c5c41c6d42c12d40a7b",
+      "size": 7426,
+      "hash_mode": "git-lf"
+    },
+    "tools/generated-json.mjs": {
+      "sha256": "86496570e75529af15984ebae00b125f763c12e4dc480c916eef3b573ca134fc",
+      "size": 4389,
+      "hash_mode": "git-lf"
+    },
+    "tools/localize-site.mjs": {
+      "sha256": "b0a07ee26ab3cfa1dd5fa3feec4d92b9f7a7e7b16fafd5946a949c3c60a0ac8e",
+      "size": 23903,
+      "hash_mode": "git-lf"
+    },
+    "tools/privacy-policy-phase1d-supplement.json": {
+      "sha256": "60895d55e265e4534054e9e60c1ffc63c19de546e71715ae85210d04a1ffc151",
+      "size": 23008,
+      "hash_mode": "git-lf"
+    },
+    "tools/privacy-policy-phase1d.json": {
+      "sha256": "904cbbfd7431eb88b9b37fe2a74f1167787cbee70b8d0ea1f9d10f1eb5926032",
+      "size": 160894,
+      "hash_mode": "git-lf"
+    },
+    "tools/production-strings.json": {
+      "sha256": "3521bf638cda8375c757199763430f63b867ae2a6bbae1736bad0ba2ebaeaf3f",
+      "size": 11421,
+      "hash_mode": "git-lf"
+    },
+    "tools/refresh-home-visuals.mjs": {
+      "sha256": "cc454c2840895970f5eb482b1a956ac38008fe8fba8a6a80ff13fdb21a6fd04c",
+      "size": 3965,
+      "hash_mode": "git-lf"
+    },
+    "tools/templates/index.html": {
+      "sha256": "407e4b298e66f40e00a832746f9f8d8be1654ad1886cc1ed480ddc66d355d9ae",
+      "size": 13476,
+      "hash_mode": "git-lf"
+    },
+    "tools/templates/privacy-policy.html": {
+      "sha256": "aa1ee5d52a7f80bf1fdae65cbddb054f20d6d49ec01339e97a70561b1133a36a",
+      "size": 11092,
+      "hash_mode": "git-lf"
+    },
+    "tools/validate-active-release.py": {
+      "sha256": "b91696005f846e38a774f2955cccfb05ab3bde7757d6b835d760419bfef61363",
+      "size": 14076,
+      "hash_mode": "git-lf"
+    },
+    "tools/visual-refresh-integrity.json": {
+      "sha256": "6638be458f784fd1d08ec4e0f72df5708b21bd3155d7547754b59b4e07022648",
+      "size": 1550,
+      "hash_mode": "git-lf"
+    },
+    "tools/web-copy.json": {
+      "sha256": "1988882ceb1b249b7dcadfd7d0c5f3ed9589035950418bf7e668329863ffe069",
+      "size": 55872,
+      "hash_mode": "git-lf"
+    },
+    "tr/index.html": {
+      "sha256": "06d24f36cb5fe3b61d1437682883394fcdf10eb7e424747647a2c74f42c05869",
+      "size": 21408,
+      "hash_mode": "git-lf"
+    },
+    "tr/privacy-policy.html": {
+      "sha256": "0e218dc01bf278ba4dbc0d382315596645db29e7a75c8de4a5605d2790e66432",
+      "size": 19150,
+      "hash_mode": "git-lf"
+    },
+    "uk/index.html": {
+      "sha256": "1e9e9155a976ff1a5bfa855607d5546b7836c1d925b1c5f08a7ed9fd40583953",
+      "size": 23498,
+      "hash_mode": "git-lf"
+    },
+    "uk/privacy-policy.html": {
+      "sha256": "0bb217627a9e54260eefdb50ff94c5e57243e1b4e744278dfafc3ba30a612a82",
+      "size": 23341,
+      "hash_mode": "git-lf"
+    },
+    "ur/index.html": {
+      "sha256": "4a363c4e220aa0641f2faf59ef0e4e26b89c220f2c22a008d250042190f18a02",
+      "size": 22411,
+      "hash_mode": "git-lf"
+    },
+    "ur/privacy-policy.html": {
+      "sha256": "79bf19b804199b79fcb9fedce306cf014eebd37d16599cbfa22b23e7beeea614",
+      "size": 22092,
+      "hash_mode": "git-lf"
+    },
+    "vi/index.html": {
+      "sha256": "8cfe76580483a49cd0ae3e0ecd931a9a8ddcba43acff6fac99b9953e416c2011",
+      "size": 21618,
+      "hash_mode": "git-lf"
+    },
+    "vi/privacy-policy.html": {
+      "sha256": "0099edbea53930cd4443bbaa0679ae66fc811bc6d312627d853209313df3c592",
+      "size": 20603,
+      "hash_mode": "git-lf"
+    },
+    "yandex_313487399cecc4f0.html": {
+      "sha256": "45ed7b73d16cb142b95d420d24483f6790c833e5d6880c03d6891ace5eca595f",
+      "size": 152,
+      "hash_mode": "git-lf"
+    },
+    "zh-hans/index.html": {
+      "sha256": "b77feb4d0cdefaac867f8d008a84f16abc6ea08e151cb93f38df2bc6307621a4",
+      "size": 20453,
+      "hash_mode": "git-lf"
+    },
+    "zh-hans/privacy-policy.html": {
+      "sha256": "99ea28b78ebfd4d1c5eee7e7d61753287caf03b7bf6b69920cf8d5cb0c8c19ed",
+      "size": 17885,
+      "hash_mode": "git-lf"
+    },
+    "zh-hant/index.html": {
+      "sha256": "fddc846056e40584c52a49da1796e9506a1869c993b541afb490fced8757e16a",
+      "size": 20519,
+      "hash_mode": "git-lf"
+    },
+    "zh-hant/privacy-policy.html": {
+      "sha256": "a2df4278fde8ea8a289a07d58637a01267c30ebdc6bce74fc8b3b20fae051318",
+      "size": 18053,
+      "hash_mode": "git-lf"
+    }
+  },
+  "previous_canonical_visual_manifest_sha256": "f201f0de64327081f82f4249fd77a2774879977c94f727a1b81cd613f6ab400d",
+  "approved_frame_revision": {
+    "name": "B with empty advertising reserve",
+    "approval_date": "2026-08-31",
+    "source_metadata_sha256": "856fd6158425ef827d1039f84c1ddbb1284f5596aac37f45496336b88571c5c2",
+    "source_frame_sha256": "f603fc0f33235b54b3cb437bd8efa39a440caa9d2ba82fa55fc8896d75b9c467",
+    "native_blank_height": 118,
+    "source_metadata": "phone-frame-correction/b-with-ad-space/reports/ASSET_VERIFICATION.json"
+  }
+}

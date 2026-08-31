@@ -7,7 +7,7 @@ import test from 'node:test';
 import { promisify } from 'node:util';
 
 const root = path.resolve(import.meta.dirname, '..');
-const androidRoot = path.resolve(root, '..');
+const androidRoot = path.resolve(process.env.ANDROID_SOURCE_ROOT || path.join(root, '..'));
 const execFileAsync = promisify(execFile);
 const manifest = JSON.parse(await fs.readFile(path.join(root, 'site-locales.json'), 'utf8'));
 const baseCopy = JSON.parse(await fs.readFile(path.join(root, 'tools', 'privacy-policy-phase1d.json'), 'utf8'));
@@ -245,6 +245,32 @@ test('publication manifest has exactly 107 current, scoped entries', async () =>
     }
     acceptedSupersessions.set(key, entry);
   }
+  // Website-only visual work may supersede generator/test bytes without changing
+  // the historical policy publication manifest or any legal-copy output.
+  // Pin both the previously accepted digest and the new digest; unknown changes
+  // still fail, and the original accepted commit is authenticated above.
+  const visualSupersessions = JSON.parse(await fs.readFile(path.join(root,
+    'tools', 'visual-refresh-integrity.json'), 'utf8'));
+  assert.equal(visualSupersessions.schemaVersion, 1);
+  assert.deepEqual(visualSupersessions.files.map(entry => entry.file).sort(),
+    ['tests/privacy-policy-phase1d.test.mjs', 'tools/localize-site.mjs', 'tools/production-strings.json']);
+  for (const entry of visualSupersessions.files) {
+    const key = `Website:${entry.file}`;
+    const originalRow = markdown.split(/\r?\n/)
+      .find(line => line.startsWith(`|Website|${entry.file}|`));
+    assert.ok(originalRow, `missing historical visual entry:${key}`);
+    const historicalSha256 = originalRow.slice(1, -1).split('|')[5];
+    const previous = acceptedSupersessions.get(key) ?? {
+      historicalSha256, acceptedSha256: historicalSha256
+    };
+    assert.ok(previous, `missing previous acceptance:${key}`);
+    assert.equal(entry.previousAcceptedSha256, previous.acceptedSha256,
+      `previous visual acceptance:${key}`);
+    assert.match(entry.acceptedSha256, /^[a-f0-9]{64}$/);
+    assert.notEqual(entry.acceptedSha256, previous.acceptedSha256);
+    assert.ok(entry.reason.length >= 20, `missing visual change reason:${key}`);
+    acceptedSupersessions.set(key, { ...previous, acceptedSha256: entry.acceptedSha256 });
+  }
   const rows = markdown.split(/\r?\n/)
     .filter(line => line.startsWith('|Android|') || line.startsWith('|Website|'))
     .map(line => line.slice(1, -1).split('|'));
@@ -252,13 +278,44 @@ test('publication manifest has exactly 107 current, scoped entries', async () =>
   const policyUrls = [];
   const androidLocales = [];
   const usedSupersessions = new Set();
+  // These seven preserved pages were already published by this fixed commit,
+  // but its final bytes were not captured by the earlier publication manifest.
+  // Check the immutable published blob, never HEAD or a newly generated policy.
+  const publishedPolicyCommit = '45c953fb8a116c114e1072f8d280e4c7ab9d2fab';
+  const preservedPolicyFiles = new Set(['privacy-policy.html', ...
+    ['sr', 'bs', 'hr', 'sq', 'mk', 'bg'].map(locale => `${locale}/privacy-policy.html`)]);
+  // Production 1.5 (11) additionally capitalized the standalone Russian title
+  // and updated the tracked operational audit document. Keep these pinned to the
+  // production source commit; do not accept arbitrary current Android changes.
+  const productionSourceCommit = '84ab517f24732f833d2c6b57629a840795cc6cd1';
+  const productionEvidenceFiles = new Set(['app/src/main/res/values-ru/strings.xml',
+    'docs/PRIVACY_DATA_SAFETY.md']);
   for (const row of rows) {
     assert.equal(row.length, 10, `manifest columns:${row[1]}`);
     const [repository, file, sourceOrGenerated, locale, publicUrl, expectedSha] = row;
     assert.match(sourceOrGenerated, /source|generated|generator|template|validation|draft/i);
     const repositoryRoot = repository === 'Android' ? androidRoot : root;
     const absolute = path.join(repositoryRoot, ...file.split('/'));
-    const digest = crypto.createHash('sha256').update(await fs.readFile(absolute)).digest('hex');
+    const bytes = await fs.readFile(absolute);
+    // This manifest pins Git text blobs. Windows core.autocrlf may change only
+    // checkout line endings; compare canonical LF without rewriting any files.
+    const manifestContent = repository === 'Website' || productionEvidenceFiles.has(file)
+      ? Buffer.from(bytes.toString('utf8').replaceAll('\r\n', '\n'), 'utf8')
+      : bytes;
+    const digest = crypto.createHash('sha256').update(manifestContent).digest('hex');
+    const pinnedCommit = repository === 'Website' && preservedPolicyFiles.has(file)
+      ? publishedPolicyCommit
+      : repository === 'Android' && productionEvidenceFiles.has(file) ? productionSourceCommit : null;
+    if (pinnedCommit) {
+      const { stdout } = await execFileAsync('git', [
+        '-c', `safe.directory=${repositoryRoot.replaceAll('\\', '/')}`,
+        'show', `${pinnedCommit}:${file}`
+      ], { cwd: repositoryRoot, encoding: 'buffer', maxBuffer: 10 * 1024 * 1024 });
+      const publishedDigest = crypto.createHash('sha256').update(stdout).digest('hex');
+      if (publishedDigest !== expectedSha) acceptedSupersessions.set(`${repository}:${file}`, {
+        historicalSha256: expectedSha, acceptedSha256: publishedDigest
+      });
+    }
     assertAcceptedManifestDigest({
       repository, file, expectedSha, actualSha: digest,
       acceptedSupersessions, usedSupersessions

@@ -3,8 +3,13 @@
   "short_name": "Balkan Currency",
   "icons": [
     {
-      "src": "assets/app-icon.png",
+      "src": "assets/icons/v1-5-11/app-icon-v1-5-11.png",
       "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/icons/v1-5-11/icon-192.png",
+      "sizes": "192x192",
       "type": "image/png"
     }
   ],

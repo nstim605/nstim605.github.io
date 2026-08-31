@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "task": "Authorized website-only visual refresh for Balkan Converter 1.5 (11), 2026-08-31",
+  "files": [
+    {
+      "file": "tools/localize-site.mjs",
+      "previousAcceptedSha256": "e48afce43f461b59313168609c45f286ee15a287131a7ff2e395bdefb9d034ae",
+      "acceptedSha256": "b0a07ee26ab3cfa1dd5fa3feec4d92b9f7a7e7b16fafd5946a949c3c60a0ac8e",
+      "reason": "Use version-neutral homepage screenshot alt keys and an explicit read-only Android source path; policy generation and legal copy are unchanged."
+    },
+    {
+      "file": "tests/privacy-policy-phase1d.test.mjs",
+      "previousAcceptedSha256": "c751ae27e8299221b46ed7ba873d993f9cff4c2e75858265a0652919a298b122",
+      "acceptedSha256": "e07f7521209e20fd89122e35cc6d7a2a59a489f168e57f5f06700edf233a42c0",
+      "reason": "Allow an explicit Android source path and canonical Git LF hashes; authenticate visual-source changes; pin existing published policy pages to commit 45c953f and the previously approved Russian title/operational evidence to production commit 84ab517. No historical manifest, Android source or legal copy is modified."
+    },
+    {
+      "file": "tools/production-strings.json",
+      "previousAcceptedSha256": "01a120bc05f9d22ec2e8fff73f05aacd9d2466d3237b6bca41c9f013b65d2881",
+      "acceptedSha256": "3521bf638cda8375c757199763430f63b867ae2a6bbae1736bad0ba2ebaeaf3f",
+      "reason": "Replace only two obsolete homepage screenshot alt strings in the generated source inventory; the entire privacyPolicy inventory is unchanged."
+    }
+  ]
+}

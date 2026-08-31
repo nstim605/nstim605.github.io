@@ -3,7 +3,7 @@ import path from 'node:path';
 import { createRunTimestamp, writeGeneratedJson } from './generated-json.mjs';
 
 const root = path.resolve(import.meta.dirname, '..');
-const androidRoot = path.resolve(root, '..');
+const androidRoot = path.resolve(process.env.ANDROID_SOURCE_ROOT || path.join(root, '..'));
 const getRunTimestamp = createRunTimestamp();
 // The English production homepage contains separately approved metadata that is
 // intentionally newer than the localization template. Never overwrite it while
@@ -118,8 +118,8 @@ function localMap(strings, copy) {
     'Inside the app': copy.seeApp,
     'A clear view of every conversion': copy.screenshots,
     'Real screens from Balkan Currency Converter on Android.': strings.about_description,
-    'Balkan Currency Converter 1.4 main converter with calculator keypad': `${copy.seeApp}: ${calculator}`,
-    'Balkan Currency Converter 1.4 main conversion screen showing euros and US dollars': `${brand}: ${strings.select_currency}`,
+    'Balkan Currency Converter main converter with calculator keypad': `${copy.seeApp}: ${calculator}`,
+    'Balkan Currency Converter main conversion screen showing euros and Serbian dinars': `${brand}: ${strings.select_currency}`,
     'Convert and calculate': calculator,
     'Rates and arithmetic in one place': strings.about_description,
     'Actual Cost screen comparing an exchange quote and fees with the reference rate': strings.actual_cost_explanation,
