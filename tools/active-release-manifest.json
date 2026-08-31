@@ -2,7 +2,7 @@
   "schema": 1,
   "release": "Balkan Converter website visual refresh 1.5 (11)",
   "baseline_commit": "5390a8a650fe6f843a738a691d1232d8d064c6f7",
-  "rationale": "Exact source allowlist; user-approved B with empty advertising reserve preserves all visual assets. Authorized heading layout and standalone privacy-title capitalization are separately recorded; all other protected baseline bytes and legal bodies remain unchanged. Historical evidence assertions remain separate and unchanged.",
+  "rationale": "Exact source allowlist; user-approved B with empty advertising reserve remains the frame baseline. The user-authorized Honor-proportion publication revision replaces only the clean Main Converter and Saved Sets responsive assets; Actual Cost and Travel Board remain byte-identical because their new captures contain clipping. Authorized heading layout and standalone privacy-title capitalization are separately recorded; all other protected baseline bytes and legal bodies remain unchanged. Historical evidence assertions remain separate and unchanged.",
   "canonical_visual_manifest_sha256": "b916b2682431819f4dfd63de8940b5a659900184867edf9df0a29bfff2b7ce17",
   "locales": [
     "en",
@@ -329,37 +329,37 @@
   ],
   "visual_assets": {
     "assets/screenshots/v1-5-11/main-converter-540.webp": {
-      "sha256": "31d7be25320fbb18c324aca8715927089755184333acc9958c76de396f7159c0",
-      "size": 120134,
+      "sha256": "f1688b55827d254088aeb3d02a12c061c024768dbee8a8d7b6942a3a1c359025",
+      "size": 104640,
       "dimensions": [
         540,
         942
       ],
       "format": "WebP",
-      "canonical_source": "phone-frame-correction/b-with-ad-space/website/main-converter-540.webp",
-      "source_relationship": "User-approved B with empty ad reserve; unchanged raw V2 UI uniformly scaled; separate frame/mask sources retained"
+      "canonical_source": "honor-proportions/website/main-converter-540.webp",
+      "source_relationship": "User-approved Honor-like proportions with the approved B empty ad reserve; clean unchanged raw V2 UI; deterministic 540 px export"
     },
     "assets/screenshots/v1-5-11/main-converter-810.webp": {
-      "sha256": "6b99548a9d200df833a29db444fa603507f8101a34244dd5d5bc44afafc3d7b9",
-      "size": 239854,
+      "sha256": "a8efd9dff9ac18dcbaaa3143fab65dcb667d6ce69c6a8536d8eb630ccc156fe2",
+      "size": 203492,
       "dimensions": [
         810,
         1413
       ],
       "format": "WebP",
-      "canonical_source": "phone-frame-correction/b-with-ad-space/website/main-converter-810.webp",
-      "source_relationship": "User-approved B with empty ad reserve; unchanged raw V2 UI uniformly scaled; separate frame/mask sources retained"
+      "canonical_source": "honor-proportions/website/main-converter-810.webp",
+      "source_relationship": "User-approved Honor-like proportions with the approved B empty ad reserve; clean unchanged raw V2 UI; deterministic 810 px export"
     },
     "assets/screenshots/v1-5-11/main-converter.webp": {
-      "sha256": "4f8af9e4dc8e41cf8ea36c68244407f34b01d10531c907b8eef272d42d2c6460",
-      "size": 371460,
+      "sha256": "535ec632eaca6aa3884ed504d0cf83014b7ab1737e30e6044713621309a701e8",
+      "size": 312514,
       "dimensions": [
         1080,
         1884
       ],
       "format": "WebP",
-      "canonical_source": "phone-frame-correction/b-with-ad-space/website/main-converter.webp",
-      "source_relationship": "User-approved B with empty ad reserve; unchanged raw V2 UI uniformly scaled; separate frame/mask sources retained"
+      "canonical_source": "honor-proportions/website/main-converter.webp",
+      "source_relationship": "User-approved Honor-like proportions with the approved B empty ad reserve; clean unchanged raw V2 UI; deterministic 1080 px export"
     },
     "assets/screenshots/v1-5-11/actual-cost-540.webp": {
       "sha256": "ab2600257850ab020076b5c8c071d55cfad0e7bc1db3706878d81b9402126ac6",
@@ -428,37 +428,37 @@
       "source_relationship": "User-approved B with empty ad reserve; unchanged raw V2 UI uniformly scaled; separate frame/mask sources retained"
     },
     "assets/screenshots/v1-5-11/saved-sets-540.webp": {
-      "sha256": "b87f654cc0fd4537ff2fa46abac37252ff4ec3fc12cf04b7394f098aed60b36b",
-      "size": 122074,
+      "sha256": "c044696d1fb0a54f795fa90062a95c34f688274653253094dd65121b84d7b497",
+      "size": 109874,
       "dimensions": [
         540,
         942
       ],
       "format": "WebP",
-      "canonical_source": "phone-frame-correction/b-with-ad-space/website/saved-sets-540.webp",
-      "source_relationship": "User-approved B with empty ad reserve; unchanged raw V2 UI uniformly scaled; separate frame/mask sources retained"
+      "canonical_source": "honor-proportions/website/saved-sets-540.webp",
+      "source_relationship": "User-approved Honor-like proportions with the approved B empty ad reserve; clean unchanged raw V2 UI; deterministic 540 px export"
     },
     "assets/screenshots/v1-5-11/saved-sets-810.webp": {
-      "sha256": "199e7a3490e24e1aaf583cefd6bcc60a12f9ca53f812d78f412b34898604ee19",
-      "size": 245958,
+      "sha256": "3074de530722007d97f3420d8cea147865697e310c4d79f9ef8910de1692ad7a",
+      "size": 213300,
       "dimensions": [
         810,
         1413
       ],
       "format": "WebP",
-      "canonical_source": "phone-frame-correction/b-with-ad-space/website/saved-sets-810.webp",
-      "source_relationship": "User-approved B with empty ad reserve; unchanged raw V2 UI uniformly scaled; separate frame/mask sources retained"
+      "canonical_source": "honor-proportions/website/saved-sets-810.webp",
+      "source_relationship": "User-approved Honor-like proportions with the approved B empty ad reserve; clean unchanged raw V2 UI; deterministic 810 px export"
     },
     "assets/screenshots/v1-5-11/saved-sets.webp": {
-      "sha256": "f6b18b76773a2fb834ec7f135ef21f6d207ae26dd58401e333e98d7fa55bc4b5",
-      "size": 383900,
+      "sha256": "51f7f45e2297db2c60591ddb4136db181ac5a1d303c15853a99a845d1133f710",
+      "size": 334888,
       "dimensions": [
         1080,
         1884
       ],
       "format": "WebP",
-      "canonical_source": "phone-frame-correction/b-with-ad-space/website/saved-sets.webp",
-      "source_relationship": "User-approved B with empty ad reserve; unchanged raw V2 UI uniformly scaled; separate frame/mask sources retained"
+      "canonical_source": "honor-proportions/website/saved-sets.webp",
+      "source_relationship": "User-approved Honor-like proportions with the approved B empty ad reserve; clean unchanged raw V2 UI; deterministic 1080 px export"
     },
     "assets/icons/v1-5-11/app-icon-v1-5-11.png": {
       "sha256": "85826126bfbe45d1f5331376ee40f47cd09cd3a34b262f9dc3dd12682efc50ab",
@@ -681,33 +681,33 @@
       "hash_mode": "binary"
     },
     "assets/screenshots/v1-5-11/main-converter-540.webp": {
-      "sha256": "31d7be25320fbb18c324aca8715927089755184333acc9958c76de396f7159c0",
-      "size": 120134,
+      "sha256": "f1688b55827d254088aeb3d02a12c061c024768dbee8a8d7b6942a3a1c359025",
+      "size": 104640,
       "hash_mode": "binary"
     },
     "assets/screenshots/v1-5-11/main-converter-810.webp": {
-      "sha256": "6b99548a9d200df833a29db444fa603507f8101a34244dd5d5bc44afafc3d7b9",
-      "size": 239854,
+      "sha256": "a8efd9dff9ac18dcbaaa3143fab65dcb667d6ce69c6a8536d8eb630ccc156fe2",
+      "size": 203492,
       "hash_mode": "binary"
     },
     "assets/screenshots/v1-5-11/main-converter.webp": {
-      "sha256": "4f8af9e4dc8e41cf8ea36c68244407f34b01d10531c907b8eef272d42d2c6460",
-      "size": 371460,
+      "sha256": "535ec632eaca6aa3884ed504d0cf83014b7ab1737e30e6044713621309a701e8",
+      "size": 312514,
       "hash_mode": "binary"
     },
     "assets/screenshots/v1-5-11/saved-sets-540.webp": {
-      "sha256": "b87f654cc0fd4537ff2fa46abac37252ff4ec3fc12cf04b7394f098aed60b36b",
-      "size": 122074,
+      "sha256": "c044696d1fb0a54f795fa90062a95c34f688274653253094dd65121b84d7b497",
+      "size": 109874,
       "hash_mode": "binary"
     },
     "assets/screenshots/v1-5-11/saved-sets-810.webp": {
-      "sha256": "199e7a3490e24e1aaf583cefd6bcc60a12f9ca53f812d78f412b34898604ee19",
-      "size": 245958,
+      "sha256": "3074de530722007d97f3420d8cea147865697e310c4d79f9ef8910de1692ad7a",
+      "size": 213300,
       "hash_mode": "binary"
     },
     "assets/screenshots/v1-5-11/saved-sets.webp": {
-      "sha256": "f6b18b76773a2fb834ec7f135ef21f6d207ae26dd58401e333e98d7fa55bc4b5",
-      "size": 383900,
+      "sha256": "51f7f45e2297db2c60591ddb4136db181ac5a1d303c15853a99a845d1133f710",
+      "size": 334888,
       "hash_mode": "binary"
     },
     "assets/screenshots/v1-5-11/travel-board-540.webp": {
@@ -1356,5 +1356,22 @@
       "tools/privacy-title-copy.json"
     ],
     "rationale": "User explicitly authorized checking all 44 website languages and publishing headings. Seven variants needed only the initial letter capitalized in three home and five policy standalone slots. Full legal bodies, dates, links, images, Android and all other page bytes are unchanged; original policy bytes are authenticated against fixed commits."
+  },
+  "honor_proportion_revision": {
+    "date": "2026-08-31",
+    "verification_report_sha256": "02523d3901cc26e1fad33e22c2eee71f4d54c9d31a17b1fd0fce94df21f43afb",
+    "scope": [
+      "assets/screenshots/v1-5-11/main-converter-540.webp",
+      "assets/screenshots/v1-5-11/main-converter-810.webp",
+      "assets/screenshots/v1-5-11/main-converter.webp",
+      "assets/screenshots/v1-5-11/saved-sets-540.webp",
+      "assets/screenshots/v1-5-11/saved-sets-810.webp",
+      "assets/screenshots/v1-5-11/saved-sets.webp"
+    ],
+    "excluded_candidates": [
+      "Actual Cost: clipped trailing intro line",
+      "Travel Board: partially clipped fourth card"
+    ],
+    "rationale": "The user authorized publication only where no UI line or card is clipped. Main Converter and Saved Sets passed; existing Actual Cost and Travel Board assets remain byte-identical. No copy, layout, Android or legal-content changes are included."
   }
 }
