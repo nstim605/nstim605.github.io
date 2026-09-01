@@ -2,7 +2,7 @@
   "schema": 1,
   "release": "Balkan Converter website visual refresh 1.5 (11)",
   "baseline_commit": "5390a8a650fe6f843a738a691d1232d8d064c6f7",
-  "rationale": "Exact source allowlist; user-approved B with empty advertising reserve remains the frame baseline. The user-authorized Honor-proportion publication revision replaces only the clean Main Converter and Saved Sets responsive assets; Actual Cost and Travel Board remain byte-identical because their new captures contain clipping. Authorized heading layout and standalone privacy-title capitalization are separately recorded; all other protected baseline bytes and legal bodies remain unchanged. Historical evidence assertions remain separate and unchanged.",
+  "rationale": "Exact source allowlist; user-approved B with empty advertising reserve remains the general frame baseline. The user-authorized Honor-proportion revisions replace the clean Main Converter, Saved Sets and compact Travel Board responsive assets; Actual Cost remains byte-identical because its replacement candidate contains clipping. Authorized heading layout and standalone privacy-title capitalization are separately recorded; all other protected baseline bytes and legal bodies remain unchanged. Historical evidence assertions remain separate and unchanged.",
   "canonical_visual_manifest_sha256": "b916b2682431819f4dfd63de8940b5a659900184867edf9df0a29bfff2b7ce17",
   "locales": [
     "en",
@@ -395,37 +395,37 @@
       "source_relationship": "User-approved B with empty ad reserve; unchanged raw V2 UI uniformly scaled; separate frame/mask sources retained"
     },
     "assets/screenshots/v1-5-11/travel-board-540.webp": {
-      "sha256": "c948f8a956963185a66d190168d967c5ef6893d382220caf58eef0107df9d6df",
-      "size": 119250,
+      "sha256": "437f945e7add4380edd97edab8099d9f88b5175f0366ba80481d15cb91707d2a",
+      "size": 84776,
       "dimensions": [
         540,
         942
       ],
       "format": "WebP",
-      "canonical_source": "phone-frame-correction/b-with-ad-space/website/travel-board-540.webp",
-      "source_relationship": "User-approved B with empty ad reserve; unchanged raw V2 UI uniformly scaled; separate frame/mask sources retained"
+      "canonical_source": "releases/1.5-code12/screenshots/site/travel-board-540.webp",
+      "source_relationship": "User-approved compact Travel Board capture uniformly scaled inside the previously approved realistic Honor frame; empty ad reserve retained; separate frame/mask sources retained"
     },
     "assets/screenshots/v1-5-11/travel-board-810.webp": {
-      "sha256": "ccbea461079a54d31719c1b6bdb621704fbf569e979f59ba48a0e652a4d78f04",
-      "size": 235594,
+      "sha256": "b6a004facafccd868fe6ccb1e47e436b09618955ba0d7ffccbfac91f09f90326",
+      "size": 165616,
       "dimensions": [
         810,
         1413
       ],
       "format": "WebP",
-      "canonical_source": "phone-frame-correction/b-with-ad-space/website/travel-board-810.webp",
-      "source_relationship": "User-approved B with empty ad reserve; unchanged raw V2 UI uniformly scaled; separate frame/mask sources retained"
+      "canonical_source": "releases/1.5-code12/screenshots/site/travel-board-810.webp",
+      "source_relationship": "User-approved compact Travel Board capture uniformly scaled inside the previously approved realistic Honor frame; empty ad reserve retained; separate frame/mask sources retained"
     },
     "assets/screenshots/v1-5-11/travel-board.webp": {
-      "sha256": "f1c39b42466a3e6fc7a913044789735c95cbb2b71cb7c424e21b2e65d7d0f8c0",
-      "size": 362010,
+      "sha256": "8eefb29fa0add257c848594c683ac3251cdb8ae4ecd7f8ecf5b9e879f53eabeb",
+      "size": 262850,
       "dimensions": [
         1080,
         1884
       ],
       "format": "WebP",
-      "canonical_source": "phone-frame-correction/b-with-ad-space/website/travel-board.webp",
-      "source_relationship": "User-approved B with empty ad reserve; unchanged raw V2 UI uniformly scaled; separate frame/mask sources retained"
+      "canonical_source": "releases/1.5-code12/screenshots/site/travel-board.webp",
+      "source_relationship": "User-approved compact Travel Board capture uniformly scaled inside the previously approved realistic Honor frame; empty ad reserve retained; separate frame/mask sources retained"
     },
     "assets/screenshots/v1-5-11/saved-sets-540.webp": {
       "sha256": "c044696d1fb0a54f795fa90062a95c34f688274653253094dd65121b84d7b497",
@@ -711,18 +711,18 @@
       "hash_mode": "binary"
     },
     "assets/screenshots/v1-5-11/travel-board-540.webp": {
-      "sha256": "c948f8a956963185a66d190168d967c5ef6893d382220caf58eef0107df9d6df",
-      "size": 119250,
+      "sha256": "437f945e7add4380edd97edab8099d9f88b5175f0366ba80481d15cb91707d2a",
+      "size": 84776,
       "hash_mode": "binary"
     },
     "assets/screenshots/v1-5-11/travel-board-810.webp": {
-      "sha256": "ccbea461079a54d31719c1b6bdb621704fbf569e979f59ba48a0e652a4d78f04",
-      "size": 235594,
+      "sha256": "b6a004facafccd868fe6ccb1e47e436b09618955ba0d7ffccbfac91f09f90326",
+      "size": 165616,
       "hash_mode": "binary"
     },
     "assets/screenshots/v1-5-11/travel-board.webp": {
-      "sha256": "f1c39b42466a3e6fc7a913044789735c95cbb2b71cb7c424e21b2e65d7d0f8c0",
-      "size": 362010,
+      "sha256": "8eefb29fa0add257c848594c683ac3251cdb8ae4ecd7f8ecf5b9e879f53eabeb",
+      "size": 262850,
       "hash_mode": "binary"
     },
     "bg/index.html": {
@@ -1373,5 +1373,18 @@
       "Travel Board: partially clipped fourth card"
     ],
     "rationale": "The user authorized publication only where no UI line or card is clipped. Main Converter and Saved Sets passed; existing Actual Cost and Travel Board assets remain byte-identical. No copy, layout, Android or legal-content changes are included."
+  },
+  "compact_travel_board_revision": {
+    "date": "2026-09-01",
+    "app_commit": "4277a022dc6060988feebd6f695504c696322910",
+    "play_asset_sha256": "0102ae2937ad3a7c3a55658e2e386e67f89daacd1c4dcebd3fd850a098fba020",
+    "frame_sha256": "4a0bed11644127df068dafcfdf9644a8b9b26f7a8108871b0fafad3875095ac4",
+    "screen_mask_sha256": "351f6eef19d56a0e984a7f641c8c8cf99f71164de1fd66461de84aa7c152eefc",
+    "scope": [
+      "assets/screenshots/v1-5-11/travel-board-540.webp",
+      "assets/screenshots/v1-5-11/travel-board-810.webp",
+      "assets/screenshots/v1-5-11/travel-board.webp"
+    ],
+    "rationale": "The user approved replacing only the stale Travel Board image. The compact code-12 screen is fully visible, uniformly scaled without deformation inside the previously approved realistic Honor frame, and retains the empty advertising reserve. All other website screenshots, copy, layout, Android and legal-content files remain unchanged."
   }
 }
