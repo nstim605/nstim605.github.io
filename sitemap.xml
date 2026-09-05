@@ -4224,4 +4224,7 @@
     <xhtml:link rel="alternate" hreflang="ko" href="https://balkanconverter.com/ko/privacy-policy.html" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://balkanconverter.com/privacy-policy.html" />
   </url>
+  <url>
+    <loc>https://balkanconverter.com/exchange-rate-markup-calculator/</loc>
+  </url>
 </urlset>

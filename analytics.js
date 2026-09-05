@@ -36,6 +36,12 @@ consentMode.initializeDefault();
 let analyticsInstance;
 let analyticsSdk;
 
+export function trackSiteEvent(name, parameters) {
+  if (analyticsQaEnvironment || analyticsRuntime?.isActive() !== true || !analyticsInstance || !analyticsSdk) return false;
+  analyticsSdk.logEvent(analyticsInstance, name, parameters);
+  return true;
+}
+
 function storedConsent() {
   return readAnalyticsConsent(localStorage, consentKey);
 }

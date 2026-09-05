@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f7f8fa" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#070a0f" media="(prefers-color-scheme: dark)">
+  <title>Exchange Rate Markup Calculator | Balkan Currency Converter</title>
+  <meta name="description" content="Compare an exchange offer with the latest reference rate. Calculate the amount you receive, the difference, and the effective exchange-rate markup.">
+  <link rel="canonical" href="https://balkanconverter.com/exchange-rate-markup-calculator/">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Balkan Currency Converter">
+  <meta property="og:title" content="Exchange Rate Markup Calculator">
+  <meta property="og:description" content="See how far an exchange offer is from the latest reference rate.">
+  <meta property="og:url" content="https://balkanconverter.com/exchange-rate-markup-calculator/">
+  <meta property="og:image" content="https://balkanconverter.com/assets/og-v1-5-11.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Exchange Rate Markup Calculator">
+  <meta name="twitter:description" content="Compare an exchange offer with the latest reference rate.">
+  <meta name="twitter:image" content="https://balkanconverter.com/assets/og-v1-5-11.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/icons/v1-5-11/favicon-32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/icons/v1-5-11/apple-touch-icon-180.png">
+  <link rel="manifest" href="../site.webmanifest">
+  <link rel="stylesheet" href="../styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebApplication",
+    "name": "Exchange Rate Markup Calculator",
+    "url": "https://balkanconverter.com/exchange-rate-markup-calculator/",
+    "applicationCategory": "FinanceApplication",
+    "operatingSystem": "Any",
+    "isAccessibleForFree": true,
+    "description": "Compare an exchange offer with the latest reference rate and calculate the effective markup."
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to calculator</a>
+  <header class="site-header">
+    <div class="shell nav-wrap">
+      <a class="brand" href="/" aria-label="Balkan Currency Converter home">
+        <img src="../assets/icons/v1-5-11/app-icon-v1-5-11.png" width="42" height="42" alt="">
+        <span>Balkan Currency Converter</span>
+      </a>
+      <nav class="nav-links" aria-label="Main navigation">
+        <a href="/">Home</a>
+        <a href="/privacy-policy.html">Privacy</a>
+      </nav>
+      <div class="nav-actions">
+        <button class="theme-toggle" type="button" data-label-light="Switch to light theme" data-label-dark="Switch to dark theme" aria-label="Switch color theme" title="Switch color theme"><span class="theme-icon" aria-hidden="true">◐</span></button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main" class="calculator-main">
+    <section class="calculator-hero shell" aria-labelledby="calculator-title">
+      <a class="back-link" href="/"><span aria-hidden="true">←</span> Back to Balkan Currency Converter</a>
+      <p class="eyebrow"><span class="status-dot"></span> Free currency tool</p>
+      <h1 id="calculator-title">Exchange Rate Markup Calculator</h1>
+      <p class="hero-lede">Compare the amount an exchange service offers with the latest available reference rate. See the difference and the effective markup before you exchange.</p>
+    </section>
+
+    <section class="calculator-layout shell" aria-label="Markup calculator">
+      <form class="calculator-card" id="markup-form" novalidate>
+        <div class="field-grid">
+          <label>Source currency
+            <select id="source-currency" name="source" autocomplete="off">
+              <option value="EUR">EUR — Euro</option>
+            </select>
+          </label>
+          <label>Target currency
+            <select id="target-currency" name="target" autocomplete="off">
+              <option value="RSD">RSD — Serbian Dinar</option>
+            </select>
+          </label>
+        </div>
+        <label>Amount you give
+          <span class="input-hint">In the source currency</span>
+          <input id="source-amount" name="amount" inputmode="decimal" autocomplete="off" value="100" aria-describedby="calculator-status">
+        </label>
+        <label>Amount you are offered
+          <span class="input-hint">What you would receive in the target currency</span>
+          <input id="offered-amount" name="offered" inputmode="decimal" autocomplete="off" placeholder="For example, 11,500" aria-describedby="calculator-status">
+        </label>
+        <button class="primary-button" type="submit">Calculate markup</button>
+        <p class="calculator-status" id="calculator-status" role="status" aria-live="polite">Enter the offer you want to compare.</p>
+      </form>
+
+      <section class="results-card" id="calculator-results" tabindex="-1" aria-labelledby="results-title" hidden>
+        <p class="eyebrow">Your comparison</p>
+        <h2 id="results-title">Exchange offer result</h2>
+        <dl class="result-list">
+          <div><dt>Reference rate</dt><dd data-result="referenceRate"></dd></div>
+          <div><dt>Reference result</dt><dd data-result="referenceResult"></dd></div>
+          <div><dt>Offered result</dt><dd data-result="offeredResult"></dd></div>
+          <div><dt data-label="difference">You receive less by</dt><dd data-result="difference"></dd></div>
+          <div class="result-emphasis"><dt data-label="percentage">Exchange-rate markup</dt><dd data-result="percentage"></dd></div>
+        </dl>
+        <p class="result-summary"></p>
+        <p class="result-date"></p>
+      </section>
+    </section>
+
+    <section class="calculator-explanation shell" aria-labelledby="meaning-title">
+      <article>
+        <h2 id="meaning-title">What the percentage means</h2>
+        <p>The calculator first estimates how much the latest reference rate would produce. It then compares that amount with the amount you were offered.</p>
+        <p>A provider can advertise “no commission” while using a less favourable exchange rate. That shortfall is effectively a cost hidden in the rate.</p>
+        <p><strong>Markup = (reference result − offered result) ÷ reference result × 100.</strong></p>
+      </article>
+      <aside>
+        <h2>Important to know</h2>
+        <p>This is an informational comparison, not financial advice. An offer may include service fees, card charges, cash handling, or a provider’s spread. Reference rates are not guaranteed transaction rates.</p>
+      </aside>
+    </section>
+
+    <section class="cta-section shell calculator-cta" aria-labelledby="app-cta-title">
+      <div>
+        <p class="eyebrow eyebrow-inverse">Need this on the go?</p>
+        <h2 id="app-cta-title">Compare costs in Balkan Converter</h2>
+        <p>The Android app adds Actual Cost, offline rates, Travel Board, saved sets, charts, and a home-screen widget.</p>
+      </div>
+      <a class="play-link play-link-on-dark calculator-play-cta" href="https://play.google.com/store/apps/details?id=io.github.nstim605.balkanconverter" aria-label="Get Balkan Currency Converter on Google Play">
+        <img src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png" width="202" height="60" alt="Get it on Google Play">
+      </a>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="shell footer-grid">
+      <div class="footer-brand"><img src="../assets/icons/v1-5-11/app-icon-v1-5-11.png" width="44" height="44" alt=""><div><strong>Balkan Currency Converter</strong><span>Currency conversion for Android</span></div></div>
+      <nav aria-label="Footer navigation">
+        <a href="/">Home</a>
+        <a href="/privacy-policy.html">Privacy Policy</a>
+        <a href="https://play.google.com/store/apps/details?id=io.github.nstim605.balkanconverter">Google Play</a>
+        <button class="footer-link-button analytics-consent-settings" type="button">Analytics choices</button>
+      </nav>
+      <p>© 2026 Balkan Currency Converter</p>
+    </div>
+  </footer>
+  <template id="analytics-consent-template">
+    <div class="analytics-consent-copy"><strong id="analytics-consent-title">Optional analytics</strong><p id="analytics-consent-description">Help us understand site usage. Firebase Analytics stays off unless you accept. <a href="/privacy-policy.html#website-analytics">Learn more</a>.</p></div>
+    <div class="analytics-consent-actions"><button class="analytics-consent-button analytics-consent-accept" type="button">Accept analytics</button><button class="analytics-consent-button analytics-consent-reject" type="button">Reject analytics</button></div>
+  </template>
+  <script src="../script.js" defer></script>
+  <script type="module" src="./calculator.js"></script>
+</body>
+</html>

@@ -92,13 +92,14 @@ for (const [full, html] of pages) {
 
 const sitemap = await fs.readFile(path.join(root, 'sitemap.xml'), 'utf8');
 const blocks = [...sitemap.matchAll(/<url>([\s\S]*?)<\/url>/g)].map(match => match[1]);
-if (blocks.length !== 88) errors.push(`Sitemap URL count ${blocks.length}, expected 88`);
+if (blocks.length !== 89) errors.push(`Sitemap URL count ${blocks.length}, expected 89`);
 const expectedUrls = manifest.locales.flatMap(locale => [locale.url, locale.privacyUrl]).map(url => `https://balkanconverter.com${url}`);
 for (const expected of expectedUrls) if (!sitemap.includes(`<loc>${expected}</loc>`)) errors.push(`Sitemap missing ${expected}`);
-for (const block of blocks) {
+for (const block of blocks.filter(block => !block.includes('/exchange-rate-markup-calculator/'))) {
   if ((block.match(/<xhtml:link /g) ?? []).length !== 45) errors.push('Sitemap alternate count is not 45');
   for (const hreflang of [...expectedHreflangs, 'x-default']) if (!block.includes(`hreflang="${hreflang}"`)) errors.push(`Sitemap block missing ${hreflang}`);
 }
+if (!sitemap.includes('<loc>https://balkanconverter.com/exchange-rate-markup-calculator/</loc>')) errors.push('Sitemap missing exchange-rate markup calculator');
 
 const generator = await fs.readFile(path.join(root, 'tools', 'localize-site.mjs'), 'utf8');
 if (/fetch\s*\(|translate\.googleapis|translation endpoint/i.test(generator)) errors.push('Generator still contains network translation code');
