@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f7f8fa" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#070a0f" media="(prefers-color-scheme: dark)">
+  <title>Offline Currency Converter | How Saved Exchange Rates Work</title>
+  <meta name="description" content="Learn how an offline currency converter uses dated, saved exchange rates—and what changes when your internet connection returns.">
+  <link rel="canonical" href="https://balkanconverter.com/offline-currency-converter/">
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="Balkan Currency Converter">
+  <meta property="og:title" content="Offline Currency Converter: How Saved Rates Work">
+  <meta property="og:description" content="A clear guide to converting currencies without internet using dated, saved exchange rates.">
+  <meta property="og:url" content="https://balkanconverter.com/offline-currency-converter/">
+  <meta property="og:image" content="https://balkanconverter.com/assets/og-v1-5-11.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Offline Currency Converter: How Saved Rates Work">
+  <meta name="twitter:description" content="Understand what an offline exchange rate can—and cannot—tell you.">
+  <meta name="twitter:image" content="https://balkanconverter.com/assets/og-v1-5-11.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/icons/v1-5-11/favicon-32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/icons/v1-5-11/apple-touch-icon-180.png">
+  <link rel="manifest" href="../site.webmanifest">
+  <link rel="stylesheet" href="../styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Offline Currency Converter: How Saved Exchange Rates Work",
+    "description": "A practical guide to using dated, saved exchange rates for currency conversion without internet.",
+    "mainEntityOfPage": "https://balkanconverter.com/offline-currency-converter/",
+    "publisher": {"@type": "Organization", "name": "Balkan Currency Converter"}
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to guide</a>
+  <header class="site-header">
+    <div class="shell nav-wrap">
+      <a class="brand" href="/" aria-label="Balkan Currency Converter home"><img src="../assets/icons/v1-5-11/app-icon-v1-5-11.png" width="42" height="42" alt=""><span>Balkan Currency Converter</span></a>
+      <nav class="nav-links" aria-label="Main navigation"><a href="/">Home</a><a href="/multi-currency-converter/">Multi-currency</a><a href="/privacy-policy.html">Privacy</a></nav>
+      <div class="nav-actions"><button class="theme-toggle" type="button" data-label-light="Switch to light theme" data-label-dark="Switch to dark theme" aria-label="Switch color theme" title="Switch color theme"><span class="theme-icon" aria-hidden="true">◐</span></button></div>
+    </div>
+  </header>
+
+  <main id="main" class="calculator-main">
+    <section class="calculator-hero shell" aria-labelledby="offline-title">
+      <a class="back-link" href="/"><span aria-hidden="true">←</span> Back to Balkan Currency Converter</a>
+      <p class="eyebrow"><span class="status-dot"></span> Offline exchange-rate guide</p>
+      <h1 id="offline-title">Offline Currency Converter: How Saved Rates Work</h1>
+      <p class="hero-lede">A converter can keep working without internet by using the latest exchange rates it successfully saved on your device. Those rates are useful reference data—but they remain tied to their original date until the app can refresh them online.</p>
+    </section>
+
+    <section class="section shell" aria-labelledby="offline-flow-title">
+      <div class="section-heading"><div><p class="eyebrow">The simple version</p><h2 id="offline-flow-title">From online refresh to offline conversion</h2></div><p>Saving a rate does not make it live forever. It creates a dated local copy that can be reused when the network is unavailable.</p></div>
+      <div class="feature-grid">
+        <article class="feature-card"><span class="feature-mark" aria-hidden="true">1</span><h3>Connect and refresh</h3><p>The app requests the latest available reference-rate dataset and records its rate date and save time.</p></article>
+        <article class="feature-card"><span class="feature-mark" aria-hidden="true">2</span><h3>Keep the last success</h3><p>After a successful request, the dataset is stored locally. If a later request fails, the previous working copy remains available.</p></article>
+        <article class="feature-card feature-card-accent"><span class="feature-mark" aria-hidden="true">3</span><h3>Convert without internet</h3><p>When offline, conversions use that saved dataset and show that cached data is being used, together with the rate date.</p></article>
+      </div>
+    </section>
+
+    <section class="calculator-explanation shell" aria-labelledby="snapshot-title">
+      <article>
+        <h2 id="snapshot-title">What a saved offline rate means</h2>
+        <p>The saved data is a snapshot of the most recent successful reference-rate response. It can calculate conversions without a network connection, but the numbers do not update while the device is offline.</p>
+        <p>Always check the displayed rate date. A result based on yesterday’s rates may still be useful for planning, but it is not a promise of the rate a bank, card provider, or exchange office will offer today.</p>
+      </article>
+      <aside>
+        <h2>What happens when internet returns?</h2>
+        <p>Balkan Converter uses one shared local rate cache for normal conversion and Saved Set preparation. A successful online refresh replaces the older cached dataset and updates its date and save time.</p>
+        <p>If the refresh fails, the app falls back to the previous cached rates instead of deleting them.</p>
+      </aside>
+    </section>
+
+    <section class="calculator-explanation shell" aria-labelledby="prepare-title">
+      <article>
+        <h2 id="prepare-title">Prepare a Saved Set for offline use</h2>
+        <p>In the Android app, create or open a Saved Set for the currencies you need. While connected, choose <strong>Save rates offline</strong>. The app refreshes the shared rate dataset and confirms readiness when the saved cache contains every currency in that set.</p>
+        <p>There is no separate frozen rate file for each trip. Preparing another set refreshes the same cache used elsewhere in the app.</p>
+      </article>
+      <aside>
+        <h2>Useful beyond travel</h2>
+        <p>Offline conversion can help during a poor connection, roaming disruption, a temporary service outage, or any situation where a quick reference estimate is more useful than no result.</p>
+        <p>For online comparisons, try the <a class="text-link" href="/multi-currency-converter/">Multi-Currency Converter</a> or check a provider’s offer with the <a class="text-link" href="/exchange-rate-markup-calculator/">Exchange Rate Markup Calculator</a>.</p>
+      </aside>
+    </section>
+
+    <section class="cta-section shell calculator-cta" aria-labelledby="offline-cta-title">
+      <div><p class="eyebrow eyebrow-inverse">Keep a dated reference handy</p><h2 id="offline-cta-title">Use saved rates in Balkan Converter</h2><p>The Android app can reuse its latest successful exchange-rate cache without a connection and clearly identifies cached data and its rate date.</p></div>
+      <a class="play-link play-link-on-dark offline-play-cta" href="https://play.google.com/store/apps/details?id=io.github.nstim605.balkanconverter" aria-label="Get Balkan Currency Converter on Google Play"><img src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png" width="202" height="60" alt="Get it on Google Play"></a>
+    </section>
+  </main>
+
+  <footer class="site-footer"><div class="shell footer-grid"><div class="footer-brand"><img src="../assets/icons/v1-5-11/app-icon-v1-5-11.png" width="44" height="44" alt=""><div><strong>Balkan Currency Converter</strong><span>Currency conversion for Android</span></div></div><nav aria-label="Footer navigation"><a href="/">Home</a><a href="/privacy-policy.html">Privacy Policy</a><a href="https://play.google.com/store/apps/details?id=io.github.nstim605.balkanconverter">Google Play</a><button class="footer-link-button analytics-consent-settings" type="button">Analytics choices</button></nav><p>© 2026 Balkan Currency Converter</p></div></footer>
+  <template id="analytics-consent-template"><div class="analytics-consent-copy"><strong id="analytics-consent-title">Optional analytics</strong><p id="analytics-consent-description">Help us understand site usage. Firebase Analytics stays off unless you accept. <a href="/privacy-policy.html#website-analytics">Learn more</a>.</p></div><div class="analytics-consent-actions"><button class="analytics-consent-button analytics-consent-accept" type="button">Accept analytics</button><button class="analytics-consent-button analytics-consent-reject" type="button">Reject analytics</button></div></template>
+  <script src="../script.js" defer></script>
+</body>
+</html>

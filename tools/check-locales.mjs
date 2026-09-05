@@ -92,15 +92,21 @@ for (const [full, html] of pages) {
 
 const sitemap = await fs.readFile(path.join(root, 'sitemap.xml'), 'utf8');
 const blocks = [...sitemap.matchAll(/<url>([\s\S]*?)<\/url>/g)].map(match => match[1]);
-if (blocks.length !== 90) errors.push(`Sitemap URL count ${blocks.length}, expected 90`);
+if (blocks.length !== 91) errors.push(`Sitemap URL count ${blocks.length}, expected 91`);
 const expectedUrls = manifest.locales.flatMap(locale => [locale.url, locale.privacyUrl]).map(url => `https://balkanconverter.com${url}`);
 for (const expected of expectedUrls) if (!sitemap.includes(`<loc>${expected}</loc>`)) errors.push(`Sitemap missing ${expected}`);
-for (const block of blocks.filter(block => !block.includes('/exchange-rate-markup-calculator/') && !block.includes('/multi-currency-converter/'))) {
+const standaloneTools = [
+  '/exchange-rate-markup-calculator/',
+  '/multi-currency-converter/',
+  '/offline-currency-converter/'
+];
+for (const block of blocks.filter(block => standaloneTools.every(tool => !block.includes(tool)))) {
   if ((block.match(/<xhtml:link /g) ?? []).length !== 45) errors.push('Sitemap alternate count is not 45');
   for (const hreflang of [...expectedHreflangs, 'x-default']) if (!block.includes(`hreflang="${hreflang}"`)) errors.push(`Sitemap block missing ${hreflang}`);
 }
 if (!sitemap.includes('<loc>https://balkanconverter.com/exchange-rate-markup-calculator/</loc>')) errors.push('Sitemap missing exchange-rate markup calculator');
 if (!sitemap.includes('<loc>https://balkanconverter.com/multi-currency-converter/</loc>')) errors.push('Sitemap missing multi-currency converter');
+if (!sitemap.includes('<loc>https://balkanconverter.com/offline-currency-converter/</loc>')) errors.push('Sitemap missing offline currency converter');
 
 const generator = await fs.readFile(path.join(root, 'tools', 'localize-site.mjs'), 'utf8');
 if (/fetch\s*\(|translate\.googleapis|translation endpoint/i.test(generator)) errors.push('Generator still contains network translation code');
