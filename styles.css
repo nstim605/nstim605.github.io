@@ -384,6 +384,26 @@ h3 { margin-bottom: 10px; font-size: min(1.2rem, 9cqi); letter-spacing: -.02em; 
 .calculator-explanation aside { background: var(--primary-soft); }
 .calculator-cta { margin-top: 0; }
 
+.history-layout { grid-template-columns: minmax(290px, .72fr) minmax(0, 1.28fr); }
+.history-periods { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 10px; min-width: 0; margin: 0; padding: 0; border: 0; }
+.history-periods legend { margin-bottom: 10px; font-weight: 750; }
+.period-option { position: relative; display: block; }
+.period-option input { position: absolute; width: 1px; height: 1px; opacity: 0; pointer-events: none; }
+.period-option span { display: flex; min-height: 48px; align-items: center; justify-content: center; padding: 10px; border: 1px solid var(--border); border-radius: 12px; background: var(--bg); color: var(--muted); cursor: pointer; }
+.period-option input:checked + span { border-color: var(--primary-border); background: var(--primary-soft); color: var(--primary); }
+.period-option input:focus-visible + span { outline: 3px solid color-mix(in srgb, var(--primary) 22%, transparent); outline-offset: 2px; }
+.history-chart { margin: 0 0 18px; }
+.history-chart-scale, .history-chart-dates { display: flex; justify-content: space-between; gap: 12px; color: var(--muted); font-size: .8rem; font-variant-numeric: tabular-nums; }
+.history-chart-scale { margin-bottom: 7px; }
+.history-chart-dates { margin-top: 7px; }
+.history-chart svg { display: block; width: 100%; height: auto; max-height: 320px; overflow: hidden; border: 1px solid var(--border); border-radius: 14px; background: var(--bg); }
+.history-grid-line { stroke: var(--border); stroke-width: 1; vector-effect: non-scaling-stroke; }
+.history-line { fill: none; stroke: var(--primary); stroke-width: 4; stroke-linecap: round; stroke-linejoin: round; vector-effect: non-scaling-stroke; }
+.history-chart figcaption { margin-top: 10px; color: var(--muted); font-size: .82rem; }
+.history-date-layout { padding-top: 0; }
+.history-date-layout h2 { margin: 0; }
+.history-results .result-date + .result-date { margin-top: 6px; }
+
 @media (prefers-reduced-motion: no-preference) {
   .play-link, .text-link, .nav-links a, .theme-toggle, .language-selector summary { transition: color .2s ease, border-color .2s ease, transform .2s ease, filter .2s ease; }
   .feature-card { transition: transform .22s ease, border-color .22s ease; }
@@ -464,6 +484,7 @@ h3 { margin-bottom: 10px; font-size: min(1.2rem, 9cqi); letter-spacing: -.02em; 
   .tool-promo-actions { width: 100%; flex-wrap: wrap; }
   .calculator-main { padding-top: 46px; }
   .calculator-layout, .calculator-explanation { grid-template-columns: 1fr; }
+  .history-layout { grid-template-columns: 1fr; }
 }
 
 @media (max-width: 540px) {
@@ -481,6 +502,7 @@ h3 { margin-bottom: 10px; font-size: min(1.2rem, 9cqi); letter-spacing: -.02em; 
   .screenshot-card + .screenshot-card { margin-top: 18px; }
   .cta-section { width: calc(100% - 28px); }
   .field-grid { grid-template-columns: 1fr; }
+  .history-periods { grid-template-columns: 1fr; }
   .result-list > div { grid-template-columns: 1fr; gap: 3px; }
   .result-list dd { text-align: start; }
 }
