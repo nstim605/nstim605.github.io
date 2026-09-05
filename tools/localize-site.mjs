@@ -332,5 +332,6 @@ const sitemapLinks = page => locales.map(locale => `    <xhtml:link rel="alterna
 const urls = [];
 for (const page of ['home', 'policy']) for (const locale of locales) urls.push(`  <url>\n    <loc>${xmlEsc(`https://balkanconverter.com${urlFor(locale, page)}`)}</loc>\n${sitemapLinks(page)}\n  </url>`);
 urls.push('  <url>\n    <loc>https://balkanconverter.com/exchange-rate-markup-calculator/</loc>\n  </url>');
+urls.push('  <url>\n    <loc>https://balkanconverter.com/multi-currency-converter/</loc>\n  </url>');
 await fs.writeFile(path.join(root, 'sitemap.xml'), `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">\n${urls.join('\n')}\n</urlset>\n`);
 console.log(`Generated ${generated.length} locales from local Android resources; preserved ${preserved.size}; total ${locales.length}.`);
