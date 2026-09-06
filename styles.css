@@ -378,6 +378,10 @@ h3 { margin-bottom: 10px; font-size: min(1.2rem, 9cqi); letter-spacing: -.02em; 
 .result-emphasis dt, .result-emphasis dd { color: var(--primary); font-weight: 850; }
 .result-summary { margin: 22px 0 4px; font-weight: 750; }
 .result-date { margin: 0; color: var(--muted); font-size: .86rem; }
+.optional-label { margin-inline-start: 6px; color: var(--muted); font-size: .78rem; font-weight: 600; }
+.dcc-result-section { margin-top: 30px; padding-top: 24px; border-top: 1px solid var(--border); }
+.dcc-result-section h3 { margin-bottom: 10px; }
+.foreign-fee-results .result-summary { line-height: 1.55; }
 .calculator-explanation { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 24px; padding-block: 0 72px; }
 .calculator-explanation h2 { --heading-size: 1.75rem; font-size: min(var(--heading-size), 9cqi); }
 .calculator-explanation p:last-child { margin-bottom: 0; }
