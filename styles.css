@@ -382,6 +382,9 @@ h3 { margin-bottom: 10px; font-size: min(1.2rem, 9cqi); letter-spacing: -.02em; 
 .dcc-result-section { margin-top: 30px; padding-top: 24px; border-top: 1px solid var(--border); }
 .dcc-result-section h3 { margin-bottom: 10px; }
 .foreign-fee-results .result-summary { line-height: 1.55; }
+.travel-budget-results h3 { margin: 28px 0 8px; }
+.travel-budget-results .result-summary { line-height: 1.55; }
+.budget-breakdown .result-emphasis + .result-emphasis { margin-top: 0; border-top: 1px solid color-mix(in srgb, var(--primary) 20%, transparent); }
 .calculator-explanation { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 24px; padding-block: 0 72px; }
 .calculator-explanation h2 { --heading-size: 1.75rem; font-size: min(var(--heading-size), 9cqi); }
 .calculator-explanation p:last-child { margin-bottom: 0; }

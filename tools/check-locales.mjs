@@ -92,7 +92,7 @@ for (const [full, html] of pages) {
 
 const sitemap = await fs.readFile(path.join(root, 'sitemap.xml'), 'utf8');
 const blocks = [...sitemap.matchAll(/<url>([\s\S]*?)<\/url>/g)].map(match => match[1]);
-if (blocks.length !== 95) errors.push(`Sitemap URL count ${blocks.length}, expected 95`);
+if (blocks.length !== 96) errors.push(`Sitemap URL count ${blocks.length}, expected 96`);
 const expectedUrls = manifest.locales.flatMap(locale => [locale.url, locale.privacyUrl]).map(url => `https://balkanconverter.com${url}`);
 for (const expected of expectedUrls) if (!sitemap.includes(`<loc>${expected}</loc>`)) errors.push(`Sitemap missing ${expected}`);
 const standaloneTools = [
@@ -102,7 +102,8 @@ const standaloneTools = [
   '/offline-currency-converter/',
   '/exchange-rate-history/',
   '/currency-converter-widget/',
-  '/foreign-transaction-fee-calculator/'
+  '/foreign-transaction-fee-calculator/',
+  '/travel-budget-calculator/'
 ];
 for (const block of blocks.filter(block => standaloneTools.every(tool => !block.includes(tool)))) {
   if ((block.match(/<xhtml:link /g) ?? []).length !== 45) errors.push('Sitemap alternate count is not 45');
@@ -115,6 +116,7 @@ if (!sitemap.includes('<loc>https://balkanconverter.com/offline-currency-convert
 if (!sitemap.includes('<loc>https://balkanconverter.com/exchange-rate-history/</loc>')) errors.push('Sitemap missing exchange-rate history');
 if (!sitemap.includes('<loc>https://balkanconverter.com/currency-converter-widget/</loc>')) errors.push('Sitemap missing currency converter widget guide');
 if (!sitemap.includes('<loc>https://balkanconverter.com/foreign-transaction-fee-calculator/</loc>')) errors.push('Sitemap missing foreign transaction fee calculator');
+if (!sitemap.includes('<loc>https://balkanconverter.com/travel-budget-calculator/</loc>')) errors.push('Sitemap missing travel budget calculator');
 
 const generator = await fs.readFile(path.join(root, 'tools', 'localize-site.mjs'), 'utf8');
 if (/fetch\s*\(|translate\.googleapis|translation endpoint/i.test(generator)) errors.push('Generator still contains network translation code');
