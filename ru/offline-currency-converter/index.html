@@ -1,0 +1,196 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f7f8fa" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#070a0f" media="(prefers-color-scheme: dark)">
+  <title>Автономный конвертер валют | Как работают сохраненные курсы валют</title>
+  <meta name="description" content="Узнайте, как автономный конвертер валют использует датированные сохраненные обменные курсы и что изменится, когда восстановится подключение к Интернету.">
+  <link rel="canonical" href="https://balkanconverter.com/ru/offline-currency-converter/">
+  <link rel="alternate" hreflang="en" href="https://balkanconverter.com/offline-currency-converter/">
+  <link rel="alternate" hreflang="sr" href="https://balkanconverter.com/sr/offline-currency-converter/">
+  <link rel="alternate" hreflang="bs" href="https://balkanconverter.com/bs/offline-currency-converter/">
+  <link rel="alternate" hreflang="hr" href="https://balkanconverter.com/hr/offline-currency-converter/">
+  <link rel="alternate" hreflang="sq" href="https://balkanconverter.com/sq/offline-currency-converter/">
+  <link rel="alternate" hreflang="mk" href="https://balkanconverter.com/mk/offline-currency-converter/">
+  <link rel="alternate" hreflang="bg" href="https://balkanconverter.com/bg/offline-currency-converter/">
+  <link rel="alternate" hreflang="ro" href="https://balkanconverter.com/ro/offline-currency-converter/">
+  <link rel="alternate" hreflang="hu" href="https://balkanconverter.com/hu/offline-currency-converter/">
+  <link rel="alternate" hreflang="pl" href="https://balkanconverter.com/pl/offline-currency-converter/">
+  <link rel="alternate" hreflang="cs" href="https://balkanconverter.com/cs/offline-currency-converter/">
+  <link rel="alternate" hreflang="sk" href="https://balkanconverter.com/sk/offline-currency-converter/">
+  <link rel="alternate" hreflang="sl" href="https://balkanconverter.com/sl/offline-currency-converter/">
+  <link rel="alternate" hreflang="de" href="https://balkanconverter.com/de/offline-currency-converter/">
+  <link rel="alternate" hreflang="fr" href="https://balkanconverter.com/fr/offline-currency-converter/">
+  <link rel="alternate" hreflang="it" href="https://balkanconverter.com/it/offline-currency-converter/">
+  <link rel="alternate" hreflang="es-ES" href="https://balkanconverter.com/es-es/offline-currency-converter/">
+  <link rel="alternate" hreflang="es-419" href="https://balkanconverter.com/es-419/offline-currency-converter/">
+  <link rel="alternate" hreflang="pt-BR" href="https://balkanconverter.com/pt-br/offline-currency-converter/">
+  <link rel="alternate" hreflang="pt-PT" href="https://balkanconverter.com/pt-pt/offline-currency-converter/">
+  <link rel="alternate" hreflang="nl" href="https://balkanconverter.com/nl/offline-currency-converter/">
+  <link rel="alternate" hreflang="da" href="https://balkanconverter.com/da/offline-currency-converter/">
+  <link rel="alternate" hreflang="sv" href="https://balkanconverter.com/sv/offline-currency-converter/">
+  <link rel="alternate" hreflang="nb" href="https://balkanconverter.com/nb/offline-currency-converter/">
+  <link rel="alternate" hreflang="fi" href="https://balkanconverter.com/fi/offline-currency-converter/">
+  <link rel="alternate" hreflang="is" href="https://balkanconverter.com/is/offline-currency-converter/">
+  <link rel="alternate" hreflang="el" href="https://balkanconverter.com/el/offline-currency-converter/">
+  <link rel="alternate" hreflang="tr" href="https://balkanconverter.com/tr/offline-currency-converter/">
+  <link rel="alternate" hreflang="ru" href="https://balkanconverter.com/ru/offline-currency-converter/">
+  <link rel="alternate" hreflang="uk" href="https://balkanconverter.com/uk/offline-currency-converter/">
+  <link rel="alternate" hreflang="ar" href="https://balkanconverter.com/ar/offline-currency-converter/">
+  <link rel="alternate" hreflang="he" href="https://balkanconverter.com/he/offline-currency-converter/">
+  <link rel="alternate" hreflang="fa" href="https://balkanconverter.com/fa/offline-currency-converter/">
+  <link rel="alternate" hreflang="ur" href="https://balkanconverter.com/ur/offline-currency-converter/">
+  <link rel="alternate" hreflang="hi" href="https://balkanconverter.com/hi/offline-currency-converter/">
+  <link rel="alternate" hreflang="bn" href="https://balkanconverter.com/bn/offline-currency-converter/">
+  <link rel="alternate" hreflang="id" href="https://balkanconverter.com/id/offline-currency-converter/">
+  <link rel="alternate" hreflang="ms" href="https://balkanconverter.com/ms/offline-currency-converter/">
+  <link rel="alternate" hreflang="th" href="https://balkanconverter.com/th/offline-currency-converter/">
+  <link rel="alternate" hreflang="vi" href="https://balkanconverter.com/vi/offline-currency-converter/">
+  <link rel="alternate" hreflang="zh-Hans" href="https://balkanconverter.com/zh-hans/offline-currency-converter/">
+  <link rel="alternate" hreflang="zh-Hant" href="https://balkanconverter.com/zh-hant/offline-currency-converter/">
+  <link rel="alternate" hreflang="ja" href="https://balkanconverter.com/ja/offline-currency-converter/">
+  <link rel="alternate" hreflang="ko" href="https://balkanconverter.com/ko/offline-currency-converter/">
+  <link rel="alternate" hreflang="x-default" href="https://balkanconverter.com/offline-currency-converter/">
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="Balkan Currency Converter">
+  <meta property="og:title" content="Офлайн-конвертер валют: как работают сохраненные курсы">
+  <meta property="og:description" content="Четкое руководство по конвертации валют без Интернета с использованием датированных сохраненных обменных курсов.">
+  <meta property="og:url" content="https://balkanconverter.com/ru/offline-currency-converter/">
+  <meta property="og:image" content="https://balkanconverter.com/assets/og-v1-5-11.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Офлайн-конвертер валют: как работают сохраненные курсы">
+  <meta name="twitter:description" content="Поймите, о чем может (и не может) вам сказать офлайн-курс обмена.">
+  <meta name="twitter:image" content="https://balkanconverter.com/assets/og-v1-5-11.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/icons/v1-5-11/favicon-32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/icons/v1-5-11/apple-touch-icon-180.png">
+  <link rel="manifest" href="../../site.webmanifest">
+  <link rel="stylesheet" href="../../styles.css">
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"Article","headline":"Автономный конвертер валют: как работают сохраненные курсы валют","description":"Практическое руководство по использованию датированных сохраненных обменных курсов для конвертации валюты без Интернета.","mainEntityOfPage":"https://balkanconverter.com/ru/offline-currency-converter/","publisher":{"@type":"Organization","name":"Balkan Currency Converter"}}
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Перейти к руководству</a>
+  <header class="site-header">
+    <div class="shell nav-wrap">
+      <a class="brand" href="/ru/" aria-label="Balkan Currency Converter Главная"><img src="../../assets/icons/v1-5-11/app-icon-v1-5-11.png" width="42" height="42" alt=""><span dir="ltr">Balkan Currency Converter</span></a>
+      <nav class="nav-links" aria-label="Основная навигация"><a href="/ru/">Главная</a><a href="/ru/currency-converter/">Конвертер валют</a><a href="/ru/multi-currency-converter/">Мультивалютность</a></nav>
+      <div class="nav-actions">
+        <details class="language-selector">
+          <summary aria-label="Русский"><span aria-hidden="true">🌐</span><span>Русский</span></summary>
+          <div class="language-menu">
+          <a href="/offline-currency-converter/" hreflang="en" lang="en">English</a>
+          <a href="/sr/offline-currency-converter/" hreflang="sr" lang="sr">Српски</a>
+          <a href="/bs/offline-currency-converter/" hreflang="bs" lang="bs">Bosanski</a>
+          <a href="/hr/offline-currency-converter/" hreflang="hr" lang="hr">Hrvatski</a>
+          <a href="/sq/offline-currency-converter/" hreflang="sq" lang="sq">Shqip</a>
+          <a href="/mk/offline-currency-converter/" hreflang="mk" lang="mk">Македонски</a>
+          <a href="/bg/offline-currency-converter/" hreflang="bg" lang="bg">Български</a>
+          <a href="/ro/offline-currency-converter/" hreflang="ro" lang="ro">Română</a>
+          <a href="/hu/offline-currency-converter/" hreflang="hu" lang="hu">Magyar</a>
+          <a href="/pl/offline-currency-converter/" hreflang="pl" lang="pl">Polski</a>
+          <a href="/cs/offline-currency-converter/" hreflang="cs" lang="cs">Čeština</a>
+          <a href="/sk/offline-currency-converter/" hreflang="sk" lang="sk">Slovenčina</a>
+          <a href="/sl/offline-currency-converter/" hreflang="sl" lang="sl">Slovenščina</a>
+          <a href="/de/offline-currency-converter/" hreflang="de" lang="de">Deutsch</a>
+          <a href="/fr/offline-currency-converter/" hreflang="fr" lang="fr">Français</a>
+          <a href="/it/offline-currency-converter/" hreflang="it" lang="it">Italiano</a>
+          <a href="/es-es/offline-currency-converter/" hreflang="es-ES" lang="es-ES">Español (España)</a>
+          <a href="/es-419/offline-currency-converter/" hreflang="es-419" lang="es-419">Español (Latinoamérica)</a>
+          <a href="/pt-br/offline-currency-converter/" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a>
+          <a href="/pt-pt/offline-currency-converter/" hreflang="pt-PT" lang="pt-PT">Português (Portugal)</a>
+          <a href="/nl/offline-currency-converter/" hreflang="nl" lang="nl">Nederlands</a>
+          <a href="/da/offline-currency-converter/" hreflang="da" lang="da">Dansk</a>
+          <a href="/sv/offline-currency-converter/" hreflang="sv" lang="sv">Svenska</a>
+          <a href="/nb/offline-currency-converter/" hreflang="nb" lang="nb">Norsk bokmål</a>
+          <a href="/fi/offline-currency-converter/" hreflang="fi" lang="fi">Suomi</a>
+          <a href="/is/offline-currency-converter/" hreflang="is" lang="is">Íslenska</a>
+          <a href="/el/offline-currency-converter/" hreflang="el" lang="el">Ελληνικά</a>
+          <a href="/tr/offline-currency-converter/" hreflang="tr" lang="tr">Türkçe</a>
+          <a href="/ru/offline-currency-converter/" hreflang="ru" lang="ru" aria-current="page">Русский</a>
+          <a href="/uk/offline-currency-converter/" hreflang="uk" lang="uk">Українська</a>
+          <a href="/ar/offline-currency-converter/" hreflang="ar" lang="ar" dir="rtl">العربية</a>
+          <a href="/he/offline-currency-converter/" hreflang="he" lang="he" dir="rtl">עברית</a>
+          <a href="/fa/offline-currency-converter/" hreflang="fa" lang="fa" dir="rtl">فارسی</a>
+          <a href="/ur/offline-currency-converter/" hreflang="ur" lang="ur" dir="rtl">اردو</a>
+          <a href="/hi/offline-currency-converter/" hreflang="hi" lang="hi">हिन्दी</a>
+          <a href="/bn/offline-currency-converter/" hreflang="bn" lang="bn">বাংলা</a>
+          <a href="/id/offline-currency-converter/" hreflang="id" lang="id">Bahasa Indonesia</a>
+          <a href="/ms/offline-currency-converter/" hreflang="ms" lang="ms">Bahasa Melayu</a>
+          <a href="/th/offline-currency-converter/" hreflang="th" lang="th">ไทย</a>
+          <a href="/vi/offline-currency-converter/" hreflang="vi" lang="vi">Tiếng Việt</a>
+          <a href="/zh-hans/offline-currency-converter/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a>
+          <a href="/zh-hant/offline-currency-converter/" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a>
+          <a href="/ja/offline-currency-converter/" hreflang="ja" lang="ja">日本語</a>
+          <a href="/ko/offline-currency-converter/" hreflang="ko" lang="ko">한국어</a>
+          </div>
+        </details>
+<button class="theme-toggle" type="button" data-label-light="Тема: Светлая тема" data-label-dark="Тема: Темная тема" aria-label="Переключить цветовую тему" title="Переключить цветовую тему"><span class="theme-icon" aria-hidden="true">◐</span></button></div>
+    </div>
+  </header>
+
+  <main id="main" class="calculator-main">
+    <section class="calculator-hero shell" aria-labelledby="offline-title">
+      <a class="back-link" href="/ru/"><span aria-hidden="true">←</span> Вернуться к Balkan Currency Converter</a>
+      <p class="eyebrow"><span class="status-dot"></span> Офлайн-путеводитель по курсам валют</p>
+      <h1 id="offline-title">Офлайн-конвертер валют: как работают сохраненные курсы</h1>
+      <p class="hero-lede">Конвертер может продолжать работать без Интернета, используя последние обменные курсы, которые он успешно сохранил на вашем устройстве. Эти тарифы являются полезными справочными данными, но они остаются привязанными к исходной дате, пока приложение не обновит их онлайн.</p>
+    </section>
+
+    <section class="section shell" aria-labelledby="offline-flow-title">
+      <div class="section-heading"><div><p class="eyebrow">Простая версия</p><h2 id="offline-flow-title">От онлайн-обновления к офлайн-конверсии</h2></div><p>Сохранение ставки не делает ее вечной. Он создает устаревшую локальную копию, которую можно повторно использовать, когда сеть недоступна.</p></div>
+      <div class="feature-grid">
+        <article class="feature-card"><span class="feature-mark" aria-hidden="true">1</span><h3>Подключитесь и обновите</h3><p>Приложение запрашивает последний доступный набор данных по базовым ставкам и записывает дату расчета и экономит время.</p></article>
+        <article class="feature-card"><span class="feature-mark" aria-hidden="true">2</span><h3>Сохранить последний успех</h3><p>После успешного запроса набор данных сохраняется локально. Если более поздний запрос завершается неудачей, предыдущая рабочая копия остается доступной.</p></article>
+        <article class="feature-card feature-card-accent"><span class="feature-mark" aria-hidden="true">3</span><h3>Конвертировать без Интернета</h3><p>В автономном режиме преобразования используют этот сохраненный набор данных и показывают, что используются кэшированные данные вместе с датой курса.</p></article>
+      </div>
+    </section>
+
+    <section class="calculator-explanation shell" aria-labelledby="snapshot-title">
+      <article>
+        <h2 id="snapshot-title">Что означает сохраненный офлайн-рейт</h2>
+        <p>Сохраненные данные представляют собой снимок самого последнего успешного ответа по эталонной ставке. Он может рассчитывать конверсии без подключения к сети, но цифры не обновляются, пока устройство находится в автономном режиме.</p>
+        <p>Всегда проверяйте отображаемую дату тарифа. Результат, основанный на вчерашних курсах, все еще может быть полезен для планирования, но это не обещание курса, который банк, поставщик карт или обменный пункт предложит сегодня.</p>
+      </article>
+      <aside>
+        <h2>Что будет, когда интернет вернется?</h2>
+        <p>Balkan Converter использует один общий кэш локальной скорости для обычного преобразования и подготовки сохраненного набора. Успешное онлайн-обновление заменяет старый кэшированный набор данных, обновляет его дату и экономит время.</p>
+        <p>Если обновление не удается, приложение возвращается к предыдущим кэшированным скоростям вместо их удаления.</p>
+      </aside>
+    </section>
+
+    <section class="calculator-explanation shell" aria-labelledby="prepare-title">
+      <article>
+        <h2 id="prepare-title">Подготовьте сохраненный набор для автономного использования.</h2>
+        <p>В приложении Android создайте или откройте сохраненный набор для нужных вам валют. При подключении выберите <strong>Сохранить тарифы офлайн</strong>. Приложение обновляет общий набор данных о курсах и подтверждает готовность, когда сохраненный кэш содержит все валюты из этого набора.</p>
+        <p>Для каждой поездки не существует отдельного файла замороженных ставок. При подготовке другого набора обновляется тот же кеш, который используется в другом месте приложения.</p>
+      </article>
+      <aside>
+        <h2>Полезно за пределами путешествий</h2>
+        <p>Автономное преобразование может помочь при плохом соединении, нарушении роуминга, временном отключении услуг или в любой ситуации, когда быстрая справочная оценка более полезна, чем отсутствие результата.</p>
+        <p>Для быстрого доступа к последней кэшированной паре см. <a class="text-link" href="/ru/currency-converter-widget/">Руководство по виджетам валюты Android</a>. Для онлайн-сравнений используйте <a class="text-link" href="/ru/currency-converter/">Конвертер валют</a>, сравните несколько результатов в <a class="text-link" href="/ru/multi-currency-converter/">Мультивалютный конвертер</a>, или ознакомьтесь с предложением провайдера на <a class="text-link" href="/ru/exchange-rate-markup-calculator/">Калькулятор наценки обменного курса</a>.</p>
+      </aside>
+    </section>
+
+    <section class="cta-section shell calculator-cta" aria-labelledby="offline-cta-title">
+      <div><p class="eyebrow eyebrow-inverse">Держите под рукой датированную ссылку</p><h2 id="offline-cta-title">Используйте сохраненные тарифы в Balkan Converter</h2><p>Приложение Android может повторно использовать свой последний успешный кеш обменного курса без подключения и четко определяет кэшированные данные и дату их курса.</p></div>
+      <a class="play-link play-link-on-dark offline-play-cta" href="https://play.google.com/store/apps/details?id=io.github.nstim605.balkanconverter" aria-label="Получите Balkan Currency Converter на Google Play"><img src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png" width="202" height="60" alt="Получите его на Google Play"></a>
+    </section>
+  </main>
+
+  <footer class="site-footer"><div class="shell footer-grid"><div class="footer-brand"><img src="../../assets/icons/v1-5-11/app-icon-v1-5-11.png" width="44" height="44" alt=""><div><strong dir="ltr">Balkan Currency Converter</strong><span>Конвертация валюты для Android</span></div></div><nav aria-label="Навигация в нижнем колонтитуле"><a href="/ru/">Главная</a><a href="/ru/privacy-policy.html">Политика конфиденциальности</a><a href="https://play.google.com/store/apps/details?id=io.github.nstim605.balkanconverter">Google Play</a><button class="footer-link-button analytics-consent-settings" type="button">Варианты аналитики</button></nav><p>© 2026 Balkan Currency Converter</p></div></footer>
+  <template id="analytics-consent-template">
+    <div class="analytics-consent-copy">
+      <strong id="analytics-consent-title">Необязательная аналитика</strong>
+      <p id="analytics-consent-description">Помогите нам понять, как используется сайт. Firebase Analytics останется отключённой, пока вы не согласитесь. <a href="/ru/privacy-policy.html#website-analytics">Подробнее</a>.</p>
+    </div>
+    <div class="analytics-consent-actions">
+      <button class="analytics-consent-button analytics-consent-accept" type="button">Разрешить аналитику</button>
+      <button class="analytics-consent-button analytics-consent-reject" type="button">Отклонить аналитику</button>
+    </div>
+  </template>
+  <script src="../../script.js" defer></script>
+</body>
+</html>

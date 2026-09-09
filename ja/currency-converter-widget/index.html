@@ -1,0 +1,204 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f7f8fa" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#070a0f" media="(prefers-color-scheme: dark)">
+  <title>Android の通貨コンバータ ウィジェット | Balkan Converter</title>
+  <meta name="description" content="通貨換算ウィジェットを Android のホーム画面に追加すると、キャッシュされた為替レート、レート日付、スワップ アクション、アプリのショートカットに簡単にアクセスできます。">
+  <link rel="canonical" href="https://balkanconverter.com/ja/currency-converter-widget/">
+  <link rel="alternate" hreflang="en" href="https://balkanconverter.com/currency-converter-widget/">
+  <link rel="alternate" hreflang="sr" href="https://balkanconverter.com/sr/currency-converter-widget/">
+  <link rel="alternate" hreflang="bs" href="https://balkanconverter.com/bs/currency-converter-widget/">
+  <link rel="alternate" hreflang="hr" href="https://balkanconverter.com/hr/currency-converter-widget/">
+  <link rel="alternate" hreflang="sq" href="https://balkanconverter.com/sq/currency-converter-widget/">
+  <link rel="alternate" hreflang="mk" href="https://balkanconverter.com/mk/currency-converter-widget/">
+  <link rel="alternate" hreflang="bg" href="https://balkanconverter.com/bg/currency-converter-widget/">
+  <link rel="alternate" hreflang="ro" href="https://balkanconverter.com/ro/currency-converter-widget/">
+  <link rel="alternate" hreflang="hu" href="https://balkanconverter.com/hu/currency-converter-widget/">
+  <link rel="alternate" hreflang="pl" href="https://balkanconverter.com/pl/currency-converter-widget/">
+  <link rel="alternate" hreflang="cs" href="https://balkanconverter.com/cs/currency-converter-widget/">
+  <link rel="alternate" hreflang="sk" href="https://balkanconverter.com/sk/currency-converter-widget/">
+  <link rel="alternate" hreflang="sl" href="https://balkanconverter.com/sl/currency-converter-widget/">
+  <link rel="alternate" hreflang="de" href="https://balkanconverter.com/de/currency-converter-widget/">
+  <link rel="alternate" hreflang="fr" href="https://balkanconverter.com/fr/currency-converter-widget/">
+  <link rel="alternate" hreflang="it" href="https://balkanconverter.com/it/currency-converter-widget/">
+  <link rel="alternate" hreflang="es-ES" href="https://balkanconverter.com/es-es/currency-converter-widget/">
+  <link rel="alternate" hreflang="es-419" href="https://balkanconverter.com/es-419/currency-converter-widget/">
+  <link rel="alternate" hreflang="pt-BR" href="https://balkanconverter.com/pt-br/currency-converter-widget/">
+  <link rel="alternate" hreflang="pt-PT" href="https://balkanconverter.com/pt-pt/currency-converter-widget/">
+  <link rel="alternate" hreflang="nl" href="https://balkanconverter.com/nl/currency-converter-widget/">
+  <link rel="alternate" hreflang="da" href="https://balkanconverter.com/da/currency-converter-widget/">
+  <link rel="alternate" hreflang="sv" href="https://balkanconverter.com/sv/currency-converter-widget/">
+  <link rel="alternate" hreflang="nb" href="https://balkanconverter.com/nb/currency-converter-widget/">
+  <link rel="alternate" hreflang="fi" href="https://balkanconverter.com/fi/currency-converter-widget/">
+  <link rel="alternate" hreflang="is" href="https://balkanconverter.com/is/currency-converter-widget/">
+  <link rel="alternate" hreflang="el" href="https://balkanconverter.com/el/currency-converter-widget/">
+  <link rel="alternate" hreflang="tr" href="https://balkanconverter.com/tr/currency-converter-widget/">
+  <link rel="alternate" hreflang="ru" href="https://balkanconverter.com/ru/currency-converter-widget/">
+  <link rel="alternate" hreflang="uk" href="https://balkanconverter.com/uk/currency-converter-widget/">
+  <link rel="alternate" hreflang="ar" href="https://balkanconverter.com/ar/currency-converter-widget/">
+  <link rel="alternate" hreflang="he" href="https://balkanconverter.com/he/currency-converter-widget/">
+  <link rel="alternate" hreflang="fa" href="https://balkanconverter.com/fa/currency-converter-widget/">
+  <link rel="alternate" hreflang="ur" href="https://balkanconverter.com/ur/currency-converter-widget/">
+  <link rel="alternate" hreflang="hi" href="https://balkanconverter.com/hi/currency-converter-widget/">
+  <link rel="alternate" hreflang="bn" href="https://balkanconverter.com/bn/currency-converter-widget/">
+  <link rel="alternate" hreflang="id" href="https://balkanconverter.com/id/currency-converter-widget/">
+  <link rel="alternate" hreflang="ms" href="https://balkanconverter.com/ms/currency-converter-widget/">
+  <link rel="alternate" hreflang="th" href="https://balkanconverter.com/th/currency-converter-widget/">
+  <link rel="alternate" hreflang="vi" href="https://balkanconverter.com/vi/currency-converter-widget/">
+  <link rel="alternate" hreflang="zh-Hans" href="https://balkanconverter.com/zh-hans/currency-converter-widget/">
+  <link rel="alternate" hreflang="zh-Hant" href="https://balkanconverter.com/zh-hant/currency-converter-widget/">
+  <link rel="alternate" hreflang="ja" href="https://balkanconverter.com/ja/currency-converter-widget/">
+  <link rel="alternate" hreflang="ko" href="https://balkanconverter.com/ko/currency-converter-widget/">
+  <link rel="alternate" hreflang="x-default" href="https://balkanconverter.com/currency-converter-widget/">
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="Balkan Currency Converter">
+  <meta property="og:title" content="Android の通貨換算ウィジェット">
+  <meta property="og:description" content="Android で Balkan Converter のホーム画面通貨ウィジェットを追加して使用する方法をご覧ください。">
+  <meta property="og:url" content="https://balkanconverter.com/ja/currency-converter-widget/">
+  <meta property="og:image" content="https://balkanconverter.com/assets/guides/widget-home-screen.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Android の通貨換算ウィジェット">
+  <meta name="twitter:description" content="Android のホーム画面からキャッシュされた通貨ペアに簡単にアクセスできます。">
+  <meta name="twitter:image" content="https://balkanconverter.com/assets/guides/widget-home-screen.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/icons/v1-5-11/favicon-32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/icons/v1-5-11/apple-touch-icon-180.png">
+  <link rel="manifest" href="../../site.webmanifest">
+  <link rel="stylesheet" href="../../styles.css">
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"HowTo","name":"Android に Balkan Converter ウィジェットを追加する方法","description":"通貨換算ウィジェットを Android ホーム画面に追加し、キャッシュされた参照レートを使用します。","step":[{"@type":"HowToStep","name":"Balkan Converter を開く","text":"アプリを開き、必要な通貨ペアを選択して、最新の参照レートを正常に読み込みます。"},{"@type":"HowToStep","name":"Android ウィジェット ピッカーを開きます","text":"ホーム画面の空いている領域を長押しし、[ウィジェット]を選択します。"},{"@type":"HowToStep","name":"ウィジェットを追加する","text":"Balkan Converter を見つけて、その通貨ウィジェットをホーム画面にドラッグします。"},{"@type":"HowToStep","name":"サイズを変更して使用してください","text":"必要に応じてウィジェットのサイズを変更します。ウィジェットをタップして、選択したペアをアプリで開きます。より広いレイアウトでは、交換アクションも提供されます。"}]}
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">ウィジェットガイドにスキップ</a>
+  <header class="site-header">
+    <div class="shell nav-wrap">
+      <a class="brand" href="/ja/" aria-label="Balkan Currency Converter の家"><img src="../../assets/icons/v1-5-11/app-icon-v1-5-11.png" width="42" height="42" alt=""><span dir="ltr">Balkan Currency Converter</span></a>
+      <nav class="nav-links" aria-label="メインナビゲーション"><a href="/ja/">ホーム</a><a href="/ja/currency-converter/">通貨換算機</a><a href="/ja/exchange-rate-history/">レート履歴</a></nav>
+      <div class="nav-actions">
+        <details class="language-selector">
+          <summary aria-label="日本語"><span aria-hidden="true">🌐</span><span>日本語</span></summary>
+          <div class="language-menu">
+          <a href="/currency-converter-widget/" hreflang="en" lang="en">English</a>
+          <a href="/sr/currency-converter-widget/" hreflang="sr" lang="sr">Српски</a>
+          <a href="/bs/currency-converter-widget/" hreflang="bs" lang="bs">Bosanski</a>
+          <a href="/hr/currency-converter-widget/" hreflang="hr" lang="hr">Hrvatski</a>
+          <a href="/sq/currency-converter-widget/" hreflang="sq" lang="sq">Shqip</a>
+          <a href="/mk/currency-converter-widget/" hreflang="mk" lang="mk">Македонски</a>
+          <a href="/bg/currency-converter-widget/" hreflang="bg" lang="bg">Български</a>
+          <a href="/ro/currency-converter-widget/" hreflang="ro" lang="ro">Română</a>
+          <a href="/hu/currency-converter-widget/" hreflang="hu" lang="hu">Magyar</a>
+          <a href="/pl/currency-converter-widget/" hreflang="pl" lang="pl">Polski</a>
+          <a href="/cs/currency-converter-widget/" hreflang="cs" lang="cs">Čeština</a>
+          <a href="/sk/currency-converter-widget/" hreflang="sk" lang="sk">Slovenčina</a>
+          <a href="/sl/currency-converter-widget/" hreflang="sl" lang="sl">Slovenščina</a>
+          <a href="/de/currency-converter-widget/" hreflang="de" lang="de">Deutsch</a>
+          <a href="/fr/currency-converter-widget/" hreflang="fr" lang="fr">Français</a>
+          <a href="/it/currency-converter-widget/" hreflang="it" lang="it">Italiano</a>
+          <a href="/es-es/currency-converter-widget/" hreflang="es-ES" lang="es-ES">Español (España)</a>
+          <a href="/es-419/currency-converter-widget/" hreflang="es-419" lang="es-419">Español (Latinoamérica)</a>
+          <a href="/pt-br/currency-converter-widget/" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a>
+          <a href="/pt-pt/currency-converter-widget/" hreflang="pt-PT" lang="pt-PT">Português (Portugal)</a>
+          <a href="/nl/currency-converter-widget/" hreflang="nl" lang="nl">Nederlands</a>
+          <a href="/da/currency-converter-widget/" hreflang="da" lang="da">Dansk</a>
+          <a href="/sv/currency-converter-widget/" hreflang="sv" lang="sv">Svenska</a>
+          <a href="/nb/currency-converter-widget/" hreflang="nb" lang="nb">Norsk bokmål</a>
+          <a href="/fi/currency-converter-widget/" hreflang="fi" lang="fi">Suomi</a>
+          <a href="/is/currency-converter-widget/" hreflang="is" lang="is">Íslenska</a>
+          <a href="/el/currency-converter-widget/" hreflang="el" lang="el">Ελληνικά</a>
+          <a href="/tr/currency-converter-widget/" hreflang="tr" lang="tr">Türkçe</a>
+          <a href="/ru/currency-converter-widget/" hreflang="ru" lang="ru">Русский</a>
+          <a href="/uk/currency-converter-widget/" hreflang="uk" lang="uk">Українська</a>
+          <a href="/ar/currency-converter-widget/" hreflang="ar" lang="ar" dir="rtl">العربية</a>
+          <a href="/he/currency-converter-widget/" hreflang="he" lang="he" dir="rtl">עברית</a>
+          <a href="/fa/currency-converter-widget/" hreflang="fa" lang="fa" dir="rtl">فارسی</a>
+          <a href="/ur/currency-converter-widget/" hreflang="ur" lang="ur" dir="rtl">اردو</a>
+          <a href="/hi/currency-converter-widget/" hreflang="hi" lang="hi">हिन्दी</a>
+          <a href="/bn/currency-converter-widget/" hreflang="bn" lang="bn">বাংলা</a>
+          <a href="/id/currency-converter-widget/" hreflang="id" lang="id">Bahasa Indonesia</a>
+          <a href="/ms/currency-converter-widget/" hreflang="ms" lang="ms">Bahasa Melayu</a>
+          <a href="/th/currency-converter-widget/" hreflang="th" lang="th">ไทย</a>
+          <a href="/vi/currency-converter-widget/" hreflang="vi" lang="vi">Tiếng Việt</a>
+          <a href="/zh-hans/currency-converter-widget/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a>
+          <a href="/zh-hant/currency-converter-widget/" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a>
+          <a href="/ja/currency-converter-widget/" hreflang="ja" lang="ja" aria-current="page">日本語</a>
+          <a href="/ko/currency-converter-widget/" hreflang="ko" lang="ko">한국어</a>
+          </div>
+        </details>
+<button class="theme-toggle" type="button" data-label-light="テーマ: ライトテーマ" data-label-dark="テーマ: ダークテーマ" aria-label="カラーテーマを切り替える" title="カラーテーマを切り替える"><span class="theme-icon" aria-hidden="true">◐</span></button></div>
+    </div>
+  </header>
+
+  <main id="main" class="calculator-main">
+    <section class="widget-guide-hero shell" aria-labelledby="widget-title">
+      <div class="widget-guide-copy">
+        <a class="back-link" href="/ja/"><span aria-hidden="true">←</span> Balkan Currency Converter に戻る</a>
+        <p class="eyebrow"><span class="status-dot"></span> Android ホーム画面ガイド</p>
+        <h1 id="widget-title">Android の通貨換算ウィジェット</h1>
+        <p class="hero-lede">便利な通貨ペアをホーム画面に 1 つだけ置いておきます。 Balkan Converter ウィジェットは、キャッシュされた参照レートとそのデータ日付を表示し、アプリでそのペアを開き、より広いレイアウトでの素早い交換をサポートします。</p>
+        <a class="primary-button" href="#add-widget">ウィジェットの追加方法 <span aria-hidden="true">↓</span></a>
+      </div>
+      <figure class="widget-guide-visual">
+        <img src="/assets/guides/widget-home-screen.png" width="1080" height="1920" alt="Android のホーム画面にキャッシュされた EUR 対 RSD レートを表示する Balkan Converter 本番通貨ウィジェット">
+        <figcaption>通常の Android ホーム画面上の本番環境の Balkan Converter ウィジェット。</figcaption>
+      </figure>
+    </section>
+
+    <section class="section shell widget-details" id="add-widget" aria-labelledby="widget-steps-title">
+      <div class="section-heading"><div><p class="eyebrow">4 つの簡単なステップ</p><h2 id="widget-steps-title">通貨ウィジェットを追加する</h2></div><p>ランチャーのラベルは Android デバイスによって若干異なりますが、標準のホーム画面の流れは同じです。</p></div>
+      <div class="feature-grid">
+        <article class="feature-card"><span class="feature-mark" aria-hidden="true">1</span><h3>ペアを用意する</h3><p>Balkan Converter を開き、必要な通貨を選択して、最新の参照レートを正常に読み込みます。</p></article>
+        <article class="feature-card"><span class="feature-mark" aria-hidden="true">2</span><h3>ウィジェットを開く</h3><p>Android ホーム画面の空いている部分を長押しして、 <strong>ウィジェット</strong>.</p></article>
+        <article class="feature-card"><span class="feature-mark" aria-hidden="true">3</span><h3>置いてください</h3><p>Balkan Converter を見つけて、通貨ウィジェットをホーム画面の空き領域にドラッグします。</p></article>
+        <article class="feature-card feature-card-accent"><span class="feature-mark" aria-hidden="true">4</span><h3>サイズを変更して使用する</h3><p>フィットするようにサイズを変更します。カードをタップしてアプリでそのペアを開きます。幅の広いウィジェットには交換ボタンも表示されます。</p></article>
+      </div>
+    </section>
+
+    <section class="calculator-explanation shell" aria-labelledby="widget-shows-title">
+      <article>
+        <h2 id="widget-shows-title">ウィジェットが示すもの</h2>
+        <p>カードには、選択したペアの参照レートに加えて、鮮度ラベルとレート日付が表示されます。各ウィジェットは、アプリで最後に使用されたペアから始まり、その後、独自のペアを記憶します。</p>
+        <p>ウィジェットをタップすると、これらの通貨が準備された状態で Balkan Converter が開きます。中程度の幅のウィジェットでは、スワップ コントロールによってホーム画面上のペアが直接反転されます。</p>
+      </article>
+      <aside>
+        <h2>日付が重要な理由</h2>
+        <p>ウィジェットは、アプリの最新の正常にキャッシュされたレート データセットを使用します。これは独立したライブ市場フィードではありません。 Balkan Converter がレートを正常に更新すると、インストールされたウィジェットは更新されたキャッシュ データを受け取ります。</p>
+        <p>デバイスがオフラインの場合、以前の参照レートは推定に役立ちますが、表示される日付によってそのデバイスがどれくらい古いかがわかります。詳細については、 <a class="text-link" href="/ja/offline-currency-converter/">オフライン通貨換算ガイド</a>.</p>
+      </aside>
+    </section>
+
+    <section class="calculator-explanation shell" aria-labelledby="widget-tips-title">
+      <article>
+        <h2 id="widget-tips-title">小さいレイアウトですか、それとも広いレイアウトですか?</h2>
+        <p>コンパクトなレイアウトにより、少ないスペースでレートと日付が表示されます。レートとともに専用のスワップ アクションが必要な場合は、ウィジェットの幅を広くします。</p>
+        <p>Android ランチャーは正確なグリッド サイズを制御するため、利用可能なサイズ変更手順は携帯電話とタブレットで異なる場合があります。</p>
+      </article>
+      <aside>
+        <h2>複数のクイック ペアの場合</h2>
+        <p>フルアプリを開いて金額を入力、計算、表示します。 <a class="text-link" href="/ja/exchange-rate-history/">歴史的チャート</a>、複数の目的地を比較するか、オフラインで使用するために保存された料金を準備します。</p>
+        <p>ウィジェットは一目でわかるショートカットとして設計されており、Balkan Converter は完全な変換ワークフローを提供します。</p>
+      </aside>
+    </section>
+
+    <section class="cta-section shell calculator-cta" aria-labelledby="widget-cta-title">
+      <div><p class="eyebrow eyebrow-inverse">変換の概要</p><h2 id="widget-cta-title">ホーム画面に Balkan Converter を追加します</h2><p>Android アプリをインストールし、希望のペアをロードして、最もアクセスしやすい場所に実稼働通貨ウィジェットを配置します。</p></div>
+      <a class="play-link play-link-on-dark" href="https://play.google.com/store/apps/details?id=io.github.nstim605.balkanconverter" aria-label="Google Play で Balkan Currency Converter を入手"><img src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png" width="202" height="60" alt="Google Play で入手"></a>
+    </section>
+  </main>
+
+  <footer class="site-footer"><div class="shell footer-grid"><div class="footer-brand"><img src="../../assets/icons/v1-5-11/app-icon-v1-5-11.png" width="44" height="44" alt=""><div><strong dir="ltr">Balkan Currency Converter</strong><span>Android の通貨換算</span></div></div><nav aria-label="フッターナビゲーション"><a href="/ja/">ホーム</a><a href="/ja/privacy-policy.html">プライバシーポリシー</a><a href="https://play.google.com/store/apps/details?id=io.github.nstim605.balkanconverter">Google Play</a><button class="footer-link-button analytics-consent-settings" type="button">分析の選択肢</button></nav><p>© 2026 Balkan Currency Converter</p></div></footer>
+  <template id="analytics-consent-template">
+    <div class="analytics-consent-copy">
+      <strong id="analytics-consent-title">任意のアクセス解析</strong>
+      <p id="analytics-consent-description">サイトの利用状況の把握にご協力ください。同意するまで Firebase Analytics は無効です。 <a href="/ja/privacy-policy.html#website-analytics">詳しく見る</a>.</p>
+    </div>
+    <div class="analytics-consent-actions">
+      <button class="analytics-consent-button analytics-consent-accept" type="button">アクセス解析に同意</button>
+      <button class="analytics-consent-button analytics-consent-reject" type="button">アクセス解析を拒否</button>
+    </div>
+  </template>
+  <script src="../../script.js" defer></script>
+</body>
+</html>

@@ -1,6 +1,7 @@
 import { fetchReferenceRates } from '../exchange-rate-markup-calculator/calculator-core.mjs';
 import { calculateHistoryStatistics, fetchHistoricalDate, fetchHistory } from './history-core.mjs';
 import { trackSiteEvent } from '../analytics.js';
+import { formatRateDate, t } from '../tool-i18n.mjs';
 
 const historyForm = document.querySelector('#history-form');
 const dateForm = document.querySelector('#history-date-form');
@@ -13,6 +14,7 @@ const historyResults = document.querySelector('#history-results');
 const dateResults = document.querySelector('#history-date-results');
 const dateInput = document.querySelector('#history-date');
 const line = document.querySelector('#history-line');
+const pageLocale = document.documentElement.lang || undefined;
 let currenciesReady = false;
 
 const today = new Date().toISOString().slice(0, 10);
@@ -47,7 +49,7 @@ async function ensureCurrencies() {
 function selectedPair() {
   const base = baseSelect.value;
   const quote = targetSelect.value;
-  if (base === quote) throw new RangeError('Choose two different currencies.');
+  if (base === quote) throw new RangeError(t('Choose two different currencies.'));
   return { base, quote };
 }
 
@@ -59,7 +61,7 @@ function periodRange(days) {
 }
 
 function formatRate(value) {
-  return new Intl.NumberFormat(undefined, { minimumSignificantDigits: 4, maximumSignificantDigits: 7 }).format(value);
+  return new Intl.NumberFormat(pageLocale, { minimumSignificantDigits: 4, maximumSignificantDigits: 7 }).format(value);
 }
 
 function renderChart(points, base, quote) {
@@ -78,7 +80,10 @@ function renderChart(points, base, quote) {
     return `${index ? 'L' : 'M'} ${x.toFixed(2)} ${y.toFixed(2)}`;
   });
   line.setAttribute('d', coordinates.join(' '));
-  line.closest('svg').setAttribute('aria-label', `${base} to ${quote} reference-rate history from ${points[0].date} to ${points.at(-1).date}. Minimum ${formatRate(minimum)}, maximum ${formatRate(maximum)}.`);
+  line.closest('svg').setAttribute('aria-label', t(
+    '{base} to {quote} reference-rate history from {from} to {to}. Minimum {minimum}, maximum {maximum}.',
+    { base, quote, from: formatRateDate(points[0].date), to: formatRateDate(points.at(-1).date), minimum: formatRate(minimum), maximum: formatRate(maximum) }
+  ));
   document.querySelector('#chart-maximum').textContent = formatRate(maximum);
   document.querySelector('#chart-minimum').textContent = formatRate(minimum);
   document.querySelector('#chart-start').textContent = points[0].date;
@@ -99,8 +104,8 @@ historyForm.addEventListener('submit', async event => {
   dateResults.hidden = true;
   const submit = historyForm.querySelector('button[type="submit"]');
   submit.disabled = true;
-  submit.textContent = 'Loading history…';
-  setStatus(historyStatus, 'Fetching historical reference rates…', 'loading');
+  submit.textContent = t('Loading history…');
+  setStatus(historyStatus, t('Fetching historical reference rates…'), 'loading');
   try {
     await ensureCurrencies();
     const { base, quote } = selectedPair();
@@ -108,21 +113,21 @@ historyForm.addEventListener('submit', async event => {
     const points = await fetchHistory({ base, quote, ...periodRange(days) });
     const stats = calculateHistoryStatistics(points);
     renderChart(points, base, quote);
-    document.querySelector('#history-results-title').textContent = `${base}/${quote} exchange-rate history`;
+    document.querySelector('#history-results-title').textContent = t('{base}/{quote} exchange-rate history', { base, quote });
     document.querySelector('[data-history="latest"]').textContent = `1 ${base} = ${formatRate(stats.latest.rate)} ${quote}`;
     document.querySelector('[data-history="minimum"]').textContent = formatRate(stats.minimum);
     document.querySelector('[data-history="maximum"]').textContent = formatRate(stats.maximum);
     document.querySelector('[data-history="average"]').textContent = formatRate(stats.average);
-    document.querySelector('#history-range-date').textContent = `Latest available data in this period: ${stats.latest.date}.`;
+    document.querySelector('#history-range-date').textContent = t('Latest available data in this period: {date}.', { date: formatRateDate(stats.latest.date) });
     historyResults.hidden = false;
     historyResults.focus({ preventScroll: true });
-    setStatus(historyStatus, `${points.length} dated reference rates loaded.`, 'success');
+    setStatus(historyStatus, t('{count} dated reference rates loaded.', { count: points.length }), 'success');
     trackSiteEvent('exchange_rate_history_used', { period_days: days });
   } catch (error) {
-    setStatus(historyStatus, error instanceof RangeError ? error.message : 'Historical rates could not be loaded. Check your connection and try again.', 'error');
+    setStatus(historyStatus, error instanceof RangeError ? t(error.message) : t('Historical rates could not be loaded. Check your connection and try again.'), 'error');
   } finally {
     submit.disabled = false;
-    submit.textContent = 'Show exchange-rate history';
+    submit.textContent = t('Show exchange-rate history');
   }
 });
 
@@ -132,12 +137,12 @@ dateForm.addEventListener('submit', async event => {
   const submit = dateForm.querySelector('button[type="submit"]');
   const date = dateInput.value;
   if (!date || date > today) {
-    setStatus(dateStatus, 'Choose a valid date that is not in the future.', 'error');
+    setStatus(dateStatus, t('Choose a valid date that is not in the future.'), 'error');
     return;
   }
   submit.disabled = true;
-  submit.textContent = 'Looking up rate…';
-  setStatus(dateStatus, 'Fetching the historical reference rate…', 'loading');
+  submit.textContent = t('Looking up rate…');
+  setStatus(dateStatus, t('Fetching the historical reference rate…'), 'loading');
   try {
     await ensureCurrencies();
     const { base, quote } = selectedPair();
@@ -145,17 +150,17 @@ dateForm.addEventListener('submit', async event => {
     document.querySelector('[data-date-result="rate"]').textContent = `1 ${base} = ${formatRate(point.rate)} ${quote}`;
     document.querySelector('[data-date-result="date"]').textContent = point.date;
     document.querySelector('#historical-date-note').textContent = point.date === date
-      ? `The API returned reference data dated ${point.date}.`
-      : `You selected ${date}; the nearest available published data returned by the API is dated ${point.date}.`;
+      ? t('The API returned reference data dated {date}.', { date: formatRateDate(point.date) })
+      : t('You selected {selectedDate}; the nearest available published data returned by the API is dated {date}.', { selectedDate: formatRateDate(date), date: formatRateDate(point.date) });
     dateResults.hidden = false;
     dateResults.focus({ preventScroll: true });
-    setStatus(dateStatus, 'Historical reference rate loaded.', 'success');
+    setStatus(dateStatus, t('Historical reference rate loaded.'), 'success');
     trackSiteEvent('historical_date_lookup_used');
   } catch (error) {
-    setStatus(dateStatus, error instanceof RangeError ? error.message : 'No historical rate could be loaded for that date and pair.', 'error');
+    setStatus(dateStatus, error instanceof RangeError ? t(error.message) : t('No historical rate could be loaded for that date and pair.'), 'error');
   } finally {
     submit.disabled = false;
-    submit.textContent = 'Look up historical rate';
+    submit.textContent = t('Look up historical rate');
   }
 });
 

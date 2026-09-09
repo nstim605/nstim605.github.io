@@ -5,8 +5,8 @@
     {
       "file": "tools/localize-site.mjs",
       "previousAcceptedSha256": "e48afce43f461b59313168609c45f286ee15a287131a7ff2e395bdefb9d034ae",
-      "acceptedSha256": "5adbdbe43bf1dfdf05296fca1a8e1ea13566d2c4791fe4346f96817d6ae7ea02",
-      "reason": "Use version-neutral homepage screenshot alt keys and an explicit read-only Android source path; additionally use the approved explicit standalone privacy-title copy for seven locales. Legal policy body generation is unchanged."
+      "acceptedSha256": "4fd179dc3260b3cfdd786b0fda2b6b25ac01d9daf4ca3d7df1bbd04024ca7da9",
+      "reason": "Extend the central site generator to create all eight tool pages for every production locale, including localized routes, metadata, canonical and hreflang links, while preserving the published privacy-policy bodies and existing English tool logic."
     },
     {
       "file": "tests/privacy-policy-phase1d.test.mjs",

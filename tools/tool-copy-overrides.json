@@ -1,0 +1,106 @@
+{
+  "sr": {
+    "Currency Converter": "Конвертор валута",
+    "Home": "Почетна",
+    "Markup calculator": "Калкулатор наценке",
+    "Markup Calculator": "Калкулатор наценке",
+    "Multi-currency": "Више валута",
+    "Multi-currency converter": "Мултивалутни конвертор",
+    "Multi-Currency Converter": "Мултивалутни конвертор",
+    "Multi-Currency Converter | Convert One Amount to Multiple Currencies": "Мултивалутни конвертор | Претворите један износ у више валута",
+    "Offline Currency Converter | How Saved Exchange Rates Work": "Офлајн конвертор валута | Како функционишу сачувани курсеви",
+    "offline currency converter guide": "водич за офлајн конвертор валута"
+  },
+  "bs": {
+    "Currency Converter": "Konverter valuta",
+    "Historical lookup": "Pretraga historijskih kurseva",
+    "Markup Calculator": "Kalkulator marže",
+    "Multi-currency": "Više valuta",
+    "Multi-currency converter": "Konverter više valuta",
+    "Multi-Currency Converter": "Konverter više valuta"
+  },
+  "sq": {
+    "Widgets": "Miniaplikacionet"
+  },
+  "hu": {
+    "Markup Calculator": "Árréskalkulátor"
+  },
+  "cs": {
+    "Markup Calculator": "Kalkulačka přirážky"
+  },
+  "de": {
+    "Exchange Rate Markup Calculator": "Kursaufschlag berechnen",
+    "Exchange Rate Markup Calculator | Balkan Currency Converter": "Kursaufschlag berechnen | Balkan Currency Converter",
+    "Multi-Currency Converter": "Mehrere Währungen umrechnen",
+    "Multi-Currency Converter | Convert One Amount to Multiple Currencies": "Mehrere Währungen umrechnen | Einen Betrag in mehrere Währungen umrechnen",
+    "Currency Converter Widget for Android": "Währungs-Widget für Android",
+    "Currency Converter Widget for Android | Balkan Converter": "Währungs-Widget für Android | Balkan Converter",
+    "Foreign Transaction Fee & DCC Calculator": "Auslandsgebühren & DCC berechnen",
+    "Foreign Transaction Fee & DCC Calculator | Balkan Converter": "Auslandsgebühren & DCC berechnen | Balkan Converter",
+    "A quick reference conversion": "Schnelle Umrechnung zum Referenzkurs",
+    "Foreign Transaction Fee Calculator": "Rechner für Auslandsgebühren",
+    "What historical reference rates show": "Was historische Referenzkurse zeigen",
+    "How currency conversion works": "So funktioniert die Umrechnung",
+    "offline currency conversion": "Offline-Umrechnung"
+  },
+  "sk": {
+    "Markup Calculator": "Kalkulačka prirážky"
+  },
+  "da": {
+    "Android widget guide": "Guide til Android-widget",
+    "Footer navigation": "Navigation i sidefod",
+    "Exchange Rate Markup Calculator": "Beregn valutakurstillæg",
+    "Exchange Rate Markup Calculator | Balkan Currency Converter": "Beregn valutakurstillæg | Balkan Currency Converter"
+  },
+  "sv": {
+    "Markup Calculator": "Påslagskalkylator",
+    "Exchange Rate Markup Calculator": "Beräkna valutapåslag",
+    "Exchange Rate Markup Calculator | Balkan Currency Converter": "Beräkna valutapåslag | Balkan Currency Converter",
+    "Currency Converter Widget for Android": "Valutawidget för Android",
+    "Currency Converter Widget for Android | Balkan Converter": "Valutawidget för Android | Balkan Converter",
+    "Foreign Transaction Fee & DCC Calculator": "Beräkna utlandsavgifter & DCC",
+    "Foreign Transaction Fee & DCC Calculator | Balkan Converter": "Beräkna utlandsavgifter & DCC | Balkan Converter"
+  },
+  "nb": {
+    "Multi-Currency Converter": "Flervalutakonverter",
+    "Exchange Rate Markup Calculator": "Beregn valutapåslag",
+    "Exchange Rate Markup Calculator | Balkan Currency Converter": "Beregn valutapåslag | Balkan Currency Converter",
+    "Travel Budget Calculator": "Beregn reisebudsjett",
+    "Travel Budget Calculator in Two Currencies | Balkan Converter": "Beregn reisebudsjett i to valutaer | Balkan Converter"
+  },
+  "nl": {
+    "Exchange Rate Markup Calculator": "Wisselkoersopslag berekenen",
+    "Exchange Rate Markup Calculator | Balkan Currency Converter": "Wisselkoersopslag berekenen | Balkan Currency Converter",
+    "Exchange Rate History & Currency Chart": "Wisselkoershistorie en grafiek",
+    "Exchange Rate History & Currency Chart | Balkan Converter": "Wisselkoershistorie en grafiek | Balkan Converter",
+    "Currency Converter Widget for Android": "Valutawidget voor Android",
+    "Currency Converter Widget for Android | Balkan Converter": "Valutawidget voor Android | Balkan Converter"
+  },
+  "fi": {
+    "Currency Converter Widget for Android": "Valuuttawidget Androidille",
+    "Currency Converter Widget for Android | Balkan Converter": "Valuuttawidget Androidille | Balkan Converter"
+  },
+  "is": {
+    "Exchange Rate Markup Calculator": "Reikna gengisálag",
+    "Exchange Rate Markup Calculator | Balkan Currency Converter": "Reikna gengisálag | Balkan Currency Converter",
+    "Currency Converter Widget for Android": "Gengisgræja fyrir Android",
+    "Currency Converter Widget for Android | Balkan Converter": "Gengisgræja fyrir Android | Balkan Converter"
+  },
+  "el": {
+    "Widgets": "Γραφικά στοιχεία"
+  },
+  "vi": {
+    "Choose the right view": "Chọn chế độ xem phù hợp",
+    "Compare on your phone": "So sánh trên điện thoại",
+    "Compare payment options": "So sánh các phương thức thanh toán",
+    "Connect and refresh": "Kết nối và làm mới",
+    "Conversion at a glance": "Xem nhanh kết quả quy đổi",
+    "Convert currencies": "Quy đổi tiền tệ",
+    "Convert currency": "Quy đổi tiền tệ",
+    "Convert without internet": "Quy đổi không cần Internet",
+    "Converted amount": "Số tiền đã quy đổi",
+    "Converted amounts": "Các số tiền đã quy đổi",
+    "Currencies for your trip": "Tiền tệ cho chuyến đi",
+    "Currency converter": "Công cụ chuyển đổi tiền tệ"
+  }
+}

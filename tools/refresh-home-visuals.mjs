@@ -10,6 +10,7 @@ const screenRoot = '/assets/screenshots/v1-5-11/';
 const names = ['main-converter', 'actual-cost', 'travel-board', 'saved-sets'];
 
 export function refreshVisuals(html) {
+  const eol = html.includes('\r\n') ? '\r\n' : '\n';
   let result = html.replaceAll('Balkan Currency Converter 1.4 main converter with calculator keypad',
     'Balkan Currency Converter main converter with calculator keypad')
     .replaceAll('Balkan Currency Converter 1.4 main conversion screen showing euros and US dollars',
@@ -18,14 +19,15 @@ export function refreshVisuals(html) {
     .replaceAll('assets/og.png', 'assets/og-v1-5-11.png')
     .replaceAll('assets/app-icon.png', `${icons}app-icon-v1-5-11.png`);
   result = result.replace(/<link rel="icon"[^>]*>/,
-    `<link rel="icon" type="image/png" sizes="32x32" href="/${icons}favicon-32.png">\n` +
-    `  <link rel="icon" type="image/png" sizes="48x48" href="/${icons}favicon-48.png">\n` +
+    `<link rel="icon" type="image/png" sizes="32x32" href="/${icons}favicon-32.png">${eol}` +
+    `  <link rel="icon" type="image/png" sizes="48x48" href="/${icons}favicon-48.png">${eol}` +
     `  <link rel="icon" type="image/png" sizes="96x96" href="/${icons}favicon-96.png">`);
   // Repeated runs keep exactly one link per size.
   for (const size of [48, 96]) {
     const tag = `<link rel="icon" type="image/png" sizes="${size}x${size}" href="/${icons}favicon-${size}.png">`;
     const first = result.indexOf(tag);
-    result = result.slice(0, first + tag.length) + result.slice(first + tag.length).replaceAll(`\n  ${tag}`, '');
+    const duplicate = new RegExp(`(?:\\r?\\n)  ${tag.replace(/[.*+?^${}()|[\\]\\]/g, '\\$&')}`, 'g');
+    result = result.slice(0, first + tag.length) + result.slice(first + tag.length).replace(duplicate, '');
   }
   result = result.replace(/<link rel="apple-touch-icon"[^>]*>/,
     `<link rel="apple-touch-icon" sizes="180x180" href="/${icons}apple-touch-icon-180.png">`);

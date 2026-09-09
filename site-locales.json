@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-23T13:17:13.018Z",
+  "generatedAt": "2026-09-09T12:24:56.997Z",
   "androidSource": "../app/src/main/res/xml/locales_config.xml",
   "preservedLocales": [
     "en"
@@ -278,6 +278,16 @@
       "hreflang": "en",
       "url": "/",
       "privacyUrl": "/privacy-policy.html",
+      "toolUrls": {
+        "currency-converter": "/currency-converter/",
+        "exchange-rate-markup-calculator": "/exchange-rate-markup-calculator/",
+        "multi-currency-converter": "/multi-currency-converter/",
+        "offline-currency-converter": "/offline-currency-converter/",
+        "exchange-rate-history": "/exchange-rate-history/",
+        "currency-converter-widget": "/currency-converter-widget/",
+        "foreign-transaction-fee-calculator": "/foreign-transaction-fee-calculator/",
+        "travel-budget-calculator": "/travel-budget-calculator/"
+      },
       "dir": "ltr",
       "name": "English"
     },
@@ -287,6 +297,16 @@
       "hreflang": "sr",
       "url": "/sr/",
       "privacyUrl": "/sr/privacy-policy.html",
+      "toolUrls": {
+        "currency-converter": "/sr/currency-converter/",
+        "exchange-rate-markup-calculator": "/sr/exchange-rate-markup-calculator/",
+        "multi-currency-converter": "/sr/multi-currency-converter/",
+        "offline-currency-converter": "/sr/offline-currency-converter/",
+        "exchange-rate-history": "/sr/exchange-rate-history/",
+        "currency-converter-widget": "/sr/currency-converter-widget/",
+        "foreign-transaction-fee-calculator": "/sr/foreign-transaction-fee-calculator/",
+        "travel-budget-calculator": "/sr/travel-budget-calculator/"
+      },
       "dir": "ltr",
       "name": "Српски"
     },
@@ -296,6 +316,16 @@
       "hreflang": "bs",
       "url": "/bs/",
       "privacyUrl": "/bs/privacy-policy.html",
+      "toolUrls": {
+        "currency-converter": "/bs/currency-converter/",
+        "exchange-rate-markup-calculator": "/bs/exchange-rate-markup-calculator/",
+        "multi-currency-converter": "/bs/multi-currency-converter/",
+        "offline-currency-converter": "/bs/offline-currency-converter/",
+        "exchange-rate-history": "/bs/exchange-rate-history/",
+        "currency-converter-widget": "/bs/currency-converter-widget/",
+        "foreign-transaction-fee-calculator": "/bs/foreign-transaction-fee-calculator/",
+        "travel-budget-calculator": "/bs/travel-budget-calculator/"
+      },
       "dir": "ltr",
       "name": "Bosanski"
     },
@@ -305,6 +335,16 @@
       "hreflang": "hr",
       "url": "/hr/",
       "privacyUrl": "/hr/privacy-policy.html",
+      "toolUrls": {
+        "currency-converter": "/hr/currency-converter/",
+        "exchange-rate-markup-calculator": "/hr/exchange-rate-markup-calculator/",
+        "multi-currency-converter": "/hr/multi-currency-converter/",
+        "offline-currency-converter": "/hr/offline-currency-converter/",
+        "exchange-rate-history": "/hr/exchange-rate-history/",
+        "currency-converter-widget": "/hr/currency-converter-widget/",
+        "foreign-transaction-fee-calculator": "/hr/foreign-transaction-fee-calculator/",
+        "travel-budget-calculator": "/hr/travel-budget-calculator/"
+      },
       "dir": "ltr",
       "name": "Hrvatski"
     },
@@ -314,6 +354,16 @@
       "hreflang": "sq",
       "url": "/sq/",
       "privacyUrl": "/sq/privacy-policy.html",
+      "toolUrls": {
+        "currency-converter": "/sq/currency-converter/",
+        "exchange-rate-markup-calculator": "/sq/exchange-rate-markup-calculator/",
+        "multi-currency-converter": "/sq/multi-currency-converter/",
+        "offline-currency-converter": "/sq/offline-currency-converter/",
+        "exchange-rate-history": "/sq/exchange-rate-history/",
+        "currency-converter-widget": "/sq/currency-converter-widget/",
+        "foreign-transaction-fee-calculator": "/sq/foreign-transaction-fee-calculator/",
+        "travel-budget-calculator": "/sq/travel-budget-calculator/"
+      },
       "dir": "ltr",
       "name": "Shqip"
     },
@@ -323,6 +373,16 @@
       "hreflang": "mk",
       "url": "/mk/",
       "privacyUrl": "/mk/privacy-policy.html",
+      "toolUrls": {
+        "currency-converter": "/mk/currency-converter/",
+        "exchange-rate-markup-calculator": "/mk/exchange-rate-markup-calculator/",
+        "multi-currency-converter": "/mk/multi-currency-converter/",
+        "offline-currency-converter": "/mk/offline-currency-converter/",
+        "exchange-rate-history": "/mk/exchange-rate-history/",
+        "currency-converter-widget": "/mk/currency-converter-widget/",
+        "foreign-transaction-fee-calculator": "/mk/foreign-transaction-fee-calculator/",
+        "travel-budget-calculator": "/mk/travel-budget-calculator/"
+      },
       "dir": "ltr",
       "name": "Македонски"
     },
@@ -332,6 +392,16 @@
       "hreflang": "bg",
       "url": "/bg/",
       "privacyUrl": "/bg/privacy-policy.html",
+      "toolUrls": {
+        "currency-converter": "/bg/currency-converter/",
+        "exchange-rate-markup-calculator": "/bg/exchange-rate-markup-calculator/",
+        "multi-currency-converter": "/bg/multi-currency-converter/",
+        "offline-currency-converter": "/bg/offline-currency-converter/",
+        "exchange-rate-history": "/bg/exchange-rate-history/",
+        "currency-converter-widget": "/bg/currency-converter-widget/",
+        "foreign-transaction-fee-calculator": "/bg/foreign-transaction-fee-calculator/",
+        "travel-budget-calculator": "/bg/travel-budget-calculator/"
+      },
       "dir": "ltr",
       "name": "Български"
     },
@@ -341,6 +411,16 @@
       "hreflang": "ro",
       "url": "/ro/",
       "privacyUrl": "/ro/privacy-policy.html",
+      "toolUrls": {
+        "currency-converter": "/ro/currency-converter/",
+        "exchange-rate-markup-calculator": "/ro/exchange-rate-markup-calculator/",
+        "multi-currency-converter": "/ro/multi-currency-converter/",
+        "offline-currency-converter": "/ro/offline-currency-converter/",
+        "exchange-rate-history": "/ro/exchange-rate-history/",
+        "currency-converter-widget": "/ro/currency-converter-widget/",
+        "foreign-transaction-fee-calculator": "/ro/foreign-transaction-fee-calculator/",
+        "travel-budget-calculator": "/ro/travel-budget-calculator/"
+      },
       "dir": "ltr",
       "name": "Română"
     },
@@ -350,6 +430,16 @@
       "hreflang": "hu",
       "url": "/hu/",
       "privacyUrl": "/hu/privacy-policy.html",
+      "toolUrls": {
+        "currency-converter": "/hu/currency-converter/",
+        "exchange-rate-markup-calculator": "/hu/exchange-rate-markup-calculator/",
+        "multi-currency-converter": "/hu/multi-currency-converter/",
+        "offline-currency-converter": "/hu/offline-currency-converter/",
+        "exchange-rate-history": "/hu/exchange-rate-history/",
+        "currency-converter-widget": "/hu/currency-converter-widget/",
+        "foreign-transaction-fee-calculator": "/hu/foreign-transaction-fee-calculator/",
+        "travel-budget-calculator": "/hu/travel-budget-calculator/"
+      },
       "dir": "ltr",
       "name": "Magyar"
     },
@@ -359,6 +449,16 @@
       "hreflang": "pl",
       "url": "/pl/",
       "privacyUrl": "/pl/privacy-policy.html",
+      "toolUrls": {
+        "currency-converter": "/pl/currency-converter/",
+        "exchange-rate-markup-calculator": "/pl/exchange-rate-markup-calculator/",
+        "multi-currency-converter": "/pl/multi-currency-converter/",
+        "offline-currency-converter": "/pl/offline-currency-converter/",
+        "exchange-rate-history": "/pl/exchange-rate-history/",
+        "currency-converter-widget": "/pl/currency-converter-widget/",
+        "foreign-transaction-fee-calculator": "/pl/foreign-transaction-fee-calculator/",
+        "travel-budget-calculator": "/pl/travel-budget-calculator/"
+      },
       "dir": "ltr",
       "name": "Polski"
     },
@@ -368,6 +468,16 @@
       "hreflang": "cs",
       "url": "/cs/",
       "privacyUrl": "/cs/privacy-policy.html",
+      "toolUrls": {
+        "currency-converter": "/cs/currency-converter/",
+        "exchange-rate-markup-calculator": "/cs/exchange-rate-markup-calculator/",
+        "multi-currency-converter": "/cs/multi-currency-converter/",
+        "offline-currency-converter": "/cs/offline-currency-converter/",
+        "exchange-rate-history": "/cs/exchange-rate-history/",
+        "currency-converter-widget": "/cs/currency-converter-widget/",
+        "foreign-transaction-fee-calculator": "/cs/foreign-transaction-fee-calculator/",
+        "travel-budget-calculator": "/cs/travel-budget-calculator/"
+      },
       "dir": "ltr",
       "name": "Čeština"
     },
@@ -377,6 +487,16 @@
       "hreflang": "sk",
       "url": "/sk/",
       "privacyUrl": "/sk/privacy-policy.html",
+      "toolUrls": {
+        "currency-converter": "/sk/currency-converter/",
+        "exchange-rate-markup-calculator": "/sk/exchange-rate-markup-calculator/",
+        "multi-currency-converter": "/sk/multi-currency-converter/",
+        "offline-currency-converter": "/sk/offline-currency-converter/",
+        "exchange-rate-history": "/sk/exchange-rate-history/",
+        "currency-converter-widget": "/sk/currency-converter-widget/",
+        "foreign-transaction-fee-calculator": "/sk/foreign-transaction-fee-calculator/",
+        "travel-budget-calculator": "/sk/travel-budget-calculator/"
+      },
       "dir": "ltr",
       "name": "Slovenčina"
     },
@@ -386,6 +506,16 @@
       "hreflang": "sl",
       "url": "/sl/",
       "privacyUrl": "/sl/privacy-policy.html",
+      "toolUrls": {
+        "currency-converter": "/sl/currency-converter/",
+        "exchange-rate-markup-calculator": "/sl/exchange-rate-markup-calculator/",
+        "multi-currency-converter": "/sl/multi-currency-converter/",
+        "offline-currency-converter": "/sl/offline-currency-converter/",
+        "exchange-rate-history": "/sl/exchange-rate-history/",
+        "currency-converter-widget": "/sl/currency-converter-widget/",
+        "foreign-transaction-fee-calculator": "/sl/foreign-transaction-fee-calculator/",
+        "travel-budget-calculator": "/sl/travel-budget-calculator/"
+      },
       "dir": "ltr",
       "name": "Slovenščina"
     },
@@ -395,6 +525,16 @@
       "hreflang": "de",
       "url": "/de/",
       "privacyUrl": "/de/privacy-policy.html",
+      "toolUrls": {
+        "currency-converter": "/de/currency-converter/",
+        "exchange-rate-markup-calculator": "/de/exchange-rate-markup-calculator/",
+        "multi-currency-converter": "/de/multi-currency-converter/",
+        "offline-currency-converter": "/de/offline-currency-converter/",
+        "exchange-rate-history": "/de/exchange-rate-history/",
+        "currency-converter-widget": "/de/currency-converter-widget/",
+        "foreign-transaction-fee-calculator": "/de/foreign-transaction-fee-calculator/",
+        "travel-budget-calculator": "/de/travel-budget-calculator/"
+      },
       "dir": "ltr",
       "name": "Deutsch"
     },
@@ -404,6 +544,16 @@
       "hreflang": "fr",
       "url": "/fr/",
       "privacyUrl": "/fr/privacy-policy.html",
+      "toolUrls": {
+        "currency-converter": "/fr/currency-converter/",
+        "exchange-rate-markup-calculator": "/fr/exchange-rate-markup-calculator/",
+        "multi-currency-converter": "/fr/multi-currency-converter/",
+        "offline-currency-converter": "/fr/offline-currency-converter/",
+        "exchange-rate-history": "/fr/exchange-rate-history/",
+        "currency-converter-widget": "/fr/currency-converter-widget/",
+        "foreign-transaction-fee-calculator": "/fr/foreign-transaction-fee-calculator/",
+        "travel-budget-calculator": "/fr/travel-budget-calculator/"
+      },
       "dir": "ltr",
       "name": "Français"
     },
@@ -413,6 +563,16 @@
       "hreflang": "it",
       "url": "/it/",
       "privacyUrl": "/it/privacy-policy.html",
+      "toolUrls": {
+        "currency-converter": "/it/currency-converter/",
+        "exchange-rate-markup-calculator": "/it/exchange-rate-markup-calculator/",
+        "multi-currency-converter": "/it/multi-currency-converter/",
+        "offline-currency-converter": "/it/offline-currency-converter/",
+        "exchange-rate-history": "/it/exchange-rate-history/",
+        "currency-converter-widget": "/it/currency-converter-widget/",
+        "foreign-transaction-fee-calculator": "/it/foreign-transaction-fee-calculator/",
+        "travel-budget-calculator": "/it/travel-budget-calculator/"
+      },
       "dir": "ltr",
       "name": "Italiano"
     },
@@ -422,6 +582,16 @@
       "hreflang": "es-ES",
       "url": "/es-es/",
       "privacyUrl": "/es-es/privacy-policy.html",
+      "toolUrls": {
+        "currency-converter": "/es-es/currency-converter/",
+        "exchange-rate-markup-calculator": "/es-es/exchange-rate-markup-calculator/",
+        "multi-currency-converter": "/es-es/multi-currency-converter/",
+        "offline-currency-converter": "/es-es/offline-currency-converter/",
+        "exchange-rate-history": "/es-es/exchange-rate-history/",
+        "currency-converter-widget": "/es-es/currency-converter-widget/",
+        "foreign-transaction-fee-calculator": "/es-es/foreign-transaction-fee-calculator/",
+        "travel-budget-calculator": "/es-es/travel-budget-calculator/"
+      },
       "dir": "ltr",
       "name": "Español (España)"
     },
@@ -431,6 +601,16 @@
       "hreflang": "es-419",
       "url": "/es-419/",
       "privacyUrl": "/es-419/privacy-policy.html",
+      "toolUrls": {
+        "currency-converter": "/es-419/currency-converter/",
+        "exchange-rate-markup-calculator": "/es-419/exchange-rate-markup-calculator/",
+        "multi-currency-converter": "/es-419/multi-currency-converter/",
+        "offline-currency-converter": "/es-419/offline-currency-converter/",
+        "exchange-rate-history": "/es-419/exchange-rate-history/",
+        "currency-converter-widget": "/es-419/currency-converter-widget/",
+        "foreign-transaction-fee-calculator": "/es-419/foreign-transaction-fee-calculator/",
+        "travel-budget-calculator": "/es-419/travel-budget-calculator/"
+      },
       "dir": "ltr",
       "name": "Español (Latinoamérica)"
     },
@@ -440,6 +620,16 @@
       "hreflang": "pt-BR",
       "url": "/pt-br/",
       "privacyUrl": "/pt-br/privacy-policy.html",
+      "toolUrls": {
+        "currency-converter": "/pt-br/currency-converter/",
+        "exchange-rate-markup-calculator": "/pt-br/exchange-rate-markup-calculator/",
+        "multi-currency-converter": "/pt-br/multi-currency-converter/",
+        "offline-currency-converter": "/pt-br/offline-currency-converter/",
+        "exchange-rate-history": "/pt-br/exchange-rate-history/",
+        "currency-converter-widget": "/pt-br/currency-converter-widget/",
+        "foreign-transaction-fee-calculator": "/pt-br/foreign-transaction-fee-calculator/",
+        "travel-budget-calculator": "/pt-br/travel-budget-calculator/"
+      },
       "dir": "ltr",
       "name": "Português (Brasil)"
     },
@@ -449,6 +639,16 @@
       "hreflang": "pt-PT",
       "url": "/pt-pt/",
       "privacyUrl": "/pt-pt/privacy-policy.html",
+      "toolUrls": {
+        "currency-converter": "/pt-pt/currency-converter/",
+        "exchange-rate-markup-calculator": "/pt-pt/exchange-rate-markup-calculator/",
+        "multi-currency-converter": "/pt-pt/multi-currency-converter/",
+        "offline-currency-converter": "/pt-pt/offline-currency-converter/",
+        "exchange-rate-history": "/pt-pt/exchange-rate-history/",
+        "currency-converter-widget": "/pt-pt/currency-converter-widget/",
+        "foreign-transaction-fee-calculator": "/pt-pt/foreign-transaction-fee-calculator/",
+        "travel-budget-calculator": "/pt-pt/travel-budget-calculator/"
+      },
       "dir": "ltr",
       "name": "Português (Portugal)"
     },
@@ -458,6 +658,16 @@
       "hreflang": "nl",
       "url": "/nl/",
       "privacyUrl": "/nl/privacy-policy.html",
+      "toolUrls": {
+        "currency-converter": "/nl/currency-converter/",
+        "exchange-rate-markup-calculator": "/nl/exchange-rate-markup-calculator/",
+        "multi-currency-converter": "/nl/multi-currency-converter/",
+        "offline-currency-converter": "/nl/offline-currency-converter/",
+        "exchange-rate-history": "/nl/exchange-rate-history/",
+        "currency-converter-widget": "/nl/currency-converter-widget/",
+        "foreign-transaction-fee-calculator": "/nl/foreign-transaction-fee-calculator/",
+        "travel-budget-calculator": "/nl/travel-budget-calculator/"
+      },
       "dir": "ltr",
       "name": "Nederlands"
     },
@@ -467,6 +677,16 @@
       "hreflang": "da",
       "url": "/da/",
       "privacyUrl": "/da/privacy-policy.html",
+      "toolUrls": {
+        "currency-converter": "/da/currency-converter/",
+        "exchange-rate-markup-calculator": "/da/exchange-rate-markup-calculator/",
+        "multi-currency-converter": "/da/multi-currency-converter/",
+        "offline-currency-converter": "/da/offline-currency-converter/",
+        "exchange-rate-history": "/da/exchange-rate-history/",
+        "currency-converter-widget": "/da/currency-converter-widget/",
+        "foreign-transaction-fee-calculator": "/da/foreign-transaction-fee-calculator/",
+        "travel-budget-calculator": "/da/travel-budget-calculator/"
+      },
       "dir": "ltr",
       "name": "Dansk"
     },
@@ -476,6 +696,16 @@
       "hreflang": "sv",
       "url": "/sv/",
       "privacyUrl": "/sv/privacy-policy.html",
+      "toolUrls": {
+        "currency-converter": "/sv/currency-converter/",
+        "exchange-rate-markup-calculator": "/sv/exchange-rate-markup-calculator/",
+        "multi-currency-converter": "/sv/multi-currency-converter/",
+        "offline-currency-converter": "/sv/offline-currency-converter/",
+        "exchange-rate-history": "/sv/exchange-rate-history/",
+        "currency-converter-widget": "/sv/currency-converter-widget/",
+        "foreign-transaction-fee-calculator": "/sv/foreign-transaction-fee-calculator/",
+        "travel-budget-calculator": "/sv/travel-budget-calculator/"
+      },
       "dir": "ltr",
       "name": "Svenska"
     },
@@ -485,6 +715,16 @@
       "hreflang": "nb",
       "url": "/nb/",
       "privacyUrl": "/nb/privacy-policy.html",
+      "toolUrls": {
+        "currency-converter": "/nb/currency-converter/",
+        "exchange-rate-markup-calculator": "/nb/exchange-rate-markup-calculator/",
+        "multi-currency-converter": "/nb/multi-currency-converter/",
+        "offline-currency-converter": "/nb/offline-currency-converter/",
+        "exchange-rate-history": "/nb/exchange-rate-history/",
+        "currency-converter-widget": "/nb/currency-converter-widget/",
+        "foreign-transaction-fee-calculator": "/nb/foreign-transaction-fee-calculator/",
+        "travel-budget-calculator": "/nb/travel-budget-calculator/"
+      },
       "dir": "ltr",
       "name": "Norsk bokmål"
     },
@@ -494,6 +734,16 @@
       "hreflang": "fi",
       "url": "/fi/",
       "privacyUrl": "/fi/privacy-policy.html",
+      "toolUrls": {
+        "currency-converter": "/fi/currency-converter/",
+        "exchange-rate-markup-calculator": "/fi/exchange-rate-markup-calculator/",
+        "multi-currency-converter": "/fi/multi-currency-converter/",
+        "offline-currency-converter": "/fi/offline-currency-converter/",
+        "exchange-rate-history": "/fi/exchange-rate-history/",
+        "currency-converter-widget": "/fi/currency-converter-widget/",
+        "foreign-transaction-fee-calculator": "/fi/foreign-transaction-fee-calculator/",
+        "travel-budget-calculator": "/fi/travel-budget-calculator/"
+      },
       "dir": "ltr",
       "name": "Suomi"
     },
@@ -503,6 +753,16 @@
       "hreflang": "is",
       "url": "/is/",
       "privacyUrl": "/is/privacy-policy.html",
+      "toolUrls": {
+        "currency-converter": "/is/currency-converter/",
+        "exchange-rate-markup-calculator": "/is/exchange-rate-markup-calculator/",
+        "multi-currency-converter": "/is/multi-currency-converter/",
+        "offline-currency-converter": "/is/offline-currency-converter/",
+        "exchange-rate-history": "/is/exchange-rate-history/",
+        "currency-converter-widget": "/is/currency-converter-widget/",
+        "foreign-transaction-fee-calculator": "/is/foreign-transaction-fee-calculator/",
+        "travel-budget-calculator": "/is/travel-budget-calculator/"
+      },
       "dir": "ltr",
       "name": "Íslenska"
     },
@@ -512,6 +772,16 @@
       "hreflang": "el",
       "url": "/el/",
       "privacyUrl": "/el/privacy-policy.html",
+      "toolUrls": {
+        "currency-converter": "/el/currency-converter/",
+        "exchange-rate-markup-calculator": "/el/exchange-rate-markup-calculator/",
+        "multi-currency-converter": "/el/multi-currency-converter/",
+        "offline-currency-converter": "/el/offline-currency-converter/",
+        "exchange-rate-history": "/el/exchange-rate-history/",
+        "currency-converter-widget": "/el/currency-converter-widget/",
+        "foreign-transaction-fee-calculator": "/el/foreign-transaction-fee-calculator/",
+        "travel-budget-calculator": "/el/travel-budget-calculator/"
+      },
       "dir": "ltr",
       "name": "Ελληνικά"
     },
@@ -521,6 +791,16 @@
       "hreflang": "tr",
       "url": "/tr/",
       "privacyUrl": "/tr/privacy-policy.html",
+      "toolUrls": {
+        "currency-converter": "/tr/currency-converter/",
+        "exchange-rate-markup-calculator": "/tr/exchange-rate-markup-calculator/",
+        "multi-currency-converter": "/tr/multi-currency-converter/",
+        "offline-currency-converter": "/tr/offline-currency-converter/",
+        "exchange-rate-history": "/tr/exchange-rate-history/",
+        "currency-converter-widget": "/tr/currency-converter-widget/",
+        "foreign-transaction-fee-calculator": "/tr/foreign-transaction-fee-calculator/",
+        "travel-budget-calculator": "/tr/travel-budget-calculator/"
+      },
       "dir": "ltr",
       "name": "Türkçe"
     },
@@ -530,6 +810,16 @@
       "hreflang": "ru",
       "url": "/ru/",
       "privacyUrl": "/ru/privacy-policy.html",
+      "toolUrls": {
+        "currency-converter": "/ru/currency-converter/",
+        "exchange-rate-markup-calculator": "/ru/exchange-rate-markup-calculator/",
+        "multi-currency-converter": "/ru/multi-currency-converter/",
+        "offline-currency-converter": "/ru/offline-currency-converter/",
+        "exchange-rate-history": "/ru/exchange-rate-history/",
+        "currency-converter-widget": "/ru/currency-converter-widget/",
+        "foreign-transaction-fee-calculator": "/ru/foreign-transaction-fee-calculator/",
+        "travel-budget-calculator": "/ru/travel-budget-calculator/"
+      },
       "dir": "ltr",
       "name": "Русский"
     },
@@ -539,6 +829,16 @@
       "hreflang": "uk",
       "url": "/uk/",
       "privacyUrl": "/uk/privacy-policy.html",
+      "toolUrls": {
+        "currency-converter": "/uk/currency-converter/",
+        "exchange-rate-markup-calculator": "/uk/exchange-rate-markup-calculator/",
+        "multi-currency-converter": "/uk/multi-currency-converter/",
+        "offline-currency-converter": "/uk/offline-currency-converter/",
+        "exchange-rate-history": "/uk/exchange-rate-history/",
+        "currency-converter-widget": "/uk/currency-converter-widget/",
+        "foreign-transaction-fee-calculator": "/uk/foreign-transaction-fee-calculator/",
+        "travel-budget-calculator": "/uk/travel-budget-calculator/"
+      },
       "dir": "ltr",
       "name": "Українська"
     },
@@ -548,6 +848,16 @@
       "hreflang": "ar",
       "url": "/ar/",
       "privacyUrl": "/ar/privacy-policy.html",
+      "toolUrls": {
+        "currency-converter": "/ar/currency-converter/",
+        "exchange-rate-markup-calculator": "/ar/exchange-rate-markup-calculator/",
+        "multi-currency-converter": "/ar/multi-currency-converter/",
+        "offline-currency-converter": "/ar/offline-currency-converter/",
+        "exchange-rate-history": "/ar/exchange-rate-history/",
+        "currency-converter-widget": "/ar/currency-converter-widget/",
+        "foreign-transaction-fee-calculator": "/ar/foreign-transaction-fee-calculator/",
+        "travel-budget-calculator": "/ar/travel-budget-calculator/"
+      },
       "dir": "rtl",
       "name": "العربية"
     },
@@ -557,6 +867,16 @@
       "hreflang": "he",
       "url": "/he/",
       "privacyUrl": "/he/privacy-policy.html",
+      "toolUrls": {
+        "currency-converter": "/he/currency-converter/",
+        "exchange-rate-markup-calculator": "/he/exchange-rate-markup-calculator/",
+        "multi-currency-converter": "/he/multi-currency-converter/",
+        "offline-currency-converter": "/he/offline-currency-converter/",
+        "exchange-rate-history": "/he/exchange-rate-history/",
+        "currency-converter-widget": "/he/currency-converter-widget/",
+        "foreign-transaction-fee-calculator": "/he/foreign-transaction-fee-calculator/",
+        "travel-budget-calculator": "/he/travel-budget-calculator/"
+      },
       "dir": "rtl",
       "name": "עברית"
     },
@@ -566,6 +886,16 @@
       "hreflang": "fa",
       "url": "/fa/",
       "privacyUrl": "/fa/privacy-policy.html",
+      "toolUrls": {
+        "currency-converter": "/fa/currency-converter/",
+        "exchange-rate-markup-calculator": "/fa/exchange-rate-markup-calculator/",
+        "multi-currency-converter": "/fa/multi-currency-converter/",
+        "offline-currency-converter": "/fa/offline-currency-converter/",
+        "exchange-rate-history": "/fa/exchange-rate-history/",
+        "currency-converter-widget": "/fa/currency-converter-widget/",
+        "foreign-transaction-fee-calculator": "/fa/foreign-transaction-fee-calculator/",
+        "travel-budget-calculator": "/fa/travel-budget-calculator/"
+      },
       "dir": "rtl",
       "name": "فارسی"
     },
@@ -575,6 +905,16 @@
       "hreflang": "ur",
       "url": "/ur/",
       "privacyUrl": "/ur/privacy-policy.html",
+      "toolUrls": {
+        "currency-converter": "/ur/currency-converter/",
+        "exchange-rate-markup-calculator": "/ur/exchange-rate-markup-calculator/",
+        "multi-currency-converter": "/ur/multi-currency-converter/",
+        "offline-currency-converter": "/ur/offline-currency-converter/",
+        "exchange-rate-history": "/ur/exchange-rate-history/",
+        "currency-converter-widget": "/ur/currency-converter-widget/",
+        "foreign-transaction-fee-calculator": "/ur/foreign-transaction-fee-calculator/",
+        "travel-budget-calculator": "/ur/travel-budget-calculator/"
+      },
       "dir": "rtl",
       "name": "اردو"
     },
@@ -584,6 +924,16 @@
       "hreflang": "hi",
       "url": "/hi/",
       "privacyUrl": "/hi/privacy-policy.html",
+      "toolUrls": {
+        "currency-converter": "/hi/currency-converter/",
+        "exchange-rate-markup-calculator": "/hi/exchange-rate-markup-calculator/",
+        "multi-currency-converter": "/hi/multi-currency-converter/",
+        "offline-currency-converter": "/hi/offline-currency-converter/",
+        "exchange-rate-history": "/hi/exchange-rate-history/",
+        "currency-converter-widget": "/hi/currency-converter-widget/",
+        "foreign-transaction-fee-calculator": "/hi/foreign-transaction-fee-calculator/",
+        "travel-budget-calculator": "/hi/travel-budget-calculator/"
+      },
       "dir": "ltr",
       "name": "हिन्दी"
     },
@@ -593,6 +943,16 @@
       "hreflang": "bn",
       "url": "/bn/",
       "privacyUrl": "/bn/privacy-policy.html",
+      "toolUrls": {
+        "currency-converter": "/bn/currency-converter/",
+        "exchange-rate-markup-calculator": "/bn/exchange-rate-markup-calculator/",
+        "multi-currency-converter": "/bn/multi-currency-converter/",
+        "offline-currency-converter": "/bn/offline-currency-converter/",
+        "exchange-rate-history": "/bn/exchange-rate-history/",
+        "currency-converter-widget": "/bn/currency-converter-widget/",
+        "foreign-transaction-fee-calculator": "/bn/foreign-transaction-fee-calculator/",
+        "travel-budget-calculator": "/bn/travel-budget-calculator/"
+      },
       "dir": "ltr",
       "name": "বাংলা"
     },
@@ -602,6 +962,16 @@
       "hreflang": "id",
       "url": "/id/",
       "privacyUrl": "/id/privacy-policy.html",
+      "toolUrls": {
+        "currency-converter": "/id/currency-converter/",
+        "exchange-rate-markup-calculator": "/id/exchange-rate-markup-calculator/",
+        "multi-currency-converter": "/id/multi-currency-converter/",
+        "offline-currency-converter": "/id/offline-currency-converter/",
+        "exchange-rate-history": "/id/exchange-rate-history/",
+        "currency-converter-widget": "/id/currency-converter-widget/",
+        "foreign-transaction-fee-calculator": "/id/foreign-transaction-fee-calculator/",
+        "travel-budget-calculator": "/id/travel-budget-calculator/"
+      },
       "dir": "ltr",
       "name": "Bahasa Indonesia"
     },
@@ -611,6 +981,16 @@
       "hreflang": "ms",
       "url": "/ms/",
       "privacyUrl": "/ms/privacy-policy.html",
+      "toolUrls": {
+        "currency-converter": "/ms/currency-converter/",
+        "exchange-rate-markup-calculator": "/ms/exchange-rate-markup-calculator/",
+        "multi-currency-converter": "/ms/multi-currency-converter/",
+        "offline-currency-converter": "/ms/offline-currency-converter/",
+        "exchange-rate-history": "/ms/exchange-rate-history/",
+        "currency-converter-widget": "/ms/currency-converter-widget/",
+        "foreign-transaction-fee-calculator": "/ms/foreign-transaction-fee-calculator/",
+        "travel-budget-calculator": "/ms/travel-budget-calculator/"
+      },
       "dir": "ltr",
       "name": "Bahasa Melayu"
     },
@@ -620,6 +1000,16 @@
       "hreflang": "th",
       "url": "/th/",
       "privacyUrl": "/th/privacy-policy.html",
+      "toolUrls": {
+        "currency-converter": "/th/currency-converter/",
+        "exchange-rate-markup-calculator": "/th/exchange-rate-markup-calculator/",
+        "multi-currency-converter": "/th/multi-currency-converter/",
+        "offline-currency-converter": "/th/offline-currency-converter/",
+        "exchange-rate-history": "/th/exchange-rate-history/",
+        "currency-converter-widget": "/th/currency-converter-widget/",
+        "foreign-transaction-fee-calculator": "/th/foreign-transaction-fee-calculator/",
+        "travel-budget-calculator": "/th/travel-budget-calculator/"
+      },
       "dir": "ltr",
       "name": "ไทย"
     },
@@ -629,6 +1019,16 @@
       "hreflang": "vi",
       "url": "/vi/",
       "privacyUrl": "/vi/privacy-policy.html",
+      "toolUrls": {
+        "currency-converter": "/vi/currency-converter/",
+        "exchange-rate-markup-calculator": "/vi/exchange-rate-markup-calculator/",
+        "multi-currency-converter": "/vi/multi-currency-converter/",
+        "offline-currency-converter": "/vi/offline-currency-converter/",
+        "exchange-rate-history": "/vi/exchange-rate-history/",
+        "currency-converter-widget": "/vi/currency-converter-widget/",
+        "foreign-transaction-fee-calculator": "/vi/foreign-transaction-fee-calculator/",
+        "travel-budget-calculator": "/vi/travel-budget-calculator/"
+      },
       "dir": "ltr",
       "name": "Tiếng Việt"
     },
@@ -638,6 +1038,16 @@
       "hreflang": "zh-Hans",
       "url": "/zh-hans/",
       "privacyUrl": "/zh-hans/privacy-policy.html",
+      "toolUrls": {
+        "currency-converter": "/zh-hans/currency-converter/",
+        "exchange-rate-markup-calculator": "/zh-hans/exchange-rate-markup-calculator/",
+        "multi-currency-converter": "/zh-hans/multi-currency-converter/",
+        "offline-currency-converter": "/zh-hans/offline-currency-converter/",
+        "exchange-rate-history": "/zh-hans/exchange-rate-history/",
+        "currency-converter-widget": "/zh-hans/currency-converter-widget/",
+        "foreign-transaction-fee-calculator": "/zh-hans/foreign-transaction-fee-calculator/",
+        "travel-budget-calculator": "/zh-hans/travel-budget-calculator/"
+      },
       "dir": "ltr",
       "name": "简体中文"
     },
@@ -647,6 +1057,16 @@
       "hreflang": "zh-Hant",
       "url": "/zh-hant/",
       "privacyUrl": "/zh-hant/privacy-policy.html",
+      "toolUrls": {
+        "currency-converter": "/zh-hant/currency-converter/",
+        "exchange-rate-markup-calculator": "/zh-hant/exchange-rate-markup-calculator/",
+        "multi-currency-converter": "/zh-hant/multi-currency-converter/",
+        "offline-currency-converter": "/zh-hant/offline-currency-converter/",
+        "exchange-rate-history": "/zh-hant/exchange-rate-history/",
+        "currency-converter-widget": "/zh-hant/currency-converter-widget/",
+        "foreign-transaction-fee-calculator": "/zh-hant/foreign-transaction-fee-calculator/",
+        "travel-budget-calculator": "/zh-hant/travel-budget-calculator/"
+      },
       "dir": "ltr",
       "name": "繁體中文"
     },
@@ -656,6 +1076,16 @@
       "hreflang": "ja",
       "url": "/ja/",
       "privacyUrl": "/ja/privacy-policy.html",
+      "toolUrls": {
+        "currency-converter": "/ja/currency-converter/",
+        "exchange-rate-markup-calculator": "/ja/exchange-rate-markup-calculator/",
+        "multi-currency-converter": "/ja/multi-currency-converter/",
+        "offline-currency-converter": "/ja/offline-currency-converter/",
+        "exchange-rate-history": "/ja/exchange-rate-history/",
+        "currency-converter-widget": "/ja/currency-converter-widget/",
+        "foreign-transaction-fee-calculator": "/ja/foreign-transaction-fee-calculator/",
+        "travel-budget-calculator": "/ja/travel-budget-calculator/"
+      },
       "dir": "ltr",
       "name": "日本語"
     },
@@ -665,6 +1095,16 @@
       "hreflang": "ko",
       "url": "/ko/",
       "privacyUrl": "/ko/privacy-policy.html",
+      "toolUrls": {
+        "currency-converter": "/ko/currency-converter/",
+        "exchange-rate-markup-calculator": "/ko/exchange-rate-markup-calculator/",
+        "multi-currency-converter": "/ko/multi-currency-converter/",
+        "offline-currency-converter": "/ko/offline-currency-converter/",
+        "exchange-rate-history": "/ko/exchange-rate-history/",
+        "currency-converter-widget": "/ko/currency-converter-widget/",
+        "foreign-transaction-fee-calculator": "/ko/foreign-transaction-fee-calculator/",
+        "travel-budget-calculator": "/ko/travel-budget-calculator/"
+      },
       "dir": "ltr",
       "name": "한국어"
     }

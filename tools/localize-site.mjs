@@ -1,6 +1,7 @@
 import fs from 'node:fs/promises';
 import path from 'node:path';
 import { createRunTimestamp, writeGeneratedJson } from './generated-json.mjs';
+import { resolveToolMessages } from './tool-localization-data.mjs';
 
 const root = path.resolve(import.meta.dirname, '..');
 const androidRoot = path.resolve(process.env.ANDROID_SOURCE_ROOT || path.join(root, '..'));
@@ -9,7 +10,7 @@ const getRunTimestamp = createRunTimestamp();
 // intentionally newer than the localization template. Never overwrite it while
 // regenerating localized policy pages.
 const preserved = new Set(['en']);
-const preservedPolicies = new Set(['en', 'sr', 'bs', 'hr', 'sq', 'mk', 'bg']);
+const preserveExistingPolicies = true;
 const locales = [
   ['en', '', 'English', 'ltr'], ['sr', 'sr', 'Српски', 'ltr'], ['bs', 'bs', 'Bosanski', 'ltr'],
   ['hr', 'hr', 'Hrvatski', 'ltr'], ['sq', 'sq', 'Shqip', 'ltr'], ['mk', 'mk', 'Македонски', 'ltr'],
@@ -45,8 +46,25 @@ const webCopy = JSON.parse(await fs.readFile(path.join(root, 'tools', 'web-copy.
 const privacyTitleCopy = JSON.parse(await fs.readFile(path.join(root, 'tools', 'privacy-title-copy.json'), 'utf8'));
 const phase1dPolicyCopy = JSON.parse(await fs.readFile(path.join(root, 'tools', 'privacy-policy-phase1d.json'), 'utf8'));
 const phase1dPolicySupplement = JSON.parse(await fs.readFile(path.join(root, 'tools', 'privacy-policy-phase1d-supplement.json'), 'utf8'));
-const homeTemplate = await fs.readFile(path.join(root, 'tools', 'templates', 'index.html'), 'utf8');
+const homeTemplate = await fs.readFile(path.join(root, 'index.html'), 'utf8');
+const inventoryHomeTemplate = await fs.readFile(path.join(root, 'tools', 'templates', 'index.html'), 'utf8');
 const policyTemplate = await fs.readFile(path.join(root, 'tools', 'templates', 'privacy-policy.html'), 'utf8');
+const toolCopyPayload = JSON.parse(await fs.readFile(path.join(root, 'tools', 'tool-copy.json'), 'utf8'));
+const toolCopyOverrides = JSON.parse(await fs.readFile(path.join(root, 'tools', 'tool-copy-overrides.json'), 'utf8'));
+const toolTerminologyReplacements = JSON.parse(await fs.readFile(path.join(root, 'tools', 'tool-terminology-replacements.json'), 'utf8'));
+const toolSlugs = [
+  'currency-converter', 'exchange-rate-markup-calculator', 'multi-currency-converter',
+  'offline-currency-converter', 'exchange-rate-history', 'currency-converter-widget',
+  'foreign-transaction-fee-calculator', 'travel-budget-calculator'
+];
+const toolTemplates = Object.fromEntries(await Promise.all(toolSlugs.map(async slug => [
+  slug, await fs.readFile(path.join(root, slug, 'index.html'), 'utf8')
+])));
+const toolSourceBundles = Object.fromEntries(await Promise.all(toolSlugs.map(async slug => {
+  const directory = path.join(root, slug);
+  const files = (await fs.readdir(directory)).filter(file => /\.(?:html|js|mjs)$/.test(file));
+  return [slug, (await Promise.all(files.map(file => fs.readFile(path.join(directory, file), 'utf8')))).join('\n')];
+})));
 
 function decodeXml(value) {
   return value.replace(/<[^>]+>/g, '').replaceAll('&lt;', '<').replaceAll('&gt;', '>')
@@ -82,6 +100,7 @@ function localMap(strings, copy, privacyTitle) {
     'Balkan Currency Converter — Convert currencies quickly, anywhere': `${brand} — ${copy.h1}`,
     'Convert currencies worldwide with Actual Cost, Travel Board, saved sets, offline rates, pinned pairs, history, and a home-screen widget.': copy.marketingSummary,
     'Convert currencies worldwide with travel-ready tools, offline rates, and a clear view of exchange costs.': copy.marketingSummary,
+    'Convert currencies quickly, anywhere. Latest rates, offline access, favorites, history, charts and a built-in calculator.': copy.marketingSummary,
     'Balkan Currency Converter app preview': `${brand} — ${copy.seeApp}`,
     'Skip to content': copy.seeApp,
     'Balkan Currency Converter home': brand,
@@ -158,21 +177,35 @@ function localMap(strings, copy, privacyTitle) {
 }
 
 function applyMap(html, map) {
+  const lookup = value => map[value] ?? map[value.replaceAll('&amp;', '&').replaceAll('&quot;', '"').replaceAll('&#39;', "'")];
   const scripts = [];
   let output = html.replace(/<script[\s\S]*?<\/script>/g, script => {
     scripts.push(script); return `<script data-localization-mask="${scripts.length - 1}"></script>`;
   });
   output = output.replace(/>([^<>]+)</g, (whole, value) => {
     const trimmed = value.trim();
-    if (!map[trimmed]) return whole;
+    const localized = lookup(trimmed);
+    if (!localized) return whole;
     const start = value.indexOf(trimmed);
-    return `>${value.slice(0, start)}${map[trimmed]}${value.slice(start + trimmed.length)}<`;
+    return `>${value.slice(0, start)}${localized}${value.slice(start + trimmed.length)}<`;
   });
   output = output.replace(/\b(aria-label|title|alt|data-label-light|data-label-dark)="([^"]+)"/g,
-    (whole, name, value) => `${name}="${map[value] ?? value}"`);
+    (whole, name, value) => `${name}="${lookup(value) ?? value}"`);
   output = output.replace(/(<meta\s+(?:name|property)="(?:description|og:title|og:description|og:image:alt|twitter:title|twitter:description)"\s+content=")([^"]+)(")/g,
-    (whole, before, value, after) => before + (map[value] ?? value) + after);
+    (whole, before, value, after) => before + (lookup(value) ?? value) + after);
   return output.replace(/<script data-localization-mask="(\d+)"><\/script>/g, (_, index) => scripts[Number(index)]);
+}
+
+function applyJsonLdMap(html, map) {
+  return html.replace(/(<script\s+type="application\/ld\+json">)([\s\S]*?)(<\/script>)/g, (whole, before, value, after) => {
+    const visit = item => {
+      if (typeof item === 'string') return map[item] ?? item;
+      if (Array.isArray(item)) return item.map(visit);
+      if (item && typeof item === 'object') return Object.fromEntries(Object.entries(item).map(([key, child]) => [key, visit(child)]));
+      return item;
+    };
+    return `${before}\n  ${JSON.stringify(visit(JSON.parse(value)))}\n  ${after}`;
+  });
 }
 
 function linkify(value) {
@@ -231,13 +264,15 @@ function updatePreservedPolicy(html, policyCopy, lastUpdated) {
 }
 
 function consentTemplate(copy, page) {
-  const privacyLink = page === 'home' ? 'privacy-policy.html#website-analytics' : '#website-analytics';
+  const privacyLink = page === 'policy' ? '#website-analytics' : 'privacy-policy.html#website-analytics';
   return `\n  <template id="analytics-consent-template">\n    <div class="analytics-consent-copy">\n      <strong id="analytics-consent-title">${esc(copy.consentTitle)}</strong>\n      <p id="analytics-consent-description">${esc(copy.consentHelp)} <a href="${privacyLink}">${esc(copy.learnMore)}</a>.</p>\n    </div>\n    <div class="analytics-consent-actions">\n      <button class="analytics-consent-button analytics-consent-accept" type="button">${esc(copy.acceptAnalytics)}</button>\n      <button class="analytics-consent-button analytics-consent-reject" type="button">${esc(copy.rejectAnalytics)}</button>\n    </div>\n  </template>`;
 }
 
 function urlFor(locale, page = 'home') {
   const base = locale.route ? `/${locale.route}/` : '/';
-  return page === 'home' ? base : `${base}privacy-policy.html`;
+  if (page === 'home') return base;
+  if (page === 'policy') return `${base}privacy-policy.html`;
+  return `${base}${page}/`;
 }
 
 function alternateLinks(page) {
@@ -253,21 +288,79 @@ function languageSelector(current, page) {
 function finalize(html, locale, page, copy, strings) {
   const prefix = locale.route ? '../' : '';
   html = html.replace(/<html lang="[^"]+"(?: dir="[^"]+")?>/, `<html lang="${locale.web}"${locale.dir === 'rtl' ? ' dir="rtl"' : ''}>`);
+  html = html.replace(/(?:\s*<link rel="alternate" hreflang="[^"]+" href="[^"]+">)+/g, '');
   html = html.replace(/  <link rel="canonical"[^>]+>/, `  <link rel="canonical" href="https://balkanconverter.com${urlFor(locale, page)}">\n${alternateLinks(page)}`);
   html = html.replace(/<meta property="og:url" content="[^"]+">/, `<meta property="og:url" content="https://balkanconverter.com${urlFor(locale, page)}">`);
-  html = html.replace('<div class="nav-actions">', `<div class="nav-actions">\n${languageSelector(locale, page)}`);
+  const selector = languageSelector(locale, page).trim();
+  html = /<details class="language-selector">[\s\S]*?<\/details>/.test(html)
+    ? html.replace(/<details class="language-selector">[\s\S]*?<\/details>/, selector)
+    : html.replace('<div class="nav-actions">', `<div class="nav-actions">\n${selector}`);
   html = html.replaceAll('href="assets/', `href="${prefix}assets/`).replaceAll('src="assets/', `src="${prefix}assets/`);
   html = html.replaceAll('href="styles.css"', `href="${prefix}styles.css"`).replaceAll('href="site.webmanifest"', `href="${prefix}site.webmanifest"`);
   html = html.replaceAll('src="script.js"', `src="${prefix}script.js"`).replaceAll('src="analytics.js"', `src="${prefix}analytics.js"`);
-  html = html.replace(/class="theme-toggle" type="button"/, `class="theme-toggle" type="button" data-label-light="${esc(`${strings.theme}: ${strings.theme_light}`)}" data-label-dark="${esc(`${strings.theme}: ${strings.theme_dark}`)}"`);
+  html = html.replace(/(<button class="theme-toggle"[^>]*?)\s+data-label-light="[^"]*"/,
+    `$1 data-label-light="${esc(`${strings.theme}: ${strings.theme_light}`)}"`);
+  html = html.replace(/(<button class="theme-toggle"[^>]*?)\s+data-label-dark="[^"]*"/,
+    `$1 data-label-dark="${esc(`${strings.theme}: ${strings.theme_dark}`)}"`);
   if (page === 'policy') html = html.replaceAll('href="/"', `href="${urlFor(locale, 'home')}"`);
   html = html.replace('class="brand" href="/"', `class="brand" href="${urlFor(locale, 'home')}"`);
   html = html.replaceAll('<span>Balkan Currency Converter</span>', '<span dir="ltr">Balkan Currency Converter</span>');
   html = html.replaceAll('<strong>Balkan Currency Converter</strong>', '<strong dir="ltr">Balkan Currency Converter</strong>');
-  html = html.replace('</body>', `${consentTemplate(copy, page)}\n</body>`);
+  const consent = consentTemplate(copy, page);
+  html = /<template id="analytics-consent-template">[\s\S]*?<\/template>/.test(html)
+    ? html.replace(/<template id="analytics-consent-template">[\s\S]*?<\/template>/, consent.trim())
+    : html.replace('</body>', `${consent}\n</body>`);
   const marketingDescription = `${strings.about_description} ${strings.actual_cost_title} · ${strings.travel_board_title} · ${strings.trip_presets_title} · ${strings.prepare_offline} · ${strings.pinned_pairs_title} · ${strings.history_title} · ${strings.widget_description}.`;
   html = html.replace(/"description": "[^"]+"/, `"description": ${JSON.stringify(marketingDescription)}`);
   return html;
+}
+
+function localizeToolLinks(html, locale) {
+  const base = locale.route ? `/${locale.route}/` : '/';
+  html = html.replace(/href="\/(currency-converter|exchange-rate-markup-calculator|multi-currency-converter|offline-currency-converter|exchange-rate-history|currency-converter-widget|foreign-transaction-fee-calculator|travel-budget-calculator)\/"/g,
+    (_, slug) => `href="${base}${slug}/"`);
+  html = html.replaceAll('href="/privacy-policy.html', `href="${base}privacy-policy.html`);
+  html = html.replaceAll('href="/"', `href="${base}"`);
+  return html;
+}
+
+function finalizeTool(html, locale, slug, rawMap, copy, strings) {
+  const escapedMap = Object.fromEntries(Object.entries(rawMap).map(([key, value]) => [key, esc(value)]));
+  html = applyJsonLdMap(html, rawMap);
+  html = applyMap(html, escapedMap);
+  html = html.replaceAll(
+    `https://balkanconverter.com/${slug}/`,
+    `https://balkanconverter.com${urlFor(locale, slug)}`
+  );
+  html = html.replace(/<html lang="[^"]+"(?: dir="[^"]+")?>/, `<html lang="${locale.web}"${locale.dir === 'rtl' ? ' dir="rtl"' : ''}>`);
+  html = localizeToolLinks(html, locale);
+  html = html.replace(/  <link rel="canonical"[^>]+>/, `  <link rel="canonical" href="https://balkanconverter.com${urlFor(locale, slug)}">\n${alternateLinks(slug)}`);
+  html = html.replace(/<meta property="og:url" content="[^"]+">/, `<meta property="og:url" content="https://balkanconverter.com${urlFor(locale, slug)}">`);
+  html = html.replace('<div class="nav-actions">', `<div class="nav-actions">\n${languageSelector(locale, slug)}`);
+  html = html.replace('class="brand" href="/"', `class="brand" href="${urlFor(locale, 'home')}"`);
+  html = html.replace(/<a class="back-link" href="\/">/, `<a class="back-link" href="${urlFor(locale, 'home')}">`);
+  html = html.replaceAll('href="../assets/', 'href="../../assets/').replaceAll('src="../assets/', 'src="../../assets/');
+  html = html.replaceAll('href="../styles.css"', 'href="../../styles.css"').replaceAll('href="../site.webmanifest"', 'href="../../site.webmanifest"');
+  html = html.replaceAll('src="../script.js"', 'src="../../script.js"').replaceAll('src="../analytics.js"', 'src="../../analytics.js"');
+  html = html.replace(new RegExp(`src="\\./([^\"]+\\.js)"`), `src="../../${slug}/$1"`);
+  html = html.replaceAll('<span>Balkan Currency Converter</span>', '<span dir="ltr">Balkan Currency Converter</span>');
+  html = html.replaceAll('<strong>Balkan Currency Converter</strong>', '<strong dir="ltr">Balkan Currency Converter</strong>');
+  const dynamicMap = JSON.stringify(rawMap).replaceAll('<', '\\u003c');
+  html = html.replace(/(<script type="module" src="[^"]+"><\/script>)/, `<script id="tool-i18n" type="application/json">${dynamicMap}</script>\n  $1`);
+  const consent = consentTemplate(copy, slug).replace('privacy-policy.html#website-analytics', `${urlFor(locale, 'policy')}#website-analytics`);
+  html = html.replace(/<template id="analytics-consent-template">[\s\S]*?<\/template>/, consent.trim());
+  html = html.replace(/(<button class="theme-toggle"[^>]*?)\s+data-label-light="[^"]*"/,
+    `$1 data-label-light="${esc(`${strings.theme}: ${strings.theme_light}`)}"`);
+  html = html.replace(/(<button class="theme-toggle"[^>]*?)\s+data-label-dark="[^"]*"/,
+    `$1 data-label-dark="${esc(`${strings.theme}: ${strings.theme_dark}`)}"`);
+  return html;
+}
+
+function mapForTool(rawMap, slug) {
+  const source = toolSourceBundles[slug];
+  return Object.fromEntries(Object.entries(rawMap).filter(([key]) =>
+    source.includes(key) || source.includes(key.replaceAll('&', '&amp;')) || source.includes(key.replaceAll("'", "\\'"))
+  ));
 }
 
 function sourceStrings(html) {
@@ -282,7 +375,7 @@ function sourceStrings(html) {
 }
 
 const sourceInventory = { source: ['tools/templates/index.html', 'tools/templates/privacy-policy.html'],
-  home: sourceStrings(homeTemplate), privacyPolicy: sourceStrings(policyTemplate) };
+  home: sourceStrings(inventoryHomeTemplate), privacyPolicy: sourceStrings(policyTemplate) };
 await writeGeneratedJson(path.join(root, 'tools', 'production-strings.json'), sourceInventory, {
   getRunTimestamp,
   generatedAtIndex: 1
@@ -304,34 +397,49 @@ for (const locale of locales) {
   let policy = policyTemplate.replace(/    <article class="policy-card">[\s\S]*?    <\/article>/, policyArticle(strings, copy, policyCopy));
   policy = applyMap(policy, map);
   policy = policy.replace(/<p class="policy-meta">[\s\S]*?<\/p>/, `<p class="policy-meta">${esc(webPolicyDate(strings.privacy_last_updated))}</p>`);
+  if (locale.android !== 'en') {
+    const rawToolMap = toolCopyPayload.locales[locale.web];
+    if (!rawToolMap) throw new Error(`${locale.web}: missing tool localization catalog`);
+    const toolMap = resolveToolMessages(locale.web, rawToolMap, toolCopyOverrides, toolTerminologyReplacements);
+    home = applyMap(home, Object.fromEntries(Object.entries(toolMap).map(([key, value]) => [key, esc(value)])));
+    home = localizeToolLinks(home, locale);
+  }
   home = finalize(home, locale, 'home', copy, strings);
   policy = finalize(policy, locale, 'policy', copy, strings);
   const directory = path.join(root, locale.route);
   await fs.mkdir(directory, { recursive: true });
   if (!preserved.has(locale.android)) await fs.writeFile(path.join(directory, 'index.html'), home);
-  if (preservedPolicies.has(locale.android)) {
+  if (preserveExistingPolicies) {
     const preservedPath = path.join(directory, 'privacy-policy.html');
-    const preservedPolicy = await fs.readFile(preservedPath, 'utf8');
-    await fs.writeFile(preservedPath, updatePreservedPolicy(preservedPolicy, policyCopy, webPolicyDate(strings.privacy_last_updated)));
+    await fs.access(preservedPath);
   } else {
     await fs.writeFile(path.join(directory, 'privacy-policy.html'), policy);
   }
   if (!preserved.has(locale.android)) generated.push(locale.android);
+  if (locale.android !== 'en') {
+    const rawMap = resolveToolMessages(locale.web, toolCopyPayload.locales[locale.web], toolCopyOverrides, toolTerminologyReplacements);
+    for (const slug of toolSlugs) {
+      const directory = path.join(root, locale.route, slug);
+      await fs.mkdir(directory, { recursive: true });
+      await fs.writeFile(path.join(directory, 'index.html'), finalizeTool(toolTemplates[slug], locale, slug, mapForTool(rawMap, slug), copy, strings));
+    }
+  }
   sources.push({ locale: locale.android, webLocale: locale.web, androidResource: `app/src/main/res/${folder}/strings.xml` });
 }
 
 const manifest = { androidSource: '../app/src/main/res/xml/locales_config.xml',
   preservedLocales: [...preserved], generatedLocales: generated, terminologySources: sources,
   locales: locales.map(locale => ({ androidLocale: locale.android, webLocale: locale.web, hreflang: locale.web,
-    url: urlFor(locale), privacyUrl: urlFor(locale, 'policy'), dir: locale.dir, name: locale.name })) };
+    url: urlFor(locale), privacyUrl: urlFor(locale, 'policy'),
+    toolUrls: Object.fromEntries(toolSlugs.map(slug => [slug, urlFor(locale, slug)])), dir: locale.dir, name: locale.name })) };
 await writeGeneratedJson(path.join(root, 'site-locales.json'), manifest, { getRunTimestamp });
 
 const xmlEsc = value => value.replaceAll('&', '&amp;');
 const sitemapLinks = page => locales.map(locale => `    <xhtml:link rel="alternate" hreflang="${locale.web}" href="${xmlEsc(`https://balkanconverter.com${urlFor(locale, page)}`)}" />`)
   .concat(`    <xhtml:link rel="alternate" hreflang="x-default" href="${xmlEsc(`https://balkanconverter.com${urlFor(locales[0], page)}`)}" />`).join('\n');
 const urls = [];
-for (const page of ['home', 'policy']) for (const locale of locales) urls.push(`  <url>\n    <loc>${xmlEsc(`https://balkanconverter.com${urlFor(locale, page)}`)}</loc>\n${sitemapLinks(page)}\n  </url>`);
-urls.push('  <url>\n    <loc>https://balkanconverter.com/exchange-rate-markup-calculator/</loc>\n  </url>');
-urls.push('  <url>\n    <loc>https://balkanconverter.com/multi-currency-converter/</loc>\n  </url>');
+for (const page of ['home', 'policy', ...toolSlugs]) for (const locale of locales) {
+  urls.push(`  <url>\n    <loc>${xmlEsc(`https://balkanconverter.com${urlFor(locale, page)}`)}</loc>\n${sitemapLinks(page)}\n  </url>`);
+}
 await fs.writeFile(path.join(root, 'sitemap.xml'), `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">\n${urls.join('\n')}\n</urlset>\n`);
 console.log(`Generated ${generated.length} locales from local Android resources; preserved ${preserved.size}; total ${locales.length}.`);

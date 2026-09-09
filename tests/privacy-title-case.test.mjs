@@ -54,17 +54,16 @@ test('seven corrected locales use exact standalone copy in all eight slots', asy
   }
 });
 
-test('all 88 HTML files retain every byte except the 56 approved standalone initial letters', async () => {
+test('all 44 policy HTML files retain every byte except approved standalone initial letters', async () => {
   for (const locale of manifest.locales) {
-    for (const file of paths(locale)) {
+    for (const file of [locale.privacyUrl.slice(1)]) {
       let original = execFileSync('git', ['-c', 'safe.directory=' + root.replaceAll('\\', '/'),
         'show', beforeCommit + ':' + file], { cwd: root, encoding: 'utf8' }).replaceAll('\r\n', '\n');
       const copy = changes[locale.webLocale];
       if (copy) {
         const { before, title } = copy;
         const slots = ['<nav aria-label="' + before + '">'];
-        if (file.endsWith('index.html')) slots.push('<a href="privacy-policy.html">' + before + '</a>');
-        else slots.push(
+        slots.push(
           '<title>' + before + ' — Balkan Currency Converter</title>',
           '<meta name="description" content="' + before + '">',
           '<meta property="og:title" content="' + before + ' — Balkan Currency Converter">',

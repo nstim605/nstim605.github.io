@@ -1,6 +1,7 @@
 import { fetchReferenceRates, parseLocalizedNumber } from '../exchange-rate-markup-calculator/calculator-core.mjs';
 import { convertToMultiple } from './converter-core.mjs';
 import { trackSiteEvent } from '../analytics.js';
+import { formatRateDate, t } from '../tool-i18n.mjs';
 
 const form = document.querySelector('#multi-form');
 const baseSelect = document.querySelector('#base-currency');
@@ -10,10 +11,11 @@ const addButton = document.querySelector('#add-target');
 const status = document.querySelector('#multi-status');
 const results = document.querySelector('#multi-results');
 const submitButton = form.querySelector('button[type="submit"]');
+const pageLocale = document.documentElement.lang || undefined;
 let rateData;
 
 function formatCurrency(value, code) {
-  return new Intl.NumberFormat(undefined, { style: 'currency', currency: code, currencyDisplay: 'code', maximumFractionDigits: 4 }).format(value);
+  return new Intl.NumberFormat(pageLocale, { style: 'currency', currency: code, currencyDisplay: 'code', maximumFractionDigits: 4 }).format(value);
 }
 
 function setStatus(message, type = '') {
@@ -36,17 +38,17 @@ function addTarget(selected = 'USD') {
   row.className = 'target-row';
   const select = document.createElement('select');
   select.className = 'target-currency';
-  select.setAttribute('aria-label', 'Target currency');
+  select.setAttribute('aria-label', t('Target currency'));
   const available = rateData?.table ?? new Map([['RSD', 1], ['USD', 1], ['GBP', 1]]);
   select.replaceChildren(...currencyOptions(selected, available));
   const remove = document.createElement('button');
   remove.type = 'button';
   remove.className = 'remove-target';
-  remove.setAttribute('aria-label', 'Remove target currency');
+  remove.setAttribute('aria-label', t('Remove target currency'));
   remove.textContent = '×';
   remove.addEventListener('click', () => {
     if (targetList.children.length === 1) {
-      setStatus('Keep at least one target currency.', 'error');
+      setStatus(t('Keep at least one target currency.'), 'error');
       return;
     }
     row.remove();
@@ -82,18 +84,18 @@ form.addEventListener('submit', async event => {
   results.hidden = true;
   const amount = parseLocalizedNumber(amountInput.value);
   if (!Number.isFinite(amount) || amount <= 0) {
-    setStatus('Enter an amount greater than zero.', 'error');
+    setStatus(t('Enter an amount greater than zero.'), 'error');
     return;
   }
 
   submitButton.disabled = true;
-  submitButton.textContent = 'Loading latest rates…';
-  setStatus('Fetching the latest reference rates…', 'loading');
+  submitButton.textContent = t('Loading latest rates…');
+  setStatus(t('Fetching the latest reference rates…'), 'loading');
   try {
     const { table, date } = await getRates();
     const base = baseSelect.value;
     const targetCodes = [...targetList.querySelectorAll('select')].map(select => select.value);
-    if (targetCodes.includes(base)) throw new RangeError('Target currencies must be different from the base currency.');
+    if (targetCodes.includes(base)) throw new RangeError(t('Target currencies must be different from the base currency.'));
     const converted = convertToMultiple({
       amount,
       baseRate: table.get(base),
@@ -108,17 +110,18 @@ form.addEventListener('submit', async event => {
       row.append(term, definition);
       return row;
     }));
-    results.querySelector('.result-date').textContent = date ? `Reference rates dated ${date}.` : '';
+    results.querySelector('.result-date').textContent = date
+      ? t('Reference rates dated {date}.', { date: formatRateDate(date) }) : '';
     results.hidden = false;
     results.focus({ preventScroll: true });
-    setStatus('Conversions updated from the latest available reference rates.', 'success');
+    setStatus(t('Conversions updated from the latest available reference rates.'), 'success');
     trackSiteEvent('multi_currency_converter_used', { base_currency: base, target_count: converted.length });
   } catch (error) {
-    setStatus(error instanceof RangeError ? error.message : 'Rates could not be loaded. Check your connection and try again.', 'error');
+    setStatus(error instanceof RangeError ? t(error.message) : t('Rates could not be loaded. Check your connection and try again.'), 'error');
     if (!(error instanceof RangeError)) rateData = undefined;
   } finally {
     submitButton.disabled = false;
-    submitButton.textContent = 'Convert currencies';
+    submitButton.textContent = t('Convert currencies');
   }
 });
 
