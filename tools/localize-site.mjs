@@ -51,7 +51,15 @@ const inventoryHomeTemplate = await fs.readFile(path.join(root, 'tools', 'templa
 const policyTemplate = await fs.readFile(path.join(root, 'tools', 'templates', 'privacy-policy.html'), 'utf8');
 const toolCopyPayload = JSON.parse(await fs.readFile(path.join(root, 'tools', 'tool-copy.json'), 'utf8'));
 const toolCopyOverrides = JSON.parse(await fs.readFile(path.join(root, 'tools', 'tool-copy-overrides.json'), 'utf8'));
+const reviewedRussianToolCopy = JSON.parse(await fs.readFile(path.join(root, 'tools', 'tool-copy-reviewed-ru.json'), 'utf8'));
+const toolRichCopy = JSON.parse(await fs.readFile(path.join(root, 'tools', 'tool-rich-copy.json'), 'utf8'));
 const toolTerminologyReplacements = JSON.parse(await fs.readFile(path.join(root, 'tools', 'tool-terminology-replacements.json'), 'utf8'));
+const effectiveToolCopyOverrides = {
+  ...toolCopyOverrides,
+  ru: { ...(toolCopyOverrides.ru ?? {}), ...reviewedRussianToolCopy }
+};
+const legacyGooglePlayBadge = 'https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png';
+const localGooglePlayBadge = '/assets/google-play-badge-en.png';
 const toolSlugs = [
   'currency-converter', 'exchange-rate-markup-calculator', 'multi-currency-converter',
   'offline-currency-converter', 'exchange-rate-history', 'currency-converter-widget',
@@ -189,11 +197,40 @@ function applyMap(html, map) {
     const start = value.indexOf(trimmed);
     return `>${value.slice(0, start)}${localized}${value.slice(start + trimmed.length)}<`;
   });
-  output = output.replace(/\b(aria-label|title|alt|data-label-light|data-label-dark)="([^"]+)"/g,
+  output = output.replace(/\b(aria-label|title|alt|placeholder|data-label-light|data-label-dark)="([^"]+)"/g,
     (whole, name, value) => `${name}="${lookup(value) ?? value}"`);
   output = output.replace(/(<meta\s+(?:name|property)="(?:description|og:title|og:description|og:image:alt|twitter:title|twitter:description)"\s+content=")([^"]+)(")/g,
     (whole, before, value, after) => before + (lookup(value) ?? value) + after);
   return output.replace(/<script data-localization-mask="(\d+)"><\/script>/g, (_, index) => scripts[Number(index)]);
+}
+
+function applyRichCopy(html, locale) {
+  const messages = toolRichCopy[locale] ?? {};
+  return html.replace(/<p([^>]*\bdata-i18n-rich="([^"]+)"[^>]*)>([\s\S]*?)<\/p>/g,
+    (whole, attributes, id, content) => {
+      const entry = messages[id];
+      if (!entry) return whole;
+      const anchors = new Map();
+      for (const match of content.matchAll(/<a([^>]*\bdata-i18n-slot="([^"]+)"[^>]*)>[\s\S]*?<\/a>/g)) {
+        anchors.set(match[2], match[0]);
+      }
+      const placeholders = [...entry.message.matchAll(/\{([A-Za-z][A-Za-z0-9-]*)\}/g)].map(match => match[1]);
+      if (new Set(placeholders).size !== placeholders.length) throw new Error(`${locale}/${id}: duplicate rich-text slot`);
+      if (placeholders.length !== anchors.size || placeholders.some(slot => !anchors.has(slot))) {
+        throw new Error(`${locale}/${id}: rich-text slots do not match the source template`);
+      }
+      let cursor = 0;
+      let localized = '';
+      for (const match of entry.message.matchAll(/\{([A-Za-z][A-Za-z0-9-]*)\}/g)) {
+        localized += esc(entry.message.slice(cursor, match.index));
+        const slot = match[1];
+        const sourceAnchor = anchors.get(slot);
+        localized += sourceAnchor.replace(/>[\s\S]*<\/a>$/, `>${esc(entry.links[slot])}</a>`);
+        cursor = match.index + match[0].length;
+      }
+      localized += esc(entry.message.slice(cursor));
+      return `<p${attributes}>${localized}</p>`;
+    });
 }
 
 function applyJsonLdMap(html, map) {
@@ -321,11 +358,12 @@ function localizeToolLinks(html, locale) {
     (_, slug) => `href="${base}${slug}/"`);
   html = html.replaceAll('href="/privacy-policy.html', `href="${base}privacy-policy.html`);
   html = html.replaceAll('href="/"', `href="${base}"`);
-  return html;
+  return html.replaceAll(legacyGooglePlayBadge, localGooglePlayBadge);
 }
 
 function finalizeTool(html, locale, slug, rawMap, copy, strings) {
   const escapedMap = Object.fromEntries(Object.entries(rawMap).map(([key, value]) => [key, esc(value)]));
+  html = applyRichCopy(html, locale.web);
   html = applyJsonLdMap(html, rawMap);
   html = applyMap(html, escapedMap);
   html = html.replaceAll(
@@ -353,11 +391,17 @@ function finalizeTool(html, locale, slug, rawMap, copy, strings) {
     `$1 data-label-light="${esc(`${strings.theme}: ${strings.theme_light}`)}"`);
   html = html.replace(/(<button class="theme-toggle"[^>]*?)\s+data-label-dark="[^"]*"/,
     `$1 data-label-dark="${esc(`${strings.theme}: ${strings.theme_dark}`)}"`);
-  return html;
+  return html.replaceAll(legacyGooglePlayBadge, localGooglePlayBadge);
 }
 
 function mapForTool(rawMap, slug) {
-  const source = toolSourceBundles[slug];
+  // Rich messages are localized as complete sentences before the ordinary
+  // text-node pass. Their source fragments are not runtime messages and must
+  // not leak into the embedded i18n catalog.
+  const source = toolSourceBundles[slug].replace(
+    /<p[^>]*\bdata-i18n-rich="[^"]+"[^>]*>[\s\S]*?<\/p>/g,
+    ''
+  );
   return Object.fromEntries(Object.entries(rawMap).filter(([key]) =>
     source.includes(key) || source.includes(key.replaceAll('&', '&amp;')) || source.includes(key.replaceAll("'", "\\'"))
   ));
@@ -400,7 +444,7 @@ for (const locale of locales) {
   if (locale.android !== 'en') {
     const rawToolMap = toolCopyPayload.locales[locale.web];
     if (!rawToolMap) throw new Error(`${locale.web}: missing tool localization catalog`);
-    const toolMap = resolveToolMessages(locale.web, rawToolMap, toolCopyOverrides, toolTerminologyReplacements);
+    const toolMap = resolveToolMessages(locale.web, rawToolMap, effectiveToolCopyOverrides, toolTerminologyReplacements);
     home = applyMap(home, Object.fromEntries(Object.entries(toolMap).map(([key, value]) => [key, esc(value)])));
     home = localizeToolLinks(home, locale);
   }
@@ -411,13 +455,15 @@ for (const locale of locales) {
   if (!preserved.has(locale.android)) await fs.writeFile(path.join(directory, 'index.html'), home);
   if (preserveExistingPolicies) {
     const preservedPath = path.join(directory, 'privacy-policy.html');
-    await fs.access(preservedPath);
+    const existingPolicy = await fs.readFile(preservedPath, 'utf8');
+    const migratedPolicy = existingPolicy.replaceAll(legacyGooglePlayBadge, localGooglePlayBadge);
+    if (migratedPolicy !== existingPolicy) await fs.writeFile(preservedPath, migratedPolicy);
   } else {
     await fs.writeFile(path.join(directory, 'privacy-policy.html'), policy);
   }
   if (!preserved.has(locale.android)) generated.push(locale.android);
   if (locale.android !== 'en') {
-    const rawMap = resolveToolMessages(locale.web, toolCopyPayload.locales[locale.web], toolCopyOverrides, toolTerminologyReplacements);
+    const rawMap = resolveToolMessages(locale.web, toolCopyPayload.locales[locale.web], effectiveToolCopyOverrides, toolTerminologyReplacements);
     for (const slug of toolSlugs) {
       const directory = path.join(root, locale.route, slug);
       await fs.mkdir(directory, { recursive: true });

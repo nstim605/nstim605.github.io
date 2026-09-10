@@ -31,6 +31,13 @@ function setBusy(busy) {
   submitButton.textContent = busy ? t('Loading latest rates…') : t('Calculate markup');
 }
 
+function formatStandaloneCurrencyName(name) {
+  if (!name) return name;
+  const firstLetter = name.search(/\p{L}/u);
+  if (firstLetter < 0) return name;
+  return name.slice(0, firstLetter) + name[firstLetter].toLocaleUpperCase(pageLocale) + name.slice(firstLetter + 1);
+}
+
 function populateCurrencies(table) {
   const displayNames = typeof Intl.DisplayNames === 'function'
     ? new Intl.DisplayNames([pageLocale], { type: 'currency' })
@@ -41,7 +48,7 @@ function populateCurrencies(table) {
     select.replaceChildren(...codes.map(code => {
       const option = document.createElement('option');
       option.value = code;
-      const name = displayNames?.of(code);
+      const name = formatStandaloneCurrencyName(displayNames?.of(code));
       option.textContent = name && name !== code ? `${code} — ${name}` : code;
       return option;
     }));

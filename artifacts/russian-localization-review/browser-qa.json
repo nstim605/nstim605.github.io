@@ -1,0 +1,35 @@
+{
+  "generatedAt": "2026-09-10T10:29:39.401Z",
+  "status": "PASS",
+  "layouts": {
+    "pages": 8,
+    "widths": [
+      320,
+      390,
+      1440
+    ],
+    "checks": 24
+  },
+  "interactions": [
+    "currency",
+    "markup",
+    "multi-currency",
+    "history",
+    "foreign-fee/DCC",
+    "travel-budget"
+  ],
+  "localizedInput": [
+    "11 115",
+    "2,5",
+    "1 000",
+    "11,5"
+  ],
+  "networkFailure": "PASS",
+  "screenshots": [
+    "01-markup-explanation-390.png",
+    "02-offline-cache-390.png",
+    "03-widget-behavior-390.png",
+    "04-foreign-fee-form-390.png",
+    "05-travel-budget-form-390.png"
+  ]
+}

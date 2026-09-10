@@ -5,14 +5,14 @@
     {
       "file": "tools/localize-site.mjs",
       "previousAcceptedSha256": "e48afce43f461b59313168609c45f286ee15a287131a7ff2e395bdefb9d034ae",
-      "acceptedSha256": "4fd179dc3260b3cfdd786b0fda2b6b25ac01d9daf4ca3d7df1bbd04024ca7da9",
-      "reason": "Extend the central site generator to create all eight tool pages for every production locale, including localized routes, metadata, canonical and hreflang links, while preserving the published privacy-policy bodies and existing English tool logic."
+      "acceptedSha256": "a39fc2a8fc296e5d73ed84701061cf2d30689aa6dc24d68d6e9f7cace7bae547",
+      "reason": "Extend the central site generator for reviewed Russian tool copy, localized form placeholders, and complete rich-text sentences with named link slots, while migrating only the broken Google Play badge URL on preserved policies; legal text and English calculator behavior remain unchanged."
     },
     {
       "file": "tests/privacy-policy-phase1d.test.mjs",
       "previousAcceptedSha256": "c751ae27e8299221b46ed7ba873d993f9cff4c2e75858265a0652919a298b122",
-      "acceptedSha256": "b2c62b5be0142bb56917f195106ccff4ea87c1c032cd725867015cded368b10e",
-      "reason": "Allow an explicit Android source path and canonical Git LF hashes; authenticate visual-source changes; pin published policy pages to 45c953f and Russian app title/evidence to 84ab517. Additionally authenticate seven old website policies from 0406901 and permit only five exact standalone initial-letter changes per page. Historical checksums and legal body checks remain unchanged."
+      "acceptedSha256": "c7e7ed7a66814c078f24dd71613a44964ebc2f99be373363373194baafbab893",
+      "reason": "Keep the historical publication manifest immutable while explicitly normalizing and verifying the single approved legacy-to-local Google Play badge source migration; policy legal text, dates and all other markup remain pinned."
     },
     {
       "file": "tools/production-strings.json",

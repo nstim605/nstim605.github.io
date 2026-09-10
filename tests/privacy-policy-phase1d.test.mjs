@@ -24,6 +24,8 @@ const fields = [
   'websiteQaHeading', 'websiteQaSummary', 'securityHeading', 'securitySummary'
 ];
 const mojibake = /(?:\uFFFD|â€™|â€œ|â€\x9d|ðŸ)/u;
+const legacyGooglePlayBadge = 'https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png';
+const localGooglePlayBadge = '/assets/google-play-badge-en.png';
 
 function htmlEscape(value) {
   return String(value).replaceAll('&', '&amp;').replaceAll('"', '&quot;')
@@ -305,7 +307,21 @@ test('publication manifest has exactly 107 current, scoped entries', async () =>
     const manifestContent = repository === 'Website' || productionEvidenceFiles.has(file)
       ? Buffer.from(bytes.toString('utf8').replaceAll('\r\n', '\n'), 'utf8')
       : bytes;
-    const digest = crypto.createHash('sha256').update(manifestContent).digest('hex');
+    const badgeMigration = repository === 'Website' &&
+      (file === 'tools/templates/privacy-policy.html' || file.endsWith('/privacy-policy.html') || file === 'privacy-policy.html');
+    if (badgeMigration) {
+      assert.match(manifestContent.toString('utf8'), /src="\/assets\/google-play-badge-en\.png"/,
+        `local Google Play badge:${file}`);
+      assert.doesNotMatch(manifestContent.toString('utf8'), /en_badge_web_generic\.png/,
+        `legacy Google Play badge:${file}`);
+    }
+    // The historical policy manifest remains immutable. Normalize only the one
+    // explicitly approved badge URL migration before authenticating its bytes;
+    // all legal text, dates and other markup remain pinned.
+    const digestContent = badgeMigration
+      ? Buffer.from(manifestContent.toString('utf8').replaceAll(localGooglePlayBadge, legacyGooglePlayBadge), 'utf8')
+      : manifestContent;
+    const digest = crypto.createHash('sha256').update(digestContent).digest('hex');
     const pinnedCommit = repository === 'Website' && preservedPolicyFiles.has(file)
       ? publishedPolicyCommit
       : repository === 'Android' && productionEvidenceFiles.has(file) ? productionSourceCommit : null;
@@ -343,7 +359,7 @@ test('publication manifest has exactly 107 current, scoped entries', async () =>
         assert.equal(approved.split(slot).length - 1, 1, `exact standalone slot:${file}`);
         approved = approved.replace(slot, slot.replace(before, title));
       }
-      assert.equal(manifestContent.toString('utf8'), approved, `only standalone titles:${file}`);
+      assert.equal(digestContent.toString('utf8'), approved, `only standalone titles and approved badge:${file}`);
       acceptedSupersessions.set(`Website:${file}`, {
         historicalSha256: expectedSha, acceptedSha256: digest
       });

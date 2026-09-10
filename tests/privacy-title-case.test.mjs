@@ -10,6 +10,8 @@ const changes = JSON.parse(await fs.readFile(path.join(root, 'tools/privacy-titl
 const beforeCommit = '0406901fcb071f465366c1b5518888dbb7f4389a';
 const read = file => fs.readFile(path.join(root, file), 'utf8').then(s => s.replaceAll('\r\n', '\n'));
 const paths = locale => [locale.url.slice(1) + 'index.html', locale.privacyUrl.slice(1)];
+const legacyGooglePlayBadge = 'https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png';
+const localGooglePlayBadge = '/assets/google-play-badge-en.png';
 
 function assertInitialCapital(text, locale, context) {
   const initial = text.match(/\p{L}/u)?.[0];
@@ -54,7 +56,7 @@ test('seven corrected locales use exact standalone copy in all eight slots', asy
   }
 });
 
-test('all 44 policy HTML files retain every byte except approved standalone initial letters', async () => {
+test('all 44 policy HTML files retain every byte except approved standalone initials and badge source', async () => {
   for (const locale of manifest.locales) {
     for (const file of [locale.privacyUrl.slice(1)]) {
       let original = execFileSync('git', ['-c', 'safe.directory=' + root.replaceAll('\\', '/'),
@@ -74,7 +76,11 @@ test('all 44 policy HTML files retain every byte except approved standalone init
           original = original.replaceAll(old, old.replace(before, title));
         }
       }
-      assert.equal(await read(file), original, file + ': legal text, dates, URLs, images and other copy untouched');
+      const current = await read(file);
+      assert.match(current, /src="\/assets\/google-play-badge-en\.png"/, file + ': local badge');
+      assert.doesNotMatch(current, /en_badge_web_generic\.png/, file + ': legacy badge');
+      assert.equal(current.replaceAll(localGooglePlayBadge, legacyGooglePlayBadge), original,
+        file + ': legal text, dates, URLs and other copy untouched');
     }
   }
 });
