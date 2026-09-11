@@ -6,7 +6,7 @@
   <meta name="theme-color" content="#f7f8fa" media="(prefers-color-scheme: light)">
   <meta name="theme-color" content="#070a0f" media="(prefers-color-scheme: dark)">
   <title>Offline-Währungsumrechner | So funktionieren gespeicherte Wechselkurse</title>
-  <meta name="description" content="Erfahren Sie, wie ein Offline-Währungsumrechner veraltete, gespeicherte Wechselkurse verwendet – und was sich ändert, wenn Ihre Internetverbindung wiederhergestellt ist.">
+  <meta name="description" content="Erfahren Sie, wie ein Offline-Währungsrechner gespeicherte Wechselkurse mit Kursdatum verwendet und was sich ändert, sobald wieder eine Internetverbindung besteht.">
   <link rel="canonical" href="https://balkanconverter.com/de/offline-currency-converter/">
   <link rel="alternate" hreflang="en" href="https://balkanconverter.com/offline-currency-converter/">
   <link rel="alternate" hreflang="sr" href="https://balkanconverter.com/sr/offline-currency-converter/">
@@ -56,7 +56,7 @@
   <meta property="og:type" content="article">
   <meta property="og:site_name" content="Balkan Currency Converter">
   <meta property="og:title" content="Offline-Währungsumrechner: So funktionieren gespeicherte Kurse">
-  <meta property="og:description" content="Eine klare Anleitung zum Umrechnen von Währungen ohne Internet unter Verwendung datierter, gespeicherter Wechselkurse.">
+  <meta property="og:description" content="Eine verständliche Anleitung zur Währungsumrechnung ohne Internet mit gespeicherten Wechselkursen und Kursdatum.">
   <meta property="og:url" content="https://balkanconverter.com/de/offline-currency-converter/">
   <meta property="og:image" content="https://balkanconverter.com/assets/og-v1-5-11.png">
   <meta name="twitter:card" content="summary_large_image">
@@ -68,7 +68,7 @@
   <link rel="manifest" href="../../site.webmanifest">
   <link rel="stylesheet" href="../../styles.css">
   <script type="application/ld+json">
-  {"@context":"https://schema.org","@type":"Article","headline":"Offline-Währungsumrechner: So funktionieren gespeicherte Wechselkurse","description":"Eine praktische Anleitung zur Verwendung datierter, gespeicherter Wechselkurse für die Währungsumrechnung ohne Internet.","mainEntityOfPage":"https://balkanconverter.com/de/offline-currency-converter/","publisher":{"@type":"Organization","name":"Balkan Currency Converter"}}
+  {"@context":"https://schema.org","@type":"Article","headline":"Offline-Währungsumrechner: So funktionieren gespeicherte Wechselkurse","description":"Eine praktische Anleitung zur Währungsumrechnung ohne Internet mit gespeicherten Wechselkursen und Kursdatum.","mainEntityOfPage":"https://balkanconverter.com/de/offline-currency-converter/","publisher":{"@type":"Organization","name":"Balkan Currency Converter"}}
   </script>
 </head>
 <body>
@@ -76,7 +76,7 @@
   <header class="site-header">
     <div class="shell nav-wrap">
       <a class="brand" href="/de/" aria-label="Balkan Currency Converter Startseite"><img src="../../assets/icons/v1-5-11/app-icon-v1-5-11.png" width="42" height="42" alt=""><span dir="ltr">Balkan Currency Converter</span></a>
-      <nav class="nav-links" aria-label="Hauptnavigation"><a href="/de/">Zuhause</a><a href="/de/currency-converter/">Währungsrechner</a><a href="/de/multi-currency-converter/">Mehrere Währungen</a></nav>
+      <nav class="nav-links" aria-label="Hauptnavigation"><a href="/de/">Startseite</a><a href="/de/currency-converter/">Währungsrechner</a><a href="/de/multi-currency-converter/">Mehrere Währungen</a></nav>
       <div class="nav-actions">
         <details class="language-selector">
           <summary aria-label="Deutsch"><span aria-hidden="true">🌐</span><span>Deutsch</span></summary>
@@ -134,53 +134,53 @@
   <main id="main" class="calculator-main">
     <section class="calculator-hero shell" aria-labelledby="offline-title">
       <a class="back-link" href="/de/"><span aria-hidden="true">←</span> Zurück zu Balkan Currency Converter</a>
-      <p class="eyebrow"><span class="status-dot"></span> Offline-Wechselkursführer</p>
+      <p class="eyebrow"><span class="status-dot"></span> Leitfaden zur Offline-Umrechnung</p>
       <h1 id="offline-title">Offline-Währungsumrechner: So funktionieren gespeicherte Kurse</h1>
-      <p class="hero-lede">Ein Konverter kann ohne Internet weiterarbeiten, indem er die neuesten Wechselkurse verwendet, die er erfolgreich auf Ihrem Gerät gespeichert hat. Diese Tarife sind nützliche Referenzdaten – sie bleiben jedoch an ihr ursprüngliches Datum gebunden, bis die App sie online aktualisieren kann.</p>
+      <p class="hero-lede">Ein Währungsrechner kann ohne Internet weiterarbeiten, indem er die zuletzt erfolgreich auf Ihrem Gerät gespeicherten Wechselkurse verwendet. Diese Kurse sind nützliche Referenzwerte, bleiben aber an ihr ursprüngliches Kursdatum gebunden, bis die App sie wieder online aktualisieren kann.</p>
     </section>
 
     <section class="section shell" aria-labelledby="offline-flow-title">
-      <div class="section-heading"><div><p class="eyebrow">Die einfache Version</p><h2 id="offline-flow-title">Von der Online-Aktualisierung bis zur Offline-Konvertierung</h2></div><p>Wenn Sie einen Tarif sparen, bleibt er nicht für immer bestehen. Es wird eine veraltete lokale Kopie erstellt, die wiederverwendet werden kann, wenn das Netzwerk nicht verfügbar ist.</p></div>
+      <div class="section-heading"><div><p class="eyebrow">Die einfache Version</p><h2 id="offline-flow-title">Von der Online-Aktualisierung bis zur Offline-Umrechnung</h2></div><p>Ein gespeicherter Kurs bleibt nicht dauerhaft aktuell. Die App legt eine lokale Kopie mit Kursdatum an, die ohne Netzwerkverbindung wiederverwendet werden kann.</p></div>
       <div class="feature-grid">
-        <article class="feature-card"><span class="feature-mark" aria-hidden="true">1</span><h3>Verbinden und aktualisieren</h3><p>Die App fordert den neuesten verfügbaren Referenztarifdatensatz an, zeichnet dessen Tarifdatum auf und spart Zeit.</p></article>
-        <article class="feature-card"><span class="feature-mark" aria-hidden="true">2</span><h3>Behalten Sie den letzten Erfolg</h3><p>Nach erfolgreicher Anfrage wird der Datensatz lokal gespeichert. Wenn eine spätere Anfrage fehlschlägt, bleibt die vorherige Arbeitskopie verfügbar.</p></article>
-        <article class="feature-card feature-card-accent"><span class="feature-mark" aria-hidden="true">3</span><h3>Konvertieren ohne Internet</h3><p>Im Offline-Modus verwenden Konvertierungen diesen gespeicherten Datensatz und zeigen zusammen mit dem Tarifdatum an, dass zwischengespeicherte Daten verwendet werden.</p></article>
+        <article class="feature-card"><span class="feature-mark" aria-hidden="true">1</span><h3>Verbinden und aktualisieren</h3><p>Die App ruft den neuesten verfügbaren Referenzkursdatensatz ab und speichert Kursdatum sowie Speicherzeitpunkt.</p></article>
+        <article class="feature-card"><span class="feature-mark" aria-hidden="true">2</span><h3>Letzten erfolgreichen Stand behalten</h3><p>Nach einer erfolgreichen Anfrage wird der Datensatz lokal gespeichert. Schlägt eine spätere Anfrage fehl, bleibt die letzte funktionierende Kopie verfügbar.</p></article>
+        <article class="feature-card feature-card-accent"><span class="feature-mark" aria-hidden="true">3</span><h3>Ohne Internet umrechnen</h3><p>Offline-Umrechnungen verwenden diesen gespeicherten Datensatz und weisen zusammen mit dem Kursdatum darauf hin, dass gespeicherte Daten genutzt werden.</p></article>
       </div>
     </section>
 
     <section class="calculator-explanation shell" aria-labelledby="snapshot-title">
       <article>
-        <h2 id="snapshot-title">Was ein gespeicherter Offline-Tarif bedeutet</h2>
-        <p>Die gespeicherten Daten sind eine Momentaufnahme der letzten erfolgreichen Referenzratenreaktion. Es kann Umrechnungen ohne Netzwerkverbindung berechnen, die Zahlen werden jedoch nicht aktualisiert, während das Gerät offline ist.</p>
-        <p>Überprüfen Sie immer das angezeigte Tarifdatum. Ein Ergebnis auf Basis der gestrigen Kurse mag für die Planung noch nützlich sein, ist aber kein Versprechen für den Kurs, den eine Bank, ein Kartenanbieter oder eine Wechselstube heute anbieten wird.</p>
+        <h2 id="snapshot-title">Was ein gespeicherter Offline-Kurs bedeutet</h2>
+        <p>Der gespeicherte Datensatz ist eine Momentaufnahme der letzten erfolgreichen Referenzkursabfrage. Damit kann die App ohne Netzwerkverbindung umrechnen; die Werte werden jedoch nicht aktualisiert, solange das Gerät offline ist.</p>
+        <p>Prüfen Sie immer das angezeigte Kursdatum. Ein Ergebnis mit den Kursen von gestern kann für die Planung weiterhin nützlich sein, garantiert aber nicht den Kurs, den eine Bank, ein Kartenanbieter oder eine Wechselstube heute anbietet.</p>
       </article>
       <aside>
-        <h2>Was passiert, wenn das Internet zurückkehrt?</h2>
-        <p>Balkan Converter verwendet einen gemeinsam genutzten lokalen Rate-Cache für die normale Konvertierung und die Vorbereitung gespeicherter Sätze. Eine erfolgreiche Online-Aktualisierung ersetzt den älteren zwischengespeicherten Datensatz, aktualisiert sein Datum und spart Zeit.</p>
-        <p>Wenn die Aktualisierung fehlschlägt, greift die App auf die zuvor zwischengespeicherten Raten zurück, anstatt sie zu löschen.</p>
+        <h2>Was passiert, sobald wieder Internet verfügbar ist?</h2>
+        <p>Balkan Converter verwendet für normale Umrechnungen und die Vorbereitung gespeicherter Sets denselben lokalen Kursspeicher. Eine erfolgreiche Online-Aktualisierung ersetzt den älteren Datensatz und aktualisiert Kursdatum und Speicherzeitpunkt.</p>
+        <p>Wenn die Aktualisierung fehlschlägt, verwendet die App weiterhin die zuvor gespeicherten Kurse, statt sie zu löschen.</p>
       </aside>
     </section>
 
     <section class="calculator-explanation shell" aria-labelledby="prepare-title">
       <article>
-        <h2 id="prepare-title">Bereiten Sie einen gespeicherten Satz für die Offline-Verwendung vor</h2>
-        <p>Erstellen oder öffnen Sie in der Android-App einen gespeicherten Satz für die von Ihnen benötigten Währungen. Wählen Sie, während die Verbindung besteht <strong>Sparen Sie Preise offline</strong>. Die App aktualisiert den freigegebenen Kursdatensatz und bestätigt die Bereitschaft, wenn der gespeicherte Cache alle Währungen in diesem Satz enthält.</p>
-        <p>Es gibt keine separate Datei für eingefrorene Tarife für jede Reise. Durch das Vorbereiten eines weiteren Satzes wird derselbe Cache aktualisiert, der an anderer Stelle in der App verwendet wird.</p>
+        <h2 id="prepare-title">Gespeichertes Set für die Offline-Nutzung vorbereiten</h2>
+        <p>Erstellen oder öffnen Sie in der Android-App ein gespeichertes Set mit den benötigten Währungen. Wählen Sie bei bestehender Internetverbindung <strong>„Kurse offline speichern“</strong>. Die App aktualisiert den gemeinsamen Kursdatensatz und bestätigt die Offline-Bereitschaft, sobald der gespeicherte Satz alle enthaltenen Währungen umfasst.</p>
+        <p>Für einzelne Reisen gibt es keine separate, unveränderliche Kursdatei. Beim Vorbereiten eines weiteren Sets wird derselbe Kursspeicher aktualisiert, den auch die übrige App verwendet.</p>
       </article>
       <aside>
-        <h2>Nützlich über die Reise hinaus</h2>
-        <p>Die Offline-Konvertierung kann bei einer schlechten Verbindung, einer Roaming-Unterbrechung, einem vorübergehenden Dienstausfall oder in jeder Situation hilfreich sein, in der eine schnelle Referenzschätzung nützlicher ist als kein Ergebnis.</p>
-        <p data-i18n-rich="offline-related-tools">For quick access to the latest cached pair, see the <a class="text-link" data-i18n-slot="widget" href="/de/currency-converter-widget/">Android currency widget guide</a>. For online comparisons, use the <a class="text-link" data-i18n-slot="currency" href="/de/currency-converter/">Währungsrechner</a>, compare several results in the <a class="text-link" data-i18n-slot="multi" href="/de/multi-currency-converter/">Multi-Currency Converter</a>, or check a provider’s offer with the <a class="text-link" data-i18n-slot="markup" href="/de/exchange-rate-markup-calculator/">Exchange Rate Markup Calculator</a>.</p>
+        <h2>Auch außerhalb von Reisen nützlich</h2>
+        <p>Die Offline-Umrechnung kann bei einer schlechten Verbindung, einer Roaming-Unterbrechung, einem vorübergehenden Dienstausfall oder immer dann helfen, wenn eine schnelle Schätzung anhand eines Referenzkurses besser ist als gar kein Ergebnis.</p>
+        <p data-i18n-rich="offline-related-tools">Für den schnellen Blick auf ein gespeichertes Währungspaar nutzen Sie den <a class="text-link" data-i18n-slot="widget" href="/de/currency-converter-widget/">Widget-Leitfaden für Android</a>. Für Online-Umrechnungen öffnen Sie den <a class="text-link" data-i18n-slot="currency" href="/de/currency-converter/">Währungsrechner</a>, vergleichen einen Betrag in mehreren Währungen mit dem <a class="text-link" data-i18n-slot="multi" href="/de/multi-currency-converter/">Mehrwährungsrechner</a> oder prüfen ein Umtauschangebot mit dem <a class="text-link" data-i18n-slot="markup" href="/de/exchange-rate-markup-calculator/">Rechner für Wechselkursabweichungen</a>.</p>
       </aside>
     </section>
 
     <section class="cta-section shell calculator-cta" aria-labelledby="offline-cta-title">
-      <div><p class="eyebrow eyebrow-inverse">Halten Sie eine datierte Referenz bereit</p><h2 id="offline-cta-title">Verwenden Sie gespeicherte Tarife in Balkan Converter</h2><p>Die Android-App kann ihren letzten erfolgreichen Wechselkurs-Cache ohne Verbindung wiederverwenden und identifiziert zwischengespeicherte Daten und deren Kursdatum eindeutig.</p></div>
-      <a class="play-link play-link-on-dark offline-play-cta" href="https://play.google.com/store/apps/details?id=io.github.nstim605.balkanconverter" aria-label="Holen Sie sich Balkan Currency Converter auf Google Play"><img src="/assets/google-play-badge-en.png" width="202" height="60" alt="Holen Sie es sich unter Google Play"></a>
+      <div><p class="eyebrow eyebrow-inverse">Referenzkurs mit Datum griffbereit</p><h2 id="offline-cta-title">Gespeicherte Kurse in Balkan Converter verwenden</h2><p>Die Android-App kann den zuletzt erfolgreich gespeicherten Wechselkursdatensatz ohne Verbindung wiederverwenden und kennzeichnet gespeicherte Daten sowie deren Kursdatum deutlich.</p></div>
+      <a class="play-link play-link-on-dark offline-play-cta" href="https://play.google.com/store/apps/details?id=io.github.nstim605.balkanconverter" aria-label="Balkan Currency Converter bei Google Play herunterladen"><img src="/assets/google-play-badge-en.png" width="202" height="60" alt="Bei Google Play herunterladen"></a>
     </section>
   </main>
 
-  <footer class="site-footer"><div class="shell footer-grid"><div class="footer-brand"><img src="../../assets/icons/v1-5-11/app-icon-v1-5-11.png" width="44" height="44" alt=""><div><strong dir="ltr">Balkan Currency Converter</strong><span>Währungsumrechnung für Android</span></div></div><nav aria-label="Fußzeilennavigation"><a href="/de/">Zuhause</a><a href="/de/privacy-policy.html">Datenschutzrichtlinie</a><a href="https://play.google.com/store/apps/details?id=io.github.nstim605.balkanconverter">Google Play</a><button class="footer-link-button analytics-consent-settings" type="button">Analytics-Auswahlmöglichkeiten</button></nav><p>© 2026 Balkan Currency Converter</p></div></footer>
+  <footer class="site-footer"><div class="shell footer-grid"><div class="footer-brand"><img src="../../assets/icons/v1-5-11/app-icon-v1-5-11.png" width="44" height="44" alt=""><div><strong dir="ltr">Balkan Currency Converter</strong><span>Währungsumrechnung für Android</span></div></div><nav aria-label="Fußzeilennavigation"><a href="/de/">Startseite</a><a href="/de/privacy-policy.html">Datenschutzrichtlinie</a><a href="https://play.google.com/store/apps/details?id=io.github.nstim605.balkanconverter">Google Play</a><button class="footer-link-button analytics-consent-settings" type="button">Analyse-Einstellungen</button></nav><p>© 2026 Balkan Currency Converter</p></div></footer>
   <template id="analytics-consent-template">
     <div class="analytics-consent-copy">
       <strong id="analytics-consent-title">Optionale Analyse</strong>

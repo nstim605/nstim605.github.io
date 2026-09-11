@@ -71,6 +71,78 @@
       }
     }
   },
+  "de": {
+    "currency-related-tools": {
+      "message": "Verfolgen Sie die Entwicklung eines Währungspaars im {history}; vergleichen Sie einen Betrag in mehreren Währungen mit dem {multi}; prüfen Sie ein Umtauschangebot mit dem {markup}; oder vergleichen Sie Kartenzahlung, Bargeldabhebung und DCC im {foreignFee}.",
+      "links": {
+        "history": "Wechselkursverlauf",
+        "multi": "Mehrwährungsrechner",
+        "markup": "Rechner für Wechselkursabweichungen",
+        "foreignFee": "Fremdwährungsgebühren- und DCC-Rechner"
+      }
+    },
+    "markup-related-tools": {
+      "message": "Möchten Sie eine Kartenzahlung oder Bargeldabhebung mit einem Angebot zur Umrechnung in die Kartenwährung vergleichen? Nutzen Sie den {foreignFee}. Für die schnelle Umrechnung eines Währungspaars öffnen Sie den {currency}. Einen Betrag in mehreren Währungen vergleichen Sie mit dem {multi}; wie gespeicherte Kurse funktionieren, erklärt der {offline}.",
+      "links": {
+        "foreignFee": "Fremdwährungsgebühren- und DCC-Rechner",
+        "currency": "Währungsrechner",
+        "multi": "Mehrwährungsrechner",
+        "offline": "Leitfaden zur Offline-Umrechnung"
+      }
+    },
+    "multi-related-tools": {
+      "message": "Für ein einzelnes Währungspaar nutzen Sie den {currency}. Die Kursentwicklung sehen Sie im {history}; ein Umtauschangebot prüfen Sie mit dem {markup}; und wie Umrechnungen ohne Internet funktionieren, erklärt der {offline}.",
+      "links": {
+        "currency": "Währungsrechner",
+        "history": "Wechselkursverlauf",
+        "markup": "Rechner für Wechselkursabweichungen",
+        "offline": "Leitfaden zur Offline-Umrechnung"
+      }
+    },
+    "offline-related-tools": {
+      "message": "Für den schnellen Blick auf ein gespeichertes Währungspaar nutzen Sie den {widget}. Für Online-Umrechnungen öffnen Sie den {currency}, vergleichen einen Betrag in mehreren Währungen mit dem {multi} oder prüfen ein Umtauschangebot mit dem {markup}.",
+      "links": {
+        "widget": "Widget-Leitfaden für Android",
+        "currency": "Währungsrechner",
+        "multi": "Mehrwährungsrechner",
+        "markup": "Rechner für Wechselkursabweichungen"
+      }
+    },
+    "history-related-tools": {
+      "message": "Für eine Umrechnung zum neuesten verfügbaren Kurs nutzen Sie den {currency}. Um ein Umtauschangebot mit dem Ergebnis zum Referenzkurs zu vergleichen, öffnen Sie den {markup}.",
+      "links": {
+        "currency": "Währungsrechner",
+        "markup": "Rechner für Wechselkursabweichungen"
+      }
+    },
+    "widget-offline-guide": {
+      "message": "Ohne Internet bleibt der zuvor gespeicherte Referenzkurs für Schätzungen verfügbar; das Kursdatum zeigt, wie aktuell die Daten sind. Mehr dazu erfahren Sie im {offline}.",
+      "links": {
+        "offline": "Leitfaden zur Offline-Umrechnung"
+      }
+    },
+    "widget-more-tools": {
+      "message": "Öffnen Sie die App, um einen Betrag einzugeben, Währungen umzurechnen, den {history} anzusehen, mehrere Währungen zu vergleichen oder gespeicherte Kurse für die Offline-Nutzung vorzubereiten.",
+      "links": {
+        "history": "Wechselkursverlauf"
+      }
+    },
+    "foreign-related-tools": {
+      "message": "Wenn Sie lediglich ein Umtauschangebot mit dem Ergebnis zum Referenzkurs vergleichen möchten, nutzen Sie den {markup}. Für eine gewöhnliche Umrechnung zwischen zwei Währungen öffnen Sie den {currency}.",
+      "links": {
+        "markup": "Rechner für Wechselkursabweichungen",
+        "currency": "Währungsrechner"
+      }
+    },
+    "travel-related-tools": {
+      "message": "Vergleichen Sie einen Betrag in mehreren Währungen mit dem {multi}, rechnen Sie ein Währungspaar schnell im {currency} um oder erfahren Sie, wie die Android-App {offline} verwendet.",
+      "links": {
+        "multi": "Mehrwährungsrechner",
+        "currency": "Währungsrechner",
+        "offline": "gespeicherte Kurse ohne Internet"
+      }
+    }
+  },
   "hr": {
     "currency-related-tools": {
       "message": "Pogledajte kako se valutni par mijenjao u odjeljku {history}; usporedite jedan iznos u više valuta pomoću {multi}; provjerite ponudu mjenjačnice u {markup}; ili usporedite troškove plaćanja karticom, podizanja gotovine i DCC-a u {foreignFee}.",
