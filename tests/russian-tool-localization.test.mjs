@@ -61,6 +61,14 @@ test('all Russian tools contain reviewed terminology and no known broken machine
   assert.match(pages['foreign-transaction-fee-calculator'], /Ограничения расчёта/);
   assert.match(pages['offline-currency-converter'], /один общий локальный кэш/);
   assert.match(pages['currency-converter-widget'], /Курс нужной валютной пары — прямо на главном экране/);
+
+  const multiCurrency = pages['multi-currency-converter'];
+  assert.match(multiCurrency, /Одна сумма — несколько валют/);
+  assert.match(multiCurrency, /Пересчитывайте одну сумму сразу в несколько валют\. Это удобно, когда вы сравниваете цены в разных странах, планируете бюджет в нескольких валютах или собираетесь посетить несколько стран\./);
+  assert.match(multiCurrency, /Для расчёта используются справочные курсы\. Курс вашего банка или обменника может отличаться\./);
+  assert.doesNotMatch(multiCurrency, /Сравните несколько валют на одном экране/);
+  assert.doesNotMatch(multiCurrency, /Такой расчёт удобен для поездок по нескольким странам/);
+  assert.doesNotMatch(multiCurrency, /Курсы являются справочными значениями и могут отличаться от курса/);
 });
 
 test('Russian rich messages are complete sentences and retain locale-specific tool links', async () => {
