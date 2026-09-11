@@ -1,4 +1,21 @@
 {
+  "hr": {
+    "Android widget guide": "Vodič za Android widget",
+    "Card & DCC fee calculator": "Kalkulator naknada i DCC-a",
+    "Check an exchange-rate markup": "Provjerite razliku tečaja",
+    "Compare an exchange offer with the latest available reference rate and see the difference before you exchange.": "Usporedite ponudu mjenjačnice s posljednjim dostupnim referentnim tečajem i pogledajte razliku prije zamjene.",
+    "Currency Converter": "Pretvarač valuta",
+    "Exchange Rate History": "Povijest tečaja",
+    "Home": "Početna",
+    "Markup calculator": "Kalkulator razlike tečaja",
+    "Markup Calculator": "Kalkulator razlike tečaja",
+    "Multi-currency": "Više valuta",
+    "Multi-currency converter": "Viševalutni pretvarač",
+    "Multi-Currency Converter": "Viševalutni pretvarač",
+    "Multi-Currency Converter | Convert One Amount to Multiple Currencies": "Viševalutni pretvarač | Pretvorite jedan iznos u više valuta",
+    "Offline Currency Converter | How Saved Exchange Rates Work": "Pretvarač valuta bez interneta | Kako rade spremljeni tečajevi",
+    "offline currency converter guide": "vodič za pretvarač valuta bez interneta"
+  },
   "sr": {
     "Android widget guide": "Водич за Android виџет",
     "Card & DCC fee calculator": "Калкулатор провизија и DCC",

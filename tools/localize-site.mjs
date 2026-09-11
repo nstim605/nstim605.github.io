@@ -53,14 +53,16 @@ const toolCopyPayload = JSON.parse(await fs.readFile(path.join(root, 'tools', 't
 const toolCopyOverrides = JSON.parse(await fs.readFile(path.join(root, 'tools', 'tool-copy-overrides.json'), 'utf8'));
 const reviewedRussianToolCopy = JSON.parse(await fs.readFile(path.join(root, 'tools', 'tool-copy-reviewed-ru.json'), 'utf8'));
 const reviewedSerbianToolCopy = JSON.parse(await fs.readFile(path.join(root, 'tools', 'tool-copy-reviewed-sr.json'), 'utf8'));
+const reviewedCroatianToolCopy = JSON.parse(await fs.readFile(path.join(root, 'tools', 'tool-copy-reviewed-hr.json'), 'utf8'));
 const toolRichCopy = JSON.parse(await fs.readFile(path.join(root, 'tools', 'tool-rich-copy.json'), 'utf8'));
 const toolTerminologyReplacements = JSON.parse(await fs.readFile(path.join(root, 'tools', 'tool-terminology-replacements.json'), 'utf8'));
 const effectiveToolCopyOverrides = {
   ...toolCopyOverrides,
+  hr: { ...(toolCopyOverrides.hr ?? {}), ...reviewedCroatianToolCopy },
   sr: { ...(toolCopyOverrides.sr ?? {}), ...reviewedSerbianToolCopy },
   ru: { ...(toolCopyOverrides.ru ?? {}), ...reviewedRussianToolCopy }
 };
-const effectiveToolTerminologyReplacements = { ...toolTerminologyReplacements, sr: [] };
+const effectiveToolTerminologyReplacements = { ...toolTerminologyReplacements, hr: [], sr: [] };
 const legacyGooglePlayBadge = 'https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png';
 const localGooglePlayBadge = '/assets/google-play-badge-en.png';
 const toolSlugs = [
@@ -449,7 +451,7 @@ for (const locale of locales) {
     if (!rawToolMap) throw new Error(`${locale.web}: missing tool localization catalog`);
     // Serbian tool copy is deliberately scoped to the eight tool routes. The
     // homepage has its own approved localization and must not inherit tool QA edits.
-    const homeToolOverrides = locale.web === 'sr' ? toolCopyOverrides : effectiveToolCopyOverrides;
+    const homeToolOverrides = ['hr', 'sr'].includes(locale.web) ? toolCopyOverrides : effectiveToolCopyOverrides;
     const toolMap = resolveToolMessages(locale.web, rawToolMap, homeToolOverrides, toolTerminologyReplacements);
     home = applyMap(home, Object.fromEntries(Object.entries(toolMap).map(([key, value]) => [key, esc(value)])));
     home = localizeToolLinks(home, locale);

@@ -1,0 +1,41 @@
+{
+  "generatedAt": "2026-09-11T15:09:16.494Z",
+  "status": "PASS",
+  "layouts": {
+    "pages": 8,
+    "widths": [
+      320,
+      390,
+      1440
+    ],
+    "checks": 24
+  },
+  "navigation": {
+    "widths": [
+      320,
+      390,
+      1440
+    ],
+    "localeLinks": "PASS",
+    "lastArrowHidden": "PASS",
+    "intermediateArrowsVisible": "PASS"
+  },
+  "interactions": [
+    "currency",
+    "markup +5%",
+    "markup -5% core / higher-offer UI branch",
+    "multi-currency",
+    "history 30/90/365",
+    "foreign-fee/DCC",
+    "travel-budget"
+  ],
+  "localizedInput": [
+    "11 115",
+    "12 285",
+    "2,5",
+    "1 000",
+    "11,5"
+  ],
+  "networkFailure": "PASS",
+  "runtimeErrors": 0
+}

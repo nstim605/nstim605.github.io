@@ -1,4 +1,76 @@
 {
+  "hr": {
+    "currency-related-tools": {
+      "message": "Pogledajte kako se valutni par mijenjao u odjeljku {history}; usporedite jedan iznos u više valuta pomoću {multi}; provjerite ponudu mjenjačnice u {markup}; ili usporedite troškove plaćanja karticom, podizanja gotovine i DCC-a u {foreignFee}.",
+      "links": {
+        "history": "Povijest tečaja",
+        "multi": "Viševalutnog pretvarača",
+        "markup": "Kalkulatoru razlike tečaja",
+        "foreignFee": "Kalkulatoru naknada i DCC-a"
+      }
+    },
+    "markup-related-tools": {
+      "message": "Uspoređujete plaćanje karticom ili podizanje gotovine s ponuđenom konverzijom u valutu kartice? Koristite {foreignFee}. Za brz preračun valutnog para otvorite {currency}. Za usporedbu jednog iznosa u više valuta koristite {multi}, a o spremljenim podacima pročitajte u {offline}.",
+      "links": {
+        "foreignFee": "Kalkulator naknada i DCC-a",
+        "currency": "Pretvarač valuta",
+        "multi": "Viševalutni pretvarač",
+        "offline": "vodiču za preračun bez interneta"
+      }
+    },
+    "multi-related-tools": {
+      "message": "Za jedan valutni par koristite {currency}. Kretanje tečaja kroz vrijeme možete vidjeti u {history}, ponudu mjenjačnice provjeriti u {markup}, a način rada bez interneta saznati u {offline}.",
+      "links": {
+        "currency": "Pretvarač valuta",
+        "history": "Povijesti tečaja",
+        "markup": "Kalkulatoru razlike tečaja",
+        "offline": "vodiču za preračun bez interneta"
+      }
+    },
+    "offline-related-tools": {
+      "message": "Za brz pristup posljednjem spremljenom valutnom paru otvorite {widget}. Za mrežni preračun koristite {currency}, usporedite jedan iznos u više valuta u {multi} ili provjerite ponudu mjenjačnice u {markup}.",
+      "links": {
+        "widget": "vodič za Android widget",
+        "currency": "Pretvarač valuta",
+        "multi": "Viševalutnom pretvaraču",
+        "markup": "Kalkulatoru razlike tečaja"
+      }
+    },
+    "history-related-tools": {
+      "message": "Za preračun po posljednjem dostupnom tečaju koristite {currency}. Za usporedbu ponude mjenjačnice s referentnim rezultatom otvorite {markup}.",
+      "links": {
+        "currency": "Pretvarač valuta",
+        "markup": "Kalkulator razlike tečaja"
+      }
+    },
+    "widget-offline-guide": {
+      "message": "Bez interneta za približne izračune ostaje dostupan prethodni referentni tečaj, a datum pokazuje koliko su podaci svježi. Više o tome pročitajte u {offline}.",
+      "links": {
+        "offline": "vodiču za preračun bez interneta"
+      }
+    },
+    "widget-more-tools": {
+      "message": "Otvorite aplikaciju kako biste unijeli iznos, izvršili preračun, pogledali {history}, usporedili više valuta ili pripremili spremljene tečajeve za rad bez interneta.",
+      "links": {
+        "history": "grafikon tečaja"
+      }
+    },
+    "foreign-related-tools": {
+      "message": "Koristite {markup} ako želite samo usporediti ponudu mjenjačnice s referentnim rezultatom. Za običan preračun između dvije valute otvorite {currency}.",
+      "links": {
+        "markup": "Kalkulator razlike tečaja",
+        "currency": "Pretvarač valuta"
+      }
+    },
+    "travel-related-tools": {
+      "message": "Usporedite jedan iznos u više valuta pomoću {multi}, obavite brz preračun u {currency} ili saznajte kako Android aplikacija koristi {offline}.",
+      "links": {
+        "multi": "Viševalutnog pretvarača",
+        "currency": "Pretvaraču valuta",
+        "offline": "spremljene tečajeve bez interneta"
+      }
+    }
+  },
   "sr": {
     "currency-related-tools": {
       "message": "Погледајте како се валутни пар мењао у одељку {history}; упоредите један износ у више валута помоћу {multi}; проверите понуду мењачнице у {markup}; или упоредите трошкове плаћања картицом, подизања готовине и DCC-а у {foreignFee}.",
