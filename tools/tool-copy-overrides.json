@@ -1,9 +1,14 @@
 {
   "sr": {
+    "Android widget guide": "Водич за Android виџет",
+    "Card & DCC fee calculator": "Калкулатор провизија и DCC",
+    "Check an exchange-rate markup": "Проверите разлику курса",
+    "Compare an exchange offer with the latest available reference rate and see the difference before you exchange.": "Упоредите понуду мењачнице са последњим доступним референтним курсом и погледајте разлику пре размене.",
     "Currency Converter": "Конвертор валута",
+    "Exchange Rate History": "Историја курса",
     "Home": "Почетна",
-    "Markup calculator": "Калкулатор наценке",
-    "Markup Calculator": "Калкулатор наценке",
+    "Markup calculator": "Калкулатор разлике курса",
+    "Markup Calculator": "Калкулатор разлике курса",
     "Multi-currency": "Више валута",
     "Multi-currency converter": "Мултивалутни конвертор",
     "Multi-Currency Converter": "Мултивалутни конвертор",

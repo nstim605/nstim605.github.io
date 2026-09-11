@@ -5,8 +5,8 @@
     {
       "file": "tools/localize-site.mjs",
       "previousAcceptedSha256": "e48afce43f461b59313168609c45f286ee15a287131a7ff2e395bdefb9d034ae",
-      "acceptedSha256": "a39fc2a8fc296e5d73ed84701061cf2d30689aa6dc24d68d6e9f7cace7bae547",
-      "reason": "Extend the central site generator for reviewed Russian tool copy, localized form placeholders, and complete rich-text sentences with named link slots, while migrating only the broken Google Play badge URL on preserved policies; legal text and English calculator behavior remain unchanged."
+      "acceptedSha256": "45ac677dc033c380fe4c84892e08ee994df396e893819eac0faad7575fc264eb",
+      "reason": "Extend the central site generator with the reviewed Serbian tool-copy catalog while preserving the previously accepted Russian copy, localized rich-text link slots, Google Play badge migration, policy legal text, and English calculator behavior."
     },
     {
       "file": "tests/privacy-policy-phase1d.test.mjs",

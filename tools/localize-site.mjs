@@ -52,12 +52,15 @@ const policyTemplate = await fs.readFile(path.join(root, 'tools', 'templates', '
 const toolCopyPayload = JSON.parse(await fs.readFile(path.join(root, 'tools', 'tool-copy.json'), 'utf8'));
 const toolCopyOverrides = JSON.parse(await fs.readFile(path.join(root, 'tools', 'tool-copy-overrides.json'), 'utf8'));
 const reviewedRussianToolCopy = JSON.parse(await fs.readFile(path.join(root, 'tools', 'tool-copy-reviewed-ru.json'), 'utf8'));
+const reviewedSerbianToolCopy = JSON.parse(await fs.readFile(path.join(root, 'tools', 'tool-copy-reviewed-sr.json'), 'utf8'));
 const toolRichCopy = JSON.parse(await fs.readFile(path.join(root, 'tools', 'tool-rich-copy.json'), 'utf8'));
 const toolTerminologyReplacements = JSON.parse(await fs.readFile(path.join(root, 'tools', 'tool-terminology-replacements.json'), 'utf8'));
 const effectiveToolCopyOverrides = {
   ...toolCopyOverrides,
+  sr: { ...(toolCopyOverrides.sr ?? {}), ...reviewedSerbianToolCopy },
   ru: { ...(toolCopyOverrides.ru ?? {}), ...reviewedRussianToolCopy }
 };
+const effectiveToolTerminologyReplacements = { ...toolTerminologyReplacements, sr: [] };
 const legacyGooglePlayBadge = 'https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png';
 const localGooglePlayBadge = '/assets/google-play-badge-en.png';
 const toolSlugs = [
@@ -444,7 +447,10 @@ for (const locale of locales) {
   if (locale.android !== 'en') {
     const rawToolMap = toolCopyPayload.locales[locale.web];
     if (!rawToolMap) throw new Error(`${locale.web}: missing tool localization catalog`);
-    const toolMap = resolveToolMessages(locale.web, rawToolMap, effectiveToolCopyOverrides, toolTerminologyReplacements);
+    // Serbian tool copy is deliberately scoped to the eight tool routes. The
+    // homepage has its own approved localization and must not inherit tool QA edits.
+    const homeToolOverrides = locale.web === 'sr' ? toolCopyOverrides : effectiveToolCopyOverrides;
+    const toolMap = resolveToolMessages(locale.web, rawToolMap, homeToolOverrides, toolTerminologyReplacements);
     home = applyMap(home, Object.fromEntries(Object.entries(toolMap).map(([key, value]) => [key, esc(value)])));
     home = localizeToolLinks(home, locale);
   }
@@ -463,7 +469,7 @@ for (const locale of locales) {
   }
   if (!preserved.has(locale.android)) generated.push(locale.android);
   if (locale.android !== 'en') {
-    const rawMap = resolveToolMessages(locale.web, toolCopyPayload.locales[locale.web], effectiveToolCopyOverrides, toolTerminologyReplacements);
+    const rawMap = resolveToolMessages(locale.web, toolCopyPayload.locales[locale.web], effectiveToolCopyOverrides, effectiveToolTerminologyReplacements);
     for (const slug of toolSlugs) {
       const directory = path.join(root, locale.route, slug);
       await fs.mkdir(directory, { recursive: true });
