@@ -1,5 +1,6 @@
 import fs from 'node:fs/promises';
 import path from 'node:path';
+import { validateSitemapUrlSet } from './sitemap-validation.mjs';
 
 const root = path.resolve(import.meta.dirname, '..');
 const manifest = JSON.parse(await fs.readFile(path.join(root, 'site-locales.json'), 'utf8'));
@@ -91,32 +92,15 @@ for (const [full, html] of pages) {
 }
 
 const sitemap = await fs.readFile(path.join(root, 'sitemap.xml'), 'utf8');
-const blocks = [...sitemap.matchAll(/<url>([\s\S]*?)<\/url>/g)].map(match => match[1]);
-if (blocks.length !== 96) errors.push(`Sitemap URL count ${blocks.length}, expected 96`);
-const expectedUrls = manifest.locales.flatMap(locale => [locale.url, locale.privacyUrl]).map(url => `https://balkanconverter.com${url}`);
-for (const expected of expectedUrls) if (!sitemap.includes(`<loc>${expected}</loc>`)) errors.push(`Sitemap missing ${expected}`);
-const standaloneTools = [
-  '/currency-converter/',
-  '/exchange-rate-markup-calculator/',
-  '/multi-currency-converter/',
-  '/offline-currency-converter/',
-  '/exchange-rate-history/',
-  '/currency-converter-widget/',
-  '/foreign-transaction-fee-calculator/',
-  '/travel-budget-calculator/'
-];
-for (const block of blocks.filter(block => standaloneTools.every(tool => !block.includes(tool)))) {
-  if ((block.match(/<xhtml:link /g) ?? []).length !== 45) errors.push('Sitemap alternate count is not 45');
+const sitemapValidation = validateSitemapUrlSet(sitemap, manifest);
+const blocks = sitemapValidation.blocks;
+const expectedAlternateCount = expectedHreflangs.length + 1;
+errors.push(...sitemapValidation.errors);
+for (const block of blocks) {
+  const alternateCount = (block.match(/<xhtml:link /g) ?? []).length;
+  if (alternateCount !== expectedAlternateCount) errors.push(`Sitemap alternate count ${alternateCount}, expected ${expectedAlternateCount}`);
   for (const hreflang of [...expectedHreflangs, 'x-default']) if (!block.includes(`hreflang="${hreflang}"`)) errors.push(`Sitemap block missing ${hreflang}`);
 }
-if (!sitemap.includes('<loc>https://balkanconverter.com/exchange-rate-markup-calculator/</loc>')) errors.push('Sitemap missing exchange-rate markup calculator');
-if (!sitemap.includes('<loc>https://balkanconverter.com/currency-converter/</loc>')) errors.push('Sitemap missing currency converter');
-if (!sitemap.includes('<loc>https://balkanconverter.com/multi-currency-converter/</loc>')) errors.push('Sitemap missing multi-currency converter');
-if (!sitemap.includes('<loc>https://balkanconverter.com/offline-currency-converter/</loc>')) errors.push('Sitemap missing offline currency converter');
-if (!sitemap.includes('<loc>https://balkanconverter.com/exchange-rate-history/</loc>')) errors.push('Sitemap missing exchange-rate history');
-if (!sitemap.includes('<loc>https://balkanconverter.com/currency-converter-widget/</loc>')) errors.push('Sitemap missing currency converter widget guide');
-if (!sitemap.includes('<loc>https://balkanconverter.com/foreign-transaction-fee-calculator/</loc>')) errors.push('Sitemap missing foreign transaction fee calculator');
-if (!sitemap.includes('<loc>https://balkanconverter.com/travel-budget-calculator/</loc>')) errors.push('Sitemap missing travel budget calculator');
 
 const generator = await fs.readFile(path.join(root, 'tools', 'localize-site.mjs'), 'utf8');
 if (/fetch\s*\(|translate\.googleapis|translation endpoint/i.test(generator)) errors.push('Generator still contains network translation code');
@@ -126,4 +110,4 @@ if (errors.length) {
   process.exit(1);
 }
 for (const warning of warnings) console.warn(`WARN: ${warning}`);
-console.log(`PASS: Android production locales ${android.length}; website locales ${manifest.locales.length}; pages ${pages.size}; sitemap URLs ${blocks.length}; internal links and localized source strings checked.`);
+console.log(`PASS: Android production locales ${android.length}; website locales ${manifest.locales.length}; pages ${pages.size}; sitemap URLs expected/actual ${sitemapValidation.expectedUrls.length}/${sitemapValidation.actualUrls.length}; internal links and localized source strings checked.`);
