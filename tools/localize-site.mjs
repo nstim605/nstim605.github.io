@@ -54,15 +54,17 @@ const toolCopyOverrides = JSON.parse(await fs.readFile(path.join(root, 'tools', 
 const reviewedRussianToolCopy = JSON.parse(await fs.readFile(path.join(root, 'tools', 'tool-copy-reviewed-ru.json'), 'utf8'));
 const reviewedSerbianToolCopy = JSON.parse(await fs.readFile(path.join(root, 'tools', 'tool-copy-reviewed-sr.json'), 'utf8'));
 const reviewedCroatianToolCopy = JSON.parse(await fs.readFile(path.join(root, 'tools', 'tool-copy-reviewed-hr.json'), 'utf8'));
+const reviewedBosnianToolCopy = JSON.parse(await fs.readFile(path.join(root, 'tools', 'tool-copy-reviewed-bs.json'), 'utf8'));
 const toolRichCopy = JSON.parse(await fs.readFile(path.join(root, 'tools', 'tool-rich-copy.json'), 'utf8'));
 const toolTerminologyReplacements = JSON.parse(await fs.readFile(path.join(root, 'tools', 'tool-terminology-replacements.json'), 'utf8'));
 const effectiveToolCopyOverrides = {
   ...toolCopyOverrides,
+  bs: { ...(toolCopyOverrides.bs ?? {}), ...reviewedBosnianToolCopy },
   hr: { ...(toolCopyOverrides.hr ?? {}), ...reviewedCroatianToolCopy },
   sr: { ...(toolCopyOverrides.sr ?? {}), ...reviewedSerbianToolCopy },
   ru: { ...(toolCopyOverrides.ru ?? {}), ...reviewedRussianToolCopy }
 };
-const effectiveToolTerminologyReplacements = { ...toolTerminologyReplacements, hr: [], sr: [] };
+const effectiveToolTerminologyReplacements = { ...toolTerminologyReplacements, bs: [], hr: [], sr: [] };
 const legacyGooglePlayBadge = 'https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png';
 const localGooglePlayBadge = '/assets/google-play-badge-en.png';
 const toolSlugs = [

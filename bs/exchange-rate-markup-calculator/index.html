@@ -5,8 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#f7f8fa" media="(prefers-color-scheme: light)">
   <meta name="theme-color" content="#070a0f" media="(prefers-color-scheme: dark)">
-  <title>Kalkulator deviznog kursa | Balkan Currency Converter</title>
-  <meta name="description" content="Uporedite ponudu razmene sa najnovijim referentnim kursom. Izračunajte iznos koji primate, razliku i efektivnu kursnu maržu.">
+  <title>Kalkulator razlike kursa | Balkan Currency Converter</title>
+  <meta name="description" content="Uporedite ponudu mjenjačnice s najnovijim referentnim kursom. Izračunajte koliko ćete dobiti, kolika je razlika i procentualno odstupanje od referentnog rezultata.">
   <link rel="canonical" href="https://balkanconverter.com/bs/exchange-rate-markup-calculator/">
   <link rel="alternate" hreflang="en" href="https://balkanconverter.com/exchange-rate-markup-calculator/">
   <link rel="alternate" hreflang="sr" href="https://balkanconverter.com/sr/exchange-rate-markup-calculator/">
@@ -55,32 +55,32 @@
   <link rel="alternate" hreflang="x-default" href="https://balkanconverter.com/exchange-rate-markup-calculator/">
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="Balkan Currency Converter">
-  <meta property="og:title" content="Kalkulator kursne marže">
-  <meta property="og:description" content="Pogledajte koliko je ponuda razmjene udaljena od najnovijeg referentnog kursa.">
+  <meta property="og:title" content="Kalkulator razlike kursa">
+  <meta property="og:description" content="Pogledajte koliko ponuđeni iznos odstupa od najnovijeg referentnog kursa.">
   <meta property="og:url" content="https://balkanconverter.com/bs/exchange-rate-markup-calculator/">
   <meta property="og:image" content="https://balkanconverter.com/assets/og-v1-5-11.png">
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Kalkulator kursne marže">
-  <meta name="twitter:description" content="Uporedite ponudu razmene sa najnovijim referentnim kursom.">
+  <meta name="twitter:title" content="Kalkulator razlike kursa">
+  <meta name="twitter:description" content="Uporedite ponudu mjenjačnice s najnovijim referentnim kursom.">
   <meta name="twitter:image" content="https://balkanconverter.com/assets/og-v1-5-11.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/assets/icons/v1-5-11/favicon-32.png">
   <link rel="apple-touch-icon" sizes="180x180" href="/assets/icons/v1-5-11/apple-touch-icon-180.png">
   <link rel="manifest" href="../../site.webmanifest">
   <link rel="stylesheet" href="../../styles.css">
   <script type="application/ld+json">
-  {"@context":"https://schema.org","@type":"WebApplication","name":"Kalkulator kursne marže","url":"https://balkanconverter.com/bs/exchange-rate-markup-calculator/","applicationCategory":"FinanceApplication","operatingSystem":"Any","isAccessibleForFree":true,"description":"Uporedite ponudu razmene sa najnovijim referentnim kursom i izračunajte efektivnu maržu."}
+  {"@context":"https://schema.org","@type":"WebApplication","name":"Kalkulator razlike kursa","url":"https://balkanconverter.com/bs/exchange-rate-markup-calculator/","applicationCategory":"FinanceApplication","operatingSystem":"Any","isAccessibleForFree":true,"description":"Uporedite ponudu mjenjačnice s najnovijim referentnim kursom i izračunajte procentualno odstupanje."}
   </script>
 </head>
 <body>
   <a class="skip-link" href="#main">Preskočite na kalkulator</a>
   <header class="site-header">
     <div class="shell nav-wrap">
-      <a class="brand" href="/bs/" aria-label="Balkan Currency Converter home">
+      <a class="brand" href="/bs/" aria-label="Početna stranica Balkan Currency Convertera">
         <img src="../../assets/icons/v1-5-11/app-icon-v1-5-11.png" width="42" height="42" alt="">
         <span dir="ltr">Balkan Currency Converter</span>
       </a>
       <nav class="nav-links" aria-label="Glavna navigacija">
-        <a href="/bs/">Dom</a>
+        <a href="/bs/">Početna</a>
         <a href="/bs/privacy-policy.html">Privatnost</a>
       </nav>
       <div class="nav-actions">
@@ -142,12 +142,12 @@
   <main id="main" class="calculator-main">
     <section class="calculator-hero shell" aria-labelledby="calculator-title">
       <a class="back-link" href="/bs/"><span aria-hidden="true">←</span> Povratak na Balkan Currency Converter</a>
-      <p class="eyebrow"><span class="status-dot"></span> Besplatna valuta alat</p>
-      <h1 id="calculator-title">Kalkulator kursne marže</h1>
-      <p class="hero-lede">Uporedite iznos koji mjenjačnica nudi s najnovijom dostupnom referentnom stopom. Pogledajte razliku i efektivnu maržu prije zamjene.</p>
+      <p class="eyebrow"><span class="status-dot"></span> Besplatan valutni alat</p>
+      <h1 id="calculator-title">Kalkulator razlike kursa</h1>
+      <p class="hero-lede">Uporedite iznos koji nudi mjenjačnica s najnovijim dostupnim referentnim kursom. Prije zamjene pogledajte razliku i procentualno odstupanje.</p>
     </section>
 
-    <section class="calculator-layout shell" aria-label="Kalkulator maraka">
+    <section class="calculator-layout shell" aria-label="Kalkulator razlike kursa">
       <form class="calculator-card" id="markup-form" novalidate>
         <div class="field-grid">
           <label>Izvorna valuta
@@ -167,21 +167,21 @@
         </label>
         <label>Iznos koji vam se nudi
           <span class="input-hint">Šta biste dobili u ciljnoj valuti</span>
-          <input id="offered-amount" name="offered" inputmode="decimal" autocomplete="off" placeholder="Na primjer, 11.500" aria-describedby="calculator-status">
+          <input id="offered-amount" name="offered" inputmode="decimal" autocomplete="off" placeholder="Na primjer, 11 500" aria-describedby="calculator-status">
         </label>
-        <button class="primary-button" type="submit">Izračunajte maržu</button>
+        <button class="primary-button" type="submit">Izračunaj razliku</button>
         <p class="calculator-status" id="calculator-status" role="status" aria-live="polite">Unesite ponudu koju želite da uporedite.</p>
       </form>
 
       <section class="results-card" id="calculator-results" tabindex="-1" aria-labelledby="results-title" hidden>
         <p class="eyebrow">Vaše poređenje</p>
-        <h2 id="results-title">Rezultat ponude razmjene</h2>
+        <h2 id="results-title">Rezultat ponude mjenjačnice</h2>
         <dl class="result-list">
-          <div><dt>Referentna stopa</dt><dd data-result="referenceRate"></dd></div>
+          <div><dt>Referentni kurs</dt><dd data-result="referenceRate"></dd></div>
           <div><dt>Referentni rezultat</dt><dd data-result="referenceResult"></dd></div>
           <div><dt>Ponuđeni rezultat</dt><dd data-result="offeredResult"></dd></div>
           <div><dt data-label="difference">Manje primate</dt><dd data-result="difference"></dd></div>
-          <div class="result-emphasis"><dt data-label="percentage">Kursna marža</dt><dd data-result="percentage"></dd></div>
+          <div class="result-emphasis"><dt data-label="percentage">Razlika kursa</dt><dd data-result="percentage"></dd></div>
         </dl>
         <p class="result-summary"></p>
         <p class="result-date"></p>
@@ -191,22 +191,22 @@
     <section class="calculator-explanation shell" aria-labelledby="meaning-title">
       <article>
         <h2 id="meaning-title">Šta znači procenat</h2>
-        <p>Kalkulator prvo procjenjuje koliko bi najnovija referentna stopa proizvela. Zatim upoređuje taj iznos sa iznosom koji vam je ponuđen.</p>
-        <p>Provajder može reklamirati „bez provizije“ dok koristi manje povoljan kurs. Taj manjak je zapravo trošak skriven u stopi.</p>
-        <p><strong>Markup = (referentni rezultat − ponuđeni rezultat) ÷ referentni rezultat × 100.</strong></p>
+        <p>Kalkulator prvo procjenjuje iznos prema najnovijem referentnom kursu, a zatim ga poredi s ponuđenim iznosom.</p>
+        <p>Pružalac usluge može oglašavati ponudu „bez provizije“, a ipak koristiti nepovoljniji kurs. Ta razlika je zapravo trošak ugrađen u kurs.</p>
+        <p><strong>Razlika, % = (referentni rezultat − ponuđeni rezultat) ÷ referentni rezultat × 100.</strong></p>
       </article>
       <aside>
         <h2>Važno je znati</h2>
-        <p>Ovo je informativno poređenje, a ne finansijski savjet. Ponuda može uključivati ​​naknade za usluge, naknade za kartice, rukovanje gotovinom ili proviziju dobavljača. Referentne stope nisu zajamčene transakcijske stope.</p>
-        <p data-i18n-rich="markup-related-tools">Comparing a card or ATM transaction with an offered home-currency conversion? Use the <a class="text-link" data-i18n-slot="foreignFee" href="/bs/foreign-transaction-fee-calculator/">Foreign Transaction Fee &amp; DCC Calculator</a>. For a quick pair conversion, use the <a class="text-link" data-i18n-slot="currency" href="/bs/currency-converter/">Konverter valuta</a>. For several results at once, try the <a class="text-link" data-i18n-slot="multi" href="/bs/multi-currency-converter/">Multi-Currency Converter</a>, or learn how <a class="text-link" data-i18n-slot="offline" href="/bs/offline-currency-converter/">saved offline rates</a> work.</p>
+        <p>Ovo je informativno poređenje, a ne finansijski savjet. Ponuda može uključivati naknadu za uslugu, kartičnu naknadu, trošak obrade gotovine ili razliku koju zadržava pružalac usluge. Referentni kursevi nisu zagarantovani kursevi transakcije.</p>
+        <p data-i18n-rich="markup-related-tools">Poredite plaćanje karticom ili podizanje gotovine s ponuđenom konverzijom u valutu kartice? Koristite <a class="text-link" data-i18n-slot="foreignFee" href="/bs/foreign-transaction-fee-calculator/">Kalkulator naknada i DCC-a</a>. Za brzu konverziju valutnog para otvorite <a class="text-link" data-i18n-slot="currency" href="/bs/currency-converter/">Konverter valuta</a>. Za poređenje jednog iznosa u više valuta koristite <a class="text-link" data-i18n-slot="multi" href="/bs/multi-currency-converter/">Viševalutni konverter</a>, a o sačuvanim podacima pročitajte u <a class="text-link" data-i18n-slot="offline" href="/bs/offline-currency-converter/">vodiču za konverziju bez interneta</a>.</p>
       </aside>
     </section>
 
     <section class="cta-section shell calculator-cta" aria-labelledby="app-cta-title">
       <div>
         <p class="eyebrow eyebrow-inverse">Trebate ovo u pokretu?</p>
-        <h2 id="app-cta-title">Uporedite troškove u Balkan Converter</h2>
-        <p>Aplikacija Android dodaje stvarnu cijenu, vanmrežne cijene, Travel Board, sačuvane skupove, grafikone i widget za početni ekran.</p>
+        <h2 id="app-cta-title">Uporedite troškove u aplikaciji Balkan Converter</h2>
+        <p>Android aplikacija nudi Actual Cost, kurseve bez interneta, Travel Board, sačuvane skupove, grafikone i widget za početni ekran.</p>
       </div>
       <a class="play-link play-link-on-dark calculator-play-cta" href="https://play.google.com/store/apps/details?id=io.github.nstim605.balkanconverter" aria-label="Nabavite Balkan Currency Converter na Google Play">
         <img src="/assets/google-play-badge-en.png" width="202" height="60" alt="Nabavite ga na Google Play">
@@ -218,7 +218,7 @@
     <div class="shell footer-grid">
       <div class="footer-brand"><img src="../../assets/icons/v1-5-11/app-icon-v1-5-11.png" width="44" height="44" alt=""><div><strong dir="ltr">Balkan Currency Converter</strong><span>Konverzija valuta za Android</span></div></div>
       <nav aria-label="Navigacija u podnožju">
-        <a href="/bs/">Dom</a>
+        <a href="/bs/">Početna</a>
         <a href="/bs/privacy-policy.html">Politika privatnosti</a>
         <a href="https://play.google.com/store/apps/details?id=io.github.nstim605.balkanconverter">Google Play</a>
         <button class="footer-link-button analytics-consent-settings" type="button">Izbor analitike</button>
@@ -237,7 +237,7 @@
     </div>
   </template>
   <script src="../../script.js" defer></script>
-  <script id="tool-i18n" type="application/json">{"© 2026 Balkan Currency Converter":"© 2026 Balkan Currency Converter","A provider can advertise “no commission” while using a less favourable exchange rate. That shortfall is effectively a cost hidden in the rate.":"Provajder može reklamirati „bez provizije“ dok koristi manje povoljan kurs. Taj manjak je zapravo trošak skriven u stopi.","A reference rate is unavailable for this currency pair.":"Referentni kurs nije dostupan za ovaj valutni par.","Above reference by":"Iznad reference od strane","Accept analytics":"Prihvatite analitiku","Amount":"Iznos","Amount you are offered":"Iznos koji vam se nudi","Amount you give":"Iznos koji dajete","Amounts and rates must be positive numbers.":"Iznosi i stope moraju biti pozitivni brojevi.","Analytics choices":"Izbor analitike","Back to Balkan Currency Converter":"Povratak na Balkan Currency Converter","Balkan Currency Converter home":"Balkan Currency Converter home","Calculate markup":"Izračunajte maržu","Calculation updated from the latest available reference rates.":"Izračun ažuriran na osnovu najnovijih dostupnih referentnih stopa.","Choose two different currencies.":"Odaberite dvije različite valute.","Compare an exchange offer with the latest reference rate and calculate the effective markup.":"Uporedite ponudu razmene sa najnovijim referentnim kursom i izračunajte efektivnu maržu.","Compare an exchange offer with the latest reference rate.":"Uporedite ponudu razmene sa najnovijim referentnim kursom.","Compare an exchange offer with the latest reference rate. Calculate the amount you receive, the difference, and the effective exchange-rate markup.":"Uporedite ponudu razmene sa najnovijim referentnim kursom. Izračunajte iznos koji primate, razliku i efektivnu kursnu maržu.","Compare costs in Balkan Converter":"Uporedite troškove u Balkan Converter","Compare the amount an exchange service offers with the latest available reference rate. See the difference and the effective markup before you exchange.":"Uporedite iznos koji mjenjačnica nudi s najnovijom dostupnom referentnom stopom. Pogledajte razliku i efektivnu maržu prije zamjene.","Currency conversion for Android":"Konverzija valuta za Android","Currency Converter":"Konverter valuta","Date":"Datum","Enter the offer you want to compare.":"Unesite ponudu koju želite da uporedite.","Enter two amounts greater than zero.":"Unesite dva iznosa veća od nule.","EUR — Euro":"EUR — Euro","Exchange offer result":"Rezultat ponude razmjene","Exchange Rate Markup Calculator":"Kalkulator kursne marže","Exchange Rate Markup Calculator | Balkan Currency Converter":"Kalkulator deviznog kursa | Balkan Currency Converter","Exchange-rate markup":"Kursna marža","Fetching the latest reference rates…":"Preuzimanje najnovijih referentnih stopa…","Footer navigation":"Navigacija u podnožju","For example, 11,500":"Na primjer, 11.500","Free currency tool":"Besplatna valuta alat","Get Balkan Currency Converter on Google Play":"Nabavite Balkan Currency Converter na Google Play","Get it on Google Play":"Nabavite ga na Google Play","Help us understand site usage. Firebase Analytics stays off unless you accept.":"Pomozite nam da razumijemo upotrebu stranice. Firebase Analytics ostaje isključen osim ako ne prihvatite.","Home":"Dom","Important to know":"Važno je znati","In the source currency":"U izvornoj valuti","Learn more":"Saznajte više","Loading latest rates…":"Učitavanje najnovijih cijena…","Main navigation":"Glavna navigacija","Markup = (reference result − offered result) ÷ reference result × 100.":"Markup = (referentni rezultat − ponuđeni rezultat) ÷ referentni rezultat × 100.","Markup calculator":"Kalkulator maraka","Markup Calculator":"Kalkulator marže","Need this on the go?":"Trebate ovo u pokretu?","No reference rates were returned.":"Referentne stope nisu vraćene.","Offered result":"Ponuđeni rezultat","Optional":"Opciono","Optional analytics":"Opciona analitika","Privacy":"Privatnost","Privacy Policy":"Politika privatnosti","Rate":"Rate","Rates could not be loaded. Check your connection and try again.":"Cijene se ne mogu učitati. Provjerite vezu i pokušajte ponovo.","Reference rate":"Referentna stopa","Reference rates dated {date}.":"Referentne stope od {date}.","Reference result":"Referentni rezultat","Reference-rate data is incomplete.":"Podaci o referentnoj stopi su nepotpuni.","Reject analytics":"Odbaciti analitiku","Result":"Rezultat","RSD — Serbian Dinar":"RSD — Srpski dinar","See how far an exchange offer is from the latest reference rate.":"Pogledajte koliko je ponuda razmjene udaljena od najnovijeg referentnog kursa.","Skip to calculator":"Preskočite na kalkulator","Source currency":"Izvorna valuta","Switch color theme":"Promijenite temu boja","Switch to dark theme":"Prebacite se na tamnu temu","Switch to light theme":"Prebacite se na svijetlu temu","Target currency":"Ciljna valuta","The Android app adds Actual Cost, offline rates, Travel Board, saved sets, charts, and a home-screen widget.":"Aplikacija Android dodaje stvarnu cijenu, vanmrežne cijene, Travel Board, sačuvane skupove, grafikone i widget za početni ekran.","The calculator first estimates how much the latest reference rate would produce. It then compares that amount with the amount you were offered.":"Kalkulator prvo procjenjuje koliko bi najnovija referentna stopa proizvela. Zatim upoređuje taj iznos sa iznosom koji vam je ponuđen.","The offer is {percentage} above the reference result.":"Ponuda je {percentage} iznad referentnog rezultata.","The offer is {percentage} below the reference result.":"Ponuda je {percentage} ispod referentnog rezultata.","This is an informational comparison, not financial advice. An offer may include service fees, card charges, cash handling, or a provider’s spread. Reference rates are not guaranteed transaction rates.":"Ovo je informativno poređenje, a ne finansijski savjet. Ponuda može uključivati ​​naknade za usluge, naknade za kartice, rukovanje gotovinom ili proviziju dobavljača. Referentne stope nisu zajamčene transakcijske stope.","What the percentage means":"Šta znači procenat","What you would receive in the target currency":"Šta biste dobili u ciljnoj valuti","You receive less by":"Manje primate","You receive more by":"Više primate","Your comparison":"Vaše poređenje"}</script>
+  <script id="tool-i18n" type="application/json">{"© 2026 Balkan Currency Converter":"© 2026 Balkan Currency Converter","A provider can advertise “no commission” while using a less favourable exchange rate. That shortfall is effectively a cost hidden in the rate.":"Pružalac usluge može oglašavati ponudu „bez provizije“, a ipak koristiti nepovoljniji kurs. Ta razlika je zapravo trošak ugrađen u kurs.","A reference rate is unavailable for this currency pair.":"Referentni kurs nije dostupan za ovaj valutni par.","Above reference by":"Iznad referentnog rezultata za","Accept analytics":"Prihvatite analitiku","Amount":"Iznos","Amount you are offered":"Iznos koji vam se nudi","Amount you give":"Iznos koji dajete","Amounts and rates must be positive numbers.":"Iznosi i kursevi moraju biti pozitivni brojevi.","Analytics choices":"Izbor analitike","Back to Balkan Currency Converter":"Povratak na Balkan Currency Converter","Balkan Currency Converter home":"Početna stranica Balkan Currency Convertera","Calculate markup":"Izračunaj razliku","Calculation updated from the latest available reference rates.":"Izračun je ažuriran prema najnovijim dostupnim referentnim kursevima.","Choose two different currencies.":"Odaberite dvije različite valute.","Compare an exchange offer with the latest reference rate and calculate the effective markup.":"Uporedite ponudu mjenjačnice s najnovijim referentnim kursom i izračunajte procentualno odstupanje.","Compare an exchange offer with the latest reference rate.":"Uporedite ponudu mjenjačnice s najnovijim referentnim kursom.","Compare an exchange offer with the latest reference rate. Calculate the amount you receive, the difference, and the effective exchange-rate markup.":"Uporedite ponudu mjenjačnice s najnovijim referentnim kursom. Izračunajte koliko ćete dobiti, kolika je razlika i procentualno odstupanje od referentnog rezultata.","Compare costs in Balkan Converter":"Uporedite troškove u aplikaciji Balkan Converter","Compare the amount an exchange service offers with the latest available reference rate. See the difference and the effective markup before you exchange.":"Uporedite iznos koji nudi mjenjačnica s najnovijim dostupnim referentnim kursom. Prije zamjene pogledajte razliku i procentualno odstupanje.","Currency conversion for Android":"Konverzija valuta za Android","Currency Converter":"Konverter valuta","Date":"Datum","Enter the offer you want to compare.":"Unesite ponudu koju želite da uporedite.","Enter two amounts greater than zero.":"Unesite dva iznosa veća od nule.","EUR — Euro":"EUR — Euro","Exchange offer result":"Rezultat ponude mjenjačnice","Exchange Rate Markup Calculator":"Kalkulator razlike kursa","Exchange Rate Markup Calculator | Balkan Currency Converter":"Kalkulator razlike kursa | Balkan Currency Converter","Exchange-rate markup":"Razlika kursa","Fetching the latest reference rates…":"Učitavanje najnovijih referentnih kurseva…","Footer navigation":"Navigacija u podnožju","For example, 11,500":"Na primjer, 11 500","Free currency tool":"Besplatan valutni alat","Get Balkan Currency Converter on Google Play":"Nabavite Balkan Currency Converter na Google Play","Get it on Google Play":"Nabavite ga na Google Play","Help us understand site usage. Firebase Analytics stays off unless you accept.":"Pomozite nam da razumijemo upotrebu stranice. Firebase Analytics ostaje isključen osim ako ne prihvatite.","Home":"Početna","Important to know":"Važno je znati","In the source currency":"U izvornoj valuti","Learn more":"Saznajte više","Loading latest rates…":"Učitavanje najnovijih kurseva…","Main navigation":"Glavna navigacija","Markup = (reference result − offered result) ÷ reference result × 100.":"Razlika, % = (referentni rezultat − ponuđeni rezultat) ÷ referentni rezultat × 100.","Markup calculator":"Kalkulator razlike kursa","Markup Calculator":"Kalkulator razlike kursa","Need this on the go?":"Trebate ovo u pokretu?","No reference rates were returned.":"Nisu vraćeni referentni kursevi.","Offered result":"Ponuđeni rezultat","Optional":"Neobavezno","Optional analytics":"Neobavezna analitika","Privacy":"Privatnost","Privacy Policy":"Politika privatnosti","Rate":"Kurs","Rates could not be loaded. Check your connection and try again.":"Kurseve nije moguće učitati. Provjerite internetsku vezu i pokušajte ponovo.","Reference rate":"Referentni kurs","Reference rates dated {date}.":"Referentni kursevi za {date}.","Reference result":"Referentni rezultat","Reference-rate data is incomplete.":"Podaci o referentnom kursu nisu potpuni.","Reject analytics":"Odbij analitiku","Result":"Rezultat","RSD — Serbian Dinar":"RSD — Srpski dinar","See how far an exchange offer is from the latest reference rate.":"Pogledajte koliko ponuđeni iznos odstupa od najnovijeg referentnog kursa.","Skip to calculator":"Preskočite na kalkulator","Source currency":"Izvorna valuta","Switch color theme":"Promijenite temu boja","Switch to dark theme":"Prebacite se na tamnu temu","Switch to light theme":"Prebacite se na svijetlu temu","Target currency":"Ciljna valuta","The Android app adds Actual Cost, offline rates, Travel Board, saved sets, charts, and a home-screen widget.":"Android aplikacija nudi Actual Cost, kurseve bez interneta, Travel Board, sačuvane skupove, grafikone i widget za početni ekran.","The calculator first estimates how much the latest reference rate would produce. It then compares that amount with the amount you were offered.":"Kalkulator prvo procjenjuje iznos prema najnovijem referentnom kursu, a zatim ga poredi s ponuđenim iznosom.","The offer is {percentage} above the reference result.":"Ponuda je {percentage} iznad referentnog rezultata.","The offer is {percentage} below the reference result.":"Ponuda je {percentage} ispod referentnog rezultata.","This is an informational comparison, not financial advice. An offer may include service fees, card charges, cash handling, or a provider’s spread. Reference rates are not guaranteed transaction rates.":"Ovo je informativno poređenje, a ne finansijski savjet. Ponuda može uključivati naknadu za uslugu, kartičnu naknadu, trošak obrade gotovine ili razliku koju zadržava pružalac usluge. Referentni kursevi nisu zagarantovani kursevi transakcije.","What the percentage means":"Šta znači procenat","What you would receive in the target currency":"Šta biste dobili u ciljnoj valuti","You receive less by":"Manje primate","You receive more by":"Više primate","Your comparison":"Vaše poređenje"}</script>
   <script type="module" src="../../exchange-rate-markup-calculator/calculator.js"></script>
 </body>
 </html>

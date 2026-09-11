@@ -5,8 +5,8 @@
     {
       "file": "tools/localize-site.mjs",
       "previousAcceptedSha256": "e48afce43f461b59313168609c45f286ee15a287131a7ff2e395bdefb9d034ae",
-      "acceptedSha256": "8c78b5b2093cc3d8153135f4fe236e9e60b02d4ce50feb0dc3200a28a7d8b67f",
-      "reason": "Extend the central site generator with the reviewed Croatian tool-copy catalog while preserving the previously accepted Russian and Serbian copy, localized rich-text link slots, Google Play badge migration, policy legal text, and English calculator behavior."
+      "acceptedSha256": "7c138eb57a8b5406d8c60c4f18e870e43312e0a7871cf951f6c43dcf6fd3880e",
+      "reason": "Extend the central site generator with the reviewed Bosnian tool-copy catalog while preserving the previously accepted Russian, Serbian, and Croatian copy, localized rich-text link slots, Google Play badge migration, policy legal text, and English calculator behavior."
     },
     {
       "file": "tests/privacy-policy-phase1d.test.mjs",
