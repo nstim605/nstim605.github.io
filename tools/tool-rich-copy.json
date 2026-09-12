@@ -769,6 +769,44 @@
       "links": { "multi": "prevodníka viacerých mien", "currency": "prevodníku mien", "offline": "kurzy uložené na použitie offline" }
     }
   },
+  "sl": {
+    "currency-related-tools": {
+      "message": "Spremljajte gibanje valutnega para v {history}, primerjajte en znesek v več valutah s {multi}, ocenite menjalno ponudbo s {markup} ali primerjajte stroške plačila s kartico, dviga gotovine in DCC s {foreignFee}.",
+      "links": { "history": "zgodovini tečajev", "multi": "pretvornikom več valut", "markup": "kalkulatorjem tečajne razlike", "foreignFee": "kalkulatorjem provizij in DCC" }
+    },
+    "markup-related-tools": {
+      "message": "Primerjate plačilo s kartico ali dvig gotovine s pretvorbo, ponujeno v valuti kartice? Uporabite {foreignFee}. Za hiter preračun valutnega para odprite {currency}. Če želite en znesek primerjati v več valutah, uporabite {multi}; {offline} pojasnjuje delovanje shranjenih tečajev.",
+      "links": { "foreignFee": "kalkulator provizij in DCC", "currency": "pretvornik valut", "multi": "pretvornik več valut", "offline": "vodnik za pretvarjanje brez povezave" }
+    },
+    "multi-related-tools": {
+      "message": "Za en valutni par uporabite {currency}. Njegovo gibanje si oglejte v {history}, ponudbo menjalnice ocenite s {markup}, delovanje brez interneta pa pojasnjuje {offline}.",
+      "links": { "currency": "pretvornik valut", "history": "zgodovini tečajev", "markup": "kalkulatorjem tečajne razlike", "offline": "vodnik za pretvarjanje brez povezave" }
+    },
+    "offline-related-tools": {
+      "message": "Za hiter dostop do shranjenega valutnega para si oglejte {widget}. Za spletni preračun odprite {currency}, en znesek primerjajte v več valutah s {multi} ali ocenite menjalno ponudbo s {markup}.",
+      "links": { "widget": "vodnik za Androidov pripomoček", "currency": "pretvornik valut", "multi": "pretvornikom več valut", "markup": "kalkulatorjem tečajne razlike" }
+    },
+    "history-related-tools": {
+      "message": "Za preračun po najnovejšem razpoložljivem tečaju uporabite {currency}. Če želite menjalno ponudbo primerjati z rezultatom po referenčnem tečaju, odprite {markup}.",
+      "links": { "currency": "pretvornik valut", "markup": "kalkulator tečajne razlike" }
+    },
+    "widget-offline-guide": {
+      "message": "Brez interneta lahko za oceno še vedno uporabite zadnji shranjeni referenčni tečaj, prikazani datum pa pove starost podatkov. Več preberite v {offline}.",
+      "links": { "offline": "vodniku za pretvarjanje brez povezave" }
+    },
+    "widget-more-tools": {
+      "message": "Odprite aplikacijo, če želite vnesti znesek, pretvarjati valute, prikazati {history}, primerjati več valut ali shraniti tečaje za uporabo brez povezave.",
+      "links": { "history": "zgodovino tečajev" }
+    },
+    "foreign-related-tools": {
+      "message": "Če želite le primerjati ponudbo menjalnice z rezultatom po referenčnem tečaju, uporabite {markup}. Za običajen preračun med dvema valutama odprite {currency}.",
+      "links": { "markup": "kalkulator tečajne razlike", "currency": "pretvornik valut" }
+    },
+    "travel-related-tools": {
+      "message": "En znesek primerjajte v več valutah s {multi}, opravite hiter preračun s {currency} ali preverite, kako aplikacija za Android uporablja {offline}.",
+      "links": { "multi": "pretvornikom več valut", "currency": "pretvornikom valut", "offline": "tečaje, shranjene za uporabo brez povezave" }
+    }
+  },
   "cs": {
     "currency-related-tools": {
       "message": "Sledujte vývoj měnového páru v {history}, porovnejte jednu částku v několika měnách pomocí {multi}, zhodnoťte směnnou nabídku v {markup} nebo porovnejte náklady na platbu kartou, výběr hotovosti a DCC v {foreignFee}.",
