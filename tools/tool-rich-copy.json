@@ -731,6 +731,44 @@
       "links": { "multi": "többpénznemes átváltóval", "currency": "valutaátváltóval", "offline": "offline használatra mentett árfolyamokat" }
     }
   },
+  "cs": {
+    "currency-related-tools": {
+      "message": "Sledujte vývoj měnového páru v {history}, porovnejte jednu částku v několika měnách pomocí {multi}, zhodnoťte směnnou nabídku v {markup} nebo porovnejte náklady na platbu kartou, výběr hotovosti a DCC v {foreignFee}.",
+      "links": { "history": "historii kurzů", "multi": "převodníku více měn", "markup": "kalkulačce kurzové odchylky", "foreignFee": "kalkulačce poplatků a DCC" }
+    },
+    "markup-related-tools": {
+      "message": "Porovnáváte platbu kartou nebo výběr hotovosti s převodem nabídnutým v měně karty? Použijte {foreignFee}. Pro rychlý převod měnového páru otevřete {currency}. Chcete-li porovnat jednu částku v několika měnách, použijte {multi}; {offline} vysvětluje, jak fungují uložené kurzy.",
+      "links": { "foreignFee": "kalkulačku poplatků a DCC", "currency": "převodník měn", "multi": "převodník více měn", "offline": "průvodce převodem offline" }
+    },
+    "multi-related-tools": {
+      "message": "Pro jeden měnový pár použijte {currency}. Jeho vývoj zobrazíte v {history}, nabídku směnárny zhodnotíte v {markup} a fungování bez internetu popisuje {offline}.",
+      "links": { "currency": "převodník měn", "history": "historii kurzů", "markup": "kalkulačka kurzové odchylky", "offline": "průvodce převodem offline" }
+    },
+    "offline-related-tools": {
+      "message": "Pro rychlý přístup k uloženému měnovému páru si přečtěte {widget}. Pro převod online otevřete {currency}, porovnejte jednu částku v několika měnách pomocí {multi} nebo zhodnoťte nabídku v {markup}.",
+      "links": { "widget": "průvodce widgetem pro Android", "currency": "převodník měn", "multi": "převodníku více měn", "markup": "kalkulačce kurzové odchylky" }
+    },
+    "history-related-tools": {
+      "message": "Pro převod podle nejnovějšího dostupného kurzu použijte {currency}. Chcete-li porovnat nabídku směnárny s výsledkem podle referenčního kurzu, otevřete {markup}.",
+      "links": { "currency": "převodník měn", "markup": "kalkulačku kurzové odchylky" }
+    },
+    "widget-offline-guide": {
+      "message": "Bez internetu lze poslední uložený referenční kurz stále použít k odhadu a datum ukazuje stáří dat. Více najdete v {offline}.",
+      "links": { "offline": "průvodci převodem offline" }
+    },
+    "widget-more-tools": {
+      "message": "Otevřete aplikaci, chcete-li zadat částku, převádět měny, zobrazit {history}, porovnat několik měn nebo uložit kurzy pro použití offline.",
+      "links": { "history": "historii kurzů" }
+    },
+    "foreign-related-tools": {
+      "message": "Pokud chcete pouze porovnat nabídku směnárny s výsledkem podle referenčního kurzu, použijte {markup}. Pro běžný převod mezi dvěma měnami otevřete {currency}.",
+      "links": { "markup": "kalkulačku kurzové odchylky", "currency": "převodník měn" }
+    },
+    "travel-related-tools": {
+      "message": "Porovnejte jednu částku v několika měnách pomocí {multi}, proveďte rychlý převod v {currency} nebo zjistěte, jak aplikace pro Android používá {offline}.",
+      "links": { "multi": "převodníku více měn", "currency": "převodníku měn", "offline": "kurzy uložené pro použití offline" }
+    }
+  },
   "pl": {
     "currency-related-tools": {
       "message": "Śledź zmiany pary walutowej w {history}, porównaj jedną kwotę w kilku walutach za pomocą {multi}, oceń ofertę wymiany w {markup} albo porównaj koszty płatności kartą, wypłaty gotówki i DCC w {foreignFee}.",
