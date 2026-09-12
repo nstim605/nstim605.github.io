@@ -5,8 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#f7f8fa" media="(prefers-color-scheme: light)">
   <meta name="theme-color" content="#070a0f" media="(prefers-color-scheme: dark)">
-  <title>匯率加價計算器 | Balkan Currency Converter</title>
-  <meta name="description" content="將兌換報價與最新參考匯率進行比較。計算您收到的金額、差額和有效匯率加價。">
+  <title>匯率差額計算器 | Balkan Currency Converter</title>
+  <meta name="description" content="將兌換報價與最新參考匯率比較。計算實收金額、絕對差額和百分比差額。">
   <link rel="canonical" href="https://balkanconverter.com/zh-hant/exchange-rate-markup-calculator/">
   <link rel="alternate" hreflang="en" href="https://balkanconverter.com/exchange-rate-markup-calculator/">
   <link rel="alternate" hreflang="sr" href="https://balkanconverter.com/sr/exchange-rate-markup-calculator/">
@@ -55,12 +55,12 @@
   <link rel="alternate" hreflang="x-default" href="https://balkanconverter.com/exchange-rate-markup-calculator/">
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="Balkan Currency Converter">
-  <meta property="og:title" content="匯率加價計算器">
+  <meta property="og:title" content="匯率差額計算器">
   <meta property="og:description" content="查看兌換報價與最新參考匯率的差距。">
   <meta property="og:url" content="https://balkanconverter.com/zh-hant/exchange-rate-markup-calculator/">
   <meta property="og:image" content="https://balkanconverter.com/assets/og-v1-5-11.png">
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="匯率加價計算器">
+  <meta name="twitter:title" content="匯率差額計算器">
   <meta name="twitter:description" content="將兌換報價與最新參考匯率進行比較。">
   <meta name="twitter:image" content="https://balkanconverter.com/assets/og-v1-5-11.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/assets/icons/v1-5-11/favicon-32.png">
@@ -68,7 +68,7 @@
   <link rel="manifest" href="../../site.webmanifest">
   <link rel="stylesheet" href="../../styles.css">
   <script type="application/ld+json">
-  {"@context":"https://schema.org","@type":"WebApplication","name":"匯率加價計算器","url":"https://balkanconverter.com/zh-hant/exchange-rate-markup-calculator/","applicationCategory":"FinanceApplication","operatingSystem":"Any","isAccessibleForFree":true,"description":"將兌換報價與最新參考匯率進行比較並計算有效加價。"}
+  {"@context":"https://schema.org","@type":"WebApplication","name":"匯率差額計算器","url":"https://balkanconverter.com/zh-hant/exchange-rate-markup-calculator/","applicationCategory":"FinanceApplication","operatingSystem":"Any","isAccessibleForFree":true,"description":"將兌換報價與最新參考匯率比較，並計算實際差額。"}
   </script>
 </head>
 <body>
@@ -143,11 +143,11 @@
     <section class="calculator-hero shell" aria-labelledby="calculator-title">
       <a class="back-link" href="/zh-hant/"><span aria-hidden="true">←</span> 返回Balkan Currency Converter</a>
       <p class="eyebrow"><span class="status-dot"></span> 免費貨幣工具</p>
-      <h1 id="calculator-title">匯率加價計算器</h1>
-      <p class="hero-lede">將兌換服務提供的金額與最新的可用參考匯率進行比較。在兌換前查看差異和有效加價。</p>
+      <h1 id="calculator-title">匯率差額計算器</h1>
+      <p class="hero-lede">將兌換服務提供的金額與最新可用參考匯率比較，並在兌換前查看實際差額。</p>
     </section>
 
-    <section class="calculator-layout shell" aria-label="加價計算器">
+    <section class="calculator-layout shell" aria-label="匯率差額計算器">
       <form class="calculator-card" id="markup-form" novalidate>
         <div class="field-grid">
           <label>來源貨幣
@@ -169,7 +169,7 @@
           <span class="input-hint">您將收到的目標貨幣金額</span>
           <input id="offered-amount" name="offered" inputmode="decimal" autocomplete="off" placeholder="例如，11,500" aria-describedby="calculator-status">
         </label>
-        <button class="primary-button" type="submit">計算加價</button>
+        <button class="primary-button" type="submit">計算差額</button>
         <p class="calculator-status" id="calculator-status" role="status" aria-live="polite">輸入您要比較的報價。</p>
       </form>
 
@@ -177,11 +177,11 @@
         <p class="eyebrow">您的比較</p>
         <h2 id="results-title">交換報價結果</h2>
         <dl class="result-list">
-          <div><dt>參考費率</dt><dd data-result="referenceRate"></dd></div>
+          <div><dt>參考匯率</dt><dd data-result="referenceRate"></dd></div>
           <div><dt>參考結果</dt><dd data-result="referenceResult"></dd></div>
           <div><dt>提供的結果</dt><dd data-result="offeredResult"></dd></div>
           <div><dt data-label="difference">您收到的金額減少了</dt><dd data-result="difference"></dd></div>
-          <div class="result-emphasis"><dt data-label="percentage">匯率加成</dt><dd data-result="percentage"></dd></div>
+          <div class="result-emphasis"><dt data-label="percentage">匯率差額</dt><dd data-result="percentage"></dd></div>
         </dl>
         <p class="result-summary"></p>
         <p class="result-date"></p>
@@ -191,14 +191,14 @@
     <section class="calculator-explanation shell" aria-labelledby="meaning-title">
       <article>
         <h2 id="meaning-title">百分比是什麼意思</h2>
-        <p>計算器首先估計最新的參考利率會產生多少。然後，它將該金額與您獲得的金額進行比較。</p>
+        <p>計算器先按最新參考匯率估算應得金額，再與兌換報價比較。</p>
         <p>提供者可以在使用不太有利的匯率的同時宣傳「無佣金」。這種短缺實際上是隱藏在利率中的成本。</p>
-        <p><strong>加價=（參考結果-提供的結果）÷參考結果×100。</strong></p>
+        <p><strong>差額百分比 =（參考結果 − 報價結果）÷ 參考結果 × 100。</strong></p>
       </article>
       <aside>
         <h2>重要的是要知道</h2>
-        <p>這是資訊比較，而不是財務建議。報價可能包括服務費、卡費、現金處理或提供者的點差。參考利率不保證交易利率。</p>
-        <p data-i18n-rich="markup-related-tools">Comparing a card or ATM transaction with an offered home-currency conversion? Use the <a class="text-link" data-i18n-slot="foreignFee" href="/zh-hant/foreign-transaction-fee-calculator/">Foreign Transaction Fee &amp; DCC Calculator</a>. For a quick pair conversion, use the <a class="text-link" data-i18n-slot="currency" href="/zh-hant/currency-converter/">貨幣換算</a>. For several results at once, try the <a class="text-link" data-i18n-slot="multi" href="/zh-hant/multi-currency-converter/">Multi-Currency Converter</a>, or learn how <a class="text-link" data-i18n-slot="offline" href="/zh-hant/offline-currency-converter/">saved offline rates</a> work.</p>
+        <p>本結果僅供資訊比較，不構成財務建議。報價可能包含服務費、信用卡費用、現金處理費或服務商價差；參考匯率不保證實際成交匯率。</p>
+        <p data-i18n-rich="markup-related-tools">要比較信用卡或 ATM 交易與商家提供的卡片幣別換算，可使用<a class="text-link" data-i18n-slot="foreignFee" href="/zh-hant/foreign-transaction-fee-calculator/">手續費與 DCC 計算器</a>。如需快速換算一組貨幣對，請開啟<a class="text-link" data-i18n-slot="currency" href="/zh-hant/currency-converter/">貨幣換算器</a>。透過<a class="text-link" data-i18n-slot="multi" href="/zh-hant/multi-currency-converter/">多幣別換算器</a>可將同一金額換算為多種貨幣；<a class="text-link" data-i18n-slot="offline" href="/zh-hant/offline-currency-converter/">離線使用指南</a>則說明已儲存匯率的運作方式。</p>
       </aside>
     </section>
 
@@ -206,7 +206,7 @@
       <div>
         <p class="eyebrow eyebrow-inverse">外出時需要這個嗎？</p>
         <h2 id="app-cta-title">比較 Balkan Converter 中的費用</h2>
-        <p>Android 應用程式增加了實際成本、離線價格、旅行板、已儲存的套餐、圖表和主螢幕小工具。</p>
+        <p>Android 應用程式還提供實際兌換成本、離線匯率、旅行貨幣看板、已儲存組合、圖表和主畫面小工具。</p>
       </div>
       <a class="play-link play-link-on-dark calculator-play-cta" href="https://play.google.com/store/apps/details?id=io.github.nstim605.balkanconverter" aria-label="在 Google Play 上取得 Balkan Currency Converter">
         <img src="/assets/google-play-badge-en.png" width="202" height="60" alt="請透過 Google Play 取得">
@@ -237,7 +237,7 @@
     </div>
   </template>
   <script src="../../script.js" defer></script>
-  <script id="tool-i18n" type="application/json">{"© 2026 Balkan Currency Converter":"© 2026 Balkan Currency Converter","A provider can advertise “no commission” while using a less favourable exchange rate. That shortfall is effectively a cost hidden in the rate.":"提供者可以在使用不太有利的匯率的同時宣傳「無佣金」。這種短缺實際上是隱藏在利率中的成本。","A reference rate is unavailable for this currency pair.":"該貨幣對沒有參考匯率。","Above reference by":"以上參考自","Accept analytics":"接受分析","Amount":"金額","Amount you are offered":"為您提供的金額","Amount you give":"您給予的金額","Amounts and rates must be positive numbers.":"金額和比率必須為正數。","Analytics choices":"分析選擇","Back to Balkan Currency Converter":"返回Balkan Currency Converter","Balkan Currency Converter home":"Balkan Currency Converter 家","Calculate markup":"計算加價","Calculation updated from the latest available reference rates.":"計算結果根據最新的可用參考匯率進行更新。","Choose two different currencies.":"選擇兩種不同的貨幣。","Compare an exchange offer with the latest reference rate and calculate the effective markup.":"將兌換報價與最新參考匯率進行比較並計算有效加價。","Compare an exchange offer with the latest reference rate.":"將兌換報價與最新參考匯率進行比較。","Compare an exchange offer with the latest reference rate. Calculate the amount you receive, the difference, and the effective exchange-rate markup.":"將兌換報價與最新參考匯率進行比較。計算您收到的金額、差額和有效匯率加價。","Compare costs in Balkan Converter":"比較 Balkan Converter 中的費用","Compare the amount an exchange service offers with the latest available reference rate. See the difference and the effective markup before you exchange.":"將兌換服務提供的金額與最新的可用參考匯率進行比較。在兌換前查看差異和有效加價。","Currency conversion for Android":"Android 的貨幣換算","Currency Converter":"貨幣換算","Date":"日期","Enter the offer you want to compare.":"輸入您要比較的報價。","Enter two amounts greater than zero.":"輸入兩個大於零的金額。","EUR — Euro":"歐元 — 歐元","Exchange offer result":"交換報價結果","Exchange Rate Markup Calculator":"匯率加價計算器","Exchange Rate Markup Calculator | Balkan Currency Converter":"匯率加價計算器 | Balkan Currency Converter","Exchange-rate markup":"匯率加成","Fetching the latest reference rates…":"正在獲取最新的參考匯率...","Footer navigation":"頁尾導航","For example, 11,500":"例如，11,500","Free currency tool":"免費貨幣工具","Get Balkan Currency Converter on Google Play":"在 Google Play 上取得 Balkan Currency Converter","Get it on Google Play":"請透過 Google Play 取得","Help us understand site usage. Firebase Analytics stays off unless you accept.":"幫助我們了解網站的使用情況。除非您接受，否则 Firebase Analytics 将保持关闭状态。","Home":"首頁","Important to know":"重要的是要知道","In the source currency":"以源貨幣計","Learn more":"了解更多","Loading latest rates…":"正在加載最新費率...","Main navigation":"主導航","Markup = (reference result − offered result) ÷ reference result × 100.":"加價=（參考結果-提供的結果）÷參考結果×100。","Markup calculator":"加價計算器","Markup Calculator":"加價計算器","Need this on the go?":"外出時需要這個嗎？","No reference rates were returned.":"沒有返回參考利率。","Offered result":"提供的結果","Optional":"可選","Optional analytics":"可選分析","Privacy":"隱私","Privacy Policy":"隱私權政策","Rate":"率","Rates could not be loaded. Check your connection and try again.":"無法加載費率。檢查您的連線並重試。","Reference rate":"參考費率","Reference rates dated {date}.":"日期為 {date} 的參考匯率。","Reference result":"參考結果","Reference-rate data is incomplete.":"參考利率資料不完整。","Reject analytics":"拒絕分析","Result":"結果","RSD — Serbian Dinar":"RSD：塞爾維亞第納爾","See how far an exchange offer is from the latest reference rate.":"查看兌換報價與最新參考匯率的差距。","Skip to calculator":"跳至計算機","Source currency":"來源貨幣","Switch color theme":"切換顏色主題","Switch to dark theme":"切換到深色主題","Switch to light theme":"切換到淺色主題","Target currency":"目標貨幣","The Android app adds Actual Cost, offline rates, Travel Board, saved sets, charts, and a home-screen widget.":"Android 應用程式增加了實際成本、離線價格、旅行板、已儲存的套餐、圖表和主螢幕小工具。","The calculator first estimates how much the latest reference rate would produce. It then compares that amount with the amount you were offered.":"計算器首先估計最新的參考利率會產生多少。然後，它將該金額與您獲得的金額進行比較。","The offer is {percentage} above the reference result.":"報價比參考結果高 {percentage}。","The offer is {percentage} below the reference result.":"報價比參考結果低 {percentage}。","This is an informational comparison, not financial advice. An offer may include service fees, card charges, cash handling, or a provider’s spread. Reference rates are not guaranteed transaction rates.":"這是資訊比較，而不是財務建議。報價可能包括服務費、卡費、現金處理或提供者的點差。參考利率不保證交易利率。","What the percentage means":"百分比是什麼意思","What you would receive in the target currency":"您將收到的目標貨幣金額","You receive less by":"您收到的金額減少了","You receive more by":"您會收到更多","Your comparison":"您的比較"}</script>
+  <script id="tool-i18n" type="application/json">{"© 2026 Balkan Currency Converter":"© 2026 Balkan Currency Converter","A provider can advertise “no commission” while using a less favourable exchange rate. That shortfall is effectively a cost hidden in the rate.":"提供者可以在使用不太有利的匯率的同時宣傳「無佣金」。這種短缺實際上是隱藏在利率中的成本。","A reference rate is unavailable for this currency pair.":"該貨幣對沒有參考匯率。","Above reference by":"以上參考自","Accept analytics":"接受分析","Amount":"金額","Amount you are offered":"為您提供的金額","Amount you give":"您給予的金額","Amounts and rates must be positive numbers.":"金額和比率必須為正數。","Analytics choices":"分析選擇","Back to Balkan Currency Converter":"返回Balkan Currency Converter","Balkan Currency Converter home":"Balkan Currency Converter 家","Calculate markup":"計算差額","Calculation updated from the latest available reference rates.":"計算結果根據最新的可用參考匯率進行更新。","Choose two different currencies.":"選擇兩種不同的貨幣。","Compare an exchange offer with the latest reference rate and calculate the effective markup.":"將兌換報價與最新參考匯率比較，並計算實際差額。","Compare an exchange offer with the latest reference rate.":"將兌換報價與最新參考匯率進行比較。","Compare an exchange offer with the latest reference rate. Calculate the amount you receive, the difference, and the effective exchange-rate markup.":"將兌換報價與最新參考匯率比較。計算實收金額、絕對差額和百分比差額。","Compare costs in Balkan Converter":"比較 Balkan Converter 中的費用","Compare the amount an exchange service offers with the latest available reference rate. See the difference and the effective markup before you exchange.":"將兌換服務提供的金額與最新可用參考匯率比較，並在兌換前查看實際差額。","Currency conversion for Android":"Android 的貨幣換算","Currency Converter":"貨幣換算","Date":"日期","Enter the offer you want to compare.":"輸入您要比較的報價。","Enter two amounts greater than zero.":"輸入兩個大於零的金額。","EUR — Euro":"歐元 — 歐元","Exchange offer result":"交換報價結果","Exchange Rate Markup Calculator":"匯率差額計算器","Exchange Rate Markup Calculator | Balkan Currency Converter":"匯率差額計算器 | Balkan Currency Converter","Exchange-rate markup":"匯率差額","Fetching the latest reference rates…":"正在獲取最新的參考匯率...","Footer navigation":"頁尾導航","For example, 11,500":"例如，11,500","Free currency tool":"免費貨幣工具","Get Balkan Currency Converter on Google Play":"在 Google Play 上取得 Balkan Currency Converter","Get it on Google Play":"請透過 Google Play 取得","Help us understand site usage. Firebase Analytics stays off unless you accept.":"幫助我們了解網站的使用情況。除非您接受，否则 Firebase Analytics 将保持关闭状态。","Home":"首頁","Important to know":"重要的是要知道","In the source currency":"以源貨幣計","Learn more":"了解更多","Loading latest rates…":"正在加載最新費率...","Main navigation":"主導航","Markup = (reference result − offered result) ÷ reference result × 100.":"差額百分比 =（參考結果 − 報價結果）÷ 參考結果 × 100。","Markup calculator":"匯率差額計算器","Markup Calculator":"匯率差額計算器","Need this on the go?":"外出時需要這個嗎？","No reference rates were returned.":"未傳回參考匯率。","Offered result":"提供的結果","Optional":"可選","Optional analytics":"可選分析","Privacy":"隱私","Privacy Policy":"隱私權政策","Rate":"率","Rates could not be loaded. Check your connection and try again.":"無法加載費率。檢查您的連線並重試。","Reference rate":"參考匯率","Reference rates dated {date}.":"日期為 {date} 的參考匯率。","Reference result":"參考結果","Reference-rate data is incomplete.":"參考匯率資料不完整。","Reject analytics":"拒絕分析","Result":"結果","RSD — Serbian Dinar":"RSD：塞爾維亞第納爾","See how far an exchange offer is from the latest reference rate.":"查看兌換報價與最新參考匯率的差距。","Skip to calculator":"跳至計算機","Source currency":"來源貨幣","Switch color theme":"切換顏色主題","Switch to dark theme":"切換到深色主題","Switch to light theme":"切換到淺色主題","Target currency":"目標貨幣","The Android app adds Actual Cost, offline rates, Travel Board, saved sets, charts, and a home-screen widget.":"Android 應用程式還提供實際兌換成本、離線匯率、旅行貨幣看板、已儲存組合、圖表和主畫面小工具。","The calculator first estimates how much the latest reference rate would produce. It then compares that amount with the amount you were offered.":"計算器先按最新參考匯率估算應得金額，再與兌換報價比較。","The offer is {percentage} above the reference result.":"報價比參考結果高 {percentage}。","The offer is {percentage} below the reference result.":"報價比參考結果低 {percentage}。","This is an informational comparison, not financial advice. An offer may include service fees, card charges, cash handling, or a provider’s spread. Reference rates are not guaranteed transaction rates.":"本結果僅供資訊比較，不構成財務建議。報價可能包含服務費、信用卡費用、現金處理費或服務商價差；參考匯率不保證實際成交匯率。","What the percentage means":"百分比是什麼意思","What you would receive in the target currency":"您將收到的目標貨幣金額","You receive less by":"您收到的金額減少了","You receive more by":"您會收到更多","Your comparison":"您的比較"}</script>
   <script type="module" src="../../exchange-rate-markup-calculator/calculator.js"></script>
 </body>
 </html>

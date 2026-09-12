@@ -802,6 +802,17 @@
     "foreign-related-tools": { "message": "如果只想比较兑换报价与参考汇率结果，请使用{markup}。如需在两种货币之间进行普通换算，请打开{currency}。", "links": { "markup": "汇率差额计算器", "currency": "货币换算器" } },
     "travel-related-tools": { "message": "通过{multi}将同一金额换算为多种货币，使用{currency}快速换算，或了解 Android 应用如何使用{offline}。", "links": { "multi": "多币种换算器", "currency": "货币换算器", "offline": "已保存的离线汇率" } }
   },
+  "zh-Hant": {
+    "currency-related-tools": { "message": "可透過{history}查看貨幣對的變化，用{multi}將同一金額換算為多種貨幣，用{markup}檢查兌換報價，或用{foreignFee}比較信用卡、提款和 DCC 成本。", "links": { "history": "匯率歷史", "multi": "多幣別換算器", "markup": "匯率差額計算器", "foreignFee": "手續費與 DCC 計算器" } },
+    "markup-related-tools": { "message": "要比較信用卡或 ATM 交易與商家提供的卡片幣別換算，可使用{foreignFee}。如需快速換算一組貨幣對，請開啟{currency}。透過{multi}可將同一金額換算為多種貨幣；{offline}則說明已儲存匯率的運作方式。", "links": { "foreignFee": "手續費與 DCC 計算器", "currency": "貨幣換算器", "multi": "多幣別換算器", "offline": "離線使用指南" } },
+    "multi-related-tools": { "message": "如只需換算一組貨幣對，請使用{currency}。在{history}中查看變化，用{markup}檢查兌換報價，並在{offline}中瞭解如何在沒有網路時使用已儲存匯率。", "links": { "currency": "貨幣換算器", "history": "匯率歷史", "markup": "匯率差額計算器", "offline": "離線使用指南" } },
+    "offline-related-tools": { "message": "如需快速存取已儲存的貨幣對，請參閱{widget}。使用{currency}進行線上換算，透過{multi}將同一金額換算為多種貨幣，或用{markup}檢查兌換報價。", "links": { "widget": "Android 小工具指南", "currency": "貨幣換算器", "multi": "多幣別換算器", "markup": "匯率差額計算器" } },
+    "history-related-tools": { "message": "如需按最新可用匯率換算，請使用{currency}。如需將兌換報價與參考匯率結果比較，請開啟{markup}。", "links": { "currency": "貨幣換算器", "markup": "匯率差額計算器" } },
+    "widget-offline-guide": { "message": "沒有網路連線時，上次儲存的參考匯率仍可用於估算，顯示的日期會說明資料的新舊程度。詳情請參閱{offline}。", "links": { "offline": "離線使用指南" } },
+    "widget-more-tools": { "message": "開啟應用程式即可輸入金額、換算貨幣、查看{history}、比較多種貨幣，或儲存匯率供離線使用。", "links": { "history": "匯率歷史" } },
+    "foreign-related-tools": { "message": "如果只想比較兌換報價與參考匯率結果，請使用{markup}。如需在兩種貨幣之間進行一般換算，請開啟{currency}。", "links": { "markup": "匯率差額計算器", "currency": "貨幣換算器" } },
+    "travel-related-tools": { "message": "透過{multi}將同一金額換算為多種貨幣，使用{currency}快速換算，或瞭解 Android 應用程式如何使用{offline}。", "links": { "multi": "多幣別換算器", "currency": "貨幣換算器", "offline": "已儲存的離線匯率" } }
+  },
   "id": {
     "currency-related-tools": {
       "message": "Ikuti perubahan pasangan mata uang melalui {history}, bandingkan satu jumlah dalam beberapa mata uang dengan {multi}, periksa penawaran penukaran memakai {markup}, atau bandingkan biaya kartu, tarik tunai, dan DCC dengan {foreignFee}.",
