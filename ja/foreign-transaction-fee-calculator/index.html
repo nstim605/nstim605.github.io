@@ -5,8 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#f7f8fa" media="(prefers-color-scheme: light)">
   <meta name="theme-color" content="#070a0f" media="(prefers-color-scheme: dark)">
-  <title>外国取引手数料と DCC の計算ツール | Balkan Converter</title>
-  <meta name="description" content="現地通貨での支払いと、DCC カードまたは ATM の見積もりを比較してください。現在の参考レートを使用した外国取引および固定手数料を含みます。">
+  <title>海外事務手数料・DCC 計算ツール | Balkan Converter</title>
+  <meta name="description" content="現地通貨で支払う場合と、カードや ATM で提示された DCC 金額を比較します。現在の参照レートに海外事務手数料と固定手数料を加味します。">
   <link rel="canonical" href="https://balkanconverter.com/ja/foreign-transaction-fee-calculator/">
   <link rel="alternate" hreflang="en" href="https://balkanconverter.com/foreign-transaction-fee-calculator/">
   <link rel="alternate" hreflang="sr" href="https://balkanconverter.com/sr/foreign-transaction-fee-calculator/">
@@ -55,12 +55,12 @@
   <link rel="alternate" hreflang="x-default" href="https://balkanconverter.com/foreign-transaction-fee-calculator/">
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="Balkan Currency Converter">
-  <meta property="og:title" content="外国取引手数料と DCC の計算ツール">
+  <meta property="og:title" content="海外事務手数料・DCC 計算ツール">
   <meta property="og:description" content="現地通貨のカードまたは ATM 取引と提示された換算額を比較します。">
   <meta property="og:url" content="https://balkanconverter.com/ja/foreign-transaction-fee-calculator/">
   <meta property="og:image" content="https://balkanconverter.com/assets/og-v1-5-11.png">
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="外国取引手数料と DCC の計算ツール">
+  <meta name="twitter:title" content="海外事務手数料・DCC 計算ツール">
   <meta name="twitter:description" content="現地通貨でのカードのコストを見積もり、オプションの DCC の見積もりを比較します。">
   <meta name="twitter:image" content="https://balkanconverter.com/assets/og-v1-5-11.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/assets/icons/v1-5-11/favicon-32.png">
@@ -68,7 +68,7 @@
   <link rel="manifest" href="../../site.webmanifest">
   <link rel="stylesheet" href="../../styles.css">
   <script type="application/ld+json">
-  {"@context":"https://schema.org","@type":"WebApplication","name":"外国取引手数料と DCC の計算ツール","url":"https://balkanconverter.com/ja/foreign-transaction-fee-calculator/","applicationCategory":"FinanceApplication","operatingSystem":"Any","isAccessibleForFree":true,"description":"現地通貨で支払う場合の推定自国通貨コストを、オプションの Dynamic Currency Conversion 見積もりと比較します。"}
+  {"@context":"https://schema.org","@type":"WebApplication","name":"海外事務手数料・DCC 計算ツール","url":"https://balkanconverter.com/ja/foreign-transaction-fee-calculator/","applicationCategory":"FinanceApplication","operatingSystem":"Any","isAccessibleForFree":true,"description":"現地通貨で支払った場合の自国通貨換算額と、任意の自国通貨建て決済（DCC）の提示額を比較します。"}
   </script>
 </head>
 <body>
@@ -76,7 +76,7 @@
   <header class="site-header">
     <div class="shell nav-wrap">
       <a class="brand" href="/ja/" aria-label="Balkan Currency Converter の家"><img src="../../assets/icons/v1-5-11/app-icon-v1-5-11.png" width="42" height="42" alt=""><span dir="ltr">Balkan Currency Converter</span></a>
-      <nav class="nav-links" aria-label="メインナビゲーション"><a href="/ja/">ホーム</a><a href="/ja/currency-converter/">通貨換算機</a><a href="/ja/exchange-rate-markup-calculator/">マークアップ計算機</a></nav>
+      <nav class="nav-links" aria-label="メインナビゲーション"><a href="/ja/">ホーム</a><a href="/ja/currency-converter/">通貨換算機</a><a href="/ja/exchange-rate-markup-calculator/">為替レート差額計算</a></nav>
       <div class="nav-actions">
         <details class="language-selector">
           <summary aria-label="日本語"><span aria-hidden="true">🌐</span><span>日本語</span></summary>
@@ -135,13 +135,13 @@
     <section class="calculator-hero shell" aria-labelledby="foreign-fee-title">
       <a class="back-link" href="/ja/"><span aria-hidden="true">←</span> Balkan Currency Converter に戻る</a>
       <p class="eyebrow"><span class="status-dot"></span> カードとATMの比較</p>
-      <h1 id="foreign-fee-title">外国取引手数料と DCC の計算ツール</h1>
+      <h1 id="foreign-fee-title">海外事務手数料・DCC 計算ツール</h1>
       <p class="hero-lede"><strong>現地通貨で支払いますか、それとも提供された換算を使用しますか?</strong> 最新の利用可能な参考レートと入力した手数料から両方のオプションを見積もります。</p>
     </section>
 
-    <section class="calculator-layout shell" aria-label="外国取引手数料計算ツール">
+    <section class="calculator-layout shell" aria-label="海外事務手数料計算ツール">
       <form class="calculator-card" id="foreign-fee-form" novalidate>
-        <label>購入または出金金額
+        <label>購入または現金引き出し額
           <span class="input-hint">現地通貨で表示される金額</span>
           <input id="local-amount" name="amount" inputmode="decimal" autocomplete="off" value="10000" aria-describedby="foreign-fee-status">
         </label>
@@ -149,21 +149,21 @@
           <label>現地通貨
             <select id="local-currency" name="localCurrency" autocomplete="off"><option value="RSD">RSD</option></select>
           </label>
-          <label>ホーム/カード通貨
+          <label>自国通貨／カード通貨
             <select id="home-currency" name="homeCurrency" autocomplete="off"><option value="EUR">EUR</option></select>
           </label>
         </div>
         <div class="field-grid">
-          <label>外国取引手数料
+          <label>海外事務手数料
             <span class="input-hint">換算された金額に対して請求される割合</span>
-            <input id="foreign-fee-percent" name="percentageFee" inputmode="decimal" autocomplete="off" value="0" aria-label="外国取引手数料の割合">
+            <input id="foreign-fee-percent" name="percentageFee" inputmode="decimal" autocomplete="off" value="0" aria-label="海外事務手数料率">
           </label>
           <label>固定カードまたはATM手数料
             <span class="input-hint">現地通貨の見積もりに、自国通貨/カード通貨で追加されます</span>
             <input id="fixed-fee" name="fixedFee" inputmode="decimal" autocomplete="off" value="0">
           </label>
         </div>
-        <label>合計 DCC 件が提供されました <span class="optional-label">オプション</span>
+        <label>提示された DCC 総額 <span class="optional-label">オプション</span>
           <span class="input-hint">販売者または ATM によって表示される最終的な自国通貨の金額 (そこに表示される手数料を含む)</span>
           <input id="dcc-amount" name="dccAmount" inputmode="decimal" autocomplete="off" placeholder="たとえば、90">
         </label>
@@ -177,7 +177,7 @@
         <dl class="result-list">
           <div><dt>参考レート</dt><dd data-result="referenceRate"></dd></div>
           <div><dt>参考換算額</dt><dd data-result="referenceAmount"></dd></div>
-          <div><dt data-label="percentageFee">外国取引手数料</dt><dd data-result="percentageFee"></dd></div>
+          <div><dt data-label="percentageFee">海外事務手数料</dt><dd data-result="percentageFee"></dd></div>
           <div><dt>固定カード・ATM手数料</dt><dd data-result="fixedFee"></dd></div>
           <div class="result-emphasis"><dt>推定合計額</dt><dd data-result="localTotal"></dd></div>
         </dl>
@@ -186,7 +186,7 @@
           <dl class="result-list">
             <div><dt>見積総額 DCC</dt><dd data-result="dccTotal"></dd></div>
             <div><dt data-label="dccReferenceDifference">DCC 以上の参照者</dt><dd data-result="dccReferenceDifference"></dd></div>
-            <div><dt data-label="dccMarkup">有効な DCC マークアップ</dt><dd data-result="dccMarkup"></dd></div>
+            <div><dt data-label="dccMarkup">DCC の実質差額率</dt><dd data-result="dccMarkup"></dd></div>
             <div class="result-emphasis"><dt data-label="dccLocalDifference">オプション間の違い</dt><dd data-result="dccLocalDifference"></dd></div>
           </dl>
         </section>
@@ -197,24 +197,24 @@
 
     <section class="calculator-explanation shell" aria-labelledby="dcc-explanation-title">
       <article>
-        <h2 id="dcc-explanation-title">Dynamic Currency Conversion の意味</h2>
+        <h2 id="dcc-explanation-title">自国通貨建て決済（DCC）とは</h2>
         <p>DCC は、カードが届く前に取引を自国通貨に換算する販売者または ATM のオファーです。現地通貨で支払う場合、通貨換算はカードプロバイダーに委ねられます。</p>
         <p>計算機は、入力した合計金額 DCC を、参照レート、海外取引手数料の割合、および固定手数料に基づく推定値と比較します。</p>
       </article>
       <aside>
         <h2>この推定では分からないこと</h2>
-        <p>銀行、カード ネットワーク、販売業者、または ATM では、異なる為替レートが使用されたり、入力していない別の手数料が請求されたりする場合があります。固定の ATM 手数料は、パーセンテージの外国取引手数料とは別のものです。</p>
+        <p>銀行、カードネットワーク、加盟店、ATM が別の為替レートを使ったり、入力していない手数料を加えたりする場合があります。固定 ATM 手数料は、割合で計算する海外事務手数料とは別です。</p>
         <p>これは入力された値の情報比較であり、財務上のアドバイスや最終的な請求額の約束ではありません。</p>
       </aside>
     </section>
 
     <section class="calculator-explanation shell" aria-labelledby="related-tools-title">
-      <article><h2 id="related-tools-title">違う比較？</h2><p data-i18n-rich="foreign-related-tools">Use the <a class="text-link" data-i18n-slot="markup" href="/ja/exchange-rate-markup-calculator/">Exchange Rate Markup Calculator</a> when you simply want to compare an exchange quote with the reference result. Use the <a class="text-link" data-i18n-slot="currency" href="/ja/currency-converter/">通貨換算ツール</a> for a direct two-currency estimate.</p></article>
+      <article><h2 id="related-tools-title">違う比較？</h2><p data-i18n-rich="foreign-related-tools">両替の提示額と参照レートによる結果だけを比較する場合は<a class="text-link" data-i18n-slot="markup" href="/ja/exchange-rate-markup-calculator/">為替レート差額計算</a>をご利用ください。通常の 2 通貨間換算には<a class="text-link" data-i18n-slot="currency" href="/ja/currency-converter/">通貨換算</a>を開きます。</p></article>
       <aside><h2>参照レートと日付</h2><p>参照レートは中立的な比較ポイントを提供するものであり、保証された取引レートではありません。結果には、Frankfurter 参照レート API によって返された市場日付が表示されます。</p></aside>
     </section>
 
     <section class="cta-section shell calculator-cta" aria-labelledby="foreign-fee-cta-title">
-      <div><p class="eyebrow eyebrow-inverse">携帯電話で比較</p><h2 id="foreign-fee-cta-title">Balkan Converter との交換オファーを確認してください</h2><p>Android の Balkan Converter には、交換オファーとその手数料を参照結果と比較するための実際のコストが含まれます。</p></div>
+      <div><p class="eyebrow eyebrow-inverse">携帯電話で比較</p><h2 id="foreign-fee-cta-title">Balkan Converter との交換オファーを確認してください</h2><p>Android 版 Balkan Converter の「実質交換コスト」では、両替の提示額と手数料を参照結果と比較できます。</p></div>
       <a class="play-link play-link-on-dark foreign-fee-play-cta" href="https://play.google.com/store/apps/details?id=io.github.nstim605.balkanconverter" aria-label="Google Play で Balkan Currency Converter を入手"><img src="/assets/google-play-badge-en.png" width="202" height="60" alt="Google Play で入手"></a>
     </section>
   </main>
@@ -231,7 +231,7 @@
     </div>
   </template>
   <script src="../../script.js" defer></script>
-  <script id="tool-i18n" type="application/json">{"© 2026 Balkan Currency Converter":"© 2026 Balkan Currency Converter","A different comparison?":"違う比較？","A reference rate is unavailable for this currency pair.":"この通貨ペアでは参照レートを利用できません。","Accept analytics":"分析を受け入れる","Add the optional DCC quoted total to compare both payment options.":"オプションの DCC 見積総額を追加して、両方の支払いオプションを比較します。","Added to the local-currency estimate, in your home/card currency":"現地通貨の見積もりに、自国通貨/カード通貨で追加されます","Amount":"金額","Amount and rates must be positive numbers.":"金額とレートは正の数である必要があります。","Analytics choices":"分析の選択肢","Back to Balkan Currency Converter":"Balkan Currency Converter に戻る","Balkan Converter for Android includes Actual Cost for comparing an exchange offer and its fees with a reference result.":"Android の Balkan Converter には、交換オファーとその手数料を参照結果と比較するための実際のコストが含まれます。","Balkan Currency Converter home":"Balkan Currency Converter の家","Based on these values, both options have the same estimated cost.":"これらの値に基づいて、両方のオプションの推定コストは同じになります。","Based on these values, paying in local currency would cost about {difference} less.":"これらの値に基づくと、現地通貨で支払うと費用は約 {difference} 安くなります。","Based on these values, the offered conversion would cost about {difference} less.":"これらの値に基づくと、提示されたコンバージョン費用は約 {difference} 安くなります。","Card and ATM comparison":"カードとATMの比較","Check exchange offers with Balkan Converter":"Balkan Converter との交換オファーを確認してください","Choose two different currencies.":"2 つの異なる通貨を選択します。","Compare a local-currency card or ATM transaction with an offered conversion.":"現地通貨のカードまたは ATM 取引と提示された換算額を比較します。","Compare on your phone":"携帯電話で比較","Compare paying in local currency with a DCC card or ATM quote. Include foreign transaction and fixed fees using current reference rates.":"現地通貨での支払いと、DCC カードまたは ATM の見積もりを比較してください。現在の参考レートを使用した外国取引および固定手数料を含みます。","Compare payment options":"支払いオプションを比較する","Compare the estimated home-currency cost of paying in local currency with an optional Dynamic Currency Conversion quote.":"現地通貨で支払う場合の推定自国通貨コストを、オプションの Dynamic Currency Conversion 見積もりと比較します。","Comparison updated from the latest available reference rates.":"比較は最新の利用可能な参考レートに基づいて更新されています。","Currency conversion for Android":"Android の通貨換算","Currency converter":"通貨換算機","Currency Converter":"通貨換算ツール","Date":"日付","DCC above reference by":"DCC 以上の参照者","DCC below reference":"基準値より DCC 低い","DCC below reference by":"DCC 以下の参照者","DCC is a merchant or ATM offer to convert the transaction into your home currency before it reaches your card. Paying in local currency instead leaves the currency conversion to your card provider.":"DCC は、カードが届く前に取引を自国通貨に換算する販売者または ATM のオファーです。現地通貨で支払う場合、通貨換算はカードプロバイダーに委ねられます。","DCC quoted total":"見積総額 DCC","Difference between options":"オプション間の違い","Effective DCC markup":"有効な DCC マークアップ","Enter a DCC quoted total greater than zero, or leave it blank.":"ゼロより大きい DCC の引用合計を入力するか、空白のままにします。","Enter a purchase or withdrawal amount greater than zero.":"ゼロより大きい購入または引き出し金額を入力してください。","Enter fees of zero or more.":"ゼロ以上の手数料を入力してください。","Enter the transaction and any fees you know.":"取引内容とわかっている手数料を入力します。","Estimate both options from the latest available reference rate and the fees you enter.":"最新の利用可能な参考レートと入力した手数料から両方のオプションを見積もります。","Estimate local-currency card costs and compare an optional DCC quote.":"現地通貨でのカードのコストを見積もり、オプションの DCC の見積もりを比較します。","Estimated total":"推定合計額","Fees cannot be negative.":"料金をマイナスにすることはできません。","Fetching the latest reference rates…":"最新の参照レートを取得しています…","Fixed card or ATM fee":"固定カードまたはATM手数料","Fixed card/ATM fee":"固定カード・ATM手数料","Footer navigation":"フッターナビゲーション","For example, 90":"たとえば、90","Foreign transaction fee":"外国取引手数料","Foreign transaction fee ({percentage}%)":"外国取引手数料 ({percentage}%)","Foreign Transaction Fee & DCC Calculator":"外国取引手数料と DCC の計算ツール","Foreign Transaction Fee & DCC Calculator | Balkan Converter":"外国取引手数料と DCC の計算ツール | Balkan Converter","Foreign Transaction Fee and DCC Calculator":"外国取引手数料と DCC の計算ツール","Foreign transaction fee calculator":"外国取引手数料計算ツール","Foreign transaction fee percentage":"外国取引手数料の割合","Frankfurter reference-rate API":"Frankfurter 参照レート API","From":"から","Get Balkan Currency Converter on Google Play":"Google Play で Balkan Currency Converter を入手","Get it on Google Play":"Google Play で入手","Help us understand site usage. Firebase Analytics stays off unless you accept.":"サイトの使用状況の理解にご協力ください。同意しない限り、Firebase Analytics はオフのままです。","Home":"ホーム","Home/card currency":"ホーム/カード通貨","Learn more":"さらに詳しく","Loading latest rates…":"最新の料金を読み込み中…","Local currency":"現地通貨","Main navigation":"メインナビゲーション","Markup calculator":"マークアップ計算機","Offered conversion (DCC)":"提案されたコンバージョン (DCC)","Offered DCC total":"合計 DCC 件が提供されました","Optional":"オプション","Optional analytics":"オプションの分析","Pay in local currency":"現地通貨で支払う","Pay in local currency or use the offered conversion?":"現地通貨で支払いますか、それとも提供された換算を使用しますか?","Percentage charged on the converted amount":"換算された金額に対して請求される割合","Privacy":"プライバシー","Privacy Policy":"プライバシーポリシー","Purchase or withdrawal amount":"購入または出金金額","Rate":"料金","Rates could not be loaded. Check your connection and try again.":"料金を読み込めませんでした。接続を確認して、もう一度試してください。","Reference converted amount":"参考換算額","Reference rate":"参考レート","Reference rate and date":"参照レートと日付","Reference rates dated {date}.":"参照レートの日付は {date} です。","Reference rates dated {date}. Source: Frankfurter reference-rate API.":"参照レートの日付は {date} です。ソース: Frankfurter 参照レート API。","Reference rates provide a neutral comparison point, not a guaranteed transaction rate. The result shows the market date returned by the Frankfurter reference-rate API.":"参照レートは中立的な比較ポイントを提供するものであり、保証された取引レートではありません。結果には、Frankfurter 参照レート API によって返された市場日付が表示されます。","Reference-rate date unavailable.":"参照レートの日付はありません。","Reject analytics":"分析の拒否","Result":"結果","Skip to calculator":"計算機にスキップ","Switch color theme":"カラーテーマを切り替える","Switch to dark theme":"ダークテーマに切り替える","Switch to light theme":"ライトテーマに切り替える","The amount shown in the local currency":"現地通貨で表示される金額","The calculator compares the complete DCC amount you enter with an estimate based on the reference rate, your percentage foreign transaction fee, and your fixed fee.":"計算機は、入力した合計金額 DCC を、参照レート、海外取引手数料の割合、および固定手数料に基づく推定値と比較します。","The DCC quote must be greater than zero.":"DCC 引用符はゼロより大きくなければなりません。","The final home-currency amount shown by the merchant or ATM, including fees shown there":"販売者または ATM によって表示される最終的な自国通貨の金額 (そこに表示される手数料を含む)","This is an informational comparison of the values entered, not financial advice or a promise of the final amount charged.":"これは入力された値の情報比較であり、財務上のアドバイスや最終的な請求額の約束ではありません。","To":"に","What Dynamic Currency Conversion means":"Dynamic Currency Conversion の意味","What this estimate cannot know":"この推定では分からないこと","Your bank, card network, merchant or ATM may use a different exchange rate or charge another fee you did not enter. A fixed ATM fee is separate from a percentage foreign transaction fee.":"銀行、カード ネットワーク、販売業者、または ATM では、異なる為替レートが使用されたり、入力していない別の手数料が請求されたりする場合があります。固定の ATM 手数料は、パーセンテージの外国取引手数料とは別のものです。","Your estimate":"あなたの見積もり"}</script>
+  <script id="tool-i18n" type="application/json">{"© 2026 Balkan Currency Converter":"© 2026 Balkan Currency Converter","A different comparison?":"違う比較？","A reference rate is unavailable for this currency pair.":"この通貨ペアでは参照レートを利用できません。","Accept analytics":"分析を受け入れる","Add the optional DCC quoted total to compare both payment options.":"オプションの DCC 見積総額を追加して、両方の支払いオプションを比較します。","Added to the local-currency estimate, in your home/card currency":"現地通貨の見積もりに、自国通貨/カード通貨で追加されます","Amount":"金額","Amount and rates must be positive numbers.":"金額とレートは正の数である必要があります。","Analytics choices":"分析の選択肢","Back to Balkan Currency Converter":"Balkan Currency Converter に戻る","Balkan Converter for Android includes Actual Cost for comparing an exchange offer and its fees with a reference result.":"Android 版 Balkan Converter の「実質交換コスト」では、両替の提示額と手数料を参照結果と比較できます。","Balkan Currency Converter home":"Balkan Currency Converter の家","Based on these values, both options have the same estimated cost.":"これらの値に基づいて、両方のオプションの推定コストは同じになります。","Based on these values, paying in local currency would cost about {difference} less.":"これらの値に基づくと、現地通貨で支払うと費用は約 {difference} 安くなります。","Based on these values, the offered conversion would cost about {difference} less.":"これらの値に基づくと、提示されたコンバージョン費用は約 {difference} 安くなります。","Card and ATM comparison":"カードとATMの比較","Check exchange offers with Balkan Converter":"Balkan Converter との交換オファーを確認してください","Choose two different currencies.":"2 つの異なる通貨を選択します。","Compare a local-currency card or ATM transaction with an offered conversion.":"現地通貨のカードまたは ATM 取引と提示された換算額を比較します。","Compare on your phone":"携帯電話で比較","Compare paying in local currency with a DCC card or ATM quote. Include foreign transaction and fixed fees using current reference rates.":"現地通貨で支払う場合と、カードや ATM で提示された DCC 金額を比較します。現在の参照レートに海外事務手数料と固定手数料を加味します。","Compare payment options":"支払いオプションを比較する","Compare the estimated home-currency cost of paying in local currency with an optional Dynamic Currency Conversion quote.":"現地通貨で支払った場合の自国通貨換算額と、任意の自国通貨建て決済（DCC）の提示額を比較します。","Comparison updated from the latest available reference rates.":"比較は最新の利用可能な参考レートに基づいて更新されています。","Currency conversion for Android":"Android の通貨換算","Currency converter":"通貨換算機","Currency Converter":"通貨換算ツール","Date":"日付","DCC above reference by":"DCC 以上の参照者","DCC below reference":"基準値より DCC 低い","DCC below reference by":"DCC 以下の参照者","DCC is a merchant or ATM offer to convert the transaction into your home currency before it reaches your card. Paying in local currency instead leaves the currency conversion to your card provider.":"DCC は、カードが届く前に取引を自国通貨に換算する販売者または ATM のオファーです。現地通貨で支払う場合、通貨換算はカードプロバイダーに委ねられます。","DCC quoted total":"見積総額 DCC","Difference between options":"オプション間の違い","Effective DCC markup":"DCC の実質差額率","Enter a DCC quoted total greater than zero, or leave it blank.":"ゼロより大きい DCC の引用合計を入力するか、空白のままにします。","Enter a purchase or withdrawal amount greater than zero.":"ゼロより大きい購入または引き出し金額を入力してください。","Enter fees of zero or more.":"ゼロ以上の手数料を入力してください。","Enter the transaction and any fees you know.":"取引内容とわかっている手数料を入力します。","Estimate both options from the latest available reference rate and the fees you enter.":"最新の利用可能な参考レートと入力した手数料から両方のオプションを見積もります。","Estimate local-currency card costs and compare an optional DCC quote.":"現地通貨でのカードのコストを見積もり、オプションの DCC の見積もりを比較します。","Estimated total":"推定合計額","Fees cannot be negative.":"料金をマイナスにすることはできません。","Fetching the latest reference rates…":"最新の参照レートを取得しています…","Fixed card or ATM fee":"固定カードまたはATM手数料","Fixed card/ATM fee":"固定カード・ATM手数料","Footer navigation":"フッターナビゲーション","For example, 90":"たとえば、90","Foreign transaction fee":"海外事務手数料","Foreign transaction fee ({percentage}%)":"海外事務手数料（{percentage}%）","Foreign Transaction Fee & DCC Calculator":"海外事務手数料・DCC 計算ツール","Foreign Transaction Fee & DCC Calculator | Balkan Converter":"海外事務手数料・DCC 計算ツール | Balkan Converter","Foreign Transaction Fee and DCC Calculator":"海外事務手数料・DCC 計算ツール","Foreign transaction fee calculator":"海外事務手数料計算ツール","Foreign transaction fee percentage":"海外事務手数料率","Frankfurter reference-rate API":"Frankfurter 参照レート API","From":"から","Get Balkan Currency Converter on Google Play":"Google Play で Balkan Currency Converter を入手","Get it on Google Play":"Google Play で入手","Help us understand site usage. Firebase Analytics stays off unless you accept.":"サイトの使用状況の理解にご協力ください。同意しない限り、Firebase Analytics はオフのままです。","Home":"ホーム","Home/card currency":"自国通貨／カード通貨","Learn more":"さらに詳しく","Loading latest rates…":"最新の料金を読み込み中…","Local currency":"現地通貨","Main navigation":"メインナビゲーション","Markup calculator":"為替レート差額計算","Offered conversion (DCC)":"提案されたコンバージョン (DCC)","Offered DCC total":"提示された DCC 総額","Optional":"オプション","Optional analytics":"オプションの分析","Pay in local currency":"現地通貨で支払う","Pay in local currency or use the offered conversion?":"現地通貨で支払いますか、それとも提供された換算を使用しますか?","Percentage charged on the converted amount":"換算された金額に対して請求される割合","Privacy":"プライバシー","Privacy Policy":"プライバシーポリシー","Purchase or withdrawal amount":"購入または現金引き出し額","Rate":"料金","Rates could not be loaded. Check your connection and try again.":"料金を読み込めませんでした。接続を確認して、もう一度試してください。","Reference converted amount":"参考換算額","Reference rate":"参考レート","Reference rate and date":"参照レートと日付","Reference rates dated {date}.":"参照レートの日付は {date} です。","Reference rates dated {date}. Source: Frankfurter reference-rate API.":"参照レートの日付は {date} です。ソース: Frankfurter 参照レート API。","Reference rates provide a neutral comparison point, not a guaranteed transaction rate. The result shows the market date returned by the Frankfurter reference-rate API.":"参照レートは中立的な比較ポイントを提供するものであり、保証された取引レートではありません。結果には、Frankfurter 参照レート API によって返された市場日付が表示されます。","Reference-rate date unavailable.":"参照レートの日付はありません。","Reject analytics":"分析の拒否","Result":"結果","Skip to calculator":"計算機にスキップ","Switch color theme":"カラーテーマを切り替える","Switch to dark theme":"ダークテーマに切り替える","Switch to light theme":"ライトテーマに切り替える","The amount shown in the local currency":"現地通貨で表示される金額","The calculator compares the complete DCC amount you enter with an estimate based on the reference rate, your percentage foreign transaction fee, and your fixed fee.":"計算機は、入力した合計金額 DCC を、参照レート、海外取引手数料の割合、および固定手数料に基づく推定値と比較します。","The DCC quote must be greater than zero.":"DCC 引用符はゼロより大きくなければなりません。","The final home-currency amount shown by the merchant or ATM, including fees shown there":"販売者または ATM によって表示される最終的な自国通貨の金額 (そこに表示される手数料を含む)","This is an informational comparison of the values entered, not financial advice or a promise of the final amount charged.":"これは入力された値の情報比較であり、財務上のアドバイスや最終的な請求額の約束ではありません。","To":"に","What Dynamic Currency Conversion means":"自国通貨建て決済（DCC）とは","What this estimate cannot know":"この推定では分からないこと","Your bank, card network, merchant or ATM may use a different exchange rate or charge another fee you did not enter. A fixed ATM fee is separate from a percentage foreign transaction fee.":"銀行、カードネットワーク、加盟店、ATM が別の為替レートを使ったり、入力していない手数料を加えたりする場合があります。固定 ATM 手数料は、割合で計算する海外事務手数料とは別です。","Your estimate":"あなたの見積もり"}</script>
   <script type="module" src="../../foreign-transaction-fee-calculator/calculator.js"></script>
 </body>
 </html>

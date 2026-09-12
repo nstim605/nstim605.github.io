@@ -813,6 +813,17 @@
     "foreign-related-tools": { "message": "如果只想比較兌換報價與參考匯率結果，請使用{markup}。如需在兩種貨幣之間進行一般換算，請開啟{currency}。", "links": { "markup": "匯率差額計算器", "currency": "貨幣換算器" } },
     "travel-related-tools": { "message": "透過{multi}將同一金額換算為多種貨幣，使用{currency}快速換算，或瞭解 Android 應用程式如何使用{offline}。", "links": { "multi": "多幣別換算器", "currency": "貨幣換算器", "offline": "已儲存的離線匯率" } }
   },
+  "ja": {
+    "currency-related-tools": { "message": "通貨ペアの推移は{history}で確認し、同じ金額を複数の通貨で比較するには{multi}、両替の提示額を確認するには{markup}、カード・現金引き出し・DCC の費用を比較するには{foreignFee}をご利用ください。", "links": { "history": "為替レート履歴", "multi": "複数通貨換算", "markup": "為替レート差額計算", "foreignFee": "手数料・DCC 計算" } },
+    "markup-related-tools": { "message": "カードや ATM の取引を、カード通貨で提示された換算額と比較する場合は{foreignFee}をご利用ください。1 組の通貨をすばやく換算するには{currency}を開きます。同じ金額を複数通貨で比較するには{multi}、保存したレートの仕組みは{offline}をご覧ください。", "links": { "foreignFee": "手数料・DCC 計算", "currency": "通貨換算", "multi": "複数通貨換算", "offline": "オフライン利用ガイド" } },
+    "multi-related-tools": { "message": "1 組の通貨を換算するには{currency}をご利用ください。推移は{history}で確認し、提示額は{markup}で比較できます。保存したレートをインターネットなしで使う方法は{offline}をご覧ください。", "links": { "currency": "通貨換算", "history": "為替レート履歴", "markup": "為替レート差額計算", "offline": "オフライン利用ガイド" } },
+    "offline-related-tools": { "message": "保存した通貨ペアへすばやくアクセスするには{widget}をご覧ください。オンライン換算には{currency}、同じ金額を複数通貨で比較するには{multi}、提示額の確認には{markup}をご利用ください。", "links": { "widget": "Android ウィジェットガイド", "currency": "通貨換算", "multi": "複数通貨換算", "markup": "為替レート差額計算" } },
+    "history-related-tools": { "message": "最新の利用可能なレートで換算するには{currency}をご利用ください。提示額を参照レートによる結果と比較するには{markup}を開きます。", "links": { "currency": "通貨換算", "markup": "為替レート差額計算" } },
+    "widget-offline-guide": { "message": "オフラインでも、最後に保存した参照レートは概算に利用でき、表示日からデータの古さを確認できます。詳しくは{offline}をご覧ください。", "links": { "offline": "オフライン利用ガイド" } },
+    "widget-more-tools": { "message": "アプリを開くと、金額の入力、通貨換算、{history}の確認、複数通貨の比較、オフライン用レートの保存ができます。", "links": { "history": "為替レート履歴" } },
+    "foreign-related-tools": { "message": "両替の提示額と参照レートによる結果だけを比較する場合は{markup}をご利用ください。通常の 2 通貨間換算には{currency}を開きます。", "links": { "markup": "為替レート差額計算", "currency": "通貨換算" } },
+    "travel-related-tools": { "message": "同じ金額を複数通貨で比較するには{multi}、すばやい換算には{currency}をご利用ください。Android アプリでの{offline}の使い方も確認できます。", "links": { "multi": "複数通貨換算", "currency": "通貨換算", "offline": "保存済みオフラインレート" } }
+  },
   "id": {
     "currency-related-tools": {
       "message": "Ikuti perubahan pasangan mata uang melalui {history}, bandingkan satu jumlah dalam beberapa mata uang dengan {multi}, periksa penawaran penukaran memakai {markup}, atau bandingkan biaya kartu, tarik tunai, dan DCC dengan {foreignFee}.",

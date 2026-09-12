@@ -40,6 +40,7 @@
     { "locale": "ms", "route": "ms", "language": "Malay", "dir": "ltr", "widths": [320, 390, 768, 1440] },
     { "locale": "vi", "route": "vi", "language": "Vietnamese", "dir": "ltr", "widths": [320, 390, 768, 1440] },
     { "locale": "zh-Hans", "route": "zh-hans", "language": "Chinese Simplified", "dir": "ltr", "widths": [320, 390, 768, 1440] },
-    { "locale": "zh-Hant", "route": "zh-hant", "language": "Chinese Traditional", "dir": "ltr", "widths": [320, 390, 768, 1440] }
+    { "locale": "zh-Hant", "route": "zh-hant", "language": "Chinese Traditional", "dir": "ltr", "widths": [320, 390, 768, 1440] },
+    { "locale": "ja", "route": "ja", "language": "Japanese", "dir": "ltr", "widths": [320, 390, 768, 1440] }
   ]
 }
