@@ -1,0 +1,36 @@
+{
+  "generatedAt": "2026-09-12T02:56:39.643Z",
+  "locale": "pt-BR",
+  "language": "Portuguese Brazil",
+  "status": "PASS",
+  "layouts": {
+    "pages": 8,
+    "widths": [
+      320,
+      390,
+      768,
+      1440
+    ],
+    "checks": 32
+  },
+  "navigation": {
+    "localeLinks": "PASS",
+    "lastArrowHidden": "PASS",
+    "intermediateArrowsVisible": "PASS"
+  },
+  "interactions": [
+    "currency",
+    "deviation +5%",
+    "deviation -5% core / higher-offer UI branch",
+    "multi-currency",
+    "history 30/90/365 + dated lookup",
+    "foreign-fee/DCC",
+    "travel-budget"
+  ],
+  "formatting": [
+    "1,5 EUR → RSD 175,5",
+    "8 de set. de 2026"
+  ],
+  "networkFailure": "PASS",
+  "runtimeErrors": 0
+}
