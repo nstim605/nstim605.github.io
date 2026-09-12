@@ -693,6 +693,44 @@
       }
     }
   },
+  "hu": {
+    "currency-related-tools": {
+      "message": "Kövesse egy devizapár alakulását az {history}, hasonlítson össze egy összeget több pénznemben a {multi}, értékeljen egy átváltási ajánlatot az {markup}, vagy vesse össze a kártyás fizetés, a készpénzfelvétel és a DCC költségeit a {foreignFee}.",
+      "links": { "history": "árfolyamtörténetben", "multi": "többpénznemes átváltóval", "markup": "árfolyameltérés-kalkulátorral", "foreignFee": "külföldi tranzakciós díj- és DCC-kalkulátorral" }
+    },
+    "markup-related-tools": {
+      "message": "Kártyás fizetést vagy készpénzfelvételt hasonlítana össze a kártya pénznemében felkínált átváltással? Használja a {foreignFee}. Egy devizapár gyors átváltásához nyissa meg a {currency}. Egy összeg több pénznemben történő összehasonlításához használja a {multi}; az {offline} bemutatja a mentett árfolyamok működését.",
+      "links": { "foreignFee": "külföldi tranzakciós díj- és DCC-kalkulátort", "currency": "valutaátváltót", "multi": "többpénznemes átváltót", "offline": "offline átváltási útmutató" }
+    },
+    "multi-related-tools": {
+      "message": "Egyetlen devizapárhoz használja a {currency}. Tekintse meg az alakulását az {history}, értékeljen egy ajánlatot az {markup}, vagy az {offline} segítségével ismerje meg az internet nélküli átváltás működését.",
+      "links": { "currency": "valutaátváltót", "history": "árfolyamtörténetben", "markup": "árfolyameltérés-kalkulátorral", "offline": "offline átváltási útmutató" }
+    },
+    "offline-related-tools": {
+      "message": "Egy mentett devizapár gyors megtekintéséhez használja az {widget}. Online átváltáshoz nyissa meg a {currency}, hasonlítson össze egy összeget több pénznemben a {multi}, vagy értékeljen egy ajánlatot az {markup}.",
+      "links": { "widget": "Android-widget útmutatót", "currency": "valutaátváltót", "multi": "többpénznemes átváltóval", "markup": "árfolyameltérés-kalkulátorral" }
+    },
+    "history-related-tools": {
+      "message": "A legfrissebb elérhető árfolyammal történő átváltáshoz használja a {currency}. Egy átváltási ajánlat és a referenciaeredmény összehasonlításához nyissa meg az {markup}.",
+      "links": { "currency": "valutaátváltót", "markup": "árfolyameltérés-kalkulátort" }
+    },
+    "widget-offline-guide": {
+      "message": "Internet nélkül az utoljára mentett referenciaárfolyam továbbra is használható becslésekhez; a dátum megmutatja az adatok korát. További részletek az {offline} találhatók.",
+      "links": { "offline": "offline átváltási útmutatóban" }
+    },
+    "widget-more-tools": {
+      "message": "Nyissa meg az alkalmazást összeg megadásához, pénznemek átváltásához, az {history} megtekintéséhez, több pénznem összehasonlításához vagy árfolyamok offline használatra való mentéséhez.",
+      "links": { "history": "árfolyamtörténet" }
+    },
+    "foreign-related-tools": {
+      "message": "Ha csak egy átváltási ajánlatot szeretne összevetni a referenciaeredménnyel, használja az {markup}. Két pénznem szokásos átváltásához nyissa meg a {currency}.",
+      "links": { "markup": "árfolyameltérés-kalkulátort", "currency": "valutaátváltót" }
+    },
+    "travel-related-tools": {
+      "message": "Hasonlítson össze egy összeget több pénznemben a {multi}, végezzen gyors átváltást a {currency}, vagy tudja meg, hogyan használja az Android-alkalmazás az {offline}.",
+      "links": { "multi": "többpénznemes átváltóval", "currency": "valutaátváltóval", "offline": "offline használatra mentett árfolyamokat" }
+    }
+  },
   "ro": {
     "currency-related-tools": {
       "message": "Urmăriți evoluția unei perechi valutare în {history}, comparați o sumă în mai multe monede cu {multi}, evaluați o ofertă de schimb cu {markup} sau comparați costurile plății cu cardul, retragerii de numerar și DCC cu {foreignFee}.",
