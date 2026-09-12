@@ -5,8 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#f7f8fa" media="(prefers-color-scheme: light)">
   <meta name="theme-color" content="#070a0f" media="(prefers-color-scheme: dark)">
-  <title>Kalkulačka výmenného kurzu | Balkan Currency Converter</title>
-  <meta name="description" content="Porovnajte ponuku výmeny s najnovším referenčným kurzom. Vypočítajte si sumu, ktorú dostanete, rozdiel a efektívnu prirážku výmenného kurzu.">
+  <title>Kalkulačka kurzovej odchýlky | Balkan Currency Converter</title>
+  <meta name="description" content="Porovnajte ponuku zmenárne s najnovším referenčným kurzom. Vypočítajte prijatú sumu, rozdiel a percentuálnu kurzovú odchýlku.">
   <link rel="canonical" href="https://balkanconverter.com/sk/exchange-rate-markup-calculator/">
   <link rel="alternate" hreflang="en" href="https://balkanconverter.com/exchange-rate-markup-calculator/">
   <link rel="alternate" hreflang="sr" href="https://balkanconverter.com/sr/exchange-rate-markup-calculator/">
@@ -55,12 +55,12 @@
   <link rel="alternate" hreflang="x-default" href="https://balkanconverter.com/exchange-rate-markup-calculator/">
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="Balkan Currency Converter">
-  <meta property="og:title" content="Kalkulačka prirážky výmenného kurzu">
+  <meta property="og:title" content="Kalkulačka kurzovej odchýlky">
   <meta property="og:description" content="Pozrite sa, ako ďaleko je ponuka výmeny od najnovšieho referenčného kurzu.">
   <meta property="og:url" content="https://balkanconverter.com/sk/exchange-rate-markup-calculator/">
   <meta property="og:image" content="https://balkanconverter.com/assets/og-v1-5-11.png">
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Kalkulačka prirážky výmenného kurzu">
+  <meta name="twitter:title" content="Kalkulačka kurzovej odchýlky">
   <meta name="twitter:description" content="Porovnajte ponuku výmeny s najnovším referenčným kurzom.">
   <meta name="twitter:image" content="https://balkanconverter.com/assets/og-v1-5-11.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/assets/icons/v1-5-11/favicon-32.png">
@@ -68,7 +68,7 @@
   <link rel="manifest" href="../../site.webmanifest">
   <link rel="stylesheet" href="../../styles.css">
   <script type="application/ld+json">
-  {"@context":"https://schema.org","@type":"WebApplication","name":"Kalkulačka prirážky výmenného kurzu","url":"https://balkanconverter.com/sk/exchange-rate-markup-calculator/","applicationCategory":"FinanceApplication","operatingSystem":"Any","isAccessibleForFree":true,"description":"Porovnajte ponuku výmeny s najnovšou referenčnou sadzbou a vypočítajte efektívnu prirážku."}
+  {"@context":"https://schema.org","@type":"WebApplication","name":"Kalkulačka kurzovej odchýlky","url":"https://balkanconverter.com/sk/exchange-rate-markup-calculator/","applicationCategory":"FinanceApplication","operatingSystem":"Any","isAccessibleForFree":true,"description":"Porovnajte ponuku zmenárne s najnovším referenčným kurzom a vypočítajte percentuálnu odchýlku."}
   </script>
 </head>
 <body>
@@ -143,11 +143,11 @@
     <section class="calculator-hero shell" aria-labelledby="calculator-title">
       <a class="back-link" href="/sk/"><span aria-hidden="true">←</span> Späť na Balkan Currency Converter</a>
       <p class="eyebrow"><span class="status-dot"></span> Bezplatný menový nástroj</p>
-      <h1 id="calculator-title">Kalkulačka prirážky výmenného kurzu</h1>
-      <p class="hero-lede">Porovnajte sumu, ktorú ponúka zmenárenská služba, s najnovšou dostupnou referenčnou sadzbou. Pred výmenou si pozrite rozdiel a efektívnu prirážku.</p>
+      <h1 id="calculator-title">Kalkulačka kurzovej odchýlky</h1>
+      <p class="hero-lede">Porovnajte sumu ponúkanú zmenárenskou službou s najnovším dostupným referenčným kurzom. Ešte pred výmenou uvidíte rozdiel aj percentuálnu kurzovú odchýlku.</p>
     </section>
 
-    <section class="calculator-layout shell" aria-label="Kalkulačka prirážok">
+    <section class="calculator-layout shell" aria-label="Kalkulačka kurzovej odchýlky">
       <form class="calculator-card" id="markup-form" novalidate>
         <div class="field-grid">
           <label>Zdrojová mena
@@ -165,23 +165,23 @@
           <span class="input-hint">V zdrojovej mene</span>
           <input id="source-amount" name="amount" inputmode="decimal" autocomplete="off" value="100" aria-describedby="calculator-status">
         </label>
-        <label>Suma, ktorú ponúkate
+        <label>Ponúknutá suma
           <span class="input-hint">Čo by ste dostali v cieľovej mene</span>
           <input id="offered-amount" name="offered" inputmode="decimal" autocomplete="off" placeholder="Napríklad 11 500" aria-describedby="calculator-status">
         </label>
-        <button class="primary-button" type="submit">Vypočítajte prirážku</button>
+        <button class="primary-button" type="submit">Vypočítať kurzovú odchýlku</button>
         <p class="calculator-status" id="calculator-status" role="status" aria-live="polite">Zadajte ponuku, ktorú chcete porovnať.</p>
       </form>
 
       <section class="results-card" id="calculator-results" tabindex="-1" aria-labelledby="results-title" hidden>
-        <p class="eyebrow">Tvoje prirovnanie</p>
+        <p class="eyebrow">Vaše porovnanie</p>
         <h2 id="results-title">Výsledok ponuky výmeny</h2>
         <dl class="result-list">
-          <div><dt>Referenčná sadzba</dt><dd data-result="referenceRate"></dd></div>
+          <div><dt>Referenčný kurz</dt><dd data-result="referenceRate"></dd></div>
           <div><dt>Referenčný výsledok</dt><dd data-result="referenceResult"></dd></div>
           <div><dt>Ponúkaný výsledok</dt><dd data-result="offeredResult"></dd></div>
           <div><dt data-label="difference">Dostanete menej o</dt><dd data-result="difference"></dd></div>
-          <div class="result-emphasis"><dt data-label="percentage">Kurzová prirážka</dt><dd data-result="percentage"></dd></div>
+          <div class="result-emphasis"><dt data-label="percentage">Percentuálna kurzová odchýlka</dt><dd data-result="percentage"></dd></div>
         </dl>
         <p class="result-summary"></p>
         <p class="result-date"></p>
@@ -191,14 +191,14 @@
     <section class="calculator-explanation shell" aria-labelledby="meaning-title">
       <article>
         <h2 id="meaning-title">Čo znamená percento</h2>
-        <p>Kalkulačka najskôr odhadne, koľko by vyprodukovala posledná referenčná sadzba. Potom túto sumu porovná so sumou, ktorá vám bola ponúknutá.</p>
-        <p>Poskytovateľ môže inzerovať „bez provízie“ pri použití menej výhodného výmenného kurzu. Tento nedostatok je v skutočnosti nákladom skrytým v sadzbe.</p>
-        <p><strong>Značka = (referenčný výsledok – ponúkaný výsledok) ÷ referenčný výsledok × 100.</strong></p>
+        <p>Kalkulačka najprv odhadne výsledok podľa najnovšieho referenčného kurzu a potom ho porovná s ponúknutou sumou.</p>
+        <p>Poskytovateľ môže propagovať výmenu „bez provízie“, ale použiť menej výhodný kurz. Rozdiel potom v skutočnosti predstavuje náklad skrytý v kurze.</p>
+        <p><strong>Kurzová odchýlka = (referenčný výsledok − ponúkaný výsledok) ÷ referenčný výsledok × 100.</strong></p>
       </article>
       <aside>
         <h2>Dôležité vedieť</h2>
-        <p>Toto je informačné porovnanie, nie finančné poradenstvo. Ponuka môže zahŕňať poplatky za služby, poplatky za kartu, manipuláciu s hotovosťou alebo rozpätie od poskytovateľa. Referenčné sadzby nie sú garantované transakčné sadzby.</p>
-        <p data-i18n-rich="markup-related-tools">Comparing a card or ATM transaction with an offered home-currency conversion? Use the <a class="text-link" data-i18n-slot="foreignFee" href="/sk/foreign-transaction-fee-calculator/">Foreign Transaction Fee &amp; DCC Calculator</a>. For a quick pair conversion, use the <a class="text-link" data-i18n-slot="currency" href="/sk/currency-converter/">Prevodník mien</a>. For several results at once, try the <a class="text-link" data-i18n-slot="multi" href="/sk/multi-currency-converter/">Multi-Currency Converter</a>, or learn how <a class="text-link" data-i18n-slot="offline" href="/sk/offline-currency-converter/">saved offline rates</a> work.</p>
+        <p>Ide o informačné porovnanie, nie o finančné poradenstvo. Ponuka môže zahŕňať poplatky za služby, kartu či hotovosť alebo kurzové rozpätie poskytovateľa. Referenčné kurzy nie sú zaručenými transakčnými kurzmi.</p>
+        <p data-i18n-rich="markup-related-tools">Porovnávate platbu kartou alebo výber hotovosti s prepočtom ponúknutým v mene karty? Použite <a class="text-link" data-i18n-slot="foreignFee" href="/sk/foreign-transaction-fee-calculator/">kalkulačku poplatkov a DCC</a>. Na rýchly prevod menového páru otvorte <a class="text-link" data-i18n-slot="currency" href="/sk/currency-converter/">prevodník mien</a>. Ak chcete porovnať jednu sumu vo viacerých menách, použite <a class="text-link" data-i18n-slot="multi" href="/sk/multi-currency-converter/">prevodník viacerých mien</a>; <a class="text-link" data-i18n-slot="offline" href="/sk/offline-currency-converter/">sprievodca prevodom offline</a> vysvetľuje, ako fungujú uložené kurzy.</p>
       </aside>
     </section>
 
@@ -206,7 +206,7 @@
       <div>
         <p class="eyebrow eyebrow-inverse">Potrebujete to na cestách?</p>
         <h2 id="app-cta-title">Porovnajte náklady v Balkan Converter</h2>
-        <p>Aplikácia Android pridáva skutočné náklady, offline sadzby, cestovnú tabuľu, uložené sady, grafy a miniaplikáciu na úvodnú obrazovku.</p>
+        <p>Aplikácia pre Android ponúka Actual Cost, offline kurzy, Travel Board, uložené sady, grafy a widget na domovskú obrazovku.</p>
       </div>
       <a class="play-link play-link-on-dark calculator-play-cta" href="https://play.google.com/store/apps/details?id=io.github.nstim605.balkanconverter" aria-label="Získajte Balkan Currency Converter na Google Play">
         <img src="/assets/google-play-badge-en.png" width="202" height="60" alt="Získajte ho na Google Play">
@@ -237,7 +237,7 @@
     </div>
   </template>
   <script src="../../script.js" defer></script>
-  <script id="tool-i18n" type="application/json">{"© 2026 Balkan Currency Converter":"© 2026 Balkan Currency Converter","A provider can advertise “no commission” while using a less favourable exchange rate. That shortfall is effectively a cost hidden in the rate.":"Poskytovateľ môže inzerovať „bez provízie“ pri použití menej výhodného výmenného kurzu. Tento nedostatok je v skutočnosti nákladom skrytým v sadzbe.","A reference rate is unavailable for this currency pair.":"Referenčný kurz pre tento menový pár nie je k dispozícii.","Above reference by":"Vyššie uvedený odkaz od","Accept analytics":"Prijmite analytiku","Amount":"Suma","Amount you are offered":"Suma, ktorú ponúkate","Amount you give":"Suma, ktorú dáte","Amounts and rates must be positive numbers.":"Sumy a sadzby musia byť kladné čísla.","Analytics choices":"Možnosti služby Analytics","Back to Balkan Currency Converter":"Späť na Balkan Currency Converter","Balkan Currency Converter home":"Domov Balkan Currency Converter","Calculate markup":"Vypočítajte prirážku","Calculation updated from the latest available reference rates.":"Výpočet aktualizovaný z najnovších dostupných referenčných sadzieb.","Choose two different currencies.":"Vyberte si dve rôzne meny.","Compare an exchange offer with the latest reference rate and calculate the effective markup.":"Porovnajte ponuku výmeny s najnovšou referenčnou sadzbou a vypočítajte efektívnu prirážku.","Compare an exchange offer with the latest reference rate.":"Porovnajte ponuku výmeny s najnovším referenčným kurzom.","Compare an exchange offer with the latest reference rate. Calculate the amount you receive, the difference, and the effective exchange-rate markup.":"Porovnajte ponuku výmeny s najnovším referenčným kurzom. Vypočítajte si sumu, ktorú dostanete, rozdiel a efektívnu prirážku výmenného kurzu.","Compare costs in Balkan Converter":"Porovnajte náklady v Balkan Converter","Compare the amount an exchange service offers with the latest available reference rate. See the difference and the effective markup before you exchange.":"Porovnajte sumu, ktorú ponúka zmenárenská služba, s najnovšou dostupnou referenčnou sadzbou. Pred výmenou si pozrite rozdiel a efektívnu prirážku.","Currency conversion for Android":"Konverzia meny pre Android","Currency Converter":"Prevodník mien","Date":"Dátum","Enter the offer you want to compare.":"Zadajte ponuku, ktorú chcete porovnať.","Enter two amounts greater than zero.":"Zadajte dve sumy väčšie ako nula.","EUR — Euro":"EUR — Euro","Exchange offer result":"Výsledok ponuky výmeny","Exchange Rate Markup Calculator":"Kalkulačka prirážky výmenného kurzu","Exchange Rate Markup Calculator | Balkan Currency Converter":"Kalkulačka výmenného kurzu | Balkan Currency Converter","Exchange-rate markup":"Kurzová prirážka","Fetching the latest reference rates…":"Načítavajú sa najnovšie referenčné sadzby…","Footer navigation":"Navigácia v päte","For example, 11,500":"Napríklad 11 500","Free currency tool":"Bezplatný menový nástroj","Get Balkan Currency Converter on Google Play":"Získajte Balkan Currency Converter na Google Play","Get it on Google Play":"Získajte ho na Google Play","Help us understand site usage. Firebase Analytics stays off unless you accept.":"Pomôžte nám pochopiť používanie stránok. Firebase Analytics zostane vypnutý, pokiaľ neprijmete.","Home":"Domov","Important to know":"Dôležité vedieť","In the source currency":"V zdrojovej mene","Learn more":"Zistite viac","Loading latest rates…":"Načítavajú sa najnovšie sadzby…","Main navigation":"Hlavná navigácia","Markup = (reference result − offered result) ÷ reference result × 100.":"Značka = (referenčný výsledok – ponúkaný výsledok) ÷ referenčný výsledok × 100.","Markup calculator":"Kalkulačka prirážok","Markup Calculator":"Kalkulačka prirážky","Need this on the go?":"Potrebujete to na cestách?","No reference rates were returned.":"Neboli vrátené žiadne referenčné sadzby.","Offered result":"Ponúkaný výsledok","Optional":"Voliteľné","Optional analytics":"Voliteľná analytika","Privacy":"Ochrana osobných údajov","Privacy Policy":"Zásady ochrany osobných údajov","Rate":"ohodnotiť","Rates could not be loaded. Check your connection and try again.":"Sadzby sa nepodarilo načítať. Skontrolujte pripojenie a skúste to znova.","Reference rate":"Referenčná sadzba","Reference rates dated {date}.":"Referenčné sadzby datované {date}.","Reference result":"Referenčný výsledok","Reference-rate data is incomplete.":"Údaje o referenčnej sadzbe sú neúplné.","Reject analytics":"Odmietnuť analýzu","Result":"Výsledok","RSD — Serbian Dinar":"RSD — srbský dinár","See how far an exchange offer is from the latest reference rate.":"Pozrite sa, ako ďaleko je ponuka výmeny od najnovšieho referenčného kurzu.","Skip to calculator":"Preskočiť na kalkulačku","Source currency":"Zdrojová mena","Switch color theme":"Prepnúť farebný motív","Switch to dark theme":"Prepnúť na tmavý motív","Switch to light theme":"Prepnúť na svetlú tému","Target currency":"Cieľová mena","The Android app adds Actual Cost, offline rates, Travel Board, saved sets, charts, and a home-screen widget.":"Aplikácia Android pridáva skutočné náklady, offline sadzby, cestovnú tabuľu, uložené sady, grafy a miniaplikáciu na úvodnú obrazovku.","The calculator first estimates how much the latest reference rate would produce. It then compares that amount with the amount you were offered.":"Kalkulačka najskôr odhadne, koľko by vyprodukovala posledná referenčná sadzba. Potom túto sumu porovná so sumou, ktorá vám bola ponúknutá.","The offer is {percentage} above the reference result.":"Ponuka je {percentage} nad referenčným výsledkom.","The offer is {percentage} below the reference result.":"Ponuka je {percentage} pod referenčným výsledkom.","This is an informational comparison, not financial advice. An offer may include service fees, card charges, cash handling, or a provider’s spread. Reference rates are not guaranteed transaction rates.":"Toto je informačné porovnanie, nie finančné poradenstvo. Ponuka môže zahŕňať poplatky za služby, poplatky za kartu, manipuláciu s hotovosťou alebo rozpätie od poskytovateľa. Referenčné sadzby nie sú garantované transakčné sadzby.","What the percentage means":"Čo znamená percento","What you would receive in the target currency":"Čo by ste dostali v cieľovej mene","You receive less by":"Dostanete menej o","You receive more by":"Dostanete viac tým","Your comparison":"Tvoje prirovnanie"}</script>
+  <script id="tool-i18n" type="application/json">{"© 2026 Balkan Currency Converter":"© 2026 Balkan Currency Converter","A provider can advertise “no commission” while using a less favourable exchange rate. That shortfall is effectively a cost hidden in the rate.":"Poskytovateľ môže propagovať výmenu „bez provízie“, ale použiť menej výhodný kurz. Rozdiel potom v skutočnosti predstavuje náklad skrytý v kurze.","A reference rate is unavailable for this currency pair.":"Referenčný kurz pre tento menový pár nie je k dispozícii.","Above reference by":"Nad referenčnou hodnotou o","Accept analytics":"Povoliť analytiku","Amount":"Suma","Amount you are offered":"Ponúknutá suma","Amount you give":"Suma, ktorú dáte","Amounts and rates must be positive numbers.":"Sumy a kurzy musia byť kladné čísla.","Analytics choices":"Možnosti služby Analytics","Back to Balkan Currency Converter":"Späť na Balkan Currency Converter","Balkan Currency Converter home":"Domov Balkan Currency Converter","Calculate markup":"Vypočítať kurzovú odchýlku","Calculation updated from the latest available reference rates.":"Výpočet bol aktualizovaný podľa najnovších dostupných referenčných kurzov.","Choose two different currencies.":"Vyberte si dve rôzne meny.","Compare an exchange offer with the latest reference rate and calculate the effective markup.":"Porovnajte ponuku zmenárne s najnovším referenčným kurzom a vypočítajte percentuálnu odchýlku.","Compare an exchange offer with the latest reference rate.":"Porovnajte ponuku výmeny s najnovším referenčným kurzom.","Compare an exchange offer with the latest reference rate. Calculate the amount you receive, the difference, and the effective exchange-rate markup.":"Porovnajte ponuku zmenárne s najnovším referenčným kurzom. Vypočítajte prijatú sumu, rozdiel a percentuálnu kurzovú odchýlku.","Compare costs in Balkan Converter":"Porovnajte náklady v Balkan Converter","Compare the amount an exchange service offers with the latest available reference rate. See the difference and the effective markup before you exchange.":"Porovnajte sumu ponúkanú zmenárenskou službou s najnovším dostupným referenčným kurzom. Ešte pred výmenou uvidíte rozdiel aj percentuálnu kurzovú odchýlku.","Currency conversion for Android":"Konverzia meny pre Android","Currency Converter":"Prevodník mien","Date":"Dátum","Enter the offer you want to compare.":"Zadajte ponuku, ktorú chcete porovnať.","Enter two amounts greater than zero.":"Zadajte dve sumy väčšie ako nula.","EUR — Euro":"EUR — Euro","Exchange offer result":"Výsledok ponuky výmeny","Exchange Rate Markup Calculator":"Kalkulačka kurzovej odchýlky","Exchange Rate Markup Calculator | Balkan Currency Converter":"Kalkulačka kurzovej odchýlky | Balkan Currency Converter","Exchange-rate markup":"Percentuálna kurzová odchýlka","Fetching the latest reference rates…":"Načítavajú sa najnovšie referenčné kurzy…","Footer navigation":"Navigácia v päte","For example, 11,500":"Napríklad 11 500","Free currency tool":"Bezplatný menový nástroj","Get Balkan Currency Converter on Google Play":"Získajte Balkan Currency Converter na Google Play","Get it on Google Play":"Získajte ho na Google Play","Help us understand site usage. Firebase Analytics stays off unless you accept.":"Pomôžte nám pochopiť používanie stránok. Firebase Analytics zostane vypnutý, pokiaľ neprijmete.","Home":"Domov","Important to know":"Dôležité vedieť","In the source currency":"V zdrojovej mene","Learn more":"Zistite viac","Loading latest rates…":"Načítavajú sa najnovšie kurzy…","Main navigation":"Hlavná navigácia","Markup = (reference result − offered result) ÷ reference result × 100.":"Kurzová odchýlka = (referenčný výsledok − ponúkaný výsledok) ÷ referenčný výsledok × 100.","Markup calculator":"Kalkulačka kurzovej odchýlky","Markup Calculator":"Kalkulačka kurzovej odchýlky","Need this on the go?":"Potrebujete to na cestách?","No reference rates were returned.":"Neboli vrátené žiadne referenčné kurzy.","Offered result":"Ponúkaný výsledok","Optional":"Voliteľné","Optional analytics":"Voliteľná analytika","Privacy":"Ochrana osobných údajov","Privacy Policy":"Zásady ochrany osobných údajov","Rate":"Kurz","Rates could not be loaded. Check your connection and try again.":"Kurzy sa nepodarilo načítať. Skontrolujte pripojenie a skúste to znova.","Reference rate":"Referenčný kurz","Reference rates dated {date}.":"Referenčné kurzy k dátumu {date}.","Reference result":"Referenčný výsledok","Reference-rate data is incomplete.":"Údaje o referenčných kurzoch nie sú úplné.","Reject analytics":"Odmietnuť analýzu","Result":"Výsledok","RSD — Serbian Dinar":"RSD — srbský dinár","See how far an exchange offer is from the latest reference rate.":"Pozrite sa, ako ďaleko je ponuka výmeny od najnovšieho referenčného kurzu.","Skip to calculator":"Preskočiť na kalkulačku","Source currency":"Zdrojová mena","Switch color theme":"Prepnúť farebný motív","Switch to dark theme":"Prepnúť na tmavý motív","Switch to light theme":"Prepnúť na svetlú tému","Target currency":"Cieľová mena","The Android app adds Actual Cost, offline rates, Travel Board, saved sets, charts, and a home-screen widget.":"Aplikácia pre Android ponúka Actual Cost, offline kurzy, Travel Board, uložené sady, grafy a widget na domovskú obrazovku.","The calculator first estimates how much the latest reference rate would produce. It then compares that amount with the amount you were offered.":"Kalkulačka najprv odhadne výsledok podľa najnovšieho referenčného kurzu a potom ho porovná s ponúknutou sumou.","The offer is {percentage} above the reference result.":"Ponuka je {percentage} nad referenčným výsledkom.","The offer is {percentage} below the reference result.":"Ponuka je {percentage} pod referenčným výsledkom.","This is an informational comparison, not financial advice. An offer may include service fees, card charges, cash handling, or a provider’s spread. Reference rates are not guaranteed transaction rates.":"Ide o informačné porovnanie, nie o finančné poradenstvo. Ponuka môže zahŕňať poplatky za služby, kartu či hotovosť alebo kurzové rozpätie poskytovateľa. Referenčné kurzy nie sú zaručenými transakčnými kurzmi.","What the percentage means":"Čo znamená percento","What you would receive in the target currency":"Čo by ste dostali v cieľovej mene","You receive less by":"Dostanete menej o","You receive more by":"Dostanete viac tým","Your comparison":"Vaše porovnanie"}</script>
   <script type="module" src="../../exchange-rate-markup-calculator/calculator.js"></script>
 </body>
 </html>

@@ -17,6 +17,7 @@
     { "locale": "ro", "route": "ro", "language": "Romanian", "dir": "ltr", "widths": [320, 390, 768, 1440] },
     { "locale": "hu", "route": "hu", "language": "Hungarian", "dir": "ltr", "widths": [320, 390, 768, 1440] },
     { "locale": "pl", "route": "pl", "language": "Polish", "dir": "ltr", "widths": [320, 390, 768, 1440] },
-    { "locale": "cs", "route": "cs", "language": "Czech", "dir": "ltr", "widths": [320, 390, 768, 1440] }
+    { "locale": "cs", "route": "cs", "language": "Czech", "dir": "ltr", "widths": [320, 390, 768, 1440] },
+    { "locale": "sk", "route": "sk", "language": "Slovak", "dir": "ltr", "widths": [320, 390, 768, 1440] }
   ]
 }
