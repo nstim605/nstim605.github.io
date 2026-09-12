@@ -27,6 +27,7 @@
     { "locale": "sv", "route": "sv", "language": "Swedish", "dir": "ltr", "widths": [320, 390, 768, 1440] },
     { "locale": "nb", "route": "nb", "language": "Norwegian Bokmal", "dir": "ltr", "widths": [320, 390, 768, 1440] },
     { "locale": "fi", "route": "fi", "language": "Finnish", "dir": "ltr", "widths": [320, 390, 768, 1440] },
-    { "locale": "is", "route": "is", "language": "Icelandic", "dir": "ltr", "widths": [320, 390, 768, 1440] }
+    { "locale": "is", "route": "is", "language": "Icelandic", "dir": "ltr", "widths": [320, 390, 768, 1440] },
+    { "locale": "el", "route": "el", "language": "Greek", "dir": "ltr", "widths": [320, 390, 768, 1440] }
   ]
 }
