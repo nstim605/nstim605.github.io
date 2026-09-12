@@ -136,15 +136,15 @@
       <a class="back-link" href="/nb/"><span aria-hidden="true">←</span> Tilbake til Balkan Currency Converter</a>
       <p class="eyebrow"><span class="status-dot"></span> Offline valutakursguide</p>
       <h1 id="offline-title">Frakoblet valutaomregner: Hvordan lagrede kurser fungerer</h1>
-      <p class="hero-lede">En omformer kan fortsette å jobbe uten internett ved å bruke de nyeste valutakursene den har lagret på enheten din. Disse prisene er nyttige referansedata – men de forblir knyttet til den opprinnelige datoen til appen kan oppdatere dem på nettet.</p>
+      <p class="hero-lede">En valutakalkulator kan fortsette å fungere uten internett med de nyeste kursene som er lagret på enheten. Kursene er nyttige referansedata, men beholder sin opprinnelige dato til appen kan oppdatere dem på nett.</p>
     </section>
 
     <section class="section shell" aria-labelledby="offline-flow-title">
-      <div class="section-heading"><div><p class="eyebrow">Den enkle versjonen</p><h2 id="offline-flow-title">Fra online oppdatering til offline konvertering</h2></div><p>Å lagre en sats får den ikke til å leve evig. Den lager en datert lokal kopi som kan brukes på nytt når nettverket er utilgjengelig.</p></div>
+      <div class="section-heading"><div><p class="eyebrow">Den enkle versjonen</p><h2 id="offline-flow-title">Fra online oppdatering til offline konvertering</h2></div><p>En lagret kurs holdes ikke oppdatert for alltid. Det opprettes en datert lokal kopi som kan brukes når nettverket ikke er tilgjengelig.</p></div>
       <div class="feature-grid">
-        <article class="feature-card"><span class="feature-mark" aria-hidden="true">1</span><h3>Koble til og oppdater</h3><p>Appen ber om det siste tilgjengelige referansehastighetsdatasettet og registrerer satsdatoen og sparer tid.</p></article>
-        <article class="feature-card"><span class="feature-mark" aria-hidden="true">2</span><h3>Behold den siste suksessen</h3><p>Etter en vellykket forespørsel lagres datasettet lokalt. Hvis en senere forespørsel mislykkes, forblir den forrige arbeidskopien tilgjengelig.</p></article>
-        <article class="feature-card feature-card-accent"><span class="feature-mark" aria-hidden="true">3</span><h3>Konverter uten internett</h3><p>Når de er frakoblet, bruker konverteringer det lagrede datasettet og viser at bufrede data brukes, sammen med prisdatoen.</p></article>
+        <article class="feature-card"><span class="feature-mark" aria-hidden="true">1</span><h3>Koble til og oppdater</h3><p>Appen henter det nyeste tilgjengelige datasettet med referansekurser og registrerer kursdato og lagringstidspunkt.</p></article>
+        <article class="feature-card"><span class="feature-mark" aria-hidden="true">2</span><h3>Behold den siste suksessen</h3><p>Etter en vellykket forespørsel lagres datasettet lokalt. Hvis en senere forespørsel mislykkes, er den forrige fungerende kopien fortsatt tilgjengelig.</p></article>
+        <article class="feature-card feature-card-accent"><span class="feature-mark" aria-hidden="true">3</span><h3>Konverter uten internett</h3><p>Uten internett bruker konverteringene det lagrede datasettet og viser sammen med kursdatoen at bufrede data brukes.</p></article>
       </div>
     </section>
 
@@ -152,11 +152,11 @@
       <article>
         <h2 id="snapshot-title">Hva en lagret frakoblet rate betyr</h2>
         <p>De lagrede dataene er et øyeblikksbilde av den siste vellykkede referansefrekvensresponsen. Den kan beregne konverteringer uten nettverkstilkobling, men tallene oppdateres ikke mens enheten er frakoblet.</p>
-        <p>Sjekk alltid den viste kursdatoen. Et resultat basert på gårsdagens kurs kan fortsatt være nyttig for planlegging, men det er ikke et løfte om kursen en bank, kortleverandør eller vekslingskontor vil tilby i dag.</p>
+        <p>Kontroller alltid den viste kursdatoen. Et resultat basert på gårsdagens kurser kan fortsatt være nyttig for planlegging, men garanterer ikke kursen en bank, kortutsteder eller vekslingskontor tilbyr i dag.</p>
       </article>
       <aside>
         <h2>Hva skjer når internett kommer tilbake?</h2>
-        <p>Balkan Converter bruker én delt lokal prisbuffer for normal konvertering og forberedelse av lagret sett. En vellykket online oppdatering erstatter det eldre hurtigbufrede datasettet og oppdaterer datoen og sparer tid.</p>
+        <p>Balkan Converter bruker én felles lokal kurshurtigbuffer for vanlig konvertering og klargjøring av lagrede sett. En vellykket oppdatering på nett erstatter det eldre datasettet og oppdaterer kursdato og lagringstidspunkt.</p>
         <p>Hvis oppdateringen mislykkes, faller appen tilbake til de tidligere bufrede hastighetene i stedet for å slette dem.</p>
       </aside>
     </section>
@@ -164,18 +164,18 @@
     <section class="calculator-explanation shell" aria-labelledby="prepare-title">
       <article>
         <h2 id="prepare-title">Forbered et lagret sett for offline bruk</h2>
-        <p>I Android-appen oppretter eller åpner du et lagret sett for valutaene du trenger. Mens tilkoblet, velg <strong>Lagre priser offline</strong>. Appen oppdaterer det delte kursdatasettet og bekrefter beredskap når den lagrede hurtigbufferen inneholder hver valuta i det settet.</p>
+        <p>I Android-appen oppretter eller åpner du et lagret sett for valutaene du trenger. Mens tilkoblet, velg <strong>Lagre kurser for bruk uten internett</strong>. Appen oppdaterer det felles kursdatasettet og bekrefter at settet er klart når hurtigbufferen inneholder alle valutaene i settet.</p>
         <p>Det er ingen egen fryst takstfil for hver tur. Når du forbereder et annet sett, oppdateres den samme hurtigbufferen som brukes andre steder i appen.</p>
       </article>
       <aside>
         <h2>Nyttig utover reise</h2>
         <p>Frakoblet konvertering kan hjelpe under en dårlig tilkobling, roamingavbrudd, et midlertidig tjenesteavbrudd eller enhver situasjon der et hurtigreferanseanslag er mer nyttig enn ingen resultat.</p>
-        <p data-i18n-rich="offline-related-tools">For quick access to the latest cached pair, see the <a class="text-link" data-i18n-slot="widget" href="/nb/currency-converter-widget/">Android currency widget guide</a>. For online comparisons, use the <a class="text-link" data-i18n-slot="currency" href="/nb/currency-converter/">Valutaomregner</a>, compare several results in the <a class="text-link" data-i18n-slot="multi" href="/nb/multi-currency-converter/">Multi-Currency Converter</a>, or check a provider’s offer with the <a class="text-link" data-i18n-slot="markup" href="/nb/exchange-rate-markup-calculator/">Exchange Rate Markup Calculator</a>.</p>
+        <p data-i18n-rich="offline-related-tools">Se <a class="text-link" data-i18n-slot="widget" href="/nb/currency-converter-widget/">veiledningen for Android-widgeten</a> for rask tilgang til et lagret valutapar. Bruk <a class="text-link" data-i18n-slot="currency" href="/nb/currency-converter/">valutakalkulatoren</a> for konvertering på nett, sammenlign ett beløp i flere valutaer med <a class="text-link" data-i18n-slot="multi" href="/nb/multi-currency-converter/">multivalutakalkulatoren</a>, eller vurder et vekslingstilbud med <a class="text-link" data-i18n-slot="markup" href="/nb/exchange-rate-markup-calculator/">kalkulatoren for kurspåslag</a>.</p>
       </aside>
     </section>
 
     <section class="cta-section shell calculator-cta" aria-labelledby="offline-cta-title">
-      <div><p class="eyebrow eyebrow-inverse">Hold en datert referanse tilgjengelig</p><h2 id="offline-cta-title">Bruk lagrede priser i Balkan Converter</h2><p>Android-appen kan gjenbruke sin siste vellykkede valutakursbuffer uten tilkobling og identifiserer tydelig bufrede data og kursdatoen.</p></div>
+      <div><p class="eyebrow eyebrow-inverse">Hold en datert referanse tilgjengelig</p><h2 id="offline-cta-title">Bruk lagrede kurser i Balkan Converter</h2><p>Android-appen kan gjenbruke sin siste vellykkede valutakursbuffer uten tilkobling og identifiserer tydelig bufrede data og kursdatoen.</p></div>
       <a class="play-link play-link-on-dark offline-play-cta" href="https://play.google.com/store/apps/details?id=io.github.nstim605.balkanconverter" aria-label="Få Balkan Currency Converter på Google Play"><img src="/assets/google-play-badge-en.png" width="202" height="60" alt="Få den på Google Play"></a>
     </section>
   </main>

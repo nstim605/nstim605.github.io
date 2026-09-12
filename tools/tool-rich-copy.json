@@ -769,6 +769,44 @@
       "links": { "multi": "prevodníka viacerých mien", "currency": "prevodníku mien", "offline": "kurzy uložené na použitie offline" }
     }
   },
+  "nb": {
+    "currency-related-tools": {
+      "message": "Følg utviklingen for et valutapar i {history}, sammenlign ett beløp i flere valutaer med {multi}, vurder et vekslingstilbud med {markup}, eller sammenlign kostnader for kort, kontantuttak og DCC med {foreignFee}.",
+      "links": { "history": "valutakurshistorikken", "multi": "multivalutakalkulatoren", "markup": "kalkulatoren for kurspåslag", "foreignFee": "gebyr- og DCC-kalkulatoren" }
+    },
+    "markup-related-tools": {
+      "message": "Sammenligner du kortbetaling eller kontantuttak med tilbudt konvertering til kortvalutaen? Bruk {foreignFee}. Åpne {currency} for rask konvertering av et valutapar. Sammenlign ett beløp i flere valutaer med {multi}; {offline} forklarer hvordan lagrede kurser fungerer.",
+      "links": { "foreignFee": "gebyr- og DCC-kalkulatoren", "currency": "valutakalkulatoren", "multi": "multivalutakalkulatoren", "offline": "veiledningen for bruk uten internett" }
+    },
+    "multi-related-tools": {
+      "message": "Bruk {currency} for ett valutapar. Se utviklingen i {history}, vurder et vekslingstilbud med {markup}, og les i {offline} hvordan lagrede kurser brukes uten internett.",
+      "links": { "currency": "valutakalkulatoren", "history": "valutakurshistorikken", "markup": "kalkulatoren for kurspåslag", "offline": "veiledningen for bruk uten internett" }
+    },
+    "offline-related-tools": {
+      "message": "Se {widget} for rask tilgang til et lagret valutapar. Bruk {currency} for konvertering på nett, sammenlign ett beløp i flere valutaer med {multi}, eller vurder et vekslingstilbud med {markup}.",
+      "links": { "widget": "veiledningen for Android-widgeten", "currency": "valutakalkulatoren", "multi": "multivalutakalkulatoren", "markup": "kalkulatoren for kurspåslag" }
+    },
+    "history-related-tools": {
+      "message": "Bruk {currency} for konvertering med den nyeste tilgjengelige kursen. Åpne {markup} for å sammenligne et vekslingstilbud med resultatet etter referansekursen.",
+      "links": { "currency": "valutakalkulatoren", "markup": "kalkulatoren for kurspåslag" }
+    },
+    "widget-offline-guide": {
+      "message": "Uten internett kan den sist lagrede referansekursen fortsatt brukes til overslag, mens datoen viser hvor gamle dataene er. Les mer i {offline}.",
+      "links": { "offline": "veiledningen for bruk uten internett" }
+    },
+    "widget-more-tools": {
+      "message": "Åpne appen for å skrive inn et beløp, konvertere valuta, se {history}, sammenligne flere valutaer eller lagre kurser for bruk uten internett.",
+      "links": { "history": "valutakurshistorikken" }
+    },
+    "foreign-related-tools": {
+      "message": "Hvis du bare vil sammenligne et vekslingstilbud med resultatet etter referansekursen, bruker du {markup}. Åpne {currency} for vanlig konvertering mellom to valutaer.",
+      "links": { "markup": "kalkulatoren for kurspåslag", "currency": "valutakalkulatoren" }
+    },
+    "travel-related-tools": {
+      "message": "Sammenlign ett beløp i flere valutaer med {multi}, gjør en rask konvertering med {currency}, eller les hvordan Android-appen bruker {offline}.",
+      "links": { "multi": "multivalutakalkulatoren", "currency": "valutakalkulatoren", "offline": "lagrede kurser uten internett" }
+    }
+  },
   "sv": {
     "currency-related-tools": {
       "message": "Följ utvecklingen för ett valutapar i {history}, jämför ett belopp i flera valutor med {multi}, bedöm ett växlingserbjudande med {markup} eller jämför kostnader för kort, kontantuttag och DCC med {foreignFee}.",
