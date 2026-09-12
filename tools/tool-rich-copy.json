@@ -693,6 +693,44 @@
       }
     }
   },
+  "ro": {
+    "currency-related-tools": {
+      "message": "Urmăriți evoluția unei perechi valutare în {history}, comparați o sumă în mai multe monede cu {multi}, evaluați o ofertă de schimb cu {markup} sau comparați costurile plății cu cardul, retragerii de numerar și DCC cu {foreignFee}.",
+      "links": { "history": "istoricul cursului de schimb", "multi": "convertorul pentru mai multe monede", "markup": "calculatorul abaterii cursului", "foreignFee": "calculatorul comisioanelor și DCC" }
+    },
+    "markup-related-tools": {
+      "message": "Comparați o plată cu cardul sau o retragere de numerar cu o conversie oferită în moneda cardului? Folosiți {foreignFee}. Pentru conversia rapidă a unei perechi valutare, deschideți {currency}. Pentru a compara o sumă în mai multe monede, folosiți {multi}; {offline} explică modul în care funcționează cursurile salvate.",
+      "links": { "foreignFee": "calculatorul comisioanelor și DCC", "currency": "convertorul valutar", "multi": "convertorul pentru mai multe monede", "offline": "ghidul conversiei offline" }
+    },
+    "multi-related-tools": {
+      "message": "Pentru o singură pereche valutară, folosiți {currency}. Urmăriți evoluția în {history}, evaluați o ofertă cu {markup} sau aflați din {offline} cum funcționează conversia fără internet.",
+      "links": { "currency": "convertorul valutar", "history": "istoricul cursului de schimb", "markup": "calculatorul abaterii cursului", "offline": "ghidul conversiei offline" }
+    },
+    "offline-related-tools": {
+      "message": "Pentru acces rapid la o pereche valutară salvată, consultați {widget}. Pentru conversii online, deschideți {currency}, comparați o sumă în mai multe monede cu {multi} sau evaluați o ofertă cu {markup}.",
+      "links": { "widget": "ghidul widgetului Android", "currency": "convertorul valutar", "multi": "convertorul pentru mai multe monede", "markup": "calculatorul abaterii cursului" }
+    },
+    "history-related-tools": {
+      "message": "Pentru conversii la cel mai recent curs disponibil, folosiți {currency}. Pentru a compara o ofertă de schimb cu rezultatul la cursul de referință, deschideți {markup}.",
+      "links": { "currency": "convertorul valutar", "markup": "calculatorul abaterii cursului" }
+    },
+    "widget-offline-guide": {
+      "message": "Fără internet, ultimul curs de referință salvat rămâne disponibil pentru estimări, iar data arată vechimea datelor. Aflați mai multe din {offline}.",
+      "links": { "offline": "ghidul conversiei offline" }
+    },
+    "widget-more-tools": {
+      "message": "Deschideți aplicația pentru a introduce o sumă, a converti monede, a consulta {history}, a compara mai multe monede sau a salva cursuri pentru utilizare offline.",
+      "links": { "history": "istoricul cursului de schimb" }
+    },
+    "foreign-related-tools": {
+      "message": "Dacă doriți doar să comparați o ofertă de schimb cu rezultatul la cursul de referință, folosiți {markup}. Pentru o conversie obișnuită între două monede, deschideți {currency}.",
+      "links": { "markup": "calculatorul abaterii cursului", "currency": "convertorul valutar" }
+    },
+    "travel-related-tools": {
+      "message": "Comparați o sumă în mai multe monede cu {multi}, faceți o conversie rapidă cu {currency} sau aflați cum folosește aplicația Android {offline}.",
+      "links": { "multi": "convertorul pentru mai multe monede", "currency": "convertorul valutar", "offline": "cursurile salvate pentru utilizare offline" }
+    }
+  },
   "uk": {
     "currency-related-tools": {
       "message": "Перегляньте динаміку валютної пари в розділі {history}; порівняйте одну суму в кількох валютах за допомогою {multi}; перевірте пропозицію обмінного сервісу в {markup}; або порівняйте витрати на оплату карткою, зняття готівки та DCC у {foreignFee}.",
