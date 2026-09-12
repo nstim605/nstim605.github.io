@@ -769,6 +769,44 @@
       "links": { "multi": "prevodníka viacerých mien", "currency": "prevodníku mien", "offline": "kurzy uložené na použitie offline" }
     }
   },
+  "is": {
+    "currency-related-tools": {
+      "message": "Fylgstu með þróun gjaldmiðlapars í {history}, berðu eina upphæð saman í mörgum gjaldmiðlum með {multi}, mettu skiptitilboð með {markup} eða berðu saman kostnað við kort, reiðufjárúttekt og DCC með {foreignFee}.",
+      "links": { "history": "gengissögunni", "multi": "fjölgjaldmiðlareiknivélinni", "markup": "reiknivélinni fyrir gengisálag", "foreignFee": "gjalda- og DCC-reiknivélinni" }
+    },
+    "markup-related-tools": {
+      "message": "Ertu að bera saman kortagreiðslu eða reiðufjárúttekt við boðna umbreytingu í kortagjaldmiðil? Notaðu {foreignFee}. Opnaðu {currency} fyrir hraðan útreikning á gjaldmiðlapari. Berðu eina upphæð saman í mörgum gjaldmiðlum með {multi}; {offline} útskýrir hvernig vistuð gengi virka.",
+      "links": { "foreignFee": "gjalda- og DCC-reiknivélina", "currency": "gjaldeyrisreiknivélina", "multi": "fjölgjaldmiðlareiknivélina", "offline": "leiðbeiningarnar um notkun án internets" }
+    },
+    "multi-related-tools": {
+      "message": "Notaðu {currency} fyrir eitt gjaldmiðlapar. Skoðaðu þróunina í {history}, mettu skiptitilboð með {markup} og lestu í {offline} hvernig vistuð gengi eru notuð án internets.",
+      "links": { "currency": "gjaldeyrisreiknivélina", "history": "gengissögunni", "markup": "reiknivélinni fyrir gengisálag", "offline": "leiðbeiningunum um notkun án internets" }
+    },
+    "offline-related-tools": {
+      "message": "Skoðaðu {widget} til að fá skjótan aðgang að vistuðu gjaldmiðlapari. Notaðu {currency} fyrir útreikning á netinu, berðu eina upphæð saman í mörgum gjaldmiðlum með {multi} eða mettu skiptitilboð með {markup}.",
+      "links": { "widget": "leiðbeiningarnar fyrir Android-græjuna", "currency": "gjaldeyrisreiknivélina", "multi": "fjölgjaldmiðlareiknivélina", "markup": "reiknivélina fyrir gengisálag" }
+    },
+    "history-related-tools": {
+      "message": "Notaðu {currency} fyrir útreikning með nýjasta tiltæka genginu. Opnaðu {markup} til að bera skiptitilboð saman við niðurstöðuna samkvæmt viðmiðunargenginu.",
+      "links": { "currency": "gjaldeyrisreiknivélina", "markup": "reiknivélina fyrir gengisálag" }
+    },
+    "widget-offline-guide": {
+      "message": "Án internets má enn nota síðast vistaða viðmiðunargengið til áætlana, en dagsetningin sýnir aldur gagnanna. Lestu meira í {offline}.",
+      "links": { "offline": "leiðbeiningunum um notkun án internets" }
+    },
+    "widget-more-tools": {
+      "message": "Opnaðu appið til að slá inn upphæð, reikna milli gjaldmiðla, skoða {history}, bera saman marga gjaldmiðla eða vista gengi til notkunar án internets.",
+      "links": { "history": "gengissöguna" }
+    },
+    "foreign-related-tools": {
+      "message": "Ef þú vilt aðeins bera skiptitilboð saman við niðurstöðuna samkvæmt viðmiðunargenginu skaltu nota {markup}. Opnaðu {currency} fyrir venjulegan útreikning milli tveggja gjaldmiðla.",
+      "links": { "markup": "reiknivélina fyrir gengisálag", "currency": "gjaldeyrisreiknivélina" }
+    },
+    "travel-related-tools": {
+      "message": "Berðu eina upphæð saman í mörgum gjaldmiðlum með {multi}, gerðu hraðan útreikning með {currency} eða lestu hvernig Android-appið notar {offline}.",
+      "links": { "multi": "fjölgjaldmiðlareiknivélinni", "currency": "gjaldeyrisreiknivélinni", "offline": "vistuð gengi án internets" }
+    }
+  },
   "fi": {
     "currency-related-tools": {
       "message": "Seuraa valuuttaparin kehitystä {history}-sivulla, vertaa yhtä summaa useissa valuutoissa {multi}-työkalulla, arvioi vaihtotarjousta {markup}-työkalulla tai vertaa kortti-, käteisnosto- ja DCC-kuluja {foreignFee}-työkalulla.",
