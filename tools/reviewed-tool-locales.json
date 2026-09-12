@@ -34,6 +34,7 @@
     { "locale": "he", "route": "he", "language": "Hebrew", "dir": "rtl", "widths": [320, 390, 768, 1440] },
     { "locale": "fa", "route": "fa", "language": "Persian", "dir": "rtl", "widths": [320, 390, 768, 1440] },
     { "locale": "ur", "route": "ur", "language": "Urdu", "dir": "rtl", "widths": [320, 390, 768, 1440] },
-    { "locale": "hi", "route": "hi", "language": "Hindi", "dir": "ltr", "widths": [320, 390, 768, 1440] }
+    { "locale": "hi", "route": "hi", "language": "Hindi", "dir": "ltr", "widths": [320, 390, 768, 1440] },
+    { "locale": "bn", "route": "bn", "language": "Bengali", "dir": "ltr", "widths": [320, 390, 768, 1440] }
   ]
 }
