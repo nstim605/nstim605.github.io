@@ -1,0 +1,36 @@
+{
+  "generatedAt": "2026-09-12T06:06:57.336Z",
+  "locale": "he",
+  "language": "Hebrew",
+  "status": "PASS",
+  "layouts": {
+    "pages": 8,
+    "widths": [
+      320,
+      390,
+      768,
+      1440
+    ],
+    "checks": 32
+  },
+  "navigation": {
+    "localeLinks": "PASS",
+    "lastArrowHidden": "PASS",
+    "intermediateArrowsVisible": "PASS"
+  },
+  "interactions": [
+    "currency",
+    "deviation +5%",
+    "deviation -5% core / higher-offer UI branch",
+    "multi-currency",
+    "history 30/90/365 + dated lookup",
+    "foreign-fee/DCC",
+    "travel-budget"
+  ],
+  "formatting": [
+    "1.5 EUR → ‏175.5 ‏RSD",
+    "8 בספט׳ 2026"
+  ],
+  "networkFailure": "PASS",
+  "runtimeErrors": 0
+}

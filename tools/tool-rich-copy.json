@@ -769,6 +769,44 @@
       "links": { "multi": "prevodníka viacerých mien", "currency": "prevodníku mien", "offline": "kurzy uložené na použitie offline" }
     }
   },
+  "he": {
+    "currency-related-tools": {
+      "message": "עקבו אחר השינוי בצמד מטבעות בעזרת {history}, השוו סכום אחד בכמה מטבעות באמצעות {multi}, בדקו הצעת המרה בעזרת {markup}, או השוו עלויות כרטיס, משיכת מזומן ו-DCC באמצעות {foreignFee}.",
+      "links": { "history": "היסטוריית שערי החליפין", "multi": "ממיר המטבעות המרובה", "markup": "מחשבון פער שער החליפין", "foreignFee": "מחשבון העמלות וה-DCC" }
+    },
+    "markup-related-tools": {
+      "message": "משווים עסקת כרטיס או כספומט להצעת המרה למטבע הכרטיס? השתמשו ב-{foreignFee}. להמרה מהירה של צמד מטבעות פתחו את {currency}. אפשר להשוות סכום בכמה מטבעות ב-{multi}, ו-{offline} מסביר כיצד פועלים שערים שמורים.",
+      "links": { "foreignFee": "מחשבון העמלות וה-DCC", "currency": "ממיר המטבעות", "multi": "ממיר המטבעות המרובה", "offline": "המדריך לשימוש ללא חיבור" }
+    },
+    "multi-related-tools": {
+      "message": "לצמד מטבעות אחד השתמשו ב-{currency}. צפו בשינויים ב-{history}, בדקו הצעת המרה ב-{markup}, וקראו ב-{offline} כיצד משתמשים בשערים שמורים ללא אינטרנט.",
+      "links": { "currency": "ממיר המטבעות", "history": "היסטוריית השערים", "markup": "מחשבון פער השער", "offline": "מדריך השימוש ללא חיבור" }
+    },
+    "offline-related-tools": {
+      "message": "לגישה מהירה לצמד מטבעות שמור, עיינו ב-{widget}. השתמשו ב-{currency} להמרה מקוונת, השוו סכום בכמה מטבעות באמצעות {multi}, או בדקו הצעת המרה ב-{markup}.",
+      "links": { "widget": "מדריך הווידג'ט ל-Android", "currency": "ממיר המטבעות", "multi": "ממיר המטבעות המרובה", "markup": "מחשבון פער השער" }
+    },
+    "history-related-tools": {
+      "message": "להמרה לפי השער העדכני ביותר הזמין השתמשו ב-{currency}. להשוואת הצעת המרה לתוצאה לפי שער הייחוס פתחו את {markup}.",
+      "links": { "currency": "ממיר המטבעות", "markup": "מחשבון פער השער" }
+    },
+    "widget-offline-guide": {
+      "message": "ללא חיבור, שער הייחוס האחרון שנשמר עדיין שימושי להערכה, והתאריך מראה עד כמה הנתונים ישנים. קראו עוד ב-{offline}.",
+      "links": { "offline": "מדריך השימוש ללא חיבור" }
+    },
+    "widget-more-tools": {
+      "message": "פתחו את האפליקציה כדי להזין סכום, להמיר מטבעות, לצפות ב-{history}, להשוות כמה מטבעות או לשמור שערים לשימוש ללא חיבור.",
+      "links": { "history": "היסטוריית השערים" }
+    },
+    "foreign-related-tools": {
+      "message": "אם רוצים רק להשוות הצעת המרה לתוצאה לפי שער הייחוס, השתמשו ב-{markup}. להמרה רגילה בין שני מטבעות פתחו את {currency}.",
+      "links": { "markup": "מחשבון פער השער", "currency": "ממיר המטבעות" }
+    },
+    "travel-related-tools": {
+      "message": "השוו סכום אחד בכמה מטבעות באמצעות {multi}, בצעו המרה מהירה ב-{currency}, או למדו כיצד אפליקציית Android משתמשת ב-{offline}.",
+      "links": { "multi": "ממיר המטבעות המרובה", "currency": "ממיר המטבעות", "offline": "שערים שמורים לשימוש ללא חיבור" }
+    }
+  },
   "ar": {
     "currency-related-tools": {
       "message": "تابع تغير زوج العملات عبر {history}، وقارن مبلغًا واحدًا بعدة عملات باستخدام {multi}، وافحص عرض الصرف عبر {markup}، أو قارن تكاليف البطاقة والسحب النقدي وDCC باستخدام {foreignFee}.",
