@@ -769,6 +769,44 @@
       "links": { "multi": "prevodníka viacerých mien", "currency": "prevodníku mien", "offline": "kurzy uložené na použitie offline" }
     }
   },
+  "id": {
+    "currency-related-tools": {
+      "message": "Ikuti perubahan pasangan mata uang melalui {history}, bandingkan satu jumlah dalam beberapa mata uang dengan {multi}, periksa penawaran penukaran memakai {markup}, atau bandingkan biaya kartu, tarik tunai, dan DCC dengan {foreignFee}.",
+      "links": { "history": "riwayat kurs", "multi": "konverter multi-mata uang", "markup": "kalkulator selisih kurs", "foreignFee": "kalkulator biaya dan DCC" }
+    },
+    "markup-related-tools": {
+      "message": "Membandingkan transaksi kartu atau ATM dengan konversi yang ditawarkan ke mata uang kartu? Gunakan {foreignFee}. Untuk konversi cepat satu pasangan, buka {currency}. Bandingkan satu jumlah dalam beberapa mata uang lewat {multi}; {offline} menjelaskan cara kerja kurs tersimpan.",
+      "links": { "foreignFee": "kalkulator biaya dan DCC", "currency": "konverter mata uang", "multi": "konverter multi-mata uang", "offline": "panduan penggunaan offline" }
+    },
+    "multi-related-tools": {
+      "message": "Untuk satu pasangan mata uang, gunakan {currency}. Lihat perubahannya di {history}, periksa penawaran dengan {markup}, dan baca di {offline} bagaimana kurs tersimpan digunakan tanpa internet.",
+      "links": { "currency": "konverter mata uang", "history": "riwayat kurs", "markup": "kalkulator selisih kurs", "offline": "panduan penggunaan offline" }
+    },
+    "offline-related-tools": {
+      "message": "Untuk akses cepat ke pasangan tersimpan, lihat {widget}. Gunakan {currency} untuk konversi online, bandingkan satu jumlah dalam beberapa mata uang lewat {multi}, atau periksa penawaran dengan {markup}.",
+      "links": { "widget": "panduan widget Android", "currency": "konverter mata uang", "multi": "konverter multi-mata uang", "markup": "kalkulator selisih kurs" }
+    },
+    "history-related-tools": {
+      "message": "Untuk konversi dengan kurs terbaru yang tersedia, gunakan {currency}. Untuk membandingkan penawaran dengan hasil kurs acuan, buka {markup}.",
+      "links": { "currency": "konverter mata uang", "markup": "kalkulator selisih kurs" }
+    },
+    "widget-offline-guide": {
+      "message": "Tanpa koneksi, kurs acuan terakhir yang tersimpan tetap berguna untuk perkiraan, dan tanggalnya menunjukkan usia data. Baca selengkapnya di {offline}.",
+      "links": { "offline": "panduan penggunaan offline" }
+    },
+    "widget-more-tools": {
+      "message": "Buka aplikasi untuk memasukkan jumlah, mengonversi mata uang, melihat {history}, membandingkan beberapa mata uang, atau menyimpan kurs untuk penggunaan offline.",
+      "links": { "history": "riwayat kurs" }
+    },
+    "foreign-related-tools": {
+      "message": "Jika Anda hanya ingin membandingkan penawaran penukaran dengan hasil kurs acuan, gunakan {markup}. Untuk konversi biasa antara dua mata uang, buka {currency}.",
+      "links": { "markup": "kalkulator selisih kurs", "currency": "konverter mata uang" }
+    },
+    "travel-related-tools": {
+      "message": "Bandingkan satu jumlah dalam beberapa mata uang melalui {multi}, lakukan konversi cepat dengan {currency}, atau pelajari cara aplikasi Android menggunakan {offline}.",
+      "links": { "multi": "konverter multi-mata uang", "currency": "konverter mata uang", "offline": "kurs offline tersimpan" }
+    }
+  },
   "bn": {
     "currency-related-tools": {
       "message": "একটি মুদ্রা জোড়ার পরিবর্তন {history}-এ দেখুন, এক অঙ্ককে একাধিক মুদ্রায় {multi} দিয়ে তুলনা করুন, বিনিময় প্রস্তাব {markup} দিয়ে যাচাই করুন, অথবা কার্ড, নগদ উত্তোলন ও DCC খরচ {foreignFee} দিয়ে তুলনা করুন।",
