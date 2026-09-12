@@ -4,9 +4,9 @@
   "files": [
     {
       "file": "tools/localize-site.mjs",
-      "previousAcceptedSha256": "281236929922ceabfd5a1980468b3abab929488e2e38aef497757368e9589e42",
-      "acceptedSha256": "b0d234a4bb88069c7e4f96d07b680b1486e46b5d55b38d2a111ea8528a1a78ef",
-      "reason": "Extend the central site generator with the reviewed German tool-copy catalog while preserving the previously accepted Russian, Serbian, Croatian, Bosnian, and Ukrainian copy, localized rich-text link slots, Google Play badge migration, policy legal text, and English calculator behavior."
+      "previousAcceptedSha256": "b0d234a4bb88069c7e4f96d07b680b1486e46b5d55b38d2a111ea8528a1a78ef",
+      "acceptedSha256": "f87c5cf559bbad163b527ef1a75c9d9971e5cc6cfcab5cea56c09ac661568970",
+      "reason": "Load reviewed tool-localization catalogs through the shared locale manifest, preserving the approved Russian, Serbian, Croatian, Bosnian, Ukrainian, and German copy while enabling one parameterized QA workflow for subsequent locales."
     },
     {
       "file": "tests/privacy-policy-phase1d.test.mjs",
