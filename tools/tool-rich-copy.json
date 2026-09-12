@@ -769,6 +769,44 @@
       "links": { "multi": "prevodníka viacerých mien", "currency": "prevodníku mien", "offline": "kurzy uložené na použitie offline" }
     }
   },
+  "da": {
+    "currency-related-tools": {
+      "message": "Følg udviklingen for et valutapar i {history}, sammenlign ét beløb i flere valutaer med {multi}, vurder et vekseltilbud med {markup}, eller sammenlign kort-, hæveautomat- og DCC-omkostninger med {foreignFee}.",
+      "links": { "history": "valutakurshistorikken", "multi": "multivalutaomregneren", "markup": "kurstillægsberegneren", "foreignFee": "gebyr- og DCC-beregneren" }
+    },
+    "markup-related-tools": {
+      "message": "Sammenligner du en kortbetaling eller kontanthævning med en tilbudt omregning til din kortvaluta? Brug {foreignFee}. Til en hurtig omregning af et valutapar kan du åbne {currency}. Sammenlign ét beløb i flere valutaer med {multi}; {offline} forklarer, hvordan gemte kurser fungerer.",
+      "links": { "foreignFee": "gebyr- og DCC-beregneren", "currency": "valutaomregneren", "multi": "multivalutaomregneren", "offline": "guiden til brug uden internet" }
+    },
+    "multi-related-tools": {
+      "message": "Brug {currency} til ét valutapar. Se udviklingen i {history}, vurder et vekseltilbud med {markup}, og læs i {offline}, hvordan du bruger gemte kurser uden internet.",
+      "links": { "currency": "valutaomregneren", "history": "valutakurshistorikken", "markup": "kurstillægsberegneren", "offline": "guiden til brug uden internet" }
+    },
+    "offline-related-tools": {
+      "message": "Se {widget} for hurtig adgang til et gemt valutapar. Brug {currency} til onlineomregning, sammenlign ét beløb i flere valutaer med {multi}, eller vurder et vekseltilbud med {markup}.",
+      "links": { "widget": "guiden til Android-widgetten", "currency": "valutaomregneren", "multi": "multivalutaomregneren", "markup": "kurstillægsberegneren" }
+    },
+    "history-related-tools": {
+      "message": "Brug {currency} til omregning med den seneste tilgængelige kurs. Åbn {markup} for at sammenligne et vekseltilbud med resultatet ved referencekursen.",
+      "links": { "currency": "valutaomregneren", "markup": "kurstillægsberegneren" }
+    },
+    "widget-offline-guide": {
+      "message": "Uden internet kan den senest gemte referencekurs stadig bruges til overslag, mens datoen viser, hvor gamle dataene er. Læs mere i {offline}.",
+      "links": { "offline": "guiden til brug uden internet" }
+    },
+    "widget-more-tools": {
+      "message": "Åbn appen for at indtaste et beløb, omregne valuta, se {history}, sammenligne flere valutaer eller gemme kurser til brug uden internet.",
+      "links": { "history": "valutakurshistorikken" }
+    },
+    "foreign-related-tools": {
+      "message": "Hvis du kun vil sammenligne et vekseltilbud med resultatet ved referencekursen, kan du bruge {markup}. Til almindelig omregning mellem to valutaer skal du åbne {currency}.",
+      "links": { "markup": "kurstillægsberegneren", "currency": "valutaomregneren" }
+    },
+    "travel-related-tools": {
+      "message": "Sammenlign ét beløb i flere valutaer med {multi}, lav en hurtig omregning med {currency}, eller læs, hvordan Android-appen bruger {offline}.",
+      "links": { "multi": "multivalutaomregneren", "currency": "valutaomregneren", "offline": "gemte kurser uden internet" }
+    }
+  },
   "sq": {
     "currency-related-tools": {
       "message": "Ndiqni lëvizjen e një çifti valutor te {history}, krahasoni një shumë në disa monedha me {multi}, vlerësoni një ofertë këmbimi me {markup} ose krahasoni kostot e pagesës me kartë, tërheqjes së parave dhe DCC me {foreignFee}.",

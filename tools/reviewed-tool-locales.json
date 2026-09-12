@@ -22,6 +22,7 @@
     { "locale": "sl", "route": "sl", "language": "Slovenian", "dir": "ltr", "widths": [320, 390, 768, 1440] },
     { "locale": "bg", "route": "bg", "language": "Bulgarian", "dir": "ltr", "widths": [320, 390, 768, 1440] },
     { "locale": "mk", "route": "mk", "language": "Macedonian", "dir": "ltr", "widths": [320, 390, 768, 1440] },
-    { "locale": "sq", "route": "sq", "language": "Albanian", "dir": "ltr", "widths": [320, 390, 768, 1440] }
+    { "locale": "sq", "route": "sq", "language": "Albanian", "dir": "ltr", "widths": [320, 390, 768, 1440] },
+    { "locale": "da", "route": "da", "language": "Danish", "dir": "ltr", "widths": [320, 390, 768, 1440] }
   ]
 }

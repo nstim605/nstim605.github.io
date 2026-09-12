@@ -5,8 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#f7f8fa" media="(prefers-color-scheme: light)">
   <meta name="theme-color" content="#070a0f" media="(prefers-color-scheme: dark)">
-  <title>Beregn valutakurstillæg | Balkan Currency Converter</title>
-  <meta name="description" content="Sammenlign et byttetilbud med den seneste referencekurs. Beregn det beløb, du modtager, forskellen og den effektive valutakursopmærkning.">
+  <title>Beregner til kurstillæg | Balkan Currency Converter</title>
+  <meta name="description" content="Sammenlign et vekseltilbud med den seneste referencekurs. Beregn det beløb, du modtager, forskellen og det effektive kurstillæg.">
   <link rel="canonical" href="https://balkanconverter.com/da/exchange-rate-markup-calculator/">
   <link rel="alternate" hreflang="en" href="https://balkanconverter.com/exchange-rate-markup-calculator/">
   <link rel="alternate" hreflang="sr" href="https://balkanconverter.com/sr/exchange-rate-markup-calculator/">
@@ -55,12 +55,12 @@
   <link rel="alternate" hreflang="x-default" href="https://balkanconverter.com/exchange-rate-markup-calculator/">
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="Balkan Currency Converter">
-  <meta property="og:title" content="Beregn valutakurstillæg">
+  <meta property="og:title" content="Beregner til kurstillæg">
   <meta property="og:description" content="Se, hvor langt et byttetilbud er fra den seneste referencekurs.">
   <meta property="og:url" content="https://balkanconverter.com/da/exchange-rate-markup-calculator/">
   <meta property="og:image" content="https://balkanconverter.com/assets/og-v1-5-11.png">
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Beregn valutakurstillæg">
+  <meta name="twitter:title" content="Beregner til kurstillæg">
   <meta name="twitter:description" content="Sammenlign et byttetilbud med den seneste referencekurs.">
   <meta name="twitter:image" content="https://balkanconverter.com/assets/og-v1-5-11.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/assets/icons/v1-5-11/favicon-32.png">
@@ -68,7 +68,7 @@
   <link rel="manifest" href="../../site.webmanifest">
   <link rel="stylesheet" href="../../styles.css">
   <script type="application/ld+json">
-  {"@context":"https://schema.org","@type":"WebApplication","name":"Beregn valutakurstillæg","url":"https://balkanconverter.com/da/exchange-rate-markup-calculator/","applicationCategory":"FinanceApplication","operatingSystem":"Any","isAccessibleForFree":true,"description":"Sammenlign et byttetilbud med den seneste referencekurs og beregn den effektive markup."}
+  {"@context":"https://schema.org","@type":"WebApplication","name":"Beregner til kurstillæg","url":"https://balkanconverter.com/da/exchange-rate-markup-calculator/","applicationCategory":"FinanceApplication","operatingSystem":"Any","isAccessibleForFree":true,"description":"Sammenlign et vekseltilbud med den seneste referencekurs, og beregn det effektive kurstillæg."}
   </script>
 </head>
 <body>
@@ -143,11 +143,11 @@
     <section class="calculator-hero shell" aria-labelledby="calculator-title">
       <a class="back-link" href="/da/"><span aria-hidden="true">←</span> Tilbage til Balkan Currency Converter</a>
       <p class="eyebrow"><span class="status-dot"></span> Gratis valutaværktøj</p>
-      <h1 id="calculator-title">Beregn valutakurstillæg</h1>
-      <p class="hero-lede">Sammenlign det beløb, en byttetjeneste tilbyder med den seneste tilgængelige referencekurs. Se forskellen og den effektive markup, før du bytter.</p>
+      <h1 id="calculator-title">Beregner til kurstillæg</h1>
+      <p class="hero-lede">Sammenlign det beløb, en vekseludbyder tilbyder, med den seneste tilgængelige referencekurs. Se forskellen og det effektive kurstillæg, før du veksler.</p>
     </section>
 
-    <section class="calculator-layout shell" aria-label="Markup lommeregner">
+    <section class="calculator-layout shell" aria-label="Kurstillægsberegner">
       <form class="calculator-card" id="markup-form" novalidate>
         <div class="field-grid">
           <label>Kildevaluta
@@ -169,7 +169,7 @@
           <span class="input-hint">Hvad du ville modtage i målvalutaen</span>
           <input id="offered-amount" name="offered" inputmode="decimal" autocomplete="off" placeholder="For eksempel 11.500" aria-describedby="calculator-status">
         </label>
-        <button class="primary-button" type="submit">Beregn markup</button>
+        <button class="primary-button" type="submit">Beregn kurstillæg</button>
         <p class="calculator-status" id="calculator-status" role="status" aria-live="polite">Indtast det tilbud, du vil sammenligne.</p>
       </form>
 
@@ -177,11 +177,11 @@
         <p class="eyebrow">Din sammenligning</p>
         <h2 id="results-title">Resultat af byttetilbud</h2>
         <dl class="result-list">
-          <div><dt>Referencesats</dt><dd data-result="referenceRate"></dd></div>
+          <div><dt>Referencekurs</dt><dd data-result="referenceRate"></dd></div>
           <div><dt>Referenceresultat</dt><dd data-result="referenceResult"></dd></div>
           <div><dt>Tilbudt resultat</dt><dd data-result="offeredResult"></dd></div>
           <div><dt data-label="difference">Du modtager mindre pr</dt><dd data-result="difference"></dd></div>
-          <div class="result-emphasis"><dt data-label="percentage">Valutakursmarkup</dt><dd data-result="percentage"></dd></div>
+          <div class="result-emphasis"><dt data-label="percentage">Kurstillæg</dt><dd data-result="percentage"></dd></div>
         </dl>
         <p class="result-summary"></p>
         <p class="result-date"></p>
@@ -191,14 +191,14 @@
     <section class="calculator-explanation shell" aria-labelledby="meaning-title">
       <article>
         <h2 id="meaning-title">Hvad procenten betyder</h2>
-        <p>Lommeregneren estimerer først, hvor meget den seneste referencerente ville producere. Det sammenligner derefter dette beløb med det beløb, du blev tilbudt.</p>
-        <p>En udbyder kan annoncere &quot;ingen kommission&quot;, mens han bruger en mindre gunstig valutakurs. Denne mangel er reelt en omkostning, der er gemt i satsen.</p>
-        <p><strong>Markup = (referenceresultat − tilbudt resultat) ÷ referenceresultat × 100.</strong></p>
+        <p>Beregneren anslår først resultatet ved den seneste referencekurs og sammenligner derefter dette beløb med det tilbudte beløb.</p>
+        <p>En udbyder kan reklamere med »ingen provision«, men bruge en mindre fordelagtig kurs. Forskellen er reelt en omkostning, der er indbygget i kursen.</p>
+        <p><strong>Kurstillæg = (referenceresultat − tilbudt resultat) ÷ referenceresultat × 100.</strong></p>
       </article>
       <aside>
         <h2>Vigtigt at vide</h2>
-        <p>Dette er en informativ sammenligning, ikke finansiel rådgivning. Et tilbud kan omfatte servicegebyrer, kortgebyrer, kontanthåndtering eller en udbyders spredning. Referencekurser er ikke garanterede transaktionssatser.</p>
-        <p data-i18n-rich="markup-related-tools">Comparing a card or ATM transaction with an offered home-currency conversion? Use the <a class="text-link" data-i18n-slot="foreignFee" href="/da/foreign-transaction-fee-calculator/">Foreign Transaction Fee &amp; DCC Calculator</a>. For a quick pair conversion, use the <a class="text-link" data-i18n-slot="currency" href="/da/currency-converter/">Valutaomregner</a>. For several results at once, try the <a class="text-link" data-i18n-slot="multi" href="/da/multi-currency-converter/">Multi-Currency Converter</a>, or learn how <a class="text-link" data-i18n-slot="offline" href="/da/offline-currency-converter/">saved offline rates</a> work.</p>
+        <p>Dette er en vejledende sammenligning, ikke finansiel rådgivning. Et tilbud kan indeholde servicegebyrer, kortgebyrer, kontanthåndtering eller udbyderens kursspænd. Referencekurser er ikke garanterede transaktionskurser.</p>
+        <p data-i18n-rich="markup-related-tools">Sammenligner du en kortbetaling eller kontanthævning med en tilbudt omregning til din kortvaluta? Brug <a class="text-link" data-i18n-slot="foreignFee" href="/da/foreign-transaction-fee-calculator/">gebyr- og DCC-beregneren</a>. Til en hurtig omregning af et valutapar kan du åbne <a class="text-link" data-i18n-slot="currency" href="/da/currency-converter/">valutaomregneren</a>. Sammenlign ét beløb i flere valutaer med <a class="text-link" data-i18n-slot="multi" href="/da/multi-currency-converter/">multivalutaomregneren</a>; <a class="text-link" data-i18n-slot="offline" href="/da/offline-currency-converter/">guiden til brug uden internet</a> forklarer, hvordan gemte kurser fungerer.</p>
       </aside>
     </section>
 
@@ -206,7 +206,7 @@
       <div>
         <p class="eyebrow eyebrow-inverse">Har du brug for dette på farten?</p>
         <h2 id="app-cta-title">Sammenlign omkostninger i Balkan Converter</h2>
-        <p>Android-appen tilføjer faktiske omkostninger, offlinepriser, rejsekort, gemte sæt, diagrammer og en widget på hjemmeskærmen.</p>
+        <p>Android-appen indeholder Faktiske omkostninger, kurser til brug uden internet, Rejsetavle, gemte sæt, diagrammer og en widget til startskærmen.</p>
       </div>
       <a class="play-link play-link-on-dark calculator-play-cta" href="https://play.google.com/store/apps/details?id=io.github.nstim605.balkanconverter" aria-label="Få Balkan Currency Converter på Google Play">
         <img src="/assets/google-play-badge-en.png" width="202" height="60" alt="Få det på Google Play">
@@ -217,7 +217,7 @@
   <footer class="site-footer">
     <div class="shell footer-grid">
       <div class="footer-brand"><img src="../../assets/icons/v1-5-11/app-icon-v1-5-11.png" width="44" height="44" alt=""><div><strong dir="ltr">Balkan Currency Converter</strong><span>Valutaomregning for Android</span></div></div>
-      <nav aria-label="Navigation i sidefod">
+      <nav aria-label="Navigation i sidefoden">
         <a href="/da/">Hjem</a>
         <a href="/da/privacy-policy.html">Privatlivspolitik</a>
         <a href="https://play.google.com/store/apps/details?id=io.github.nstim605.balkanconverter">Google Play</a>
@@ -237,7 +237,7 @@
     </div>
   </template>
   <script src="../../script.js" defer></script>
-  <script id="tool-i18n" type="application/json">{"© 2026 Balkan Currency Converter":"© 2026 Balkan Currency Converter","A provider can advertise “no commission” while using a less favourable exchange rate. That shortfall is effectively a cost hidden in the rate.":"En udbyder kan annoncere \"ingen kommission\", mens han bruger en mindre gunstig valutakurs. Denne mangel er reelt en omkostning, der er gemt i satsen.","A reference rate is unavailable for this currency pair.":"En referencekurs er ikke tilgængelig for dette valutapar.","Above reference by":"Ovenstående reference af","Accept analytics":"Accepter analyser","Amount":"Beløb","Amount you are offered":"Beløb du bliver tilbudt","Amount you give":"Beløb du giver","Amounts and rates must be positive numbers.":"Beløb og satser skal være positive tal.","Analytics choices":"Analytics valg","Back to Balkan Currency Converter":"Tilbage til Balkan Currency Converter","Balkan Currency Converter home":"Balkan Currency Converter hjem","Calculate markup":"Beregn markup","Calculation updated from the latest available reference rates.":"Beregning opdateret fra de seneste tilgængelige referencesatser.","Choose two different currencies.":"Vælg to forskellige valutaer.","Compare an exchange offer with the latest reference rate and calculate the effective markup.":"Sammenlign et byttetilbud med den seneste referencekurs og beregn den effektive markup.","Compare an exchange offer with the latest reference rate.":"Sammenlign et byttetilbud med den seneste referencekurs.","Compare an exchange offer with the latest reference rate. Calculate the amount you receive, the difference, and the effective exchange-rate markup.":"Sammenlign et byttetilbud med den seneste referencekurs. Beregn det beløb, du modtager, forskellen og den effektive valutakursopmærkning.","Compare costs in Balkan Converter":"Sammenlign omkostninger i Balkan Converter","Compare the amount an exchange service offers with the latest available reference rate. See the difference and the effective markup before you exchange.":"Sammenlign det beløb, en byttetjeneste tilbyder med den seneste tilgængelige referencekurs. Se forskellen og den effektive markup, før du bytter.","Currency conversion for Android":"Valutaomregning for Android","Currency Converter":"Valutaomregner","Date":"Dato","Enter the offer you want to compare.":"Indtast det tilbud, du vil sammenligne.","Enter two amounts greater than zero.":"Indtast to beløb større end nul.","EUR — Euro":"EUR — Euro","Exchange offer result":"Resultat af byttetilbud","Exchange Rate Markup Calculator":"Beregn valutakurstillæg","Exchange Rate Markup Calculator | Balkan Currency Converter":"Beregn valutakurstillæg | Balkan Currency Converter","Exchange-rate markup":"Valutakursmarkup","Fetching the latest reference rates…":"Henter de seneste referencesatser...","Footer navigation":"Navigation i sidefod","For example, 11,500":"For eksempel 11.500","Free currency tool":"Gratis valutaværktøj","Get Balkan Currency Converter on Google Play":"Få Balkan Currency Converter på Google Play","Get it on Google Play":"Få det på Google Play","Help us understand site usage. Firebase Analytics stays off unless you accept.":"Hjælp os med at forstå brugen af webstedet. Firebase Analytics forbliver slukket, medmindre du accepterer.","Home":"Hjem","Important to know":"Vigtigt at vide","In the source currency":"I kildevalutaen","Learn more":"Få flere oplysninger","Loading latest rates…":"Indlæser seneste priser...","Main navigation":"Hovednavigation","Markup = (reference result − offered result) ÷ reference result × 100.":"Markup = (referenceresultat − tilbudt resultat) ÷ referenceresultat × 100.","Markup calculator":"Markup lommeregner","Markup Calculator":"Markup Lommeregner","Need this on the go?":"Har du brug for dette på farten?","No reference rates were returned.":"Ingen referencesatser blev returneret.","Offered result":"Tilbudt resultat","Optional":"Valgfrit","Optional analytics":"Valgfri analyse","Privacy":"Privatliv","Privacy Policy":"Privatlivspolitik","Rate":"Bedøm","Rates could not be loaded. Check your connection and try again.":"Priser kunne ikke indlæses. Tjek din forbindelse, og prøv igen.","Reference rate":"Referencesats","Reference rates dated {date}.":"Referencepriser dateret {date}.","Reference result":"Referenceresultat","Reference-rate data is incomplete.":"Referencehastighedsdata er ufuldstændige.","Reject analytics":"Afvis analyser","Result":"Resultat","RSD — Serbian Dinar":"RSD — Serbisk dinar","See how far an exchange offer is from the latest reference rate.":"Se, hvor langt et byttetilbud er fra den seneste referencekurs.","Skip to calculator":"Gå til lommeregneren","Source currency":"Kildevaluta","Switch color theme":"Skift farvetema","Switch to dark theme":"Skift til mørkt tema","Switch to light theme":"Skift til lystema","Target currency":"Målvaluta","The Android app adds Actual Cost, offline rates, Travel Board, saved sets, charts, and a home-screen widget.":"Android-appen tilføjer faktiske omkostninger, offlinepriser, rejsekort, gemte sæt, diagrammer og en widget på hjemmeskærmen.","The calculator first estimates how much the latest reference rate would produce. It then compares that amount with the amount you were offered.":"Lommeregneren estimerer først, hvor meget den seneste referencerente ville producere. Det sammenligner derefter dette beløb med det beløb, du blev tilbudt.","The offer is {percentage} above the reference result.":"Tilbuddet er {percentage} over referenceresultatet.","The offer is {percentage} below the reference result.":"Tilbuddet er {percentage} under referenceresultatet.","This is an informational comparison, not financial advice. An offer may include service fees, card charges, cash handling, or a provider’s spread. Reference rates are not guaranteed transaction rates.":"Dette er en informativ sammenligning, ikke finansiel rådgivning. Et tilbud kan omfatte servicegebyrer, kortgebyrer, kontanthåndtering eller en udbyders spredning. Referencekurser er ikke garanterede transaktionssatser.","What the percentage means":"Hvad procenten betyder","What you would receive in the target currency":"Hvad du ville modtage i målvalutaen","You receive less by":"Du modtager mindre pr","You receive more by":"Du modtager mere pr","Your comparison":"Din sammenligning"}</script>
+  <script id="tool-i18n" type="application/json">{"© 2026 Balkan Currency Converter":"© 2026 Balkan Currency Converter","A provider can advertise “no commission” while using a less favourable exchange rate. That shortfall is effectively a cost hidden in the rate.":"En udbyder kan reklamere med »ingen provision«, men bruge en mindre fordelagtig kurs. Forskellen er reelt en omkostning, der er indbygget i kursen.","A reference rate is unavailable for this currency pair.":"En referencekurs er ikke tilgængelig for dette valutapar.","Above reference by":"Over referenceværdien med","Accept analytics":"Accepter analyser","Amount":"Beløb","Amount you are offered":"Beløb du bliver tilbudt","Amount you give":"Beløb du giver","Amounts and rates must be positive numbers.":"Beløb og kurser skal være positive tal.","Analytics choices":"Analytics valg","Back to Balkan Currency Converter":"Tilbage til Balkan Currency Converter","Balkan Currency Converter home":"Balkan Currency Converter hjem","Calculate markup":"Beregn kurstillæg","Calculation updated from the latest available reference rates.":"Beregningen blev opdateret med de seneste tilgængelige referencekurser.","Choose two different currencies.":"Vælg to forskellige valutaer.","Compare an exchange offer with the latest reference rate and calculate the effective markup.":"Sammenlign et vekseltilbud med den seneste referencekurs, og beregn det effektive kurstillæg.","Compare an exchange offer with the latest reference rate.":"Sammenlign et byttetilbud med den seneste referencekurs.","Compare an exchange offer with the latest reference rate. Calculate the amount you receive, the difference, and the effective exchange-rate markup.":"Sammenlign et vekseltilbud med den seneste referencekurs. Beregn det beløb, du modtager, forskellen og det effektive kurstillæg.","Compare costs in Balkan Converter":"Sammenlign omkostninger i Balkan Converter","Compare the amount an exchange service offers with the latest available reference rate. See the difference and the effective markup before you exchange.":"Sammenlign det beløb, en vekseludbyder tilbyder, med den seneste tilgængelige referencekurs. Se forskellen og det effektive kurstillæg, før du veksler.","Currency conversion for Android":"Valutaomregning for Android","Currency Converter":"Valutaomregner","Date":"Dato","Enter the offer you want to compare.":"Indtast det tilbud, du vil sammenligne.","Enter two amounts greater than zero.":"Indtast to beløb større end nul.","EUR — Euro":"EUR — Euro","Exchange offer result":"Resultat af byttetilbud","Exchange Rate Markup Calculator":"Beregner til kurstillæg","Exchange Rate Markup Calculator | Balkan Currency Converter":"Beregner til kurstillæg | Balkan Currency Converter","Exchange-rate markup":"Kurstillæg","Fetching the latest reference rates…":"Henter de seneste referencekurser…","Footer navigation":"Navigation i sidefoden","For example, 11,500":"For eksempel 11.500","Free currency tool":"Gratis valutaværktøj","Get Balkan Currency Converter on Google Play":"Få Balkan Currency Converter på Google Play","Get it on Google Play":"Få det på Google Play","Help us understand site usage. Firebase Analytics stays off unless you accept.":"Hjælp os med at forstå brugen af webstedet. Firebase Analytics forbliver deaktiveret, medmindre du accepterer.","Home":"Hjem","Important to know":"Vigtigt at vide","In the source currency":"I kildevalutaen","Learn more":"Få flere oplysninger","Loading latest rates…":"Indlæser de seneste kurser…","Main navigation":"Hovednavigation","Markup = (reference result − offered result) ÷ reference result × 100.":"Kurstillæg = (referenceresultat − tilbudt resultat) ÷ referenceresultat × 100.","Markup calculator":"Kurstillægsberegner","Markup Calculator":"Kurstillægsberegner","Need this on the go?":"Har du brug for dette på farten?","No reference rates were returned.":"Der blev ikke returneret nogen referencekurser.","Offered result":"Tilbudt resultat","Optional":"Valgfrit","Optional analytics":"Valgfri analyse","Privacy":"Privatliv","Privacy Policy":"Privatlivspolitik","Rate":"Bedøm","Rates could not be loaded. Check your connection and try again.":"Kurserne kunne ikke indlæses. Kontrollér forbindelsen, og prøv igen.","Reference rate":"Referencekurs","Reference rates dated {date}.":"Referencekurser dateret {date}.","Reference result":"Referenceresultat","Reference-rate data is incomplete.":"Dataene for referencekurser er ufuldstændige.","Reject analytics":"Afvis analyser","Result":"Resultat","RSD — Serbian Dinar":"RSD — Serbisk dinar","See how far an exchange offer is from the latest reference rate.":"Se, hvor langt et byttetilbud er fra den seneste referencekurs.","Skip to calculator":"Gå til lommeregneren","Source currency":"Kildevaluta","Switch color theme":"Skift farvetema","Switch to dark theme":"Skift til mørkt tema","Switch to light theme":"Skift til lystema","Target currency":"Målvaluta","The Android app adds Actual Cost, offline rates, Travel Board, saved sets, charts, and a home-screen widget.":"Android-appen indeholder Faktiske omkostninger, kurser til brug uden internet, Rejsetavle, gemte sæt, diagrammer og en widget til startskærmen.","The calculator first estimates how much the latest reference rate would produce. It then compares that amount with the amount you were offered.":"Beregneren anslår først resultatet ved den seneste referencekurs og sammenligner derefter dette beløb med det tilbudte beløb.","The offer is {percentage} above the reference result.":"Tilbuddet er {percentage} over referenceresultatet.","The offer is {percentage} below the reference result.":"Tilbuddet er {percentage} under referenceresultatet.","This is an informational comparison, not financial advice. An offer may include service fees, card charges, cash handling, or a provider’s spread. Reference rates are not guaranteed transaction rates.":"Dette er en vejledende sammenligning, ikke finansiel rådgivning. Et tilbud kan indeholde servicegebyrer, kortgebyrer, kontanthåndtering eller udbyderens kursspænd. Referencekurser er ikke garanterede transaktionskurser.","What the percentage means":"Hvad procenten betyder","What you would receive in the target currency":"Hvad du ville modtage i målvalutaen","You receive less by":"Du modtager mindre pr","You receive more by":"Du modtager mere pr","Your comparison":"Din sammenligning"}</script>
   <script type="module" src="../../exchange-rate-markup-calculator/calculator.js"></script>
 </body>
 </html>
