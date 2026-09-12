@@ -155,7 +155,8 @@ try {
     percentage: await page.locator('[data-result="percentage"]').textContent(),
     label: await page.locator('[data-label="difference"]').textContent()
   };
-  if (!positive.percentage?.includes('5') || !negative.percentage?.includes('5') || !positive.label ||
+  const localizedFive = await page.evaluate(() => new Intl.NumberFormat(document.documentElement.lang).format(5));
+  if (!positive.percentage?.includes(localizedFive) || !negative.percentage?.includes(localizedFive) || !positive.label ||
       !negative.label || positive.label === negative.label) {
     throw new Error(`${entry.locale} deviation branches: ${JSON.stringify(positive)} / ${JSON.stringify(negative)}`);
   }

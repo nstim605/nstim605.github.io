@@ -1,7 +1,12 @@
 export const ratesEndpoint = 'https://api.frankfurter.dev/v2/rates';
 
 export function parseLocalizedNumber(value) {
-  const compact = String(value ?? '').trim().replace(/[\s\u00a0\u202f']/g, '');
+  const compact = String(value ?? '').trim()
+    .replace(/[٠-٩]/g, digit => String(digit.charCodeAt(0) - 0x0660))
+    .replace(/[۰-۹]/g, digit => String(digit.charCodeAt(0) - 0x06f0))
+    .replace(/٫/g, '.')
+    .replace(/٬/g, ',')
+    .replace(/[\s\u00a0\u202f']/g, '');
   if (!compact) return Number.NaN;
 
   const lastComma = compact.lastIndexOf(',');

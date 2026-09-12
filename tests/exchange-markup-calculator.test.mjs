@@ -41,6 +41,8 @@ test('accepts comma decimals and rejects zero or invalid input', () => {
   assert.equal(parseLocalizedNumber('11 500'), 11500);
   assert.equal(parseLocalizedNumber('11,5'), 11.5);
   assert.equal(parseLocalizedNumber('1,234.50'), 1234.5);
+  assert.equal(parseLocalizedNumber('۱٫۵'), 1.5);
+  assert.equal(parseLocalizedNumber('١٬٢٣٤٫٥٠'), 1234.5);
   assert.throws(() => calculateMarkup({ amount: 0, offeredAmount: 1, sourceRate: 1, targetRate: 1 }), RangeError);
   assert.throws(() => calculateMarkup({ amount: 1, offeredAmount: Number.NaN, sourceRate: 1, targetRate: 1 }), RangeError);
 });
