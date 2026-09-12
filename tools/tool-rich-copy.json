@@ -731,6 +731,44 @@
       "links": { "multi": "többpénznemes átváltóval", "currency": "valutaátváltóval", "offline": "offline használatra mentett árfolyamokat" }
     }
   },
+  "pl": {
+    "currency-related-tools": {
+      "message": "Śledź zmiany pary walutowej w {history}, porównaj jedną kwotę w kilku walutach za pomocą {multi}, oceń ofertę wymiany w {markup} albo porównaj koszty płatności kartą, wypłaty gotówki i DCC w {foreignFee}.",
+      "links": { "history": "historii kursów", "multi": "przelicznika wielu walut", "markup": "kalkulatorze różnicy kursowej", "foreignFee": "kalkulatorze opłat i DCC" }
+    },
+    "markup-related-tools": {
+      "message": "Porównujesz płatność kartą lub wypłatę gotówki z przeliczeniem zaproponowanym w walucie karty? Użyj {foreignFee}. Aby szybko przeliczyć parę walutową, otwórz {currency}. Do porównania jednej kwoty w kilku walutach użyj {multi}; {offline} wyjaśnia działanie zapisanych kursów.",
+      "links": { "foreignFee": "kalkulatora opłat i DCC", "currency": "przelicznik walut", "multi": "przelicznika wielu walut", "offline": "przewodnik po przeliczaniu offline" }
+    },
+    "multi-related-tools": {
+      "message": "Dla jednej pary walutowej użyj {currency}. Jej zmiany sprawdzisz w {history}, ofertę wymiany ocenisz w {markup}, a sposób przeliczania bez internetu poznasz w {offline}.",
+      "links": { "currency": "przelicznika walut", "history": "historii kursów", "markup": "kalkulatorze różnicy kursowej", "offline": "przewodniku po przeliczaniu offline" }
+    },
+    "offline-related-tools": {
+      "message": "Aby szybko sprawdzić zapisaną parę walutową, zobacz {widget}. Do przeliczania online otwórz {currency}, porównaj jedną kwotę w kilku walutach za pomocą {multi} albo oceń ofertę w {markup}.",
+      "links": { "widget": "przewodnik po widżecie Android", "currency": "przelicznik walut", "multi": "przelicznika wielu walut", "markup": "kalkulatorze różnicy kursowej" }
+    },
+    "history-related-tools": {
+      "message": "Do przeliczenia według najnowszego dostępnego kursu użyj {currency}. Aby porównać ofertę wymiany z wynikiem według kursu referencyjnego, otwórz {markup}.",
+      "links": { "currency": "przelicznika walut", "markup": "kalkulator różnicy kursowej" }
+    },
+    "widget-offline-guide": {
+      "message": "Bez internetu ostatni zapisany kurs referencyjny nadal nadaje się do szacunków, a data wskazuje aktualność danych. Więcej informacji znajdziesz w {offline}.",
+      "links": { "offline": "przewodniku po przeliczaniu offline" }
+    },
+    "widget-more-tools": {
+      "message": "Otwórz aplikację, aby wpisać kwotę, przeliczyć waluty, sprawdzić {history}, porównać kilka walut albo zapisać kursy do użycia offline.",
+      "links": { "history": "historię kursów" }
+    },
+    "foreign-related-tools": {
+      "message": "Jeśli chcesz tylko porównać ofertę wymiany z wynikiem według kursu referencyjnego, użyj {markup}. Do zwykłego przeliczenia między dwiema walutami otwórz {currency}.",
+      "links": { "markup": "kalkulatora różnicy kursowej", "currency": "przelicznik walut" }
+    },
+    "travel-related-tools": {
+      "message": "Porównaj jedną kwotę w kilku walutach za pomocą {multi}, wykonaj szybkie przeliczenie w {currency} albo dowiedz się, jak aplikacja na Androida korzysta z {offline}.",
+      "links": { "multi": "przelicznika wielu walut", "currency": "przeliczniku walut", "offline": "kursów zapisanych do użycia offline" }
+    }
+  },
   "ro": {
     "currency-related-tools": {
       "message": "Urmăriți evoluția unei perechi valutare în {history}, comparați o sumă în mai multe monede cu {multi}, evaluați o ofertă de schimb cu {markup} sau comparați costurile plății cu cardul, retragerii de numerar și DCC cu {foreignFee}.",

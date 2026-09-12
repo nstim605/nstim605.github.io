@@ -5,8 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#f7f8fa" media="(prefers-color-scheme: light)">
   <meta name="theme-color" content="#070a0f" media="(prefers-color-scheme: dark)">
-  <title>Kalkulator marży kursu wymiany | Balkan Currency Converter</title>
-  <meta name="description" content="Porównaj ofertę wymiany z najnowszym kursem referencyjnym. Oblicz otrzymaną kwotę, różnicę i efektywny marżę kursową.">
+  <title>Kalkulator różnicy kursowej | Balkan Currency Converter</title>
+  <meta name="description" content="Porównaj ofertę wymiany z najnowszym kursem referencyjnym. Oblicz otrzymaną kwotę, różnicę i rzeczywistą procentową różnicę kursową.">
   <link rel="canonical" href="https://balkanconverter.com/pl/exchange-rate-markup-calculator/">
   <link rel="alternate" hreflang="en" href="https://balkanconverter.com/exchange-rate-markup-calculator/">
   <link rel="alternate" hreflang="sr" href="https://balkanconverter.com/sr/exchange-rate-markup-calculator/">
@@ -55,12 +55,12 @@
   <link rel="alternate" hreflang="x-default" href="https://balkanconverter.com/exchange-rate-markup-calculator/">
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="Balkan Currency Converter">
-  <meta property="og:title" content="Kalkulator marży kursu wymiany">
+  <meta property="og:title" content="Kalkulator różnicy kursowej">
   <meta property="og:description" content="Zobacz jak daleko jest oferta wymiany od najnowszego kursu referencyjnego.">
   <meta property="og:url" content="https://balkanconverter.com/pl/exchange-rate-markup-calculator/">
   <meta property="og:image" content="https://balkanconverter.com/assets/og-v1-5-11.png">
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Kalkulator marży kursu wymiany">
+  <meta name="twitter:title" content="Kalkulator różnicy kursowej">
   <meta name="twitter:description" content="Porównaj ofertę wymiany z najnowszym kursem referencyjnym.">
   <meta name="twitter:image" content="https://balkanconverter.com/assets/og-v1-5-11.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/assets/icons/v1-5-11/favicon-32.png">
@@ -68,7 +68,7 @@
   <link rel="manifest" href="../../site.webmanifest">
   <link rel="stylesheet" href="../../styles.css">
   <script type="application/ld+json">
-  {"@context":"https://schema.org","@type":"WebApplication","name":"Kalkulator marży kursu wymiany","url":"https://balkanconverter.com/pl/exchange-rate-markup-calculator/","applicationCategory":"FinanceApplication","operatingSystem":"Any","isAccessibleForFree":true,"description":"Porównaj ofertę wymiany z najnowszym kursem referencyjnym i oblicz efektywną marżę."}
+  {"@context":"https://schema.org","@type":"WebApplication","name":"Kalkulator różnicy kursowej","url":"https://balkanconverter.com/pl/exchange-rate-markup-calculator/","applicationCategory":"FinanceApplication","operatingSystem":"Any","isAccessibleForFree":true,"description":"Porównaj ofertę wymiany z najnowszym kursem referencyjnym i oblicz rzeczywistą różnicę procentową."}
   </script>
 </head>
 <body>
@@ -143,11 +143,11 @@
     <section class="calculator-hero shell" aria-labelledby="calculator-title">
       <a class="back-link" href="/pl/"><span aria-hidden="true">←</span> Powrót do Balkan Currency Converter</a>
       <p class="eyebrow"><span class="status-dot"></span> Darmowe narzędzie walutowe</p>
-      <h1 id="calculator-title">Kalkulator marży kursu wymiany</h1>
+      <h1 id="calculator-title">Kalkulator różnicy kursowej</h1>
       <p class="hero-lede">Porównaj kwotę oferowaną przez usługę wymiany z najnowszym dostępnym kursem referencyjnym. Zobacz różnicę i efektywną marżę przed wymianą.</p>
     </section>
 
-    <section class="calculator-layout shell" aria-label="Kalkulator znaczników">
+    <section class="calculator-layout shell" aria-label="Kalkulator różnicy kursowej">
       <form class="calculator-card" id="markup-form" novalidate>
         <div class="field-grid">
           <label>Waluta źródłowa
@@ -169,7 +169,7 @@
           <span class="input-hint">Co otrzymasz w walucie docelowej</span>
           <input id="offered-amount" name="offered" inputmode="decimal" autocomplete="off" placeholder="Na przykład 11 500" aria-describedby="calculator-status">
         </label>
-        <button class="primary-button" type="submit">Oblicz znaczniki</button>
+        <button class="primary-button" type="submit">Oblicz różnicę kursową</button>
         <p class="calculator-status" id="calculator-status" role="status" aria-live="polite">Wpisz ofertę, którą chcesz porównać.</p>
       </form>
 
@@ -177,11 +177,11 @@
         <p class="eyebrow">Twoje porównanie</p>
         <h2 id="results-title">Wynik oferty wymiany</h2>
         <dl class="result-list">
-          <div><dt>Stopa referencyjna</dt><dd data-result="referenceRate"></dd></div>
+          <div><dt>Kurs referencyjny</dt><dd data-result="referenceRate"></dd></div>
           <div><dt>Wynik referencyjny</dt><dd data-result="referenceResult"></dd></div>
           <div><dt>Oferowany wynik</dt><dd data-result="offeredResult"></dd></div>
-          <div><dt data-label="difference">Otrzymujesz mniej do</dt><dd data-result="difference"></dd></div>
-          <div class="result-emphasis"><dt data-label="percentage">Marża kursowa</dt><dd data-result="percentage"></dd></div>
+          <div><dt data-label="difference">Otrzymujesz mniej o</dt><dd data-result="difference"></dd></div>
+          <div class="result-emphasis"><dt data-label="percentage">Procentowa różnica kursowa</dt><dd data-result="percentage"></dd></div>
         </dl>
         <p class="result-summary"></p>
         <p class="result-date"></p>
@@ -191,14 +191,14 @@
     <section class="calculator-explanation shell" aria-labelledby="meaning-title">
       <article>
         <h2 id="meaning-title">Co oznacza procent</h2>
-        <p>Kalkulator najpierw szacuje, ile przyniosłaby najnowsza stawka referencyjna. Następnie porównuje tę kwotę z kwotą, którą Ci zaoferowano.</p>
+        <p>Kalkulator najpierw oblicza kwotę według najnowszego kursu referencyjnego, a następnie porównuje ją z zaoferowaną kwotą.</p>
         <p>Dostawca może reklamować „bez prowizji”, stosując mniej korzystny kurs wymiany. Ten niedobór jest w rzeczywistości kosztem ukrytym w stawce.</p>
-        <p><strong>Markup = (wynik referencyjny – wynik oferowany) ÷ wynik referencyjny × 100.</strong></p>
+        <p><strong>Różnica procentowa = (wynik referencyjny − wynik oferty) ÷ wynik referencyjny × 100.</strong></p>
       </article>
       <aside>
         <h2>Ważne, żeby wiedzieć</h2>
-        <p>To jest porównanie informacyjne, a nie porada finansowa. Oferta może obejmować opłaty za usługi, opłaty za kartę, obsługę gotówkową lub spread dostawcy. Stawki referencyjne nie są gwarantowanymi stawkami transakcyjnymi.</p>
-        <p data-i18n-rich="markup-related-tools">Comparing a card or ATM transaction with an offered home-currency conversion? Use the <a class="text-link" data-i18n-slot="foreignFee" href="/pl/foreign-transaction-fee-calculator/">Foreign Transaction Fee &amp; DCC Calculator</a>. For a quick pair conversion, use the <a class="text-link" data-i18n-slot="currency" href="/pl/currency-converter/">Przelicznik walut</a>. For several results at once, try the <a class="text-link" data-i18n-slot="multi" href="/pl/multi-currency-converter/">Multi-Currency Converter</a>, or learn how <a class="text-link" data-i18n-slot="offline" href="/pl/offline-currency-converter/">saved offline rates</a> work.</p>
+        <p>To porównanie ma charakter informacyjny i nie stanowi porady finansowej. Oferta może obejmować opłaty za usługę, kartę lub obsługę gotówki albo spread usługodawcy. Kursy referencyjne nie są gwarantowanymi kursami transakcyjnymi.</p>
+        <p data-i18n-rich="markup-related-tools">Porównujesz płatność kartą lub wypłatę gotówki z przeliczeniem zaproponowanym w walucie karty? Użyj <a class="text-link" data-i18n-slot="foreignFee" href="/pl/foreign-transaction-fee-calculator/">kalkulatora opłat i DCC</a>. Aby szybko przeliczyć parę walutową, otwórz <a class="text-link" data-i18n-slot="currency" href="/pl/currency-converter/">przelicznik walut</a>. Do porównania jednej kwoty w kilku walutach użyj <a class="text-link" data-i18n-slot="multi" href="/pl/multi-currency-converter/">przelicznika wielu walut</a>; <a class="text-link" data-i18n-slot="offline" href="/pl/offline-currency-converter/">przewodnik po przeliczaniu offline</a> wyjaśnia działanie zapisanych kursów.</p>
       </aside>
     </section>
 
@@ -206,7 +206,7 @@
       <div>
         <p class="eyebrow eyebrow-inverse">Potrzebujesz tego w podróży?</p>
         <h2 id="app-cta-title">Porównaj koszty w Balkan Converter</h2>
-        <p>Aplikacja Android dodaje rzeczywisty koszt, stawki offline, tablicę podróży, zapisane zestawy, wykresy i widżet na ekranie głównym.</p>
+        <p>Aplikacja na Androida oferuje także funkcję Rzeczywisty koszt, kursy offline, Tablicę podróży, zapisane zestawy, wykresy i widżet ekranu głównego.</p>
       </div>
       <a class="play-link play-link-on-dark calculator-play-cta" href="https://play.google.com/store/apps/details?id=io.github.nstim605.balkanconverter" aria-label="Uzyskaj Balkan Currency Converter na Google Play">
         <img src="/assets/google-play-badge-en.png" width="202" height="60" alt="Zdobądź go na Google Play">
@@ -216,7 +216,7 @@
 
   <footer class="site-footer">
     <div class="shell footer-grid">
-      <div class="footer-brand"><img src="../../assets/icons/v1-5-11/app-icon-v1-5-11.png" width="44" height="44" alt=""><div><strong dir="ltr">Balkan Currency Converter</strong><span>Przeliczanie walut dla Android</span></div></div>
+      <div class="footer-brand"><img src="../../assets/icons/v1-5-11/app-icon-v1-5-11.png" width="44" height="44" alt=""><div><strong dir="ltr">Balkan Currency Converter</strong><span>Przeliczanie walut na Androidzie</span></div></div>
       <nav aria-label="Nawigacja stopką">
         <a href="/pl/">Dom</a>
         <a href="/pl/privacy-policy.html">Polityka prywatności</a>
@@ -237,7 +237,7 @@
     </div>
   </template>
   <script src="../../script.js" defer></script>
-  <script id="tool-i18n" type="application/json">{"© 2026 Balkan Currency Converter":"© 2026 Balkan Currency Converter","A provider can advertise “no commission” while using a less favourable exchange rate. That shortfall is effectively a cost hidden in the rate.":"Dostawca może reklamować „bez prowizji”, stosując mniej korzystny kurs wymiany. Ten niedobór jest w rzeczywistości kosztem ukrytym w stawce.","A reference rate is unavailable for this currency pair.":"Kurs referencyjny jest niedostępny dla tej pary walutowej.","Above reference by":"Powyższy odnośnik autorstwa","Accept analytics":"Zaakceptuj analitykę","Amount":"Kwota","Amount you are offered":"Oferowana kwota","Amount you give":"Kwota, którą podajesz","Amounts and rates must be positive numbers.":"Kwoty i stawki muszą być liczbami dodatnimi.","Analytics choices":"Wybory analityczne","Back to Balkan Currency Converter":"Powrót do Balkan Currency Converter","Balkan Currency Converter home":"Balkan Currency Converter w domu","Calculate markup":"Oblicz znaczniki","Calculation updated from the latest available reference rates.":"Kalkulacja zaktualizowana na podstawie najnowszych dostępnych stawek referencyjnych.","Choose two different currencies.":"Wybierz dwie różne waluty.","Compare an exchange offer with the latest reference rate and calculate the effective markup.":"Porównaj ofertę wymiany z najnowszym kursem referencyjnym i oblicz efektywną marżę.","Compare an exchange offer with the latest reference rate.":"Porównaj ofertę wymiany z najnowszym kursem referencyjnym.","Compare an exchange offer with the latest reference rate. Calculate the amount you receive, the difference, and the effective exchange-rate markup.":"Porównaj ofertę wymiany z najnowszym kursem referencyjnym. Oblicz otrzymaną kwotę, różnicę i efektywny marżę kursową.","Compare costs in Balkan Converter":"Porównaj koszty w Balkan Converter","Compare the amount an exchange service offers with the latest available reference rate. See the difference and the effective markup before you exchange.":"Porównaj kwotę oferowaną przez usługę wymiany z najnowszym dostępnym kursem referencyjnym. Zobacz różnicę i efektywną marżę przed wymianą.","Currency conversion for Android":"Przeliczanie walut dla Android","Currency Converter":"Przelicznik walut","Date":"Data","Enter the offer you want to compare.":"Wpisz ofertę, którą chcesz porównać.","Enter two amounts greater than zero.":"Wpisz dwie kwoty większe od zera.","EUR — Euro":"EUR — euro","Exchange offer result":"Wynik oferty wymiany","Exchange Rate Markup Calculator":"Kalkulator marży kursu wymiany","Exchange Rate Markup Calculator | Balkan Currency Converter":"Kalkulator marży kursu wymiany | Balkan Currency Converter","Exchange-rate markup":"Marża kursowa","Fetching the latest reference rates…":"Pobieram najnowsze stawki referencyjne…","Footer navigation":"Nawigacja stopką","For example, 11,500":"Na przykład 11 500","Free currency tool":"Darmowe narzędzie walutowe","Get Balkan Currency Converter on Google Play":"Uzyskaj Balkan Currency Converter na Google Play","Get it on Google Play":"Zdobądź go na Google Play","Help us understand site usage. Firebase Analytics stays off unless you accept.":"Pomóż nam zrozumieć sposób korzystania z witryny. Firebase Analytics pozostaje wyłączony, chyba że zaakceptujesz.","Home":"Dom","Important to know":"Ważne, żeby wiedzieć","In the source currency":"W walucie źródłowej","Learn more":"Dowiedz się więcej","Loading latest rates…":"Ładowanie najnowszych stawek…","Main navigation":"Główna nawigacja","Markup = (reference result − offered result) ÷ reference result × 100.":"Markup = (wynik referencyjny – wynik oferowany) ÷ wynik referencyjny × 100.","Markup calculator":"Kalkulator znaczników","Markup Calculator":"Kalkulator znaczników","Need this on the go?":"Potrzebujesz tego w podróży?","No reference rates were returned.":"Nie zwrócono żadnych stawek referencyjnych.","Offered result":"Oferowany wynik","Optional":"Opcjonalne","Optional analytics":"Opcjonalne analizy","Privacy":"Prywatność","Privacy Policy":"Polityka prywatności","Rate":"Oceń","Rates could not be loaded. Check your connection and try again.":"Nie udało się wczytać stawek. Sprawdź połączenie i spróbuj ponownie.","Reference rate":"Stopa referencyjna","Reference rates dated {date}.":"Stopy referencyjne z dnia {date}.","Reference result":"Wynik referencyjny","Reference-rate data is incomplete.":"Dane dotyczące stóp referencyjnych są niekompletne.","Reject analytics":"Odrzuć analitykę","Result":"Wynik","RSD — Serbian Dinar":"RSD — dinar serbski","See how far an exchange offer is from the latest reference rate.":"Zobacz jak daleko jest oferta wymiany od najnowszego kursu referencyjnego.","Skip to calculator":"Przejdź do kalkulatora","Source currency":"Waluta źródłowa","Switch color theme":"Zmień motyw kolorystyczny","Switch to dark theme":"Przełącz na ciemny motyw","Switch to light theme":"Przełącz na jasny motyw","Target currency":"Waluta docelowa","The Android app adds Actual Cost, offline rates, Travel Board, saved sets, charts, and a home-screen widget.":"Aplikacja Android dodaje rzeczywisty koszt, stawki offline, tablicę podróży, zapisane zestawy, wykresy i widżet na ekranie głównym.","The calculator first estimates how much the latest reference rate would produce. It then compares that amount with the amount you were offered.":"Kalkulator najpierw szacuje, ile przyniosłaby najnowsza stawka referencyjna. Następnie porównuje tę kwotę z kwotą, którą Ci zaoferowano.","The offer is {percentage} above the reference result.":"Oferta jest {percentage} powyżej wyniku referencyjnego.","The offer is {percentage} below the reference result.":"Oferta jest {percentage} poniżej wyniku referencyjnego.","This is an informational comparison, not financial advice. An offer may include service fees, card charges, cash handling, or a provider’s spread. Reference rates are not guaranteed transaction rates.":"To jest porównanie informacyjne, a nie porada finansowa. Oferta może obejmować opłaty za usługi, opłaty za kartę, obsługę gotówkową lub spread dostawcy. Stawki referencyjne nie są gwarantowanymi stawkami transakcyjnymi.","What the percentage means":"Co oznacza procent","What you would receive in the target currency":"Co otrzymasz w walucie docelowej","You receive less by":"Otrzymujesz mniej do","You receive more by":"Otrzymujesz więcej przez","Your comparison":"Twoje porównanie"}</script>
+  <script id="tool-i18n" type="application/json">{"© 2026 Balkan Currency Converter":"© 2026 Balkan Currency Converter","A provider can advertise “no commission” while using a less favourable exchange rate. That shortfall is effectively a cost hidden in the rate.":"Dostawca może reklamować „bez prowizji”, stosując mniej korzystny kurs wymiany. Ten niedobór jest w rzeczywistości kosztem ukrytym w stawce.","A reference rate is unavailable for this currency pair.":"Kurs referencyjny jest niedostępny dla tej pary walutowej.","Above reference by":"Powyżej wartości referencyjnej o","Accept analytics":"Zaakceptuj analitykę","Amount":"Kwota","Amount you are offered":"Oferowana kwota","Amount you give":"Kwota, którą podajesz","Amounts and rates must be positive numbers.":"Kwoty i stawki muszą być liczbami dodatnimi.","Analytics choices":"Wybory analityczne","Back to Balkan Currency Converter":"Powrót do Balkan Currency Converter","Balkan Currency Converter home":"Balkan Currency Converter w domu","Calculate markup":"Oblicz różnicę kursową","Calculation updated from the latest available reference rates.":"Obliczenie zaktualizowano według najnowszych dostępnych kursów referencyjnych.","Choose two different currencies.":"Wybierz dwie różne waluty.","Compare an exchange offer with the latest reference rate and calculate the effective markup.":"Porównaj ofertę wymiany z najnowszym kursem referencyjnym i oblicz rzeczywistą różnicę procentową.","Compare an exchange offer with the latest reference rate.":"Porównaj ofertę wymiany z najnowszym kursem referencyjnym.","Compare an exchange offer with the latest reference rate. Calculate the amount you receive, the difference, and the effective exchange-rate markup.":"Porównaj ofertę wymiany z najnowszym kursem referencyjnym. Oblicz otrzymaną kwotę, różnicę i rzeczywistą procentową różnicę kursową.","Compare costs in Balkan Converter":"Porównaj koszty w Balkan Converter","Compare the amount an exchange service offers with the latest available reference rate. See the difference and the effective markup before you exchange.":"Porównaj kwotę oferowaną przez usługę wymiany z najnowszym dostępnym kursem referencyjnym. Zobacz różnicę i efektywną marżę przed wymianą.","Currency conversion for Android":"Przeliczanie walut na Androidzie","Currency Converter":"Przelicznik walut","Date":"Data","Enter the offer you want to compare.":"Wpisz ofertę, którą chcesz porównać.","Enter two amounts greater than zero.":"Wpisz dwie kwoty większe od zera.","EUR — Euro":"EUR — euro","Exchange offer result":"Wynik oferty wymiany","Exchange Rate Markup Calculator":"Kalkulator różnicy kursowej","Exchange Rate Markup Calculator | Balkan Currency Converter":"Kalkulator różnicy kursowej | Balkan Currency Converter","Exchange-rate markup":"Procentowa różnica kursowa","Fetching the latest reference rates…":"Pobieram najnowsze stawki referencyjne…","Footer navigation":"Nawigacja stopką","For example, 11,500":"Na przykład 11 500","Free currency tool":"Darmowe narzędzie walutowe","Get Balkan Currency Converter on Google Play":"Uzyskaj Balkan Currency Converter na Google Play","Get it on Google Play":"Zdobądź go na Google Play","Help us understand site usage. Firebase Analytics stays off unless you accept.":"Pomóż nam zrozumieć sposób korzystania z witryny. Firebase Analytics pozostaje wyłączony, chyba że zaakceptujesz.","Home":"Dom","Important to know":"Ważne, żeby wiedzieć","In the source currency":"W walucie źródłowej","Learn more":"Dowiedz się więcej","Loading latest rates…":"Wczytywanie najnowszych kursów…","Main navigation":"Główna nawigacja","Markup = (reference result − offered result) ÷ reference result × 100.":"Różnica procentowa = (wynik referencyjny − wynik oferty) ÷ wynik referencyjny × 100.","Markup calculator":"Kalkulator różnicy kursowej","Markup Calculator":"Kalkulator różnicy kursowej","Need this on the go?":"Potrzebujesz tego w podróży?","No reference rates were returned.":"Nie otrzymano żadnych kursów referencyjnych.","Offered result":"Oferowany wynik","Optional":"Opcjonalne","Optional analytics":"Opcjonalne analizy","Privacy":"Prywatność","Privacy Policy":"Polityka prywatności","Rate":"Kurs","Rates could not be loaded. Check your connection and try again.":"Nie udało się wczytać kursów. Sprawdź połączenie i spróbuj ponownie.","Reference rate":"Kurs referencyjny","Reference rates dated {date}.":"Kursy referencyjne z dnia {date}.","Reference result":"Wynik referencyjny","Reference-rate data is incomplete.":"Dane o kursach referencyjnych są niekompletne.","Reject analytics":"Odrzuć analitykę","Result":"Wynik","RSD — Serbian Dinar":"RSD — dinar serbski","See how far an exchange offer is from the latest reference rate.":"Zobacz jak daleko jest oferta wymiany od najnowszego kursu referencyjnego.","Skip to calculator":"Przejdź do kalkulatora","Source currency":"Waluta źródłowa","Switch color theme":"Zmień motyw kolorystyczny","Switch to dark theme":"Przełącz na ciemny motyw","Switch to light theme":"Przełącz na jasny motyw","Target currency":"Waluta docelowa","The Android app adds Actual Cost, offline rates, Travel Board, saved sets, charts, and a home-screen widget.":"Aplikacja na Androida oferuje także funkcję Rzeczywisty koszt, kursy offline, Tablicę podróży, zapisane zestawy, wykresy i widżet ekranu głównego.","The calculator first estimates how much the latest reference rate would produce. It then compares that amount with the amount you were offered.":"Kalkulator najpierw oblicza kwotę według najnowszego kursu referencyjnego, a następnie porównuje ją z zaoferowaną kwotą.","The offer is {percentage} above the reference result.":"Oferta jest {percentage} powyżej wyniku referencyjnego.","The offer is {percentage} below the reference result.":"Oferta jest {percentage} poniżej wyniku referencyjnego.","This is an informational comparison, not financial advice. An offer may include service fees, card charges, cash handling, or a provider’s spread. Reference rates are not guaranteed transaction rates.":"To porównanie ma charakter informacyjny i nie stanowi porady finansowej. Oferta może obejmować opłaty za usługę, kartę lub obsługę gotówki albo spread usługodawcy. Kursy referencyjne nie są gwarantowanymi kursami transakcyjnymi.","What the percentage means":"Co oznacza procent","What you would receive in the target currency":"Co otrzymasz w walucie docelowej","You receive less by":"Otrzymujesz mniej o","You receive more by":"Otrzymujesz więcej o","Your comparison":"Twoje porównanie"}</script>
   <script type="module" src="../../exchange-rate-markup-calculator/calculator.js"></script>
 </body>
 </html>

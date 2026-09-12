@@ -6,7 +6,7 @@
   <meta name="theme-color" content="#f7f8fa" media="(prefers-color-scheme: light)">
   <meta name="theme-color" content="#070a0f" media="(prefers-color-scheme: dark)">
   <title>Przelicznik walut offline | Jak działają zapisane kursy wymiany</title>
-  <meta name="description" content="Dowiedz się, jak przelicznik walut offline korzysta z przestarzałych, zapisanych kursów wymiany i co się zmienia, gdy przywrócisz połączenie internetowe.">
+  <meta name="description" content="Dowiedz się, jak przelicznik walut offline korzysta z zapisanych kursów z podaną datą i co zmienia się po odzyskaniu połączenia z internetem.">
   <link rel="canonical" href="https://balkanconverter.com/pl/offline-currency-converter/">
   <link rel="alternate" hreflang="en" href="https://balkanconverter.com/offline-currency-converter/">
   <link rel="alternate" hreflang="sr" href="https://balkanconverter.com/sr/offline-currency-converter/">
@@ -55,12 +55,12 @@
   <link rel="alternate" hreflang="x-default" href="https://balkanconverter.com/offline-currency-converter/">
   <meta property="og:type" content="article">
   <meta property="og:site_name" content="Balkan Currency Converter">
-  <meta property="og:title" content="Przelicznik walut offline: jak działają zapisane stawki">
+  <meta property="og:title" content="Przelicznik walut offline: jak działają zapisane kursy">
   <meta property="og:description" content="Przejrzysty przewodnik dotyczący przeliczania walut bez Internetu, przy użyciu aktualnych, zapisanych kursów wymiany.">
   <meta property="og:url" content="https://balkanconverter.com/pl/offline-currency-converter/">
   <meta property="og:image" content="https://balkanconverter.com/assets/og-v1-5-11.png">
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Przelicznik walut offline: jak działają zapisane stawki">
+  <meta name="twitter:title" content="Przelicznik walut offline: jak działają zapisane kursy">
   <meta name="twitter:description" content="Dowiedz się, co kurs wymiany offline może – a czego nie może – powiedzieć.">
   <meta name="twitter:image" content="https://balkanconverter.com/assets/og-v1-5-11.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/assets/icons/v1-5-11/favicon-32.png">
@@ -68,7 +68,7 @@
   <link rel="manifest" href="../../site.webmanifest">
   <link rel="stylesheet" href="../../styles.css">
   <script type="application/ld+json">
-  {"@context":"https://schema.org","@type":"Article","headline":"Przelicznik walut offline: jak działają zapisane kursy wymiany","description":"Praktyczny przewodnik po korzystaniu z przestarzałych, zapisanych kursów wymiany walut do przeliczania walut bez Internetu.","mainEntityOfPage":"https://balkanconverter.com/pl/offline-currency-converter/","publisher":{"@type":"Organization","name":"Balkan Currency Converter"}}
+  {"@context":"https://schema.org","@type":"Article","headline":"Przelicznik walut offline: jak działają zapisane kursy wymiany","description":"Praktyczny przewodnik po przeliczaniu walut bez internetu przy użyciu zapisanych kursów z podaną datą.","mainEntityOfPage":"https://balkanconverter.com/pl/offline-currency-converter/","publisher":{"@type":"Organization","name":"Balkan Currency Converter"}}
   </script>
 </head>
 <body>
@@ -135,28 +135,28 @@
     <section class="calculator-hero shell" aria-labelledby="offline-title">
       <a class="back-link" href="/pl/"><span aria-hidden="true">←</span> Powrót do Balkan Currency Converter</a>
       <p class="eyebrow"><span class="status-dot"></span> Przewodnik po kursach wymiany offline</p>
-      <h1 id="offline-title">Przelicznik walut offline: jak działają zapisane stawki</h1>
-      <p class="hero-lede">Konwerter może pracować bez Internetu, korzystając z najnowszych kursów walut, które pomyślnie zapisał na Twoim urządzeniu. Stawki te stanowią przydatne dane referencyjne, ale pozostają powiązane z pierwotną datą, dopóki aplikacja nie będzie mogła ich odświeżyć online.</p>
+      <h1 id="offline-title">Przelicznik walut offline: jak działają zapisane kursy</h1>
+      <p class="hero-lede">Przelicznik może działać bez internetu, korzystając z ostatnich kursów poprawnie zapisanych na urządzeniu. Są to przydatne dane referencyjne, ale zachowują pierwotną datę do czasu, aż aplikacja odświeży je online.</p>
     </section>
 
     <section class="section shell" aria-labelledby="offline-flow-title">
-      <div class="section-heading"><div><p class="eyebrow">Prosta wersja</p><h2 id="offline-flow-title">Od odświeżenia online po konwersję offline</h2></div><p>Zapisanie kursu nie sprawi, że będzie on żył wiecznie. Tworzy przestarzałą kopię lokalną, której można użyć ponownie, gdy sieć jest niedostępna.</p></div>
+      <div class="section-heading"><div><p class="eyebrow">Prosta wersja</p><h2 id="offline-flow-title">Od odświeżenia online po konwersję offline</h2></div><p>Zapisanie kursu nie sprawia, że pozostaje on zawsze aktualny. Powstaje lokalna kopia z podaną datą, której można użyć bez dostępu do sieci.</p></div>
       <div class="feature-grid">
-        <article class="feature-card"><span class="feature-mark" aria-hidden="true">1</span><h3>Połącz i odśwież</h3><p>Aplikacja żąda najnowszego dostępnego zestawu danych o stopach referencyjnych i zapisuje datę jego stawki, oszczędzając czas.</p></article>
-        <article class="feature-card"><span class="feature-mark" aria-hidden="true">2</span><h3>Zachowaj ostatni sukces</h3><p>Po pomyślnym żądaniu zbiór danych jest przechowywany lokalnie. Jeśli późniejsze żądanie nie powiedzie się, poprzednia kopia robocza pozostanie dostępna.</p></article>
-        <article class="feature-card feature-card-accent"><span class="feature-mark" aria-hidden="true">3</span><h3>Konwertuj bez Internetu</h3><p>W trybie offline konwersje korzystają z zapisanego zbioru danych i pokazują, że używane są dane z pamięci podręcznej, wraz z datą stawki.</p></article>
+        <article class="feature-card"><span class="feature-mark" aria-hidden="true">1</span><h3>Połącz i odśwież</h3><p>Aplikacja pobiera najnowszy dostępny zestaw kursów referencyjnych i zapisuje datę kursów oraz czas zapisu.</p></article>
+        <article class="feature-card"><span class="feature-mark" aria-hidden="true">2</span><h3>Zachowaj ostatnie poprawne dane</h3><p>Po pomyślnym żądaniu zbiór danych jest przechowywany lokalnie. Jeśli późniejsze żądanie nie powiedzie się, poprzednia kopia robocza pozostanie dostępna.</p></article>
+        <article class="feature-card feature-card-accent"><span class="feature-mark" aria-hidden="true">3</span><h3>Konwertuj bez Internetu</h3><p>W trybie offline przeliczenia korzystają z zapisanego zestawu danych i wraz z datą kursu informują, że używane są dane z pamięci podręcznej.</p></article>
       </div>
     </section>
 
     <section class="calculator-explanation shell" aria-labelledby="snapshot-title">
       <article>
-        <h2 id="snapshot-title">Co oznacza zapisana stawka offline</h2>
-        <p>Zapisane dane stanowią migawkę ostatniej udanej odpowiedzi dotyczącej stopy referencyjnej. Może obliczać konwersje bez połączenia sieciowego, ale liczby nie są aktualizowane, gdy urządzenie jest offline.</p>
+        <h2 id="snapshot-title">Co oznacza kurs zapisany do użycia offline</h2>
+        <p>Zapisane dane są kopią ostatniej poprawnej odpowiedzi z kursami referencyjnymi. Pozwalają przeliczać waluty bez połączenia z siecią, ale w trybie offline wartości się nie aktualizują.</p>
         <p>Zawsze sprawdzaj wyświetlaną datę kursu. Wynik oparty na wczorajszych kursach może być nadal przydatny w planowaniu, ale nie stanowi obietnicy kursu, jaki bank, dostawca kart lub kantor zaoferuje dzisiaj.</p>
       </article>
       <aside>
         <h2>Co się stanie, gdy internet powróci?</h2>
-        <p>Balkan Converter wykorzystuje jedną współdzieloną lokalną pamięć podręczną stawek do normalnej konwersji i przygotowania zapisanego zestawu. Pomyślne odświeżenie online zastępuje starszy zbiór danych w pamięci podręcznej i aktualizuje jego datę, oszczędzając czas.</p>
+        <p>Balkan Converter używa tej samej lokalnej pamięci kursów do zwykłego przeliczania i przygotowywania Zapisanych zestawów. Pomyślne odświeżenie online zastępuje starszy zestaw danych oraz aktualizuje datę kursów i czas zapisu.</p>
         <p>Jeśli odświeżenie nie powiedzie się, aplikacja powróci do poprzednich wartości zapisanych w pamięci podręcznej, zamiast je usuwać.</p>
       </aside>
     </section>
@@ -164,23 +164,23 @@
     <section class="calculator-explanation shell" aria-labelledby="prepare-title">
       <article>
         <h2 id="prepare-title">Przygotuj zapisany zestaw do użycia w trybie offline</h2>
-        <p>W aplikacji Android utwórz lub otwórz zapisany zestaw dla potrzebnych walut. Po połączeniu wybierz <strong>Oszczędzaj stawki offline</strong>. Aplikacja odświeża udostępniony zestaw danych dotyczących stawek i potwierdza gotowość, gdy zapisana pamięć podręczna zawiera wszystkie waluty z tego zestawu.</p>
-        <p>Nie ma osobnego pliku zamrożonych stawek dla każdego przejazdu. Przygotowanie kolejnego zestawu powoduje odświeżenie tej samej pamięci podręcznej, która jest używana w innym miejscu aplikacji.</p>
+        <p>W aplikacji na Androida utwórz lub otwórz Zapisany zestaw z potrzebnymi walutami. Przy połączeniu z internetem wybierz <strong>Zapisz kursy do użycia offline</strong>. Aplikacja odświeża wspólny zestaw kursów i potwierdza gotowość, gdy pamięć podręczna zawiera wszystkie waluty z tego zestawu.</p>
+        <p>Nie ma osobnego, zamrożonego pliku kursów dla każdej podróży. Przygotowanie kolejnego zestawu odświeża tę samą pamięć podręczną, z której korzystają inne części aplikacji.</p>
       </article>
       <aside>
         <h2>Przydatne poza podróżami</h2>
         <p>Konwersja offline może być pomocna w przypadku słabego połączenia, zakłóceń w roamingu, tymczasowej przerwy w świadczeniu usług lub w każdej sytuacji, w której szybkie oszacowanie jest bardziej przydatne niż brak wyniku.</p>
-        <p data-i18n-rich="offline-related-tools">For quick access to the latest cached pair, see the <a class="text-link" data-i18n-slot="widget" href="/pl/currency-converter-widget/">Android currency widget guide</a>. For online comparisons, use the <a class="text-link" data-i18n-slot="currency" href="/pl/currency-converter/">Przelicznik walut</a>, compare several results in the <a class="text-link" data-i18n-slot="multi" href="/pl/multi-currency-converter/">Multi-Currency Converter</a>, or check a provider’s offer with the <a class="text-link" data-i18n-slot="markup" href="/pl/exchange-rate-markup-calculator/">Exchange Rate Markup Calculator</a>.</p>
+        <p data-i18n-rich="offline-related-tools">Aby szybko sprawdzić zapisaną parę walutową, zobacz <a class="text-link" data-i18n-slot="widget" href="/pl/currency-converter-widget/">przewodnik po widżecie Android</a>. Do przeliczania online otwórz <a class="text-link" data-i18n-slot="currency" href="/pl/currency-converter/">przelicznik walut</a>, porównaj jedną kwotę w kilku walutach za pomocą <a class="text-link" data-i18n-slot="multi" href="/pl/multi-currency-converter/">przelicznika wielu walut</a> albo oceń ofertę w <a class="text-link" data-i18n-slot="markup" href="/pl/exchange-rate-markup-calculator/">kalkulatorze różnicy kursowej</a>.</p>
       </aside>
     </section>
 
     <section class="cta-section shell calculator-cta" aria-labelledby="offline-cta-title">
-      <div><p class="eyebrow eyebrow-inverse">Trzymaj pod ręką datowane odniesienie</p><h2 id="offline-cta-title">Użyj zapisanych stawek w Balkan Converter</h2><p>Aplikacja Android może ponownie wykorzystać najnowszą, udaną pamięć podręczną kursów wymiany bez połączenia i wyraźnie identyfikuje dane w pamięci podręcznej oraz datę ich kursu.</p></div>
+      <div><p class="eyebrow eyebrow-inverse">Trzymaj pod ręką datowane odniesienie</p><h2 id="offline-cta-title">Używaj zapisanych kursów w Balkan Converter</h2><p>Aplikacja na Androida może bez połączenia użyć ostatniego poprawnie zapisanego zestawu kursów oraz wyraźnie oznacza dane z pamięci podręcznej i datę kursu.</p></div>
       <a class="play-link play-link-on-dark offline-play-cta" href="https://play.google.com/store/apps/details?id=io.github.nstim605.balkanconverter" aria-label="Uzyskaj Balkan Currency Converter na Google Play"><img src="/assets/google-play-badge-en.png" width="202" height="60" alt="Zdobądź go na Google Play"></a>
     </section>
   </main>
 
-  <footer class="site-footer"><div class="shell footer-grid"><div class="footer-brand"><img src="../../assets/icons/v1-5-11/app-icon-v1-5-11.png" width="44" height="44" alt=""><div><strong dir="ltr">Balkan Currency Converter</strong><span>Przeliczanie walut dla Android</span></div></div><nav aria-label="Nawigacja stopką"><a href="/pl/">Dom</a><a href="/pl/privacy-policy.html">Polityka prywatności</a><a href="https://play.google.com/store/apps/details?id=io.github.nstim605.balkanconverter">Google Play</a><button class="footer-link-button analytics-consent-settings" type="button">Wybory analityczne</button></nav><p>© 2026 Balkan Currency Converter</p></div></footer>
+  <footer class="site-footer"><div class="shell footer-grid"><div class="footer-brand"><img src="../../assets/icons/v1-5-11/app-icon-v1-5-11.png" width="44" height="44" alt=""><div><strong dir="ltr">Balkan Currency Converter</strong><span>Przeliczanie walut na Androidzie</span></div></div><nav aria-label="Nawigacja stopką"><a href="/pl/">Dom</a><a href="/pl/privacy-policy.html">Polityka prywatności</a><a href="https://play.google.com/store/apps/details?id=io.github.nstim605.balkanconverter">Google Play</a><button class="footer-link-button analytics-consent-settings" type="button">Wybory analityczne</button></nav><p>© 2026 Balkan Currency Converter</p></div></footer>
   <template id="analytics-consent-template">
     <div class="analytics-consent-copy">
       <strong id="analytics-consent-title">Opcjonalna analityka</strong>
