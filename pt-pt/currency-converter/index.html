@@ -5,8 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#f7f8fa" media="(prefers-color-scheme: light)">
   <meta name="theme-color" content="#070a0f" media="(prefers-color-scheme: dark)">
-  <title>Conversor de moeda | Converter taxas de câmbio on-line</title>
-  <meta name="description" content="Converta um valor entre duas moedas com as taxas de referência mais recentes disponíveis. Veja a taxa de câmbio, a data da taxa e a fonte de dados.">
+  <title>Conversor de moedas | Converta taxas de câmbio online</title>
+  <meta name="description" content="Converta um montante entre duas moedas com as taxas de referência mais recentes. Veja a taxa de câmbio, a data da taxa e a fonte dos dados.">
   <link rel="canonical" href="https://balkanconverter.com/pt-pt/currency-converter/">
   <link rel="alternate" hreflang="en" href="https://balkanconverter.com/currency-converter/">
   <link rel="alternate" hreflang="sr" href="https://balkanconverter.com/sr/currency-converter/">
@@ -55,12 +55,12 @@
   <link rel="alternate" hreflang="x-default" href="https://balkanconverter.com/currency-converter/">
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="Balkan Currency Converter">
-  <meta property="og:title" content="Conversor de moeda">
+  <meta property="og:title" content="Conversor de moedas">
   <meta property="og:description" content="Converta entre duas moedas usando as taxas de referência mais recentes disponíveis.">
   <meta property="og:url" content="https://balkanconverter.com/pt-pt/currency-converter/">
   <meta property="og:image" content="https://balkanconverter.com/assets/og-v1-5-11.png">
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Conversor de moeda">
+  <meta name="twitter:title" content="Conversor de moedas">
   <meta name="twitter:description" content="Converta entre duas moedas usando as taxas de referência mais recentes disponíveis.">
   <meta name="twitter:image" content="https://balkanconverter.com/assets/og-v1-5-11.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/assets/icons/v1-5-11/favicon-32.png">
@@ -68,15 +68,15 @@
   <link rel="manifest" href="../../site.webmanifest">
   <link rel="stylesheet" href="../../styles.css">
   <script type="application/ld+json">
-  {"@context":"https://schema.org","@type":"WebApplication","name":"Conversor de moeda","url":"https://balkanconverter.com/pt-pt/currency-converter/","applicationCategory":"FinanceApplication","operatingSystem":"Any","isAccessibleForFree":true,"description":"Converta um valor entre duas moedas usando as taxas de referência mais recentes disponíveis."}
+  {"@context":"https://schema.org","@type":"WebApplication","name":"Conversor de moedas","url":"https://balkanconverter.com/pt-pt/currency-converter/","applicationCategory":"FinanceApplication","operatingSystem":"Any","isAccessibleForFree":true,"description":"Converta um montante entre duas moedas utilizando as taxas de referência mais recentes."}
   </script>
 </head>
 <body>
-  <a class="skip-link" href="#main">Pular para o conversor</a>
+  <a class="skip-link" href="#main">Saltar para o conversor</a>
   <header class="site-header">
     <div class="shell nav-wrap">
-      <a class="brand" href="/pt-pt/" aria-label="Balkan Currency Converter página inicial"><img src="../../assets/icons/v1-5-11/app-icon-v1-5-11.png" width="42" height="42" alt=""><span dir="ltr">Balkan Currency Converter</span></a>
-      <nav class="nav-links" aria-label="Navegação principal"><a href="/pt-pt/">Página inicial</a><a href="/pt-pt/multi-currency-converter/">Multi-moeda</a><a href="/pt-pt/exchange-rate-markup-calculator/">Calculadora de marcação</a></nav>
+      <a class="brand" href="/pt-pt/" aria-label="Página inicial do Balkan Currency Converter"><img src="../../assets/icons/v1-5-11/app-icon-v1-5-11.png" width="42" height="42" alt=""><span dir="ltr">Balkan Currency Converter</span></a>
+      <nav class="nav-links" aria-label="Navegação principal"><a href="/pt-pt/">Página inicial</a><a href="/pt-pt/multi-currency-converter/">Multi-moeda</a><a href="/pt-pt/exchange-rate-markup-calculator/">Calculadora de diferença cambial</a></nav>
       <div class="nav-actions">
         <details class="language-selector">
           <summary aria-label="Português (Portugal)"><span aria-hidden="true">🌐</span><span>Português (Portugal)</span></summary>
@@ -134,26 +134,26 @@
   <main id="main" class="calculator-main">
     <section class="calculator-hero shell" aria-labelledby="currency-title">
       <a class="back-link" href="/pt-pt/"><span aria-hidden="true">←</span> Voltar para Balkan Currency Converter</a>
-      <p class="eyebrow"><span class="status-dot"></span> Ferramenta de moeda gratuita</p>
-      <h1 id="currency-title">Conversor de moeda</h1>
-      <p class="hero-lede">Converta um valor entre duas moedas e veja a última taxa de referência disponível, sua data e sua fonte.</p>
+      <p class="eyebrow"><span class="status-dot"></span> Ferramenta gratuita de câmbio</p>
+      <h1 id="currency-title">Conversor de moedas</h1>
+      <p class="hero-lede">Converta um montante entre duas moedas e veja a taxa de referência mais recente, a respetiva data e a fonte dos dados.</p>
     </section>
 
-    <section class="calculator-layout shell" aria-label="Conversor de moeda">
+    <section class="calculator-layout shell" aria-label="Conversor de moedas">
       <form class="calculator-card" id="currency-form" novalidate>
-        <label>Quantidade<input id="currency-amount" name="amount" inputmode="decimal" autocomplete="off" value="100" aria-describedby="currency-status"></label>
+        <label>Montante<input id="currency-amount" name="amount" inputmode="decimal" autocomplete="off" value="100" aria-describedby="currency-status"></label>
         <div class="field-grid">
           <label>De<select id="currency-source" name="source" autocomplete="off"><option value="EUR">EUR</option></select></label>
           <label>Para<select id="currency-target" name="target" autocomplete="off"><option value="RSD">RSD</option></select></label>
         </div>
         <button class="secondary-button" id="swap-currencies" type="button"><span aria-hidden="true">⇄</span> Trocar moedas</button>
         <button class="primary-button" type="submit">Converter moeda</button>
-        <p class="calculator-status" id="currency-status" role="status" aria-live="polite">Insira um valor e escolha duas moedas.</p>
+        <p class="calculator-status" id="currency-status" role="status" aria-live="polite">Introduza um montante e escolha duas moedas.</p>
       </form>
 
       <section class="results-card" id="currency-results" tabindex="-1" aria-labelledby="currency-results-title" hidden>
-        <p class="eyebrow">Sua conversão</p>
-        <h2 id="currency-results-title">Valor convertido</h2>
+        <p class="eyebrow">A sua conversão</p>
+        <h2 id="currency-results-title">Montante convertido</h2>
         <dl class="result-list">
           <div class="result-emphasis"><dt>Resultado</dt><dd data-result="amount"></dd></div>
           <div><dt>Taxa de referência</dt><dd data-result="rate"></dd></div>
@@ -164,17 +164,17 @@
     </section>
 
     <section class="calculator-explanation shell" aria-labelledby="currency-about-title">
-      <article><h2 id="currency-about-title">Uma rápida conversão de referência</h2><p>Este conversor calcula uma taxa cruzada a partir do conjunto de dados de taxa de referência mais recente disponível. É útil para estimativas e comparações, mas um banco, cartão ou serviço de câmbio pode oferecer uma taxa de transação diferente.</p><p>A data exibida informa qual dia de mercado os dados de referência representam.</p></article>
-      <aside><h2>Precisa de uma visão diferente?</h2><p data-i18n-rich="currency-related-tools">Explore a pair over time with <a class="text-link" data-i18n-slot="history" href="/pt-pt/exchange-rate-history/">Exchange Rate History</a>, compare one amount across destinations with the <a class="text-link" data-i18n-slot="multi" href="/pt-pt/multi-currency-converter/">Multi-Currency Converter</a>, check an exchange quote with the <a class="text-link" data-i18n-slot="markup" href="/pt-pt/exchange-rate-markup-calculator/">Markup Calculator</a>, or compare card, ATM and DCC costs with the <a class="text-link" data-i18n-slot="foreignFee" href="/pt-pt/foreign-transaction-fee-calculator/">Foreign Transaction Fee Calculator</a>.</p></aside>
+      <article><h2 id="currency-about-title">Uma conversão rápida de referência</h2><p>Este conversor calcula uma taxa cruzada a partir do conjunto de taxas de referência mais recente. É útil para estimativas e comparações, mas um banco, cartão ou serviço de câmbio pode oferecer outra taxa de transação.</p><p>A data apresentada indica o dia de mercado a que correspondem os dados de referência.</p></article>
+      <aside><h2>Precisa de outra vista?</h2><p data-i18n-rich="currency-related-tools">Veja como um par de moedas variou no <a class="text-link" data-i18n-slot="history" href="/pt-pt/exchange-rate-history/">histórico de taxas</a>, compare um montante em várias moedas com o <a class="text-link" data-i18n-slot="multi" href="/pt-pt/multi-currency-converter/">conversor multimoeda</a>, avalie uma oferta de câmbio com a <a class="text-link" data-i18n-slot="markup" href="/pt-pt/exchange-rate-markup-calculator/">calculadora de diferença cambial</a> ou compare custos de cartão, levantamento e DCC com a <a class="text-link" data-i18n-slot="foreignFee" href="/pt-pt/foreign-transaction-fee-calculator/">calculadora de comissões e DCC</a>.</p></aside>
     </section>
 
     <section class="cta-section shell calculator-cta" aria-labelledby="currency-cta-title">
-      <div><p class="eyebrow eyebrow-inverse">Mais ferramentas em Android</p><h2 id="currency-cta-title">Converter com Balkan Converter</h2><p>O aplicativo Android adiciona uma calculadora, taxas off-line, Travel Board, custo real, conjuntos salvos, histórico, gráficos e um widget na tela inicial.</p></div>
-      <a class="play-link play-link-on-dark currency-play-cta" href="https://play.google.com/store/apps/details?id=io.github.nstim605.balkanconverter" aria-label="Obtenha Balkan Currency Converter em Google Play"><img src="/assets/google-play-badge-en.png" width="202" height="60" alt="Obtenha-o em Google Play"></a>
+      <div><p class="eyebrow eyebrow-inverse">Mais ferramentas no Android</p><h2 id="currency-cta-title">Converter com Balkan Converter</h2><p>A aplicação Android também inclui calculadora, taxas offline, Travel Board, Custo real, conjuntos guardados, histórico, gráficos e um widget para o ecrã inicial.</p></div>
+      <a class="play-link play-link-on-dark currency-play-cta" href="https://play.google.com/store/apps/details?id=io.github.nstim605.balkanconverter" aria-label="Obtenha o Balkan Currency Converter no Google Play"><img src="/assets/google-play-badge-en.png" width="202" height="60" alt="Obter no Google Play"></a>
     </section>
   </main>
 
-  <footer class="site-footer"><div class="shell footer-grid"><div class="footer-brand"><img src="../../assets/icons/v1-5-11/app-icon-v1-5-11.png" width="44" height="44" alt=""><div><strong dir="ltr">Balkan Currency Converter</strong><span>Conversão de moeda para Android</span></div></div><nav aria-label="Navegação no rodapé"><a href="/pt-pt/">Página inicial</a><a href="/pt-pt/privacy-policy.html">Política de Privacidade</a><a href="https://play.google.com/store/apps/details?id=io.github.nstim605.balkanconverter">Google Play</a><button class="footer-link-button analytics-consent-settings" type="button">Opções de análise</button></nav><p>© 2026 Balkan Currency Converter</p></div></footer>
+  <footer class="site-footer"><div class="shell footer-grid"><div class="footer-brand"><img src="../../assets/icons/v1-5-11/app-icon-v1-5-11.png" width="44" height="44" alt=""><div><strong dir="ltr">Balkan Currency Converter</strong><span>Conversão de moedas para Android</span></div></div><nav aria-label="Navegação no rodapé"><a href="/pt-pt/">Página inicial</a><a href="/pt-pt/privacy-policy.html">Política de privacidade</a><a href="https://play.google.com/store/apps/details?id=io.github.nstim605.balkanconverter">Google Play</a><button class="footer-link-button analytics-consent-settings" type="button">Opções de análise</button></nav><p>© 2026 Balkan Currency Converter</p></div></footer>
   <template id="analytics-consent-template">
     <div class="analytics-consent-copy">
       <strong id="analytics-consent-title">Análise opcional</strong>
@@ -186,7 +186,7 @@
     </div>
   </template>
   <script src="../../script.js" defer></script>
-  <script id="tool-i18n" type="application/json">{"© 2026 Balkan Currency Converter":"© 2026 Balkan Currency Converter","A quick reference conversion":"Uma rápida conversão de referência","Accept analytics":"Aceitar análises","Amount":"Quantidade","Amount and rates must be positive numbers.":"O valor e as taxas devem ser números positivos.","Analytics choices":"Opções de análise","Back to Balkan Currency Converter":"Voltar para Balkan Currency Converter","Balkan Currency Converter home":"Balkan Currency Converter página inicial","Choose two different currencies.":"Escolha duas moedas diferentes.","Conversion updated from the latest available reference rates.":"Conversão atualizada a partir das últimas taxas de referência disponíveis.","Convert an amount between two currencies and see the latest available reference rate, its date, and its source.":"Converta um valor entre duas moedas e veja a última taxa de referência disponível, sua data e sua fonte.","Convert an amount between two currencies using the latest available reference rates.":"Converta um valor entre duas moedas usando as taxas de referência mais recentes disponíveis.","Convert an amount between two currencies with the latest available reference rates. See the exchange rate, rate date, and data source.":"Converta um valor entre duas moedas com as taxas de referência mais recentes disponíveis. Veja a taxa de câmbio, a data da taxa e a fonte de dados.","Convert between two currencies using the latest available reference rates.":"Converta entre duas moedas usando as taxas de referência mais recentes disponíveis.","Convert currency":"Converter moeda","Convert with Balkan Converter":"Converter com Balkan Converter","Converted amount":"Valor convertido","Currency conversion for Android":"Conversão de moeda para Android","Currency converter":"Conversor de moeda","Currency Converter":"Conversor de moeda","Currency Converter | Convert Exchange Rates Online":"Conversor de moeda | Converter taxas de câmbio on-line","Data source":"Fonte de dados","Date":"Data","Enter an amount and choose two currencies.":"Insira um valor e escolha duas moedas.","Enter an amount greater than zero.":"Insira um valor maior que zero.","Fetching the latest reference rates…":"Buscando as taxas de referência mais recentes…","Footer navigation":"Navegação no rodapé","Frankfurter reference-rate API":"API de taxa de referência Frankfurter","Free currency tool":"Ferramenta de moeda gratuita","From":"De","Get Balkan Currency Converter on Google Play":"Obtenha Balkan Currency Converter em Google Play","Get it on Google Play":"Obtenha-o em Google Play","Help us understand site usage. Firebase Analytics stays off unless you accept.":"Ajude-nos a entender o uso do site. Firebase Analytics permanece desligado a menos que você aceite.","Home":"Página inicial","Learn more":"Saiba mais","Loading latest rates…":"Carregando tarifas mais recentes…","Main navigation":"Navegação principal","Markup calculator":"Calculadora de marcação","More tools on Android":"Mais ferramentas em Android","Multi-currency":"Multi-moeda","Need a different view?":"Precisa de uma visão diferente?","Optional":"Opcional","Optional analytics":"Análise opcional","Privacy":"Privacidade","Privacy Policy":"Política de Privacidade","Rate":"Taxa","Rate date unavailable.":"Data da tarifa indisponível.","Rates could not be loaded. Check your connection and try again.":"Não foi possível carregar as tarifas. Verifique sua conexão e tente novamente.","Reference rate":"Taxa de referência","Reference rates dated {date}.":"Taxas de referência datadas de {date}.","Reject analytics":"Rejeitar análises","Result":"Resultado","Skip to converter":"Pular para o conversor","Swap currencies":"Trocar moedas","Switch color theme":"Mudar tema de cor","Switch to dark theme":"Mudar para tema escuro","Switch to light theme":"Mudar para tema claro","The Android app adds a calculator, offline rates, Travel Board, Actual Cost, saved sets, history, charts, and a home-screen widget.":"O aplicativo Android adiciona uma calculadora, taxas off-line, Travel Board, custo real, conjuntos salvos, histórico, gráficos e um widget na tela inicial.","The displayed date tells you which market day the reference data represents.":"A data exibida informa qual dia de mercado os dados de referência representam.","This converter calculates a cross-rate from the latest available reference-rate dataset. It is useful for estimates and comparisons, but a bank, card, or exchange service may offer a different transaction rate.":"Este conversor calcula uma taxa cruzada a partir do conjunto de dados de taxa de referência mais recente disponível. É útil para estimativas e comparações, mas um banco, cartão ou serviço de câmbio pode oferecer uma taxa de transação diferente.","To":"Para","Your conversion":"Sua conversão"}</script>
+  <script id="tool-i18n" type="application/json">{"© 2026 Balkan Currency Converter":"© 2026 Balkan Currency Converter","A quick reference conversion":"Uma conversão rápida de referência","Accept analytics":"Aceitar análises","Amount":"Montante","Amount and rates must be positive numbers.":"O montante e as taxas devem ser números positivos.","Analytics choices":"Opções de análise","Back to Balkan Currency Converter":"Voltar para Balkan Currency Converter","Balkan Currency Converter home":"Página inicial do Balkan Currency Converter","Choose two different currencies.":"Escolha duas moedas diferentes.","Conversion updated from the latest available reference rates.":"Conversão atualizada a partir das últimas taxas de referência disponíveis.","Convert an amount between two currencies and see the latest available reference rate, its date, and its source.":"Converta um montante entre duas moedas e veja a taxa de referência mais recente, a respetiva data e a fonte dos dados.","Convert an amount between two currencies using the latest available reference rates.":"Converta um montante entre duas moedas utilizando as taxas de referência mais recentes.","Convert an amount between two currencies with the latest available reference rates. See the exchange rate, rate date, and data source.":"Converta um montante entre duas moedas com as taxas de referência mais recentes. Veja a taxa de câmbio, a data da taxa e a fonte dos dados.","Convert between two currencies using the latest available reference rates.":"Converta entre duas moedas usando as taxas de referência mais recentes disponíveis.","Convert currency":"Converter moeda","Convert with Balkan Converter":"Converter com Balkan Converter","Converted amount":"Montante convertido","Currency conversion for Android":"Conversão de moedas para Android","Currency converter":"Conversor de moedas","Currency Converter":"Conversor de moedas","Currency Converter | Convert Exchange Rates Online":"Conversor de moedas | Converta taxas de câmbio online","Data source":"Fonte de dados","Date":"Data","Enter an amount and choose two currencies.":"Introduza um montante e escolha duas moedas.","Enter an amount greater than zero.":"Introduza um montante superior a zero.","Fetching the latest reference rates…":"A obter as taxas de referência mais recentes…","Footer navigation":"Navegação no rodapé","Frankfurter reference-rate API":"API de taxa de referência Frankfurter","Free currency tool":"Ferramenta gratuita de câmbio","From":"De","Get Balkan Currency Converter on Google Play":"Obtenha o Balkan Currency Converter no Google Play","Get it on Google Play":"Obter no Google Play","Help us understand site usage. Firebase Analytics stays off unless you accept.":"Ajude-nos a compreender a utilização do site. O Firebase Analytics permanece desativado, salvo se aceitar.","Home":"Página inicial","Learn more":"Saiba mais","Loading latest rates…":"A carregar as taxas mais recentes…","Main navigation":"Navegação principal","Markup calculator":"Calculadora de diferença cambial","More tools on Android":"Mais ferramentas no Android","Multi-currency":"Multi-moeda","Need a different view?":"Precisa de outra vista?","Optional":"Opcional","Optional analytics":"Análise opcional","Privacy":"Privacidade","Privacy Policy":"Política de privacidade","Rate":"Taxa","Rate date unavailable.":"Data da taxa indisponível.","Rates could not be loaded. Check your connection and try again.":"Não foi possível carregar as taxas. Verifique a ligação e tente novamente.","Reference rate":"Taxa de referência","Reference rates dated {date}.":"Taxas de referência datadas de {date}.","Reject analytics":"Rejeitar análises","Result":"Resultado","Skip to converter":"Saltar para o conversor","Swap currencies":"Trocar moedas","Switch color theme":"Mudar tema de cor","Switch to dark theme":"Mudar para tema escuro","Switch to light theme":"Mudar para tema claro","The Android app adds a calculator, offline rates, Travel Board, Actual Cost, saved sets, history, charts, and a home-screen widget.":"A aplicação Android também inclui calculadora, taxas offline, Travel Board, Custo real, conjuntos guardados, histórico, gráficos e um widget para o ecrã inicial.","The displayed date tells you which market day the reference data represents.":"A data apresentada indica o dia de mercado a que correspondem os dados de referência.","This converter calculates a cross-rate from the latest available reference-rate dataset. It is useful for estimates and comparisons, but a bank, card, or exchange service may offer a different transaction rate.":"Este conversor calcula uma taxa cruzada a partir do conjunto de taxas de referência mais recente. É útil para estimativas e comparações, mas um banco, cartão ou serviço de câmbio pode oferecer outra taxa de transação.","To":"Para","Your conversion":"A sua conversão"}</script>
   <script type="module" src="../../currency-converter/converter.js"></script>
 </body>
 </html>
