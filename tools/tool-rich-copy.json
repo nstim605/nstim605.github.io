@@ -769,6 +769,44 @@
       "links": { "multi": "prevodníka viacerých mien", "currency": "prevodníku mien", "offline": "kurzy uložené na použitie offline" }
     }
   },
+  "ar": {
+    "currency-related-tools": {
+      "message": "تابع تغير زوج العملات عبر {history}، وقارن مبلغًا واحدًا بعدة عملات باستخدام {multi}، وافحص عرض الصرف عبر {markup}، أو قارن تكاليف البطاقة والسحب النقدي وDCC باستخدام {foreignFee}.",
+      "links": { "history": "سجل أسعار الصرف", "multi": "محول العملات المتعددة", "markup": "حاسبة فرق سعر الصرف", "foreignFee": "حاسبة الرسوم وDCC" }
+    },
+    "markup-related-tools": {
+      "message": "هل تقارن عملية دفع أو سحب بتحويل مقترح إلى عملة بطاقتك؟ استخدم {foreignFee}. ولتحويل سريع بين عملتين افتح {currency}. ويمكنك مقارنة مبلغ واحد بعدة عملات عبر {multi}، بينما يشرح {offline} طريقة عمل الأسعار المحفوظة.",
+      "links": { "foreignFee": "حاسبة الرسوم وDCC", "currency": "محول العملات", "multi": "محول العملات المتعددة", "offline": "دليل الاستخدام دون اتصال" }
+    },
+    "multi-related-tools": {
+      "message": "لزوج عملات واحد استخدم {currency}. شاهد تغيره في {history}، وافحص عرض صرف عبر {markup}، واقرأ في {offline} كيف تُستخدم الأسعار المحفوظة دون إنترنت.",
+      "links": { "currency": "محول العملات", "history": "سجل أسعار الصرف", "markup": "حاسبة فرق سعر الصرف", "offline": "دليل الاستخدام دون اتصال" }
+    },
+    "offline-related-tools": {
+      "message": "للوصول السريع إلى زوج عملات محفوظ، راجع {widget}. استخدم {currency} للتحويل عبر الإنترنت، أو قارن مبلغًا بعدة عملات عبر {multi}، أو افحص عرض صرف باستخدام {markup}.",
+      "links": { "widget": "دليل أداة Android", "currency": "محول العملات", "multi": "محول العملات المتعددة", "markup": "حاسبة فرق سعر الصرف" }
+    },
+    "history-related-tools": {
+      "message": "للتحويل بأحدث سعر متاح استخدم {currency}. ولمقارنة عرض صرف بالنتيجة وفق السعر المرجعي افتح {markup}.",
+      "links": { "currency": "محول العملات", "markup": "حاسبة فرق سعر الصرف" }
+    },
+    "widget-offline-guide": {
+      "message": "عند انقطاع الإنترنت يظل آخر سعر مرجعي محفوظ مفيدًا للتقدير، ويبين التاريخ عمر البيانات. اقرأ المزيد في {offline}.",
+      "links": { "offline": "دليل الاستخدام دون اتصال" }
+    },
+    "widget-more-tools": {
+      "message": "افتح التطبيق لإدخال مبلغ وتحويل العملات وعرض {history} ومقارنة عدة عملات أو حفظ الأسعار للاستخدام دون اتصال.",
+      "links": { "history": "سجل أسعار الصرف" }
+    },
+    "foreign-related-tools": {
+      "message": "إذا أردت فقط مقارنة عرض صرف بالنتيجة وفق السعر المرجعي، فاستخدم {markup}. ولتحويل عادي بين عملتين افتح {currency}.",
+      "links": { "markup": "حاسبة فرق سعر الصرف", "currency": "محول العملات" }
+    },
+    "travel-related-tools": {
+      "message": "قارن مبلغًا واحدًا بعدة عملات عبر {multi}، أو نفّذ تحويلًا سريعًا باستخدام {currency}، أو تعرّف إلى كيفية استخدام تطبيق Android لـ{offline}.",
+      "links": { "multi": "محول العملات المتعددة", "currency": "محول العملات", "offline": "الأسعار المحفوظة دون اتصال" }
+    }
+  },
   "tr": {
     "currency-related-tools": {
       "message": "Bir döviz çiftinin hareketini {history} ile izleyin, tek bir tutarı {multi} ile birkaç para biriminde karşılaştırın, bir döviz teklifini {markup} ile değerlendirin veya kart, nakit çekme ve DCC maliyetlerini {foreignFee} ile karşılaştırın.",

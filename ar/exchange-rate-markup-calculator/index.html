@@ -5,8 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#f7f8fa" media="(prefers-color-scheme: light)">
   <meta name="theme-color" content="#070a0f" media="(prefers-color-scheme: dark)">
-  <title>حاسبة سعر الصرف | Balkan Currency Converter</title>
-  <meta name="description" content="قارن عرض التبادل بأحدث سعر مرجعي. احسب المبلغ الذي تتلقاه، والفرق، وسعر الصرف الفعلي.">
+  <title>حاسبة فرق سعر الصرف | Balkan Currency Converter</title>
+  <meta name="description" content="قارن عرض الصرف بأحدث سعر مرجعي. احسب المبلغ الذي ستتلقاه والفرق ونسبة فرق سعر الصرف الفعلية.">
   <link rel="canonical" href="https://balkanconverter.com/ar/exchange-rate-markup-calculator/">
   <link rel="alternate" hreflang="en" href="https://balkanconverter.com/exchange-rate-markup-calculator/">
   <link rel="alternate" hreflang="sr" href="https://balkanconverter.com/sr/exchange-rate-markup-calculator/">
@@ -55,12 +55,12 @@
   <link rel="alternate" hreflang="x-default" href="https://balkanconverter.com/exchange-rate-markup-calculator/">
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="Balkan Currency Converter">
-  <meta property="og:title" content="حاسبة سعر الصرف">
+  <meta property="og:title" content="حاسبة فرق سعر الصرف">
   <meta property="og:description" content="تعرف على مدى بُعد عرض التبادل عن أحدث سعر مرجعي.">
   <meta property="og:url" content="https://balkanconverter.com/ar/exchange-rate-markup-calculator/">
   <meta property="og:image" content="https://balkanconverter.com/assets/og-v1-5-11.png">
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="حاسبة سعر الصرف">
+  <meta name="twitter:title" content="حاسبة فرق سعر الصرف">
   <meta name="twitter:description" content="قارن عرض التبادل بأحدث سعر مرجعي.">
   <meta name="twitter:image" content="https://balkanconverter.com/assets/og-v1-5-11.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/assets/icons/v1-5-11/favicon-32.png">
@@ -68,14 +68,14 @@
   <link rel="manifest" href="../../site.webmanifest">
   <link rel="stylesheet" href="../../styles.css">
   <script type="application/ld+json">
-  {"@context":"https://schema.org","@type":"WebApplication","name":"حاسبة سعر الصرف","url":"https://balkanconverter.com/ar/exchange-rate-markup-calculator/","applicationCategory":"FinanceApplication","operatingSystem":"Any","isAccessibleForFree":true,"description":"قارن عرض التبادل بأحدث سعر مرجعي واحسب الترميز الفعال."}
+  {"@context":"https://schema.org","@type":"WebApplication","name":"حاسبة فرق سعر الصرف","url":"https://balkanconverter.com/ar/exchange-rate-markup-calculator/","applicationCategory":"FinanceApplication","operatingSystem":"Any","isAccessibleForFree":true,"description":"قارن عرض الصرف بأحدث سعر مرجعي واحسب فرق السعر الفعلي."}
   </script>
 </head>
 <body>
   <a class="skip-link" href="#main">انتقل إلى الآلة الحاسبة</a>
   <header class="site-header">
     <div class="shell nav-wrap">
-      <a class="brand" href="/ar/" aria-label="Balkan Currency Converter المنزل">
+      <a class="brand" href="/ar/" aria-label="الصفحة الرئيسية لـ Balkan Currency Converter">
         <img src="../../assets/icons/v1-5-11/app-icon-v1-5-11.png" width="42" height="42" alt="">
         <span dir="ltr">Balkan Currency Converter</span>
       </a>
@@ -143,11 +143,11 @@
     <section class="calculator-hero shell" aria-labelledby="calculator-title">
       <a class="back-link" href="/ar/"><span aria-hidden="true">←</span> العودة إلى Balkan Currency Converter</a>
       <p class="eyebrow"><span class="status-dot"></span> أداة العملة المجانية</p>
-      <h1 id="calculator-title">حاسبة سعر الصرف</h1>
-      <p class="hero-lede">قارن المبلغ الذي تقدمه خدمة الصرف مع أحدث سعر مرجعي متاح. شاهد الفرق وهامش سعر الصرف الفعالة قبل التبادل.</p>
+      <h1 id="calculator-title">حاسبة فرق سعر الصرف</h1>
+      <p class="hero-lede">قارن المبلغ الذي تعرضه خدمة الصرف بأحدث سعر مرجعي متاح. واعرف الفرق ونسبة فرق السعر الفعلية قبل الصرف.</p>
     </section>
 
-    <section class="calculator-layout shell" aria-label="حاسبة هامش سعر الصرف">
+    <section class="calculator-layout shell" aria-label="حاسبة فرق السعر">
       <form class="calculator-card" id="markup-form" novalidate>
         <div class="field-grid">
           <label>العملة المصدر
@@ -169,7 +169,7 @@
           <span class="input-hint">ما سوف تحصل عليه بالعملة المستهدفة</span>
           <input id="offered-amount" name="offered" inputmode="decimal" autocomplete="off" placeholder="على سبيل المثال، 11500" aria-describedby="calculator-status">
         </label>
-        <button class="primary-button" type="submit">حساب هامش سعر الصرف</button>
+        <button class="primary-button" type="submit">احسب فرق السعر</button>
         <p class="calculator-status" id="calculator-status" role="status" aria-live="polite">أدخل العرض الذي تريد مقارنته.</p>
       </form>
 
@@ -177,11 +177,11 @@
         <p class="eyebrow">المقارنة الخاصة بك</p>
         <h2 id="results-title">نتيجة عرض التبادل</h2>
         <dl class="result-list">
-          <div><dt>المعدل المرجعي</dt><dd data-result="referenceRate"></dd></div>
+          <div><dt>السعر المرجعي</dt><dd data-result="referenceRate"></dd></div>
           <div><dt>النتيجة المرجعية</dt><dd data-result="referenceResult"></dd></div>
           <div><dt>النتيجة المقدمة</dt><dd data-result="offeredResult"></dd></div>
           <div><dt data-label="difference">تتلقى أقل من قبل</dt><dd data-result="difference"></dd></div>
-          <div class="result-emphasis"><dt data-label="percentage">ترميز سعر الصرف</dt><dd data-result="percentage"></dd></div>
+          <div class="result-emphasis"><dt data-label="percentage">فرق سعر الصرف</dt><dd data-result="percentage"></dd></div>
         </dl>
         <p class="result-summary"></p>
         <p class="result-date"></p>
@@ -191,14 +191,14 @@
     <section class="calculator-explanation shell" aria-labelledby="meaning-title">
       <article>
         <h2 id="meaning-title">ماذا تعني النسبة</h2>
-        <p>تقوم الآلة الحاسبة أولاً بتقدير مقدار ما سينتجه المعدل المرجعي الأخير. ثم يقوم بمقارنة هذا المبلغ مع المبلغ الذي عرض عليك.</p>
-        <p>يمكن لمقدم الخدمة الإعلان عن &quot;بدون عمولة&quot; أثناء استخدام سعر صرف أقل ملاءمة. وهذا النقص هو في الواقع تكلفة مخفية في السعر.</p>
-        <p><strong>هامش سعر الصرف = (النتيجة المرجعية − النتيجة المعروضة) ÷ النتيجة المرجعية × 100.</strong></p>
+        <p>تقدّر الحاسبة أولًا المبلغ الناتج وفق أحدث سعر مرجعي، ثم تقارنه بالمبلغ المعروض عليك.</p>
+        <p>قد يعلن مقدم الخدمة «دون عمولة» مع استخدام سعر صرف أقل فائدة. ويصبح هذا الفرق تكلفة مخفية داخل السعر.</p>
+        <p><strong>فرق السعر = (النتيجة المرجعية − النتيجة المعروضة) ÷ النتيجة المرجعية × 100.</strong></p>
       </article>
       <aside>
         <h2>من المهم أن نعرف</h2>
-        <p>هذه مقارنة معلوماتية وليست نصيحة مالية. قد يتضمن العرض رسوم الخدمة، أو رسوم البطاقة، أو التعامل النقدي، أو انتشار المزود. الأسعار المرجعية ليست مضمونة معدلات المعاملات.</p>
-        <p data-i18n-rich="markup-related-tools">Comparing a card or ATM transaction with an offered home-currency conversion? Use the <a class="text-link" data-i18n-slot="foreignFee" href="/ar/foreign-transaction-fee-calculator/">Foreign Transaction Fee &amp; DCC Calculator</a>. For a quick pair conversion, use the <a class="text-link" data-i18n-slot="currency" href="/ar/currency-converter/">محول العملات</a>. For several results at once, try the <a class="text-link" data-i18n-slot="multi" href="/ar/multi-currency-converter/">Multi-Currency Converter</a>, or learn how <a class="text-link" data-i18n-slot="offline" href="/ar/offline-currency-converter/">saved offline rates</a> work.</p>
+        <p>هذه مقارنة معلوماتية وليست نصيحة مالية. قد يشمل العرض رسوم الخدمة أو البطاقة أو التعامل النقدي أو هامش مزود الخدمة. والأسعار المرجعية ليست أسعار معاملات مضمونة.</p>
+        <p data-i18n-rich="markup-related-tools">هل تقارن عملية دفع أو سحب بتحويل مقترح إلى عملة بطاقتك؟ استخدم <a class="text-link" data-i18n-slot="foreignFee" href="/ar/foreign-transaction-fee-calculator/">حاسبة الرسوم وDCC</a>. ولتحويل سريع بين عملتين افتح <a class="text-link" data-i18n-slot="currency" href="/ar/currency-converter/">محول العملات</a>. ويمكنك مقارنة مبلغ واحد بعدة عملات عبر <a class="text-link" data-i18n-slot="multi" href="/ar/multi-currency-converter/">محول العملات المتعددة</a>، بينما يشرح <a class="text-link" data-i18n-slot="offline" href="/ar/offline-currency-converter/">دليل الاستخدام دون اتصال</a> طريقة عمل الأسعار المحفوظة.</p>
       </aside>
     </section>
 
@@ -237,7 +237,7 @@
     </div>
   </template>
   <script src="../../script.js" defer></script>
-  <script id="tool-i18n" type="application/json">{"© 2026 Balkan Currency Converter":"© 2026 Balkan Currency Converter","A provider can advertise “no commission” while using a less favourable exchange rate. That shortfall is effectively a cost hidden in the rate.":"يمكن لمقدم الخدمة الإعلان عن \"بدون عمولة\" أثناء استخدام سعر صرف أقل ملاءمة. وهذا النقص هو في الواقع تكلفة مخفية في السعر.","A reference rate is unavailable for this currency pair.":"السعر المرجعي غير متوفر لزوج العملات هذا.","Above reference by":"المرجع أعلاه بواسطة","Accept analytics":"قبول التحليلات","Amount":"المبلغ","Amount you are offered":"المبلغ المعروض عليك","Amount you give":"المبلغ الذي تعطيه","Amounts and rates must be positive numbers.":"يجب أن تكون المبالغ والمعدلات أرقامًا موجبة.","Analytics choices":"اختيارات التحليلات","Back to Balkan Currency Converter":"العودة إلى Balkan Currency Converter","Balkan Currency Converter home":"Balkan Currency Converter المنزل","Calculate markup":"حساب هامش سعر الصرف","Calculation updated from the latest available reference rates.":"تم تحديث الحساب من أحدث الأسعار المرجعية المتاحة.","Choose two different currencies.":"اختر عملتين مختلفتين.","Compare an exchange offer with the latest reference rate and calculate the effective markup.":"قارن عرض التبادل بأحدث سعر مرجعي واحسب الترميز الفعال.","Compare an exchange offer with the latest reference rate.":"قارن عرض التبادل بأحدث سعر مرجعي.","Compare an exchange offer with the latest reference rate. Calculate the amount you receive, the difference, and the effective exchange-rate markup.":"قارن عرض التبادل بأحدث سعر مرجعي. احسب المبلغ الذي تتلقاه، والفرق، وسعر الصرف الفعلي.","Compare costs in Balkan Converter":"قارن التكاليف في Balkan Converter","Compare the amount an exchange service offers with the latest available reference rate. See the difference and the effective markup before you exchange.":"قارن المبلغ الذي تقدمه خدمة الصرف مع أحدث سعر مرجعي متاح. شاهد الفرق وهامش سعر الصرف الفعالة قبل التبادل.","Currency conversion for Android":"تحويل العملة ل Android","Currency Converter":"محول العملات","Date":"التاريخ","Enter the offer you want to compare.":"أدخل العرض الذي تريد مقارنته.","Enter two amounts greater than zero.":"أدخل مبلغين أكبر من الصفر.","EUR — Euro":"يورو - يورو","Exchange offer result":"نتيجة عرض التبادل","Exchange Rate Markup Calculator":"حاسبة سعر الصرف","Exchange Rate Markup Calculator | Balkan Currency Converter":"حاسبة سعر الصرف | Balkan Currency Converter","Exchange-rate markup":"ترميز سعر الصرف","Fetching the latest reference rates…":"جارٍ جلب أحدث الأسعار المرجعية...","Footer navigation":"التنقل في التذييل","For example, 11,500":"على سبيل المثال، 11500","Free currency tool":"أداة العملة المجانية","Get Balkan Currency Converter on Google Play":"احصل على Balkan Currency Converter على Google Play","Get it on Google Play":"احصل عليه على Google Play","Help us understand site usage. Firebase Analytics stays off unless you accept.":"ساعدنا في فهم استخدام الموقع. يبقى Firebase Analytics متوقفًا ما لم تقبل ذلك.","Home":"الصفحة الرئيسية","Important to know":"من المهم أن نعرف","In the source currency":"بالعملة المصدر","Learn more":"تعلم المزيد","Loading latest rates…":"جارٍ تحميل أحدث الأسعار…","Main navigation":"الملاحة الرئيسية","Markup = (reference result − offered result) ÷ reference result × 100.":"هامش سعر الصرف = (النتيجة المرجعية − النتيجة المعروضة) ÷ النتيجة المرجعية × 100.","Markup calculator":"حاسبة هامش سعر الصرف","Markup Calculator":"حاسبة هامش سعر الصرف","Need this on the go?":"هل تحتاج إلى هذا أثناء التنقل؟","No reference rates were returned.":"لم يتم إرجاع أي أسعار مرجعية.","Offered result":"النتيجة المقدمة","Optional":"اختياري","Optional analytics":"تحليلات اختيارية","Privacy":"الخصوصية","Privacy Policy":"سياسة الخصوصية","Rate":"معدل","Rates could not be loaded. Check your connection and try again.":"لا يمكن تحميل الأسعار. تحقق من اتصالك وحاول مرة أخرى.","Reference rate":"المعدل المرجعي","Reference rates dated {date}.":"الأسعار المرجعية مؤرخة في {date}.","Reference result":"النتيجة المرجعية","Reference-rate data is incomplete.":"بيانات المعدل المرجعي غير كاملة.","Reject analytics":"رفض التحليلات","Result":"النتيجة","RSD — Serbian Dinar":"RSD - الدينار الصربي","See how far an exchange offer is from the latest reference rate.":"تعرف على مدى بُعد عرض التبادل عن أحدث سعر مرجعي.","Skip to calculator":"انتقل إلى الآلة الحاسبة","Source currency":"العملة المصدر","Switch color theme":"تبديل موضوع اللون","Switch to dark theme":"التبديل إلى المظهر الداكن","Switch to light theme":"التبديل إلى موضوع الضوء","Target currency":"العملة المستهدفة","The Android app adds Actual Cost, offline rates, Travel Board, saved sets, charts, and a home-screen widget.":"يضيف تطبيق Android التكلفة الفعلية والأسعار دون الاتصال بالإنترنت ولوحة السفر والمجموعات المحفوظة والرسوم البيانية وأداة الشاشة الرئيسية.","The calculator first estimates how much the latest reference rate would produce. It then compares that amount with the amount you were offered.":"تقوم الآلة الحاسبة أولاً بتقدير مقدار ما سينتجه المعدل المرجعي الأخير. ثم يقوم بمقارنة هذا المبلغ مع المبلغ الذي عرض عليك.","The offer is {percentage} above the reference result.":"العرض هو {percentage} أعلى من النتيجة المرجعية.","The offer is {percentage} below the reference result.":"العرض هو {percentage} أسفل النتيجة المرجعية.","This is an informational comparison, not financial advice. An offer may include service fees, card charges, cash handling, or a provider’s spread. Reference rates are not guaranteed transaction rates.":"هذه مقارنة معلوماتية وليست نصيحة مالية. قد يتضمن العرض رسوم الخدمة، أو رسوم البطاقة، أو التعامل النقدي، أو انتشار المزود. الأسعار المرجعية ليست مضمونة معدلات المعاملات.","What the percentage means":"ماذا تعني النسبة","What you would receive in the target currency":"ما سوف تحصل عليه بالعملة المستهدفة","You receive less by":"تتلقى أقل من قبل","You receive more by":"تتلقى المزيد من خلال","Your comparison":"المقارنة الخاصة بك"}</script>
+  <script id="tool-i18n" type="application/json">{"© 2026 Balkan Currency Converter":"© 2026 Balkan Currency Converter","A provider can advertise “no commission” while using a less favourable exchange rate. That shortfall is effectively a cost hidden in the rate.":"قد يعلن مقدم الخدمة «دون عمولة» مع استخدام سعر صرف أقل فائدة. ويصبح هذا الفرق تكلفة مخفية داخل السعر.","A reference rate is unavailable for this currency pair.":"السعر المرجعي غير متوفر لزوج العملات هذا.","Above reference by":"المرجع أعلاه بواسطة","Accept analytics":"قبول التحليلات","Amount":"المبلغ","Amount you are offered":"المبلغ المعروض عليك","Amount you give":"المبلغ الذي تعطيه","Amounts and rates must be positive numbers.":"يجب أن تكون المبالغ والأسعار أرقامًا موجبة.","Analytics choices":"اختيارات التحليلات","Back to Balkan Currency Converter":"العودة إلى Balkan Currency Converter","Balkan Currency Converter home":"الصفحة الرئيسية لـ Balkan Currency Converter","Calculate markup":"احسب فرق السعر","Calculation updated from the latest available reference rates.":"تم تحديث الحساب من أحدث الأسعار المرجعية المتاحة.","Choose two different currencies.":"اختر عملتين مختلفتين.","Compare an exchange offer with the latest reference rate and calculate the effective markup.":"قارن عرض الصرف بأحدث سعر مرجعي واحسب فرق السعر الفعلي.","Compare an exchange offer with the latest reference rate.":"قارن عرض التبادل بأحدث سعر مرجعي.","Compare an exchange offer with the latest reference rate. Calculate the amount you receive, the difference, and the effective exchange-rate markup.":"قارن عرض الصرف بأحدث سعر مرجعي. احسب المبلغ الذي ستتلقاه والفرق ونسبة فرق سعر الصرف الفعلية.","Compare costs in Balkan Converter":"قارن التكاليف في Balkan Converter","Compare the amount an exchange service offers with the latest available reference rate. See the difference and the effective markup before you exchange.":"قارن المبلغ الذي تعرضه خدمة الصرف بأحدث سعر مرجعي متاح. واعرف الفرق ونسبة فرق السعر الفعلية قبل الصرف.","Currency conversion for Android":"تحويل العملة ل Android","Currency Converter":"محول العملات","Date":"التاريخ","Enter the offer you want to compare.":"أدخل العرض الذي تريد مقارنته.","Enter two amounts greater than zero.":"أدخل مبلغين أكبر من الصفر.","EUR — Euro":"يورو - يورو","Exchange offer result":"نتيجة عرض التبادل","Exchange Rate Markup Calculator":"حاسبة فرق سعر الصرف","Exchange Rate Markup Calculator | Balkan Currency Converter":"حاسبة فرق سعر الصرف | Balkan Currency Converter","Exchange-rate markup":"فرق سعر الصرف","Fetching the latest reference rates…":"جارٍ جلب أحدث الأسعار المرجعية...","Footer navigation":"التنقل في التذييل","For example, 11,500":"على سبيل المثال، 11500","Free currency tool":"أداة العملة المجانية","Get Balkan Currency Converter on Google Play":"احصل على Balkan Currency Converter على Google Play","Get it on Google Play":"احصل عليه على Google Play","Help us understand site usage. Firebase Analytics stays off unless you accept.":"ساعدنا على فهم استخدام الموقع. تظل Firebase Analytics متوقفة ما لم توافق.","Home":"الصفحة الرئيسية","Important to know":"من المهم أن نعرف","In the source currency":"بالعملة المصدر","Learn more":"تعلم المزيد","Loading latest rates…":"جارٍ تحميل أحدث الأسعار…","Main navigation":"الملاحة الرئيسية","Markup = (reference result − offered result) ÷ reference result × 100.":"فرق السعر = (النتيجة المرجعية − النتيجة المعروضة) ÷ النتيجة المرجعية × 100.","Markup calculator":"حاسبة فرق السعر","Markup Calculator":"حاسبة فرق السعر","Need this on the go?":"هل تحتاج إلى هذا أثناء التنقل؟","No reference rates were returned.":"لم يتم إرجاع أي أسعار مرجعية.","Offered result":"النتيجة المقدمة","Optional":"اختياري","Optional analytics":"تحليلات اختيارية","Privacy":"الخصوصية","Privacy Policy":"سياسة الخصوصية","Rate":"السعر","Rates could not be loaded. Check your connection and try again.":"تعذر تحميل الأسعار. تحقق من اتصالك وحاول مرة أخرى.","Reference rate":"السعر المرجعي","Reference rates dated {date}.":"الأسعار المرجعية مؤرخة في {date}.","Reference result":"النتيجة المرجعية","Reference-rate data is incomplete.":"بيانات السعر المرجعي غير مكتملة.","Reject analytics":"رفض التحليلات","Result":"النتيجة","RSD — Serbian Dinar":"RSD - الدينار الصربي","See how far an exchange offer is from the latest reference rate.":"تعرف على مدى بُعد عرض التبادل عن أحدث سعر مرجعي.","Skip to calculator":"انتقل إلى الآلة الحاسبة","Source currency":"العملة المصدر","Switch color theme":"تبديل موضوع اللون","Switch to dark theme":"التبديل إلى المظهر الداكن","Switch to light theme":"التبديل إلى موضوع الضوء","Target currency":"العملة المستهدفة","The Android app adds Actual Cost, offline rates, Travel Board, saved sets, charts, and a home-screen widget.":"يضيف تطبيق Android التكلفة الفعلية والأسعار دون الاتصال بالإنترنت ولوحة السفر والمجموعات المحفوظة والرسوم البيانية وأداة الشاشة الرئيسية.","The calculator first estimates how much the latest reference rate would produce. It then compares that amount with the amount you were offered.":"تقدّر الحاسبة أولًا المبلغ الناتج وفق أحدث سعر مرجعي، ثم تقارنه بالمبلغ المعروض عليك.","The offer is {percentage} above the reference result.":"العرض هو {percentage} أعلى من النتيجة المرجعية.","The offer is {percentage} below the reference result.":"العرض هو {percentage} أسفل النتيجة المرجعية.","This is an informational comparison, not financial advice. An offer may include service fees, card charges, cash handling, or a provider’s spread. Reference rates are not guaranteed transaction rates.":"هذه مقارنة معلوماتية وليست نصيحة مالية. قد يشمل العرض رسوم الخدمة أو البطاقة أو التعامل النقدي أو هامش مزود الخدمة. والأسعار المرجعية ليست أسعار معاملات مضمونة.","What the percentage means":"ماذا تعني النسبة","What you would receive in the target currency":"ما سوف تحصل عليه بالعملة المستهدفة","You receive less by":"تتلقى أقل من قبل","You receive more by":"تتلقى المزيد من خلال","Your comparison":"المقارنة الخاصة بك"}</script>
   <script type="module" src="../../exchange-rate-markup-calculator/calculator.js"></script>
 </body>
 </html>

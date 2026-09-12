@@ -29,6 +29,7 @@
     { "locale": "fi", "route": "fi", "language": "Finnish", "dir": "ltr", "widths": [320, 390, 768, 1440] },
     { "locale": "is", "route": "is", "language": "Icelandic", "dir": "ltr", "widths": [320, 390, 768, 1440] },
     { "locale": "el", "route": "el", "language": "Greek", "dir": "ltr", "widths": [320, 390, 768, 1440] },
-    { "locale": "tr", "route": "tr", "language": "Turkish", "dir": "ltr", "widths": [320, 390, 768, 1440] }
+    { "locale": "tr", "route": "tr", "language": "Turkish", "dir": "ltr", "widths": [320, 390, 768, 1440] },
+    { "locale": "ar", "route": "ar", "language": "Arabic", "dir": "rtl", "widths": [320, 390, 768, 1440] }
   ]
 }
