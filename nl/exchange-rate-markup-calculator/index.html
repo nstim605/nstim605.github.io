@@ -5,8 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#f7f8fa" media="(prefers-color-scheme: light)">
   <meta name="theme-color" content="#070a0f" media="(prefers-color-scheme: dark)">
-  <title>Wisselkoersopslag berekenen | Balkan Currency Converter</title>
-  <meta name="description" content="Vergelijk een omruilaanbod met de meest recente referentiekoers. Bereken het bedrag dat u ontvangt, het verschil en de effectieve wisselkoersopslag.">
+  <title>Wisselkoersafwijkingscalculator | Balkan Currency Converter</title>
+  <meta name="description" content="Vergelijk een wisselaanbod met de meest recente referentiekoers. Bereken het ontvangen bedrag, het verschil en de procentuele afwijking van het referentieresultaat.">
   <link rel="canonical" href="https://balkanconverter.com/nl/exchange-rate-markup-calculator/">
   <link rel="alternate" hreflang="en" href="https://balkanconverter.com/exchange-rate-markup-calculator/">
   <link rel="alternate" hreflang="sr" href="https://balkanconverter.com/sr/exchange-rate-markup-calculator/">
@@ -55,32 +55,32 @@
   <link rel="alternate" hreflang="x-default" href="https://balkanconverter.com/exchange-rate-markup-calculator/">
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="Balkan Currency Converter">
-  <meta property="og:title" content="Wisselkoersopslag berekenen">
-  <meta property="og:description" content="Bekijk hoe ver een ruilaanbod afwijkt van de laatste referentiekoers.">
+  <meta property="og:title" content="Wisselkoersafwijkingscalculator">
+  <meta property="og:description" content="Bekijk hoeveel een wisselaanbod afwijkt van de meest recente referentiekoers.">
   <meta property="og:url" content="https://balkanconverter.com/nl/exchange-rate-markup-calculator/">
   <meta property="og:image" content="https://balkanconverter.com/assets/og-v1-5-11.png">
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Wisselkoersopslag berekenen">
-  <meta name="twitter:description" content="Vergelijk een omruilaanbod met de meest recente referentiekoers.">
+  <meta name="twitter:title" content="Wisselkoersafwijkingscalculator">
+  <meta name="twitter:description" content="Vergelijk een wisselaanbod met de meest recente referentiekoers.">
   <meta name="twitter:image" content="https://balkanconverter.com/assets/og-v1-5-11.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/assets/icons/v1-5-11/favicon-32.png">
   <link rel="apple-touch-icon" sizes="180x180" href="/assets/icons/v1-5-11/apple-touch-icon-180.png">
   <link rel="manifest" href="../../site.webmanifest">
   <link rel="stylesheet" href="../../styles.css">
   <script type="application/ld+json">
-  {"@context":"https://schema.org","@type":"WebApplication","name":"Wisselkoersopslag berekenen","url":"https://balkanconverter.com/nl/exchange-rate-markup-calculator/","applicationCategory":"FinanceApplication","operatingSystem":"Any","isAccessibleForFree":true,"description":"Vergelijk een ruilaanbod met de meest recente referentiekoers en bereken de effectieve opslag."}
+  {"@context":"https://schema.org","@type":"WebApplication","name":"Wisselkoersafwijkingscalculator","url":"https://balkanconverter.com/nl/exchange-rate-markup-calculator/","applicationCategory":"FinanceApplication","operatingSystem":"Any","isAccessibleForFree":true,"description":"Vergelijk een wisselaanbod met de meest recente referentiekoers en bereken de procentuele afwijking."}
   </script>
 </head>
 <body>
   <a class="skip-link" href="#main">Ga naar rekenmachine</a>
   <header class="site-header">
     <div class="shell nav-wrap">
-      <a class="brand" href="/nl/" aria-label="Balkan Currency Converter thuis">
+      <a class="brand" href="/nl/" aria-label="Startpagina van Balkan Currency Converter">
         <img src="../../assets/icons/v1-5-11/app-icon-v1-5-11.png" width="42" height="42" alt="">
         <span dir="ltr">Balkan Currency Converter</span>
       </a>
       <nav class="nav-links" aria-label="Hoofdnavigatie">
-        <a href="/nl/">Thuis</a>
+        <a href="/nl/">Startpagina</a>
         <a href="/nl/privacy-policy.html">Privacy</a>
       </nav>
       <div class="nav-actions">
@@ -143,11 +143,11 @@
     <section class="calculator-hero shell" aria-labelledby="calculator-title">
       <a class="back-link" href="/nl/"><span aria-hidden="true">←</span> Terug naar Balkan Currency Converter</a>
       <p class="eyebrow"><span class="status-dot"></span> Gratis valutatool</p>
-      <h1 id="calculator-title">Wisselkoersopslag berekenen</h1>
-      <p class="hero-lede">Vergelijk het bedrag dat een wisseldienst biedt met de laatst beschikbare referentiekoers. Bekijk het verschil en de effectieve winstmarge voordat u ruilt.</p>
+      <h1 id="calculator-title">Wisselkoersafwijkingscalculator</h1>
+      <p class="hero-lede">Vergelijk het bedrag dat een wisseldienst biedt met de meest recente referentiekoers. Bekijk het verschil en de procentuele afwijking voordat u geld wisselt.</p>
     </section>
 
-    <section class="calculator-layout shell" aria-label="Opmaakcalculator">
+    <section class="calculator-layout shell" aria-label="Wisselkoersafwijkingscalculator">
       <form class="calculator-card" id="markup-form" novalidate>
         <div class="field-grid">
           <label>Bronvaluta
@@ -169,19 +169,19 @@
           <span class="input-hint">Wat u zou ontvangen in de doelvaluta</span>
           <input id="offered-amount" name="offered" inputmode="decimal" autocomplete="off" placeholder="Bijvoorbeeld 11.500" aria-describedby="calculator-status">
         </label>
-        <button class="primary-button" type="submit">Bereken de opmaak</button>
-        <p class="calculator-status" id="calculator-status" role="status" aria-live="polite">Vul het aanbod in dat je wilt vergelijken.</p>
+        <button class="primary-button" type="submit">Afwijking berekenen</button>
+        <p class="calculator-status" id="calculator-status" role="status" aria-live="polite">Voer het aanbod in dat u wilt vergelijken.</p>
       </form>
 
       <section class="results-card" id="calculator-results" tabindex="-1" aria-labelledby="results-title" hidden>
-        <p class="eyebrow">Jouw vergelijking</p>
-        <h2 id="results-title">Resultaat ruilaanbod</h2>
+        <p class="eyebrow">Uw vergelijking</p>
+        <h2 id="results-title">Resultaat van het wisselaanbod</h2>
         <dl class="result-list">
-          <div><dt>Referentietarief</dt><dd data-result="referenceRate"></dd></div>
-          <div><dt>Referentie resultaat</dt><dd data-result="referenceResult"></dd></div>
-          <div><dt>Geboden resultaat</dt><dd data-result="offeredResult"></dd></div>
-          <div><dt data-label="difference">Je ontvangt minder door</dt><dd data-result="difference"></dd></div>
-          <div class="result-emphasis"><dt data-label="percentage">Wisselkoersverhoging</dt><dd data-result="percentage"></dd></div>
+          <div><dt>Referentiekoers</dt><dd data-result="referenceRate"></dd></div>
+          <div><dt>Referentieresultaat</dt><dd data-result="referenceResult"></dd></div>
+          <div><dt>Aangeboden resultaat</dt><dd data-result="offeredResult"></dd></div>
+          <div><dt data-label="difference">U ontvangt minder</dt><dd data-result="difference"></dd></div>
+          <div class="result-emphasis"><dt data-label="percentage">Wisselkoersafwijking</dt><dd data-result="percentage"></dd></div>
         </dl>
         <p class="result-summary"></p>
         <p class="result-date"></p>
@@ -191,24 +191,24 @@
     <section class="calculator-explanation shell" aria-labelledby="meaning-title">
       <article>
         <h2 id="meaning-title">Wat het percentage betekent</h2>
-        <p>De rekenmachine schat eerst hoeveel de laatste referentierente zou opleveren. Vervolgens vergelijkt het dat bedrag met het bedrag dat u werd aangeboden.</p>
-        <p>Een aanbieder kan “geen commissie” adverteren terwijl hij een minder gunstige wisselkoers hanteert. Dat tekort is feitelijk een kostenpost die verborgen zit in het tarief.</p>
-        <p><strong>Opmaak = (referentieresultaat − aangeboden resultaat) ÷ referentieresultaat × 100.</strong></p>
+        <p>De calculator schat eerst welk bedrag de meest recente referentiekoers zou opleveren en vergelijkt dat met het aangeboden bedrag.</p>
+        <p>Een aanbieder kan adverteren met ‘geen commissie’ en toch een minder gunstige wisselkoers gebruiken. Dat verschil is in feite een kostenpost die in de koers is verwerkt.</p>
+        <p><strong>Afwijking % = (referentieresultaat − aangeboden resultaat) ÷ referentieresultaat × 100.</strong></p>
       </article>
       <aside>
         <h2>Belangrijk om te weten</h2>
-        <p>Dit is een informatieve vergelijking, geen financieel advies. Een aanbieding kan servicekosten, kaartkosten, contante afhandeling of de spread van een aanbieder omvatten. Referentietarieven zijn geen gegarandeerde transactietarieven.</p>
-        <p data-i18n-rich="markup-related-tools">Comparing a card or ATM transaction with an offered home-currency conversion? Use the <a class="text-link" data-i18n-slot="foreignFee" href="/nl/foreign-transaction-fee-calculator/">Foreign Transaction Fee &amp; DCC Calculator</a>. For a quick pair conversion, use the <a class="text-link" data-i18n-slot="currency" href="/nl/currency-converter/">Valuta-omzetter</a>. For several results at once, try the <a class="text-link" data-i18n-slot="multi" href="/nl/multi-currency-converter/">Multi-Currency Converter</a>, or learn how <a class="text-link" data-i18n-slot="offline" href="/nl/offline-currency-converter/">saved offline rates</a> work.</p>
+        <p>Dit is een informatieve vergelijking, geen financieel advies. Een aanbod kan servicekosten, kaartkosten, kosten voor contant geld of een opslag van de aanbieder bevatten. Referentiekoersen zijn geen gegarandeerde transactiekoersen.</p>
+        <p data-i18n-rich="markup-related-tools">Wilt u een kaartbetaling of geldopname vergelijken met een aangeboden omrekening naar uw kaartvaluta? Gebruik de <a class="text-link" data-i18n-slot="foreignFee" href="/nl/foreign-transaction-fee-calculator/">calculator voor buitenlandse transactiekosten en DCC</a>. Open voor een snelle omrekening van één valutapaar de <a class="text-link" data-i18n-slot="currency" href="/nl/currency-converter/">valutacalculator</a>. Vergelijk één bedrag in meerdere valuta met de <a class="text-link" data-i18n-slot="multi" href="/nl/multi-currency-converter/">multivalutacalculator</a>; in de <a class="text-link" data-i18n-slot="offline" href="/nl/offline-currency-converter/">gids voor offline omrekenen</a> leest u hoe opgeslagen koersen werken.</p>
       </aside>
     </section>
 
     <section class="cta-section shell calculator-cta" aria-labelledby="app-cta-title">
       <div>
-        <p class="eyebrow eyebrow-inverse">Heb je dit onderweg nodig?</p>
+        <p class="eyebrow eyebrow-inverse">Hebt u dit onderweg nodig?</p>
         <h2 id="app-cta-title">Vergelijk de kosten in Balkan Converter</h2>
-        <p>De Android-app voegt werkelijke kosten, offline tarieven, reisbord, opgeslagen sets, grafieken en een startschermwidget toe.</p>
+        <p>De Android-app biedt ook Werkelijke kosten, offlinekoersen, Travel Board, Opgeslagen sets, grafieken en een startschermwidget.</p>
       </div>
-      <a class="play-link play-link-on-dark calculator-play-cta" href="https://play.google.com/store/apps/details?id=io.github.nstim605.balkanconverter" aria-label="Koop Balkan Currency Converter op Google Play">
+      <a class="play-link play-link-on-dark calculator-play-cta" href="https://play.google.com/store/apps/details?id=io.github.nstim605.balkanconverter" aria-label="Download Balkan Currency Converter via Google Play">
         <img src="/assets/google-play-badge-en.png" width="202" height="60" alt="Download het op Google Play">
       </a>
     </section>
@@ -216,9 +216,9 @@
 
   <footer class="site-footer">
     <div class="shell footer-grid">
-      <div class="footer-brand"><img src="../../assets/icons/v1-5-11/app-icon-v1-5-11.png" width="44" height="44" alt=""><div><strong dir="ltr">Balkan Currency Converter</strong><span>Valutaconversie voor Android</span></div></div>
+      <div class="footer-brand"><img src="../../assets/icons/v1-5-11/app-icon-v1-5-11.png" width="44" height="44" alt=""><div><strong dir="ltr">Balkan Currency Converter</strong><span>Valuta omrekenen op Android</span></div></div>
       <nav aria-label="Voettekstnavigatie">
-        <a href="/nl/">Thuis</a>
+        <a href="/nl/">Startpagina</a>
         <a href="/nl/privacy-policy.html">Privacybeleid</a>
         <a href="https://play.google.com/store/apps/details?id=io.github.nstim605.balkanconverter">Google Play</a>
         <button class="footer-link-button analytics-consent-settings" type="button">Analytics-keuzes</button>
@@ -237,7 +237,7 @@
     </div>
   </template>
   <script src="../../script.js" defer></script>
-  <script id="tool-i18n" type="application/json">{"© 2026 Balkan Currency Converter":"© 2026 Balkan Currency Converter","A provider can advertise “no commission” while using a less favourable exchange rate. That shortfall is effectively a cost hidden in the rate.":"Een aanbieder kan “geen commissie” adverteren terwijl hij een minder gunstige wisselkoers hanteert. Dat tekort is feitelijk een kostenpost die verborgen zit in het tarief.","A reference rate is unavailable for this currency pair.":"Voor dit valutapaar is geen referentiekoers beschikbaar.","Above reference by":"Bovenstaande referentie door","Accept analytics":"Accepteer analyses","Amount":"Bedrag","Amount you are offered":"Bedrag dat u wordt aangeboden","Amount you give":"Bedrag dat u geeft","Amounts and rates must be positive numbers.":"Bedragen en tarieven moeten positieve getallen zijn.","Analytics choices":"Analytics-keuzes","Back to Balkan Currency Converter":"Terug naar Balkan Currency Converter","Balkan Currency Converter home":"Balkan Currency Converter thuis","Calculate markup":"Bereken de opmaak","Calculation updated from the latest available reference rates.":"Berekening bijgewerkt op basis van de laatst beschikbare referentiekoersen.","Choose two different currencies.":"Kies twee verschillende valuta.","Compare an exchange offer with the latest reference rate and calculate the effective markup.":"Vergelijk een ruilaanbod met de meest recente referentiekoers en bereken de effectieve opslag.","Compare an exchange offer with the latest reference rate.":"Vergelijk een omruilaanbod met de meest recente referentiekoers.","Compare an exchange offer with the latest reference rate. Calculate the amount you receive, the difference, and the effective exchange-rate markup.":"Vergelijk een omruilaanbod met de meest recente referentiekoers. Bereken het bedrag dat u ontvangt, het verschil en de effectieve wisselkoersopslag.","Compare costs in Balkan Converter":"Vergelijk de kosten in Balkan Converter","Compare the amount an exchange service offers with the latest available reference rate. See the difference and the effective markup before you exchange.":"Vergelijk het bedrag dat een wisseldienst biedt met de laatst beschikbare referentiekoers. Bekijk het verschil en de effectieve winstmarge voordat u ruilt.","Currency conversion for Android":"Valutaconversie voor Android","Currency Converter":"Valuta-omzetter","Date":"Datum","Enter the offer you want to compare.":"Vul het aanbod in dat je wilt vergelijken.","Enter two amounts greater than zero.":"Voer twee bedragen groter dan nul in.","EUR — Euro":"EUR — Euro","Exchange offer result":"Resultaat ruilaanbod","Exchange Rate Markup Calculator":"Wisselkoersopslag berekenen","Exchange Rate Markup Calculator | Balkan Currency Converter":"Wisselkoersopslag berekenen | Balkan Currency Converter","Exchange-rate markup":"Wisselkoersverhoging","Fetching the latest reference rates…":"De meest recente referentiekoersen ophalen...","Footer navigation":"Voettekstnavigatie","For example, 11,500":"Bijvoorbeeld 11.500","Free currency tool":"Gratis valutatool","Get Balkan Currency Converter on Google Play":"Koop Balkan Currency Converter op Google Play","Get it on Google Play":"Download het op Google Play","Help us understand site usage. Firebase Analytics stays off unless you accept.":"Help ons het gebruik van de site te begrijpen. Firebase Analytics blijft uitgeschakeld tenzij u hiermee akkoord gaat.","Home":"Thuis","Important to know":"Belangrijk om te weten","In the source currency":"In de bronvaluta","Learn more":"Meer informatie","Loading latest rates…":"Laatste tarieven laden…","Main navigation":"Hoofdnavigatie","Markup = (reference result − offered result) ÷ reference result × 100.":"Opmaak = (referentieresultaat − aangeboden resultaat) ÷ referentieresultaat × 100.","Markup calculator":"Opmaakcalculator","Markup Calculator":"Opmaakcalculator","Need this on the go?":"Heb je dit onderweg nodig?","No reference rates were returned.":"Er zijn geen referentietarieven geretourneerd.","Offered result":"Geboden resultaat","Optional":"Optioneel","Optional analytics":"Optionele analyses","Privacy":"Privacy","Privacy Policy":"Privacybeleid","Rate":"Beoordeel","Rates could not be loaded. Check your connection and try again.":"Tarieven konden niet worden geladen. Controleer uw verbinding en probeer het opnieuw.","Reference rate":"Referentietarief","Reference rates dated {date}.":"Referentietarieven gedateerd {date}.","Reference result":"Referentie resultaat","Reference-rate data is incomplete.":"Gegevens over de referentierente zijn onvolledig.","Reject analytics":"Analyses afwijzen","Result":"Resultaat","RSD — Serbian Dinar":"RSD — Servische dinar","See how far an exchange offer is from the latest reference rate.":"Bekijk hoe ver een ruilaanbod afwijkt van de laatste referentiekoers.","Skip to calculator":"Ga naar rekenmachine","Source currency":"Bronvaluta","Switch color theme":"Van kleurthema wisselen","Switch to dark theme":"Schakel over naar een donker thema","Switch to light theme":"Schakel over naar het lichtthema","Target currency":"Doelvaluta","The Android app adds Actual Cost, offline rates, Travel Board, saved sets, charts, and a home-screen widget.":"De Android-app voegt werkelijke kosten, offline tarieven, reisbord, opgeslagen sets, grafieken en een startschermwidget toe.","The calculator first estimates how much the latest reference rate would produce. It then compares that amount with the amount you were offered.":"De rekenmachine schat eerst hoeveel de laatste referentierente zou opleveren. Vervolgens vergelijkt het dat bedrag met het bedrag dat u werd aangeboden.","The offer is {percentage} above the reference result.":"Het aanbod ligt {percentage} boven het referentieresultaat.","The offer is {percentage} below the reference result.":"Het aanbod is {percentage} onder het referentieresultaat.","This is an informational comparison, not financial advice. An offer may include service fees, card charges, cash handling, or a provider’s spread. Reference rates are not guaranteed transaction rates.":"Dit is een informatieve vergelijking, geen financieel advies. Een aanbieding kan servicekosten, kaartkosten, contante afhandeling of de spread van een aanbieder omvatten. Referentietarieven zijn geen gegarandeerde transactietarieven.","What the percentage means":"Wat het percentage betekent","What you would receive in the target currency":"Wat u zou ontvangen in de doelvaluta","You receive less by":"Je ontvangt minder door","You receive more by":"Je ontvangt meer door","Your comparison":"Jouw vergelijking"}</script>
+  <script id="tool-i18n" type="application/json">{"© 2026 Balkan Currency Converter":"© 2026 Balkan Currency Converter","A provider can advertise “no commission” while using a less favourable exchange rate. That shortfall is effectively a cost hidden in the rate.":"Een aanbieder kan adverteren met ‘geen commissie’ en toch een minder gunstige wisselkoers gebruiken. Dat verschil is in feite een kostenpost die in de koers is verwerkt.","A reference rate is unavailable for this currency pair.":"Voor dit valutapaar is geen referentiekoers beschikbaar.","Above reference by":"Boven de referentie met","Accept analytics":"Accepteer analyses","Amount":"Bedrag","Amount you are offered":"Bedrag dat u wordt aangeboden","Amount you give":"Bedrag dat u geeft","Amounts and rates must be positive numbers.":"De bedragen en koersen moeten positieve getallen zijn.","Analytics choices":"Analytics-keuzes","Back to Balkan Currency Converter":"Terug naar Balkan Currency Converter","Balkan Currency Converter home":"Startpagina van Balkan Currency Converter","Calculate markup":"Afwijking berekenen","Calculation updated from the latest available reference rates.":"Berekening bijgewerkt op basis van de laatst beschikbare referentiekoersen.","Choose two different currencies.":"Kies twee verschillende valuta.","Compare an exchange offer with the latest reference rate and calculate the effective markup.":"Vergelijk een wisselaanbod met de meest recente referentiekoers en bereken de procentuele afwijking.","Compare an exchange offer with the latest reference rate.":"Vergelijk een wisselaanbod met de meest recente referentiekoers.","Compare an exchange offer with the latest reference rate. Calculate the amount you receive, the difference, and the effective exchange-rate markup.":"Vergelijk een wisselaanbod met de meest recente referentiekoers. Bereken het ontvangen bedrag, het verschil en de procentuele afwijking van het referentieresultaat.","Compare costs in Balkan Converter":"Vergelijk de kosten in Balkan Converter","Compare the amount an exchange service offers with the latest available reference rate. See the difference and the effective markup before you exchange.":"Vergelijk het bedrag dat een wisseldienst biedt met de meest recente referentiekoers. Bekijk het verschil en de procentuele afwijking voordat u geld wisselt.","Currency conversion for Android":"Valuta omrekenen op Android","Currency Converter":"Valutacalculator","Date":"Datum","Enter the offer you want to compare.":"Voer het aanbod in dat u wilt vergelijken.","Enter two amounts greater than zero.":"Voer twee bedragen groter dan nul in.","EUR — Euro":"EUR — Euro","Exchange offer result":"Resultaat van het wisselaanbod","Exchange Rate Markup Calculator":"Wisselkoersafwijkingscalculator","Exchange Rate Markup Calculator | Balkan Currency Converter":"Wisselkoersafwijkingscalculator | Balkan Currency Converter","Exchange-rate markup":"Wisselkoersafwijking","Fetching the latest reference rates…":"De meest recente referentiekoersen ophalen...","Footer navigation":"Voettekstnavigatie","For example, 11,500":"Bijvoorbeeld 11.500","Free currency tool":"Gratis valutatool","Get Balkan Currency Converter on Google Play":"Download Balkan Currency Converter via Google Play","Get it on Google Play":"Download het op Google Play","Help us understand site usage. Firebase Analytics stays off unless you accept.":"Help ons het gebruik van de site te begrijpen. Firebase Analytics blijft uitgeschakeld tenzij u hiermee akkoord gaat.","Home":"Startpagina","Important to know":"Belangrijk om te weten","In the source currency":"In de bronvaluta","Learn more":"Meer informatie","Loading latest rates…":"Meest recente koersen laden…","Main navigation":"Hoofdnavigatie","Markup = (reference result − offered result) ÷ reference result × 100.":"Afwijking % = (referentieresultaat − aangeboden resultaat) ÷ referentieresultaat × 100.","Markup calculator":"Wisselkoersafwijkingscalculator","Markup Calculator":"Wisselkoersafwijkingscalculator","Need this on the go?":"Hebt u dit onderweg nodig?","No reference rates were returned.":"Er zijn geen referentiekoersen ontvangen.","Offered result":"Aangeboden resultaat","Optional":"Optioneel","Optional analytics":"Optionele analyses","Privacy":"Privacy","Privacy Policy":"Privacybeleid","Rate":"Koers","Rates could not be loaded. Check your connection and try again.":"Koersen konden niet worden geladen. Controleer uw verbinding en probeer het opnieuw.","Reference rate":"Referentiekoers","Reference rates dated {date}.":"Referentiekoersen van {date}.","Reference result":"Referentieresultaat","Reference-rate data is incomplete.":"De referentiekoersgegevens zijn onvolledig.","Reject analytics":"Analyses afwijzen","Result":"Resultaat","RSD — Serbian Dinar":"RSD — Servische dinar","See how far an exchange offer is from the latest reference rate.":"Bekijk hoeveel een wisselaanbod afwijkt van de meest recente referentiekoers.","Skip to calculator":"Ga naar rekenmachine","Source currency":"Bronvaluta","Switch color theme":"Van kleurthema wisselen","Switch to dark theme":"Schakel over naar een donker thema","Switch to light theme":"Schakel over naar het lichtthema","Target currency":"Doelvaluta","The Android app adds Actual Cost, offline rates, Travel Board, saved sets, charts, and a home-screen widget.":"De Android-app biedt ook Werkelijke kosten, offlinekoersen, Travel Board, Opgeslagen sets, grafieken en een startschermwidget.","The calculator first estimates how much the latest reference rate would produce. It then compares that amount with the amount you were offered.":"De calculator schat eerst welk bedrag de meest recente referentiekoers zou opleveren en vergelijkt dat met het aangeboden bedrag.","The offer is {percentage} above the reference result.":"Het aanbod ligt {percentage} boven het referentieresultaat.","The offer is {percentage} below the reference result.":"Het aanbod is {percentage} onder het referentieresultaat.","This is an informational comparison, not financial advice. An offer may include service fees, card charges, cash handling, or a provider’s spread. Reference rates are not guaranteed transaction rates.":"Dit is een informatieve vergelijking, geen financieel advies. Een aanbod kan servicekosten, kaartkosten, kosten voor contant geld of een opslag van de aanbieder bevatten. Referentiekoersen zijn geen gegarandeerde transactiekoersen.","What the percentage means":"Wat het percentage betekent","What you would receive in the target currency":"Wat u zou ontvangen in de doelvaluta","You receive less by":"U ontvangt minder","You receive more by":"U ontvangt meer","Your comparison":"Uw vergelijking"}</script>
   <script type="module" src="../../exchange-rate-markup-calculator/calculator.js"></script>
 </body>
 </html>

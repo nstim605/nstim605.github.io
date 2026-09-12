@@ -12,6 +12,7 @@
     { "locale": "es-ES", "route": "es-es", "language": "Spanish Spain", "dir": "ltr", "widths": [320, 390, 1440] },
     { "locale": "es-419", "route": "es-419", "language": "Spanish Latin America", "dir": "ltr", "widths": [320, 390, 1440] },
     { "locale": "pt-BR", "route": "pt-br", "language": "Portuguese Brazil", "dir": "ltr", "widths": [320, 390, 768, 1440] },
-    { "locale": "pt-PT", "route": "pt-pt", "language": "Portuguese Portugal", "dir": "ltr", "widths": [320, 390, 768, 1440] }
+    { "locale": "pt-PT", "route": "pt-pt", "language": "Portuguese Portugal", "dir": "ltr", "widths": [320, 390, 768, 1440] },
+    { "locale": "nl", "route": "nl", "language": "Dutch", "dir": "ltr", "widths": [320, 390, 768, 1440] }
   ]
 }

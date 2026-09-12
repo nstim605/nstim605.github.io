@@ -6,7 +6,7 @@
   <meta name="theme-color" content="#f7f8fa" media="(prefers-color-scheme: light)">
   <meta name="theme-color" content="#070a0f" media="(prefers-color-scheme: dark)">
   <title>Valutawidget voor Android | Balkan Converter</title>
-  <meta name="description" content="Voeg een valutaconversiewidget toe aan uw Android-startscherm voor snelle toegang tot een in het cachegeheugen opgeslagen wisselkoers, koersdatum, ruilactie en app-snelkoppeling.">
+  <meta name="description" content="Voeg een valutawidget toe aan uw Android-startscherm voor snelle toegang tot een opgeslagen wisselkoers, de koersdatum, de omwisselknop en een snelkoppeling naar de app.">
   <link rel="canonical" href="https://balkanconverter.com/nl/currency-converter-widget/">
   <link rel="alternate" hreflang="en" href="https://balkanconverter.com/currency-converter-widget/">
   <link rel="alternate" hreflang="sr" href="https://balkanconverter.com/sr/currency-converter-widget/">
@@ -55,12 +55,12 @@
   <link rel="alternate" hreflang="x-default" href="https://balkanconverter.com/currency-converter-widget/">
   <meta property="og:type" content="article">
   <meta property="og:site_name" content="Balkan Currency Converter">
-  <meta property="og:title" content="Valutawidget voor Android">
+  <meta property="og:title" content="Valutaconversiewidget voor Android">
   <meta property="og:description" content="Bekijk hoe u de valutawidget van Balkan Converter op het startscherm op Android kunt toevoegen en gebruiken.">
   <meta property="og:url" content="https://balkanconverter.com/nl/currency-converter-widget/">
   <meta property="og:image" content="https://balkanconverter.com/assets/guides/widget-home-screen.png">
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Valutawidget voor Android">
+  <meta name="twitter:title" content="Valutaconversiewidget voor Android">
   <meta name="twitter:description" content="Snelle toegang tot een in de cache opgeslagen valutapaar vanaf uw Android-startscherm.">
   <meta name="twitter:image" content="https://balkanconverter.com/assets/guides/widget-home-screen.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/assets/icons/v1-5-11/favicon-32.png">
@@ -68,15 +68,15 @@
   <link rel="manifest" href="../../site.webmanifest">
   <link rel="stylesheet" href="../../styles.css">
   <script type="application/ld+json">
-  {"@context":"https://schema.org","@type":"HowTo","name":"Hoe u de Balkan Converter-widget toevoegt aan Android","description":"Voeg een valutaconversiewidget toe aan een Android-startscherm en gebruik de in de cache opgeslagen referentiekoers.","step":[{"@type":"HowToStep","name":"Open Balkan Converter","text":"Open de app, kies het gewenste valutapaar en laat de nieuwste referentiekoersen succesvol laden."},{"@type":"HowToStep","name":"Open de Android widgetkiezer","text":"Houd uw vinger op een leeg gedeelte van het startscherm en kies vervolgens Widgets."},{"@type":"HowToStep","name":"Voeg de widget toe","text":"Zoek Balkan Converter en sleep de valutawidget naar het startscherm."},{"@type":"HowToStep","name":"Formaat wijzigen en gebruiken","text":"Pas het formaat van de widget aan indien nodig. Tik op de widget om het geselecteerde paar in de app te openen; de bredere lay-out biedt ook een ruilactie."}]}
+  {"@context":"https://schema.org","@type":"HowTo","name":"Hoe u de Balkan Converter-widget toevoegt aan Android","description":"Voeg een valutaconversiewidget toe aan een Android-startscherm en gebruik de in de cache opgeslagen referentiekoers.","step":[{"@type":"HowToStep","name":"Open Balkan Converter","text":"Open de app, kies het gewenste valutapaar en laat de nieuwste referentiekoersen succesvol laden."},{"@type":"HowToStep","name":"Open de Android widgetkiezer","text":"Houd uw vinger op een leeg gedeelte van het startscherm en kies vervolgens Widgets."},{"@type":"HowToStep","name":"Voeg de widget toe","text":"Zoek Balkan Converter en sleep de valutawidget naar het startscherm."},{"@type":"HowToStep","name":"Formaat wijzigen en gebruiken","text":"Pas het widgetformaat zo nodig aan. Tik op de widget om het gekozen paar in de app te openen; in de bredere indeling kunt u de valuta ook omwisselen."}]}
   </script>
 </head>
 <body>
   <a class="skip-link" href="#main">Ga naar de widgetgids</a>
   <header class="site-header">
     <div class="shell nav-wrap">
-      <a class="brand" href="/nl/" aria-label="Balkan Currency Converter thuis"><img src="../../assets/icons/v1-5-11/app-icon-v1-5-11.png" width="42" height="42" alt=""><span dir="ltr">Balkan Currency Converter</span></a>
-      <nav class="nav-links" aria-label="Hoofdnavigatie"><a href="/nl/">Thuis</a><a href="/nl/currency-converter/">Valuta-omzetter</a><a href="/nl/exchange-rate-history/">Beoordeel geschiedenis</a></nav>
+      <a class="brand" href="/nl/" aria-label="Startpagina van Balkan Currency Converter"><img src="../../assets/icons/v1-5-11/app-icon-v1-5-11.png" width="42" height="42" alt=""><span dir="ltr">Balkan Currency Converter</span></a>
+      <nav class="nav-links" aria-label="Hoofdnavigatie"><a href="/nl/">Startpagina</a><a href="/nl/currency-converter/">Valutacalculator</a><a href="/nl/exchange-rate-history/">Koersgeschiedenis</a></nav>
       <div class="nav-actions">
         <details class="language-selector">
           <summary aria-label="Nederlands"><span aria-hidden="true">🌐</span><span>Nederlands</span></summary>
@@ -136,59 +136,59 @@
       <div class="widget-guide-copy">
         <a class="back-link" href="/nl/"><span aria-hidden="true">←</span> Terug naar Balkan Currency Converter</a>
         <p class="eyebrow"><span class="status-dot"></span> Android-startschermgids</p>
-        <h1 id="widget-title">Valutawidget voor Android</h1>
-        <p class="hero-lede">Bewaar één nuttig valutapaar op uw startscherm. De Balkan Converter-widget toont het in de cache opgeslagen referentietarief en de bijbehorende gegevensdatum, opent dat paar in de app en ondersteunt een snelle omwisseling in de bredere lay-out.</p>
+        <h1 id="widget-title">Valutaconversiewidget voor Android</h1>
+        <p class="hero-lede">Houd een nuttig valutapaar op uw startscherm. De Balkan Converter-widget toont de opgeslagen referentiekoers en gegevensdatum, opent dat paar in de app en laat u in de brede indeling snel de valuta omwisselen.</p>
         <a class="primary-button" href="#add-widget">Hoe de widget toe te voegen <span aria-hidden="true">↓</span></a>
       </div>
       <figure class="widget-guide-visual">
         <img src="/assets/guides/widget-home-screen.png" width="1080" height="1920" alt="Balkan Converter-productievalutawidget met een in de cache opgeslagen koers van EUR naar RSD op een Android-startscherm">
-        <figcaption>De productie-Balkan Converter-widget op een normaal Android-startscherm.</figcaption>
+        <figcaption>De echte Balkan Converter-widget op een normaal Android-startscherm.</figcaption>
       </figure>
     </section>
 
     <section class="section shell widget-details" id="add-widget" aria-labelledby="widget-steps-title">
-      <div class="section-heading"><div><p class="eyebrow">Vier snelle stappen</p><h2 id="widget-steps-title">Voeg de valutawidget toe</h2></div><p>Launcher-labels variëren enigszins per Android-apparaat, maar de standaard startschermstroom is hetzelfde.</p></div>
+      <div class="section-heading"><div><p class="eyebrow">Vier snelle stappen</p><h2 id="widget-steps-title">Voeg de valutawidget toe</h2></div><p>De benamingen kunnen per Android-apparaat iets verschillen, maar de gebruikelijke stappen op het startscherm zijn hetzelfde.</p></div>
       <div class="feature-grid">
         <article class="feature-card"><span class="feature-mark" aria-hidden="true">1</span><h3>Bereid een paar voor</h3><p>Open Balkan Converter, selecteer de gewenste valuta en laat de nieuwste referentiekoersen succesvol laden.</p></article>
         <article class="feature-card"><span class="feature-mark" aria-hidden="true">2</span><h3>Widgets openen</h3><p>Houd een leeg gedeelte van het Android-startscherm aangeraakt en kies vervolgens <strong>Widgets</strong>.</p></article>
         <article class="feature-card"><span class="feature-mark" aria-hidden="true">3</span><h3>Plaats het</h3><p>Zoek Balkan Converter en sleep de valutawidget naar een vrij gedeelte van uw startscherm.</p></article>
-        <article class="feature-card feature-card-accent"><span class="feature-mark" aria-hidden="true">4</span><h3>Formaat wijzigen en gebruiken</h3><p>Pas het formaat aan zodat het past. Tik op de kaart om dat paar in de app te openen; de bredere widget toont ook een wisselknop.</p></article>
+        <article class="feature-card feature-card-accent"><span class="feature-mark" aria-hidden="true">4</span><h3>Formaat wijzigen en gebruiken</h3><p>Pas het formaat naar wens aan. Tik op de kaart om het paar in de app te openen; de bredere widget toont ook een omwisselknop.</p></article>
       </div>
     </section>
 
     <section class="calculator-explanation shell" aria-labelledby="widget-shows-title">
       <article>
         <h2 id="widget-shows-title">Wat de widget laat zien</h2>
-        <p>De kaart toont een referentietarief voor het geselecteerde paar plus een versheidslabel en tariefdatum. Elke widget begint met het paar dat het meest recent in de app is gebruikt en onthoudt vervolgens zijn eigen paar.</p>
-        <p>Als u op de widget tikt, wordt Balkan Converter geopend met de betreffende valuta gereed. Op een widget van gemiddelde breedte keert de wisselbediening het paar direct op het startscherm om.</p>
+        <p>De kaart toont de referentiekoers voor het gekozen paar, een actualiteitslabel en de koersdatum. Elke widget begint met het laatst in de app gebruikte paar en onthoudt daarna zijn eigen paar.</p>
+        <p>Als u op de widget tikt, wordt Balkan Converter geopend met de betreffende valuta klaar voor gebruik. Op een middelbrede widget kunt u het valutapaar rechtstreeks op het startscherm omwisselen.</p>
       </article>
       <aside>
         <h2>Waarom de datum ertoe doet</h2>
-        <p>De widget maakt gebruik van de nieuwste, succesvol in de cache opgeslagen tariefgegevensset van de app; het is geen onafhankelijke live-marktfeed. Wanneer Balkan Converter de tarieven met succes vernieuwt, ontvangen geïnstalleerde widgets de bijgewerkte gegevens in de cache.</p>
-        <p data-i18n-rich="widget-offline-guide">If the device is offline, the previous reference rate remains useful for estimates, but its displayed date tells you how old it is. Learn more in the <a class="text-link" data-i18n-slot="offline" href="/nl/offline-currency-converter/">offline currency converter guide</a>.</p>
+        <p>De widget gebruikt de meest recente koersgegevens die de app met succes heeft opgeslagen; het is geen zelfstandige live marktfeed. Wanneer Balkan Converter de koersen vernieuwt, ontvangen geïnstalleerde widgets de bijgewerkte cachegegevens.</p>
+        <p data-i18n-rich="widget-offline-guide">Zonder internet blijft de laatst opgeslagen referentiekoers bruikbaar voor schattingen; de datum toont hoe oud de gegevens zijn. Lees meer in de <a class="text-link" data-i18n-slot="offline" href="/nl/offline-currency-converter/">gids voor offline omrekenen</a>.</p>
       </aside>
     </section>
 
     <section class="calculator-explanation shell" aria-labelledby="widget-tips-title">
       <article>
         <h2 id="widget-tips-title">Kleine of brede indeling?</h2>
-        <p>Door de compacte lay-out blijven het tarief en de datum zichtbaar op minder ruimte. Maak de widget breder als je de speciale ruilactie naast de koers wilt.</p>
+        <p>De compacte indeling houdt de koers en datum zichtbaar in minder ruimte. Maak de widget breder om naast de koers ook de omwisselknop te tonen.</p>
         <p>Android-opstartprogramma's bepalen de exacte rastergrootte, dus de beschikbare stappen voor het wijzigen van het formaat kunnen verschillen tussen telefoons en tablets.</p>
       </article>
       <aside>
         <h2>Voor meer dan één snel paar</h2>
-        <p data-i18n-rich="widget-more-tools">Open the full app to enter an amount, calculate, view a <a class="text-link" data-i18n-slot="history" href="/nl/exchange-rate-history/">historical chart</a>, compare several destinations, or prepare saved rates for offline use.</p>
-        <p>De widget is ontworpen als een snelle blik en snelkoppeling, terwijl Balkan Converter de volledige conversieworkflow biedt.</p>
+        <p data-i18n-rich="widget-more-tools">Open de app om een bedrag in te voeren, valuta om te rekenen, de <a class="text-link" data-i18n-slot="history" href="/nl/exchange-rate-history/">wisselkoersgeschiedenis</a> te bekijken, meerdere valuta te vergelijken of koersen voor offline gebruik op te slaan.</p>
+        <p>De widget is bedoeld voor een snelle blik en als snelkoppeling; Balkan Converter biedt de volledige omrekenfunctie.</p>
       </aside>
     </section>
 
     <section class="cta-section shell calculator-cta" aria-labelledby="widget-cta-title">
-      <div><p class="eyebrow eyebrow-inverse">Conversie in één oogopslag</p><h2 id="widget-cta-title">Voeg Balkan Converter toe aan uw startscherm</h2><p>Installeer de Android-app, laad uw favoriete paar en plaats vervolgens de productievalutawidget waar deze het gemakkelijkst te bereiken is.</p></div>
-      <a class="play-link play-link-on-dark" href="https://play.google.com/store/apps/details?id=io.github.nstim605.balkanconverter" aria-label="Koop Balkan Currency Converter op Google Play"><img src="/assets/google-play-badge-en.png" width="202" height="60" alt="Download het op Google Play"></a>
+      <div><p class="eyebrow eyebrow-inverse">Conversie in één oogopslag</p><h2 id="widget-cta-title">Voeg Balkan Converter toe aan uw startscherm</h2><p>Installeer de Android-app, laad het gewenste valutapaar en plaats de valutawidget op een makkelijk bereikbare plek.</p></div>
+      <a class="play-link play-link-on-dark" href="https://play.google.com/store/apps/details?id=io.github.nstim605.balkanconverter" aria-label="Download Balkan Currency Converter via Google Play"><img src="/assets/google-play-badge-en.png" width="202" height="60" alt="Download het op Google Play"></a>
     </section>
   </main>
 
-  <footer class="site-footer"><div class="shell footer-grid"><div class="footer-brand"><img src="../../assets/icons/v1-5-11/app-icon-v1-5-11.png" width="44" height="44" alt=""><div><strong dir="ltr">Balkan Currency Converter</strong><span>Valutaconversie voor Android</span></div></div><nav aria-label="Voettekstnavigatie"><a href="/nl/">Thuis</a><a href="/nl/privacy-policy.html">Privacybeleid</a><a href="https://play.google.com/store/apps/details?id=io.github.nstim605.balkanconverter">Google Play</a><button class="footer-link-button analytics-consent-settings" type="button">Analytics-keuzes</button></nav><p>© 2026 Balkan Currency Converter</p></div></footer>
+  <footer class="site-footer"><div class="shell footer-grid"><div class="footer-brand"><img src="../../assets/icons/v1-5-11/app-icon-v1-5-11.png" width="44" height="44" alt=""><div><strong dir="ltr">Balkan Currency Converter</strong><span>Valuta omrekenen op Android</span></div></div><nav aria-label="Voettekstnavigatie"><a href="/nl/">Startpagina</a><a href="/nl/privacy-policy.html">Privacybeleid</a><a href="https://play.google.com/store/apps/details?id=io.github.nstim605.balkanconverter">Google Play</a><button class="footer-link-button analytics-consent-settings" type="button">Analytics-keuzes</button></nav><p>© 2026 Balkan Currency Converter</p></div></footer>
   <template id="analytics-consent-template">
     <div class="analytics-consent-copy">
       <strong id="analytics-consent-title">Optionele analyse</strong>

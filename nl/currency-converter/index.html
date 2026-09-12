@@ -5,8 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#f7f8fa" media="(prefers-color-scheme: light)">
   <meta name="theme-color" content="#070a0f" media="(prefers-color-scheme: dark)">
-  <title>Valuta-omzetter | Wissel wisselkoersen online om</title>
-  <meta name="description" content="Converteer een bedrag tussen twee valuta's met de laatst beschikbare referentiekoersen. Bekijk de wisselkoers, koersdatum en gegevensbron.">
+  <title>Valutacalculator | Wisselkoersen online omrekenen</title>
+  <meta name="description" content="Reken een bedrag om tussen twee valuta met de meest recente referentiekoersen. Bekijk de wisselkoers, koersdatum en gegevensbron.">
   <link rel="canonical" href="https://balkanconverter.com/nl/currency-converter/">
   <link rel="alternate" hreflang="en" href="https://balkanconverter.com/currency-converter/">
   <link rel="alternate" hreflang="sr" href="https://balkanconverter.com/sr/currency-converter/">
@@ -55,28 +55,28 @@
   <link rel="alternate" hreflang="x-default" href="https://balkanconverter.com/currency-converter/">
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="Balkan Currency Converter">
-  <meta property="og:title" content="Valuta-omzetter">
-  <meta property="og:description" content="Converteer tussen twee valuta's met behulp van de laatst beschikbare referentiekoersen.">
+  <meta property="og:title" content="Valutacalculator">
+  <meta property="og:description" content="Reken valuta om met de meest recente beschikbare referentiekoersen.">
   <meta property="og:url" content="https://balkanconverter.com/nl/currency-converter/">
   <meta property="og:image" content="https://balkanconverter.com/assets/og-v1-5-11.png">
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Valuta-omzetter">
-  <meta name="twitter:description" content="Converteer tussen twee valuta's met behulp van de laatst beschikbare referentiekoersen.">
+  <meta name="twitter:title" content="Valutacalculator">
+  <meta name="twitter:description" content="Reken valuta om met de meest recente beschikbare referentiekoersen.">
   <meta name="twitter:image" content="https://balkanconverter.com/assets/og-v1-5-11.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/assets/icons/v1-5-11/favicon-32.png">
   <link rel="apple-touch-icon" sizes="180x180" href="/assets/icons/v1-5-11/apple-touch-icon-180.png">
   <link rel="manifest" href="../../site.webmanifest">
   <link rel="stylesheet" href="../../styles.css">
   <script type="application/ld+json">
-  {"@context":"https://schema.org","@type":"WebApplication","name":"Valuta-omzetter","url":"https://balkanconverter.com/nl/currency-converter/","applicationCategory":"FinanceApplication","operatingSystem":"Any","isAccessibleForFree":true,"description":"Converteer een bedrag tussen twee valuta's met behulp van de laatst beschikbare referentiekoersen."}
+  {"@context":"https://schema.org","@type":"WebApplication","name":"Valutacalculator","url":"https://balkanconverter.com/nl/currency-converter/","applicationCategory":"FinanceApplication","operatingSystem":"Any","isAccessibleForFree":true,"description":"Reken een bedrag om tussen twee valuta met de meest recente beschikbare referentiekoersen."}
   </script>
 </head>
 <body>
   <a class="skip-link" href="#main">Ga naar converter</a>
   <header class="site-header">
     <div class="shell nav-wrap">
-      <a class="brand" href="/nl/" aria-label="Balkan Currency Converter thuis"><img src="../../assets/icons/v1-5-11/app-icon-v1-5-11.png" width="42" height="42" alt=""><span dir="ltr">Balkan Currency Converter</span></a>
-      <nav class="nav-links" aria-label="Hoofdnavigatie"><a href="/nl/">Thuis</a><a href="/nl/multi-currency-converter/">Meerdere valuta</a><a href="/nl/exchange-rate-markup-calculator/">Opmaakcalculator</a></nav>
+      <a class="brand" href="/nl/" aria-label="Startpagina van Balkan Currency Converter"><img src="../../assets/icons/v1-5-11/app-icon-v1-5-11.png" width="42" height="42" alt=""><span dir="ltr">Balkan Currency Converter</span></a>
+      <nav class="nav-links" aria-label="Hoofdnavigatie"><a href="/nl/">Startpagina</a><a href="/nl/multi-currency-converter/">Meerdere valuta</a><a href="/nl/exchange-rate-markup-calculator/">Wisselkoersafwijkingscalculator</a></nav>
       <div class="nav-actions">
         <details class="language-selector">
           <summary aria-label="Nederlands"><span aria-hidden="true">🌐</span><span>Nederlands</span></summary>
@@ -135,16 +135,16 @@
     <section class="calculator-hero shell" aria-labelledby="currency-title">
       <a class="back-link" href="/nl/"><span aria-hidden="true">←</span> Terug naar Balkan Currency Converter</a>
       <p class="eyebrow"><span class="status-dot"></span> Gratis valutatool</p>
-      <h1 id="currency-title">Valuta-omzetter</h1>
-      <p class="hero-lede">Converteer een bedrag tussen twee valuta's en bekijk de laatst beschikbare referentiekoers, de datum en de bron ervan.</p>
+      <h1 id="currency-title">Valutacalculator</h1>
+      <p class="hero-lede">Reken een bedrag om tussen twee valuta en bekijk de meest recente beschikbare referentiekoers, de datum en de bron.</p>
     </section>
 
-    <section class="calculator-layout shell" aria-label="Valuta-omzetter">
+    <section class="calculator-layout shell" aria-label="Valutacalculator">
       <form class="calculator-card" id="currency-form" novalidate>
         <label>Bedrag<input id="currency-amount" name="amount" inputmode="decimal" autocomplete="off" value="100" aria-describedby="currency-status"></label>
         <div class="field-grid">
           <label>Van<select id="currency-source" name="source" autocomplete="off"><option value="EUR">EUR</option></select></label>
-          <label>Aan<select id="currency-target" name="target" autocomplete="off"><option value="RSD">RSD</option></select></label>
+          <label>Naar<select id="currency-target" name="target" autocomplete="off"><option value="RSD">RSD</option></select></label>
         </div>
         <button class="secondary-button" id="swap-currencies" type="button"><span aria-hidden="true">⇄</span> Wissel valuta's uit</button>
         <button class="primary-button" type="submit">Valuta omzetten</button>
@@ -152,29 +152,29 @@
       </form>
 
       <section class="results-card" id="currency-results" tabindex="-1" aria-labelledby="currency-results-title" hidden>
-        <p class="eyebrow">Jouw conversie</p>
+        <p class="eyebrow">Uw omrekening</p>
         <h2 id="currency-results-title">Omgerekend bedrag</h2>
         <dl class="result-list">
           <div class="result-emphasis"><dt>Resultaat</dt><dd data-result="amount"></dd></div>
-          <div><dt>Referentietarief</dt><dd data-result="rate"></dd></div>
-          <div><dt>Gegevensbron</dt><dd>Frankfurter API met referentietarief</dd></div>
+          <div><dt>Referentiekoers</dt><dd data-result="rate"></dd></div>
+          <div><dt>Gegevensbron</dt><dd>Frankfurter-API voor referentiekoersen</dd></div>
         </dl>
         <p class="result-date"></p>
       </section>
     </section>
 
     <section class="calculator-explanation shell" aria-labelledby="currency-about-title">
-      <article><h2 id="currency-about-title">Een snelle referentieconversie</h2><p>Deze converter berekent een kruistarief op basis van de meest recente beschikbare referentiegegevensset. Het is handig voor schattingen en vergelijkingen, maar een bank-, kaart- of wisseldienst biedt mogelijk een ander transactietarief.</p><p>De weergegeven datum vertelt u welke marktdag de referentiegegevens vertegenwoordigen.</p></article>
-      <aside><h2>Een andere kijk nodig?</h2><p data-i18n-rich="currency-related-tools">Explore a pair over time with <a class="text-link" data-i18n-slot="history" href="/nl/exchange-rate-history/">Exchange Rate History</a>, compare one amount across destinations with the <a class="text-link" data-i18n-slot="multi" href="/nl/multi-currency-converter/">Multi-Currency Converter</a>, check an exchange quote with the <a class="text-link" data-i18n-slot="markup" href="/nl/exchange-rate-markup-calculator/">Markup Calculator</a>, or compare card, ATM and DCC costs with the <a class="text-link" data-i18n-slot="foreignFee" href="/nl/foreign-transaction-fee-calculator/">Foreign Transaction Fee Calculator</a>.</p></aside>
+      <article><h2 id="currency-about-title">Een snelle referentieomrekening</h2><p>Deze calculator berekent een kruiskoers op basis van de meest recente referentiekoersen. Dit is nuttig voor schattingen en vergelijkingen, maar een bank, kaartuitgever of wisseldienst kan een andere transactiekoers bieden.</p><p>De weergegeven datum laat zien op welke marktdag de referentiegegevens betrekking hebben.</p></article>
+      <aside><h2>Een andere weergave nodig?</h2><p data-i18n-rich="currency-related-tools">Bekijk in de <a class="text-link" data-i18n-slot="history" href="/nl/exchange-rate-history/">wisselkoersgeschiedenis</a> hoe een valutapaar veranderde, vergelijk één bedrag in meerdere valuta met de <a class="text-link" data-i18n-slot="multi" href="/nl/multi-currency-converter/">multivalutacalculator</a>, beoordeel een wisselaanbod met de <a class="text-link" data-i18n-slot="markup" href="/nl/exchange-rate-markup-calculator/">wisselkoersafwijkingscalculator</a> of vergelijk kaart-, geldautomaat- en DCC-kosten met de <a class="text-link" data-i18n-slot="foreignFee" href="/nl/foreign-transaction-fee-calculator/">calculator voor buitenlandse transactiekosten en DCC</a>.</p></aside>
     </section>
 
     <section class="cta-section shell calculator-cta" aria-labelledby="currency-cta-title">
-      <div><p class="eyebrow eyebrow-inverse">Meer tools op Android</p><h2 id="currency-cta-title">Converteren met Balkan Converter</h2><p>De Android-app voegt een rekenmachine, offline tarieven, reisbord, werkelijke kosten, opgeslagen sets, geschiedenis, grafieken en een startschermwidget toe.</p></div>
-      <a class="play-link play-link-on-dark currency-play-cta" href="https://play.google.com/store/apps/details?id=io.github.nstim605.balkanconverter" aria-label="Koop Balkan Currency Converter op Google Play"><img src="/assets/google-play-badge-en.png" width="202" height="60" alt="Download het op Google Play"></a>
+      <div><p class="eyebrow eyebrow-inverse">Meer tools op Android</p><h2 id="currency-cta-title">Converteren met Balkan Converter</h2><p>De Android-app biedt ook een calculator, offlinekoersen, Travel Board, Werkelijke kosten, Opgeslagen sets, geschiedenis, grafieken en een startschermwidget.</p></div>
+      <a class="play-link play-link-on-dark currency-play-cta" href="https://play.google.com/store/apps/details?id=io.github.nstim605.balkanconverter" aria-label="Download Balkan Currency Converter via Google Play"><img src="/assets/google-play-badge-en.png" width="202" height="60" alt="Download het op Google Play"></a>
     </section>
   </main>
 
-  <footer class="site-footer"><div class="shell footer-grid"><div class="footer-brand"><img src="../../assets/icons/v1-5-11/app-icon-v1-5-11.png" width="44" height="44" alt=""><div><strong dir="ltr">Balkan Currency Converter</strong><span>Valutaconversie voor Android</span></div></div><nav aria-label="Voettekstnavigatie"><a href="/nl/">Thuis</a><a href="/nl/privacy-policy.html">Privacybeleid</a><a href="https://play.google.com/store/apps/details?id=io.github.nstim605.balkanconverter">Google Play</a><button class="footer-link-button analytics-consent-settings" type="button">Analytics-keuzes</button></nav><p>© 2026 Balkan Currency Converter</p></div></footer>
+  <footer class="site-footer"><div class="shell footer-grid"><div class="footer-brand"><img src="../../assets/icons/v1-5-11/app-icon-v1-5-11.png" width="44" height="44" alt=""><div><strong dir="ltr">Balkan Currency Converter</strong><span>Valuta omrekenen op Android</span></div></div><nav aria-label="Voettekstnavigatie"><a href="/nl/">Startpagina</a><a href="/nl/privacy-policy.html">Privacybeleid</a><a href="https://play.google.com/store/apps/details?id=io.github.nstim605.balkanconverter">Google Play</a><button class="footer-link-button analytics-consent-settings" type="button">Analytics-keuzes</button></nav><p>© 2026 Balkan Currency Converter</p></div></footer>
   <template id="analytics-consent-template">
     <div class="analytics-consent-copy">
       <strong id="analytics-consent-title">Optionele analyse</strong>
@@ -186,7 +186,7 @@
     </div>
   </template>
   <script src="../../script.js" defer></script>
-  <script id="tool-i18n" type="application/json">{"© 2026 Balkan Currency Converter":"© 2026 Balkan Currency Converter","A quick reference conversion":"Een snelle referentieconversie","Accept analytics":"Accepteer analyses","Amount":"Bedrag","Amount and rates must be positive numbers.":"Bedrag en tarieven moeten positieve getallen zijn.","Analytics choices":"Analytics-keuzes","Back to Balkan Currency Converter":"Terug naar Balkan Currency Converter","Balkan Currency Converter home":"Balkan Currency Converter thuis","Choose two different currencies.":"Kies twee verschillende valuta.","Conversion updated from the latest available reference rates.":"Conversie bijgewerkt op basis van de laatst beschikbare referentiekoersen.","Convert an amount between two currencies and see the latest available reference rate, its date, and its source.":"Converteer een bedrag tussen twee valuta's en bekijk de laatst beschikbare referentiekoers, de datum en de bron ervan.","Convert an amount between two currencies using the latest available reference rates.":"Converteer een bedrag tussen twee valuta's met behulp van de laatst beschikbare referentiekoersen.","Convert an amount between two currencies with the latest available reference rates. See the exchange rate, rate date, and data source.":"Converteer een bedrag tussen twee valuta's met de laatst beschikbare referentiekoersen. Bekijk de wisselkoers, koersdatum en gegevensbron.","Convert between two currencies using the latest available reference rates.":"Converteer tussen twee valuta's met behulp van de laatst beschikbare referentiekoersen.","Convert currency":"Valuta omzetten","Convert with Balkan Converter":"Converteren met Balkan Converter","Converted amount":"Omgerekend bedrag","Currency conversion for Android":"Valutaconversie voor Android","Currency converter":"Valuta-omzetter","Currency Converter":"Valuta-omzetter","Currency Converter | Convert Exchange Rates Online":"Valuta-omzetter | Wissel wisselkoersen online om","Data source":"Gegevensbron","Date":"Datum","Enter an amount and choose two currencies.":"Voer een bedrag in en kies twee valuta's.","Enter an amount greater than zero.":"Voer een bedrag in dat groter is dan nul.","Fetching the latest reference rates…":"De meest recente referentiekoersen ophalen...","Footer navigation":"Voettekstnavigatie","Frankfurter reference-rate API":"Frankfurter API met referentietarief","Free currency tool":"Gratis valutatool","From":"Van","Get Balkan Currency Converter on Google Play":"Koop Balkan Currency Converter op Google Play","Get it on Google Play":"Download het op Google Play","Help us understand site usage. Firebase Analytics stays off unless you accept.":"Help ons het gebruik van de site te begrijpen. Firebase Analytics blijft uitgeschakeld tenzij u hiermee akkoord gaat.","Home":"Thuis","Learn more":"Meer informatie","Loading latest rates…":"Laatste tarieven laden…","Main navigation":"Hoofdnavigatie","Markup calculator":"Opmaakcalculator","More tools on Android":"Meer tools op Android","Multi-currency":"Meerdere valuta","Need a different view?":"Een andere kijk nodig?","Optional":"Optioneel","Optional analytics":"Optionele analyses","Privacy":"Privacy","Privacy Policy":"Privacybeleid","Rate":"Beoordeel","Rate date unavailable.":"Tariefdatum niet beschikbaar.","Rates could not be loaded. Check your connection and try again.":"Tarieven konden niet worden geladen. Controleer uw verbinding en probeer het opnieuw.","Reference rate":"Referentietarief","Reference rates dated {date}.":"Referentietarieven gedateerd {date}.","Reject analytics":"Analyses afwijzen","Result":"Resultaat","Skip to converter":"Ga naar converter","Swap currencies":"Wissel valuta's uit","Switch color theme":"Van kleurthema wisselen","Switch to dark theme":"Schakel over naar een donker thema","Switch to light theme":"Schakel over naar het lichtthema","The Android app adds a calculator, offline rates, Travel Board, Actual Cost, saved sets, history, charts, and a home-screen widget.":"De Android-app voegt een rekenmachine, offline tarieven, reisbord, werkelijke kosten, opgeslagen sets, geschiedenis, grafieken en een startschermwidget toe.","The displayed date tells you which market day the reference data represents.":"De weergegeven datum vertelt u welke marktdag de referentiegegevens vertegenwoordigen.","This converter calculates a cross-rate from the latest available reference-rate dataset. It is useful for estimates and comparisons, but a bank, card, or exchange service may offer a different transaction rate.":"Deze converter berekent een kruistarief op basis van de meest recente beschikbare referentiegegevensset. Het is handig voor schattingen en vergelijkingen, maar een bank-, kaart- of wisseldienst biedt mogelijk een ander transactietarief.","To":"Aan","Your conversion":"Jouw conversie"}</script>
+  <script id="tool-i18n" type="application/json">{"© 2026 Balkan Currency Converter":"© 2026 Balkan Currency Converter","A quick reference conversion":"Een snelle referentieomrekening","Accept analytics":"Accepteer analyses","Amount":"Bedrag","Amount and rates must be positive numbers.":"Het bedrag en de koersen moeten positieve getallen zijn.","Analytics choices":"Analytics-keuzes","Back to Balkan Currency Converter":"Terug naar Balkan Currency Converter","Balkan Currency Converter home":"Startpagina van Balkan Currency Converter","Choose two different currencies.":"Kies twee verschillende valuta.","Conversion updated from the latest available reference rates.":"Omrekening bijgewerkt met de meest recente beschikbare referentiekoersen.","Convert an amount between two currencies and see the latest available reference rate, its date, and its source.":"Reken een bedrag om tussen twee valuta en bekijk de meest recente beschikbare referentiekoers, de datum en de bron.","Convert an amount between two currencies using the latest available reference rates.":"Reken een bedrag om tussen twee valuta met de meest recente beschikbare referentiekoersen.","Convert an amount between two currencies with the latest available reference rates. See the exchange rate, rate date, and data source.":"Reken een bedrag om tussen twee valuta met de meest recente referentiekoersen. Bekijk de wisselkoers, koersdatum en gegevensbron.","Convert between two currencies using the latest available reference rates.":"Reken valuta om met de meest recente beschikbare referentiekoersen.","Convert currency":"Valuta omzetten","Convert with Balkan Converter":"Converteren met Balkan Converter","Converted amount":"Omgerekend bedrag","Currency conversion for Android":"Valuta omrekenen op Android","Currency converter":"Valutacalculator","Currency Converter":"Valutacalculator","Currency Converter | Convert Exchange Rates Online":"Valutacalculator | Wisselkoersen online omrekenen","Data source":"Gegevensbron","Date":"Datum","Enter an amount and choose two currencies.":"Voer een bedrag in en kies twee valuta's.","Enter an amount greater than zero.":"Voer een bedrag in dat groter is dan nul.","Fetching the latest reference rates…":"De meest recente referentiekoersen ophalen...","Footer navigation":"Voettekstnavigatie","Frankfurter reference-rate API":"Frankfurter-API voor referentiekoersen","Free currency tool":"Gratis valutatool","From":"Van","Get Balkan Currency Converter on Google Play":"Download Balkan Currency Converter via Google Play","Get it on Google Play":"Download het op Google Play","Help us understand site usage. Firebase Analytics stays off unless you accept.":"Help ons het gebruik van de site te begrijpen. Firebase Analytics blijft uitgeschakeld tenzij u hiermee akkoord gaat.","Home":"Startpagina","Learn more":"Meer informatie","Loading latest rates…":"Meest recente koersen laden…","Main navigation":"Hoofdnavigatie","Markup calculator":"Wisselkoersafwijkingscalculator","More tools on Android":"Meer tools op Android","Multi-currency":"Meerdere valuta","Need a different view?":"Een andere weergave nodig?","Optional":"Optioneel","Optional analytics":"Optionele analyses","Privacy":"Privacy","Privacy Policy":"Privacybeleid","Rate":"Koers","Rate date unavailable.":"Koersdatum niet beschikbaar.","Rates could not be loaded. Check your connection and try again.":"Koersen konden niet worden geladen. Controleer uw verbinding en probeer het opnieuw.","Reference rate":"Referentiekoers","Reference rates dated {date}.":"Referentiekoersen van {date}.","Reject analytics":"Analyses afwijzen","Result":"Resultaat","Skip to converter":"Ga naar converter","Swap currencies":"Wissel valuta's uit","Switch color theme":"Van kleurthema wisselen","Switch to dark theme":"Schakel over naar een donker thema","Switch to light theme":"Schakel over naar het lichtthema","The Android app adds a calculator, offline rates, Travel Board, Actual Cost, saved sets, history, charts, and a home-screen widget.":"De Android-app biedt ook een calculator, offlinekoersen, Travel Board, Werkelijke kosten, Opgeslagen sets, geschiedenis, grafieken en een startschermwidget.","The displayed date tells you which market day the reference data represents.":"De weergegeven datum laat zien op welke marktdag de referentiegegevens betrekking hebben.","This converter calculates a cross-rate from the latest available reference-rate dataset. It is useful for estimates and comparisons, but a bank, card, or exchange service may offer a different transaction rate.":"Deze calculator berekent een kruiskoers op basis van de meest recente referentiekoersen. Dit is nuttig voor schattingen en vergelijkingen, maar een bank, kaartuitgever of wisseldienst kan een andere transactiekoers bieden.","To":"Naar","Your conversion":"Uw omrekening"}</script>
   <script type="module" src="../../currency-converter/converter.js"></script>
 </body>
 </html>

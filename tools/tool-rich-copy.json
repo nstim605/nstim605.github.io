@@ -367,6 +367,44 @@
       "links": { "multi": "conversor multimoeda", "currency": "conversor de moedas", "offline": "taxas guardadas offline" }
     }
   },
+  "nl": {
+    "currency-related-tools": {
+      "message": "Bekijk in de {history} hoe een valutapaar veranderde, vergelijk één bedrag in meerdere valuta met de {multi}, beoordeel een wisselaanbod met de {markup} of vergelijk kaart-, geldautomaat- en DCC-kosten met de {foreignFee}.",
+      "links": { "history": "wisselkoersgeschiedenis", "multi": "multivalutacalculator", "markup": "wisselkoersafwijkingscalculator", "foreignFee": "calculator voor buitenlandse transactiekosten en DCC" }
+    },
+    "markup-related-tools": {
+      "message": "Wilt u een kaartbetaling of geldopname vergelijken met een aangeboden omrekening naar uw kaartvaluta? Gebruik de {foreignFee}. Open voor een snelle omrekening van één valutapaar de {currency}. Vergelijk één bedrag in meerdere valuta met de {multi}; in de {offline} leest u hoe opgeslagen koersen werken.",
+      "links": { "foreignFee": "calculator voor buitenlandse transactiekosten en DCC", "currency": "valutacalculator", "multi": "multivalutacalculator", "offline": "gids voor offline omrekenen" }
+    },
+    "multi-related-tools": {
+      "message": "Gebruik voor één valutapaar de {currency}. Bekijk de ontwikkeling in de {history}, beoordeel een aanbod met de {markup} of lees in de {offline} hoe omrekenen zonder internet werkt.",
+      "links": { "currency": "valutacalculator", "history": "wisselkoersgeschiedenis", "markup": "wisselkoersafwijkingscalculator", "offline": "gids voor offline omrekenen" }
+    },
+    "offline-related-tools": {
+      "message": "Gebruik de {widget} om snel een opgeslagen valutapaar te bekijken. Open voor online omrekenen de {currency}, vergelijk één bedrag in meerdere valuta met de {multi} of beoordeel een aanbod met de {markup}.",
+      "links": { "widget": "Android-widgetgids", "currency": "valutacalculator", "multi": "multivalutacalculator", "markup": "wisselkoersafwijkingscalculator" }
+    },
+    "history-related-tools": {
+      "message": "Gebruik voor een omrekening met de meest recente beschikbare koers de {currency}. Open de {markup} om een wisselaanbod met het referentieresultaat te vergelijken.",
+      "links": { "currency": "valutacalculator", "markup": "wisselkoersafwijkingscalculator" }
+    },
+    "widget-offline-guide": {
+      "message": "Zonder internet blijft de laatst opgeslagen referentiekoers bruikbaar voor schattingen; de datum toont hoe oud de gegevens zijn. Lees meer in de {offline}.",
+      "links": { "offline": "gids voor offline omrekenen" }
+    },
+    "widget-more-tools": {
+      "message": "Open de app om een bedrag in te voeren, valuta om te rekenen, de {history} te bekijken, meerdere valuta te vergelijken of koersen voor offline gebruik op te slaan.",
+      "links": { "history": "wisselkoersgeschiedenis" }
+    },
+    "foreign-related-tools": {
+      "message": "Wilt u alleen een wisselaanbod met het referentieresultaat vergelijken, gebruik dan de {markup}. Open voor een gewone omrekening tussen twee valuta de {currency}.",
+      "links": { "markup": "wisselkoersafwijkingscalculator", "currency": "valutacalculator" }
+    },
+    "travel-related-tools": {
+      "message": "Vergelijk één bedrag in meerdere valuta met de {multi}, maak een snelle omrekening met de {currency} of lees hoe de Android-app {offline} gebruikt.",
+      "links": { "multi": "multivalutacalculator", "currency": "valutacalculator", "offline": "opgeslagen offlinekoersen" }
+    }
+  },
   "de": {
     "currency-related-tools": {
       "message": "Verfolgen Sie die Entwicklung eines Währungspaars im {history}; vergleichen Sie einen Betrag in mehreren Währungen mit dem {multi}; prüfen Sie ein Umtauschangebot mit dem {markup}; oder vergleichen Sie Kartenzahlung, Bargeldabhebung und DCC im {foreignFee}.",
