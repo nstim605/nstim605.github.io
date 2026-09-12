@@ -143,6 +143,78 @@
       }
     }
   },
+  "it": {
+    "currency-related-tools": {
+      "message": "Segui l'andamento di una coppia di valute nello {history}, confronta un importo in più valute con il {multi}, valuta un'offerta di cambio con il {markup} oppure confronta i costi di carta, prelievo e DCC con il {foreignFee}.",
+      "links": {
+        "history": "storico dei tassi",
+        "multi": "convertitore multivaluta",
+        "markup": "calcolatore dello scostamento di cambio",
+        "foreignFee": "calcolatore di commissioni e DCC"
+      }
+    },
+    "markup-related-tools": {
+      "message": "Vuoi confrontare un pagamento con carta o un prelievo con la conversione proposta nella valuta della carta? Usa il {foreignFee}. Per convertire rapidamente una coppia di valute, apri il {currency}. Per confrontare un importo in più valute, usa il {multi}; la {offline} spiega come funzionano i tassi salvati.",
+      "links": {
+        "foreignFee": "calcolatore di commissioni e DCC",
+        "currency": "convertitore di valuta",
+        "multi": "convertitore multivaluta",
+        "offline": "guida alla conversione offline"
+      }
+    },
+    "multi-related-tools": {
+      "message": "Per una sola coppia di valute, usa il {currency}. Consulta l'andamento nel tempo nello {history}, valuta un'offerta di cambio con il {markup} oppure scopri come funziona la conversione senza Internet nella {offline}.",
+      "links": {
+        "currency": "convertitore di valuta",
+        "history": "storico dei tassi",
+        "markup": "calcolatore dello scostamento di cambio",
+        "offline": "guida alla conversione offline"
+      }
+    },
+    "offline-related-tools": {
+      "message": "Per consultare rapidamente una coppia di valute salvata, usa la {widget}. Per una conversione online, apri il {currency}, confronta un importo in più valute con il {multi} oppure valuta un'offerta di cambio con il {markup}.",
+      "links": {
+        "widget": "guida al widget Android",
+        "currency": "convertitore di valuta",
+        "multi": "convertitore multivaluta",
+        "markup": "calcolatore dello scostamento di cambio"
+      }
+    },
+    "history-related-tools": {
+      "message": "Per convertire all'ultimo tasso disponibile, usa il {currency}. Per confrontare un'offerta di cambio con il risultato al tasso di riferimento, apri il {markup}.",
+      "links": {
+        "currency": "convertitore di valuta",
+        "markup": "calcolatore dello scostamento di cambio"
+      }
+    },
+    "widget-offline-guide": {
+      "message": "Senza Internet, l'ultimo tasso di riferimento salvato resta disponibile per le stime; la data indica quanto sono recenti i dati. Per saperne di più, consulta la {offline}.",
+      "links": {
+        "offline": "guida alla conversione offline"
+      }
+    },
+    "widget-more-tools": {
+      "message": "Apri l'app per inserire un importo, effettuare una conversione, consultare lo {history}, confrontare più valute o preparare tassi salvati per l'uso offline.",
+      "links": {
+        "history": "storico dei tassi"
+      }
+    },
+    "foreign-related-tools": {
+      "message": "Se vuoi soltanto confrontare un'offerta di cambio con il risultato al tasso di riferimento, usa il {markup}. Per una normale conversione tra due valute, apri il {currency}.",
+      "links": {
+        "markup": "calcolatore dello scostamento di cambio",
+        "currency": "convertitore di valuta"
+      }
+    },
+    "travel-related-tools": {
+      "message": "Confronta un importo in più valute con il {multi}, esegui una conversione rapida con il {currency} oppure scopri come l'app Android utilizza i {offline}.",
+      "links": {
+        "multi": "convertitore multivaluta",
+        "currency": "convertitore di valuta",
+        "offline": "tassi salvati offline"
+      }
+    }
+  },
   "de": {
     "currency-related-tools": {
       "message": "Verfolgen Sie die Entwicklung eines Währungspaars im {history}; vergleichen Sie einen Betrag in mehreren Währungen mit dem {multi}; prüfen Sie ein Umtauschangebot mit dem {markup}; oder vergleichen Sie Kartenzahlung, Bargeldabhebung und DCC im {foreignFee}.",

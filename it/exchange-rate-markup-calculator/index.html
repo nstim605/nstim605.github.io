@@ -5,8 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#f7f8fa" media="(prefers-color-scheme: light)">
   <meta name="theme-color" content="#070a0f" media="(prefers-color-scheme: dark)">
-  <title>Calcolatore del margine di cambio del tasso di cambio | Balkan Currency Converter</title>
-  <meta name="description" content="Confronta un'offerta di scambio con l'ultimo tasso di riferimento. Calcola l'importo che riceverai, la differenza e il margine di cambio effettivo.">
+  <title>Calcolatore dello scostamento di cambio | Balkan Currency Converter</title>
+  <meta name="description" content="Confronta un'offerta di cambio con l'ultimo tasso di riferimento. Calcola l'importo ricevuto, la differenza e lo scostamento percentuale dal risultato di riferimento.">
   <link rel="canonical" href="https://balkanconverter.com/it/exchange-rate-markup-calculator/">
   <link rel="alternate" hreflang="en" href="https://balkanconverter.com/exchange-rate-markup-calculator/">
   <link rel="alternate" hreflang="sr" href="https://balkanconverter.com/sr/exchange-rate-markup-calculator/">
@@ -55,12 +55,12 @@
   <link rel="alternate" hreflang="x-default" href="https://balkanconverter.com/exchange-rate-markup-calculator/">
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="Balkan Currency Converter">
-  <meta property="og:title" content="Calcolatore del markup del tasso di cambio">
+  <meta property="og:title" content="Calcolatore dello scostamento di cambio">
   <meta property="og:description" content="Scopri quanto dista un'offerta di cambio dall'ultimo tasso di riferimento.">
   <meta property="og:url" content="https://balkanconverter.com/it/exchange-rate-markup-calculator/">
   <meta property="og:image" content="https://balkanconverter.com/assets/og-v1-5-11.png">
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Calcolatore del markup del tasso di cambio">
+  <meta name="twitter:title" content="Calcolatore dello scostamento di cambio">
   <meta name="twitter:description" content="Confronta un'offerta di scambio con l'ultimo tasso di riferimento.">
   <meta name="twitter:image" content="https://balkanconverter.com/assets/og-v1-5-11.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/assets/icons/v1-5-11/favicon-32.png">
@@ -68,19 +68,19 @@
   <link rel="manifest" href="../../site.webmanifest">
   <link rel="stylesheet" href="../../styles.css">
   <script type="application/ld+json">
-  {"@context":"https://schema.org","@type":"WebApplication","name":"Calcolatore del markup del tasso di cambio","url":"https://balkanconverter.com/it/exchange-rate-markup-calculator/","applicationCategory":"FinanceApplication","operatingSystem":"Any","isAccessibleForFree":true,"description":"Confronta un'offerta di scambio con l'ultimo tasso di riferimento e calcola il ricarico effettivo."}
+  {"@context":"https://schema.org","@type":"WebApplication","name":"Calcolatore dello scostamento di cambio","url":"https://balkanconverter.com/it/exchange-rate-markup-calculator/","applicationCategory":"FinanceApplication","operatingSystem":"Any","isAccessibleForFree":true,"description":"Confronta un'offerta di cambio con l'ultimo tasso di riferimento e calcola lo scostamento effettivo."}
   </script>
 </head>
 <body>
   <a class="skip-link" href="#main">Passa alla calcolatrice</a>
   <header class="site-header">
     <div class="shell nav-wrap">
-      <a class="brand" href="/it/" aria-label="Balkan Currency Converter casa">
+      <a class="brand" href="/it/" aria-label="Pagina iniziale di Balkan Currency Converter">
         <img src="../../assets/icons/v1-5-11/app-icon-v1-5-11.png" width="42" height="42" alt="">
         <span dir="ltr">Balkan Currency Converter</span>
       </a>
       <nav class="nav-links" aria-label="Navigazione principale">
-        <a href="/it/">Casa</a>
+        <a href="/it/">Pagina iniziale</a>
         <a href="/it/privacy-policy.html">Privacy</a>
       </nav>
       <div class="nav-actions">
@@ -143,11 +143,11 @@
     <section class="calculator-hero shell" aria-labelledby="calculator-title">
       <a class="back-link" href="/it/"><span aria-hidden="true">←</span> Torna a Balkan Currency Converter</a>
       <p class="eyebrow"><span class="status-dot"></span> Strumento valutario gratuito</p>
-      <h1 id="calculator-title">Calcolatore del markup del tasso di cambio</h1>
-      <p class="hero-lede">Confronta l'importo offerto da un servizio di cambio con l'ultimo tasso di riferimento disponibile. Scopri la differenza e il markup effettivo prima dello scambio.</p>
+      <h1 id="calculator-title">Calcolatore dello scostamento di cambio</h1>
+      <p class="hero-lede">Confronta l'importo proposto da un servizio di cambio con l'ultimo tasso di riferimento disponibile. Controlla la differenza e lo scostamento percentuale prima di cambiare valuta.</p>
     </section>
 
-    <section class="calculator-layout shell" aria-label="Calcolatore del margine">
+    <section class="calculator-layout shell" aria-label="Calcolatore dello scostamento">
       <form class="calculator-card" id="markup-form" novalidate>
         <div class="field-grid">
           <label>Valuta di origine
@@ -169,7 +169,7 @@
           <span class="input-hint">Cosa riceverai nella valuta di destinazione</span>
           <input id="offered-amount" name="offered" inputmode="decimal" autocomplete="off" placeholder="Ad esempio, 11.500" aria-describedby="calculator-status">
         </label>
-        <button class="primary-button" type="submit">Calcola il margine</button>
+        <button class="primary-button" type="submit">Calcola lo scostamento</button>
         <p class="calculator-status" id="calculator-status" role="status" aria-live="polite">Inserisci l'offerta che vuoi confrontare.</p>
       </form>
 
@@ -179,9 +179,9 @@
         <dl class="result-list">
           <div><dt>Tasso di riferimento</dt><dd data-result="referenceRate"></dd></div>
           <div><dt>Risultato di riferimento</dt><dd data-result="referenceResult"></dd></div>
-          <div><dt>Risultato offerto</dt><dd data-result="offeredResult"></dd></div>
-          <div><dt data-label="difference">Ricevi meno da</dt><dd data-result="difference"></dd></div>
-          <div class="result-emphasis"><dt data-label="percentage">Markup del tasso di cambio</dt><dd data-result="percentage"></dd></div>
+          <div><dt>Risultato proposto</dt><dd data-result="offeredResult"></dd></div>
+          <div><dt data-label="difference">Ricevi in meno</dt><dd data-result="difference"></dd></div>
+          <div class="result-emphasis"><dt data-label="percentage">Scostamento dal tasso di riferimento</dt><dd data-result="percentage"></dd></div>
         </dl>
         <p class="result-summary"></p>
         <p class="result-date"></p>
@@ -192,13 +192,13 @@
       <article>
         <h2 id="meaning-title">Cosa significa la percentuale</h2>
         <p>Il calcolatore stima innanzitutto quanto produrrebbe l’ultimo tasso di riferimento. Quindi confronta tale importo con l'importo che ti è stato offerto.</p>
-        <p>Un fornitore può pubblicizzare “nessuna commissione” utilizzando un tasso di cambio meno favorevole. Questo deficit è effettivamente un costo nascosto nel tasso.</p>
-        <p><strong>Markup = (risultato di riferimento − risultato offerto) ÷ risultato di riferimento × 100.</strong></p>
+        <p>Un operatore può pubblicizzare «nessuna commissione» applicando però un tasso di cambio meno favorevole. Lo scostamento rappresenta quindi un costo incorporato nel tasso.</p>
+        <p><strong>Scostamento % = (risultato di riferimento − risultato proposto) ÷ risultato di riferimento × 100.</strong></p>
       </article>
       <aside>
         <h2>Importante da sapere</h2>
         <p>Questo è un confronto informativo, non una consulenza finanziaria. Un'offerta può includere commissioni di servizio, addebiti sulla carta, gestione del contante o spread del fornitore. I tassi di riferimento non sono tassi di transazione garantiti.</p>
-        <p data-i18n-rich="markup-related-tools">Comparing a card or ATM transaction with an offered home-currency conversion? Use the <a class="text-link" data-i18n-slot="foreignFee" href="/it/foreign-transaction-fee-calculator/">Foreign Transaction Fee &amp; DCC Calculator</a>. For a quick pair conversion, use the <a class="text-link" data-i18n-slot="currency" href="/it/currency-converter/">Convertitore di valuta</a>. For several results at once, try the <a class="text-link" data-i18n-slot="multi" href="/it/multi-currency-converter/">Multi-Currency Converter</a>, or learn how <a class="text-link" data-i18n-slot="offline" href="/it/offline-currency-converter/">saved offline rates</a> work.</p>
+        <p data-i18n-rich="markup-related-tools">Vuoi confrontare un pagamento con carta o un prelievo con la conversione proposta nella valuta della carta? Usa il <a class="text-link" data-i18n-slot="foreignFee" href="/it/foreign-transaction-fee-calculator/">calcolatore di commissioni e DCC</a>. Per convertire rapidamente una coppia di valute, apri il <a class="text-link" data-i18n-slot="currency" href="/it/currency-converter/">convertitore di valuta</a>. Per confrontare un importo in più valute, usa il <a class="text-link" data-i18n-slot="multi" href="/it/multi-currency-converter/">convertitore multivaluta</a>; la <a class="text-link" data-i18n-slot="offline" href="/it/offline-currency-converter/">guida alla conversione offline</a> spiega come funzionano i tassi salvati.</p>
       </aside>
     </section>
 
@@ -206,7 +206,7 @@
       <div>
         <p class="eyebrow eyebrow-inverse">Ne hai bisogno mentre sei in movimento?</p>
         <h2 id="app-cta-title">Confronta i costi in Balkan Converter</h2>
-        <p>L'app Android aggiunge costo effettivo, tariffe offline, scheda di viaggio, set salvati, grafici e un widget sulla schermata iniziale.</p>
+        <p>L'app Android offre anche Actual Cost, tassi offline, Travel Board, set salvati, grafici e un widget per la schermata Home.</p>
       </div>
       <a class="play-link play-link-on-dark calculator-play-cta" href="https://play.google.com/store/apps/details?id=io.github.nstim605.balkanconverter" aria-label="Ottieni Balkan Currency Converter su Google Play">
         <img src="/assets/google-play-badge-en.png" width="202" height="60" alt="Ottienilo su Google Play">
@@ -218,7 +218,7 @@
     <div class="shell footer-grid">
       <div class="footer-brand"><img src="../../assets/icons/v1-5-11/app-icon-v1-5-11.png" width="44" height="44" alt=""><div><strong dir="ltr">Balkan Currency Converter</strong><span>Conversione di valuta per Android</span></div></div>
       <nav aria-label="Navigazione nel piè di pagina">
-        <a href="/it/">Casa</a>
+        <a href="/it/">Pagina iniziale</a>
         <a href="/it/privacy-policy.html">Informativa sulla privacy</a>
         <a href="https://play.google.com/store/apps/details?id=io.github.nstim605.balkanconverter">Google Play</a>
         <button class="footer-link-button analytics-consent-settings" type="button">Scelte analitiche</button>
@@ -237,7 +237,7 @@
     </div>
   </template>
   <script src="../../script.js" defer></script>
-  <script id="tool-i18n" type="application/json">{"© 2026 Balkan Currency Converter":"© 2026 Balkan Currency Converter","A provider can advertise “no commission” while using a less favourable exchange rate. That shortfall is effectively a cost hidden in the rate.":"Un fornitore può pubblicizzare “nessuna commissione” utilizzando un tasso di cambio meno favorevole. Questo deficit è effettivamente un costo nascosto nel tasso.","A reference rate is unavailable for this currency pair.":"Non è disponibile un tasso di riferimento per questa coppia di valute.","Above reference by":"Sopra riferimento di","Accept analytics":"Accetta analisi","Amount":"Importo","Amount you are offered":"Importo che ti viene offerto","Amount you give":"Importo che dai","Amounts and rates must be positive numbers.":"Gli importi e le tariffe devono essere numeri positivi.","Analytics choices":"Scelte analitiche","Back to Balkan Currency Converter":"Torna a Balkan Currency Converter","Balkan Currency Converter home":"Balkan Currency Converter casa","Calculate markup":"Calcola il margine","Calculation updated from the latest available reference rates.":"Calcolo aggiornato dagli ultimi tassi di riferimento disponibili.","Choose two different currencies.":"Scegli due valute diverse.","Compare an exchange offer with the latest reference rate and calculate the effective markup.":"Confronta un'offerta di scambio con l'ultimo tasso di riferimento e calcola il ricarico effettivo.","Compare an exchange offer with the latest reference rate.":"Confronta un'offerta di scambio con l'ultimo tasso di riferimento.","Compare an exchange offer with the latest reference rate. Calculate the amount you receive, the difference, and the effective exchange-rate markup.":"Confronta un'offerta di scambio con l'ultimo tasso di riferimento. Calcola l'importo che riceverai, la differenza e il margine di cambio effettivo.","Compare costs in Balkan Converter":"Confronta i costi in Balkan Converter","Compare the amount an exchange service offers with the latest available reference rate. See the difference and the effective markup before you exchange.":"Confronta l'importo offerto da un servizio di cambio con l'ultimo tasso di riferimento disponibile. Scopri la differenza e il markup effettivo prima dello scambio.","Currency conversion for Android":"Conversione di valuta per Android","Currency Converter":"Convertitore di valuta","Date":"Data","Enter the offer you want to compare.":"Inserisci l'offerta che vuoi confrontare.","Enter two amounts greater than zero.":"Inserisci due importi maggiori di zero.","EUR — Euro":"EUR—Euro","Exchange offer result":"Risultato offerta di scambio","Exchange Rate Markup Calculator":"Calcolatore del markup del tasso di cambio","Exchange Rate Markup Calculator | Balkan Currency Converter":"Calcolatore del margine di cambio del tasso di cambio | Balkan Currency Converter","Exchange-rate markup":"Markup del tasso di cambio","Fetching the latest reference rates…":"Recupero degli ultimi tassi di riferimento…","Footer navigation":"Navigazione nel piè di pagina","For example, 11,500":"Ad esempio, 11.500","Free currency tool":"Strumento valutario gratuito","Get Balkan Currency Converter on Google Play":"Ottieni Balkan Currency Converter su Google Play","Get it on Google Play":"Ottienilo su Google Play","Help us understand site usage. Firebase Analytics stays off unless you accept.":"Aiutaci a comprendere l'utilizzo del sito. Firebase Analytics rimane spento a meno che tu non accetti.","Home":"Casa","Important to know":"Importante da sapere","In the source currency":"Nella valuta di origine","Learn more":"Scopri di più","Loading latest rates…":"Caricamento delle tariffe più recenti…","Main navigation":"Navigazione principale","Markup = (reference result − offered result) ÷ reference result × 100.":"Markup = (risultato di riferimento − risultato offerto) ÷ risultato di riferimento × 100.","Markup calculator":"Calcolatore del margine","Markup Calculator":"Calcolatore del margine","Need this on the go?":"Ne hai bisogno mentre sei in movimento?","No reference rates were returned.":"Non sono stati restituiti tassi di riferimento.","Offered result":"Risultato offerto","Optional":"Facoltativo","Optional analytics":"Analisi facoltativa","Privacy":"Privacy","Privacy Policy":"Informativa sulla privacy","Rate":"Vota","Rates could not be loaded. Check your connection and try again.":"Impossibile caricare le tariffe. Controlla la connessione e riprova.","Reference rate":"Tasso di riferimento","Reference rates dated {date}.":"Tassi di riferimento datati {date}.","Reference result":"Risultato di riferimento","Reference-rate data is incomplete.":"I dati sui tassi di riferimento sono incompleti.","Reject analytics":"Rifiuta l'analisi","Result":"Risultato","RSD — Serbian Dinar":"RSD—Dinaro serbo","See how far an exchange offer is from the latest reference rate.":"Scopri quanto dista un'offerta di cambio dall'ultimo tasso di riferimento.","Skip to calculator":"Passa alla calcolatrice","Source currency":"Valuta di origine","Switch color theme":"Cambia tema colore","Switch to dark theme":"Passa al tema scuro","Switch to light theme":"Passa al tema chiaro","Target currency":"Valuta di destinazione","The Android app adds Actual Cost, offline rates, Travel Board, saved sets, charts, and a home-screen widget.":"L'app Android aggiunge costo effettivo, tariffe offline, scheda di viaggio, set salvati, grafici e un widget sulla schermata iniziale.","The calculator first estimates how much the latest reference rate would produce. It then compares that amount with the amount you were offered.":"Il calcolatore stima innanzitutto quanto produrrebbe l’ultimo tasso di riferimento. Quindi confronta tale importo con l'importo che ti è stato offerto.","The offer is {percentage} above the reference result.":"L'offerta è {percentage} sopra il risultato di riferimento.","The offer is {percentage} below the reference result.":"L'offerta è {percentage} inferiore al risultato di riferimento.","This is an informational comparison, not financial advice. An offer may include service fees, card charges, cash handling, or a provider’s spread. Reference rates are not guaranteed transaction rates.":"Questo è un confronto informativo, non una consulenza finanziaria. Un'offerta può includere commissioni di servizio, addebiti sulla carta, gestione del contante o spread del fornitore. I tassi di riferimento non sono tassi di transazione garantiti.","What the percentage means":"Cosa significa la percentuale","What you would receive in the target currency":"Cosa riceverai nella valuta di destinazione","You receive less by":"Ricevi meno da","You receive more by":"Riceverai di più da","Your comparison":"Il tuo confronto"}</script>
+  <script id="tool-i18n" type="application/json">{"© 2026 Balkan Currency Converter":"© 2026 Balkan Currency Converter","A provider can advertise “no commission” while using a less favourable exchange rate. That shortfall is effectively a cost hidden in the rate.":"Un operatore può pubblicizzare «nessuna commissione» applicando però un tasso di cambio meno favorevole. Lo scostamento rappresenta quindi un costo incorporato nel tasso.","A reference rate is unavailable for this currency pair.":"Non è disponibile un tasso di riferimento per questa coppia di valute.","Above reference by":"Sopra il risultato di riferimento di","Accept analytics":"Accetta analisi","Amount":"Importo","Amount you are offered":"Importo che ti viene offerto","Amount you give":"Importo che dai","Amounts and rates must be positive numbers.":"Gli importi e i tassi devono essere numeri positivi.","Analytics choices":"Scelte analitiche","Back to Balkan Currency Converter":"Torna a Balkan Currency Converter","Balkan Currency Converter home":"Pagina iniziale di Balkan Currency Converter","Calculate markup":"Calcola lo scostamento","Calculation updated from the latest available reference rates.":"Calcolo aggiornato dagli ultimi tassi di riferimento disponibili.","Choose two different currencies.":"Scegli due valute diverse.","Compare an exchange offer with the latest reference rate and calculate the effective markup.":"Confronta un'offerta di cambio con l'ultimo tasso di riferimento e calcola lo scostamento effettivo.","Compare an exchange offer with the latest reference rate.":"Confronta un'offerta di scambio con l'ultimo tasso di riferimento.","Compare an exchange offer with the latest reference rate. Calculate the amount you receive, the difference, and the effective exchange-rate markup.":"Confronta un'offerta di cambio con l'ultimo tasso di riferimento. Calcola l'importo ricevuto, la differenza e lo scostamento percentuale dal risultato di riferimento.","Compare costs in Balkan Converter":"Confronta i costi in Balkan Converter","Compare the amount an exchange service offers with the latest available reference rate. See the difference and the effective markup before you exchange.":"Confronta l'importo proposto da un servizio di cambio con l'ultimo tasso di riferimento disponibile. Controlla la differenza e lo scostamento percentuale prima di cambiare valuta.","Currency conversion for Android":"Conversione di valuta per Android","Currency Converter":"Convertitore di valuta","Date":"Data","Enter the offer you want to compare.":"Inserisci l'offerta che vuoi confrontare.","Enter two amounts greater than zero.":"Inserisci due importi maggiori di zero.","EUR — Euro":"EUR—Euro","Exchange offer result":"Risultato offerta di scambio","Exchange Rate Markup Calculator":"Calcolatore dello scostamento di cambio","Exchange Rate Markup Calculator | Balkan Currency Converter":"Calcolatore dello scostamento di cambio | Balkan Currency Converter","Exchange-rate markup":"Scostamento dal tasso di riferimento","Fetching the latest reference rates…":"Recupero degli ultimi tassi di riferimento…","Footer navigation":"Navigazione nel piè di pagina","For example, 11,500":"Ad esempio, 11.500","Free currency tool":"Strumento valutario gratuito","Get Balkan Currency Converter on Google Play":"Ottieni Balkan Currency Converter su Google Play","Get it on Google Play":"Ottienilo su Google Play","Help us understand site usage. Firebase Analytics stays off unless you accept.":"Aiutaci a comprendere l'utilizzo del sito. Firebase Analytics rimane spento a meno che tu non accetti.","Home":"Pagina iniziale","Important to know":"Importante da sapere","In the source currency":"Nella valuta di origine","Learn more":"Scopri di più","Loading latest rates…":"Caricamento degli ultimi tassi…","Main navigation":"Navigazione principale","Markup = (reference result − offered result) ÷ reference result × 100.":"Scostamento % = (risultato di riferimento − risultato proposto) ÷ risultato di riferimento × 100.","Markup calculator":"Calcolatore dello scostamento","Markup Calculator":"Calcolatore dello scostamento","Need this on the go?":"Ne hai bisogno mentre sei in movimento?","No reference rates were returned.":"Non sono stati restituiti tassi di riferimento.","Offered result":"Risultato proposto","Optional":"Facoltativo","Optional analytics":"Analisi facoltativa","Privacy":"Privacy","Privacy Policy":"Informativa sulla privacy","Rate":"Tasso","Rates could not be loaded. Check your connection and try again.":"Impossibile caricare i tassi. Controlla la connessione e riprova.","Reference rate":"Tasso di riferimento","Reference rates dated {date}.":"Tassi di riferimento datati {date}.","Reference result":"Risultato di riferimento","Reference-rate data is incomplete.":"I dati sui tassi di riferimento sono incompleti.","Reject analytics":"Rifiuta l'analisi","Result":"Risultato","RSD — Serbian Dinar":"RSD—Dinaro serbo","See how far an exchange offer is from the latest reference rate.":"Scopri quanto dista un'offerta di cambio dall'ultimo tasso di riferimento.","Skip to calculator":"Passa alla calcolatrice","Source currency":"Valuta di origine","Switch color theme":"Cambia tema colore","Switch to dark theme":"Passa al tema scuro","Switch to light theme":"Passa al tema chiaro","Target currency":"Valuta di destinazione","The Android app adds Actual Cost, offline rates, Travel Board, saved sets, charts, and a home-screen widget.":"L'app Android offre anche Actual Cost, tassi offline, Travel Board, set salvati, grafici e un widget per la schermata Home.","The calculator first estimates how much the latest reference rate would produce. It then compares that amount with the amount you were offered.":"Il calcolatore stima innanzitutto quanto produrrebbe l’ultimo tasso di riferimento. Quindi confronta tale importo con l'importo che ti è stato offerto.","The offer is {percentage} above the reference result.":"L'offerta è {percentage} sopra il risultato di riferimento.","The offer is {percentage} below the reference result.":"L'offerta è {percentage} inferiore al risultato di riferimento.","This is an informational comparison, not financial advice. An offer may include service fees, card charges, cash handling, or a provider’s spread. Reference rates are not guaranteed transaction rates.":"Questo è un confronto informativo, non una consulenza finanziaria. Un'offerta può includere commissioni di servizio, addebiti sulla carta, gestione del contante o spread del fornitore. I tassi di riferimento non sono tassi di transazione garantiti.","What the percentage means":"Cosa significa la percentuale","What you would receive in the target currency":"Cosa riceverai nella valuta di destinazione","You receive less by":"Ricevi in meno","You receive more by":"Ricevi in più","Your comparison":"Il tuo confronto"}</script>
   <script type="module" src="../../exchange-rate-markup-calculator/calculator.js"></script>
 </body>
 </html>
