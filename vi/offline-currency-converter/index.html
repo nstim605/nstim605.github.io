@@ -76,7 +76,7 @@
   <header class="site-header">
     <div class="shell nav-wrap">
       <a class="brand" href="/vi/" aria-label="nhà Balkan Currency Converter"><img src="../../assets/icons/v1-5-11/app-icon-v1-5-11.png" width="42" height="42" alt=""><span dir="ltr">Balkan Currency Converter</span></a>
-      <nav class="nav-links" aria-label="Điều hướng chính"><a href="/vi/">Trang chủ</a><a href="/vi/currency-converter/">Công cụ chuyển đổi tiền tệ</a><a href="/vi/multi-currency-converter/">Đa tiền tệ</a></nav>
+      <nav class="nav-links" aria-label="Điều hướng chính"><a href="/vi/">Trang chủ</a><a href="/vi/currency-converter/">Currency converter</a><a href="/vi/multi-currency-converter/">Đa tiền tệ</a></nav>
       <div class="nav-actions">
         <details class="language-selector">
           <summary aria-label="Tiếng Việt"><span aria-hidden="true">🌐</span><span>Tiếng Việt</span></summary>
@@ -142,9 +142,9 @@
     <section class="section shell" aria-labelledby="offline-flow-title">
       <div class="section-heading"><div><p class="eyebrow">Phiên bản đơn giản</p><h2 id="offline-flow-title">Từ làm mới trực tuyến đến chuyển đổi ngoại tuyến</h2></div><p>Việc tiết kiệm tỷ giá không làm cho tỷ giá đó tồn tại mãi mãi. Nó tạo ra một bản sao cục bộ có ngày tháng có thể được sử dụng lại khi mạng không khả dụng.</p></div>
       <div class="feature-grid">
-        <article class="feature-card"><span class="feature-mark" aria-hidden="true">1</span><h3>Kết nối và làm mới</h3><p>Ứng dụng yêu cầu tập dữ liệu tỷ giá tham chiếu mới nhất hiện có và ghi lại ngày tỷ giá cũng như tiết kiệm thời gian.</p></article>
+        <article class="feature-card"><span class="feature-mark" aria-hidden="true">1</span><h3>Kết nối và làm mới</h3><p>Ứng dụng tải bộ dữ liệu tỷ giá tham chiếu mới nhất hiện có, rồi ghi lại ngày tỷ giá và thời điểm lưu.</p></article>
         <article class="feature-card"><span class="feature-mark" aria-hidden="true">2</span><h3>Giữ thành công cuối cùng</h3><p>Sau khi yêu cầu thành công, tập dữ liệu sẽ được lưu trữ cục bộ. Nếu yêu cầu sau không thành công, bản sao làm việc trước đó vẫn có sẵn.</p></article>
-        <article class="feature-card feature-card-accent"><span class="feature-mark" aria-hidden="true">3</span><h3>Quy đổi không cần Internet</h3><p>Khi ngoại tuyến, các lượt chuyển đổi sẽ sử dụng tập dữ liệu đã lưu đó và hiển thị rằng dữ liệu đã lưu trong bộ nhớ đệm đang được sử dụng cùng với ngày tính giá.</p></article>
+        <article class="feature-card feature-card-accent"><span class="feature-mark" aria-hidden="true">3</span><h3>Chuyển đổi khi không có Internet</h3><p>Khi ngoại tuyến, các lượt chuyển đổi sẽ sử dụng tập dữ liệu đã lưu đó và hiển thị rằng dữ liệu đã lưu trong bộ nhớ đệm đang được sử dụng cùng với ngày tính giá.</p></article>
       </div>
     </section>
 
@@ -156,26 +156,26 @@
       </article>
       <aside>
         <h2>Điều gì xảy ra khi internet trở lại?</h2>
-        <p>Balkan Converter sử dụng một bộ đệm tốc độ cục bộ được chia sẻ để chuyển đổi thông thường và chuẩn bị Tập đã lưu. Làm mới trực tuyến thành công sẽ thay thế tập dữ liệu được lưu trong bộ nhớ đệm cũ hơn và cập nhật ngày của tập dữ liệu đó cũng như tiết kiệm thời gian.</p>
-        <p>Nếu quá trình làm mới không thành công, ứng dụng sẽ quay trở lại tốc độ đã lưu trong bộ nhớ đệm trước đó thay vì xóa chúng.</p>
+        <p>Balkan Converter dùng chung một bộ nhớ đệm tỷ giá cho việc chuyển đổi thông thường và chuẩn bị Bộ đã lưu. Khi làm mới trực tuyến thành công, dữ liệu cũ được thay thế và ngày tỷ giá cùng thời điểm lưu được cập nhật.</p>
+        <p>Nếu làm mới thất bại, ứng dụng tiếp tục dùng tỷ giá đã lưu trước đó thay vì xóa dữ liệu này.</p>
       </aside>
     </section>
 
     <section class="calculator-explanation shell" aria-labelledby="prepare-title">
       <article>
-        <h2 id="prepare-title">Chuẩn bị một Học phần đã lưu để sử dụng ngoại tuyến</h2>
-        <p>Trong ứng dụng Android, hãy tạo hoặc mở Bộ đã lưu cho loại tiền tệ bạn cần. Trong khi kết nối, hãy chọn <strong>Lưu giá ngoại tuyến</strong>. Ứng dụng làm mới tập dữ liệu tỷ giá được chia sẻ và xác nhận tính sẵn sàng khi bộ nhớ đệm đã lưu chứa mọi loại tiền tệ trong tập hợp đó.</p>
-        <p>Không có file giá cố định riêng cho từng chuyến đi. Việc chuẩn bị một bộ khác sẽ làm mới cùng bộ đệm được sử dụng ở nơi khác trong ứng dụng.</p>
+        <h2 id="prepare-title">Chuẩn bị Bộ đã lưu để sử dụng ngoại tuyến</h2>
+        <p>Trong ứng dụng Android, hãy tạo hoặc mở Bộ đã lưu cho loại tiền tệ bạn cần. Trong khi kết nối, hãy chọn <strong>Lưu tỷ giá để dùng ngoại tuyến</strong>. Ứng dụng làm mới tập dữ liệu tỷ giá được chia sẻ và xác nhận tính sẵn sàng khi bộ nhớ đệm đã lưu chứa mọi loại tiền tệ trong tập hợp đó.</p>
+        <p>Không có tệp tỷ giá cố định riêng cho từng chuyến đi. Khi chuẩn bị một bộ khác, ứng dụng làm mới cùng bộ nhớ đệm được dùng ở các nơi khác.</p>
       </article>
       <aside>
         <h2>Hữu ích ngoài du lịch</h2>
         <p>Chuyển đổi ngoại tuyến có thể hữu ích khi kết nối kém, gián đoạn chuyển vùng, ngừng dịch vụ tạm thời hoặc bất kỳ tình huống nào mà ước tính tham khảo nhanh hữu ích hơn là không có kết quả.</p>
-        <p data-i18n-rich="offline-related-tools">For quick access to the latest cached pair, see the <a class="text-link" data-i18n-slot="widget" href="/vi/currency-converter-widget/">Android currency widget guide</a>. For online comparisons, use the <a class="text-link" data-i18n-slot="currency" href="/vi/currency-converter/">Chuyển đổi tiền tệ</a>, compare several results in the <a class="text-link" data-i18n-slot="multi" href="/vi/multi-currency-converter/">Multi-Currency Converter</a>, or check a provider’s offer with the <a class="text-link" data-i18n-slot="markup" href="/vi/exchange-rate-markup-calculator/">Exchange Rate Markup Calculator</a>.</p>
+        <p data-i18n-rich="offline-related-tools">Để truy cập nhanh một cặp tiền đã lưu, hãy xem <a class="text-link" data-i18n-slot="widget" href="/vi/currency-converter-widget/">hướng dẫn tiện ích Android</a>. Dùng <a class="text-link" data-i18n-slot="currency" href="/vi/currency-converter/">công cụ chuyển đổi tiền tệ</a> để quy đổi trực tuyến, so sánh một số tiền với nhiều loại tiền bằng <a class="text-link" data-i18n-slot="multi" href="/vi/multi-currency-converter/">công cụ chuyển đổi nhiều loại tiền</a>, hoặc kiểm tra báo giá bằng <a class="text-link" data-i18n-slot="markup" href="/vi/exchange-rate-markup-calculator/">công cụ tính chênh lệch tỷ giá</a>.</p>
       </aside>
     </section>
 
     <section class="cta-section shell calculator-cta" aria-labelledby="offline-cta-title">
-      <div><p class="eyebrow eyebrow-inverse">Giữ một tài liệu tham khảo ngày thuận tiện</p><h2 id="offline-cta-title">Sử dụng giá đã lưu trong Balkan Converter</h2><p>Ứng dụng Android có thể sử dụng lại bộ đệm tỷ giá hối đoái thành công mới nhất mà không cần kết nối và xác định rõ ràng dữ liệu được lưu trong bộ nhớ đệm cũng như ngày tỷ giá của nó.</p></div>
+      <div><p class="eyebrow eyebrow-inverse">Luôn có sẵn tỷ giá tham chiếu kèm ngày</p><h2 id="offline-cta-title">Dùng tỷ giá đã lưu trong Balkan Converter</h2><p>Ứng dụng Android có thể sử dụng lại bộ đệm tỷ giá hối đoái thành công mới nhất mà không cần kết nối và xác định rõ ràng dữ liệu được lưu trong bộ nhớ đệm cũng như ngày tỷ giá của nó.</p></div>
       <a class="play-link play-link-on-dark offline-play-cta" href="https://play.google.com/store/apps/details?id=io.github.nstim605.balkanconverter" aria-label="Nhận Balkan Currency Converter trên Google Play"><img src="/assets/google-play-badge-en.png" width="202" height="60" alt="Tải nó trên Google Play"></a>
     </section>
   </main>

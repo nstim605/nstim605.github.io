@@ -37,6 +37,7 @@
     { "locale": "hi", "route": "hi", "language": "Hindi", "dir": "ltr", "widths": [320, 390, 768, 1440] },
     { "locale": "bn", "route": "bn", "language": "Bengali", "dir": "ltr", "widths": [320, 390, 768, 1440] },
     { "locale": "id", "route": "id", "language": "Indonesian", "dir": "ltr", "widths": [320, 390, 768, 1440] },
-    { "locale": "ms", "route": "ms", "language": "Malay", "dir": "ltr", "widths": [320, 390, 768, 1440] }
+    { "locale": "ms", "route": "ms", "language": "Malay", "dir": "ltr", "widths": [320, 390, 768, 1440] },
+    { "locale": "vi", "route": "vi", "language": "Vietnamese", "dir": "ltr", "widths": [320, 390, 768, 1440] }
   ]
 }
