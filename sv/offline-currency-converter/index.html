@@ -136,27 +136,27 @@
       <a class="back-link" href="/sv/"><span aria-hidden="true">←</span> Tillbaka till Balkan Currency Converter</a>
       <p class="eyebrow"><span class="status-dot"></span> Offline växelkursguide</p>
       <h1 id="offline-title">Offline valutaomvandlare: Hur sparade kurser fungerar</h1>
-      <p class="hero-lede">En omvandlare kan fortsätta arbeta utan internet genom att använda de senaste växelkurserna som den framgångsrikt sparat på din enhet. Dessa priser är användbara referensdata – men de förblir bundna till sitt ursprungliga datum tills appen kan uppdatera dem online.</p>
+      <p class="hero-lede">En valutaomvandlare kan fortsätta fungera utan internet med de senaste kurserna som sparats på enheten. Kurserna är användbara referensdata, men behåller sitt ursprungliga datum tills appen kan uppdatera dem online.</p>
     </section>
 
     <section class="section shell" aria-labelledby="offline-flow-title">
-      <div class="section-heading"><div><p class="eyebrow">Den enkla versionen</p><h2 id="offline-flow-title">Från onlineuppdatering till offlinekonvertering</h2></div><p>Att spara en kurs får den inte att leva för evigt. Det skapar en daterad lokal kopia som kan återanvändas när nätverket inte är tillgängligt.</p></div>
+      <div class="section-heading"><div><p class="eyebrow">Den enkla versionen</p><h2 id="offline-flow-title">Från onlineuppdatering till offlinekonvertering</h2></div><p>En sparad kurs hålls inte uppdaterad för alltid. En daterad lokal kopia skapas och kan återanvändas när nätverket inte är tillgängligt.</p></div>
       <div class="feature-grid">
-        <article class="feature-card"><span class="feature-mark" aria-hidden="true">1</span><h3>Anslut och uppdatera</h3><p>Appen begär den senaste tillgängliga referenshastighetsdatauppsättningen och registrerar prisdatum och sparar tid.</p></article>
-        <article class="feature-card"><span class="feature-mark" aria-hidden="true">2</span><h3>Behåll den sista framgången</h3><p>Efter en lyckad begäran lagras datasetet lokalt. Om en senare begäran misslyckas, förblir den tidigare arbetskopian tillgänglig.</p></article>
-        <article class="feature-card feature-card-accent"><span class="feature-mark" aria-hidden="true">3</span><h3>Konvertera utan internet</h3><p>När den är offline använder konverteringar den sparade datamängden och visar att cachad data används, tillsammans med prisdatumet.</p></article>
+        <article class="feature-card"><span class="feature-mark" aria-hidden="true">1</span><h3>Anslut och uppdatera</h3><p>Appen hämtar den senaste tillgängliga datauppsättningen med referenskurser och registrerar kursdatum och tidpunkt för lagringen.</p></article>
+        <article class="feature-card"><span class="feature-mark" aria-hidden="true">2</span><h3>Behåll den sista framgången</h3><p>Efter en lyckad begäran sparas datauppsättningen lokalt. Om en senare begäran misslyckas finns den tidigare fungerande kopian kvar.</p></article>
+        <article class="feature-card feature-card-accent"><span class="feature-mark" aria-hidden="true">3</span><h3>Konvertera utan internet</h3><p>Utan internet använder omvandlingarna den sparade datauppsättningen och visar tillsammans med kursdatumet att cachelagrade data används.</p></article>
       </div>
     </section>
 
     <section class="calculator-explanation shell" aria-labelledby="snapshot-title">
       <article>
         <h2 id="snapshot-title">Vad en sparad offlinehastighet betyder</h2>
-        <p>Den sparade datan är en ögonblicksbild av det senaste framgångsrika referensfrekvenssvaret. Den kan beräkna konverteringar utan nätverksanslutning, men siffrorna uppdateras inte medan enheten är offline.</p>
-        <p>Kontrollera alltid det visade kursdatumet. Ett resultat baserat på gårdagens kurser kan fortfarande vara användbart för planering, men det är inte ett löfte om kursen som en bank, kortleverantör eller växlingskontor kommer att erbjuda idag.</p>
+        <p>De sparade uppgifterna är en ögonblicksbild av det senaste lyckade svaret med referenskurser. De kan användas för omvandlingar utan nätverksanslutning, men värdena uppdateras inte medan enheten är offline.</p>
+        <p>Kontrollera alltid det visade kursdatumet. Ett resultat baserat på gårdagens kurser kan fortfarande vara användbart för planering, men garanterar inte den kurs som en bank, kortutgivare eller växlingskontor erbjuder i dag.</p>
       </article>
       <aside>
         <h2>Vad händer när internet kommer tillbaka?</h2>
-        <p>Balkan Converter använder en delad lokal hastighetscache för normal konvertering och förberedelse av sparade uppsättningar. En framgångsrik onlineuppdatering ersätter den äldre cachade datamängden och uppdaterar dess datum och sparar tid.</p>
+        <p>Balkan Converter använder en gemensam lokal kurscache för vanlig omvandling och förberedelse av sparade uppsättningar. En lyckad onlineuppdatering ersätter den äldre datauppsättningen i cachen och uppdaterar kursdatum och lagringstid.</p>
         <p>Om uppdateringen misslyckas, faller appen tillbaka till de tidigare cachade hastigheterna istället för att ta bort dem.</p>
       </aside>
     </section>
@@ -164,18 +164,18 @@
     <section class="calculator-explanation shell" aria-labelledby="prepare-title">
       <article>
         <h2 id="prepare-title">Förbered en sparad uppsättning för offlineanvändning</h2>
-        <p>I Android-appen skapar eller öppnar du en sparad uppsättning för de valutor du behöver. När du är ansluten väljer du <strong>Spara priser offline</strong>. Appen uppdaterar den delade kursdatauppsättningen och bekräftar beredskapen när den sparade cachen innehåller varje valuta i den uppsättningen.</p>
-        <p>Det finns ingen separat fryst prisfil för varje resa. Om du förbereder en annan uppsättning uppdateras samma cache som används någon annanstans i appen.</p>
+        <p>Skapa eller öppna en sparad uppsättning med önskade valutor i Android-appen. Välj följande när du är online: <strong>Spara kurser för användning utan internet</strong>. Appen uppdaterar den gemensamma kursdatauppsättningen och bekräftar att den är klar när cachen innehåller alla valutor i uppsättningen.</p>
+        <p>Det finns ingen separat fryst kursfil för varje resa. När du förbereder en annan uppsättning uppdateras samma cache som används i resten av appen.</p>
       </article>
       <aside>
         <h2>Användbart bortom resor</h2>
         <p>Offlinekonvertering kan hjälpa till under en dålig anslutning, roamingavbrott, ett tillfälligt tjänsteavbrott eller varje situation där en snabb referensuppskattning är mer användbar än inget resultat.</p>
-        <p data-i18n-rich="offline-related-tools">For quick access to the latest cached pair, see the <a class="text-link" data-i18n-slot="widget" href="/sv/currency-converter-widget/">Android currency widget guide</a>. For online comparisons, use the <a class="text-link" data-i18n-slot="currency" href="/sv/currency-converter/">Valutaomvandlare</a>, compare several results in the <a class="text-link" data-i18n-slot="multi" href="/sv/multi-currency-converter/">Multi-Currency Converter</a>, or check a provider’s offer with the <a class="text-link" data-i18n-slot="markup" href="/sv/exchange-rate-markup-calculator/">Exchange Rate Markup Calculator</a>.</p>
+        <p data-i18n-rich="offline-related-tools">Se <a class="text-link" data-i18n-slot="widget" href="/sv/currency-converter-widget/">guiden till Android-widgeten</a> för snabb åtkomst till ett sparat valutapar. Använd <a class="text-link" data-i18n-slot="currency" href="/sv/currency-converter/">valutaomvandlaren</a> för onlineomvandling, jämför ett belopp i flera valutor med <a class="text-link" data-i18n-slot="multi" href="/sv/multi-currency-converter/">multivalutaomvandlaren</a> eller bedöm ett växlingserbjudande med <a class="text-link" data-i18n-slot="markup" href="/sv/exchange-rate-markup-calculator/">kalkylatorn för kurspåslag</a>.</p>
       </aside>
     </section>
 
     <section class="cta-section shell calculator-cta" aria-labelledby="offline-cta-title">
-      <div><p class="eyebrow eyebrow-inverse">Håll en daterad referens till hands</p><h2 id="offline-cta-title">Använd sparade priser i Balkan Converter</h2><p>Android-appen kan återanvända sin senaste framgångsrika växelkurscache utan anslutning och identifierar tydligt cachad data och dess kursdatum.</p></div>
+      <div><p class="eyebrow eyebrow-inverse">Håll en daterad referens till hands</p><h2 id="offline-cta-title">Använd sparade kurser i Balkan Converter</h2><p>Android-appen kan återanvända sin senaste framgångsrika växelkurscache utan anslutning och identifierar tydligt cachad data och dess kursdatum.</p></div>
       <a class="play-link play-link-on-dark offline-play-cta" href="https://play.google.com/store/apps/details?id=io.github.nstim605.balkanconverter" aria-label="Skaffa Balkan Currency Converter på Google Play"><img src="/assets/google-play-badge-en.png" width="202" height="60" alt="Skaffa den på Google Play"></a>
     </section>
   </main>
