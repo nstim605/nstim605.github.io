@@ -5,8 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#f7f8fa" media="(prefers-color-scheme: light)">
   <meta name="theme-color" content="#070a0f" media="(prefers-color-scheme: dark)">
-  <title>Döviz Kuru Markup Hesaplayıcı | Balkan Currency Converter</title>
-  <meta name="description" content="Bir döviz teklifini en son referans kuruyla karşılaştırın. Alacağınız tutarı, farkı ve efektif döviz kuru marjını hesaplayın.">
+  <title>Döviz Kuru Farkı Hesaplayıcısı | Balkan Currency Converter</title>
+  <meta name="description" content="Bir döviz teklifini en güncel referans kurla karşılaştırın. Alacağınız tutarı, farkı ve gerçek kur farkını hesaplayın.">
   <link rel="canonical" href="https://balkanconverter.com/tr/exchange-rate-markup-calculator/">
   <link rel="alternate" hreflang="en" href="https://balkanconverter.com/exchange-rate-markup-calculator/">
   <link rel="alternate" hreflang="sr" href="https://balkanconverter.com/sr/exchange-rate-markup-calculator/">
@@ -55,12 +55,12 @@
   <link rel="alternate" hreflang="x-default" href="https://balkanconverter.com/exchange-rate-markup-calculator/">
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="Balkan Currency Converter">
-  <meta property="og:title" content="Döviz Kuru Markup Hesaplayıcı">
+  <meta property="og:title" content="Döviz Kuru Farkı Hesaplayıcısı">
   <meta property="og:description" content="Bir döviz teklifinin en son referans kurundan ne kadar uzakta olduğunu görün.">
   <meta property="og:url" content="https://balkanconverter.com/tr/exchange-rate-markup-calculator/">
   <meta property="og:image" content="https://balkanconverter.com/assets/og-v1-5-11.png">
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Döviz Kuru Markup Hesaplayıcı">
+  <meta name="twitter:title" content="Döviz Kuru Farkı Hesaplayıcısı">
   <meta name="twitter:description" content="Bir döviz teklifini en son referans kuruyla karşılaştırın.">
   <meta name="twitter:image" content="https://balkanconverter.com/assets/og-v1-5-11.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/assets/icons/v1-5-11/favicon-32.png">
@@ -68,7 +68,7 @@
   <link rel="manifest" href="../../site.webmanifest">
   <link rel="stylesheet" href="../../styles.css">
   <script type="application/ld+json">
-  {"@context":"https://schema.org","@type":"WebApplication","name":"Döviz Kuru Markup Hesaplayıcı","url":"https://balkanconverter.com/tr/exchange-rate-markup-calculator/","applicationCategory":"FinanceApplication","operatingSystem":"Any","isAccessibleForFree":true,"description":"Bir döviz teklifini en son referans kuruyla karşılaştırın ve etkili kâr marjını hesaplayın."}
+  {"@context":"https://schema.org","@type":"WebApplication","name":"Döviz Kuru Farkı Hesaplayıcısı","url":"https://balkanconverter.com/tr/exchange-rate-markup-calculator/","applicationCategory":"FinanceApplication","operatingSystem":"Any","isAccessibleForFree":true,"description":"Bir döviz teklifini en güncel referans kurla karşılaştırın ve gerçek kur farkını hesaplayın."}
   </script>
 </head>
 <body>
@@ -143,16 +143,16 @@
     <section class="calculator-hero shell" aria-labelledby="calculator-title">
       <a class="back-link" href="/tr/"><span aria-hidden="true">←</span> Balkan Currency Converter'e geri dön</a>
       <p class="eyebrow"><span class="status-dot"></span> Ücretsiz para birimi aracı</p>
-      <h1 id="calculator-title">Döviz Kuru Markup Hesaplayıcı</h1>
-      <p class="hero-lede">Bir değişim hizmetinin sunduğu tutarı mevcut en son referans kurla karşılaştırın. Takas yapmadan önce farkı ve etkili işaretlemeyi görün.</p>
+      <h1 id="calculator-title">Döviz Kuru Farkı Hesaplayıcısı</h1>
+      <p class="hero-lede">Döviz hizmetinin sunduğu tutarı en son referans kurla karşılaştırın. Döviz almadan önce farkı ve gerçek kur artışını görün.</p>
     </section>
 
-    <section class="calculator-layout shell" aria-label="İşaretleme hesaplayıcısı">
+    <section class="calculator-layout shell" aria-label="Kur farkı hesaplayıcısı">
       <form class="calculator-card" id="markup-form" novalidate>
         <div class="field-grid">
           <label>Kaynak para birimi
             <select id="source-currency" name="source" autocomplete="off">
-              <option value="EUR">Avro — Avro</option>
+              <option value="EUR">EUR — Euro</option>
             </select>
           </label>
           <label>Hedef para birimi
@@ -169,19 +169,19 @@
           <span class="input-hint">Hedef para biriminde ne alırsınız?</span>
           <input id="offered-amount" name="offered" inputmode="decimal" autocomplete="off" placeholder="Örneğin 11.500" aria-describedby="calculator-status">
         </label>
-        <button class="primary-button" type="submit">İşaretlemeyi hesapla</button>
+        <button class="primary-button" type="submit">Kur farkını hesapla</button>
         <p class="calculator-status" id="calculator-status" role="status" aria-live="polite">Karşılaştırmak istediğiniz teklifi girin.</p>
       </form>
 
       <section class="results-card" id="calculator-results" tabindex="-1" aria-labelledby="results-title" hidden>
         <p class="eyebrow">Karşılaştırmanız</p>
-        <h2 id="results-title">Takas teklifi sonucu</h2>
+        <h2 id="results-title">Döviz teklifi sonucu</h2>
         <dl class="result-list">
-          <div><dt>Referans oranı</dt><dd data-result="referenceRate"></dd></div>
+          <div><dt>Referans kur</dt><dd data-result="referenceRate"></dd></div>
           <div><dt>Referans sonucu</dt><dd data-result="referenceResult"></dd></div>
           <div><dt>Sunulan sonuç</dt><dd data-result="offeredResult"></dd></div>
           <div><dt data-label="difference">Daha az alırsınız</dt><dd data-result="difference"></dd></div>
-          <div class="result-emphasis"><dt data-label="percentage">Döviz kuru işaretlemesi</dt><dd data-result="percentage"></dd></div>
+          <div class="result-emphasis"><dt data-label="percentage">Kur farkı</dt><dd data-result="percentage"></dd></div>
         </dl>
         <p class="result-summary"></p>
         <p class="result-date"></p>
@@ -191,14 +191,14 @@
     <section class="calculator-explanation shell" aria-labelledby="meaning-title">
       <article>
         <h2 id="meaning-title">Yüzde ne anlama geliyor?</h2>
-        <p>Hesaplayıcı öncelikle en son referans oranının ne kadar üreteceğini tahmin eder. Daha sonra bu tutarı size teklif edilen tutarla karşılaştırır.</p>
-        <p>Bir sağlayıcı, daha az avantajlı bir döviz kuru kullanarak &quot;komisyon yok&quot; reklamı yapabilir. Bu eksiklik aslında oranda gizli bir maliyettir.</p>
-        <p><strong>İşaretleme = (referans sonucu – sunulan sonuç) ÷ referans sonucu × 100.</strong></p>
+        <p>Hesaplayıcı önce en güncel referans kurla elde edilecek tutarı tahmin eder. Ardından bu tutarı size teklif edilen tutarla karşılaştırır.</p>
+        <p>Bir sağlayıcı daha az avantajlı kur kullanırken “komisyonsuz” diye reklam yapabilir. Aradaki fark, kurun içine gizlenmiş bir maliyettir.</p>
+        <p><strong>Kur farkı = (referans sonuç − teklif edilen sonuç) ÷ referans sonuç × 100.</strong></p>
       </article>
       <aside>
         <h2>Bilmek önemli</h2>
-        <p>Bu, finansal tavsiye değil, bilgilendirme amaçlı bir karşılaştırmadır. Teklif, hizmet ücretlerini, kart ücretlerini, nakit işlemlerini veya sağlayıcının spreadini içerebilir. Referans oranları garanti edilen işlem oranları değildir.</p>
-        <p data-i18n-rich="markup-related-tools">Comparing a card or ATM transaction with an offered home-currency conversion? Use the <a class="text-link" data-i18n-slot="foreignFee" href="/tr/foreign-transaction-fee-calculator/">Foreign Transaction Fee &amp; DCC Calculator</a>. For a quick pair conversion, use the <a class="text-link" data-i18n-slot="currency" href="/tr/currency-converter/">Döviz Çevirici</a>. For several results at once, try the <a class="text-link" data-i18n-slot="multi" href="/tr/multi-currency-converter/">Multi-Currency Converter</a>, or learn how <a class="text-link" data-i18n-slot="offline" href="/tr/offline-currency-converter/">saved offline rates</a> work.</p>
+        <p>Bu yalnızca bilgi amaçlı bir karşılaştırmadır, finansal tavsiye değildir. Teklif; hizmet ücretleri, kart masrafları, nakit işlem ücreti veya sağlayıcının kur farkını içerebilir. Referans kurlar garanti edilen işlem kurları değildir.</p>
+        <p data-i18n-rich="markup-related-tools">Kartla ödeme veya nakit çekme işlemini kart para biriminize sunulan dönüşümle mi karşılaştırıyorsunuz? <a class="text-link" data-i18n-slot="foreignFee" href="/tr/foreign-transaction-fee-calculator/">ücret ve DCC hesaplayıcısını</a> kullanın. Hızlı bir döviz çifti dönüşümü için <a class="text-link" data-i18n-slot="currency" href="/tr/currency-converter/">para birimi dönüştürücüsünü</a> açın. Tek bir tutarı birkaç para biriminde <a class="text-link" data-i18n-slot="multi" href="/tr/multi-currency-converter/">çoklu para birimi dönüştürücüsünü</a> ile karşılaştırın; <a class="text-link" data-i18n-slot="offline" href="/tr/offline-currency-converter/">çevrimdışı kullanım rehberi</a>, kayıtlı kurların nasıl çalıştığını açıklar.</p>
       </aside>
     </section>
 
@@ -206,7 +206,7 @@
       <div>
         <p class="eyebrow eyebrow-inverse">Hareket halindeyken buna mı ihtiyacınız var?</p>
         <h2 id="app-cta-title">Balkan Converter'deki maliyetleri karşılaştırın</h2>
-        <p>Android uygulaması Gerçek Maliyet, çevrimdışı fiyatlar, Seyahat Panosu, kayıtlı setler, grafikler ve bir ana ekran widget'ı ekler.</p>
+        <p>Android uygulamasında Gerçek Maliyet, çevrimdışı kurlar, Seyahat Panosu, kayıtlı setler, grafikler ve ana ekran widget'ı bulunur.</p>
       </div>
       <a class="play-link play-link-on-dark calculator-play-cta" href="https://play.google.com/store/apps/details?id=io.github.nstim605.balkanconverter" aria-label="Google Play'de Balkan Currency Converter'yi edinin">
         <img src="/assets/google-play-badge-en.png" width="202" height="60" alt="Google Play'den edinin">
@@ -237,7 +237,7 @@
     </div>
   </template>
   <script src="../../script.js" defer></script>
-  <script id="tool-i18n" type="application/json">{"© 2026 Balkan Currency Converter":"© 2026 Balkan Currency Converter","A provider can advertise “no commission” while using a less favourable exchange rate. That shortfall is effectively a cost hidden in the rate.":"Bir sağlayıcı, daha az avantajlı bir döviz kuru kullanarak \"komisyon yok\" reklamı yapabilir. Bu eksiklik aslında oranda gizli bir maliyettir.","A reference rate is unavailable for this currency pair.":"Bu döviz çifti için referans oranı mevcut değil.","Above reference by":"Yukarıda belirtilen referans","Accept analytics":"Analitiği kabul et","Amount":"Tutar","Amount you are offered":"Size teklif edilen miktar","Amount you give":"Verdiğiniz miktar","Amounts and rates must be positive numbers.":"Tutarlar ve oranlar pozitif sayılar olmalıdır.","Analytics choices":"Analitik seçenekleri","Back to Balkan Currency Converter":"Balkan Currency Converter'e geri dön","Balkan Currency Converter home":"Balkan Currency Converter ana sayfa","Calculate markup":"İşaretlemeyi hesapla","Calculation updated from the latest available reference rates.":"Hesaplama mevcut en son referans oranlarına göre güncellendi.","Choose two different currencies.":"İki farklı para birimi seçin.","Compare an exchange offer with the latest reference rate and calculate the effective markup.":"Bir döviz teklifini en son referans kuruyla karşılaştırın ve etkili kâr marjını hesaplayın.","Compare an exchange offer with the latest reference rate.":"Bir döviz teklifini en son referans kuruyla karşılaştırın.","Compare an exchange offer with the latest reference rate. Calculate the amount you receive, the difference, and the effective exchange-rate markup.":"Bir döviz teklifini en son referans kuruyla karşılaştırın. Alacağınız tutarı, farkı ve efektif döviz kuru marjını hesaplayın.","Compare costs in Balkan Converter":"Balkan Converter'deki maliyetleri karşılaştırın","Compare the amount an exchange service offers with the latest available reference rate. See the difference and the effective markup before you exchange.":"Bir değişim hizmetinin sunduğu tutarı mevcut en son referans kurla karşılaştırın. Takas yapmadan önce farkı ve etkili işaretlemeyi görün.","Currency conversion for Android":"Android için para birimi dönüştürme","Currency Converter":"Döviz Çevirici","Date":"Tarih","Enter the offer you want to compare.":"Karşılaştırmak istediğiniz teklifi girin.","Enter two amounts greater than zero.":"Sıfırdan büyük iki miktar girin.","EUR — Euro":"Avro — Avro","Exchange offer result":"Takas teklifi sonucu","Exchange Rate Markup Calculator":"Döviz Kuru Markup Hesaplayıcı","Exchange Rate Markup Calculator | Balkan Currency Converter":"Döviz Kuru Markup Hesaplayıcı | Balkan Currency Converter","Exchange-rate markup":"Döviz kuru işaretlemesi","Fetching the latest reference rates…":"En son referans oranları alınıyor…","Footer navigation":"Alt bilgide gezinme","For example, 11,500":"Örneğin 11.500","Free currency tool":"Ücretsiz para birimi aracı","Get Balkan Currency Converter on Google Play":"Google Play'de Balkan Currency Converter'yi edinin","Get it on Google Play":"Google Play'den edinin","Help us understand site usage. Firebase Analytics stays off unless you accept.":"Site kullanımını anlamamıza yardımcı olun. Siz kabul etmedikçe Firebase Analytics kapalı kalır.","Home":"Ana Sayfa","Important to know":"Bilmek önemli","In the source currency":"Kaynak para biriminde","Learn more":"Daha fazla bilgi edinin","Loading latest rates…":"En son fiyatlar yükleniyor…","Main navigation":"Ana gezinme","Markup = (reference result − offered result) ÷ reference result × 100.":"İşaretleme = (referans sonucu – sunulan sonuç) ÷ referans sonucu × 100.","Markup calculator":"İşaretleme hesaplayıcısı","Markup Calculator":"İşaretleme Hesaplayıcı","Need this on the go?":"Hareket halindeyken buna mı ihtiyacınız var?","No reference rates were returned.":"Hiçbir referans oranı döndürülmedi.","Offered result":"Sunulan sonuç","Optional":"İsteğe bağlı","Optional analytics":"İsteğe bağlı analiz","Privacy":"Gizlilik","Privacy Policy":"Gizlilik Politikası","Rate":"Oran","Rates could not be loaded. Check your connection and try again.":"Fiyatlar yüklenemedi. Bağlantınızı kontrol edip tekrar deneyin.","Reference rate":"Referans oranı","Reference rates dated {date}.":"{date} tarihli referans oranları.","Reference result":"Referans sonucu","Reference-rate data is incomplete.":"Referans oranı verileri eksik.","Reject analytics":"Analitiği reddet","Result":"Sonuç","RSD — Serbian Dinar":"RSD — Sırp Dinarı","See how far an exchange offer is from the latest reference rate.":"Bir döviz teklifinin en son referans kurundan ne kadar uzakta olduğunu görün.","Skip to calculator":"Hesap makinesine atla","Source currency":"Kaynak para birimi","Switch color theme":"Renk temasını değiştir","Switch to dark theme":"Koyu temaya geç","Switch to light theme":"Açık temaya geç","Target currency":"Hedef para birimi","The Android app adds Actual Cost, offline rates, Travel Board, saved sets, charts, and a home-screen widget.":"Android uygulaması Gerçek Maliyet, çevrimdışı fiyatlar, Seyahat Panosu, kayıtlı setler, grafikler ve bir ana ekran widget'ı ekler.","The calculator first estimates how much the latest reference rate would produce. It then compares that amount with the amount you were offered.":"Hesaplayıcı öncelikle en son referans oranının ne kadar üreteceğini tahmin eder. Daha sonra bu tutarı size teklif edilen tutarla karşılaştırır.","The offer is {percentage} above the reference result.":"Teklif, referans sonucunun {percentage} üzerindedir.","The offer is {percentage} below the reference result.":"Teklif, referans sonucunun {percentage} altındadır.","This is an informational comparison, not financial advice. An offer may include service fees, card charges, cash handling, or a provider’s spread. Reference rates are not guaranteed transaction rates.":"Bu, finansal tavsiye değil, bilgilendirme amaçlı bir karşılaştırmadır. Teklif, hizmet ücretlerini, kart ücretlerini, nakit işlemlerini veya sağlayıcının spreadini içerebilir. Referans oranları garanti edilen işlem oranları değildir.","What the percentage means":"Yüzde ne anlama geliyor?","What you would receive in the target currency":"Hedef para biriminde ne alırsınız?","You receive less by":"Daha az alırsınız","You receive more by":"Daha fazlasını alırsınız","Your comparison":"Karşılaştırmanız"}</script>
+  <script id="tool-i18n" type="application/json">{"© 2026 Balkan Currency Converter":"© 2026 Balkan Currency Converter","A provider can advertise “no commission” while using a less favourable exchange rate. That shortfall is effectively a cost hidden in the rate.":"Bir sağlayıcı daha az avantajlı kur kullanırken “komisyonsuz” diye reklam yapabilir. Aradaki fark, kurun içine gizlenmiş bir maliyettir.","A reference rate is unavailable for this currency pair.":"Bu döviz çifti için referans kur mevcut değil.","Above reference by":"Yukarıda belirtilen referans","Accept analytics":"Analitiği kabul et","Amount":"Tutar","Amount you are offered":"Size teklif edilen miktar","Amount you give":"Verdiğiniz miktar","Amounts and rates must be positive numbers.":"Tutarlar ve kurlar pozitif sayılar olmalıdır.","Analytics choices":"Analitik seçenekleri","Back to Balkan Currency Converter":"Balkan Currency Converter'e geri dön","Balkan Currency Converter home":"Balkan Currency Converter ana sayfa","Calculate markup":"Kur farkını hesapla","Calculation updated from the latest available reference rates.":"Hesaplama mevcut en güncel referans kurlarla güncellendi.","Choose two different currencies.":"İki farklı para birimi seçin.","Compare an exchange offer with the latest reference rate and calculate the effective markup.":"Bir döviz teklifini en güncel referans kurla karşılaştırın ve gerçek kur farkını hesaplayın.","Compare an exchange offer with the latest reference rate.":"Bir döviz teklifini en son referans kuruyla karşılaştırın.","Compare an exchange offer with the latest reference rate. Calculate the amount you receive, the difference, and the effective exchange-rate markup.":"Bir döviz teklifini en güncel referans kurla karşılaştırın. Alacağınız tutarı, farkı ve gerçek kur farkını hesaplayın.","Compare costs in Balkan Converter":"Balkan Converter'deki maliyetleri karşılaştırın","Compare the amount an exchange service offers with the latest available reference rate. See the difference and the effective markup before you exchange.":"Döviz hizmetinin sunduğu tutarı en son referans kurla karşılaştırın. Döviz almadan önce farkı ve gerçek kur artışını görün.","Currency conversion for Android":"Android için para birimi dönüştürme","Currency Converter":"Döviz Çevirici","Date":"Tarih","Enter the offer you want to compare.":"Karşılaştırmak istediğiniz teklifi girin.","Enter two amounts greater than zero.":"Sıfırdan büyük iki miktar girin.","EUR — Euro":"EUR — Euro","Exchange offer result":"Döviz teklifi sonucu","Exchange Rate Markup Calculator":"Döviz Kuru Farkı Hesaplayıcısı","Exchange Rate Markup Calculator | Balkan Currency Converter":"Döviz Kuru Farkı Hesaplayıcısı | Balkan Currency Converter","Exchange-rate markup":"Kur farkı","Fetching the latest reference rates…":"En güncel referans kurlar alınıyor…","Footer navigation":"Alt bilgide gezinme","For example, 11,500":"Örneğin 11.500","Free currency tool":"Ücretsiz para birimi aracı","Get Balkan Currency Converter on Google Play":"Google Play'de Balkan Currency Converter'yi edinin","Get it on Google Play":"Google Play'den edinin","Help us understand site usage. Firebase Analytics stays off unless you accept.":"Site kullanımını anlamamıza yardımcı olun. Siz kabul etmedikçe Firebase Analytics kapalı kalır.","Home":"Ana Sayfa","Important to know":"Bilmek önemli","In the source currency":"Kaynak para biriminde","Learn more":"Daha fazla bilgi edinin","Loading latest rates…":"En son kurlar yükleniyor…","Main navigation":"Ana gezinme","Markup = (reference result − offered result) ÷ reference result × 100.":"Kur farkı = (referans sonuç − teklif edilen sonuç) ÷ referans sonuç × 100.","Markup calculator":"Kur farkı hesaplayıcısı","Markup Calculator":"Kur Farkı Hesaplayıcısı","Need this on the go?":"Hareket halindeyken buna mı ihtiyacınız var?","No reference rates were returned.":"Referans kur döndürülmedi.","Offered result":"Sunulan sonuç","Optional":"İsteğe bağlı","Optional analytics":"İsteğe bağlı analiz","Privacy":"Gizlilik","Privacy Policy":"Gizlilik Politikası","Rate":"Oran","Rates could not be loaded. Check your connection and try again.":"Kurlar yüklenemedi. Bağlantınızı kontrol edip tekrar deneyin.","Reference rate":"Referans kur","Reference rates dated {date}.":"{date} tarihli referans kurlar.","Reference result":"Referans sonucu","Reference-rate data is incomplete.":"Referans kur verileri eksik.","Reject analytics":"Analitiği reddet","Result":"Sonuç","RSD — Serbian Dinar":"RSD — Sırp Dinarı","See how far an exchange offer is from the latest reference rate.":"Bir döviz teklifinin en son referans kurundan ne kadar uzakta olduğunu görün.","Skip to calculator":"Hesap makinesine atla","Source currency":"Kaynak para birimi","Switch color theme":"Renk temasını değiştir","Switch to dark theme":"Koyu temaya geç","Switch to light theme":"Açık temaya geç","Target currency":"Hedef para birimi","The Android app adds Actual Cost, offline rates, Travel Board, saved sets, charts, and a home-screen widget.":"Android uygulamasında Gerçek Maliyet, çevrimdışı kurlar, Seyahat Panosu, kayıtlı setler, grafikler ve ana ekran widget'ı bulunur.","The calculator first estimates how much the latest reference rate would produce. It then compares that amount with the amount you were offered.":"Hesaplayıcı önce en güncel referans kurla elde edilecek tutarı tahmin eder. Ardından bu tutarı size teklif edilen tutarla karşılaştırır.","The offer is {percentage} above the reference result.":"Teklif, referans sonucunun {percentage} üzerindedir.","The offer is {percentage} below the reference result.":"Teklif, referans sonucunun {percentage} altındadır.","This is an informational comparison, not financial advice. An offer may include service fees, card charges, cash handling, or a provider’s spread. Reference rates are not guaranteed transaction rates.":"Bu yalnızca bilgi amaçlı bir karşılaştırmadır, finansal tavsiye değildir. Teklif; hizmet ücretleri, kart masrafları, nakit işlem ücreti veya sağlayıcının kur farkını içerebilir. Referans kurlar garanti edilen işlem kurları değildir.","What the percentage means":"Yüzde ne anlama geliyor?","What you would receive in the target currency":"Hedef para biriminde ne alırsınız?","You receive less by":"Daha az alırsınız","You receive more by":"Daha fazlasını alırsınız","Your comparison":"Karşılaştırmanız"}</script>
   <script type="module" src="../../exchange-rate-markup-calculator/calculator.js"></script>
 </body>
 </html>

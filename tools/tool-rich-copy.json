@@ -769,6 +769,44 @@
       "links": { "multi": "prevodníka viacerých mien", "currency": "prevodníku mien", "offline": "kurzy uložené na použitie offline" }
     }
   },
+  "tr": {
+    "currency-related-tools": {
+      "message": "Bir döviz çiftinin hareketini {history} ile izleyin, tek bir tutarı {multi} ile birkaç para biriminde karşılaştırın, bir döviz teklifini {markup} ile değerlendirin veya kart, nakit çekme ve DCC maliyetlerini {foreignFee} ile karşılaştırın.",
+      "links": { "history": "kur geçmişinde", "multi": "çoklu para birimi dönüştürücüsü", "markup": "kur farkı hesaplayıcısı", "foreignFee": "ücret ve DCC hesaplayıcısı" }
+    },
+    "markup-related-tools": {
+      "message": "Kartla ödeme veya nakit çekme işlemini kart para biriminize sunulan dönüşümle mi karşılaştırıyorsunuz? {foreignFee} kullanın. Hızlı bir döviz çifti dönüşümü için {currency} açın. Tek bir tutarı birkaç para biriminde {multi} ile karşılaştırın; {offline}, kayıtlı kurların nasıl çalıştığını açıklar.",
+      "links": { "foreignFee": "ücret ve DCC hesaplayıcısını", "currency": "para birimi dönüştürücüsünü", "multi": "çoklu para birimi dönüştürücüsünü", "offline": "çevrimdışı kullanım rehberi" }
+    },
+    "multi-related-tools": {
+      "message": "Tek bir döviz çifti için {currency} kullanın. Hareketi {history} içinde görün, bir döviz teklifini {markup} ile değerlendirin ve kayıtlı kurların internet olmadan nasıl kullanıldığını {offline} içinde okuyun.",
+      "links": { "currency": "para birimi dönüştürücüsünü", "history": "kur geçmişinde", "markup": "kur farkı hesaplayıcısıyla", "offline": "çevrimdışı kullanım rehberinde" }
+    },
+    "offline-related-tools": {
+      "message": "Kayıtlı bir döviz çiftine hızlı erişim için {widget} bakın. Çevrimiçi dönüşüm için {currency} kullanın, tek bir tutarı birkaç para biriminde {multi} ile karşılaştırın veya bir döviz teklifini {markup} ile değerlendirin.",
+      "links": { "widget": "Android widget rehberine", "currency": "para birimi dönüştürücüsünü", "multi": "çoklu para birimi dönüştürücüsüyle", "markup": "kur farkı hesaplayıcısıyla" }
+    },
+    "history-related-tools": {
+      "message": "En son mevcut kurla dönüşüm için {currency} kullanın. Bir döviz teklifini referans kur sonucuyla karşılaştırmak için {markup} açın.",
+      "links": { "currency": "para birimi dönüştürücüsünü", "markup": "kur farkı hesaplayıcısını" }
+    },
+    "widget-offline-guide": {
+      "message": "İnternet yokken son kayıtlı referans kur tahminler için kullanılabilir; tarih ise verilerin yaşını gösterir. Ayrıntılar için {offline} okuyun.",
+      "links": { "offline": "çevrimdışı kullanım rehberini" }
+    },
+    "widget-more-tools": {
+      "message": "Tutar girmek, para birimlerini dönüştürmek, {history} görüntülemek, birkaç para birimini karşılaştırmak veya kurları çevrimdışı kullanım için kaydetmek üzere uygulamayı açın.",
+      "links": { "history": "kur geçmişini" }
+    },
+    "foreign-related-tools": {
+      "message": "Yalnızca bir döviz teklifini referans kur sonucuyla karşılaştırmak istiyorsanız {markup} kullanın. İki para birimi arasında normal dönüşüm için {currency} açın.",
+      "links": { "markup": "kur farkı hesaplayıcısını", "currency": "para birimi dönüştürücüsünü" }
+    },
+    "travel-related-tools": {
+      "message": "Tek bir tutarı birkaç para biriminde {multi} ile karşılaştırın, {currency} ile hızlı bir dönüşüm yapın veya Android uygulamasının {offline} nasıl kullandığını öğrenin.",
+      "links": { "multi": "çoklu para birimi dönüştürücüsüyle", "currency": "para birimi dönüştürücüsüyle", "offline": "kayıtlı çevrimdışı kurları" }
+    }
+  },
   "el": {
     "currency-related-tools": {
       "message": "Παρακολουθήστε την πορεία ενός ζεύγους νομισμάτων στο {history}, συγκρίνετε ένα ποσό σε πολλά νομίσματα με τον {multi}, αξιολογήστε μια προσφορά συναλλάγματος με τον {markup} ή συγκρίνετε το κόστος κάρτας, ανάληψης και DCC με τον {foreignFee}.",
