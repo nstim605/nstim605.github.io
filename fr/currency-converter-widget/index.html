@@ -6,7 +6,7 @@
   <meta name="theme-color" content="#f7f8fa" media="(prefers-color-scheme: light)">
   <meta name="theme-color" content="#070a0f" media="(prefers-color-scheme: dark)">
   <title>Widget de conversion de devises pour Android | Balkan Converter</title>
-  <meta name="description" content="Ajoutez un widget de conversion de devises à votre écran d'accueil Android pour un accès rapide à un taux de change mis en cache, une date de taux, une action d'échange et un raccourci d'application.">
+  <meta name="description" content="Ajoutez un widget de conversion à l'écran d'accueil Android pour consulter rapidement un taux enregistré et sa date, inverser la paire et ouvrir l'application.">
   <link rel="canonical" href="https://balkanconverter.com/fr/currency-converter-widget/">
   <link rel="alternate" hreflang="en" href="https://balkanconverter.com/currency-converter-widget/">
   <link rel="alternate" hreflang="sr" href="https://balkanconverter.com/sr/currency-converter-widget/">
@@ -76,7 +76,7 @@
   <header class="site-header">
     <div class="shell nav-wrap">
       <a class="brand" href="/fr/" aria-label="Accueil Balkan Currency Converter"><img src="../../assets/icons/v1-5-11/app-icon-v1-5-11.png" width="42" height="42" alt=""><span dir="ltr">Balkan Currency Converter</span></a>
-      <nav class="nav-links" aria-label="Navigation principale"><a href="/fr/">Accueil</a><a href="/fr/currency-converter/">Convertisseur de devises</a><a href="/fr/exchange-rate-history/">Historique des tarifs</a></nav>
+      <nav class="nav-links" aria-label="Navigation principale"><a href="/fr/">Accueil</a><a href="/fr/currency-converter/">Convertisseur de devises</a><a href="/fr/exchange-rate-history/">Historique des taux</a></nav>
       <div class="nav-actions">
         <details class="language-selector">
           <summary aria-label="Français"><span aria-hidden="true">🌐</span><span>Français</span></summary>
@@ -141,16 +141,16 @@
         <a class="primary-button" href="#add-widget">Comment ajouter le widget <span aria-hidden="true">↓</span></a>
       </div>
       <figure class="widget-guide-visual">
-        <img src="/assets/guides/widget-home-screen.png" width="1080" height="1920" alt="Widget de devise de production Balkan Converter affichant un taux EUR/RSD mis en cache sur un écran d'accueil Android">
-        <figcaption>Le widget de production Balkan Converter sur un écran d'accueil Android normal.</figcaption>
+        <img src="/assets/guides/widget-home-screen.png" width="1080" height="1920" alt="Widget Balkan Converter affichant un taux EUR/RSD enregistré sur un écran d'accueil Android">
+        <figcaption>Le widget Balkan Converter sur un écran d'accueil Android ordinaire.</figcaption>
       </figure>
     </section>
 
     <section class="section shell widget-details" id="add-widget" aria-labelledby="widget-steps-title">
-      <div class="section-heading"><div><p class="eyebrow">Quatre étapes rapides</p><h2 id="widget-steps-title">Ajouter le widget devise</h2></div><p>Les étiquettes du lanceur varient légèrement selon l'appareil Android, mais le flux standard de l'écran d'accueil est le même.</p></div>
+      <div class="section-heading"><div><p class="eyebrow">Quatre étapes rapides</p><h2 id="widget-steps-title">Ajouter le widget de conversion</h2></div><p>Les libellés du lanceur peuvent varier légèrement selon l'appareil Android, mais la procédure reste la même.</p></div>
       <div class="feature-grid">
         <article class="feature-card"><span class="feature-mark" aria-hidden="true">1</span><h3>Préparez une paire</h3><p>Ouvrez Balkan Converter, sélectionnez les devises souhaitées et laissez les derniers taux de référence se charger avec succès.</p></article>
-        <article class="feature-card"><span class="feature-mark" aria-hidden="true">2</span><h3>Ouvrir les widgets</h3><p>Appuyez longuement sur une partie vide de l'écran d'accueil du Android, puis choisissez <strong>Widgets</strong>.</p></article>
+        <article class="feature-card"><span class="feature-mark" aria-hidden="true">2</span><h3>Ouvrir les widgets</h3><p>Appuyez longuement sur une zone vide de l'écran d'accueil Android, puis choisissez <strong>Widgets</strong>.</p></article>
         <article class="feature-card"><span class="feature-mark" aria-hidden="true">3</span><h3>Placez-le</h3><p>Recherchez Balkan Converter et faites glisser le widget de devise vers une zone libre de votre écran d'accueil.</p></article>
         <article class="feature-card feature-card-accent"><span class="feature-mark" aria-hidden="true">4</span><h3>Redimensionner et utiliser</h3><p>Redimensionnez-le pour l'adapter. Appuyez sur la carte pour ouvrir cette paire dans l'application ; le widget plus large affiche également un bouton d'échange.</p></article>
       </div>
@@ -159,31 +159,31 @@
     <section class="calculator-explanation shell" aria-labelledby="widget-shows-title">
       <article>
         <h2 id="widget-shows-title">Ce que montre le widget</h2>
-        <p>La fiche affiche un tarif de référence pour le couple sélectionné ainsi qu'une étiquette fraîcheur et la date du tarif. Chaque widget commence par la paire la plus récemment utilisée dans l'application, puis mémorise sa propre paire.</p>
+        <p>La carte affiche le taux de référence de la paire sélectionnée, son état d'actualisation et sa date. Chaque widget reprend d'abord la dernière paire utilisée dans l'application, puis mémorise sa propre paire.</p>
         <p>En appuyant sur le widget, vous ouvrez Balkan Converter avec ces devises prêtes. Sur un widget de largeur moyenne, le contrôle d'échange inverse la paire directement sur l'écran d'accueil.</p>
       </article>
       <aside>
         <h2>Pourquoi la date est importante</h2>
-        <p>Le widget utilise le dernier ensemble de données de taux mis en cache avec succès par l'application ; ce n'est pas un flux de marché en direct indépendant. Lorsque Balkan Converter actualise avec succès ses tarifs, les widgets installés reçoivent les données mises en cache mises à jour.</p>
-        <p data-i18n-rich="widget-offline-guide">If the device is offline, the previous reference rate remains useful for estimates, but its displayed date tells you how old it is. Learn more in the <a class="text-link" data-i18n-slot="offline" href="/fr/offline-currency-converter/">offline currency converter guide</a>.</p>
+        <p>Le widget utilise les derniers taux correctement enregistrés par l'application ; il ne constitue pas une source indépendante de données de marché en direct. Lorsque Balkan Converter actualise ses taux, les widgets installés reçoivent les nouvelles données mises en cache.</p>
+        <p data-i18n-rich="widget-offline-guide">Sans connexion, le dernier taux de référence enregistré reste disponible pour vos estimations ; sa date indique l'ancienneté des données. Pour en savoir plus, consultez le <a class="text-link" data-i18n-slot="offline" href="/fr/offline-currency-converter/">guide de conversion hors ligne</a>.</p>
       </aside>
     </section>
 
     <section class="calculator-explanation shell" aria-labelledby="widget-tips-title">
       <article>
         <h2 id="widget-tips-title">Disposition petite ou large ?</h2>
-        <p>La disposition compacte permet de conserver le tarif et la date visibles dans moins d'espace. Agrandissez le widget lorsque vous souhaitez que l'action d'échange dédiée soit associée au taux.</p>
+        <p>La disposition compacte affiche le taux et sa date dans un espace réduit. Élargissez le widget pour faire apparaître la commande d'inversion à côté du taux.</p>
         <p>Les lanceurs Android contrôlent la taille exacte de la grille, de sorte que les étapes de redimensionnement disponibles peuvent différer entre les téléphones et les tablettes.</p>
       </article>
       <aside>
         <h2>Pour plus d'une paire rapide</h2>
-        <p data-i18n-rich="widget-more-tools">Open the full app to enter an amount, calculate, view a <a class="text-link" data-i18n-slot="history" href="/fr/exchange-rate-history/">historical chart</a>, compare several destinations, or prepare saved rates for offline use.</p>
+        <p data-i18n-rich="widget-more-tools">Ouvrez l'application pour saisir un montant, effectuer une conversion, consulter l'<a class="text-link" data-i18n-slot="history" href="/fr/exchange-rate-history/">historique des taux</a>, comparer plusieurs devises ou préparer des taux enregistrés pour une utilisation hors ligne.</p>
         <p>Le widget est conçu comme un aperçu rapide et un raccourci, tandis que Balkan Converter fournit le flux de travail de conversion complet.</p>
       </aside>
     </section>
 
     <section class="cta-section shell calculator-cta" aria-labelledby="widget-cta-title">
-      <div><p class="eyebrow eyebrow-inverse">La conversion en un coup d'oeil</p><h2 id="widget-cta-title">Ajoutez Balkan Converter à votre écran d'accueil</h2><p>Installez l'application Android, chargez votre paire préférée, puis placez le widget de devise de production là où il est le plus facile d'accès.</p></div>
+      <div><p class="eyebrow eyebrow-inverse">La conversion en un coup d'oeil</p><h2 id="widget-cta-title">Ajoutez Balkan Converter à votre écran d'accueil</h2><p>Installez l'application Android, chargez la paire de votre choix, puis placez le widget de conversion à un endroit facilement accessible.</p></div>
       <a class="play-link play-link-on-dark" href="https://play.google.com/store/apps/details?id=io.github.nstim605.balkanconverter" aria-label="Obtenez Balkan Currency Converter sur Google Play"><img src="/assets/google-play-badge-en.png" width="202" height="60" alt="Obtenez-le sur Google Play"></a>
     </section>
   </main>

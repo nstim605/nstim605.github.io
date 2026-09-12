@@ -71,6 +71,78 @@
       }
     }
   },
+  "fr": {
+    "currency-related-tools": {
+      "message": "Suivez l'évolution d'une paire de devises dans l'{history}, comparez un montant dans plusieurs devises avec le {multi}, évaluez une offre de change avec le {markup}, ou comparez les frais de carte, de retrait et de DCC avec le {foreignFee}.",
+      "links": {
+        "history": "historique des taux",
+        "multi": "convertisseur multidevise",
+        "markup": "calculateur d'écart de change",
+        "foreignFee": "calculateur de frais et de DCC"
+      }
+    },
+    "markup-related-tools": {
+      "message": "Vous comparez un paiement par carte ou un retrait avec une conversion proposée dans la devise de votre carte ? Utilisez le {foreignFee}. Pour convertir rapidement une paire de devises, ouvrez le {currency}. Pour comparer un montant dans plusieurs devises, utilisez le {multi} ; le {offline} explique le fonctionnement des cours enregistrés.",
+      "links": {
+        "foreignFee": "calculateur de frais et de DCC",
+        "currency": "convertisseur de devises",
+        "multi": "convertisseur multidevise",
+        "offline": "guide de conversion hors ligne"
+      }
+    },
+    "multi-related-tools": {
+      "message": "Pour une seule paire de devises, utilisez le {currency}. Consultez son évolution dans l'{history}, évaluez une offre de change avec le {markup}, ou découvrez le fonctionnement sans connexion dans le {offline}.",
+      "links": {
+        "currency": "convertisseur de devises",
+        "history": "historique des taux",
+        "markup": "calculateur d'écart de change",
+        "offline": "guide de conversion hors ligne"
+      }
+    },
+    "offline-related-tools": {
+      "message": "Pour consulter rapidement une paire de devises enregistrée, utilisez le {widget}. Pour une conversion en ligne, ouvrez le {currency}, comparez un montant dans plusieurs devises avec le {multi}, ou évaluez une offre de change avec le {markup}.",
+      "links": {
+        "widget": "guide du widget Android",
+        "currency": "convertisseur de devises",
+        "multi": "convertisseur multidevise",
+        "markup": "calculateur d'écart de change"
+      }
+    },
+    "history-related-tools": {
+      "message": "Pour convertir au dernier taux disponible, utilisez le {currency}. Pour comparer une offre de change au résultat obtenu avec le taux de référence, ouvrez le {markup}.",
+      "links": {
+        "currency": "convertisseur de devises",
+        "markup": "calculateur d'écart de change"
+      }
+    },
+    "widget-offline-guide": {
+      "message": "Sans connexion, le dernier taux de référence enregistré reste disponible pour vos estimations ; sa date indique l'ancienneté des données. Pour en savoir plus, consultez le {offline}.",
+      "links": {
+        "offline": "guide de conversion hors ligne"
+      }
+    },
+    "widget-more-tools": {
+      "message": "Ouvrez l'application pour saisir un montant, effectuer une conversion, consulter l'{history}, comparer plusieurs devises ou préparer des taux enregistrés pour une utilisation hors ligne.",
+      "links": {
+        "history": "historique des taux"
+      }
+    },
+    "foreign-related-tools": {
+      "message": "Si vous souhaitez seulement comparer une offre de change au résultat obtenu avec le taux de référence, utilisez le {markup}. Pour une conversion classique entre deux devises, ouvrez le {currency}.",
+      "links": {
+        "markup": "calculateur d'écart de change",
+        "currency": "convertisseur de devises"
+      }
+    },
+    "travel-related-tools": {
+      "message": "Comparez un montant dans plusieurs devises avec le {multi}, effectuez une conversion rapide avec le {currency}, ou découvrez comment l'application Android utilise les {offline}.",
+      "links": {
+        "multi": "convertisseur multidevise",
+        "currency": "convertisseur de devises",
+        "offline": "taux enregistrés hors ligne"
+      }
+    }
+  },
   "de": {
     "currency-related-tools": {
       "message": "Verfolgen Sie die Entwicklung eines Währungspaars im {history}; vergleichen Sie einen Betrag in mehreren Währungen mit dem {multi}; prüfen Sie ein Umtauschangebot mit dem {markup}; oder vergleichen Sie Kartenzahlung, Bargeldabhebung und DCC im {foreignFee}.",

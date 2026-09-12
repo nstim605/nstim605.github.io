@@ -6,6 +6,7 @@
     { "locale": "hr", "route": "hr", "language": "Croatian", "dir": "ltr", "widths": [320, 390, 1440] },
     { "locale": "bs", "route": "bs", "language": "Bosnian", "dir": "ltr", "widths": [320, 390, 1440] },
     { "locale": "uk", "route": "uk", "language": "Ukrainian", "dir": "ltr", "widths": [320, 390, 1440] },
-    { "locale": "de", "route": "de", "language": "German", "dir": "ltr", "widths": [320, 390, 768, 1440] }
+    { "locale": "de", "route": "de", "language": "German", "dir": "ltr", "widths": [320, 390, 768, 1440] },
+    { "locale": "fr", "route": "fr", "language": "French", "dir": "ltr", "widths": [320, 390, 768, 1440] }
   ]
 }
