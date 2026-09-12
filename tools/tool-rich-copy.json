@@ -253,6 +253,44 @@
       "links": { "multi": "conversor multidivisa", "currency": "conversor de divisas", "offline": "tipos guardados sin conexión" }
     }
   },
+  "es-419": {
+    "currency-related-tools": {
+      "message": "Consulta cómo cambia un par de divisas en el {history}, compara un monto en varias divisas con el {multi}, evalúa una oferta de cambio con la {markup} o compara los costos de tarjeta, retiro y DCC con la {foreignFee}.",
+      "links": { "history": "historial de tasas", "multi": "convertidor multidivisa", "markup": "calculadora de diferencia cambiaria", "foreignFee": "calculadora de comisiones y DCC" }
+    },
+    "markup-related-tools": {
+      "message": "¿Quieres comparar un pago con tarjeta o un retiro de efectivo con la conversión propuesta en la moneda de tu tarjeta? Usa la {foreignFee}. Para convertir rápidamente un par de divisas, abre el {currency}. Para comparar un monto en varias divisas, usa el {multi}; la {offline} explica cómo funcionan las tasas guardadas.",
+      "links": { "foreignFee": "calculadora de comisiones y DCC", "currency": "convertidor de divisas", "multi": "convertidor multidivisa", "offline": "guía de conversión sin conexión" }
+    },
+    "multi-related-tools": {
+      "message": "Para un solo par de divisas, usa el {currency}. Consulta cómo cambia en el {history}, evalúa una oferta con la {markup} o descubre cómo funciona la conversión sin Internet en la {offline}.",
+      "links": { "currency": "convertidor de divisas", "history": "historial de tasas", "markup": "calculadora de diferencia cambiaria", "offline": "guía de conversión sin conexión" }
+    },
+    "offline-related-tools": {
+      "message": "Para consultar rápidamente un par de divisas guardado, usa la {widget}. Para convertir con conexión, abre el {currency}, compara un monto en varias divisas con el {multi} o evalúa una oferta con la {markup}.",
+      "links": { "widget": "guía del widget para Android", "currency": "convertidor de divisas", "multi": "convertidor multidivisa", "markup": "calculadora de diferencia cambiaria" }
+    },
+    "history-related-tools": {
+      "message": "Para convertir con la última tasa disponible, usa el {currency}. Para comparar una oferta de cambio con el resultado de referencia, abre la {markup}.",
+      "links": { "currency": "convertidor de divisas", "markup": "calculadora de diferencia cambiaria" }
+    },
+    "widget-offline-guide": {
+      "message": "Sin Internet, la última tasa de referencia guardada sigue disponible para hacer estimaciones; la fecha indica la antigüedad de los datos. Consulta la {offline} para obtener más información.",
+      "links": { "offline": "guía de conversión sin conexión" }
+    },
+    "widget-more-tools": {
+      "message": "Abre la aplicación para ingresar un monto, convertir divisas, consultar el {history}, comparar varias divisas o preparar tasas guardadas para usarlas sin conexión.",
+      "links": { "history": "historial de tasas" }
+    },
+    "foreign-related-tools": {
+      "message": "Si solo quieres comparar una oferta de cambio con el resultado de referencia, usa la {markup}. Para una conversión normal entre dos divisas, abre el {currency}.",
+      "links": { "markup": "calculadora de diferencia cambiaria", "currency": "convertidor de divisas" }
+    },
+    "travel-related-tools": {
+      "message": "Compara un monto en varias divisas con el {multi}, haz una conversión rápida con el {currency} o descubre cómo usa la aplicación Android las {offline}.",
+      "links": { "multi": "convertidor multidivisa", "currency": "convertidor de divisas", "offline": "tasas guardadas sin conexión" }
+    }
+  },
   "de": {
     "currency-related-tools": {
       "message": "Verfolgen Sie die Entwicklung eines Währungspaars im {history}; vergleichen Sie einen Betrag in mehreren Währungen mit dem {multi}; prüfen Sie ein Umtauschangebot mit dem {markup}; oder vergleichen Sie Kartenzahlung, Bargeldabhebung und DCC im {foreignFee}.",
