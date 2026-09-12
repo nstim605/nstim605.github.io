@@ -769,6 +769,44 @@
       "links": { "multi": "prevodníka viacerých mien", "currency": "prevodníku mien", "offline": "kurzy uložené na použitie offline" }
     }
   },
+  "sq": {
+    "currency-related-tools": {
+      "message": "Ndiqni lëvizjen e një çifti valutor te {history}, krahasoni një shumë në disa monedha me {multi}, vlerësoni një ofertë këmbimi me {markup} ose krahasoni kostot e pagesës me kartë, tërheqjes së parave dhe DCC me {foreignFee}.",
+      "links": { "history": "historiku i kurseve", "multi": "konvertuesi me shumë monedha", "markup": "kalkulatori i diferencës së kursit", "foreignFee": "kalkulatori i tarifave dhe DCC" }
+    },
+    "markup-related-tools": {
+      "message": "Po krahasoni një pagesë me kartë ose tërheqje parash me konvertimin e ofruar në monedhën e kartës? Përdorni {foreignFee}. Për një konvertim të shpejtë të çiftit valutor, hapni {currency}. Për të krahasuar një shumë në disa monedha, përdorni {multi}; {offline} shpjegon si funksionojnë kurset e ruajtura.",
+      "links": { "foreignFee": "kalkulatorin e tarifave dhe DCC", "currency": "konvertuesin e monedhave", "multi": "konvertuesin me shumë monedha", "offline": "udhëzuesi për përdorim pa internet" }
+    },
+    "multi-related-tools": {
+      "message": "Për një çift valutor përdorni {currency}. Shikoni lëvizjen e tij te {history}, vlerësoni një ofertë këmbimi me {markup}, ndërsa {offline} shpjegon përdorimin pa internet.",
+      "links": { "currency": "konvertuesin e monedhave", "history": "historiku i kurseve", "markup": "kalkulatorin e diferencës së kursit", "offline": "udhëzuesi për përdorim pa internet" }
+    },
+    "offline-related-tools": {
+      "message": "Për qasje të shpejtë te një çift valutor i ruajtur, shikoni {widget}. Për konvertim online, hapni {currency}, krahasoni një shumë në disa monedha me {multi} ose vlerësoni një ofertë këmbimi me {markup}.",
+      "links": { "widget": "udhëzuesin e miniaplikacionit për Android", "currency": "konvertuesin e monedhave", "multi": "konvertuesin me shumë monedha", "markup": "kalkulatorin e diferencës së kursit" }
+    },
+    "history-related-tools": {
+      "message": "Për konvertim me kursin më të fundit të disponueshëm, përdorni {currency}. Për të krahasuar një ofertë këmbimi me rezultatin sipas kursit të referencës, hapni {markup}.",
+      "links": { "currency": "konvertuesin e monedhave", "markup": "kalkulatorin e diferencës së kursit" }
+    },
+    "widget-offline-guide": {
+      "message": "Pa internet, kursi i fundit i ruajtur i referencës mbetet i dobishëm për vlerësime, ndërsa data tregon vjetërsinë e të dhënave. Lexoni më shumë te {offline}.",
+      "links": { "offline": "udhëzuesi për përdorim pa internet" }
+    },
+    "widget-more-tools": {
+      "message": "Hapni aplikacionin për të futur një shumë, për të konvertuar monedha, për të parë {history}, për të krahasuar disa monedha ose për të ruajtur kurse për përdorim pa internet.",
+      "links": { "history": "historikun e kurseve" }
+    },
+    "foreign-related-tools": {
+      "message": "Nëse dëshironi vetëm të krahasoni një ofertë këmbimi me rezultatin sipas kursit të referencës, përdorni {markup}. Për konvertim të zakonshëm mes dy monedhave, hapni {currency}.",
+      "links": { "markup": "kalkulatorin e diferencës së kursit", "currency": "konvertuesin e monedhave" }
+    },
+    "travel-related-tools": {
+      "message": "Krahasoni një shumë në disa monedha me {multi}, bëni një konvertim të shpejtë me {currency} ose mësoni si aplikacioni për Android përdor {offline}.",
+      "links": { "multi": "konvertuesin me shumë monedha", "currency": "konvertuesin e monedhave", "offline": "kurset e ruajtura për përdorim pa internet" }
+    }
+  },
   "mk": {
     "currency-related-tools": {
       "message": "Следете го движењето на валутен пар во {history}, споредете една сума во повеќе валути со {multi}, оценете понуда за размена со {markup} или споредете ги трошоците за плаќање со картичка, подигање готовина и DCC со {foreignFee}.",
