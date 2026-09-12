@@ -791,6 +791,17 @@
     "foreign-related-tools": { "message": "Nếu bạn chỉ muốn so sánh báo giá đổi tiền với kết quả theo tỷ giá tham chiếu, hãy dùng {markup}. Để quy đổi thông thường giữa hai loại tiền, hãy mở {currency}.", "links": { "markup": "công cụ tính chênh lệch tỷ giá", "currency": "công cụ chuyển đổi tiền tệ" } },
     "travel-related-tools": { "message": "So sánh một số tiền với nhiều loại tiền bằng {multi}, quy đổi nhanh bằng {currency}, hoặc tìm hiểu cách ứng dụng Android sử dụng {offline}.", "links": { "multi": "công cụ chuyển đổi nhiều loại tiền", "currency": "công cụ chuyển đổi tiền tệ", "offline": "tỷ giá ngoại tuyến đã lưu" } }
   },
+  "zh-Hans": {
+    "currency-related-tools": { "message": "可通过{history}查看货币对的变化，用{multi}将同一金额换算为多种货币，用{markup}检查兑换报价，或用{foreignFee}比较银行卡、取现和 DCC 成本。", "links": { "history": "汇率历史", "multi": "多币种换算器", "markup": "汇率差额计算器", "foreignFee": "手续费与 DCC 计算器" } },
+    "markup-related-tools": { "message": "要比较银行卡或 ATM 交易与商家提供的卡片币种换算，可使用{foreignFee}。如需快速换算一个货币对，请打开{currency}。通过{multi}可将同一金额换算为多种货币；{offline}则说明已保存汇率的工作方式。", "links": { "foreignFee": "手续费与 DCC 计算器", "currency": "货币换算器", "multi": "多币种换算器", "offline": "离线使用指南" } },
+    "multi-related-tools": { "message": "如只需换算一个货币对，请使用{currency}。在{history}中查看变化，用{markup}检查兑换报价，并在{offline}中了解如何在无网络时使用已保存的汇率。", "links": { "currency": "货币换算器", "history": "汇率历史", "markup": "汇率差额计算器", "offline": "离线使用指南" } },
+    "offline-related-tools": { "message": "如需快速访问已保存的货币对，请参阅{widget}。使用{currency}在线换算，通过{multi}将同一金额换算为多种货币，或用{markup}检查兑换报价。", "links": { "widget": "Android 小组件指南", "currency": "货币换算器", "multi": "多币种换算器", "markup": "汇率差额计算器" } },
+    "history-related-tools": { "message": "如需按最新可用汇率换算，请使用{currency}。如需将兑换报价与参考汇率结果比较，请打开{markup}。", "links": { "currency": "货币换算器", "markup": "汇率差额计算器" } },
+    "widget-offline-guide": { "message": "无网络连接时，上次保存的参考汇率仍可用于估算，显示的日期会说明数据的新旧程度。详情请参阅{offline}。", "links": { "offline": "离线使用指南" } },
+    "widget-more-tools": { "message": "打开应用即可输入金额、换算货币、查看{history}、比较多种货币，或保存汇率供离线使用。", "links": { "history": "汇率历史" } },
+    "foreign-related-tools": { "message": "如果只想比较兑换报价与参考汇率结果，请使用{markup}。如需在两种货币之间进行普通换算，请打开{currency}。", "links": { "markup": "汇率差额计算器", "currency": "货币换算器" } },
+    "travel-related-tools": { "message": "通过{multi}将同一金额换算为多种货币，使用{currency}快速换算，或了解 Android 应用如何使用{offline}。", "links": { "multi": "多币种换算器", "currency": "货币换算器", "offline": "已保存的离线汇率" } }
+  },
   "id": {
     "currency-related-tools": {
       "message": "Ikuti perubahan pasangan mata uang melalui {history}, bandingkan satu jumlah dalam beberapa mata uang dengan {multi}, periksa penawaran penukaran memakai {markup}, atau bandingkan biaya kartu, tarik tunai, dan DCC dengan {foreignFee}.",

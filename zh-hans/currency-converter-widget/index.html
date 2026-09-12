@@ -76,7 +76,7 @@
   <header class="site-header">
     <div class="shell nav-wrap">
       <a class="brand" href="/zh-hans/" aria-label="Balkan Currency Converter 家"><img src="../../assets/icons/v1-5-11/app-icon-v1-5-11.png" width="42" height="42" alt=""><span dir="ltr">Balkan Currency Converter</span></a>
-      <nav class="nav-links" aria-label="主导航"><a href="/zh-hans/">首页</a><a href="/zh-hans/currency-converter/">货币转换器</a><a href="/zh-hans/exchange-rate-history/">评分历史记录</a></nav>
+      <nav class="nav-links" aria-label="主导航"><a href="/zh-hans/">首页</a><a href="/zh-hans/currency-converter/">货币转换器</a><a href="/zh-hans/exchange-rate-history/">汇率历史</a></nav>
       <div class="nav-actions">
         <details class="language-selector">
           <summary aria-label="简体中文"><span aria-hidden="true">🌐</span><span>简体中文</span></summary>
@@ -141,8 +141,8 @@
         <a class="primary-button" href="#add-widget">如何添加小部件 <span aria-hidden="true">↓</span></a>
       </div>
       <figure class="widget-guide-visual">
-        <img src="/assets/guides/widget-home-screen.png" width="1080" height="1920" alt="Balkan Converter 生产货币小部件在 Android 主屏幕上显示缓存的欧元兑 RSD 汇率">
-        <figcaption>普通 Android 主屏幕上的生产 Balkan Converter 小部件。</figcaption>
+        <img src="/assets/guides/widget-home-screen.png" width="1080" height="1920" alt="Balkan Converter 正式版小组件在 Android 主屏幕上显示已缓存的 EUR/RSD 汇率">
+        <figcaption>普通 Android 主屏幕上的 Balkan Converter 正式版小组件。</figcaption>
       </figure>
     </section>
 
@@ -151,7 +151,7 @@
       <div class="feature-grid">
         <article class="feature-card"><span class="feature-mark" aria-hidden="true">1</span><h3>准备一对</h3><p>打开Balkan Converter，选择您想要的货币，然后让最新的参考汇率加载成功。</p></article>
         <article class="feature-card"><span class="feature-mark" aria-hidden="true">2</span><h3>打开小部件</h3><p>触摸并按住 Android 主屏幕的空白部分，然后选择 <strong>小部件</strong>.</p></article>
-        <article class="feature-card"><span class="feature-mark" aria-hidden="true">3</span><h3>放置它</h3><p>找到 Balkan Converter 并将货币小部件拖动到主屏幕的空闲区域。</p></article>
+        <article class="feature-card"><span class="feature-mark" aria-hidden="true">3</span><h3>放置小组件</h3><p>找到 Balkan Converter 并将货币小部件拖动到主屏幕的空闲区域。</p></article>
         <article class="feature-card feature-card-accent"><span class="feature-mark" aria-hidden="true">4</span><h3>调整大小并使用</h3><p>调整其大小以适合。点击该卡可在应用程序中打开该对；更宽的小部件还显示一个交换按钮。</p></article>
       </div>
     </section>
@@ -159,13 +159,13 @@
     <section class="calculator-explanation shell" aria-labelledby="widget-shows-title">
       <article>
         <h2 id="widget-shows-title">小部件显示的内容</h2>
-        <p>该卡显示所选货币对的参考费率以及新鲜度标签和费率日期。每个小部件都以应用程序中最近使用的对开始，然后记住自己的对。</p>
+        <p>卡片显示所选货币对的参考汇率、数据状态和汇率日期。每个小组件最初使用应用最近使用的货币对，之后会记住自己的货币对。</p>
         <p>点击小部件会打开 Balkan Converter，并准备好这些货币。在中等宽度的小部件上，交换控件直接在主屏幕上反转该对。</p>
       </article>
       <aside>
         <h2>为什么日期很重要</h2>
-        <p>该小部件使用应用程序最新的成功缓存的速率数据集；它不是独立的实时市场饲料。当 Balkan Converter 成功刷新其费率时，安装的小部件会收到更新的缓存数据。</p>
-        <p data-i18n-rich="widget-offline-guide">If the device is offline, the previous reference rate remains useful for estimates, but its displayed date tells you how old it is. Learn more in the <a class="text-link" data-i18n-slot="offline" href="/zh-hans/offline-currency-converter/">offline currency converter guide</a>.</p>
+        <p>小组件使用应用最近成功缓存的汇率数据；它不是独立的实时市场行情源。Balkan Converter 成功刷新汇率后，已安装的小组件会收到更新后的缓存数据。</p>
+        <p data-i18n-rich="widget-offline-guide">无网络连接时，上次保存的参考汇率仍可用于估算，显示的日期会说明数据的新旧程度。详情请参阅<a class="text-link" data-i18n-slot="offline" href="/zh-hans/offline-currency-converter/">离线使用指南</a>。</p>
       </aside>
     </section>
 
@@ -177,13 +177,13 @@
       </article>
       <aside>
         <h2>对于不止一对快速配对</h2>
-        <p data-i18n-rich="widget-more-tools">Open the full app to enter an amount, calculate, view a <a class="text-link" data-i18n-slot="history" href="/zh-hans/exchange-rate-history/">historical chart</a>, compare several destinations, or prepare saved rates for offline use.</p>
+        <p data-i18n-rich="widget-more-tools">打开应用即可输入金额、换算货币、查看<a class="text-link" data-i18n-slot="history" href="/zh-hans/exchange-rate-history/">汇率历史</a>、比较多种货币，或保存汇率供离线使用。</p>
         <p>该小部件设计为快速浏览和快捷方式，而 Balkan Converter 则提供完整的转换工作流程。</p>
       </aside>
     </section>
 
     <section class="cta-section shell calculator-cta" aria-labelledby="widget-cta-title">
-      <div><p class="eyebrow eyebrow-inverse">转换一目了然</p><h2 id="widget-cta-title">将 Balkan Converter 添加到您的主屏幕</h2><p>安装 Android 应用程序，加载您喜欢的货币对，然后将生产货币小部件放置在最容易到达的地方。</p></div>
+      <div><p class="eyebrow eyebrow-inverse">汇率一览</p><h2 id="widget-cta-title">将 Balkan Converter 添加到您的主屏幕</h2><p>安装 Android 应用，加载所需货币对，然后将正式版小组件放在主屏幕上方便使用的位置。</p></div>
       <a class="play-link play-link-on-dark" href="https://play.google.com/store/apps/details?id=io.github.nstim605.balkanconverter" aria-label="在 Google Play 上获取 Balkan Currency Converter"><img src="/assets/google-play-badge-en.png" width="202" height="60" alt="请通过 Google Play 获取"></a>
     </section>
   </main>

@@ -140,23 +140,23 @@
     </section>
 
     <section class="section shell" aria-labelledby="offline-flow-title">
-      <div class="section-heading"><div><p class="eyebrow">简单版本</p><h2 id="offline-flow-title">从线上刷新到线下转化</h2></div><p>节省利率并不意味着它永远有效。它创建一个过时的本地副本，可以在网络不可用时重复使用。</p></div>
+      <div class="section-heading"><div><p class="eyebrow">简单版本</p><h2 id="offline-flow-title">从在线刷新到离线换算</h2></div><p>保存汇率并不会让数据一直实时更新；应用会创建带日期的本地副本，供无网络时继续使用。</p></div>
       <div class="feature-grid">
-        <article class="feature-card"><span class="feature-mark" aria-hidden="true">1</span><h3>连接并刷新</h3><p>该应用程序请求最新的可用参考利率数据集并记录其利率日期和保存时间。</p></article>
+        <article class="feature-card"><span class="feature-mark" aria-hidden="true">1</span><h3>连接并刷新</h3><p>应用会请求最新可用的参考汇率数据，并记录汇率日期和保存时间。</p></article>
         <article class="feature-card"><span class="feature-mark" aria-hidden="true">2</span><h3>保持最后的成功</h3><p>请求成功后，数据集存储在本地。如果稍后的请求失败，则先前的工作副本仍然可用。</p></article>
-        <article class="feature-card feature-card-accent"><span class="feature-mark" aria-hidden="true">3</span><h3>无需互联网即可转换</h3><p>离线时，转化会使用已保存的数据集，并显示正在使用缓存的数据以及费率日期。</p></article>
+        <article class="feature-card feature-card-accent"><span class="feature-mark" aria-hidden="true">3</span><h3>无需互联网即可转换</h3><p>离线时，换算会使用已保存的数据，并注明当前使用缓存数据及其汇率日期。</p></article>
       </div>
     </section>
 
     <section class="calculator-explanation shell" aria-labelledby="snapshot-title">
       <article>
-        <h2 id="snapshot-title">已保存的离线费率意味着什么</h2>
+        <h2 id="snapshot-title">已保存的离线汇率意味着什么</h2>
         <p>保存的数据是最近成功的参考率响应的快照。它可以在没有网络连接的情况下计算转化，但当设备离线时，数字不会更新。</p>
-        <p>请务必检查显示的费率日期。基于昨天汇率的结果可能仍然对规划有用，但这并不是银行、卡提供商或兑换处今天提供的汇率的承诺。</p>
+        <p>请务必查看显示的汇率日期。按昨日汇率得出的结果仍可用于规划，但不代表银行、发卡机构或兑换点今天会提供相同汇率。</p>
       </article>
       <aside>
         <h2>当互联网恢复时会发生什么？</h2>
-        <p>Balkan Converter 使用一个共享本地速率缓存进行正常转换和保存集准备。成功的在线刷新会替换旧的缓存数据集并更新其日期并节省时间。</p>
+        <p>Balkan Converter 的普通换算和“已保存组合”共用同一本地汇率缓存。在线刷新成功后，旧缓存会被替换，汇率日期和保存时间也会更新。</p>
         <p>如果刷新失败，应用程序将回退到以前的缓存速率，而不是删除它们。</p>
       </aside>
     </section>
@@ -164,18 +164,18 @@
     <section class="calculator-explanation shell" aria-labelledby="prepare-title">
       <article>
         <h2 id="prepare-title">准备保存集以供离线使用</h2>
-        <p>在 Android 应用中，为您需要的货币创建或打开“已保存集”。连接后，选择 <strong>离线保存费率</strong>。当保存的缓存包含该集中的每种货币时，应用程序会刷新共享汇率数据集并确认准备就绪。</p>
+        <p>在 Android 应用中，为您需要的货币创建或打开“已保存集”。连接后，选择 <strong>保存汇率供离线使用</strong>。当保存的缓存包含该集中的每种货币时，应用程序会刷新共享汇率数据集并确认准备就绪。</p>
         <p>每个行程没有单独的冻结费率文件。准备另一组会刷新应用程序中其他地方使用的相同缓存。</p>
       </article>
       <aside>
         <h2>除了旅行之外还有用</h2>
         <p>离线转换可以在连接不良、漫游中断、临时服务中断或快速参考估计比没有结果更有用的任何情况下提供帮助。</p>
-        <p data-i18n-rich="offline-related-tools">For quick access to the latest cached pair, see the <a class="text-link" data-i18n-slot="widget" href="/zh-hans/currency-converter-widget/">Android currency widget guide</a>. For online comparisons, use the <a class="text-link" data-i18n-slot="currency" href="/zh-hans/currency-converter/">货币换算</a>, compare several results in the <a class="text-link" data-i18n-slot="multi" href="/zh-hans/multi-currency-converter/">Multi-Currency Converter</a>, or check a provider’s offer with the <a class="text-link" data-i18n-slot="markup" href="/zh-hans/exchange-rate-markup-calculator/">Exchange Rate Markup Calculator</a>.</p>
+        <p data-i18n-rich="offline-related-tools">如需快速访问已保存的货币对，请参阅<a class="text-link" data-i18n-slot="widget" href="/zh-hans/currency-converter-widget/">Android 小组件指南</a>。使用<a class="text-link" data-i18n-slot="currency" href="/zh-hans/currency-converter/">货币换算器</a>在线换算，通过<a class="text-link" data-i18n-slot="multi" href="/zh-hans/multi-currency-converter/">多币种换算器</a>将同一金额换算为多种货币，或用<a class="text-link" data-i18n-slot="markup" href="/zh-hans/exchange-rate-markup-calculator/">汇率差额计算器</a>检查兑换报价。</p>
       </aside>
     </section>
 
     <section class="cta-section shell calculator-cta" aria-labelledby="offline-cta-title">
-      <div><p class="eyebrow eyebrow-inverse">手边保留一份注明日期的参考资料</p><h2 id="offline-cta-title">使用Balkan Converter中保存的费率</h2><p>Android 应用可以在没有连接的情况下重复使用其最新成功的汇率缓存，并清楚地识别缓存的数据及其汇率日期。</p></div>
+      <div><p class="eyebrow eyebrow-inverse">手边保留一份注明日期的参考资料</p><h2 id="offline-cta-title">在 Balkan Converter 中使用已保存汇率</h2><p>Android 应用可以在没有连接的情况下重复使用其最新成功的汇率缓存，并清楚地识别缓存的数据及其汇率日期。</p></div>
       <a class="play-link play-link-on-dark offline-play-cta" href="https://play.google.com/store/apps/details?id=io.github.nstim605.balkanconverter" aria-label="在 Google Play 上获取 Balkan Currency Converter"><img src="/assets/google-play-badge-en.png" width="202" height="60" alt="请通过 Google Play 获取"></a>
     </section>
   </main>
