@@ -6,7 +6,7 @@
   <meta name="theme-color" content="#f7f8fa" media="(prefers-color-scheme: light)">
   <meta name="theme-color" content="#070a0f" media="(prefers-color-scheme: dark)">
   <title>환율 계산기 | 온라인 환율 변환</title>
-  <meta name="description" content="사용 가능한 최신 참조 환율을 사용하여 두 통화 간에 금액을 변환합니다. 환율, 환율 날짜, 데이터 소스를 확인하세요.">
+  <meta name="description" content="최신 기준 환율로 두 통화 사이의 금액을 환산하고 환율 날짜와 데이터 출처를 확인하세요.">
   <link rel="canonical" href="https://balkanconverter.com/ko/currency-converter/">
   <link rel="alternate" hreflang="en" href="https://balkanconverter.com/currency-converter/">
   <link rel="alternate" hreflang="sr" href="https://balkanconverter.com/sr/currency-converter/">
@@ -68,15 +68,15 @@
   <link rel="manifest" href="../../site.webmanifest">
   <link rel="stylesheet" href="../../styles.css">
   <script type="application/ld+json">
-  {"@context":"https://schema.org","@type":"WebApplication","name":"환율 계산기","url":"https://balkanconverter.com/ko/currency-converter/","applicationCategory":"FinanceApplication","operatingSystem":"Any","isAccessibleForFree":true,"description":"사용 가능한 최신 참조 환율을 사용하여 두 통화 간에 금액을 변환합니다."}
+  {"@context":"https://schema.org","@type":"WebApplication","name":"환율 계산기","url":"https://balkanconverter.com/ko/currency-converter/","applicationCategory":"FinanceApplication","operatingSystem":"Any","isAccessibleForFree":true,"description":"최신 기준 환율로 두 통화 사이의 금액을 환산하세요."}
   </script>
 </head>
 <body>
   <a class="skip-link" href="#main">변환기로 건너뛰기</a>
   <header class="site-header">
     <div class="shell nav-wrap">
-      <a class="brand" href="/ko/" aria-label="Balkan Currency Converter 집"><img src="../../assets/icons/v1-5-11/app-icon-v1-5-11.png" width="42" height="42" alt=""><span dir="ltr">Balkan Currency Converter</span></a>
-      <nav class="nav-links" aria-label="메인 네비게이션"><a href="/ko/">홈</a><a href="/ko/multi-currency-converter/">다중 통화</a><a href="/ko/exchange-rate-markup-calculator/">마크업 계산기</a></nav>
+      <a class="brand" href="/ko/" aria-label="Balkan Currency Converter 홈"><img src="../../assets/icons/v1-5-11/app-icon-v1-5-11.png" width="42" height="42" alt=""><span dir="ltr">Balkan Currency Converter</span></a>
+      <nav class="nav-links" aria-label="메인 네비게이션"><a href="/ko/">홈</a><a href="/ko/multi-currency-converter/">다중 통화</a><a href="/ko/exchange-rate-markup-calculator/">환율 차이 계산기</a></nav>
       <div class="nav-actions">
         <details class="language-selector">
           <summary aria-label="한국어"><span aria-hidden="true">🌐</span><span>한국어</span></summary>
@@ -136,7 +136,7 @@
       <a class="back-link" href="/ko/"><span aria-hidden="true">←</span> Balkan Currency Converter(으)로 돌아가기</a>
       <p class="eyebrow"><span class="status-dot"></span> 무료 통화 도구</p>
       <h1 id="currency-title">환율 계산기</h1>
-      <p class="hero-lede">두 통화 간에 금액을 변환하고 사용 가능한 최신 참조 환율, 날짜 및 소스를 확인하세요.</p>
+      <p class="hero-lede">두 통화 사이의 금액을 환산하고 최신 기준 환율과 날짜, 출처를 확인하세요.</p>
     </section>
 
     <section class="calculator-layout shell" aria-label="통화 변환기">
@@ -152,25 +152,25 @@
       </form>
 
       <section class="results-card" id="currency-results" tabindex="-1" aria-labelledby="currency-results-title" hidden>
-        <p class="eyebrow">귀하의 전환</p>
+        <p class="eyebrow">환산 결과</p>
         <h2 id="currency-results-title">환산금액</h2>
         <dl class="result-list">
           <div class="result-emphasis"><dt>결과</dt><dd data-result="amount"></dd></div>
-          <div><dt>참고율</dt><dd data-result="rate"></dd></div>
-          <div><dt>데이터 소스</dt><dd>Frankfurter 참조율 API</dd></div>
+          <div><dt>기준 환율</dt><dd data-result="rate"></dd></div>
+          <div><dt>데이터 소스</dt><dd>Frankfurter 기준 환율 API</dd></div>
         </dl>
         <p class="result-date"></p>
       </section>
     </section>
 
     <section class="calculator-explanation shell" aria-labelledby="currency-about-title">
-      <article><h2 id="currency-about-title">빠른 참조 변환</h2><p>이 변환기는 사용 가능한 최신 기준 환율 데이터 세트에서 교차 환율을 계산합니다. 견적과 비교에 유용하지만 은행, 카드, 환전 서비스에 따라 거래율이 다를 수 있습니다.</p><p>표시된 날짜는 참조 데이터가 나타내는 시장 날짜를 알려줍니다.</p></article>
-      <aside><h2>다른 관점이 필요하신가요?</h2><p data-i18n-rich="currency-related-tools">Explore a pair over time with <a class="text-link" data-i18n-slot="history" href="/ko/exchange-rate-history/">Exchange Rate History</a>, compare one amount across destinations with the <a class="text-link" data-i18n-slot="multi" href="/ko/multi-currency-converter/">Multi-Currency Converter</a>, check an exchange quote with the <a class="text-link" data-i18n-slot="markup" href="/ko/exchange-rate-markup-calculator/">Markup Calculator</a>, or compare card, ATM and DCC costs with the <a class="text-link" data-i18n-slot="foreignFee" href="/ko/foreign-transaction-fee-calculator/">Foreign Transaction Fee Calculator</a>.</p></aside>
+      <article><h2 id="currency-about-title">빠른 참고용 환산</h2><p>이 변환기는 사용 가능한 최신 기준 환율 데이터 세트에서 교차 환율을 계산합니다. 견적과 비교에 유용하지만 은행, 카드, 환전 서비스에 따라 거래율이 다를 수 있습니다.</p><p>표시된 날짜는 기준 환율 데이터가 어느 시장일을 나타내는지 알려 줍니다.</p></article>
+      <aside><h2>다른 관점이 필요하신가요?</h2><p data-i18n-rich="currency-related-tools">통화쌍의 변동은 <a class="text-link" data-i18n-slot="history" href="/ko/exchange-rate-history/">환율 기록</a>에서 확인하고, 한 금액을 여러 통화로 비교하려면 <a class="text-link" data-i18n-slot="multi" href="/ko/multi-currency-converter/">다중 통화 환산기</a>, 환전 제시액을 확인하려면 <a class="text-link" data-i18n-slot="markup" href="/ko/exchange-rate-markup-calculator/">환율 차이 계산기</a>, 카드·현금 인출·DCC 비용을 비교하려면 <a class="text-link" data-i18n-slot="foreignFee" href="/ko/foreign-transaction-fee-calculator/">수수료 및 DCC 계산기</a>를 이용하세요.</p></aside>
     </section>
 
     <section class="cta-section shell calculator-cta" aria-labelledby="currency-cta-title">
-      <div><p class="eyebrow eyebrow-inverse">Android에 대한 추가 도구</p><h2 id="currency-cta-title">Balkan Converter으로 변환</h2><p>Android 앱은 계산기, 오프라인 요금, 여행 게시판, 실제 비용, 저장된 세트, 내역, 차트 및 홈 화면 위젯을 추가합니다.</p></div>
-      <a class="play-link play-link-on-dark currency-play-cta" href="https://play.google.com/store/apps/details?id=io.github.nstim605.balkanconverter" aria-label="Google Play에서 Balkan Currency Converter 받기"><img src="/assets/google-play-badge-en.png" width="202" height="60" alt="Google Play에 구매하세요"></a>
+      <div><p class="eyebrow eyebrow-inverse">Android의 더 많은 도구</p><h2 id="currency-cta-title">Balkan Converter으로 변환</h2><p>Android 앱에서는 계산기, 오프라인 환율, 여행 통화 보드, 실제 비용, 저장된 세트, 기록, 차트, 홈 화면 위젯을 이용할 수 있습니다.</p></div>
+      <a class="play-link play-link-on-dark currency-play-cta" href="https://play.google.com/store/apps/details?id=io.github.nstim605.balkanconverter" aria-label="Google Play에서 Balkan Currency Converter 받기"><img src="/assets/google-play-badge-en.png" width="202" height="60" alt="Google Play에서 다운로드"></a>
     </section>
   </main>
 
@@ -186,7 +186,7 @@
     </div>
   </template>
   <script src="../../script.js" defer></script>
-  <script id="tool-i18n" type="application/json">{"© 2026 Balkan Currency Converter":"© 2026 Balkan Currency Converter","A quick reference conversion":"빠른 참조 변환","Accept analytics":"분석 수락","Amount":"금액","Amount and rates must be positive numbers.":"금액과 요율은 양수여야 합니다.","Analytics choices":"분석 선택","Back to Balkan Currency Converter":"Balkan Currency Converter(으)로 돌아가기","Balkan Currency Converter home":"Balkan Currency Converter 집","Choose two different currencies.":"두 가지 다른 통화를 선택하세요.","Conversion updated from the latest available reference rates.":"사용 가능한 최신 참조율에서 변환이 업데이트되었습니다.","Convert an amount between two currencies and see the latest available reference rate, its date, and its source.":"두 통화 간에 금액을 변환하고 사용 가능한 최신 참조 환율, 날짜 및 소스를 확인하세요.","Convert an amount between two currencies using the latest available reference rates.":"사용 가능한 최신 참조 환율을 사용하여 두 통화 간에 금액을 변환합니다.","Convert an amount between two currencies with the latest available reference rates. See the exchange rate, rate date, and data source.":"사용 가능한 최신 참조 환율을 사용하여 두 통화 간에 금액을 변환합니다. 환율, 환율 날짜, 데이터 소스를 확인하세요.","Convert between two currencies using the latest available reference rates.":"사용 가능한 최신 기준 환율을 사용하여 두 통화 간에 변환합니다.","Convert currency":"통화 변환","Convert with Balkan Converter":"Balkan Converter으로 변환","Converted amount":"환산금액","Currency conversion for Android":"Android의 통화 변환","Currency converter":"통화 변환기","Currency Converter":"환율 계산기","Currency Converter | Convert Exchange Rates Online":"환율 계산기 | 온라인 환율 변환","Data source":"데이터 소스","Date":"날짜","Enter an amount and choose two currencies.":"금액을 입력하고 두 가지 통화를 선택하세요.","Enter an amount greater than zero.":"0보다 큰 금액을 입력하세요.","Fetching the latest reference rates…":"최신 참조율을 가져오는 중…","Footer navigation":"바닥글 탐색","Frankfurter reference-rate API":"Frankfurter 참조율 API","Free currency tool":"무료 통화 도구","From":"에서","Get Balkan Currency Converter on Google Play":"Google Play에서 Balkan Currency Converter 받기","Get it on Google Play":"Google Play에 구매하세요","Help us understand site usage. Firebase Analytics stays off unless you accept.":"사이트 사용법을 이해하는 데 도움을 주세요. 귀하가 수락하지 않는 한 Firebase Analytics은 꺼진 상태로 유지됩니다.","Home":"홈","Learn more":"자세히 알아보기","Loading latest rates…":"최신 요금 로드 중…","Main navigation":"메인 네비게이션","Markup calculator":"마크업 계산기","More tools on Android":"Android에 대한 추가 도구","Multi-currency":"다중 통화","Need a different view?":"다른 관점이 필요하신가요?","Optional":"선택사항","Optional analytics":"선택적 분석","Privacy":"개인정보 보호","Privacy Policy":"개인 정보 보호 정책","Rate":"요금","Rate date unavailable.":"요율 날짜를 알 수 없습니다.","Rates could not be loaded. Check your connection and try again.":"요금을 로드할 수 없습니다. 연결을 확인하고 다시 시도하세요.","Reference rate":"참고율","Reference rates dated {date}.":"{date} 날짜의 참조 요율입니다.","Reject analytics":"분석 거부","Result":"결과","Skip to converter":"변환기로 건너뛰기","Swap currencies":"통화 교환","Switch color theme":"색상 테마 전환","Switch to dark theme":"어두운 테마로 전환","Switch to light theme":"밝은 테마로 전환","The Android app adds a calculator, offline rates, Travel Board, Actual Cost, saved sets, history, charts, and a home-screen widget.":"Android 앱은 계산기, 오프라인 요금, 여행 게시판, 실제 비용, 저장된 세트, 내역, 차트 및 홈 화면 위젯을 추가합니다.","The displayed date tells you which market day the reference data represents.":"표시된 날짜는 참조 데이터가 나타내는 시장 날짜를 알려줍니다.","This converter calculates a cross-rate from the latest available reference-rate dataset. It is useful for estimates and comparisons, but a bank, card, or exchange service may offer a different transaction rate.":"이 변환기는 사용 가능한 최신 기준 환율 데이터 세트에서 교차 환율을 계산합니다. 견적과 비교에 유용하지만 은행, 카드, 환전 서비스에 따라 거래율이 다를 수 있습니다.","To":"받는 사람","Your conversion":"귀하의 전환"}</script>
+  <script id="tool-i18n" type="application/json">{"© 2026 Balkan Currency Converter":"© 2026 Balkan Currency Converter","A quick reference conversion":"빠른 참고용 환산","Accept analytics":"분석 수락","Amount":"금액","Amount and rates must be positive numbers.":"금액과 요율은 양수여야 합니다.","Analytics choices":"분석 선택","Back to Balkan Currency Converter":"Balkan Currency Converter(으)로 돌아가기","Balkan Currency Converter home":"Balkan Currency Converter 홈","Choose two different currencies.":"두 가지 다른 통화를 선택하세요.","Conversion updated from the latest available reference rates.":"최신 기준 환율로 환산 결과를 업데이트했습니다.","Convert an amount between two currencies and see the latest available reference rate, its date, and its source.":"두 통화 사이의 금액을 환산하고 최신 기준 환율과 날짜, 출처를 확인하세요.","Convert an amount between two currencies using the latest available reference rates.":"최신 기준 환율로 두 통화 사이의 금액을 환산하세요.","Convert an amount between two currencies with the latest available reference rates. See the exchange rate, rate date, and data source.":"최신 기준 환율로 두 통화 사이의 금액을 환산하고 환율 날짜와 데이터 출처를 확인하세요.","Convert between two currencies using the latest available reference rates.":"사용 가능한 최신 기준 환율을 사용하여 두 통화 간에 변환합니다.","Convert currency":"통화 변환","Convert with Balkan Converter":"Balkan Converter으로 변환","Converted amount":"환산금액","Currency conversion for Android":"Android의 통화 변환","Currency converter":"통화 변환기","Currency Converter":"환율 계산기","Currency Converter | Convert Exchange Rates Online":"환율 계산기 | 온라인 환율 변환","Data source":"데이터 소스","Date":"날짜","Enter an amount and choose two currencies.":"금액을 입력하고 두 가지 통화를 선택하세요.","Enter an amount greater than zero.":"0보다 큰 금액을 입력하세요.","Fetching the latest reference rates…":"최신 기준 환율을 불러오는 중…","Footer navigation":"바닥글 탐색","Frankfurter reference-rate API":"Frankfurter 기준 환율 API","Free currency tool":"무료 통화 도구","From":"에서","Get Balkan Currency Converter on Google Play":"Google Play에서 Balkan Currency Converter 받기","Get it on Google Play":"Google Play에서 다운로드","Help us understand site usage. Firebase Analytics stays off unless you accept.":"사이트 이용 현황 파악에 동의해 주세요. 동의하기 전에는 Firebase Analytics가 꺼진 상태로 유지됩니다.","Home":"홈","Learn more":"자세히 알아보기","Loading latest rates…":"최신 환율을 불러오는 중…","Main navigation":"메인 네비게이션","Markup calculator":"환율 차이 계산기","More tools on Android":"Android의 더 많은 도구","Multi-currency":"다중 통화","Need a different view?":"다른 관점이 필요하신가요?","Optional":"선택사항","Optional analytics":"선택적 분석","Privacy":"개인정보 보호","Privacy Policy":"개인 정보 보호 정책","Rate":"환율","Rate date unavailable.":"환율 날짜를 확인할 수 없습니다.","Rates could not be loaded. Check your connection and try again.":"환율을 불러오지 못했습니다. 인터넷 연결을 확인하고 다시 시도하세요.","Reference rate":"기준 환율","Reference rates dated {date}.":"기준 환율 날짜: {date}.","Reject analytics":"분석 거부","Result":"결과","Skip to converter":"변환기로 건너뛰기","Swap currencies":"통화 교환","Switch color theme":"색상 테마 전환","Switch to dark theme":"어두운 테마로 전환","Switch to light theme":"밝은 테마로 전환","The Android app adds a calculator, offline rates, Travel Board, Actual Cost, saved sets, history, charts, and a home-screen widget.":"Android 앱에서는 계산기, 오프라인 환율, 여행 통화 보드, 실제 비용, 저장된 세트, 기록, 차트, 홈 화면 위젯을 이용할 수 있습니다.","The displayed date tells you which market day the reference data represents.":"표시된 날짜는 기준 환율 데이터가 어느 시장일을 나타내는지 알려 줍니다.","This converter calculates a cross-rate from the latest available reference-rate dataset. It is useful for estimates and comparisons, but a bank, card, or exchange service may offer a different transaction rate.":"이 변환기는 사용 가능한 최신 기준 환율 데이터 세트에서 교차 환율을 계산합니다. 견적과 비교에 유용하지만 은행, 카드, 환전 서비스에 따라 거래율이 다를 수 있습니다.","To":"받는 사람","Your conversion":"환산 결과"}</script>
   <script type="module" src="../../currency-converter/converter.js"></script>
 </body>
 </html>

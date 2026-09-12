@@ -5,8 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#f7f8fa" media="(prefers-color-scheme: light)">
   <meta name="theme-color" content="#070a0f" media="(prefers-color-scheme: dark)">
-  <title>환율 인상 계산기 | Balkan Currency Converter</title>
-  <meta name="description" content="교환 제안을 최신 기준 환율과 비교하세요. 귀하가 받는 금액, 차액 및 유효 환율 인상액을 계산합니다.">
+  <title>환율 차이 계산기 | Balkan Currency Converter</title>
+  <meta name="description" content="환전 제안을 최신 기준 환율과 비교해 수령액, 차액, 실제 환율 차이율을 계산하세요.">
   <link rel="canonical" href="https://balkanconverter.com/ko/exchange-rate-markup-calculator/">
   <link rel="alternate" hreflang="en" href="https://balkanconverter.com/exchange-rate-markup-calculator/">
   <link rel="alternate" hreflang="sr" href="https://balkanconverter.com/sr/exchange-rate-markup-calculator/">
@@ -55,12 +55,12 @@
   <link rel="alternate" hreflang="x-default" href="https://balkanconverter.com/exchange-rate-markup-calculator/">
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="Balkan Currency Converter">
-  <meta property="og:title" content="환율 인상 계산기">
+  <meta property="og:title" content="환율 차이 계산기">
   <meta property="og:description" content="교환 제안이 최신 기준 환율과 얼마나 차이가 나는지 확인하세요.">
   <meta property="og:url" content="https://balkanconverter.com/ko/exchange-rate-markup-calculator/">
   <meta property="og:image" content="https://balkanconverter.com/assets/og-v1-5-11.png">
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="환율 인상 계산기">
+  <meta name="twitter:title" content="환율 차이 계산기">
   <meta name="twitter:description" content="교환 제안을 최신 기준 환율과 비교하세요.">
   <meta name="twitter:image" content="https://balkanconverter.com/assets/og-v1-5-11.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/assets/icons/v1-5-11/favicon-32.png">
@@ -68,14 +68,14 @@
   <link rel="manifest" href="../../site.webmanifest">
   <link rel="stylesheet" href="../../styles.css">
   <script type="application/ld+json">
-  {"@context":"https://schema.org","@type":"WebApplication","name":"환율 인상 계산기","url":"https://balkanconverter.com/ko/exchange-rate-markup-calculator/","applicationCategory":"FinanceApplication","operatingSystem":"Any","isAccessibleForFree":true,"description":"교환 제안을 최신 기준 환율과 비교하고 효과적인 인상폭을 계산하세요."}
+  {"@context":"https://schema.org","@type":"WebApplication","name":"환율 차이 계산기","url":"https://balkanconverter.com/ko/exchange-rate-markup-calculator/","applicationCategory":"FinanceApplication","operatingSystem":"Any","isAccessibleForFree":true,"description":"환전 제안을 최신 기준 환율과 비교하고 실제 환율 차이율을 계산하세요."}
   </script>
 </head>
 <body>
   <a class="skip-link" href="#main">계산기로 건너뛰기</a>
   <header class="site-header">
     <div class="shell nav-wrap">
-      <a class="brand" href="/ko/" aria-label="Balkan Currency Converter 집">
+      <a class="brand" href="/ko/" aria-label="Balkan Currency Converter 홈">
         <img src="../../assets/icons/v1-5-11/app-icon-v1-5-11.png" width="42" height="42" alt="">
         <span dir="ltr">Balkan Currency Converter</span>
       </a>
@@ -143,45 +143,45 @@
     <section class="calculator-hero shell" aria-labelledby="calculator-title">
       <a class="back-link" href="/ko/"><span aria-hidden="true">←</span> Balkan Currency Converter(으)로 돌아가기</a>
       <p class="eyebrow"><span class="status-dot"></span> 무료 통화 도구</p>
-      <h1 id="calculator-title">환율 인상 계산기</h1>
-      <p class="hero-lede">환전 서비스가 제공하는 금액을 이용 가능한 최신 기준 환율과 비교하세요. 교환하기 전에 차이점과 효과적인 마크업을 확인하세요.</p>
+      <h1 id="calculator-title">환율 차이 계산기</h1>
+      <p class="hero-lede">환전 서비스가 제시한 금액을 최신 기준 환율과 비교하고, 환전 전에 차액과 실제 차이율을 확인하세요.</p>
     </section>
 
-    <section class="calculator-layout shell" aria-label="마크업 계산기">
+    <section class="calculator-layout shell" aria-label="환율 차이 계산기">
       <form class="calculator-card" id="markup-form" novalidate>
         <div class="field-grid">
-          <label>소스 통화
+          <label>기준 통화
             <select id="source-currency" name="source" autocomplete="off">
               <option value="EUR">EUR — 유로</option>
             </select>
           </label>
-          <label>대상통화
+          <label>대상 통화
             <select id="target-currency" name="target" autocomplete="off">
               <option value="RSD">RSD — 세르비아 디나르</option>
             </select>
           </label>
         </div>
-        <label>당신이 주는 금액
-          <span class="input-hint">소스 통화</span>
+        <label>지불 금액
+          <span class="input-hint">기준 통화로</span>
           <input id="source-amount" name="amount" inputmode="decimal" autocomplete="off" value="100" aria-describedby="calculator-status">
         </label>
-        <label>귀하에게 제공되는 금액
-          <span class="input-hint">목표 통화로 받을 수 있는 것</span>
+        <label>제시받은 금액
+          <span class="input-hint">대상 통화로 받게 될 금액</span>
           <input id="offered-amount" name="offered" inputmode="decimal" autocomplete="off" placeholder="예를 들어 11,500" aria-describedby="calculator-status">
         </label>
-        <button class="primary-button" type="submit">마크업 계산</button>
+        <button class="primary-button" type="submit">환율 차이 계산</button>
         <p class="calculator-status" id="calculator-status" role="status" aria-live="polite">비교하고 싶은 제안을 입력하세요.</p>
       </form>
 
       <section class="results-card" id="calculator-results" tabindex="-1" aria-labelledby="results-title" hidden>
-        <p class="eyebrow">귀하의 비교</p>
+        <p class="eyebrow">비교 결과</p>
         <h2 id="results-title">교환 제안 결과</h2>
         <dl class="result-list">
-          <div><dt>참고율</dt><dd data-result="referenceRate"></dd></div>
-          <div><dt>참고결과</dt><dd data-result="referenceResult"></dd></div>
-          <div><dt>제안된 결과</dt><dd data-result="offeredResult"></dd></div>
-          <div><dt data-label="difference">당신은 더 적은 금액을 받습니다</dt><dd data-result="difference"></dd></div>
-          <div class="result-emphasis"><dt data-label="percentage">환율 인상</dt><dd data-result="percentage"></dd></div>
+          <div><dt>기준 환율</dt><dd data-result="referenceRate"></dd></div>
+          <div><dt>기준 결과</dt><dd data-result="referenceResult"></dd></div>
+          <div><dt>제시 결과</dt><dd data-result="offeredResult"></dd></div>
+          <div><dt data-label="difference">적게 받는 금액</dt><dd data-result="difference"></dd></div>
+          <div class="result-emphasis"><dt data-label="percentage">환율 차이율</dt><dd data-result="percentage"></dd></div>
         </dl>
         <p class="result-summary"></p>
         <p class="result-date"></p>
@@ -191,14 +191,14 @@
     <section class="calculator-explanation shell" aria-labelledby="meaning-title">
       <article>
         <h2 id="meaning-title">백분율의 의미</h2>
-        <p>계산기는 먼저 최신 기준 금리가 얼마를 생산할 것인지 추정합니다. 그런 다음 해당 금액을 제안된 금액과 비교합니다.</p>
+        <p>계산기는 먼저 최신 기준 환율로 받을 금액을 계산한 다음, 환전 서비스가 제시한 금액과 비교합니다.</p>
         <p>공급자는 덜 유리한 환율을 사용하면서 &quot;수수료 없음&quot;을 광고할 수 있습니다. 그 부족액은 사실상 요율에 숨겨진 비용입니다.</p>
-        <p><strong>마크업 = (참조 결과 − 제공 결과) ¼ 참조 결과 × 100.</strong></p>
+        <p><strong>차이율 = (기준 결과 − 제시 결과) ÷ 기준 결과 × 100.</strong></p>
       </article>
       <aside>
         <h2>알아야 할 중요 사항</h2>
-        <p>이는 재정적인 조언이 아닌 정보 비교입니다. 제안에는 서비스 수수료, 카드 요금, 현금 처리 또는 제공업체의 스프레드가 포함될 수 있습니다. 참고율은 거래율을 보장하지 않습니다.</p>
-        <p data-i18n-rich="markup-related-tools">Comparing a card or ATM transaction with an offered home-currency conversion? Use the <a class="text-link" data-i18n-slot="foreignFee" href="/ko/foreign-transaction-fee-calculator/">Foreign Transaction Fee &amp; DCC Calculator</a>. For a quick pair conversion, use the <a class="text-link" data-i18n-slot="currency" href="/ko/currency-converter/">환율 계산기</a>. For several results at once, try the <a class="text-link" data-i18n-slot="multi" href="/ko/multi-currency-converter/">Multi-Currency Converter</a>, or learn how <a class="text-link" data-i18n-slot="offline" href="/ko/offline-currency-converter/">saved offline rates</a> work.</p>
+        <p>이 결과는 정보 제공을 위한 비교이며 금융 조언이 아닙니다. 제시 금액에는 서비스 수수료, 카드 수수료, 현금 취급 수수료 또는 제공업체의 스프레드가 포함될 수 있습니다. 기준 환율은 실제 거래 환율을 보장하지 않습니다.</p>
+        <p data-i18n-rich="markup-related-tools">카드 또는 ATM 거래를 카드 통화로 제시된 환산액과 비교하려면 <a class="text-link" data-i18n-slot="foreignFee" href="/ko/foreign-transaction-fee-calculator/">수수료 및 DCC 계산기</a>를 이용하세요. 한 통화쌍을 빠르게 환산하려면 <a class="text-link" data-i18n-slot="currency" href="/ko/currency-converter/">통화 환산기</a>를 여세요. 한 금액을 여러 통화로 비교하려면 <a class="text-link" data-i18n-slot="multi" href="/ko/multi-currency-converter/">다중 통화 환산기</a>, 저장한 환율의 작동 방식은 <a class="text-link" data-i18n-slot="offline" href="/ko/offline-currency-converter/">오프라인 이용 안내</a>에서 확인할 수 있습니다.</p>
       </aside>
     </section>
 
@@ -206,10 +206,10 @@
       <div>
         <p class="eyebrow eyebrow-inverse">이동 중에도 이것이 필요합니까?</p>
         <h2 id="app-cta-title">Balkan Converter의 비용 비교</h2>
-        <p>Android 앱은 실제 비용, 오프라인 요금, 여행 게시판, 저장된 세트, 차트 및 홈 화면 위젯을 추가합니다.</p>
+        <p>Android 앱에서는 실제 비용, 오프라인 환율, 여행 통화 보드, 저장된 세트, 차트, 홈 화면 위젯을 이용할 수 있습니다.</p>
       </div>
       <a class="play-link play-link-on-dark calculator-play-cta" href="https://play.google.com/store/apps/details?id=io.github.nstim605.balkanconverter" aria-label="Google Play에서 Balkan Currency Converter 받기">
-        <img src="/assets/google-play-badge-en.png" width="202" height="60" alt="Google Play에 구매하세요">
+        <img src="/assets/google-play-badge-en.png" width="202" height="60" alt="Google Play에서 다운로드">
       </a>
     </section>
   </main>
@@ -237,7 +237,7 @@
     </div>
   </template>
   <script src="../../script.js" defer></script>
-  <script id="tool-i18n" type="application/json">{"© 2026 Balkan Currency Converter":"© 2026 Balkan Currency Converter","A provider can advertise “no commission” while using a less favourable exchange rate. That shortfall is effectively a cost hidden in the rate.":"공급자는 덜 유리한 환율을 사용하면서 \"수수료 없음\"을 광고할 수 있습니다. 그 부족액은 사실상 요율에 숨겨진 비용입니다.","A reference rate is unavailable for this currency pair.":"이 통화 쌍에는 참조 환율을 사용할 수 없습니다.","Above reference by":"위 참조자:","Accept analytics":"분석 수락","Amount":"금액","Amount you are offered":"귀하에게 제공되는 금액","Amount you give":"당신이 주는 금액","Amounts and rates must be positive numbers.":"금액과 요율은 양수여야 합니다.","Analytics choices":"분석 선택","Back to Balkan Currency Converter":"Balkan Currency Converter(으)로 돌아가기","Balkan Currency Converter home":"Balkan Currency Converter 집","Calculate markup":"마크업 계산","Calculation updated from the latest available reference rates.":"사용 가능한 최신 참조율을 기준으로 계산이 업데이트되었습니다.","Choose two different currencies.":"두 가지 다른 통화를 선택하세요.","Compare an exchange offer with the latest reference rate and calculate the effective markup.":"교환 제안을 최신 기준 환율과 비교하고 효과적인 인상폭을 계산하세요.","Compare an exchange offer with the latest reference rate.":"교환 제안을 최신 기준 환율과 비교하세요.","Compare an exchange offer with the latest reference rate. Calculate the amount you receive, the difference, and the effective exchange-rate markup.":"교환 제안을 최신 기준 환율과 비교하세요. 귀하가 받는 금액, 차액 및 유효 환율 인상액을 계산합니다.","Compare costs in Balkan Converter":"Balkan Converter의 비용 비교","Compare the amount an exchange service offers with the latest available reference rate. See the difference and the effective markup before you exchange.":"환전 서비스가 제공하는 금액을 이용 가능한 최신 기준 환율과 비교하세요. 교환하기 전에 차이점과 효과적인 마크업을 확인하세요.","Currency conversion for Android":"Android의 통화 변환","Currency Converter":"환율 계산기","Date":"날짜","Enter the offer you want to compare.":"비교하고 싶은 제안을 입력하세요.","Enter two amounts greater than zero.":"0보다 큰 금액을 두 개 입력하세요.","EUR — Euro":"EUR — 유로","Exchange offer result":"교환 제안 결과","Exchange Rate Markup Calculator":"환율 인상 계산기","Exchange Rate Markup Calculator | Balkan Currency Converter":"환율 인상 계산기 | Balkan Currency Converter","Exchange-rate markup":"환율 인상","Fetching the latest reference rates…":"최신 참조율을 가져오는 중…","Footer navigation":"바닥글 탐색","For example, 11,500":"예를 들어 11,500","Free currency tool":"무료 통화 도구","Get Balkan Currency Converter on Google Play":"Google Play에서 Balkan Currency Converter 받기","Get it on Google Play":"Google Play에 구매하세요","Help us understand site usage. Firebase Analytics stays off unless you accept.":"사이트 사용법을 이해하는 데 도움을 주세요. 귀하가 수락하지 않는 한 Firebase Analytics은 꺼진 상태로 유지됩니다.","Home":"홈","Important to know":"알아야 할 중요 사항","In the source currency":"소스 통화","Learn more":"자세히 알아보기","Loading latest rates…":"최신 요금 로드 중…","Main navigation":"메인 네비게이션","Markup = (reference result − offered result) ÷ reference result × 100.":"마크업 = (참조 결과 − 제공 결과) ¼ 참조 결과 × 100.","Markup calculator":"마크업 계산기","Markup Calculator":"마크업 계산기","Need this on the go?":"이동 중에도 이것이 필요합니까?","No reference rates were returned.":"참조율이 반환되지 않았습니다.","Offered result":"제안된 결과","Optional":"선택사항","Optional analytics":"선택적 분석","Privacy":"개인정보 보호","Privacy Policy":"개인 정보 보호 정책","Rate":"요금","Rates could not be loaded. Check your connection and try again.":"요금을 로드할 수 없습니다. 연결을 확인하고 다시 시도하세요.","Reference rate":"참고율","Reference rates dated {date}.":"{date} 날짜의 참조 요율입니다.","Reference result":"참고결과","Reference-rate data is incomplete.":"참조율 데이터가 불완전합니다.","Reject analytics":"분석 거부","Result":"결과","RSD — Serbian Dinar":"RSD — 세르비아 디나르","See how far an exchange offer is from the latest reference rate.":"교환 제안이 최신 기준 환율과 얼마나 차이가 나는지 확인하세요.","Skip to calculator":"계산기로 건너뛰기","Source currency":"소스 통화","Switch color theme":"색상 테마 전환","Switch to dark theme":"어두운 테마로 전환","Switch to light theme":"밝은 테마로 전환","Target currency":"대상통화","The Android app adds Actual Cost, offline rates, Travel Board, saved sets, charts, and a home-screen widget.":"Android 앱은 실제 비용, 오프라인 요금, 여행 게시판, 저장된 세트, 차트 및 홈 화면 위젯을 추가합니다.","The calculator first estimates how much the latest reference rate would produce. It then compares that amount with the amount you were offered.":"계산기는 먼저 최신 기준 금리가 얼마를 생산할 것인지 추정합니다. 그런 다음 해당 금액을 제안된 금액과 비교합니다.","The offer is {percentage} above the reference result.":"제안은 참조 결과보다 {percentage} 높습니다.","The offer is {percentage} below the reference result.":"제안은 참조 결과보다 {percentage} 낮습니다.","This is an informational comparison, not financial advice. An offer may include service fees, card charges, cash handling, or a provider’s spread. Reference rates are not guaranteed transaction rates.":"이는 재정적인 조언이 아닌 정보 비교입니다. 제안에는 서비스 수수료, 카드 요금, 현금 처리 또는 제공업체의 스프레드가 포함될 수 있습니다. 참고율은 거래율을 보장하지 않습니다.","What the percentage means":"백분율의 의미","What you would receive in the target currency":"목표 통화로 받을 수 있는 것","You receive less by":"당신은 더 적은 금액을 받습니다","You receive more by":"다음을 통해 더 많은 혜택을 받으실 수 있습니다.","Your comparison":"귀하의 비교"}</script>
+  <script id="tool-i18n" type="application/json">{"© 2026 Balkan Currency Converter":"© 2026 Balkan Currency Converter","A provider can advertise “no commission” while using a less favourable exchange rate. That shortfall is effectively a cost hidden in the rate.":"공급자는 덜 유리한 환율을 사용하면서 \"수수료 없음\"을 광고할 수 있습니다. 그 부족액은 사실상 요율에 숨겨진 비용입니다.","A reference rate is unavailable for this currency pair.":"이 통화 쌍의 기준 환율을 사용할 수 없습니다.","Above reference by":"기준 결과보다 높은 금액","Accept analytics":"분석 수락","Amount":"금액","Amount you are offered":"제시받은 금액","Amount you give":"지불 금액","Amounts and rates must be positive numbers.":"금액과 요율은 양수여야 합니다.","Analytics choices":"분석 선택","Back to Balkan Currency Converter":"Balkan Currency Converter(으)로 돌아가기","Balkan Currency Converter home":"Balkan Currency Converter 홈","Calculate markup":"환율 차이 계산","Calculation updated from the latest available reference rates.":"최신 기준 환율로 계산을 업데이트했습니다.","Choose two different currencies.":"두 가지 다른 통화를 선택하세요.","Compare an exchange offer with the latest reference rate and calculate the effective markup.":"환전 제안을 최신 기준 환율과 비교하고 실제 환율 차이율을 계산하세요.","Compare an exchange offer with the latest reference rate.":"교환 제안을 최신 기준 환율과 비교하세요.","Compare an exchange offer with the latest reference rate. Calculate the amount you receive, the difference, and the effective exchange-rate markup.":"환전 제안을 최신 기준 환율과 비교해 수령액, 차액, 실제 환율 차이율을 계산하세요.","Compare costs in Balkan Converter":"Balkan Converter의 비용 비교","Compare the amount an exchange service offers with the latest available reference rate. See the difference and the effective markup before you exchange.":"환전 서비스가 제시한 금액을 최신 기준 환율과 비교하고, 환전 전에 차액과 실제 차이율을 확인하세요.","Currency conversion for Android":"Android의 통화 변환","Currency Converter":"환율 계산기","Date":"날짜","Enter the offer you want to compare.":"비교하고 싶은 제안을 입력하세요.","Enter two amounts greater than zero.":"0보다 큰 금액을 두 개 입력하세요.","EUR — Euro":"EUR — 유로","Exchange offer result":"교환 제안 결과","Exchange Rate Markup Calculator":"환율 차이 계산기","Exchange Rate Markup Calculator | Balkan Currency Converter":"환율 차이 계산기 | Balkan Currency Converter","Exchange-rate markup":"환율 차이율","Fetching the latest reference rates…":"최신 기준 환율을 불러오는 중…","Footer navigation":"바닥글 탐색","For example, 11,500":"예를 들어 11,500","Free currency tool":"무료 통화 도구","Get Balkan Currency Converter on Google Play":"Google Play에서 Balkan Currency Converter 받기","Get it on Google Play":"Google Play에서 다운로드","Help us understand site usage. Firebase Analytics stays off unless you accept.":"사이트 이용 현황 파악에 동의해 주세요. 동의하기 전에는 Firebase Analytics가 꺼진 상태로 유지됩니다.","Home":"홈","Important to know":"알아야 할 중요 사항","In the source currency":"기준 통화로","Learn more":"자세히 알아보기","Loading latest rates…":"최신 환율을 불러오는 중…","Main navigation":"메인 네비게이션","Markup = (reference result − offered result) ÷ reference result × 100.":"차이율 = (기준 결과 − 제시 결과) ÷ 기준 결과 × 100.","Markup calculator":"환율 차이 계산기","Markup Calculator":"환율 차이 계산기","Need this on the go?":"이동 중에도 이것이 필요합니까?","No reference rates were returned.":"기준 환율을 불러오지 못했습니다.","Offered result":"제시 결과","Optional":"선택사항","Optional analytics":"선택적 분석","Privacy":"개인정보 보호","Privacy Policy":"개인 정보 보호 정책","Rate":"환율","Rates could not be loaded. Check your connection and try again.":"환율을 불러오지 못했습니다. 인터넷 연결을 확인하고 다시 시도하세요.","Reference rate":"기준 환율","Reference rates dated {date}.":"기준 환율 날짜: {date}.","Reference result":"기준 결과","Reference-rate data is incomplete.":"기준 환율 데이터가 완전하지 않습니다.","Reject analytics":"분석 거부","Result":"결과","RSD — Serbian Dinar":"RSD — 세르비아 디나르","See how far an exchange offer is from the latest reference rate.":"교환 제안이 최신 기준 환율과 얼마나 차이가 나는지 확인하세요.","Skip to calculator":"계산기로 건너뛰기","Source currency":"기준 통화","Switch color theme":"색상 테마 전환","Switch to dark theme":"어두운 테마로 전환","Switch to light theme":"밝은 테마로 전환","Target currency":"대상 통화","The Android app adds Actual Cost, offline rates, Travel Board, saved sets, charts, and a home-screen widget.":"Android 앱에서는 실제 비용, 오프라인 환율, 여행 통화 보드, 저장된 세트, 차트, 홈 화면 위젯을 이용할 수 있습니다.","The calculator first estimates how much the latest reference rate would produce. It then compares that amount with the amount you were offered.":"계산기는 먼저 최신 기준 환율로 받을 금액을 계산한 다음, 환전 서비스가 제시한 금액과 비교합니다.","The offer is {percentage} above the reference result.":"제시 금액이 기준 결과보다 {percentage} 높습니다.","The offer is {percentage} below the reference result.":"제시 금액이 기준 결과보다 {percentage} 낮습니다.","This is an informational comparison, not financial advice. An offer may include service fees, card charges, cash handling, or a provider’s spread. Reference rates are not guaranteed transaction rates.":"이 결과는 정보 제공을 위한 비교이며 금융 조언이 아닙니다. 제시 금액에는 서비스 수수료, 카드 수수료, 현금 취급 수수료 또는 제공업체의 스프레드가 포함될 수 있습니다. 기준 환율은 실제 거래 환율을 보장하지 않습니다.","What the percentage means":"백분율의 의미","What you would receive in the target currency":"대상 통화로 받게 될 금액","You receive less by":"적게 받는 금액","You receive more by":"더 받는 금액","Your comparison":"비교 결과"}</script>
   <script type="module" src="../../exchange-rate-markup-calculator/calculator.js"></script>
 </body>
 </html>

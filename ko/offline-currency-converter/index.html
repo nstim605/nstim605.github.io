@@ -75,7 +75,7 @@
   <a class="skip-link" href="#main">가이드로 건너뛰기</a>
   <header class="site-header">
     <div class="shell nav-wrap">
-      <a class="brand" href="/ko/" aria-label="Balkan Currency Converter 집"><img src="../../assets/icons/v1-5-11/app-icon-v1-5-11.png" width="42" height="42" alt=""><span dir="ltr">Balkan Currency Converter</span></a>
+      <a class="brand" href="/ko/" aria-label="Balkan Currency Converter 홈"><img src="../../assets/icons/v1-5-11/app-icon-v1-5-11.png" width="42" height="42" alt=""><span dir="ltr">Balkan Currency Converter</span></a>
       <nav class="nav-links" aria-label="메인 네비게이션"><a href="/ko/">홈</a><a href="/ko/currency-converter/">통화 변환기</a><a href="/ko/multi-currency-converter/">다중 통화</a></nav>
       <div class="nav-actions">
         <details class="language-selector">
@@ -136,11 +136,11 @@
       <a class="back-link" href="/ko/"><span aria-hidden="true">←</span> Balkan Currency Converter(으)로 돌아가기</a>
       <p class="eyebrow"><span class="status-dot"></span> 오프라인 환율 안내</p>
       <h1 id="offline-title">오프라인 환율 계산기: 저장된 환율의 작동 방식</h1>
-      <p class="hero-lede">변환기는 장치에 성공적으로 저장된 최신 환율을 사용하여 인터넷 없이도 계속 작동할 수 있습니다. 이러한 요율은 유용한 참조 데이터이지만 앱이 온라인에서 새로 고칠 수 있을 때까지 원래 날짜에 묶여 있습니다.</p>
+      <p class="hero-lede">환산기는 기기에 마지막으로 저장된 환율을 사용해 인터넷 없이도 작동할 수 있습니다. 이 환율은 참고용이며, 앱이 온라인에서 다시 갱신할 때까지 저장 당시 날짜의 값으로 유지됩니다.</p>
     </section>
 
     <section class="section shell" aria-labelledby="offline-flow-title">
-      <div class="section-heading"><div><p class="eyebrow">간단한 버전</p><h2 id="offline-flow-title">온라인 새로고침부터 오프라인 전환까지</h2></div><p>요금을 저장한다고 해서 영원히 유지되는 것은 아닙니다. 네트워크를 사용할 수 없을 때 재사용할 수 있는 날짜가 지정된 로컬 복사본을 만듭니다.</p></div>
+      <div class="section-heading"><div><p class="eyebrow">간단한 버전</p><h2 id="offline-flow-title">온라인 새로고침부터 오프라인 전환까지</h2></div><p>환율을 저장해도 계속 실시간으로 유지되는 것은 아닙니다. 인터넷을 사용할 수 없을 때 재사용할 수 있도록 날짜가 포함된 로컬 사본을 만듭니다.</p></div>
       <div class="feature-grid">
         <article class="feature-card"><span class="feature-mark" aria-hidden="true">1</span><h3>연결 및 새로고침</h3><p>앱은 사용 가능한 최신 기준 환율 데이터 세트를 요청하고 해당 환율 날짜와 저장 시간을 기록합니다.</p></article>
         <article class="feature-card"><span class="feature-mark" aria-hidden="true">2</span><h3>마지막 성공을 유지하세요</h3><p>요청이 성공하면 데이터 세트가 로컬에 저장됩니다. 이후 요청이 실패하면 이전 작업 복사본을 계속 사용할 수 있습니다.</p></article>
@@ -150,13 +150,13 @@
 
     <section class="calculator-explanation shell" aria-labelledby="snapshot-title">
       <article>
-        <h2 id="snapshot-title">저장된 오프라인 요금의 의미</h2>
-        <p>저장된 데이터는 가장 최근에 성공한 참조율 응답의 스냅샷입니다. 네트워크 연결 없이도 전환수를 계산할 수 있지만 기기가 오프라인인 동안에는 숫자가 업데이트되지 않습니다.</p>
+        <h2 id="snapshot-title">저장된 오프라인 환율이란?</h2>
+        <p>저장된 데이터는 마지막으로 성공한 기준 환율 응답의 스냅샷입니다. 인터넷 없이도 환산할 수 있지만 기기가 오프라인인 동안에는 값이 갱신되지 않습니다.</p>
         <p>표시된 환율 날짜를 항상 확인하세요. 어제의 환율을 기준으로 한 결과는 여전히 계획에 유용할 수 있지만 은행, 카드 제공업체 또는 환전소가 오늘 제공할 환율을 약속하는 것은 아닙니다.</p>
       </article>
       <aside>
         <h2>인터넷이 다시 돌아오면 어떻게 되나요?</h2>
-        <p>Balkan Converter은 일반 변환 및 저장 세트 준비를 위해 하나의 공유 로컬 속도 캐시를 사용합니다. 성공적인 온라인 새로 고침은 이전에 캐시된 데이터 세트를 대체하고 해당 날짜와 저장 시간을 업데이트합니다.</p>
+        <p>Balkan Converter는 일반 환산과 저장된 세트의 오프라인 준비에 동일한 로컬 환율 캐시를 사용합니다. 온라인 갱신에 성공하면 이전 캐시를 새 데이터로 교체하고 데이터 날짜와 저장 시간을 업데이트합니다.</p>
         <p>새로 고침이 실패하면 앱은 삭제하는 대신 이전에 캐시된 속도로 돌아갑니다.</p>
       </aside>
     </section>
@@ -164,19 +164,19 @@
     <section class="calculator-explanation shell" aria-labelledby="prepare-title">
       <article>
         <h2 id="prepare-title">오프라인 사용을 위해 저장된 세트 준비</h2>
-        <p>Android 앱에서 필요한 통화에 대한 저장된 세트를 생성하거나 엽니다. 연결된 상태에서 다음을 선택하세요. <strong>오프라인 요금 저장</strong>. 앱은 공유 환율 데이터 세트를 새로 고치고 저장된 캐시에 해당 세트의 모든 통화가 포함되면 준비 상태를 확인합니다.</p>
-        <p>각 여행마다 별도의 고정 요금 파일이 없습니다. 다른 세트를 준비하면 앱의 다른 곳에서 사용된 것과 동일한 캐시가 새로 고쳐집니다.</p>
+        <p>Android 앱에서 필요한 통화에 대한 저장된 세트를 생성하거나 엽니다. 연결된 상태에서 다음을 선택하세요. <strong>오프라인 환율 저장</strong>. 앱은 공유 환율 데이터 세트를 새로 고치고 저장된 캐시에 해당 세트의 모든 통화가 포함되면 준비 상태를 확인합니다.</p>
+        <p>여행마다 별도의 고정 환율 파일이 만들어지는 것은 아닙니다. 다른 세트를 준비하면 앱의 다른 기능과 공유하는 동일한 캐시가 갱신됩니다.</p>
       </article>
       <aside>
         <h2>여행 그 이상으로 유용함</h2>
-        <p>오프라인 변환은 연결 상태가 좋지 않거나 로밍 중단, 일시적인 서비스 중단 또는 결과가 없는 것보다 빠른 참조 추정이 더 유용한 상황에서 도움이 될 수 있습니다.</p>
-        <p data-i18n-rich="offline-related-tools">For quick access to the latest cached pair, see the <a class="text-link" data-i18n-slot="widget" href="/ko/currency-converter-widget/">Android currency widget guide</a>. For online comparisons, use the <a class="text-link" data-i18n-slot="currency" href="/ko/currency-converter/">환율 계산기</a>, compare several results in the <a class="text-link" data-i18n-slot="multi" href="/ko/multi-currency-converter/">Multi-Currency Converter</a>, or check a provider’s offer with the <a class="text-link" data-i18n-slot="markup" href="/ko/exchange-rate-markup-calculator/">Exchange Rate Markup Calculator</a>.</p>
+        <p>오프라인 환산은 연결 불량, 로밍 중단, 일시적인 서비스 장애 등 결과가 전혀 없는 것보다 빠른 참고용 추정이 유용한 상황에 도움이 됩니다.</p>
+        <p data-i18n-rich="offline-related-tools">저장한 통화쌍에 빠르게 접근하려면 <a class="text-link" data-i18n-slot="widget" href="/ko/currency-converter-widget/">Android 위젯 안내</a>를 확인하세요. 온라인 환산에는 <a class="text-link" data-i18n-slot="currency" href="/ko/currency-converter/">통화 환산기</a>, 한 금액의 여러 통화 비교에는 <a class="text-link" data-i18n-slot="multi" href="/ko/multi-currency-converter/">다중 통화 환산기</a>, 제시액 확인에는 <a class="text-link" data-i18n-slot="markup" href="/ko/exchange-rate-markup-calculator/">환율 차이 계산기</a>를 이용할 수 있습니다.</p>
       </aside>
     </section>
 
     <section class="cta-section shell calculator-cta" aria-labelledby="offline-cta-title">
-      <div><p class="eyebrow eyebrow-inverse">날짜가 적힌 참고 자료를 편리하게 보관하세요</p><h2 id="offline-cta-title">Balkan Converter의 저장된 요금을 사용하세요.</h2><p>Android 앱은 연결 없이 최근에 성공한 환율 캐시를 재사용할 수 있으며 캐시된 데이터와 환율 날짜를 명확하게 식별합니다.</p></div>
-      <a class="play-link play-link-on-dark offline-play-cta" href="https://play.google.com/store/apps/details?id=io.github.nstim605.balkanconverter" aria-label="Google Play에서 Balkan Currency Converter 받기"><img src="/assets/google-play-badge-en.png" width="202" height="60" alt="Google Play에 구매하세요"></a>
+      <div><p class="eyebrow eyebrow-inverse">날짜가 적힌 참고 자료를 편리하게 보관하세요</p><h2 id="offline-cta-title">Balkan Converter에서 저장된 환율 사용</h2><p>Android 앱은 연결 없이 최근에 성공한 환율 캐시를 재사용할 수 있으며 캐시된 데이터와 환율 날짜를 명확하게 식별합니다.</p></div>
+      <a class="play-link play-link-on-dark offline-play-cta" href="https://play.google.com/store/apps/details?id=io.github.nstim605.balkanconverter" aria-label="Google Play에서 Balkan Currency Converter 받기"><img src="/assets/google-play-badge-en.png" width="202" height="60" alt="Google Play에서 다운로드"></a>
     </section>
   </main>
 
