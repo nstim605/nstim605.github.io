@@ -769,6 +769,44 @@
       "links": { "multi": "prevodníka viacerých mien", "currency": "prevodníku mien", "offline": "kurzy uložené na použitie offline" }
     }
   },
+  "fi": {
+    "currency-related-tools": {
+      "message": "Seuraa valuuttaparin kehitystä {history}-sivulla, vertaa yhtä summaa useissa valuutoissa {multi}-työkalulla, arvioi vaihtotarjousta {markup}-työkalulla tai vertaa kortti-, käteisnosto- ja DCC-kuluja {foreignFee}-työkalulla.",
+      "links": { "history": "valuuttakurssihistoria", "multi": "monivaluuttamuunnin", "markup": "kurssilisälaskuri", "foreignFee": "maksu- ja DCC-laskuri" }
+    },
+    "markup-related-tools": {
+      "message": "Vertaatko korttimaksua tai käteisnostoa tarjottuun korttivaluutan muunnokseen? Käytä {foreignFee}-työkalua. Tee valuuttaparin nopea muunnos {currency}-työkalulla. Vertaa yhtä summaa useissa valuutoissa {multi}-työkalulla; {offline} kertoo, miten tallennetut kurssit toimivat.",
+      "links": { "foreignFee": "maksu- ja DCC-laskuria", "currency": "valuuttamuunninta", "multi": "monivaluuttamuunninta", "offline": "opas käyttöön ilman internetiä" }
+    },
+    "multi-related-tools": {
+      "message": "Käytä yhdelle valuuttaparille {currency}-työkalua. Katso kehitys {history}-sivulta, arvioi vaihtotarjous {markup}-työkalulla ja lue {offline}-oppaasta, miten tallennettuja kursseja käytetään ilman internetiä.",
+      "links": { "currency": "valuuttamuunninta", "history": "valuuttakurssihistoriasta", "markup": "kurssilisälaskurilla", "offline": "oppaasta käyttöön ilman internetiä" }
+    },
+    "offline-related-tools": {
+      "message": "Saat tallennetun valuuttaparin nopeasti käyttöön {widget}-oppaasta. Tee verkkomuunnos {currency}-työkalulla, vertaa yhtä summaa useissa valuutoissa {multi}-työkalulla tai arvioi vaihtotarjous {markup}-työkalulla.",
+      "links": { "widget": "Android-widgetin", "currency": "valuuttamuuntimella", "multi": "monivaluuttamuuntimella", "markup": "kurssilisälaskurilla" }
+    },
+    "history-related-tools": {
+      "message": "Tee muunnos uusimmalla saatavilla olevalla kurssilla {currency}-työkalulla. Vertaa vaihtotarjousta viitekurssin mukaiseen tulokseen {markup}-työkalulla.",
+      "links": { "currency": "valuuttamuuntimella", "markup": "kurssilisälaskurilla" }
+    },
+    "widget-offline-guide": {
+      "message": "Ilman internetiä viimeksi tallennettu viitekurssi soveltuu edelleen arvioihin, ja päivämäärä kertoo tietojen iän. Lue lisää {offline}-oppaasta.",
+      "links": { "offline": "oppaasta käyttöön ilman internetiä" }
+    },
+    "widget-more-tools": {
+      "message": "Avaa sovellus, kun haluat syöttää summan, muuntaa valuuttoja, tarkastella {history}, verrata useita valuuttoja tai tallentaa kursseja käyttöön ilman internetiä.",
+      "links": { "history": "valuuttakurssihistoriaa" }
+    },
+    "foreign-related-tools": {
+      "message": "Jos haluat vain verrata vaihtotarjousta viitekurssin mukaiseen tulokseen, käytä {markup}-työkalua. Tavallinen kahden valuutan muunnos onnistuu {currency}-työkalulla.",
+      "links": { "markup": "kurssilisälaskuria", "currency": "valuuttamuunninta" }
+    },
+    "travel-related-tools": {
+      "message": "Vertaa yhtä summaa useissa valuutoissa {multi}-työkalulla, tee nopea muunnos {currency}-työkalulla tai lue, miten Android-sovellus käyttää {offline}.",
+      "links": { "multi": "monivaluuttamuuntimella", "currency": "valuuttamuuntimella", "offline": "tallennettuja kursseja ilman internetiä" }
+    }
+  },
   "nb": {
     "currency-related-tools": {
       "message": "Følg utviklingen for et valutapar i {history}, sammenlign ett beløp i flere valutaer med {multi}, vurder et vekslingstilbud med {markup}, eller sammenlign kostnader for kort, kontantuttak og DCC med {foreignFee}.",
