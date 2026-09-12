@@ -215,6 +215,44 @@
       }
     }
   },
+  "es-ES": {
+    "currency-related-tools": {
+      "message": "Consulta la evolución de un par de divisas en el {history}, compara un importe en varias divisas con el {multi}, evalúa una oferta de cambio con la {markup} o compara los costes de tarjeta, retirada y DCC con la {foreignFee}.",
+      "links": { "history": "historial de tipos", "multi": "conversor multidivisa", "markup": "calculadora de desviación del tipo de cambio", "foreignFee": "calculadora de comisiones y DCC" }
+    },
+    "markup-related-tools": {
+      "message": "¿Quieres comparar un pago con tarjeta o una retirada de efectivo con la conversión propuesta en la moneda de la tarjeta? Utiliza la {foreignFee}. Para convertir rápidamente un par de divisas, abre el {currency}. Para comparar un importe en varias divisas, utiliza el {multi}; la {offline} explica cómo funcionan los tipos guardados.",
+      "links": { "foreignFee": "calculadora de comisiones y DCC", "currency": "conversor de divisas", "multi": "conversor multidivisa", "offline": "guía de conversión sin conexión" }
+    },
+    "multi-related-tools": {
+      "message": "Para un solo par de divisas, utiliza el {currency}. Consulta su evolución en el {history}, evalúa una oferta de cambio con la {markup} o descubre cómo funciona la conversión sin Internet en la {offline}.",
+      "links": { "currency": "conversor de divisas", "history": "historial de tipos", "markup": "calculadora de desviación del tipo de cambio", "offline": "guía de conversión sin conexión" }
+    },
+    "offline-related-tools": {
+      "message": "Para consultar rápidamente un par de divisas guardado, utiliza la {widget}. Para convertir con conexión, abre el {currency}, compara un importe en varias divisas con el {multi} o evalúa una oferta de cambio con la {markup}.",
+      "links": { "widget": "guía del widget para Android", "currency": "conversor de divisas", "multi": "conversor multidivisa", "markup": "calculadora de desviación del tipo de cambio" }
+    },
+    "history-related-tools": {
+      "message": "Para convertir con el último tipo disponible, utiliza el {currency}. Para comparar una oferta de cambio con el resultado al tipo de referencia, abre la {markup}.",
+      "links": { "currency": "conversor de divisas", "markup": "calculadora de desviación del tipo de cambio" }
+    },
+    "widget-offline-guide": {
+      "message": "Sin Internet, el último tipo de referencia guardado sigue disponible para hacer estimaciones; la fecha indica la antigüedad de los datos. Consulta la {offline} para obtener más información.",
+      "links": { "offline": "guía de conversión sin conexión" }
+    },
+    "widget-more-tools": {
+      "message": "Abre la aplicación para introducir un importe, convertir divisas, consultar el {history}, comparar varias divisas o preparar tipos guardados para usarlos sin conexión.",
+      "links": { "history": "historial de tipos" }
+    },
+    "foreign-related-tools": {
+      "message": "Si solo quieres comparar una oferta de cambio con el resultado al tipo de referencia, utiliza la {markup}. Para una conversión normal entre dos divisas, abre el {currency}.",
+      "links": { "markup": "calculadora de desviación del tipo de cambio", "currency": "conversor de divisas" }
+    },
+    "travel-related-tools": {
+      "message": "Compara un importe en varias divisas con el {multi}, realiza una conversión rápida con el {currency} o descubre cómo utiliza la aplicación Android los {offline}.",
+      "links": { "multi": "conversor multidivisa", "currency": "conversor de divisas", "offline": "tipos guardados sin conexión" }
+    }
+  },
   "de": {
     "currency-related-tools": {
       "message": "Verfolgen Sie die Entwicklung eines Währungspaars im {history}; vergleichen Sie einen Betrag in mehreren Währungen mit dem {multi}; prüfen Sie ein Umtauschangebot mit dem {markup}; oder vergleichen Sie Kartenzahlung, Bargeldabhebung und DCC im {foreignFee}.",

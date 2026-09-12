@@ -8,6 +8,7 @@
     { "locale": "uk", "route": "uk", "language": "Ukrainian", "dir": "ltr", "widths": [320, 390, 1440] },
     { "locale": "de", "route": "de", "language": "German", "dir": "ltr", "widths": [320, 390, 768, 1440] },
     { "locale": "fr", "route": "fr", "language": "French", "dir": "ltr", "widths": [320, 390, 768, 1440] },
-    { "locale": "it", "route": "it", "language": "Italian", "dir": "ltr", "widths": [320, 390, 1440] }
+    { "locale": "it", "route": "it", "language": "Italian", "dir": "ltr", "widths": [320, 390, 1440] },
+    { "locale": "es-ES", "route": "es-es", "language": "Spanish Spain", "dir": "ltr", "widths": [320, 390, 1440] }
   ]
 }
