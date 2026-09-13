@@ -7,7 +7,8 @@ import {
   createAnalyticsInitializationController,
   createBasicConsentModeController,
   deniedWebsiteConsent,
-  grantedWebsiteAnalyticsConsent
+  grantedWebsiteAnalyticsConsent,
+  initializeAnalyticsConsent
 } from '../analytics-core.mjs';
 
 function commandList(windowLike) {
@@ -159,4 +160,25 @@ test('website Analytics source keeps consent ordering and never grants advertisi
   assert.ok(source.indexOf('consentMode.grantAnalytics();') < source.indexOf('return analyticsRuntime.enable();'));
   assert.ok(source.indexOf('consentMode.initializeDefault();') < source.indexOf("import('https://www.gstatic.com/firebasejs/"));
   assert.doesNotMatch(source, /ad_(?:storage|user_data|personalization)\s*:\s*['"]granted['"]/);
+});
+
+test('Google CMP suppresses only the automatic Analytics prompt', async () => {
+  let shown = 0;
+  await initializeAnalyticsConsent({
+    consent: null,
+    qaExcluded: false,
+    enableAnalytics: async () => {},
+    showConsentBanner: () => { shown += 1; },
+    automaticPromptAllowed: false
+  });
+  assert.equal(shown, 0);
+
+  await initializeAnalyticsConsent({
+    consent: null,
+    qaExcluded: false,
+    enableAnalytics: async () => {},
+    showConsentBanner: () => { shown += 1; },
+    automaticPromptAllowed: true
+  });
+  assert.equal(shown, 1);
 });

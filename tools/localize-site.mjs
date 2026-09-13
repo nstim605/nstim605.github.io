@@ -1,5 +1,6 @@
 import fs from 'node:fs/promises';
 import path from 'node:path';
+import { applyAdSenseIntegration } from './adsense-integration.mjs';
 import { createRunTimestamp, writeGeneratedJson } from './generated-json.mjs';
 import { resolveToolMessages } from './tool-localization-data.mjs';
 
@@ -358,7 +359,7 @@ function finalize(html, locale, page, copy, strings) {
     : html.replace('</body>', `${consent}\n</body>`);
   const marketingDescription = `${strings.about_description} ${strings.actual_cost_title} · ${strings.travel_board_title} · ${strings.trip_presets_title} · ${strings.prepare_offline} · ${strings.pinned_pairs_title} · ${strings.history_title} · ${strings.widget_description}.`;
   html = html.replace(/"description": "[^"]+"/, `"description": ${JSON.stringify(marketingDescription)}`);
-  return html;
+  return applyAdSenseIntegration(html, { privacyPolicy: page === 'policy' });
 }
 
 function localizeToolLinks(html, locale) {
@@ -367,7 +368,9 @@ function localizeToolLinks(html, locale) {
     (_, slug) => `href="${base}${slug}/"`);
   html = html.replaceAll('href="/privacy-policy.html', `href="${base}privacy-policy.html`);
   html = html.replaceAll('href="/"', `href="${base}"`);
-  return html.replaceAll(legacyGooglePlayBadge, localGooglePlayBadge);
+  return applyAdSenseIntegration(
+    html.replaceAll(legacyGooglePlayBadge, localGooglePlayBadge)
+  );
 }
 
 function finalizeTool(html, locale, slug, rawMap, copy, strings) {
@@ -468,7 +471,10 @@ for (const locale of locales) {
   if (preserveExistingPolicies) {
     const preservedPath = path.join(directory, 'privacy-policy.html');
     const existingPolicy = await fs.readFile(preservedPath, 'utf8');
-    const migratedPolicy = existingPolicy.replaceAll(legacyGooglePlayBadge, localGooglePlayBadge);
+    const migratedPolicy = applyAdSenseIntegration(
+      existingPolicy.replaceAll(legacyGooglePlayBadge, localGooglePlayBadge),
+      { privacyPolicy: true }
+    );
     if (migratedPolicy !== existingPolicy) await fs.writeFile(preservedPath, migratedPolicy);
   } else {
     await fs.writeFile(path.join(directory, 'privacy-policy.html'), policy);

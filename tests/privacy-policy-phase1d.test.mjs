@@ -4,6 +4,7 @@ import crypto from 'node:crypto';
 import fs from 'node:fs/promises';
 import path from 'node:path';
 import test from 'node:test';
+import { removeAdSenseIntegration } from '../tools/adsense-integration.mjs';
 import { promisify } from 'node:util';
 
 const root = path.resolve(import.meta.dirname, '..');
@@ -318,9 +319,12 @@ test('publication manifest has exactly 107 current, scoped entries', async () =>
     // The historical policy manifest remains immutable. Normalize only the one
     // explicitly approved badge URL migration before authenticating its bytes;
     // all legal text, dates and other markup remain pinned.
-    const digestContent = badgeMigration
-      ? Buffer.from(manifestContent.toString('utf8').replaceAll(localGooglePlayBadge, legacyGooglePlayBadge), 'utf8')
+    const approvedWebsiteIntegration = repository === 'Website'
+      ? Buffer.from(removeAdSenseIntegration(manifestContent.toString('utf8')), 'utf8')
       : manifestContent;
+    const digestContent = badgeMigration
+      ? Buffer.from(approvedWebsiteIntegration.toString('utf8').replaceAll(localGooglePlayBadge, legacyGooglePlayBadge), 'utf8')
+      : approvedWebsiteIntegration;
     const digest = crypto.createHash('sha256').update(digestContent).digest('hex');
     const pinnedCommit = repository === 'Website' && preservedPolicyFiles.has(file)
       ? publishedPolicyCommit

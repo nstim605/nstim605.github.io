@@ -103,14 +103,15 @@ export async function initializeAnalyticsConsent({
   consent,
   qaExcluded,
   enableAnalytics,
-  showConsentBanner
+  showConsentBanner,
+  automaticPromptAllowed = true
 }) {
   if (consent === 'granted') {
     if (!qaExcluded) await enableAnalytics();
     return;
   }
 
-  if (consent !== 'denied') showConsentBanner();
+  if (consent !== 'denied' && automaticPromptAllowed) showConsentBanner();
 }
 
 export async function applyAnalyticsConsentChoice({

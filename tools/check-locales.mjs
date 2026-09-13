@@ -28,7 +28,13 @@ function fileForUrl(url) {
 }
 
 function visibleStrings(html) {
-  const withoutScripts = html.replace(/<script[\s\S]*?<\/script>/g, '').replace(/<style[\s\S]*?<\/style>/g, '');
+  const withoutScripts = html
+    .replace(/<script[\s\S]*?<\/script>/g, '')
+    .replace(/<style[\s\S]*?<\/style>/g, '')
+    // Shared legal disclosures may intentionally remain in English when the
+    // element declares that language explicitly. Do not misclassify them as
+    // leaked localization source strings.
+    .replace(/<section\b[^>]*\blang="en"[^>]*>[\s\S]*?<\/section>/g, '');
   const values = new Set();
   withoutScripts.replace(/>([^<>]+)</g, (_, value) => {
     const text = value.trim(); if (/[\p{L}\p{N}]/u.test(text) && text !== '2026') values.add(text); return _;

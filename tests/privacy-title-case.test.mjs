@@ -3,6 +3,7 @@ import fs from 'node:fs/promises';
 import path from 'node:path';
 import { execFileSync } from 'node:child_process';
 import test from 'node:test';
+import { removeAdSenseIntegration } from '../tools/adsense-integration.mjs';
 
 const root = path.resolve(import.meta.dirname, '..');
 const manifest = JSON.parse(await fs.readFile(path.join(root, 'site-locales.json'), 'utf8'));
@@ -79,7 +80,7 @@ test('all 44 policy HTML files retain every byte except approved standalone init
       const current = await read(file);
       assert.match(current, /src="\/assets\/google-play-badge-en\.png"/, file + ': local badge');
       assert.doesNotMatch(current, /en_badge_web_generic\.png/, file + ': legacy badge');
-      assert.equal(current.replaceAll(localGooglePlayBadge, legacyGooglePlayBadge), original,
+      assert.equal(removeAdSenseIntegration(current).replaceAll(localGooglePlayBadge, legacyGooglePlayBadge), original,
         file + ': legal text, dates, URLs and other copy untouched');
     }
   }

@@ -12,6 +12,9 @@ import {
 } from './analytics-core.mjs';
 
 const analyticsQaEnvironment = isAnalyticsQaEnvironment(window.location);
+const advertisingCmpPresent = Boolean(document.querySelector(
+  'script[src^="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client="]'
+));
 
 const firebaseConfig = {
   apiKey: 'AIzaSyCnJTlzhTVyoT3Nokfm9N3i2D-7LiWRwuM',
@@ -151,7 +154,11 @@ function bootstrapAnalytics() {
     consent: storedConsent(),
     qaExcluded: analyticsQaEnvironment,
     enableAnalytics,
-    showConsentBanner
+    showConsentBanner,
+    // Google's certified CMP owns the automatic first-visit advertising prompt.
+    // Keep the separate Analytics choice available from the footer without
+    // stacking two dialogs on first visit.
+    automaticPromptAllowed: !advertisingCmpPresent
   });
 }
 
