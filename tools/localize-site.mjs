@@ -44,6 +44,7 @@ const resourceFolders = {
   'pt-PT': 'values-pt-rPT', 'zh-Hans': 'values-b+zh+Hans', 'zh-Hant': 'values-b+zh+Hant'
 };
 const webCopy = JSON.parse(await fs.readFile(path.join(root, 'tools', 'web-copy.json'), 'utf8'));
+const homepageLinkCopy = JSON.parse(await fs.readFile(path.join(root, 'tools', 'homepage-link-copy.json'), 'utf8'));
 const privacyTitleCopy = JSON.parse(await fs.readFile(path.join(root, 'tools', 'privacy-title-copy.json'), 'utf8'));
 const phase1dPolicyCopy = JSON.parse(await fs.readFile(path.join(root, 'tools', 'privacy-policy-phase1d.json'), 'utf8'));
 const phase1dPolicySupplement = JSON.parse(await fs.readFile(path.join(root, 'tools', 'privacy-policy-phase1d-supplement.json'), 'utf8'));
@@ -112,7 +113,7 @@ const esc = value => String(value).replaceAll('&', '&amp;').replaceAll('"', '&qu
 const brand = 'Balkan Currency Converter';
 const webPolicyDate = value => value;
 
-function localMap(strings, copy, privacyTitle) {
+function localMap(strings, copy, privacyTitle, linkCopy) {
   const calculator = [strings.calculator_add, strings.calculator_subtract, strings.calculator_multiply, strings.calculator_divide].join(' · ');
   const map = {
     'Balkan Currency Converter — Convert currencies quickly, anywhere': `${brand} — ${copy.h1}`,
@@ -147,6 +148,7 @@ function localMap(strings, copy, privacyTitle) {
     'View several currencies together and reorder them for each trip.': `${strings.add_currency}. ${strings.move_up} / ${strings.move_down}.`,
     'Saved sets &amp; offline travel': `${strings.trip_presets_title} · ${strings.prepare_offline}`,
     'Open saved trip sets and prepare their rates for offline use.': `${strings.trip_presets_explanation} ${strings.prepare_offline}.`,
+    'Learn how offline rates work': linkCopy.offlineGuide,
     'Pinned pairs': strings.pinned_pairs_title,
     'Pin a pair from History for quick access.': strings.no_pinned_pairs_body,
     'History &amp; 30-day charts': strings.history_title,
@@ -445,10 +447,11 @@ for (const locale of locales) {
   if (!copy) throw new Error(`${locale.android}: missing local web copy (${locale.web})`);
   if (!policyCopy) throw new Error(`${locale.android}: missing Phase 1D policy copy (${locale.web})`);
   if (!copy.marketingSummary) throw new Error(`${locale.android}: missing localized marketing summary (${locale.web})`);
+  if (!homepageLinkCopy[locale.web]?.offlineGuide) throw new Error(`${locale.android}: missing localized homepage offline guide link (${locale.web})`);
   const { strings, folder } = await androidStrings(locale);
   // Explicit standalone copy; never change case inside the legal policy body.
   const privacyTitle = privacyTitleCopy[locale.web]?.title ?? strings.privacy_policy;
-  const map = localMap(strings, copy, privacyTitle);
+  const map = localMap(strings, copy, privacyTitle, homepageLinkCopy[locale.web]);
   let home = locale.android === 'en' ? homeTemplate : applyMap(homeTemplate, map);
   let policy = policyTemplate.replace(/    <article class="policy-card">[\s\S]*?    <\/article>/, policyArticle(strings, copy, policyCopy));
   policy = applyMap(policy, map);

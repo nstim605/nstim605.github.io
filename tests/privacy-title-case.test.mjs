@@ -90,7 +90,7 @@ test('generator uses explicit standalone copy without case-transforming legal te
   const generator = await read('tools/localize-site.mjs');
   assert.ok(generator.includes("'privacy-title-copy.json'"));
   assert.ok(generator.includes('privacyTitleCopy[locale.web]?.title ?? strings.privacy_policy'));
-  assert.ok(generator.includes('localMap(strings, copy, privacyTitle)'));
+  assert.ok(generator.includes('localMap(strings, copy, privacyTitle, homepageLinkCopy[locale.web])'));
   assert.ok(generator.includes("'Privacy': privacyTitle"));
   assert.ok(generator.includes("'Privacy Policy': privacyTitle"));
   assert.doesNotMatch(generator, /to(?:Locale)?UpperCase|text-transform|capitalize/);

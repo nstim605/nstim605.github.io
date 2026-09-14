@@ -3,7 +3,7 @@
     "tools/templates/index.html",
     "tools/templates/privacy-policy.html"
   ],
-  "generatedAt": "2026-09-13T03:56:40.582Z",
+  "generatedAt": "2026-09-14T14:42:33.911Z",
   "home": [
     "Balkan Currency Converter — Convert currencies quickly, anywhere",
     "Skip to content",
@@ -28,6 +28,7 @@
     "View several currencies together and reorder them for each trip.",
     "Saved sets &amp; offline travel",
     "Open saved trip sets and prepare their rates for offline use.",
+    "Learn how offline rates work",
     "Pinned pairs",
     "Pin a pair from History for quick access.",
     "History &amp; 30-day charts",
