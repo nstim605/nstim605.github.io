@@ -33,12 +33,28 @@ const currencyRules = [
 
 const categoryRules = [
   ['Interest Rates', /\b(?:interest rates?|policy rates?|reference rates?|basis points?|kamatn\w* stop\w*|referentn\w* stop\w*)\b|(?:процентн\w* ставк\w*|ключев\w* ставк\w*)/iu],
-  ['Inflation', /\b(?:inflation|consumer prices?|CPI|inflacij\w*|инфляц\w*)\b/iu],
+  ['Inflation', /\b(?:inflation|consumer prices?|CPI|consumer expectations?|inflation expectations?|wage growth|inflacij\w*|инфлац\w*)\b/iu],
+  ['Economy', /\b(?:economy|economic (?:growth|projections?)|GDP|employment|unemployment|privred\w*|экономик\w*)\b/iu],
   ['Central Banks', /\b(?:central bank|Federal Reserve|FOMC|ECB|NBS|Bank of England|Bank of Japan)\b/iu],
   ['Commodities', /\b(?:oil|gold|gas|commodity|commodities)\b/iu],
   ['Forex', /\b(?:foreign exchange|forex|FX market)\b/iu],
-  ['Economy', /\b(?:economy|economic growth|GDP|employment|unemployment|privred\w*|экономик\w*)\b/iu]
 ];
+
+const issuerAliases = Object.freeze([
+  ['ecb', /^(?:ecb|european-central-bank)$/],
+  ['federal-reserve', /^(?:fed|federal-reserve|board-of-governors-of-the-federal-reserve-system|fomc)$/],
+  ['nbs', /^(?:nbs(?:-.+)?|national-bank-of-serbia|narodna-banka-srbije)$/]
+]);
+
+const eventTypeRules = Object.freeze([
+  ['inflation-expectations', /\b(?:consumer expectations? survey|inflation expectations?|inflacion\w* ocekiv\w*|inflacion\w* očekiv\w*)\b|(?:инфляц\w* ожидан\w*)/iu],
+  ['economic-projections', /\b(?:economic projections?|summary of economic projections?|macroeconomic projections?)\b|(?:макроэкономическ\w* прогноз\w*)/iu],
+  ['forward-looking-wage-indicator', /\b(?:wage tracker|forward-looking wage|negotiated wage growth)\b/iu],
+  ['operational-framework', /\b(?:collateral eligibility|collateral framework|haircut schedules?|rating methodology|external ratings?|operational framework|implementation guidelines?|monetary policy implementation)\b/iu],
+  ['interest-rate-decision', /\b(?:(?:key|policy|reference|deposit|lending|federal funds|interest) rates?).*\b(?:unchanged|held|kept|keeps|raised?|increased?|lowered?|cut|reduced?)\b|\b(?:unchanged|held|kept|keeps|raised?|increased?|lowered?|cut|reduced?).*\b(?:(?:key|policy|reference|deposit|lending|federal funds|interest) rates?)\b|referentn\w*\s+kamatn\w*\s+stop\w*.*(?:zadrz\w*|zadrž\w*|povec\w*|poveć\w*|smanj\w*)|(?:референтн\w*|каматн\w*)\s+стоп\w*.*(?:задрж\w*|повећ\w*|смањ\w*)|(?:ключев\w*|процентн\w*)\s+ставк\w*.*(?:сохран\w*|повыс\w*|сниз\w*)/iu],
+  ['inflation-release', /\b(?:inflation movements?|inflation (?:stood|was|rose|increased|fell|declined)|consumer prices? (?:rose|increased|fell|declined)|CPI (?:rose|increased|fell|declined))\b|(?:инфлац\w* (?:износ\w*|порас\w*|смањ\w*)|инфляц\w* (?:состав\w*|вырос\w*|сниз\w*))/iu],
+  ['monetary-policy-decision', /\b(?:monetary policy decisions?|FOMC statement|policy decision)\b|(?:одлук\w* о монетарн\w* политиц\w*|решен\w* по денежно-кредитн\w* политик\w*)/iu]
+]);
 
 const stopWords = new Set([
   'a', 'an', 'and', 'at', 'by', 'for', 'from', 'in', 'its', 'of', 'on', 'the', 'to', 'with',
@@ -47,6 +63,12 @@ const stopWords = new Set([
 
 export function normalizeWhitespace(value = '') {
   return String(value).replace(/\s+/g, ' ').trim();
+}
+
+export function canonicalizeSourceUrl(value, base) {
+  const url = base ? new URL(value, base) : new URL(value);
+  url.pathname = url.pathname.replace(/\/{2,}/g, '/');
+  return url.href;
 }
 
 export function stripMarkup(value = '') {
@@ -83,6 +105,94 @@ export function detectCategory(...values) {
   return categoryRules.find(([, pattern]) => pattern.test(text))?.[0] ?? 'Currency';
 }
 
+function normalizedAlias(value = '') {
+  return normalizeWhitespace(value).toLowerCase()
+    .normalize('NFKD')
+    .replace(/[\u0300-\u036f]/g, '')
+    .replace(/[^a-z0-9]+/g, '-')
+    .replace(/^-+|-+$/g, '');
+}
+
+function itemText(item = {}) {
+  const translations = Object.values(item.translations ?? {}).flatMap(translation => Object.values(translation ?? {}));
+  const sources = (item.sources ?? [item.source].filter(Boolean)).flatMap(source => [source?.name, source?.originalTitle]);
+  return normalizeWhitespace([
+    item.originalTitle,
+    item.title,
+    item.description,
+    item.summary,
+    item.whatHappened,
+    ...translations,
+    ...sources
+  ].filter(Boolean).join(' '));
+}
+
+export function detectEditorialTypes(...values) {
+  const text = normalizeWhitespace(values.flat().filter(Boolean).join(' '));
+  const types = [];
+  if (/\b(?:survey|questionnaire)\b|(?:анкет\w*|истраживањ\w*)/iu.test(text)) types.push('survey');
+  if (/\bexpectations?\b|(?:очекивањ\w*|ожидан\w*)/iu.test(text)) types.push('expectations');
+  if (/\bprojections?\b|(?:пројекциј\w*|прогноз\w*)/iu.test(text)) types.push('projections');
+  if (/\bforecasts?\b|(?:прогноз\w*)/iu.test(text)) types.push('forecast');
+  if (/\b(?:forward-looking|wage tracker|dot plot)\b/iu.test(text)) types.push('forward-looking-indicator');
+  return [...new Set(types)];
+}
+
+export function normalizeIssuer(item = {}) {
+  const sources = item.sources ?? [item.source].filter(Boolean);
+  for (const source of sources) {
+    for (const value of [source?.sourceId, source?.name]) {
+      const alias = normalizedAlias(value);
+      const known = issuerAliases.find(([, pattern]) => pattern.test(alias));
+      if (known) return known[0];
+    }
+  }
+  return null;
+}
+
+export function detectEventType(item = {}) {
+  const title = normalizeWhitespace(item.originalTitle || item.title || '');
+  const fullText = itemText(item);
+  for (const [type, pattern] of eventTypeRules) {
+    if (pattern.test(title)) return type;
+  }
+  for (const [type, pattern] of eventTypeRules) {
+    if (pattern.test(fullText)) return type;
+  }
+  return null;
+}
+
+export function extractKeyNumericalValues(...values) {
+  const text = normalizeWhitespace(values.flat().filter(Boolean).join(' '));
+  const results = new Set();
+  for (const match of text.matchAll(/(-?\d+(?:[.,]\d+)?)\s*(%|percent(?:age points?)?|basis points?|bps?)\b/giu)) {
+    const number = Number(match[1].replace(',', '.'));
+    const rawUnit = match[2].toLowerCase();
+    const unit = rawUnit.startsWith('basis') || rawUnit.startsWith('bp') ? 'bp' : '%';
+    if (Number.isFinite(number)) results.add(`${number}:${unit}`);
+  }
+  return results;
+}
+
+export function classifyCandidate(candidate) {
+  const sourceTitles = (candidate.sources ?? []).map(source => source.originalTitle);
+  const currencies = [...new Set([
+    ...(candidate.currencyHints ?? candidate.currencies ?? []),
+    ...detectCurrencies(candidate.originalTitle, candidate.description, sourceTitles)
+  ])];
+  const editorialTypes = detectEditorialTypes(candidate.originalTitle, candidate.description, sourceTitles);
+  const { currencyHints, ...classified } = candidate;
+  return {
+    ...classified,
+    category: detectCategory(candidate.originalTitle, candidate.description, sourceTitles),
+    currencies,
+    editorialTypes,
+    status: currencies.length > 0 ? 'pending' : 'rejected',
+    indexable: false,
+    rejectionReason: currencies.length > 0 ? null : 'No supported currency could be identified'
+  };
+}
+
 function titleTokens(value) {
   return new Set(normalizeWhitespace(value).toLowerCase()
     .normalize('NFKD')
@@ -111,18 +221,37 @@ function dateDistanceHours(left, right) {
 export function isSameEvent(left, right, { similarityThreshold = 0.55, windowHours = 48 } = {}) {
   const leftSources = left.sources ?? [left.source].filter(Boolean);
   const rightSources = right.sources ?? [right.source].filter(Boolean);
-  const leftUrls = new Set(leftSources.map(source => source?.originalUrl).filter(Boolean));
-  const rightUrls = new Set(rightSources.map(source => source?.originalUrl).filter(Boolean));
+  const canonicalUrl = value => {
+    try { return canonicalizeSourceUrl(value); } catch { return value; }
+  };
+  const leftUrls = new Set(leftSources.map(source => source?.originalUrl).filter(Boolean).map(canonicalUrl));
+  const rightUrls = new Set(rightSources.map(source => source?.originalUrl).filter(Boolean).map(canonicalUrl));
   if ([...leftUrls].some(url => rightUrls.has(url))) return true;
 
   const leftIds = new Set(leftSources.map(source => `${source?.sourceId}:${source?.externalId}`).filter(value => !value.endsWith(':undefined')));
   const rightIds = new Set(rightSources.map(source => `${source?.sourceId}:${source?.externalId}`).filter(value => !value.endsWith(':undefined')));
   if ([...leftIds].some(id => rightIds.has(id))) return true;
 
-  if (dateDistanceHours(left.publishedAt, right.publishedAt) > windowHours) return false;
-  const leftCurrencies = new Set(left.currencies ?? []);
-  const sharesCurrency = (right.currencies ?? []).some(code => leftCurrencies.has(code));
+  const distanceHours = dateDistanceHours(left.publishedAt, right.publishedAt);
+  if (distanceHours > windowHours) return false;
+  const leftCurrencyValues = left.currencies ?? left.currencyHints ?? detectCurrencies(itemText(left));
+  const rightCurrencyValues = right.currencies ?? right.currencyHints ?? detectCurrencies(itemText(right));
+  const leftCurrencies = new Set(leftCurrencyValues);
+  const sharesCurrency = rightCurrencyValues.some(code => leftCurrencies.has(code));
   if (!sharesCurrency) return false;
+
+  const leftIssuer = normalizeIssuer(left);
+  const rightIssuer = normalizeIssuer(right);
+  const leftEventType = detectEventType(left);
+  const rightEventType = detectEventType(right);
+  if (leftIssuer && rightIssuer && leftIssuer === rightIssuer && leftEventType && leftEventType === rightEventType) {
+    const sameCalendarDate = new Date(left.publishedAt).toISOString().slice(0, 10) === new Date(right.publishedAt).toISOString().slice(0, 10);
+    const leftValues = extractKeyNumericalValues(itemText(left));
+    const rightValues = extractKeyNumericalValues(itemText(right));
+    const sharesValue = [...leftValues].some(value => rightValues.has(value));
+    if (sameCalendarDate || sharesValue || (leftEventType === 'interest-rate-decision' && distanceHours <= 36)) return true;
+  }
+  if (leftIssuer && rightIssuer && leftIssuer !== rightIssuer) return false;
   return titleSimilarity(left.originalTitle ?? left.title, right.originalTitle ?? right.title) >= similarityThreshold;
 }
 
@@ -141,9 +270,14 @@ export function deduplicateStories(items, options) {
     }
     const incomingSources = item.sources ?? [item.source].filter(Boolean);
     for (const source of incomingSources) {
-      if (!existing.sources.some(current => current.originalUrl === source.originalUrl)) existing.sources.push(source);
+      const incomingUrl = (() => { try { return canonicalizeSourceUrl(source.originalUrl); } catch { return source.originalUrl; } })();
+      if (!existing.sources.some(current => {
+        try { return canonicalizeSourceUrl(current.originalUrl) === incomingUrl; } catch { return current.originalUrl === source.originalUrl; }
+      })) existing.sources.push(source);
     }
     existing.currencies = [...new Set([...(existing.currencies ?? []), ...(item.currencies ?? [])])];
+    existing.currencyHints = [...new Set([...(existing.currencyHints ?? []), ...(item.currencyHints ?? [])])];
+    if ((item.description?.length ?? 0) > (existing.description?.length ?? 0)) existing.description = item.description;
     existing.duplicateIds.push(item.id);
     existing.duplicates.push({ id: item.id, status: 'duplicate', indexable: false, sources: incomingSources });
   }
@@ -191,12 +325,45 @@ export function validateStoryQuality(story) {
 const sourceHosts = Object.freeze({
   ecb: ['ecb.europa.eu', 'www.ecb.europa.eu'],
   'federal-reserve': ['federalreserve.gov', 'www.federalreserve.gov'],
+  nbs: ['nbs.rs', 'www.nbs.rs'],
   'nbs-executive-board': ['nbs.rs', 'www.nbs.rs'],
   'nbs-monetary-policy': ['nbs.rs', 'www.nbs.rs']
 });
 
 const moderationSignals = /\b(?:monetary policy|policy rate|interest rate|key rate|reference rate|fomc statement|economic projections?|inflation|consumer expectations?|wage growth|foreign exchange|exchange rate|monetary policy implementation|kamatn\w* stop\w*|referentn\w* stop\w*)\b|(?:монетарн\w* политик\w*|каматн\w* стоп\w*|референтн\w* стоп\w*|инфлац\w*|девизн\w* курс\w*)/iu;
 const moderationExclusions = /\b(?:interview|speech|hearing|resign|banknotes?|cash|task force|tokenised securities|digitalisation of money)\b/iu;
+
+export function assessCandidateValue(candidate) {
+  const text = itemText(candidate);
+  const eventType = detectEventType(candidate);
+  const numericalFacts = extractKeyNumericalValues(text);
+  const hasOfficialDataAttachment = (candidate.sources ?? []).some(source => source.metadata?.role === 'data');
+  const baseScores = {
+    'interest-rate-decision': 4,
+    'inflation-release': 4,
+    'inflation-expectations': 3,
+    'economic-projections': 3,
+    'monetary-policy-decision': 3,
+    'operational-framework': 0,
+    'forward-looking-wage-indicator': 0
+  };
+  let score = baseScores[eventType] ?? 0;
+  score += Math.min(numericalFacts.size, 2);
+  if (hasOfficialDataAttachment) score += 1;
+  if (/\b(?:foreign exchange|exchange rate|purchasing power)\b|(?:девизн\w* курс\w*|куповн\w* моћ\w*)/iu.test(text)) score += 2;
+
+  const reasons = [];
+  if (eventType === 'operational-framework') {
+    score -= 3;
+    reasons.push('standalone value is too low: predominantly technical or operational central-bank material');
+  }
+  if (eventType === 'forward-looking-wage-indicator') {
+    score -= 2;
+    reasons.push('standalone value is too low: specialized forward-looking wage indicator');
+  }
+  if (score < 3 && reasons.length === 0) reasons.push('standalone value is too low for Balkan Converter users');
+  return { ok: score >= 3, score, eventType, numericalFacts: [...numericalFacts], reasons };
+}
 
 export function validateCandidateQuality(candidate, { now = new Date(), maximumAgeDays = 21 } = {}) {
   const errors = [];
@@ -212,7 +379,7 @@ export function validateCandidateQuality(candidate, { now = new Date(), maximumA
     if (ageDays < -1) errors.push('publication date is unexpectedly in the future');
     if (ageDays > maximumAgeDays) errors.push(`candidate is older than ${maximumAgeDays} days`);
   }
-  if (!moderationSignals.test(title)) errors.push('title does not contain a supported monetary-policy signal');
+  if (!moderationSignals.test(normalizeWhitespace(`${title} ${candidate?.description ?? ''}`))) errors.push('candidate does not contain a supported monetary-policy signal');
   if (moderationExclusions.test(title)) errors.push('title matches an excluded low-priority content type');
   if (!Array.isArray(candidate?.sources) || candidate.sources.length === 0) errors.push('at least one official source is required');
   for (const source of candidate?.sources ?? []) {
@@ -229,6 +396,8 @@ export function validateCandidateQuality(candidate, { now = new Date(), maximumA
       errors.push('source URL must be valid');
     }
   }
+  const valueAssessment = assessCandidateValue(candidate);
+  if (!valueAssessment.ok) errors.push(...valueAssessment.reasons);
   return { ok: errors.length === 0, errors };
 }
 

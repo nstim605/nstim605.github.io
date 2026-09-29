@@ -45,6 +45,7 @@ function stableDraft(candidate, translations) {
     status: 'draft',
     indexable: false,
     currencies: candidate.currencies,
+    editorialTypes: candidate.editorialTypes ?? [],
     translations: translations ?? null,
     sources: candidate.sources
   };
@@ -60,8 +61,9 @@ function stableDraft(candidate, translations) {
 
 function reportMarkdown(report) {
   const proposed = report.proposed.map(item => {
-    const sources = item.sources.map(source => `[${markdownText(source.name)}](${source.url})`).join(', ');
-    return `| ${markdownText(item.title)} | ${item.currencies.join(', ')} | ${markdownText(item.category)} | ${sources} | ${item.publishedAt.slice(0, 10)} | ${item.candidateQuality ? 'pass' : 'fail'} | ${item.publicationReady ? 'ready' : 'editorial work required'} |`;
+    const sources = item.sources.map(source => `[${markdownText(source.name)}](${source.url})${source.role === 'data' ? ' (data)' : ''}`).join(', ');
+    const editorialTypes = item.editorialTypes.length ? item.editorialTypes.map(markdownText).join(', ') : 'event';
+    return `| ${markdownText(item.title)} | ${item.currencies.join(', ')} | ${markdownText(item.category)} | ${editorialTypes} | ${sources} | ${item.publishedAt.slice(0, 10)} | ${item.candidateQuality ? 'pass' : 'fail'} | ${item.publicationReady ? 'ready' : 'editorial work required'} |`;
   });
   const rejected = report.rejected.slice(0, 20).map(item => `- **${markdownText(item.title)}** — ${item.reasons.map(markdownText).join('; ')}`);
   const duplicates = report.duplicates.slice(0, 20).map(item => `- **${markdownText(item.title)}** — ${markdownText(item.reason)}`);
@@ -74,6 +76,7 @@ Generated from official machine-readable sources at ${report.generatedAt}.
 ## Run summary
 
 - Candidates inspected: ${report.summary.candidatesInspected}
+- Existing open drafts re-evaluated: ${report.summary.reconsideredDrafts}
 - New moderation drafts: ${report.summary.proposed}
 - Open moderation drafts: ${report.summary.openDrafts}
 - Publication-ready open drafts: ${report.summary.publicationReady}
@@ -85,7 +88,7 @@ Merging this PR must never publish an incomplete draft. A draft becomes public o
 
 ## Open moderation drafts
 
-${proposed.length ? `| Story | Currencies | Category | Sources | Original date | Candidate gate | Publication gate |\n| --- | --- | --- | --- | --- | --- | --- |\n${proposed.join('\n')}` : 'No open drafts.'}
+${proposed.length ? `| Story | Currencies | Category | Editorial type | Sources | Original date | Candidate gate | Publication gate |\n| --- | --- | --- | --- | --- | --- | --- | --- |\n${proposed.join('\n')}` : 'No open drafts.'}
 
 ## Rejected candidates
 
@@ -98,6 +101,7 @@ ${duplicates.length ? `${duplicates.join('\n')}${duplicateRemainder ? `\n- …an
 ## Reviewer checklist
 
 - Open every official source link in \`news/data/drafts.json\` and verify the facts.
+- Treat surveys, expectations, projections, forecasts and forward-looking indicators as attributed source material, never as observed facts or guaranteed outcomes.
 - Write original, neutral EN/SR/RU copy; do not paste source excerpts or add forecasts/advice.
 - Run \`node tools/news/promote-draft.mjs <draft-id>\` for each approved draft.
 - Run \`node tools/news/generate-news.mjs\` and \`node --test tests/*.test.mjs\`.
@@ -123,11 +127,55 @@ export async function prepareModeration({
     schemaVersion: 1,
     generatedAt: now.toISOString(),
     contentProvider: contentProvider.constructor?.name ?? 'custom provider',
-    summary: { candidatesInspected: 0, proposed: 0, openDrafts: 0, publicationReady: 0, rejected: 0, duplicates: 0 },
+    summary: { candidatesInspected: 0, reconsideredDrafts: 0, proposed: 0, openDrafts: 0, publicationReady: 0, rejected: 0, duplicates: 0 },
     proposed: [], rejected: [], duplicates: []
   };
-  const knownStories = [...(stories.stories ?? []), ...nextDrafts.drafts];
   const candidates = [...(inbox.candidates ?? [])].sort((left, right) => Date.parse(right.publishedAt) - Date.parse(left.publishedAt));
+  const candidatesById = new Map(candidates.map(candidate => [candidate.id, candidate]));
+  const publishedStories = stories.stories ?? [];
+  let draftsReconciled = false;
+  const retainedDrafts = [];
+
+  for (const currentDraft of nextDrafts.drafts) {
+    const candidate = candidatesById.get(currentDraft.candidateId);
+    if (!candidate) {
+      retainedDrafts.push(currentDraft);
+      continue;
+    }
+    report.summary.reconsideredDrafts += 1;
+    const processedAt = now.toISOString();
+    const duplicateOf = publishedStories.find(story => isSameEvent(story, candidate));
+    if (duplicateOf) {
+      const reason = `same event as ${duplicateOf.id}`;
+      nextState.processed[candidate.id] = { status: 'duplicate', canonicalStoryId: duplicateOf.id, reason, processedAt };
+      report.summary.duplicates += 1;
+      report.duplicates.push({ id: candidate.id, title: candidate.originalTitle, reason, reconsideredDraft: true });
+      draftsReconciled = true;
+      continue;
+    }
+    const candidateQuality = validateCandidateQuality(candidate, { now });
+    if (!candidateQuality.ok) {
+      nextState.processed[candidate.id] = { status: 'rejected', reasons: candidateQuality.errors, processedAt };
+      report.summary.rejected += 1;
+      report.rejected.push({ id: candidate.id, title: candidate.originalTitle, reasons: candidateQuality.errors, reconsideredDraft: true });
+      draftsReconciled = true;
+      continue;
+    }
+
+    const refreshedDraft = {
+      ...currentDraft,
+      category: candidate.category,
+      currencies: candidate.currencies,
+      editorialTypes: candidate.editorialTypes ?? [],
+      sources: candidate.sources
+    };
+    const publicationQuality = validateStoryQuality({ ...refreshedDraft, status: 'published', indexable: true });
+    refreshedDraft.quality = { publicationReady: publicationQuality.ok, errors: publicationQuality.errors };
+    if (JSON.stringify(refreshedDraft) !== JSON.stringify(currentDraft)) draftsReconciled = true;
+    retainedDrafts.push(refreshedDraft);
+  }
+  nextDrafts.drafts = retainedDrafts;
+  const knownStories = [...publishedStories, ...nextDrafts.drafts];
 
   for (const candidate of candidates) {
     if (nextState.processed[candidate.id]) continue;
@@ -180,8 +228,9 @@ export async function prepareModeration({
     title: draft.sources?.[0]?.originalTitle ?? draft.id,
     currencies: draft.currencies,
     category: draft.category,
+    editorialTypes: draft.editorialTypes ?? [],
     publishedAt: draft.publishedAt,
-    sources: (draft.sources ?? []).map(source => ({ name: source.name, url: source.originalUrl })),
+    sources: (draft.sources ?? []).map(source => ({ name: source.name, url: source.originalUrl, role: source.metadata?.role ?? 'primary' })),
     candidateQuality: true,
     publicationReady: draft.quality?.publicationReady === true,
     publicationErrors: draft.quality?.errors ?? []
@@ -189,7 +238,7 @@ export async function prepareModeration({
   report.summary.openDrafts = report.proposed.length;
   report.summary.publicationReady = report.proposed.filter(draft => draft.publicationReady).length;
 
-  const processedThisRun = report.summary.candidatesInspected > 0 || report.summary.duplicates > 0;
+  const processedThisRun = draftsReconciled || report.summary.candidatesInspected > 0 || report.summary.duplicates > 0;
   if (processedThisRun) nextState.updatedAt = now.toISOString();
   return { drafts: nextDrafts, state: nextState, report, processedThisRun };
 }

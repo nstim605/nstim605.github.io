@@ -1,7 +1,7 @@
 import fs from 'node:fs/promises';
 import path from 'node:path';
 import { fileURLToPath, pathToFileURL } from 'node:url';
-import { deduplicateStories } from './core.mjs';
+import { classifyCandidate, deduplicateStories } from './core.mjs';
 import { automatedNewsSources } from './sources.mjs';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '../..');
@@ -44,7 +44,7 @@ export async function collectNewsCandidates({
     };
   });
 
-  return { candidates: deduplicateStories(candidates), sourceRuns };
+  return { candidates: deduplicateStories(candidates).map(classifyCandidate), sourceRuns };
 }
 
 function comparableCandidate(candidate) {
