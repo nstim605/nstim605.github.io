@@ -218,7 +218,11 @@ export async function prepareModerationFiles({ paths = defaultPaths, contentProv
     ]);
   }
   if (githubOutput) {
-    await appendFile(githubOutput, `new_drafts=${result.report.summary.proposed}\nprocessed=${result.report.summary.candidatesInspected}\n`, 'utf8');
+    await appendFile(
+      githubOutput,
+      `new_drafts=${result.report.summary.proposed}\nprocessed=${result.report.summary.candidatesInspected}\nopen_drafts=${result.report.summary.openDrafts}\n`,
+      'utf8'
+    );
   }
   return result;
 }
