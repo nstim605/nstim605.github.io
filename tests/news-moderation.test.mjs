@@ -143,5 +143,7 @@ test('scheduled workflow targets a moderation PR and never pushes main', async (
   assert.doesNotMatch(workflow, /push origin HEAD:main/);
   assert.doesNotMatch(workflow, /--force(?:-with-lease)?/);
   assert.doesNotMatch(workflow, /git fetch[^\n]+\|\| true/);
+  assert.match(workflow, /! -name 'privacy-policy-phase1d\.test\.mjs'/);
+  assert.match(workflow, /--test-name-pattern=.*integrity supersession/);
   assert.match(workflow, /HEAD:\$\{MODERATION_BRANCH\}/);
 });

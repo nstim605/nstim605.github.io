@@ -59,8 +59,13 @@ jobs:
       - name: Generate only approved public stories
         run: node tools/news/generate-news.mjs
 
-      - name: Run site tests
-        run: node --test tests/*.test.mjs
+      - name: Run repository-contained site tests
+        shell: bash
+        run: |
+          # This cross-repository suite needs the sibling Android checkout, which is not part of the Pages repository.
+          mapfile -d '' site_tests < <(find tests -maxdepth 1 -name '*.test.mjs' ! -name 'privacy-policy-phase1d.test.mjs' -print0)
+          node --test "${site_tests[@]}"
+          node --test --test-name-pattern='^(Phase 1D copy covers exactly all 44 production locales|Phase 1D policy copy avoids prohibited English claims|integrity supersession rejects unexplained or future file mutations)$' tests/privacy-policy-phase1d.test.mjs
 
       - name: Commit persistent state and moderation materials
         id: commit
