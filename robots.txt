@@ -2,3 +2,4 @@ User-agent: *
 Allow: /
 
 Sitemap: https://balkanconverter.com/sitemap.xml
+Sitemap: https://balkanconverter.com/news-sitemap.xml

@@ -1,0 +1,898 @@
+{
+  "schemaVersion": 1,
+  "updatedAt": "2026-09-29T09:25:39.009Z",
+  "candidates": [
+    {
+      "id": "061eab95e5dd71a42692ee0d",
+      "originalTitle": "ECB amends monetary policy implementation guidelines as part of regular review",
+      "originalUrl": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260929~050089e922.en.html",
+      "publishedAt": "2026-09-29T08:00:00.000Z",
+      "category": "Central Banks",
+      "currencies": [
+        "EUR"
+      ],
+      "status": "pending",
+      "indexable": false,
+      "rejectionReason": null,
+      "sources": [
+        {
+          "sourceId": "ecb",
+          "name": "European Central Bank",
+          "originalTitle": "ECB amends monetary policy implementation guidelines as part of regular review",
+          "originalUrl": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260929~050089e922.en.html",
+          "publishedAt": "2026-09-29T08:00:00.000Z",
+          "externalId": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260929~050089e922.en.html",
+          "metadata": {
+            "feedUrl": "https://www.ecb.europa.eu/rss/press.html"
+          }
+        }
+      ],
+      "duplicateIds": [],
+      "firstSeenAt": "2026-09-29T09:24:12.148Z",
+      "lastSeenAt": "2026-09-29T09:25:39.009Z",
+      "duplicates": []
+    },
+    {
+      "id": "8bec0f90f138c27430c4fd01",
+      "originalTitle": "Christine Lagarde: Hearing of the Committee on Economic and Monetary Affairs of the European Parliament",
+      "originalUrl": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp260928~a875675544.en.html",
+      "publishedAt": "2026-09-28T13:30:00.000Z",
+      "category": "Currency",
+      "currencies": [],
+      "status": "rejected",
+      "indexable": false,
+      "rejectionReason": "No supported currency could be identified",
+      "sources": [
+        {
+          "sourceId": "ecb",
+          "name": "European Central Bank",
+          "originalTitle": "Christine Lagarde: Hearing of the Committee on Economic and Monetary Affairs of the European Parliament",
+          "originalUrl": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp260928~a875675544.en.html",
+          "publishedAt": "2026-09-28T13:30:00.000Z",
+          "externalId": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp260928~a875675544.en.html",
+          "metadata": {
+            "feedUrl": "https://www.ecb.europa.eu/rss/press.html"
+          }
+        }
+      ],
+      "duplicateIds": [],
+      "firstSeenAt": "2026-09-29T09:24:12.148Z",
+      "lastSeenAt": "2026-09-29T09:25:39.009Z",
+      "duplicates": []
+    },
+    {
+      "id": "5b2303b4e679735cdaf059d1",
+      "originalTitle": "ECB Executive Board member Isabel Schnabel to resign to take senior role at IMF",
+      "originalUrl": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260924~bea1dd9824.en.html",
+      "publishedAt": "2026-09-24T12:00:00.000Z",
+      "category": "Central Banks",
+      "currencies": [
+        "EUR"
+      ],
+      "status": "pending",
+      "indexable": false,
+      "rejectionReason": null,
+      "sources": [
+        {
+          "sourceId": "ecb",
+          "name": "European Central Bank",
+          "originalTitle": "ECB Executive Board member Isabel Schnabel to resign to take senior role at IMF",
+          "originalUrl": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260924~bea1dd9824.en.html",
+          "publishedAt": "2026-09-24T12:00:00.000Z",
+          "externalId": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260924~bea1dd9824.en.html",
+          "metadata": {
+            "feedUrl": "https://www.ecb.europa.eu/rss/press.html"
+          }
+        }
+      ],
+      "duplicateIds": [],
+      "firstSeenAt": "2026-09-29T09:24:12.148Z",
+      "lastSeenAt": "2026-09-29T09:25:39.009Z",
+      "duplicates": []
+    },
+    {
+      "id": "4738b8000d5e94ec817e3487",
+      "originalTitle": "Philip R. Lane: The outlook for the euro area economy",
+      "originalUrl": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp260924~e0eceef02c.en.pdf",
+      "publishedAt": "2026-09-24T09:00:00.000Z",
+      "category": "Economy",
+      "currencies": [
+        "EUR"
+      ],
+      "status": "pending",
+      "indexable": false,
+      "rejectionReason": null,
+      "sources": [
+        {
+          "sourceId": "ecb",
+          "name": "European Central Bank",
+          "originalTitle": "Philip R. Lane: The outlook for the euro area economy",
+          "originalUrl": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp260924~e0eceef02c.en.pdf",
+          "publishedAt": "2026-09-24T09:00:00.000Z",
+          "externalId": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp260924~e0eceef02c.en.pdf",
+          "metadata": {
+            "feedUrl": "https://www.ecb.europa.eu/rss/press.html"
+          }
+        },
+        {
+          "sourceId": "ecb",
+          "name": "European Central Bank",
+          "originalTitle": "Philip R. Lane: The Outlook for the Euro Area Economy",
+          "originalUrl": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp260923_1~ac21bf46e3.en.pdf",
+          "publishedAt": "2026-09-23T16:30:00.000Z",
+          "externalId": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp260923_1~ac21bf46e3.en.pdf",
+          "metadata": {
+            "feedUrl": "https://www.ecb.europa.eu/rss/press.html"
+          }
+        }
+      ],
+      "duplicateIds": [
+        "bb8948a6585aff714a156271"
+      ],
+      "firstSeenAt": "2026-09-29T09:24:12.148Z",
+      "lastSeenAt": "2026-09-29T09:25:39.009Z",
+      "duplicates": [
+        {
+          "id": "bb8948a6585aff714a156271",
+          "status": "duplicate",
+          "indexable": false,
+          "sources": [
+            {
+              "sourceId": "ecb",
+              "name": "European Central Bank",
+              "originalTitle": "Philip R. Lane: The Outlook for the Euro Area Economy",
+              "originalUrl": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp260923_1~ac21bf46e3.en.pdf",
+              "publishedAt": "2026-09-23T16:30:00.000Z",
+              "externalId": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp260923_1~ac21bf46e3.en.pdf",
+              "metadata": {
+                "feedUrl": "https://www.ecb.europa.eu/rss/press.html"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "316f59e46be88da751a778be",
+      "originalTitle": "The digitalisation of money, payments and finance",
+      "originalUrl": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp260923~87850778f5.en.pdf",
+      "publishedAt": "2026-09-23T16:00:00.000Z",
+      "category": "Currency",
+      "currencies": [],
+      "status": "rejected",
+      "indexable": false,
+      "rejectionReason": "No supported currency could be identified",
+      "sources": [
+        {
+          "sourceId": "ecb",
+          "name": "European Central Bank",
+          "originalTitle": "The digitalisation of money, payments and finance",
+          "originalUrl": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp260923~87850778f5.en.pdf",
+          "publishedAt": "2026-09-23T16:00:00.000Z",
+          "externalId": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp260923~87850778f5.en.pdf",
+          "metadata": {
+            "feedUrl": "https://www.ecb.europa.eu/rss/press.html"
+          }
+        }
+      ],
+      "duplicateIds": [],
+      "firstSeenAt": "2026-09-29T09:24:12.148Z",
+      "lastSeenAt": "2026-09-29T09:25:39.009Z",
+      "duplicates": []
+    },
+    {
+      "id": "d1f3b2b5b00d8ef685ede993",
+      "originalTitle": "Almost ten million people took part in ECB survey on new euro banknotes",
+      "originalUrl": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260923~6ebddaf01e.en.html",
+      "publishedAt": "2026-09-23T09:00:00.000Z",
+      "category": "Central Banks",
+      "currencies": [
+        "EUR"
+      ],
+      "status": "pending",
+      "indexable": false,
+      "rejectionReason": null,
+      "sources": [
+        {
+          "sourceId": "ecb",
+          "name": "European Central Bank",
+          "originalTitle": "Almost ten million people took part in ECB survey on new euro banknotes",
+          "originalUrl": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260923~6ebddaf01e.en.html",
+          "publishedAt": "2026-09-23T09:00:00.000Z",
+          "externalId": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260923~6ebddaf01e.en.html",
+          "metadata": {
+            "feedUrl": "https://www.ecb.europa.eu/rss/press.html"
+          }
+        }
+      ],
+      "duplicateIds": [],
+      "firstSeenAt": "2026-09-29T09:24:12.148Z",
+      "lastSeenAt": "2026-09-29T09:25:39.009Z",
+      "duplicates": []
+    },
+    {
+      "id": "e1d3410492a8393fbf59df90",
+      "originalTitle": "Philip R. Lane: Interview with Le Temps",
+      "originalUrl": "https://www.ecb.europa.eu//press/inter/date/2026/html/ecb.in260922~5f89d300ee.en.html",
+      "publishedAt": "2026-09-22T05:00:00.000Z",
+      "category": "Currency",
+      "currencies": [],
+      "status": "rejected",
+      "indexable": false,
+      "rejectionReason": "No supported currency could be identified",
+      "sources": [
+        {
+          "sourceId": "ecb",
+          "name": "European Central Bank",
+          "originalTitle": "Philip R. Lane: Interview with Le Temps",
+          "originalUrl": "https://www.ecb.europa.eu//press/inter/date/2026/html/ecb.in260922~5f89d300ee.en.html",
+          "publishedAt": "2026-09-22T05:00:00.000Z",
+          "externalId": "https://www.ecb.europa.eu//press/inter/date/2026/html/ecb.in260922~5f89d300ee.en.html",
+          "metadata": {
+            "feedUrl": "https://www.ecb.europa.eu/rss/press.html"
+          }
+        }
+      ],
+      "duplicateIds": [],
+      "firstSeenAt": "2026-09-29T09:24:12.148Z",
+      "lastSeenAt": "2026-09-29T09:25:39.009Z",
+      "duplicates": []
+    },
+    {
+      "id": "702ca70159d261d8de591ac1",
+      "originalTitle": "ECB to invest part of own funds in tokenised securities, with settlement via Pontes",
+      "originalUrl": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260921_1~5a011ecbea.en.html",
+      "publishedAt": "2026-09-21T10:00:00.000Z",
+      "category": "Central Banks",
+      "currencies": [
+        "EUR"
+      ],
+      "status": "pending",
+      "indexable": false,
+      "rejectionReason": null,
+      "sources": [
+        {
+          "sourceId": "ecb",
+          "name": "European Central Bank",
+          "originalTitle": "ECB to invest part of own funds in tokenised securities, with settlement via Pontes",
+          "originalUrl": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260921_1~5a011ecbea.en.html",
+          "publishedAt": "2026-09-21T10:00:00.000Z",
+          "externalId": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260921_1~5a011ecbea.en.html",
+          "metadata": {
+            "feedUrl": "https://www.ecb.europa.eu/rss/press.html"
+          }
+        }
+      ],
+      "duplicateIds": [],
+      "firstSeenAt": "2026-09-29T09:24:12.148Z",
+      "lastSeenAt": "2026-09-29T09:25:39.009Z",
+      "duplicates": []
+    },
+    {
+      "id": "0fa206d71eda4c89638adae0",
+      "originalTitle": "Eurosystem brings central bank money to tokenised finance",
+      "originalUrl": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260921~e754847a7b.en.html",
+      "publishedAt": "2026-09-21T10:00:00.000Z",
+      "category": "Central Banks",
+      "currencies": [],
+      "status": "rejected",
+      "indexable": false,
+      "rejectionReason": "No supported currency could be identified",
+      "sources": [
+        {
+          "sourceId": "ecb",
+          "name": "European Central Bank",
+          "originalTitle": "Eurosystem brings central bank money to tokenised finance",
+          "originalUrl": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260921~e754847a7b.en.html",
+          "publishedAt": "2026-09-21T10:00:00.000Z",
+          "externalId": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260921~e754847a7b.en.html",
+          "metadata": {
+            "feedUrl": "https://www.ecb.europa.eu/rss/press.html"
+          }
+        }
+      ],
+      "duplicateIds": [],
+      "firstSeenAt": "2026-09-29T09:24:12.148Z",
+      "lastSeenAt": "2026-09-29T09:25:39.009Z",
+      "duplicates": []
+    },
+    {
+      "id": "ed1000a4443d9e8b50162066",
+      "originalTitle": "ECB Consumer Expectations Survey results – August 2026",
+      "originalUrl": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260918~295b3ab978.en.html",
+      "publishedAt": "2026-09-18T08:00:00.000Z",
+      "category": "Central Banks",
+      "currencies": [
+        "EUR"
+      ],
+      "status": "pending",
+      "indexable": false,
+      "rejectionReason": null,
+      "sources": [
+        {
+          "sourceId": "ecb",
+          "name": "European Central Bank",
+          "originalTitle": "ECB Consumer Expectations Survey results – August 2026",
+          "originalUrl": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260918~295b3ab978.en.html",
+          "publishedAt": "2026-09-18T08:00:00.000Z",
+          "externalId": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260918~295b3ab978.en.html",
+          "metadata": {
+            "feedUrl": "https://www.ecb.europa.eu/rss/press.html"
+          }
+        }
+      ],
+      "duplicateIds": [],
+      "firstSeenAt": "2026-09-29T09:24:12.148Z",
+      "lastSeenAt": "2026-09-29T09:25:39.009Z",
+      "duplicates": []
+    },
+    {
+      "id": "e123f4985d97cc24fd3662a4",
+      "originalTitle": "Boris Vujčić: Interview with Reuters",
+      "originalUrl": "https://www.ecb.europa.eu//press/inter/date/2026/html/ecb.in260918~33f023fe26.en.html",
+      "publishedAt": "2026-09-18T06:00:00.000Z",
+      "category": "Currency",
+      "currencies": [],
+      "status": "rejected",
+      "indexable": false,
+      "rejectionReason": "No supported currency could be identified",
+      "sources": [
+        {
+          "sourceId": "ecb",
+          "name": "European Central Bank",
+          "originalTitle": "Boris Vujčić: Interview with Reuters",
+          "originalUrl": "https://www.ecb.europa.eu//press/inter/date/2026/html/ecb.in260918~33f023fe26.en.html",
+          "publishedAt": "2026-09-18T06:00:00.000Z",
+          "externalId": "https://www.ecb.europa.eu//press/inter/date/2026/html/ecb.in260918~33f023fe26.en.html",
+          "metadata": {
+            "feedUrl": "https://www.ecb.europa.eu/rss/press.html"
+          }
+        }
+      ],
+      "duplicateIds": [],
+      "firstSeenAt": "2026-09-29T09:24:12.148Z",
+      "lastSeenAt": "2026-09-29T09:25:39.009Z",
+      "duplicates": []
+    },
+    {
+      "id": "4e63ddfe9e804631d8704030",
+      "originalTitle": "Federal Reserve issues FOMC statement",
+      "originalUrl": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916a.htm",
+      "publishedAt": "2026-09-16T18:00:00.000Z",
+      "category": "Central Banks",
+      "currencies": [
+        "USD"
+      ],
+      "status": "pending",
+      "indexable": false,
+      "rejectionReason": null,
+      "sources": [
+        {
+          "sourceId": "federal-reserve",
+          "name": "Board of Governors of the Federal Reserve System",
+          "originalTitle": "Federal Reserve issues FOMC statement",
+          "originalUrl": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916a.htm",
+          "publishedAt": "2026-09-16T18:00:00.000Z",
+          "externalId": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916a.htm",
+          "metadata": {
+            "feedUrl": "https://www.federalreserve.gov/feeds/press_monetary.xml"
+          }
+        }
+      ],
+      "duplicateIds": [],
+      "firstSeenAt": "2026-09-29T09:24:12.148Z",
+      "lastSeenAt": "2026-09-29T09:25:39.009Z",
+      "duplicates": []
+    },
+    {
+      "id": "e67cb5eff5f8900dbb229048",
+      "originalTitle": "Federal Reserve Board and Federal Open Market Committee release economic projections from the September 15-16 FOMC meeting",
+      "originalUrl": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916b.htm",
+      "publishedAt": "2026-09-16T18:00:00.000Z",
+      "category": "Central Banks",
+      "currencies": [
+        "USD"
+      ],
+      "status": "pending",
+      "indexable": false,
+      "rejectionReason": null,
+      "sources": [
+        {
+          "sourceId": "federal-reserve",
+          "name": "Board of Governors of the Federal Reserve System",
+          "originalTitle": "Federal Reserve Board and Federal Open Market Committee release economic projections from the September 15-16 FOMC meeting",
+          "originalUrl": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916b.htm",
+          "publishedAt": "2026-09-16T18:00:00.000Z",
+          "externalId": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916b.htm",
+          "metadata": {
+            "feedUrl": "https://www.federalreserve.gov/feeds/press_monetary.xml"
+          }
+        }
+      ],
+      "duplicateIds": [],
+      "firstSeenAt": "2026-09-29T09:24:12.148Z",
+      "lastSeenAt": "2026-09-29T09:25:39.009Z",
+      "duplicates": []
+    },
+    {
+      "id": "be47f7768561977397855d23",
+      "originalTitle": "ECB wage tracker at 2.7% in H1 2027, pointing to a modest uptick in negotiated wage growth",
+      "originalUrl": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260916~7bc58ebef4.en.html",
+      "publishedAt": "2026-09-16T08:00:00.000Z",
+      "category": "Central Banks",
+      "currencies": [
+        "EUR"
+      ],
+      "status": "pending",
+      "indexable": false,
+      "rejectionReason": null,
+      "sources": [
+        {
+          "sourceId": "ecb",
+          "name": "European Central Bank",
+          "originalTitle": "ECB wage tracker at 2.7% in H1 2027, pointing to a modest uptick in negotiated wage growth",
+          "originalUrl": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260916~7bc58ebef4.en.html",
+          "publishedAt": "2026-09-16T08:00:00.000Z",
+          "externalId": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260916~7bc58ebef4.en.html",
+          "metadata": {
+            "feedUrl": "https://www.ecb.europa.eu/rss/press.html"
+          }
+        }
+      ],
+      "duplicateIds": [],
+      "firstSeenAt": "2026-09-29T09:24:12.148Z",
+      "lastSeenAt": "2026-09-29T09:25:39.009Z",
+      "duplicates": []
+    },
+    {
+      "id": "50ea3c8da63ff9e4cc9cc58b",
+      "originalTitle": "Christine Lagarde: A new age of capital: growth, sovereignty and AI",
+      "originalUrl": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp260914_2~a3f0efbee4.en.html",
+      "publishedAt": "2026-09-14T15:15:00.000Z",
+      "category": "Currency",
+      "currencies": [],
+      "status": "rejected",
+      "indexable": false,
+      "rejectionReason": "No supported currency could be identified",
+      "sources": [
+        {
+          "sourceId": "ecb",
+          "name": "European Central Bank",
+          "originalTitle": "Christine Lagarde: A new age of capital: growth, sovereignty and AI",
+          "originalUrl": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp260914_2~a3f0efbee4.en.html",
+          "publishedAt": "2026-09-14T15:15:00.000Z",
+          "externalId": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp260914_2~a3f0efbee4.en.html",
+          "metadata": {
+            "feedUrl": "https://www.ecb.europa.eu/rss/press.html"
+          }
+        }
+      ],
+      "duplicateIds": [],
+      "firstSeenAt": "2026-09-29T09:24:12.148Z",
+      "lastSeenAt": "2026-09-29T09:25:39.009Z",
+      "duplicates": []
+    },
+    {
+      "id": "c804af3bf384c77abc1a27d4",
+      "originalTitle": "Piero Cipollone: The future of euro cash: trusted today, designed for tomorrow",
+      "originalUrl": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp260914_1~91d3436449.en.html",
+      "publishedAt": "2026-09-14T13:00:00.000Z",
+      "category": "Currency",
+      "currencies": [
+        "EUR"
+      ],
+      "status": "pending",
+      "indexable": false,
+      "rejectionReason": null,
+      "sources": [
+        {
+          "sourceId": "ecb",
+          "name": "European Central Bank",
+          "originalTitle": "Piero Cipollone: The future of euro cash: trusted today, designed for tomorrow",
+          "originalUrl": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp260914_1~91d3436449.en.html",
+          "publishedAt": "2026-09-14T13:00:00.000Z",
+          "externalId": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp260914_1~91d3436449.en.html",
+          "metadata": {
+            "feedUrl": "https://www.ecb.europa.eu/rss/press.html"
+          }
+        }
+      ],
+      "duplicateIds": [],
+      "firstSeenAt": "2026-09-29T09:24:12.148Z",
+      "lastSeenAt": "2026-09-29T09:25:39.009Z",
+      "duplicates": []
+    },
+    {
+      "id": "317345f4f82bd0d3a4d25074",
+      "originalTitle": "Minutes of the Board's discount rate meetings on July 20 and July 29, 2026",
+      "originalUrl": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260825a.htm",
+      "publishedAt": "2026-08-25T18:00:00.000Z",
+      "category": "Currency",
+      "currencies": [],
+      "status": "rejected",
+      "indexable": false,
+      "rejectionReason": "No supported currency could be identified",
+      "sources": [
+        {
+          "sourceId": "federal-reserve",
+          "name": "Board of Governors of the Federal Reserve System",
+          "originalTitle": "Minutes of the Board's discount rate meetings on July 20 and July 29, 2026",
+          "originalUrl": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260825a.htm",
+          "publishedAt": "2026-08-25T18:00:00.000Z",
+          "externalId": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260825a.htm",
+          "metadata": {
+            "feedUrl": "https://www.federalreserve.gov/feeds/press_monetary.xml"
+          }
+        }
+      ],
+      "duplicateIds": [],
+      "firstSeenAt": "2026-09-29T09:24:12.148Z",
+      "lastSeenAt": "2026-09-29T09:25:39.009Z",
+      "duplicates": []
+    },
+    {
+      "id": "fb9f97df45f731d71f6cc540",
+      "originalTitle": "Minutes of the Federal Open Market Committee, July 28–29, 2026",
+      "originalUrl": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260819a.htm",
+      "publishedAt": "2026-08-19T18:00:00.000Z",
+      "category": "Currency",
+      "currencies": [],
+      "status": "rejected",
+      "indexable": false,
+      "rejectionReason": "No supported currency could be identified",
+      "sources": [
+        {
+          "sourceId": "federal-reserve",
+          "name": "Board of Governors of the Federal Reserve System",
+          "originalTitle": "Minutes of the Federal Open Market Committee, July 28–29, 2026",
+          "originalUrl": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260819a.htm",
+          "publishedAt": "2026-08-19T18:00:00.000Z",
+          "externalId": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260819a.htm",
+          "metadata": {
+            "feedUrl": "https://www.federalreserve.gov/feeds/press_monetary.xml"
+          }
+        }
+      ],
+      "duplicateIds": [],
+      "firstSeenAt": "2026-09-29T09:24:12.148Z",
+      "lastSeenAt": "2026-09-29T09:25:39.009Z",
+      "duplicates": []
+    },
+    {
+      "id": "85dbfeb61d1c6a92d8c2bf88",
+      "originalTitle": "Federal Reserve issues FOMC statement",
+      "originalUrl": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260729a.htm",
+      "publishedAt": "2026-07-29T18:00:00.000Z",
+      "category": "Central Banks",
+      "currencies": [
+        "USD"
+      ],
+      "status": "pending",
+      "indexable": false,
+      "rejectionReason": null,
+      "sources": [
+        {
+          "sourceId": "federal-reserve",
+          "name": "Board of Governors of the Federal Reserve System",
+          "originalTitle": "Federal Reserve issues FOMC statement",
+          "originalUrl": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260729a.htm",
+          "publishedAt": "2026-07-29T18:00:00.000Z",
+          "externalId": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260729a.htm",
+          "metadata": {
+            "feedUrl": "https://www.federalreserve.gov/feeds/press_monetary.xml"
+          }
+        }
+      ],
+      "duplicateIds": [],
+      "firstSeenAt": "2026-09-29T09:24:12.148Z",
+      "lastSeenAt": "2026-09-29T09:25:39.009Z",
+      "duplicates": []
+    },
+    {
+      "id": "553fe189b7ec26f578cc5615",
+      "originalTitle": "Minutes of the Board's discount rate meetings on June 8 and June 17, 2026",
+      "originalUrl": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260714a.htm",
+      "publishedAt": "2026-07-14T18:00:00.000Z",
+      "category": "Currency",
+      "currencies": [],
+      "status": "rejected",
+      "indexable": false,
+      "rejectionReason": "No supported currency could be identified",
+      "sources": [
+        {
+          "sourceId": "federal-reserve",
+          "name": "Board of Governors of the Federal Reserve System",
+          "originalTitle": "Minutes of the Board's discount rate meetings on June 8 and June 17, 2026",
+          "originalUrl": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260714a.htm",
+          "publishedAt": "2026-07-14T18:00:00.000Z",
+          "externalId": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260714a.htm",
+          "metadata": {
+            "feedUrl": "https://www.federalreserve.gov/feeds/press_monetary.xml"
+          }
+        }
+      ],
+      "duplicateIds": [],
+      "firstSeenAt": "2026-09-29T09:24:12.148Z",
+      "lastSeenAt": "2026-09-29T09:25:39.009Z",
+      "duplicates": []
+    },
+    {
+      "id": "0e6c735bd63e88f1f20e6bde",
+      "originalTitle": "Federal Reserve announces the leadership and objectives of its task forces to advance the conduct of monetary policy",
+      "originalUrl": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260709a.htm",
+      "publishedAt": "2026-07-09T19:00:00.000Z",
+      "category": "Central Banks",
+      "currencies": [
+        "USD"
+      ],
+      "status": "pending",
+      "indexable": false,
+      "rejectionReason": null,
+      "sources": [
+        {
+          "sourceId": "federal-reserve",
+          "name": "Board of Governors of the Federal Reserve System",
+          "originalTitle": "Federal Reserve announces the leadership and objectives of its task forces to advance the conduct of monetary policy",
+          "originalUrl": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260709a.htm",
+          "publishedAt": "2026-07-09T19:00:00.000Z",
+          "externalId": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260709a.htm",
+          "metadata": {
+            "feedUrl": "https://www.federalreserve.gov/feeds/press_monetary.xml"
+          }
+        }
+      ],
+      "duplicateIds": [],
+      "firstSeenAt": "2026-09-29T09:24:12.148Z",
+      "lastSeenAt": "2026-09-29T09:25:39.009Z",
+      "duplicates": []
+    },
+    {
+      "id": "ceefcc81c95132f72e7df592",
+      "originalTitle": "Minutes of the Federal Open Market Committee, June 16-17, 2026",
+      "originalUrl": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260708a.htm",
+      "publishedAt": "2026-07-08T18:00:00.000Z",
+      "category": "Currency",
+      "currencies": [],
+      "status": "rejected",
+      "indexable": false,
+      "rejectionReason": "No supported currency could be identified",
+      "sources": [
+        {
+          "sourceId": "federal-reserve",
+          "name": "Board of Governors of the Federal Reserve System",
+          "originalTitle": "Minutes of the Federal Open Market Committee, June 16-17, 2026",
+          "originalUrl": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260708a.htm",
+          "publishedAt": "2026-07-08T18:00:00.000Z",
+          "externalId": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260708a.htm",
+          "metadata": {
+            "feedUrl": "https://www.federalreserve.gov/feeds/press_monetary.xml"
+          }
+        }
+      ],
+      "duplicateIds": [],
+      "firstSeenAt": "2026-09-29T09:24:12.148Z",
+      "lastSeenAt": "2026-09-29T09:25:39.009Z",
+      "duplicates": []
+    },
+    {
+      "id": "4d8a7b1563b1f82ad0ba119c",
+      "originalTitle": "Federal Reserve issues FOMC statement",
+      "originalUrl": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260617a.htm",
+      "publishedAt": "2026-06-17T18:00:00.000Z",
+      "category": "Central Banks",
+      "currencies": [
+        "USD"
+      ],
+      "status": "pending",
+      "indexable": false,
+      "rejectionReason": null,
+      "sources": [
+        {
+          "sourceId": "federal-reserve",
+          "name": "Board of Governors of the Federal Reserve System",
+          "originalTitle": "Federal Reserve issues FOMC statement",
+          "originalUrl": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260617a.htm",
+          "publishedAt": "2026-06-17T18:00:00.000Z",
+          "externalId": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260617a.htm",
+          "metadata": {
+            "feedUrl": "https://www.federalreserve.gov/feeds/press_monetary.xml"
+          }
+        }
+      ],
+      "duplicateIds": [],
+      "firstSeenAt": "2026-09-29T09:24:12.148Z",
+      "lastSeenAt": "2026-09-29T09:25:39.009Z",
+      "duplicates": []
+    },
+    {
+      "id": "cbbd29d9b3698b15fa36760f",
+      "originalTitle": "Federal Reserve Board and Federal Open Market Committee release economic projections from the June 16-17 FOMC meeting",
+      "originalUrl": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260617b.htm",
+      "publishedAt": "2026-06-17T18:00:00.000Z",
+      "category": "Central Banks",
+      "currencies": [
+        "USD"
+      ],
+      "status": "pending",
+      "indexable": false,
+      "rejectionReason": null,
+      "sources": [
+        {
+          "sourceId": "federal-reserve",
+          "name": "Board of Governors of the Federal Reserve System",
+          "originalTitle": "Federal Reserve Board and Federal Open Market Committee release economic projections from the June 16-17 FOMC meeting",
+          "originalUrl": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260617b.htm",
+          "publishedAt": "2026-06-17T18:00:00.000Z",
+          "externalId": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260617b.htm",
+          "metadata": {
+            "feedUrl": "https://www.federalreserve.gov/feeds/press_monetary.xml"
+          }
+        }
+      ],
+      "duplicateIds": [],
+      "firstSeenAt": "2026-09-29T09:24:12.148Z",
+      "lastSeenAt": "2026-09-29T09:25:39.009Z",
+      "duplicates": []
+    },
+    {
+      "id": "712cd7ecb7b5173b31a773bb",
+      "originalTitle": "Minutes of the Board's discount rate meeting on April 20 and 29, 2026",
+      "originalUrl": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260526a.htm",
+      "publishedAt": "2026-05-26T18:00:00.000Z",
+      "category": "Currency",
+      "currencies": [],
+      "status": "rejected",
+      "indexable": false,
+      "rejectionReason": "No supported currency could be identified",
+      "sources": [
+        {
+          "sourceId": "federal-reserve",
+          "name": "Board of Governors of the Federal Reserve System",
+          "originalTitle": "Minutes of the Board's discount rate meeting on April 20 and 29, 2026",
+          "originalUrl": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260526a.htm",
+          "publishedAt": "2026-05-26T18:00:00.000Z",
+          "externalId": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260526a.htm",
+          "metadata": {
+            "feedUrl": "https://www.federalreserve.gov/feeds/press_monetary.xml"
+          }
+        }
+      ],
+      "duplicateIds": [],
+      "firstSeenAt": "2026-09-29T09:24:12.148Z",
+      "lastSeenAt": "2026-09-29T09:25:39.009Z",
+      "duplicates": []
+    },
+    {
+      "id": "ddacfe33267f53eb83abe6c4",
+      "originalTitle": "Minutes of the Federal Open Market Committee, April 28-29, 2026",
+      "originalUrl": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260520a.htm",
+      "publishedAt": "2026-05-20T18:00:00.000Z",
+      "category": "Currency",
+      "currencies": [],
+      "status": "rejected",
+      "indexable": false,
+      "rejectionReason": "No supported currency could be identified",
+      "sources": [
+        {
+          "sourceId": "federal-reserve",
+          "name": "Board of Governors of the Federal Reserve System",
+          "originalTitle": "Minutes of the Federal Open Market Committee, April 28-29, 2026",
+          "originalUrl": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260520a.htm",
+          "publishedAt": "2026-05-20T18:00:00.000Z",
+          "externalId": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260520a.htm",
+          "metadata": {
+            "feedUrl": "https://www.federalreserve.gov/feeds/press_monetary.xml"
+          }
+        }
+      ],
+      "duplicateIds": [],
+      "firstSeenAt": "2026-09-29T09:24:12.148Z",
+      "lastSeenAt": "2026-09-29T09:25:39.009Z",
+      "duplicates": []
+    },
+    {
+      "id": "7580aefff0aa7376284a03f6",
+      "originalTitle": "Federal Reserve issues FOMC statement",
+      "originalUrl": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260429a.htm",
+      "publishedAt": "2026-04-29T18:00:00.000Z",
+      "category": "Central Banks",
+      "currencies": [
+        "USD"
+      ],
+      "status": "pending",
+      "indexable": false,
+      "rejectionReason": null,
+      "sources": [
+        {
+          "sourceId": "federal-reserve",
+          "name": "Board of Governors of the Federal Reserve System",
+          "originalTitle": "Federal Reserve issues FOMC statement",
+          "originalUrl": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260429a.htm",
+          "publishedAt": "2026-04-29T18:00:00.000Z",
+          "externalId": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260429a.htm",
+          "metadata": {
+            "feedUrl": "https://www.federalreserve.gov/feeds/press_monetary.xml"
+          }
+        }
+      ],
+      "duplicateIds": [],
+      "firstSeenAt": "2026-09-29T09:24:12.148Z",
+      "lastSeenAt": "2026-09-29T09:25:39.009Z",
+      "duplicates": []
+    },
+    {
+      "id": "66bded31398460ce4ca71bac",
+      "originalTitle": "Minutes of the Board’s discount rate meetings on February 9 and March 18, 2026",
+      "originalUrl": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260414a.htm",
+      "publishedAt": "2026-04-14T18:00:00.000Z",
+      "category": "Currency",
+      "currencies": [],
+      "status": "rejected",
+      "indexable": false,
+      "rejectionReason": "No supported currency could be identified",
+      "sources": [
+        {
+          "sourceId": "federal-reserve",
+          "name": "Board of Governors of the Federal Reserve System",
+          "originalTitle": "Minutes of the Board’s discount rate meetings on February 9 and March 18, 2026",
+          "originalUrl": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260414a.htm",
+          "publishedAt": "2026-04-14T18:00:00.000Z",
+          "externalId": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260414a.htm",
+          "metadata": {
+            "feedUrl": "https://www.federalreserve.gov/feeds/press_monetary.xml"
+          }
+        }
+      ],
+      "duplicateIds": [],
+      "firstSeenAt": "2026-09-29T09:24:12.148Z",
+      "lastSeenAt": "2026-09-29T09:25:39.009Z",
+      "duplicates": []
+    },
+    {
+      "id": "035e4699061fbeab7c56256b",
+      "originalTitle": "Minutes of the Federal Open Market Committee, March 17–18, 2026",
+      "originalUrl": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260408a.htm",
+      "publishedAt": "2026-04-08T18:00:00.000Z",
+      "category": "Currency",
+      "currencies": [],
+      "status": "rejected",
+      "indexable": false,
+      "rejectionReason": "No supported currency could be identified",
+      "sources": [
+        {
+          "sourceId": "federal-reserve",
+          "name": "Board of Governors of the Federal Reserve System",
+          "originalTitle": "Minutes of the Federal Open Market Committee, March 17–18, 2026",
+          "originalUrl": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260408a.htm",
+          "publishedAt": "2026-04-08T18:00:00.000Z",
+          "externalId": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260408a.htm",
+          "metadata": {
+            "feedUrl": "https://www.federalreserve.gov/feeds/press_monetary.xml"
+          }
+        }
+      ],
+      "duplicateIds": [],
+      "firstSeenAt": "2026-09-29T09:24:12.148Z",
+      "lastSeenAt": "2026-09-29T09:25:39.009Z",
+      "duplicates": []
+    }
+  ],
+  "sourceRuns": [
+    {
+      "sourceId": "ecb",
+      "ok": true,
+      "fetchedAt": "2026-09-29T09:25:39.009Z",
+      "accepted": 15,
+      "malformedItems": 0,
+      "errors": []
+    },
+    {
+      "sourceId": "federal-reserve",
+      "ok": true,
+      "fetchedAt": "2026-09-29T09:25:39.009Z",
+      "accepted": 15,
+      "malformedItems": 0,
+      "errors": []
+    }
+  ]
+}

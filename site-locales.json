@@ -277,6 +277,7 @@
       "webLocale": "en",
       "hreflang": "en",
       "url": "/",
+      "newsUrl": "/news/",
       "privacyUrl": "/privacy-policy.html",
       "toolUrls": {
         "currency-converter": "/currency-converter/",
@@ -296,6 +297,7 @@
       "webLocale": "sr",
       "hreflang": "sr",
       "url": "/sr/",
+      "newsUrl": "/sr/news/",
       "privacyUrl": "/sr/privacy-policy.html",
       "toolUrls": {
         "currency-converter": "/sr/currency-converter/",
@@ -809,6 +811,7 @@
       "webLocale": "ru",
       "hreflang": "ru",
       "url": "/ru/",
+      "newsUrl": "/ru/news/",
       "privacyUrl": "/ru/privacy-policy.html",
       "toolUrls": {
         "currency-converter": "/ru/currency-converter/",

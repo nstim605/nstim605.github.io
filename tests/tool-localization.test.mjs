@@ -3,9 +3,11 @@ import fs from 'node:fs/promises';
 import path from 'node:path';
 import test from 'node:test';
 import { resolveToolMessages } from '../tools/tool-localization-data.mjs';
+import { expectedSitemapUrls } from '../tools/sitemap-validation.mjs';
 
 const root = path.resolve(import.meta.dirname, '..');
 const inventory = JSON.parse(await fs.readFile(path.join(root, 'site-locales.json'), 'utf8'));
+const newsData = JSON.parse(await fs.readFile(path.join(root, 'news/data/stories.json'), 'utf8'));
 const source = JSON.parse(await fs.readFile(path.join(root, 'tools/tool-localization-source.json'), 'utf8'));
 const copy = JSON.parse(await fs.readFile(path.join(root, 'tools/tool-copy.json'), 'utf8'));
 const overrides = JSON.parse(await fs.readFile(path.join(root, 'tools/tool-copy-overrides.json'), 'utf8'));
@@ -132,16 +134,20 @@ test('localized tool pages resolve local assets and include one consent template
   }
 });
 
-test('sitemap contains all 440 locale/page URLs once with complete alternates', async () => {
+test('sitemap contains every locale, tool, and approved news URL once with complete alternates', async () => {
   const sitemap = await fs.readFile(path.join(root, 'sitemap.xml'), 'utf8');
   const locations = [...sitemap.matchAll(/<loc>([^<]+)<\/loc>/g)].map(match => match[1]);
-  assert.equal(locations.length, 440);
+  const expected = expectedSitemapUrls(inventory, undefined, newsData.stories);
+  assert.equal(locations.length, expected.length);
   assert.equal(new Set(locations).size, locations.length);
+  assert.deepEqual(new Set(locations), new Set(expected));
   for (const locale of inventory.locales) {
     for (const slug of tools) assert.ok(locations.includes(`https://balkanconverter.com${urlFor(locale, slug)}`));
   }
   for (const block of sitemap.matchAll(/<url>([\s\S]*?)<\/url>/g)) {
-    assert.equal((block[1].match(/<xhtml:link rel="alternate"/g) ?? []).length, 45);
+    const loc = block[1].match(/<loc>([^<]+)<\/loc>/)?.[1] ?? '';
+    const expectedAlternates = loc.includes('/news/') ? 4 : 45;
+    assert.equal((block[1].match(/<xhtml:link rel="alternate"/g) ?? []).length, expectedAlternates, loc);
   }
 });
 

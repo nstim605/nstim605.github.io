@@ -2,7 +2,7 @@ import assert from 'node:assert/strict';
 import fs from 'node:fs/promises';
 import path from 'node:path';
 import test from 'node:test';
-import { convertCurrency } from '../currency-converter/converter-core.mjs';
+import { convertCurrency, readCurrencySelection } from '../currency-converter/converter-core.mjs';
 
 const root = path.resolve(import.meta.dirname, '..');
 
@@ -14,6 +14,12 @@ test('converts between two currencies using cross-rates', () => {
 test('rejects invalid conversion values', () => {
   assert.throws(() => convertCurrency({ amount: 0, sourceRate: 1, targetRate: 117 }), RangeError);
   assert.throws(() => convertCurrency({ amount: 1, sourceRate: Number.NaN, targetRate: 117 }), RangeError);
+});
+
+test('reads safe currency selections from news links', () => {
+  assert.deepEqual(readCurrencySelection('?source=USD&target=EUR'), { source: 'USD', target: 'EUR' });
+  assert.deepEqual(readCurrencySelection('?source=<script>&target=EUR'), { source: 'EUR', target: 'RSD' });
+  assert.deepEqual(readCurrencySelection('?source=EUR&target=EUR'), { source: 'EUR', target: 'RSD' });
 });
 
 test('basic converter is indexable, distinct, and connected to the site', async () => {
@@ -31,6 +37,7 @@ test('basic converter is indexable, distinct, and connected to the site', async 
   assert.equal((page.match(/<h1\b/g) || []).length, 1);
   assert.match(page, /id="swap-currencies"/);
   assert.match(script, /Reference rates dated/);
+  assert.match(script, /showRequestedCurrency\(sourceSelect, requestedSelection\.source\)/);
   assert.match(page, /Frankfurter reference-rate API/);
   for (const source of [home, markup, multi, offline]) assert.match(source, /href="\/currency-converter\/"/);
   assert.match(sitemap, /<loc>https:\/\/balkanconverter\.com\/currency-converter\/<\/loc>/);

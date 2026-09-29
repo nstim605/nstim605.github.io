@@ -7,3 +7,12 @@ export function convertCurrency({ amount, sourceRate, targetRate }) {
     rate: targetRate / sourceRate
   };
 }
+
+export function readCurrencySelection(search, fallback = { source: 'EUR', target: 'RSD' }) {
+  const params = new URLSearchParams(search);
+  const normalize = value => /^[A-Z]{3}$/.test(value ?? '') ? value : null;
+  const source = normalize(params.get('source')) ?? fallback.source;
+  let target = normalize(params.get('target')) ?? fallback.target;
+  if (source === target) target = source === fallback.target ? fallback.source : fallback.target;
+  return { source, target };
+}

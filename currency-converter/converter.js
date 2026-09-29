@@ -1,5 +1,5 @@
 import { fetchReferenceRates, parseLocalizedNumber } from '../exchange-rate-markup-calculator/calculator-core.mjs';
-import { convertCurrency } from './converter-core.mjs';
+import { convertCurrency, readCurrencySelection } from './converter-core.mjs';
 import { trackSiteEvent } from '../analytics.js';
 import { formatRateDate, t } from '../tool-i18n.mjs';
 
@@ -12,7 +12,19 @@ const submitButton = form.querySelector('button[type="submit"]');
 const status = document.querySelector('#currency-status');
 const results = document.querySelector('#currency-results');
 const pageLocale = document.documentElement.lang || undefined;
+const requestedSelection = readCurrencySelection(window.location.search, {
+  source: sourceSelect.value,
+  target: targetSelect.value
+});
 let rateData;
+
+function showRequestedCurrency(select, code) {
+  if (![...select.options].some(option => option.value === code)) select.add(new Option(code, code));
+  select.value = code;
+}
+
+showRequestedCurrency(sourceSelect, requestedSelection.source);
+showRequestedCurrency(targetSelect, requestedSelection.target);
 
 function formatAmount(value, code) {
   return new Intl.NumberFormat(pageLocale, {
@@ -43,8 +55,8 @@ function currencyOptions(selected, table) {
 }
 
 function populateCurrencies(table) {
-  const source = sourceSelect.value;
-  const target = targetSelect.value;
+  const source = table.has(requestedSelection.source) ? requestedSelection.source : sourceSelect.value;
+  const target = table.has(requestedSelection.target) ? requestedSelection.target : targetSelect.value;
   sourceSelect.replaceChildren(...currencyOptions(source, table));
   targetSelect.replaceChildren(...currencyOptions(target, table));
 }

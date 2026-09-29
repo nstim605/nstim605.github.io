@@ -1,0 +1,134 @@
+{
+  "schemaVersion": 1,
+  "stories": [
+    {
+      "id": "ecb-rates-2026-09-10",
+      "slug": "ecb-raises-interest-rates-september-2026",
+      "category": "Interest Rates",
+      "publishedAt": "2026-09-10",
+      "updatedAt": "2026-09-11",
+      "status": "published",
+      "indexable": true,
+      "currencies": ["EUR"],
+      "translations": {
+        "en": {
+          "headline": "ECB raises its three key interest rates by 25 basis points",
+          "description": "The ECB raised its three key rates by 25 basis points, including the deposit facility rate to 2.50%, effective 16 September 2026.",
+          "summary": "The European Central Bank increased all three key interest rates by 0.25 percentage points. The new rates took effect on 16 September 2026.",
+          "whatHappened": "The deposit facility rate was set at 2.50%, the main refinancing operations rate at 2.65%, and the marginal lending facility rate at 2.90%. The ECB said inflation was expected to remain above its medium-term target for an extended period and that future decisions would remain data-dependent.",
+          "whyItMatters": "ECB policy rates influence euro-area borrowing conditions and expectations about monetary policy. That makes the decision directly relevant when comparing or converting amounts involving the euro."
+        },
+        "sr": {
+          "headline": "ЕЦБ повећала све три кључне каматне стопе за 25 базних поена",
+          "description": "ЕЦБ је повећала три кључне стопе за 25 базних поена, укључујући стопу на депозитне олакшице на 2,50%, са применом од 16. септембра 2026.",
+          "summary": "Европска централна банка повећала је све три кључне каматне стопе за 0,25 процентних поена. Нове стопе примењују се од 16. септембра 2026.",
+          "whatHappened": "Стопа на депозитне олакшице утврђена је на 2,50%, стопа за главне операције рефинансирања на 2,65%, а стопа на граничне кредитне олакшице на 2,90%. ЕЦБ је навела да се очекује да инфлација дуже остане изнад средњорочног циља и да ће будуће одлуке зависити од података.",
+          "whyItMatters": "Каматне стопе ЕЦБ утичу на услове задуживања у еврозони и очекивања о монетарној политици. Зато је ова одлука непосредно релевантна при поређењу или конверзији износа који укључују евро."
+        },
+        "ru": {
+          "headline": "ЕЦБ повысил три ключевые процентные ставки на 25 базисных пунктов",
+          "description": "ЕЦБ повысил три ключевые ставки на 25 базисных пунктов, включая ставку по депозитам до 2,50%, с 16 сентября 2026 года.",
+          "summary": "Европейский центральный банк повысил все три ключевые процентные ставки на 0,25 процентного пункта. Новые ставки начали действовать 16 сентября 2026 года.",
+          "whatHappened": "Ставка по депозитам установлена на уровне 2,50%, ставка по основным операциям рефинансирования — 2,65%, а ставка по маржинальному кредитованию — 2,90%. ЕЦБ сообщил, что инфляция, как ожидается, продолжительное время будет оставаться выше среднесрочной цели, а дальнейшие решения будут зависеть от данных.",
+          "whyItMatters": "Ставки ЕЦБ влияют на условия заимствования в еврозоне и ожидания относительно денежно-кредитной политики. Поэтому решение важно при сравнении и конвертации сумм с участием евро."
+        }
+      },
+      "sources": [
+        {
+          "sourceId": "ecb",
+          "name": "European Central Bank",
+          "originalTitle": "Monetary policy decisions",
+          "originalUrl": "https://www.ecb.europa.eu/press/pr/date/2026/html/ecb.mp260910~314e508016.en.html",
+          "publishedAt": "2026-09-10",
+          "externalId": "ecb.mp260910~314e508016"
+        }
+      ]
+    },
+    {
+      "id": "fed-rates-2026-09-16",
+      "slug": "federal-reserve-raises-rates-september-2026",
+      "category": "Interest Rates",
+      "publishedAt": "2026-09-16T14:00:00-04:00",
+      "updatedAt": "2026-09-16T14:00:00-04:00",
+      "status": "published",
+      "indexable": true,
+      "currencies": ["USD"],
+      "translations": {
+        "en": {
+          "headline": "Federal Reserve raises its target rate range by 25 basis points",
+          "description": "The Federal Reserve raised the federal funds target range to 3.75%–4.00% at its September 2026 meeting.",
+          "summary": "The Federal Open Market Committee increased the target range for the federal funds rate by 0.25 percentage points to 3.75%–4.00%.",
+          "whatHappened": "The Committee approved the decision by a 12–0 vote. Its statement described economic activity as expanding at a solid pace and inflation as still elevated, while noting continued uncertainty around geopolitical developments.",
+          "whyItMatters": "The federal funds target is a central reference point for US borrowing costs and monetary-policy expectations. It is therefore relevant to users comparing values or converting amounts involving the US dollar."
+        },
+        "sr": {
+          "headline": "Федералне резерве повећале циљани распон стопе за 25 базних поена",
+          "description": "Федералне резерве повећале су циљани распон стопе федералних фондова на 3,75%–4,00% на састанку у септембру 2026.",
+          "summary": "Федерални комитет за операције на отвореном тржишту повећао је циљани распон стопе федералних фондова за 0,25 процентних поена, на 3,75%–4,00%.",
+          "whatHappened": "Комитет је одлуку усвојио са 12 гласова за и без гласова против. У саопштењу је привредна активност описана као солидна, а инфлација као и даље повишена, уз наглашену неизвесност повезану са геополитичким кретањима.",
+          "whyItMatters": "Циљана стопа федералних фондова представља важну референцу за трошкове задуживања у САД и очекивања о монетарној политици. Зато је релевантна корисницима који пореде или конвертују износе у америчким доларима."
+        },
+        "ru": {
+          "headline": "Федеральная резервная система повысила целевой диапазон ставки на 25 базисных пунктов",
+          "description": "Федеральная резервная система повысила целевой диапазон ставки по федеральным фондам до 3,75–4,00% на заседании в сентябре 2026 года.",
+          "summary": "Федеральный комитет по операциям на открытом рынке повысил целевой диапазон ставки по федеральным фондам на 0,25 процентного пункта — до 3,75–4,00%.",
+          "whatHappened": "Решение было принято единогласно — 12 голосами против нуля. В заявлении экономическая активность названа устойчивой, а инфляция — всё ещё повышенной; также отмечена сохраняющаяся неопределённость, связанная с геополитическими событиями.",
+          "whyItMatters": "Целевая ставка по федеральным фондам служит важным ориентиром для стоимости заимствований в США и ожиданий относительно денежно-кредитной политики. Поэтому решение важно для пользователей, сравнивающих или конвертирующих суммы в долларах США."
+        }
+      },
+      "sources": [
+        {
+          "sourceId": "federal-reserve",
+          "name": "Board of Governors of the Federal Reserve System",
+          "originalTitle": "Federal Reserve issues FOMC statement",
+          "originalUrl": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916a.htm",
+          "publishedAt": "2026-09-16T14:00:00-04:00",
+          "externalId": "monetary20260916a"
+        }
+      ]
+    },
+    {
+      "id": "nbs-rates-2026-09-10",
+      "slug": "nbs-keeps-reference-rate-unchanged-september-2026",
+      "category": "Interest Rates",
+      "publishedAt": "2026-09-10",
+      "updatedAt": "2026-09-10",
+      "status": "published",
+      "indexable": true,
+      "currencies": ["RSD"],
+      "translations": {
+        "en": {
+          "headline": "National Bank of Serbia keeps its reference rate at 5.75%",
+          "description": "The National Bank of Serbia left its key policy rate unchanged at 5.75% at the 10 September 2026 meeting.",
+          "summary": "The Executive Board of the National Bank of Serbia kept the reference interest rate at 5.75% on 10 September 2026.",
+          "whatHappened": "The published 2026 decision record shows no change in the reference rate at the September meeting. The rate had remained at 5.75% at each scheduled meeting from January through September.",
+          "whyItMatters": "The NBS reference rate is an important signal for dinar borrowing conditions and monetary policy in Serbia. It provides useful context when comparing prices or converting amounts involving the Serbian dinar."
+        },
+        "sr": {
+          "headline": "Народна банка Србије задржала референтну каматну стопу на 5,75%",
+          "description": "Народна банка Србије задржала је референтну каматну стопу на 5,75% на седници 10. септембра 2026.",
+          "summary": "Извршни одбор Народне банке Србије задржао је референтну каматну стопу на 5,75% на седници одржаној 10. септембра 2026.",
+          "whatHappened": "Објављени преглед одлука за 2026. показује да на септембарској седници није било промене референтне стопе. Стопа је остала на 5,75% на свим планираним седницама од јануара до септембра.",
+          "whyItMatters": "Референтна стопа НБС важан је сигнал за услове задуживања у динарима и монетарну политику у Србији. Она даје користан контекст при поређењу цена или конверзији износа који укључују српски динар."
+        },
+        "ru": {
+          "headline": "Национальный банк Сербии сохранил ключевую ставку на уровне 5,75%",
+          "description": "Национальный банк Сербии сохранил ключевую процентную ставку на уровне 5,75% на заседании 10 сентября 2026 года.",
+          "summary": "Исполнительный совет Национального банка Сербии 10 сентября 2026 года сохранил ключевую процентную ставку на уровне 5,75%.",
+          "whatHappened": "Опубликованный перечень решений за 2026 год показывает, что на сентябрьском заседании ставка не изменилась. На каждом плановом заседании с января по сентябрь она оставалась на уровне 5,75%.",
+          "whyItMatters": "Ключевая ставка НБС — важный ориентир для условий заимствования в динарах и денежно-кредитной политики Сербии. Она даёт полезный контекст при сравнении цен и конвертации сумм с участием сербского динара."
+        }
+      },
+      "sources": [
+        {
+          "sourceId": "nbs",
+          "name": "National Bank of Serbia",
+          "originalTitle": "Referentna kamatna stopa zadržana na nepromenjenom nivou",
+          "originalUrl": "https://nbs.rs/sr/ciljevi-i-funkcije/monetarna-politika/sednica-izvrsnog-odbora/index.html",
+          "publishedAt": "2026-09-10",
+          "externalId": "nbs-reference-rate-2026-09-10"
+        }
+      ]
+    }
+  ]
+}
