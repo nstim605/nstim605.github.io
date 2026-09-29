@@ -15,7 +15,7 @@ import { NewsSource } from '../tools/news/sources.mjs';
 import storiesData from '../news/data/stories.json' with { type: 'json' };
 
 test('normalizes RSS and Atom entries without retaining full article markup', () => {
-  const rss = `<?xml version="1.0"?><rss><channel><item><title><![CDATA[ECB raises rates]]></title><link>https://example.test/a</link><guid>a-1</guid><pubDate>Wed, 16 Sep 2026 18:00:00 GMT</pubDate><description><![CDATA[<p>Short permitted excerpt.</p>]]></description></item></channel></rss>`;
+  const rss = `<?xml version="1.0"?><rss><channel><item><title><![CDATA[ECB raises rates]]></title><link>https://example.test/a</link><guid>a-1</guid><pubDate>Wed, 16 Sep 2026 18:00:00 GMT</pubDate><description><![CDATA[<p>Short permitted excerpt.</p>&lt;img src=x onerror=unsafe()&gt;]]></description></item></channel></rss>`;
   const atom = `<feed xmlns="http://www.w3.org/2005/Atom"><entry><title>Fed statement</title><link href="https://example.test/b"/><id>b-1</id><updated>2026-09-16T18:00:00Z</updated><summary>Short summary.</summary></entry></feed>`;
   assert.deepEqual(parseRssOrAtom(rss), [{ title: 'ECB raises rates', url: 'https://example.test/a', publishedAt: 'Wed, 16 Sep 2026 18:00:00 GMT', externalId: 'a-1', description: 'Short permitted excerpt.' }]);
   assert.equal(parseRssOrAtom(atom)[0].url, 'https://example.test/b');
@@ -93,4 +93,18 @@ test('one failed source does not prevent successful candidates from being collec
   assert.equal(result.candidates.length, 1);
   assert.equal(result.sourceRuns.find(run => run.sourceId === 'failed').ok, false);
   assert.equal(result.sourceRuns.find(run => run.sourceId === 'healthy').ok, true);
+});
+
+test('source limits keep the newest feed entries even when RSS order is irregular', async () => {
+  const source = new NewsSource({
+    id: 'test', sourceName: 'Test Bank', sourceUrl: 'https://example.test/',
+    feedUrl: 'https://example.test/feed.xml', maxItems: 1
+  });
+  const xml = `<rss><channel>
+    <item><title>Older item</title><link>https://example.test/old</link><guid>old</guid><pubDate>2026-09-01</pubDate></item>
+    <item><title>Newest item</title><link>https://example.test/new</link><guid>new</guid><pubDate>2026-09-29</pubDate></item>
+  </channel></rss>`;
+  const items = await source.fetch({ fetchImpl: async () => ({ ok: true, status: 200, text: async () => xml }) });
+  assert.equal(items.length, 1);
+  assert.equal(items[0].title, 'Newest item');
 });

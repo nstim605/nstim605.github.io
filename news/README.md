@@ -1,23 +1,39 @@
 # Balkan Converter financial news
 
-The news hub is statically generated for English, Serbian, and Russian. Published pages are built from `data/stories.json`; raw official-feed items are cached separately in `data/inbox.json` and are never indexable by default.
+The news hub is statically generated for English, Serbian, and Russian. Only reviewed records in `data/stories.json` with `status: published` and `indexable: true` can create public pages or sitemap entries. Pending, rejected, duplicate, and draft records remain data-only and non-indexable.
 
-## Update pipeline
+## Moderation pipeline
 
-`node tools/news/fetch-news.mjs` fetches the official ECB and Federal Reserve RSS feeds with timeouts and retries. Each source is isolated, so one unavailable or malformed feed does not remove existing news pages. Candidates are normalized, currency-tagged, categorized, deduplicated, and stored with `status: pending` and `indexable: false`.
+The scheduled workflow follows this sequence:
 
-`node tools/news/generate-news.mjs` applies the quality gate and generates localized list and story pages, the main sitemap additions, and `news-sitemap.xml`. A story must contain source metadata and substantial EN/SR/RU editorial copy before it can be published and indexed.
+`official RSS → normalization → deduplication → currency tagging → candidate quality gate → EN/SR/RU draft → moderation PR → human review → merge → publication`
 
-The NBS is an approved manual source for the initial release. Its official decision index is used because the current automated source set intentionally contains only stable, verified machine-readable feeds.
+1. `node tools/news/fetch-news.mjs` fetches official ECB, Federal Reserve, and NBS RSS feeds with size limits, timeouts, retries, and per-source isolation. It never scrapes HTML pages.
+2. Normalized items are stored in `data/inbox.json` with stable IDs and `indexable: false`.
+3. `node tools/news/prepare-moderation.mjs` rejects stale or low-value material, detects already-published events, and creates stable non-public records in `data/drafts.json`.
+4. `data/moderation-state.json` remembers every processed candidate, rejection, and duplicate so repeated runs do not recreate drafts or URLs.
+5. The scheduled GitHub workflow updates `automation/news-moderation` and creates or updates a moderation pull request only when worthy drafts exist. It never merges the PR and never pushes generated news directly to `main`.
+6. If a run contains only rejected or duplicate material, state may be saved on the automation branch, but no empty PR is opened.
 
-## Adding a story
+The PR body is generated as `data/moderation-report.md`; the full machine-readable results are in `data/moderation-report.json`. Untrusted feed text is stored as data, Markdown-escaped in the report, and HTML-escaped by the page generator.
 
-1. Review a candidate and its original source.
-2. Add a factual, neutral story to `data/stories.json` with all three translations.
-3. Do not forecast exchange-rate direction or provide financial advice.
-4. Set `status` to `published` and `indexable` to `true` only after review.
-5. Run the generator and `node --test tests/*.test.mjs`.
+## Official sources
+
+- European Central Bank press-release RSS: `https://www.ecb.europa.eu/rss/press.html`
+- Federal Reserve monetary-policy RSS: `https://www.federalreserve.gov/feeds/press_monetary.xml`
+- National Bank of Serbia official RSS directory: `https://nbs.rs/en/scripts/rss/index.html`
+- NBS Executive Board and Monetary Policy category feeds linked by that directory
+
+The NBS feeds are machine-readable official sources, so NBS is now automated without HTML scraping. Its web application firewall requires a browser-compatible, explicitly identified `BalkanConverter-NewsBot` request and the official RSS directory as referrer; any HTML block page is rejected by the XML parser.
+
+## Reviewing and publishing a draft
+
+1. Open every official source link in `data/drafts.json` and verify the facts and date.
+2. Fill `translations.en`, `translations.sr`, and `translations.ru` with original, factual, neutral copy. Do not paste source excerpts, forecast exchange rates, or provide financial advice.
+3. Run `node tools/news/promote-draft.mjs <draft-id>`. The command refuses incomplete copy and moves only a quality-approved story to `data/stories.json`.
+4. Run `node tools/news/generate-news.mjs` and `node --test tests/*.test.mjs`.
+5. Review the generated pages and PR checks. Publication happens only when a human merges the reviewed PR.
 
 For local visual QA, run `node tools/news/preview-server.mjs` and open `http://127.0.0.1:4173/news/`.
 
-`NewsContentProvider` is the extension point for a future translation/summarization service. The default provider deliberately returns no generated copy, so no API key or paid service is required and thin feed items cannot become public pages automatically.
+`NewsContentProvider` remains the extension point for a future translation/summarization service. The default `ManualReviewContentProvider` deliberately returns no generated copy, requires no API key or paid service, and leaves drafts incomplete until an editor supplies safe EN/SR/RU content.

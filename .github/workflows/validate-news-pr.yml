@@ -1,0 +1,31 @@
+name: Validate financial news changes
+
+on:
+  pull_request:
+    paths:
+      - 'news/**'
+      - 'sr/news/**'
+      - 'ru/news/**'
+      - 'news-sitemap.xml'
+      - 'sitemap.xml'
+      - 'tools/news/**'
+      - 'tests/news-*.test.mjs'
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Generate approved pages
+        run: node tools/news/generate-news.mjs
+      - name: Require generated files to be committed
+        run: git diff --exit-code
+      - name: Run site tests
+        run: node --test tests/*.test.mjs

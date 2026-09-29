@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-29T09:25:39.009Z",
+  "updatedAt": "2026-09-29T09:48:31.498Z",
   "candidates": [
     {
       "id": "061eab95e5dd71a42692ee0d",
@@ -28,9 +28,9 @@
         }
       ],
       "duplicateIds": [],
-      "firstSeenAt": "2026-09-29T09:24:12.148Z",
-      "lastSeenAt": "2026-09-29T09:25:39.009Z",
-      "duplicates": []
+      "duplicates": [],
+      "firstSeenAt": "2026-09-29T09:48:31.498Z",
+      "lastSeenAt": "2026-09-29T09:48:31.498Z"
     },
     {
       "id": "8bec0f90f138c27430c4fd01",
@@ -38,10 +38,12 @@
       "originalUrl": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp260928~a875675544.en.html",
       "publishedAt": "2026-09-28T13:30:00.000Z",
       "category": "Currency",
-      "currencies": [],
-      "status": "rejected",
+      "currencies": [
+        "EUR"
+      ],
+      "status": "pending",
       "indexable": false,
-      "rejectionReason": "No supported currency could be identified",
+      "rejectionReason": null,
       "sources": [
         {
           "sourceId": "ecb",
@@ -56,9 +58,9 @@
         }
       ],
       "duplicateIds": [],
-      "firstSeenAt": "2026-09-29T09:24:12.148Z",
-      "lastSeenAt": "2026-09-29T09:25:39.009Z",
-      "duplicates": []
+      "duplicates": [],
+      "firstSeenAt": "2026-09-29T09:48:31.498Z",
+      "lastSeenAt": "2026-09-29T09:48:31.498Z"
     },
     {
       "id": "5b2303b4e679735cdaf059d1",
@@ -86,9 +88,9 @@
         }
       ],
       "duplicateIds": [],
-      "firstSeenAt": "2026-09-29T09:24:12.148Z",
-      "lastSeenAt": "2026-09-29T09:25:39.009Z",
-      "duplicates": []
+      "duplicates": [],
+      "firstSeenAt": "2026-09-29T09:48:31.498Z",
+      "lastSeenAt": "2026-09-29T09:48:31.498Z"
     },
     {
       "id": "4738b8000d5e94ec817e3487",
@@ -129,8 +131,6 @@
       "duplicateIds": [
         "bb8948a6585aff714a156271"
       ],
-      "firstSeenAt": "2026-09-29T09:24:12.148Z",
-      "lastSeenAt": "2026-09-29T09:25:39.009Z",
       "duplicates": [
         {
           "id": "bb8948a6585aff714a156271",
@@ -150,7 +150,9 @@
             }
           ]
         }
-      ]
+      ],
+      "firstSeenAt": "2026-09-29T09:48:31.498Z",
+      "lastSeenAt": "2026-09-29T09:48:31.498Z"
     },
     {
       "id": "316f59e46be88da751a778be",
@@ -158,10 +160,12 @@
       "originalUrl": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp260923~87850778f5.en.pdf",
       "publishedAt": "2026-09-23T16:00:00.000Z",
       "category": "Currency",
-      "currencies": [],
-      "status": "rejected",
+      "currencies": [
+        "EUR"
+      ],
+      "status": "pending",
       "indexable": false,
-      "rejectionReason": "No supported currency could be identified",
+      "rejectionReason": null,
       "sources": [
         {
           "sourceId": "ecb",
@@ -176,9 +180,9 @@
         }
       ],
       "duplicateIds": [],
-      "firstSeenAt": "2026-09-29T09:24:12.148Z",
-      "lastSeenAt": "2026-09-29T09:25:39.009Z",
-      "duplicates": []
+      "duplicates": [],
+      "firstSeenAt": "2026-09-29T09:48:31.498Z",
+      "lastSeenAt": "2026-09-29T09:48:31.498Z"
     },
     {
       "id": "d1f3b2b5b00d8ef685ede993",
@@ -206,9 +210,9 @@
         }
       ],
       "duplicateIds": [],
-      "firstSeenAt": "2026-09-29T09:24:12.148Z",
-      "lastSeenAt": "2026-09-29T09:25:39.009Z",
-      "duplicates": []
+      "duplicates": [],
+      "firstSeenAt": "2026-09-29T09:48:31.498Z",
+      "lastSeenAt": "2026-09-29T09:48:31.498Z"
     },
     {
       "id": "e1d3410492a8393fbf59df90",
@@ -216,10 +220,12 @@
       "originalUrl": "https://www.ecb.europa.eu//press/inter/date/2026/html/ecb.in260922~5f89d300ee.en.html",
       "publishedAt": "2026-09-22T05:00:00.000Z",
       "category": "Currency",
-      "currencies": [],
-      "status": "rejected",
+      "currencies": [
+        "EUR"
+      ],
+      "status": "pending",
       "indexable": false,
-      "rejectionReason": "No supported currency could be identified",
+      "rejectionReason": null,
       "sources": [
         {
           "sourceId": "ecb",
@@ -234,9 +240,9 @@
         }
       ],
       "duplicateIds": [],
-      "firstSeenAt": "2026-09-29T09:24:12.148Z",
-      "lastSeenAt": "2026-09-29T09:25:39.009Z",
-      "duplicates": []
+      "duplicates": [],
+      "firstSeenAt": "2026-09-29T09:48:31.498Z",
+      "lastSeenAt": "2026-09-29T09:48:31.498Z"
     },
     {
       "id": "702ca70159d261d8de591ac1",
@@ -264,9 +270,9 @@
         }
       ],
       "duplicateIds": [],
-      "firstSeenAt": "2026-09-29T09:24:12.148Z",
-      "lastSeenAt": "2026-09-29T09:25:39.009Z",
-      "duplicates": []
+      "duplicates": [],
+      "firstSeenAt": "2026-09-29T09:48:31.498Z",
+      "lastSeenAt": "2026-09-29T09:48:31.498Z"
     },
     {
       "id": "0fa206d71eda4c89638adae0",
@@ -274,10 +280,12 @@
       "originalUrl": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260921~e754847a7b.en.html",
       "publishedAt": "2026-09-21T10:00:00.000Z",
       "category": "Central Banks",
-      "currencies": [],
-      "status": "rejected",
+      "currencies": [
+        "EUR"
+      ],
+      "status": "pending",
       "indexable": false,
-      "rejectionReason": "No supported currency could be identified",
+      "rejectionReason": null,
       "sources": [
         {
           "sourceId": "ecb",
@@ -292,9 +300,9 @@
         }
       ],
       "duplicateIds": [],
-      "firstSeenAt": "2026-09-29T09:24:12.148Z",
-      "lastSeenAt": "2026-09-29T09:25:39.009Z",
-      "duplicates": []
+      "duplicates": [],
+      "firstSeenAt": "2026-09-29T09:48:31.498Z",
+      "lastSeenAt": "2026-09-29T09:48:31.498Z"
     },
     {
       "id": "ed1000a4443d9e8b50162066",
@@ -322,9 +330,9 @@
         }
       ],
       "duplicateIds": [],
-      "firstSeenAt": "2026-09-29T09:24:12.148Z",
-      "lastSeenAt": "2026-09-29T09:25:39.009Z",
-      "duplicates": []
+      "duplicates": [],
+      "firstSeenAt": "2026-09-29T09:48:31.498Z",
+      "lastSeenAt": "2026-09-29T09:48:31.498Z"
     },
     {
       "id": "e123f4985d97cc24fd3662a4",
@@ -332,10 +340,12 @@
       "originalUrl": "https://www.ecb.europa.eu//press/inter/date/2026/html/ecb.in260918~33f023fe26.en.html",
       "publishedAt": "2026-09-18T06:00:00.000Z",
       "category": "Currency",
-      "currencies": [],
-      "status": "rejected",
+      "currencies": [
+        "EUR"
+      ],
+      "status": "pending",
       "indexable": false,
-      "rejectionReason": "No supported currency could be identified",
+      "rejectionReason": null,
       "sources": [
         {
           "sourceId": "ecb",
@@ -350,9 +360,39 @@
         }
       ],
       "duplicateIds": [],
-      "firstSeenAt": "2026-09-29T09:24:12.148Z",
-      "lastSeenAt": "2026-09-29T09:25:39.009Z",
-      "duplicates": []
+      "duplicates": [],
+      "firstSeenAt": "2026-09-29T09:48:31.498Z",
+      "lastSeenAt": "2026-09-29T09:48:31.498Z"
+    },
+    {
+      "id": "d5a67ad37a0a1a03b74c32ee",
+      "originalTitle": "Results of the Inflation Expectations Survey",
+      "originalUrl": "https://www.nbs.rs/en/scripts/showcontent/index.html?id=21729&konverzija=no",
+      "publishedAt": "2026-09-17T09:52:54.000Z",
+      "category": "Inflation",
+      "currencies": [
+        "RSD"
+      ],
+      "status": "pending",
+      "indexable": false,
+      "rejectionReason": null,
+      "sources": [
+        {
+          "sourceId": "nbs-monetary-policy",
+          "name": "National Bank of Serbia",
+          "originalTitle": "Results of the Inflation Expectations Survey",
+          "originalUrl": "https://www.nbs.rs/en/scripts/showcontent/index.html?id=21729&konverzija=no",
+          "publishedAt": "2026-09-17T09:52:54.000Z",
+          "externalId": "https://www.nbs.rs/en/scripts/showcontent/index.html?id=21729&konverzija=no",
+          "metadata": {
+            "feedUrl": "https://nbs.rs/system/modules/yu.nbs.news/elements/responsive/RSSnews.xml?kategorija=19&konverzija=no&lang=en"
+          }
+        }
+      ],
+      "duplicateIds": [],
+      "duplicates": [],
+      "firstSeenAt": "2026-09-29T09:48:31.498Z",
+      "lastSeenAt": "2026-09-29T09:48:31.498Z"
     },
     {
       "id": "4e63ddfe9e804631d8704030",
@@ -380,9 +420,9 @@
         }
       ],
       "duplicateIds": [],
-      "firstSeenAt": "2026-09-29T09:24:12.148Z",
-      "lastSeenAt": "2026-09-29T09:25:39.009Z",
-      "duplicates": []
+      "duplicates": [],
+      "firstSeenAt": "2026-09-29T09:48:31.498Z",
+      "lastSeenAt": "2026-09-29T09:48:31.498Z"
     },
     {
       "id": "e67cb5eff5f8900dbb229048",
@@ -410,9 +450,9 @@
         }
       ],
       "duplicateIds": [],
-      "firstSeenAt": "2026-09-29T09:24:12.148Z",
-      "lastSeenAt": "2026-09-29T09:25:39.009Z",
-      "duplicates": []
+      "duplicates": [],
+      "firstSeenAt": "2026-09-29T09:48:31.498Z",
+      "lastSeenAt": "2026-09-29T09:48:31.498Z"
     },
     {
       "id": "be47f7768561977397855d23",
@@ -440,9 +480,9 @@
         }
       ],
       "duplicateIds": [],
-      "firstSeenAt": "2026-09-29T09:24:12.148Z",
-      "lastSeenAt": "2026-09-29T09:25:39.009Z",
-      "duplicates": []
+      "duplicates": [],
+      "firstSeenAt": "2026-09-29T09:48:31.498Z",
+      "lastSeenAt": "2026-09-29T09:48:31.498Z"
     },
     {
       "id": "50ea3c8da63ff9e4cc9cc58b",
@@ -450,10 +490,12 @@
       "originalUrl": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp260914_2~a3f0efbee4.en.html",
       "publishedAt": "2026-09-14T15:15:00.000Z",
       "category": "Currency",
-      "currencies": [],
-      "status": "rejected",
+      "currencies": [
+        "EUR"
+      ],
+      "status": "pending",
       "indexable": false,
-      "rejectionReason": "No supported currency could be identified",
+      "rejectionReason": null,
       "sources": [
         {
           "sourceId": "ecb",
@@ -468,9 +510,9 @@
         }
       ],
       "duplicateIds": [],
-      "firstSeenAt": "2026-09-29T09:24:12.148Z",
-      "lastSeenAt": "2026-09-29T09:25:39.009Z",
-      "duplicates": []
+      "duplicates": [],
+      "firstSeenAt": "2026-09-29T09:48:31.498Z",
+      "lastSeenAt": "2026-09-29T09:48:31.498Z"
     },
     {
       "id": "c804af3bf384c77abc1a27d4",
@@ -498,9 +540,120 @@
         }
       ],
       "duplicateIds": [],
-      "firstSeenAt": "2026-09-29T09:24:12.148Z",
-      "lastSeenAt": "2026-09-29T09:25:39.009Z",
-      "duplicates": []
+      "duplicates": [],
+      "firstSeenAt": "2026-09-29T09:48:31.498Z",
+      "lastSeenAt": "2026-09-29T09:48:31.498Z"
+    },
+    {
+      "id": "b3259b176d1f5dfd9b6d4e02",
+      "originalTitle": "Inflation movements in August 2026",
+      "originalUrl": "https://www.nbs.rs/en/scripts/showcontent/index.html?id=21723&konverzija=no",
+      "publishedAt": "2026-09-14T07:50:09.000Z",
+      "category": "Inflation",
+      "currencies": [
+        "RSD"
+      ],
+      "status": "pending",
+      "indexable": false,
+      "rejectionReason": null,
+      "sources": [
+        {
+          "sourceId": "nbs-monetary-policy",
+          "name": "National Bank of Serbia",
+          "originalTitle": "Inflation movements in August 2026",
+          "originalUrl": "https://www.nbs.rs/en/scripts/showcontent/index.html?id=21723&konverzija=no",
+          "publishedAt": "2026-09-14T07:50:09.000Z",
+          "externalId": "https://www.nbs.rs/en/scripts/showcontent/index.html?id=21723&konverzija=no",
+          "metadata": {
+            "feedUrl": "https://nbs.rs/system/modules/yu.nbs.news/elements/responsive/RSSnews.xml?kategorija=19&konverzija=no&lang=en"
+          }
+        }
+      ],
+      "duplicateIds": [],
+      "duplicates": [],
+      "firstSeenAt": "2026-09-29T09:48:31.498Z",
+      "lastSeenAt": "2026-09-29T09:48:31.498Z"
+    },
+    {
+      "id": "c46d29bce1c4a68d30d5d769",
+      "originalTitle": "Key policy rate kept unchanged",
+      "originalUrl": "https://www.nbs.rs/en/scripts/showcontent/index.html?id=21715&konverzija=no",
+      "publishedAt": "2026-09-10T10:19:25.000Z",
+      "category": "Interest Rates",
+      "currencies": [
+        "RSD"
+      ],
+      "status": "pending",
+      "indexable": false,
+      "rejectionReason": null,
+      "sources": [
+        {
+          "sourceId": "nbs-executive-board",
+          "name": "National Bank of Serbia",
+          "originalTitle": "Key policy rate kept unchanged",
+          "originalUrl": "https://www.nbs.rs/en/scripts/showcontent/index.html?id=21715&konverzija=no",
+          "publishedAt": "2026-09-10T10:19:25.000Z",
+          "externalId": "https://www.nbs.rs/en/scripts/showcontent/index.html?id=21715&konverzija=no",
+          "metadata": {
+            "feedUrl": "https://nbs.rs/system/modules/yu.nbs.news/elements/responsive/RSSnews.xml?kategorija=191&konverzija=no&lang=en"
+          }
+        }
+      ],
+      "duplicateIds": [
+        "a9897abb34f13914e4d24565"
+      ],
+      "duplicates": [
+        {
+          "id": "a9897abb34f13914e4d24565",
+          "status": "duplicate",
+          "indexable": false,
+          "sources": [
+            {
+              "sourceId": "nbs-monetary-policy",
+              "name": "National Bank of Serbia",
+              "originalTitle": "Key policy rate kept unchanged",
+              "originalUrl": "https://www.nbs.rs/en/scripts/showcontent/index.html?id=21715&konverzija=no",
+              "publishedAt": "2026-09-10T10:19:25.000Z",
+              "externalId": "https://www.nbs.rs/en/scripts/showcontent/index.html?id=21715&konverzija=no",
+              "metadata": {
+                "feedUrl": "https://nbs.rs/system/modules/yu.nbs.news/elements/responsive/RSSnews.xml?kategorija=19&konverzija=no&lang=en"
+              }
+            }
+          ]
+        }
+      ],
+      "firstSeenAt": "2026-09-29T09:48:31.498Z",
+      "lastSeenAt": "2026-09-29T09:48:31.498Z"
+    },
+    {
+      "id": "ff62652755535f56dcf5896f",
+      "originalTitle": "Long-standing higher profitability of dinar savings",
+      "originalUrl": "https://www.nbs.rs/en/scripts/showcontent/index.html?id=21676&konverzija=no",
+      "publishedAt": "2026-08-27T09:48:08.000Z",
+      "category": "Currency",
+      "currencies": [
+        "RSD"
+      ],
+      "status": "pending",
+      "indexable": false,
+      "rejectionReason": null,
+      "sources": [
+        {
+          "sourceId": "nbs-monetary-policy",
+          "name": "National Bank of Serbia",
+          "originalTitle": "Long-standing higher profitability of dinar savings",
+          "originalUrl": "https://www.nbs.rs/en/scripts/showcontent/index.html?id=21676&konverzija=no",
+          "publishedAt": "2026-08-27T09:48:08.000Z",
+          "externalId": "https://www.nbs.rs/en/scripts/showcontent/index.html?id=21676&konverzija=no",
+          "metadata": {
+            "feedUrl": "https://nbs.rs/system/modules/yu.nbs.news/elements/responsive/RSSnews.xml?kategorija=19&konverzija=no&lang=en"
+          }
+        }
+      ],
+      "duplicateIds": [],
+      "duplicates": [],
+      "firstSeenAt": "2026-09-29T09:48:31.498Z",
+      "lastSeenAt": "2026-09-29T09:48:31.498Z"
     },
     {
       "id": "317345f4f82bd0d3a4d25074",
@@ -508,10 +661,12 @@
       "originalUrl": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260825a.htm",
       "publishedAt": "2026-08-25T18:00:00.000Z",
       "category": "Currency",
-      "currencies": [],
-      "status": "rejected",
+      "currencies": [
+        "USD"
+      ],
+      "status": "pending",
       "indexable": false,
-      "rejectionReason": "No supported currency could be identified",
+      "rejectionReason": null,
       "sources": [
         {
           "sourceId": "federal-reserve",
@@ -526,9 +681,39 @@
         }
       ],
       "duplicateIds": [],
-      "firstSeenAt": "2026-09-29T09:24:12.148Z",
-      "lastSeenAt": "2026-09-29T09:25:39.009Z",
-      "duplicates": []
+      "duplicates": [],
+      "firstSeenAt": "2026-09-29T09:48:31.498Z",
+      "lastSeenAt": "2026-09-29T09:48:31.498Z"
+    },
+    {
+      "id": "76a0b27d8226221b64eae1f3",
+      "originalTitle": "Results of the Inflation Expectations Survey",
+      "originalUrl": "https://www.nbs.rs/en/scripts/showcontent/index.html?id=21669&konverzija=no",
+      "publishedAt": "2026-08-21T11:51:02.000Z",
+      "category": "Inflation",
+      "currencies": [
+        "RSD"
+      ],
+      "status": "pending",
+      "indexable": false,
+      "rejectionReason": null,
+      "sources": [
+        {
+          "sourceId": "nbs-monetary-policy",
+          "name": "National Bank of Serbia",
+          "originalTitle": "Results of the Inflation Expectations Survey",
+          "originalUrl": "https://www.nbs.rs/en/scripts/showcontent/index.html?id=21669&konverzija=no",
+          "publishedAt": "2026-08-21T11:51:02.000Z",
+          "externalId": "https://www.nbs.rs/en/scripts/showcontent/index.html?id=21669&konverzija=no",
+          "metadata": {
+            "feedUrl": "https://nbs.rs/system/modules/yu.nbs.news/elements/responsive/RSSnews.xml?kategorija=19&konverzija=no&lang=en"
+          }
+        }
+      ],
+      "duplicateIds": [],
+      "duplicates": [],
+      "firstSeenAt": "2026-09-29T09:48:31.498Z",
+      "lastSeenAt": "2026-09-29T09:48:31.498Z"
     },
     {
       "id": "fb9f97df45f731d71f6cc540",
@@ -536,10 +721,12 @@
       "originalUrl": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260819a.htm",
       "publishedAt": "2026-08-19T18:00:00.000Z",
       "category": "Currency",
-      "currencies": [],
-      "status": "rejected",
+      "currencies": [
+        "USD"
+      ],
+      "status": "pending",
       "indexable": false,
-      "rejectionReason": "No supported currency could be identified",
+      "rejectionReason": null,
       "sources": [
         {
           "sourceId": "federal-reserve",
@@ -554,9 +741,150 @@
         }
       ],
       "duplicateIds": [],
-      "firstSeenAt": "2026-09-29T09:24:12.148Z",
-      "lastSeenAt": "2026-09-29T09:25:39.009Z",
-      "duplicates": []
+      "duplicates": [],
+      "firstSeenAt": "2026-09-29T09:48:31.498Z",
+      "lastSeenAt": "2026-09-29T09:48:31.498Z"
+    },
+    {
+      "id": "7cb62dc209a96f5956c758aa",
+      "originalTitle": "Introductory speech by Governor Jorgovanka Tabaković at the presentation of the Inflation Report – August 2026",
+      "originalUrl": "https://www.nbs.rshttps//www.nbs.rs/export/sites/NBS_site/documents-eng/publikacije/ioi/prezentacije/govor_ioi_08_2026_JT_e.pdf",
+      "publishedAt": "2026-08-19T09:12:05.000Z",
+      "category": "Inflation",
+      "currencies": [
+        "RSD"
+      ],
+      "status": "pending",
+      "indexable": false,
+      "rejectionReason": null,
+      "sources": [
+        {
+          "sourceId": "nbs-monetary-policy",
+          "name": "National Bank of Serbia",
+          "originalTitle": "Introductory speech by Governor Jorgovanka Tabaković at the presentation of the Inflation Report – August 2026",
+          "originalUrl": "https://www.nbs.rshttps//www.nbs.rs/export/sites/NBS_site/documents-eng/publikacije/ioi/prezentacije/govor_ioi_08_2026_JT_e.pdf",
+          "publishedAt": "2026-08-19T09:12:05.000Z",
+          "externalId": "https://www.nbs.rshttps//www.nbs.rs/export/sites/NBS_site/documents-eng/publikacije/ioi/prezentacije/govor_ioi_08_2026_JT_e.pdf",
+          "metadata": {
+            "feedUrl": "https://nbs.rs/system/modules/yu.nbs.news/elements/responsive/RSSnews.xml?kategorija=19&konverzija=no&lang=en"
+          }
+        }
+      ],
+      "duplicateIds": [],
+      "duplicates": [],
+      "firstSeenAt": "2026-09-29T09:48:31.498Z",
+      "lastSeenAt": "2026-09-29T09:48:31.498Z"
+    },
+    {
+      "id": "d7bf0ee8792a8cef32bc20c7",
+      "originalTitle": "Inflation Report – August 2026",
+      "originalUrl": "https://www.nbs.rshttps//www.nbs.rs/export/sites/NBS_site/documents-eng/publikacije/ioi/izvestaji/inflation_report_08_2026.pdf",
+      "publishedAt": "2026-08-19T09:11:10.000Z",
+      "category": "Inflation",
+      "currencies": [
+        "RSD"
+      ],
+      "status": "pending",
+      "indexable": false,
+      "rejectionReason": null,
+      "sources": [
+        {
+          "sourceId": "nbs-monetary-policy",
+          "name": "National Bank of Serbia",
+          "originalTitle": "Inflation Report – August 2026",
+          "originalUrl": "https://www.nbs.rshttps//www.nbs.rs/export/sites/NBS_site/documents-eng/publikacije/ioi/izvestaji/inflation_report_08_2026.pdf",
+          "publishedAt": "2026-08-19T09:11:10.000Z",
+          "externalId": "https://www.nbs.rshttps//www.nbs.rs/export/sites/NBS_site/documents-eng/publikacije/ioi/izvestaji/inflation_report_08_2026.pdf",
+          "metadata": {
+            "feedUrl": "https://nbs.rs/system/modules/yu.nbs.news/elements/responsive/RSSnews.xml?kategorija=19&konverzija=no&lang=en"
+          }
+        }
+      ],
+      "duplicateIds": [],
+      "duplicates": [],
+      "firstSeenAt": "2026-09-29T09:48:31.498Z",
+      "lastSeenAt": "2026-09-29T09:48:31.498Z"
+    },
+    {
+      "id": "ae2179f0bbd9ceec6b18bae2",
+      "originalTitle": "Key policy rate kept unchanged",
+      "originalUrl": "https://www.nbs.rs/en/scripts/showcontent/index.html?id=21652&konverzija=no",
+      "publishedAt": "2026-08-13T10:13:26.000Z",
+      "category": "Interest Rates",
+      "currencies": [
+        "RSD"
+      ],
+      "status": "pending",
+      "indexable": false,
+      "rejectionReason": null,
+      "sources": [
+        {
+          "sourceId": "nbs-executive-board",
+          "name": "National Bank of Serbia",
+          "originalTitle": "Key policy rate kept unchanged",
+          "originalUrl": "https://www.nbs.rs/en/scripts/showcontent/index.html?id=21652&konverzija=no",
+          "publishedAt": "2026-08-13T10:13:26.000Z",
+          "externalId": "https://www.nbs.rs/en/scripts/showcontent/index.html?id=21652&konverzija=no",
+          "metadata": {
+            "feedUrl": "https://nbs.rs/system/modules/yu.nbs.news/elements/responsive/RSSnews.xml?kategorija=191&konverzija=no&lang=en"
+          }
+        }
+      ],
+      "duplicateIds": [
+        "9c8fb1dbdfc2429a41711ca7"
+      ],
+      "duplicates": [
+        {
+          "id": "9c8fb1dbdfc2429a41711ca7",
+          "status": "duplicate",
+          "indexable": false,
+          "sources": [
+            {
+              "sourceId": "nbs-monetary-policy",
+              "name": "National Bank of Serbia",
+              "originalTitle": "Key policy rate kept unchanged",
+              "originalUrl": "https://www.nbs.rs/en/scripts/showcontent/index.html?id=21652&konverzija=no",
+              "publishedAt": "2026-08-13T10:13:26.000Z",
+              "externalId": "https://www.nbs.rs/en/scripts/showcontent/index.html?id=21652&konverzija=no",
+              "metadata": {
+                "feedUrl": "https://nbs.rs/system/modules/yu.nbs.news/elements/responsive/RSSnews.xml?kategorija=19&konverzija=no&lang=en"
+              }
+            }
+          ]
+        }
+      ],
+      "firstSeenAt": "2026-09-29T09:48:31.498Z",
+      "lastSeenAt": "2026-09-29T09:48:31.498Z"
+    },
+    {
+      "id": "dc555393990fd6cdeb0a49e4",
+      "originalTitle": "Inflation movements in July 2026",
+      "originalUrl": "https://www.nbs.rs/en/scripts/showcontent/index.html?id=21648&konverzija=no",
+      "publishedAt": "2026-08-12T12:31:39.000Z",
+      "category": "Inflation",
+      "currencies": [
+        "RSD"
+      ],
+      "status": "pending",
+      "indexable": false,
+      "rejectionReason": null,
+      "sources": [
+        {
+          "sourceId": "nbs-monetary-policy",
+          "name": "National Bank of Serbia",
+          "originalTitle": "Inflation movements in July 2026",
+          "originalUrl": "https://www.nbs.rs/en/scripts/showcontent/index.html?id=21648&konverzija=no",
+          "publishedAt": "2026-08-12T12:31:39.000Z",
+          "externalId": "https://www.nbs.rs/en/scripts/showcontent/index.html?id=21648&konverzija=no",
+          "metadata": {
+            "feedUrl": "https://nbs.rs/system/modules/yu.nbs.news/elements/responsive/RSSnews.xml?kategorija=19&konverzija=no&lang=en"
+          }
+        }
+      ],
+      "duplicateIds": [],
+      "duplicates": [],
+      "firstSeenAt": "2026-09-29T09:48:31.498Z",
+      "lastSeenAt": "2026-09-29T09:48:31.498Z"
     },
     {
       "id": "85dbfeb61d1c6a92d8c2bf88",
@@ -584,9 +912,39 @@
         }
       ],
       "duplicateIds": [],
-      "firstSeenAt": "2026-09-29T09:24:12.148Z",
-      "lastSeenAt": "2026-09-29T09:25:39.009Z",
-      "duplicates": []
+      "duplicates": [],
+      "firstSeenAt": "2026-09-29T09:48:31.498Z",
+      "lastSeenAt": "2026-09-29T09:48:31.498Z"
+    },
+    {
+      "id": "e3db291e8eb2de56346bb9f6",
+      "originalTitle": "Report on Dinarisation of the Serbian Financial System – First Quarter 2026",
+      "originalUrl": "https://www.nbs.rshttps//www.nbs.rs/export/sites/NBS_site/documents-eng/publikacije/dinarizacija/izvestaji/din_I_26.pdf",
+      "publishedAt": "2026-07-24T08:58:48.000Z",
+      "category": "Currency",
+      "currencies": [
+        "RSD"
+      ],
+      "status": "pending",
+      "indexable": false,
+      "rejectionReason": null,
+      "sources": [
+        {
+          "sourceId": "nbs-monetary-policy",
+          "name": "National Bank of Serbia",
+          "originalTitle": "Report on Dinarisation of the Serbian Financial System – First Quarter 2026",
+          "originalUrl": "https://www.nbs.rshttps//www.nbs.rs/export/sites/NBS_site/documents-eng/publikacije/dinarizacija/izvestaji/din_I_26.pdf",
+          "publishedAt": "2026-07-24T08:58:48.000Z",
+          "externalId": "https://www.nbs.rshttps//www.nbs.rs/export/sites/NBS_site/documents-eng/publikacije/dinarizacija/izvestaji/din_I_26.pdf",
+          "metadata": {
+            "feedUrl": "https://nbs.rs/system/modules/yu.nbs.news/elements/responsive/RSSnews.xml?kategorija=19&konverzija=no&lang=en"
+          }
+        }
+      ],
+      "duplicateIds": [],
+      "duplicates": [],
+      "firstSeenAt": "2026-09-29T09:48:31.498Z",
+      "lastSeenAt": "2026-09-29T09:48:31.498Z"
     },
     {
       "id": "553fe189b7ec26f578cc5615",
@@ -594,10 +952,12 @@
       "originalUrl": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260714a.htm",
       "publishedAt": "2026-07-14T18:00:00.000Z",
       "category": "Currency",
-      "currencies": [],
-      "status": "rejected",
+      "currencies": [
+        "USD"
+      ],
+      "status": "pending",
       "indexable": false,
-      "rejectionReason": "No supported currency could be identified",
+      "rejectionReason": null,
       "sources": [
         {
           "sourceId": "federal-reserve",
@@ -612,9 +972,69 @@
         }
       ],
       "duplicateIds": [],
-      "firstSeenAt": "2026-09-29T09:24:12.148Z",
-      "lastSeenAt": "2026-09-29T09:25:39.009Z",
-      "duplicates": []
+      "duplicates": [],
+      "firstSeenAt": "2026-09-29T09:48:31.498Z",
+      "lastSeenAt": "2026-09-29T09:48:31.498Z"
+    },
+    {
+      "id": "0983edfe4ef7cb6bf5395291",
+      "originalTitle": "Results of Inflation Expectations Survey",
+      "originalUrl": "https://www.nbs.rs/en/scripts/showcontent/index.html?id=21595&konverzija=no",
+      "publishedAt": "2026-07-14T12:24:24.000Z",
+      "category": "Inflation",
+      "currencies": [
+        "RSD"
+      ],
+      "status": "pending",
+      "indexable": false,
+      "rejectionReason": null,
+      "sources": [
+        {
+          "sourceId": "nbs-monetary-policy",
+          "name": "National Bank of Serbia",
+          "originalTitle": "Results of Inflation Expectations Survey",
+          "originalUrl": "https://www.nbs.rs/en/scripts/showcontent/index.html?id=21595&konverzija=no",
+          "publishedAt": "2026-07-14T12:24:24.000Z",
+          "externalId": "https://www.nbs.rs/en/scripts/showcontent/index.html?id=21595&konverzija=no",
+          "metadata": {
+            "feedUrl": "https://nbs.rs/system/modules/yu.nbs.news/elements/responsive/RSSnews.xml?kategorija=19&konverzija=no&lang=en"
+          }
+        }
+      ],
+      "duplicateIds": [],
+      "duplicates": [],
+      "firstSeenAt": "2026-09-29T09:48:31.498Z",
+      "lastSeenAt": "2026-09-29T09:48:31.498Z"
+    },
+    {
+      "id": "9e23a69ad811c52aa4499e72",
+      "originalTitle": "Inflation movements in June 2026",
+      "originalUrl": "https://www.nbs.rs/en/scripts/showcontent/index.html?id=21590&konverzija=no",
+      "publishedAt": "2026-07-13T13:12:48.000Z",
+      "category": "Inflation",
+      "currencies": [
+        "RSD"
+      ],
+      "status": "pending",
+      "indexable": false,
+      "rejectionReason": null,
+      "sources": [
+        {
+          "sourceId": "nbs-monetary-policy",
+          "name": "National Bank of Serbia",
+          "originalTitle": "Inflation movements in June 2026",
+          "originalUrl": "https://www.nbs.rs/en/scripts/showcontent/index.html?id=21590&konverzija=no",
+          "publishedAt": "2026-07-13T13:12:48.000Z",
+          "externalId": "https://www.nbs.rs/en/scripts/showcontent/index.html?id=21590&konverzija=no",
+          "metadata": {
+            "feedUrl": "https://nbs.rs/system/modules/yu.nbs.news/elements/responsive/RSSnews.xml?kategorija=19&konverzija=no&lang=en"
+          }
+        }
+      ],
+      "duplicateIds": [],
+      "duplicates": [],
+      "firstSeenAt": "2026-09-29T09:48:31.498Z",
+      "lastSeenAt": "2026-09-29T09:48:31.498Z"
     },
     {
       "id": "0e6c735bd63e88f1f20e6bde",
@@ -642,9 +1062,60 @@
         }
       ],
       "duplicateIds": [],
-      "firstSeenAt": "2026-09-29T09:24:12.148Z",
-      "lastSeenAt": "2026-09-29T09:25:39.009Z",
-      "duplicates": []
+      "duplicates": [],
+      "firstSeenAt": "2026-09-29T09:48:31.498Z",
+      "lastSeenAt": "2026-09-29T09:48:31.498Z"
+    },
+    {
+      "id": "161240b1483a0b7b7f228443",
+      "originalTitle": "Key policy rate kept unchanged",
+      "originalUrl": "https://www.nbs.rs/en/scripts/showcontent/index.html?id=21582&konverzija=no",
+      "publishedAt": "2026-07-09T10:37:32.000Z",
+      "category": "Interest Rates",
+      "currencies": [
+        "RSD"
+      ],
+      "status": "pending",
+      "indexable": false,
+      "rejectionReason": null,
+      "sources": [
+        {
+          "sourceId": "nbs-executive-board",
+          "name": "National Bank of Serbia",
+          "originalTitle": "Key policy rate kept unchanged",
+          "originalUrl": "https://www.nbs.rs/en/scripts/showcontent/index.html?id=21582&konverzija=no",
+          "publishedAt": "2026-07-09T10:37:32.000Z",
+          "externalId": "https://www.nbs.rs/en/scripts/showcontent/index.html?id=21582&konverzija=no",
+          "metadata": {
+            "feedUrl": "https://nbs.rs/system/modules/yu.nbs.news/elements/responsive/RSSnews.xml?kategorija=191&konverzija=no&lang=en"
+          }
+        }
+      ],
+      "duplicateIds": [
+        "b02c02388cefdb52796cb67a"
+      ],
+      "duplicates": [
+        {
+          "id": "b02c02388cefdb52796cb67a",
+          "status": "duplicate",
+          "indexable": false,
+          "sources": [
+            {
+              "sourceId": "nbs-monetary-policy",
+              "name": "National Bank of Serbia",
+              "originalTitle": "Key policy rate kept unchanged",
+              "originalUrl": "https://www.nbs.rs/en/scripts/showcontent/index.html?id=21582&konverzija=no",
+              "publishedAt": "2026-07-09T10:37:32.000Z",
+              "externalId": "https://www.nbs.rs/en/scripts/showcontent/index.html?id=21582&konverzija=no",
+              "metadata": {
+                "feedUrl": "https://nbs.rs/system/modules/yu.nbs.news/elements/responsive/RSSnews.xml?kategorija=19&konverzija=no&lang=en"
+              }
+            }
+          ]
+        }
+      ],
+      "firstSeenAt": "2026-09-29T09:48:31.498Z",
+      "lastSeenAt": "2026-09-29T09:48:31.498Z"
     },
     {
       "id": "ceefcc81c95132f72e7df592",
@@ -652,10 +1123,12 @@
       "originalUrl": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260708a.htm",
       "publishedAt": "2026-07-08T18:00:00.000Z",
       "category": "Currency",
-      "currencies": [],
-      "status": "rejected",
+      "currencies": [
+        "USD"
+      ],
+      "status": "pending",
       "indexable": false,
-      "rejectionReason": "No supported currency could be identified",
+      "rejectionReason": null,
       "sources": [
         {
           "sourceId": "federal-reserve",
@@ -670,9 +1143,9 @@
         }
       ],
       "duplicateIds": [],
-      "firstSeenAt": "2026-09-29T09:24:12.148Z",
-      "lastSeenAt": "2026-09-29T09:25:39.009Z",
-      "duplicates": []
+      "duplicates": [],
+      "firstSeenAt": "2026-09-29T09:48:31.498Z",
+      "lastSeenAt": "2026-09-29T09:48:31.498Z"
     },
     {
       "id": "4d8a7b1563b1f82ad0ba119c",
@@ -700,9 +1173,9 @@
         }
       ],
       "duplicateIds": [],
-      "firstSeenAt": "2026-09-29T09:24:12.148Z",
-      "lastSeenAt": "2026-09-29T09:25:39.009Z",
-      "duplicates": []
+      "duplicates": [],
+      "firstSeenAt": "2026-09-29T09:48:31.498Z",
+      "lastSeenAt": "2026-09-29T09:48:31.498Z"
     },
     {
       "id": "cbbd29d9b3698b15fa36760f",
@@ -730,9 +1203,120 @@
         }
       ],
       "duplicateIds": [],
-      "firstSeenAt": "2026-09-29T09:24:12.148Z",
-      "lastSeenAt": "2026-09-29T09:25:39.009Z",
-      "duplicates": []
+      "duplicates": [],
+      "firstSeenAt": "2026-09-29T09:48:31.498Z",
+      "lastSeenAt": "2026-09-29T09:48:31.498Z"
+    },
+    {
+      "id": "8f9b53fd0db2af6831b7fd5e",
+      "originalTitle": "Results of Inflation Expectations Survey",
+      "originalUrl": "https://www.nbs.rs/en/scripts/showcontent/index.html?id=21531&konverzija=no",
+      "publishedAt": "2026-06-17T07:18:26.000Z",
+      "category": "Inflation",
+      "currencies": [
+        "RSD"
+      ],
+      "status": "pending",
+      "indexable": false,
+      "rejectionReason": null,
+      "sources": [
+        {
+          "sourceId": "nbs-monetary-policy",
+          "name": "National Bank of Serbia",
+          "originalTitle": "Results of Inflation Expectations Survey",
+          "originalUrl": "https://www.nbs.rs/en/scripts/showcontent/index.html?id=21531&konverzija=no",
+          "publishedAt": "2026-06-17T07:18:26.000Z",
+          "externalId": "https://www.nbs.rs/en/scripts/showcontent/index.html?id=21531&konverzija=no",
+          "metadata": {
+            "feedUrl": "https://nbs.rs/system/modules/yu.nbs.news/elements/responsive/RSSnews.xml?kategorija=19&konverzija=no&lang=en"
+          }
+        }
+      ],
+      "duplicateIds": [],
+      "duplicates": [],
+      "firstSeenAt": "2026-09-29T09:48:31.498Z",
+      "lastSeenAt": "2026-09-29T09:48:31.498Z"
+    },
+    {
+      "id": "800e52bcedefc213c3898e9e",
+      "originalTitle": "Inflation movements in May",
+      "originalUrl": "https://www.nbs.rs/en/scripts/showcontent/index.html?id=21523&konverzija=no",
+      "publishedAt": "2026-06-12T11:28:00.000Z",
+      "category": "Inflation",
+      "currencies": [
+        "RSD"
+      ],
+      "status": "pending",
+      "indexable": false,
+      "rejectionReason": null,
+      "sources": [
+        {
+          "sourceId": "nbs-monetary-policy",
+          "name": "National Bank of Serbia",
+          "originalTitle": "Inflation movements in May",
+          "originalUrl": "https://www.nbs.rs/en/scripts/showcontent/index.html?id=21523&konverzija=no",
+          "publishedAt": "2026-06-12T11:28:00.000Z",
+          "externalId": "https://www.nbs.rs/en/scripts/showcontent/index.html?id=21523&konverzija=no",
+          "metadata": {
+            "feedUrl": "https://nbs.rs/system/modules/yu.nbs.news/elements/responsive/RSSnews.xml?kategorija=19&konverzija=no&lang=en"
+          }
+        }
+      ],
+      "duplicateIds": [],
+      "duplicates": [],
+      "firstSeenAt": "2026-09-29T09:48:31.498Z",
+      "lastSeenAt": "2026-09-29T09:48:31.498Z"
+    },
+    {
+      "id": "4b94a629eb6b361b1b75a2ad",
+      "originalTitle": "Key policy rate kept unchanged",
+      "originalUrl": "https://www.nbs.rs/en/scripts/showcontent/index.html?id=21513&konverzija=no",
+      "publishedAt": "2026-06-11T10:25:17.000Z",
+      "category": "Interest Rates",
+      "currencies": [
+        "RSD"
+      ],
+      "status": "pending",
+      "indexable": false,
+      "rejectionReason": null,
+      "sources": [
+        {
+          "sourceId": "nbs-executive-board",
+          "name": "National Bank of Serbia",
+          "originalTitle": "Key policy rate kept unchanged",
+          "originalUrl": "https://www.nbs.rs/en/scripts/showcontent/index.html?id=21513&konverzija=no",
+          "publishedAt": "2026-06-11T10:25:17.000Z",
+          "externalId": "https://www.nbs.rs/en/scripts/showcontent/index.html?id=21513&konverzija=no",
+          "metadata": {
+            "feedUrl": "https://nbs.rs/system/modules/yu.nbs.news/elements/responsive/RSSnews.xml?kategorija=191&konverzija=no&lang=en"
+          }
+        }
+      ],
+      "duplicateIds": [
+        "ba687e37a1ae7291c755d867"
+      ],
+      "duplicates": [
+        {
+          "id": "ba687e37a1ae7291c755d867",
+          "status": "duplicate",
+          "indexable": false,
+          "sources": [
+            {
+              "sourceId": "nbs-monetary-policy",
+              "name": "National Bank of Serbia",
+              "originalTitle": "Key policy rate kept unchanged",
+              "originalUrl": "https://www.nbs.rs/en/scripts/showcontent/index.html?id=21513&konverzija=no",
+              "publishedAt": "2026-06-11T10:25:17.000Z",
+              "externalId": "https://www.nbs.rs/en/scripts/showcontent/index.html?id=21513&konverzija=no",
+              "metadata": {
+                "feedUrl": "https://nbs.rs/system/modules/yu.nbs.news/elements/responsive/RSSnews.xml?kategorija=19&konverzija=no&lang=en"
+              }
+            }
+          ]
+        }
+      ],
+      "firstSeenAt": "2026-09-29T09:48:31.498Z",
+      "lastSeenAt": "2026-09-29T09:48:31.498Z"
     },
     {
       "id": "712cd7ecb7b5173b31a773bb",
@@ -740,10 +1324,12 @@
       "originalUrl": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260526a.htm",
       "publishedAt": "2026-05-26T18:00:00.000Z",
       "category": "Currency",
-      "currencies": [],
-      "status": "rejected",
+      "currencies": [
+        "USD"
+      ],
+      "status": "pending",
       "indexable": false,
-      "rejectionReason": "No supported currency could be identified",
+      "rejectionReason": null,
       "sources": [
         {
           "sourceId": "federal-reserve",
@@ -758,9 +1344,9 @@
         }
       ],
       "duplicateIds": [],
-      "firstSeenAt": "2026-09-29T09:24:12.148Z",
-      "lastSeenAt": "2026-09-29T09:25:39.009Z",
-      "duplicates": []
+      "duplicates": [],
+      "firstSeenAt": "2026-09-29T09:48:31.498Z",
+      "lastSeenAt": "2026-09-29T09:48:31.498Z"
     },
     {
       "id": "ddacfe33267f53eb83abe6c4",
@@ -768,10 +1354,12 @@
       "originalUrl": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260520a.htm",
       "publishedAt": "2026-05-20T18:00:00.000Z",
       "category": "Currency",
-      "currencies": [],
-      "status": "rejected",
+      "currencies": [
+        "USD"
+      ],
+      "status": "pending",
       "indexable": false,
-      "rejectionReason": "No supported currency could be identified",
+      "rejectionReason": null,
       "sources": [
         {
           "sourceId": "federal-reserve",
@@ -786,9 +1374,210 @@
         }
       ],
       "duplicateIds": [],
-      "firstSeenAt": "2026-09-29T09:24:12.148Z",
-      "lastSeenAt": "2026-09-29T09:25:39.009Z",
-      "duplicates": []
+      "duplicates": [],
+      "firstSeenAt": "2026-09-29T09:48:31.498Z",
+      "lastSeenAt": "2026-09-29T09:48:31.498Z"
+    },
+    {
+      "id": "5279e5755ded78fb5290044f",
+      "originalTitle": "NBS: Defacing banknotes is unacceptable",
+      "originalUrl": "https://www.nbs.rs/en/scripts/showcontent/index.html?id=21472&konverzija=no",
+      "publishedAt": "2026-05-20T08:07:20.000Z",
+      "category": "Central Banks",
+      "currencies": [
+        "RSD"
+      ],
+      "status": "pending",
+      "indexable": false,
+      "rejectionReason": null,
+      "sources": [
+        {
+          "sourceId": "nbs-monetary-policy",
+          "name": "National Bank of Serbia",
+          "originalTitle": "NBS: Defacing banknotes is unacceptable",
+          "originalUrl": "https://www.nbs.rs/en/scripts/showcontent/index.html?id=21472&konverzija=no",
+          "publishedAt": "2026-05-20T08:07:20.000Z",
+          "externalId": "https://www.nbs.rs/en/scripts/showcontent/index.html?id=21472&konverzija=no",
+          "metadata": {
+            "feedUrl": "https://nbs.rs/system/modules/yu.nbs.news/elements/responsive/RSSnews.xml?kategorija=19&konverzija=no&lang=en"
+          }
+        }
+      ],
+      "duplicateIds": [],
+      "duplicates": [],
+      "firstSeenAt": "2026-09-29T09:48:31.498Z",
+      "lastSeenAt": "2026-09-29T09:48:31.498Z"
+    },
+    {
+      "id": "18536a76a227b7802fe1de2b",
+      "originalTitle": "Results of Inflation Expectations Survey",
+      "originalUrl": "https://www.nbs.rs/en/scripts/showcontent/index.html?id=21461&konverzija=no",
+      "publishedAt": "2026-05-15T13:17:50.000Z",
+      "category": "Inflation",
+      "currencies": [
+        "RSD"
+      ],
+      "status": "pending",
+      "indexable": false,
+      "rejectionReason": null,
+      "sources": [
+        {
+          "sourceId": "nbs-monetary-policy",
+          "name": "National Bank of Serbia",
+          "originalTitle": "Results of Inflation Expectations Survey",
+          "originalUrl": "https://www.nbs.rs/en/scripts/showcontent/index.html?id=21461&konverzija=no",
+          "publishedAt": "2026-05-15T13:17:50.000Z",
+          "externalId": "https://www.nbs.rs/en/scripts/showcontent/index.html?id=21461&konverzija=no",
+          "metadata": {
+            "feedUrl": "https://nbs.rs/system/modules/yu.nbs.news/elements/responsive/RSSnews.xml?kategorija=19&konverzija=no&lang=en"
+          }
+        }
+      ],
+      "duplicateIds": [],
+      "duplicates": [],
+      "firstSeenAt": "2026-09-29T09:48:31.498Z",
+      "lastSeenAt": "2026-09-29T09:48:31.498Z"
+    },
+    {
+      "id": "f07cd2d56556cbadf29c2736",
+      "originalTitle": "Introductory speech by Governor Jorgovanka Tabaković at the presentation of the Inflation Report – May 2026",
+      "originalUrl": "https://www.nbs.rshttps//www.nbs.rs/export/sites/NBS_site/documents-eng/publikacije/ioi/prezentacije/govor_ioi_05_2026_JT_e.pdf",
+      "publishedAt": "2026-05-13T09:15:34.000Z",
+      "category": "Inflation",
+      "currencies": [
+        "RSD"
+      ],
+      "status": "pending",
+      "indexable": false,
+      "rejectionReason": null,
+      "sources": [
+        {
+          "sourceId": "nbs-monetary-policy",
+          "name": "National Bank of Serbia",
+          "originalTitle": "Introductory speech by Governor Jorgovanka Tabaković at the presentation of the Inflation Report – May 2026",
+          "originalUrl": "https://www.nbs.rshttps//www.nbs.rs/export/sites/NBS_site/documents-eng/publikacije/ioi/prezentacije/govor_ioi_05_2026_JT_e.pdf",
+          "publishedAt": "2026-05-13T09:15:34.000Z",
+          "externalId": "https://www.nbs.rshttps//www.nbs.rs/export/sites/NBS_site/documents-eng/publikacije/ioi/prezentacije/govor_ioi_05_2026_JT_e.pdf",
+          "metadata": {
+            "feedUrl": "https://nbs.rs/system/modules/yu.nbs.news/elements/responsive/RSSnews.xml?kategorija=19&konverzija=no&lang=en"
+          }
+        }
+      ],
+      "duplicateIds": [],
+      "duplicates": [],
+      "firstSeenAt": "2026-09-29T09:48:31.498Z",
+      "lastSeenAt": "2026-09-29T09:48:31.498Z"
+    },
+    {
+      "id": "4dae82a4f2dc24d1428e66fb",
+      "originalTitle": "Inflation Report – May 2026",
+      "originalUrl": "https://www.nbs.rshttps//www.nbs.rs/export/sites/NBS_site/documents-eng/publikacije/ioi/izvestaji/inflation_report_05_2026.pdf",
+      "publishedAt": "2026-05-13T09:14:04.000Z",
+      "category": "Inflation",
+      "currencies": [
+        "RSD"
+      ],
+      "status": "pending",
+      "indexable": false,
+      "rejectionReason": null,
+      "sources": [
+        {
+          "sourceId": "nbs-monetary-policy",
+          "name": "National Bank of Serbia",
+          "originalTitle": "Inflation Report – May 2026",
+          "originalUrl": "https://www.nbs.rshttps//www.nbs.rs/export/sites/NBS_site/documents-eng/publikacije/ioi/izvestaji/inflation_report_05_2026.pdf",
+          "publishedAt": "2026-05-13T09:14:04.000Z",
+          "externalId": "https://www.nbs.rshttps//www.nbs.rs/export/sites/NBS_site/documents-eng/publikacije/ioi/izvestaji/inflation_report_05_2026.pdf",
+          "metadata": {
+            "feedUrl": "https://nbs.rs/system/modules/yu.nbs.news/elements/responsive/RSSnews.xml?kategorija=19&konverzija=no&lang=en"
+          }
+        }
+      ],
+      "duplicateIds": [],
+      "duplicates": [],
+      "firstSeenAt": "2026-09-29T09:48:31.498Z",
+      "lastSeenAt": "2026-09-29T09:48:31.498Z"
+    },
+    {
+      "id": "da75d1d40602b4a6f632e421",
+      "originalTitle": "Inflation movements in April 2026",
+      "originalUrl": "https://www.nbs.rs/en/scripts/showcontent/index.html?id=21450&konverzija=no",
+      "publishedAt": "2026-05-12T13:45:52.000Z",
+      "category": "Inflation",
+      "currencies": [
+        "RSD"
+      ],
+      "status": "pending",
+      "indexable": false,
+      "rejectionReason": null,
+      "sources": [
+        {
+          "sourceId": "nbs-monetary-policy",
+          "name": "National Bank of Serbia",
+          "originalTitle": "Inflation movements in April 2026",
+          "originalUrl": "https://www.nbs.rs/en/scripts/showcontent/index.html?id=21450&konverzija=no",
+          "publishedAt": "2026-05-12T13:45:52.000Z",
+          "externalId": "https://www.nbs.rs/en/scripts/showcontent/index.html?id=21450&konverzija=no",
+          "metadata": {
+            "feedUrl": "https://nbs.rs/system/modules/yu.nbs.news/elements/responsive/RSSnews.xml?kategorija=19&konverzija=no&lang=en"
+          }
+        }
+      ],
+      "duplicateIds": [],
+      "duplicates": [],
+      "firstSeenAt": "2026-09-29T09:48:31.498Z",
+      "lastSeenAt": "2026-09-29T09:48:31.498Z"
+    },
+    {
+      "id": "992090355767e6c7257aa6c2",
+      "originalTitle": "Key policy rate kept unchanged",
+      "originalUrl": "https://www.nbs.rs/en/scripts/showcontent/index.html?id=21438&konverzija=no",
+      "publishedAt": "2026-05-07T10:12:23.000Z",
+      "category": "Interest Rates",
+      "currencies": [
+        "RSD"
+      ],
+      "status": "pending",
+      "indexable": false,
+      "rejectionReason": null,
+      "sources": [
+        {
+          "sourceId": "nbs-executive-board",
+          "name": "National Bank of Serbia",
+          "originalTitle": "Key policy rate kept unchanged",
+          "originalUrl": "https://www.nbs.rs/en/scripts/showcontent/index.html?id=21438&konverzija=no",
+          "publishedAt": "2026-05-07T10:12:23.000Z",
+          "externalId": "https://www.nbs.rs/en/scripts/showcontent/index.html?id=21438&konverzija=no",
+          "metadata": {
+            "feedUrl": "https://nbs.rs/system/modules/yu.nbs.news/elements/responsive/RSSnews.xml?kategorija=191&konverzija=no&lang=en"
+          }
+        }
+      ],
+      "duplicateIds": [
+        "8fc67d516c2ea7ea7975c6f8"
+      ],
+      "duplicates": [
+        {
+          "id": "8fc67d516c2ea7ea7975c6f8",
+          "status": "duplicate",
+          "indexable": false,
+          "sources": [
+            {
+              "sourceId": "nbs-monetary-policy",
+              "name": "National Bank of Serbia",
+              "originalTitle": "Key policy rate kept unchanged",
+              "originalUrl": "https://www.nbs.rs/en/scripts/showcontent/index.html?id=21438&konverzija=no",
+              "publishedAt": "2026-05-07T10:12:23.000Z",
+              "externalId": "https://www.nbs.rs/en/scripts/showcontent/index.html?id=21438&konverzija=no",
+              "metadata": {
+                "feedUrl": "https://nbs.rs/system/modules/yu.nbs.news/elements/responsive/RSSnews.xml?kategorija=19&konverzija=no&lang=en"
+              }
+            }
+          ]
+        }
+      ],
+      "firstSeenAt": "2026-09-29T09:48:31.498Z",
+      "lastSeenAt": "2026-09-29T09:48:31.498Z"
     },
     {
       "id": "7580aefff0aa7376284a03f6",
@@ -816,9 +1605,69 @@
         }
       ],
       "duplicateIds": [],
-      "firstSeenAt": "2026-09-29T09:24:12.148Z",
-      "lastSeenAt": "2026-09-29T09:25:39.009Z",
-      "duplicates": []
+      "duplicates": [],
+      "firstSeenAt": "2026-09-29T09:48:31.498Z",
+      "lastSeenAt": "2026-09-29T09:48:31.498Z"
+    },
+    {
+      "id": "592febe13f32f6a375ea0975",
+      "originalTitle": "Results of Inflation Expectations Survey",
+      "originalUrl": "https://www.nbs.rs/en/scripts/showcontent/index.html?id=21394&konverzija=no",
+      "publishedAt": "2026-04-20T13:17:19.000Z",
+      "category": "Inflation",
+      "currencies": [
+        "RSD"
+      ],
+      "status": "pending",
+      "indexable": false,
+      "rejectionReason": null,
+      "sources": [
+        {
+          "sourceId": "nbs-monetary-policy",
+          "name": "National Bank of Serbia",
+          "originalTitle": "Results of Inflation Expectations Survey",
+          "originalUrl": "https://www.nbs.rs/en/scripts/showcontent/index.html?id=21394&konverzija=no",
+          "publishedAt": "2026-04-20T13:17:19.000Z",
+          "externalId": "https://www.nbs.rs/en/scripts/showcontent/index.html?id=21394&konverzija=no",
+          "metadata": {
+            "feedUrl": "https://nbs.rs/system/modules/yu.nbs.news/elements/responsive/RSSnews.xml?kategorija=19&konverzija=no&lang=en"
+          }
+        }
+      ],
+      "duplicateIds": [],
+      "duplicates": [],
+      "firstSeenAt": "2026-09-29T09:48:31.498Z",
+      "lastSeenAt": "2026-09-29T09:48:31.498Z"
+    },
+    {
+      "id": "997576e3087e5bfa4521b7a3",
+      "originalTitle": "Inflation movements in March",
+      "originalUrl": "https://www.nbs.rs/en/scripts/showcontent/index.html?id=21370&konverzija=no",
+      "publishedAt": "2026-04-15T07:40:44.000Z",
+      "category": "Inflation",
+      "currencies": [
+        "RSD"
+      ],
+      "status": "pending",
+      "indexable": false,
+      "rejectionReason": null,
+      "sources": [
+        {
+          "sourceId": "nbs-monetary-policy",
+          "name": "National Bank of Serbia",
+          "originalTitle": "Inflation movements in March",
+          "originalUrl": "https://www.nbs.rs/en/scripts/showcontent/index.html?id=21370&konverzija=no",
+          "publishedAt": "2026-04-15T07:40:44.000Z",
+          "externalId": "https://www.nbs.rs/en/scripts/showcontent/index.html?id=21370&konverzija=no",
+          "metadata": {
+            "feedUrl": "https://nbs.rs/system/modules/yu.nbs.news/elements/responsive/RSSnews.xml?kategorija=19&konverzija=no&lang=en"
+          }
+        }
+      ],
+      "duplicateIds": [],
+      "duplicates": [],
+      "firstSeenAt": "2026-09-29T09:48:31.498Z",
+      "lastSeenAt": "2026-09-29T09:48:31.498Z"
     },
     {
       "id": "66bded31398460ce4ca71bac",
@@ -826,10 +1675,12 @@
       "originalUrl": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260414a.htm",
       "publishedAt": "2026-04-14T18:00:00.000Z",
       "category": "Currency",
-      "currencies": [],
-      "status": "rejected",
+      "currencies": [
+        "USD"
+      ],
+      "status": "pending",
       "indexable": false,
-      "rejectionReason": "No supported currency could be identified",
+      "rejectionReason": null,
       "sources": [
         {
           "sourceId": "federal-reserve",
@@ -844,9 +1695,60 @@
         }
       ],
       "duplicateIds": [],
-      "firstSeenAt": "2026-09-29T09:24:12.148Z",
-      "lastSeenAt": "2026-09-29T09:25:39.009Z",
-      "duplicates": []
+      "duplicates": [],
+      "firstSeenAt": "2026-09-29T09:48:31.498Z",
+      "lastSeenAt": "2026-09-29T09:48:31.498Z"
+    },
+    {
+      "id": "1dd89e48fdfacacd424c42f8",
+      "originalTitle": "Key policy rate kept unchanged",
+      "originalUrl": "https://www.nbs.rs/en/scripts/showcontent/index.html?id=21364&konverzija=no",
+      "publishedAt": "2026-04-09T10:22:40.000Z",
+      "category": "Interest Rates",
+      "currencies": [
+        "RSD"
+      ],
+      "status": "pending",
+      "indexable": false,
+      "rejectionReason": null,
+      "sources": [
+        {
+          "sourceId": "nbs-executive-board",
+          "name": "National Bank of Serbia",
+          "originalTitle": "Key policy rate kept unchanged",
+          "originalUrl": "https://www.nbs.rs/en/scripts/showcontent/index.html?id=21364&konverzija=no",
+          "publishedAt": "2026-04-09T10:22:40.000Z",
+          "externalId": "https://www.nbs.rs/en/scripts/showcontent/index.html?id=21364&konverzija=no",
+          "metadata": {
+            "feedUrl": "https://nbs.rs/system/modules/yu.nbs.news/elements/responsive/RSSnews.xml?kategorija=191&konverzija=no&lang=en"
+          }
+        }
+      ],
+      "duplicateIds": [
+        "8649ec654174bd80edd3291a"
+      ],
+      "duplicates": [
+        {
+          "id": "8649ec654174bd80edd3291a",
+          "status": "duplicate",
+          "indexable": false,
+          "sources": [
+            {
+              "sourceId": "nbs-monetary-policy",
+              "name": "National Bank of Serbia",
+              "originalTitle": "Key policy rate kept unchanged",
+              "originalUrl": "https://www.nbs.rs/en/scripts/showcontent/index.html?id=21364&konverzija=no",
+              "publishedAt": "2026-04-09T10:22:40.000Z",
+              "externalId": "https://www.nbs.rs/en/scripts/showcontent/index.html?id=21364&konverzija=no",
+              "metadata": {
+                "feedUrl": "https://nbs.rs/system/modules/yu.nbs.news/elements/responsive/RSSnews.xml?kategorija=19&konverzija=no&lang=en"
+              }
+            }
+          ]
+        }
+      ],
+      "firstSeenAt": "2026-09-29T09:48:31.498Z",
+      "lastSeenAt": "2026-09-29T09:48:31.498Z"
     },
     {
       "id": "035e4699061fbeab7c56256b",
@@ -854,10 +1756,12 @@
       "originalUrl": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260408a.htm",
       "publishedAt": "2026-04-08T18:00:00.000Z",
       "category": "Currency",
-      "currencies": [],
-      "status": "rejected",
+      "currencies": [
+        "USD"
+      ],
+      "status": "pending",
       "indexable": false,
-      "rejectionReason": "No supported currency could be identified",
+      "rejectionReason": null,
       "sources": [
         {
           "sourceId": "federal-reserve",
@@ -872,16 +1776,517 @@
         }
       ],
       "duplicateIds": [],
-      "firstSeenAt": "2026-09-29T09:24:12.148Z",
-      "lastSeenAt": "2026-09-29T09:25:39.009Z",
-      "duplicates": []
+      "duplicates": [],
+      "firstSeenAt": "2026-09-29T09:48:31.498Z",
+      "lastSeenAt": "2026-09-29T09:48:31.498Z"
+    },
+    {
+      "id": "d59e3b9470813b5d0c6e1aee",
+      "originalTitle": "Results of Inflation Expectations Survey",
+      "originalUrl": "https://www.nbs.rs/en/scripts/showcontent/index.html?id=21323&konverzija=no",
+      "publishedAt": "2026-03-18T14:38:52.000Z",
+      "category": "Inflation",
+      "currencies": [
+        "RSD"
+      ],
+      "status": "pending",
+      "indexable": false,
+      "rejectionReason": null,
+      "sources": [
+        {
+          "sourceId": "nbs-monetary-policy",
+          "name": "National Bank of Serbia",
+          "originalTitle": "Results of Inflation Expectations Survey",
+          "originalUrl": "https://www.nbs.rs/en/scripts/showcontent/index.html?id=21323&konverzija=no",
+          "publishedAt": "2026-03-18T14:38:52.000Z",
+          "externalId": "https://www.nbs.rs/en/scripts/showcontent/index.html?id=21323&konverzija=no",
+          "metadata": {
+            "feedUrl": "https://nbs.rs/system/modules/yu.nbs.news/elements/responsive/RSSnews.xml?kategorija=19&konverzija=no&lang=en"
+          }
+        }
+      ],
+      "duplicateIds": [],
+      "duplicates": [],
+      "firstSeenAt": "2026-09-29T09:48:31.498Z",
+      "lastSeenAt": "2026-09-29T09:48:31.498Z"
+    },
+    {
+      "id": "409d2a1172b2aa7c742a04c1",
+      "originalTitle": "Inflation movements in February 2026",
+      "originalUrl": "https://www.nbs.rs/en/scripts/showcontent/index.html?id=21307&konverzija=no",
+      "publishedAt": "2026-03-12T17:19:26.000Z",
+      "category": "Inflation",
+      "currencies": [
+        "RSD"
+      ],
+      "status": "pending",
+      "indexable": false,
+      "rejectionReason": null,
+      "sources": [
+        {
+          "sourceId": "nbs-monetary-policy",
+          "name": "National Bank of Serbia",
+          "originalTitle": "Inflation movements in February 2026",
+          "originalUrl": "https://www.nbs.rs/en/scripts/showcontent/index.html?id=21307&konverzija=no",
+          "publishedAt": "2026-03-12T17:19:26.000Z",
+          "externalId": "https://www.nbs.rs/en/scripts/showcontent/index.html?id=21307&konverzija=no",
+          "metadata": {
+            "feedUrl": "https://nbs.rs/system/modules/yu.nbs.news/elements/responsive/RSSnews.xml?kategorija=19&konverzija=no&lang=en"
+          }
+        }
+      ],
+      "duplicateIds": [],
+      "duplicates": [],
+      "firstSeenAt": "2026-09-29T09:48:31.498Z",
+      "lastSeenAt": "2026-09-29T09:48:31.498Z"
+    },
+    {
+      "id": "960aa649ed4647ec64180bd6",
+      "originalTitle": "Key policy rate kept on hold",
+      "originalUrl": "https://www.nbs.rs/en/scripts/showcontent/index.html?id=21303&konverzija=no",
+      "publishedAt": "2026-03-12T17:08:00.000Z",
+      "category": "Interest Rates",
+      "currencies": [
+        "RSD"
+      ],
+      "status": "pending",
+      "indexable": false,
+      "rejectionReason": null,
+      "sources": [
+        {
+          "sourceId": "nbs-executive-board",
+          "name": "National Bank of Serbia",
+          "originalTitle": "Key policy rate kept on hold",
+          "originalUrl": "https://www.nbs.rs/en/scripts/showcontent/index.html?id=21303&konverzija=no",
+          "publishedAt": "2026-03-12T17:08:00.000Z",
+          "externalId": "https://www.nbs.rs/en/scripts/showcontent/index.html?id=21303&konverzija=no",
+          "metadata": {
+            "feedUrl": "https://nbs.rs/system/modules/yu.nbs.news/elements/responsive/RSSnews.xml?kategorija=191&konverzija=no&lang=en"
+          }
+        }
+      ],
+      "duplicateIds": [
+        "e5d2492ae8a1a00538525897"
+      ],
+      "duplicates": [
+        {
+          "id": "e5d2492ae8a1a00538525897",
+          "status": "duplicate",
+          "indexable": false,
+          "sources": [
+            {
+              "sourceId": "nbs-monetary-policy",
+              "name": "National Bank of Serbia",
+              "originalTitle": "Key policy rate kept on hold",
+              "originalUrl": "https://www.nbs.rs/en/scripts/showcontent/index.html?id=21303&konverzija=no",
+              "publishedAt": "2026-03-12T17:08:00.000Z",
+              "externalId": "https://www.nbs.rs/en/scripts/showcontent/index.html?id=21303&konverzija=no",
+              "metadata": {
+                "feedUrl": "https://nbs.rs/system/modules/yu.nbs.news/elements/responsive/RSSnews.xml?kategorija=19&konverzija=no&lang=en"
+              }
+            }
+          ]
+        }
+      ],
+      "firstSeenAt": "2026-09-29T09:48:31.498Z",
+      "lastSeenAt": "2026-09-29T09:48:31.498Z"
+    },
+    {
+      "id": "a44559347c4bbf8e15b3cc51",
+      "originalTitle": "Inflation movements in January 2026",
+      "originalUrl": "https://www.nbs.rs/en/scripts/showcontent/index.html?id=21244&konverzija=no",
+      "publishedAt": "2026-02-20T10:14:40.000Z",
+      "category": "Inflation",
+      "currencies": [
+        "RSD"
+      ],
+      "status": "pending",
+      "indexable": false,
+      "rejectionReason": null,
+      "sources": [
+        {
+          "sourceId": "nbs-monetary-policy",
+          "name": "National Bank of Serbia",
+          "originalTitle": "Inflation movements in January 2026",
+          "originalUrl": "https://www.nbs.rs/en/scripts/showcontent/index.html?id=21244&konverzija=no",
+          "publishedAt": "2026-02-20T10:14:40.000Z",
+          "externalId": "https://www.nbs.rs/en/scripts/showcontent/index.html?id=21244&konverzija=no",
+          "metadata": {
+            "feedUrl": "https://nbs.rs/system/modules/yu.nbs.news/elements/responsive/RSSnews.xml?kategorija=19&konverzija=no&lang=en"
+          }
+        }
+      ],
+      "duplicateIds": [],
+      "duplicates": [],
+      "firstSeenAt": "2026-09-29T09:48:31.498Z",
+      "lastSeenAt": "2026-09-29T09:48:31.498Z"
+    },
+    {
+      "id": "1666b6a48b30414403c84e36",
+      "originalTitle": "Results of the Inflation Expectations Survey",
+      "originalUrl": "https://www.nbs.rs/en/scripts/showcontent/index.html?id=21239&konverzija=no",
+      "publishedAt": "2026-02-19T12:04:35.000Z",
+      "category": "Inflation",
+      "currencies": [
+        "RSD"
+      ],
+      "status": "pending",
+      "indexable": false,
+      "rejectionReason": null,
+      "sources": [
+        {
+          "sourceId": "nbs-monetary-policy",
+          "name": "National Bank of Serbia",
+          "originalTitle": "Results of the Inflation Expectations Survey",
+          "originalUrl": "https://www.nbs.rs/en/scripts/showcontent/index.html?id=21239&konverzija=no",
+          "publishedAt": "2026-02-19T12:04:35.000Z",
+          "externalId": "https://www.nbs.rs/en/scripts/showcontent/index.html?id=21239&konverzija=no",
+          "metadata": {
+            "feedUrl": "https://nbs.rs/system/modules/yu.nbs.news/elements/responsive/RSSnews.xml?kategorija=19&konverzija=no&lang=en"
+          }
+        }
+      ],
+      "duplicateIds": [],
+      "duplicates": [],
+      "firstSeenAt": "2026-09-29T09:48:31.498Z",
+      "lastSeenAt": "2026-09-29T09:48:31.498Z"
+    },
+    {
+      "id": "b2fc8c75b3333628a8807d49",
+      "originalTitle": "Key policy rate kept on hold",
+      "originalUrl": "https://www.nbs.rs/en/scripts/showcontent/index.html?id=21226&konverzija=no",
+      "publishedAt": "2026-02-12T11:19:47.000Z",
+      "category": "Interest Rates",
+      "currencies": [
+        "RSD"
+      ],
+      "status": "pending",
+      "indexable": false,
+      "rejectionReason": null,
+      "sources": [
+        {
+          "sourceId": "nbs-executive-board",
+          "name": "National Bank of Serbia",
+          "originalTitle": "Key policy rate kept on hold",
+          "originalUrl": "https://www.nbs.rs/en/scripts/showcontent/index.html?id=21226&konverzija=no",
+          "publishedAt": "2026-02-12T11:19:47.000Z",
+          "externalId": "https://www.nbs.rs/en/scripts/showcontent/index.html?id=21226&konverzija=no",
+          "metadata": {
+            "feedUrl": "https://nbs.rs/system/modules/yu.nbs.news/elements/responsive/RSSnews.xml?kategorija=191&konverzija=no&lang=en"
+          }
+        }
+      ],
+      "duplicateIds": [],
+      "duplicates": [],
+      "firstSeenAt": "2026-09-29T09:48:31.498Z",
+      "lastSeenAt": "2026-09-29T09:48:31.498Z"
+    },
+    {
+      "id": "4e8d8b57f1a6d8d800ec4a17",
+      "originalTitle": "Key policy rate kept on hold",
+      "originalUrl": "https://www.nbs.rs/en/scripts/showcontent/index.html?id=21163&konverzija=no",
+      "publishedAt": "2026-01-12T11:41:48.000Z",
+      "category": "Interest Rates",
+      "currencies": [
+        "RSD"
+      ],
+      "status": "pending",
+      "indexable": false,
+      "rejectionReason": null,
+      "sources": [
+        {
+          "sourceId": "nbs-executive-board",
+          "name": "National Bank of Serbia",
+          "originalTitle": "Key policy rate kept on hold",
+          "originalUrl": "https://www.nbs.rs/en/scripts/showcontent/index.html?id=21163&konverzija=no",
+          "publishedAt": "2026-01-12T11:41:48.000Z",
+          "externalId": "https://www.nbs.rs/en/scripts/showcontent/index.html?id=21163&konverzija=no",
+          "metadata": {
+            "feedUrl": "https://nbs.rs/system/modules/yu.nbs.news/elements/responsive/RSSnews.xml?kategorija=191&konverzija=no&lang=en"
+          }
+        }
+      ],
+      "duplicateIds": [],
+      "duplicates": [],
+      "firstSeenAt": "2026-09-29T09:48:31.498Z",
+      "lastSeenAt": "2026-09-29T09:48:31.498Z"
+    },
+    {
+      "id": "606aaa0cfcc7737105ec1d32",
+      "originalTitle": "Key policy rate kept on hold",
+      "originalUrl": "https://www.nbs.rs/en/scripts/showcontent/index.html?id=21084&konverzija=no",
+      "publishedAt": "2025-12-11T11:26:18.000Z",
+      "category": "Interest Rates",
+      "currencies": [
+        "RSD"
+      ],
+      "status": "pending",
+      "indexable": false,
+      "rejectionReason": null,
+      "sources": [
+        {
+          "sourceId": "nbs-executive-board",
+          "name": "National Bank of Serbia",
+          "originalTitle": "Key policy rate kept on hold",
+          "originalUrl": "https://www.nbs.rs/en/scripts/showcontent/index.html?id=21084&konverzija=no",
+          "publishedAt": "2025-12-11T11:26:18.000Z",
+          "externalId": "https://www.nbs.rs/en/scripts/showcontent/index.html?id=21084&konverzija=no",
+          "metadata": {
+            "feedUrl": "https://nbs.rs/system/modules/yu.nbs.news/elements/responsive/RSSnews.xml?kategorija=191&konverzija=no&lang=en"
+          }
+        }
+      ],
+      "duplicateIds": [],
+      "duplicates": [],
+      "firstSeenAt": "2026-09-29T09:48:31.498Z",
+      "lastSeenAt": "2026-09-29T09:48:31.498Z"
+    },
+    {
+      "id": "1cd5b2310bc49428e29ba32e",
+      "originalTitle": "Key policy rate kept unchanged",
+      "originalUrl": "https://www.nbs.rs/en/scripts/showcontent/index.html?id=21017&konverzija=no",
+      "publishedAt": "2025-11-13T11:31:05.000Z",
+      "category": "Interest Rates",
+      "currencies": [
+        "RSD"
+      ],
+      "status": "pending",
+      "indexable": false,
+      "rejectionReason": null,
+      "sources": [
+        {
+          "sourceId": "nbs-executive-board",
+          "name": "National Bank of Serbia",
+          "originalTitle": "Key policy rate kept unchanged",
+          "originalUrl": "https://www.nbs.rs/en/scripts/showcontent/index.html?id=21017&konverzija=no",
+          "publishedAt": "2025-11-13T11:31:05.000Z",
+          "externalId": "https://www.nbs.rs/en/scripts/showcontent/index.html?id=21017&konverzija=no",
+          "metadata": {
+            "feedUrl": "https://nbs.rs/system/modules/yu.nbs.news/elements/responsive/RSSnews.xml?kategorija=191&konverzija=no&lang=en"
+          }
+        }
+      ],
+      "duplicateIds": [],
+      "duplicates": [],
+      "firstSeenAt": "2026-09-29T09:48:31.498Z",
+      "lastSeenAt": "2026-09-29T09:48:31.498Z"
+    },
+    {
+      "id": "699a9ff5cc98b29347d2f2b5",
+      "originalTitle": "Key policy rate kept on hold",
+      "originalUrl": "https://www.nbs.rs/en/scripts/showcontent/index.html?id=20924&konverzija=no",
+      "publishedAt": "2025-10-09T10:14:49.000Z",
+      "category": "Interest Rates",
+      "currencies": [
+        "RSD"
+      ],
+      "status": "pending",
+      "indexable": false,
+      "rejectionReason": null,
+      "sources": [
+        {
+          "sourceId": "nbs-executive-board",
+          "name": "National Bank of Serbia",
+          "originalTitle": "Key policy rate kept on hold",
+          "originalUrl": "https://www.nbs.rs/en/scripts/showcontent/index.html?id=20924&konverzija=no",
+          "publishedAt": "2025-10-09T10:14:49.000Z",
+          "externalId": "https://www.nbs.rs/en/scripts/showcontent/index.html?id=20924&konverzija=no",
+          "metadata": {
+            "feedUrl": "https://nbs.rs/system/modules/yu.nbs.news/elements/responsive/RSSnews.xml?kategorija=191&konverzija=no&lang=en"
+          }
+        }
+      ],
+      "duplicateIds": [],
+      "duplicates": [],
+      "firstSeenAt": "2026-09-29T09:48:31.498Z",
+      "lastSeenAt": "2026-09-29T09:48:31.498Z"
+    },
+    {
+      "id": "f0d70f7565c04e8b389e52a4",
+      "originalTitle": "Key policy rate kept unchanged",
+      "originalUrl": "https://www.nbs.rs/en/scripts/showcontent/index.html?id=20855&konverzija=no",
+      "publishedAt": "2025-09-11T10:14:12.000Z",
+      "category": "Interest Rates",
+      "currencies": [
+        "RSD"
+      ],
+      "status": "pending",
+      "indexable": false,
+      "rejectionReason": null,
+      "sources": [
+        {
+          "sourceId": "nbs-executive-board",
+          "name": "National Bank of Serbia",
+          "originalTitle": "Key policy rate kept unchanged",
+          "originalUrl": "https://www.nbs.rs/en/scripts/showcontent/index.html?id=20855&konverzija=no",
+          "publishedAt": "2025-09-11T10:14:12.000Z",
+          "externalId": "https://www.nbs.rs/en/scripts/showcontent/index.html?id=20855&konverzija=no",
+          "metadata": {
+            "feedUrl": "https://nbs.rs/system/modules/yu.nbs.news/elements/responsive/RSSnews.xml?kategorija=191&konverzija=no&lang=en"
+          }
+        }
+      ],
+      "duplicateIds": [],
+      "duplicates": [],
+      "firstSeenAt": "2026-09-29T09:48:31.498Z",
+      "lastSeenAt": "2026-09-29T09:48:31.498Z"
+    },
+    {
+      "id": "3515641ae5cc4e21f0878a94",
+      "originalTitle": "Key policy rate kept unchanged",
+      "originalUrl": "https://www.nbs.rs/en/scripts/showcontent/index.html?id=20778&konverzija=no",
+      "publishedAt": "2025-08-07T10:20:40.000Z",
+      "category": "Interest Rates",
+      "currencies": [
+        "RSD"
+      ],
+      "status": "pending",
+      "indexable": false,
+      "rejectionReason": null,
+      "sources": [
+        {
+          "sourceId": "nbs-executive-board",
+          "name": "National Bank of Serbia",
+          "originalTitle": "Key policy rate kept unchanged",
+          "originalUrl": "https://www.nbs.rs/en/scripts/showcontent/index.html?id=20778&konverzija=no",
+          "publishedAt": "2025-08-07T10:20:40.000Z",
+          "externalId": "https://www.nbs.rs/en/scripts/showcontent/index.html?id=20778&konverzija=no",
+          "metadata": {
+            "feedUrl": "https://nbs.rs/system/modules/yu.nbs.news/elements/responsive/RSSnews.xml?kategorija=191&konverzija=no&lang=en"
+          }
+        }
+      ],
+      "duplicateIds": [],
+      "duplicates": [],
+      "firstSeenAt": "2026-09-29T09:48:31.498Z",
+      "lastSeenAt": "2026-09-29T09:48:31.498Z"
+    },
+    {
+      "id": "a057fb8b30c76d6856791a2f",
+      "originalTitle": "Key policy rate kept unchanged",
+      "originalUrl": "https://www.nbs.rs/en/scripts/showcontent/index.html?id=20715&konverzija=no",
+      "publishedAt": "2025-07-10T10:26:21.000Z",
+      "category": "Interest Rates",
+      "currencies": [
+        "RSD"
+      ],
+      "status": "pending",
+      "indexable": false,
+      "rejectionReason": null,
+      "sources": [
+        {
+          "sourceId": "nbs-executive-board",
+          "name": "National Bank of Serbia",
+          "originalTitle": "Key policy rate kept unchanged",
+          "originalUrl": "https://www.nbs.rs/en/scripts/showcontent/index.html?id=20715&konverzija=no",
+          "publishedAt": "2025-07-10T10:26:21.000Z",
+          "externalId": "https://www.nbs.rs/en/scripts/showcontent/index.html?id=20715&konverzija=no",
+          "metadata": {
+            "feedUrl": "https://nbs.rs/system/modules/yu.nbs.news/elements/responsive/RSSnews.xml?kategorija=191&konverzija=no&lang=en"
+          }
+        }
+      ],
+      "duplicateIds": [],
+      "duplicates": [],
+      "firstSeenAt": "2026-09-29T09:48:31.498Z",
+      "lastSeenAt": "2026-09-29T09:48:31.498Z"
+    },
+    {
+      "id": "d0d8ef1e77870c23d6ad3f4a",
+      "originalTitle": "Key policy rate kept unchanged",
+      "originalUrl": "https://www.nbs.rs/en/scripts/showcontent/index.html?id=20644&konverzija=no",
+      "publishedAt": "2025-06-12T10:25:29.000Z",
+      "category": "Interest Rates",
+      "currencies": [
+        "RSD"
+      ],
+      "status": "pending",
+      "indexable": false,
+      "rejectionReason": null,
+      "sources": [
+        {
+          "sourceId": "nbs-executive-board",
+          "name": "National Bank of Serbia",
+          "originalTitle": "Key policy rate kept unchanged",
+          "originalUrl": "https://www.nbs.rs/en/scripts/showcontent/index.html?id=20644&konverzija=no",
+          "publishedAt": "2025-06-12T10:25:29.000Z",
+          "externalId": "https://www.nbs.rs/en/scripts/showcontent/index.html?id=20644&konverzija=no",
+          "metadata": {
+            "feedUrl": "https://nbs.rs/system/modules/yu.nbs.news/elements/responsive/RSSnews.xml?kategorija=191&konverzija=no&lang=en"
+          }
+        }
+      ],
+      "duplicateIds": [],
+      "duplicates": [],
+      "firstSeenAt": "2026-09-29T09:48:31.498Z",
+      "lastSeenAt": "2026-09-29T09:48:31.498Z"
+    },
+    {
+      "id": "74a5b390c8ea22852ee4c114",
+      "originalTitle": "Key policy rate kept unchanged",
+      "originalUrl": "https://www.nbs.rs/en/scripts/showcontent/index.html?id=20562&konverzija=no",
+      "publishedAt": "2025-05-09T10:21:57.000Z",
+      "category": "Interest Rates",
+      "currencies": [
+        "RSD"
+      ],
+      "status": "pending",
+      "indexable": false,
+      "rejectionReason": null,
+      "sources": [
+        {
+          "sourceId": "nbs-executive-board",
+          "name": "National Bank of Serbia",
+          "originalTitle": "Key policy rate kept unchanged",
+          "originalUrl": "https://www.nbs.rs/en/scripts/showcontent/index.html?id=20562&konverzija=no",
+          "publishedAt": "2025-05-09T10:21:57.000Z",
+          "externalId": "https://www.nbs.rs/en/scripts/showcontent/index.html?id=20562&konverzija=no",
+          "metadata": {
+            "feedUrl": "https://nbs.rs/system/modules/yu.nbs.news/elements/responsive/RSSnews.xml?kategorija=191&konverzija=no&lang=en"
+          }
+        }
+      ],
+      "duplicateIds": [],
+      "duplicates": [],
+      "firstSeenAt": "2026-09-29T09:48:31.498Z",
+      "lastSeenAt": "2026-09-29T09:48:31.498Z"
+    },
+    {
+      "id": "d40eed6a3ff3d7fd7839a44d",
+      "originalTitle": "Key policy rate kept unchanged",
+      "originalUrl": "https://www.nbs.rs/en/scripts/showcontent/index.html?id=20490&konverzija=no",
+      "publishedAt": "2025-04-10T10:14:00.000Z",
+      "category": "Interest Rates",
+      "currencies": [
+        "RSD"
+      ],
+      "status": "pending",
+      "indexable": false,
+      "rejectionReason": null,
+      "sources": [
+        {
+          "sourceId": "nbs-executive-board",
+          "name": "National Bank of Serbia",
+          "originalTitle": "Key policy rate kept unchanged",
+          "originalUrl": "https://www.nbs.rs/en/scripts/showcontent/index.html?id=20490&konverzija=no",
+          "publishedAt": "2025-04-10T10:14:00.000Z",
+          "externalId": "https://www.nbs.rs/en/scripts/showcontent/index.html?id=20490&konverzija=no",
+          "metadata": {
+            "feedUrl": "https://nbs.rs/system/modules/yu.nbs.news/elements/responsive/RSSnews.xml?kategorija=191&konverzija=no&lang=en"
+          }
+        }
+      ],
+      "duplicateIds": [],
+      "duplicates": [],
+      "firstSeenAt": "2026-09-29T09:48:31.498Z",
+      "lastSeenAt": "2026-09-29T09:48:31.498Z"
     }
   ],
   "sourceRuns": [
     {
       "sourceId": "ecb",
       "ok": true,
-      "fetchedAt": "2026-09-29T09:25:39.009Z",
+      "fetchedAt": "2026-09-29T09:48:31.498Z",
       "accepted": 15,
       "malformedItems": 0,
       "errors": []
@@ -889,8 +2294,24 @@
     {
       "sourceId": "federal-reserve",
       "ok": true,
-      "fetchedAt": "2026-09-29T09:25:39.009Z",
+      "fetchedAt": "2026-09-29T09:48:31.498Z",
       "accepted": 15,
+      "malformedItems": 0,
+      "errors": []
+    },
+    {
+      "sourceId": "nbs-executive-board",
+      "ok": true,
+      "fetchedAt": "2026-09-29T09:48:31.498Z",
+      "accepted": 18,
+      "malformedItems": 0,
+      "errors": []
+    },
+    {
+      "sourceId": "nbs-monetary-policy",
+      "ok": true,
+      "fetchedAt": "2026-09-29T09:48:31.498Z",
+      "accepted": 30,
       "malformedItems": 0,
       "errors": []
     }

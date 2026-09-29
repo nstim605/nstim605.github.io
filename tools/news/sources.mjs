@@ -8,15 +8,24 @@ import {
 } from './core.mjs';
 
 export class NewsSource {
-  constructor({ id, sourceName, sourceUrl, feedUrl }) {
+  constructor({ id, sourceName, sourceUrl, feedUrl, defaultCurrencies = [], requestHeaders = {}, maxItems = 30 }) {
     this.id = id;
     this.sourceName = sourceName;
     this.sourceUrl = sourceUrl;
     this.feedUrl = feedUrl;
+    this.defaultCurrencies = defaultCurrencies;
+    this.requestHeaders = requestHeaders;
+    this.maxItems = maxItems;
   }
 
   async fetch(options = {}) {
-    return parseRssOrAtom(await fetchWithRetry(this.feedUrl, options));
+    const items = parseRssOrAtom(await fetchWithRetry(this.feedUrl, {
+      ...options,
+      headers: { ...this.requestHeaders, ...(options.headers ?? {}) }
+    }));
+    return items
+      .sort((left, right) => (Date.parse(right.publishedAt) || 0) - (Date.parse(left.publishedAt) || 0))
+      .slice(0, this.maxItems);
   }
 
   normalize(item) {
@@ -24,7 +33,7 @@ export class NewsSource {
     const originalUrl = new URL(item.url, this.sourceUrl).href;
     const publishedAt = new Date(item.publishedAt).toISOString();
     const externalId = normalizeWhitespace(item.externalId) || originalUrl;
-    const currencies = detectCurrencies(originalTitle, item.description);
+    const currencies = [...new Set([...this.defaultCurrencies, ...detectCurrencies(originalTitle, item.description)])];
     return {
       id: stableCandidateId(this.id, externalId, originalUrl),
       originalTitle,
@@ -53,21 +62,42 @@ export const automatedNewsSources = Object.freeze([
     id: 'ecb',
     sourceName: 'European Central Bank',
     sourceUrl: 'https://www.ecb.europa.eu/',
-    feedUrl: 'https://www.ecb.europa.eu/rss/press.html'
+    feedUrl: 'https://www.ecb.europa.eu/rss/press.html',
+    defaultCurrencies: ['EUR'],
+    maxItems: 25
   }),
   new NewsSource({
     id: 'federal-reserve',
     sourceName: 'Board of Governors of the Federal Reserve System',
     sourceUrl: 'https://www.federalreserve.gov/',
-    feedUrl: 'https://www.federalreserve.gov/feeds/press_monetary.xml'
+    feedUrl: 'https://www.federalreserve.gov/feeds/press_monetary.xml',
+    defaultCurrencies: ['USD'],
+    maxItems: 25
+  }),
+  new NewsSource({
+    id: 'nbs-executive-board',
+    sourceName: 'National Bank of Serbia',
+    sourceUrl: 'https://www.nbs.rs/',
+    feedUrl: 'https://nbs.rs/system/modules/yu.nbs.news/elements/responsive/RSSnews.xml?kategorija=191&konverzija=no&lang=en',
+    defaultCurrencies: ['RSD'],
+    maxItems: 18,
+    requestHeaders: {
+      'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) BalkanConverter-NewsBot/1.0 Chrome/140.0.0.0 Safari/537.36',
+      Referer: 'https://nbs.rs/en/scripts/rss/index.html'
+    }
+  }),
+  new NewsSource({
+    id: 'nbs-monetary-policy',
+    sourceName: 'National Bank of Serbia',
+    sourceUrl: 'https://www.nbs.rs/',
+    feedUrl: 'https://nbs.rs/system/modules/yu.nbs.news/elements/responsive/RSSnews.xml?kategorija=19&konverzija=no&lang=en',
+    defaultCurrencies: ['RSD'],
+    maxItems: 30,
+    requestHeaders: {
+      'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) BalkanConverter-NewsBot/1.0 Chrome/140.0.0.0 Safari/537.36',
+      Referer: 'https://nbs.rs/en/scripts/rss/index.html'
+    }
   })
 ]);
 
-export const manualNewsSources = Object.freeze([
-  {
-    id: 'nbs',
-    sourceName: 'National Bank of Serbia',
-    sourceUrl: 'https://nbs.rs/',
-    acquisition: 'Official NBS publications and RSS index; manual review required before publication'
-  }
-]);
+export const manualNewsSources = Object.freeze([]);

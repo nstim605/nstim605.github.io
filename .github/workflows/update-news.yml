@@ -1,4 +1,4 @@
-name: Update financial news
+name: Prepare financial news moderation
 
 on:
   schedule:
@@ -7,45 +7,80 @@ on:
 
 permissions:
   contents: write
+  pull-requests: write
 
 concurrency:
-  group: update-financial-news
+  group: prepare-financial-news-moderation
   cancel-in-progress: false
 
+env:
+  MODERATION_BRANCH: automation/news-moderation
+
 jobs:
-  refresh:
+  prepare:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 12
     steps:
       - name: Check out main
         uses: actions/checkout@v4
         with:
           ref: main
+          fetch-depth: 0
+
+      - name: Continue the persistent moderation branch
+        shell: bash
+        run: |
+          git fetch origin "+refs/heads/${MODERATION_BRANCH}:refs/remotes/origin/${MODERATION_BRANCH}" || true
+          if git show-ref --verify --quiet "refs/remotes/origin/${MODERATION_BRANCH}"; then
+            git checkout -B "${MODERATION_BRANCH}" "origin/${MODERATION_BRANCH}"
+            git rebase origin/main
+          else
+            git checkout -b "${MODERATION_BRANCH}" origin/main
+          fi
 
       - name: Set up Node.js
         uses: actions/setup-node@v4
         with:
           node-version: '22'
 
-      - name: Fetch official source feeds
+      - name: Fetch and normalize official feeds
         run: node tools/news/fetch-news.mjs
 
-      - name: Generate approved news pages and sitemaps
+      - name: Prepare non-public moderation drafts
+        id: moderation
+        run: node tools/news/prepare-moderation.mjs
+
+      - name: Generate only approved public stories
         run: node tools/news/generate-news.mjs
 
       - name: Run site tests
         run: node --test tests/*.test.mjs
 
-      - name: Commit changed news data
+      - name: Commit persistent state and moderation materials
+        id: commit
         shell: bash
         run: |
-          if git diff --quiet; then
-            echo "No news changes to commit."
-            exit 0
-          fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add news ru/news sr/news news-sitemap.xml sitemap.xml index.html ru/index.html sr/index.html
-          git commit -m "chore(news): refresh official feed candidates"
-          git pull --rebase origin main
-          git push origin HEAD:main
+          git add news/data news/index.html news/news.css news/news.js news-sitemap.xml sitemap.xml sr/news ru/news
+          if git diff --cached --quiet; then
+            echo "changed=false" >> "${GITHUB_OUTPUT}"
+            exit 0
+          fi
+          git commit -m "chore(news): prepare moderation candidates"
+          git push --force-with-lease origin "HEAD:${MODERATION_BRANCH}"
+          echo "changed=true" >> "${GITHUB_OUTPUT}"
+
+      - name: Create or update the moderation pull request
+        if: steps.commit.outputs.changed == 'true' && (steps.moderation.outputs.new_drafts != '0' || steps.moderation.outputs.processed != '0')
+        shell: bash
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if gh pr view "${MODERATION_BRANCH}" --json number >/dev/null 2>&1; then
+            gh pr edit "${MODERATION_BRANCH}" --title "Financial News moderation" --body-file news/data/moderation-report.md
+          elif [ "${{ steps.moderation.outputs.new_drafts }}" != "0" ]; then
+            gh pr create --base main --head "${MODERATION_BRANCH}" --title "Financial News moderation" --body-file news/data/moderation-report.md
+          else
+            echo "State was saved on the moderation branch; no worthy candidate means no pull request."
+          fi

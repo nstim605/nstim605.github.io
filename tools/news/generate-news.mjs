@@ -366,6 +366,10 @@ async function main() {
   const stories = [];
   const failures = [];
   for (const story of data.stories ?? []) {
+    if (story.status !== 'published' || story.indexable !== true) {
+      if (story.indexable !== false) failures.push(`${story.id ?? 'unknown'}: non-published stories must be explicitly non-indexable`);
+      continue;
+    }
     const quality = validateStoryQuality(story);
     if (quality.ok) stories.push(story);
     else failures.push(`${story.id ?? 'unknown'}: ${quality.errors.join('; ')}`);

@@ -2,7 +2,6 @@ import fs from 'node:fs/promises';
 import path from 'node:path';
 import { fileURLToPath, pathToFileURL } from 'node:url';
 import { deduplicateStories } from './core.mjs';
-import { defaultContentProvider } from './content-provider.mjs';
 import { automatedNewsSources } from './sources.mjs';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '../..');
@@ -11,7 +10,6 @@ const inboxPath = path.join(root, 'news', 'data', 'inbox.json');
 export async function collectNewsCandidates({
   sources = automatedNewsSources,
   fetchOptions = {},
-  contentProvider = defaultContentProvider,
   now = new Date()
 } = {}) {
   const settled = await Promise.allSettled(sources.map(async source => {
@@ -21,8 +19,7 @@ export async function collectNewsCandidates({
     for (const item of items) {
       try {
         const candidate = source.normalize(item);
-        const translations = await contentProvider.createTranslations(candidate);
-        normalized.push(translations ? { ...candidate, translations } : candidate);
+        normalized.push(candidate);
       } catch (error) {
         itemErrors.push(error.message);
       }
@@ -50,17 +47,30 @@ export async function collectNewsCandidates({
   return { candidates: deduplicateStories(candidates), sourceRuns };
 }
 
-function mergeInbox(previous, incoming, now) {
+function comparableCandidate(candidate) {
+  const { firstSeenAt, lastSeenAt, ...stable } = candidate;
+  return stable;
+}
+
+export function mergeInbox(previous, incoming, now) {
   const byId = new Map((previous.candidates ?? []).map(candidate => [candidate.id, candidate]));
+  let changed = false;
   for (const candidate of incoming.candidates) {
     const existing = byId.get(candidate.id);
-    byId.set(candidate.id, existing
-      ? { ...existing, ...candidate, firstSeenAt: existing.firstSeenAt, lastSeenAt: now.toISOString() }
-      : { ...candidate, firstSeenAt: now.toISOString(), lastSeenAt: now.toISOString() });
+    if (!existing) {
+      changed = true;
+      byId.set(candidate.id, { ...candidate, firstSeenAt: now.toISOString(), lastSeenAt: now.toISOString() });
+      continue;
+    }
+    if (JSON.stringify(comparableCandidate(existing)) !== JSON.stringify(comparableCandidate(candidate))) {
+      changed = true;
+      byId.set(candidate.id, { ...existing, ...candidate, firstSeenAt: existing.firstSeenAt, lastSeenAt: now.toISOString() });
+    }
   }
   const candidates = [...byId.values()]
     .sort((left, right) => Date.parse(right.publishedAt) - Date.parse(left.publishedAt))
     .slice(0, 200);
+  if (!changed && JSON.stringify(candidates) === JSON.stringify(previous.candidates ?? [])) return previous;
   return { schemaVersion: 1, updatedAt: now.toISOString(), candidates, sourceRuns: incoming.sourceRuns };
 }
 
@@ -73,7 +83,9 @@ export async function updateInbox(options = {}) {
     throw new AggregateError(incoming.sourceRuns.map(run => new Error(`${run.sourceId}: ${run.error}`)), 'All news sources failed; the existing inbox and published pages were left unchanged');
   }
   const next = mergeInbox(previous, incoming, now);
-  await fs.writeFile(inboxPath, `${JSON.stringify(next, null, 2)}\n`, 'utf8');
+  if (JSON.stringify(next) !== JSON.stringify(previous)) {
+    await fs.writeFile(inboxPath, `${JSON.stringify(next, null, 2)}\n`, 'utf8');
+  }
   return next;
 }
 

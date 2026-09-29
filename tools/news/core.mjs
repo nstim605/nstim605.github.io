@@ -1,7 +1,7 @@
 import crypto from 'node:crypto';
 
 export const SUPPORTED_NEWS_LOCALES = Object.freeze(['en', 'sr', 'ru']);
-export const NEWS_STATUSES = Object.freeze(['pending', 'published', 'rejected', 'duplicate']);
+export const NEWS_STATUSES = Object.freeze(['pending', 'draft', 'published', 'rejected', 'duplicate']);
 export const NEWS_CATEGORIES = Object.freeze([
   'Currency',
   'Central Banks',
@@ -52,13 +52,13 @@ export function normalizeWhitespace(value = '') {
 export function stripMarkup(value = '') {
   return normalizeWhitespace(String(value)
     .replace(/<!\[CDATA\[([\s\S]*?)\]\]>/g, '$1')
-    .replace(/<[^>]*>/g, ' ')
     .replace(/&nbsp;/gi, ' ')
     .replace(/&amp;/gi, '&')
     .replace(/&lt;/gi, '<')
     .replace(/&gt;/gi, '>')
     .replace(/&quot;/gi, '"')
-    .replace(/&#39;|&apos;/gi, "'"));
+    .replace(/&#39;|&apos;/gi, "'")
+    .replace(/<[^>]*>/g, ' '));
 }
 
 export function slugify(value) {
@@ -188,6 +188,50 @@ export function validateStoryQuality(story) {
   return { ok: errors.length === 0, errors };
 }
 
+const sourceHosts = Object.freeze({
+  ecb: ['ecb.europa.eu', 'www.ecb.europa.eu'],
+  'federal-reserve': ['federalreserve.gov', 'www.federalreserve.gov'],
+  'nbs-executive-board': ['nbs.rs', 'www.nbs.rs'],
+  'nbs-monetary-policy': ['nbs.rs', 'www.nbs.rs']
+});
+
+const moderationSignals = /\b(?:monetary policy|policy rate|interest rate|key rate|reference rate|fomc statement|economic projections?|inflation|consumer expectations?|wage growth|foreign exchange|exchange rate|monetary policy implementation|kamatn\w* stop\w*|referentn\w* stop\w*)\b|(?:монетарн\w* политик\w*|каматн\w* стоп\w*|референтн\w* стоп\w*|инфлац\w*|девизн\w* курс\w*)/iu;
+const moderationExclusions = /\b(?:interview|speech|hearing|resign|banknotes?|cash|task force|tokenised securities|digitalisation of money)\b/iu;
+
+export function validateCandidateQuality(candidate, { now = new Date(), maximumAgeDays = 21 } = {}) {
+  const errors = [];
+  const title = normalizeWhitespace(candidate?.originalTitle);
+  if (!candidate?.id) errors.push('stable candidate ID is required');
+  if (title.length < 24 || title.length > 220) errors.push('title length is outside the moderation range');
+  if (!Array.isArray(candidate?.currencies) || candidate.currencies.length === 0) errors.push('at least one supported currency is required');
+  const publishedAt = Date.parse(candidate?.publishedAt);
+  if (!Number.isFinite(publishedAt)) {
+    errors.push('publishedAt must be a valid date');
+  } else {
+    const ageDays = (now.getTime() - publishedAt) / 86_400_000;
+    if (ageDays < -1) errors.push('publication date is unexpectedly in the future');
+    if (ageDays > maximumAgeDays) errors.push(`candidate is older than ${maximumAgeDays} days`);
+  }
+  if (!moderationSignals.test(title)) errors.push('title does not contain a supported monetary-policy signal');
+  if (moderationExclusions.test(title)) errors.push('title matches an excluded low-priority content type');
+  if (!Array.isArray(candidate?.sources) || candidate.sources.length === 0) errors.push('at least one official source is required');
+  for (const source of candidate?.sources ?? []) {
+    const allowedHosts = sourceHosts[source?.sourceId];
+    if (!allowedHosts) {
+      errors.push(`source ${source?.sourceId ?? 'unknown'} is not approved for automation`);
+      continue;
+    }
+    try {
+      const url = new URL(source.originalUrl);
+      if (url.protocol !== 'https:') errors.push('source URL must use HTTPS');
+      if (!allowedHosts.includes(url.hostname.toLowerCase())) errors.push(`source host ${url.hostname} is not approved`);
+    } catch {
+      errors.push('source URL must be valid');
+    }
+  }
+  return { ok: errors.length === 0, errors };
+}
+
 function firstTag(xml, names) {
   for (const name of names) {
     const match = xml.match(new RegExp(`<${name}(?:\\s[^>]*)?>([\\s\\S]*?)<\\/${name}>`, 'i'));
@@ -215,7 +259,9 @@ export async function fetchWithRetry(url, {
   fetchImpl = globalThis.fetch,
   timeoutMs = 10_000,
   retries = 2,
-  retryDelayMs = 250
+  retryDelayMs = 250,
+  maxResponseBytes = 2_000_000,
+  headers = {}
 } = {}) {
   if (typeof fetchImpl !== 'function') throw new TypeError('A fetch implementation is required');
   let lastError;
@@ -224,11 +270,13 @@ export async function fetchWithRetry(url, {
     const timeout = setTimeout(() => controller.abort(), timeoutMs);
     try {
       const response = await fetchImpl(url, {
-        headers: { Accept: 'application/rss+xml, application/atom+xml, application/xml, text/xml;q=0.9' },
+        headers: { Accept: 'application/rss+xml, application/atom+xml, application/xml, text/xml;q=0.9', ...headers },
         signal: controller.signal
       });
       if (!response.ok) throw new Error(`HTTP ${response.status}`);
-      return await response.text();
+      const text = await response.text();
+      if (Buffer.byteLength(text, 'utf8') > maxResponseBytes) throw new Error(`response exceeds ${maxResponseBytes} bytes`);
+      return text;
     } catch (error) {
       lastError = error;
       if (attempt < retries) await new Promise(resolve => setTimeout(resolve, retryDelayMs * (attempt + 1)));
