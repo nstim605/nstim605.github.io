@@ -30,11 +30,17 @@ jobs:
       - name: Continue the persistent moderation branch
         shell: bash
         run: |
-          git fetch origin "+refs/heads/${MODERATION_BRANCH}:refs/remotes/origin/${MODERATION_BRANCH}" || true
-          if git show-ref --verify --quiet "refs/remotes/origin/${MODERATION_BRANCH}"; then
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if git ls-remote --exit-code --heads origin "${MODERATION_BRANCH}" >/dev/null; then
+            git fetch origin "+refs/heads/${MODERATION_BRANCH}:refs/remotes/origin/${MODERATION_BRANCH}"
             git checkout -B "${MODERATION_BRANCH}" "origin/${MODERATION_BRANCH}"
-            git rebase origin/main
+            git merge --no-edit origin/main
           else
+            status=$?
+            if [ "${status}" -ne 2 ]; then
+              exit "${status}"
+            fi
             git checkout -b "${MODERATION_BRANCH}" origin/main
           fi
 
@@ -60,15 +66,13 @@ jobs:
         id: commit
         shell: bash
         run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add news/data news/index.html news/news.css news/news.js news-sitemap.xml sitemap.xml sr/news ru/news
           if git diff --cached --quiet; then
             echo "changed=false" >> "${GITHUB_OUTPUT}"
             exit 0
           fi
           git commit -m "chore(news): prepare moderation candidates"
-          git push --force-with-lease origin "HEAD:${MODERATION_BRANCH}"
+          git push origin "HEAD:${MODERATION_BRANCH}"
           echo "changed=true" >> "${GITHUB_OUTPUT}"
 
       - name: Create or update the moderation pull request

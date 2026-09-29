@@ -141,5 +141,7 @@ test('scheduled workflow targets a moderation PR and never pushes main', async (
   assert.match(workflow, /gh pr create/);
   assert.match(workflow, /--body-file news\/data\/moderation-report\.md/);
   assert.doesNotMatch(workflow, /push origin HEAD:main/);
+  assert.doesNotMatch(workflow, /--force(?:-with-lease)?/);
+  assert.doesNotMatch(workflow, /git fetch[^\n]+\|\| true/);
   assert.match(workflow, /HEAD:\$\{MODERATION_BRANCH\}/);
 });
