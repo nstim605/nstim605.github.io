@@ -1,5 +1,555 @@
 {
   "schemaVersion": 1,
-  "updatedAt": null,
-  "processed": {}
+  "updatedAt": "2026-09-29T10:13:41.060Z",
+  "processed": {
+    "061eab95e5dd71a42692ee0d": {
+      "status": "draft",
+      "draftId": "official-2026-09-29-061eab95",
+      "slug": "ecb-amends-monetary-policy-implementation-guidelines-as-part-of-regular-revi-061eab95",
+      "processedAt": "2026-09-29T10:13:41.060Z"
+    },
+    "8bec0f90f138c27430c4fd01": {
+      "status": "rejected",
+      "reasons": [
+        "title does not contain a supported monetary-policy signal",
+        "title matches an excluded low-priority content type"
+      ],
+      "processedAt": "2026-09-29T10:13:41.060Z"
+    },
+    "5b2303b4e679735cdaf059d1": {
+      "status": "rejected",
+      "reasons": [
+        "title does not contain a supported monetary-policy signal",
+        "title matches an excluded low-priority content type"
+      ],
+      "processedAt": "2026-09-29T10:13:41.060Z"
+    },
+    "bb8948a6585aff714a156271": {
+      "status": "duplicate",
+      "canonicalCandidateId": "4738b8000d5e94ec817e3487",
+      "processedAt": "2026-09-29T10:13:41.060Z"
+    },
+    "4738b8000d5e94ec817e3487": {
+      "status": "rejected",
+      "reasons": [
+        "title does not contain a supported monetary-policy signal"
+      ],
+      "processedAt": "2026-09-29T10:13:41.060Z"
+    },
+    "316f59e46be88da751a778be": {
+      "status": "rejected",
+      "reasons": [
+        "title does not contain a supported monetary-policy signal",
+        "title matches an excluded low-priority content type"
+      ],
+      "processedAt": "2026-09-29T10:13:41.060Z"
+    },
+    "d1f3b2b5b00d8ef685ede993": {
+      "status": "rejected",
+      "reasons": [
+        "title does not contain a supported monetary-policy signal",
+        "title matches an excluded low-priority content type"
+      ],
+      "processedAt": "2026-09-29T10:13:41.060Z"
+    },
+    "e1d3410492a8393fbf59df90": {
+      "status": "rejected",
+      "reasons": [
+        "title does not contain a supported monetary-policy signal",
+        "title matches an excluded low-priority content type"
+      ],
+      "processedAt": "2026-09-29T10:13:41.060Z"
+    },
+    "702ca70159d261d8de591ac1": {
+      "status": "rejected",
+      "reasons": [
+        "title does not contain a supported monetary-policy signal",
+        "title matches an excluded low-priority content type"
+      ],
+      "processedAt": "2026-09-29T10:13:41.060Z"
+    },
+    "0fa206d71eda4c89638adae0": {
+      "status": "rejected",
+      "reasons": [
+        "title does not contain a supported monetary-policy signal"
+      ],
+      "processedAt": "2026-09-29T10:13:41.060Z"
+    },
+    "ed1000a4443d9e8b50162066": {
+      "status": "draft",
+      "draftId": "official-2026-09-18-ed1000a4",
+      "slug": "ecb-consumer-expectations-survey-results-august-2026-ed1000a4",
+      "processedAt": "2026-09-29T10:13:41.060Z"
+    },
+    "e123f4985d97cc24fd3662a4": {
+      "status": "rejected",
+      "reasons": [
+        "title does not contain a supported monetary-policy signal",
+        "title matches an excluded low-priority content type"
+      ],
+      "processedAt": "2026-09-29T10:13:41.060Z"
+    },
+    "d5a67ad37a0a1a03b74c32ee": {
+      "status": "draft",
+      "draftId": "official-2026-09-17-d5a67ad3",
+      "slug": "results-of-the-inflation-expectations-survey-d5a67ad3",
+      "processedAt": "2026-09-29T10:13:41.060Z"
+    },
+    "4e63ddfe9e804631d8704030": {
+      "status": "duplicate",
+      "canonicalStoryId": "fed-rates-2026-09-16",
+      "reason": "same event as fed-rates-2026-09-16",
+      "processedAt": "2026-09-29T10:13:41.060Z"
+    },
+    "e67cb5eff5f8900dbb229048": {
+      "status": "draft",
+      "draftId": "official-2026-09-16-e67cb5ef",
+      "slug": "federal-reserve-board-and-federal-open-market-committee-release-economic-pro-e67cb5ef",
+      "processedAt": "2026-09-29T10:13:41.060Z"
+    },
+    "be47f7768561977397855d23": {
+      "status": "draft",
+      "draftId": "official-2026-09-16-be47f776",
+      "slug": "ecb-wage-tracker-at-2-7-in-h1-2027-pointing-to-a-modest-uptick-in-negotiated-be47f776",
+      "processedAt": "2026-09-29T10:13:41.060Z"
+    },
+    "50ea3c8da63ff9e4cc9cc58b": {
+      "status": "rejected",
+      "reasons": [
+        "title does not contain a supported monetary-policy signal"
+      ],
+      "processedAt": "2026-09-29T10:13:41.060Z"
+    },
+    "c804af3bf384c77abc1a27d4": {
+      "status": "rejected",
+      "reasons": [
+        "title does not contain a supported monetary-policy signal",
+        "title matches an excluded low-priority content type"
+      ],
+      "processedAt": "2026-09-29T10:13:41.060Z"
+    },
+    "b3259b176d1f5dfd9b6d4e02": {
+      "status": "draft",
+      "draftId": "official-2026-09-14-b3259b17",
+      "slug": "inflation-movements-in-august-2026-b3259b17",
+      "processedAt": "2026-09-29T10:13:41.060Z"
+    },
+    "a9897abb34f13914e4d24565": {
+      "status": "duplicate",
+      "canonicalCandidateId": "c46d29bce1c4a68d30d5d769",
+      "processedAt": "2026-09-29T10:13:41.060Z"
+    },
+    "c46d29bce1c4a68d30d5d769": {
+      "status": "draft",
+      "draftId": "official-2026-09-10-c46d29bc",
+      "slug": "key-policy-rate-kept-unchanged-c46d29bc",
+      "processedAt": "2026-09-29T10:13:41.060Z"
+    },
+    "ff62652755535f56dcf5896f": {
+      "status": "rejected",
+      "reasons": [
+        "candidate is older than 21 days",
+        "title does not contain a supported monetary-policy signal"
+      ],
+      "processedAt": "2026-09-29T10:13:41.060Z"
+    },
+    "317345f4f82bd0d3a4d25074": {
+      "status": "rejected",
+      "reasons": [
+        "candidate is older than 21 days",
+        "title does not contain a supported monetary-policy signal"
+      ],
+      "processedAt": "2026-09-29T10:13:41.060Z"
+    },
+    "76a0b27d8226221b64eae1f3": {
+      "status": "rejected",
+      "reasons": [
+        "candidate is older than 21 days"
+      ],
+      "processedAt": "2026-09-29T10:13:41.060Z"
+    },
+    "fb9f97df45f731d71f6cc540": {
+      "status": "rejected",
+      "reasons": [
+        "candidate is older than 21 days",
+        "title does not contain a supported monetary-policy signal"
+      ],
+      "processedAt": "2026-09-29T10:13:41.060Z"
+    },
+    "7cb62dc209a96f5956c758aa": {
+      "status": "rejected",
+      "reasons": [
+        "candidate is older than 21 days",
+        "title matches an excluded low-priority content type",
+        "source host www.nbs.rshttps is not approved"
+      ],
+      "processedAt": "2026-09-29T10:13:41.060Z"
+    },
+    "d7bf0ee8792a8cef32bc20c7": {
+      "status": "rejected",
+      "reasons": [
+        "candidate is older than 21 days",
+        "source host www.nbs.rshttps is not approved"
+      ],
+      "processedAt": "2026-09-29T10:13:41.060Z"
+    },
+    "9c8fb1dbdfc2429a41711ca7": {
+      "status": "duplicate",
+      "canonicalCandidateId": "ae2179f0bbd9ceec6b18bae2",
+      "processedAt": "2026-09-29T10:13:41.060Z"
+    },
+    "ae2179f0bbd9ceec6b18bae2": {
+      "status": "rejected",
+      "reasons": [
+        "candidate is older than 21 days"
+      ],
+      "processedAt": "2026-09-29T10:13:41.060Z"
+    },
+    "dc555393990fd6cdeb0a49e4": {
+      "status": "rejected",
+      "reasons": [
+        "candidate is older than 21 days"
+      ],
+      "processedAt": "2026-09-29T10:13:41.060Z"
+    },
+    "85dbfeb61d1c6a92d8c2bf88": {
+      "status": "rejected",
+      "reasons": [
+        "candidate is older than 21 days"
+      ],
+      "processedAt": "2026-09-29T10:13:41.060Z"
+    },
+    "e3db291e8eb2de56346bb9f6": {
+      "status": "rejected",
+      "reasons": [
+        "candidate is older than 21 days",
+        "title does not contain a supported monetary-policy signal",
+        "source host www.nbs.rshttps is not approved"
+      ],
+      "processedAt": "2026-09-29T10:13:41.060Z"
+    },
+    "553fe189b7ec26f578cc5615": {
+      "status": "rejected",
+      "reasons": [
+        "candidate is older than 21 days",
+        "title does not contain a supported monetary-policy signal"
+      ],
+      "processedAt": "2026-09-29T10:13:41.060Z"
+    },
+    "0983edfe4ef7cb6bf5395291": {
+      "status": "rejected",
+      "reasons": [
+        "candidate is older than 21 days"
+      ],
+      "processedAt": "2026-09-29T10:13:41.060Z"
+    },
+    "9e23a69ad811c52aa4499e72": {
+      "status": "rejected",
+      "reasons": [
+        "candidate is older than 21 days"
+      ],
+      "processedAt": "2026-09-29T10:13:41.060Z"
+    },
+    "0e6c735bd63e88f1f20e6bde": {
+      "status": "rejected",
+      "reasons": [
+        "candidate is older than 21 days"
+      ],
+      "processedAt": "2026-09-29T10:13:41.060Z"
+    },
+    "b02c02388cefdb52796cb67a": {
+      "status": "duplicate",
+      "canonicalCandidateId": "161240b1483a0b7b7f228443",
+      "processedAt": "2026-09-29T10:13:41.060Z"
+    },
+    "161240b1483a0b7b7f228443": {
+      "status": "rejected",
+      "reasons": [
+        "candidate is older than 21 days"
+      ],
+      "processedAt": "2026-09-29T10:13:41.060Z"
+    },
+    "ceefcc81c95132f72e7df592": {
+      "status": "rejected",
+      "reasons": [
+        "candidate is older than 21 days",
+        "title does not contain a supported monetary-policy signal"
+      ],
+      "processedAt": "2026-09-29T10:13:41.060Z"
+    },
+    "4d8a7b1563b1f82ad0ba119c": {
+      "status": "rejected",
+      "reasons": [
+        "candidate is older than 21 days"
+      ],
+      "processedAt": "2026-09-29T10:13:41.060Z"
+    },
+    "cbbd29d9b3698b15fa36760f": {
+      "status": "rejected",
+      "reasons": [
+        "candidate is older than 21 days"
+      ],
+      "processedAt": "2026-09-29T10:13:41.060Z"
+    },
+    "8f9b53fd0db2af6831b7fd5e": {
+      "status": "rejected",
+      "reasons": [
+        "candidate is older than 21 days"
+      ],
+      "processedAt": "2026-09-29T10:13:41.060Z"
+    },
+    "800e52bcedefc213c3898e9e": {
+      "status": "rejected",
+      "reasons": [
+        "candidate is older than 21 days"
+      ],
+      "processedAt": "2026-09-29T10:13:41.060Z"
+    },
+    "ba687e37a1ae7291c755d867": {
+      "status": "duplicate",
+      "canonicalCandidateId": "4b94a629eb6b361b1b75a2ad",
+      "processedAt": "2026-09-29T10:13:41.060Z"
+    },
+    "4b94a629eb6b361b1b75a2ad": {
+      "status": "rejected",
+      "reasons": [
+        "candidate is older than 21 days"
+      ],
+      "processedAt": "2026-09-29T10:13:41.060Z"
+    },
+    "712cd7ecb7b5173b31a773bb": {
+      "status": "rejected",
+      "reasons": [
+        "candidate is older than 21 days",
+        "title does not contain a supported monetary-policy signal"
+      ],
+      "processedAt": "2026-09-29T10:13:41.060Z"
+    },
+    "ddacfe33267f53eb83abe6c4": {
+      "status": "rejected",
+      "reasons": [
+        "candidate is older than 21 days",
+        "title does not contain a supported monetary-policy signal"
+      ],
+      "processedAt": "2026-09-29T10:13:41.060Z"
+    },
+    "5279e5755ded78fb5290044f": {
+      "status": "rejected",
+      "reasons": [
+        "candidate is older than 21 days",
+        "title does not contain a supported monetary-policy signal",
+        "title matches an excluded low-priority content type"
+      ],
+      "processedAt": "2026-09-29T10:13:41.060Z"
+    },
+    "18536a76a227b7802fe1de2b": {
+      "status": "rejected",
+      "reasons": [
+        "candidate is older than 21 days"
+      ],
+      "processedAt": "2026-09-29T10:13:41.060Z"
+    },
+    "f07cd2d56556cbadf29c2736": {
+      "status": "rejected",
+      "reasons": [
+        "candidate is older than 21 days",
+        "title matches an excluded low-priority content type",
+        "source host www.nbs.rshttps is not approved"
+      ],
+      "processedAt": "2026-09-29T10:13:41.060Z"
+    },
+    "4dae82a4f2dc24d1428e66fb": {
+      "status": "rejected",
+      "reasons": [
+        "candidate is older than 21 days",
+        "source host www.nbs.rshttps is not approved"
+      ],
+      "processedAt": "2026-09-29T10:13:41.060Z"
+    },
+    "da75d1d40602b4a6f632e421": {
+      "status": "rejected",
+      "reasons": [
+        "candidate is older than 21 days"
+      ],
+      "processedAt": "2026-09-29T10:13:41.060Z"
+    },
+    "8fc67d516c2ea7ea7975c6f8": {
+      "status": "duplicate",
+      "canonicalCandidateId": "992090355767e6c7257aa6c2",
+      "processedAt": "2026-09-29T10:13:41.060Z"
+    },
+    "992090355767e6c7257aa6c2": {
+      "status": "rejected",
+      "reasons": [
+        "candidate is older than 21 days"
+      ],
+      "processedAt": "2026-09-29T10:13:41.060Z"
+    },
+    "7580aefff0aa7376284a03f6": {
+      "status": "rejected",
+      "reasons": [
+        "candidate is older than 21 days"
+      ],
+      "processedAt": "2026-09-29T10:13:41.060Z"
+    },
+    "592febe13f32f6a375ea0975": {
+      "status": "rejected",
+      "reasons": [
+        "candidate is older than 21 days"
+      ],
+      "processedAt": "2026-09-29T10:13:41.060Z"
+    },
+    "997576e3087e5bfa4521b7a3": {
+      "status": "rejected",
+      "reasons": [
+        "candidate is older than 21 days"
+      ],
+      "processedAt": "2026-09-29T10:13:41.060Z"
+    },
+    "66bded31398460ce4ca71bac": {
+      "status": "rejected",
+      "reasons": [
+        "candidate is older than 21 days",
+        "title does not contain a supported monetary-policy signal"
+      ],
+      "processedAt": "2026-09-29T10:13:41.060Z"
+    },
+    "8649ec654174bd80edd3291a": {
+      "status": "duplicate",
+      "canonicalCandidateId": "1dd89e48fdfacacd424c42f8",
+      "processedAt": "2026-09-29T10:13:41.060Z"
+    },
+    "1dd89e48fdfacacd424c42f8": {
+      "status": "rejected",
+      "reasons": [
+        "candidate is older than 21 days"
+      ],
+      "processedAt": "2026-09-29T10:13:41.060Z"
+    },
+    "035e4699061fbeab7c56256b": {
+      "status": "rejected",
+      "reasons": [
+        "candidate is older than 21 days",
+        "title does not contain a supported monetary-policy signal"
+      ],
+      "processedAt": "2026-09-29T10:13:41.060Z"
+    },
+    "d59e3b9470813b5d0c6e1aee": {
+      "status": "rejected",
+      "reasons": [
+        "candidate is older than 21 days"
+      ],
+      "processedAt": "2026-09-29T10:13:41.060Z"
+    },
+    "409d2a1172b2aa7c742a04c1": {
+      "status": "rejected",
+      "reasons": [
+        "candidate is older than 21 days"
+      ],
+      "processedAt": "2026-09-29T10:13:41.060Z"
+    },
+    "e5d2492ae8a1a00538525897": {
+      "status": "duplicate",
+      "canonicalCandidateId": "960aa649ed4647ec64180bd6",
+      "processedAt": "2026-09-29T10:13:41.060Z"
+    },
+    "960aa649ed4647ec64180bd6": {
+      "status": "rejected",
+      "reasons": [
+        "candidate is older than 21 days"
+      ],
+      "processedAt": "2026-09-29T10:13:41.060Z"
+    },
+    "a44559347c4bbf8e15b3cc51": {
+      "status": "rejected",
+      "reasons": [
+        "candidate is older than 21 days"
+      ],
+      "processedAt": "2026-09-29T10:13:41.060Z"
+    },
+    "1666b6a48b30414403c84e36": {
+      "status": "rejected",
+      "reasons": [
+        "candidate is older than 21 days"
+      ],
+      "processedAt": "2026-09-29T10:13:41.060Z"
+    },
+    "b2fc8c75b3333628a8807d49": {
+      "status": "rejected",
+      "reasons": [
+        "candidate is older than 21 days"
+      ],
+      "processedAt": "2026-09-29T10:13:41.060Z"
+    },
+    "4e8d8b57f1a6d8d800ec4a17": {
+      "status": "rejected",
+      "reasons": [
+        "candidate is older than 21 days"
+      ],
+      "processedAt": "2026-09-29T10:13:41.060Z"
+    },
+    "606aaa0cfcc7737105ec1d32": {
+      "status": "rejected",
+      "reasons": [
+        "candidate is older than 21 days"
+      ],
+      "processedAt": "2026-09-29T10:13:41.060Z"
+    },
+    "1cd5b2310bc49428e29ba32e": {
+      "status": "rejected",
+      "reasons": [
+        "candidate is older than 21 days"
+      ],
+      "processedAt": "2026-09-29T10:13:41.060Z"
+    },
+    "699a9ff5cc98b29347d2f2b5": {
+      "status": "rejected",
+      "reasons": [
+        "candidate is older than 21 days"
+      ],
+      "processedAt": "2026-09-29T10:13:41.060Z"
+    },
+    "f0d70f7565c04e8b389e52a4": {
+      "status": "rejected",
+      "reasons": [
+        "candidate is older than 21 days"
+      ],
+      "processedAt": "2026-09-29T10:13:41.060Z"
+    },
+    "3515641ae5cc4e21f0878a94": {
+      "status": "rejected",
+      "reasons": [
+        "candidate is older than 21 days"
+      ],
+      "processedAt": "2026-09-29T10:13:41.060Z"
+    },
+    "a057fb8b30c76d6856791a2f": {
+      "status": "rejected",
+      "reasons": [
+        "candidate is older than 21 days"
+      ],
+      "processedAt": "2026-09-29T10:13:41.060Z"
+    },
+    "d0d8ef1e77870c23d6ad3f4a": {
+      "status": "rejected",
+      "reasons": [
+        "candidate is older than 21 days"
+      ],
+      "processedAt": "2026-09-29T10:13:41.060Z"
+    },
+    "74a5b390c8ea22852ee4c114": {
+      "status": "rejected",
+      "reasons": [
+        "candidate is older than 21 days"
+      ],
+      "processedAt": "2026-09-29T10:13:41.060Z"
+    },
+    "d40eed6a3ff3d7fd7839a44d": {
+      "status": "rejected",
+      "reasons": [
+        "candidate is older than 21 days"
+      ],
+      "processedAt": "2026-09-29T10:13:41.060Z"
+    }
+  }
 }
