@@ -1,50 +1,34 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-29T10:13:41.060Z",
+  "generatedAt": "2026-09-29T15:32:12.945Z",
   "contentProvider": "ManualReviewContentProvider",
   "summary": {
-    "candidatesInspected": 70,
-    "proposed": 7,
-    "openDrafts": 7,
+    "candidatesInspected": 0,
+    "reconsideredDrafts": 7,
+    "proposed": 0,
+    "openDrafts": 4,
     "publicationReady": 0,
-    "rejected": 62,
-    "duplicates": 9
+    "rejected": 2,
+    "duplicates": 1
   },
   "proposed": [
-    {
-      "id": "official-2026-09-29-061eab95",
-      "title": "ECB amends monetary policy implementation guidelines as part of regular review",
-      "currencies": [
-        "EUR"
-      ],
-      "category": "Central Banks",
-      "publishedAt": "2026-09-29T08:00:00.000Z",
-      "sources": [
-        {
-          "name": "European Central Bank",
-          "url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260929~050089e922.en.html"
-        }
-      ],
-      "candidateQuality": true,
-      "publicationReady": false,
-      "publicationErrors": [
-        "en translation is required",
-        "sr translation is required",
-        "ru translation is required"
-      ]
-    },
     {
       "id": "official-2026-09-18-ed1000a4",
       "title": "ECB Consumer Expectations Survey results – August 2026",
       "currencies": [
         "EUR"
       ],
-      "category": "Central Banks",
+      "category": "Inflation",
+      "editorialTypes": [
+        "survey",
+        "expectations"
+      ],
       "publishedAt": "2026-09-18T08:00:00.000Z",
       "sources": [
         {
           "name": "European Central Bank",
-          "url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260918~295b3ab978.en.html"
+          "url": "https://www.ecb.europa.eu/press/pr/date/2026/html/ecb.pr260918~295b3ab978.en.html",
+          "role": "primary"
         }
       ],
       "candidateQuality": true,
@@ -62,11 +46,16 @@
         "RSD"
       ],
       "category": "Inflation",
+      "editorialTypes": [
+        "survey",
+        "expectations"
+      ],
       "publishedAt": "2026-09-17T11:52:54.000Z",
       "sources": [
         {
           "name": "National Bank of Serbia",
-          "url": "https://www.nbs.rs/en/scripts/showcontent/index.html?id=21729&konverzija=no"
+          "url": "https://www.nbs.rs/en/scripts/showcontent/index.html?id=21729&konverzija=no",
+          "role": "primary"
         }
       ],
       "candidateQuality": true,
@@ -83,34 +72,21 @@
       "currencies": [
         "USD"
       ],
-      "category": "Central Banks",
+      "category": "Economy",
+      "editorialTypes": [
+        "projections"
+      ],
       "publishedAt": "2026-09-16T18:00:00.000Z",
       "sources": [
         {
           "name": "Board of Governors of the Federal Reserve System",
-          "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916b.htm"
-        }
-      ],
-      "candidateQuality": true,
-      "publicationReady": false,
-      "publicationErrors": [
-        "en translation is required",
-        "sr translation is required",
-        "ru translation is required"
-      ]
-    },
-    {
-      "id": "official-2026-09-16-be47f776",
-      "title": "ECB wage tracker at 2.7% in H1 2027, pointing to a modest uptick in negotiated wage growth",
-      "currencies": [
-        "EUR"
-      ],
-      "category": "Central Banks",
-      "publishedAt": "2026-09-16T08:00:00.000Z",
-      "sources": [
+          "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916b.htm",
+          "role": "announcement"
+        },
         {
-          "name": "European Central Bank",
-          "url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260916~7bc58ebef4.en.html"
+          "name": "Board of Governors of the Federal Reserve System",
+          "url": "https://www.federalreserve.gov/monetarypolicy/fomcprojtabl20260916.htm",
+          "role": "data"
         }
       ],
       "candidateQuality": true,
@@ -128,33 +104,13 @@
         "RSD"
       ],
       "category": "Inflation",
+      "editorialTypes": [],
       "publishedAt": "2026-09-14T09:50:09.000Z",
       "sources": [
         {
           "name": "National Bank of Serbia",
-          "url": "https://www.nbs.rs/en/scripts/showcontent/index.html?id=21723&konverzija=no"
-        }
-      ],
-      "candidateQuality": true,
-      "publicationReady": false,
-      "publicationErrors": [
-        "en translation is required",
-        "sr translation is required",
-        "ru translation is required"
-      ]
-    },
-    {
-      "id": "official-2026-09-10-c46d29bc",
-      "title": "Key policy rate kept unchanged",
-      "currencies": [
-        "RSD"
-      ],
-      "category": "Interest Rates",
-      "publishedAt": "2026-09-10T12:19:25.000Z",
-      "sources": [
-        {
-          "name": "National Bank of Serbia",
-          "url": "https://www.nbs.rs/en/scripts/showcontent/index.html?id=21715&konverzija=no"
+          "url": "https://www.nbs.rs/en/scripts/showcontent/index.html?id=21723&konverzija=no",
+          "role": "primary"
         }
       ],
       "candidateQuality": true,
@@ -168,512 +124,28 @@
   ],
   "rejected": [
     {
-      "id": "8bec0f90f138c27430c4fd01",
-      "title": "Christine Lagarde: Hearing of the Committee on Economic and Monetary Affairs of the European Parliament",
+      "id": "061eab95e5dd71a42692ee0d",
+      "title": "ECB amends monetary policy implementation guidelines as part of regular review",
       "reasons": [
-        "title does not contain a supported monetary-policy signal",
-        "title matches an excluded low-priority content type"
-      ]
+        "standalone value is too low: predominantly technical or operational central-bank material"
+      ],
+      "reconsideredDraft": true
     },
     {
-      "id": "5b2303b4e679735cdaf059d1",
-      "title": "ECB Executive Board member Isabel Schnabel to resign to take senior role at IMF",
+      "id": "be47f7768561977397855d23",
+      "title": "ECB wage tracker at 2.7% in H1 2027, pointing to a modest uptick in negotiated wage growth",
       "reasons": [
-        "title does not contain a supported monetary-policy signal",
-        "title matches an excluded low-priority content type"
-      ]
-    },
-    {
-      "id": "4738b8000d5e94ec817e3487",
-      "title": "Philip R. Lane: The outlook for the euro area economy",
-      "reasons": [
-        "title does not contain a supported monetary-policy signal"
-      ]
-    },
-    {
-      "id": "316f59e46be88da751a778be",
-      "title": "The digitalisation of money, payments and finance",
-      "reasons": [
-        "title does not contain a supported monetary-policy signal",
-        "title matches an excluded low-priority content type"
-      ]
-    },
-    {
-      "id": "d1f3b2b5b00d8ef685ede993",
-      "title": "Almost ten million people took part in ECB survey on new euro banknotes",
-      "reasons": [
-        "title does not contain a supported monetary-policy signal",
-        "title matches an excluded low-priority content type"
-      ]
-    },
-    {
-      "id": "e1d3410492a8393fbf59df90",
-      "title": "Philip R. Lane: Interview with Le Temps",
-      "reasons": [
-        "title does not contain a supported monetary-policy signal",
-        "title matches an excluded low-priority content type"
-      ]
-    },
-    {
-      "id": "702ca70159d261d8de591ac1",
-      "title": "ECB to invest part of own funds in tokenised securities, with settlement via Pontes",
-      "reasons": [
-        "title does not contain a supported monetary-policy signal",
-        "title matches an excluded low-priority content type"
-      ]
-    },
-    {
-      "id": "0fa206d71eda4c89638adae0",
-      "title": "Eurosystem brings central bank money to tokenised finance",
-      "reasons": [
-        "title does not contain a supported monetary-policy signal"
-      ]
-    },
-    {
-      "id": "e123f4985d97cc24fd3662a4",
-      "title": "Boris Vujčić: Interview with Reuters",
-      "reasons": [
-        "title does not contain a supported monetary-policy signal",
-        "title matches an excluded low-priority content type"
-      ]
-    },
-    {
-      "id": "50ea3c8da63ff9e4cc9cc58b",
-      "title": "Christine Lagarde: A new age of capital: growth, sovereignty and AI",
-      "reasons": [
-        "title does not contain a supported monetary-policy signal"
-      ]
-    },
-    {
-      "id": "c804af3bf384c77abc1a27d4",
-      "title": "Piero Cipollone: The future of euro cash: trusted today, designed for tomorrow",
-      "reasons": [
-        "title does not contain a supported monetary-policy signal",
-        "title matches an excluded low-priority content type"
-      ]
-    },
-    {
-      "id": "ff62652755535f56dcf5896f",
-      "title": "Long-standing higher profitability of dinar savings",
-      "reasons": [
-        "candidate is older than 21 days",
-        "title does not contain a supported monetary-policy signal"
-      ]
-    },
-    {
-      "id": "317345f4f82bd0d3a4d25074",
-      "title": "Minutes of the Board's discount rate meetings on July 20 and July 29, 2026",
-      "reasons": [
-        "candidate is older than 21 days",
-        "title does not contain a supported monetary-policy signal"
-      ]
-    },
-    {
-      "id": "76a0b27d8226221b64eae1f3",
-      "title": "Results of the Inflation Expectations Survey",
-      "reasons": [
-        "candidate is older than 21 days"
-      ]
-    },
-    {
-      "id": "fb9f97df45f731d71f6cc540",
-      "title": "Minutes of the Federal Open Market Committee, July 28–29, 2026",
-      "reasons": [
-        "candidate is older than 21 days",
-        "title does not contain a supported monetary-policy signal"
-      ]
-    },
-    {
-      "id": "7cb62dc209a96f5956c758aa",
-      "title": "Introductory speech by Governor Jorgovanka Tabaković at the presentation of the Inflation Report – August 2026",
-      "reasons": [
-        "candidate is older than 21 days",
-        "title matches an excluded low-priority content type",
-        "source host www.nbs.rshttps is not approved"
-      ]
-    },
-    {
-      "id": "d7bf0ee8792a8cef32bc20c7",
-      "title": "Inflation Report – August 2026",
-      "reasons": [
-        "candidate is older than 21 days",
-        "source host www.nbs.rshttps is not approved"
-      ]
-    },
-    {
-      "id": "ae2179f0bbd9ceec6b18bae2",
-      "title": "Key policy rate kept unchanged",
-      "reasons": [
-        "candidate is older than 21 days"
-      ]
-    },
-    {
-      "id": "dc555393990fd6cdeb0a49e4",
-      "title": "Inflation movements in July 2026",
-      "reasons": [
-        "candidate is older than 21 days"
-      ]
-    },
-    {
-      "id": "85dbfeb61d1c6a92d8c2bf88",
-      "title": "Federal Reserve issues FOMC statement",
-      "reasons": [
-        "candidate is older than 21 days"
-      ]
-    },
-    {
-      "id": "e3db291e8eb2de56346bb9f6",
-      "title": "Report on Dinarisation of the Serbian Financial System – First Quarter 2026",
-      "reasons": [
-        "candidate is older than 21 days",
-        "title does not contain a supported monetary-policy signal",
-        "source host www.nbs.rshttps is not approved"
-      ]
-    },
-    {
-      "id": "553fe189b7ec26f578cc5615",
-      "title": "Minutes of the Board's discount rate meetings on June 8 and June 17, 2026",
-      "reasons": [
-        "candidate is older than 21 days",
-        "title does not contain a supported monetary-policy signal"
-      ]
-    },
-    {
-      "id": "0983edfe4ef7cb6bf5395291",
-      "title": "Results of Inflation Expectations Survey",
-      "reasons": [
-        "candidate is older than 21 days"
-      ]
-    },
-    {
-      "id": "9e23a69ad811c52aa4499e72",
-      "title": "Inflation movements in June 2026",
-      "reasons": [
-        "candidate is older than 21 days"
-      ]
-    },
-    {
-      "id": "0e6c735bd63e88f1f20e6bde",
-      "title": "Federal Reserve announces the leadership and objectives of its task forces to advance the conduct of monetary policy",
-      "reasons": [
-        "candidate is older than 21 days"
-      ]
-    },
-    {
-      "id": "161240b1483a0b7b7f228443",
-      "title": "Key policy rate kept unchanged",
-      "reasons": [
-        "candidate is older than 21 days"
-      ]
-    },
-    {
-      "id": "ceefcc81c95132f72e7df592",
-      "title": "Minutes of the Federal Open Market Committee, June 16-17, 2026",
-      "reasons": [
-        "candidate is older than 21 days",
-        "title does not contain a supported monetary-policy signal"
-      ]
-    },
-    {
-      "id": "4d8a7b1563b1f82ad0ba119c",
-      "title": "Federal Reserve issues FOMC statement",
-      "reasons": [
-        "candidate is older than 21 days"
-      ]
-    },
-    {
-      "id": "cbbd29d9b3698b15fa36760f",
-      "title": "Federal Reserve Board and Federal Open Market Committee release economic projections from the June 16-17 FOMC meeting",
-      "reasons": [
-        "candidate is older than 21 days"
-      ]
-    },
-    {
-      "id": "8f9b53fd0db2af6831b7fd5e",
-      "title": "Results of Inflation Expectations Survey",
-      "reasons": [
-        "candidate is older than 21 days"
-      ]
-    },
-    {
-      "id": "800e52bcedefc213c3898e9e",
-      "title": "Inflation movements in May",
-      "reasons": [
-        "candidate is older than 21 days"
-      ]
-    },
-    {
-      "id": "4b94a629eb6b361b1b75a2ad",
-      "title": "Key policy rate kept unchanged",
-      "reasons": [
-        "candidate is older than 21 days"
-      ]
-    },
-    {
-      "id": "712cd7ecb7b5173b31a773bb",
-      "title": "Minutes of the Board's discount rate meeting on April 20 and 29, 2026",
-      "reasons": [
-        "candidate is older than 21 days",
-        "title does not contain a supported monetary-policy signal"
-      ]
-    },
-    {
-      "id": "ddacfe33267f53eb83abe6c4",
-      "title": "Minutes of the Federal Open Market Committee, April 28-29, 2026",
-      "reasons": [
-        "candidate is older than 21 days",
-        "title does not contain a supported monetary-policy signal"
-      ]
-    },
-    {
-      "id": "5279e5755ded78fb5290044f",
-      "title": "NBS: Defacing banknotes is unacceptable",
-      "reasons": [
-        "candidate is older than 21 days",
-        "title does not contain a supported monetary-policy signal",
-        "title matches an excluded low-priority content type"
-      ]
-    },
-    {
-      "id": "18536a76a227b7802fe1de2b",
-      "title": "Results of Inflation Expectations Survey",
-      "reasons": [
-        "candidate is older than 21 days"
-      ]
-    },
-    {
-      "id": "f07cd2d56556cbadf29c2736",
-      "title": "Introductory speech by Governor Jorgovanka Tabaković at the presentation of the Inflation Report – May 2026",
-      "reasons": [
-        "candidate is older than 21 days",
-        "title matches an excluded low-priority content type",
-        "source host www.nbs.rshttps is not approved"
-      ]
-    },
-    {
-      "id": "4dae82a4f2dc24d1428e66fb",
-      "title": "Inflation Report – May 2026",
-      "reasons": [
-        "candidate is older than 21 days",
-        "source host www.nbs.rshttps is not approved"
-      ]
-    },
-    {
-      "id": "da75d1d40602b4a6f632e421",
-      "title": "Inflation movements in April 2026",
-      "reasons": [
-        "candidate is older than 21 days"
-      ]
-    },
-    {
-      "id": "992090355767e6c7257aa6c2",
-      "title": "Key policy rate kept unchanged",
-      "reasons": [
-        "candidate is older than 21 days"
-      ]
-    },
-    {
-      "id": "7580aefff0aa7376284a03f6",
-      "title": "Federal Reserve issues FOMC statement",
-      "reasons": [
-        "candidate is older than 21 days"
-      ]
-    },
-    {
-      "id": "592febe13f32f6a375ea0975",
-      "title": "Results of Inflation Expectations Survey",
-      "reasons": [
-        "candidate is older than 21 days"
-      ]
-    },
-    {
-      "id": "997576e3087e5bfa4521b7a3",
-      "title": "Inflation movements in March",
-      "reasons": [
-        "candidate is older than 21 days"
-      ]
-    },
-    {
-      "id": "66bded31398460ce4ca71bac",
-      "title": "Minutes of the Board’s discount rate meetings on February 9 and March 18, 2026",
-      "reasons": [
-        "candidate is older than 21 days",
-        "title does not contain a supported monetary-policy signal"
-      ]
-    },
-    {
-      "id": "1dd89e48fdfacacd424c42f8",
-      "title": "Key policy rate kept unchanged",
-      "reasons": [
-        "candidate is older than 21 days"
-      ]
-    },
-    {
-      "id": "035e4699061fbeab7c56256b",
-      "title": "Minutes of the Federal Open Market Committee, March 17–18, 2026",
-      "reasons": [
-        "candidate is older than 21 days",
-        "title does not contain a supported monetary-policy signal"
-      ]
-    },
-    {
-      "id": "d59e3b9470813b5d0c6e1aee",
-      "title": "Results of Inflation Expectations Survey",
-      "reasons": [
-        "candidate is older than 21 days"
-      ]
-    },
-    {
-      "id": "409d2a1172b2aa7c742a04c1",
-      "title": "Inflation movements in February 2026",
-      "reasons": [
-        "candidate is older than 21 days"
-      ]
-    },
-    {
-      "id": "960aa649ed4647ec64180bd6",
-      "title": "Key policy rate kept on hold",
-      "reasons": [
-        "candidate is older than 21 days"
-      ]
-    },
-    {
-      "id": "a44559347c4bbf8e15b3cc51",
-      "title": "Inflation movements in January 2026",
-      "reasons": [
-        "candidate is older than 21 days"
-      ]
-    },
-    {
-      "id": "1666b6a48b30414403c84e36",
-      "title": "Results of the Inflation Expectations Survey",
-      "reasons": [
-        "candidate is older than 21 days"
-      ]
-    },
-    {
-      "id": "b2fc8c75b3333628a8807d49",
-      "title": "Key policy rate kept on hold",
-      "reasons": [
-        "candidate is older than 21 days"
-      ]
-    },
-    {
-      "id": "4e8d8b57f1a6d8d800ec4a17",
-      "title": "Key policy rate kept on hold",
-      "reasons": [
-        "candidate is older than 21 days"
-      ]
-    },
-    {
-      "id": "606aaa0cfcc7737105ec1d32",
-      "title": "Key policy rate kept on hold",
-      "reasons": [
-        "candidate is older than 21 days"
-      ]
-    },
-    {
-      "id": "1cd5b2310bc49428e29ba32e",
-      "title": "Key policy rate kept unchanged",
-      "reasons": [
-        "candidate is older than 21 days"
-      ]
-    },
-    {
-      "id": "699a9ff5cc98b29347d2f2b5",
-      "title": "Key policy rate kept on hold",
-      "reasons": [
-        "candidate is older than 21 days"
-      ]
-    },
-    {
-      "id": "f0d70f7565c04e8b389e52a4",
-      "title": "Key policy rate kept unchanged",
-      "reasons": [
-        "candidate is older than 21 days"
-      ]
-    },
-    {
-      "id": "3515641ae5cc4e21f0878a94",
-      "title": "Key policy rate kept unchanged",
-      "reasons": [
-        "candidate is older than 21 days"
-      ]
-    },
-    {
-      "id": "a057fb8b30c76d6856791a2f",
-      "title": "Key policy rate kept unchanged",
-      "reasons": [
-        "candidate is older than 21 days"
-      ]
-    },
-    {
-      "id": "d0d8ef1e77870c23d6ad3f4a",
-      "title": "Key policy rate kept unchanged",
-      "reasons": [
-        "candidate is older than 21 days"
-      ]
-    },
-    {
-      "id": "74a5b390c8ea22852ee4c114",
-      "title": "Key policy rate kept unchanged",
-      "reasons": [
-        "candidate is older than 21 days"
-      ]
-    },
-    {
-      "id": "d40eed6a3ff3d7fd7839a44d",
-      "title": "Key policy rate kept unchanged",
-      "reasons": [
-        "candidate is older than 21 days"
-      ]
+        "standalone value is too low: specialized forward-looking wage indicator"
+      ],
+      "reconsideredDraft": true
     }
   ],
   "duplicates": [
     {
-      "id": "bb8948a6585aff714a156271",
-      "title": "Philip R. Lane: The outlook for the euro area economy",
-      "reason": "collapsed into candidate 4738b8000d5e94ec817e3487"
-    },
-    {
-      "id": "4e63ddfe9e804631d8704030",
-      "title": "Federal Reserve issues FOMC statement",
-      "reason": "same event as fed-rates-2026-09-16"
-    },
-    {
-      "id": "a9897abb34f13914e4d24565",
+      "id": "c46d29bce1c4a68d30d5d769",
       "title": "Key policy rate kept unchanged",
-      "reason": "collapsed into candidate c46d29bce1c4a68d30d5d769"
-    },
-    {
-      "id": "9c8fb1dbdfc2429a41711ca7",
-      "title": "Key policy rate kept unchanged",
-      "reason": "collapsed into candidate ae2179f0bbd9ceec6b18bae2"
-    },
-    {
-      "id": "b02c02388cefdb52796cb67a",
-      "title": "Key policy rate kept unchanged",
-      "reason": "collapsed into candidate 161240b1483a0b7b7f228443"
-    },
-    {
-      "id": "ba687e37a1ae7291c755d867",
-      "title": "Key policy rate kept unchanged",
-      "reason": "collapsed into candidate 4b94a629eb6b361b1b75a2ad"
-    },
-    {
-      "id": "8fc67d516c2ea7ea7975c6f8",
-      "title": "Key policy rate kept unchanged",
-      "reason": "collapsed into candidate 992090355767e6c7257aa6c2"
-    },
-    {
-      "id": "8649ec654174bd80edd3291a",
-      "title": "Key policy rate kept unchanged",
-      "reason": "collapsed into candidate 1dd89e48fdfacacd424c42f8"
-    },
-    {
-      "id": "e5d2492ae8a1a00538525897",
-      "title": "Key policy rate kept on hold",
-      "reason": "collapsed into candidate 960aa649ed4647ec64180bd6"
+      "reason": "same event as nbs-rates-2026-09-10",
+      "reconsideredDraft": true
     }
   ]
 }

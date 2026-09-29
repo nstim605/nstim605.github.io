@@ -1,12 +1,13 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-29T10:13:41.060Z",
+  "updatedAt": "2026-09-29T15:32:12.945Z",
   "processed": {
     "061eab95e5dd71a42692ee0d": {
-      "status": "draft",
-      "draftId": "official-2026-09-29-061eab95",
-      "slug": "ecb-amends-monetary-policy-implementation-guidelines-as-part-of-regular-revi-061eab95",
-      "processedAt": "2026-09-29T10:13:41.060Z"
+      "status": "rejected",
+      "reasons": [
+        "standalone value is too low: predominantly technical or operational central-bank material"
+      ],
+      "processedAt": "2026-09-29T15:32:12.945Z"
     },
     "8bec0f90f138c27430c4fd01": {
       "status": "rejected",
@@ -108,10 +109,11 @@
       "processedAt": "2026-09-29T10:13:41.060Z"
     },
     "be47f7768561977397855d23": {
-      "status": "draft",
-      "draftId": "official-2026-09-16-be47f776",
-      "slug": "ecb-wage-tracker-at-2-7-in-h1-2027-pointing-to-a-modest-uptick-in-negotiated-be47f776",
-      "processedAt": "2026-09-29T10:13:41.060Z"
+      "status": "rejected",
+      "reasons": [
+        "standalone value is too low: specialized forward-looking wage indicator"
+      ],
+      "processedAt": "2026-09-29T15:32:12.945Z"
     },
     "50ea3c8da63ff9e4cc9cc58b": {
       "status": "rejected",
@@ -140,10 +142,10 @@
       "processedAt": "2026-09-29T10:13:41.060Z"
     },
     "c46d29bce1c4a68d30d5d769": {
-      "status": "draft",
-      "draftId": "official-2026-09-10-c46d29bc",
-      "slug": "key-policy-rate-kept-unchanged-c46d29bc",
-      "processedAt": "2026-09-29T10:13:41.060Z"
+      "status": "duplicate",
+      "canonicalStoryId": "nbs-rates-2026-09-10",
+      "reason": "same event as nbs-rates-2026-09-10",
+      "processedAt": "2026-09-29T15:32:12.945Z"
     },
     "ff62652755535f56dcf5896f": {
       "status": "rejected",

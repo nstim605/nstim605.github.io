@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-29T10:13:37.582Z",
+  "updatedAt": "2026-09-29T15:32:09.666Z",
   "candidates": [
     {
       "id": "061eab95e5dd71a42692ee0d",
       "originalTitle": "ECB amends monetary policy implementation guidelines as part of regular review",
-      "originalUrl": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260929~050089e922.en.html",
+      "originalUrl": "https://www.ecb.europa.eu/press/pr/date/2026/html/ecb.pr260929~050089e922.en.html",
       "publishedAt": "2026-09-29T08:00:00.000Z",
       "category": "Central Banks",
       "currencies": [
@@ -19,23 +19,26 @@
           "sourceId": "ecb",
           "name": "European Central Bank",
           "originalTitle": "ECB amends monetary policy implementation guidelines as part of regular review",
-          "originalUrl": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260929~050089e922.en.html",
+          "originalUrl": "https://www.ecb.europa.eu/press/pr/date/2026/html/ecb.pr260929~050089e922.en.html",
           "publishedAt": "2026-09-29T08:00:00.000Z",
           "externalId": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260929~050089e922.en.html",
           "metadata": {
-            "feedUrl": "https://www.ecb.europa.eu/rss/press.html"
+            "feedUrl": "https://www.ecb.europa.eu/rss/press.html",
+            "role": "primary"
           }
         }
       ],
       "duplicateIds": [],
       "duplicates": [],
       "firstSeenAt": "2026-09-29T09:48:31.498Z",
-      "lastSeenAt": "2026-09-29T09:48:31.498Z"
+      "lastSeenAt": "2026-09-29T15:32:09.666Z",
+      "description": "",
+      "editorialTypes": []
     },
     {
       "id": "8bec0f90f138c27430c4fd01",
       "originalTitle": "Christine Lagarde: Hearing of the Committee on Economic and Monetary Affairs of the European Parliament",
-      "originalUrl": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp260928~a875675544.en.html",
+      "originalUrl": "https://www.ecb.europa.eu/press/key/date/2026/html/ecb.sp260928~a875675544.en.html",
       "publishedAt": "2026-09-28T13:30:00.000Z",
       "category": "Currency",
       "currencies": [
@@ -49,23 +52,26 @@
           "sourceId": "ecb",
           "name": "European Central Bank",
           "originalTitle": "Christine Lagarde: Hearing of the Committee on Economic and Monetary Affairs of the European Parliament",
-          "originalUrl": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp260928~a875675544.en.html",
+          "originalUrl": "https://www.ecb.europa.eu/press/key/date/2026/html/ecb.sp260928~a875675544.en.html",
           "publishedAt": "2026-09-28T13:30:00.000Z",
           "externalId": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp260928~a875675544.en.html",
           "metadata": {
-            "feedUrl": "https://www.ecb.europa.eu/rss/press.html"
+            "feedUrl": "https://www.ecb.europa.eu/rss/press.html",
+            "role": "primary"
           }
         }
       ],
       "duplicateIds": [],
       "duplicates": [],
       "firstSeenAt": "2026-09-29T09:48:31.498Z",
-      "lastSeenAt": "2026-09-29T09:48:31.498Z"
+      "lastSeenAt": "2026-09-29T15:32:09.666Z",
+      "description": "",
+      "editorialTypes": []
     },
     {
       "id": "5b2303b4e679735cdaf059d1",
       "originalTitle": "ECB Executive Board member Isabel Schnabel to resign to take senior role at IMF",
-      "originalUrl": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260924~bea1dd9824.en.html",
+      "originalUrl": "https://www.ecb.europa.eu/press/pr/date/2026/html/ecb.pr260924~bea1dd9824.en.html",
       "publishedAt": "2026-09-24T12:00:00.000Z",
       "category": "Central Banks",
       "currencies": [
@@ -79,23 +85,26 @@
           "sourceId": "ecb",
           "name": "European Central Bank",
           "originalTitle": "ECB Executive Board member Isabel Schnabel to resign to take senior role at IMF",
-          "originalUrl": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260924~bea1dd9824.en.html",
+          "originalUrl": "https://www.ecb.europa.eu/press/pr/date/2026/html/ecb.pr260924~bea1dd9824.en.html",
           "publishedAt": "2026-09-24T12:00:00.000Z",
           "externalId": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260924~bea1dd9824.en.html",
           "metadata": {
-            "feedUrl": "https://www.ecb.europa.eu/rss/press.html"
+            "feedUrl": "https://www.ecb.europa.eu/rss/press.html",
+            "role": "primary"
           }
         }
       ],
       "duplicateIds": [],
       "duplicates": [],
       "firstSeenAt": "2026-09-29T09:48:31.498Z",
-      "lastSeenAt": "2026-09-29T09:48:31.498Z"
+      "lastSeenAt": "2026-09-29T15:32:09.666Z",
+      "description": "",
+      "editorialTypes": []
     },
     {
       "id": "4738b8000d5e94ec817e3487",
       "originalTitle": "Philip R. Lane: The outlook for the euro area economy",
-      "originalUrl": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp260924~e0eceef02c.en.pdf",
+      "originalUrl": "https://www.ecb.europa.eu/press/key/date/2026/html/ecb.sp260924~e0eceef02c.en.pdf",
       "publishedAt": "2026-09-24T09:00:00.000Z",
       "category": "Economy",
       "currencies": [
@@ -109,22 +118,24 @@
           "sourceId": "ecb",
           "name": "European Central Bank",
           "originalTitle": "Philip R. Lane: The outlook for the euro area economy",
-          "originalUrl": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp260924~e0eceef02c.en.pdf",
+          "originalUrl": "https://www.ecb.europa.eu/press/key/date/2026/html/ecb.sp260924~e0eceef02c.en.pdf",
           "publishedAt": "2026-09-24T09:00:00.000Z",
           "externalId": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp260924~e0eceef02c.en.pdf",
           "metadata": {
-            "feedUrl": "https://www.ecb.europa.eu/rss/press.html"
+            "feedUrl": "https://www.ecb.europa.eu/rss/press.html",
+            "role": "primary"
           }
         },
         {
           "sourceId": "ecb",
           "name": "European Central Bank",
           "originalTitle": "Philip R. Lane: The Outlook for the Euro Area Economy",
-          "originalUrl": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp260923_1~ac21bf46e3.en.pdf",
+          "originalUrl": "https://www.ecb.europa.eu/press/key/date/2026/html/ecb.sp260923_1~ac21bf46e3.en.pdf",
           "publishedAt": "2026-09-23T16:30:00.000Z",
           "externalId": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp260923_1~ac21bf46e3.en.pdf",
           "metadata": {
-            "feedUrl": "https://www.ecb.europa.eu/rss/press.html"
+            "feedUrl": "https://www.ecb.europa.eu/rss/press.html",
+            "role": "primary"
           }
         }
       ],
@@ -141,23 +152,26 @@
               "sourceId": "ecb",
               "name": "European Central Bank",
               "originalTitle": "Philip R. Lane: The Outlook for the Euro Area Economy",
-              "originalUrl": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp260923_1~ac21bf46e3.en.pdf",
+              "originalUrl": "https://www.ecb.europa.eu/press/key/date/2026/html/ecb.sp260923_1~ac21bf46e3.en.pdf",
               "publishedAt": "2026-09-23T16:30:00.000Z",
               "externalId": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp260923_1~ac21bf46e3.en.pdf",
               "metadata": {
-                "feedUrl": "https://www.ecb.europa.eu/rss/press.html"
+                "feedUrl": "https://www.ecb.europa.eu/rss/press.html",
+                "role": "primary"
               }
             }
           ]
         }
       ],
       "firstSeenAt": "2026-09-29T09:48:31.498Z",
-      "lastSeenAt": "2026-09-29T09:48:31.498Z"
+      "lastSeenAt": "2026-09-29T15:32:09.666Z",
+      "description": "",
+      "editorialTypes": []
     },
     {
       "id": "316f59e46be88da751a778be",
       "originalTitle": "The digitalisation of money, payments and finance",
-      "originalUrl": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp260923~87850778f5.en.pdf",
+      "originalUrl": "https://www.ecb.europa.eu/press/key/date/2026/html/ecb.sp260923~87850778f5.en.pdf",
       "publishedAt": "2026-09-23T16:00:00.000Z",
       "category": "Currency",
       "currencies": [
@@ -171,23 +185,26 @@
           "sourceId": "ecb",
           "name": "European Central Bank",
           "originalTitle": "The digitalisation of money, payments and finance",
-          "originalUrl": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp260923~87850778f5.en.pdf",
+          "originalUrl": "https://www.ecb.europa.eu/press/key/date/2026/html/ecb.sp260923~87850778f5.en.pdf",
           "publishedAt": "2026-09-23T16:00:00.000Z",
           "externalId": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp260923~87850778f5.en.pdf",
           "metadata": {
-            "feedUrl": "https://www.ecb.europa.eu/rss/press.html"
+            "feedUrl": "https://www.ecb.europa.eu/rss/press.html",
+            "role": "primary"
           }
         }
       ],
       "duplicateIds": [],
       "duplicates": [],
       "firstSeenAt": "2026-09-29T09:48:31.498Z",
-      "lastSeenAt": "2026-09-29T09:48:31.498Z"
+      "lastSeenAt": "2026-09-29T15:32:09.666Z",
+      "description": "",
+      "editorialTypes": []
     },
     {
       "id": "d1f3b2b5b00d8ef685ede993",
       "originalTitle": "Almost ten million people took part in ECB survey on new euro banknotes",
-      "originalUrl": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260923~6ebddaf01e.en.html",
+      "originalUrl": "https://www.ecb.europa.eu/press/pr/date/2026/html/ecb.pr260923~6ebddaf01e.en.html",
       "publishedAt": "2026-09-23T09:00:00.000Z",
       "category": "Central Banks",
       "currencies": [
@@ -201,23 +218,28 @@
           "sourceId": "ecb",
           "name": "European Central Bank",
           "originalTitle": "Almost ten million people took part in ECB survey on new euro banknotes",
-          "originalUrl": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260923~6ebddaf01e.en.html",
+          "originalUrl": "https://www.ecb.europa.eu/press/pr/date/2026/html/ecb.pr260923~6ebddaf01e.en.html",
           "publishedAt": "2026-09-23T09:00:00.000Z",
           "externalId": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260923~6ebddaf01e.en.html",
           "metadata": {
-            "feedUrl": "https://www.ecb.europa.eu/rss/press.html"
+            "feedUrl": "https://www.ecb.europa.eu/rss/press.html",
+            "role": "primary"
           }
         }
       ],
       "duplicateIds": [],
       "duplicates": [],
       "firstSeenAt": "2026-09-29T09:48:31.498Z",
-      "lastSeenAt": "2026-09-29T09:48:31.498Z"
+      "lastSeenAt": "2026-09-29T15:32:09.666Z",
+      "description": "",
+      "editorialTypes": [
+        "survey"
+      ]
     },
     {
       "id": "e1d3410492a8393fbf59df90",
       "originalTitle": "Philip R. Lane: Interview with Le Temps",
-      "originalUrl": "https://www.ecb.europa.eu//press/inter/date/2026/html/ecb.in260922~5f89d300ee.en.html",
+      "originalUrl": "https://www.ecb.europa.eu/press/inter/date/2026/html/ecb.in260922~5f89d300ee.en.html",
       "publishedAt": "2026-09-22T05:00:00.000Z",
       "category": "Currency",
       "currencies": [
@@ -231,23 +253,26 @@
           "sourceId": "ecb",
           "name": "European Central Bank",
           "originalTitle": "Philip R. Lane: Interview with Le Temps",
-          "originalUrl": "https://www.ecb.europa.eu//press/inter/date/2026/html/ecb.in260922~5f89d300ee.en.html",
+          "originalUrl": "https://www.ecb.europa.eu/press/inter/date/2026/html/ecb.in260922~5f89d300ee.en.html",
           "publishedAt": "2026-09-22T05:00:00.000Z",
           "externalId": "https://www.ecb.europa.eu//press/inter/date/2026/html/ecb.in260922~5f89d300ee.en.html",
           "metadata": {
-            "feedUrl": "https://www.ecb.europa.eu/rss/press.html"
+            "feedUrl": "https://www.ecb.europa.eu/rss/press.html",
+            "role": "primary"
           }
         }
       ],
       "duplicateIds": [],
       "duplicates": [],
       "firstSeenAt": "2026-09-29T09:48:31.498Z",
-      "lastSeenAt": "2026-09-29T09:48:31.498Z"
+      "lastSeenAt": "2026-09-29T15:32:09.666Z",
+      "description": "",
+      "editorialTypes": []
     },
     {
       "id": "702ca70159d261d8de591ac1",
       "originalTitle": "ECB to invest part of own funds in tokenised securities, with settlement via Pontes",
-      "originalUrl": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260921_1~5a011ecbea.en.html",
+      "originalUrl": "https://www.ecb.europa.eu/press/pr/date/2026/html/ecb.pr260921_1~5a011ecbea.en.html",
       "publishedAt": "2026-09-21T10:00:00.000Z",
       "category": "Central Banks",
       "currencies": [
@@ -261,23 +286,26 @@
           "sourceId": "ecb",
           "name": "European Central Bank",
           "originalTitle": "ECB to invest part of own funds in tokenised securities, with settlement via Pontes",
-          "originalUrl": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260921_1~5a011ecbea.en.html",
+          "originalUrl": "https://www.ecb.europa.eu/press/pr/date/2026/html/ecb.pr260921_1~5a011ecbea.en.html",
           "publishedAt": "2026-09-21T10:00:00.000Z",
           "externalId": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260921_1~5a011ecbea.en.html",
           "metadata": {
-            "feedUrl": "https://www.ecb.europa.eu/rss/press.html"
+            "feedUrl": "https://www.ecb.europa.eu/rss/press.html",
+            "role": "primary"
           }
         }
       ],
       "duplicateIds": [],
       "duplicates": [],
       "firstSeenAt": "2026-09-29T09:48:31.498Z",
-      "lastSeenAt": "2026-09-29T09:48:31.498Z"
+      "lastSeenAt": "2026-09-29T15:32:09.666Z",
+      "description": "",
+      "editorialTypes": []
     },
     {
       "id": "0fa206d71eda4c89638adae0",
       "originalTitle": "Eurosystem brings central bank money to tokenised finance",
-      "originalUrl": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260921~e754847a7b.en.html",
+      "originalUrl": "https://www.ecb.europa.eu/press/pr/date/2026/html/ecb.pr260921~e754847a7b.en.html",
       "publishedAt": "2026-09-21T10:00:00.000Z",
       "category": "Central Banks",
       "currencies": [
@@ -291,25 +319,28 @@
           "sourceId": "ecb",
           "name": "European Central Bank",
           "originalTitle": "Eurosystem brings central bank money to tokenised finance",
-          "originalUrl": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260921~e754847a7b.en.html",
+          "originalUrl": "https://www.ecb.europa.eu/press/pr/date/2026/html/ecb.pr260921~e754847a7b.en.html",
           "publishedAt": "2026-09-21T10:00:00.000Z",
           "externalId": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260921~e754847a7b.en.html",
           "metadata": {
-            "feedUrl": "https://www.ecb.europa.eu/rss/press.html"
+            "feedUrl": "https://www.ecb.europa.eu/rss/press.html",
+            "role": "primary"
           }
         }
       ],
       "duplicateIds": [],
       "duplicates": [],
       "firstSeenAt": "2026-09-29T09:48:31.498Z",
-      "lastSeenAt": "2026-09-29T09:48:31.498Z"
+      "lastSeenAt": "2026-09-29T15:32:09.666Z",
+      "description": "",
+      "editorialTypes": []
     },
     {
       "id": "ed1000a4443d9e8b50162066",
       "originalTitle": "ECB Consumer Expectations Survey results – August 2026",
-      "originalUrl": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260918~295b3ab978.en.html",
+      "originalUrl": "https://www.ecb.europa.eu/press/pr/date/2026/html/ecb.pr260918~295b3ab978.en.html",
       "publishedAt": "2026-09-18T08:00:00.000Z",
-      "category": "Central Banks",
+      "category": "Inflation",
       "currencies": [
         "EUR"
       ],
@@ -321,23 +352,29 @@
           "sourceId": "ecb",
           "name": "European Central Bank",
           "originalTitle": "ECB Consumer Expectations Survey results – August 2026",
-          "originalUrl": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260918~295b3ab978.en.html",
+          "originalUrl": "https://www.ecb.europa.eu/press/pr/date/2026/html/ecb.pr260918~295b3ab978.en.html",
           "publishedAt": "2026-09-18T08:00:00.000Z",
           "externalId": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260918~295b3ab978.en.html",
           "metadata": {
-            "feedUrl": "https://www.ecb.europa.eu/rss/press.html"
+            "feedUrl": "https://www.ecb.europa.eu/rss/press.html",
+            "role": "primary"
           }
         }
       ],
       "duplicateIds": [],
       "duplicates": [],
       "firstSeenAt": "2026-09-29T09:48:31.498Z",
-      "lastSeenAt": "2026-09-29T09:48:31.498Z"
+      "lastSeenAt": "2026-09-29T15:32:09.666Z",
+      "description": "",
+      "editorialTypes": [
+        "survey",
+        "expectations"
+      ]
     },
     {
       "id": "e123f4985d97cc24fd3662a4",
       "originalTitle": "Boris Vujčić: Interview with Reuters",
-      "originalUrl": "https://www.ecb.europa.eu//press/inter/date/2026/html/ecb.in260918~33f023fe26.en.html",
+      "originalUrl": "https://www.ecb.europa.eu/press/inter/date/2026/html/ecb.in260918~33f023fe26.en.html",
       "publishedAt": "2026-09-18T06:00:00.000Z",
       "category": "Currency",
       "currencies": [
@@ -351,18 +388,21 @@
           "sourceId": "ecb",
           "name": "European Central Bank",
           "originalTitle": "Boris Vujčić: Interview with Reuters",
-          "originalUrl": "https://www.ecb.europa.eu//press/inter/date/2026/html/ecb.in260918~33f023fe26.en.html",
+          "originalUrl": "https://www.ecb.europa.eu/press/inter/date/2026/html/ecb.in260918~33f023fe26.en.html",
           "publishedAt": "2026-09-18T06:00:00.000Z",
           "externalId": "https://www.ecb.europa.eu//press/inter/date/2026/html/ecb.in260918~33f023fe26.en.html",
           "metadata": {
-            "feedUrl": "https://www.ecb.europa.eu/rss/press.html"
+            "feedUrl": "https://www.ecb.europa.eu/rss/press.html",
+            "role": "primary"
           }
         }
       ],
       "duplicateIds": [],
       "duplicates": [],
       "firstSeenAt": "2026-09-29T09:48:31.498Z",
-      "lastSeenAt": "2026-09-29T09:48:31.498Z"
+      "lastSeenAt": "2026-09-29T15:32:09.666Z",
+      "description": "",
+      "editorialTypes": []
     },
     {
       "id": "d5a67ad37a0a1a03b74c32ee",
@@ -385,14 +425,20 @@
           "publishedAt": "2026-09-17T11:52:54.000Z",
           "externalId": "https://www.nbs.rs/en/scripts/showcontent/index.html?id=21729&konverzija=no",
           "metadata": {
-            "feedUrl": "https://nbs.rs/system/modules/yu.nbs.news/elements/responsive/RSSnews.xml?kategorija=19&konverzija=no&lang=en"
+            "feedUrl": "https://nbs.rs/system/modules/yu.nbs.news/elements/responsive/RSSnews.xml?kategorija=19&konverzija=no&lang=en",
+            "role": "primary"
           }
         }
       ],
       "duplicateIds": [],
       "duplicates": [],
       "firstSeenAt": "2026-09-29T09:48:31.498Z",
-      "lastSeenAt": "2026-09-29T10:13:37.582Z"
+      "lastSeenAt": "2026-09-29T15:32:09.666Z",
+      "description": "",
+      "editorialTypes": [
+        "survey",
+        "expectations"
+      ]
     },
     {
       "id": "4e63ddfe9e804631d8704030",
@@ -415,21 +461,24 @@
           "publishedAt": "2026-09-16T18:00:00.000Z",
           "externalId": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916a.htm",
           "metadata": {
-            "feedUrl": "https://www.federalreserve.gov/feeds/press_monetary.xml"
+            "feedUrl": "https://www.federalreserve.gov/feeds/press_monetary.xml",
+            "role": "primary"
           }
         }
       ],
       "duplicateIds": [],
       "duplicates": [],
       "firstSeenAt": "2026-09-29T09:48:31.498Z",
-      "lastSeenAt": "2026-09-29T09:48:31.498Z"
+      "lastSeenAt": "2026-09-29T15:32:09.666Z",
+      "description": "Federal Reserve issues FOMC statement",
+      "editorialTypes": []
     },
     {
       "id": "e67cb5eff5f8900dbb229048",
       "originalTitle": "Federal Reserve Board and Federal Open Market Committee release economic projections from the September 15-16 FOMC meeting",
       "originalUrl": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916b.htm",
       "publishedAt": "2026-09-16T18:00:00.000Z",
-      "category": "Central Banks",
+      "category": "Economy",
       "currencies": [
         "USD"
       ],
@@ -445,6 +494,19 @@
           "publishedAt": "2026-09-16T18:00:00.000Z",
           "externalId": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916b.htm",
           "metadata": {
+            "feedUrl": "https://www.federalreserve.gov/feeds/press_monetary.xml",
+            "role": "announcement"
+          }
+        },
+        {
+          "sourceId": "federal-reserve",
+          "name": "Board of Governors of the Federal Reserve System",
+          "originalTitle": "FOMC economic projections tables and accessible materials",
+          "originalUrl": "https://www.federalreserve.gov/monetarypolicy/fomcprojtabl20260916.htm",
+          "publishedAt": "2026-09-16T18:00:00.000Z",
+          "externalId": "fomcprojtabl20260916",
+          "metadata": {
+            "role": "data",
             "feedUrl": "https://www.federalreserve.gov/feeds/press_monetary.xml"
           }
         }
@@ -452,14 +514,18 @@
       "duplicateIds": [],
       "duplicates": [],
       "firstSeenAt": "2026-09-29T09:48:31.498Z",
-      "lastSeenAt": "2026-09-29T09:48:31.498Z"
+      "lastSeenAt": "2026-09-29T15:32:09.666Z",
+      "description": "Federal Reserve Board and Federal Open Market Committee release economic projections from the September 15-16 FOMC meeting",
+      "editorialTypes": [
+        "projections"
+      ]
     },
     {
       "id": "be47f7768561977397855d23",
       "originalTitle": "ECB wage tracker at 2.7% in H1 2027, pointing to a modest uptick in negotiated wage growth",
-      "originalUrl": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260916~7bc58ebef4.en.html",
+      "originalUrl": "https://www.ecb.europa.eu/press/pr/date/2026/html/ecb.pr260916~7bc58ebef4.en.html",
       "publishedAt": "2026-09-16T08:00:00.000Z",
-      "category": "Central Banks",
+      "category": "Inflation",
       "currencies": [
         "EUR"
       ],
@@ -471,23 +537,28 @@
           "sourceId": "ecb",
           "name": "European Central Bank",
           "originalTitle": "ECB wage tracker at 2.7% in H1 2027, pointing to a modest uptick in negotiated wage growth",
-          "originalUrl": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260916~7bc58ebef4.en.html",
+          "originalUrl": "https://www.ecb.europa.eu/press/pr/date/2026/html/ecb.pr260916~7bc58ebef4.en.html",
           "publishedAt": "2026-09-16T08:00:00.000Z",
           "externalId": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260916~7bc58ebef4.en.html",
           "metadata": {
-            "feedUrl": "https://www.ecb.europa.eu/rss/press.html"
+            "feedUrl": "https://www.ecb.europa.eu/rss/press.html",
+            "role": "primary"
           }
         }
       ],
       "duplicateIds": [],
       "duplicates": [],
       "firstSeenAt": "2026-09-29T09:48:31.498Z",
-      "lastSeenAt": "2026-09-29T09:48:31.498Z"
+      "lastSeenAt": "2026-09-29T15:32:09.666Z",
+      "description": "",
+      "editorialTypes": [
+        "forward-looking-indicator"
+      ]
     },
     {
       "id": "50ea3c8da63ff9e4cc9cc58b",
       "originalTitle": "Christine Lagarde: A new age of capital: growth, sovereignty and AI",
-      "originalUrl": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp260914_2~a3f0efbee4.en.html",
+      "originalUrl": "https://www.ecb.europa.eu/press/key/date/2026/html/ecb.sp260914_2~a3f0efbee4.en.html",
       "publishedAt": "2026-09-14T15:15:00.000Z",
       "category": "Currency",
       "currencies": [
@@ -501,23 +572,26 @@
           "sourceId": "ecb",
           "name": "European Central Bank",
           "originalTitle": "Christine Lagarde: A new age of capital: growth, sovereignty and AI",
-          "originalUrl": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp260914_2~a3f0efbee4.en.html",
+          "originalUrl": "https://www.ecb.europa.eu/press/key/date/2026/html/ecb.sp260914_2~a3f0efbee4.en.html",
           "publishedAt": "2026-09-14T15:15:00.000Z",
           "externalId": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp260914_2~a3f0efbee4.en.html",
           "metadata": {
-            "feedUrl": "https://www.ecb.europa.eu/rss/press.html"
+            "feedUrl": "https://www.ecb.europa.eu/rss/press.html",
+            "role": "primary"
           }
         }
       ],
       "duplicateIds": [],
       "duplicates": [],
       "firstSeenAt": "2026-09-29T09:48:31.498Z",
-      "lastSeenAt": "2026-09-29T09:48:31.498Z"
+      "lastSeenAt": "2026-09-29T15:32:09.666Z",
+      "description": "",
+      "editorialTypes": []
     },
     {
       "id": "c804af3bf384c77abc1a27d4",
       "originalTitle": "Piero Cipollone: The future of euro cash: trusted today, designed for tomorrow",
-      "originalUrl": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp260914_1~91d3436449.en.html",
+      "originalUrl": "https://www.ecb.europa.eu/press/key/date/2026/html/ecb.sp260914_1~91d3436449.en.html",
       "publishedAt": "2026-09-14T13:00:00.000Z",
       "category": "Currency",
       "currencies": [
@@ -531,18 +605,21 @@
           "sourceId": "ecb",
           "name": "European Central Bank",
           "originalTitle": "Piero Cipollone: The future of euro cash: trusted today, designed for tomorrow",
-          "originalUrl": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp260914_1~91d3436449.en.html",
+          "originalUrl": "https://www.ecb.europa.eu/press/key/date/2026/html/ecb.sp260914_1~91d3436449.en.html",
           "publishedAt": "2026-09-14T13:00:00.000Z",
           "externalId": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp260914_1~91d3436449.en.html",
           "metadata": {
-            "feedUrl": "https://www.ecb.europa.eu/rss/press.html"
+            "feedUrl": "https://www.ecb.europa.eu/rss/press.html",
+            "role": "primary"
           }
         }
       ],
       "duplicateIds": [],
       "duplicates": [],
       "firstSeenAt": "2026-09-29T09:48:31.498Z",
-      "lastSeenAt": "2026-09-29T09:48:31.498Z"
+      "lastSeenAt": "2026-09-29T15:32:09.666Z",
+      "description": "",
+      "editorialTypes": []
     },
     {
       "id": "b3259b176d1f5dfd9b6d4e02",
@@ -565,14 +642,17 @@
           "publishedAt": "2026-09-14T09:50:09.000Z",
           "externalId": "https://www.nbs.rs/en/scripts/showcontent/index.html?id=21723&konverzija=no",
           "metadata": {
-            "feedUrl": "https://nbs.rs/system/modules/yu.nbs.news/elements/responsive/RSSnews.xml?kategorija=19&konverzija=no&lang=en"
+            "feedUrl": "https://nbs.rs/system/modules/yu.nbs.news/elements/responsive/RSSnews.xml?kategorija=19&konverzija=no&lang=en",
+            "role": "primary"
           }
         }
       ],
       "duplicateIds": [],
       "duplicates": [],
       "firstSeenAt": "2026-09-29T09:48:31.498Z",
-      "lastSeenAt": "2026-09-29T10:13:37.582Z"
+      "lastSeenAt": "2026-09-29T15:32:09.666Z",
+      "description": "",
+      "editorialTypes": []
     },
     {
       "id": "c46d29bce1c4a68d30d5d769",
@@ -595,7 +675,8 @@
           "publishedAt": "2026-09-10T12:19:25.000Z",
           "externalId": "https://www.nbs.rs/en/scripts/showcontent/index.html?id=21715&konverzija=no",
           "metadata": {
-            "feedUrl": "https://nbs.rs/system/modules/yu.nbs.news/elements/responsive/RSSnews.xml?kategorija=191&konverzija=no&lang=en"
+            "feedUrl": "https://nbs.rs/system/modules/yu.nbs.news/elements/responsive/RSSnews.xml?kategorija=191&konverzija=no&lang=en",
+            "role": "primary"
           }
         }
       ],
@@ -616,14 +697,17 @@
               "publishedAt": "2026-09-10T12:19:25.000Z",
               "externalId": "https://www.nbs.rs/en/scripts/showcontent/index.html?id=21715&konverzija=no",
               "metadata": {
-                "feedUrl": "https://nbs.rs/system/modules/yu.nbs.news/elements/responsive/RSSnews.xml?kategorija=19&konverzija=no&lang=en"
+                "feedUrl": "https://nbs.rs/system/modules/yu.nbs.news/elements/responsive/RSSnews.xml?kategorija=19&konverzija=no&lang=en",
+                "role": "primary"
               }
             }
           ]
         }
       ],
       "firstSeenAt": "2026-09-29T09:48:31.498Z",
-      "lastSeenAt": "2026-09-29T10:13:37.582Z"
+      "lastSeenAt": "2026-09-29T15:32:09.666Z",
+      "description": "",
+      "editorialTypes": []
     },
     {
       "id": "ff62652755535f56dcf5896f",
@@ -646,14 +730,17 @@
           "publishedAt": "2026-08-27T11:48:08.000Z",
           "externalId": "https://www.nbs.rs/en/scripts/showcontent/index.html?id=21676&konverzija=no",
           "metadata": {
-            "feedUrl": "https://nbs.rs/system/modules/yu.nbs.news/elements/responsive/RSSnews.xml?kategorija=19&konverzija=no&lang=en"
+            "feedUrl": "https://nbs.rs/system/modules/yu.nbs.news/elements/responsive/RSSnews.xml?kategorija=19&konverzija=no&lang=en",
+            "role": "primary"
           }
         }
       ],
       "duplicateIds": [],
       "duplicates": [],
       "firstSeenAt": "2026-09-29T09:48:31.498Z",
-      "lastSeenAt": "2026-09-29T10:13:37.582Z"
+      "lastSeenAt": "2026-09-29T15:32:09.666Z",
+      "description": "",
+      "editorialTypes": []
     },
     {
       "id": "317345f4f82bd0d3a4d25074",
@@ -676,14 +763,17 @@
           "publishedAt": "2026-08-25T18:00:00.000Z",
           "externalId": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260825a.htm",
           "metadata": {
-            "feedUrl": "https://www.federalreserve.gov/feeds/press_monetary.xml"
+            "feedUrl": "https://www.federalreserve.gov/feeds/press_monetary.xml",
+            "role": "primary"
           }
         }
       ],
       "duplicateIds": [],
       "duplicates": [],
       "firstSeenAt": "2026-09-29T09:48:31.498Z",
-      "lastSeenAt": "2026-09-29T09:48:31.498Z"
+      "lastSeenAt": "2026-09-29T15:32:09.666Z",
+      "description": "Minutes of the Board's discount rate meetings on July 20 and July 29, 2026",
+      "editorialTypes": []
     },
     {
       "id": "76a0b27d8226221b64eae1f3",
@@ -706,14 +796,20 @@
           "publishedAt": "2026-08-21T13:51:02.000Z",
           "externalId": "https://www.nbs.rs/en/scripts/showcontent/index.html?id=21669&konverzija=no",
           "metadata": {
-            "feedUrl": "https://nbs.rs/system/modules/yu.nbs.news/elements/responsive/RSSnews.xml?kategorija=19&konverzija=no&lang=en"
+            "feedUrl": "https://nbs.rs/system/modules/yu.nbs.news/elements/responsive/RSSnews.xml?kategorija=19&konverzija=no&lang=en",
+            "role": "primary"
           }
         }
       ],
       "duplicateIds": [],
       "duplicates": [],
       "firstSeenAt": "2026-09-29T09:48:31.498Z",
-      "lastSeenAt": "2026-09-29T10:13:37.582Z"
+      "lastSeenAt": "2026-09-29T15:32:09.666Z",
+      "description": "",
+      "editorialTypes": [
+        "survey",
+        "expectations"
+      ]
     },
     {
       "id": "fb9f97df45f731d71f6cc540",
@@ -736,19 +832,22 @@
           "publishedAt": "2026-08-19T18:00:00.000Z",
           "externalId": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260819a.htm",
           "metadata": {
-            "feedUrl": "https://www.federalreserve.gov/feeds/press_monetary.xml"
+            "feedUrl": "https://www.federalreserve.gov/feeds/press_monetary.xml",
+            "role": "primary"
           }
         }
       ],
       "duplicateIds": [],
       "duplicates": [],
       "firstSeenAt": "2026-09-29T09:48:31.498Z",
-      "lastSeenAt": "2026-09-29T09:48:31.498Z"
+      "lastSeenAt": "2026-09-29T15:32:09.666Z",
+      "description": "Minutes of the Federal Open Market Committee, July 28–29, 2026",
+      "editorialTypes": []
     },
     {
       "id": "7cb62dc209a96f5956c758aa",
       "originalTitle": "Introductory speech by Governor Jorgovanka Tabaković at the presentation of the Inflation Report – August 2026",
-      "originalUrl": "https://www.nbs.rshttps//www.nbs.rs/export/sites/NBS_site/documents-eng/publikacije/ioi/prezentacije/govor_ioi_08_2026_JT_e.pdf",
+      "originalUrl": "https://www.nbs.rshttps/www.nbs.rs/export/sites/NBS_site/documents-eng/publikacije/ioi/prezentacije/govor_ioi_08_2026_JT_e.pdf",
       "publishedAt": "2026-08-19T11:12:05.000Z",
       "category": "Inflation",
       "currencies": [
@@ -762,23 +861,26 @@
           "sourceId": "nbs-monetary-policy",
           "name": "National Bank of Serbia",
           "originalTitle": "Introductory speech by Governor Jorgovanka Tabaković at the presentation of the Inflation Report – August 2026",
-          "originalUrl": "https://www.nbs.rshttps//www.nbs.rs/export/sites/NBS_site/documents-eng/publikacije/ioi/prezentacije/govor_ioi_08_2026_JT_e.pdf",
+          "originalUrl": "https://www.nbs.rshttps/www.nbs.rs/export/sites/NBS_site/documents-eng/publikacije/ioi/prezentacije/govor_ioi_08_2026_JT_e.pdf",
           "publishedAt": "2026-08-19T11:12:05.000Z",
           "externalId": "https://www.nbs.rshttps//www.nbs.rs/export/sites/NBS_site/documents-eng/publikacije/ioi/prezentacije/govor_ioi_08_2026_JT_e.pdf",
           "metadata": {
-            "feedUrl": "https://nbs.rs/system/modules/yu.nbs.news/elements/responsive/RSSnews.xml?kategorija=19&konverzija=no&lang=en"
+            "feedUrl": "https://nbs.rs/system/modules/yu.nbs.news/elements/responsive/RSSnews.xml?kategorija=19&konverzija=no&lang=en",
+            "role": "primary"
           }
         }
       ],
       "duplicateIds": [],
       "duplicates": [],
       "firstSeenAt": "2026-09-29T09:48:31.498Z",
-      "lastSeenAt": "2026-09-29T10:13:37.582Z"
+      "lastSeenAt": "2026-09-29T15:32:09.666Z",
+      "description": "",
+      "editorialTypes": []
     },
     {
       "id": "d7bf0ee8792a8cef32bc20c7",
       "originalTitle": "Inflation Report – August 2026",
-      "originalUrl": "https://www.nbs.rshttps//www.nbs.rs/export/sites/NBS_site/documents-eng/publikacije/ioi/izvestaji/inflation_report_08_2026.pdf",
+      "originalUrl": "https://www.nbs.rshttps/www.nbs.rs/export/sites/NBS_site/documents-eng/publikacije/ioi/izvestaji/inflation_report_08_2026.pdf",
       "publishedAt": "2026-08-19T11:11:10.000Z",
       "category": "Inflation",
       "currencies": [
@@ -792,18 +894,21 @@
           "sourceId": "nbs-monetary-policy",
           "name": "National Bank of Serbia",
           "originalTitle": "Inflation Report – August 2026",
-          "originalUrl": "https://www.nbs.rshttps//www.nbs.rs/export/sites/NBS_site/documents-eng/publikacije/ioi/izvestaji/inflation_report_08_2026.pdf",
+          "originalUrl": "https://www.nbs.rshttps/www.nbs.rs/export/sites/NBS_site/documents-eng/publikacije/ioi/izvestaji/inflation_report_08_2026.pdf",
           "publishedAt": "2026-08-19T11:11:10.000Z",
           "externalId": "https://www.nbs.rshttps//www.nbs.rs/export/sites/NBS_site/documents-eng/publikacije/ioi/izvestaji/inflation_report_08_2026.pdf",
           "metadata": {
-            "feedUrl": "https://nbs.rs/system/modules/yu.nbs.news/elements/responsive/RSSnews.xml?kategorija=19&konverzija=no&lang=en"
+            "feedUrl": "https://nbs.rs/system/modules/yu.nbs.news/elements/responsive/RSSnews.xml?kategorija=19&konverzija=no&lang=en",
+            "role": "primary"
           }
         }
       ],
       "duplicateIds": [],
       "duplicates": [],
       "firstSeenAt": "2026-09-29T09:48:31.498Z",
-      "lastSeenAt": "2026-09-29T10:13:37.582Z"
+      "lastSeenAt": "2026-09-29T15:32:09.666Z",
+      "description": "",
+      "editorialTypes": []
     },
     {
       "id": "ae2179f0bbd9ceec6b18bae2",
@@ -826,7 +931,8 @@
           "publishedAt": "2026-08-13T12:13:26.000Z",
           "externalId": "https://www.nbs.rs/en/scripts/showcontent/index.html?id=21652&konverzija=no",
           "metadata": {
-            "feedUrl": "https://nbs.rs/system/modules/yu.nbs.news/elements/responsive/RSSnews.xml?kategorija=191&konverzija=no&lang=en"
+            "feedUrl": "https://nbs.rs/system/modules/yu.nbs.news/elements/responsive/RSSnews.xml?kategorija=191&konverzija=no&lang=en",
+            "role": "primary"
           }
         }
       ],
@@ -847,14 +953,17 @@
               "publishedAt": "2026-08-13T12:13:26.000Z",
               "externalId": "https://www.nbs.rs/en/scripts/showcontent/index.html?id=21652&konverzija=no",
               "metadata": {
-                "feedUrl": "https://nbs.rs/system/modules/yu.nbs.news/elements/responsive/RSSnews.xml?kategorija=19&konverzija=no&lang=en"
+                "feedUrl": "https://nbs.rs/system/modules/yu.nbs.news/elements/responsive/RSSnews.xml?kategorija=19&konverzija=no&lang=en",
+                "role": "primary"
               }
             }
           ]
         }
       ],
       "firstSeenAt": "2026-09-29T09:48:31.498Z",
-      "lastSeenAt": "2026-09-29T10:13:37.582Z"
+      "lastSeenAt": "2026-09-29T15:32:09.666Z",
+      "description": "",
+      "editorialTypes": []
     },
     {
       "id": "dc555393990fd6cdeb0a49e4",
@@ -877,14 +986,17 @@
           "publishedAt": "2026-08-12T14:31:39.000Z",
           "externalId": "https://www.nbs.rs/en/scripts/showcontent/index.html?id=21648&konverzija=no",
           "metadata": {
-            "feedUrl": "https://nbs.rs/system/modules/yu.nbs.news/elements/responsive/RSSnews.xml?kategorija=19&konverzija=no&lang=en"
+            "feedUrl": "https://nbs.rs/system/modules/yu.nbs.news/elements/responsive/RSSnews.xml?kategorija=19&konverzija=no&lang=en",
+            "role": "primary"
           }
         }
       ],
       "duplicateIds": [],
       "duplicates": [],
       "firstSeenAt": "2026-09-29T09:48:31.498Z",
-      "lastSeenAt": "2026-09-29T10:13:37.582Z"
+      "lastSeenAt": "2026-09-29T15:32:09.666Z",
+      "description": "",
+      "editorialTypes": []
     },
     {
       "id": "85dbfeb61d1c6a92d8c2bf88",
@@ -907,19 +1019,22 @@
           "publishedAt": "2026-07-29T18:00:00.000Z",
           "externalId": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260729a.htm",
           "metadata": {
-            "feedUrl": "https://www.federalreserve.gov/feeds/press_monetary.xml"
+            "feedUrl": "https://www.federalreserve.gov/feeds/press_monetary.xml",
+            "role": "primary"
           }
         }
       ],
       "duplicateIds": [],
       "duplicates": [],
       "firstSeenAt": "2026-09-29T09:48:31.498Z",
-      "lastSeenAt": "2026-09-29T09:48:31.498Z"
+      "lastSeenAt": "2026-09-29T15:32:09.666Z",
+      "description": "Federal Reserve issues FOMC statement",
+      "editorialTypes": []
     },
     {
       "id": "e3db291e8eb2de56346bb9f6",
       "originalTitle": "Report on Dinarisation of the Serbian Financial System – First Quarter 2026",
-      "originalUrl": "https://www.nbs.rshttps//www.nbs.rs/export/sites/NBS_site/documents-eng/publikacije/dinarizacija/izvestaji/din_I_26.pdf",
+      "originalUrl": "https://www.nbs.rshttps/www.nbs.rs/export/sites/NBS_site/documents-eng/publikacije/dinarizacija/izvestaji/din_I_26.pdf",
       "publishedAt": "2026-07-24T10:58:48.000Z",
       "category": "Currency",
       "currencies": [
@@ -933,18 +1048,21 @@
           "sourceId": "nbs-monetary-policy",
           "name": "National Bank of Serbia",
           "originalTitle": "Report on Dinarisation of the Serbian Financial System – First Quarter 2026",
-          "originalUrl": "https://www.nbs.rshttps//www.nbs.rs/export/sites/NBS_site/documents-eng/publikacije/dinarizacija/izvestaji/din_I_26.pdf",
+          "originalUrl": "https://www.nbs.rshttps/www.nbs.rs/export/sites/NBS_site/documents-eng/publikacije/dinarizacija/izvestaji/din_I_26.pdf",
           "publishedAt": "2026-07-24T10:58:48.000Z",
           "externalId": "https://www.nbs.rshttps//www.nbs.rs/export/sites/NBS_site/documents-eng/publikacije/dinarizacija/izvestaji/din_I_26.pdf",
           "metadata": {
-            "feedUrl": "https://nbs.rs/system/modules/yu.nbs.news/elements/responsive/RSSnews.xml?kategorija=19&konverzija=no&lang=en"
+            "feedUrl": "https://nbs.rs/system/modules/yu.nbs.news/elements/responsive/RSSnews.xml?kategorija=19&konverzija=no&lang=en",
+            "role": "primary"
           }
         }
       ],
       "duplicateIds": [],
       "duplicates": [],
       "firstSeenAt": "2026-09-29T09:48:31.498Z",
-      "lastSeenAt": "2026-09-29T10:13:37.582Z"
+      "lastSeenAt": "2026-09-29T15:32:09.666Z",
+      "description": "",
+      "editorialTypes": []
     },
     {
       "id": "553fe189b7ec26f578cc5615",
@@ -967,14 +1085,17 @@
           "publishedAt": "2026-07-14T18:00:00.000Z",
           "externalId": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260714a.htm",
           "metadata": {
-            "feedUrl": "https://www.federalreserve.gov/feeds/press_monetary.xml"
+            "feedUrl": "https://www.federalreserve.gov/feeds/press_monetary.xml",
+            "role": "primary"
           }
         }
       ],
       "duplicateIds": [],
       "duplicates": [],
       "firstSeenAt": "2026-09-29T09:48:31.498Z",
-      "lastSeenAt": "2026-09-29T09:48:31.498Z"
+      "lastSeenAt": "2026-09-29T15:32:09.666Z",
+      "description": "Minutes of the Board's discount rate meetings on June 8 and June 17, 2026",
+      "editorialTypes": []
     },
     {
       "id": "0983edfe4ef7cb6bf5395291",
@@ -997,14 +1118,20 @@
           "publishedAt": "2026-07-14T14:24:24.000Z",
           "externalId": "https://www.nbs.rs/en/scripts/showcontent/index.html?id=21595&konverzija=no",
           "metadata": {
-            "feedUrl": "https://nbs.rs/system/modules/yu.nbs.news/elements/responsive/RSSnews.xml?kategorija=19&konverzija=no&lang=en"
+            "feedUrl": "https://nbs.rs/system/modules/yu.nbs.news/elements/responsive/RSSnews.xml?kategorija=19&konverzija=no&lang=en",
+            "role": "primary"
           }
         }
       ],
       "duplicateIds": [],
       "duplicates": [],
       "firstSeenAt": "2026-09-29T09:48:31.498Z",
-      "lastSeenAt": "2026-09-29T10:13:37.582Z"
+      "lastSeenAt": "2026-09-29T15:32:09.666Z",
+      "description": "",
+      "editorialTypes": [
+        "survey",
+        "expectations"
+      ]
     },
     {
       "id": "9e23a69ad811c52aa4499e72",
@@ -1027,14 +1154,17 @@
           "publishedAt": "2026-07-13T15:12:48.000Z",
           "externalId": "https://www.nbs.rs/en/scripts/showcontent/index.html?id=21590&konverzija=no",
           "metadata": {
-            "feedUrl": "https://nbs.rs/system/modules/yu.nbs.news/elements/responsive/RSSnews.xml?kategorija=19&konverzija=no&lang=en"
+            "feedUrl": "https://nbs.rs/system/modules/yu.nbs.news/elements/responsive/RSSnews.xml?kategorija=19&konverzija=no&lang=en",
+            "role": "primary"
           }
         }
       ],
       "duplicateIds": [],
       "duplicates": [],
       "firstSeenAt": "2026-09-29T09:48:31.498Z",
-      "lastSeenAt": "2026-09-29T10:13:37.582Z"
+      "lastSeenAt": "2026-09-29T15:32:09.666Z",
+      "description": "",
+      "editorialTypes": []
     },
     {
       "id": "0e6c735bd63e88f1f20e6bde",
@@ -1057,14 +1187,17 @@
           "publishedAt": "2026-07-09T19:00:00.000Z",
           "externalId": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260709a.htm",
           "metadata": {
-            "feedUrl": "https://www.federalreserve.gov/feeds/press_monetary.xml"
+            "feedUrl": "https://www.federalreserve.gov/feeds/press_monetary.xml",
+            "role": "primary"
           }
         }
       ],
       "duplicateIds": [],
       "duplicates": [],
       "firstSeenAt": "2026-09-29T09:48:31.498Z",
-      "lastSeenAt": "2026-09-29T09:48:31.498Z"
+      "lastSeenAt": "2026-09-29T15:32:09.666Z",
+      "description": "Federal Reserve announces the leadership and objectives of its task forces to advance the conduct of monetary policy",
+      "editorialTypes": []
     },
     {
       "id": "161240b1483a0b7b7f228443",
@@ -1087,7 +1220,8 @@
           "publishedAt": "2026-07-09T12:37:32.000Z",
           "externalId": "https://www.nbs.rs/en/scripts/showcontent/index.html?id=21582&konverzija=no",
           "metadata": {
-            "feedUrl": "https://nbs.rs/system/modules/yu.nbs.news/elements/responsive/RSSnews.xml?kategorija=191&konverzija=no&lang=en"
+            "feedUrl": "https://nbs.rs/system/modules/yu.nbs.news/elements/responsive/RSSnews.xml?kategorija=191&konverzija=no&lang=en",
+            "role": "primary"
           }
         }
       ],
@@ -1108,14 +1242,17 @@
               "publishedAt": "2026-07-09T12:37:32.000Z",
               "externalId": "https://www.nbs.rs/en/scripts/showcontent/index.html?id=21582&konverzija=no",
               "metadata": {
-                "feedUrl": "https://nbs.rs/system/modules/yu.nbs.news/elements/responsive/RSSnews.xml?kategorija=19&konverzija=no&lang=en"
+                "feedUrl": "https://nbs.rs/system/modules/yu.nbs.news/elements/responsive/RSSnews.xml?kategorija=19&konverzija=no&lang=en",
+                "role": "primary"
               }
             }
           ]
         }
       ],
       "firstSeenAt": "2026-09-29T09:48:31.498Z",
-      "lastSeenAt": "2026-09-29T10:13:37.582Z"
+      "lastSeenAt": "2026-09-29T15:32:09.666Z",
+      "description": "",
+      "editorialTypes": []
     },
     {
       "id": "ceefcc81c95132f72e7df592",
@@ -1138,14 +1275,17 @@
           "publishedAt": "2026-07-08T18:00:00.000Z",
           "externalId": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260708a.htm",
           "metadata": {
-            "feedUrl": "https://www.federalreserve.gov/feeds/press_monetary.xml"
+            "feedUrl": "https://www.federalreserve.gov/feeds/press_monetary.xml",
+            "role": "primary"
           }
         }
       ],
       "duplicateIds": [],
       "duplicates": [],
       "firstSeenAt": "2026-09-29T09:48:31.498Z",
-      "lastSeenAt": "2026-09-29T09:48:31.498Z"
+      "lastSeenAt": "2026-09-29T15:32:09.666Z",
+      "description": "Minutes of the Federal Open Market Committee, June 16-17, 2026",
+      "editorialTypes": []
     },
     {
       "id": "4d8a7b1563b1f82ad0ba119c",
@@ -1168,21 +1308,24 @@
           "publishedAt": "2026-06-17T18:00:00.000Z",
           "externalId": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260617a.htm",
           "metadata": {
-            "feedUrl": "https://www.federalreserve.gov/feeds/press_monetary.xml"
+            "feedUrl": "https://www.federalreserve.gov/feeds/press_monetary.xml",
+            "role": "primary"
           }
         }
       ],
       "duplicateIds": [],
       "duplicates": [],
       "firstSeenAt": "2026-09-29T09:48:31.498Z",
-      "lastSeenAt": "2026-09-29T09:48:31.498Z"
+      "lastSeenAt": "2026-09-29T15:32:09.666Z",
+      "description": "Federal Reserve issues FOMC statement",
+      "editorialTypes": []
     },
     {
       "id": "cbbd29d9b3698b15fa36760f",
       "originalTitle": "Federal Reserve Board and Federal Open Market Committee release economic projections from the June 16-17 FOMC meeting",
       "originalUrl": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260617b.htm",
       "publishedAt": "2026-06-17T18:00:00.000Z",
-      "category": "Central Banks",
+      "category": "Economy",
       "currencies": [
         "USD"
       ],
@@ -1198,6 +1341,19 @@
           "publishedAt": "2026-06-17T18:00:00.000Z",
           "externalId": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260617b.htm",
           "metadata": {
+            "feedUrl": "https://www.federalreserve.gov/feeds/press_monetary.xml",
+            "role": "announcement"
+          }
+        },
+        {
+          "sourceId": "federal-reserve",
+          "name": "Board of Governors of the Federal Reserve System",
+          "originalTitle": "FOMC economic projections tables and accessible materials",
+          "originalUrl": "https://www.federalreserve.gov/monetarypolicy/fomcprojtabl20260617.htm",
+          "publishedAt": "2026-06-17T18:00:00.000Z",
+          "externalId": "fomcprojtabl20260617",
+          "metadata": {
+            "role": "data",
             "feedUrl": "https://www.federalreserve.gov/feeds/press_monetary.xml"
           }
         }
@@ -1205,7 +1361,11 @@
       "duplicateIds": [],
       "duplicates": [],
       "firstSeenAt": "2026-09-29T09:48:31.498Z",
-      "lastSeenAt": "2026-09-29T09:48:31.498Z"
+      "lastSeenAt": "2026-09-29T15:32:09.666Z",
+      "description": "Federal Reserve Board and Federal Open Market Committee release economic projections from the June 16-17 FOMC meeting",
+      "editorialTypes": [
+        "projections"
+      ]
     },
     {
       "id": "8f9b53fd0db2af6831b7fd5e",
@@ -1228,14 +1388,20 @@
           "publishedAt": "2026-06-17T09:18:26.000Z",
           "externalId": "https://www.nbs.rs/en/scripts/showcontent/index.html?id=21531&konverzija=no",
           "metadata": {
-            "feedUrl": "https://nbs.rs/system/modules/yu.nbs.news/elements/responsive/RSSnews.xml?kategorija=19&konverzija=no&lang=en"
+            "feedUrl": "https://nbs.rs/system/modules/yu.nbs.news/elements/responsive/RSSnews.xml?kategorija=19&konverzija=no&lang=en",
+            "role": "primary"
           }
         }
       ],
       "duplicateIds": [],
       "duplicates": [],
       "firstSeenAt": "2026-09-29T09:48:31.498Z",
-      "lastSeenAt": "2026-09-29T10:13:37.582Z"
+      "lastSeenAt": "2026-09-29T15:32:09.666Z",
+      "description": "",
+      "editorialTypes": [
+        "survey",
+        "expectations"
+      ]
     },
     {
       "id": "800e52bcedefc213c3898e9e",
@@ -1258,14 +1424,17 @@
           "publishedAt": "2026-06-12T13:28:00.000Z",
           "externalId": "https://www.nbs.rs/en/scripts/showcontent/index.html?id=21523&konverzija=no",
           "metadata": {
-            "feedUrl": "https://nbs.rs/system/modules/yu.nbs.news/elements/responsive/RSSnews.xml?kategorija=19&konverzija=no&lang=en"
+            "feedUrl": "https://nbs.rs/system/modules/yu.nbs.news/elements/responsive/RSSnews.xml?kategorija=19&konverzija=no&lang=en",
+            "role": "primary"
           }
         }
       ],
       "duplicateIds": [],
       "duplicates": [],
       "firstSeenAt": "2026-09-29T09:48:31.498Z",
-      "lastSeenAt": "2026-09-29T10:13:37.582Z"
+      "lastSeenAt": "2026-09-29T15:32:09.666Z",
+      "description": "",
+      "editorialTypes": []
     },
     {
       "id": "4b94a629eb6b361b1b75a2ad",
@@ -1288,7 +1457,8 @@
           "publishedAt": "2026-06-11T12:25:17.000Z",
           "externalId": "https://www.nbs.rs/en/scripts/showcontent/index.html?id=21513&konverzija=no",
           "metadata": {
-            "feedUrl": "https://nbs.rs/system/modules/yu.nbs.news/elements/responsive/RSSnews.xml?kategorija=191&konverzija=no&lang=en"
+            "feedUrl": "https://nbs.rs/system/modules/yu.nbs.news/elements/responsive/RSSnews.xml?kategorija=191&konverzija=no&lang=en",
+            "role": "primary"
           }
         }
       ],
@@ -1309,14 +1479,17 @@
               "publishedAt": "2026-06-11T12:25:17.000Z",
               "externalId": "https://www.nbs.rs/en/scripts/showcontent/index.html?id=21513&konverzija=no",
               "metadata": {
-                "feedUrl": "https://nbs.rs/system/modules/yu.nbs.news/elements/responsive/RSSnews.xml?kategorija=19&konverzija=no&lang=en"
+                "feedUrl": "https://nbs.rs/system/modules/yu.nbs.news/elements/responsive/RSSnews.xml?kategorija=19&konverzija=no&lang=en",
+                "role": "primary"
               }
             }
           ]
         }
       ],
       "firstSeenAt": "2026-09-29T09:48:31.498Z",
-      "lastSeenAt": "2026-09-29T10:13:37.582Z"
+      "lastSeenAt": "2026-09-29T15:32:09.666Z",
+      "description": "",
+      "editorialTypes": []
     },
     {
       "id": "712cd7ecb7b5173b31a773bb",
@@ -1339,14 +1512,17 @@
           "publishedAt": "2026-05-26T18:00:00.000Z",
           "externalId": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260526a.htm",
           "metadata": {
-            "feedUrl": "https://www.federalreserve.gov/feeds/press_monetary.xml"
+            "feedUrl": "https://www.federalreserve.gov/feeds/press_monetary.xml",
+            "role": "primary"
           }
         }
       ],
       "duplicateIds": [],
       "duplicates": [],
       "firstSeenAt": "2026-09-29T09:48:31.498Z",
-      "lastSeenAt": "2026-09-29T09:48:31.498Z"
+      "lastSeenAt": "2026-09-29T15:32:09.666Z",
+      "description": "Minutes of the Board's discount rate meeting on April 20 and 29, 2026",
+      "editorialTypes": []
     },
     {
       "id": "ddacfe33267f53eb83abe6c4",
@@ -1369,14 +1545,17 @@
           "publishedAt": "2026-05-20T18:00:00.000Z",
           "externalId": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260520a.htm",
           "metadata": {
-            "feedUrl": "https://www.federalreserve.gov/feeds/press_monetary.xml"
+            "feedUrl": "https://www.federalreserve.gov/feeds/press_monetary.xml",
+            "role": "primary"
           }
         }
       ],
       "duplicateIds": [],
       "duplicates": [],
       "firstSeenAt": "2026-09-29T09:48:31.498Z",
-      "lastSeenAt": "2026-09-29T09:48:31.498Z"
+      "lastSeenAt": "2026-09-29T15:32:09.666Z",
+      "description": "Minutes of the Federal Open Market Committee, April 28-29, 2026",
+      "editorialTypes": []
     },
     {
       "id": "5279e5755ded78fb5290044f",
@@ -1399,14 +1578,17 @@
           "publishedAt": "2026-05-20T10:07:20.000Z",
           "externalId": "https://www.nbs.rs/en/scripts/showcontent/index.html?id=21472&konverzija=no",
           "metadata": {
-            "feedUrl": "https://nbs.rs/system/modules/yu.nbs.news/elements/responsive/RSSnews.xml?kategorija=19&konverzija=no&lang=en"
+            "feedUrl": "https://nbs.rs/system/modules/yu.nbs.news/elements/responsive/RSSnews.xml?kategorija=19&konverzija=no&lang=en",
+            "role": "primary"
           }
         }
       ],
       "duplicateIds": [],
       "duplicates": [],
       "firstSeenAt": "2026-09-29T09:48:31.498Z",
-      "lastSeenAt": "2026-09-29T10:13:37.582Z"
+      "lastSeenAt": "2026-09-29T15:32:09.666Z",
+      "description": "",
+      "editorialTypes": []
     },
     {
       "id": "18536a76a227b7802fe1de2b",
@@ -1429,19 +1611,25 @@
           "publishedAt": "2026-05-15T15:17:50.000Z",
           "externalId": "https://www.nbs.rs/en/scripts/showcontent/index.html?id=21461&konverzija=no",
           "metadata": {
-            "feedUrl": "https://nbs.rs/system/modules/yu.nbs.news/elements/responsive/RSSnews.xml?kategorija=19&konverzija=no&lang=en"
+            "feedUrl": "https://nbs.rs/system/modules/yu.nbs.news/elements/responsive/RSSnews.xml?kategorija=19&konverzija=no&lang=en",
+            "role": "primary"
           }
         }
       ],
       "duplicateIds": [],
       "duplicates": [],
       "firstSeenAt": "2026-09-29T09:48:31.498Z",
-      "lastSeenAt": "2026-09-29T10:13:37.582Z"
+      "lastSeenAt": "2026-09-29T15:32:09.666Z",
+      "description": "",
+      "editorialTypes": [
+        "survey",
+        "expectations"
+      ]
     },
     {
       "id": "f07cd2d56556cbadf29c2736",
       "originalTitle": "Introductory speech by Governor Jorgovanka Tabaković at the presentation of the Inflation Report – May 2026",
-      "originalUrl": "https://www.nbs.rshttps//www.nbs.rs/export/sites/NBS_site/documents-eng/publikacije/ioi/prezentacije/govor_ioi_05_2026_JT_e.pdf",
+      "originalUrl": "https://www.nbs.rshttps/www.nbs.rs/export/sites/NBS_site/documents-eng/publikacije/ioi/prezentacije/govor_ioi_05_2026_JT_e.pdf",
       "publishedAt": "2026-05-13T11:15:34.000Z",
       "category": "Inflation",
       "currencies": [
@@ -1455,23 +1643,26 @@
           "sourceId": "nbs-monetary-policy",
           "name": "National Bank of Serbia",
           "originalTitle": "Introductory speech by Governor Jorgovanka Tabaković at the presentation of the Inflation Report – May 2026",
-          "originalUrl": "https://www.nbs.rshttps//www.nbs.rs/export/sites/NBS_site/documents-eng/publikacije/ioi/prezentacije/govor_ioi_05_2026_JT_e.pdf",
+          "originalUrl": "https://www.nbs.rshttps/www.nbs.rs/export/sites/NBS_site/documents-eng/publikacije/ioi/prezentacije/govor_ioi_05_2026_JT_e.pdf",
           "publishedAt": "2026-05-13T11:15:34.000Z",
           "externalId": "https://www.nbs.rshttps//www.nbs.rs/export/sites/NBS_site/documents-eng/publikacije/ioi/prezentacije/govor_ioi_05_2026_JT_e.pdf",
           "metadata": {
-            "feedUrl": "https://nbs.rs/system/modules/yu.nbs.news/elements/responsive/RSSnews.xml?kategorija=19&konverzija=no&lang=en"
+            "feedUrl": "https://nbs.rs/system/modules/yu.nbs.news/elements/responsive/RSSnews.xml?kategorija=19&konverzija=no&lang=en",
+            "role": "primary"
           }
         }
       ],
       "duplicateIds": [],
       "duplicates": [],
       "firstSeenAt": "2026-09-29T09:48:31.498Z",
-      "lastSeenAt": "2026-09-29T10:13:37.582Z"
+      "lastSeenAt": "2026-09-29T15:32:09.666Z",
+      "description": "",
+      "editorialTypes": []
     },
     {
       "id": "4dae82a4f2dc24d1428e66fb",
       "originalTitle": "Inflation Report – May 2026",
-      "originalUrl": "https://www.nbs.rshttps//www.nbs.rs/export/sites/NBS_site/documents-eng/publikacije/ioi/izvestaji/inflation_report_05_2026.pdf",
+      "originalUrl": "https://www.nbs.rshttps/www.nbs.rs/export/sites/NBS_site/documents-eng/publikacije/ioi/izvestaji/inflation_report_05_2026.pdf",
       "publishedAt": "2026-05-13T11:14:04.000Z",
       "category": "Inflation",
       "currencies": [
@@ -1485,18 +1676,21 @@
           "sourceId": "nbs-monetary-policy",
           "name": "National Bank of Serbia",
           "originalTitle": "Inflation Report – May 2026",
-          "originalUrl": "https://www.nbs.rshttps//www.nbs.rs/export/sites/NBS_site/documents-eng/publikacije/ioi/izvestaji/inflation_report_05_2026.pdf",
+          "originalUrl": "https://www.nbs.rshttps/www.nbs.rs/export/sites/NBS_site/documents-eng/publikacije/ioi/izvestaji/inflation_report_05_2026.pdf",
           "publishedAt": "2026-05-13T11:14:04.000Z",
           "externalId": "https://www.nbs.rshttps//www.nbs.rs/export/sites/NBS_site/documents-eng/publikacije/ioi/izvestaji/inflation_report_05_2026.pdf",
           "metadata": {
-            "feedUrl": "https://nbs.rs/system/modules/yu.nbs.news/elements/responsive/RSSnews.xml?kategorija=19&konverzija=no&lang=en"
+            "feedUrl": "https://nbs.rs/system/modules/yu.nbs.news/elements/responsive/RSSnews.xml?kategorija=19&konverzija=no&lang=en",
+            "role": "primary"
           }
         }
       ],
       "duplicateIds": [],
       "duplicates": [],
       "firstSeenAt": "2026-09-29T09:48:31.498Z",
-      "lastSeenAt": "2026-09-29T10:13:37.582Z"
+      "lastSeenAt": "2026-09-29T15:32:09.666Z",
+      "description": "",
+      "editorialTypes": []
     },
     {
       "id": "da75d1d40602b4a6f632e421",
@@ -1519,14 +1713,17 @@
           "publishedAt": "2026-05-12T15:45:52.000Z",
           "externalId": "https://www.nbs.rs/en/scripts/showcontent/index.html?id=21450&konverzija=no",
           "metadata": {
-            "feedUrl": "https://nbs.rs/system/modules/yu.nbs.news/elements/responsive/RSSnews.xml?kategorija=19&konverzija=no&lang=en"
+            "feedUrl": "https://nbs.rs/system/modules/yu.nbs.news/elements/responsive/RSSnews.xml?kategorija=19&konverzija=no&lang=en",
+            "role": "primary"
           }
         }
       ],
       "duplicateIds": [],
       "duplicates": [],
       "firstSeenAt": "2026-09-29T09:48:31.498Z",
-      "lastSeenAt": "2026-09-29T10:13:37.582Z"
+      "lastSeenAt": "2026-09-29T15:32:09.666Z",
+      "description": "",
+      "editorialTypes": []
     },
     {
       "id": "992090355767e6c7257aa6c2",
@@ -1549,7 +1746,8 @@
           "publishedAt": "2026-05-07T12:12:23.000Z",
           "externalId": "https://www.nbs.rs/en/scripts/showcontent/index.html?id=21438&konverzija=no",
           "metadata": {
-            "feedUrl": "https://nbs.rs/system/modules/yu.nbs.news/elements/responsive/RSSnews.xml?kategorija=191&konverzija=no&lang=en"
+            "feedUrl": "https://nbs.rs/system/modules/yu.nbs.news/elements/responsive/RSSnews.xml?kategorija=191&konverzija=no&lang=en",
+            "role": "primary"
           }
         }
       ],
@@ -1570,14 +1768,17 @@
               "publishedAt": "2026-05-07T12:12:23.000Z",
               "externalId": "https://www.nbs.rs/en/scripts/showcontent/index.html?id=21438&konverzija=no",
               "metadata": {
-                "feedUrl": "https://nbs.rs/system/modules/yu.nbs.news/elements/responsive/RSSnews.xml?kategorija=19&konverzija=no&lang=en"
+                "feedUrl": "https://nbs.rs/system/modules/yu.nbs.news/elements/responsive/RSSnews.xml?kategorija=19&konverzija=no&lang=en",
+                "role": "primary"
               }
             }
           ]
         }
       ],
       "firstSeenAt": "2026-09-29T09:48:31.498Z",
-      "lastSeenAt": "2026-09-29T10:13:37.582Z"
+      "lastSeenAt": "2026-09-29T15:32:09.666Z",
+      "description": "",
+      "editorialTypes": []
     },
     {
       "id": "7580aefff0aa7376284a03f6",
@@ -1600,14 +1801,17 @@
           "publishedAt": "2026-04-29T18:00:00.000Z",
           "externalId": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260429a.htm",
           "metadata": {
-            "feedUrl": "https://www.federalreserve.gov/feeds/press_monetary.xml"
+            "feedUrl": "https://www.federalreserve.gov/feeds/press_monetary.xml",
+            "role": "primary"
           }
         }
       ],
       "duplicateIds": [],
       "duplicates": [],
       "firstSeenAt": "2026-09-29T09:48:31.498Z",
-      "lastSeenAt": "2026-09-29T09:48:31.498Z"
+      "lastSeenAt": "2026-09-29T15:32:09.666Z",
+      "description": "Federal Reserve issues FOMC statement",
+      "editorialTypes": []
     },
     {
       "id": "592febe13f32f6a375ea0975",
@@ -1630,14 +1834,20 @@
           "publishedAt": "2026-04-20T15:17:19.000Z",
           "externalId": "https://www.nbs.rs/en/scripts/showcontent/index.html?id=21394&konverzija=no",
           "metadata": {
-            "feedUrl": "https://nbs.rs/system/modules/yu.nbs.news/elements/responsive/RSSnews.xml?kategorija=19&konverzija=no&lang=en"
+            "feedUrl": "https://nbs.rs/system/modules/yu.nbs.news/elements/responsive/RSSnews.xml?kategorija=19&konverzija=no&lang=en",
+            "role": "primary"
           }
         }
       ],
       "duplicateIds": [],
       "duplicates": [],
       "firstSeenAt": "2026-09-29T09:48:31.498Z",
-      "lastSeenAt": "2026-09-29T10:13:37.582Z"
+      "lastSeenAt": "2026-09-29T15:32:09.666Z",
+      "description": "",
+      "editorialTypes": [
+        "survey",
+        "expectations"
+      ]
     },
     {
       "id": "997576e3087e5bfa4521b7a3",
@@ -1660,14 +1870,17 @@
           "publishedAt": "2026-04-15T09:40:44.000Z",
           "externalId": "https://www.nbs.rs/en/scripts/showcontent/index.html?id=21370&konverzija=no",
           "metadata": {
-            "feedUrl": "https://nbs.rs/system/modules/yu.nbs.news/elements/responsive/RSSnews.xml?kategorija=19&konverzija=no&lang=en"
+            "feedUrl": "https://nbs.rs/system/modules/yu.nbs.news/elements/responsive/RSSnews.xml?kategorija=19&konverzija=no&lang=en",
+            "role": "primary"
           }
         }
       ],
       "duplicateIds": [],
       "duplicates": [],
       "firstSeenAt": "2026-09-29T09:48:31.498Z",
-      "lastSeenAt": "2026-09-29T10:13:37.582Z"
+      "lastSeenAt": "2026-09-29T15:32:09.666Z",
+      "description": "",
+      "editorialTypes": []
     },
     {
       "id": "66bded31398460ce4ca71bac",
@@ -1690,14 +1903,17 @@
           "publishedAt": "2026-04-14T18:00:00.000Z",
           "externalId": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260414a.htm",
           "metadata": {
-            "feedUrl": "https://www.federalreserve.gov/feeds/press_monetary.xml"
+            "feedUrl": "https://www.federalreserve.gov/feeds/press_monetary.xml",
+            "role": "primary"
           }
         }
       ],
       "duplicateIds": [],
       "duplicates": [],
       "firstSeenAt": "2026-09-29T09:48:31.498Z",
-      "lastSeenAt": "2026-09-29T09:48:31.498Z"
+      "lastSeenAt": "2026-09-29T15:32:09.666Z",
+      "description": "Minutes of the Board’s discount rate meetings on February 9 and March 18, 2026",
+      "editorialTypes": []
     },
     {
       "id": "1dd89e48fdfacacd424c42f8",
@@ -1720,7 +1936,8 @@
           "publishedAt": "2026-04-09T12:22:40.000Z",
           "externalId": "https://www.nbs.rs/en/scripts/showcontent/index.html?id=21364&konverzija=no",
           "metadata": {
-            "feedUrl": "https://nbs.rs/system/modules/yu.nbs.news/elements/responsive/RSSnews.xml?kategorija=191&konverzija=no&lang=en"
+            "feedUrl": "https://nbs.rs/system/modules/yu.nbs.news/elements/responsive/RSSnews.xml?kategorija=191&konverzija=no&lang=en",
+            "role": "primary"
           }
         }
       ],
@@ -1741,14 +1958,17 @@
               "publishedAt": "2026-04-09T12:22:40.000Z",
               "externalId": "https://www.nbs.rs/en/scripts/showcontent/index.html?id=21364&konverzija=no",
               "metadata": {
-                "feedUrl": "https://nbs.rs/system/modules/yu.nbs.news/elements/responsive/RSSnews.xml?kategorija=19&konverzija=no&lang=en"
+                "feedUrl": "https://nbs.rs/system/modules/yu.nbs.news/elements/responsive/RSSnews.xml?kategorija=19&konverzija=no&lang=en",
+                "role": "primary"
               }
             }
           ]
         }
       ],
       "firstSeenAt": "2026-09-29T09:48:31.498Z",
-      "lastSeenAt": "2026-09-29T10:13:37.582Z"
+      "lastSeenAt": "2026-09-29T15:32:09.666Z",
+      "description": "",
+      "editorialTypes": []
     },
     {
       "id": "035e4699061fbeab7c56256b",
@@ -1771,14 +1991,17 @@
           "publishedAt": "2026-04-08T18:00:00.000Z",
           "externalId": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260408a.htm",
           "metadata": {
-            "feedUrl": "https://www.federalreserve.gov/feeds/press_monetary.xml"
+            "feedUrl": "https://www.federalreserve.gov/feeds/press_monetary.xml",
+            "role": "primary"
           }
         }
       ],
       "duplicateIds": [],
       "duplicates": [],
       "firstSeenAt": "2026-09-29T09:48:31.498Z",
-      "lastSeenAt": "2026-09-29T09:48:31.498Z"
+      "lastSeenAt": "2026-09-29T15:32:09.666Z",
+      "description": "Minutes of the Federal Open Market Committee, March 17–18, 2026",
+      "editorialTypes": []
     },
     {
       "id": "d59e3b9470813b5d0c6e1aee",
@@ -1801,14 +2024,20 @@
           "publishedAt": "2026-03-18T15:38:52.000Z",
           "externalId": "https://www.nbs.rs/en/scripts/showcontent/index.html?id=21323&konverzija=no",
           "metadata": {
-            "feedUrl": "https://nbs.rs/system/modules/yu.nbs.news/elements/responsive/RSSnews.xml?kategorija=19&konverzija=no&lang=en"
+            "feedUrl": "https://nbs.rs/system/modules/yu.nbs.news/elements/responsive/RSSnews.xml?kategorija=19&konverzija=no&lang=en",
+            "role": "primary"
           }
         }
       ],
       "duplicateIds": [],
       "duplicates": [],
       "firstSeenAt": "2026-09-29T09:48:31.498Z",
-      "lastSeenAt": "2026-09-29T10:13:37.582Z"
+      "lastSeenAt": "2026-09-29T15:32:09.666Z",
+      "description": "",
+      "editorialTypes": [
+        "survey",
+        "expectations"
+      ]
     },
     {
       "id": "409d2a1172b2aa7c742a04c1",
@@ -1831,14 +2060,17 @@
           "publishedAt": "2026-03-12T18:19:26.000Z",
           "externalId": "https://www.nbs.rs/en/scripts/showcontent/index.html?id=21307&konverzija=no",
           "metadata": {
-            "feedUrl": "https://nbs.rs/system/modules/yu.nbs.news/elements/responsive/RSSnews.xml?kategorija=19&konverzija=no&lang=en"
+            "feedUrl": "https://nbs.rs/system/modules/yu.nbs.news/elements/responsive/RSSnews.xml?kategorija=19&konverzija=no&lang=en",
+            "role": "primary"
           }
         }
       ],
       "duplicateIds": [],
       "duplicates": [],
       "firstSeenAt": "2026-09-29T09:48:31.498Z",
-      "lastSeenAt": "2026-09-29T10:13:37.582Z"
+      "lastSeenAt": "2026-09-29T15:32:09.666Z",
+      "description": "",
+      "editorialTypes": []
     },
     {
       "id": "960aa649ed4647ec64180bd6",
@@ -1861,7 +2093,8 @@
           "publishedAt": "2026-03-12T18:08:00.000Z",
           "externalId": "https://www.nbs.rs/en/scripts/showcontent/index.html?id=21303&konverzija=no",
           "metadata": {
-            "feedUrl": "https://nbs.rs/system/modules/yu.nbs.news/elements/responsive/RSSnews.xml?kategorija=191&konverzija=no&lang=en"
+            "feedUrl": "https://nbs.rs/system/modules/yu.nbs.news/elements/responsive/RSSnews.xml?kategorija=191&konverzija=no&lang=en",
+            "role": "primary"
           }
         }
       ],
@@ -1882,14 +2115,17 @@
               "publishedAt": "2026-03-12T18:08:00.000Z",
               "externalId": "https://www.nbs.rs/en/scripts/showcontent/index.html?id=21303&konverzija=no",
               "metadata": {
-                "feedUrl": "https://nbs.rs/system/modules/yu.nbs.news/elements/responsive/RSSnews.xml?kategorija=19&konverzija=no&lang=en"
+                "feedUrl": "https://nbs.rs/system/modules/yu.nbs.news/elements/responsive/RSSnews.xml?kategorija=19&konverzija=no&lang=en",
+                "role": "primary"
               }
             }
           ]
         }
       ],
       "firstSeenAt": "2026-09-29T09:48:31.498Z",
-      "lastSeenAt": "2026-09-29T10:13:37.582Z"
+      "lastSeenAt": "2026-09-29T15:32:09.666Z",
+      "description": "",
+      "editorialTypes": []
     },
     {
       "id": "a44559347c4bbf8e15b3cc51",
@@ -1912,14 +2148,17 @@
           "publishedAt": "2026-02-20T11:14:40.000Z",
           "externalId": "https://www.nbs.rs/en/scripts/showcontent/index.html?id=21244&konverzija=no",
           "metadata": {
-            "feedUrl": "https://nbs.rs/system/modules/yu.nbs.news/elements/responsive/RSSnews.xml?kategorija=19&konverzija=no&lang=en"
+            "feedUrl": "https://nbs.rs/system/modules/yu.nbs.news/elements/responsive/RSSnews.xml?kategorija=19&konverzija=no&lang=en",
+            "role": "primary"
           }
         }
       ],
       "duplicateIds": [],
       "duplicates": [],
       "firstSeenAt": "2026-09-29T09:48:31.498Z",
-      "lastSeenAt": "2026-09-29T10:13:37.582Z"
+      "lastSeenAt": "2026-09-29T15:32:09.666Z",
+      "description": "",
+      "editorialTypes": []
     },
     {
       "id": "1666b6a48b30414403c84e36",
@@ -1942,14 +2181,20 @@
           "publishedAt": "2026-02-19T13:04:35.000Z",
           "externalId": "https://www.nbs.rs/en/scripts/showcontent/index.html?id=21239&konverzija=no",
           "metadata": {
-            "feedUrl": "https://nbs.rs/system/modules/yu.nbs.news/elements/responsive/RSSnews.xml?kategorija=19&konverzija=no&lang=en"
+            "feedUrl": "https://nbs.rs/system/modules/yu.nbs.news/elements/responsive/RSSnews.xml?kategorija=19&konverzija=no&lang=en",
+            "role": "primary"
           }
         }
       ],
       "duplicateIds": [],
       "duplicates": [],
       "firstSeenAt": "2026-09-29T09:48:31.498Z",
-      "lastSeenAt": "2026-09-29T10:13:37.582Z"
+      "lastSeenAt": "2026-09-29T15:32:09.666Z",
+      "description": "",
+      "editorialTypes": [
+        "survey",
+        "expectations"
+      ]
     },
     {
       "id": "b2fc8c75b3333628a8807d49",
@@ -1972,14 +2217,17 @@
           "publishedAt": "2026-02-12T12:19:47.000Z",
           "externalId": "https://www.nbs.rs/en/scripts/showcontent/index.html?id=21226&konverzija=no",
           "metadata": {
-            "feedUrl": "https://nbs.rs/system/modules/yu.nbs.news/elements/responsive/RSSnews.xml?kategorija=191&konverzija=no&lang=en"
+            "feedUrl": "https://nbs.rs/system/modules/yu.nbs.news/elements/responsive/RSSnews.xml?kategorija=191&konverzija=no&lang=en",
+            "role": "primary"
           }
         }
       ],
       "duplicateIds": [],
       "duplicates": [],
       "firstSeenAt": "2026-09-29T09:48:31.498Z",
-      "lastSeenAt": "2026-09-29T10:13:37.582Z"
+      "lastSeenAt": "2026-09-29T15:32:09.666Z",
+      "description": "",
+      "editorialTypes": []
     },
     {
       "id": "4e8d8b57f1a6d8d800ec4a17",
@@ -2002,14 +2250,17 @@
           "publishedAt": "2026-01-12T12:41:48.000Z",
           "externalId": "https://www.nbs.rs/en/scripts/showcontent/index.html?id=21163&konverzija=no",
           "metadata": {
-            "feedUrl": "https://nbs.rs/system/modules/yu.nbs.news/elements/responsive/RSSnews.xml?kategorija=191&konverzija=no&lang=en"
+            "feedUrl": "https://nbs.rs/system/modules/yu.nbs.news/elements/responsive/RSSnews.xml?kategorija=191&konverzija=no&lang=en",
+            "role": "primary"
           }
         }
       ],
       "duplicateIds": [],
       "duplicates": [],
       "firstSeenAt": "2026-09-29T09:48:31.498Z",
-      "lastSeenAt": "2026-09-29T10:13:37.582Z"
+      "lastSeenAt": "2026-09-29T15:32:09.666Z",
+      "description": "",
+      "editorialTypes": []
     },
     {
       "id": "606aaa0cfcc7737105ec1d32",
@@ -2032,14 +2283,17 @@
           "publishedAt": "2025-12-11T12:26:18.000Z",
           "externalId": "https://www.nbs.rs/en/scripts/showcontent/index.html?id=21084&konverzija=no",
           "metadata": {
-            "feedUrl": "https://nbs.rs/system/modules/yu.nbs.news/elements/responsive/RSSnews.xml?kategorija=191&konverzija=no&lang=en"
+            "feedUrl": "https://nbs.rs/system/modules/yu.nbs.news/elements/responsive/RSSnews.xml?kategorija=191&konverzija=no&lang=en",
+            "role": "primary"
           }
         }
       ],
       "duplicateIds": [],
       "duplicates": [],
       "firstSeenAt": "2026-09-29T09:48:31.498Z",
-      "lastSeenAt": "2026-09-29T10:13:37.582Z"
+      "lastSeenAt": "2026-09-29T15:32:09.666Z",
+      "description": "",
+      "editorialTypes": []
     },
     {
       "id": "1cd5b2310bc49428e29ba32e",
@@ -2062,14 +2316,17 @@
           "publishedAt": "2025-11-13T12:31:05.000Z",
           "externalId": "https://www.nbs.rs/en/scripts/showcontent/index.html?id=21017&konverzija=no",
           "metadata": {
-            "feedUrl": "https://nbs.rs/system/modules/yu.nbs.news/elements/responsive/RSSnews.xml?kategorija=191&konverzija=no&lang=en"
+            "feedUrl": "https://nbs.rs/system/modules/yu.nbs.news/elements/responsive/RSSnews.xml?kategorija=191&konverzija=no&lang=en",
+            "role": "primary"
           }
         }
       ],
       "duplicateIds": [],
       "duplicates": [],
       "firstSeenAt": "2026-09-29T09:48:31.498Z",
-      "lastSeenAt": "2026-09-29T10:13:37.582Z"
+      "lastSeenAt": "2026-09-29T15:32:09.666Z",
+      "description": "",
+      "editorialTypes": []
     },
     {
       "id": "699a9ff5cc98b29347d2f2b5",
@@ -2092,14 +2349,17 @@
           "publishedAt": "2025-10-09T12:14:49.000Z",
           "externalId": "https://www.nbs.rs/en/scripts/showcontent/index.html?id=20924&konverzija=no",
           "metadata": {
-            "feedUrl": "https://nbs.rs/system/modules/yu.nbs.news/elements/responsive/RSSnews.xml?kategorija=191&konverzija=no&lang=en"
+            "feedUrl": "https://nbs.rs/system/modules/yu.nbs.news/elements/responsive/RSSnews.xml?kategorija=191&konverzija=no&lang=en",
+            "role": "primary"
           }
         }
       ],
       "duplicateIds": [],
       "duplicates": [],
       "firstSeenAt": "2026-09-29T09:48:31.498Z",
-      "lastSeenAt": "2026-09-29T10:13:37.582Z"
+      "lastSeenAt": "2026-09-29T15:32:09.666Z",
+      "description": "",
+      "editorialTypes": []
     },
     {
       "id": "f0d70f7565c04e8b389e52a4",
@@ -2122,14 +2382,17 @@
           "publishedAt": "2025-09-11T12:14:12.000Z",
           "externalId": "https://www.nbs.rs/en/scripts/showcontent/index.html?id=20855&konverzija=no",
           "metadata": {
-            "feedUrl": "https://nbs.rs/system/modules/yu.nbs.news/elements/responsive/RSSnews.xml?kategorija=191&konverzija=no&lang=en"
+            "feedUrl": "https://nbs.rs/system/modules/yu.nbs.news/elements/responsive/RSSnews.xml?kategorija=191&konverzija=no&lang=en",
+            "role": "primary"
           }
         }
       ],
       "duplicateIds": [],
       "duplicates": [],
       "firstSeenAt": "2026-09-29T09:48:31.498Z",
-      "lastSeenAt": "2026-09-29T10:13:37.582Z"
+      "lastSeenAt": "2026-09-29T15:32:09.666Z",
+      "description": "",
+      "editorialTypes": []
     },
     {
       "id": "3515641ae5cc4e21f0878a94",
@@ -2152,14 +2415,17 @@
           "publishedAt": "2025-08-07T12:20:40.000Z",
           "externalId": "https://www.nbs.rs/en/scripts/showcontent/index.html?id=20778&konverzija=no",
           "metadata": {
-            "feedUrl": "https://nbs.rs/system/modules/yu.nbs.news/elements/responsive/RSSnews.xml?kategorija=191&konverzija=no&lang=en"
+            "feedUrl": "https://nbs.rs/system/modules/yu.nbs.news/elements/responsive/RSSnews.xml?kategorija=191&konverzija=no&lang=en",
+            "role": "primary"
           }
         }
       ],
       "duplicateIds": [],
       "duplicates": [],
       "firstSeenAt": "2026-09-29T09:48:31.498Z",
-      "lastSeenAt": "2026-09-29T10:13:37.582Z"
+      "lastSeenAt": "2026-09-29T15:32:09.666Z",
+      "description": "",
+      "editorialTypes": []
     },
     {
       "id": "a057fb8b30c76d6856791a2f",
@@ -2182,14 +2448,17 @@
           "publishedAt": "2025-07-10T12:26:21.000Z",
           "externalId": "https://www.nbs.rs/en/scripts/showcontent/index.html?id=20715&konverzija=no",
           "metadata": {
-            "feedUrl": "https://nbs.rs/system/modules/yu.nbs.news/elements/responsive/RSSnews.xml?kategorija=191&konverzija=no&lang=en"
+            "feedUrl": "https://nbs.rs/system/modules/yu.nbs.news/elements/responsive/RSSnews.xml?kategorija=191&konverzija=no&lang=en",
+            "role": "primary"
           }
         }
       ],
       "duplicateIds": [],
       "duplicates": [],
       "firstSeenAt": "2026-09-29T09:48:31.498Z",
-      "lastSeenAt": "2026-09-29T10:13:37.582Z"
+      "lastSeenAt": "2026-09-29T15:32:09.666Z",
+      "description": "",
+      "editorialTypes": []
     },
     {
       "id": "d0d8ef1e77870c23d6ad3f4a",
@@ -2212,14 +2481,17 @@
           "publishedAt": "2025-06-12T12:25:29.000Z",
           "externalId": "https://www.nbs.rs/en/scripts/showcontent/index.html?id=20644&konverzija=no",
           "metadata": {
-            "feedUrl": "https://nbs.rs/system/modules/yu.nbs.news/elements/responsive/RSSnews.xml?kategorija=191&konverzija=no&lang=en"
+            "feedUrl": "https://nbs.rs/system/modules/yu.nbs.news/elements/responsive/RSSnews.xml?kategorija=191&konverzija=no&lang=en",
+            "role": "primary"
           }
         }
       ],
       "duplicateIds": [],
       "duplicates": [],
       "firstSeenAt": "2026-09-29T09:48:31.498Z",
-      "lastSeenAt": "2026-09-29T10:13:37.582Z"
+      "lastSeenAt": "2026-09-29T15:32:09.666Z",
+      "description": "",
+      "editorialTypes": []
     },
     {
       "id": "74a5b390c8ea22852ee4c114",
@@ -2242,14 +2514,17 @@
           "publishedAt": "2025-05-09T12:21:57.000Z",
           "externalId": "https://www.nbs.rs/en/scripts/showcontent/index.html?id=20562&konverzija=no",
           "metadata": {
-            "feedUrl": "https://nbs.rs/system/modules/yu.nbs.news/elements/responsive/RSSnews.xml?kategorija=191&konverzija=no&lang=en"
+            "feedUrl": "https://nbs.rs/system/modules/yu.nbs.news/elements/responsive/RSSnews.xml?kategorija=191&konverzija=no&lang=en",
+            "role": "primary"
           }
         }
       ],
       "duplicateIds": [],
       "duplicates": [],
       "firstSeenAt": "2026-09-29T09:48:31.498Z",
-      "lastSeenAt": "2026-09-29T10:13:37.582Z"
+      "lastSeenAt": "2026-09-29T15:32:09.666Z",
+      "description": "",
+      "editorialTypes": []
     },
     {
       "id": "d40eed6a3ff3d7fd7839a44d",
@@ -2272,21 +2547,24 @@
           "publishedAt": "2025-04-10T12:14:00.000Z",
           "externalId": "https://www.nbs.rs/en/scripts/showcontent/index.html?id=20490&konverzija=no",
           "metadata": {
-            "feedUrl": "https://nbs.rs/system/modules/yu.nbs.news/elements/responsive/RSSnews.xml?kategorija=191&konverzija=no&lang=en"
+            "feedUrl": "https://nbs.rs/system/modules/yu.nbs.news/elements/responsive/RSSnews.xml?kategorija=191&konverzija=no&lang=en",
+            "role": "primary"
           }
         }
       ],
       "duplicateIds": [],
       "duplicates": [],
       "firstSeenAt": "2026-09-29T09:48:31.498Z",
-      "lastSeenAt": "2026-09-29T10:13:37.582Z"
+      "lastSeenAt": "2026-09-29T15:32:09.666Z",
+      "description": "",
+      "editorialTypes": []
     }
   ],
   "sourceRuns": [
     {
       "sourceId": "ecb",
       "ok": true,
-      "fetchedAt": "2026-09-29T10:13:37.582Z",
+      "fetchedAt": "2026-09-29T15:32:09.666Z",
       "accepted": 15,
       "malformedItems": 0,
       "errors": []
@@ -2294,7 +2572,7 @@
     {
       "sourceId": "federal-reserve",
       "ok": true,
-      "fetchedAt": "2026-09-29T10:13:37.582Z",
+      "fetchedAt": "2026-09-29T15:32:09.666Z",
       "accepted": 15,
       "malformedItems": 0,
       "errors": []
@@ -2302,7 +2580,7 @@
     {
       "sourceId": "nbs-executive-board",
       "ok": true,
-      "fetchedAt": "2026-09-29T10:13:37.582Z",
+      "fetchedAt": "2026-09-29T15:32:09.666Z",
       "accepted": 18,
       "malformedItems": 0,
       "errors": []
@@ -2310,7 +2588,7 @@
     {
       "sourceId": "nbs-monetary-policy",
       "ok": true,
-      "fetchedAt": "2026-09-29T10:13:37.582Z",
+      "fetchedAt": "2026-09-29T15:32:09.666Z",
       "accepted": 30,
       "malformedItems": 0,
       "errors": []
