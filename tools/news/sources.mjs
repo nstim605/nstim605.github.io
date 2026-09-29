@@ -1,6 +1,6 @@
 import {
-  detectCategory,
-  detectCurrencies,
+  canonicalizeSourceUrl,
+  detectEditorialTypes,
   fetchWithRetry,
   normalizeWhitespace,
   parseRssOrAtom,
@@ -8,7 +8,7 @@ import {
 } from './core.mjs';
 
 export class NewsSource {
-  constructor({ id, sourceName, sourceUrl, feedUrl, defaultCurrencies = [], requestHeaders = {}, maxItems = 30 }) {
+  constructor({ id, sourceName, sourceUrl, feedUrl, defaultCurrencies = [], requestHeaders = {}, maxItems = 30, additionalSources = () => [] }) {
     this.id = id;
     this.sourceName = sourceName;
     this.sourceUrl = sourceUrl;
@@ -16,6 +16,7 @@ export class NewsSource {
     this.defaultCurrencies = defaultCurrencies;
     this.requestHeaders = requestHeaders;
     this.maxItems = maxItems;
+    this.additionalSources = additionalSources;
   }
 
   async fetch(options = {}) {
@@ -30,31 +31,56 @@ export class NewsSource {
 
   normalize(item) {
     const originalTitle = normalizeWhitespace(item.title);
-    const originalUrl = new URL(item.url, this.sourceUrl).href;
+    const description = normalizeWhitespace(item.description);
+    const rawOriginalUrl = new URL(item.url, this.sourceUrl).href;
+    const originalUrl = canonicalizeSourceUrl(rawOriginalUrl);
     const publishedAt = new Date(item.publishedAt).toISOString();
-    const externalId = normalizeWhitespace(item.externalId) || originalUrl;
-    const currencies = [...new Set([...this.defaultCurrencies, ...detectCurrencies(originalTitle, item.description)])];
-    return {
-      id: stableCandidateId(this.id, externalId, originalUrl),
+    const externalId = normalizeWhitespace(item.externalId) || rawOriginalUrl;
+    const additionalSources = this.additionalSources({ item, originalTitle, description, originalUrl, publishedAt })
+      .map(source => ({
+        ...source,
+        originalUrl: canonicalizeSourceUrl(source.originalUrl, this.sourceUrl),
+        publishedAt: source.publishedAt ?? publishedAt,
+        metadata: { ...(source.metadata ?? {}), feedUrl: source.metadata?.feedUrl ?? this.feedUrl }
+      }));
+    const primarySource = {
+      sourceId: this.id,
+      name: this.sourceName,
       originalTitle,
       originalUrl,
       publishedAt,
-      category: detectCategory(originalTitle, item.description),
-      currencies,
-      status: currencies.length > 0 ? 'pending' : 'rejected',
+      externalId,
+      metadata: { feedUrl: this.feedUrl, role: additionalSources.length ? 'announcement' : 'primary' }
+    };
+    return {
+      id: stableCandidateId(this.id, externalId, rawOriginalUrl),
+      originalTitle,
+      description,
+      originalUrl,
+      publishedAt,
+      currencyHints: [...this.defaultCurrencies],
+      editorialTypes: detectEditorialTypes(originalTitle, description),
+      status: 'pending',
       indexable: false,
-      rejectionReason: currencies.length > 0 ? null : 'No supported currency could be identified',
-      sources: [{
-        sourceId: this.id,
-        name: this.sourceName,
-        originalTitle,
-        originalUrl,
-        publishedAt,
-        externalId,
-        metadata: { feedUrl: this.feedUrl }
-      }]
+      rejectionReason: null,
+      sources: [primarySource, ...additionalSources]
     };
   }
+}
+
+function federalReserveProjectionSources({ originalTitle, originalUrl, publishedAt }) {
+  if (!/\beconomic projections?\b/i.test(originalTitle)) return [];
+  const releaseId = originalUrl.match(/monetary(\d{8})[a-z]?\.htm$/i)?.[1];
+  if (!releaseId) return [];
+  return [{
+    sourceId: 'federal-reserve',
+    name: 'Board of Governors of the Federal Reserve System',
+    originalTitle: 'FOMC economic projections tables and accessible materials',
+    originalUrl: `https://www.federalreserve.gov/monetarypolicy/fomcprojtabl${releaseId}.htm`,
+    publishedAt,
+    externalId: `fomcprojtabl${releaseId}`,
+    metadata: { role: 'data' }
+  }];
 }
 
 export const automatedNewsSources = Object.freeze([
@@ -72,7 +98,8 @@ export const automatedNewsSources = Object.freeze([
     sourceUrl: 'https://www.federalreserve.gov/',
     feedUrl: 'https://www.federalreserve.gov/feeds/press_monetary.xml',
     defaultCurrencies: ['USD'],
-    maxItems: 25
+    maxItems: 25,
+    additionalSources: federalReserveProjectionSources
   }),
   new NewsSource({
     id: 'nbs-executive-board',

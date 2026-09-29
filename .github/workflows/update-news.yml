@@ -81,15 +81,13 @@ jobs:
           echo "changed=true" >> "${GITHUB_OUTPUT}"
 
       - name: Create or update the moderation pull request
-        if: steps.commit.outputs.changed == 'true' && (steps.moderation.outputs.new_drafts != '0' || steps.moderation.outputs.processed != '0')
+        if: steps.moderation.outputs.open_drafts != '0'
         shell: bash
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
           if gh pr view "${MODERATION_BRANCH}" --json number >/dev/null 2>&1; then
             gh pr edit "${MODERATION_BRANCH}" --title "Financial News moderation" --body-file news/data/moderation-report.md
-          elif [ "${{ steps.moderation.outputs.new_drafts }}" != "0" ]; then
-            gh pr create --base main --head "${MODERATION_BRANCH}" --title "Financial News moderation" --body-file news/data/moderation-report.md
           else
-            echo "State was saved on the moderation branch; no worthy candidate means no pull request."
+            gh pr create --base main --head "${MODERATION_BRANCH}" --title "Financial News moderation" --body-file news/data/moderation-report.md
           fi

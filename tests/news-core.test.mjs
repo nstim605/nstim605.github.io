@@ -1,17 +1,22 @@
 import assert from 'node:assert/strict';
 import test from 'node:test';
 import {
+  assessCandidateValue,
+  canonicalizeSourceUrl,
+  classifyCandidate,
   deduplicateStories,
   detectCategory,
   detectCurrencies,
+  detectEditorialTypes,
   fetchWithRetry,
+  isSameEvent,
   parseRssOrAtom,
   slugify,
   titleSimilarity,
   validateStoryQuality
 } from '../tools/news/core.mjs';
 import { collectNewsCandidates } from '../tools/news/fetch-news.mjs';
-import { NewsSource } from '../tools/news/sources.mjs';
+import { automatedNewsSources, NewsSource } from '../tools/news/sources.mjs';
 import storiesData from '../news/data/stories.json' with { type: 'json' };
 
 test('normalizes RSS and Atom entries without retaining full article markup', () => {
@@ -51,6 +56,93 @@ test('deduplicates a shared event but keeps different central-bank decisions sep
   assert.equal(groups[0].duplicates[0].indexable, false);
 });
 
+test('event-level deduplication crosses feeds, source aliases, headlines, and languages', () => {
+  const approved = {
+    id: 'nbs-rates-2026-09-10',
+    originalTitle: 'Referentna kamatna stopa zadržana na nepromenjenom nivou',
+    publishedAt: '2026-09-10',
+    currencies: ['RSD'],
+    translations: {
+      en: { headline: 'National Bank of Serbia keeps its reference rate at 5.75%' },
+      sr: { headline: 'Народна банка Србије задржала референтну каматну стопу на 5,75%' }
+    },
+    sources: [{
+      sourceId: 'nbs', name: 'National Bank of Serbia', externalId: 'old-page',
+      originalTitle: 'Referentna kamatna stopa zadržana na nepromenjenom nivou',
+      originalUrl: 'https://nbs.rs/sr/ciljevi-i-funkcije/monetarna-politika/sednica-izvrsnog-odbora/index.html'
+    }]
+  };
+  const candidate = {
+    id: 'new-feed-item', originalTitle: 'Key policy rate kept unchanged',
+    description: 'The NBS Executive Board kept the key policy rate at 5.75%.',
+    publishedAt: '2026-09-10T12:19:25Z', currencies: ['RSD'],
+    sources: [{
+      sourceId: 'nbs-executive-board', name: 'National Bank of Serbia', externalId: '21715',
+      originalTitle: 'Key policy rate kept unchanged',
+      originalUrl: 'https://www.nbs.rs/en/scripts/showcontent/index.html?id=21715&konverzija=no'
+    }]
+  };
+  assert.equal(isSameEvent(approved, candidate), true);
+  assert.equal(deduplicateStories([approved, candidate]).length, 1);
+});
+
+test('candidate value gate rejects technical operations but accepts substantive inflation material', () => {
+  const technical = {
+    originalTitle: 'ECB amends monetary policy implementation guidelines as part of regular review',
+    description: 'The amendments update collateral eligibility, external rating methodology and haircut schedules.',
+    currencies: ['EUR'],
+    sources: [{ sourceId: 'ecb', name: 'European Central Bank' }]
+  };
+  const inflation = {
+    originalTitle: 'Inflation movements in August 2026',
+    description: 'Annual inflation stood at 2.2%, monthly consumer prices rose 0.5%, and core inflation was 4.7%.',
+    currencies: ['RSD'],
+    sources: [{ sourceId: 'nbs-monetary-policy', name: 'National Bank of Serbia' }]
+  };
+  assert.equal(assessCandidateValue(technical).ok, false);
+  assert.match(assessCandidateValue(technical).reasons.join('\n'), /technical or operational/);
+  assert.equal(assessCandidateValue(inflation).ok, true);
+});
+
+test('content-led classification marks surveys as Inflation and exposes editorial types', () => {
+  assert.equal(detectCategory('ECB Consumer Expectations Survey results – August 2026'), 'Inflation');
+  assert.deepEqual(
+    detectEditorialTypes('ECB Consumer Expectations Survey results and inflation expectations'),
+    ['survey', 'expectations']
+  );
+  assert.deepEqual(
+    detectEditorialTypes('FOMC economic projections and forward-looking dot plot'),
+    ['projections', 'forward-looking-indicator']
+  );
+});
+
+test('source URLs are canonicalized without losing required query parameters', () => {
+  assert.equal(
+    canonicalizeSourceUrl('https://www.ecb.europa.eu//press//pr/date/2026/item.html?lang=en&view=1'),
+    'https://www.ecb.europa.eu/press/pr/date/2026/item.html?lang=en&view=1'
+  );
+  assert.equal(
+    canonicalizeSourceUrl('https://www.nbs.rs//en/scripts/showcontent/index.html?id=21715&konverzija=no'),
+    'https://www.nbs.rs/en/scripts/showcontent/index.html?id=21715&konverzija=no'
+  );
+});
+
+test('Federal Reserve projection releases attach official data tables before moderation', () => {
+  const source = automatedNewsSources.find(item => item.id === 'federal-reserve');
+  const candidate = classifyCandidate(source.normalize({
+    title: 'Federal Reserve Board and FOMC release economic projections from the September meeting',
+    url: 'https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916b.htm',
+    publishedAt: '2026-09-16T18:00:00Z',
+    externalId: 'monetary20260916b',
+    description: 'Tables summarize participants’ economic projections.'
+  }));
+  assert.equal(candidate.sources.length, 2);
+  assert.equal(candidate.sources[1].metadata.role, 'data');
+  assert.equal(candidate.sources[1].originalUrl, 'https://www.federalreserve.gov/monetarypolicy/fomcprojtabl20260916.htm');
+  assert.equal(candidate.category, 'Economy');
+  assert.deepEqual(candidate.editorialTypes, ['projections']);
+});
+
 test('quality gate accepts curated stories and rejects thin or incomplete material', () => {
   for (const story of storiesData.stories) assert.deepEqual(validateStoryQuality(story), { ok: true, errors: [] });
   const thin = structuredClone(storiesData.stories[0]);
@@ -62,7 +154,7 @@ test('quality gate accepts curated stories and rejects thin or incomplete materi
 
 test('source normalization rejects missing dates and marks irrelevant entries rejected', () => {
   const source = new NewsSource({ id: 'test', sourceName: 'Test Bank', sourceUrl: 'https://example.test/', feedUrl: 'https://example.test/feed.xml' });
-  const normalized = source.normalize({ title: 'General annual report', url: '/report', publishedAt: '2026-09-20', externalId: 'report', description: 'Administrative publication' });
+  const normalized = classifyCandidate(source.normalize({ title: 'General annual report', url: '/report', publishedAt: '2026-09-20', externalId: 'report', description: 'Administrative publication' }));
   assert.equal(normalized.status, 'rejected');
   assert.equal(normalized.indexable, false);
   assert.throws(() => source.normalize({ title: 'ECB rates', url: '/a', publishedAt: '', externalId: 'a' }), /Invalid time value/);
