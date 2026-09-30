@@ -1,15 +1,15 @@
 # Financial News moderation report
 
-Generated from official machine-readable sources at 2026-09-30T05:40:22.087Z.
+Generated from official machine-readable sources at 2026-09-30T22:21:58.405Z.
 
 ## Run summary
 
-- Candidates inspected: 1
+- Candidates inspected: 2
 - Existing open drafts re-evaluated: 4
 - New moderation drafts: 0
 - Open moderation drafts: 4
 - Publication-ready open drafts: 0
-- Rejected by the candidate quality gate: 1
+- Rejected by the candidate quality gate: 2
 - Duplicates: 0
 - Content provider: ManualReviewContentProvider
 
@@ -26,7 +26,8 @@ Merging this PR must never publish an incomplete draft. A draft becomes public o
 
 ## Rejected candidates
 
-- **Frank Elderson: Supervisory risk appetite, efficiency and effectiveness** — candidate does not contain a supported monetary-policy signal; standalone value is too low for Balkan Converter users
+- **Christine Lagarde: Interview with La Croix** — candidate does not contain a supported monetary-policy signal; title matches an excluded low-priority content type; standalone value is too low for Balkan Converter users
+- **Isabel Schnabel: Monetary policy in a world of overlapping shocks** — standalone value is too low for Balkan Converter users
 
 ## Duplicates
 
