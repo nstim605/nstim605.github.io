@@ -1,15 +1,15 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-29T15:32:12.945Z",
+  "generatedAt": "2026-09-30T05:40:22.087Z",
   "contentProvider": "ManualReviewContentProvider",
   "summary": {
-    "candidatesInspected": 0,
-    "reconsideredDrafts": 7,
+    "candidatesInspected": 1,
+    "reconsideredDrafts": 4,
     "proposed": 0,
     "openDrafts": 4,
     "publicationReady": 0,
-    "rejected": 2,
-    "duplicates": 1
+    "rejected": 1,
+    "duplicates": 0
   },
   "proposed": [
     {
@@ -124,28 +124,13 @@
   ],
   "rejected": [
     {
-      "id": "061eab95e5dd71a42692ee0d",
-      "title": "ECB amends monetary policy implementation guidelines as part of regular review",
+      "id": "5df7f6a69636f0bd1ab5318f",
+      "title": "Frank Elderson: Supervisory risk appetite, efficiency and effectiveness",
       "reasons": [
-        "standalone value is too low: predominantly technical or operational central-bank material"
-      ],
-      "reconsideredDraft": true
-    },
-    {
-      "id": "be47f7768561977397855d23",
-      "title": "ECB wage tracker at 2.7% in H1 2027, pointing to a modest uptick in negotiated wage growth",
-      "reasons": [
-        "standalone value is too low: specialized forward-looking wage indicator"
-      ],
-      "reconsideredDraft": true
+        "candidate does not contain a supported monetary-policy signal",
+        "standalone value is too low for Balkan Converter users"
+      ]
     }
   ],
-  "duplicates": [
-    {
-      "id": "c46d29bce1c4a68d30d5d769",
-      "title": "Key policy rate kept unchanged",
-      "reason": "same event as nbs-rates-2026-09-10",
-      "reconsideredDraft": true
-    }
-  ]
+  "duplicates": []
 }

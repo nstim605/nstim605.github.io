@@ -1,16 +1,16 @@
 # Financial News moderation report
 
-Generated from official machine-readable sources at 2026-09-29T15:32:12.945Z.
+Generated from official machine-readable sources at 2026-09-30T05:40:22.087Z.
 
 ## Run summary
 
-- Candidates inspected: 0
-- Existing open drafts re-evaluated: 7
+- Candidates inspected: 1
+- Existing open drafts re-evaluated: 4
 - New moderation drafts: 0
 - Open moderation drafts: 4
 - Publication-ready open drafts: 0
-- Rejected by the candidate quality gate: 2
-- Duplicates: 1
+- Rejected by the candidate quality gate: 1
+- Duplicates: 0
 - Content provider: ManualReviewContentProvider
 
 Merging this PR must never publish an incomplete draft. A draft becomes public only after an editor supplies complete EN/SR/RU copy, runs the promotion command, and the publication quality gate passes.
@@ -26,12 +26,11 @@ Merging this PR must never publish an incomplete draft. A draft becomes public o
 
 ## Rejected candidates
 
-- **ECB amends monetary policy implementation guidelines as part of regular review** — standalone value is too low: predominantly technical or operational central-bank material
-- **ECB wage tracker at 2.7% in H1 2027, pointing to a modest uptick in negotiated wage growth** — standalone value is too low: specialized forward-looking wage indicator
+- **Frank Elderson: Supervisory risk appetite, efficiency and effectiveness** — candidate does not contain a supported monetary-policy signal; standalone value is too low for Balkan Converter users
 
 ## Duplicates
 
-- **Key policy rate kept unchanged** — same event as nbs-rates-2026-09-10
+None.
 
 ## Reviewer checklist
 
