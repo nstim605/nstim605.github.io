@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-30T22:21:58.405Z",
+  "updatedAt": "2026-10-01T22:45:32.036Z",
   "processed": {
     "061eab95e5dd71a42692ee0d": {
       "status": "rejected",
@@ -576,6 +576,22 @@
         "standalone value is too low for Balkan Converter users"
       ],
       "processedAt": "2026-09-30T22:21:58.405Z"
+    },
+    "9d2aa2ca373eec41f66c969f": {
+      "status": "rejected",
+      "reasons": [
+        "candidate does not contain a supported monetary-policy signal",
+        "standalone value is too low for Balkan Converter users"
+      ],
+      "processedAt": "2026-10-01T22:45:32.036Z"
+    },
+    "21f91237b4a2abc08dd1ebdf": {
+      "status": "rejected",
+      "reasons": [
+        "candidate does not contain a supported monetary-policy signal",
+        "standalone value is too low for Balkan Converter users"
+      ],
+      "processedAt": "2026-10-01T22:45:32.036Z"
     }
   }
 }

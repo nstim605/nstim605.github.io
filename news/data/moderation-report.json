@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-30T22:21:58.405Z",
+  "generatedAt": "2026-10-01T22:45:32.036Z",
   "contentProvider": "ManualReviewContentProvider",
   "summary": {
     "candidatesInspected": 2,
@@ -124,18 +124,18 @@
   ],
   "rejected": [
     {
-      "id": "4d78898eebfccc57337c6e3e",
-      "title": "Christine Lagarde: Interview with La Croix",
+      "id": "9d2aa2ca373eec41f66c969f",
+      "title": "Isabel Schnabel: Central banks on-chain",
       "reasons": [
         "candidate does not contain a supported monetary-policy signal",
-        "title matches an excluded low-priority content type",
         "standalone value is too low for Balkan Converter users"
       ]
     },
     {
-      "id": "98016b3c822195a6ba273279",
-      "title": "Isabel Schnabel: Monetary policy in a world of overlapping shocks",
+      "id": "21f91237b4a2abc08dd1ebdf",
+      "title": "Christine Lagarde: Where AI risks meet",
       "reasons": [
+        "candidate does not contain a supported monetary-policy signal",
         "standalone value is too low for Balkan Converter users"
       ]
     }

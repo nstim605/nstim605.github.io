@@ -1,6 +1,6 @@
 # Financial News moderation report
 
-Generated from official machine-readable sources at 2026-09-30T22:21:58.405Z.
+Generated from official machine-readable sources at 2026-10-01T22:45:32.036Z.
 
 ## Run summary
 
@@ -26,8 +26,8 @@ Merging this PR must never publish an incomplete draft. A draft becomes public o
 
 ## Rejected candidates
 
-- **Christine Lagarde: Interview with La Croix** — candidate does not contain a supported monetary-policy signal; title matches an excluded low-priority content type; standalone value is too low for Balkan Converter users
-- **Isabel Schnabel: Monetary policy in a world of overlapping shocks** — standalone value is too low for Balkan Converter users
+- **Isabel Schnabel: Central banks on-chain** — candidate does not contain a supported monetary-policy signal; standalone value is too low for Balkan Converter users
+- **Christine Lagarde: Where AI risks meet** — candidate does not contain a supported monetary-policy signal; standalone value is too low for Balkan Converter users
 
 ## Duplicates
 
