@@ -1,15 +1,15 @@
 # Financial News moderation report
 
-Generated from official machine-readable sources at 2026-10-01T22:45:32.036Z.
+Generated from official machine-readable sources at 2026-10-02T12:47:01.894Z.
 
 ## Run summary
 
-- Candidates inspected: 2
+- Candidates inspected: 1
 - Existing open drafts re-evaluated: 4
 - New moderation drafts: 0
 - Open moderation drafts: 4
 - Publication-ready open drafts: 0
-- Rejected by the candidate quality gate: 2
+- Rejected by the candidate quality gate: 1
 - Duplicates: 0
 - Content provider: ManualReviewContentProvider
 
@@ -26,8 +26,7 @@ Merging this PR must never publish an incomplete draft. A draft becomes public o
 
 ## Rejected candidates
 
-- **Isabel Schnabel: Central banks on-chain** — candidate does not contain a supported monetary-policy signal; standalone value is too low for Balkan Converter users
-- **Christine Lagarde: Where AI risks meet** — candidate does not contain a supported monetary-policy signal; standalone value is too low for Balkan Converter users
+- **Boris Vujčić: Resilience, integration and competitiveness: building the future of European banking** — candidate does not contain a supported monetary-policy signal; standalone value is too low for Balkan Converter users
 
 ## Duplicates
 
