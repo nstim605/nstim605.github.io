@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-02T12:47:01.894Z",
+  "generatedAt": "2026-10-02T22:19:31.012Z",
   "contentProvider": "ManualReviewContentProvider",
   "summary": {
     "candidatesInspected": 1,
@@ -124,8 +124,8 @@
   ],
   "rejected": [
     {
-      "id": "32872a385e28ae4e693a34cc",
-      "title": "Boris Vujčić: Resilience, integration and competitiveness: building the future of European banking",
+      "id": "455cf1e1f5f920780615dc74",
+      "title": "Decisions taken by the Governing Council of the ECB (in addition to decisions setting interest rates)",
       "reasons": [
         "candidate does not contain a supported monetary-policy signal",
         "standalone value is too low for Balkan Converter users"
