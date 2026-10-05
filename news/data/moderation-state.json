@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-02T22:19:31.012Z",
+  "updatedAt": "2026-10-05T14:52:46.818Z",
   "processed": {
     "061eab95e5dd71a42692ee0d": {
       "status": "rejected",
@@ -131,10 +131,11 @@
       "processedAt": "2026-09-29T10:13:41.060Z"
     },
     "b3259b176d1f5dfd9b6d4e02": {
-      "status": "draft",
-      "draftId": "official-2026-09-14-b3259b17",
-      "slug": "inflation-movements-in-august-2026-b3259b17",
-      "processedAt": "2026-09-29T10:13:41.060Z"
+      "status": "rejected",
+      "reasons": [
+        "candidate is older than 21 days"
+      ],
+      "processedAt": "2026-10-05T14:52:46.818Z"
     },
     "a9897abb34f13914e4d24565": {
       "status": "duplicate",
@@ -608,6 +609,13 @@
         "standalone value is too low for Balkan Converter users"
       ],
       "processedAt": "2026-10-02T22:19:31.012Z"
+    },
+    "695fb3b23a870b67b474a67a": {
+      "status": "rejected",
+      "reasons": [
+        "standalone value is too low for Balkan Converter users"
+      ],
+      "processedAt": "2026-10-05T14:52:46.818Z"
     }
   }
 }

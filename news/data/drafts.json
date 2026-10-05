@@ -131,43 +131,6 @@
       "editorialTypes": [
         "projections"
       ]
-    },
-    {
-      "id": "official-2026-09-14-b3259b17",
-      "candidateId": "b3259b176d1f5dfd9b6d4e02",
-      "slug": "inflation-movements-in-august-2026-b3259b17",
-      "category": "Inflation",
-      "publishedAt": "2026-09-14T09:50:09.000Z",
-      "updatedAt": "2026-09-14T09:50:09.000Z",
-      "status": "draft",
-      "indexable": false,
-      "currencies": [
-        "RSD"
-      ],
-      "translations": null,
-      "sources": [
-        {
-          "sourceId": "nbs-monetary-policy",
-          "name": "National Bank of Serbia",
-          "originalTitle": "Inflation movements in August 2026",
-          "originalUrl": "https://www.nbs.rs/en/scripts/showcontent/index.html?id=21723&konverzija=no",
-          "publishedAt": "2026-09-14T09:50:09.000Z",
-          "externalId": "https://www.nbs.rs/en/scripts/showcontent/index.html?id=21723&konverzija=no",
-          "metadata": {
-            "feedUrl": "https://nbs.rs/system/modules/yu.nbs.news/elements/responsive/RSSnews.xml?kategorija=19&konverzija=no&lang=en",
-            "role": "primary"
-          }
-        }
-      ],
-      "quality": {
-        "publicationReady": false,
-        "errors": [
-          "en translation is required",
-          "sr translation is required",
-          "ru translation is required"
-        ]
-      },
-      "editorialTypes": []
     }
   ]
 }

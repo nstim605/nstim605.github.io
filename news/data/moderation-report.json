@@ -1,14 +1,14 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-02T22:19:31.012Z",
+  "generatedAt": "2026-10-05T14:52:46.818Z",
   "contentProvider": "ManualReviewContentProvider",
   "summary": {
     "candidatesInspected": 1,
     "reconsideredDrafts": 4,
     "proposed": 0,
-    "openDrafts": 4,
+    "openDrafts": 3,
     "publicationReady": 0,
-    "rejected": 1,
+    "rejected": 2,
     "duplicates": 0
   },
   "proposed": [
@@ -96,38 +96,21 @@
         "sr translation is required",
         "ru translation is required"
       ]
-    },
-    {
-      "id": "official-2026-09-14-b3259b17",
-      "title": "Inflation movements in August 2026",
-      "currencies": [
-        "RSD"
-      ],
-      "category": "Inflation",
-      "editorialTypes": [],
-      "publishedAt": "2026-09-14T09:50:09.000Z",
-      "sources": [
-        {
-          "name": "National Bank of Serbia",
-          "url": "https://www.nbs.rs/en/scripts/showcontent/index.html?id=21723&konverzija=no",
-          "role": "primary"
-        }
-      ],
-      "candidateQuality": true,
-      "publicationReady": false,
-      "publicationErrors": [
-        "en translation is required",
-        "sr translation is required",
-        "ru translation is required"
-      ]
     }
   ],
   "rejected": [
     {
-      "id": "455cf1e1f5f920780615dc74",
-      "title": "Decisions taken by the Governing Council of the ECB (in addition to decisions setting interest rates)",
+      "id": "b3259b176d1f5dfd9b6d4e02",
+      "title": "Inflation movements in August 2026",
       "reasons": [
-        "candidate does not contain a supported monetary-policy signal",
+        "candidate is older than 21 days"
+      ],
+      "reconsideredDraft": true
+    },
+    {
+      "id": "695fb3b23a870b67b474a67a",
+      "title": "Philip R. Lane: Diagnostic Challenges for ECB Monetary Policy",
+      "reasons": [
         "standalone value is too low for Balkan Converter users"
       ]
     }
