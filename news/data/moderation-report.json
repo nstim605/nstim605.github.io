@@ -1,14 +1,14 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-05T14:52:46.818Z",
+  "generatedAt": "2026-10-06T18:27:18.902Z",
   "contentProvider": "ManualReviewContentProvider",
   "summary": {
-    "candidatesInspected": 1,
-    "reconsideredDrafts": 4,
+    "candidatesInspected": 3,
+    "reconsideredDrafts": 3,
     "proposed": 0,
     "openDrafts": 3,
     "publicationReady": 0,
-    "rejected": 2,
+    "rejected": 3,
     "duplicates": 0
   },
   "proposed": [
@@ -100,17 +100,27 @@
   ],
   "rejected": [
     {
-      "id": "b3259b176d1f5dfd9b6d4e02",
-      "title": "Inflation movements in August 2026",
+      "id": "8df3d64777df94e1d5e350cd",
+      "title": "Frank Elderson: Effective supervision through timely remediation",
       "reasons": [
-        "candidate is older than 21 days"
-      ],
-      "reconsideredDraft": true
+        "candidate does not contain a supported monetary-policy signal",
+        "standalone value is too low for Balkan Converter users"
+      ]
     },
     {
-      "id": "695fb3b23a870b67b474a67a",
-      "title": "Philip R. Lane: Diagnostic Challenges for ECB Monetary Policy",
+      "id": "102a5df30653170baa71be8b",
+      "title": "Piero Cipollone: Money in the digital age: digital euro, tokenisation and the role of central banks",
       "reasons": [
+        "candidate does not contain a supported monetary-policy signal",
+        "standalone value is too low for Balkan Converter users"
+      ]
+    },
+    {
+      "id": "5d576c556522f5d407029ae9",
+      "title": "Philip R. Lane: Interview with Ansa",
+      "reasons": [
+        "candidate does not contain a supported monetary-policy signal",
+        "title matches an excluded low-priority content type",
         "standalone value is too low for Balkan Converter users"
       ]
     }

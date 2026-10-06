@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-05T14:52:46.818Z",
+  "updatedAt": "2026-10-06T18:27:18.902Z",
   "processed": {
     "061eab95e5dd71a42692ee0d": {
       "status": "rejected",
@@ -616,6 +616,31 @@
         "standalone value is too low for Balkan Converter users"
       ],
       "processedAt": "2026-10-05T14:52:46.818Z"
+    },
+    "8df3d64777df94e1d5e350cd": {
+      "status": "rejected",
+      "reasons": [
+        "candidate does not contain a supported monetary-policy signal",
+        "standalone value is too low for Balkan Converter users"
+      ],
+      "processedAt": "2026-10-06T18:27:18.902Z"
+    },
+    "102a5df30653170baa71be8b": {
+      "status": "rejected",
+      "reasons": [
+        "candidate does not contain a supported monetary-policy signal",
+        "standalone value is too low for Balkan Converter users"
+      ],
+      "processedAt": "2026-10-06T18:27:18.902Z"
+    },
+    "5d576c556522f5d407029ae9": {
+      "status": "rejected",
+      "reasons": [
+        "candidate does not contain a supported monetary-policy signal",
+        "title matches an excluded low-priority content type",
+        "standalone value is too low for Balkan Converter users"
+      ],
+      "processedAt": "2026-10-06T18:27:18.902Z"
     }
   }
 }

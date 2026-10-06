@@ -1,15 +1,15 @@
 # Financial News moderation report
 
-Generated from official machine-readable sources at 2026-10-05T14:52:46.818Z.
+Generated from official machine-readable sources at 2026-10-06T18:27:18.902Z.
 
 ## Run summary
 
-- Candidates inspected: 1
-- Existing open drafts re-evaluated: 4
+- Candidates inspected: 3
+- Existing open drafts re-evaluated: 3
 - New moderation drafts: 0
 - Open moderation drafts: 3
 - Publication-ready open drafts: 0
-- Rejected by the candidate quality gate: 2
+- Rejected by the candidate quality gate: 3
 - Duplicates: 0
 - Content provider: ManualReviewContentProvider
 
@@ -25,8 +25,9 @@ Merging this PR must never publish an incomplete draft. A draft becomes public o
 
 ## Rejected candidates
 
-- **Inflation movements in August 2026** — candidate is older than 21 days
-- **Philip R. Lane: Diagnostic Challenges for ECB Monetary Policy** — standalone value is too low for Balkan Converter users
+- **Frank Elderson: Effective supervision through timely remediation** — candidate does not contain a supported monetary-policy signal; standalone value is too low for Balkan Converter users
+- **Piero Cipollone: Money in the digital age: digital euro, tokenisation and the role of central banks** — candidate does not contain a supported monetary-policy signal; standalone value is too low for Balkan Converter users
+- **Philip R. Lane: Interview with Ansa** — candidate does not contain a supported monetary-policy signal; title matches an excluded low-priority content type; standalone value is too low for Balkan Converter users
 
 ## Duplicates
 
