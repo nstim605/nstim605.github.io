@@ -1,14 +1,14 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-06T18:27:18.902Z",
+  "generatedAt": "2026-10-07T13:33:52.801Z",
   "contentProvider": "ManualReviewContentProvider",
   "summary": {
-    "candidatesInspected": 3,
+    "candidatesInspected": 1,
     "reconsideredDrafts": 3,
     "proposed": 0,
     "openDrafts": 3,
     "publicationReady": 0,
-    "rejected": 3,
+    "rejected": 1,
     "duplicates": 0
   },
   "proposed": [
@@ -100,27 +100,10 @@
   ],
   "rejected": [
     {
-      "id": "8df3d64777df94e1d5e350cd",
-      "title": "Frank Elderson: Effective supervision through timely remediation",
+      "id": "21f7607db0caef2aa1df8961",
+      "title": "Results of the September 2026 survey on credit terms and conditions in euro-denominated securities financing and OTC derivatives markets (SESFOD)",
       "reasons": [
         "candidate does not contain a supported monetary-policy signal",
-        "standalone value is too low for Balkan Converter users"
-      ]
-    },
-    {
-      "id": "102a5df30653170baa71be8b",
-      "title": "Piero Cipollone: Money in the digital age: digital euro, tokenisation and the role of central banks",
-      "reasons": [
-        "candidate does not contain a supported monetary-policy signal",
-        "standalone value is too low for Balkan Converter users"
-      ]
-    },
-    {
-      "id": "5d576c556522f5d407029ae9",
-      "title": "Philip R. Lane: Interview with Ansa",
-      "reasons": [
-        "candidate does not contain a supported monetary-policy signal",
-        "title matches an excluded low-priority content type",
         "standalone value is too low for Balkan Converter users"
       ]
     }

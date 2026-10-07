@@ -1,15 +1,15 @@
 # Financial News moderation report
 
-Generated from official machine-readable sources at 2026-10-06T18:27:18.902Z.
+Generated from official machine-readable sources at 2026-10-07T13:33:52.801Z.
 
 ## Run summary
 
-- Candidates inspected: 3
+- Candidates inspected: 1
 - Existing open drafts re-evaluated: 3
 - New moderation drafts: 0
 - Open moderation drafts: 3
 - Publication-ready open drafts: 0
-- Rejected by the candidate quality gate: 3
+- Rejected by the candidate quality gate: 1
 - Duplicates: 0
 - Content provider: ManualReviewContentProvider
 
@@ -25,9 +25,7 @@ Merging this PR must never publish an incomplete draft. A draft becomes public o
 
 ## Rejected candidates
 
-- **Frank Elderson: Effective supervision through timely remediation** — candidate does not contain a supported monetary-policy signal; standalone value is too low for Balkan Converter users
-- **Piero Cipollone: Money in the digital age: digital euro, tokenisation and the role of central banks** — candidate does not contain a supported monetary-policy signal; standalone value is too low for Balkan Converter users
-- **Philip R. Lane: Interview with Ansa** — candidate does not contain a supported monetary-policy signal; title matches an excluded low-priority content type; standalone value is too low for Balkan Converter users
+- **Results of the September 2026 survey on credit terms and conditions in euro-denominated securities financing and OTC derivatives markets (SESFOD)** — candidate does not contain a supported monetary-policy signal; standalone value is too low for Balkan Converter users
 
 ## Duplicates
 
