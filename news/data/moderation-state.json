@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-07T13:33:52.801Z",
+  "updatedAt": "2026-10-07T23:10:12.261Z",
   "processed": {
     "061eab95e5dd71a42692ee0d": {
       "status": "rejected",
@@ -103,10 +103,11 @@
       "processedAt": "2026-09-29T10:13:41.060Z"
     },
     "e67cb5eff5f8900dbb229048": {
-      "status": "draft",
-      "draftId": "official-2026-09-16-e67cb5ef",
-      "slug": "federal-reserve-board-and-federal-open-market-committee-release-economic-pro-e67cb5ef",
-      "processedAt": "2026-09-29T10:13:41.060Z"
+      "status": "rejected",
+      "reasons": [
+        "candidate is older than 21 days"
+      ],
+      "processedAt": "2026-10-07T23:10:12.261Z"
     },
     "be47f7768561977397855d23": {
       "status": "rejected",
@@ -649,6 +650,14 @@
         "standalone value is too low for Balkan Converter users"
       ],
       "processedAt": "2026-10-07T13:33:52.801Z"
+    },
+    "726a58fffd86d7420bf997c3": {
+      "status": "rejected",
+      "reasons": [
+        "candidate does not contain a supported monetary-policy signal",
+        "standalone value is too low for Balkan Converter users"
+      ],
+      "processedAt": "2026-10-07T23:10:12.261Z"
     }
   }
 }

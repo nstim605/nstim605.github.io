@@ -80,57 +80,6 @@
         "survey",
         "expectations"
       ]
-    },
-    {
-      "id": "official-2026-09-16-e67cb5ef",
-      "candidateId": "e67cb5eff5f8900dbb229048",
-      "slug": "federal-reserve-board-and-federal-open-market-committee-release-economic-pro-e67cb5ef",
-      "category": "Economy",
-      "publishedAt": "2026-09-16T18:00:00.000Z",
-      "updatedAt": "2026-09-16T18:00:00.000Z",
-      "status": "draft",
-      "indexable": false,
-      "currencies": [
-        "USD"
-      ],
-      "translations": null,
-      "sources": [
-        {
-          "sourceId": "federal-reserve",
-          "name": "Board of Governors of the Federal Reserve System",
-          "originalTitle": "Federal Reserve Board and Federal Open Market Committee release economic projections from the September 15-16 FOMC meeting",
-          "originalUrl": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916b.htm",
-          "publishedAt": "2026-09-16T18:00:00.000Z",
-          "externalId": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916b.htm",
-          "metadata": {
-            "feedUrl": "https://www.federalreserve.gov/feeds/press_monetary.xml",
-            "role": "announcement"
-          }
-        },
-        {
-          "sourceId": "federal-reserve",
-          "name": "Board of Governors of the Federal Reserve System",
-          "originalTitle": "FOMC economic projections tables and accessible materials",
-          "originalUrl": "https://www.federalreserve.gov/monetarypolicy/fomcprojtabl20260916.htm",
-          "publishedAt": "2026-09-16T18:00:00.000Z",
-          "externalId": "fomcprojtabl20260916",
-          "metadata": {
-            "role": "data",
-            "feedUrl": "https://www.federalreserve.gov/feeds/press_monetary.xml"
-          }
-        }
-      ],
-      "quality": {
-        "publicationReady": false,
-        "errors": [
-          "en translation is required",
-          "sr translation is required",
-          "ru translation is required"
-        ]
-      },
-      "editorialTypes": [
-        "projections"
-      ]
     }
   ]
 }

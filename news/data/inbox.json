@@ -1,7 +1,40 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-07T13:33:49.011Z",
+  "updatedAt": "2026-10-07T23:10:07.729Z",
   "candidates": [
+    {
+      "id": "726a58fffd86d7420bf997c3",
+      "originalTitle": "Minutes of the Federal Open Market Committee, September 15-16, 2026",
+      "description": "Minutes of the Federal Open Market Committee, September 15-16, 2026",
+      "originalUrl": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261007a.htm",
+      "publishedAt": "2026-10-07T18:00:00.000Z",
+      "editorialTypes": [],
+      "status": "pending",
+      "indexable": false,
+      "rejectionReason": null,
+      "sources": [
+        {
+          "sourceId": "federal-reserve",
+          "name": "Board of Governors of the Federal Reserve System",
+          "originalTitle": "Minutes of the Federal Open Market Committee, September 15-16, 2026",
+          "originalUrl": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261007a.htm",
+          "publishedAt": "2026-10-07T18:00:00.000Z",
+          "externalId": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261007a.htm",
+          "metadata": {
+            "feedUrl": "https://www.federalreserve.gov/feeds/press_monetary.xml",
+            "role": "primary"
+          }
+        }
+      ],
+      "duplicateIds": [],
+      "duplicates": [],
+      "category": "Currency",
+      "currencies": [
+        "USD"
+      ],
+      "firstSeenAt": "2026-10-07T23:10:07.729Z",
+      "lastSeenAt": "2026-10-07T23:10:07.729Z"
+    },
     {
       "id": "21f7607db0caef2aa1df8961",
       "originalTitle": "Results of the September 2026 survey on credit terms and conditions in euro-denominated securities financing and OTC derivatives markets (SESFOD)",
@@ -429,7 +462,7 @@
       "duplicateIds": [],
       "duplicates": [],
       "firstSeenAt": "2026-09-29T09:48:31.498Z",
-      "lastSeenAt": "2026-10-07T13:33:49.011Z",
+      "lastSeenAt": "2026-10-07T23:10:07.729Z",
       "description": "",
       "editorialTypes": []
     },
@@ -462,7 +495,7 @@
       "duplicateIds": [],
       "duplicates": [],
       "firstSeenAt": "2026-09-29T09:48:31.498Z",
-      "lastSeenAt": "2026-10-07T13:33:49.011Z",
+      "lastSeenAt": "2026-10-07T23:10:07.729Z",
       "description": "",
       "editorialTypes": []
     },
@@ -495,7 +528,7 @@
       "duplicateIds": [],
       "duplicates": [],
       "firstSeenAt": "2026-09-29T09:48:31.498Z",
-      "lastSeenAt": "2026-10-07T13:33:49.011Z",
+      "lastSeenAt": "2026-10-07T23:10:07.729Z",
       "description": "",
       "editorialTypes": []
     },
@@ -797,7 +830,7 @@
       "duplicateIds": [],
       "duplicates": [],
       "firstSeenAt": "2026-09-29T09:48:31.498Z",
-      "lastSeenAt": "2026-10-07T13:33:49.011Z",
+      "lastSeenAt": "2026-10-07T23:10:07.729Z",
       "description": "",
       "editorialTypes": [
         "survey",
@@ -833,7 +866,7 @@
       "duplicateIds": [],
       "duplicates": [],
       "firstSeenAt": "2026-09-29T09:48:31.498Z",
-      "lastSeenAt": "2026-10-07T13:33:49.011Z",
+      "lastSeenAt": "2026-10-07T23:10:07.729Z",
       "description": "Federal Reserve issues FOMC statement",
       "editorialTypes": []
     },
@@ -878,7 +911,7 @@
       "duplicateIds": [],
       "duplicates": [],
       "firstSeenAt": "2026-09-29T09:48:31.498Z",
-      "lastSeenAt": "2026-10-07T13:33:49.011Z",
+      "lastSeenAt": "2026-10-07T23:10:07.729Z",
       "description": "Federal Reserve Board and Federal Open Market Committee release economic projections from the September 15-16 FOMC meeting",
       "editorialTypes": [
         "projections"
@@ -1014,7 +1047,7 @@
       "duplicateIds": [],
       "duplicates": [],
       "firstSeenAt": "2026-09-29T09:48:31.498Z",
-      "lastSeenAt": "2026-10-07T13:33:49.011Z",
+      "lastSeenAt": "2026-10-07T23:10:07.729Z",
       "description": "",
       "editorialTypes": []
     },
@@ -1069,7 +1102,7 @@
         }
       ],
       "firstSeenAt": "2026-09-29T09:48:31.498Z",
-      "lastSeenAt": "2026-10-07T13:33:49.011Z",
+      "lastSeenAt": "2026-10-07T23:10:07.729Z",
       "description": "",
       "editorialTypes": []
     },
@@ -1102,7 +1135,7 @@
       "duplicateIds": [],
       "duplicates": [],
       "firstSeenAt": "2026-09-29T09:48:31.498Z",
-      "lastSeenAt": "2026-10-07T13:33:49.011Z",
+      "lastSeenAt": "2026-10-07T23:10:07.729Z",
       "description": "",
       "editorialTypes": []
     },
@@ -1135,7 +1168,7 @@
       "duplicateIds": [],
       "duplicates": [],
       "firstSeenAt": "2026-09-29T09:48:31.498Z",
-      "lastSeenAt": "2026-10-07T13:33:49.011Z",
+      "lastSeenAt": "2026-10-07T23:10:07.729Z",
       "description": "Minutes of the Board's discount rate meetings on July 20 and July 29, 2026",
       "editorialTypes": []
     },
@@ -1168,7 +1201,7 @@
       "duplicateIds": [],
       "duplicates": [],
       "firstSeenAt": "2026-09-29T09:48:31.498Z",
-      "lastSeenAt": "2026-10-07T13:33:49.011Z",
+      "lastSeenAt": "2026-10-07T23:10:07.729Z",
       "description": "",
       "editorialTypes": [
         "survey",
@@ -1204,7 +1237,7 @@
       "duplicateIds": [],
       "duplicates": [],
       "firstSeenAt": "2026-09-29T09:48:31.498Z",
-      "lastSeenAt": "2026-10-07T13:33:49.011Z",
+      "lastSeenAt": "2026-10-07T23:10:07.729Z",
       "description": "Minutes of the Federal Open Market Committee, July 28–29, 2026",
       "editorialTypes": []
     },
@@ -1237,7 +1270,7 @@
       "duplicateIds": [],
       "duplicates": [],
       "firstSeenAt": "2026-09-29T09:48:31.498Z",
-      "lastSeenAt": "2026-10-07T13:33:49.011Z",
+      "lastSeenAt": "2026-10-07T23:10:07.729Z",
       "description": "",
       "editorialTypes": []
     },
@@ -1270,7 +1303,7 @@
       "duplicateIds": [],
       "duplicates": [],
       "firstSeenAt": "2026-09-29T09:48:31.498Z",
-      "lastSeenAt": "2026-10-07T13:33:49.011Z",
+      "lastSeenAt": "2026-10-07T23:10:07.729Z",
       "description": "",
       "editorialTypes": []
     },
@@ -1325,7 +1358,7 @@
         }
       ],
       "firstSeenAt": "2026-09-29T09:48:31.498Z",
-      "lastSeenAt": "2026-10-07T13:33:49.011Z",
+      "lastSeenAt": "2026-10-07T23:10:07.729Z",
       "description": "",
       "editorialTypes": []
     },
@@ -1358,7 +1391,7 @@
       "duplicateIds": [],
       "duplicates": [],
       "firstSeenAt": "2026-09-29T09:48:31.498Z",
-      "lastSeenAt": "2026-10-07T13:33:49.011Z",
+      "lastSeenAt": "2026-10-07T23:10:07.729Z",
       "description": "",
       "editorialTypes": []
     },
@@ -1391,7 +1424,7 @@
       "duplicateIds": [],
       "duplicates": [],
       "firstSeenAt": "2026-09-29T09:48:31.498Z",
-      "lastSeenAt": "2026-10-07T13:33:49.011Z",
+      "lastSeenAt": "2026-10-07T23:10:07.729Z",
       "description": "Federal Reserve issues FOMC statement",
       "editorialTypes": []
     },
@@ -1424,7 +1457,7 @@
       "duplicateIds": [],
       "duplicates": [],
       "firstSeenAt": "2026-09-29T09:48:31.498Z",
-      "lastSeenAt": "2026-10-07T13:33:49.011Z",
+      "lastSeenAt": "2026-10-07T23:10:07.729Z",
       "description": "",
       "editorialTypes": []
     },
@@ -1457,7 +1490,7 @@
       "duplicateIds": [],
       "duplicates": [],
       "firstSeenAt": "2026-09-29T09:48:31.498Z",
-      "lastSeenAt": "2026-10-07T13:33:49.011Z",
+      "lastSeenAt": "2026-10-07T23:10:07.729Z",
       "description": "Minutes of the Board's discount rate meetings on June 8 and June 17, 2026",
       "editorialTypes": []
     },
@@ -1490,7 +1523,7 @@
       "duplicateIds": [],
       "duplicates": [],
       "firstSeenAt": "2026-09-29T09:48:31.498Z",
-      "lastSeenAt": "2026-10-07T13:33:49.011Z",
+      "lastSeenAt": "2026-10-07T23:10:07.729Z",
       "description": "",
       "editorialTypes": [
         "survey",
@@ -1526,7 +1559,7 @@
       "duplicateIds": [],
       "duplicates": [],
       "firstSeenAt": "2026-09-29T09:48:31.498Z",
-      "lastSeenAt": "2026-10-07T13:33:49.011Z",
+      "lastSeenAt": "2026-10-07T23:10:07.729Z",
       "description": "",
       "editorialTypes": []
     },
@@ -1559,7 +1592,7 @@
       "duplicateIds": [],
       "duplicates": [],
       "firstSeenAt": "2026-09-29T09:48:31.498Z",
-      "lastSeenAt": "2026-10-07T13:33:49.011Z",
+      "lastSeenAt": "2026-10-07T23:10:07.729Z",
       "description": "Federal Reserve announces the leadership and objectives of its task forces to advance the conduct of monetary policy",
       "editorialTypes": []
     },
@@ -1614,7 +1647,7 @@
         }
       ],
       "firstSeenAt": "2026-09-29T09:48:31.498Z",
-      "lastSeenAt": "2026-10-07T13:33:49.011Z",
+      "lastSeenAt": "2026-10-07T23:10:07.729Z",
       "description": "",
       "editorialTypes": []
     },
@@ -1647,7 +1680,7 @@
       "duplicateIds": [],
       "duplicates": [],
       "firstSeenAt": "2026-09-29T09:48:31.498Z",
-      "lastSeenAt": "2026-10-07T13:33:49.011Z",
+      "lastSeenAt": "2026-10-07T23:10:07.729Z",
       "description": "Minutes of the Federal Open Market Committee, June 16-17, 2026",
       "editorialTypes": []
     },
@@ -1680,7 +1713,7 @@
       "duplicateIds": [],
       "duplicates": [],
       "firstSeenAt": "2026-09-29T09:48:31.498Z",
-      "lastSeenAt": "2026-10-07T13:33:49.011Z",
+      "lastSeenAt": "2026-10-07T23:10:07.729Z",
       "description": "Federal Reserve issues FOMC statement",
       "editorialTypes": []
     },
@@ -1725,7 +1758,7 @@
       "duplicateIds": [],
       "duplicates": [],
       "firstSeenAt": "2026-09-29T09:48:31.498Z",
-      "lastSeenAt": "2026-10-07T13:33:49.011Z",
+      "lastSeenAt": "2026-10-07T23:10:07.729Z",
       "description": "Federal Reserve Board and Federal Open Market Committee release economic projections from the June 16-17 FOMC meeting",
       "editorialTypes": [
         "projections"
@@ -1760,7 +1793,7 @@
       "duplicateIds": [],
       "duplicates": [],
       "firstSeenAt": "2026-09-29T09:48:31.498Z",
-      "lastSeenAt": "2026-10-07T13:33:49.011Z",
+      "lastSeenAt": "2026-10-07T23:10:07.729Z",
       "description": "",
       "editorialTypes": [
         "survey",
@@ -1796,7 +1829,7 @@
       "duplicateIds": [],
       "duplicates": [],
       "firstSeenAt": "2026-09-29T09:48:31.498Z",
-      "lastSeenAt": "2026-10-07T13:33:49.011Z",
+      "lastSeenAt": "2026-10-07T23:10:07.729Z",
       "description": "",
       "editorialTypes": []
     },
@@ -1851,7 +1884,7 @@
         }
       ],
       "firstSeenAt": "2026-09-29T09:48:31.498Z",
-      "lastSeenAt": "2026-10-07T13:33:49.011Z",
+      "lastSeenAt": "2026-10-07T23:10:07.729Z",
       "description": "",
       "editorialTypes": []
     },
@@ -1884,7 +1917,7 @@
       "duplicateIds": [],
       "duplicates": [],
       "firstSeenAt": "2026-09-29T09:48:31.498Z",
-      "lastSeenAt": "2026-10-07T13:33:49.011Z",
+      "lastSeenAt": "2026-10-07T23:10:07.729Z",
       "description": "Minutes of the Board's discount rate meeting on April 20 and 29, 2026",
       "editorialTypes": []
     },
@@ -1917,7 +1950,7 @@
       "duplicateIds": [],
       "duplicates": [],
       "firstSeenAt": "2026-09-29T09:48:31.498Z",
-      "lastSeenAt": "2026-10-07T13:33:49.011Z",
+      "lastSeenAt": "2026-10-07T23:10:07.729Z",
       "description": "Minutes of the Federal Open Market Committee, April 28-29, 2026",
       "editorialTypes": []
     },
@@ -1950,7 +1983,7 @@
       "duplicateIds": [],
       "duplicates": [],
       "firstSeenAt": "2026-09-29T09:48:31.498Z",
-      "lastSeenAt": "2026-10-07T13:33:49.011Z",
+      "lastSeenAt": "2026-10-07T23:10:07.729Z",
       "description": "",
       "editorialTypes": []
     },
@@ -1983,7 +2016,7 @@
       "duplicateIds": [],
       "duplicates": [],
       "firstSeenAt": "2026-09-29T09:48:31.498Z",
-      "lastSeenAt": "2026-10-07T13:33:49.011Z",
+      "lastSeenAt": "2026-10-07T23:10:07.729Z",
       "description": "",
       "editorialTypes": [
         "survey",
@@ -2019,7 +2052,7 @@
       "duplicateIds": [],
       "duplicates": [],
       "firstSeenAt": "2026-09-29T09:48:31.498Z",
-      "lastSeenAt": "2026-10-07T13:33:49.011Z",
+      "lastSeenAt": "2026-10-07T23:10:07.729Z",
       "description": "",
       "editorialTypes": []
     },
@@ -2052,7 +2085,7 @@
       "duplicateIds": [],
       "duplicates": [],
       "firstSeenAt": "2026-09-29T09:48:31.498Z",
-      "lastSeenAt": "2026-10-07T13:33:49.011Z",
+      "lastSeenAt": "2026-10-07T23:10:07.729Z",
       "description": "",
       "editorialTypes": []
     },
@@ -2085,7 +2118,7 @@
       "duplicateIds": [],
       "duplicates": [],
       "firstSeenAt": "2026-09-29T09:48:31.498Z",
-      "lastSeenAt": "2026-10-07T13:33:49.011Z",
+      "lastSeenAt": "2026-10-07T23:10:07.729Z",
       "description": "",
       "editorialTypes": []
     },
@@ -2140,7 +2173,7 @@
         }
       ],
       "firstSeenAt": "2026-09-29T09:48:31.498Z",
-      "lastSeenAt": "2026-10-07T13:33:49.011Z",
+      "lastSeenAt": "2026-10-07T23:10:07.729Z",
       "description": "",
       "editorialTypes": []
     },
@@ -2173,7 +2206,7 @@
       "duplicateIds": [],
       "duplicates": [],
       "firstSeenAt": "2026-09-29T09:48:31.498Z",
-      "lastSeenAt": "2026-10-07T13:33:49.011Z",
+      "lastSeenAt": "2026-10-07T23:10:07.729Z",
       "description": "Federal Reserve issues FOMC statement",
       "editorialTypes": []
     },
@@ -2206,7 +2239,7 @@
       "duplicateIds": [],
       "duplicates": [],
       "firstSeenAt": "2026-09-29T09:48:31.498Z",
-      "lastSeenAt": "2026-10-07T13:33:49.011Z",
+      "lastSeenAt": "2026-10-07T23:10:07.729Z",
       "description": "",
       "editorialTypes": [
         "survey",
@@ -2242,7 +2275,7 @@
       "duplicateIds": [],
       "duplicates": [],
       "firstSeenAt": "2026-09-29T09:48:31.498Z",
-      "lastSeenAt": "2026-10-07T13:33:49.011Z",
+      "lastSeenAt": "2026-10-07T23:10:07.729Z",
       "description": "",
       "editorialTypes": []
     },
@@ -2275,7 +2308,7 @@
       "duplicateIds": [],
       "duplicates": [],
       "firstSeenAt": "2026-09-29T09:48:31.498Z",
-      "lastSeenAt": "2026-10-07T13:33:49.011Z",
+      "lastSeenAt": "2026-10-07T23:10:07.729Z",
       "description": "Minutes of the Board’s discount rate meetings on February 9 and March 18, 2026",
       "editorialTypes": []
     },
@@ -2330,7 +2363,7 @@
         }
       ],
       "firstSeenAt": "2026-09-29T09:48:31.498Z",
-      "lastSeenAt": "2026-10-07T13:33:49.011Z",
+      "lastSeenAt": "2026-10-07T23:10:07.729Z",
       "description": "",
       "editorialTypes": []
     },
@@ -2396,7 +2429,7 @@
       "duplicateIds": [],
       "duplicates": [],
       "firstSeenAt": "2026-09-29T09:48:31.498Z",
-      "lastSeenAt": "2026-10-07T13:33:49.011Z",
+      "lastSeenAt": "2026-10-07T23:10:07.729Z",
       "description": "",
       "editorialTypes": [
         "survey",
@@ -2432,7 +2465,7 @@
       "duplicateIds": [],
       "duplicates": [],
       "firstSeenAt": "2026-09-29T09:48:31.498Z",
-      "lastSeenAt": "2026-10-07T13:33:49.011Z",
+      "lastSeenAt": "2026-10-07T23:10:07.729Z",
       "description": "",
       "editorialTypes": []
     },
@@ -2487,7 +2520,7 @@
         }
       ],
       "firstSeenAt": "2026-09-29T09:48:31.498Z",
-      "lastSeenAt": "2026-10-07T13:33:49.011Z",
+      "lastSeenAt": "2026-10-07T23:10:07.729Z",
       "description": "",
       "editorialTypes": []
     },
@@ -2520,7 +2553,7 @@
       "duplicateIds": [],
       "duplicates": [],
       "firstSeenAt": "2026-09-29T09:48:31.498Z",
-      "lastSeenAt": "2026-10-07T13:33:49.011Z",
+      "lastSeenAt": "2026-10-07T23:10:07.729Z",
       "description": "",
       "editorialTypes": []
     },
@@ -2553,7 +2586,7 @@
       "duplicateIds": [],
       "duplicates": [],
       "firstSeenAt": "2026-09-29T09:48:31.498Z",
-      "lastSeenAt": "2026-10-07T13:33:49.011Z",
+      "lastSeenAt": "2026-10-07T23:10:07.729Z",
       "description": "",
       "editorialTypes": [
         "survey",
@@ -2589,7 +2622,7 @@
       "duplicateIds": [],
       "duplicates": [],
       "firstSeenAt": "2026-09-29T09:48:31.498Z",
-      "lastSeenAt": "2026-10-07T13:33:49.011Z",
+      "lastSeenAt": "2026-10-07T23:10:07.729Z",
       "description": "",
       "editorialTypes": []
     },
@@ -2622,7 +2655,7 @@
       "duplicateIds": [],
       "duplicates": [],
       "firstSeenAt": "2026-09-29T09:48:31.498Z",
-      "lastSeenAt": "2026-10-07T13:33:49.011Z",
+      "lastSeenAt": "2026-10-07T23:10:07.729Z",
       "description": "",
       "editorialTypes": []
     },
@@ -2655,7 +2688,7 @@
       "duplicateIds": [],
       "duplicates": [],
       "firstSeenAt": "2026-09-29T09:48:31.498Z",
-      "lastSeenAt": "2026-10-07T13:33:49.011Z",
+      "lastSeenAt": "2026-10-07T23:10:07.729Z",
       "description": "",
       "editorialTypes": []
     },
@@ -2688,7 +2721,7 @@
       "duplicateIds": [],
       "duplicates": [],
       "firstSeenAt": "2026-09-29T09:48:31.498Z",
-      "lastSeenAt": "2026-10-07T13:33:49.011Z",
+      "lastSeenAt": "2026-10-07T23:10:07.729Z",
       "description": "",
       "editorialTypes": []
     },
@@ -2721,7 +2754,7 @@
       "duplicateIds": [],
       "duplicates": [],
       "firstSeenAt": "2026-09-29T09:48:31.498Z",
-      "lastSeenAt": "2026-10-07T13:33:49.011Z",
+      "lastSeenAt": "2026-10-07T23:10:07.729Z",
       "description": "",
       "editorialTypes": []
     },
@@ -2754,7 +2787,7 @@
       "duplicateIds": [],
       "duplicates": [],
       "firstSeenAt": "2026-09-29T09:48:31.498Z",
-      "lastSeenAt": "2026-10-07T13:33:49.011Z",
+      "lastSeenAt": "2026-10-07T23:10:07.729Z",
       "description": "",
       "editorialTypes": []
     },
@@ -2787,7 +2820,7 @@
       "duplicateIds": [],
       "duplicates": [],
       "firstSeenAt": "2026-09-29T09:48:31.498Z",
-      "lastSeenAt": "2026-10-07T13:33:49.011Z",
+      "lastSeenAt": "2026-10-07T23:10:07.729Z",
       "description": "",
       "editorialTypes": []
     },
@@ -2820,7 +2853,7 @@
       "duplicateIds": [],
       "duplicates": [],
       "firstSeenAt": "2026-09-29T09:48:31.498Z",
-      "lastSeenAt": "2026-10-07T13:33:49.011Z",
+      "lastSeenAt": "2026-10-07T23:10:07.729Z",
       "description": "",
       "editorialTypes": []
     },
@@ -2853,7 +2886,7 @@
       "duplicateIds": [],
       "duplicates": [],
       "firstSeenAt": "2026-09-29T09:48:31.498Z",
-      "lastSeenAt": "2026-10-07T13:33:49.011Z",
+      "lastSeenAt": "2026-10-07T23:10:07.729Z",
       "description": "",
       "editorialTypes": []
     },
@@ -2886,7 +2919,7 @@
       "duplicateIds": [],
       "duplicates": [],
       "firstSeenAt": "2026-09-29T09:48:31.498Z",
-      "lastSeenAt": "2026-10-07T13:33:49.011Z",
+      "lastSeenAt": "2026-10-07T23:10:07.729Z",
       "description": "",
       "editorialTypes": []
     },
@@ -2919,7 +2952,7 @@
       "duplicateIds": [],
       "duplicates": [],
       "firstSeenAt": "2026-09-29T09:48:31.498Z",
-      "lastSeenAt": "2026-10-07T13:33:49.011Z",
+      "lastSeenAt": "2026-10-07T23:10:07.729Z",
       "description": "",
       "editorialTypes": []
     }
@@ -2928,7 +2961,7 @@
     {
       "sourceId": "ecb",
       "ok": true,
-      "fetchedAt": "2026-10-07T13:33:49.011Z",
+      "fetchedAt": "2026-10-07T23:10:07.729Z",
       "accepted": 15,
       "malformedItems": 0,
       "errors": []
@@ -2936,7 +2969,7 @@
     {
       "sourceId": "federal-reserve",
       "ok": true,
-      "fetchedAt": "2026-10-07T13:33:49.011Z",
+      "fetchedAt": "2026-10-07T23:10:07.729Z",
       "accepted": 15,
       "malformedItems": 0,
       "errors": []
@@ -2944,7 +2977,7 @@
     {
       "sourceId": "nbs-executive-board",
       "ok": true,
-      "fetchedAt": "2026-10-07T13:33:49.011Z",
+      "fetchedAt": "2026-10-07T23:10:07.729Z",
       "accepted": 18,
       "malformedItems": 0,
       "errors": []
@@ -2952,7 +2985,7 @@
     {
       "sourceId": "nbs-monetary-policy",
       "ok": true,
-      "fetchedAt": "2026-10-07T13:33:49.011Z",
+      "fetchedAt": "2026-10-07T23:10:07.729Z",
       "accepted": 30,
       "malformedItems": 0,
       "errors": []
