@@ -1,4 +1,85 @@
 {
   "schemaVersion": 1,
-  "drafts": []
+  "drafts": [
+    {
+      "id": "official-2026-09-18-ed1000a4",
+      "candidateId": "ed1000a4443d9e8b50162066",
+      "slug": "ecb-consumer-expectations-survey-results-august-2026-ed1000a4",
+      "category": "Inflation",
+      "publishedAt": "2026-09-18T08:00:00.000Z",
+      "updatedAt": "2026-09-18T08:00:00.000Z",
+      "status": "draft",
+      "indexable": false,
+      "currencies": [
+        "EUR"
+      ],
+      "translations": null,
+      "sources": [
+        {
+          "sourceId": "ecb",
+          "name": "European Central Bank",
+          "originalTitle": "ECB Consumer Expectations Survey results – August 2026",
+          "originalUrl": "https://www.ecb.europa.eu/press/pr/date/2026/html/ecb.pr260918~295b3ab978.en.html",
+          "publishedAt": "2026-09-18T08:00:00.000Z",
+          "externalId": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260918~295b3ab978.en.html",
+          "metadata": {
+            "feedUrl": "https://www.ecb.europa.eu/rss/press.html",
+            "role": "primary"
+          }
+        }
+      ],
+      "quality": {
+        "publicationReady": false,
+        "errors": [
+          "en translation is required",
+          "sr translation is required",
+          "ru translation is required"
+        ]
+      },
+      "editorialTypes": [
+        "survey",
+        "expectations"
+      ]
+    },
+    {
+      "id": "official-2026-09-17-d5a67ad3",
+      "candidateId": "d5a67ad37a0a1a03b74c32ee",
+      "slug": "results-of-the-inflation-expectations-survey-d5a67ad3",
+      "category": "Inflation",
+      "publishedAt": "2026-09-17T11:52:54.000Z",
+      "updatedAt": "2026-09-17T11:52:54.000Z",
+      "status": "draft",
+      "indexable": false,
+      "currencies": [
+        "RSD"
+      ],
+      "translations": null,
+      "sources": [
+        {
+          "sourceId": "nbs-monetary-policy",
+          "name": "National Bank of Serbia",
+          "originalTitle": "Results of the Inflation Expectations Survey",
+          "originalUrl": "https://www.nbs.rs/en/scripts/showcontent/index.html?id=21729&konverzija=no",
+          "publishedAt": "2026-09-17T11:52:54.000Z",
+          "externalId": "https://www.nbs.rs/en/scripts/showcontent/index.html?id=21729&konverzija=no",
+          "metadata": {
+            "feedUrl": "https://nbs.rs/system/modules/yu.nbs.news/elements/responsive/RSSnews.xml?kategorija=19&konverzija=no&lang=en",
+            "role": "primary"
+          }
+        }
+      ],
+      "quality": {
+        "publicationReady": false,
+        "errors": [
+          "en translation is required",
+          "sr translation is required",
+          "ru translation is required"
+        ]
+      },
+      "editorialTypes": [
+        "survey",
+        "expectations"
+      ]
+    }
+  ]
 }

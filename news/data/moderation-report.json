@@ -1,0 +1,82 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-10-08T06:14:40.880Z",
+  "contentProvider": "ManualReviewContentProvider",
+  "summary": {
+    "candidatesInspected": 1,
+    "reconsideredDrafts": 2,
+    "proposed": 0,
+    "openDrafts": 2,
+    "publicationReady": 0,
+    "rejected": 1,
+    "duplicates": 0
+  },
+  "proposed": [
+    {
+      "id": "official-2026-09-18-ed1000a4",
+      "title": "ECB Consumer Expectations Survey results – August 2026",
+      "currencies": [
+        "EUR"
+      ],
+      "category": "Inflation",
+      "editorialTypes": [
+        "survey",
+        "expectations"
+      ],
+      "publishedAt": "2026-09-18T08:00:00.000Z",
+      "sources": [
+        {
+          "name": "European Central Bank",
+          "url": "https://www.ecb.europa.eu/press/pr/date/2026/html/ecb.pr260918~295b3ab978.en.html",
+          "role": "primary"
+        }
+      ],
+      "candidateQuality": true,
+      "publicationReady": false,
+      "publicationErrors": [
+        "en translation is required",
+        "sr translation is required",
+        "ru translation is required"
+      ]
+    },
+    {
+      "id": "official-2026-09-17-d5a67ad3",
+      "title": "Results of the Inflation Expectations Survey",
+      "currencies": [
+        "RSD"
+      ],
+      "category": "Inflation",
+      "editorialTypes": [
+        "survey",
+        "expectations"
+      ],
+      "publishedAt": "2026-09-17T11:52:54.000Z",
+      "sources": [
+        {
+          "name": "National Bank of Serbia",
+          "url": "https://www.nbs.rs/en/scripts/showcontent/index.html?id=21729&konverzija=no",
+          "role": "primary"
+        }
+      ],
+      "candidateQuality": true,
+      "publicationReady": false,
+      "publicationErrors": [
+        "en translation is required",
+        "sr translation is required",
+        "ru translation is required"
+      ]
+    }
+  ],
+  "rejected": [
+    {
+      "id": "2f6429df844d1d75e012d2b5",
+      "title": "Piero Cipollone: Interview with Corriere della Sera",
+      "reasons": [
+        "candidate does not contain a supported monetary-policy signal",
+        "title matches an excluded low-priority content type",
+        "standalone value is too low for Balkan Converter users"
+      ]
+    }
+  ],
+  "duplicates": []
+}
