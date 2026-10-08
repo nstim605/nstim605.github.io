@@ -67,9 +67,9 @@ test('all 44 policy HTML files retain every byte except approved standalone init
         const { before, title } = copy;
         const slots = ['<nav aria-label="' + before + '">'];
         slots.push(
-          '<title>' + before + ' — Balkan Currency Converter</title>',
+          '<title>' + before + ' — BALCO Converter</title>',
           '<meta name="description" content="' + before + '">',
-          '<meta property="og:title" content="' + before + ' — Balkan Currency Converter">',
+          '<meta property="og:title" content="' + before + ' — BALCO Converter">',
           '<h1>' + before + '</h1>');
         for (const old of slots) {
           const count = old.startsWith('<a ') ? 2 : 1;

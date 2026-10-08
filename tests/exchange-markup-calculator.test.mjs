@@ -62,7 +62,7 @@ test('calculator page has indexable metadata, valid form semantics, and homepage
     fs.readFile(path.join(root, 'index.html'), 'utf8'),
     fs.readFile(path.join(root, 'sitemap.xml'), 'utf8')
   ]);
-  assert.match(page, /<title>Exchange Rate Markup Calculator \| Balkan Currency Converter<\/title>/);
+  assert.match(page, /<title>Exchange Rate Markup Calculator \| BALCO Converter<\/title>/);
   assert.match(page, /rel="canonical" href="https:\/\/balkanconverter\.com\/exchange-rate-markup-calculator\/"/);
   assert.match(page, /<h1 id="calculator-title">Exchange Rate Markup Calculator<\/h1>/);
   assert.match(page, /id="markup-form"/);

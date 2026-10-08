@@ -58,7 +58,7 @@ test('page is distinct, indexable, linked, and privacy-aware', async () => {
     fs.readFile(path.join(root, 'currency-converter/index.html'), 'utf8'),
     fs.readFile(path.join(root, 'sitemap.xml'), 'utf8')
   ]);
-  assert.match(page, /<title>Foreign Transaction Fee &amp; DCC Calculator \| Balkan Converter<\/title>/);
+  assert.match(page, /<title>Foreign Transaction Fee &amp; DCC Calculator \| BALCO Converter<\/title>/);
   assert.match(page, /rel="canonical" href="https:\/\/balkanconverter\.com\/foreign-transaction-fee-calculator\/"/);
   assert.equal((page.match(/<h1\b/g) || []).length, 1);
   assert.match(page, /Pay in local currency or use the offered conversion\?/);

@@ -18,7 +18,7 @@ Meta description: 使用最新的可用參考匯率在兩種貨幣之間轉換�
 ### Complete visible main content
 
 ```text
-返回Balkan Currency Converter
+返回BALCO Converter
 免費貨幣工具
 貨幣換算
 在兩種貨幣之間轉換金額並查看最新的可用參考匯率、日期及其來源。
@@ -40,13 +40,13 @@ Frankfurter 參考匯率 API
 需要不同的觀點嗎？
 可透過匯率歷史查看貨幣對的變化，用多幣別換算器將同一金額換算為多種貨幣，用匯率差額計算器檢查兌換報價，或用手續費與 DCC 計算器比較信用卡、提款和 DCC 成本。
 有關 Android 的更多工具
-用 Balkan Converter 轉換
+用 BALCO Converter 轉換
 Android 應用程式還提供計算器、離線匯率、旅行貨幣看板、實際兌換成本、已儲存組合、匯率歷史、圖表和主畫面小工具。
 ```
 
 ### Additional dynamic messages
 
-- © 2026 Balkan Currency Converter
+- © 2026 BALCO Converter
 - 了解更多
 - 分析選擇
 - 切換到深色主題
@@ -58,7 +58,7 @@ Android 應用程式還提供計算器、離線匯率、旅行貨幣看板、實
 - 可選分析
 - 正在加載最新費率...
 - 正在獲取最新的參考匯率...
-- 在 Google Play 上取得 Balkan Currency Converter
+- 在 Google Play 上取得 BALCO Converter
 - 多幣種
 - 利率日期不可用。
 - 使用最新的可用參考匯率在兩種貨幣之間進行轉換。
@@ -81,20 +81,20 @@ Android 應用程式還提供計算器、離線匯率、旅行貨幣看板、實
 - 隱私
 - 隱私權政策
 - Android 的貨幣換算
-- Balkan Currency Converter 家
+- BALCO Converter 家
 
 ## 匯率差額計算器
 
 URL: `/zh-hant/exchange-rate-markup-calculator/`
 
-Title: 匯率差額計算器 | Balkan Currency Converter
+Title: 匯率差額計算器 | BALCO Converter
 
 Meta description: 將兌換報價與最新參考匯率比較。計算實收金額、絕對差額和百分比差額。
 
 ### Complete visible main content
 
 ```text
-返回Balkan Currency Converter
+返回BALCO Converter
 免費貨幣工具
 匯率差額計算器
 將兌換服務提供的金額與最新可用參考匯率比較，並在兌換前查看實際差額。
@@ -123,13 +123,13 @@ RSD：塞爾維亞第納爾
 本結果僅供資訊比較，不構成財務建議。報價可能包含服務費、信用卡費用、現金處理費或服務商價差；參考匯率不保證實際成交匯率。
 要比較信用卡或 ATM 交易與商家提供的卡片幣別換算，可使用手續費與 DCC 計算器。如需快速換算一組貨幣對，請開啟貨幣換算器。透過多幣別換算器可將同一金額換算為多種貨幣；離線使用指南則說明已儲存匯率的運作方式。
 外出時需要這個嗎？
-比較 Balkan Converter 中的費用
+比較 BALCO Converter 中的費用
 Android 應用程式還提供實際兌換成本、離線匯率、旅行貨幣看板、已儲存組合、圖表和主畫面小工具。
 ```
 
 ### Additional dynamic messages
 
-- © 2026 Balkan Currency Converter
+- © 2026 BALCO Converter
 - 了解更多
 - 分析選擇
 - 切換到深色主題
@@ -144,7 +144,7 @@ Android 應用程式還提供實際兌換成本、離線匯率、旅行貨幣看
 - 未傳回參考匯率。
 - 正在加載最新費率...
 - 正在獲取最新的參考匯率...
-- 在 Google Play 上取得 Balkan Currency Converter
+- 在 Google Play 上取得 BALCO Converter
 - 例如，11,500
 - 拒絕分析
 - 金額和比率必須為正數。
@@ -161,7 +161,7 @@ Android 應用程式還提供實際兌換成本、離線匯率、旅行貨幣看
 - 報價比參考結果低 {percentage}。
 - 報價比參考結果高 {percentage}。
 - 無法加載費率。檢查您的連線並重試。
-- 匯率差額計算器 | Balkan Currency Converter
+- 匯率差額計算器 | BALCO Converter
 - 該貨幣對沒有參考匯率。
 - 跳至計算機
 - 請透過 Google Play 取得
@@ -171,7 +171,7 @@ Android 應用程式還提供實際兌換成本、離線匯率、旅行貨幣看
 - 隱私
 - 隱私權政策
 - Android 的貨幣換算
-- Balkan Currency Converter 家
+- BALCO Converter 家
 
 ## 多幣種轉換器
 
@@ -179,12 +179,12 @@ URL: `/zh-hant/multi-currency-converter/`
 
 Title: 多貨幣轉換器 | 將一筆金額轉換為多種貨幣
 
-Meta description: 使用最新的可用參考匯率將一筆金額一次性轉換為多種貨幣。來自 Balkan Converter 的免費多貨幣轉換器。
+Meta description: 使用最新的可用參考匯率將一筆金額一次性轉換為多種貨幣。來自 BALCO Converter 的免費多貨幣轉換器。
 
 ### Complete visible main content
 
 ```text
-返回Balkan Currency Converter
+返回BALCO Converter
 免費貨幣工具
 多幣種轉換器
 輸入一筆金額並使用最新的可用參考匯率同時比較其多種貨幣的價值。
@@ -201,13 +201,13 @@ Meta description: 使用最新的可用參考匯率將一筆金額一次性轉�
 選擇正確的視圖
 如只需換算一組貨幣對，請使用貨幣換算器。在匯率歷史中查看變化，用匯率差額計算器檢查兌換報價，並在離線使用指南中瞭解如何在沒有網路時使用已儲存匯率。
 隨時隨地使用更多貨幣
-使用 Balkan Converter 的 Travel Board
+使用 BALCO Converter 的 Travel Board
 Android 應用程式可集中顯示多種旅行貨幣，支援調整順序，並可準備匯率供離線使用。
 ```
 
 ### Additional dynamic messages
 
-- © 2026 Balkan Currency Converter
+- © 2026 BALCO Converter
 - 了解更多
 - 分析選擇
 - 切換到深色主題
@@ -222,14 +222,14 @@ Android 應用程式可集中顯示多種旅行貨幣，支援調整順序，並
 - 正在獲取最新的參考匯率...
 - 目標貨幣必須與基礎貨幣不同。
 - 同時將一筆金額轉換為多種貨幣。
-- 在 Google Play 上取得 Balkan Currency Converter
+- 在 Google Play 上取得 BALCO Converter
 - 多貨幣轉換器 | 將一筆金額轉換為多種貨幣
 - 至
 - 至少選擇一種目標貨幣。
 - 刪除目標貨幣
 - 每個目標都需要一個有效率。
 - 每種目標貨幣只選擇一次。
-- 使用最新的可用參考匯率將一筆金額一次性轉換為多種貨幣。來自 Balkan Converter 的免費多貨幣轉換器。
+- 使用最新的可用參考匯率將一筆金額一次性轉換為多種貨幣。來自 BALCO Converter 的免費多貨幣轉換器。
 - 使用最新的可用參考匯率將一筆金額轉換為多種貨幣。
 - 拒絕分析
 - 金額和基本費率必須為正數。
@@ -247,7 +247,7 @@ Android 應用程式可集中顯示多種旅行貨幣，支援調整順序，並
 - 隱私
 - 隱私權政策
 - Android 的貨幣換算
-- Balkan Currency Converter 家
+- BALCO Converter 家
 
 ## 離線貨幣轉換器：節省的匯率如何運作
 
@@ -260,7 +260,7 @@ Meta description: 了解離線貨幣轉換器如何使用已儲存日期的匯�
 ### Complete visible main content
 
 ```text
-返回Balkan Currency Converter
+返回BALCO Converter
 線下匯率指南
 離線貨幣轉換器：節省的匯率如何運作
 透過使用成功保存在您裝置上的最新匯率，轉換器可以在沒有網路的情況下繼續運作。這些費率是有用的參考資料，但它們仍然與原始日期相關，直到應用程式可以在線刷新它們。
@@ -277,7 +277,7 @@ Meta description: 了解離線貨幣轉換器如何使用已儲存日期的匯�
 保存的資料是最近成功的參考率回應的快照。它可以在沒有網路連線的情況下計算轉化，但當設備離線時，數字不會更新。
 請務必檢查顯示的費率日期。基於昨天匯率的結果可能仍然對規劃有用，但這並不是銀行、卡片提供者或兌換處今天提供的匯率的承諾。
 當網路恢復時會發生什麼？
-Balkan Converter 使用一個共享本地速率快取進行正常轉換和保存集準備。成功的線上刷新會取代舊的快取資料集並更新其日期並節省時間。
+BALCO Converter 使用一個共享本地速率快取進行正常轉換和保存集準備。成功的線上刷新會取代舊的快取資料集並更新其日期並節省時間。
 如果刷新失敗，應用程式將回退到先前的快取速率，而不是刪除它們。
 準備保存集以供離線使用
 在 Android 應用程式中，為您需要的貨幣建立或開啟「已儲存集」。連接後，選擇 離線保存費率。當已儲存的快取包含該集中的每種貨幣時，應用程式會刷新共享匯率資料集並確認準備就緒。
@@ -286,7 +286,7 @@ Balkan Converter 使用一個共享本地速率快取進行正常轉換和保存
 離線轉換可以在連接不良、漫遊中斷、臨時服務中斷或快速參考估計比沒有結果更有用的任何情況下提供幫助。
 如需快速存取已儲存的貨幣對，請參閱Android 小工具指南。使用貨幣換算器進行線上換算，透過多幣別換算器將同一金額換算為多種貨幣，或用匯率差額計算器檢查兌換報價。
 手邊保留一份註明日期的參考資料
-使用Balkan Converter中儲存的費率
+使用BALCO Converter中儲存的費率
 Android 應用程式可以在沒有連線的情況下重複使用其最新成功的匯率緩存，並清楚地識別快取的資料及其匯率日期。
 ```
 
@@ -298,14 +298,14 @@ Android 應用程式可以在沒有連線的情況下重複使用其最新成功
 
 URL: `/zh-hant/exchange-rate-history/`
 
-Title: 匯率歷史與貨幣圖表 | Balkan Converter
+Title: 匯率歷史與貨幣圖表 | BALCO Converter
 
 Meta description: 查看 30 天、90 天或一年的匯率歷史記錄，繪製貨幣對圖表，並找出特定日期的參考匯率。
 
 ### Complete visible main content
 
 ```text
-返回Balkan Currency Converter
+返回BALCO Converter
 歷史參考匯率工具
 匯率歷史和貨幣圖表
 了解貨幣對在 30 天、90 天或一年內的變動情況，並找出特定日期的參考匯率。
@@ -344,7 +344,7 @@ Frankfurter 參考匯率 API
 使用圖表來查看方向和變化，而不是預測下一步走勢。有些提供者不會在每個日曆日發布。如果 API 從另一個可用日期傳回數據，則查找會報告實際數據日期，而不是將其顯示為您選擇的日期。
 如需按最新可用匯率換算，請使用貨幣換算器。如需將兌換報價與參考匯率結果比較，請開啟匯率差額計算器。
 保持有用的配對靠近
-看看Balkan Converter中的圖表
+看看BALCO Converter中的圖表
 Android 應用程式包括 30 天匯率圖表、固定貨幣對、離線參考匯率和其他貨幣工具。
 ```
 
@@ -352,7 +352,7 @@ Android 應用程式包括 30 天匯率圖表、固定貨幣對、離線參考�
 
 - {base} 到 {quote} 參考匯率歷史記錄從 {from} 到 {to}。最小值為 {minimum}，最大值為 {maximum}。
 - {base}/{quote} 匯率歷史記錄
-- © 2026 Balkan Currency Converter
+- © 2026 BALCO Converter
 - 了解更多
 - 已載入 {count} 日期的參考匯率。
 - 分析選擇
@@ -365,7 +365,7 @@ Android 應用程式包括 30 天匯率圖表、固定貨幣對、離線參考�
 - 正在取得歷史參考匯率…
 - 正在查找利率...
 - 正在獲取歷史參考匯率...
-- 在 Google Play 上取得 Balkan Currency Converter
+- 在 Google Play 上取得 BALCO Converter
 - 多幣種
 - 此期間的最新可用數據：{date}。
 - 此選擇沒有可用的歷史匯率。
@@ -383,7 +383,7 @@ Android 應用程式包括 30 天匯率圖表、固定貨幣對、離線參考�
 - 無法載入歷史匯率。檢查您的連線並重試。
 - 匯率歷史控制和圖表
 - 匯率歷史圖表
-- 匯率歷史與貨幣圖表 | Balkan Converter
+- 匯率歷史與貨幣圖表 | BALCO Converter
 - 跳至匯率歷史記錄
 - 載入歷史記錄...
 - 請透過 Google Play 取得
@@ -398,50 +398,50 @@ Android 應用程式包括 30 天匯率圖表、固定貨幣對、離線參考�
 - 繪製歷史參考匯率圖表並按日期找出貨幣匯率。
 - Android 的貨幣換算
 - API 傳回了日期為 {date} 的參考資料。
-- Balkan Currency Converter 家
+- BALCO Converter 家
 
 ## Android 的貨幣轉換器小工具
 
 URL: `/zh-hant/currency-converter-widget/`
 
-Title: Android 的貨幣轉換器小工具 | Balkan Converter
+Title: Android 的貨幣轉換器小工具 | BALCO Converter
 
 Meta description: 將貨幣轉換器小工具新增至您的 Android 主螢幕，以便快速存取快取的匯率、匯率日期、掉期操作和應用程式捷徑。
 
 ### Complete visible main content
 
 ```text
-返回Balkan Currency Converter
+返回BALCO Converter
 Android 主畫面指南
 Android 的貨幣轉換器小工具
-在主螢幕上保留一種有用的貨幣對。 Balkan Converter 小工具顯示快取的參考匯率及其資料日期，在應用程式中開啟該對，並支援在其更廣泛的佈局中快速交換。
+在主螢幕上保留一種有用的貨幣對。 BALCO Converter 小工具顯示快取的參考匯率及其資料日期，在應用程式中開啟該對，並支援在其更廣泛的佈局中快速交換。
 如何添加小部件
-一般 Android 主畫面上的 Balkan Converter 正式版小工具。
+一般 Android 主畫面上的 BALCO Converter 正式版小工具。
 四個快速步驟
 新增貨幣小部件
 啟動器標籤因 Android 裝置而略有不同，但標準主螢幕流程是相同的。
 準備一對
-開啟Balkan Converter，選擇您想要的貨幣，然後讓最新的參考匯率成功載入。
+開啟BALCO Converter，選擇您想要的貨幣，然後讓最新的參考匯率成功載入。
 打開小部件
 觸碰並按住 Android 主畫面的空白部分，然後選擇 小部件.
 放置小工具
-找到 Balkan Converter 並將貨幣小工具拖曳到主螢幕的空閒區域。
+找到 BALCO Converter 並將貨幣小工具拖曳到主螢幕的空閒區域。
 調整大小並使用
 調整其大小以適合。點擊該卡可在應用程式中開啟該對；更寬的小工具還顯示一個交換按鈕。
 小工具顯示的內容
 卡片顯示所選貨幣對的參考匯率、資料狀態和匯率日期。每個小工具最初使用應用程式最近使用的貨幣對，之後會記住自己的貨幣對。
-點擊小工具會開啟 Balkan Converter，並準備好這些貨幣。在中等寬度的小工具上，交換控制項會直接在主畫面上反轉該對。
+點擊小工具會開啟 BALCO Converter，並準備好這些貨幣。在中等寬度的小工具上，交換控制項會直接在主畫面上反轉該對。
 為什麼日期很重要
-小工具使用應用程式最近成功快取的匯率資料；它不是獨立的即時市場行情來源。Balkan Converter 成功重新整理匯率後，已安裝的小工具會收到更新後的快取資料。
+小工具使用應用程式最近成功快取的匯率資料；它不是獨立的即時市場行情來源。BALCO Converter 成功重新整理匯率後，已安裝的小工具會收到更新後的快取資料。
 沒有網路連線時，上次儲存的參考匯率仍可用於估算，顯示的日期會說明資料的新舊程度。詳情請參閱離線使用指南。
 小佈局還是寬佈局？
 緊湊的佈局使費率和日期在較小的空間內清晰可見。當您想要與匯率一起進行專用交換操作時，請使小部件更寬。
 Android 啟動器控制確切的網格大小，因此可用的調整大小步驟在手機和平板電腦之間可能有所不同。
 對於不只一對快速配對
 開啟應用程式即可輸入金額、換算貨幣、查看匯率歷史、比較多種貨幣，或儲存匯率供離線使用。
-此小工具設計為快速瀏覽和快捷方式，而 Balkan Converter 則提供完整的轉換工作流程。
+此小工具設計為快速瀏覽和快捷方式，而 BALCO Converter 則提供完整的轉換工作流程。
 轉換一目了然
-將 Balkan Converter 新增到您的主螢幕
+將 BALCO Converter 新增到您的主螢幕
 安裝 Android 應用程式，載入所需貨幣對，然後將正式版小工具放在主畫面上方便使用的位置。
 ```
 
@@ -453,14 +453,14 @@ Android 啟動器控制確切的網格大小，因此可用的調整大小步驟
 
 URL: `/zh-hant/foreign-transaction-fee-calculator/`
 
-Title: 海外交易手續費與 DCC 計算器 | Balkan Converter
+Title: 海外交易手續費與 DCC 計算器 | BALCO Converter
 
 Meta description: 比較以當地貨幣付款與信用卡或 ATM 提供的 DCC 報價，並按目前參考匯率計入海外交易手續費和固定費用。
 
 ### Complete visible main content
 
 ```text
-返回Balkan Currency Converter
+返回BALCO Converter
 卡片和 ATM 比較
 海外交易手續費與 DCC 計算器
 使用當地貨幣支付還是使用提供的兌換？ 根據最新的可用參考匯率和您輸入的費用估算這兩個選項。
@@ -501,13 +501,13 @@ DCC 是商家或 ATM 提供的服務，可在交易到達您的銀行卡之前�
 參考匯率和日期
 參考匯率提供中立的比較基準，並不保證實際成交匯率。結果會顯示 Frankfurter 參考匯率 API 傳回的市場日期。
 在手機上比較
-請與 Balkan Converter 查看兌換優惠
-Android 版 Balkan Converter 提供「實際兌換成本」功能，可將兌換報價及其費用與參考結果比較。
+請與 BALCO Converter 查看兌換優惠
+Android 版 BALCO Converter 提供「實際兌換成本」功能，可將兌換報價及其費用與參考結果比較。
 ```
 
 ### Additional dynamic messages
 
-- © 2026 Balkan Currency Converter
+- © 2026 BALCO Converter
 - 了解更多
 - 分析選擇
 - 切換到深色主題
@@ -520,7 +520,7 @@ Android 版 Balkan Converter 提供「實際兌換成本」功能，可將兌換
 - 可選分析
 - 正在加載最新費率...
 - 正在獲取最新的參考匯率...
-- 在 Google Play 上取得 Balkan Currency Converter
+- 在 Google Play 上取得 BALCO Converter
 - 至
 - 估算當地貨幣卡的費用並比較可選的 DCC 報價。
 - 來自
@@ -535,7 +535,7 @@ Android 版 Balkan Converter 提供「實際兌換成本」功能，可將兌換
 - 根據最新可用參考匯率更新比較。
 - 海外交易手續費（{percentage}%）
 - 海外交易手續費計算器
-- 海外交易手續費與 DCC 計算器 | Balkan Converter
+- 海外交易手續費與 DCC 計算器 | BALCO Converter
 - 參考匯率日期：{date}。資料來源：Frankfurter 參考匯率 API。
 - 參考匯率日期無法取得。
 - 將本地貨幣卡或 ATM 交易與所提供的兌換進行比較。
@@ -555,7 +555,7 @@ Android 版 Balkan Converter 提供「實際兌換成本」功能，可將兌換
 - 隱私
 - 隱私權政策
 - Android 的貨幣換算
-- Balkan Currency Converter 家
+- BALCO Converter 家
 - DCC 引號必須大於零。
 - DCC 以下參考
 
@@ -563,14 +563,14 @@ Android 版 Balkan Converter 提供「實際兌換成本」功能，可將兌換
 
 URL: `/zh-hant/travel-budget-calculator/`
 
-Title: 兩種貨幣的旅遊預算計算器 | Balkan Converter
+Title: 兩種貨幣的旅遊預算計算器 | BALCO Converter
 
 Meta description: 按天數和類別估算旅行預算，加入固定費用和預留金，再按目前參考匯率換算總額。
 
 ### Complete visible main content
 
 ```text
-返回Balkan Currency Converter
+返回BALCO Converter
 免費旅行規劃工具
 旅行預算計算器
 以兩種貨幣估算您的旅行費用。 加入每日支出、固定費用和可選預留金——無需註冊。
@@ -610,12 +610,12 @@ Meta description: 按天數和類別估算旅行預算，加入固定費用和�
 住宿、膳食、當地交通和活動均為每日費用。在固定旅行費用下添加航班、鐵路通票或其他一次性費用。
 您旅行所需的貨幣
 將您需要的貨幣放在一起
-Android 版 Balkan Converter 提供「旅行貨幣看板」和「已儲存組合」，方便集中查看旅途中需要的貨幣。
+Android 版 BALCO Converter 提供「旅行貨幣看板」和「已儲存組合」，方便集中查看旅途中需要的貨幣。
 ```
 
 ### Additional dynamic messages
 
-- © 2026 Balkan Currency Converter
+- © 2026 BALCO Converter
 - 了解更多
 - 分析選擇
 - 切換到深色主題
@@ -628,13 +628,13 @@ Android 版 Balkan Converter 提供「旅行貨幣看板」和「已儲存組合
 - 可選分析
 - 正在加載最新費率...
 - 正在獲取最新的參考匯率...
-- 在 Google Play 上取得 Balkan Currency Converter
+- 在 Google Play 上取得 BALCO Converter
 - 在每個欄位中輸入有效數字。
 - 多幣種
 - 多幣種轉換器
 - 至
 - 來自
-- 兩種貨幣的旅遊預算計算器 | Balkan Converter
+- 兩種貨幣的旅遊預算計算器 | BALCO Converter
 - 拒絕分析
 - 按天數和類別估算旅行預算，加入固定費用和預留金，再按目前參考匯率換算總額。
 - 按類別以目的地和本國貨幣估算多日旅行預算。
@@ -661,7 +661,7 @@ Android 版 Balkan Converter 提供「旅行貨幣看板」和「已儲存組合
 - 隱私
 - 隱私權政策
 - Android 的貨幣換算
-- Balkan Currency Converter 家
+- BALCO Converter 家
 - Frankfurter 參考匯率 API
 
 ## Open language questions

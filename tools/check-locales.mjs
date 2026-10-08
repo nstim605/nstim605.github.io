@@ -13,7 +13,7 @@ const errors = [];
 const warnings = [];
 const pages = new Map();
 const expectedHreflangs = manifest.locales.map(locale => locale.hreflang);
-const intentionalEnglish = new Set(['Balkan Currency Converter', 'Google Play', '© 2026 Balkan Currency Converter',
+const intentionalEnglish = new Set(['BALCO Converter', 'Google Play', '© 2026 BALCO Converter',
   'Google Privacy Policy', 'Google Analytics', 'Google advertising policies', 'google_play_click']);
 
 if (android.length !== 44) errors.push(`Expected 44 Android locales, found ${android.length}`);

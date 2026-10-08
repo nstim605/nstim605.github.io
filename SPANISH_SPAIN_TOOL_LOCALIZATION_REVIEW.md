@@ -18,7 +18,7 @@ Meta description: Convierte un importe entre dos divisas con los últimos tipos 
 ### Complete visible main content
 
 ```text
-Volver a Balkan Currency Converter
+Volver a BALCO Converter
 Herramienta gratuita de divisas
 Conversor de divisas
 Convierte un importe entre dos divisas y consulta el último tipo de referencia disponible, su fecha y su fuente.
@@ -40,13 +40,13 @@ La fecha mostrada indica a qué día de mercado corresponden los datos de refere
 ¿Necesitas una vista diferente?
 Consulta la evolución de un par de divisas en el historial de tipos, compara un importe en varias divisas con el conversor multidivisa, evalúa una oferta de cambio con la calculadora de desviación del tipo de cambio o compara los costes de tarjeta, retirada y DCC con la calculadora de comisiones y DCC.
 Más herramientas en Android
-Convertir con Balkan Converter
+Convertir con BALCO Converter
 La aplicación Android también ofrece calculadora, tipos sin conexión, Travel Board, Actual Cost, conjuntos guardados, historial, gráficos y un widget para la pantalla de inicio.
 ```
 
 ### Additional dynamic messages
 
-- © 2026 Balkan Currency Converter
+- © 2026 BALCO Converter
 - Aceptar análisis
 - Análisis opcionales
 - Ayúdanos a entender cómo se utiliza el sitio. Firebase Analytics permanece desactivado salvo que aceptes.
@@ -62,13 +62,13 @@ La aplicación Android también ofrece calculadora, tipos sin conexión, Travel 
 - Convierte entre dos divisas con los últimos tipos de referencia disponibles.
 - Convierte un importe entre dos divisas con los últimos tipos de referencia disponibles.
 - Convierte un importe entre dos divisas con los últimos tipos de referencia disponibles. Consulta el tipo, su fecha y la fuente de los datos.
-- Descarga Balkan Currency Converter en Google Play
+- Descarga BALCO Converter en Google Play
 - El importe y los tipos deben ser números positivos.
 - Elige dos divisas diferentes.
 - Fecha
 - Fecha del tipo no disponible.
 - Inicio
-- Inicio de Balkan Currency Converter
+- Inicio de BALCO Converter
 - Introduce un importe mayor que cero.
 - Más información
 - Multidivisa
@@ -88,14 +88,14 @@ La aplicación Android también ofrece calculadora, tipos sin conexión, Travel 
 
 URL: `/es-es/exchange-rate-markup-calculator/`
 
-Title: Calculadora de desviación del tipo de cambio | Balkan Currency Converter
+Title: Calculadora de desviación del tipo de cambio | BALCO Converter
 
 Meta description: Compara una oferta de cambio con el último tipo de referencia. Calcula el importe recibido, la diferencia y la desviación porcentual respecto al resultado de referencia.
 
 ### Complete visible main content
 
 ```text
-Volver a Balkan Currency Converter
+Volver a BALCO Converter
 Herramienta gratuita de divisas
 Calculadora de desviación del tipo de cambio
 Compara el importe ofrecido por un servicio de cambio con el último tipo de referencia disponible. Consulta la diferencia y la desviación porcentual antes de cambiar moneda.
@@ -124,17 +124,17 @@ Importante saber
 Esta comparación es informativa y no constituye asesoramiento financiero. Una oferta puede incluir comisiones de servicio, cargos de tarjeta, costes por manejo de efectivo o un diferencial del proveedor. Los tipos de referencia no garantizan el tipo final de la operación.
 ¿Quieres comparar un pago con tarjeta o una retirada de efectivo con la conversión propuesta en la moneda de la tarjeta? Utiliza la calculadora de comisiones y DCC. Para convertir rápidamente un par de divisas, abre el conversor de divisas. Para comparar un importe en varias divisas, utiliza el conversor multidivisa; la guía de conversión sin conexión explica cómo funcionan los tipos guardados.
 ¿Necesitas esto mientras viajas?
-Comparar costes en Balkan Converter
+Comparar costes en BALCO Converter
 La aplicación Android también ofrece Actual Cost, tipos sin conexión, Travel Board, conjuntos guardados, gráficos y un widget para la pantalla de inicio.
 ```
 
 ### Additional dynamic messages
 
-- © 2026 Balkan Currency Converter
+- © 2026 BALCO Converter
 - Aceptar análisis
 - Análisis opcionales
 - Ayúdanos a entender cómo se utiliza el sitio. Firebase Analytics permanece desactivado salvo que aceptes.
-- Calculadora de desviación del tipo de cambio | Balkan Currency Converter
+- Calculadora de desviación del tipo de cambio | BALCO Converter
 - Cálculo actualizado con los últimos tipos de referencia disponibles.
 - Cambiar al tema claro
 - Cambiar al tema oscuro
@@ -147,11 +147,11 @@ La aplicación Android también ofrece Actual Cost, tipos sin conexión, Travel 
 - Consíguelo en Google Play
 - Conversión de divisas para Android
 - Conversor de divisas
-- Descarga Balkan Currency Converter en Google Play
+- Descarga BALCO Converter en Google Play
 - Elige dos divisas diferentes.
 - Fecha
 - Inicio
-- Inicio de Balkan Currency Converter
+- Inicio de BALCO Converter
 - Introduce dos importes mayores que cero.
 - La oferta está un {percentage} por debajo del resultado de referencia.
 - La oferta está un {percentage} por encima del resultado de referencia.
@@ -181,12 +181,12 @@ URL: `/es-es/multi-currency-converter/`
 
 Title: Conversor multidivisa | Convierte un importe a varias divisas
 
-Meta description: Convierte un importe a varias divisas a la vez con los últimos tipos de referencia disponibles. Un conversor multidivisa gratuito de Balkan Converter.
+Meta description: Convierte un importe a varias divisas a la vez con los últimos tipos de referencia disponibles. Un conversor multidivisa gratuito de BALCO Converter.
 
 ### Complete visible main content
 
 ```text
-Volver a Balkan Currency Converter
+Volver a BALCO Converter
 Herramienta gratuita de divisas
 Conversor multidivisa
 Introduce un importe y compara su valor en varias divisas a la vez con los últimos tipos de referencia disponibles.
@@ -203,13 +203,13 @@ Estos tipos son valores de referencia y pueden diferir del tipo ofrecido por un 
 Elige la vista correcta
 Para un solo par de divisas, utiliza el conversor de divisas. Consulta su evolución en el historial de tipos, evalúa una oferta de cambio con la calculadora de desviación del tipo de cambio o descubre cómo funciona la conversión sin Internet en la guía de conversión sin conexión.
 Más divisas durante el viaje
-Utiliza Travel Board en Balkan Converter
+Utiliza Travel Board en BALCO Converter
 La aplicación Android reúne varias divisas de viaje, permite reordenarlas y puede preparar tipos para usarlos sin conexión.
 ```
 
 ### Additional dynamic messages
 
-- © 2026 Balkan Currency Converter
+- © 2026 BALCO Converter
 - Aceptar análisis
 - Análisis opcionales
 - Ayúdanos a entender cómo se utiliza el sitio. Firebase Analytics permanece desactivado salvo que aceptes.
@@ -224,10 +224,10 @@ La aplicación Android reúne varias divisas de viaje, permite reordenarlas y pu
 - Conversiones actualizadas con los últimos tipos de referencia disponibles.
 - Conversor de divisas
 - Conversor multidivisa | Convierte un importe a varias divisas
-- Convierte un importe a varias divisas a la vez con los últimos tipos de referencia disponibles. Un conversor multidivisa gratuito de Balkan Converter.
+- Convierte un importe a varias divisas a la vez con los últimos tipos de referencia disponibles. Un conversor multidivisa gratuito de BALCO Converter.
 - Convierte un importe a varias divisas a la vez.
 - Convierte un importe a varias divisas con los últimos tipos de referencia disponibles.
-- Descarga Balkan Currency Converter en Google Play
+- Descarga BALCO Converter en Google Play
 - Divisa de destino
 - El importe y el tipo base deben ser números positivos.
 - Elige al menos una divisa de destino.
@@ -236,7 +236,7 @@ La aplicación Android reúne varias divisas de viaje, permite reordenarlas y pu
 - Fecha
 - Importe convertido
 - Inicio
-- Inicio de Balkan Currency Converter
+- Inicio de BALCO Converter
 - Introduce un importe mayor que cero.
 - Las divisas de destino deben ser diferentes de la divisa base.
 - Mantén al menos una divisa de destino.
@@ -267,7 +267,7 @@ Meta description: Descubre cómo utiliza un conversor sin conexión los tipos de
 ### Complete visible main content
 
 ```text
-Volver a Balkan Currency Converter
+Volver a BALCO Converter
 Guía de tipos de cambio sin conexión
 Conversor de divisas sin conexión: cómo funcionan los tipos guardados
 Un conversor puede seguir funcionando sin Internet con los últimos tipos de cambio guardados correctamente en el dispositivo. Son datos de referencia útiles, pero mantienen su fecha original hasta que la aplicación pueda actualizarlos en línea.
@@ -284,7 +284,7 @@ Qué significa un tipo guardado sin conexión
 Los datos guardados son una instantánea de la última respuesta válida con tipos de referencia. Permiten calcular conversiones sin conexión, pero los valores no se actualizan mientras el dispositivo está desconectado.
 Comprueba siempre la fecha del tipo mostrado. Un resultado basado en los tipos de ayer puede servir para planificar, pero no garantiza el tipo que ofrecerá hoy un banco, una entidad emisora de tarjetas o una oficina de cambio.
 ¿Qué ocurre cuando vuelve Internet?
-Balkan Converter utiliza la misma caché local de tipos para las conversiones normales y para preparar los conjuntos guardados. Una actualización en línea correcta sustituye los datos anteriores y actualiza tanto la fecha de los tipos como la hora de guardado.
+BALCO Converter utiliza la misma caché local de tipos para las conversiones normales y para preparar los conjuntos guardados. Una actualización en línea correcta sustituye los datos anteriores y actualiza tanto la fecha de los tipos como la hora de guardado.
 Si la actualización falla, la aplicación conserva los tipos guardados anteriormente en lugar de eliminarlos.
 Preparar un conjunto guardado para usarlo sin conexión
 En la aplicación Android, crea o abre un conjunto guardado con las divisas que necesites. Cuando tengas conexión, selecciona Guardar tipos para usarlos sin conexión. La aplicación actualiza el conjunto común de tipos y confirma que está listo cuando la caché contiene todas las divisas del conjunto guardado.
@@ -293,7 +293,7 @@ No existe un archivo de tipos congelado para cada viaje. Al preparar otro conjun
 La conversión sin conexión puede ayudarte si la conexión es deficiente, se interrumpe el roaming o el servicio deja de estar disponible temporalmente, y siempre que una estimación rápida resulte más útil que no obtener ningún resultado.
 Para consultar rápidamente un par de divisas guardado, utiliza la guía del widget para Android. Para convertir con conexión, abre el conversor de divisas, compara un importe en varias divisas con el conversor multidivisa o evalúa una oferta de cambio con la calculadora de desviación del tipo de cambio.
 Ten a mano una referencia fechada
-Usar tipos guardados en Balkan Converter
+Usar tipos guardados en BALCO Converter
 La aplicación Android puede reutilizar sin conexión la última caché de tipos guardada correctamente e indica claramente que son datos en caché y la fecha de esos tipos.
 ```
 
@@ -305,14 +305,14 @@ La aplicación Android puede reutilizar sin conexión la última caché de tipos
 
 URL: `/es-es/exchange-rate-history/`
 
-Title: Historial de tipos de cambio y gráfico de divisas | Balkan Converter
+Title: Historial de tipos de cambio y gráfico de divisas | BALCO Converter
 
 Meta description: Consulta el historial de tipos de cambio de 30 o 90 días, o de un año, representa un par de divisas y busca el tipo de referencia de una fecha concreta.
 
 ### Complete visible main content
 
 ```text
-Volver a Balkan Currency Converter
+Volver a BALCO Converter
 Herramienta de tipos de referencia históricos
 Historial de tipos de cambio y gráfico de divisas
 Consulta cómo evolucionó un par de divisas durante 30 o 90 días, o un año, y busca el tipo de referencia de una fecha concreta.
@@ -351,14 +351,14 @@ Fechas y tendencias
 Utiliza el gráfico para observar la dirección y la variación, no para predecir el próximo movimiento. No se publican datos todos los días naturales. Si la API devuelve otra fecha disponible, la consulta muestra la fecha real de esos datos en lugar de presentarlos como si correspondieran al día elegido.
 Para convertir con el último tipo disponible, utiliza el conversor de divisas. Para comparar una oferta de cambio con el resultado al tipo de referencia, abre la calculadora de desviación del tipo de cambio.
 Ten a mano los pares que más utilizas
-Ver gráficos en Balkan Converter
+Ver gráficos en BALCO Converter
 La aplicación Android incluye gráficos de tipos de los últimos 30 días, pares fijados, tipos de referencia sin conexión y otras herramientas de divisas.
 ```
 
 ### Additional dynamic messages
 
 - {count} tipos de referencia fechados cargados.
-- © 2026 Balkan Currency Converter
+- © 2026 BALCO Converter
 - Aceptar análisis
 - Análisis opcionales
 - Ayúdanos a entender cómo se utiliza el sitio. Firebase Analytics permanece desactivado salvo que aceptes.
@@ -374,17 +374,17 @@ La aplicación Android incluye gráficos de tipos de los últimos 30 días, pare
 - Controles y gráficos del historial de tipos de cambio
 - Conversión de divisas para Android
 - Conversor de divisas
-- Descarga Balkan Currency Converter en Google Play
+- Descarga BALCO Converter en Google Play
 - Elige dos divisas diferentes.
 - Elige una fecha histórica válida.
 - Elige una fecha válida que no sea futura.
 - Gráfico histórico del tipo de cambio
 - Has seleccionado el {selectedDate}; los datos publicados más próximos que devuelve la API corresponden al {date}.
 - Historia del tipo de cambio de {base}/{quote}
-- Historial de tipos de cambio y gráfico de divisas | Balkan Converter
+- Historial de tipos de cambio y gráfico de divisas | BALCO Converter
 - Historial del tipo de referencia de {base} a {quote}, del {from} al {to}. Mínimo: {minimum}; máximo: {maximum}.
 - Inicio
-- Inicio de Balkan Currency Converter
+- Inicio de BALCO Converter
 - La API devolvió datos de referencia con fecha {date}.
 - La respuesta del tipo histórico no es válida.
 - Más información
@@ -413,44 +413,44 @@ La aplicación Android incluye gráficos de tipos de los últimos 30 días, pare
 
 URL: `/es-es/currency-converter-widget/`
 
-Title: Widget del conversor de divisas para Android | Balkan Converter
+Title: Widget del conversor de divisas para Android | BALCO Converter
 
 Meta description: Añade un widget de conversión a la pantalla de inicio de Android para consultar rápidamente un tipo guardado y su fecha, invertir el par y abrir la aplicación.
 
 ### Complete visible main content
 
 ```text
-Volver a Balkan Currency Converter
+Volver a BALCO Converter
 Guía de pantalla de inicio de Android
 Widget del conversor de divisas para Android
-Ten un par de divisas útil en la pantalla de inicio. El widget de Balkan Converter muestra el tipo de referencia guardado en caché y la fecha de los datos, abre ese par en la aplicación y permite invertirlo rápidamente en el diseño ancho.
+Ten un par de divisas útil en la pantalla de inicio. El widget de BALCO Converter muestra el tipo de referencia guardado en caché y la fecha de los datos, abre ese par en la aplicación y permite invertirlo rápidamente en el diseño ancho.
 Cómo añadir el widget
-El widget de Balkan Converter en una pantalla de inicio normal de Android.
+El widget de BALCO Converter en una pantalla de inicio normal de Android.
 Cuatro pasos rápidos
 Añadir el widget de divisas
 Los nombres del menú pueden variar ligeramente según el dispositivo Android, pero el proceso habitual desde la pantalla de inicio es el mismo.
 Prepara un par
-Abre Balkan Converter, selecciona las divisas que quieras y espera a que se carguen correctamente los últimos tipos de referencia.
+Abre BALCO Converter, selecciona las divisas que quieras y espera a que se carguen correctamente los últimos tipos de referencia.
 Abrir widgets
 Mantén pulsada una zona vacía de la pantalla de inicio de Android y selecciona widgets.
 Colócalo
-Busca Balkan Converter y arrastra el widget de divisas a una zona libre de la pantalla de inicio.
+Busca BALCO Converter y arrastra el widget de divisas a una zona libre de la pantalla de inicio.
 Cambiar tamaño y usar
 Ajusta su tamaño. Toca la tarjeta para abrir ese par en la aplicación; el widget ancho también muestra un botón para invertirlo.
 Lo que muestra el widget
 La tarjeta muestra el tipo de referencia del par seleccionado, su estado de actualización y la fecha. Cada widget empieza con el último par usado en la aplicación y después recuerda el suyo.
-Al tocar el widget, Balkan Converter se abre con esas divisas preparadas. En un widget de anchura media, el control de inversión cambia el orden del par directamente desde la pantalla de inicio.
+Al tocar el widget, BALCO Converter se abre con esas divisas preparadas. En un widget de anchura media, el control de inversión cambia el orden del par directamente desde la pantalla de inicio.
 Por qué importa la fecha
-El widget utiliza los últimos tipos guardados correctamente por la aplicación; no es una fuente independiente de datos de mercado en tiempo real. Cuando Balkan Converter actualiza los tipos, los widgets instalados reciben los nuevos datos de la caché.
+El widget utiliza los últimos tipos guardados correctamente por la aplicación; no es una fuente independiente de datos de mercado en tiempo real. Cuando BALCO Converter actualiza los tipos, los widgets instalados reciben los nuevos datos de la caché.
 Sin Internet, el último tipo de referencia guardado sigue disponible para hacer estimaciones; la fecha indica la antigüedad de los datos. Consulta la guía de conversión sin conexión para obtener más información.
 ¿Diseño pequeño o ancho?
 El diseño compacto muestra el tipo y su fecha en menos espacio. Amplía el widget para ver el control de inversión junto al tipo.
 Los lanzadores Android controlan el tamaño exacto de la cuadrícula, por lo que los pasos de cambio de tamaño disponibles pueden diferir entre teléfonos y tabletas.
 Para más de un par rápido
 Abre la aplicación para introducir un importe, convertir divisas, consultar el historial de tipos, comparar varias divisas o preparar tipos guardados para usarlos sin conexión.
-El widget está diseñado como un acceso directo y un vistazo rápido, mientras que Balkan Converter proporciona el flujo de trabajo de conversión completo.
+El widget está diseñado como un acceso directo y un vistazo rápido, mientras que BALCO Converter proporciona el flujo de trabajo de conversión completo.
 Conversión de un vistazo
-Añade Balkan Converter a la pantalla de inicio
+Añade BALCO Converter a la pantalla de inicio
 Instala la aplicación Android, carga el par que prefieras y coloca el widget de conversión donde te resulte más cómodo.
 ```
 
@@ -462,14 +462,14 @@ Instala la aplicación Android, carga el par que prefieras y coloca el widget de
 
 URL: `/es-es/foreign-transaction-fee-calculator/`
 
-Title: Calculadora de comisiones en moneda extranjera y DCC | Balkan Converter
+Title: Calculadora de comisiones en moneda extranjera y DCC | BALCO Converter
 
 Meta description: Compara un pago en moneda local con la conversión dinámica (DCC) propuesta por un comercio o cajero. Incluye la comisión por operación en moneda extranjera y los costes fijos.
 
 ### Complete visible main content
 
 ```text
-Volver a Balkan Currency Converter
+Volver a BALCO Converter
 Comparación de tarjetas y cajeros automáticos
 Calculadora de comisiones en moneda extranjera y DCC
 ¿Pagar en moneda local o utilizar la conversión ofrecida? Estima ambas opciones con el último tipo de referencia disponible y las comisiones introducidas.
@@ -510,18 +510,18 @@ Si solo quieres comparar una oferta de cambio con el resultado al tipo de refere
 Tipo de referencia y fecha
 Los tipos de referencia ofrecen un punto de comparación neutral, no un tipo de cambio garantizado para la operación. El resultado muestra la fecha de mercado devuelta por la API Frankfurter de tipos de referencia.
 Compara en tu teléfono
-Comprueba ofertas de cambio con Balkan Converter
-Balkan Converter para Android incluye Actual Cost, que compara una oferta de cambio y sus comisiones con el resultado al tipo de referencia.
+Comprueba ofertas de cambio con BALCO Converter
+BALCO Converter para Android incluye Actual Cost, que compara una oferta de cambio y sus comisiones con el resultado al tipo de referencia.
 ```
 
 ### Additional dynamic messages
 
-- © 2026 Balkan Currency Converter
+- © 2026 BALCO Converter
 - Aceptar análisis
 - Análisis opcionales
 - Añade, si lo tienes, el importe total propuesto con DCC para comparar ambas formas de pago.
 - Ayúdanos a entender cómo se utiliza el sitio. Firebase Analytics permanece desactivado salvo que aceptes.
-- Calculadora de comisiones en moneda extranjera y DCC | Balkan Converter
+- Calculadora de comisiones en moneda extranjera y DCC | BALCO Converter
 - Calculadora de desviación
 - Cambiar al tema claro
 - Cambiar al tema oscuro
@@ -538,14 +538,14 @@ Balkan Converter para Android incluye Actual Cost, que compara una oferta de cam
 - Conversión de divisas para Android
 - Conversor de divisas
 - DCC por debajo del resultado de referencia
-- Descarga Balkan Currency Converter en Google Play
+- Descarga BALCO Converter en Google Play
 - El importe y los tipos deben ser números positivos.
 - El total propuesto con DCC debe ser mayor que cero.
 - Elige dos divisas diferentes.
 - Estima el coste de pagar con tarjeta en moneda local y compáralo, si procede, con una oferta DCC.
 - Fecha
 - Inicio
-- Inicio de Balkan Currency Converter
+- Inicio de BALCO Converter
 - Introduce comisiones iguales o superiores a cero.
 - Introduce un importe de compra o retirada mayor que cero.
 - Introduce un total DCC mayor que cero o deja el campo vacío.
@@ -573,14 +573,14 @@ Balkan Converter para Android incluye Actual Cost, que compara una oferta de cam
 
 URL: `/es-es/travel-budget-calculator/`
 
-Title: Calculadora de presupuesto de viaje en dos monedas | Balkan Converter
+Title: Calculadora de presupuesto de viaje en dos monedas | BALCO Converter
 
 Meta description: Estima el presupuesto diario por categorías, añade los costes fijos y un margen para imprevistos y convierte el total con los tipos de referencia actuales.
 
 ### Complete visible main content
 
 ```text
-Volver a Balkan Currency Converter
+Volver a BALCO Converter
 Herramienta gratuita de planificación de viajes
 Calculadora de presupuesto de viaje
 Calcula el coste de tu viaje en dos divisas. Añade los gastos diarios, los costes fijos y un margen opcional para imprevistos, sin crear una cuenta.
@@ -620,17 +620,17 @@ Qué incluir
 El alojamiento, las comidas, el transporte local y las actividades son importes diarios. Añade los vuelos, los abonos de tren u otros gastos únicos a los costes fijos del viaje.
 Divisas para tu viaje
 Ten juntas las divisas que necesitas
-Balkan Converter para Android incluye Travel Board y Saved Sets para tener a mano las divisas que necesitas durante el viaje.
+BALCO Converter para Android incluye Travel Board y Saved Sets para tener a mano las divisas que necesitas durante el viaje.
 ```
 
 ### Additional dynamic messages
 
-- © 2026 Balkan Currency Converter
+- © 2026 BALCO Converter
 - Aceptar análisis
 - Análisis opcionales
 - API Frankfurter de tipos de referencia
 - Ayúdanos a entender cómo se utiliza el sitio. Firebase Analytics permanece desactivado salvo que aceptes.
-- Calculadora de presupuesto de viaje en dos monedas | Balkan Converter
+- Calculadora de presupuesto de viaje en dos monedas | BALCO Converter
 - Cambiar al tema claro
 - Cambiar al tema oscuro
 - Cambiar tema de color
@@ -639,7 +639,7 @@ Balkan Converter para Android incluye Travel Board y Saved Sets para tener a man
 - Conversión de divisas para Android
 - Conversor de divisas
 - Conversor multidivisa
-- Descarga Balkan Currency Converter en Google Play
+- Descarga BALCO Converter en Google Play
 - Elige dos divisas diferentes.
 - Estima el presupuesto del viaje en la moneda de destino y en tu moneda de referencia.
 - Estima el presupuesto diario por categorías, añade los costes fijos y un margen para imprevistos y convierte el total con los tipos de referencia actuales.
@@ -648,7 +648,7 @@ Balkan Converter para Android incluye Travel Board y Saved Sets para tener a man
 - Fecha
 - Importe
 - Inicio
-- Inicio de Balkan Currency Converter
+- Inicio de BALCO Converter
 - Introduce al menos un importe del presupuesto mayor que cero.
 - Introduce los importes del presupuesto y un margen para imprevistos igual o superior a cero.
 - Introduce números válidos en todos los campos.

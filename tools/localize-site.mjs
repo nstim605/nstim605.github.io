@@ -110,25 +110,25 @@ async function androidStrings(locale) {
 }
 
 const esc = value => String(value).replaceAll('&', '&amp;').replaceAll('"', '&quot;').replaceAll('<', '&lt;').replaceAll('>', '&gt;');
-const brand = 'Balkan Currency Converter';
+const brand = 'BALCO Converter';
 const webPolicyDate = value => value;
 
 function localMap(strings, copy, privacyTitle, linkCopy) {
   const calculator = [strings.calculator_add, strings.calculator_subtract, strings.calculator_multiply, strings.calculator_divide].join(' · ');
   const map = {
-    'Balkan Currency Converter — Convert currencies quickly, anywhere': `${brand} — ${copy.h1}`,
+    'BALCO Converter — Convert currencies quickly, anywhere': `${brand} — ${copy.h1}`,
     'Convert currencies worldwide with Actual Cost, Travel Board, saved sets, offline rates, pinned pairs, history, and a home-screen widget.': copy.marketingSummary,
     'Convert currencies worldwide with travel-ready tools, offline rates, and a clear view of exchange costs.': copy.marketingSummary,
     'Convert currencies quickly, anywhere. Latest rates, offline access, favorites, history, charts and a built-in calculator.': copy.marketingSummary,
-    'Balkan Currency Converter app preview': `${brand} — ${copy.seeApp}`,
+    'BALCO Converter app preview': `${brand} — ${copy.seeApp}`,
     'Skip to content': copy.seeApp,
-    'Balkan Currency Converter home': brand,
+    'BALCO Converter home': brand,
     'Main navigation': copy.features,
     'Features': copy.features,
     'Screenshots': copy.screenshots,
     'Privacy': privacyTitle,
     'Switch color theme': strings.theme,
-    'Get Balkan Currency Converter on Google Play': `${brand} — Google Play`,
+    'Get BALCO Converter on Google Play': `${brand} — Google Play`,
     'Get it on Google Play': 'Google Play',
     'Currency utility for Android': strings.about_description,
     'Convert currencies quickly, anywhere': copy.h1,
@@ -157,9 +157,9 @@ function localMap(strings, copy, privacyTitle, linkCopy) {
     'Convert currencies used across dozens of countries with an adaptive, localized interface.': strings.all_currencies,
     'Inside the app': copy.seeApp,
     'A clear view of every conversion': copy.screenshots,
-    'Real screens from Balkan Currency Converter on Android.': strings.about_description,
-    'Balkan Currency Converter main converter with calculator keypad': `${copy.seeApp}: ${calculator}`,
-    'Balkan Currency Converter main conversion screen showing euros and Serbian dinars': `${brand}: ${strings.select_currency}`,
+    'Real screens from BALCO Converter on Android.': strings.about_description,
+    'BALCO Converter main converter with calculator keypad': `${copy.seeApp}: ${calculator}`,
+    'BALCO Converter main conversion screen showing euros and Serbian dinars': `${brand}: ${strings.select_currency}`,
     'Convert and calculate': calculator,
     'Rates and arithmetic in one place': strings.about_description,
     'Actual Cost screen comparing an exchange quote and fees with the reference rate': strings.actual_cost_explanation,
@@ -171,14 +171,14 @@ function localMap(strings, copy, privacyTitle, linkCopy) {
     'Saved Sets screen with trips ready for offline use': `${strings.trip_presets_title}: ${strings.offline_ready}`,
     'Prepare trips offline': strings.prepare_offline,
     'Save sets and cache their rates': `${strings.trip_presets_title} · ${strings.prepare_offline}`,
-    'Why Balkan Currency Converter': brand,
+    'Why BALCO Converter': brand,
     'Made for real-world calculations wherever you are': copy.h1,
     'Whether you are travelling, shopping across borders, or checking an everyday price, the app gives you access to currencies used across many countries worldwide.': strings.about_description,
     'Save trip sets, pin pairs from your history, check 30-day rate charts, and keep a cached conversion on your home screen.': `${strings.trip_presets_title}. ${strings.pinned_pairs_title}. ${strings.history_title}. ${strings.widget_description}.`,
-    'Balkan Currency Converter app icon': brand,
+    'BALCO Converter app icon': brand,
     'Ready when you are': copy.seeApp,
     'Take the converter with you': copy.ctaHeading,
-    'Download Balkan Currency Converter for Android from Google Play.': `${brand} — Google Play`,
+    'Download BALCO Converter for Android from Google Play.': `${brand} — Google Play`,
     'Currency conversion for Android': strings.about_description,
     'Footer navigation': privacyTitle,
     'Privacy Policy': privacyTitle,
@@ -186,9 +186,9 @@ function localMap(strings, copy, privacyTitle, linkCopy) {
     'Contact': strings.contact_developer,
     'Switch to light theme': `${strings.theme}: ${strings.theme_light}`,
     'Switch to dark theme': `${strings.theme}: ${strings.theme_dark}`,
-    'Privacy Policy — Balkan Currency Converter': `${privacyTitle} — ${brand}`,
-    'Privacy Policy for the Balkan Currency Converter Android application and website.': privacyTitle,
-    'How Balkan Currency Converter handles app data, exchange-rate requests, local storage, and advertising.': strings.privacy_policy_body.split('\n\n')[0],
+    'Privacy Policy — BALCO Converter': `${privacyTitle} — ${brand}`,
+    'Privacy Policy for the BALCO Converter Android application and website.': privacyTitle,
+    'How BALCO Converter handles app data, exchange-rate requests, local storage, and advertising.': strings.privacy_policy_body.split('\n\n')[0],
     'Back to home': strings.back,
     'Last updated:': webPolicyDate(strings.privacy_last_updated),
     'Home': strings.back
@@ -353,8 +353,8 @@ function finalize(html, locale, page, copy, strings) {
     `$1 data-label-dark="${esc(`${strings.theme}: ${strings.theme_dark}`)}"`);
   if (page === 'policy') html = html.replaceAll('href="/"', `href="${urlFor(locale, 'home')}"`);
   html = html.replace('class="brand" href="/"', `class="brand" href="${urlFor(locale, 'home')}"`);
-  html = html.replaceAll('<span>Balkan Currency Converter</span>', '<span dir="ltr">Balkan Currency Converter</span>');
-  html = html.replaceAll('<strong>Balkan Currency Converter</strong>', '<strong dir="ltr">Balkan Currency Converter</strong>');
+  html = html.replaceAll('<span>BALCO Converter</span>', '<span dir="ltr">BALCO Converter</span>');
+  html = html.replaceAll('<strong>BALCO Converter</strong>', '<strong dir="ltr">BALCO Converter</strong>');
   const consent = consentTemplate(copy, page);
   html = /<template id="analytics-consent-template">[\s\S]*?<\/template>/.test(html)
     ? html.replace(/<template id="analytics-consent-template">[\s\S]*?<\/template>/, consent.trim())
@@ -395,8 +395,8 @@ function finalizeTool(html, locale, slug, rawMap, copy, strings) {
   html = html.replaceAll('href="../styles.css"', 'href="../../styles.css"').replaceAll('href="../site.webmanifest"', 'href="../../site.webmanifest"');
   html = html.replaceAll('src="../script.js"', 'src="../../script.js"').replaceAll('src="../analytics.js"', 'src="../../analytics.js"');
   html = html.replace(new RegExp(`src="\\./([^\"]+\\.js)"`), `src="../../${slug}/$1"`);
-  html = html.replaceAll('<span>Balkan Currency Converter</span>', '<span dir="ltr">Balkan Currency Converter</span>');
-  html = html.replaceAll('<strong>Balkan Currency Converter</strong>', '<strong dir="ltr">Balkan Currency Converter</strong>');
+  html = html.replaceAll('<span>BALCO Converter</span>', '<span dir="ltr">BALCO Converter</span>');
+  html = html.replaceAll('<strong>BALCO Converter</strong>', '<strong dir="ltr">BALCO Converter</strong>');
   const dynamicMap = JSON.stringify(rawMap).replaceAll('<', '\\u003c');
   html = html.replace(/(<script type="module" src="[^"]+"><\/script>)/, `<script id="tool-i18n" type="application/json">${dynamicMap}</script>\n  $1`);
   const consent = consentTemplate(copy, slug).replace('privacy-policy.html#website-analytics', `${urlFor(locale, 'policy')}#website-analytics`);

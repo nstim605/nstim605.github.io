@@ -18,7 +18,7 @@ Meta description: Convertissez un montant entre deux devises avec les derniers t
 ### Complete visible main content
 
 ```text
-Retour à Balkan Currency Converter
+Retour à BALCO Converter
 Outil de change gratuit
 Convertisseur de devises
 Convertissez un montant entre deux devises et consultez le dernier taux de référence disponible, sa date et sa source.
@@ -40,16 +40,16 @@ La date affichée vous indique quel jour de marché représente la donnée de r�
 Besoin d'un autre outil ?
 Suivez l'évolution d'une paire de devises dans l'historique des taux, comparez un montant dans plusieurs devises avec le convertisseur multidevise, évaluez une offre de change avec le calculateur d'écart de change, ou comparez les frais de carte, de retrait et de DCC avec le calculateur de frais et de DCC.
 Plus d'outils sur Android
-Convertir avec Balkan Converter
+Convertir avec BALCO Converter
 L'application Android propose aussi une calculatrice, des taux hors ligne, le Tableau de voyage, l'outil Coût réel, des ensembles enregistrés, un historique, des graphiques et un widget d'écran d'accueil.
 ```
 
 ### Additional dynamic messages
 
-- © 2026 Balkan Currency Converter
+- © 2026 BALCO Converter
 - Accepter les analyses
 - Accueil
-- Accueil Balkan Currency Converter
+- Accueil BALCO Converter
 - Aidez-nous à comprendre l'utilisation du site. Firebase Analytics reste désactivé sauf si vous acceptez.
 - Analyses facultatives
 - Calculateur d'écart
@@ -74,7 +74,7 @@ L'application Android propose aussi une calculatrice, des taux hors ligne, le Ta
 - Multi-devises
 - Navigation en pied de page
 - Navigation principale
-- Obtenez Balkan Currency Converter sur Google Play
+- Obtenez BALCO Converter sur Google Play
 - Obtenez-le sur Google Play
 - Passer au convertisseur
 - Passer au thème clair
@@ -88,14 +88,14 @@ L'application Android propose aussi une calculatrice, des taux hors ligne, le Ta
 
 URL: `/fr/exchange-rate-markup-calculator/`
 
-Title: Calculateur d'écart de change | Balkan Currency Converter
+Title: Calculateur d'écart de change | BALCO Converter
 
 Meta description: Comparez une offre de change au dernier taux de référence. Calculez le montant reçu, la différence et l'écart en pourcentage par rapport au taux de référence.
 
 ### Complete visible main content
 
 ```text
-Retour à Balkan Currency Converter
+Retour à BALCO Converter
 Outil de change gratuit
 Calculateur d'écart de change
 Comparez le montant proposé par un service de change au dernier taux de référence disponible. Consultez la différence et l'écart en pourcentage avant l'échange.
@@ -124,22 +124,22 @@ Important à savoir
 Il s’agit d’une comparaison informative, pas de conseils financiers. Une offre peut inclure des frais de service, des frais de carte, le traitement des espèces ou le spread d’un fournisseur. Les taux de référence ne sont pas des taux de transaction garantis.
 Vous comparez un paiement par carte ou un retrait avec une conversion proposée dans la devise de votre carte ? Utilisez le calculateur de frais et de DCC. Pour convertir rapidement une paire de devises, ouvrez le convertisseur de devises. Pour comparer un montant dans plusieurs devises, utilisez le convertisseur multidevise ; le guide de conversion hors ligne explique le fonctionnement des cours enregistrés.
 Besoin de ça en déplacement ?
-Comparez les coûts dans Balkan Converter
+Comparez les coûts dans BALCO Converter
 L'application Android propose aussi l'outil Coût réel, des taux hors ligne, le Tableau de voyage, des ensembles enregistrés, des graphiques et un widget d'écran d'accueil.
 ```
 
 ### Additional dynamic messages
 
-- © 2026 Balkan Currency Converter
+- © 2026 BALCO Converter
 - Accepter les analyses
 - Accueil
-- Accueil Balkan Currency Converter
+- Accueil BALCO Converter
 - Aidez-nous à comprendre l'utilisation du site. Firebase Analytics reste désactivé sauf si vous acceptez.
 - Analyses facultatives
 - Au-dessus du résultat de référence de
 - Aucun taux de référence n'a été renvoyé.
 - Calcul mis à jour à partir des derniers taux de référence disponibles.
-- Calculateur d'écart de change | Balkan Currency Converter
+- Calculateur d'écart de change | BALCO Converter
 - Changer de thème de couleur
 - Chargement des derniers taux…
 - Choisissez deux devises différentes.
@@ -161,7 +161,7 @@ L'application Android propose aussi l'outil Coût réel, des taux hors ligne, le
 - Les montants et les taux doivent être des nombres positifs.
 - Navigation en pied de page
 - Navigation principale
-- Obtenez Balkan Currency Converter sur Google Play
+- Obtenez BALCO Converter sur Google Play
 - Obtenez-le sur Google Play
 - Par exemple, 11 500
 - Passer à la calculatrice
@@ -181,12 +181,12 @@ URL: `/fr/multi-currency-converter/`
 
 Title: Convertisseur multi-devises | Convertir un montant en plusieurs devises
 
-Meta description: Convertissez un montant dans plusieurs devises à la fois avec les derniers taux de référence disponibles. Un convertisseur multi-devises gratuit de Balkan Converter.
+Meta description: Convertissez un montant dans plusieurs devises à la fois avec les derniers taux de référence disponibles. Un convertisseur multi-devises gratuit de BALCO Converter.
 
 ### Complete visible main content
 
 ```text
-Retour à Balkan Currency Converter
+Retour à BALCO Converter
 Outil de change gratuit
 Convertisseur multi-devises
 Saisissez un montant et comparez sa valeur dans plusieurs devises en même temps en utilisant les derniers taux de référence disponibles.
@@ -203,17 +203,17 @@ Ces taux sont fournis à titre indicatif et peuvent différer de ceux d'une banq
 Choisissez la bonne vue
 Pour une seule paire de devises, utilisez le convertisseur de devises. Consultez son évolution dans l'historique des taux, évaluez une offre de change avec le calculateur d'écart de change, ou découvrez le fonctionnement sans connexion dans le guide de conversion hors ligne.
 Plus de devises en déplacement
-Utiliser Travel Board dans Balkan Converter
+Utiliser Travel Board dans BALCO Converter
 L'application Android regroupe plusieurs devises de voyage, permet de les réorganiser et peut préparer des taux pour une utilisation hors ligne.
 ```
 
 ### Additional dynamic messages
 
-- © 2026 Balkan Currency Converter
+- © 2026 BALCO Converter
 - À
 - Accepter les analyses
 - Accueil
-- Accueil Balkan Currency Converter
+- Accueil BALCO Converter
 - Aidez-nous à comprendre l'utilisation du site. Firebase Analytics reste désactivé sauf si vous acceptez.
 - Analyses facultatives
 - Calculateur d'écart
@@ -228,7 +228,7 @@ L'application Android regroupe plusieurs devises de voyage, permet de les réorg
 - Conversions mises à jour à partir des derniers taux de référence disponibles.
 - Convertisseur de devises
 - Convertisseur multi-devises | Convertir un montant en plusieurs devises
-- Convertissez un montant dans plusieurs devises à la fois avec les derniers taux de référence disponibles. Un convertisseur multi-devises gratuit de Balkan Converter.
+- Convertissez un montant dans plusieurs devises à la fois avec les derniers taux de référence disponibles. Un convertisseur multi-devises gratuit de BALCO Converter.
 - Convertissez un montant dans plusieurs devises en même temps.
 - Convertissez un montant en plusieurs devises en utilisant les derniers taux de référence disponibles.
 - Date
@@ -243,7 +243,7 @@ L'application Android regroupe plusieurs devises de voyage, permet de les réorg
 - Multi-devises
 - Navigation en pied de page
 - Navigation principale
-- Obtenez Balkan Currency Converter sur Google Play
+- Obtenez BALCO Converter sur Google Play
 - Obtenez-le sur Google Play
 - Passer au convertisseur
 - Passer au thème clair
@@ -268,7 +268,7 @@ Meta description: Découvrez comment un convertisseur de devises hors ligne util
 ### Complete visible main content
 
 ```text
-Retour à Balkan Currency Converter
+Retour à BALCO Converter
 Guide des taux de change hors ligne
 Convertisseur de devises hors ligne : comment fonctionnent les taux enregistrés
 Un convertisseur peut continuer à fonctionner sans Internet grâce aux derniers taux de change enregistrés sur votre appareil. Ces taux constituent des données de référence utiles, mais conservent leur date d'origine jusqu'à leur prochaine actualisation en ligne.
@@ -285,7 +285,7 @@ Ce que signifie un taux enregistré hors ligne
 Les données enregistrées constituent un instantané des derniers taux de référence reçus avec succès. Elles permettent d'effectuer des conversions sans connexion, mais les valeurs ne sont pas actualisées tant que l'appareil reste hors ligne.
 Vérifiez toujours la date du taux affiché. Un résultat fondé sur les taux de la veille peut servir à planifier, sans garantir le taux qu'une banque, un émetteur de carte ou un bureau de change proposera aujourd'hui.
 Que se passe-t-il lorsque Internet revient ?
-Balkan Converter utilise le même cache local de taux pour les conversions ordinaires et la préparation des ensembles enregistrés. Une actualisation en ligne réussie remplace les anciennes données et met à jour la date des taux ainsi que l'heure d'enregistrement.
+BALCO Converter utilise le même cache local de taux pour les conversions ordinaires et la préparation des ensembles enregistrés. Une actualisation en ligne réussie remplace les anciennes données et met à jour la date des taux ainsi que l'heure d'enregistrement.
 Si l'actualisation échoue, l'application conserve les taux précédemment enregistrés au lieu de les supprimer.
 Préparer un ensemble enregistré pour une utilisation hors ligne
 Dans l'application Android, créez ou ouvrez un ensemble enregistré avec les devises souhaitées. Avec une connexion Internet, choisissez Enregistrer les taux hors ligne. L'application actualise le jeu de taux commun et confirme que les données sont prêtes lorsque le cache contient toutes les devises de cet ensemble.
@@ -294,7 +294,7 @@ Utile au-delà du voyage
 La conversion hors ligne peut s'avérer utile en cas de mauvaise connexion, d'interruption de l'itinérance, de panne de service temporaire ou de toute situation dans laquelle une estimation de référence rapide est plus utile qu'aucun résultat.
 Pour consulter rapidement une paire de devises enregistrée, utilisez le guide du widget Android. Pour une conversion en ligne, ouvrez le convertisseur de devises, comparez un montant dans plusieurs devises avec le convertisseur multidevise, ou évaluez une offre de change avec le calculateur d'écart de change.
 Gardez une référence datée à portée de main
-Utiliser les taux enregistrés dans Balkan Converter
+Utiliser les taux enregistrés dans BALCO Converter
 Sans connexion, l'application Android peut réutiliser les derniers taux correctement enregistrés. Elle indique clairement qu'il s'agit de données en cache et affiche la date des taux.
 ```
 
@@ -306,14 +306,14 @@ Sans connexion, l'application Android peut réutiliser les derniers taux correct
 
 URL: `/fr/exchange-rate-history/`
 
-Title: Historique du taux de change et graphique des devises | Balkan Converter
+Title: Historique du taux de change et graphique des devises | BALCO Converter
 
 Meta description: Consultez l'historique des taux de change sur 30, 90 ou un an, tracez une paire de devises et recherchez le taux de référence pour une date spécifique.
 
 ### Complete visible main content
 
 ```text
-Retour à Balkan Currency Converter
+Retour à BALCO Converter
 Outil de taux de référence historique
 Historique du taux de change et graphique des devises
 Découvrez comment une paire de devises a évolué sur 30 jours, 90 jours ou un an et recherchez le taux de référence pour une date spécifique.
@@ -352,17 +352,17 @@ Dates et tendances
 Utilisez le graphique pour voir la direction et la variation, et non pour prédire le prochain mouvement. Certains fournisseurs ne publient pas tous les jours calendaires. Si l'API renvoie des données provenant d'une autre date disponible, la recherche indique la date réelle des données au lieu de la présenter comme le jour que vous avez sélectionné.
 Pour convertir au dernier taux disponible, utilisez le convertisseur de devises. Pour comparer une offre de change au résultat obtenu avec le taux de référence, ouvrez le calculateur d'écart de change.
 Gardez les paires utiles à proximité
-Afficher les graphiques dans Balkan Converter
+Afficher les graphiques dans BALCO Converter
 L'application Android comprend des graphiques de taux sur 30 jours, des paires épinglées, des taux de référence hors ligne et d'autres outils de change.
 ```
 
 ### Additional dynamic messages
 
 - {base}/{quote} historique du taux de change
-- © 2026 Balkan Currency Converter
+- © 2026 BALCO Converter
 - Accepter les analyses
 - Accueil
-- Accueil Balkan Currency Converter
+- Accueil BALCO Converter
 - Affichez l'évolution des taux de référence et recherchez le taux d'une date précise.
 - Aidez-nous à comprendre l'utilisation du site. Firebase Analytics reste désactivé sauf si vous acceptez.
 - Analyses facultatives
@@ -386,14 +386,14 @@ L'application Android comprend des graphiques de taux sur 30 jours, des paires �
 - Facultatif
 - Graphique de l'historique du taux de change
 - Historique des taux de référence de {base} à {quote}, de {from} à {to}. Minimum {minimum}, maximum {maximum}.
-- Historique du taux de change et graphique des devises | Balkan Converter
+- Historique du taux de change et graphique des devises | BALCO Converter
 - L'API a renvoyé des données de référence datées de {date}.
 - Les taux historiques n'ont pas pu être chargés. Vérifiez votre connexion et réessayez.
 - Multi-devises
 - Navigation en pied de page
 - Navigation principale
 - Observations quotidiennes du taux de référence ; ce n'est pas un graphique de trading intrajournalier.
-- Obtenez Balkan Currency Converter sur Google Play
+- Obtenez BALCO Converter sur Google Play
 - Obtenez-le sur Google Play
 - Passer à l'historique des taux de change
 - Passer au thème clair
@@ -415,44 +415,44 @@ L'application Android comprend des graphiques de taux sur 30 jours, des paires �
 
 URL: `/fr/currency-converter-widget/`
 
-Title: Widget de conversion de devises pour Android | Balkan Converter
+Title: Widget de conversion de devises pour Android | BALCO Converter
 
 Meta description: Ajoutez un widget de conversion à l'écran d'accueil Android pour consulter rapidement un taux enregistré et sa date, inverser la paire et ouvrir l'application.
 
 ### Complete visible main content
 
 ```text
-Retour à Balkan Currency Converter
+Retour à BALCO Converter
 Guide de l'écran d'accueil Android
 Widget de conversion de devises pour Android
-Gardez une paire de devises utile sur votre écran d'accueil. Le widget Balkan Converter affiche le taux de référence mis en cache et la date de ses données, ouvre cette paire dans l'application et prend en charge un échange rapide dans sa présentation plus large.
+Gardez une paire de devises utile sur votre écran d'accueil. Le widget BALCO Converter affiche le taux de référence mis en cache et la date de ses données, ouvre cette paire dans l'application et prend en charge un échange rapide dans sa présentation plus large.
 Comment ajouter le widget
-Le widget Balkan Converter sur un écran d'accueil Android ordinaire.
+Le widget BALCO Converter sur un écran d'accueil Android ordinaire.
 Quatre étapes rapides
 Ajouter le widget de conversion
 Les libellés du lanceur peuvent varier légèrement selon l'appareil Android, mais la procédure reste la même.
 Préparez une paire
-Ouvrez Balkan Converter, sélectionnez les devises souhaitées et laissez les derniers taux de référence se charger avec succès.
+Ouvrez BALCO Converter, sélectionnez les devises souhaitées et laissez les derniers taux de référence se charger avec succès.
 Ouvrir les widgets
 Appuyez longuement sur une zone vide de l'écran d'accueil Android, puis choisissez Widgets.
 Placez-le
-Recherchez Balkan Converter et faites glisser le widget de devise vers une zone libre de votre écran d'accueil.
+Recherchez BALCO Converter et faites glisser le widget de devise vers une zone libre de votre écran d'accueil.
 Redimensionner et utiliser
 Redimensionnez-le pour l'adapter. Appuyez sur la carte pour ouvrir cette paire dans l'application ; le widget plus large affiche également un bouton d'échange.
 Ce que montre le widget
 La carte affiche le taux de référence de la paire sélectionnée, son état d'actualisation et sa date. Chaque widget reprend d'abord la dernière paire utilisée dans l'application, puis mémorise sa propre paire.
-En appuyant sur le widget, vous ouvrez Balkan Converter avec ces devises prêtes. Sur un widget de largeur moyenne, le contrôle d'échange inverse la paire directement sur l'écran d'accueil.
+En appuyant sur le widget, vous ouvrez BALCO Converter avec ces devises prêtes. Sur un widget de largeur moyenne, le contrôle d'échange inverse la paire directement sur l'écran d'accueil.
 Pourquoi la date est importante
-Le widget utilise les derniers taux correctement enregistrés par l'application ; il ne constitue pas une source indépendante de données de marché en direct. Lorsque Balkan Converter actualise ses taux, les widgets installés reçoivent les nouvelles données mises en cache.
+Le widget utilise les derniers taux correctement enregistrés par l'application ; il ne constitue pas une source indépendante de données de marché en direct. Lorsque BALCO Converter actualise ses taux, les widgets installés reçoivent les nouvelles données mises en cache.
 Sans connexion, le dernier taux de référence enregistré reste disponible pour vos estimations ; sa date indique l'ancienneté des données. Pour en savoir plus, consultez le guide de conversion hors ligne.
 Disposition petite ou large ?
 La disposition compacte affiche le taux et sa date dans un espace réduit. Élargissez le widget pour faire apparaître la commande d'inversion à côté du taux.
 Les lanceurs Android contrôlent la taille exacte de la grille, de sorte que les étapes de redimensionnement disponibles peuvent différer entre les téléphones et les tablettes.
 Pour plus d'une paire rapide
 Ouvrez l'application pour saisir un montant, effectuer une conversion, consulter l'historique des taux, comparer plusieurs devises ou préparer des taux enregistrés pour une utilisation hors ligne.
-Le widget est conçu comme un aperçu rapide et un raccourci, tandis que Balkan Converter fournit le flux de travail de conversion complet.
+Le widget est conçu comme un aperçu rapide et un raccourci, tandis que BALCO Converter fournit le flux de travail de conversion complet.
 La conversion en un coup d'oeil
-Ajoutez Balkan Converter à votre écran d'accueil
+Ajoutez BALCO Converter à votre écran d'accueil
 Installez l'application Android, chargez la paire de votre choix, puis placez le widget de conversion à un endroit facilement accessible.
 ```
 
@@ -464,14 +464,14 @@ Installez l'application Android, chargez la paire de votre choix, puis placez le
 
 URL: `/fr/foreign-transaction-fee-calculator/`
 
-Title: Calculateur de frais à l'étranger et de DCC | Balkan Converter
+Title: Calculateur de frais à l'étranger et de DCC | BALCO Converter
 
 Meta description: Comparez un paiement en devise locale à l'offre de conversion dynamique (DCC) d'un commerçant ou d'un distributeur. Ajoutez les frais de transaction à l'étranger et les frais fixes.
 
 ### Complete visible main content
 
 ```text
-Retour à Balkan Currency Converter
+Retour à BALCO Converter
 Comparaison des cartes et des guichets automatiques
 Calculateur de frais à l'étranger et de DCC
 Payer en devise locale ou utiliser la conversion proposée ? Estimez les deux options à partir du dernier taux de référence disponible et des frais que vous saisissez.
@@ -512,22 +512,22 @@ Si vous souhaitez seulement comparer une offre de change au résultat obtenu ave
 Taux de référence et date
 Les taux de référence fournissent un point de comparaison neutre et non un taux de transaction garanti. Le résultat affiche la date de marché renvoyée par l'API de taux de référence Frankfurter.
 Comparez sur votre téléphone
-Consultez les offres d'échange avec Balkan Converter
-Balkan Converter pour Android comprend l'outil Coût réel, qui compare une offre de change et ses frais au résultat calculé avec le taux de référence.
+Consultez les offres d'échange avec BALCO Converter
+BALCO Converter pour Android comprend l'outil Coût réel, qui compare une offre de change et ses frais au résultat calculé avec le taux de référence.
 ```
 
 ### Additional dynamic messages
 
-- © 2026 Balkan Currency Converter
+- © 2026 BALCO Converter
 - À
 - Accepter les analyses
 - Accueil
-- Accueil Balkan Currency Converter
+- Accueil BALCO Converter
 - Aidez-nous à comprendre l'utilisation du site. Firebase Analytics reste désactivé sauf si vous acceptez.
 - Ajoutez, si vous le souhaitez, le montant total proposé avec la DCC pour comparer les deux modes de paiement.
 - Analyses facultatives
 - Calculateur d'écart
-- Calculateur de frais à l'étranger et de DCC | Balkan Converter
+- Calculateur de frais à l'étranger et de DCC | BALCO Converter
 - Calculateur de frais de transaction à l'étranger
 - Changer de thème de couleur
 - Chargement des derniers taux…
@@ -554,7 +554,7 @@ Balkan Converter pour Android comprend l'outil Coût réel, qui compare une offr
 - Les frais ne peuvent pas être négatifs.
 - Navigation en pied de page
 - Navigation principale
-- Obtenez Balkan Currency Converter sur Google Play
+- Obtenez BALCO Converter sur Google Play
 - Obtenez-le sur Google Play
 - Par exemple, 90
 - Passer à la calculatrice
@@ -579,14 +579,14 @@ Balkan Converter pour Android comprend l'outil Coût réel, qui compare une offr
 
 URL: `/fr/travel-budget-calculator/`
 
-Title: Calculateur de budget de voyage en deux devises | Balkan Converter
+Title: Calculateur de budget de voyage en deux devises | BALCO Converter
 
 Meta description: Estimez le budget quotidien par catégorie, ajoutez les frais fixes et une marge pour imprévus, puis convertissez le total avec les taux de référence actuels.
 
 ### Complete visible main content
 
 ```text
-Retour à Balkan Currency Converter
+Retour à BALCO Converter
 Outil de planification de voyage gratuit
 Calculateur de budget de voyage
 Estimez le coût de votre voyage dans deux devises. Ajoutez les dépenses quotidiennes, les frais fixes et une marge facultative pour les imprévus, sans créer de compte.
@@ -626,21 +626,21 @@ Que faut-il inclure
 L'hébergement, les repas, les transports locaux et les activités sont des dépenses quotidiennes. Ajoutez les vols, les forfaits ferroviaires et les autres dépenses ponctuelles aux frais fixes du voyage.
 Devises pour votre voyage
 Gardez les devises dont vous avez besoin ensemble
-Balkan Converter pour Android comprend le Tableau de voyage et les ensembles enregistrés, pour garder les devises utiles à portée de main.
+BALCO Converter pour Android comprend le Tableau de voyage et les ensembles enregistrés, pour garder les devises utiles à portée de main.
 ```
 
 ### Additional dynamic messages
 
-- © 2026 Balkan Currency Converter
+- © 2026 BALCO Converter
 - À
 - Accepter les analyses
 - Accueil
-- Accueil Balkan Currency Converter
+- Accueil BALCO Converter
 - Aidez-nous à comprendre l'utilisation du site. Firebase Analytics reste désactivé sauf si vous acceptez.
 - Analyses facultatives
 - API de taux de référence Frankfurter
 - Budget actualisé avec les derniers taux de référence disponibles.
-- Calculateur de budget de voyage en deux devises | Balkan Converter
+- Calculateur de budget de voyage en deux devises | BALCO Converter
 - Changer de thème de couleur
 - Chargement des derniers taux…
 - Choisissez deux devises différentes.
@@ -665,7 +665,7 @@ Balkan Converter pour Android comprend le Tableau de voyage et les ensembles enr
 - Multi-devises
 - Navigation en pied de page
 - Navigation principale
-- Obtenez Balkan Currency Converter sur Google Play
+- Obtenez BALCO Converter sur Google Play
 - Obtenez-le sur Google Play
 - Passer à la calculatrice
 - Passer au thème clair

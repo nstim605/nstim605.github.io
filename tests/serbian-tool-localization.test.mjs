@@ -15,13 +15,13 @@ const toolSlugs = [
 const playHref = 'https://play.google.com/store/apps/details?id=io.github.nstim605.balkanconverter';
 const expectedPageIdentity = {
   'currency-converter': ['Конвертор валута | Прерачунавање по актуелном курсу', 'Конвертор валута'],
-  'exchange-rate-markup-calculator': ['Поређење понуде са референтним курсом | Balkan Currency Converter', 'Калкулатор разлике курса'],
+  'exchange-rate-markup-calculator': ['Поређење понуде са референтним курсом | BALCO Converter', 'Калкулатор разлике курса'],
   'multi-currency-converter': ['Мултивалутни конвертор | Један износ у више валута', 'Мултивалутни конвертор'],
   'offline-currency-converter': ['Офлајн конвертор валута | Како раде сачувани курсеви', 'Офлајн конвертор валута: како раде сачувани курсеви'],
-  'exchange-rate-history': ['Историја и графикон курса | Balkan Converter', 'Историја и графикон курса'],
-  'currency-converter-widget': ['Виџет конвертора валута за Android | Balkan Converter', 'Виџет конвертора валута за Android'],
-  'foreign-transaction-fee-calculator': ['Калкулатор провизија и DCC | Balkan Converter', 'Калкулатор провизија и DCC'],
-  'travel-budget-calculator': ['Калкулатор буџета путовања у две валуте | Balkan Converter', 'Калкулатор буџета путовања']
+  'exchange-rate-history': ['Историја и графикон курса | BALCO Converter', 'Историја и графикон курса'],
+  'currency-converter-widget': ['Виџет конвертора валута за Android | BALCO Converter', 'Виџет конвертора валута за Android'],
+  'foreign-transaction-fee-calculator': ['Калкулатор провизија и DCC | BALCO Converter', 'Калкулатор провизија и DCC'],
+  'travel-budget-calculator': ['Калкулатор буџета путовања у две валуте | BALCO Converter', 'Калкулатор буџета путовања']
 };
 
 function visibleMain(html) {

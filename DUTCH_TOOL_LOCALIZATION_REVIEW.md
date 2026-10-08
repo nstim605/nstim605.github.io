@@ -18,7 +18,7 @@ Meta description: Reken een bedrag om tussen twee valuta met de meest recente re
 ### Complete visible main content
 
 ```text
-Terug naar Balkan Currency Converter
+Terug naar BALCO Converter
 Gratis valutatool
 Valutacalculator
 Reken een bedrag om tussen twee valuta en bekijk de meest recente beschikbare referentiekoers, de datum en de bron.
@@ -40,19 +40,19 @@ De weergegeven datum laat zien op welke marktdag de referentiegegevens betrekkin
 Een andere weergave nodig?
 Bekijk in de wisselkoersgeschiedenis hoe een valutapaar veranderde, vergelijk één bedrag in meerdere valuta met de multivalutacalculator, beoordeel een wisselaanbod met de wisselkoersafwijkingscalculator of vergelijk kaart-, geldautomaat- en DCC-kosten met de calculator voor buitenlandse transactiekosten en DCC.
 Meer tools op Android
-Converteren met Balkan Converter
+Converteren met BALCO Converter
 De Android-app biedt ook een calculator, offlinekoersen, Travel Board, Werkelijke kosten, Opgeslagen sets, geschiedenis, grafieken en een startschermwidget.
 ```
 
 ### Additional dynamic messages
 
-- © 2026 Balkan Currency Converter
+- © 2026 BALCO Converter
 - Accepteer analyses
 - Analyses afwijzen
 - Analytics-keuzes
 - Datum
 - De meest recente referentiekoersen ophalen...
-- Download Balkan Currency Converter via Google Play
+- Download BALCO Converter via Google Play
 - Download het op Google Play
 - Ga naar converter
 - Help ons het gebruik van de site te begrijpen. Firebase Analytics blijft uitgeschakeld tenzij u hiermee akkoord gaat.
@@ -77,7 +77,7 @@ De Android-app biedt ook een calculator, offlinekoersen, Travel Board, Werkelijk
 - Schakel over naar een donker thema
 - Schakel over naar het lichtthema
 - Startpagina
-- Startpagina van Balkan Currency Converter
+- Startpagina van BALCO Converter
 - Valuta omrekenen op Android
 - Valutacalculator | Wisselkoersen online omrekenen
 - Van kleurthema wisselen
@@ -89,14 +89,14 @@ De Android-app biedt ook een calculator, offlinekoersen, Travel Board, Werkelijk
 
 URL: `/nl/exchange-rate-markup-calculator/`
 
-Title: Wisselkoersafwijkingscalculator | Balkan Currency Converter
+Title: Wisselkoersafwijkingscalculator | BALCO Converter
 
 Meta description: Vergelijk een wisselaanbod met de meest recente referentiekoers. Bereken het ontvangen bedrag, het verschil en de procentuele afwijking van het referentieresultaat.
 
 ### Complete visible main content
 
 ```text
-Terug naar Balkan Currency Converter
+Terug naar BALCO Converter
 Gratis valutatool
 Wisselkoersafwijkingscalculator
 Vergelijk het bedrag dat een wisseldienst biedt met de meest recente referentiekoers. Bekijk het verschil en de procentuele afwijking voordat u geld wisselt.
@@ -125,13 +125,13 @@ Belangrijk om te weten
 Dit is een informatieve vergelijking, geen financieel advies. Een aanbod kan servicekosten, kaartkosten, kosten voor contant geld of een opslag van de aanbieder bevatten. Referentiekoersen zijn geen gegarandeerde transactiekoersen.
 Wilt u een kaartbetaling of geldopname vergelijken met een aangeboden omrekening naar uw kaartvaluta? Gebruik de calculator voor buitenlandse transactiekosten en DCC. Open voor een snelle omrekening van één valutapaar de valutacalculator. Vergelijk één bedrag in meerdere valuta met de multivalutacalculator; in de gids voor offline omrekenen leest u hoe opgeslagen koersen werken.
 Hebt u dit onderweg nodig?
-Vergelijk de kosten in Balkan Converter
+Vergelijk de kosten in BALCO Converter
 De Android-app biedt ook Werkelijke kosten, offlinekoersen, Travel Board, Opgeslagen sets, grafieken en een startschermwidget.
 ```
 
 ### Additional dynamic messages
 
-- © 2026 Balkan Currency Converter
+- © 2026 BALCO Converter
 - Accepteer analyses
 - Analyses afwijzen
 - Analytics-keuzes
@@ -143,7 +143,7 @@ De Android-app biedt ook Werkelijke kosten, offlinekoersen, Travel Board, Opgesl
 - De bedragen en koersen moeten positieve getallen zijn.
 - De meest recente referentiekoersen ophalen...
 - De referentiekoersgegevens zijn onvolledig.
-- Download Balkan Currency Converter via Google Play
+- Download BALCO Converter via Google Play
 - Download het op Google Play
 - Er zijn geen referentiekoersen ontvangen.
 - Ga naar rekenmachine
@@ -164,7 +164,7 @@ De Android-app biedt ook Werkelijke kosten, offlinekoersen, Travel Board, Opgesl
 - Schakel over naar een donker thema
 - Schakel over naar het lichtthema
 - Startpagina
-- Startpagina van Balkan Currency Converter
+- Startpagina van BALCO Converter
 - U ontvangt meer
 - Valuta omrekenen op Android
 - Valutacalculator
@@ -175,7 +175,7 @@ De Android-app biedt ook Werkelijke kosten, offlinekoersen, Travel Board, Opgesl
 - Voer twee bedragen groter dan nul in.
 - Voettekstnavigatie
 - Voor dit valutapaar is geen referentiekoers beschikbaar.
-- Wisselkoersafwijkingscalculator | Balkan Currency Converter
+- Wisselkoersafwijkingscalculator | BALCO Converter
 
 ## Multivalutacalculator
 
@@ -183,12 +183,12 @@ URL: `/nl/multi-currency-converter/`
 
 Title: Multivalutacalculator | Eén bedrag in meerdere valuta omrekenen
 
-Meta description: Reken één bedrag tegelijk om naar meerdere valuta met de meest recente referentiekoersen. Een gratis multivalutacalculator van Balkan Converter.
+Meta description: Reken één bedrag tegelijk om naar meerdere valuta met de meest recente referentiekoersen. Een gratis multivalutacalculator van BALCO Converter.
 
 ### Complete visible main content
 
 ```text
-Terug naar Balkan Currency Converter
+Terug naar BALCO Converter
 Gratis valutatool
 Multivalutacalculator
 Voer één bedrag in en vergelijk de waarde ervan tegelijk in meerdere valuta met de meest recente beschikbare referentiekoersen.
@@ -205,13 +205,13 @@ Koersen zijn referentiewaarden en kunnen afwijken van de koers van een bank, kaa
 Kies de juiste weergave
 Gebruik voor één valutapaar de valutacalculator. Bekijk de ontwikkeling in de wisselkoersgeschiedenis, beoordeel een aanbod met de wisselkoersafwijkingscalculator of lees in de gids voor offline omrekenen hoe omrekenen zonder internet werkt.
 Meer valuta onderweg
-Travel Board gebruiken in Balkan Converter
+Travel Board gebruiken in BALCO Converter
 De Android-app houdt meerdere reisvaluta bij elkaar, laat u de volgorde wijzigen en kan koersen voorbereiden voor offline gebruik.
 ```
 
 ### Additional dynamic messages
 
-- © 2026 Balkan Currency Converter
+- © 2026 BALCO Converter
 - Accepteer analyses
 - Analyses afwijzen
 - Analytics-keuzes
@@ -220,7 +220,7 @@ De Android-app houdt meerdere reisvaluta bij elkaar, laat u de volgorde wijzigen
 - De meest recente referentiekoersen ophalen...
 - Doelvaluta verwijderen
 - Doelvaluta's moeten verschillen van de basisvaluta.
-- Download Balkan Currency Converter via Google Play
+- Download BALCO Converter via Google Play
 - Download het op Google Play
 - Ga naar converter
 - Help ons het gebruik van de site te begrijpen. Firebase Analytics blijft uitgeschakeld tenzij u hiermee akkoord gaat.
@@ -243,12 +243,12 @@ De Android-app houdt meerdere reisvaluta bij elkaar, laat u de volgorde wijzigen
 - Referentiekoers
 - Referentiekoersen van {date}.
 - Reken één bedrag om naar meerdere valuta met de meest recente beschikbare referentiekoersen.
-- Reken één bedrag tegelijk om naar meerdere valuta met de meest recente referentiekoersen. Een gratis multivalutacalculator van Balkan Converter.
+- Reken één bedrag tegelijk om naar meerdere valuta met de meest recente referentiekoersen. Een gratis multivalutacalculator van BALCO Converter.
 - Reken één bedrag tegelijk om naar meerdere valuta.
 - Schakel over naar een donker thema
 - Schakel over naar het lichtthema
 - Startpagina
-- Startpagina van Balkan Currency Converter
+- Startpagina van BALCO Converter
 - Valuta omrekenen op Android
 - Valutacalculator
 - Van kleurthema wisselen
@@ -268,7 +268,7 @@ Meta description: Ontdek hoe een offline valutacalculator gedateerde, opgeslagen
 ### Complete visible main content
 
 ```text
-Terug naar Balkan Currency Converter
+Terug naar BALCO Converter
 Offline wisselkoersgids
 Offline valutacalculator: zo werken opgeslagen koersen
 Een valutacalculator kan zonder internet blijven werken met de meest recente wisselkoersen die op uw apparaat zijn opgeslagen. Deze koersen zijn nuttige referentiegegevens, maar behouden hun oorspronkelijke datum totdat de app ze online kan vernieuwen.
@@ -285,7 +285,7 @@ Wat een opgeslagen offlinekoers betekent
 De opgeslagen gegevens zijn een momentopname van het meest recente geslaagde antwoord met referentiekoersen. Hiermee kunnen omrekeningen zonder netwerkverbinding worden gemaakt, maar de waarden worden niet bijgewerkt zolang het apparaat offline is.
 Controleer altijd de weergegeven koersdatum. Een resultaat op basis van de koersen van gisteren kan nog nuttig zijn voor uw planning, maar garandeert niet welke koers een bank, kaartuitgever of wisselkantoor vandaag biedt.
 Wat gebeurt er als internet terugkeert?
-Balkan Converter gebruikt één gedeelde lokale koerscache voor gewone omrekeningen en het voorbereiden van Opgeslagen sets. Een geslaagde online vernieuwing vervangt de oudere gegevens en werkt de koersdatum en opslagtijd bij.
+BALCO Converter gebruikt één gedeelde lokale koerscache voor gewone omrekeningen en het voorbereiden van Opgeslagen sets. Een geslaagde online vernieuwing vervangt de oudere gegevens en werkt de koersdatum en opslagtijd bij.
 Als het vernieuwen mislukt, gebruikt de app de eerder opgeslagen koersen in plaats van ze te verwijderen.
 Maak een opgeslagen set klaar voor offline gebruik
 Maak of open in de Android-app een Opgeslagen set met de valuta die u nodig hebt. Kies terwijl u online bent Koersen offline opslaan. De app vernieuwt de gedeelde koersgegevens en bevestigt dat de set klaar is zodra de cache alle valuta uit die set bevat.
@@ -294,7 +294,7 @@ Nuttig buiten reizen
 Offline omrekenen kan helpen bij een slechte verbinding, een roamingstoring, een tijdelijke uitval van de dienst of wanneer een snelle schatting op basis van referentiekoersen beter is dan geen resultaat.
 Gebruik de Android-widgetgids om snel een opgeslagen valutapaar te bekijken. Open voor online omrekenen de valutacalculator, vergelijk één bedrag in meerdere valuta met de multivalutacalculator of beoordeel een aanbod met de wisselkoersafwijkingscalculator.
 Houd een gedateerde referentiekoers bij de hand
-Opgeslagen koersen gebruiken in Balkan Converter
+Opgeslagen koersen gebruiken in BALCO Converter
 De Android-app kan zonder verbinding de laatst geslaagde koerscache gebruiken en geeft duidelijk aan dat de gegevens uit de cache komen, met de bijbehorende koersdatum.
 ```
 
@@ -306,14 +306,14 @@ De Android-app kan zonder verbinding de laatst geslaagde koerscache gebruiken en
 
 URL: `/nl/exchange-rate-history/`
 
-Title: Wisselkoersgeschiedenis en valutagrafiek | Balkan Converter
+Title: Wisselkoersgeschiedenis en valutagrafiek | BALCO Converter
 
 Meta description: Bekijk de wisselkoersgeschiedenis van 30 dagen, 90 dagen of één jaar, breng een valutapaar in kaart en zoek de referentiekoers voor een specifieke datum op.
 
 ### Complete visible main content
 
 ```text
-Terug naar Balkan Currency Converter
+Terug naar BALCO Converter
 Tool voor historische referentiekoersen
 Wisselkoersgeschiedenis en valutagrafiek
 Bekijk hoe een valutapaar gedurende 30 dagen, 90 dagen of één jaar veranderde en zoek de referentiekoers voor een specifieke datum op.
@@ -352,7 +352,7 @@ Datums en trends
 Gebruik de grafiek om richting en schommelingen te bekijken, niet om toekomstige bewegingen te voorspellen. Sommige aanbieders publiceren niet op elke kalenderdag. Als de API gegevens van een andere beschikbare datum terugstuurt, toont de zoekopdracht die werkelijke gegevensdatum in plaats van de door u gekozen dag.
 Gebruik voor een omrekening met de meest recente beschikbare koers de valutacalculator. Open de wisselkoersafwijkingscalculator om een wisselaanbod met het referentieresultaat te vergelijken.
 Houd bruikbare paren bij de hand
-Bekijk grafieken in Balkan Converter
+Bekijk grafieken in BALCO Converter
 De Android-app bevat 30-daagse koersgrafieken, vastgezette paren, offline referentiekoersen en andere valutatools.
 ```
 
@@ -360,7 +360,7 @@ De Android-app bevat 30-daagse koersgrafieken, vastgezette paren, offline refere
 
 - {base}/{quote} wisselkoersgeschiedenis
 - {count} gedateerde referentiekoersen geladen.
-- © 2026 Balkan Currency Converter
+- © 2026 BALCO Converter
 - Accepteer analyses
 - Analyses afwijzen
 - Analytics-keuzes
@@ -369,7 +369,7 @@ De Android-app bevat 30-daagse koersgrafieken, vastgezette paren, offline refere
 - Breng historische referentiekoersen in kaart en zoek een wisselkoers op datum op.
 - De API heeft referentiegegevens van {date} teruggestuurd.
 - De historische referentiekoers ophalen…
-- Download Balkan Currency Converter via Google Play
+- Download BALCO Converter via Google Play
 - Download het op Google Play
 - Er is minstens één geldige historische koers nodig.
 - Er kon geen historische koers worden geladen voor die datum en dat paar.
@@ -398,14 +398,14 @@ De Android-app bevat 30-daagse koersgrafieken, vastgezette paren, offline refere
 - Schakel over naar een donker thema
 - Schakel over naar het lichtthema
 - Startpagina
-- Startpagina van Balkan Currency Converter
+- Startpagina van BALCO Converter
 - U koos {selectedDate}; de dichtstbijzijnde beschikbare gegevens die de API heeft teruggestuurd, zijn van {date}.
 - Valuta omrekenen op Android
 - Valutacalculator
 - Van kleurthema wisselen
 - Voettekstnavigatie
 - Voor deze selectie zijn geen historische koersen beschikbaar.
-- Wisselkoersgeschiedenis en valutagrafiek | Balkan Converter
+- Wisselkoersgeschiedenis en valutagrafiek | BALCO Converter
 - Wisselkoersgeschiedeniscontroles en grafiek
 - Wisselkoersgeschiedenisgrafiek
 
@@ -413,44 +413,44 @@ De Android-app bevat 30-daagse koersgrafieken, vastgezette paren, offline refere
 
 URL: `/nl/currency-converter-widget/`
 
-Title: Valutawidget voor Android | Balkan Converter
+Title: Valutawidget voor Android | BALCO Converter
 
 Meta description: Voeg een valutawidget toe aan uw Android-startscherm voor snelle toegang tot een opgeslagen wisselkoers, de koersdatum, de omwisselknop en een snelkoppeling naar de app.
 
 ### Complete visible main content
 
 ```text
-Terug naar Balkan Currency Converter
+Terug naar BALCO Converter
 Android-startschermgids
 Valutaconversiewidget voor Android
-Houd een nuttig valutapaar op uw startscherm. De Balkan Converter-widget toont de opgeslagen referentiekoers en gegevensdatum, opent dat paar in de app en laat u in de brede indeling snel de valuta omwisselen.
+Houd een nuttig valutapaar op uw startscherm. De BALCO Converter-widget toont de opgeslagen referentiekoers en gegevensdatum, opent dat paar in de app en laat u in de brede indeling snel de valuta omwisselen.
 Hoe de widget toe te voegen
-De echte Balkan Converter-widget op een normaal Android-startscherm.
+De echte BALCO Converter-widget op een normaal Android-startscherm.
 Vier snelle stappen
 Voeg de valutawidget toe
 De benamingen kunnen per Android-apparaat iets verschillen, maar de gebruikelijke stappen op het startscherm zijn hetzelfde.
 Bereid een paar voor
-Open Balkan Converter, selecteer de gewenste valuta en laat de nieuwste referentiekoersen succesvol laden.
+Open BALCO Converter, selecteer de gewenste valuta en laat de nieuwste referentiekoersen succesvol laden.
 Widgets openen
 Houd een leeg gedeelte van het Android-startscherm aangeraakt en kies vervolgens Widgets.
 Plaats het
-Zoek Balkan Converter en sleep de valutawidget naar een vrij gedeelte van uw startscherm.
+Zoek BALCO Converter en sleep de valutawidget naar een vrij gedeelte van uw startscherm.
 Formaat wijzigen en gebruiken
 Pas het formaat naar wens aan. Tik op de kaart om het paar in de app te openen; de bredere widget toont ook een omwisselknop.
 Wat de widget laat zien
 De kaart toont de referentiekoers voor het gekozen paar, een actualiteitslabel en de koersdatum. Elke widget begint met het laatst in de app gebruikte paar en onthoudt daarna zijn eigen paar.
-Als u op de widget tikt, wordt Balkan Converter geopend met de betreffende valuta klaar voor gebruik. Op een middelbrede widget kunt u het valutapaar rechtstreeks op het startscherm omwisselen.
+Als u op de widget tikt, wordt BALCO Converter geopend met de betreffende valuta klaar voor gebruik. Op een middelbrede widget kunt u het valutapaar rechtstreeks op het startscherm omwisselen.
 Waarom de datum ertoe doet
-De widget gebruikt de meest recente koersgegevens die de app met succes heeft opgeslagen; het is geen zelfstandige live marktfeed. Wanneer Balkan Converter de koersen vernieuwt, ontvangen geïnstalleerde widgets de bijgewerkte cachegegevens.
+De widget gebruikt de meest recente koersgegevens die de app met succes heeft opgeslagen; het is geen zelfstandige live marktfeed. Wanneer BALCO Converter de koersen vernieuwt, ontvangen geïnstalleerde widgets de bijgewerkte cachegegevens.
 Zonder internet blijft de laatst opgeslagen referentiekoers bruikbaar voor schattingen; de datum toont hoe oud de gegevens zijn. Lees meer in de gids voor offline omrekenen.
 Kleine of brede indeling?
 De compacte indeling houdt de koers en datum zichtbaar in minder ruimte. Maak de widget breder om naast de koers ook de omwisselknop te tonen.
 Android-opstartprogramma's bepalen de exacte rastergrootte, dus de beschikbare stappen voor het wijzigen van het formaat kunnen verschillen tussen telefoons en tablets.
 Voor meer dan één snel paar
 Open de app om een bedrag in te voeren, valuta om te rekenen, de wisselkoersgeschiedenis te bekijken, meerdere valuta te vergelijken of koersen voor offline gebruik op te slaan.
-De widget is bedoeld voor een snelle blik en als snelkoppeling; Balkan Converter biedt de volledige omrekenfunctie.
+De widget is bedoeld voor een snelle blik en als snelkoppeling; BALCO Converter biedt de volledige omrekenfunctie.
 Conversie in één oogopslag
-Voeg Balkan Converter toe aan uw startscherm
+Voeg BALCO Converter toe aan uw startscherm
 Installeer de Android-app, laad het gewenste valutapaar en plaats de valutawidget op een makkelijk bereikbare plek.
 ```
 
@@ -462,14 +462,14 @@ Installeer de Android-app, laad het gewenste valutapaar en plaats de valutawidge
 
 URL: `/nl/foreign-transaction-fee-calculator/`
 
-Title: Buitenlandse transactiekosten en DCC-calculator | Balkan Converter
+Title: Buitenlandse transactiekosten en DCC-calculator | BALCO Converter
 
 Meta description: Vergelijk betalen in lokale valuta met een DCC-aanbod van een winkelier of geldautomaat. Neem buitenlandse transactiekosten en vaste kosten mee op basis van actuele referentiekoersen.
 
 ### Complete visible main content
 
 ```text
-Terug naar Balkan Currency Converter
+Terug naar BALCO Converter
 Kaart- en geldautomaatvergelijking
 Buitenlandse transactiekosten en DCC-calculator
 Betalen in lokale valuta of de aangeboden omrekening gebruiken? Schat beide opties op basis van de meest recente beschikbare referentiekoers en de kosten die u invoert.
@@ -510,20 +510,20 @@ Wilt u alleen een wisselaanbod met het referentieresultaat vergelijken, gebruik 
 Referentiekoers en datum
 Referentiekoersen bieden een neutraal vergelijkingspunt, geen gegarandeerde transactiekoers. Het resultaat toont de marktdatum die de Frankfurter-API heeft teruggestuurd.
 Vergelijk op uw telefoon
-Wisselaanbiedingen vergelijken in Balkan Converter
-Balkan Converter voor Android bevat Werkelijke kosten om een wisselaanbod en bijbehorende kosten met een referentieresultaat te vergelijken.
+Wisselaanbiedingen vergelijken in BALCO Converter
+BALCO Converter voor Android bevat Werkelijke kosten om een wisselaanbod en bijbehorende kosten met een referentieresultaat te vergelijken.
 ```
 
 ### Additional dynamic messages
 
-- © 2026 Balkan Currency Converter
+- © 2026 BALCO Converter
 - Accepteer analyses
 - Analyses afwijzen
 - Analytics-keuzes
 - Bedrag
 - Bijvoorbeeld 90
 - Buitenlandse transactiekosten ({percentage}%)
-- Buitenlandse transactiekosten en DCC-calculator | Balkan Converter
+- Buitenlandse transactiekosten en DCC-calculator | BALCO Converter
 - Calculator voor buitenlandse transactiekosten
 - Datum
 - Datum van de referentiekoers niet beschikbaar.
@@ -531,7 +531,7 @@ Balkan Converter voor Android bevat Werkelijke kosten om een wisselaanbod en bij
 - DCC onder referentie
 - De kosten kunnen niet negatief zijn.
 - De meest recente referentiekoersen ophalen...
-- Download Balkan Currency Converter via Google Play
+- Download BALCO Converter via Google Play
 - Download het op Google Play
 - Frankfurter-API voor referentiekoersen
 - Ga naar rekenmachine
@@ -559,7 +559,7 @@ Balkan Converter voor Android bevat Werkelijke kosten om een wisselaanbod en bij
 - Schakel over naar het lichtthema
 - Schat de kaartkosten bij betaling in lokale valuta en vergelijk desgewenst een DCC-aanbod.
 - Startpagina
-- Startpagina van Balkan Currency Converter
+- Startpagina van BALCO Converter
 - Valuta omrekenen op Android
 - Valutacalculator
 - Van
@@ -580,14 +580,14 @@ Balkan Converter voor Android bevat Werkelijke kosten om een wisselaanbod en bij
 
 URL: `/nl/travel-budget-calculator/`
 
-Title: Reisbudgetcalculator in twee valuta | Balkan Converter
+Title: Reisbudgetcalculator in twee valuta | BALCO Converter
 
 Meta description: Schat een reisbudget per dag en categorie, voeg vaste kosten en een buffer toe en reken het totaal om met actuele referentiekoersen.
 
 ### Complete visible main content
 
 ```text
-Terug naar Balkan Currency Converter
+Terug naar BALCO Converter
 Gratis reisplanningstool
 Reisbudgetcalculator
 Schat de kosten van uw reis in twee valuta's. Voeg dagelijkse uitgaven, vaste kosten en een optionele buffer toe – geen account vereist.
@@ -627,12 +627,12 @@ Wat moet u opnemen?
 Accommodatie, maaltijden, lokaal vervoer en activiteiten zijn dagelijkse bedragen. Voeg vluchten, treinpassen of andere eenmalige uitgaven toe onder de vaste reiskosten.
 Valuta voor uw reis
 Houd de valuta die u nodig hebt bij elkaar
-Balkan Converter voor Android bevat Travel Board en Opgeslagen sets, zodat u nuttige reisvaluta bij de hand kunt houden.
+BALCO Converter voor Android bevat Travel Board en Opgeslagen sets, zodat u nuttige reisvaluta bij de hand kunt houden.
 ```
 
 ### Additional dynamic messages
 
-- © 2026 Balkan Currency Converter
+- © 2026 BALCO Converter
 - Accepteer analyses
 - Analyses afwijzen
 - Analytics-keuzes
@@ -642,7 +642,7 @@ Balkan Converter voor Android bevat Travel Board en Opgeslagen sets, zodat u nut
 - Datum
 - Datum van de referentiekoers niet beschikbaar.
 - De meest recente referentiekoersen ophalen...
-- Download Balkan Currency Converter via Google Play
+- Download BALCO Converter via Google Play
 - Download het op Google Play
 - Frankfurter-API voor referentiekoersen
 - Ga naar rekenmachine
@@ -664,7 +664,7 @@ Balkan Converter voor Android bevat Travel Board en Opgeslagen sets, zodat u nut
 - Referentiekoersen moeten positief zijn.
 - Referentiekoersen van {date}.
 - Referentiekoersen van {date}. Bron: Frankfurter-API voor referentiekoersen.
-- Reisbudgetcalculator in twee valuta | Balkan Converter
+- Reisbudgetcalculator in twee valuta | BALCO Converter
 - Reisdagen moeten een geheel getal groter dan nul zijn.
 - Resultaat
 - Schakel over naar een donker thema
@@ -673,7 +673,7 @@ Balkan Converter voor Android bevat Travel Board en Opgeslagen sets, zodat u nut
 - Schat een meerdaags reisbudget per categorie in bestemmings- en eigen valuta.
 - Schat een reisbudget per dag en categorie, voeg vaste kosten en een buffer toe en reken het totaal om met actuele referentiekoersen.
 - Startpagina
-- Startpagina van Balkan Currency Converter
+- Startpagina van BALCO Converter
 - Valuta omrekenen op Android
 - Valutacalculator
 - Van

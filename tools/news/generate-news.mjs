@@ -104,9 +104,9 @@ function header(locale, slug = '') {
   return `  <a class="skip-link" href="#main">${locale === 'en' ? 'Skip to content' : locale === 'sr' ? 'Пређи на садржај' : 'Перейти к содержанию'}</a>
   <header class="site-header">
     <div class="shell nav-wrap">
-      <a class="brand" href="${copy.prefix}/" aria-label="Balkan Currency Converter">
+      <a class="brand" href="${copy.prefix}/" aria-label="BALCO Converter">
         <img src="/assets/icons/v1-603/app-icon-v1-603.png" width="42" height="42" alt="">
-        <span dir="ltr">Balkan Currency Converter</span>
+        <span dir="ltr">BALCO Converter</span>
       </a>
       <nav class="nav-links" aria-label="${locale === 'en' ? 'Main navigation' : locale === 'sr' ? 'Главна навигација' : 'Основная навигация'}">
         <a href="${copy.prefix}/">${copy.home}</a>
@@ -134,14 +134,14 @@ function footer(locale) {
     <div class="shell footer-grid">
       <div class="footer-brand">
         <img src="/assets/icons/v1-603/app-icon-v1-603.png" width="44" height="44" alt="">
-        <div><strong dir="ltr">Balkan Currency Converter</strong><span>${copy.footer}</span></div>
+        <div><strong dir="ltr">BALCO Converter</strong><span>${copy.footer}</span></div>
       </div>
       <nav aria-label="${locale === 'en' ? 'Footer navigation' : locale === 'sr' ? 'Навигација у подножју' : 'Навигация в подвале'}">
         <a href="${copy.prefix}/">${copy.home}</a>
         <a href="${copy.prefix}/currency-converter/">${copy.converter}</a>
         <a href="${copy.prefix}/privacy-policy.html">${copy.privacy}</a>
       </nav>
-      <p>© 2026 Balkan Currency Converter</p>
+      <p>© 2026 BALCO Converter</p>
     </div>
   </footer>`;
 }
@@ -156,20 +156,20 @@ function pageShell({ locale, slug = '', title, description, type = 'website', js
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#f7f8fa" media="(prefers-color-scheme: light)">
   <meta name="theme-color" content="#070a0f" media="(prefers-color-scheme: dark)">
-  <title>${escapeHtml(title)} — Balkan Currency Converter</title>
+  <title>${escapeHtml(title)} — BALCO Converter</title>
   <meta name="description" content="${escapeHtml(description)}">
   <meta name="robots" content="${robots}">
   <link rel="canonical" href="${canonical}">
 ${alternates(slug)}
   <meta property="og:type" content="${type}">
-  <meta property="og:site_name" content="Balkan Currency Converter">
+  <meta property="og:site_name" content="BALCO Converter">
   <meta property="og:title" content="${escapeHtml(title)}">
   <meta property="og:description" content="${escapeHtml(description)}">
   <meta property="og:url" content="${canonical}">
   <meta property="og:image" content="${origin}/assets/og-v1-603.png">
   <meta property="og:image:width" content="1024">
   <meta property="og:image:height" content="500">
-  <meta property="og:image:alt" content="Balkan Currency Converter">
+  <meta property="og:image:alt" content="BALCO Converter">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="${escapeHtml(title)}">
   <meta name="twitter:description" content="${escapeHtml(description)}">
@@ -235,7 +235,7 @@ function renderIndex(stories, locale) {
         name: story.translations[locale].headline
       }))
     },
-    isPartOf: { '@type': 'WebSite', name: 'Balkan Currency Converter', url: origin }
+    isPartOf: { '@type': 'WebSite', name: 'BALCO Converter', url: origin }
   };
   const body = `  <main id="main" class="news-main">
     <section class="news-hero shell" aria-labelledby="news-title">
@@ -271,8 +271,8 @@ function renderStory(story, locale) {
     dateModified: story.updatedAt,
     inLanguage: copy.htmlLocale,
     mainEntityOfPage: { '@type': 'WebPage', '@id': articleUrl },
-    author: { '@type': 'Organization', name: 'Balkan Currency Converter', url: origin },
-    publisher: { '@type': 'Organization', name: 'Balkan Currency Converter', url: origin },
+    author: { '@type': 'Organization', name: 'BALCO Converter', url: origin },
+    publisher: { '@type': 'Organization', name: 'BALCO Converter', url: origin },
     about: story.currencies.map(code => ({ '@type': 'Thing', name: code })),
     citation: story.sources.map(source => source.originalUrl),
     isAccessibleForFree: true
@@ -343,7 +343,7 @@ async function updateSitemaps(stories) {
   const recent = stories.filter(story => Date.parse(story.publishedAt) >= cutoff);
   const newsBlocks = recent.flatMap(story => SUPPORTED_NEWS_LOCALES.map(locale => {
     const translation = story.translations[locale];
-    return `  <url>\n    <loc>${absolute(newsRoute(locale, story.slug))}</loc>\n    <news:news>\n      <news:publication><news:name>Balkan Currency Converter</news:name><news:language>${locale}</news:language></news:publication>\n      <news:publication_date>${story.publishedAt}</news:publication_date>\n      <news:title>${escapeHtml(translation.headline)}</news:title>\n    </news:news>\n  </url>`;
+    return `  <url>\n    <loc>${absolute(newsRoute(locale, story.slug))}</loc>\n    <news:news>\n      <news:publication><news:name>BALCO Converter</news:name><news:language>${locale}</news:language></news:publication>\n      <news:publication_date>${story.publishedAt}</news:publication_date>\n      <news:title>${escapeHtml(translation.headline)}</news:title>\n    </news:news>\n  </url>`;
   }));
   const newsSitemap = `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">\n${newsBlocks.join('\n')}\n</urlset>\n`;
   await fs.writeFile(path.join(root, 'news-sitemap.xml'), newsSitemap, 'utf8');

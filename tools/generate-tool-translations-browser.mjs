@@ -10,7 +10,7 @@ const targets = {
   sr: 'sr', bs: 'bs', hr: 'hr', sq: 'sq', mk: 'mk', bg: 'bg', ro: 'ro', hu: 'hu', pl: 'pl', cs: 'cs', sk: 'sk', sl: 'sl',
   de: 'de', fr: 'fr', it: 'it', 'es-ES': 'es', 'es-419': 'es', 'pt-BR': 'pt', 'pt-PT': 'pt', nl: 'nl', da: 'da', sv: 'sv', nb: 'no', fi: 'fi', is: 'is', el: 'el', tr: 'tr', ru: 'ru', uk: 'uk', ar: 'ar', he: 'he', fa: 'fa', ur: 'ur', hi: 'hi', bn: 'bn', id: 'id', ms: 'ms', th: 'th', vi: 'vi', 'zh-Hans': 'zh', 'zh-Hant': 'zh_HANT', ja: 'ja', ko: 'ko'
 };
-const protectedPattern = /Balkan Currency Converter|Balkan Converter|Google Play|Firebase Analytics|Frankfurter|DCC|Dynamic Currency Conversion|Android|\{[A-Za-z][A-Za-z0-9]*\}|https?:\/\/\S+/g;
+const protectedPattern = /BALCO Converter|BALCO Converter|Google Play|Firebase Analytics|Frankfurter|DCC|Dynamic Currency Conversion|Android|\{[A-Za-z][A-Za-z0-9]*\}|https?:\/\/\S+/g;
 const start = index => `{7${String(index).padStart(5, '0')}}`;
 const end = index => `{8${String(index).padStart(5, '0')}}`;
 

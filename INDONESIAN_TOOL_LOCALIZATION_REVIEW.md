@@ -18,7 +18,7 @@ Meta description: Konversikan jumlah antara dua mata uang dengan kurs referensi 
 ### Complete visible main content
 
 ```text
-Kembali ke Balkan Currency Converter
+Kembali ke BALCO Converter
 Alat mata uang gratis
 Konverter Mata Uang
 Konversikan jumlah antara dua mata uang dan lihat kurs referensi terbaru yang tersedia, tanggalnya, dan sumbernya.
@@ -40,19 +40,19 @@ Tanggal yang ditampilkan memberi tahu Anda hari pasar mana yang diwakili oleh da
 Butuh tampilan berbeda?
 Ikuti perubahan pasangan mata uang melalui riwayat kurs, bandingkan satu jumlah dalam beberapa mata uang dengan konverter multi-mata uang, periksa penawaran penukaran memakai kalkulator selisih kurs, atau bandingkan biaya kartu, tarik tunai, dan DCC dengan kalkulator biaya dan DCC.
 Alat lainnya di Android
-Konversi dengan Balkan Converter
+Konversi dengan BALCO Converter
 Aplikasi Android menambahkan kalkulator, tarif offline, Papan Perjalanan, Biaya Aktual, set tersimpan, riwayat, bagan, dan widget layar beranda.
 ```
 
 ### Additional dynamic messages
 
-- © 2026 Balkan Currency Converter
+- © 2026 BALCO Converter
 - Analisis opsional
-- Balkan Currency Converter rumah
+- BALCO Converter rumah
 - Bantu kami memahami penggunaan situs. Firebase Analytics tetap nonaktif kecuali Anda menyetujuinya.
 - Beralih ke tema gelap
 - Beralih ke tema terang
-- Dapatkan Balkan Currency Converter di Google Play
+- Dapatkan BALCO Converter di Google Play
 - Dapatkan di Google Play
 - Ganti tema warna
 - Jumlah dan tarif harus berupa angka positif.
@@ -89,14 +89,14 @@ Aplikasi Android menambahkan kalkulator, tarif offline, Papan Perjalanan, Biaya 
 
 URL: `/id/exchange-rate-markup-calculator/`
 
-Title: Kalkulator Selisih Kurs | Balkan Currency Converter
+Title: Kalkulator Selisih Kurs | BALCO Converter
 
 Meta description: Bandingkan penawaran pertukaran dengan nilai tukar referensi terbaru. Hitung jumlah yang Anda terima, selisihnya, dan markup nilai tukar efektif.
 
 ### Complete visible main content
 
 ```text
-Kembali ke Balkan Currency Converter
+Kembali ke BALCO Converter
 Alat mata uang gratis
 Kalkulator Selisih Kurs
 Bandingkan jumlah yang ditawarkan layanan penukaran dengan kurs referensi terbaru yang tersedia. Lihat perbedaan dan markup efektif sebelum Anda menukarnya.
@@ -125,29 +125,29 @@ Penting untuk diketahui
 Ini adalah perbandingan informasi, bukan nasihat keuangan. Penawaran mungkin mencakup biaya layanan, biaya kartu, penanganan tunai, atau spread penyedia. Tarif referensi bukanlah tarif transaksi yang dijamin.
 Membandingkan transaksi kartu atau ATM dengan konversi yang ditawarkan ke mata uang kartu? Gunakan kalkulator biaya dan DCC. Untuk konversi cepat satu pasangan, buka konverter mata uang. Bandingkan satu jumlah dalam beberapa mata uang lewat konverter multi-mata uang; panduan penggunaan offline menjelaskan cara kerja kurs tersimpan.
 Butuh ini saat bepergian?
-Bandingkan biaya dalam Balkan Converter
+Bandingkan biaya dalam BALCO Converter
 Aplikasi Android menambahkan Biaya Aktual, tarif offline, Travel Board, set tersimpan, bagan, dan widget layar beranda.
 ```
 
 ### Additional dynamic messages
 
-- © 2026 Balkan Currency Converter
+- © 2026 BALCO Converter
 - Analisis opsional
 - Anda menerima lebih banyak dengan
-- Balkan Currency Converter rumah
+- BALCO Converter rumah
 - Bandingkan penawaran pertukaran dengan nilai tukar referensi terbaru dan hitung markup efektif.
 - Bandingkan penawaran pertukaran dengan nilai tukar referensi terbaru.
 - Bandingkan penawaran pertukaran dengan nilai tukar referensi terbaru. Hitung jumlah yang Anda terima, selisihnya, dan markup nilai tukar efektif.
 - Bantu kami memahami penggunaan situs. Firebase Analytics tetap nonaktif kecuali Anda menyetujuinya.
 - Beralih ke tema gelap
 - Beralih ke tema terang
-- Dapatkan Balkan Currency Converter di Google Play
+- Dapatkan BALCO Converter di Google Play
 - Dapatkan di Google Play
 - Data tingkat referensi tidak lengkap.
 - Ganti tema warna
 - Jumlah dan tarif harus berupa angka positif.
 - Kalkulator selisih kurs
-- Kalkulator Selisih Kurs | Balkan Currency Converter
+- Kalkulator Selisih Kurs | BALCO Converter
 - Kebijakan Privasi
 - Konversi mata uang untuk Android
 - Konverter Mata Uang
@@ -184,12 +184,12 @@ URL: `/id/multi-currency-converter/`
 
 Title: Konverter Multi-Mata Uang | Konversikan Satu Jumlah ke Beberapa Mata Uang
 
-Meta description: Konversikan satu jumlah ke beberapa mata uang sekaligus dengan kurs referensi terbaru yang tersedia. Konverter multi mata uang gratis mulai dari Balkan Converter.
+Meta description: Konversikan satu jumlah ke beberapa mata uang sekaligus dengan kurs referensi terbaru yang tersedia. Konverter multi mata uang gratis mulai dari BALCO Converter.
 
 ### Complete visible main content
 
 ```text
-Kembali ke Balkan Currency Converter
+Kembali ke BALCO Converter
 Alat mata uang gratis
 Konverter Multi-Mata Uang
 Masukkan satu jumlah dan bandingkan nilainya dalam beberapa mata uang secara bersamaan menggunakan kurs referensi terbaru yang tersedia.
@@ -206,19 +206,19 @@ Tarif adalah nilai referensi dan dapat berbeda dari tarif yang ditawarkan oleh b
 Pilih tampilan yang tepat
 Untuk satu pasangan mata uang, gunakan konverter mata uang. Lihat perubahannya di riwayat kurs, periksa penawaran dengan kalkulator selisih kurs, dan baca di panduan penggunaan offline bagaimana kurs tersimpan digunakan tanpa internet.
 Lebih banyak mata uang saat bepergian
-Gunakan Travel Board di Balkan Converter
+Gunakan Travel Board di BALCO Converter
 Aplikasi Android menyatukan beberapa mata uang perjalanan, mendukung pemesanan ulang, dan dapat menyiapkan tarif untuk penggunaan offline.
 ```
 
 ### Additional dynamic messages
 
-- © 2026 Balkan Currency Converter
+- © 2026 BALCO Converter
 - Analisis opsional
-- Balkan Currency Converter rumah
+- BALCO Converter rumah
 - Bantu kami memahami penggunaan situs. Firebase Analytics tetap nonaktif kecuali Anda menyetujuinya.
 - Beralih ke tema gelap
 - Beralih ke tema terang
-- Dapatkan Balkan Currency Converter di Google Play
+- Dapatkan BALCO Converter di Google Play
 - Dapatkan di Google Play
 - Ganti tema warna
 - Hapus mata uang target
@@ -229,7 +229,7 @@ Aplikasi Android menyatukan beberapa mata uang perjalanan, mendukung pemesanan u
 - Konversi mata uang untuk Android
 - Konversikan satu jumlah ke beberapa mata uang menggunakan kurs referensi terbaru yang tersedia.
 - Konversikan satu jumlah ke beberapa mata uang secara bersamaan.
-- Konversikan satu jumlah ke beberapa mata uang sekaligus dengan kurs referensi terbaru yang tersedia. Konverter multi mata uang gratis mulai dari Balkan Converter.
+- Konversikan satu jumlah ke beberapa mata uang sekaligus dengan kurs referensi terbaru yang tersedia. Konverter multi mata uang gratis mulai dari BALCO Converter.
 - Konverter mata uang
 - Konverter Mata Uang
 - Konverter multi-mata uang
@@ -270,7 +270,7 @@ Meta description: Pelajari bagaimana pengonversi mata uang offline menggunakan n
 ### Complete visible main content
 
 ```text
-Kembali ke Balkan Currency Converter
+Kembali ke BALCO Converter
 Panduan nilai tukar offline
 Konverter Mata Uang Offline: Cara Kerja Nilai Tersimpan
 Konverter dapat tetap bekerja tanpa internet dengan menggunakan nilai tukar terbaru yang berhasil disimpan di perangkat Anda. Tarif tersebut merupakan data referensi yang berguna—tetapi tarif tersebut tetap terikat pada tanggal aslinya hingga aplikasi dapat menyegarkannya secara online.
@@ -287,7 +287,7 @@ Arti tarif offline yang disimpan
 Data yang disimpan adalah cuplikan respons tingkat referensi terbaru yang berhasil. Ini dapat menghitung konversi tanpa koneksi jaringan, namun jumlahnya tidak diperbarui saat perangkat offline.
 Selalu periksa tanggal tarif yang ditampilkan. Hasil yang didasarkan pada nilai tukar kemarin mungkin masih berguna untuk perencanaan, namun ini bukan merupakan janji tentang nilai tukar yang akan ditawarkan oleh bank, penyedia kartu, atau kantor penukaran hari ini.
 Apa yang terjadi ketika internet kembali?
-Balkan Converter menggunakan satu cache tarif lokal bersama untuk konversi normal dan persiapan Set Tersimpan. Penyegaran online yang berhasil menggantikan kumpulan data cache lama dan memperbarui tanggalnya serta menghemat waktu.
+BALCO Converter menggunakan satu cache tarif lokal bersama untuk konversi normal dan persiapan Set Tersimpan. Penyegaran online yang berhasil menggantikan kumpulan data cache lama dan memperbarui tanggalnya serta menghemat waktu.
 Jika penyegaran gagal, aplikasi akan kembali ke kecepatan cache sebelumnya, bukan menghapusnya.
 Siapkan Set Tersimpan untuk penggunaan offline
 Di aplikasi Android, buat atau buka Kumpulan Tersimpan untuk mata uang yang Anda perlukan. Saat terhubung, pilih Hemat tarif secara offline. Aplikasi ini menyegarkan kumpulan data tarif bersama dan mengonfirmasi kesiapan ketika cache yang disimpan berisi setiap mata uang dalam kumpulan tersebut.
@@ -296,7 +296,7 @@ Berguna di luar perjalanan
 Konversi offline dapat membantu ketika koneksi buruk, gangguan roaming, pemadaman layanan sementara, atau situasi apa pun di mana perkiraan referensi cepat lebih berguna daripada tidak ada hasil.
 Untuk akses cepat ke pasangan tersimpan, lihat panduan widget Android. Gunakan konverter mata uang untuk konversi online, bandingkan satu jumlah dalam beberapa mata uang lewat konverter multi-mata uang, atau periksa penawaran dengan kalkulator selisih kurs.
 Simpanlah referensi bertanggal
-Gunakan tarif hemat di Balkan Converter
+Gunakan tarif hemat di BALCO Converter
 Aplikasi Android dapat menggunakan kembali cache nilai tukar terbaru yang berhasil tanpa koneksi dan dengan jelas mengidentifikasi data cache dan tanggal kursnya.
 ```
 
@@ -308,14 +308,14 @@ Aplikasi Android dapat menggunakan kembali cache nilai tukar terbaru yang berhas
 
 URL: `/id/exchange-rate-history/`
 
-Title: Riwayat Nilai Tukar & Grafik Mata Uang | Balkan Converter
+Title: Riwayat Nilai Tukar & Grafik Mata Uang | BALCO Converter
 
 Meta description: Lihat riwayat nilai tukar 30 hari, 90 hari, atau satu tahun, buat grafik pasangan mata uang, dan cari nilai tukar referensi untuk tanggal tertentu.
 
 ### Complete visible main content
 
 ```text
-Kembali ke Balkan Currency Converter
+Kembali ke BALCO Converter
 Alat tingkat referensi historis
 Riwayat Nilai Tukar & Grafik Mata Uang
 Jelajahi bagaimana pasangan mata uang bergerak selama 30 hari, 90 hari, atau satu tahun, dan cari nilai tukar referensi untuk tanggal tertentu.
@@ -354,7 +354,7 @@ Tanggal dan tren
 Gunakan grafik untuk melihat arah dan variasi, bukan untuk memprediksi pergerakan selanjutnya. Beberapa penyedia tidak menerbitkannya pada setiap hari kalender. Jika API mengembalikan data dari tanggal lain yang tersedia, pencarian akan melaporkan tanggal data aktual tersebut dan bukan menyajikannya sebagai hari yang Anda pilih.
 Untuk konversi dengan kurs terbaru yang tersedia, gunakan konverter mata uang. Untuk membandingkan penawaran dengan hasil kurs acuan, buka kalkulator selisih kurs.
 Dekatkan pasangan yang berguna
-Lihat grafik dalam Balkan Converter
+Lihat grafik dalam BALCO Converter
 Aplikasi Android mencakup grafik kurs 30 hari, pasangan yang dipasangi pin, kurs referensi offline, dan alat mata uang lainnya.
 ```
 
@@ -363,17 +363,17 @@ Aplikasi Android mencakup grafik kurs 30 hari, pasangan yang dipasangi pin, kurs
 - {base} hingga {quote} riwayat tarif referensi dari {from} hingga {to}. Minimum {minimum}, maksimum {maximum}.
 - {base}/{quote} riwayat nilai tukar
 - {count} tarif referensi bertanggal dimuat.
-- © 2026 Balkan Currency Converter
+- © 2026 BALCO Converter
 - Analisis opsional
 - Anda memilih {selectedDate}; data publikasi terdekat yang dikembalikan oleh API bertanggal {date}.
 - API mengembalikan data referensi bertanggal {date}.
 - Bagan sejarah nilai tukar
-- Balkan Currency Converter rumah
+- BALCO Converter rumah
 - Bantu kami memahami penggunaan situs. Firebase Analytics tetap nonaktif kecuali Anda menyetujuinya.
 - Beralih ke tema gelap
 - Beralih ke tema terang
 - Buat grafik kurs referensi historis dan cari nilai tukar mata uang berdasarkan tanggal.
-- Dapatkan Balkan Currency Converter di Google Play
+- Dapatkan BALCO Converter di Google Play
 - Dapatkan di Google Play
 - Data terbaru yang tersedia pada periode ini: {date}.
 - Ganti tema warna
@@ -400,7 +400,7 @@ Aplikasi Android mencakup grafik kurs 30 hari, pasangan yang dipasangi pin, kurs
 - Pilihan analisis
 - Privasi
 - Respons tingkat historis tidak valid.
-- Riwayat Nilai Tukar & Grafik Mata Uang | Balkan Converter
+- Riwayat Nilai Tukar & Grafik Mata Uang | BALCO Converter
 - Rumah
 - Setidaknya diperlukan satu tarif historis yang valid.
 - Tarif historis berdasarkan tanggal
@@ -416,44 +416,44 @@ Aplikasi Android mencakup grafik kurs 30 hari, pasangan yang dipasangi pin, kurs
 
 URL: `/id/currency-converter-widget/`
 
-Title: Widget Konverter Mata Uang untuk Android | Balkan Converter
+Title: Widget Konverter Mata Uang untuk Android | BALCO Converter
 
 Meta description: Tambahkan widget pengonversi mata uang ke layar beranda Android Anda untuk akses cepat ke nilai tukar dalam cache, tanggal nilai tukar, tindakan swap, dan pintasan aplikasi.
 
 ### Complete visible main content
 
 ```text
-Kembali ke Balkan Currency Converter
+Kembali ke BALCO Converter
 Android panduan layar utama
 Widget Konverter Mata Uang untuk Android
-Simpan satu pasangan mata uang yang berguna di layar beranda Anda. Widget Balkan Converter menampilkan kecepatan referensi yang di-cache dan tanggal datanya, membuka pasangan tersebut di aplikasi, dan mendukung pertukaran cepat dalam tata letaknya yang lebih luas.
+Simpan satu pasangan mata uang yang berguna di layar beranda Anda. Widget BALCO Converter menampilkan kecepatan referensi yang di-cache dan tanggal datanya, membuka pasangan tersebut di aplikasi, dan mendukung pertukaran cepat dalam tata letaknya yang lebih luas.
 Bagaimana cara menambahkan widgetnya
-Widget Balkan Converter sebenarnya di layar utama Android biasa.
+Widget BALCO Converter sebenarnya di layar utama Android biasa.
 Empat langkah cepat
 Tambahkan widget mata uang
 Label peluncur sedikit berbeda menurut Android perangkat, namun alur layar utama standarnya sama.
 Siapkan sepasang
-Buka Balkan Converter, pilih mata uang yang Anda inginkan, dan biarkan kurs referensi terbaru berhasil dimuat.
+Buka BALCO Converter, pilih mata uang yang Anda inginkan, dan biarkan kurs referensi terbaru berhasil dimuat.
 Buka Widget
 Sentuh dan tahan bagian kosong pada Android layar beranda, lalu pilih Widget.
 Tempatkan itu
-Temukan Balkan Converter dan seret widget mata uang ke area bebas di layar beranda Anda.
+Temukan BALCO Converter dan seret widget mata uang ke area bebas di layar beranda Anda.
 Ubah ukuran dan gunakan
 Ubah ukurannya agar pas. Ketuk kartu untuk membuka pasangan itu di aplikasi; widget yang lebih luas juga menampilkan tombol tukar.
 Apa yang ditampilkan widget
 Kartu tersebut menampilkan tarif referensi untuk pasangan yang dipilih ditambah label kesegaran dan tanggal tarif. Setiap widget dimulai dengan pasangan yang terakhir digunakan dalam aplikasi dan kemudian mengingat pasangannya sendiri.
-Mengetuk widget akan membuka Balkan Converter dengan mata uang tersebut sudah siap. Pada widget berukuran sedang, kontrol pertukaran membalikkan pasangan secara langsung di layar beranda.
+Mengetuk widget akan membuka BALCO Converter dengan mata uang tersebut sudah siap. Pada widget berukuran sedang, kontrol pertukaran membalikkan pasangan secara langsung di layar beranda.
 Mengapa tanggal itu penting
-Widget ini menggunakan kumpulan data laju terbaru yang berhasil disimpan dalam cache; ini bukan umpan pasar langsung yang independen. Ketika Balkan Converter berhasil memperbarui tarifnya, widget yang dipasang akan menerima data cache yang diperbarui.
+Widget ini menggunakan kumpulan data laju terbaru yang berhasil disimpan dalam cache; ini bukan umpan pasar langsung yang independen. Ketika BALCO Converter berhasil memperbarui tarifnya, widget yang dipasang akan menerima data cache yang diperbarui.
 Tanpa koneksi, kurs acuan terakhir yang tersimpan tetap berguna untuk perkiraan, dan tanggalnya menunjukkan usia data. Baca selengkapnya di panduan penggunaan offline.
 Tata letak kecil atau lebar?
 Tata letak yang ringkas membuat tarif dan tanggal terlihat dalam ruang yang lebih sedikit. Jadikan widget lebih lebar bila Anda menginginkan tindakan pertukaran khusus di samping tarif.
 Android peluncur mengontrol ukuran petak secara tepat, sehingga langkah pengubahan ukuran yang tersedia dapat berbeda antara ponsel dan tablet.
 Untuk lebih dari satu pasangan cepat
 Buka aplikasi untuk memasukkan jumlah, mengonversi mata uang, melihat riwayat kurs, membandingkan beberapa mata uang, atau menyimpan kurs untuk penggunaan offline.
-Widget ini dirancang sebagai tampilan sekilas dan pintasan, sementara Balkan Converter menyediakan alur kerja konversi yang lengkap.
+Widget ini dirancang sebagai tampilan sekilas dan pintasan, sementara BALCO Converter menyediakan alur kerja konversi yang lengkap.
 Sekilas tentang konversi
-Tambahkan Balkan Converter ke layar beranda Anda
+Tambahkan BALCO Converter ke layar beranda Anda
 Instal aplikasi Android, muat pasangan pilihan Anda, lalu letakkan widget mata uang produksi di tempat yang paling mudah dijangkau.
 ```
 
@@ -465,14 +465,14 @@ Instal aplikasi Android, muat pasangan pilihan Anda, lalu letakkan widget mata u
 
 URL: `/id/foreign-transaction-fee-calculator/`
 
-Title: Biaya Transaksi Luar Negeri & Kalkulator DCC | Balkan Converter
+Title: Biaya Transaksi Luar Negeri & Kalkulator DCC | BALCO Converter
 
 Meta description: Bandingkan pembayaran dalam mata uang lokal dengan harga kartu DCC atau ATM. Termasuk transaksi luar negeri dan biaya tetap menggunakan kurs referensi saat ini.
 
 ### Complete visible main content
 
 ```text
-Kembali ke Balkan Currency Converter
+Kembali ke BALCO Converter
 Perbandingan kartu dan ATM
 Biaya Transaksi Luar Negeri & Kalkulator DCC
 Bayar dalam mata uang lokal atau gunakan konversi yang ditawarkan? Perkirakan kedua opsi dari tarif referensi terbaru yang tersedia dan biaya yang Anda masukkan.
@@ -513,15 +513,15 @@ Jika Anda hanya ingin membandingkan penawaran penukaran dengan hasil kurs acuan,
 Tingkat referensi dan tanggal
 Kurs referensi memberikan titik perbandingan netral, bukan kurs transaksi yang dijamin. Hasilnya menunjukkan tanggal pasar yang ditampilkan oleh API tingkat referensi Frankfurter.
 Bandingkan di ponsel Anda
-Periksa penawaran pertukaran dengan Balkan Converter
-Balkan Converter untuk Android mencakup Biaya Aktual untuk membandingkan penawaran pertukaran dan biayanya dengan hasil referensi.
+Periksa penawaran pertukaran dengan BALCO Converter
+BALCO Converter untuk Android mencakup Biaya Aktual untuk membandingkan penawaran pertukaran dan biayanya dengan hasil referensi.
 ```
 
 ### Additional dynamic messages
 
-- © 2026 Balkan Currency Converter
+- © 2026 BALCO Converter
 - Analisis opsional
-- Balkan Currency Converter rumah
+- BALCO Converter rumah
 - Bandingkan pembayaran dalam mata uang lokal dengan harga kartu DCC atau ATM. Termasuk transaksi luar negeri dan biaya tetap menggunakan kurs referensi saat ini.
 - Bandingkan perkiraan biaya pembayaran dalam mata uang lokal dalam mata uang lokal dengan penawaran harga Dynamic Currency Conversion opsional.
 - Bandingkan transaksi kartu atau ATM mata uang lokal dengan konversi yang ditawarkan.
@@ -533,9 +533,9 @@ Balkan Converter untuk Android mencakup Biaya Aktual untuk membandingkan penawar
 - Berdasarkan nilai tersebut, kedua opsi memiliki perkiraan biaya yang sama.
 - Biaya tidak boleh negatif.
 - Biaya transaksi luar negeri ({percentage}%)
-- Biaya Transaksi Luar Negeri & Kalkulator DCC | Balkan Converter
+- Biaya Transaksi Luar Negeri & Kalkulator DCC | BALCO Converter
 - Biaya Transaksi Luar Negeri dan Kalkulator DCC
-- Dapatkan Balkan Currency Converter di Google Play
+- Dapatkan BALCO Converter di Google Play
 - Dapatkan di Google Play
 - Dari
 - DCC di bawah referensi
@@ -582,14 +582,14 @@ Balkan Converter untuk Android mencakup Biaya Aktual untuk membandingkan penawar
 
 URL: `/id/travel-budget-calculator/`
 
-Title: Kalkulator Anggaran Perjalanan dalam Dua Mata Uang | Balkan Converter
+Title: Kalkulator Anggaran Perjalanan dalam Dua Mata Uang | BALCO Converter
 
 Meta description: Perkirakan anggaran perjalanan berdasarkan hari dan kategori, tambahkan biaya tetap dan buffer, lalu konversi total dengan tarif referensi saat ini.
 
 ### Complete visible main content
 
 ```text
-Kembali ke Balkan Currency Converter
+Kembali ke BALCO Converter
 Alat perencanaan perjalanan gratis
 Kalkulator Anggaran Perjalanan
 Perkirakan biaya perjalanan Anda dalam dua mata uang. Tambahkan pengeluaran harian, biaya tetap, dan buffer opsional—tidak perlu akun.
@@ -629,19 +629,19 @@ Apa yang harus disertakan
 Akomodasi, makan, transportasi lokal, dan aktivitas adalah jumlah harian. Tambahkan penerbangan, tiket kereta api, atau pengeluaran satu kali lainnya ke dalam biaya perjalanan tetap.
 Mata uang untuk perjalanan Anda
 Simpan mata uang yang Anda butuhkan bersama-sama
-Balkan Converter untuk Android termasuk Travel Board dan Saved Sets untuk menyimpan mata uang perjalanan yang berguna.
+BALCO Converter untuk Android termasuk Travel Board dan Saved Sets untuk menyimpan mata uang perjalanan yang berguna.
 ```
 
 ### Additional dynamic messages
 
-- © 2026 Balkan Currency Converter
+- © 2026 BALCO Converter
 - Analisis opsional
 - Anggaran diperbarui dari tarif referensi terbaru yang tersedia.
-- Balkan Currency Converter rumah
+- BALCO Converter rumah
 - Bantu kami memahami penggunaan situs. Firebase Analytics tetap nonaktif kecuali Anda menyetujuinya.
 - Beralih ke tema gelap
 - Beralih ke tema terang
-- Dapatkan Balkan Currency Converter di Google Play
+- Dapatkan BALCO Converter di Google Play
 - Dapatkan di Google Play
 - Dari
 - Frankfurter API tingkat referensi
@@ -650,7 +650,7 @@ Balkan Converter untuk Android termasuk Travel Board dan Saved Sets untuk menyim
 - Hasil
 - Jumlah anggaran dan buffer tidak boleh negatif.
 - Kalkulator anggaran perjalanan
-- Kalkulator Anggaran Perjalanan dalam Dua Mata Uang | Balkan Converter
+- Kalkulator Anggaran Perjalanan dalam Dua Mata Uang | BALCO Converter
 - Kebijakan Privasi
 - Konversi mata uang untuk Android
 - Konverter mata uang

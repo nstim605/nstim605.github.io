@@ -18,7 +18,7 @@ Meta description: Chuyển đổi một số tiền giữa hai loại tiền t�
 ### Complete visible main content
 
 ```text
-Quay lại Balkan Currency Converter
+Quay lại BALCO Converter
 Công cụ tiền tệ miễn phí
 Chuyển đổi tiền tệ
 Chuyển đổi một số tiền giữa hai loại tiền tệ và xem tỷ giá tham chiếu hiện có mới nhất, ngày và nguồn của nó.
@@ -40,13 +40,13 @@ Ngày hiển thị cho bạn biết dữ liệu tham chiếu đại diện cho n
 Cần một cái nhìn khác?
 Theo dõi biến động của một cặp tiền tệ trong lịch sử tỷ giá, so sánh một số tiền với nhiều loại tiền bằng công cụ chuyển đổi nhiều loại tiền, kiểm tra báo giá đổi tiền bằng công cụ tính chênh lệch tỷ giá, hoặc so sánh chi phí thẻ, rút tiền mặt và DCC bằng công cụ tính phí và DCC.
 Các công cụ khác trên Android
-Chuyển đổi với Balkan Converter
+Chuyển đổi với BALCO Converter
 Ứng dụng Android bổ sung thêm máy tính, tỷ giá ngoại tuyến, Bảng du lịch, Chi phí thực tế, các bộ đã lưu, lịch sử, biểu đồ và tiện ích trên màn hình chính.
 ```
 
 ### Additional dynamic messages
 
-- © 2026 Balkan Currency Converter
+- © 2026 BALCO Converter
 - Chấp nhận phân tích
 - Chính sách bảo mật
 - Chọn hai loại tiền tệ khác nhau.
@@ -71,8 +71,8 @@ Chuyển đổi với Balkan Converter
 - Không có ngày tỷ giá.
 - Không thể tải giá. Hãy kiểm tra kết nối của bạn và thử lại.
 - Lựa chọn phân tích
-- nhà Balkan Currency Converter
-- Nhận Balkan Currency Converter trên Google Play
+- nhà BALCO Converter
+- Nhận BALCO Converter trên Google Play
 - Nhập số tiền lớn hơn 0.
 - Phân tích tùy chọn
 - Quyền riêng tư
@@ -88,14 +88,14 @@ Chuyển đổi với Balkan Converter
 
 URL: `/vi/exchange-rate-markup-calculator/`
 
-Title: Công cụ tính chênh lệch tỷ giá | Balkan Currency Converter
+Title: Công cụ tính chênh lệch tỷ giá | BALCO Converter
 
 Meta description: So sánh báo giá đổi tiền với tỷ giá tham chiếu mới nhất. Tính số tiền bạn nhận được, chênh lệch tuyệt đối và chênh lệch tỷ lệ phần trăm.
 
 ### Complete visible main content
 
 ```text
-Quay lại Balkan Currency Converter
+Quay lại BALCO Converter
 Công cụ tiền tệ miễn phí
 Công cụ tính chênh lệch tỷ giá
 So sánh số tiền dịch vụ đổi tiền đề nghị với tỷ giá tham chiếu mới nhất hiện có. Xem mức chênh lệch trước khi đổi tiền.
@@ -124,13 +124,13 @@ Chênh lệch (%) = (kết quả tham chiếu − kết quả được đề ngh
 Đây là một so sánh thông tin, không phải lời khuyên tài chính. Ưu đãi có thể bao gồm phí dịch vụ, phí thẻ, xử lý tiền mặt hoặc chênh lệch của nhà cung cấp. Tỷ giá tham chiếu không phải là tỷ giá giao dịch được đảm bảo.
 Bạn đang so sánh giao dịch thẻ hoặc ATM với mức quy đổi được đề nghị sang đồng tiền của thẻ? Hãy dùng công cụ tính phí và DCC. Để quy đổi nhanh một cặp tiền tệ, hãy mở công cụ chuyển đổi tiền tệ. So sánh một số tiền với nhiều loại tiền bằng công cụ chuyển đổi nhiều loại tiền; hướng dẫn sử dụng ngoại tuyến giải thích cách hoạt động của tỷ giá đã lưu.
 Cần điều này trên đường đi?
-So sánh chi phí trong Balkan Converter
+So sánh chi phí trong BALCO Converter
 Ứng dụng Android bổ sung Chi phí thực tế, giá ngoại tuyến, Bảng du lịch, bộ đã lưu, biểu đồ và tiện ích trên màn hình chính.
 ```
 
 ### Additional dynamic messages
 
-- © 2026 Balkan Currency Converter
+- © 2026 BALCO Converter
 - Bạn nhận được nhiều hơn bằng cách
 - Các số tiền và tỷ giá phải là số dương.
 - Chấp nhận phân tích
@@ -142,7 +142,7 @@ So sánh chi phí trong Balkan Converter
 - Chuyển đổi tiền tệ cho Android
 - Chuyển sang chủ đề tối
 - Chuyển sang giao diện nhẹ nhàng
-- Công cụ tính chênh lệch tỷ giá | Balkan Currency Converter
+- Công cụ tính chênh lệch tỷ giá | BALCO Converter
 - Dữ liệu tỷ giá tham chiếu chưa đầy đủ.
 - Đang tải mức giá mới nhất…
 - Đang tìm nạp tỷ giá tham chiếu mới nhất…
@@ -154,8 +154,8 @@ So sánh chi phí trong Balkan Converter
 - Không thể tải giá. Hãy kiểm tra kết nối của bạn và thử lại.
 - Lựa chọn phân tích
 - Ngày
-- nhà Balkan Currency Converter
-- Nhận Balkan Currency Converter trên Google Play
+- nhà BALCO Converter
+- Nhận BALCO Converter trên Google Play
 - Nhập hai số tiền lớn hơn 0.
 - Phân tích tùy chọn
 - Quyền riêng tư
@@ -181,12 +181,12 @@ URL: `/vi/multi-currency-converter/`
 
 Title: Công cụ chuyển đổi đa tiền tệ | Chuyển đổi một số tiền thành nhiều loại tiền tệ
 
-Meta description: Chuyển đổi một số tiền sang nhiều loại tiền tệ cùng một lúc với tỷ giá tham chiếu mới nhất hiện có. Công cụ chuyển đổi đa tiền tệ miễn phí từ Balkan Converter.
+Meta description: Chuyển đổi một số tiền sang nhiều loại tiền tệ cùng một lúc với tỷ giá tham chiếu mới nhất hiện có. Công cụ chuyển đổi đa tiền tệ miễn phí từ BALCO Converter.
 
 ### Complete visible main content
 
 ```text
-Quay lại Balkan Currency Converter
+Quay lại BALCO Converter
 Công cụ tiền tệ miễn phí
 Công cụ chuyển đổi đa tiền tệ
 Nhập một số tiền và so sánh giá trị của nó bằng nhiều loại tiền tệ cùng lúc bằng cách sử dụng tỷ giá tham chiếu mới nhất hiện có.
@@ -203,13 +203,13 @@ Tỷ giá là giá trị tham khảo và có thể khác với tỷ giá đượ
 Chọn công cụ phù hợp
 Với một cặp tiền tệ, hãy dùng công cụ chuyển đổi tiền tệ. Xem biến động trong lịch sử tỷ giá, kiểm tra báo giá bằng công cụ tính chênh lệch tỷ giá, và đọc trong hướng dẫn sử dụng ngoại tuyến cách sử dụng tỷ giá đã lưu khi không có Internet.
 Nhiều loại tiền tệ hơn khi đang di chuyển
-Sử dụng Bảng du lịch trong Balkan Converter
+Sử dụng Bảng du lịch trong BALCO Converter
 Ứng dụng Android kết hợp nhiều loại tiền tệ của chuyến đi, hỗ trợ sắp xếp lại và có thể chuẩn bị mức giá để sử dụng ngoại tuyến.
 ```
 
 ### Additional dynamic messages
 
-- © 2026 Balkan Currency Converter
+- © 2026 BALCO Converter
 - Các kết quả chuyển đổi đã được cập nhật theo tỷ giá tham chiếu mới nhất hiện có.
 - Chấp nhận phân tích
 - Chỉ chọn mỗi loại tiền tệ mục tiêu một lần.
@@ -217,7 +217,7 @@ Sử dụng Bảng du lịch trong Balkan Converter
 - Chọn ít nhất một loại tiền tệ mục tiêu.
 - Chuyển đổi chủ đề màu sắc
 - Chuyển đổi một số tiền sang nhiều loại tiền tệ bằng cách sử dụng tỷ giá tham chiếu mới nhất hiện có.
-- Chuyển đổi một số tiền sang nhiều loại tiền tệ cùng một lúc với tỷ giá tham chiếu mới nhất hiện có. Công cụ chuyển đổi đa tiền tệ miễn phí từ Balkan Converter.
+- Chuyển đổi một số tiền sang nhiều loại tiền tệ cùng một lúc với tỷ giá tham chiếu mới nhất hiện có. Công cụ chuyển đổi đa tiền tệ miễn phí từ BALCO Converter.
 - Chuyển đổi một số tiền sang nhiều loại tiền tệ cùng một lúc.
 - Chuyển đổi tiền tệ cho Android
 - Chuyển sang chủ đề tối
@@ -239,8 +239,8 @@ Sử dụng Bảng du lịch trong Balkan Converter
 - Lựa chọn phân tích
 - Mỗi đồng tiền đích phải có tỷ giá hợp lệ.
 - Ngày
-- nhà Balkan Currency Converter
-- Nhận Balkan Currency Converter trên Google Play
+- nhà BALCO Converter
+- Nhận BALCO Converter trên Google Play
 - Nhập số tiền lớn hơn 0.
 - Phân tích tùy chọn
 - Quyền riêng tư
@@ -266,7 +266,7 @@ Meta description: Tìm hiểu cách công cụ chuyển đổi tiền tệ ngo�
 ### Complete visible main content
 
 ```text
-Quay lại Balkan Currency Converter
+Quay lại BALCO Converter
 Hướng dẫn tỷ giá hối đoái ngoại tuyến
 Công cụ chuyển đổi tiền tệ ngoại tuyến: Tỷ giá đã lưu hoạt động như thế nào
 Bộ chuyển đổi có thể tiếp tục hoạt động mà không cần internet bằng cách sử dụng tỷ giá hối đoái mới nhất được lưu thành công trên thiết bị của bạn. Những tỷ lệ đó là dữ liệu tham khảo hữu ích—nhưng chúng vẫn được gắn với ngày ban đầu cho đến khi ứng dụng có thể làm mới chúng trực tuyến.
@@ -283,7 +283,7 @@ Tỷ lệ ngoại tuyến đã lưu có ý nghĩa gì
 Dữ liệu đã lưu là ảnh chụp nhanh về phản hồi tỷ lệ tham chiếu thành công gần đây nhất. Nó có thể tính toán chuyển đổi mà không cần kết nối mạng nhưng các con số không cập nhật khi thiết bị ngoại tuyến.
 Luôn kiểm tra ngày tỷ giá được hiển thị. Kết quả dựa trên tỷ giá ngày hôm qua có thể vẫn hữu ích cho việc lập kế hoạch, nhưng đó không phải là lời hứa hẹn về tỷ giá mà ngân hàng, nhà cung cấp thẻ hoặc văn phòng hối đoái sẽ đưa ra ngày hôm nay.
 Điều gì xảy ra khi internet trở lại?
-Balkan Converter dùng chung một bộ nhớ đệm tỷ giá cho việc chuyển đổi thông thường và chuẩn bị Bộ đã lưu. Khi làm mới trực tuyến thành công, dữ liệu cũ được thay thế và ngày tỷ giá cùng thời điểm lưu được cập nhật.
+BALCO Converter dùng chung một bộ nhớ đệm tỷ giá cho việc chuyển đổi thông thường và chuẩn bị Bộ đã lưu. Khi làm mới trực tuyến thành công, dữ liệu cũ được thay thế và ngày tỷ giá cùng thời điểm lưu được cập nhật.
 Nếu làm mới thất bại, ứng dụng tiếp tục dùng tỷ giá đã lưu trước đó thay vì xóa dữ liệu này.
 Chuẩn bị Bộ đã lưu để sử dụng ngoại tuyến
 Trong ứng dụng Android, hãy tạo hoặc mở Bộ đã lưu cho loại tiền tệ bạn cần. Trong khi kết nối, hãy chọn Lưu tỷ giá để dùng ngoại tuyến. Ứng dụng làm mới tập dữ liệu tỷ giá được chia sẻ và xác nhận tính sẵn sàng khi bộ nhớ đệm đã lưu chứa mọi loại tiền tệ trong tập hợp đó.
@@ -292,7 +292,7 @@ Hữu ích ngoài du lịch
 Chuyển đổi ngoại tuyến có thể hữu ích khi kết nối kém, gián đoạn chuyển vùng, ngừng dịch vụ tạm thời hoặc bất kỳ tình huống nào mà ước tính tham khảo nhanh hữu ích hơn là không có kết quả.
 Để truy cập nhanh một cặp tiền đã lưu, hãy xem hướng dẫn tiện ích Android. Dùng công cụ chuyển đổi tiền tệ để quy đổi trực tuyến, so sánh một số tiền với nhiều loại tiền bằng công cụ chuyển đổi nhiều loại tiền, hoặc kiểm tra báo giá bằng công cụ tính chênh lệch tỷ giá.
 Luôn có sẵn tỷ giá tham chiếu kèm ngày
-Dùng tỷ giá đã lưu trong Balkan Converter
+Dùng tỷ giá đã lưu trong BALCO Converter
 Ứng dụng Android có thể sử dụng lại bộ đệm tỷ giá hối đoái thành công mới nhất mà không cần kết nối và xác định rõ ràng dữ liệu được lưu trong bộ nhớ đệm cũng như ngày tỷ giá của nó.
 ```
 
@@ -304,14 +304,14 @@ Dùng tỷ giá đã lưu trong Balkan Converter
 
 URL: `/vi/exchange-rate-history/`
 
-Title: Lịch sử tỷ giá hối đoái & biểu đồ tiền tệ | Balkan Converter
+Title: Lịch sử tỷ giá hối đoái & biểu đồ tiền tệ | BALCO Converter
 
 Meta description: Xem lịch sử tỷ giá hối đoái trong 30 ngày, 90 ngày hoặc một năm, lập biểu đồ một cặp tiền tệ và tra cứu tỷ giá tham chiếu cho một ngày cụ thể.
 
 ### Complete visible main content
 
 ```text
-Quay lại Balkan Currency Converter
+Quay lại BALCO Converter
 Công cụ tỷ giá tham chiếu lịch sử
 Lịch sử tỷ giá hối đoái & biểu đồ tiền tệ
 Khám phá cách một cặp tiền tệ di chuyển trong 30 ngày, 90 ngày hoặc một năm và tra cứu tỷ giá tham chiếu cho một ngày cụ thể.
@@ -350,13 +350,13 @@ Ngày và xu hướng
 Sử dụng biểu đồ để xem hướng và sự thay đổi chứ không phải để dự đoán bước đi tiếp theo. Một số nhà cung cấp không công bố vào mỗi ngày theo lịch. Nếu API trả về dữ liệu từ một ngày có sẵn khác thì việc tra cứu sẽ báo cáo ngày dữ liệu thực tế đó thay vì hiển thị dữ liệu đó là ngày bạn đã chọn.
 Để quy đổi theo tỷ giá mới nhất hiện có, hãy dùng công cụ chuyển đổi tiền tệ. Để so sánh báo giá với kết quả theo tỷ giá tham chiếu, hãy mở công cụ tính chênh lệch tỷ giá.
 Giữ các cặp hữu ích ở gần
-Xem biểu đồ trong Balkan Converter
+Xem biểu đồ trong BALCO Converter
 Ứng dụng Android bao gồm biểu đồ tỷ giá 30 ngày, các cặp được ghim, tỷ giá tham chiếu ngoại tuyến và các công cụ tiền tệ khác.
 ```
 
 ### Additional dynamic messages
 
-- © 2026 Balkan Currency Converter
+- © 2026 BALCO Converter
 - API trả về dữ liệu tham chiếu ngày {date}.
 - Bạn đã chọn {selectedDate}; dữ liệu được xuất bản gần nhất được API trả về có ngày {date}.
 - Biểu đồ lịch sử tỷ giá hối đoái
@@ -389,11 +389,11 @@ Xem biểu đồ trong Balkan Converter
 - Không thể tải tỷ giá lịch sử cho ngày và cặp đó.
 - Không thể tải tỷ giá lịch sử. Hãy kiểm tra kết nối của bạn và thử lại.
 - Lịch sử tỷ giá hối đoái {base}/{quote}
-- Lịch sử tỷ giá hối đoái & biểu đồ tiền tệ | Balkan Converter
+- Lịch sử tỷ giá hối đoái & biểu đồ tiền tệ | BALCO Converter
 - Lịch sử tỷ giá tham chiếu {base}/{quote} từ {from} đến {to}. Thấp nhất {minimum}, cao nhất {maximum}.
 - Lựa chọn phân tích
-- nhà Balkan Currency Converter
-- Nhận Balkan Currency Converter trên Google Play
+- nhà BALCO Converter
+- Nhận BALCO Converter trên Google Play
 - Phản hồi theo tỷ lệ lịch sử không hợp lệ.
 - Phân tích tùy chọn
 - Quyền riêng tư
@@ -411,44 +411,44 @@ Xem biểu đồ trong Balkan Converter
 
 URL: `/vi/currency-converter-widget/`
 
-Title: Tiện ích chuyển đổi tiền tệ cho Android | Balkan Converter
+Title: Tiện ích chuyển đổi tiền tệ cho Android | BALCO Converter
 
 Meta description: Thêm tiện ích chuyển đổi tiền tệ vào màn hình chính Android của bạn để truy cập nhanh vào tỷ giá hối đoái được lưu trong bộ nhớ đệm, ngày tỷ giá, hành động hoán đổi và phím tắt ứng dụng.
 
 ### Complete visible main content
 
 ```text
-Quay lại Balkan Currency Converter
+Quay lại BALCO Converter
 Hướng dẫn sử dụng màn hình chính Android
 Tiện ích chuyển đổi tiền tệ cho Android
-Giữ một cặp tiền tệ hữu ích trên màn hình chính. Tiện ích Balkan Converter hiển thị tỷ giá tham chiếu đã lưu và ngày dữ liệu, mở cặp tiền đó trong ứng dụng, đồng thời cho phép đổi chiều nhanh ở bố cục rộng.
+Giữ một cặp tiền tệ hữu ích trên màn hình chính. Tiện ích BALCO Converter hiển thị tỷ giá tham chiếu đã lưu và ngày dữ liệu, mở cặp tiền đó trong ứng dụng, đồng thời cho phép đổi chiều nhanh ở bố cục rộng.
 Cách thêm tiện ích
-Tiện ích Balkan Converter thực tế trên màn hình chính Android thông thường.
+Tiện ích BALCO Converter thực tế trên màn hình chính Android thông thường.
 Bốn bước nhanh chóng
 Thêm tiện ích tiền tệ
 Nhãn trình khởi chạy hơi khác nhau tùy theo thiết bị Android nhưng luồng màn hình chính tiêu chuẩn thì giống nhau.
 Chuẩn bị một cặp
-Mở Balkan Converter, chọn loại tiền bạn muốn và để tỷ giá tham chiếu mới nhất tải thành công.
+Mở BALCO Converter, chọn loại tiền bạn muốn và để tỷ giá tham chiếu mới nhất tải thành công.
 Mở Widget
 Chạm và giữ một phần trống trên màn hình chính Android, sau đó chọn Widget.
 Đặt tiện ích
-Tìm Balkan Converter và kéo tiện ích tiền tệ vào vùng trống trên màn hình chính của bạn.
+Tìm BALCO Converter và kéo tiện ích tiền tệ vào vùng trống trên màn hình chính của bạn.
 Thay đổi kích thước và sử dụng
 Thay đổi kích thước của nó cho phù hợp. Nhấn vào thẻ để mở cặp đó trong ứng dụng; tiện ích rộng hơn cũng hiển thị nút hoán đổi.
 Tiện ích hiển thị gì
 Thẻ hiển thị tỷ lệ tham chiếu cho cặp đã chọn cùng với nhãn độ mới và ngày đánh giá. Mỗi tiện ích bắt đầu bằng cặp được sử dụng gần đây nhất trong ứng dụng và sau đó ghi nhớ cặp riêng của nó.
-Nhấn vào tiện ích sẽ mở Balkan Converter với các loại tiền tệ đó đã sẵn sàng. Trên tiện ích có chiều rộng trung bình, điều khiển hoán đổi sẽ đảo ngược cặp trực tiếp trên màn hình chính.
+Nhấn vào tiện ích sẽ mở BALCO Converter với các loại tiền tệ đó đã sẵn sàng. Trên tiện ích có chiều rộng trung bình, điều khiển hoán đổi sẽ đảo ngược cặp trực tiếp trên màn hình chính.
 Tại sao ngày lại quan trọng
-Tiện ích dùng bộ dữ liệu tỷ giá gần nhất mà ứng dụng đã lưu thành công; đây không phải nguồn giá thị trường trực tiếp độc lập. Khi Balkan Converter làm mới tỷ giá thành công, các tiện ích đã cài đặt sẽ nhận dữ liệu đã lưu mới.
+Tiện ích dùng bộ dữ liệu tỷ giá gần nhất mà ứng dụng đã lưu thành công; đây không phải nguồn giá thị trường trực tiếp độc lập. Khi BALCO Converter làm mới tỷ giá thành công, các tiện ích đã cài đặt sẽ nhận dữ liệu đã lưu mới.
 Khi không có kết nối, tỷ giá tham chiếu đã lưu gần nhất vẫn hữu ích để ước tính, còn ngày hiển thị cho biết độ cũ của dữ liệu. Đọc thêm trong hướng dẫn sử dụng ngoại tuyến.
 Bố cục nhỏ hay rộng?
 Bố cục nhỏ gọn giúp hiển thị tỷ lệ và ngày trong không gian ít hơn. Làm cho tiện ích rộng hơn khi bạn muốn có hành động hoán đổi chuyên dụng cùng với tỷ giá.
 Trình khởi chạy Android kiểm soát kích thước lưới chính xác, do đó, các bước thay đổi kích thước khả dụng có thể khác nhau giữa điện thoại và máy tính bảng.
 Khi cần nhiều cặp tiền tệ
 Mở ứng dụng để nhập số tiền, quy đổi tiền tệ, xem lịch sử tỷ giá, so sánh nhiều loại tiền hoặc lưu tỷ giá để sử dụng ngoại tuyến.
-Tiện ích này được thiết kế dưới dạng phím tắt và xem nhanh, trong khi Balkan Converter cung cấp quy trình chuyển đổi hoàn chỉnh.
+Tiện ích này được thiết kế dưới dạng phím tắt và xem nhanh, trong khi BALCO Converter cung cấp quy trình chuyển đổi hoàn chỉnh.
 Quy đổi nhanh
-Thêm Balkan Converter vào màn hình chính của bạn
+Thêm BALCO Converter vào màn hình chính của bạn
 Cài đặt ứng dụng Android, tải cặp tiền bạn muốn, rồi đặt tiện ích thực tế ở vị trí dễ truy cập trên màn hình chính.
 ```
 
@@ -460,14 +460,14 @@ Cài đặt ứng dụng Android, tải cặp tiền bạn muốn, rồi đặt 
 
 URL: `/vi/foreign-transaction-fee-calculator/`
 
-Title: Công cụ tính phí giao dịch ngoại tệ và DCC | Balkan Converter
+Title: Công cụ tính phí giao dịch ngoại tệ và DCC | BALCO Converter
 
 Meta description: So sánh thanh toán bằng nội tệ với thẻ DCC hoặc báo giá ATM. Bao gồm giao dịch nước ngoài và phí cố định sử dụng tỷ giá tham chiếu hiện tại.
 
 ### Complete visible main content
 
 ```text
-Quay lại Balkan Currency Converter
+Quay lại BALCO Converter
 So sánh thẻ và ATM
 Công cụ tính phí giao dịch ngoại tệ và DCC
 Thanh toán bằng nội tệ hoặc sử dụng chuyển đổi được cung cấp? Ước tính cả hai tùy chọn từ tỷ giá tham chiếu hiện có mới nhất và mức phí bạn nhập.
@@ -508,13 +508,13 @@ Nếu bạn chỉ muốn so sánh báo giá đổi tiền với kết quả theo
 Tỷ giá và ngày tham chiếu
 Tỷ giá tham chiếu cung cấp điểm so sánh trung lập chứ không phải tỷ giá giao dịch được đảm bảo. Kết quả cho thấy ngày thị trường được API tỷ lệ tham chiếu Frankfurter trả về.
 So sánh trên điện thoại
-Kiểm tra các ưu đãi trao đổi với Balkan Converter
-Balkan Converter cho Android bao gồm Chi phí thực tế để so sánh ưu đãi trao đổi và phí của ưu đãi đó với kết quả tham chiếu.
+Kiểm tra các ưu đãi trao đổi với BALCO Converter
+BALCO Converter cho Android bao gồm Chi phí thực tế để so sánh ưu đãi trao đổi và phí của ưu đãi đó với kết quả tham chiếu.
 ```
 
 ### Additional dynamic messages
 
-- © 2026 Balkan Currency Converter
+- © 2026 BALCO Converter
 - API tỷ giá tham chiếu Frankfurter
 - Báo giá DCC phải lớn hơn 0.
 - Chấp nhận phân tích
@@ -527,7 +527,7 @@ Balkan Converter cho Android bao gồm Chi phí thực tế để so sánh ưu �
 - Chuyển sang chủ đề tối
 - Chuyển sang giao diện nhẹ nhàng
 - Công cụ tính chênh lệch
-- Công cụ tính phí giao dịch ngoại tệ và DCC | Balkan Converter
+- Công cụ tính phí giao dịch ngoại tệ và DCC | BALCO Converter
 - Currency converter
 - DCC thấp hơn mức tham chiếu
 - Dựa trên những giá trị này, cả hai phương án đều có cùng chi phí ước tính.
@@ -544,8 +544,8 @@ Balkan Converter cho Android bao gồm Chi phí thực tế để so sánh ưu �
 - Máy tính phí giao dịch nước ngoài
 - Ngày
 - Ngày tỷ giá tham chiếu không có sẵn.
-- nhà Balkan Currency Converter
-- Nhận Balkan Currency Converter trên Google Play
+- nhà BALCO Converter
+- Nhận BALCO Converter trên Google Play
 - Nhập phí từ 0 trở lên.
 - Nhập số tiền mua hoặc rút lớn hơn 0.
 - Nhập tổng số tiền DCC được báo giá (không bắt buộc) để so sánh hai phương án thanh toán.
@@ -575,14 +575,14 @@ Balkan Converter cho Android bao gồm Chi phí thực tế để so sánh ưu �
 
 URL: `/vi/travel-budget-calculator/`
 
-Title: Máy tính ngân sách du lịch bằng hai loại tiền tệ | Balkan Converter
+Title: Máy tính ngân sách du lịch bằng hai loại tiền tệ | BALCO Converter
 
 Meta description: Ước tính ngân sách chuyến đi theo ngày và hạng mục, thêm chi phí cố định và khoản dự phòng, rồi quy đổi tổng số theo tỷ giá tham chiếu hiện tại.
 
 ### Complete visible main content
 
 ```text
-Quay lại Balkan Currency Converter
+Quay lại BALCO Converter
 Công cụ lập kế hoạch chuyến đi miễn phí
 Máy tính ngân sách du lịch
 Ước tính chi phí chuyến đi của bạn bằng hai loại tiền tệ. Thêm chi phí hằng ngày, chi phí cố định và khoản dự phòng tùy chọn—không cần tài khoản.
@@ -622,12 +622,12 @@ Những gì cần bao gồm
 Chỗ ở, bữa ăn, phương tiện đi lại và các hoạt động địa phương là số tiền hàng ngày. Thêm chuyến bay, vé tàu hoặc các chi phí một lần khác vào chi phí chuyến đi cố định.
 Tiền tệ cho chuyến đi
 Giữ các loại tiền tệ bạn cần cùng nhau
-Balkan Converter dành cho Android có Bảng du lịch và Bộ đã lưu để bạn luôn tiện theo dõi các loại tiền cần cho chuyến đi.
+BALCO Converter dành cho Android có Bảng du lịch và Bộ đã lưu để bạn luôn tiện theo dõi các loại tiền cần cho chuyến đi.
 ```
 
 ### Additional dynamic messages
 
-- © 2026 Balkan Currency Converter
+- © 2026 BALCO Converter
 - API tỷ giá tham chiếu Frankfurter
 - Các khoản ngân sách và dự phòng không được là số âm.
 - Chấp nhận phân tích
@@ -651,11 +651,11 @@ Balkan Converter dành cho Android có Bảng du lịch và Bộ đã lưu để
 - Không thể tải giá. Hãy kiểm tra kết nối của bạn và thử lại.
 - Lập kế hoạch ngân sách chuyến đi ước tính bằng đơn vị tiền tệ của điểm đến và quê hương của bạn.
 - Lựa chọn phân tích
-- Máy tính ngân sách du lịch bằng hai loại tiền tệ | Balkan Converter
+- Máy tính ngân sách du lịch bằng hai loại tiền tệ | BALCO Converter
 - Ngày tỷ giá tham chiếu không có sẵn.
 - Ngân sách đã được cập nhật theo tỷ giá tham chiếu mới nhất hiện có.
-- nhà Balkan Currency Converter
-- Nhận Balkan Currency Converter trên Google Play
+- nhà BALCO Converter
+- Nhận BALCO Converter trên Google Play
 - Nhập ít nhất một số tiền ngân sách lớn hơn 0.
 - Nhập số hợp lệ vào mọi trường.
 - Nhập số tiền ngân sách và khoảng đệm từ 0 trở lên.

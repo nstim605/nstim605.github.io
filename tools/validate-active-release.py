@@ -60,9 +60,9 @@ def approved_title_baseline(source, path):
     if filename == 'index.html':
         slots.append((f'<a href="privacy-policy.html">{before}</a>', 2))
     else:
-        slots += [(f'<title>{before} — Balkan Currency Converter</title>', 1),
+        slots += [(f'<title>{before} — BALCO Converter</title>', 1),
                   (f'<meta name="description" content="{before}">', 1),
-                  (f'<meta property="og:title" content="{before} — Balkan Currency Converter">', 1),
+                  (f'<meta property="og:title" content="{before} — BALCO Converter">', 1),
                   (f'<h1>{before}</h1>', 1)]
     for old, count in slots:
         require(source.count(old) == count, f'exact approved title slots: {path}/{old}')

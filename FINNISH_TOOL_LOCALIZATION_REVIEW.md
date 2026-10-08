@@ -18,7 +18,7 @@ Meta description: Muunna summa kahden valuutan välillä viimeisimmillä saatavi
 ### Complete visible main content
 
 ```text
-Takaisin Balkan Currency Converter
+Takaisin BALCO Converter
 Ilmainen valuuttatyökalu
 Valuuttamuunnin
 Muunna summa kahden valuutan välillä ja katso viimeisin saatavilla oleva viitekurssi, sen päivämäärä ja lähde.
@@ -40,20 +40,20 @@ Näytetty päivämäärä kertoo, mitä markkinapäivää viitetiedot edustavat.
 Tarvitsetko toisenlaisen näkemyksen?
 Seuraa valuuttaparin kehitystä valuuttakurssihistoria-sivulla, vertaa yhtä summaa useissa valuutoissa monivaluuttamuunnin-työkalulla, arvioi vaihtotarjousta kurssilisälaskuri-työkalulla tai vertaa kortti-, käteisnosto- ja DCC-kuluja maksu- ja DCC-laskuri-työkalulla.
 Lisää työkaluja Android
-Muunna Balkan Converter: llä
+Muunna BALCO Converter: llä
 Android-sovelluksessa on laskin, ilman internetiä käytettävät kurssit, Travel Board, Actual Cost, tallennetut joukot, historia, kaaviot ja aloitusnäytön widget.
 ```
 
 ### Additional dynamic messages
 
-- © 2026 Balkan Currency Converter
+- © 2026 BALCO Converter
 - Alatunnisteen navigointi
 - Analyticsin valinnat
 - Anna summa, joka on suurempi kuin nolla.
 - Auta meitä ymmärtämään sivuston käyttöä. Firebase Analytics pysyy pois päältä, ellet hyväksy.
-- Balkan Currency Converter koti
+- BALCO Converter koti
 - Haetaan uusimpia viitekursseja…
-- Hanki Balkan Currency Converter Google Play: lle
+- Hanki BALCO Converter Google Play: lle
 - Hanki se Google Play
 - Hintoja ei voitu ladata. Tarkista yhteys ja yritä uudelleen.
 - Hylkää analytiikka
@@ -89,14 +89,14 @@ Android-sovelluksessa on laskin, ilman internetiä käytettävät kurssit, Trave
 
 URL: `/fi/exchange-rate-markup-calculator/`
 
-Title: Valuuttakurssien lisäyslaskin | Balkan Currency Converter
+Title: Valuuttakurssien lisäyslaskin | BALCO Converter
 
 Meta description: Vertaa vaihtotarjousta uusimpaan viitekurssiin. Laske saamasi summa, erotus ja todellinen kurssilisä.
 
 ### Complete visible main content
 
 ```text
-Takaisin Balkan Currency Converter
+Takaisin BALCO Converter
 Ilmainen valuuttatyökalu
 Kurssilisälaskuri
 Vertaa vaihtopalvelun tarjoamaa summaa uusimpaan saatavilla olevaan viitekurssiin. Katso erotus ja todellinen kurssilisä ennen vaihtoa.
@@ -125,20 +125,20 @@ Tärkeää tietää
 Tämä on tiedon vertailu, ei taloudellista neuvontaa. Tarjous voi sisältää palvelumaksuja, korttimaksuja, käteisen käsittelyä tai palveluntarjoajan tuottoa. Viitekorot eivät ole taattuja transaktiokursseja.
 Vertaatko korttimaksua tai käteisnostoa tarjottuun korttivaluutan muunnokseen? Käytä maksu- ja DCC-laskuria-työkalua. Tee valuuttaparin nopea muunnos valuuttamuunninta-työkalulla. Vertaa yhtä summaa useissa valuutoissa monivaluuttamuunninta-työkalulla; opas käyttöön ilman internetiä kertoo, miten tallennetut kurssit toimivat.
 Tarvitsetko tätä liikkeellä?
-Vertaa kustannuksia Balkan Converter
+Vertaa kustannuksia BALCO Converter
 Android-sovelluksessa on Actual Cost, ilman internetiä käytettävät kurssit, Travel Board, tallennetut joukot, kaaviot ja aloitusnäytön widget.
 ```
 
 ### Additional dynamic messages
 
-- © 2026 Balkan Currency Converter
+- © 2026 BALCO Converter
 - Alatunnisteen navigointi
 - Analyticsin valinnat
 - Auta meitä ymmärtämään sivuston käyttöä. Firebase Analytics pysyy pois päältä, ellet hyväksy.
-- Balkan Currency Converter koti
+- BALCO Converter koti
 - Esimerkiksi 11 500
 - Haetaan uusimpia viitekursseja…
-- Hanki Balkan Currency Converter Google Play: lle
+- Hanki BALCO Converter Google Play: lle
 - Hanki se Google Play
 - Hintoja ei voitu ladata. Tarkista yhteys ja yritä uudelleen.
 - Hylkää analytiikka
@@ -165,7 +165,7 @@ Android-sovelluksessa on Actual Cost, ilman internetiä käytettävät kurssit, 
 - Valinnainen
 - Valinnainen analytiikka
 - Valitse kaksi eri valuuttaa.
-- Valuuttakurssien lisäyslaskin | Balkan Currency Converter
+- Valuuttakurssien lisäyslaskin | BALCO Converter
 - Valuuttamuunnin
 - Valuuttamuunnokset: Android
 - Vertaa vaihtotarjousta uusimpaan viitekurssiin. Laske saamasi summa, erotus ja todellinen kurssilisä.
@@ -184,12 +184,12 @@ URL: `/fi/multi-currency-converter/`
 
 Title: Monivaluuttamuunnin | Muunna yksi summa useiksi valuutoiksi
 
-Meta description: Muunna yksi summa useaksi valuutaksi kerralla viimeisimmillä saatavilla olevilla viitekursseilla. Ilmainen usean valuutan muuntaja Balkan Converter: ltä.
+Meta description: Muunna yksi summa useaksi valuutaksi kerralla viimeisimmillä saatavilla olevilla viitekursseilla. Ilmainen usean valuutan muuntaja BALCO Converter: ltä.
 
 ### Complete visible main content
 
 ```text
-Takaisin Balkan Currency Converter
+Takaisin BALCO Converter
 Ilmainen valuuttatyökalu
 Multi-Valuuttamuunnin
 Syötä yksi summa ja vertaa sen arvoa useissa valuutoissa samaan aikaan käyttämällä viimeisimpiä saatavilla olevia viitekursseja.
@@ -206,20 +206,20 @@ Kurssit ovat viitearvoja ja voivat poiketa pankin, kortinmyöntäjän tai valuut
 Valitse oikea näkymä
 Käytä yhdelle valuuttaparille valuuttamuunninta-työkalua. Katso kehitys valuuttakurssihistoriasta-sivulta, arvioi vaihtotarjous kurssilisälaskurilla-työkalulla ja lue oppaasta käyttöön ilman internetiä-oppaasta, miten tallennettuja kursseja käytetään ilman internetiä.
 Lisää valuuttoja liikkeellä
-Käytä Travel Boardia Balkan Converter: ssä
+Käytä Travel Boardia BALCO Converter: ssä
 Android-sovellus pitää useita matkavaluuttoja yhdessä, tukee uudelleenjärjestelyä ja voi valmistella kursseja offline-käyttöön.
 ```
 
 ### Additional dynamic messages
 
-- © 2026 Balkan Currency Converter
+- © 2026 BALCO Converter
 - Alatunnisteen navigointi
 - Analyticsin valinnat
 - Anna summa, joka on suurempi kuin nolla.
 - Auta meitä ymmärtämään sivuston käyttöä. Firebase Analytics pysyy pois päältä, ellet hyväksy.
-- Balkan Currency Converter koti
+- BALCO Converter koti
 - Haetaan uusimpia viitekursseja…
-- Hanki Balkan Currency Converter Google Play: lle
+- Hanki BALCO Converter Google Play: lle
 - Hanki se Google Play
 - Hintoja ei voitu ladata. Tarkista yhteys ja yritä uudelleen.
 - Hylkää analytiikka
@@ -234,7 +234,7 @@ Android-sovellus pitää useita matkavaluuttoja yhdessä, tukee uudelleenjärjes
 - Monen valuutan muuntaja
 - Monivaluutta
 - Monivaluuttamuunnin | Muunna yksi summa useiksi valuutoiksi
-- Muunna yksi summa useaksi valuutaksi kerralla viimeisimmillä saatavilla olevilla viitekursseilla. Ilmainen usean valuutan muuntaja Balkan Converter: ltä.
+- Muunna yksi summa useaksi valuutaksi kerralla viimeisimmillä saatavilla olevilla viitekursseilla. Ilmainen usean valuutan muuntaja BALCO Converter: ltä.
 - Muunna yksi summa useaksi valuutaksi samanaikaisesti.
 - Muunna yksi summa useiksi valuutoiksi käyttämällä viimeisimpiä saatavilla olevia viitekursseja.
 - Muunnettu summa
@@ -271,7 +271,7 @@ Meta description: Opi kuinka offline-valuuttamuunnin käyttää päivättyjä, t
 ### Complete visible main content
 
 ```text
-Takaisin Balkan Currency Converter
+Takaisin BALCO Converter
 Offline-valuuttakurssiopas
 Valuuttamuunnin ilman internetiä: Näin tallennetut kurssit toimivat
 Valuuttamuunnin voi toimia ilman internetiä käyttämällä laitteelle viimeksi onnistuneesti tallennettuja kursseja. Kurssit ovat hyödyllistä viitetietoa, mutta niiden päivämäärä säilyy ennallaan, kunnes sovellus voi päivittää ne verkossa.
@@ -288,7 +288,7 @@ Mitä ilman internetiä käytettävä tallennettu kurssi tarkoittaa
 Tallennetut tiedot ovat tilannekuva viimeisimmästä onnistuneesta viitekurssivastauksesta. Niillä voi tehdä muunnoksia ilman verkkoyhteyttä, mutta arvot eivät päivity laitteen ollessa ilman internetiä.
 Tarkista aina näytetty kurssipäivä. Eilisen kurssiin perustuva tulos voi yhä auttaa suunnittelussa, mutta se ei takaa pankin, kortinmyöntäjän tai valuutanvaihtopisteen tänään tarjoamaa kurssia.
 Mitä tapahtuu, kun internet palaa?
-Balkan Converter käyttää yhtä jaettua paikallista nopeusvälimuistia normaaliin muuntamiseen ja tallennettujen joukkojen valmisteluun. Onnistunut online-päivitys korvaa vanhan välimuistissa olevan tietojoukon ja päivittää sen päivämäärän ja säästää aikaa.
+BALCO Converter käyttää yhtä jaettua paikallista nopeusvälimuistia normaaliin muuntamiseen ja tallennettujen joukkojen valmisteluun. Onnistunut online-päivitys korvaa vanhan välimuistissa olevan tietojoukon ja päivittää sen päivämäärän ja säästää aikaa.
 Jos päivitys epäonnistuu, sovellus palaa aikaisempiin välimuistiin tallennettuihin nopeuksiin sen sijaan, että se poistaisi niitä.
 Valmistele tallennettu sarja offline-käyttöä varten
 Luo tai avaa tallennettu sarja tarvitsemillesi valuuteille Android-sovelluksessa. Kun yhteys on muodostettu, valitse Tallenna kurssit käyttöön ilman internetiä. Sovellus päivittää yhteisen kurssiaineiston ja vahvistaa valmiuden, kun tallennettu välimuisti sisältää kaikki kyseisen joukon valuutat.
@@ -297,7 +297,7 @@ Hyödyllinen matkustamisen lisäksi
 Offline-muunnos voi auttaa huonon yhteyden, verkkovierailuhäiriön, tilapäisen palvelukatkon tai missä tahansa tilanteessa, jossa pikaviittausarvio on hyödyllisempi kuin ei tulosta.
 Saat tallennetun valuuttaparin nopeasti käyttöön Android-widgetin-oppaasta. Tee verkkomuunnos valuuttamuuntimella-työkalulla, vertaa yhtä summaa useissa valuutoissa monivaluuttamuuntimella-työkalulla tai arvioi vaihtotarjous kurssilisälaskurilla-työkalulla.
 Pidä päivätty viite saatavilla
-Käytä tallennettuja kursseja Balkan Converterissa
+Käytä tallennettuja kursseja BALCO Converterissa
 Android-sovellus voi käyttää uusinta onnistunutta valuuttakurssivälimuistiaan ilman yhteyttä ja tunnistaa selkeästi välimuistissa olevat tiedot ja sen kurssin päivämäärän.
 ```
 
@@ -309,14 +309,14 @@ Android-sovellus voi käyttää uusinta onnistunutta valuuttakurssivälimuistiaa
 
 URL: `/fi/exchange-rate-history/`
 
-Title: Valuuttakurssihistoria ja valuuttakaavio | Balkan Converter
+Title: Valuuttakurssihistoria ja valuuttakaavio | BALCO Converter
 
 Meta description: Tarkastele 30 päivän, 90 päivän tai yhden vuoden valuuttakurssihistoriaa, kaavio valuuttaparista ja etsi tietyn päivämäärän viitekurssi.
 
 ### Complete visible main content
 
 ```text
-Takaisin Balkan Currency Converter
+Takaisin BALCO Converter
 Historiallinen viitekurssityökalu
 Valuuttakurssihistoria ja valuuttakaavio
 Tutki, miten valuuttapari liikkui 30 päivän, 90 päivän tai yhden vuoden aikana, ja etsi viitekurssi tietyltä päivämäärältä.
@@ -355,7 +355,7 @@ Päivämäärät ja trendit
 Käytä kaaviota nähdäksesi suunnan ja vaihtelun, älä ennustaaksesi seuraavaa liikettä. Jotkut palveluntarjoajat eivät julkaise joka kalenteripäivä. Jos API palauttaa tietoja toiselta saatavilla olevalta päivämäärältä, haku raportoi todellisen datapäivämäärän sen sijaan, että se näyttäisi sen valitsemanasi päivänä.
 Tee muunnos uusimmalla saatavilla olevalla kurssilla valuuttamuuntimella-työkalulla. Vertaa vaihtotarjousta viitekurssin mukaiseen tulokseen kurssilisälaskurilla-työkalulla.
 Pidä hyödylliset parit lähellä
-Katso kaavioita muodossa Balkan Converter
+Katso kaavioita muodossa BALCO Converter
 Android-sovellus sisältää 30 päivän kurssikaavioita, kiinnitettyjä pareja, offline-viitekursseja ja muita valuuttatyökaluja.
 ```
 
@@ -363,16 +363,16 @@ Android-sovellus sisältää 30 päivän kurssikaavioita, kiinnitettyjä pareja,
 
 - {base}/{quote} valuuttakurssihistoria
 - {count} päivätyt viitekurssit ladattu.
-- © 2026 Balkan Currency Converter
+- © 2026 BALCO Converter
 - Alatunnisteen navigointi
 - Analyticsin valinnat
 - API palautti viitetiedot päivättynä {date}.
 - Auta meitä ymmärtämään sivuston käyttöä. Firebase Analytics pysyy pois päältä, ellet hyväksy.
-- Balkan Currency Converter koti
+- BALCO Converter koti
 - Haetaan historiallisia viitekursseja…
 - Haetaan historiallista viitekurssia…
 - Haetaan korkoa…
-- Hanki Balkan Currency Converter Google Play: lle
+- Hanki BALCO Converter Google Play: lle
 - Hanki se Google Play
 - Historiallinen kurssi päivämäärän mukaan
 - Historiallinen viitekurssi ladattu.
@@ -402,7 +402,7 @@ Android-sovellus sisältää 30 päivän kurssikaavioita, kiinnitettyjä pareja,
 - Valitse kelvollinen historiallinen päivämäärä.
 - Valitse kelvollinen päivämäärä, joka ei ole tulevaisuudessa.
 - Valitsit {selectedDate}; lähin saatavilla oleva API: n palauttama julkaistu data on päivätty {date}.
-- Valuuttakurssihistoria ja valuuttakaavio | Balkan Converter
+- Valuuttakurssihistoria ja valuuttakaavio | BALCO Converter
 - Valuuttakurssihistoriakaavio
 - Valuuttakurssihistorian säätimet ja kaavio
 - Valuuttamuunnin
@@ -416,44 +416,44 @@ Android-sovellus sisältää 30 päivän kurssikaavioita, kiinnitettyjä pareja,
 
 URL: `/fi/currency-converter-widget/`
 
-Title: Valuuttamuunnin widget Android | Balkan Converter
+Title: Valuuttamuunnin widget Android | BALCO Converter
 
 Meta description: Lisää valuuttamuunnin-widget Android-aloitusnäyttöön saadaksesi nopean pääsyn välimuistiin tallennettuun valuuttakurssiin, kurssin päivämäärään, vaihtotoimintoon ja sovelluksen pikakuvakkeeseen.
 
 ### Complete visible main content
 
 ```text
-Takaisin Balkan Currency Converter
+Takaisin BALCO Converter
 Android aloitusnäytön opas
 Valuuttamuunnin widget Android
-Pidä yksi hyödyllinen valuuttapari aloitusnäytölläsi. Balkan Converter-widget näyttää välimuistissa olevan viitekurssin ja sen datapäivämäärän, avaa kyseisen parin sovelluksessa ja tukee nopeaa vaihtoa laajemmassa asettelussaan.
+Pidä yksi hyödyllinen valuuttapari aloitusnäytölläsi. BALCO Converter-widget näyttää välimuistissa olevan viitekurssin ja sen datapäivämäärän, avaa kyseisen parin sovelluksessa ja tukee nopeaa vaihtoa laajemmassa asettelussaan.
 Kuinka lisätä widget
-Balkan Converterin oikea widget tavallisessa Android-aloitusnäytössä.
+BALCO Converterin oikea widget tavallisessa Android-aloitusnäytössä.
 Neljä nopeaa askelta
 Lisää valuutta-widget
 Käynnistysohjelmien tarrat vaihtelevat hieman Android-laitteen mukaan, mutta normaali aloitusnäytön kulku on sama.
 Valmista pari
-Avaa Balkan Converter, valitse haluamasi valuutat ja anna uusimpien viitekurssien latautua onnistuneesti.
+Avaa BALCO Converter, valitse haluamasi valuutat ja anna uusimpien viitekurssien latautua onnistuneesti.
 Avaa widgetit
 Kosketa pitkään Android-aloitusnäytön tyhjää osaa ja valitse sitten Widgetit.
 Aseta se
-Etsi Balkan Converter ja vedä valuutta-widget aloitusnäytön vapaalle alueelle.
+Etsi BALCO Converter ja vedä valuutta-widget aloitusnäytön vapaalle alueelle.
 Muuta kokoa ja käytä
 Muuta sen kokoa sopivaksi. Napauta korttia avataksesi parin sovelluksessa. leveämpi widget näyttää myös vaihtopainikkeen.
 Mitä widget näyttää
 Kortissa näkyy valitun parin viitekurssi sekä tuoreusmerkintä ja kurssin päivämäärä. Jokainen widget alkaa viimeksi sovelluksessa käytetystä parista ja muistaa sitten oman parinsa.
-Widgetin napauttaminen avaa Balkan Converter: n, kun kyseiset valuutat ovat valmiina. Keskileveässä widgetissä vaihtosäädin kääntää parin suoraan aloitusnäytössä.
+Widgetin napauttaminen avaa BALCO Converter: n, kun kyseiset valuutat ovat valmiina. Keskileveässä widgetissä vaihtosäädin kääntää parin suoraan aloitusnäytössä.
 Miksi päivämäärällä on väliä
-Widget käyttää sovelluksen viimeisintä onnistuneesti välimuistiin tallennettua nopeustietojoukkoa. se ei ole itsenäinen live-markkinasyöte. Kun Balkan Converter päivittää nopeudensa onnistuneesti, asennetut widgetit vastaanottavat päivitetyt välimuistitiedot.
+Widget käyttää sovelluksen viimeisintä onnistuneesti välimuistiin tallennettua nopeustietojoukkoa. se ei ole itsenäinen live-markkinasyöte. Kun BALCO Converter päivittää nopeudensa onnistuneesti, asennetut widgetit vastaanottavat päivitetyt välimuistitiedot.
 Ilman internetiä viimeksi tallennettu viitekurssi soveltuu edelleen arvioihin, ja päivämäärä kertoo tietojen iän. Lue lisää oppaasta käyttöön ilman internetiä-oppaasta.
 Pieni vai leveä asettelu?
 Kompakti asettelu pitää kurssin ja päivämäärän näkyvissä pienemmässä tilassa. Tee widgetistä leveämpi, kun haluat oman swap-toiminnon kurssin rinnalle.
 Android-kantoraketit ohjaavat tarkkaa ruudukon kokoa, joten käytettävissä olevat koonmuutosvaiheet voivat vaihdella puhelimien ja tablettien välillä.
 Useampaan kuin yhdelle nopealle parille
 Avaa sovellus, kun haluat syöttää summan, muuntaa valuuttoja, tarkastella valuuttakurssihistoriaa, verrata useita valuuttoja tai tallentaa kursseja käyttöön ilman internetiä.
-Widget on suunniteltu nopeaksi vilkaisuksi ja pikakuvakkeeksi, kun taas Balkan Converter tarjoaa täydellisen muuntamisen työnkulun.
+Widget on suunniteltu nopeaksi vilkaisuksi ja pikakuvakkeeksi, kun taas BALCO Converter tarjoaa täydellisen muuntamisen työnkulun.
 Muunnos yhdellä silmäyksellä
-Lisää Balkan Converter aloitusnäyttöön
+Lisää BALCO Converter aloitusnäyttöön
 Asenna Android-sovellus, lataa haluamasi valuuttapari ja sijoita oikea valuuttawidget helposti käytettävään paikkaan.
 ```
 
@@ -465,14 +465,14 @@ Asenna Android-sovellus, lataa haluamasi valuuttapari ja sijoita oikea valuuttaw
 
 URL: `/fi/foreign-transaction-fee-calculator/`
 
-Title: Ulkomaan transaktiomaksu ja DCC-laskin | Balkan Converter
+Title: Ulkomaan transaktiomaksu ja DCC-laskin | BALCO Converter
 
 Meta description: Vertaa paikallisessa valuutassa maksamista DCC-korttiin tai pankkiautomaattitarjoukseen. Sisällytä ulkomaiset tapahtumat ja kiinteät maksut nykyisiä viitekursseja käyttäen.
 
 ### Complete visible main content
 
 ```text
-Takaisin Balkan Currency Converter
+Takaisin BALCO Converter
 Korttien ja pankkiautomaattien vertailu
 Ulkomaan transaktiomaksu ja DCC-laskin
 Maksatko paikallisessa valuutassa vai käytätkö tarjottua muuntamista? Arvioi molemmat vaihtoehdot viimeisimmän saatavilla olevan viitekoron ja syöttämiesi maksujen perusteella.
@@ -513,27 +513,27 @@ Jos haluat vain verrata vaihtotarjousta viitekurssin mukaiseen tulokseen, käyt�
 Viitekurssi ja päivämäärä
 Viitekorot ovat neutraali vertailukohta, eivät taattu transaktiokurssi. Tulos näyttää Frankfurter-viitekoron API: n palauttaman markkinapäivämäärän.
 Vertaa puhelimessasi
-Tarkista vaihtotarjoukset: Balkan Converter
-Balkan Converter for Android sisältää todelliset kustannukset vaihtotarjouksen ja sen maksujen vertailusta viitetulokseen.
+Tarkista vaihtotarjoukset: BALCO Converter
+BALCO Converter for Android sisältää todelliset kustannukset vaihtotarjouksen ja sen maksujen vertailusta viitetulokseen.
 ```
 
 ### Additional dynamic messages
 
-- © 2026 Balkan Currency Converter
+- © 2026 BALCO Converter
 - Alatunnisteen navigointi
 - Analyticsin valinnat
 - Anna DCC noteerattu kokonaissumma, joka on suurempi kuin nolla, tai jätä se tyhjäksi.
 - Anna osto- tai nostosumma, joka on suurempi kuin nolla.
 - Arvioi paikallisen valuutan korttikustannukset ja vertaa valinnaista DCC-tarjousta.
 - Auta meitä ymmärtämään sivuston käyttöä. Firebase Analytics pysyy pois päältä, ellet hyväksy.
-- Balkan Currency Converter koti
+- BALCO Converter koti
 - DCC alla viite
 - DCC-lainan on oltava suurempi kuin nolla.
 - Esimerkiksi 90
 - Frankfurter-viitekurssi-API
 - From
 - Haetaan uusimpia viitekursseja…
-- Hanki Balkan Currency Converter Google Play: lle
+- Hanki BALCO Converter Google Play: lle
 - Hanki se Google Play
 - Hintoja ei voitu ladata. Tarkista yhteys ja yritä uudelleen.
 - Hylkää analytiikka
@@ -555,7 +555,7 @@ Balkan Converter for Android sisältää todelliset kustannukset vaihtotarjoukse
 - Summan ja korkojen on oltava positiivisia lukuja.
 - Syötä maksut nolla tai enemmän.
 - Tietosuojakäytäntö
-- Ulkomaan transaktiomaksu ja DCC-laskin | Balkan Converter
+- Ulkomaan transaktiomaksu ja DCC-laskin | BALCO Converter
 - Ulkomaan transaktiomaksulaskuri
 - Ulkomaan transaktiomaksuprosentti
 - Ulkomainen transaktiomaksu ({percentage} %)
@@ -581,14 +581,14 @@ Balkan Converter for Android sisältää todelliset kustannukset vaihtotarjoukse
 
 URL: `/fi/travel-budget-calculator/`
 
-Title: Matkabudjettilaskin kahdessa valuutassa | Balkan Converter
+Title: Matkabudjettilaskin kahdessa valuutassa | BALCO Converter
 
 Meta description: Arvioi matkan budjetti päivän ja luokan mukaan, lisää kiinteät kustannukset ja puskuri ja muunna sitten kokonaissumma nykyisillä viitekursseilla.
 
 ### Complete visible main content
 
 ```text
-Takaisin Balkan Currency Converter
+Takaisin BALCO Converter
 Ilmainen matkasuunnittelutyökalu
 Matkabudjettilaskin
 Arvioi matkasi hinta kahdessa valuutassa. Lisää päivittäiset kulut, kiinteät kulut ja valinnainen puskuri – tiliä ei tarvita.
@@ -628,12 +628,12 @@ Mitä sisällyttää
 Majoitus, ruokailut, paikalliskuljetukset ja aktiviteetit ovat päivämääriä. Lisää lennot, junaliput tai muut kertaluonteiset kulut kiinteiden matkakulujen alle.
 Matkasi valuutat
 Pidä tarvitsemasi valuutat yhdessä
-Balkan Converter for Android sisältää matkataulun ja tallennetut setit hyödyllisten matkavaluuttojen pitämiseksi käden ulottuvilla.
+BALCO Converter for Android sisältää matkataulun ja tallennetut setit hyödyllisten matkavaluuttojen pitämiseksi käden ulottuvilla.
 ```
 
 ### Additional dynamic messages
 
-- © 2026 Balkan Currency Converter
+- © 2026 BALCO Converter
 - Alatunnisteen navigointi
 - Analyticsin valinnat
 - Anna budjettisummat ja puskuri nolla tai enemmän.
@@ -642,13 +642,13 @@ Balkan Converter for Android sisältää matkataulun ja tallennetut setit hyödy
 - Arvioi päivittäiset matkakulut, kiinteät kulut ja puskuri kahdessa valuutassa.
 - Arvioi usean päivän matkabudjetti luokittain kohde- ja kotivaluutassa.
 - Auta meitä ymmärtämään sivuston käyttöä. Firebase Analytics pysyy pois päältä, ellet hyväksy.
-- Balkan Currency Converter koti
+- BALCO Converter koti
 - Budjetti päivitetty viimeisimmillä saatavilla olevilla viitekursseilla.
 - Budjettisummat ja puskuri eivät voi olla negatiivisia.
 - Frankfurter-viitekurssi-API
 - From
 - Haetaan uusimpia viitekursseja…
-- Hanki Balkan Currency Converter Google Play: lle
+- Hanki BALCO Converter Google Play: lle
 - Hanki se Google Play
 - Hintoja ei voitu ladata. Tarkista yhteys ja yritä uudelleen.
 - Hylkää analytiikka
@@ -657,7 +657,7 @@ Balkan Converter for Android sisältää matkataulun ja tallennetut setit hyödy
 - Kotiin
 - Ladataan uusimpia hintoja…
 - Lue lisää
-- Matkabudjettilaskin kahdessa valuutassa | Balkan Converter
+- Matkabudjettilaskin kahdessa valuutassa | BALCO Converter
 - Matkapäivien on oltava nollaa suurempi kokonaisluku.
 - Monen valuutan muuntaja
 - Monivaluutta

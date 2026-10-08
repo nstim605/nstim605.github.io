@@ -7,7 +7,7 @@ const root = path.resolve(import.meta.dirname, '..');
 
 test('widget guide has unique indexable metadata and structured steps', async () => {
   const page = await fs.readFile(path.join(root, 'currency-converter-widget/index.html'), 'utf8');
-  assert.match(page, /<title>Currency Converter Widget for Android \| Balkan Converter<\/title>/);
+  assert.match(page, /<title>Currency Converter Widget for Android \| BALCO Converter<\/title>/);
   assert.match(page, /rel="canonical" href="https:\/\/balkanconverter\.com\/currency-converter-widget\/"/);
   assert.match(page, /<h1 id="widget-title">Currency Converter Widget for Android<\/h1>/);
   assert.equal((page.match(/<h1\b/g) || []).length, 1);

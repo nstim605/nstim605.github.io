@@ -18,7 +18,7 @@ Meta description: 利用可能な最新の参照レートを使用して 2 つ�
 ### Complete visible main content
 
 ```text
-Balkan Currency Converter に戻る
+BALCO Converter に戻る
 無料の通貨ツール
 通貨換算ツール
 2 つの通貨間で金額を換算し、利用可能な最新の参照レート、その日付、およびソースを確認します。
@@ -40,17 +40,17 @@ Frankfurter 参照レート API
 別のビューが必要ですか?
 通貨ペアの推移は為替レート履歴で確認し、同じ金額を複数の通貨で比較するには複数通貨換算、両替の提示額を確認するには為替レート差額計算、カード・現金引き出し・DCC の費用を比較するには手数料・DCC 計算をご利用ください。
 Android のその他のツール
-Balkan Converter で変換します
+BALCO Converter で変換します
 Android アプリでは、計算機能、オフラインレート、トラベルボード、実質交換コスト、保存セット、レート履歴、チャート、ホーム画面ウィジェットも利用できます。
 ```
 
 ### Additional dynamic messages
 
-- © 2026 Balkan Currency Converter
+- © 2026 BALCO Converter
 - 2 つの異なる通貨を選択します。
 - Android の通貨換算
-- Balkan Currency Converter の家
-- Google Play で Balkan Currency Converter を入手
+- BALCO Converter の家
+- Google Play で BALCO Converter を入手
 - Google Play で入手
 - オプション
 - オプションの分析
@@ -86,14 +86,14 @@ Android アプリでは、計算機能、オフラインレート、トラベル
 
 URL: `/ja/exchange-rate-markup-calculator/`
 
-Title: 為替レート差額計算ツール | Balkan Currency Converter
+Title: 為替レート差額計算ツール | BALCO Converter
 
 Meta description: 両替の提示額を最新の参照レートと比較し、受取額、差額、差の割合を計算します。
 
 ### Complete visible main content
 
 ```text
-Balkan Currency Converter に戻る
+BALCO Converter に戻る
 無料の通貨ツール
 為替レート差額計算ツール
 両替サービスの提示額を最新の参照レートと比較し、両替前に実質的な差を確認できます。
@@ -122,17 +122,17 @@ RSD — セルビア ディナール
 これは情報比較であり、財務上のアドバイスではありません。オファーには、サービス手数料、カード料金、現金処理、またはプロバイダーのスプレッドが含まれる場合があります。参考レートは取引レートを保証するものではありません。
 カードや ATM の取引を、カード通貨で提示された換算額と比較する場合は手数料・DCC 計算をご利用ください。1 組の通貨をすばやく換算するには通貨換算を開きます。同じ金額を複数通貨で比較するには複数通貨換算、保存したレートの仕組みはオフライン利用ガイドをご覧ください。
 外出先でもこれが必要ですか?
-Balkan Converter のコストを比較します
+BALCO Converter のコストを比較します
 Android アプリでは、実質交換コスト、オフラインレート、トラベルボード、保存セット、チャート、ホーム画面ウィジェットも利用できます。
 ```
 
 ### Additional dynamic messages
 
-- © 2026 Balkan Currency Converter
+- © 2026 BALCO Converter
 - 2 つの異なる通貨を選択します。
 - Android の通貨換算
-- Balkan Currency Converter の家
-- Google Play で Balkan Currency Converter を入手
+- BALCO Converter の家
+- Google Play で BALCO Converter を入手
 - Google Play で入手
 - オファーは参照結果より {percentage} 低くなります。
 - オファーは参照結果を {percentage} 上回っています。
@@ -153,7 +153,7 @@ Android アプリでは、実質交換コスト、オフラインレート、ト
 - ライトテーマに切り替える
 - 為替オファーが最新の参考レートからどれだけ離れているかを確認します。
 - 為替オファーを最新の参考レートと比較します。
-- 為替レート差額計算ツール | Balkan Currency Converter
+- 為替レート差額計算ツール | BALCO Converter
 - 金額とレートは正の数である必要があります。
 - 計算は最新の利用可能な参照レートに基づいて更新されました。
 - 計算機にスキップ
@@ -178,12 +178,12 @@ URL: `/ja/multi-currency-converter/`
 
 Title: 多通貨コンバータ | 1 つの金額を複数の通貨に変換
 
-Meta description: 利用可能な最新の参照レートを使用して、1 つの金額を複数の通貨に一度に換算します。 Balkan Converter の無料の多通貨コンバータ。
+Meta description: 利用可能な最新の参照レートを使用して、1 つの金額を複数の通貨に一度に換算します。 BALCO Converter の無料の多通貨コンバータ。
 
 ### Complete visible main content
 
 ```text
-Balkan Currency Converter に戻る
+BALCO Converter に戻る
 無料の通貨ツール
 多通貨コンバータ
 1 つの金額を入力し、利用可能な最新の参照レートを使用してその値を複数の通貨で同時に比較します。
@@ -200,17 +200,17 @@ Balkan Currency Converter に戻る
 適切なビューを選択してください
 1 組の通貨を換算するには通貨換算をご利用ください。推移は為替レート履歴で確認し、提示額は為替レート差額計算で比較できます。保存したレートをインターネットなしで使う方法はオフライン利用ガイドをご覧ください。
 外出先でもより多くの通貨を利用可能
-Balkan Converter でトラベル ボードを使用する
+BALCO Converter でトラベル ボードを使用する
 Android アプリは、複数の旅行通貨をまとめて管理し、再注文をサポートし、オフラインで使用するためのレートを準備できます。
 ```
 
 ### Additional dynamic messages
 
-- © 2026 Balkan Currency Converter
+- © 2026 BALCO Converter
 - 1 つの金額を同時に複数の通貨に換算します。
 - Android の通貨換算
-- Balkan Currency Converter の家
-- Google Play で Balkan Currency Converter を入手
+- BALCO Converter の家
+- Google Play で BALCO Converter を入手
 - Google Play で入手
 - オプション
 - オプションの分析
@@ -245,7 +245,7 @@ Android アプリは、複数の旅行通貨をまとめて管理し、再注文
 - 分析の選択肢
 - 分析を受け入れる
 - 利用可能な最新の参照レートから更新されたコンバージョン。
-- 利用可能な最新の参照レートを使用して、1 つの金額を複数の通貨に一度に換算します。 Balkan Converter の無料の多通貨コンバータ。
+- 利用可能な最新の参照レートを使用して、1 つの金額を複数の通貨に一度に換算します。 BALCO Converter の無料の多通貨コンバータ。
 - 利用可能な最新の参照レートを使用して、1 つの金額を複数の通貨に換算します。
 - 料金
 - 料金を読み込めませんでした。接続を確認して、もう一度試してください。
@@ -261,7 +261,7 @@ Meta description: オフライン通貨換算ツールが日付の保存され�
 ### Complete visible main content
 
 ```text
-Balkan Currency Converter に戻る
+BALCO Converter に戻る
 オフライン為替レートガイド
 オフライン通貨換算: 保存レートの仕組み
 コンバーターは、デバイスに正常に保存された最新の為替レートを使用することで、インターネットがなくても動作し続けることができます。これらのレートは有用な参考データですが、アプリがオンラインで更新できるまでは元の日付に関連付けられたままになります。
@@ -278,7 +278,7 @@ Balkan Currency Converter に戻る
 保存されたデータは、最後に成功した参照レート応答のスナップショットです。ネットワーク接続がなくてもコンバージョンを計算できますが、デバイスがオフラインの間は数値が更新されません。
 表示されたレート日付を必ず確認してください。昨日のレートに基づいた結果は計画に役立つ可能性がありますが、銀行、カード プロバイダー、または両替所が今日提供するレートを約束するものではありません。
 インターネットが戻ったらどうなるでしょうか?
-Balkan Converter は、通常の換算と保存セットの準備で同じローカルレートキャッシュを使用します。オンライン更新が成功すると古いキャッシュが置き換わり、レートの日付と保存時刻も更新されます。
+BALCO Converter は、通常の換算と保存セットの準備で同じローカルレートキャッシュを使用します。オンライン更新が成功すると古いキャッシュが置き換わり、レートの日付と保存時刻も更新されます。
 更新に失敗した場合、アプリはキャッシュされた以前のレートを削除するのではなく、そのレートに戻します。
 保存セットをオフライン用に準備
 Android アプリで必要な通貨の保存セットを作成または開き、オンラインの状態で次を選択します。 レートをオフライン用に保存。保存されたキャッシュにそのセット内のすべての通貨が含まれている場合、アプリは共有レート データセットを更新し、準備が整っていることを確認します。
@@ -287,7 +287,7 @@ Android アプリで必要な通貨の保存セットを作成または開き、
 オフライン換算は、通信状態が悪いとき、ローミングが途切れたとき、一時的な障害時など、参照値だけでも確認したい場面で役立ちます。
 保存した通貨ペアへすばやくアクセスするにはAndroid ウィジェットガイドをご覧ください。オンライン換算には通貨換算、同じ金額を複数通貨で比較するには複数通貨換算、提示額の確認には為替レート差額計算をご利用ください。
 日付付きの参照レートを手元に
-Balkan Converter で保存されたレートを使用する
+BALCO Converter で保存されたレートを使用する
 Android アプリは、接続なしで最新の成功した為替レート キャッシュを再利用でき、キャッシュされたデータとそのレート日付を明確に識別します。
 ```
 
@@ -299,14 +299,14 @@ Android アプリは、接続なしで最新の成功した為替レート キ�
 
 URL: `/ja/exchange-rate-history/`
 
-Title: 為替レートの歴史と通貨チャート | Balkan Converter
+Title: 為替レートの歴史と通貨チャート | BALCO Converter
 
 Meta description: 30 日間、90 日間、または 1 年間の為替レート履歴を表示し、通貨ペアをグラフ化し、特定の日付の参照レートを検索します。
 
 ### Complete visible main content
 
 ```text
-Balkan Currency Converter に戻る
+BALCO Converter に戻る
 過去の参照レート確認ツール
 為替レートの歴史と通貨チャート
 通貨ペアが 30 日、90 日、または 1 年間でどのように変動したかを調べ、特定の日付の参照レートを調べます。
@@ -345,7 +345,7 @@ Frankfurter 参照レート API
 チャートは方向性と変動を確認するために使用するものであり、次の動きを予測するために使用するものではありません。一部のプロバイダーは暦日ごとに公開しない場合があります。 API が別の利用可能な日付からデータを返す場合、ルックアップでは、選択した日として表示するのではなく、実際のデータの日付が報告されます。
 最新の利用可能なレートで換算するには通貨換算をご利用ください。提示額を参照レートによる結果と比較するには為替レート差額計算を開きます。
 有用なペアを近くに置いておく
-Balkan Converter のチャートを表示
+BALCO Converter のチャートを表示
 Android アプリには、30 日レート チャート、固定ペア、オフライン参照レート、その他の通貨ツールが含まれています。
 ```
 
@@ -355,13 +355,13 @@ Android アプリには、30 日レート チャート、固定ペア、オフ�
 - {count} 日付の参照レートが読み込まれました。
 - {from} から {to} までの {base} から {quote} の参照レート履歴。最小値 {minimum}、最大値 {maximum}。
 - {selectedDate} を選択しました。 API によって返される最も近い利用可能な公開データの日付は {date} です。
-- © 2026 Balkan Currency Converter
+- © 2026 BALCO Converter
 - 2 つの異なる通貨を選択します。
 - 30 日間、90 日間、または 1 年間の為替レート履歴を表示し、通貨ペアをグラフ化し、特定の日付の参照レートを検索します。
 - Android の通貨換算
 - API は、{date} という日付の参照データを返しました。
-- Balkan Currency Converter の家
-- Google Play で Balkan Currency Converter を入手
+- BALCO Converter の家
+- Google Play で BALCO Converter を入手
 - Google Play で入手
 - オプション
 - オプションの分析
@@ -380,7 +380,7 @@ Android アプリには、30 日レート チャート、固定ペア、オフ�
 - ライトテーマに切り替える
 - レートを調べています…
 - を使用します。
-- 為替レートの歴史と通貨チャート | Balkan Converter
+- 為替レートの歴史と通貨チャート | BALCO Converter
 - 為替レート履歴
 - 為替レート履歴グラフ
 - 為替レート履歴コントロールとチャート
@@ -408,44 +408,44 @@ Android アプリには、30 日レート チャート、固定ペア、オフ�
 
 URL: `/ja/currency-converter-widget/`
 
-Title: Android の通貨コンバータ ウィジェット | Balkan Converter
+Title: Android の通貨コンバータ ウィジェット | BALCO Converter
 
 Meta description: 通貨換算ウィジェットを Android のホーム画面に追加すると、キャッシュされた為替レート、レート日付、スワップ アクション、アプリのショートカットに簡単にアクセスできます。
 
 ### Complete visible main content
 
 ```text
-Balkan Currency Converter に戻る
+BALCO Converter に戻る
 Android ホーム画面ガイド
 Android の通貨換算ウィジェット
-便利な通貨ペアをホーム画面に 1 つだけ置いておきます。 Balkan Converter ウィジェットは、キャッシュされた参照レートとそのデータ日付を表示し、アプリでそのペアを開き、より広いレイアウトでの素早い交換をサポートします。
+便利な通貨ペアをホーム画面に 1 つだけ置いておきます。 BALCO Converter ウィジェットは、キャッシュされた参照レートとそのデータ日付を表示し、アプリでそのペアを開き、より広いレイアウトでの素早い交換をサポートします。
 ウィジェットの追加方法
-通常の Android ホーム画面に表示した実際の Balkan Converter ウィジェット。
+通常の Android ホーム画面に表示した実際の BALCO Converter ウィジェット。
 4 つの簡単なステップ
 通貨ウィジェットを追加する
 ランチャーのラベルは Android デバイスによって若干異なりますが、標準のホーム画面の流れは同じです。
 ペアを用意する
-Balkan Converter を開き、必要な通貨を選択して、最新の参照レートを正常に読み込みます。
+BALCO Converter を開き、必要な通貨を選択して、最新の参照レートを正常に読み込みます。
 ウィジェットを開く
 Android ホーム画面の空いている部分を長押しして、 ウィジェット.
 ウィジェットを配置
-Balkan Converter を見つけて、通貨ウィジェットをホーム画面の空き領域にドラッグします。
+BALCO Converter を見つけて、通貨ウィジェットをホーム画面の空き領域にドラッグします。
 サイズを変更して使用する
 フィットするようにサイズを変更します。カードをタップしてアプリでそのペアを開きます。幅の広いウィジェットには交換ボタンも表示されます。
 ウィジェットが示すもの
 カードには、選択したペアの参照レートに加えて、鮮度ラベルとレート日付が表示されます。各ウィジェットは、アプリで最後に使用されたペアから始まり、その後、独自のペアを記憶します。
-ウィジェットをタップすると、これらの通貨が準備された状態で Balkan Converter が開きます。中程度の幅のウィジェットでは、スワップ コントロールによってホーム画面上のペアが直接反転されます。
+ウィジェットをタップすると、これらの通貨が準備された状態で BALCO Converter が開きます。中程度の幅のウィジェットでは、スワップ コントロールによってホーム画面上のペアが直接反転されます。
 日付が重要な理由
-ウィジェットは、アプリの最新の正常にキャッシュされたレート データセットを使用します。これは独立したライブ市場フィードではありません。 Balkan Converter がレートを正常に更新すると、インストールされたウィジェットは更新されたキャッシュ データを受け取ります。
+ウィジェットは、アプリの最新の正常にキャッシュされたレート データセットを使用します。これは独立したライブ市場フィードではありません。 BALCO Converter がレートを正常に更新すると、インストールされたウィジェットは更新されたキャッシュ データを受け取ります。
 オフラインでも、最後に保存した参照レートは概算に利用でき、表示日からデータの古さを確認できます。詳しくはオフライン利用ガイドをご覧ください。
 小さいレイアウトですか、それとも広いレイアウトですか?
 コンパクトなレイアウトにより、少ないスペースでレートと日付が表示されます。レートとともに専用のスワップ アクションが必要な場合は、ウィジェットの幅を広くします。
 Android ランチャーは正確なグリッド サイズを制御するため、利用可能なサイズ変更手順は携帯電話とタブレットで異なる場合があります。
 複数のクイック ペアの場合
 アプリを開くと、金額の入力、通貨換算、為替レート履歴の確認、複数通貨の比較、オフライン用レートの保存ができます。
-ウィジェットは一目でわかるショートカットとして設計されており、Balkan Converter は完全な変換ワークフローを提供します。
+ウィジェットは一目でわかるショートカットとして設計されており、BALCO Converter は完全な変換ワークフローを提供します。
 変換の概要
-ホーム画面に Balkan Converter を追加します
+ホーム画面に BALCO Converter を追加します
 Android アプリをインストールし、希望のペアをロードして、最もアクセスしやすい場所に実稼働通貨ウィジェットを配置します。
 ```
 
@@ -457,14 +457,14 @@ Android アプリをインストールし、希望のペアをロードして、
 
 URL: `/ja/foreign-transaction-fee-calculator/`
 
-Title: 海外事務手数料・DCC 計算ツール | Balkan Converter
+Title: 海外事務手数料・DCC 計算ツール | BALCO Converter
 
 Meta description: 現地通貨で支払う場合と、カードや ATM で提示された DCC 金額を比較します。現在の参照レートに海外事務手数料と固定手数料を加味します。
 
 ### Complete visible main content
 
 ```text
-Balkan Currency Converter に戻る
+BALCO Converter に戻る
 カードとATMの比較
 海外事務手数料・DCC 計算ツール
 現地通貨で支払いますか、それとも提供された換算を使用しますか? 最新の利用可能な参考レートと入力した手数料から両方のオプションを見積もります。
@@ -505,19 +505,19 @@ DCC は、カードが届く前に取引を自国通貨に換算する販売者�
 参照レートと日付
 参照レートは中立的な比較ポイントを提供するものであり、保証された取引レートではありません。結果には、Frankfurter 参照レート API によって返された市場日付が表示されます。
 携帯電話で比較
-Balkan Converter との交換オファーを確認してください
-Android 版 Balkan Converter の「実質交換コスト」では、両替の提示額と手数料を参照結果と比較できます。
+BALCO Converter との交換オファーを確認してください
+Android 版 BALCO Converter の「実質交換コスト」では、両替の提示額と手数料を参照結果と比較できます。
 ```
 
 ### Additional dynamic messages
 
-- © 2026 Balkan Currency Converter
+- © 2026 BALCO Converter
 - 2 つの異なる通貨を選択します。
 - Android の通貨換算
-- Balkan Currency Converter の家
+- BALCO Converter の家
 - DCC 以下の参照者
 - DCC 引用符はゼロより大きくなければなりません。
-- Google Play で Balkan Currency Converter を入手
+- Google Play で BALCO Converter を入手
 - Google Play で入手
 - オプションの DCC 見積総額を追加して、両方の支払いオプションを比較します。
 - オプションの分析
@@ -539,7 +539,7 @@ Android 版 Balkan Converter の「実質交換コスト」では、両替の提
 - ホーム
 - メインナビゲーション
 - ライトテーマに切り替える
-- 海外事務手数料・DCC 計算ツール | Balkan Converter
+- 海外事務手数料・DCC 計算ツール | BALCO Converter
 - 海外事務手数料（{percentage}%）
 - 海外事務手数料計算ツール
 - 海外事務手数料率
@@ -569,14 +569,14 @@ Android 版 Balkan Converter の「実質交換コスト」では、両替の提
 
 URL: `/ja/travel-budget-calculator/`
 
-Title: 2 つの通貨での旅行予算計算ツール | Balkan Converter
+Title: 2 つの通貨での旅行予算計算ツール | BALCO Converter
 
 Meta description: 旅行予算を日数と項目別に見積もり、固定費と予備費を加えて、現在の参照レートで合計を換算します。
 
 ### Complete visible main content
 
 ```text
-Balkan Currency Converter に戻る
+BALCO Converter に戻る
 無料の旅行計画ツール
 旅行予算計算ツール
 旅行の費用を 2 つの通貨で見積もります。 1 日ごとの費用、固定費、任意の予備費を入力できます。アカウント登録は不要です。
@@ -616,19 +616,19 @@ Balkan Currency Converter に戻る
 宿泊費、食事、現地交通費、アクティビティは日額です。航空券、鉄道パス、その他の一時的な費用を固定旅行費に追加します。
 旅行に必要な通貨
 必要な通貨をまとめて保管
-Android 版 Balkan Converter のトラベルボードと保存セットでは、旅行に必要な通貨をまとめて確認できます。
+Android 版 BALCO Converter のトラベルボードと保存セットでは、旅行に必要な通貨をまとめて確認できます。
 ```
 
 ### Additional dynamic messages
 
-- © 2026 Balkan Currency Converter
+- © 2026 BALCO Converter
 - 1 日あたりの旅行費、固定費、予備費を 2 通貨で見積もります。
 - 2 つの異なる通貨を選択します。
-- 2 つの通貨での旅行予算計算ツール | Balkan Converter
+- 2 つの通貨での旅行予算計算ツール | BALCO Converter
 - Android の通貨換算
-- Balkan Currency Converter の家
+- BALCO Converter の家
 - Frankfurter 参照レート API
-- Google Play で Balkan Currency Converter を入手
+- Google Play で BALCO Converter を入手
 - Google Play で入手
 - オプションの分析
 - から

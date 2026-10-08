@@ -18,7 +18,7 @@ Meta description: Prepočítajte sumu medzi dvoma menami podľa najnovších dos
 ### Complete visible main content
 
 ```text
-Späť na Balkan Currency Converter
+Späť na BALCO Converter
 Bezplatný menový nástroj
 Prevodník mien
 Preveďte sumu medzi dvoma menami a pozrite si najnovší dostupný referenčný kurz, jeho dátum a zdroj.
@@ -40,17 +40,17 @@ Zobrazený dátum vám povie, ktorý trhový deň referenčné údaje predstavuj
 Potrebujete iný pohľad?
 Sledujte vývoj menového páru v histórii kurzov, porovnajte jednu sumu vo viacerých menách pomocou prevodníka viacerých mien, zhodnoťte ponuku na výmenu v kalkulačke kurzovej odchýlky alebo porovnajte náklady na platbu kartou, výber hotovosti a DCC v kalkulačke poplatkov a DCC.
 Ďalšie nástroje na Android
-Konvertujte pomocou Balkan Converter
+Konvertujte pomocou BALCO Converter
 Aplikácia pre Android ponúka kalkulačku, offline kurzy, Travel Board, Actual Cost, uložené sady, históriu, grafy a widget na domovskú obrazovku.
 ```
 
 ### Additional dynamic messages
 
-- © 2026 Balkan Currency Converter
+- © 2026 BALCO Converter
 - Dátum
 - Dátum kurzu nie je k dispozícii.
 - Domov
-- Domov Balkan Currency Converter
+- Domov BALCO Converter
 - Hlavná navigácia
 - Kalkulačka kurzovej odchýlky
 - Konverzia meny pre Android
@@ -81,7 +81,7 @@ Aplikácia pre Android ponúka kalkulačku, offline kurzy, Travel Board, Actual 
 - Vyberte si dve rôzne meny.
 - Zadajte sumu väčšiu ako nula.
 - Zásady ochrany osobných údajov
-- Získajte Balkan Currency Converter na Google Play
+- Získajte BALCO Converter na Google Play
 - Získajte ho na Google Play
 - Zistite viac
 
@@ -89,14 +89,14 @@ Aplikácia pre Android ponúka kalkulačku, offline kurzy, Travel Board, Actual 
 
 URL: `/sk/exchange-rate-markup-calculator/`
 
-Title: Kalkulačka kurzovej odchýlky | Balkan Currency Converter
+Title: Kalkulačka kurzovej odchýlky | BALCO Converter
 
 Meta description: Porovnajte ponuku zmenárne s najnovším referenčným kurzom. Vypočítajte prijatú sumu, rozdiel a percentuálnu kurzovú odchýlku.
 
 ### Complete visible main content
 
 ```text
-Späť na Balkan Currency Converter
+Späť na BALCO Converter
 Bezplatný menový nástroj
 Kalkulačka kurzovej odchýlky
 Porovnajte sumu ponúkanú zmenárenskou službou s najnovším dostupným referenčným kurzom. Ešte pred výmenou uvidíte rozdiel aj percentuálnu kurzovú odchýlku.
@@ -125,19 +125,19 @@ Dôležité vedieť
 Ide o informačné porovnanie, nie o finančné poradenstvo. Ponuka môže zahŕňať poplatky za služby, kartu či hotovosť alebo kurzové rozpätie poskytovateľa. Referenčné kurzy nie sú zaručenými transakčnými kurzmi.
 Porovnávate platbu kartou alebo výber hotovosti s prepočtom ponúknutým v mene karty? Použite kalkulačku poplatkov a DCC. Na rýchly prevod menového páru otvorte prevodník mien. Ak chcete porovnať jednu sumu vo viacerých menách, použite prevodník viacerých mien; sprievodca prevodom offline vysvetľuje, ako fungujú uložené kurzy.
 Potrebujete to na cestách?
-Porovnajte náklady v Balkan Converter
+Porovnajte náklady v BALCO Converter
 Aplikácia pre Android ponúka Actual Cost, offline kurzy, Travel Board, uložené sady, grafy a widget na domovskú obrazovku.
 ```
 
 ### Additional dynamic messages
 
-- © 2026 Balkan Currency Converter
+- © 2026 BALCO Converter
 - Dátum
 - Domov
-- Domov Balkan Currency Converter
+- Domov BALCO Converter
 - Dostanete viac tým
 - Hlavná navigácia
-- Kalkulačka kurzovej odchýlky | Balkan Currency Converter
+- Kalkulačka kurzovej odchýlky | BALCO Converter
 - Konverzia meny pre Android
 - Kurzy sa nepodarilo načítať. Skontrolujte pripojenie a skúste to znova.
 - Možnosti služby Analytics
@@ -172,7 +172,7 @@ Aplikácia pre Android ponúka Actual Cost, offline kurzy, Travel Board, uložen
 - Výpočet bol aktualizovaný podľa najnovších dostupných referenčných kurzov.
 - Zadajte dve sumy väčšie ako nula.
 - Zásady ochrany osobných údajov
-- Získajte Balkan Currency Converter na Google Play
+- Získajte BALCO Converter na Google Play
 - Získajte ho na Google Play
 - Zistite viac
 
@@ -182,12 +182,12 @@ URL: `/sk/multi-currency-converter/`
 
 Title: Prevodník viacerých mien | Prevod jednej sumy na viacero mien
 
-Meta description: Prepočítajte jednu sumu naraz do viacerých mien podľa najnovších dostupných referenčných kurzov. Bezplatný prevodník viacerých mien od Balkan Converter.
+Meta description: Prepočítajte jednu sumu naraz do viacerých mien podľa najnovších dostupných referenčných kurzov. Bezplatný prevodník viacerých mien od BALCO Converter.
 
 ### Complete visible main content
 
 ```text
-Späť na Balkan Currency Converter
+Späť na BALCO Converter
 Bezplatný menový nástroj
 Prevodník viacerých mien
 Zadajte jednu sumu a porovnajte jej hodnotu vo viacerých menách naraz podľa najnovších dostupných referenčných kurzov.
@@ -204,18 +204,18 @@ Kurzy sú referenčné hodnoty a môžu sa líšiť od kurzu ponúkaného bankou
 Vyberte si správny pohľad
 Pre jeden menový pár použite prevodník mien. Jeho vývoj zobrazíte v histórii kurzov, ponuku zmenárne zhodnotíte v kalkulačke kurzovej odchýlky a fungovanie bez internetu opisuje sprievodca prevodom offline.
 Viac mien na cestách
-Použite Travel Board v Balkan Converter
+Použite Travel Board v BALCO Converter
 Aplikácia pre Android uchováva viacero cestovných mien pohromade, umožňuje meniť ich poradie a pripraviť kurzy na použitie offline.
 ```
 
 ### Additional dynamic messages
 
-- © 2026 Balkan Currency Converter
+- © 2026 BALCO Converter
 - Cieľová mena
 - Cieľové meny sa musia líšiť od základnej meny.
 - Dátum
 - Domov
-- Domov Balkan Currency Converter
+- Domov BALCO Converter
 - Hlavná navigácia
 - Kalkulačka kurzovej odchýlky
 - Každú cieľovú menu vyberte iba raz.
@@ -237,7 +237,7 @@ Aplikácia pre Android uchováva viacero cestovných mien pohromade, umožňuje 
 - Prepnúť na svetlú tému
 - Prepnúť na tmavý motív
 - Prepočítajte jednu sumu do viacerých mien podľa najnovších dostupných referenčných kurzov.
-- Prepočítajte jednu sumu naraz do viacerých mien podľa najnovších dostupných referenčných kurzov. Bezplatný prevodník viacerých mien od Balkan Converter.
+- Prepočítajte jednu sumu naraz do viacerých mien podľa najnovších dostupných referenčných kurzov. Bezplatný prevodník viacerých mien od BALCO Converter.
 - Prepočítajte jednu sumu naraz do viacerých mien.
 - Prepočítaná suma
 - Prepočty boli aktualizované podľa najnovších dostupných referenčných kurzov.
@@ -252,7 +252,7 @@ Aplikácia pre Android uchováva viacero cestovných mien pohromade, umožňuje 
 - Vyberte aspoň jednu cieľovú menu.
 - Zadajte sumu väčšiu ako nula.
 - Zásady ochrany osobných údajov
-- Získajte Balkan Currency Converter na Google Play
+- Získajte BALCO Converter na Google Play
 - Získajte ho na Google Play
 - Zistite viac
 
@@ -267,7 +267,7 @@ Meta description: Zistite, ako offline prevodník mien používa dátumované, u
 ### Complete visible main content
 
 ```text
-Späť na Balkan Currency Converter
+Späť na BALCO Converter
 Offline sprievodca výmenným kurzom
 Offline prevodník mien: Ako fungujú uložené kurzy
 Prevodník môže fungovať bez internetu pomocou posledných výmenných kurzov úspešne uložených v zariadení. Tieto kurzy sú užitočnými referenčnými údajmi, ale zostávajú viazané na pôvodný dátum, kým ich aplikácia neobnoví online.
@@ -284,7 +284,7 @@ Bez pripojenia sa na prepočty použije uložený súbor údajov. Aplikácia zá
 Uložené údaje sú snímkou poslednej úspešnej odpovede s referenčnými kurzmi. Umožňujú prepočty bez pripojenia, no kým je zariadenie offline, hodnoty sa neaktualizujú.
 Vždy skontrolujte zobrazený dátum kurzu. Výsledok založený na včerajších kurzoch môže byť pri plánovaní stále užitočný, ale nezaručuje kurz, ktorý dnes ponúkne banka, vydavateľ karty alebo zmenáreň.
 Čo sa stane, keď sa internet vráti?
-Balkan Converter používa jednu spoločnú lokálnu vyrovnávaciu pamäť na bežné prepočty aj prípravu uložených sád. Úspešné obnovenie online nahradí starší uložený súbor údajov a aktualizuje dátum kurzu aj čas uloženia.
+BALCO Converter používa jednu spoločnú lokálnu vyrovnávaciu pamäť na bežné prepočty aj prípravu uložených sád. Úspešné obnovenie online nahradí starší uložený súbor údajov a aktualizuje dátum kurzu aj čas uloženia.
 Ak obnovenie zlyhá, aplikácia ponechá predchádzajúce kurzy uložené vo vyrovnávacej pamäti a neodstráni ich.
 Pripravte uloženú sadu na použitie offline
 V aplikácii Android vytvorte alebo otvorte uloženú sadu pre meny, ktoré potrebujete. Počas pripojenia vyberte Uložiť kurzy na použitie offline. Aplikácia obnoví spoločný súbor kurzov a potvrdí pripravenosť, keď vyrovnávacia pamäť obsahuje všetky meny z danej sady.
@@ -293,7 +293,7 @@ Užitočné mimo cestovania
 Offline konverzia môže pomôcť počas slabého pripojenia, prerušenia roamingu, dočasného výpadku služby alebo akejkoľvek situácie, keď je rýchly referenčný odhad užitočnejší ako žiadny výsledok.
 Na rýchly prístup k uloženému menovému páru si pozrite sprievodcu widgetom pre Android. Na prevod online otvorte prevodník mien, porovnajte jednu sumu vo viacerých menách pomocou prevodníka viacerých mien alebo zhodnoťte ponuku v kalkulačke kurzovej odchýlky.
 Majte poruke referenčný kurz s dátumom
-Použite uložené kurzy v Balkan Converter
+Použite uložené kurzy v BALCO Converter
 Aplikácia Android môže znova použiť svoju najnovšiu úspešnú vyrovnávaciu pamäť výmenných kurzov bez pripojenia a jasne identifikuje uložené údaje a dátum kurzu.
 ```
 
@@ -305,14 +305,14 @@ Aplikácia Android môže znova použiť svoju najnovšiu úspešnú vyrovnávac
 
 URL: `/sk/exchange-rate-history/`
 
-Title: História výmenných kurzov a graf mien | Balkan Converter
+Title: História výmenných kurzov a graf mien | BALCO Converter
 
 Meta description: Prezrite si 30-dňovú, 90-dňovú alebo jednoročnú históriu výmenných kurzov, vytvorte graf menového páru a vyhľadajte referenčný kurz pre konkrétny dátum.
 
 ### Complete visible main content
 
 ```text
-Späť na Balkan Currency Converter
+Späť na BALCO Converter
 Nástroj na vyhľadanie historického referenčného kurzu
 História výmenných kurzov a graf mien
 Pozrite si vývoj menového páru za 30 dní, 90 dní alebo jeden rok a vyhľadajte referenčný kurz ku konkrétnemu dátumu.
@@ -351,19 +351,19 @@ Dátumy a trendy
 Použite graf na zobrazenie smeru a variácií, nie na predpovedanie ďalšieho pohybu. Niektorí poskytovatelia nezverejňujú každý kalendárny deň. Ak rozhranie API vráti údaje z iného dostupného dátumu, vyhľadávanie nahlási skutočný dátum údajov namiesto toho, aby ho prezentovalo ako deň, ktorý ste vybrali.
 Na prevod podľa najnovšieho dostupného kurzu použite prevodník mien. Ak chcete porovnať ponuku zmenárne s výsledkom podľa referenčného kurzu, otvorte kalkulačku kurzovej odchýlky.
 Udržujte užitočné páry blízko
-Pozrite si grafy v Balkan Converter
+Pozrite si grafy v BALCO Converter
 Aplikácia pre Android obsahuje 30-dňové grafy kurzov, pripnuté páry, offline referenčné kurzy a ďalšie menové nástroje.
 ```
 
 ### Additional dynamic messages
 
-- © 2026 Balkan Currency Converter
+- © 2026 BALCO Converter
 - Domov
-- Domov Balkan Currency Converter
+- Domov BALCO Converter
 - Graf histórie výmenných kurzov
 - História referenčného kurzu {base}/{quote} od {from} do {to}. Minimum {minimum}, maximum {maximum}.
 - História výmenných kurzov {base}/{quote}
-- História výmenných kurzov a graf mien | Balkan Converter
+- História výmenných kurzov a graf mien | BALCO Converter
 - Historické kurzy sa nepodarilo načítať. Skontrolujte pripojenie a skúste to znova.
 - Historický kurz podľa dátumu
 - Historický referenčný kurz bol načítaný.
@@ -403,7 +403,7 @@ Aplikácia pre Android obsahuje 30-dňové grafy kurzov, pripnuté páry, offlin
 - Výsledok
 - Vyžaduje sa aspoň jeden platný historický kurz.
 - Zásady ochrany osobných údajov
-- Získajte Balkan Currency Converter na Google Play
+- Získajte BALCO Converter na Google Play
 - Získajte ho na Google Play
 - Zistite viac
 - Zobrazte si historické referenčné kurzy a vyhľadajte kurz meny podľa dátumu.
@@ -412,44 +412,44 @@ Aplikácia pre Android obsahuje 30-dňové grafy kurzov, pripnuté páry, offlin
 
 URL: `/sk/currency-converter-widget/`
 
-Title: Widget na prevod mien pre Android | Balkan Converter
+Title: Widget na prevod mien pre Android | BALCO Converter
 
 Meta description: Pridajte si na domovskú obrazovku Androidu menový widget s rýchlym prístupom k uloženému kurzu, dátumu kurzu, zámene mien a aplikácii.
 
 ### Complete visible main content
 
 ```text
-Späť na Balkan Currency Converter
+Späť na BALCO Converter
 Sprievodca domovskou obrazovkou Androidu
 Widget na prevod mien pre Android
-Majte užitočný menový pár priamo na domovskej obrazovke. Widget Balkan Converter zobrazuje referenčný kurz uložený vo vyrovnávacej pamäti aj dátum údajov, otvorí daný pár v aplikácii a v širšom rozložení umožní rýchlo zameniť meny.
+Majte užitočný menový pár priamo na domovskej obrazovke. Widget BALCO Converter zobrazuje referenčný kurz uložený vo vyrovnávacej pamäti aj dátum údajov, otvorí daný pár v aplikácii a v širšom rozložení umožní rýchlo zameniť meny.
 Ako pridať widget
-Produkčný widget Balkan Converter na bežnej domovskej obrazovke Androidu.
+Produkčný widget BALCO Converter na bežnej domovskej obrazovke Androidu.
 Štyri rýchle kroky
 Pridajte menový widget
 Štítky spúšťača sa mierne líšia v závislosti od zariadenia Android, ale štandardný postup na domácej obrazovke je rovnaký.
 Pripravte si pár
-Otvorte Balkan Converter, vyberte požadované meny a počkajte, kým sa úspešne načítajú najnovšie referenčné kurzy.
+Otvorte BALCO Converter, vyberte požadované meny a počkajte, kým sa úspešne načítajú najnovšie referenčné kurzy.
 Otvorte widgety
 Dotknite sa a podržte prázdnu časť domovskej obrazovky Android a potom vyberte Widgety.
 Umiestnite to
-Nájdite Balkan Converter a presuňte menový widget na voľné miesto na domovskej obrazovke.
+Nájdite BALCO Converter a presuňte menový widget na voľné miesto na domovskej obrazovke.
 Zmeňte veľkosť a použite
 Podľa potreby zmeňte jeho veľkosť. Klepnutím na kartu otvoríte daný pár v aplikácii; širší widget zobrazuje aj tlačidlo na zámenu mien.
 Čo zobrazuje widget
 Karta zobrazuje referenčný kurz vybraného páru, údaj o aktuálnosti a dátum kurzu. Každý widget najprv použije pár naposledy otvorený v aplikácii a potom si zapamätá vlastný pár.
-Klepnutím na widget otvoríte Balkan Converter s pripravenými menami. V stredne širokom widgete tlačidlo zámeny obráti menový pár priamo na domovskej obrazovke.
+Klepnutím na widget otvoríte BALCO Converter s pripravenými menami. V stredne širokom widgete tlačidlo zámeny obráti menový pár priamo na domovskej obrazovke.
 Prečo na dátume záleží
-Widget používa najnovší súbor kurzov, ktorý aplikácia úspešne uložila do vyrovnávacej pamäte; nejde o samostatný živý trhový zdroj. Keď Balkan Converter úspešne obnoví kurzy, nainštalované widgety dostanú aktualizované údaje z vyrovnávacej pamäte.
+Widget používa najnovší súbor kurzov, ktorý aplikácia úspešne uložila do vyrovnávacej pamäte; nejde o samostatný živý trhový zdroj. Keď BALCO Converter úspešne obnoví kurzy, nainštalované widgety dostanú aktualizované údaje z vyrovnávacej pamäte.
 Bez internetu možno posledný uložený referenčný kurz stále použiť na odhad a dátum ukazuje vek údajov. Viac nájdete v sprievodcovi prevodom offline.
 Malé alebo široké rozloženie?
 Kompaktné rozloženie zobrazuje kurz aj dátum na menšej ploche. Rozšírte widget, ak chcete mať vedľa kurzu aj samostatné tlačidlo na zámenu mien.
 Spúšťače Android ovládajú presnú veľkosť mriežky, takže dostupné kroky na zmenu veľkosti sa môžu medzi telefónmi a tabletmi líšiť.
 Pre viac ako jeden rýchly pár
 Otvorte aplikáciu, ak chcete zadať sumu, prevádzať meny, zobraziť históriu kurzov, porovnať viacero mien alebo uložiť kurzy na použitie offline.
-Widget slúži na rýchlu kontrolu a ako skratka; celý postup prepočtu nájdete v aplikácii Balkan Converter.
+Widget slúži na rýchlu kontrolu a ako skratka; celý postup prepočtu nájdete v aplikácii BALCO Converter.
 Konverzia na prvý pohľad
-Pridajte si Balkan Converter na svoju domovskú obrazovku
+Pridajte si BALCO Converter na svoju domovskú obrazovku
 Nainštalujte si aplikáciu pre Android, načítajte požadovaný menový pár a umiestnite widget na ľahko dostupné miesto.
 ```
 
@@ -461,14 +461,14 @@ Nainštalujte si aplikáciu pre Android, načítajte požadovaný menový pár a
 
 URL: `/sk/foreign-transaction-fee-calculator/`
 
-Title: Poplatok za zahraničnú transakciu a kalkulačka DCC | Balkan Converter
+Title: Poplatok za zahraničnú transakciu a kalkulačka DCC | BALCO Converter
 
 Meta description: Porovnajte platbu v miestnej mene s ponukou DCC pri platbe kartou alebo výbere z bankomatu. Započítajte percentuálny aj pevný poplatok podľa aktuálnych referenčných kurzov.
 
 ### Complete visible main content
 
 ```text
-Späť na Balkan Currency Converter
+Späť na BALCO Converter
 Porovnanie kariet a bankomatov
 Poplatok za zahraničnú transakciu a kalkulačka DCC
 Platiť v miestnej mene alebo využiť ponúkaný prevod? Odhadnite obe možnosti podľa najnovšieho dostupného referenčného kurzu a zadaných poplatkov.
@@ -509,20 +509,20 @@ Ak chcete iba porovnať ponuku zmenárne s výsledkom podľa referenčného kurz
 Referenčný kurz a dátum
 Referenčné kurzy poskytujú neutrálnu hodnotu na porovnanie, nie zaručený transakčný kurz. Výsledok uvádza trhový dátum vrátený API referenčných kurzov Frankfurter.
 Porovnajte na svojom telefóne
-Skontrolujte ponuky výmeny so Balkan Converter
-Balkan Converter pre Android zahŕňa skutočné náklady na porovnanie ponuky výmeny a jej poplatkov s referenčným výsledkom.
+Skontrolujte ponuky výmeny so BALCO Converter
+BALCO Converter pre Android zahŕňa skutočné náklady na porovnanie ponuky výmeny a jej poplatkov s referenčným výsledkom.
 ```
 
 ### Additional dynamic messages
 
-- © 2026 Balkan Currency Converter
+- © 2026 BALCO Converter
 - Ak chcete porovnať obe možnosti platby, zadajte aj voliteľnú konečnú sumu ponuky DCC.
 - Cenová ponuka DCC musí byť väčšia ako nula.
 - Cieľ
 - Dátum
 - Dátum referenčného kurzu nie je k dispozícii.
 - Domov
-- Domov Balkan Currency Converter
+- Domov BALCO Converter
 - Hlavná navigácia
 - Kalkulačka kurzovej odchýlky
 - Kalkulačka poplatkov za zahraničnú transakciu
@@ -546,7 +546,7 @@ Balkan Converter pre Android zahŕňa skutočné náklady na porovnanie ponuky v
 - Ponuka DCC je pod referenčnou hodnotou o
 - Poplatky nemôžu byť záporné.
 - Poplatok za zahraničnú transakciu ({percentage} %)
-- Poplatok za zahraničnú transakciu a kalkulačka DCC | Balkan Converter
+- Poplatok za zahraničnú transakciu a kalkulačka DCC | BALCO Converter
 - Porovnajte odhadované náklady na platbu v miestnej mene v domácej mene s voliteľnou cenovou ponukou Dynamic Currency Conversion.
 - Porovnajte platbu v miestnej mene s ponukou DCC pri platbe kartou alebo výbere z bankomatu. Započítajte percentuálny aj pevný poplatok podľa aktuálnych referenčných kurzov.
 - Porovnajte transakciu kartou alebo bankomatom v miestnej mene s ponúkanou konverziou.
@@ -567,7 +567,7 @@ Balkan Converter pre Android zahŕňa skutočné náklady na porovnanie ponuky v
 - Zadajte nulové alebo vyššie poplatky.
 - Zadajte sumu nákupu alebo výberu hotovosti väčšiu ako nula.
 - Zásady ochrany osobných údajov
-- Získajte Balkan Currency Converter na Google Play
+- Získajte BALCO Converter na Google Play
 - Získajte ho na Google Play
 - Zistite viac
 
@@ -575,14 +575,14 @@ Balkan Converter pre Android zahŕňa skutočné náklady na porovnanie ponuky v
 
 URL: `/sk/travel-budget-calculator/`
 
-Title: Kalkulačka cestovného rozpočtu v dvoch menách | Balkan Converter
+Title: Kalkulačka cestovného rozpočtu v dvoch menách | BALCO Converter
 
 Meta description: Odhadnite rozpočet cesty podľa dní a kategórií, pridajte pevné náklady aj rezervu a výsledok prepočítajte podľa aktuálnych referenčných kurzov.
 
 ### Complete visible main content
 
 ```text
-Späť na Balkan Currency Converter
+Späť na BALCO Converter
 Bezplatný nástroj na plánovanie cesty
 Kalkulačka cestovného rozpočtu
 Odhadnite náklady na cestu v dvoch menách. Pridajte denné výdavky, pevné náklady a voliteľnú rezervu – bez potreby účtu.
@@ -622,21 +622,21 @@ Porovnajte jednu sumu vo viacerých menách pomocou prevodníka viacerých mien,
 Ubytovanie, strava, miestna doprava a aktivity sú denné sumy. Pridajte lety, železničné preukazy alebo iné jednorazové výdavky pod fixné náklady na cestu.
 Meny pre vašu cestu
 Majte potrebné meny pohromade
-Balkan Converter pre Android ponúka Travel Board a uložené sady, aby ste mali potrebné cestovné meny poruke.
+BALCO Converter pre Android ponúka Travel Board a uložené sady, aby ste mali potrebné cestovné meny poruke.
 ```
 
 ### Additional dynamic messages
 
-- © 2026 Balkan Currency Converter
+- © 2026 BALCO Converter
 - API referenčných kurzov Frankfurter
 - Dátum
 - Dátum referenčného kurzu nie je k dispozícii.
 - Dni cesty musia byť celé číslo väčšie ako nula.
 - Do každého poľa zadajte platné čísla.
 - Domov
-- Domov Balkan Currency Converter
+- Domov BALCO Converter
 - Hlavná navigácia
-- Kalkulačka cestovného rozpočtu v dvoch menách | Balkan Converter
+- Kalkulačka cestovného rozpočtu v dvoch menách | BALCO Converter
 - Konvertor viacerých mien
 - Konverzia meny pre Android
 - Kurz
@@ -674,7 +674,7 @@ Balkan Converter pre Android ponúka Travel Board a uložené sady, aby ste mali
 - Zadajte celý počet dní cesty väčší ako nula.
 - Zadajte rozpočtové sumy a rezervu s hodnotou nula alebo viac.
 - Zásady ochrany osobných údajov
-- Získajte Balkan Currency Converter na Google Play
+- Získajte BALCO Converter na Google Play
 - Získajte ho na Google Play
 - Zistite viac
 

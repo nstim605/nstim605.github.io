@@ -18,7 +18,7 @@ Meta description: Konvertoni një shumë nga një monedhë në tjetrën me kurse
 ### Complete visible main content
 
 ```text
-Kthehu te Balkan Currency Converter
+Kthehu te BALCO Converter
 Mjet falas për monedhën
 Konvertuesi i monedhës
 Konvertoni një shumë nga një monedhë në tjetrën dhe shihni kursin më të fundit të disponueshëm të referencës, datën dhe burimin e tij.
@@ -40,15 +40,15 @@ Data e shfaqur ju tregon se cilën ditë tregu përfaqësojnë të dhënat e ref
 Keni nevojë për një pamje tjetër?
 Ndiqni lëvizjen e një çifti valutor te historiku i kurseve, krahasoni një shumë në disa monedha me konvertuesi me shumë monedha, vlerësoni një ofertë këmbimi me kalkulatori i diferencës së kursit ose krahasoni kostot e pagesës me kartë, tërheqjes së parave dhe DCC me kalkulatori i tarifave dhe DCC.
 Më shumë mjete në Android
-Konverto me Balkan Converter
+Konverto me BALCO Converter
 Aplikacioni për Android ofron kalkulator, kurse pa internet, Travel Board, Actual Cost, grupe të ruajtura, historik, grafikë dhe miniaplikacion për ekranin bazë.
 ```
 
 ### Additional dynamic messages
 
-- © 2026 Balkan Currency Converter
+- © 2026 BALCO Converter
 - Analiza opsionale
-- Balkan Currency Converter shtëpi
+- BALCO Converter shtëpi
 - Data e kursit nuk disponohet.
 - Fut një shumë më të madhe se zero.
 - Kalkulatori i diferencës së kursit
@@ -64,7 +64,7 @@ Aplikacioni për Android ofron kalkulator, kurse pa internet, Travel Board, Actu
 - Kurset e referencës të datës {date}.
 - Kurset nuk mund të ngarkoheshin. Kontrolloni lidhjen dhe provoni përsëri.
 - Lundrimi kryesor
-- Merr Balkan Currency Converter në Google Play
+- Merr BALCO Converter në Google Play
 - Merreni në Google Play
 - Mësoni më shumë
 - Multi-valuta
@@ -87,14 +87,14 @@ Aplikacioni për Android ofron kalkulator, kurse pa internet, Travel Board, Actu
 
 URL: `/sq/exchange-rate-markup-calculator/`
 
-Title: Kalkulatori i diferencës së kursit | Balkan Currency Converter
+Title: Kalkulatori i diferencës së kursit | BALCO Converter
 
 Meta description: Krahasoni ofertën e këmbimit me kursin më të fundit të referencës. Llogaritni shumën e marrë, diferencën dhe devijimin në përqindje nga rezultati i referencës.
 
 ### Complete visible main content
 
 ```text
-Kthehu te Balkan Currency Converter
+Kthehu te BALCO Converter
 Mjet falas për monedhën
 Kalkulatori i diferencës së kursit
 Krahasoni shumën e ofruar nga një këmbimore me kursin më të fundit të disponueshëm të referencës. Para këmbimit shikoni diferencën dhe devijimin në përqindje.
@@ -123,19 +123,19 @@ E rëndësishme të dihet
 Ky është një krahasim informativ, jo këshillë financiare. Një ofertë mund të përfshijë tarifa shërbimi, tarifa karte, kosto për trajtimin e parave të gatshme ose diferencën e kursit të ofruesit. Kurset e referencës nuk janë kurse transaksioni të garantuara.
 Po krahasoni një pagesë me kartë ose tërheqje parash me konvertimin e ofruar në monedhën e kartës? Përdorni kalkulatorin e tarifave dhe DCC. Për një konvertim të shpejtë të çiftit valutor, hapni konvertuesin e monedhave. Për të krahasuar një shumë në disa monedha, përdorni konvertuesin me shumë monedha; udhëzuesi për përdorim pa internet shpjegon si funksionojnë kurset e ruajtura.
 Keni nevojë për këtë në lëvizje?
-Krahasoni kostot në Balkan Converter
+Krahasoni kostot në BALCO Converter
 Aplikacioni për Android ofron Actual Cost, kurse pa internet, Travel Board, grupe të ruajtura, grafikë dhe miniaplikacion për ekranin bazë.
 ```
 
 ### Additional dynamic messages
 
-- © 2026 Balkan Currency Converter
+- © 2026 BALCO Converter
 - Analiza opsionale
-- Balkan Currency Converter shtëpi
+- BALCO Converter shtëpi
 - Data
 - Futni dy shuma më të mëdha se zero.
 - Ju merrni më shumë nga
-- Kalkulatori i diferencës së kursit | Balkan Currency Converter
+- Kalkulatori i diferencës së kursit | BALCO Converter
 - Kalo në temën e lehtë
 - Kalo te kalkulatori
 - Kalo te tema e errët
@@ -150,7 +150,7 @@ Aplikacioni për Android ofron Actual Cost, kurse pa internet, Travel Board, gru
 - Lundrimi kryesor
 - Llogaritja u përditësua sipas kurseve më të fundit të disponueshme të referencës.
 - Mbi vlerën e referencës me
-- Merr Balkan Currency Converter në Google Play
+- Merr BALCO Converter në Google Play
 - Merreni në Google Play
 - Mësoni më shumë
 - Na ndihmoni të kuptojmë përdorimin e sajtit. Firebase Analytics qëndron i fikur nëse nuk e pranoni.
@@ -180,12 +180,12 @@ URL: `/sq/multi-currency-converter/`
 
 Title: Konvertuesi i shumë valutave | Konvertoni një shumë në monedha të shumta
 
-Meta description: Konvertoni një shumë në disa monedha njëherësh me kurset më të fundit të disponueshme të referencës. Një konvertues falas për shumë monedha nga Balkan Converter.
+Meta description: Konvertoni një shumë në disa monedha njëherësh me kurset më të fundit të disponueshme të referencës. Një konvertues falas për shumë monedha nga BALCO Converter.
 
 ### Complete visible main content
 
 ```text
-Kthehu te Balkan Currency Converter
+Kthehu te BALCO Converter
 Mjet falas për monedhën
 Konvertuesi i shumë valutave
 Futni një shumë dhe krahasoni njëkohësisht vlerën e saj në disa monedha, duke përdorur kurset më të fundit të disponueshme të referencës.
@@ -202,15 +202,15 @@ Kurset janë vlera reference dhe mund të ndryshojnë nga kursi i ofruar nga nj�
 Zgjidhni pamjen e duhur
 Për një çift valutor përdorni konvertuesin e monedhave. Shikoni lëvizjen e tij te historiku i kurseve, vlerësoni një ofertë këmbimi me kalkulatorin e diferencës së kursit, ndërsa udhëzuesi për përdorim pa internet shpjegon përdorimin pa internet.
 Më shumë monedha në lëvizje
-Përdorni tabelën e udhëtimit në Balkan Converter
+Përdorni tabelën e udhëtimit në BALCO Converter
 Aplikacioni Android mban së bashku disa monedha udhëtimi, lejon ndryshimin e rendit dhe mund të përgatisë kurset për përdorim pa internet.
 ```
 
 ### Additional dynamic messages
 
-- © 2026 Balkan Currency Converter
+- © 2026 BALCO Converter
 - Analiza opsionale
-- Balkan Currency Converter shtëpi
+- BALCO Converter shtëpi
 - Data
 - Fut një shumë më të madhe se zero.
 - Hiq monedhën e synuar
@@ -222,7 +222,7 @@ Aplikacioni Android mban së bashku disa monedha udhëtimi, lejon ndryshimin e r
 - Konvertimi i monedhës për Android
 - Konvertoni një shumë në disa monedha duke përdorur kurset më të fundit të disponueshme të referencës.
 - Konvertoni një shumë në disa monedha në të njëjtën kohë.
-- Konvertoni një shumë në disa monedha njëherësh me kurset më të fundit të disponueshme të referencës. Një konvertues falas për shumë monedha nga Balkan Converter.
+- Konvertoni një shumë në disa monedha njëherësh me kurset më të fundit të disponueshme të referencës. Një konvertues falas për shumë monedha nga BALCO Converter.
 - Konvertuesi i monedhës
 - Konvertuesi i shumë valutave | Konvertoni një shumë në monedha të shumta
 - Kurset e referencës të datës {date}.
@@ -231,7 +231,7 @@ Aplikacioni Android mban së bashku disa monedha udhëtimi, lejon ndryshimin e r
 - Kursi i referencës
 - Lundrimi kryesor
 - Mbani të paktën një monedhë të synuar.
-- Merr Balkan Currency Converter në Google Play
+- Merr BALCO Converter në Google Play
 - Merreni në Google Play
 - Mësoni më shumë
 - Monedha e synuar
@@ -266,7 +266,7 @@ Meta description: Mësoni se si një konvertues i monedhës jashtë linje përdo
 ### Complete visible main content
 
 ```text
-Kthehu te Balkan Currency Converter
+Kthehu te BALCO Converter
 Udhëzues offline i kursit të këmbimit
 Konvertuesi i monedhave pa internet: Si funksionojnë kurset e ruajtura
 Konvertuesi mund të punojë pa internet me kurset e fundit që ka ruajtur me sukses në pajisje. Këto të dhëna reference mbeten të lidhura me datën fillestare derisa aplikacioni t’i rifreskojë online.
@@ -283,7 +283,7 @@ Pa internet, konvertimet përdorin atë grup të ruajtur të dhënash dhe tregoj
 Të dhënat e ruajtura janë një pamje e përgjigjes së fundit të suksesshme me kurset e referencës. Ato lejojnë konvertime pa rrjet, por vlerat nuk përditësohen kur pajisja është pa internet.
 Kontrolloni gjithmonë datën e kursit të shfaqur. Një rezultat i bazuar në kurset e djeshme mund të jetë ende i dobishëm për planifikim, por nuk garanton kursin që do të ofrojë sot një bankë, lëshues karte ose këmbimore.
 Çfarë ndodh kur kthehet interneti?
-Balkan Converter përdor të njëjtën memorie lokale të kurseve për konvertimin e zakonshëm dhe përgatitjen e grupeve të ruajtura. Një rifreskim i suksesshëm online zëvendëson të dhënat e vjetra dhe përditëson datën e kursit dhe kohën e ruajtjes.
+BALCO Converter përdor të njëjtën memorie lokale të kurseve për konvertimin e zakonshëm dhe përgatitjen e grupeve të ruajtura. Një rifreskim i suksesshëm online zëvendëson të dhënat e vjetra dhe përditëson datën e kursit dhe kohën e ruajtjes.
 Nëse rifreskimi dështon, aplikacioni ruan kurset e mëparshme në memorie në vend që t’i fshijë.
 Përgatitni një grup të ruajtur për përdorim jashtë linje
 Në aplikacionin Android, krijoni ose hapni një grup të ruajtur për monedhat që ju nevojiten. Ndërsa jeni lidhur, zgjidhni Ruani kurset për përdorim pa internet. Aplikacioni rifreskon grupin e përbashkët të kurseve dhe konfirmon gatishmërinë kur memoria e ruajtur përmban të gjitha monedhat e atij grupi.
@@ -292,7 +292,7 @@ E dobishme përtej udhëtimit
 Konvertimi jashtë linje mund të ndihmojë gjatë një lidhjeje të dobët, ndërprerjes në roaming, një ndërprerjeje të përkohshme të shërbimit ose çdo situate ku një vlerësim i shpejtë referimi është më i dobishëm se pa rezultat.
 Për qasje të shpejtë te një çift valutor i ruajtur, shikoni udhëzuesin e miniaplikacionit për Android. Për konvertim online, hapni konvertuesin e monedhave, krahasoni një shumë në disa monedha me konvertuesin me shumë monedha ose vlerësoni një ofertë këmbimi me kalkulatorin e diferencës së kursit.
 Mbani pranë një kurs reference me datë
-Përdorni kurset e ruajtura në Balkan Converter
+Përdorni kurset e ruajtura në BALCO Converter
 Aplikacioni Android mund të ripërdorë pa internet të dhënat e fundit të kurseve të ruajtura me sukses dhe tregon qartë se janë të ruajtura, së bashku me datën e kursit.
 ```
 
@@ -304,14 +304,14 @@ Aplikacioni Android mund të ripërdorë pa internet të dhënat e fundit të ku
 
 URL: `/sq/exchange-rate-history/`
 
-Title: Historia e kursit të këmbimit dhe grafiku i monedhës | Balkan Converter
+Title: Historia e kursit të këmbimit dhe grafiku i monedhës | BALCO Converter
 
 Meta description: Shikoni historikun e kursit të këmbimit 30-ditor, 90-ditor ose një-vjeçar, grafikoni një palë monedhe dhe kërkoni kursin e referencës për një datë specifike.
 
 ### Complete visible main content
 
 ```text
-Kthehu te Balkan Currency Converter
+Kthehu te BALCO Converter
 Mjeti i kurseve historike të referencës
 Historia e kursit të këmbimit dhe grafiku i monedhës
 Shihni si ka ndryshuar një çift valutor gjatë 30 ditëve, 90 ditëve ose një viti dhe kërkoni kursin e referencës për një datë të caktuar.
@@ -350,19 +350,19 @@ Datat dhe tendencat
 Përdorni grafikun për të parë drejtimin dhe ndryshimin, jo për të parashikuar lëvizjen tjetër. Disa ofrues nuk publikojnë në çdo ditë kalendarike. Nëse API kthen të dhëna nga një datë tjetër e disponueshme, kërkimi raporton datën aktuale të të dhënave në vend që ta paraqesë atë si ditën që keni zgjedhur.
 Për konvertim me kursin më të fundit të disponueshëm, përdorni konvertuesin e monedhave. Për të krahasuar një ofertë këmbimi me rezultatin sipas kursit të referencës, hapni kalkulatorin e diferencës së kursit.
 Mbani afër çiftet e dobishme
-Shiko grafikët në Balkan Converter
+Shiko grafikët në BALCO Converter
 Aplikacioni për Android përfshin grafikë 30-ditorë të kursit, çifte të fiksuara, kurse reference pa internet dhe mjete të tjera valutore.
 ```
 
 ### Additional dynamic messages
 
-- © 2026 Balkan Currency Converter
+- © 2026 BALCO Converter
 - Analiza opsionale
 - API ktheu të dhëna referencë të datës {date}.
-- Balkan Currency Converter shtëpi
+- BALCO Converter shtëpi
 - Grafiku i historisë së kursit të këmbimit
 - historia e kursit të këmbimit {base}/{quote}
-- Historia e kursit të këmbimit dhe grafiku i monedhës | Balkan Converter
+- Historia e kursit të këmbimit dhe grafiku i monedhës | BALCO Converter
 - Historiku i kursit të referencës {base}/{quote} nga {from} deri më {to}. Minimumi {minimum}, maksimumi {maximum}.
 - Ju zgjodhët {selectedDate}; të dhënat më të afërta të publikuara të disponueshme të kthyera nga API datojnë {date}.
 - Kalo në temën e lehtë
@@ -375,7 +375,7 @@ Aplikacioni për Android përfshin grafikë 30-ditorë të kursit, çifte të fi
 - Kurset historike nuk mund të ngarkoheshin. Kontrolloni lidhjen dhe provoni përsëri.
 - Kursi historik i referencës u ngarkua.
 - Lundrimi kryesor
-- Merr Balkan Currency Converter në Google Play
+- Merr BALCO Converter në Google Play
 - Merreni në Google Play
 - Mësoni më shumë
 - Multi-valuta
@@ -411,44 +411,44 @@ Aplikacioni për Android përfshin grafikë 30-ditorë të kursit, çifte të fi
 
 URL: `/sq/currency-converter-widget/`
 
-Title: Miniaplikacioni i konvertuesit të monedhës për Android | Balkan Converter
+Title: Miniaplikacioni i konvertuesit të monedhës për Android | BALCO Converter
 
 Meta description: Shtoni një miniaplikacion të konvertuesit të monedhës në ekranin tuaj bazë Android për qasje të shpejtë në kursin e këmbimit të ruajtur në memorie, datën e kursit, veprimin e shkëmbimit dhe shkurtoren e aplikacionit.
 
 ### Complete visible main content
 
 ```text
-Kthehu te Balkan Currency Converter
+Kthehu te BALCO Converter
 Udhëzues për ekranin bazë të Android
 Miniaplikacioni i konvertuesit të monedhës për Android
-Mbani një çift valutor të dobishëm në ekranin bazë. Miniaplikacioni Balkan Converter shfaq kursin e ruajtur të referencës dhe datën e të dhënave, e hap çiftin në aplikacion dhe në pamjen e gjerë lejon ndërrimin e shpejtë të monedhave.
+Mbani një çift valutor të dobishëm në ekranin bazë. Miniaplikacioni BALCO Converter shfaq kursin e ruajtur të referencës dhe datën e të dhënave, e hap çiftin në aplikacion dhe në pamjen e gjerë lejon ndërrimin e shpejtë të monedhave.
 Si të shtoni miniaplikacionin
-Miniaplikacioni real i Balkan Converter në një ekran bazë të zakonshëm Android.
+Miniaplikacioni real i BALCO Converter në një ekran bazë të zakonshëm Android.
 Katër hapa të shpejtë
 Shto miniaplikacionin e monedhës
 Etiketat e lëshuesit ndryshojnë pak nga pajisja Android, por rrjedha standarde e ekranit bazë është e njëjtë.
 Përgatitni një palë
-Hapni Balkan Converter, zgjidhni monedhat që dëshironi dhe prisni derisa të ngarkohen me sukses kurset më të fundit të referencës.
+Hapni BALCO Converter, zgjidhni monedhat që dëshironi dhe prisni derisa të ngarkohen me sukses kurset më të fundit të referencës.
 Hapni miniaplikacionet
 Prekni dhe mbani një pjesë të zbrazët të ekranit bazë të Android, më pas zgjidhni Miniaplikacionet.
 Vendoseni atë
-Gjeni Balkan Converter dhe tërhiqni miniaplikacionin e monedhës në një zonë të lirë të ekranit tuaj bazë.
+Gjeni BALCO Converter dhe tërhiqni miniaplikacionin e monedhës në një zonë të lirë të ekranit tuaj bazë.
 Ndryshimi i madhësisë dhe përdorimi
 Ndrysho madhësinë që të përshtatet. Prekni kartën për të hapur atë çift në aplikacion; miniaplikacioni më i gjerë tregon gjithashtu një buton shkëmbimi.
 Çfarë tregon miniaplikacioni
 Karta shfaq kursin e referencës për çiftin e zgjedhur, treguesin e freskisë dhe datën e kursit. Çdo miniaplikacion fillon me çiftin e përdorur së fundmi në aplikacion dhe më pas mban mend çiftin e vet.
-Prekja e miniaplikacionit hap Balkan Converter me ato monedha gati. Në një miniaplikacion me gjerësi mesatare, kontrolli i shkëmbimit e kthen mbrapsht çiftin direkt në ekranin bazë.
+Prekja e miniaplikacionit hap BALCO Converter me ato monedha gati. Në një miniaplikacion me gjerësi mesatare, kontrolli i shkëmbimit e kthen mbrapsht çiftin direkt në ekranin bazë.
 Pse data ka rëndësi
-Miniaplikacioni përdor grupin e fundit të kurseve të ruajtur me sukses nga aplikacioni; nuk është burim i pavarur i të dhënave të tregut në kohë reale. Kur Balkan Converter rifreskon kurset, miniaplikacionet e instaluara marrin të dhënat e përditësuara nga memoria.
+Miniaplikacioni përdor grupin e fundit të kurseve të ruajtur me sukses nga aplikacioni; nuk është burim i pavarur i të dhënave të tregut në kohë reale. Kur BALCO Converter rifreskon kurset, miniaplikacionet e instaluara marrin të dhënat e përditësuara nga memoria.
 Pa internet, kursi i fundit i ruajtur i referencës mbetet i dobishëm për vlerësime, ndërsa data tregon vjetërsinë e të dhënave. Lexoni më shumë te udhëzuesi për përdorim pa internet.
 Paraqitje e vogël apo e gjerë?
 Pamja kompakte mban të dukshëm kursin dhe datën në më pak hapësirë. Zgjerojeni miniaplikacionin nëse dëshironi edhe butonin e posaçëm për ndërrimin e monedhave.
 Lëshuesit Android kontrollojnë madhësinë e saktë të rrjetit, kështu që hapat e disponueshëm të ndryshimit të madhësisë mund të ndryshojnë midis telefonave dhe tabletëve.
 Për më shumë se një çift të shpejtë
 Hapni aplikacionin për të futur një shumë, për të konvertuar monedha, për të parë historikun e kurseve, për të krahasuar disa monedha ose për të ruajtur kurse për përdorim pa internet.
-Miniaplikacioni është projektuar si një shikim dhe shkurtore e shpejtë, ndërsa Balkan Converter ofron fluksin e plotë të punës së konvertimit.
+Miniaplikacioni është projektuar si një shikim dhe shkurtore e shpejtë, ndërsa BALCO Converter ofron fluksin e plotë të punës së konvertimit.
 Konvertimi me një shikim
-Shtoni Balkan Converter në ekranin tuaj bazë
+Shtoni BALCO Converter në ekranin tuaj bazë
 Instaloni aplikacionin për Android, ngarkoni çiftin valutor të preferuar dhe vendoseni miniaplikacionin në një vend lehtësisht të arritshëm.
 ```
 
@@ -460,14 +460,14 @@ Instaloni aplikacionin për Android, ngarkoni çiftin valutor të preferuar dhe 
 
 URL: `/sq/foreign-transaction-fee-calculator/`
 
-Title: Tarifa e transaksioneve të huaja & Llogaritësi DCC | Balkan Converter
+Title: Tarifa e transaksioneve të huaja & Llogaritësi DCC | BALCO Converter
 
 Meta description: Krahasoni pagesën në monedhën vendase me një ofertë DCC gjatë pagesës me kartë ose tërheqjes në ATM. Përfshini tarifën në përqindje dhe tarifën fikse sipas kurseve aktuale të referencës.
 
 ### Complete visible main content
 
 ```text
-Kthehu te Balkan Currency Converter
+Kthehu te BALCO Converter
 Krahasimi i kartës dhe ATM-së
 Tarifa e transaksioneve të huaja dhe kalkulator DCC
 Paguani në monedhën vendase apo përdorni konvertimin e ofruar? Vlerësoni të dyja mundësitë sipas kursit më të fundit të disponueshëm të referencës dhe tarifave të futura.
@@ -508,15 +508,15 @@ Nëse dëshironi vetëm të krahasoni një ofertë këmbimi me rezultatin sipas 
 Kursi i referencës dhe data
 Kursi i referencës është një bazë neutrale krahasimi, jo një kurs transaksioni i garantuar. Rezultati tregon datën e të dhënave të kthyer nga API i kurseve të referencës Frankfurter.
 Krahasoni në telefonin tuaj
-Kontrolloni ofertat e shkëmbimit me Balkan Converter
-Balkan Converter për Android përfshin koston aktuale për krahasimin e një oferte shkëmbimi dhe tarifat e saj me një rezultat referimi.
+Kontrolloni ofertat e shkëmbimit me BALCO Converter
+BALCO Converter për Android përfshin koston aktuale për krahasimin e një oferte shkëmbimi dhe tarifat e saj me një rezultat referimi.
 ```
 
 ### Additional dynamic messages
 
-- © 2026 Balkan Currency Converter
+- © 2026 BALCO Converter
 - Analiza opsionale
-- Balkan Currency Converter shtëpi
+- BALCO Converter shtëpi
 - Bazuar në këto vlera, konvertimi i ofruar do të kushtonte rreth {difference} më pak.
 - Bazuar në këto vlera, pagesa në monedhën vendase do të kushtonte rreth {difference} më pak.
 - Bazuar në këto vlera, të dy opsionet kanë të njëjtën kosto të vlerësuar.
@@ -543,7 +543,7 @@ Balkan Converter për Android përfshin koston aktuale për krahasimin e një of
 - Lundrimi kryesor
 - Llogaritësi i tarifës së transaksioneve të huaja
 - Llogaritni kostot e kartës së monedhës lokale dhe krahasoni një kuotë opsionale DCC.
-- Merr Balkan Currency Converter në Google Play
+- Merr BALCO Converter në Google Play
 - Merreni në Google Play
 - Mësoni më shumë
 - Na ndihmoni të kuptojmë përdorimin e sajtit. Firebase Analytics qëndron i fikur nëse nuk e pranoni.
@@ -563,7 +563,7 @@ Balkan Converter për Android përfshin koston aktuale për krahasimin e një of
 - Refuzoni analitikën
 - Shtëpi
 - Shuma dhe kurset duhet të jenë numra pozitivë.
-- Tarifa e transaksioneve të huaja & Llogaritësi DCC | Balkan Converter
+- Tarifa e transaksioneve të huaja & Llogaritësi DCC | BALCO Converter
 - Tarifa e transaksionit të huaj ({percentage}%)
 - Tarifa e transaksionit të huaj dhe kalkulatori DCC
 - Tarifat nuk mund të jenë negative.
@@ -574,14 +574,14 @@ Balkan Converter për Android përfshin koston aktuale për krahasimin e një of
 
 URL: `/sq/travel-budget-calculator/`
 
-Title: Llogaritësi i buxhetit të udhëtimit në dy monedha | Balkan Converter
+Title: Llogaritësi i buxhetit të udhëtimit në dy monedha | BALCO Converter
 
 Meta description: Vlerësoni buxhetin e udhëtimit sipas ditëve dhe kategorive, shtoni kostot fikse dhe rezervën, pastaj konvertoni totalin me kurset aktuale të referencës.
 
 ### Complete visible main content
 
 ```text
-Kthehu te Balkan Currency Converter
+Kthehu te BALCO Converter
 Mjet falas për planifikimin e udhëtimit
 Llogaritësi i buxhetit të udhëtimit
 Llogaritni koston e udhëtimit tuaj në dy monedha. Shtoni shpenzimet ditore, kostot fikse dhe një rezervë opsionale — pa regjistrim.
@@ -621,15 +621,15 @@ Krahasoni një shumë në disa monedha me konvertuesin me shumë monedha, bëni 
 Akomodimi, ushqimi, transporti lokal dhe aktivitetet janë shuma ditore. Shto fluturime, leje hekurudhore ose shpenzime të tjera një herë nën kostot fikse të udhëtimit.
 Monedhat për udhëtimin tuaj
 Mbani së bashku monedhat që ju nevojiten
-Balkan Converter për Android përfshin tabela udhëtimi dhe grupe të ruajtura për të mbajtur afër monedhave të dobishme të udhëtimit.
+BALCO Converter për Android përfshin tabela udhëtimi dhe grupe të ruajtura për të mbajtur afër monedhave të dobishme të udhëtimit.
 ```
 
 ### Additional dynamic messages
 
-- © 2026 Balkan Currency Converter
+- © 2026 BALCO Converter
 - Analiza opsionale
 - API i kurseve të referencës Frankfurter
-- Balkan Currency Converter shtëpi
+- BALCO Converter shtëpi
 - Buxheti u përditësua sipas kurseve më të fundit të disponueshme të referencës.
 - Data e kursit të referencës nuk disponohet.
 - Ditët e udhëtimit duhet të jenë një numër i plotë më i madh se zero.
@@ -649,8 +649,8 @@ Balkan Converter për Android përfshin tabela udhëtimi dhe grupe të ruajtura 
 - Kurset nuk mund të ngarkoheshin. Kontrolloni lidhjen dhe provoni përsëri.
 - Kursi i referencës nuk disponohet për këtë çift valutor.
 - Lundrimi kryesor
-- Llogaritësi i buxhetit të udhëtimit në dy monedha | Balkan Converter
-- Merr Balkan Currency Converter në Google Play
+- Llogaritësi i buxhetit të udhëtimit në dy monedha | BALCO Converter
+- Merr BALCO Converter në Google Play
 - Merreni në Google Play
 - Mësoni më shumë
 - Multi-valuta

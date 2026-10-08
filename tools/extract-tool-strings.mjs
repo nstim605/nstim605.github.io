@@ -25,7 +25,7 @@ function decode(value) {
 function add(value) {
   const text = decode(value);
   if (!/[\p{L}]/u.test(text)) return;
-  if (/^(?:Balkan Converter|Balkan Currency Converter|Google Play|Frankfurter|DCC|EUR|USD|RSD)$/.test(text)) return;
+  if (/^(?:BALCO Converter|BALCO Converter|Google Play|Frankfurter|DCC|EUR|USD|RSD)$/.test(text)) return;
   if (/^(?:https?:|\/)/.test(text)) return;
   strings.add(text);
 }

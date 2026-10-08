@@ -18,7 +18,7 @@ Meta description: Menukar amaun antara dua mata wang dengan kadar rujukan terkin
 ### Complete visible main content
 
 ```text
-Kembali ke Balkan Currency Converter
+Kembali ke BALCO Converter
 Alat mata wang percuma
 Penukar Mata Wang
 Tukar amaun antara dua mata wang dan lihat kadar rujukan terkini yang tersedia, tarikhnya dan sumbernya.
@@ -40,18 +40,18 @@ Tarikh yang dipaparkan memberitahu anda hari pasaran yang diwakili oleh data ruj
 Perlukan pandangan yang berbeza?
 Ikuti perubahan pasangan mata wang melalui sejarah kadar pertukaran, bandingkan satu jumlah dalam beberapa mata wang dengan penukar berbilang mata wang, semak tawaran pertukaran menggunakan kalkulator perbezaan kadar, atau bandingkan kos kad, pengeluaran tunai dan DCC dengan kalkulator fi dan DCC.
 Lebih banyak alatan pada Android
-Tukar dengan Balkan Converter
+Tukar dengan BALCO Converter
 Apl Android menambahkan kalkulator, kadar luar talian, Papan Perjalanan, Kos Sebenar, set yang disimpan, sejarah, carta dan widget skrin utama.
 ```
 
 ### Additional dynamic messages
 
-- © 2026 Balkan Currency Converter
+- © 2026 BALCO Converter
 - Amaun dan kadar mestilah nombor positif.
 - Analisis pilihan
-- Balkan Currency Converter rumah
+- BALCO Converter rumah
 - Bantu kami memahami penggunaan tapak. Firebase Analytics dimatikan melainkan anda menerimanya.
-- Dapatkan Balkan Currency Converter pada Google Play
+- Dapatkan BALCO Converter pada Google Play
 - Dapatkannya pada Google Play
 - Dasar Privasi
 - Kadar rujukan bertarikh {date}.
@@ -88,14 +88,14 @@ Apl Android menambahkan kalkulator, kadar luar talian, Papan Perjalanan, Kos Seb
 
 URL: `/ms/exchange-rate-markup-calculator/`
 
-Title: Kalkulator Tokokan Kadar Pertukaran | Balkan Currency Converter
+Title: Kalkulator Tokokan Kadar Pertukaran | BALCO Converter
 
 Meta description: Bandingkan tawaran pertukaran dengan kadar rujukan terkini. Kira amaun yang anda terima, perbezaan dan tokokan kadar pertukaran berkesan.
 
 ### Complete visible main content
 
 ```text
-Kembali ke Balkan Currency Converter
+Kembali ke BALCO Converter
 Alat mata wang percuma
 Kalkulator Tokokan Kadar Pertukaran
 Bandingkan jumlah yang ditawarkan oleh perkhidmatan pertukaran dengan kadar rujukan terkini yang tersedia. Lihat perbezaan dan tokokan berkesan sebelum anda menukar mata wang.
@@ -124,21 +124,21 @@ Penting untuk diketahui
 Ini adalah perbandingan maklumat, bukan nasihat kewangan. Tawaran mungkin termasuk yuran perkhidmatan, caj kad, pengendalian tunai atau spread penyedia. Kadar rujukan tidak dijamin kadar transaksi.
 Membandingkan transaksi kad atau ATM dengan penukaran yang ditawarkan dalam mata wang kad? Gunakan kalkulator fi dan DCC. Untuk penukaran pantas satu pasangan, buka penukar mata wang. Bandingkan satu jumlah dalam beberapa mata wang melalui penukar berbilang mata wang; panduan penggunaan luar talian menerangkan cara kadar tersimpan berfungsi.
 Perlukan ini semasa dalam perjalanan?
-Bandingkan kos dalam Balkan Converter
+Bandingkan kos dalam BALCO Converter
 Apl Android menambahkan Kos Sebenar, kadar luar talian, Papan Perjalanan, set yang disimpan, carta dan widget skrin utama.
 ```
 
 ### Additional dynamic messages
 
-- © 2026 Balkan Currency Converter
+- © 2026 BALCO Converter
 - Analisis pilihan
 - Anda menerima lebih banyak dengan
-- Balkan Currency Converter rumah
+- BALCO Converter rumah
 - Bandingkan tawaran pertukaran dengan kadar rujukan terkini dan kira tokokan berkesan.
 - Bandingkan tawaran pertukaran dengan kadar rujukan terkini.
 - Bandingkan tawaran pertukaran dengan kadar rujukan terkini. Kira amaun yang anda terima, perbezaan dan tokokan kadar pertukaran berkesan.
 - Bantu kami memahami penggunaan tapak. Firebase Analytics dimatikan melainkan anda menerimanya.
-- Dapatkan Balkan Currency Converter pada Google Play
+- Dapatkan BALCO Converter pada Google Play
 - Dapatkannya pada Google Play
 - Dasar Privasi
 - Data kadar rujukan tidak lengkap.
@@ -148,7 +148,7 @@ Apl Android menambahkan Kos Sebenar, kadar luar talian, Papan Perjalanan, set ya
 - Kadar rujukan tidak tersedia untuk pasangan mata wang ini.
 - Kadar tidak dapat dimuatkan. Semak sambungan anda dan cuba lagi.
 - Kalkulator tokokan
-- Kalkulator Tokokan Kadar Pertukaran | Balkan Currency Converter
+- Kalkulator Tokokan Kadar Pertukaran | BALCO Converter
 - Ketahui lebih lanjut
 - Langkau ke kalkulator
 - Lihat sejauh mana tawaran pertukaran daripada kadar rujukan terkini.
@@ -183,12 +183,12 @@ URL: `/ms/multi-currency-converter/`
 
 Title: Penukar Berbilang Mata Wang | Tukar Satu Jumlah kepada Berbilang Mata Wang
 
-Meta description: Tukar satu jumlah kepada beberapa mata wang sekaligus dengan kadar rujukan terkini yang tersedia. Penukar berbilang mata wang percuma daripada Balkan Converter.
+Meta description: Tukar satu jumlah kepada beberapa mata wang sekaligus dengan kadar rujukan terkini yang tersedia. Penukar berbilang mata wang percuma daripada BALCO Converter.
 
 ### Complete visible main content
 
 ```text
-Kembali ke Balkan Currency Converter
+Kembali ke BALCO Converter
 Alat mata wang percuma
 Penukar Pelbagai Mata Wang
 Masukkan satu jumlah dan bandingkan nilainya dalam beberapa mata wang pada masa yang sama menggunakan kadar rujukan terkini yang tersedia.
@@ -205,19 +205,19 @@ Kadar adalah nilai rujukan dan boleh berbeza daripada kadar yang ditawarkan oleh
 Pilih pandangan yang betul
 Untuk satu pasangan mata wang, gunakan penukar mata wang. Lihat perubahannya dalam sejarah kadar, semak tawaran dengan kalkulator perbezaan kadar, dan baca dalam panduan penggunaan luar talian cara kadar tersimpan digunakan tanpa internet.
 Lebih banyak mata wang semasa dalam perjalanan
-Gunakan Travel Board dalam Balkan Converter
+Gunakan Travel Board dalam BALCO Converter
 Apl Android menyimpan beberapa mata wang perjalanan bersama-sama, menyokong penyusunan semula dan boleh menyediakan kadar untuk kegunaan luar talian.
 ```
 
 ### Additional dynamic messages
 
-- © 2026 Balkan Currency Converter
+- © 2026 BALCO Converter
 - Alih keluar mata wang sasaran
 - Amaun dan kadar asas mestilah nombor positif.
 - Analisis pilihan
-- Balkan Currency Converter rumah
+- BALCO Converter rumah
 - Bantu kami memahami penggunaan tapak. Firebase Analytics dimatikan melainkan anda menerimanya.
-- Dapatkan Balkan Currency Converter pada Google Play
+- Dapatkan BALCO Converter pada Google Play
 - Dapatkannya pada Google Play
 - Dasar Privasi
 - Kadar rujukan
@@ -255,7 +255,7 @@ Apl Android menyimpan beberapa mata wang perjalanan bersama-sama, menyokong peny
 - Tukar kepada tema gelap
 - Tukar satu jumlah kepada beberapa mata wang menggunakan kadar rujukan terkini yang tersedia.
 - Tukar satu jumlah kepada beberapa mata wang pada masa yang sama.
-- Tukar satu jumlah kepada beberapa mata wang sekaligus dengan kadar rujukan terkini yang tersedia. Penukar berbilang mata wang percuma daripada Balkan Converter.
+- Tukar satu jumlah kepada beberapa mata wang sekaligus dengan kadar rujukan terkini yang tersedia. Penukar berbilang mata wang percuma daripada BALCO Converter.
 - Tukar tema warna
 
 ## Penukar Mata Wang Luar Talian: Cara Kadar Disimpan Berfungsi
@@ -269,7 +269,7 @@ Meta description: Ketahui cara penukar mata wang luar talian menggunakan kadar p
 ### Complete visible main content
 
 ```text
-Kembali ke Balkan Currency Converter
+Kembali ke BALCO Converter
 Panduan kadar pertukaran luar talian
 Penukar Mata Wang Luar Talian: Cara Kadar Disimpan Berfungsi
 Penukar boleh terus berfungsi tanpa Internet dengan menggunakan kadar pertukaran terkini yang berjaya disimpan pada peranti anda. Kadar tersebut adalah data rujukan yang berguna—tetapi ia kekal terikat pada tarikh asalnya sehingga apl boleh memuat semulanya dalam talian.
@@ -286,7 +286,7 @@ Maksud kadar luar talian yang disimpan
 Data yang disimpan ialah petikan tindak balas kadar rujukan yang berjaya terbaharu. Ia boleh mengira penukaran tanpa sambungan rangkaian, tetapi nombor tidak dikemas kini semasa peranti berada di luar talian.
 Sentiasa semak tarikh kadar yang dipaparkan. Keputusan berdasarkan kadar semalam mungkin masih berguna untuk perancangan, tetapi ini bukanlah janji kadar yang akan ditawarkan oleh bank, pembekal kad atau pejabat pertukaran hari ini.
 Apa yang berlaku apabila internet kembali?
-Balkan Converter menggunakan satu cache kadar setempat yang dikongsi untuk penukaran biasa dan penyediaan Set Tersimpan. Muat semula dalam talian yang berjaya menggantikan set data cache yang lebih lama dan mengemas kini tarikhnya serta menjimatkan masa.
+BALCO Converter menggunakan satu cache kadar setempat yang dikongsi untuk penukaran biasa dan penyediaan Set Tersimpan. Muat semula dalam talian yang berjaya menggantikan set data cache yang lebih lama dan mengemas kini tarikhnya serta menjimatkan masa.
 Jika muat semula gagal, apl akan kembali kepada kadar cache sebelumnya dan bukannya memadamkannya.
 Sediakan Set Tersimpan untuk kegunaan luar talian
 Dalam apl Android, buat atau buka Set Tersimpan untuk mata wang yang anda perlukan. Semasa disambungkan, pilih Simpan kadar di luar talian. Apl ini menyegarkan set data kadar dikongsi dan mengesahkan kesediaan apabila cache yang disimpan mengandungi setiap mata wang dalam set itu.
@@ -295,7 +295,7 @@ Berguna di luar perjalanan
 Penukaran luar talian boleh membantu semasa sambungan yang lemah, gangguan perayauan, gangguan perkhidmatan sementara atau sebarang situasi di mana anggaran rujukan pantas lebih berguna daripada tiada hasil.
 Untuk akses pantas kepada pasangan tersimpan, lihat panduan widget Android. Gunakan penukar mata wang untuk penukaran dalam talian, bandingkan satu jumlah dalam beberapa mata wang melalui penukar berbilang mata wang, atau semak tawaran dengan kalkulator perbezaan kadar.
 Simpan rujukan bertarikh berguna
-Gunakan kadar yang disimpan dalam Balkan Converter
+Gunakan kadar yang disimpan dalam BALCO Converter
 Apl Android boleh menggunakan semula cache kadar pertukaran terbaharunya yang berjaya tanpa sambungan dan mengenal pasti dengan jelas data cache dan tarikh kadarnya.
 ```
 
@@ -307,14 +307,14 @@ Apl Android boleh menggunakan semula cache kadar pertukaran terbaharunya yang be
 
 URL: `/ms/exchange-rate-history/`
 
-Title: Sejarah Kadar Pertukaran & Carta Mata Wang | Balkan Converter
+Title: Sejarah Kadar Pertukaran & Carta Mata Wang | BALCO Converter
 
 Meta description: Lihat sejarah kadar pertukaran 30 hari, 90 hari atau satu tahun, carta pasangan mata wang dan cari kadar rujukan untuk tarikh tertentu.
 
 ### Complete visible main content
 
 ```text
-Kembali ke Balkan Currency Converter
+Kembali ke BALCO Converter
 Alat kadar rujukan sejarah
 Sejarah Kadar Pertukaran & Carta Mata Wang
 Terokai cara pasangan mata wang bergerak selama 30 hari, 90 hari atau satu tahun dan cari kadar rujukan untuk tarikh tertentu.
@@ -353,7 +353,7 @@ Tarikh dan trend
 Gunakan carta untuk melihat arah dan variasi, bukan untuk meramalkan langkah seterusnya. Sesetengah pembekal tidak menerbitkan pada setiap hari kalendar. Jika API mengembalikan data daripada tarikh lain yang tersedia, carian melaporkan tarikh data sebenar dan bukannya membentangkannya sebagai hari yang anda pilih.
 Untuk penukaran dengan kadar terkini yang tersedia, gunakan penukar mata wang. Untuk membandingkan tawaran dengan hasil kadar rujukan, buka kalkulator perbezaan kadar.
 Pastikan pasangan yang berguna rapat
-Lihat carta dalam Balkan Converter
+Lihat carta dalam BALCO Converter
 Apl Android termasuk carta kadar 30 hari, pasangan yang disematkan, kadar rujukan luar talian dan alatan mata wang lain.
 ```
 
@@ -362,15 +362,15 @@ Apl Android termasuk carta kadar 30 hari, pasangan yang disematkan, kadar rujuka
 - {base} hingga {quote} sejarah kadar rujukan daripada {from} hingga {to}. Minimum {minimum}, maksimum {maximum}.
 - {base}/{quote} sejarah kadar pertukaran
 - {count} kadar rujukan bertarikh dimuatkan.
-- © 2026 Balkan Currency Converter
+- © 2026 BALCO Converter
 - Analisis pilihan
 - Anda memilih {selectedDate}; data terbitan tersedia terdekat yang dikembalikan oleh API adalah bertarikh {date}.
 - API mengembalikan data rujukan bertarikh {date}.
-- Balkan Currency Converter rumah
+- BALCO Converter rumah
 - Bantu kami memahami penggunaan tapak. Firebase Analytics dimatikan melainkan anda menerimanya.
 - Carta kadar rujukan sejarah dan cari kadar mata wang mengikut tarikh.
 - Carta sejarah kadar pertukaran
-- Dapatkan Balkan Currency Converter pada Google Play
+- Dapatkan BALCO Converter pada Google Play
 - Dapatkannya pada Google Play
 - Dasar Privasi
 - Data terkini yang tersedia dalam tempoh ini: {date}.
@@ -400,7 +400,7 @@ Apl Android termasuk carta kadar 30 hari, pasangan yang disematkan, kadar rujuka
 - Privasi
 - Respons kadar sejarah tidak sah.
 - Rumah
-- Sejarah Kadar Pertukaran & Carta Mata Wang | Balkan Converter
+- Sejarah Kadar Pertukaran & Carta Mata Wang | BALCO Converter
 - Sekurang-kurangnya satu kadar sejarah yang sah diperlukan.
 - Terima analitik
 - Tiada kadar sejarah boleh dimuatkan untuk tarikh dan pasangan itu.
@@ -414,44 +414,44 @@ Apl Android termasuk carta kadar 30 hari, pasangan yang disematkan, kadar rujuka
 
 URL: `/ms/currency-converter-widget/`
 
-Title: Widget Penukar Mata Wang untuk Android | Balkan Converter
+Title: Widget Penukar Mata Wang untuk Android | BALCO Converter
 
 Meta description: Tambahkan widget penukar mata wang pada skrin utama Android anda untuk akses pantas kepada kadar pertukaran cache, tarikh kadar, tindakan pertukaran dan pintasan apl.
 
 ### Complete visible main content
 
 ```text
-Kembali ke Balkan Currency Converter
+Kembali ke BALCO Converter
 Panduan skrin utama Android
 Widget Penukar Mata Wang untuk Android
-Simpan satu pasangan mata wang yang berguna pada skrin utama anda. Widget Balkan Converter menunjukkan kadar rujukan cache dan tarikh datanya, membuka pasangan itu dalam apl dan menyokong pertukaran pantas dalam reka letaknya yang lebih luas.
+Simpan satu pasangan mata wang yang berguna pada skrin utama anda. Widget BALCO Converter menunjukkan kadar rujukan cache dan tarikh datanya, membuka pasangan itu dalam apl dan menyokong pertukaran pantas dalam reka letaknya yang lebih luas.
 Bagaimana untuk menambah widget
-Widget Balkan Converter sebenar pada skrin utama Android biasa.
+Widget BALCO Converter sebenar pada skrin utama Android biasa.
 Empat langkah pantas
 Tambah widget mata wang
 Label pelancar berbeza sedikit mengikut Android peranti, tetapi aliran skrin utama standard adalah sama.
 Sediakan sepasang
-Buka Balkan Converter, pilih mata wang yang anda mahukan dan biarkan kadar rujukan terkini berjaya dimuatkan.
+Buka BALCO Converter, pilih mata wang yang anda mahukan dan biarkan kadar rujukan terkini berjaya dimuatkan.
 Buka Widget
 Sentuh dan tahan bahagian kosong skrin utama Android, kemudian pilih Widget.
 Letakkan widget
-Cari Balkan Converter dan seret widget mata wang ke kawasan bebas skrin utama anda.
+Cari BALCO Converter dan seret widget mata wang ke kawasan bebas skrin utama anda.
 Ubah saiz dan gunakan
 Ubah saiznya supaya muat. Ketik kad untuk membuka pasangan itu dalam apl; widget yang lebih luas juga menunjukkan butang swap.
 Perkara yang ditunjukkan oleh widget
 Kad memaparkan kadar rujukan untuk pasangan yang dipilih serta label kesegaran dan tarikh kadar. Setiap widget bermula dengan pasangan yang paling baru digunakan dalam apl dan kemudian mengingati pasangannya sendiri.
-Mengetik widget akan dibuka Balkan Converter dengan mata wang tersebut sedia. Pada widget lebar sederhana, kawalan swap membalikkan pasangan terus pada skrin utama.
+Mengetik widget akan dibuka BALCO Converter dengan mata wang tersebut sedia. Pada widget lebar sederhana, kawalan swap membalikkan pasangan terus pada skrin utama.
 Mengapa tarikh itu penting
-Widget menggunakan set data kadar terkini apl yang berjaya dicache; ia bukan suapan pasaran langsung bebas. Apabila Balkan Converter berjaya memuat semula kadarnya, widget yang dipasang menerima data cache yang dikemas kini.
+Widget menggunakan set data kadar terkini apl yang berjaya dicache; ia bukan suapan pasaran langsung bebas. Apabila BALCO Converter berjaya memuat semula kadarnya, widget yang dipasang menerima data cache yang dikemas kini.
 Tanpa sambungan, kadar rujukan terakhir yang tersimpan masih berguna untuk anggaran, dan tarikhnya menunjukkan usia data. Baca lanjut dalam panduan penggunaan luar talian.
 Susun atur kecil atau lebar?
 Reka letak padat memastikan kadar dan tarikh kelihatan dalam ruang yang kurang. Jadikan widget lebih luas apabila anda mahukan tindakan swap khusus bersama kadar.
 Android pelancar mengawal saiz grid yang tepat, jadi langkah ubah saiz yang tersedia boleh berbeza antara telefon dan tablet.
 Untuk lebih daripada satu pasangan pantas
 Buka aplikasi untuk memasukkan jumlah, menukar mata wang, melihat sejarah kadar, membandingkan beberapa mata wang atau menyimpan kadar untuk penggunaan luar talian.
-Widget direka bentuk sebagai pandangan pantas dan pintasan, manakala Balkan Converter menyediakan aliran kerja penukaran yang lengkap.
+Widget direka bentuk sebagai pandangan pantas dan pintasan, manakala BALCO Converter menyediakan aliran kerja penukaran yang lengkap.
 Penukaran sepintas lalu
-Tambahkan Balkan Converter pada skrin utama anda
+Tambahkan BALCO Converter pada skrin utama anda
 Pasang apl Android, muatkan pasangan pilihan anda, kemudian letakkan widget mata wang sebenar di tempat yang paling mudah dicapai.
 ```
 
@@ -463,14 +463,14 @@ Pasang apl Android, muatkan pasangan pilihan anda, kemudian letakkan widget mata
 
 URL: `/ms/foreign-transaction-fee-calculator/`
 
-Title: Kalkulator Yuran Transaksi Asing & DCC | Balkan Converter
+Title: Kalkulator Yuran Transaksi Asing & DCC | BALCO Converter
 
 Meta description: Bandingkan pembayaran dalam mata wang tempatan dengan kad DCC atau sebut harga ATM. Termasuk transaksi asing dan yuran tetap menggunakan kadar rujukan semasa.
 
 ### Complete visible main content
 
 ```text
-Kembali ke Balkan Currency Converter
+Kembali ke BALCO Converter
 Perbandingan kad dan ATM
 Kalkulator Yuran Transaksi Asing & DCC
 Bayar dalam mata wang tempatan atau gunakan penukaran yang ditawarkan? Anggarkan kedua-dua pilihan daripada kadar rujukan terkini yang tersedia dan yuran yang anda masukkan.
@@ -511,17 +511,17 @@ Jika anda hanya mahu membandingkan tawaran pertukaran dengan hasil kadar rujukan
 Kadar rujukan dan tarikh
 Kadar rujukan menyediakan titik perbandingan neutral, bukan kadar transaksi yang dijamin. Hasilnya menunjukkan tarikh pasaran dikembalikan oleh API kadar rujukan Frankfurter.
 Bandingkan pada telefon anda
-Semak tawaran pertukaran dengan Balkan Converter
-Balkan Converter untuk Android termasuk Kos Sebenar untuk membandingkan tawaran pertukaran dan yurannya dengan hasil rujukan.
+Semak tawaran pertukaran dengan BALCO Converter
+BALCO Converter untuk Android termasuk Kos Sebenar untuk membandingkan tawaran pertukaran dan yurannya dengan hasil rujukan.
 ```
 
 ### Additional dynamic messages
 
-- © 2026 Balkan Currency Converter
+- © 2026 BALCO Converter
 - Amaun dan kadar mestilah nombor positif.
 - Analisis pilihan
 - Anggarkan kos kad mata wang tempatan dan bandingkan sebut harga DCC pilihan.
-- Balkan Currency Converter rumah
+- BALCO Converter rumah
 - Bandingkan anggaran kos dalam mata wang asal apabila membayar dalam mata wang tempatan dengan sebut harga Penukaran Mata Wang Dinamik (DCC) pilihan.
 - Bandingkan kad mata wang tempatan atau transaksi ATM dengan penukaran yang ditawarkan.
 - Bandingkan pembayaran dalam mata wang tempatan dengan kad DCC atau sebut harga ATM. Termasuk transaksi asing dan yuran tetap menggunakan kadar rujukan semasa.
@@ -529,7 +529,7 @@ Balkan Converter untuk Android termasuk Kos Sebenar untuk membandingkan tawaran 
 - Berdasarkan nilai ini, kedua-dua pilihan mempunyai anggaran kos yang sama.
 - Berdasarkan nilai ini, membayar dalam mata wang tempatan akan menelan kos kira-kira {difference} kurang.
 - Berdasarkan nilai ini, penukaran yang ditawarkan akan menelan kos kira-kira {difference} kurang.
-- Dapatkan Balkan Currency Converter pada Google Play
+- Dapatkan BALCO Converter pada Google Play
 - Dapatkannya pada Google Play
 - Dasar Privasi
 - DCC di bawah rujukan
@@ -541,7 +541,7 @@ Balkan Converter untuk Android termasuk Kos Sebenar untuk membandingkan tawaran 
 - Kadar tidak dapat dimuatkan. Semak sambungan anda dan cuba lagi.
 - Kalkulator tokokan
 - Kalkulator yuran transaksi asing
-- Kalkulator Yuran Transaksi Asing & DCC | Balkan Converter
+- Kalkulator Yuran Transaksi Asing & DCC | BALCO Converter
 - Kalkulator Yuran Transaksi Asing dan DCC
 - Kepada
 - Ketahui lebih lanjut
@@ -578,14 +578,14 @@ Balkan Converter untuk Android termasuk Kos Sebenar untuk membandingkan tawaran 
 
 URL: `/ms/travel-budget-calculator/`
 
-Title: Kalkulator Belanjawan Perjalanan dalam Dua Mata Wang | Balkan Converter
+Title: Kalkulator Belanjawan Perjalanan dalam Dua Mata Wang | BALCO Converter
 
 Meta description: Anggarkan belanjawan perjalanan mengikut hari dan kategori, tambah kos tetap dan rizab, kemudian tukar jumlah dengan kadar rujukan semasa.
 
 ### Complete visible main content
 
 ```text
-Kembali ke Balkan Currency Converter
+Kembali ke BALCO Converter
 Alat perancangan perjalanan percuma
 Kalkulator Belanjawan Perjalanan
 Anggarkan kos perjalanan anda dalam dua mata wang. Tambahkan perbelanjaan harian, kos tetap dan rizab pilihan—tiada akaun diperlukan.
@@ -625,21 +625,21 @@ Apa yang perlu disertakan
 Penginapan, makanan, pengangkutan tempatan dan aktiviti adalah jumlah harian. Tambahkan penerbangan, pas kereta api atau perbelanjaan sekali sahaja di bawah kos perjalanan tetap.
 Mata wang untuk perjalanan anda
 Simpan mata wang yang anda perlukan bersama-sama
-Balkan Converter untuk Android termasuk Travel Board dan Set Disimpan untuk memastikan mata wang perjalanan yang berguna sentiasa dekat.
+BALCO Converter untuk Android termasuk Travel Board dan Set Disimpan untuk memastikan mata wang perjalanan yang berguna sentiasa dekat.
 ```
 
 ### Additional dynamic messages
 
-- © 2026 Balkan Currency Converter
+- © 2026 BALCO Converter
 - Amaun belanjawan dan rizab tidak boleh negatif.
 - Analisis pilihan
 - Anggarkan belanjawan perjalanan berbilang hari mengikut kategori dalam mata wang destinasi dan rumah.
 - Anggarkan belanjawan perjalanan mengikut hari dan kategori, tambah kos tetap dan rizab, kemudian tukar jumlah dengan kadar rujukan semasa.
 - Anggarkan kos perjalanan harian, kos tetap dan rizab dalam dua mata wang.
-- Balkan Currency Converter rumah
+- BALCO Converter rumah
 - Bantu kami memahami penggunaan tapak. Firebase Analytics dimatikan melainkan anda menerimanya.
 - Belanjawan dikemas kini daripada kadar rujukan terkini yang tersedia.
-- Dapatkan Balkan Currency Converter pada Google Play
+- Dapatkan BALCO Converter pada Google Play
 - Dapatkannya pada Google Play
 - daripada
 - Dasar Privasi
@@ -652,7 +652,7 @@ Balkan Converter untuk Android termasuk Travel Board dan Set Disimpan untuk mema
 - Kadar rujukan tidak tersedia untuk pasangan mata wang ini.
 - Kadar tidak dapat dimuatkan. Semak sambungan anda dan cuba lagi.
 - Kalkulator bajet perjalanan
-- Kalkulator Belanjawan Perjalanan dalam Dua Mata Wang | Balkan Converter
+- Kalkulator Belanjawan Perjalanan dalam Dua Mata Wang | BALCO Converter
 - Kepada
 - Ketahui lebih lanjut
 - Langkau ke kalkulator

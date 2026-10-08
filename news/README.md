@@ -1,4 +1,4 @@
-# Balkan Converter financial news
+# BALCO Converter financial news
 
 The news hub is statically generated for English, Serbian, and Russian. Only reviewed records in `data/stories.json` with `status: published` and `indexable: true` can create public pages or sitemap entries. Pending, rejected, duplicate, and draft records remain data-only and non-indexable.
 

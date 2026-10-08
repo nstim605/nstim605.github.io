@@ -14,13 +14,13 @@ const slugs = [
 ];
 const identity = {
   'currency-converter': ['Währungsrechner | Wechselkurse online umrechnen', 'Währungsrechner'],
-  'exchange-rate-markup-calculator': ['Wechselkursabweichung berechnen | Balkan Currency Converter', 'Kursabweichung berechnen'],
+  'exchange-rate-markup-calculator': ['Wechselkursabweichung berechnen | BALCO Converter', 'Kursabweichung berechnen'],
   'multi-currency-converter': ['Mehrwährungsrechner | Einen Betrag in mehrere Währungen umrechnen', 'Ein Betrag. Mehrere Währungen.'],
   'offline-currency-converter': ['Offline-Währungsumrechner | So funktionieren gespeicherte Wechselkurse', 'Offline-Währungsumrechner: So funktionieren gespeicherte Kurse'],
-  'exchange-rate-history': ['Wechselkursverlauf und Währungsdiagramm | Balkan Converter', 'Wechselkursverlauf und Währungsdiagramm'],
-  'currency-converter-widget': ['Währungs-Widget für Android | Balkan Converter', 'Währungs-Widget für Android'],
-  'foreign-transaction-fee-calculator': ['Fremdwährungsgebühren und DCC berechnen | Balkan Converter', 'Gebühren und DCC vergleichen'],
-  'travel-budget-calculator': ['Reisebudgetrechner in zwei Währungen | Balkan Converter', 'Reisebudgetrechner']
+  'exchange-rate-history': ['Wechselkursverlauf und Währungsdiagramm | BALCO Converter', 'Wechselkursverlauf und Währungsdiagramm'],
+  'currency-converter-widget': ['Währungs-Widget für Android | BALCO Converter', 'Währungs-Widget für Android'],
+  'foreign-transaction-fee-calculator': ['Fremdwährungsgebühren und DCC berechnen | BALCO Converter', 'Gebühren und DCC vergleichen'],
+  'travel-budget-calculator': ['Reisebudgetrechner in zwei Währungen | BALCO Converter', 'Reisebudgetrechner']
 };
 
 function visibleMain(html) {
@@ -70,7 +70,7 @@ test('all German tools use reviewed financial terminology and preserve behavior-
     assert.doesNotMatch(html, /<option value="([A-Z]{3})">(?!\1<)[A-Z]{3}<\/option>/u);
     assert.match(html, /src="\/assets\/google-play-badge-en\.png"/);
     assert.match(html, /https:\/\/play\.google\.com\/store\/apps\/details\?id=io\.github\.nstim605\.balkanconverter/);
-    assert.match(html, /aria-label="Balkan Currency Converter bei Google Play herunterladen"/);
+    assert.match(html, /aria-label="BALCO Converter bei Google Play herunterladen"/);
   }
   for (const [slug, [title, h1]] of Object.entries(identity)) {
     assert.ok(pages[slug].includes(`<title>${title}</title>`), `${slug} title`);

@@ -18,7 +18,7 @@ Meta description: Converti un importo tra due valute con gli ultimi tassi di rif
 ### Complete visible main content
 
 ```text
-Torna a Balkan Currency Converter
+Torna a BALCO Converter
 Strumento valutario gratuito
 Convertitore di valuta
 Converti un importo tra due valute e visualizza l'ultimo tasso di riferimento disponibile, la sua data e la sua fonte.
@@ -40,13 +40,13 @@ La data visualizzata indica quale giorno di mercato rappresenta il dato di rifer
 Ti serve un altro strumento?
 Segui l'andamento di una coppia di valute nello storico dei tassi, confronta un importo in più valute con il convertitore multivaluta, valuta un'offerta di cambio con il calcolatore dello scostamento di cambio oppure confronta i costi di carta, prelievo e DCC con il calcolatore di commissioni e DCC.
 Altri strumenti su Android
-Converti con Balkan Converter
+Converti con BALCO Converter
 L'app Android offre anche una calcolatrice, tassi offline, Travel Board, Actual Cost, set salvati, storico, grafici e un widget per la schermata Home.
 ```
 
 ### Additional dynamic messages
 
-- © 2026 Balkan Currency Converter
+- © 2026 BALCO Converter
 - Accetta analisi
 - Aiutaci a comprendere l'utilizzo del sito. Firebase Analytics rimane spento a meno che tu non accetti.
 - Analisi facoltativa
@@ -69,10 +69,10 @@ L'app Android offre anche una calcolatrice, tassi offline, Travel Board, Actual 
 - Multivaluta
 - Navigazione nel piè di pagina
 - Navigazione principale
-- Ottieni Balkan Currency Converter su Google Play
+- Ottieni BALCO Converter su Google Play
 - Ottienilo su Google Play
 - Pagina iniziale
-- Pagina iniziale di Balkan Currency Converter
+- Pagina iniziale di BALCO Converter
 - Passa al convertitore
 - Passa al tema chiaro
 - Passa al tema scuro
@@ -88,14 +88,14 @@ L'app Android offre anche una calcolatrice, tassi offline, Travel Board, Actual 
 
 URL: `/it/exchange-rate-markup-calculator/`
 
-Title: Calcolatore dello scostamento di cambio | Balkan Currency Converter
+Title: Calcolatore dello scostamento di cambio | BALCO Converter
 
 Meta description: Confronta un'offerta di cambio con l'ultimo tasso di riferimento. Calcola l'importo ricevuto, la differenza e lo scostamento percentuale dal risultato di riferimento.
 
 ### Complete visible main content
 
 ```text
-Torna a Balkan Currency Converter
+Torna a BALCO Converter
 Strumento valutario gratuito
 Calcolatore dello scostamento di cambio
 Confronta l'importo proposto da un servizio di cambio con l'ultimo tasso di riferimento disponibile. Controlla la differenza e lo scostamento percentuale prima di cambiare valuta.
@@ -124,18 +124,18 @@ Importante da sapere
 Questo è un confronto informativo, non una consulenza finanziaria. Un'offerta può includere commissioni di servizio, addebiti sulla carta, gestione del contante o spread del fornitore. I tassi di riferimento non sono tassi di transazione garantiti.
 Vuoi confrontare un pagamento con carta o un prelievo con la conversione proposta nella valuta della carta? Usa il calcolatore di commissioni e DCC. Per convertire rapidamente una coppia di valute, apri il convertitore di valuta. Per confrontare un importo in più valute, usa il convertitore multivaluta; la guida alla conversione offline spiega come funzionano i tassi salvati.
 Ne hai bisogno mentre sei in movimento?
-Confronta i costi in Balkan Converter
+Confronta i costi in BALCO Converter
 L'app Android offre anche Actual Cost, tassi offline, Travel Board, set salvati, grafici e un widget per la schermata Home.
 ```
 
 ### Additional dynamic messages
 
-- © 2026 Balkan Currency Converter
+- © 2026 BALCO Converter
 - Accetta analisi
 - Ad esempio, 11.500
 - Aiutaci a comprendere l'utilizzo del sito. Firebase Analytics rimane spento a meno che tu non accetti.
 - Analisi facoltativa
-- Calcolatore dello scostamento di cambio | Balkan Currency Converter
+- Calcolatore dello scostamento di cambio | BALCO Converter
 - Calcolo aggiornato dagli ultimi tassi di riferimento disponibili.
 - Cambia tema colore
 - Caricamento degli ultimi tassi…
@@ -157,10 +157,10 @@ L'app Android offre anche Actual Cost, tassi offline, Travel Board, set salvati,
 - Navigazione principale
 - Non è disponibile un tasso di riferimento per questa coppia di valute.
 - Non sono stati restituiti tassi di riferimento.
-- Ottieni Balkan Currency Converter su Google Play
+- Ottieni BALCO Converter su Google Play
 - Ottienilo su Google Play
 - Pagina iniziale
-- Pagina iniziale di Balkan Currency Converter
+- Pagina iniziale di BALCO Converter
 - Passa al tema chiaro
 - Passa al tema scuro
 - Passa alla calcolatrice
@@ -181,12 +181,12 @@ URL: `/it/multi-currency-converter/`
 
 Title: Convertitore multivaluta | Converti un importo in più valute
 
-Meta description: Converti un importo in più valute contemporaneamente con gli ultimi tassi di riferimento disponibili. Un convertitore multivaluta gratuito di Balkan Converter.
+Meta description: Converti un importo in più valute contemporaneamente con gli ultimi tassi di riferimento disponibili. Un convertitore multivaluta gratuito di BALCO Converter.
 
 ### Complete visible main content
 
 ```text
-Torna a Balkan Currency Converter
+Torna a BALCO Converter
 Strumento valutario gratuito
 Convertitore multivaluta
 Inserisci un importo e confronta il suo valore in più valute contemporaneamente utilizzando gli ultimi tassi di riferimento disponibili.
@@ -203,13 +203,13 @@ I tassi sono valori di riferimento e possono differire dal tasso offerto da una 
 Scegli la vista giusta
 Per una sola coppia di valute, usa il convertitore di valuta. Consulta l'andamento nel tempo nello storico dei tassi, valuta un'offerta di cambio con il calcolatore dello scostamento di cambio oppure scopri come funziona la conversione senza Internet nella guida alla conversione offline.
 Più valute in movimento
-Utilizzare la scheda da viaggio in Balkan Converter
+Utilizzare la scheda da viaggio in BALCO Converter
 L'app Android riunisce più valute di viaggio, permette di riordinarle e può preparare i tassi per l'uso offline.
 ```
 
 ### Additional dynamic messages
 
-- © 2026 Balkan Currency Converter
+- © 2026 BALCO Converter
 - Accetta analisi
 - Aiutaci a comprendere l'utilizzo del sito. Firebase Analytics rimane spento a meno che tu non accetti.
 - Analisi facoltativa
@@ -218,7 +218,7 @@ L'app Android riunisce più valute di viaggio, permette di riordinarle e può pr
 - Caricamento degli ultimi tassi…
 - Conversione di valuta per Android
 - Conversioni aggiornate dagli ultimi tassi di riferimento disponibili.
-- Converti un importo in più valute contemporaneamente con gli ultimi tassi di riferimento disponibili. Un convertitore multivaluta gratuito di Balkan Converter.
+- Converti un importo in più valute contemporaneamente con gli ultimi tassi di riferimento disponibili. Un convertitore multivaluta gratuito di BALCO Converter.
 - Converti un importo in più valute contemporaneamente.
 - Converti un importo in più valute utilizzando gli ultimi tassi di riferimento disponibili.
 - Convertitore di valuta
@@ -235,10 +235,10 @@ L'app Android riunisce più valute di viaggio, permette di riordinarle e può pr
 - Multivaluta
 - Navigazione nel piè di pagina
 - Navigazione principale
-- Ottieni Balkan Currency Converter su Google Play
+- Ottieni BALCO Converter su Google Play
 - Ottienilo su Google Play
 - Pagina iniziale
-- Pagina iniziale di Balkan Currency Converter
+- Pagina iniziale di BALCO Converter
 - Passa al convertitore
 - Passa al tema chiaro
 - Passa al tema scuro
@@ -267,7 +267,7 @@ Meta description: Scopri come un convertitore di valuta offline utilizza tassi d
 ### Complete visible main content
 
 ```text
-Torna a Balkan Currency Converter
+Torna a BALCO Converter
 Guida offline ai tassi di cambio
 Convertitore di valuta offline: come funzionano i tassi salvati
 Un convertitore può continuare a funzionare senza Internet usando gli ultimi tassi di cambio salvati sul dispositivo. Sono dati di riferimento utili, ma mantengono la data originale finché l'app non riesce ad aggiornarli online.
@@ -284,7 +284,7 @@ Cosa significa un tasso salvato offline
 I dati salvati sono un'istantanea dell'ultima risposta valida con i tassi di riferimento. Consentono di calcolare conversioni senza connessione, ma i valori non si aggiornano mentre il dispositivo è offline.
 Controlla sempre la data del tasso visualizzato. Un risultato basato sui tassi di ieri può essere utile per pianificare, ma non garantisce il tasso che oggi offrirà una banca, un circuito di carte o un ufficio di cambio.
 Cosa succederà quando tornerà Internet?
-Balkan Converter usa la stessa cache locale dei tassi per le normali conversioni e per la preparazione dei set salvati. Un aggiornamento online riuscito sostituisce i dati precedenti e aggiorna sia la data dei tassi sia l'ora del salvataggio.
+BALCO Converter usa la stessa cache locale dei tassi per le normali conversioni e per la preparazione dei set salvati. Un aggiornamento online riuscito sostituisce i dati precedenti e aggiorna sia la data dei tassi sia l'ora del salvataggio.
 Se l'aggiornamento non riesce, l'app conserva i tassi precedentemente salvati invece di eliminarli.
 Prepara un set salvato per l'utilizzo offline
 Nell'app Android, crea o apri un set salvato con le valute che ti servono. Con una connessione Internet disponibile, scegli Salva i tassi offline. L'app aggiorna il set comune di tassi e conferma che è pronto quando la cache contiene tutte le valute del set salvato.
@@ -293,7 +293,7 @@ Utile oltre il viaggio
 La conversione offline può essere utile con una connessione debole, durante un'interruzione del roaming o del servizio e ogni volta che una stima indicativa è preferibile all'assenza di un risultato.
 Per consultare rapidamente una coppia di valute salvata, usa la guida al widget Android. Per una conversione online, apri il convertitore di valuta, confronta un importo in più valute con il convertitore multivaluta oppure valuta un'offerta di cambio con il calcolatore dello scostamento di cambio.
 Tieni a portata di mano un riferimento datato
-Usa i tassi salvati in Balkan Converter
+Usa i tassi salvati in BALCO Converter
 Senza connessione, l'app Android può riutilizzare gli ultimi tassi salvati correttamente. Indica chiaramente che si tratta di dati memorizzati nella cache e mostra la data dei tassi.
 ```
 
@@ -305,14 +305,14 @@ Senza connessione, l'app Android può riutilizzare gli ultimi tassi salvati corr
 
 URL: `/it/exchange-rate-history/`
 
-Title: Cronologia dei tassi di cambio e grafico delle valute | Balkan Converter
+Title: Cronologia dei tassi di cambio e grafico delle valute | BALCO Converter
 
 Meta description: Visualizza lo storico dei tassi di cambio di 30, 90 giorni o un anno, traccia una coppia di valute e cerca il tasso di riferimento per una data specifica.
 
 ### Complete visible main content
 
 ```text
-Torna a Balkan Currency Converter
+Torna a BALCO Converter
 Strumento del tasso di riferimento storico
 Cronologia dei tassi di cambio e grafico delle valute
 Scopri come si è spostata una coppia di valute nell'arco di 30 giorni, 90 giorni o un anno e cerca il tasso di riferimento per una data specifica.
@@ -351,14 +351,14 @@ Date e tendenze
 Usa il grafico per vedere la direzione e la variazione, non per prevedere la mossa successiva. Alcuni fornitori non pubblicano ogni giorno di calendario. Se l'API restituisce dati da un'altra data disponibile, la ricerca riporta la data effettiva dei dati invece di presentarla come il giorno selezionato.
 Per convertire all'ultimo tasso disponibile, usa il convertitore di valuta. Per confrontare un'offerta di cambio con il risultato al tasso di riferimento, apri il calcolatore dello scostamento di cambio.
 Tieni vicine le coppie utili
-Visualizza i grafici in Balkan Converter
+Visualizza i grafici in BALCO Converter
 L'app Android include grafici dei tassi a 30 giorni, coppie fissate, tassi di riferimento offline e altri strumenti valutari.
 ```
 
 ### Additional dynamic messages
 
 - {count} tassi di riferimento datati caricati.
-- © 2026 Balkan Currency Converter
+- © 2026 BALCO Converter
 - Accetta analisi
 - Aiutaci a comprendere l'utilizzo del sito. Firebase Analytics rimane spento a meno che tu non accetti.
 - Analisi facoltativa
@@ -368,7 +368,7 @@ L'app Android include grafici dei tassi a 30 giorni, coppie fissate, tassi di ri
 - Controlli e grafico della cronologia del tasso di cambio
 - Conversione di valuta per Android
 - Convertitore di valuta
-- Cronologia dei tassi di cambio e grafico delle valute | Balkan Converter
+- Cronologia dei tassi di cambio e grafico delle valute | BALCO Converter
 - È necessario almeno un tasso storico valido.
 - Facoltativo
 - Grafico storico del tasso di cambio
@@ -380,10 +380,10 @@ L'app Android include grafici dei tassi a 30 giorni, coppie fissate, tassi di ri
 - Navigazione nel piè di pagina
 - Navigazione principale
 - Non è stato possibile caricare alcun tasso storico per quella data e quella coppia.
-- Ottieni Balkan Currency Converter su Google Play
+- Ottieni BALCO Converter su Google Play
 - Ottienilo su Google Play
 - Pagina iniziale
-- Pagina iniziale di Balkan Currency Converter
+- Pagina iniziale di BALCO Converter
 - Passa al tema chiaro
 - Passa al tema scuro
 - Passa alla cronologia dei tassi di cambio
@@ -412,44 +412,44 @@ L'app Android include grafici dei tassi a 30 giorni, coppie fissate, tassi di ri
 
 URL: `/it/currency-converter-widget/`
 
-Title: Widget convertitore di valuta per Android | Balkan Converter
+Title: Widget convertitore di valuta per Android | BALCO Converter
 
 Meta description: Aggiungi un widget di conversione alla schermata Home di Android per consultare rapidamente un tasso salvato e la relativa data, invertire la coppia e aprire l'app.
 
 ### Complete visible main content
 
 ```text
-Torna a Balkan Currency Converter
+Torna a BALCO Converter
 Guida alla schermata Home di Android
 Widget convertitore di valuta per Android
-Mantieni una coppia di valute utile nella schermata iniziale. Il widget Balkan Converter mostra il tasso di riferimento memorizzato nella cache e la data dei dati, apre la coppia nell'app e supporta uno scambio rapido nel suo layout più ampio.
+Mantieni una coppia di valute utile nella schermata iniziale. Il widget BALCO Converter mostra il tasso di riferimento memorizzato nella cache e la data dei dati, apre la coppia nell'app e supporta uno scambio rapido nel suo layout più ampio.
 Come aggiungere il widget
-Il widget Balkan Converter su una normale schermata Home di Android.
+Il widget BALCO Converter su una normale schermata Home di Android.
 Quattro rapidi passaggi
 Aggiungi il widget valuta
 Le etichette del launcher variano leggermente in base al dispositivo Android, ma il flusso standard della schermata iniziale è lo stesso.
 Prepara una coppia
-Apri Balkan Converter, seleziona le valute che desideri e lascia che gli ultimi tassi di riferimento vengano caricati correttamente.
+Apri BALCO Converter, seleziona le valute che desideri e lascia che gli ultimi tassi di riferimento vengano caricati correttamente.
 Apri widget
 Tocca e tieni premuta una parte vuota della schermata iniziale di Android, quindi scegli Widget.
 Posizionalo
-Trova Balkan Converter e trascina il widget valuta in un'area libera della schermata iniziale.
+Trova BALCO Converter e trascina il widget valuta in un'area libera della schermata iniziale.
 Ridimensiona e utilizza
 Ridimensionalo per adattarlo. Tocca la carta per aprire quella coppia nell'app; il widget più ampio mostra anche un pulsante di scambio.
 Cosa mostra il widget
 La scheda mostra il tasso di riferimento della coppia selezionata, lo stato di aggiornamento e la data. Ogni widget usa inizialmente l'ultima coppia aperta nell'app, poi memorizza la propria.
-Toccando il widget si apre Balkan Converter con le valute pronte. Su un widget di media larghezza, il controllo di scambio inverte la coppia direttamente nella schermata principale.
+Toccando il widget si apre BALCO Converter con le valute pronte. Su un widget di media larghezza, il controllo di scambio inverte la coppia direttamente nella schermata principale.
 Perché la data è importante
-Il widget utilizza gli ultimi tassi salvati correttamente dall'app; non è una fonte indipendente di dati di mercato in tempo reale. Quando Balkan Converter aggiorna i tassi, i widget installati ricevono i nuovi dati memorizzati nella cache.
+Il widget utilizza gli ultimi tassi salvati correttamente dall'app; non è una fonte indipendente di dati di mercato in tempo reale. Quando BALCO Converter aggiorna i tassi, i widget installati ricevono i nuovi dati memorizzati nella cache.
 Senza Internet, l'ultimo tasso di riferimento salvato resta disponibile per le stime; la data indica quanto sono recenti i dati. Per saperne di più, consulta la guida alla conversione offline.
 Layout piccolo o ampio?
 Il layout compatto mantiene il tasso e la data visibili in meno spazio. Rendi il widget più ampio quando desideri l'azione di scambio dedicata insieme al tasso.
 I launcher Android controllano l'esatta dimensione della griglia, quindi i passaggi di ridimensionamento disponibili possono differire tra telefoni e tablet.
 Per più di una coppia veloce
 Apri l'app per inserire un importo, effettuare una conversione, consultare lo storico dei tassi, confrontare più valute o preparare tassi salvati per l'uso offline.
-Il widget offre una consultazione rapida e un collegamento all'app, mentre Balkan Converter gestisce l'intero flusso di conversione.
+Il widget offre una consultazione rapida e un collegamento all'app, mentre BALCO Converter gestisce l'intero flusso di conversione.
 Conversione a colpo d'occhio
-Aggiungi Balkan Converter alla schermata iniziale
+Aggiungi BALCO Converter alla schermata iniziale
 Installa l'app Android, carica la coppia che preferisci e posiziona il widget di conversione dove risulta più comodo.
 ```
 
@@ -461,14 +461,14 @@ Installa l'app Android, carica la coppia che preferisci e posiziona il widget di
 
 URL: `/it/foreign-transaction-fee-calculator/`
 
-Title: Commissione per transazioni estere e calcolatore DCC | Balkan Converter
+Title: Commissione per transazioni estere e calcolatore DCC | BALCO Converter
 
 Meta description: Confronta un pagamento in valuta locale con la conversione dinamica (DCC) proposta da un esercente o da uno sportello automatico. Includi la commissione per operazioni in valuta estera e i costi fissi.
 
 ### Complete visible main content
 
 ```text
-Torna a Balkan Currency Converter
+Torna a BALCO Converter
 Confronto carte e bancomat
 Commissione per transazioni estere e calcolatore DCC
 Pagare in valuta locale o utilizzare la conversione offerta? Stima entrambe le opzioni in base all'ultimo tasso di riferimento disponibile e alle commissioni inserite.
@@ -509,13 +509,13 @@ Se vuoi soltanto confrontare un'offerta di cambio con il risultato al tasso di r
 Tasso di riferimento e data
 I tassi di riferimento forniscono un punto di confronto neutrale, non un tasso di transazione garantito. Il risultato mostra la data di mercato restituita dall'API del tasso di riferimento Frankfurter.
 Confronta sul tuo telefono
-Controlla le offerte di scambio con Balkan Converter
-Balkan Converter per Android include la funzione Costo effettivo, che confronta un'offerta di cambio e le relative commissioni con il risultato al tasso di riferimento.
+Controlla le offerte di scambio con BALCO Converter
+BALCO Converter per Android include la funzione Costo effettivo, che confronta un'offerta di cambio e le relative commissioni con il risultato al tasso di riferimento.
 ```
 
 ### Additional dynamic messages
 
-- © 2026 Balkan Currency Converter
+- © 2026 BALCO Converter
 - Accetta analisi
 - Ad esempio, 90
 - Aggiungi, se disponibile, il totale proposto con DCC per confrontare le due modalità di pagamento.
@@ -528,7 +528,7 @@ Balkan Converter per Android include la funzione Costo effettivo, che confronta 
 - Cambia tema colore
 - Caricamento degli ultimi tassi…
 - Commissione per transazione estera ({percentage}%)
-- Commissione per transazioni estere e calcolatore DCC | Balkan Converter
+- Commissione per transazioni estere e calcolatore DCC | BALCO Converter
 - Confronta il costo stimato, nella valuta della carta, di un pagamento in valuta locale con un'eventuale offerta di conversione dinamica della valuta (DCC).
 - Confronta un pagamento in valuta locale con la conversione dinamica (DCC) proposta da un esercente o da uno sportello automatico. Includi la commissione per operazioni in valuta estera e i costi fissi.
 - Confronta una transazione con carta in valuta locale o bancomat con una conversione offerta.
@@ -551,10 +551,10 @@ Balkan Converter per Android include la funzione Costo effettivo, che confronta 
 - Navigazione nel piè di pagina
 - Navigazione principale
 - Non è disponibile un tasso di riferimento per questa coppia di valute.
-- Ottieni Balkan Currency Converter su Google Play
+- Ottieni BALCO Converter su Google Play
 - Ottienilo su Google Play
 - Pagina iniziale
-- Pagina iniziale di Balkan Currency Converter
+- Pagina iniziale di BALCO Converter
 - Passa al tema chiaro
 - Passa al tema scuro
 - Passa alla calcolatrice
@@ -577,14 +577,14 @@ Balkan Converter per Android include la funzione Costo effettivo, che confronta 
 
 URL: `/it/travel-budget-calculator/`
 
-Title: Calcolatore del budget di viaggio in due valute | Balkan Converter
+Title: Calcolatore del budget di viaggio in due valute | BALCO Converter
 
 Meta description: Stima il budget giornaliero per categoria, aggiungi i costi fissi e una riserva per imprevisti, quindi converti il totale con i tassi di riferimento attuali.
 
 ### Complete visible main content
 
 ```text
-Torna a Balkan Currency Converter
+Torna a BALCO Converter
 Strumento gratuito per la pianificazione del viaggio
 Calcolatore del budget di viaggio
 Stima il costo del tuo viaggio in due valute. Aggiungi le spese giornaliere, i costi fissi e una riserva facoltativa per gli imprevisti, senza creare un account.
@@ -624,18 +624,18 @@ Cosa includere
 Alloggio, pasti, trasporti locali e attività sono importi giornalieri. Aggiungi voli, abbonamenti ferroviari o altre spese una tantum ai costi di viaggio fissi.
 Valute per il tuo viaggio
 Tieni insieme le valute di cui hai bisogno
-Balkan Converter per Android include Travel Board e set salvati per tenere a portata di mano le valute di viaggio utili.
+BALCO Converter per Android include Travel Board e set salvati per tenere a portata di mano le valute di viaggio utili.
 ```
 
 ### Additional dynamic messages
 
-- © 2026 Balkan Currency Converter
+- © 2026 BALCO Converter
 - Accetta analisi
 - Aiutaci a comprendere l'utilizzo del sito. Firebase Analytics rimane spento a meno che tu non accetti.
 - Analisi facoltativa
 - API Frankfurter dei tassi di riferimento
 - Budget aggiornato dagli ultimi tassi di riferimento disponibili.
-- Calcolatore del budget di viaggio in due valute | Balkan Converter
+- Calcolatore del budget di viaggio in due valute | BALCO Converter
 - Cambia tema colore
 - Caricamento degli ultimi tassi…
 - Conversione di valuta per Android
@@ -658,10 +658,10 @@ Balkan Converter per Android include Travel Board e set salvati per tenere a por
 - Navigazione nel piè di pagina
 - Navigazione principale
 - Non è disponibile un tasso di riferimento per questa coppia di valute.
-- Ottieni Balkan Currency Converter su Google Play
+- Ottieni BALCO Converter su Google Play
 - Ottienilo su Google Play
 - Pagina iniziale
-- Pagina iniziale di Balkan Currency Converter
+- Pagina iniziale di BALCO Converter
 - Passa al tema chiaro
 - Passa al tema scuro
 - Passa alla calcolatrice

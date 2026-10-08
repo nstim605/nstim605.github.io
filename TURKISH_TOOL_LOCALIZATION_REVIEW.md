@@ -18,7 +18,7 @@ Meta description: Bir tutarı mevcut en güncel referans kurlarla iki para birim
 ### Complete visible main content
 
 ```text
-Balkan Currency Converter'e geri dön
+BALCO Converter'e geri dön
 Ücretsiz para birimi aracı
 Döviz Çevirici
 Bir tutarı iki para birimi arasında dönüştürün ve mevcut en son referans kurunu, tarihini ve kaynağını görün.
@@ -40,14 +40,14 @@ Görüntülenen tarih, referans verilerinin hangi piyasa gününü temsil ettiğ
 Farklı bir bakış açısına mı ihtiyacınız var?
 Bir döviz çiftinin hareketini kur geçmişinde ile izleyin, tek bir tutarı çoklu para birimi dönüştürücüsü ile birkaç para biriminde karşılaştırın, bir döviz teklifini kur farkı hesaplayıcısı ile değerlendirin veya kart, nakit çekme ve DCC maliyetlerini ücret ve DCC hesaplayıcısı ile karşılaştırın.
 Android'de daha fazla araç
-Balkan Converter ile dönüştürün
+BALCO Converter ile dönüştürün
 Android uygulamasında hesap makinesi, çevrimdışı kurlar, Seyahat Panosu, Gerçek Maliyet, kayıtlı setler, geçmiş, grafikler ve ana ekran widget'ı bulunur.
 ```
 
 ### Additional dynamic messages
 
 - {date} tarihli referans kurlar.
-- © 2026 Balkan Currency Converter
+- © 2026 BALCO Converter
 - Açık temaya geç
 - Alt bilgide gezinme
 - Ana gezinme
@@ -56,7 +56,7 @@ Android uygulamasında hesap makinesi, çevrimdışı kurlar, Seyahat Panosu, Ge
 - Analitiği reddet
 - Analitik seçenekleri
 - Android için para birimi dönüştürme
-- Balkan Currency Converter ana sayfa
+- BALCO Converter ana sayfa
 - Bir tutarı mevcut en güncel referans kurlarla iki para birimi arasında dönüştürün.
 - Bir tutarı mevcut en güncel referans kurlarla iki para birimi arasında dönüştürün. Döviz kurunu, kur tarihini ve veri kaynağını görün.
 - Çoklu para birimi
@@ -68,7 +68,7 @@ Android uygulamasında hesap makinesi, çevrimdışı kurlar, Seyahat Panosu, Ge
 - En son kurlar yükleniyor…
 - Gizlilik
 - Gizlilik Politikası
-- Google Play'de Balkan Currency Converter'yi edinin
+- Google Play'de BALCO Converter'yi edinin
 - Google Play'den edinin
 - İki farklı para birimi seçin.
 - İsteğe bağlı
@@ -90,14 +90,14 @@ Android uygulamasında hesap makinesi, çevrimdışı kurlar, Seyahat Panosu, Ge
 
 URL: `/tr/exchange-rate-markup-calculator/`
 
-Title: Döviz Kuru Farkı Hesaplayıcısı | Balkan Currency Converter
+Title: Döviz Kuru Farkı Hesaplayıcısı | BALCO Converter
 
 Meta description: Bir döviz teklifini en güncel referans kurla karşılaştırın. Alacağınız tutarı, farkı ve gerçek kur farkını hesaplayın.
 
 ### Complete visible main content
 
 ```text
-Balkan Currency Converter'e geri dön
+BALCO Converter'e geri dön
 Ücretsiz para birimi aracı
 Döviz Kuru Farkı Hesaplayıcısı
 Döviz hizmetinin sunduğu tutarı en son referans kurla karşılaştırın. Döviz almadan önce farkı ve gerçek kur artışını görün.
@@ -126,14 +126,14 @@ Bilmek önemli
 Bu yalnızca bilgi amaçlı bir karşılaştırmadır, finansal tavsiye değildir. Teklif; hizmet ücretleri, kart masrafları, nakit işlem ücreti veya sağlayıcının kur farkını içerebilir. Referans kurlar garanti edilen işlem kurları değildir.
 Kartla ödeme veya nakit çekme işlemini kart para biriminize sunulan dönüşümle mi karşılaştırıyorsunuz? ücret ve DCC hesaplayıcısını kullanın. Hızlı bir döviz çifti dönüşümü için para birimi dönüştürücüsünü açın. Tek bir tutarı birkaç para biriminde çoklu para birimi dönüştürücüsünü ile karşılaştırın; çevrimdışı kullanım rehberi, kayıtlı kurların nasıl çalıştığını açıklar.
 Hareket halindeyken buna mı ihtiyacınız var?
-Balkan Converter'deki maliyetleri karşılaştırın
+BALCO Converter'deki maliyetleri karşılaştırın
 Android uygulamasında Gerçek Maliyet, çevrimdışı kurlar, Seyahat Panosu, kayıtlı setler, grafikler ve ana ekran widget'ı bulunur.
 ```
 
 ### Additional dynamic messages
 
 - {date} tarihli referans kurlar.
-- © 2026 Balkan Currency Converter
+- © 2026 BALCO Converter
 - Açık temaya geç
 - Alt bilgide gezinme
 - Ana gezinme
@@ -142,7 +142,7 @@ Android uygulamasında Gerçek Maliyet, çevrimdışı kurlar, Seyahat Panosu, k
 - Analitiği reddet
 - Analitik seçenekleri
 - Android için para birimi dönüştürme
-- Balkan Currency Converter ana sayfa
+- BALCO Converter ana sayfa
 - Bir döviz teklifini en güncel referans kurla karşılaştırın ve gerçek kur farkını hesaplayın.
 - Bir döviz teklifini en güncel referans kurla karşılaştırın. Alacağınız tutarı, farkı ve gerçek kur farkını hesaplayın.
 - Bir döviz teklifini en son referans kuruyla karşılaştırın.
@@ -151,12 +151,12 @@ Android uygulamasında Gerçek Maliyet, çevrimdışı kurlar, Seyahat Panosu, k
 - Daha fazla bilgi edinin
 - Daha fazlasını alırsınız
 - Döviz Çevirici
-- Döviz Kuru Farkı Hesaplayıcısı | Balkan Currency Converter
+- Döviz Kuru Farkı Hesaplayıcısı | BALCO Converter
 - En güncel referans kurlar alınıyor…
 - En son kurlar yükleniyor…
 - Gizlilik
 - Gizlilik Politikası
-- Google Play'de Balkan Currency Converter'yi edinin
+- Google Play'de BALCO Converter'yi edinin
 - Google Play'den edinin
 - Hesap makinesine atla
 - Hesaplama mevcut en güncel referans kurlarla güncellendi.
@@ -188,12 +188,12 @@ URL: `/tr/multi-currency-converter/`
 
 Title: Çoklu Para Birimi Dönüştürücü | Bir Tutarı Birden Çok Para Birimine Dönüştür
 
-Meta description: Bir tutarı mevcut en güncel referans kurlarla aynı anda birden fazla para birimine dönüştürün. Balkan Converter'ın ücretsiz çoklu döviz dönüştürücüsü.
+Meta description: Bir tutarı mevcut en güncel referans kurlarla aynı anda birden fazla para birimine dönüştürün. BALCO Converter'ın ücretsiz çoklu döviz dönüştürücüsü.
 
 ### Complete visible main content
 
 ```text
-Balkan Currency Converter'e geri dön
+BALCO Converter'e geri dön
 Ücretsiz para birimi aracı
 Çoklu Para Birimi Dönüştürücü
 Bir tutar girin ve değerini mevcut en güncel referans kurlarla aynı anda birden fazla para biriminde karşılaştırın.
@@ -210,14 +210,14 @@ Kurlar referans değerlerdir ve banka, kart kuruluşu veya döviz hizmetinin sun
 Doğru görünümü seçin
 Tek bir döviz çifti için para birimi dönüştürücüsünü kullanın. Hareketi kur geçmişinde içinde görün, bir döviz teklifini kur farkı hesaplayıcısıyla ile değerlendirin ve kayıtlı kurların internet olmadan nasıl kullanıldığını çevrimdışı kullanım rehberinde içinde okuyun.
 Hareket halindeyken daha fazla para birimi
-Balkan Converter'de Seyahat Panosunu Kullanın
+BALCO Converter'de Seyahat Panosunu Kullanın
 Android uygulaması birden fazla seyahat para birimini bir arada tutar, yeniden sıralamayı destekler ve kurları çevrimdışı kullanım için hazırlayabilir.
 ```
 
 ### Additional dynamic messages
 
 - {date} tarihli referans kurlar.
-- © 2026 Balkan Currency Converter
+- © 2026 BALCO Converter
 - Açık temaya geç
 - Alt bilgide gezinme
 - Ana gezinme
@@ -226,9 +226,9 @@ Android uygulaması birden fazla seyahat para birimini bir arada tutar, yeniden 
 - Analitiği reddet
 - Analitik seçenekleri
 - Android için para birimi dönüştürme
-- Balkan Currency Converter ana sayfa
+- BALCO Converter ana sayfa
 - Bir tutarı aynı anda birden fazla para birimine dönüştürün.
-- Bir tutarı mevcut en güncel referans kurlarla aynı anda birden fazla para birimine dönüştürün. Balkan Converter'ın ücretsiz çoklu döviz dönüştürücüsü.
+- Bir tutarı mevcut en güncel referans kurlarla aynı anda birden fazla para birimine dönüştürün. BALCO Converter'ın ücretsiz çoklu döviz dönüştürücüsü.
 - Bir tutarı mevcut en güncel referans kurlarla birden fazla para birimine dönüştürün.
 - Çoklu para birimi dönüştürücü
 - Çoklu Para Birimi Dönüştürücü | Bir Tutarı Birden Çok Para Birimine Dönüştür
@@ -242,7 +242,7 @@ Android uygulaması birden fazla seyahat para birimini bir arada tutar, yeniden 
 - En son kurlar yükleniyor…
 - Gizlilik
 - Gizlilik Politikası
-- Google Play'de Balkan Currency Converter'yi edinin
+- Google Play'de BALCO Converter'yi edinin
 - Google Play'den edinin
 - Hedef para birimi
 - Hedef para birimini kaldır
@@ -274,7 +274,7 @@ Meta description: Çevrimdışı para birimi dönüştürücünün tarihli, kay�
 ### Complete visible main content
 
 ```text
-Balkan Currency Converter'e geri dön
+BALCO Converter'e geri dön
 Çevrimdışı döviz kuru kılavuzu
 Çevrimdışı Para Birimi Dönüştürücüsü: Kayıtlı Kurlar Nasıl Çalışır?
 Dönüştürücü, cihazınıza başarıyla kaydedilen en son döviz kurlarıyla internet olmadan çalışabilir. Bu kurlar yararlı referans verileridir ancak uygulama çevrimiçi yenileyene kadar ilk tarihlerine bağlı kalır.
@@ -291,7 +291,7 @@ Kaydedilmiş çevrimdışı kur ne anlama gelir?
 Kaydedilen veriler, son başarılı referans kur yanıtının anlık görüntüsüdür. Ağ bağlantısı olmadan dönüşüm yapılabilir, ancak cihaz çevrimdışıyken değerler güncellenmez.
 Her zaman gösterilen kur tarihini kontrol edin. Dünkü kurlara dayalı bir sonuç planlama için yararlı olabilir, ancak bankanın, kart kuruluşunun veya döviz bürosunun bugün sunacağı kuru garanti etmez.
 İnternet geri döndüğünde ne olur?
-Balkan Converter, normal dönüşüm ve Kayıtlı Set hazırlığı için aynı yerel kur önbelleğini kullanır. Başarılı bir çevrimiçi yenileme eski veri kümesinin yerine yenisini kaydeder; kur tarihini ve kayıt zamanını günceller.
+BALCO Converter, normal dönüşüm ve Kayıtlı Set hazırlığı için aynı yerel kur önbelleğini kullanır. Başarılı bir çevrimiçi yenileme eski veri kümesinin yerine yenisini kaydeder; kur tarihini ve kayıt zamanını günceller.
 Yenileme başarısız olursa uygulama önceki önbelleğe alınmış kurları silmek yerine kullanmaya devam eder.
 Kaydedilmiş bir Seti çevrimdışı kullanım için hazırlama
 Android uygulamasında ihtiyacınız olan para birimleri için bir Kayıtlı Set oluşturun veya açın. İnternete bağlıyken şunu seçin: Kurları çevrimdışı kullanım için kaydedin. Uygulama, ortak kur veri kümesini yeniler ve kayıtlı önbellek bu setteki tüm para birimlerini içerdiğinde hazır olduğunu bildirir.
@@ -300,7 +300,7 @@ Seyahatin ötesinde faydalı
 Çevrimdışı dönüştürme, zayıf bağlantı, dolaşım kesintisi, geçici hizmet kesintisi veya hızlı referans tahmininin hiçbir sonuç olmamasından daha yararlı olduğu herhangi bir durumda yardımcı olabilir.
 Kayıtlı bir döviz çiftine hızlı erişim için Android widget rehberine bakın. Çevrimiçi dönüşüm için para birimi dönüştürücüsünü kullanın, tek bir tutarı birkaç para biriminde çoklu para birimi dönüştürücüsüyle ile karşılaştırın veya bir döviz teklifini kur farkı hesaplayıcısıyla ile değerlendirin.
 Tarihli bir referansı el altında bulundurun
-Balkan Converter'da kayıtlı kurları kullanın
+BALCO Converter'da kayıtlı kurları kullanın
 Android uygulaması, başarıyla kaydettiği en son döviz kuru önbelleğini bağlantı olmadan kullanabilir ve önbelleğe alınmış verilerle kur tarihini açıkça gösterir.
 ```
 
@@ -312,14 +312,14 @@ Android uygulaması, başarıyla kaydettiği en son döviz kuru önbelleğini ba
 
 URL: `/tr/exchange-rate-history/`
 
-Title: Döviz Kuru Geçmişi ve Kur Grafiği | Balkan Converter
+Title: Döviz Kuru Geçmişi ve Kur Grafiği | BALCO Converter
 
 Meta description: 30 günlük, 90 günlük veya bir yıllık döviz kuru geçmişini görüntüleyin, döviz çiftinin grafiğini çizin ve belirli bir tarih için referans kuruna bakın.
 
 ### Complete visible main content
 
 ```text
-Balkan Currency Converter'e geri dön
+BALCO Converter'e geri dön
 Geçmiş referans kur aracı
 Döviz Kuru Geçmişi ve Kur Grafiği
 Bir döviz çiftinin 30 gün, 90 gün veya bir yıl içinde nasıl hareket ettiğini keşfedin ve belirli bir tarih için referans kuruna bakın.
@@ -358,7 +358,7 @@ Tarihler ve trendler
 Grafiği sonraki hareketi tahmin etmek için değil, yönü ve değişimi görmek için kullanın. Bazı sağlayıcılar her takvim günü veri yayımlamaz. API başka bir tarihe ait veri döndürürse araç bunu seçtiğiniz gün gibi göstermez; gerçek veri tarihini bildirir.
 En son mevcut kurla dönüşüm için para birimi dönüştürücüsünü kullanın. Bir döviz teklifini referans kur sonucuyla karşılaştırmak için kur farkı hesaplayıcısını açın.
 Yararlı çiftleri yakın tutun
-Balkan Converter'deki grafikleri görüntüleyin
+BALCO Converter'deki grafikleri görüntüleyin
 Android uygulamasında 30 günlük kur grafikleri, sabitlenmiş çiftler, çevrimdışı referans kurlar ve başka döviz araçları bulunur.
 ```
 
@@ -367,7 +367,7 @@ Android uygulamasında 30 günlük kur grafikleri, sabitlenmiş çiftler, çevri
 - {base}/{quote} döviz kuru geçmişi
 - {from}–{to} döneminde {base}/{quote} referans kur geçmişi. Minimum {minimum}, maksimum {maximum}.
 - {selectedDate} tarihini seçtiniz; API'nin döndürdüğü en yakın yayımlanmış veri {date} tarihlidir.
-- © 2026 Balkan Currency Converter
+- © 2026 BALCO Converter
 - 30 günlük, 90 günlük veya bir yıllık döviz kuru geçmişini görüntüleyin, döviz çiftinin grafiğini çizin ve belirli bir tarih için referans kuruna bakın.
 - Açık temaya geç
 - Alt bilgide gezinme
@@ -378,7 +378,7 @@ Android uygulamasında 30 günlük kur grafikleri, sabitlenmiş çiftler, çevri
 - Analitik seçenekleri
 - Android için para birimi dönüştürme
 - API, {date} tarihli referans verilerini döndürdü.
-- Balkan Currency Converter ana sayfa
+- BALCO Converter ana sayfa
 - Bu dönemde mevcut olan en son veriler: {date}.
 - Bu seçim için geçmiş kur bulunmuyor.
 - Bu tarih ve döviz çifti için geçmiş kur yüklenemedi.
@@ -387,7 +387,7 @@ Android uygulamasında 30 günlük kur grafikleri, sabitlenmiş çiftler, çevri
 - Döviz Çevirici
 - Döviz kuru geçmişi grafiği
 - Döviz kuru geçmişi kontrolleri ve grafiği
-- Döviz Kuru Geçmişi ve Kur Grafiği | Balkan Converter
+- Döviz Kuru Geçmişi ve Kur Grafiği | BALCO Converter
 - Döviz kuru geçmişine atla
 - En az bir geçerli geçmiş kur gereklidir.
 - Geçerli bir geçmiş tarih seçin.
@@ -402,7 +402,7 @@ Android uygulamasında 30 günlük kur grafikleri, sabitlenmiş çiftler, çevri
 - Gelecekte olmayan geçerli bir tarih seçin.
 - Gizlilik
 - Gizlilik Politikası
-- Google Play'de Balkan Currency Converter'yi edinin
+- Google Play'de BALCO Converter'yi edinin
 - Google Play'den edinin
 - İki farklı para birimi seçin.
 - İsteğe bağlı
@@ -422,44 +422,44 @@ Android uygulamasında 30 günlük kur grafikleri, sabitlenmiş çiftler, çevri
 
 URL: `/tr/currency-converter-widget/`
 
-Title: Android için Döviz Dönüştürücü Widget'ı | Balkan Converter
+Title: Android için Döviz Dönüştürücü Widget'ı | BALCO Converter
 
 Meta description: Önbelleğe alınmış döviz kuruna, kur tarihine, takas işlemine ve uygulama kısayoluna hızlı erişim için Android ana ekranınıza bir para birimi dönüştürücü widget'ı ekleyin.
 
 ### Complete visible main content
 
 ```text
-Balkan Currency Converter'e geri dön
+BALCO Converter'e geri dön
 Android ana ekran kılavuzu
 Android için Para Birimi Dönüştürücü Widget'ı
-Kullanışlı bir döviz çiftini ana ekranınızda tutun. Balkan Converter widget'ı önbelleğe alınmış referans kuru ve veri tarihini gösterir, çifti uygulamada açar ve geniş düzende hızlı para birimi değişimini destekler.
+Kullanışlı bir döviz çiftini ana ekranınızda tutun. BALCO Converter widget'ı önbelleğe alınmış referans kuru ve veri tarihini gösterir, çifti uygulamada açar ve geniş düzende hızlı para birimi değişimini destekler.
 Widget nasıl eklenir?
-Normal bir Android ana ekranında gerçek Balkan Converter widget'ı.
+Normal bir Android ana ekranında gerçek BALCO Converter widget'ı.
 Dört hızlı adım
 Para birimi widget'ını ekleyin
 Başlatıcı etiketleri Android cihazına göre biraz farklılık gösterir ancak standart ana ekran akışı aynıdır.
 Bir çift hazırlayın
-Balkan Converter'ı açın, istediğiniz para birimlerini seçin ve en güncel referans kurların başarıyla yüklenmesini bekleyin.
+BALCO Converter'ı açın, istediğiniz para birimlerini seçin ve en güncel referans kurların başarıyla yüklenmesini bekleyin.
 Widget'ları Aç
 Android ana ekranının boş bir kısmına dokunup basılı tutun, ardından Widget'lar.
 Yerleştir
-Balkan Converter'yi bulun ve para birimi widget'ını ana ekranınızın boş bir alanına sürükleyin.
+BALCO Converter'yi bulun ve para birimi widget'ını ana ekranınızın boş bir alanına sürükleyin.
 Yeniden boyutlandırın ve kullanın
 Sığması için yeniden boyutlandırın. Döviz çiftini uygulamada açmak için karta dokunun; geniş widget'ta ayrıca bir değiştirme düğmesi bulunur.
 Widget'ın gösterdiği şey
 Kart, seçili döviz çiftinin referans kurunu, güncellik durumunu ve kur tarihini gösterir. Her widget uygulamada en son kullanılan çiftle başlar ve ardından kendi çiftini hatırlar.
-Widget'a dokunduğunuzda Balkan Converter bu para birimleri seçili olarak açılır. Orta genişlikteki widget'ta değiştirme düğmesi döviz çiftini doğrudan ana ekranda tersine çevirir.
+Widget'a dokunduğunuzda BALCO Converter bu para birimleri seçili olarak açılır. Orta genişlikteki widget'ta değiştirme düğmesi döviz çiftini doğrudan ana ekranda tersine çevirir.
 Tarih neden önemlidir?
-Widget, uygulamanın başarıyla önbelleğe aldığı en son kur veri kümesini kullanır; bağımsız bir canlı piyasa akışı değildir. Balkan Converter kurları başarıyla yenilediğinde yüklü widget'lar da güncel önbellek verilerini alır.
+Widget, uygulamanın başarıyla önbelleğe aldığı en son kur veri kümesini kullanır; bağımsız bir canlı piyasa akışı değildir. BALCO Converter kurları başarıyla yenilediğinde yüklü widget'lar da güncel önbellek verilerini alır.
 İnternet yokken son kayıtlı referans kur tahminler için kullanılabilir; tarih ise verilerin yaşını gösterir. Ayrıntılar için çevrimdışı kullanım rehberini okuyun.
 Küçük veya geniş düzen?
 Kompakt düzen, kur ve tarihi daha az alanda görünür tutar. Kurun yanında ayrı bir değiştirme düğmesi istiyorsanız widget'ı genişletin.
 Android başlatıcıları tam ızgara boyutunu kontrol eder, dolayısıyla mevcut yeniden boyutlandırma adımları telefonlar ve tabletler arasında farklılık gösterebilir.
 Birden fazla döviz çiftine hızlı erişim için
 Tutar girmek, para birimlerini dönüştürmek, kur geçmişini görüntülemek, birkaç para birimini karşılaştırmak veya kurları çevrimdışı kullanım için kaydetmek üzere uygulamayı açın.
-Widget hızlı bir bakış ve kısayol olarak tasarlanırken, Balkan Converter tam bir dönüştürme iş akışı sağlar.
+Widget hızlı bir bakış ve kısayol olarak tasarlanırken, BALCO Converter tam bir dönüştürme iş akışı sağlar.
 Bir bakışta dönüşüm
-Balkan Converter'yi ana ekranınıza ekleyin
+BALCO Converter'yi ana ekranınıza ekleyin
 Android uygulamasını yükleyin, istediğiniz döviz çiftini açın ve gerçek para birimi widget'ını kolayca erişebileceğiniz yere yerleştirin.
 ```
 
@@ -471,14 +471,14 @@ Android uygulamasını yükleyin, istediğiniz döviz çiftini açın ve gerçek
 
 URL: `/tr/foreign-transaction-fee-calculator/`
 
-Title: Yurt Dışı İşlem Ücreti ve DCC Hesaplayıcı | Balkan Converter
+Title: Yurt Dışı İşlem Ücreti ve DCC Hesaplayıcı | BALCO Converter
 
 Meta description: Yerel para biriminde ödemeyi kartın veya ATM'nin DCC teklifiyle karşılaştırın. Güncel referans kurları kullanarak yurt dışı işlem ücretini ve sabit ücretleri hesaba katın.
 
 ### Complete visible main content
 
 ```text
-Balkan Currency Converter'e geri dön
+BALCO Converter'e geri dön
 Kart ve ATM karşılaştırması
 Yurt Dışı İşlem Ücreti ve DCC Hesaplayıcı
 Yerel para biriminde ödeme yapmak mı yoksa sunulan dönüşümü kullanmak mı istiyorsunuz? Her iki seçeneği mevcut en güncel referans kura ve girdiğiniz ücretlere göre tahmin edin.
@@ -519,15 +519,15 @@ Yalnızca bir döviz teklifini referans kur sonucuyla karşılaştırmak istiyor
 Referans kur ve tarihi
 Referans kurlar tarafsız bir karşılaştırma noktası sağlar; garanti edilen işlem kuru değildir. Sonuç, Frankfurter referans kur API'sinin döndürdüğü piyasa tarihini gösterir.
 Telefonunuzda karşılaştırın
-Balkan Converter ile değişim tekliflerini kontrol edin
-Android için Balkan Converter, bir takas teklifini ve ücretlerini bir referans sonucuyla karşılaştırmak için Gerçek Maliyeti içerir.
+BALCO Converter ile değişim tekliflerini kontrol edin
+Android için BALCO Converter, bir takas teklifini ve ücretlerini bir referans sonucuyla karşılaştırmak için Gerçek Maliyeti içerir.
 ```
 
 ### Additional dynamic messages
 
 - {date} tarihli referans kurlar.
 - {date} tarihli referans kurlar. Kaynak: Frankfurter referans kur API'si.
-- © 2026 Balkan Currency Converter
+- © 2026 BALCO Converter
 - Açık temaya geç
 - Alt bilgide gezinme
 - Ana gezinme
@@ -536,7 +536,7 @@ Android için Balkan Converter, bir takas teklifini ve ücretlerini bir referans
 - Analitiği reddet
 - Analitik seçenekleri
 - Android için para birimi dönüştürme
-- Balkan Currency Converter ana sayfa
+- BALCO Converter ana sayfa
 - Bu değerlere dayanarak, önerilen dönüşümün maliyeti yaklaşık {difference} daha düşük olacaktır.
 - Bu değerlere göre her iki seçeneğin de tahmini maliyeti aynıdır.
 - Bu değerlere göre, yerel para biriminde ödeme yapmak yaklaşık {difference} daha az maliyetli olacaktır.
@@ -550,7 +550,7 @@ Android için Balkan Converter, bir takas teklifini ve ücretlerini bir referans
 - En son kurlar yükleniyor…
 - Gizlilik
 - Gizlilik Politikası
-- Google Play'de Balkan Currency Converter'yi edinin
+- Google Play'de BALCO Converter'yi edinin
 - Google Play'den edinin
 - Hedef
 - Her iki ödeme seçeneğini karşılaştırmak için isteğe bağlı DCC teklif toplamını ekleyin.
@@ -582,20 +582,20 @@ Android için Balkan Converter, bir takas teklifini ve ücretlerini bir referans
 - Yerel para biriminde ödemeyi kartın veya ATM'nin DCC teklifiyle karşılaştırın. Güncel referans kurları kullanarak yurt dışı işlem ücretini ve sabit ücretleri hesaba katın.
 - Yerel para birimindeki bir kartı veya ATM işlemini teklif edilen bir dönüşümle karşılaştırın.
 - Yerel para birimindeki kart maliyetlerini tahmin edin ve isteğe bağlı DCC fiyat teklifini karşılaştırın.
-- Yurt Dışı İşlem Ücreti ve DCC Hesaplayıcı | Balkan Converter
+- Yurt Dışı İşlem Ücreti ve DCC Hesaplayıcı | BALCO Converter
 
 ## Seyahat Bütçesi Hesaplayıcı
 
 URL: `/tr/travel-budget-calculator/`
 
-Title: İki Para Biriminde Seyahat Bütçesi Hesaplayıcı | Balkan Converter
+Title: İki Para Biriminde Seyahat Bütçesi Hesaplayıcı | BALCO Converter
 
 Meta description: Seyahat bütçesini gün ve kategori bazında tahmin edin, sabit maliyetlerle bir güvenlik payı ekleyin ve toplamı güncel referans kurlarla dönüştürün.
 
 ### Complete visible main content
 
 ```text
-Balkan Currency Converter'e geri dön
+BALCO Converter'e geri dön
 Ücretsiz gezi planlama aracı
 Seyahat Bütçesi Hesaplayıcı
 Seyahatinizin maliyetini iki para birimi cinsinden tahmin edin. Günlük giderleri, sabit maliyetleri ve isteğe bağlı güvenlik payını ekleyin; hesap gerekmez.
@@ -635,14 +635,14 @@ Neler dahil edilmeli?
 Konaklama, yemek, şehir içi ulaşım ve etkinlikler günlük tutarlardır. Uçuş, tren bileti veya diğer tek seferlik giderleri sabit seyahat maliyetlerine ekleyin.
 Seyahatiniz için para birimleri
 İhtiyacınız olan para birimlerini bir arada tutun
-Android için Balkan Converter, kullanışlı seyahat para birimlerini elinizin altında tutmak için Seyahat Panosu ve Kayıtlı Setleri içerir.
+Android için BALCO Converter, kullanışlı seyahat para birimlerini elinizin altında tutmak için Seyahat Panosu ve Kayıtlı Setleri içerir.
 ```
 
 ### Additional dynamic messages
 
 - {date} tarihli referans kurlar.
 - {date} tarihli referans kurlar. Kaynak: Frankfurter referans kur API'si.
-- © 2026 Balkan Currency Converter
+- © 2026 BALCO Converter
 - Açık temaya geç
 - Alt bilgide gezinme
 - Ana gezinme
@@ -651,7 +651,7 @@ Android için Balkan Converter, kullanışlı seyahat para birimlerini elinizin 
 - Analitiği reddet
 - Analitik seçenekleri
 - Android için para birimi dönüştürme
-- Balkan Currency Converter ana sayfa
+- BALCO Converter ana sayfa
 - Beklenmeyen gider payı yüzdesi
 - Birden fazla günlük seyahat bütçesini kategorilere göre hedef ve kendi para biriminizde tahmin edin.
 - Bu döviz çifti için referans kur mevcut değil.
@@ -667,13 +667,13 @@ Android için Balkan Converter, kullanışlı seyahat para birimlerini elinizin 
 - Frankfurter referans kur API'si
 - Gizlilik
 - Gizlilik Politikası
-- Google Play'de Balkan Currency Converter'yi edinin
+- Google Play'de BALCO Converter'yi edinin
 - Google Play'den edinin
 - Günlük seyahat giderlerini, sabit maliyetleri ve güvenlik payını iki para biriminde tahmin edin.
 - Her alana geçerli sayıları girin.
 - Hesap makinesine atla
 - İki farklı para birimi seçin.
-- İki Para Biriminde Seyahat Bütçesi Hesaplayıcı | Balkan Converter
+- İki Para Biriminde Seyahat Bütçesi Hesaplayıcı | BALCO Converter
 - İsteğe bağlı analiz
 - Kaynak
 - Koyu temaya geç

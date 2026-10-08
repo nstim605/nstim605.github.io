@@ -18,7 +18,7 @@ Meta description: Converta um valor entre duas moedas com as taxas de referênci
 ### Complete visible main content
 
 ```text
-Voltar para Balkan Currency Converter
+Voltar para BALCO Converter
 Ferramenta gratuita de câmbio
 Conversor de moedas
 Converta um valor entre duas moedas e veja a taxa de referência mais recente, sua data e a fonte dos dados.
@@ -40,18 +40,18 @@ A data exibida informa qual dia de mercado os dados de referência representam.
 Precisa de uma visão diferente?
 Veja como um par de moedas variou no histórico de taxas, compare um valor em várias moedas com o conversor de várias moedas, avalie uma oferta de câmbio com a calculadora de diferença cambial ou compare custos de cartão, saque e DCC com a calculadora de tarifas e DCC.
 Mais ferramentas no Android
-Converter com Balkan Converter
+Converter com BALCO Converter
 O aplicativo Android também oferece calculadora, taxas offline, Travel Board, Custo real, conjuntos salvos, histórico, gráficos e um widget para a tela inicial.
 ```
 
 ### Additional dynamic messages
 
-- © 2026 Balkan Currency Converter
+- © 2026 BALCO Converter
 - Aceitar análises
 - Ajude-nos a entender o uso do site. Firebase Analytics permanece desligado a menos que você aceite.
 - Análise opcional
 - Baixe no Google Play
-- Baixe o Balkan Currency Converter no Google Play
+- Baixe o BALCO Converter no Google Play
 - Buscando as taxas de referência mais recentes…
 - Calculadora de diferença cambial
 - Carregando as taxas mais recentes…
@@ -76,7 +76,7 @@ O aplicativo Android também oferece calculadora, taxas offline, Travel Board, C
 - Opcional
 - Opções de análise
 - Página inicial
-- Página inicial do Balkan Currency Converter
+- Página inicial do BALCO Converter
 - Política de privacidade
 - Privacidade
 - Pular para o conversor
@@ -88,14 +88,14 @@ O aplicativo Android também oferece calculadora, taxas offline, Travel Board, C
 
 URL: `/pt-br/exchange-rate-markup-calculator/`
 
-Title: Calculadora de diferença cambial | Balkan Currency Converter
+Title: Calculadora de diferença cambial | BALCO Converter
 
 Meta description: Compare uma oferta de câmbio com a taxa de referência mais recente. Calcule o valor recebido, a diferença e o desvio percentual em relação ao resultado de referência.
 
 ### Complete visible main content
 
 ```text
-Voltar para Balkan Currency Converter
+Voltar para BALCO Converter
 Ferramenta gratuita de câmbio
 Calculadora de diferença cambial
 Compare o valor oferecido por um serviço de câmbio com a taxa de referência mais recente. Veja a diferença e o desvio percentual antes de trocar moeda.
@@ -124,13 +124,13 @@ Importante saber
 Esta é uma comparação informativa, não um conselho financeiro. Uma oferta pode incluir taxas de serviço, cobranças de cartão, manuseio de dinheiro ou spread do provedor. As taxas de referência não são taxas de transação garantidas.
 Quer comparar uma compra no cartão ou um saque com uma conversão oferecida na moeda do cartão? Use a calculadora de tarifas e DCC. Para converter rapidamente um par de moedas, abra o conversor de moedas. Para comparar um valor em várias moedas, use o conversor de várias moedas; o guia de conversão offline explica como funcionam as taxas salvas.
 Precisa disso em qualquer lugar?
-Compare custos em Balkan Converter
+Compare custos em BALCO Converter
 O aplicativo Android também oferece Custo real, taxas offline, Travel Board, conjuntos salvos, gráficos e um widget para a tela inicial.
 ```
 
 ### Additional dynamic messages
 
-- © 2026 Balkan Currency Converter
+- © 2026 BALCO Converter
 - A oferta está {percentage} abaixo do resultado de referência.
 - A oferta está {percentage} acima do resultado de referência.
 - Aceitar análises
@@ -138,9 +138,9 @@ O aplicativo Android também oferece Custo real, taxas offline, Travel Board, co
 - Ajude-nos a entender o uso do site. Firebase Analytics permanece desligado a menos que você aceite.
 - Análise opcional
 - Baixe no Google Play
-- Baixe o Balkan Currency Converter no Google Play
+- Baixe o BALCO Converter no Google Play
 - Buscando as taxas de referência mais recentes…
-- Calculadora de diferença cambial | Balkan Currency Converter
+- Calculadora de diferença cambial | BALCO Converter
 - Cálculo atualizado a partir das últimas taxas de referência disponíveis.
 - Carregando as taxas mais recentes…
 - Compare uma oferta de câmbio com a taxa de referência mais recente e calcule a diferença percentual.
@@ -163,7 +163,7 @@ O aplicativo Android também oferece Custo real, taxas offline, Travel Board, co
 - Os dados da taxa de referência estão incompletos.
 - Os valores e taxas devem ser números positivos.
 - Página inicial
-- Página inicial do Balkan Currency Converter
+- Página inicial do BALCO Converter
 - Política de privacidade
 - Por exemplo, 11.500
 - Privacidade
@@ -181,12 +181,12 @@ URL: `/pt-br/multi-currency-converter/`
 
 Title: Conversor de múltiplas moedas | Converter um valor em várias moedas
 
-Meta description: Converta um valor em várias moedas de uma só vez com as taxas de referência mais recentes disponíveis. Um conversor gratuito de várias moedas do Balkan Converter.
+Meta description: Converta um valor em várias moedas de uma só vez com as taxas de referência mais recentes disponíveis. Um conversor gratuito de várias moedas do BALCO Converter.
 
 ### Complete visible main content
 
 ```text
-Voltar para Balkan Currency Converter
+Voltar para BALCO Converter
 Ferramenta gratuita de câmbio
 Conversor multimoeda
 Insira um valor e compare seu valor em diversas moedas ao mesmo tempo usando as últimas taxas de referência disponíveis.
@@ -203,19 +203,19 @@ As taxas são valores de referência e podem diferir da taxa oferecida por um ba
 Escolha a visualização correta
 Para um único par de moedas, use o conversor de moedas. Veja as variações no histórico de taxas, avalie uma oferta com a calculadora de diferença cambial ou entenda como a conversão sem internet funciona no guia de conversão offline.
 Mais moedas durante a viagem
-Use o Travel Board em Balkan Converter
+Use o Travel Board em BALCO Converter
 O aplicativo Android reúne várias moedas da viagem, permite reordená-las e prepara taxas para uso offline.
 ```
 
 ### Additional dynamic messages
 
-- © 2026 Balkan Currency Converter
+- © 2026 BALCO Converter
 - Aceitar análises
 - Ajude-nos a entender o uso do site. Firebase Analytics permanece desligado a menos que você aceite.
 - Análise opcional
 - As moedas de destino devem ser diferentes da moeda base.
 - Baixe no Google Play
-- Baixe o Balkan Currency Converter no Google Play
+- Baixe o BALCO Converter no Google Play
 - Buscando as taxas de referência mais recentes…
 - Cada moeda de destino precisa de uma taxa válida.
 - Calculadora de diferença cambial
@@ -226,7 +226,7 @@ O aplicativo Android reúne várias moedas da viagem, permite reordená-las e pr
 - Conversor de múltiplas moedas | Converter um valor em várias moedas
 - Converta um valor em diversas moedas usando as taxas de referência mais recentes disponíveis.
 - Converta um valor em várias moedas ao mesmo tempo.
-- Converta um valor em várias moedas de uma só vez com as taxas de referência mais recentes disponíveis. Um conversor gratuito de várias moedas do Balkan Converter.
+- Converta um valor em várias moedas de uma só vez com as taxas de referência mais recentes disponíveis. Um conversor gratuito de várias moedas do BALCO Converter.
 - Data
 - Escolha cada moeda de destino apenas uma vez.
 - Escolha pelo menos uma moeda de destino.
@@ -244,7 +244,7 @@ O aplicativo Android reúne várias moedas da viagem, permite reordená-las e pr
 - Opcional
 - Opções de análise
 - Página inicial
-- Página inicial do Balkan Currency Converter
+- Página inicial do BALCO Converter
 - Política de privacidade
 - Privacidade
 - Pular para o conversor
@@ -267,7 +267,7 @@ Meta description: Saiba como um conversor de moedas offline usa taxas de câmbio
 ### Complete visible main content
 
 ```text
-Voltar para Balkan Currency Converter
+Voltar para BALCO Converter
 Guia de taxas de câmbio offline
 Conversor de moedas offline: como funcionam as taxas salvas
 Um conversor pode continuar funcionando sem internet usando as taxas de câmbio mais recentes salvas com sucesso em seu dispositivo. Essas taxas são dados de referência úteis, mas permanecem vinculadas à data original até que o aplicativo possa atualizá-las online.
@@ -284,7 +284,7 @@ O que significa uma taxa salva offline
 Os dados salvos são um instantâneo da resposta bem-sucedida mais recente da taxa de referência. Ele pode calcular conversões sem conexão de rede, mas os números não são atualizados enquanto o dispositivo está offline.
 Verifique sempre a data da taxa exibida. Um resultado baseado nas taxas de ontem ainda pode ser útil para o planejamento, mas não é uma promessa da taxa que um banco, operadora de cartão ou casa de câmbio oferecerá hoje.
 O que acontece quando a internet retorna?
-O Balkan Converter usa um único cache local de taxas para conversões comuns e para preparar um Conjunto salvo. Uma atualização online bem-sucedida substitui os dados anteriores e atualiza a data das taxas e o horário em que foram salvos.
+O BALCO Converter usa um único cache local de taxas para conversões comuns e para preparar um Conjunto salvo. Uma atualização online bem-sucedida substitui os dados anteriores e atualiza a data das taxas e o horário em que foram salvos.
 Se a atualização falhar, o aplicativo continua usando as taxas anteriores em cache, em vez de excluí-las.
 Prepare um conjunto salvo para uso offline
 No aplicativo Android, crie ou abra um Conjunto salvo para as moedas que você precisa. Enquanto estiver conectado, escolha Salvar taxas offline. O aplicativo atualiza o conjunto de dados de taxas compartilhadas e confirma a prontidão quando o cache salvo contém todas as moedas desse conjunto.
@@ -293,7 +293,7 @@ Não existe um arquivo separado com taxas congeladas para cada viagem. Preparar 
 A conversão offline pode ajudar durante uma conexão ruim, interrupção de roaming, interrupção temporária do serviço ou qualquer situação em que uma estimativa de referência rápida seja mais útil do que nenhum resultado.
 Para consultar rapidamente um par de moedas salvo, use o guia do widget para Android. Para converter com internet, abra o conversor de moedas, compare um valor em várias moedas com o conversor de várias moedas ou avalie uma oferta com a calculadora de diferença cambial.
 Mantenha uma referência datada à mão
-Use taxas salvas em Balkan Converter
+Use taxas salvas em BALCO Converter
 Sem conexão, o aplicativo Android pode reutilizar o último cache de taxas salvo com sucesso e identifica claramente os dados em cache e a data das taxas.
 ```
 
@@ -305,14 +305,14 @@ Sem conexão, o aplicativo Android pode reutilizar o último cache de taxas salv
 
 URL: `/pt-br/exchange-rate-history/`
 
-Title: Histórico de taxas de câmbio e gráfico de moedas | Balkan Converter
+Title: Histórico de taxas de câmbio e gráfico de moedas | BALCO Converter
 
 Meta description: Veja o histórico da taxa de câmbio de 30 dias, 90 dias ou um ano, acompanhe o gráfico de um par de moedas e consulte a taxa de referência de uma data específica.
 
 ### Complete visible main content
 
 ```text
-Voltar para Balkan Currency Converter
+Voltar para BALCO Converter
 Ferramenta de taxa de referência histórica
 Histórico da taxa de câmbio e gráfico de moeda
 Veja como um par de moedas variou em 30 dias, 90 dias ou um ano e consulte a taxa de referência de uma data específica.
@@ -351,7 +351,7 @@ Datas e tendências
 Use o gráfico para ver a direção e a variação, não para prever o próximo movimento. Alguns provedores não publicam todos os dias do calendário. Se a API retornar dados de outra data disponível, a pesquisa informará essa data real dos dados em vez de apresentá-la como o dia selecionado.
 Para converter com a taxa mais recente disponível, use o conversor de moedas. Para comparar uma oferta de câmbio com o resultado de referência, abra a calculadora de diferença cambial.
 Mantenha pares úteis por perto
-Visualizar gráficos em Balkan Converter
+Visualizar gráficos em BALCO Converter
 O aplicativo Android inclui gráficos de taxas de 30 dias, pares fixados, taxas de referência offline e outras ferramentas monetárias.
 ```
 
@@ -359,13 +359,13 @@ O aplicativo Android inclui gráficos de taxas de 30 dias, pares fixados, taxas 
 
 - {base}/{quote} histórico da taxa de câmbio
 - {count} taxas de referência datadas carregadas.
-- © 2026 Balkan Currency Converter
+- © 2026 BALCO Converter
 - A API retornou dados de referência datados de {date}.
 - Aceitar análises
 - Ajude-nos a entender o uso do site. Firebase Analytics permanece desligado a menos que você aceite.
 - Análise opcional
 - Baixe no Google Play
-- Baixe o Balkan Currency Converter no Google Play
+- Baixe o BALCO Converter no Google Play
 - Buscando a taxa de referência histórica…
 - Buscando taxas de referência históricas…
 - Carregando histórico…
@@ -379,7 +379,7 @@ O aplicativo Android inclui gráficos de taxas de 30 dias, pares fixados, taxas 
 - Faça um gráfico das taxas de referência históricas e procure uma taxa de câmbio por data.
 - Gráfico histórico da taxa de câmbio
 - Histórico de taxa de referência de {base} para {quote} de {from} para {to}. Mínimo {minimum}, máximo {maximum}.
-- Histórico de taxas de câmbio e gráfico de moedas | Balkan Converter
+- Histórico de taxas de câmbio e gráfico de moedas | BALCO Converter
 - Mudar para tema claro
 - Mudar para tema escuro
 - Mudar tema de cor
@@ -392,7 +392,7 @@ O aplicativo Android inclui gráficos de taxas de 30 dias, pares fixados, taxas 
 - Opcional
 - Opções de análise
 - Página inicial
-- Página inicial do Balkan Currency Converter
+- Página inicial do BALCO Converter
 - Política de privacidade
 - Privacidade
 - Procurando taxa…
@@ -412,44 +412,44 @@ O aplicativo Android inclui gráficos de taxas de 30 dias, pares fixados, taxas 
 
 URL: `/pt-br/currency-converter-widget/`
 
-Title: Widget de conversor de moeda para Android | Balkan Converter
+Title: Widget de conversor de moeda para Android | BALCO Converter
 
 Meta description: Adicione um widget de conversão de moedas à tela inicial do Android para acessar rapidamente uma taxa em cache, a data da taxa, o botão de inversão e o atalho do aplicativo.
 
 ### Complete visible main content
 
 ```text
-Voltar para Balkan Currency Converter
+Voltar para BALCO Converter
 Guia da tela inicial do Android
 Widget de conversão de moeda para Android
-Mantenha um par de moedas útil na tela inicial. O widget do Balkan Converter mostra a taxa de referência salva e a data dos dados, abre esse par no aplicativo e permite inverter as moedas rapidamente no layout mais largo.
+Mantenha um par de moedas útil na tela inicial. O widget do BALCO Converter mostra a taxa de referência salva e a data dos dados, abre esse par no aplicativo e permite inverter as moedas rapidamente no layout mais largo.
 Como adicionar o widget
-O widget Balkan Converter de produção em uma tela inicial Android normal.
+O widget BALCO Converter de produção em uma tela inicial Android normal.
 Quatro etapas rápidas
 Adicione o widget de moeda
 Os rótulos do iniciador variam ligeiramente de acordo com o dispositivo Android, mas o fluxo padrão da tela inicial é o mesmo.
 Prepare um par
-Abra Balkan Converter, selecione as moedas desejadas e deixe as taxas de referência mais recentes serem carregadas com sucesso.
+Abra BALCO Converter, selecione as moedas desejadas e deixe as taxas de referência mais recentes serem carregadas com sucesso.
 Abrir widgets
 Toque e segure uma parte vazia da tela inicial do Android e escolha Widgets.
 Coloque-o
-Encontre Balkan Converter e arraste o widget de moeda para uma área livre da tela inicial.
+Encontre BALCO Converter e arraste o widget de moeda para uma área livre da tela inicial.
 Redimensionar e usar
 Redimensione-o para caber. Toque no cartão para abrir esse par no aplicativo; o widget mais amplo também mostra um botão de troca.
 O que o widget mostra
 O cartão exibe a taxa de referência do par selecionado, um indicador de atualização e a data da taxa. Cada widget começa com o par usado mais recentemente no aplicativo e depois memoriza seu próprio par.
-Tocar no widget abre Balkan Converter com essas moedas prontas. Em um widget de largura média, o controle de troca inverte o par diretamente na tela inicial.
+Tocar no widget abre BALCO Converter com essas moedas prontas. Em um widget de largura média, o controle de troca inverte o par diretamente na tela inicial.
 Por que a data é importante
-O widget usa o conjunto de taxas mais recente salvo com sucesso pelo aplicativo; ele não é uma fonte independente de dados de mercado em tempo real. Quando o Balkan Converter atualiza as taxas, os widgets instalados recebem os novos dados em cache.
+O widget usa o conjunto de taxas mais recente salvo com sucesso pelo aplicativo; ele não é uma fonte independente de dados de mercado em tempo real. Quando o BALCO Converter atualiza as taxas, os widgets instalados recebem os novos dados em cache.
 Sem internet, a última taxa de referência salva continua disponível para estimativas; a data mostra a idade dos dados. Saiba mais no guia de conversão offline.
 Layout pequeno ou amplo?
 O layout compacto mantém a taxa e a data visíveis em menos espaço. Deixe o widget mais largo para exibir o botão de inversão ao lado da taxa.
 O launcher do Android controla o tamanho exato da grade, por isso as opções de redimensionamento podem variar entre celulares e tablets.
 Para mais de um par rápido
 Abra o aplicativo para inserir um valor, converter moedas, consultar o histórico de taxas, comparar várias moedas ou preparar taxas salvas para uso offline.
-O widget foi projetado como uma visão rápida e um atalho, enquanto Balkan Converter fornece o fluxo de trabalho de conversão completo.
+O widget foi projetado como uma visão rápida e um atalho, enquanto BALCO Converter fornece o fluxo de trabalho de conversão completo.
 Resumo da conversão
-Adicione Balkan Converter à sua tela inicial
+Adicione BALCO Converter à sua tela inicial
 Instale o aplicativo Android, carregue seu par preferido e coloque o widget de moeda de produção onde for mais fácil de alcançar.
 ```
 
@@ -461,14 +461,14 @@ Instale o aplicativo Android, carregue seu par preferido e coloque o widget de m
 
 URL: `/pt-br/foreign-transaction-fee-calculator/`
 
-Title: Calculadora de tarifas internacionais e DCC | Balkan Converter
+Title: Calculadora de tarifas internacionais e DCC | BALCO Converter
 
 Meta description: Compare o pagamento em moeda local com uma cotação DCC do estabelecimento ou caixa eletrônico. Inclua tarifas internacionais e fixas usando as taxas de referência atuais.
 
 ### Complete visible main content
 
 ```text
-Voltar para Balkan Currency Converter
+Voltar para BALCO Converter
 Comparação de cartão e saque
 Calculadora de tarifas internacionais e DCC
 Pagar em moeda local ou usar a conversão oferecida? Estime as duas opções com a taxa de referência mais recente e as tarifas informadas.
@@ -509,13 +509,13 @@ Se você só quer comparar uma oferta de câmbio com o resultado de referência,
 Taxa de referência e data
 As taxas de referência fornecem um ponto de comparação neutro, não uma taxa de transação garantida. O resultado mostra a data de mercado retornada pela API de taxa de referência Frankfurter.
 Compare no seu telefone
-Compare ofertas de câmbio no Balkan Converter
-O Balkan Converter para Android inclui o recurso Custo real, que compara uma oferta de câmbio e suas tarifas com um resultado de referência.
+Compare ofertas de câmbio no BALCO Converter
+O BALCO Converter para Android inclui o recurso Custo real, que compara uma oferta de câmbio e suas tarifas com um resultado de referência.
 ```
 
 ### Additional dynamic messages
 
-- © 2026 Balkan Currency Converter
+- © 2026 BALCO Converter
 - A cotação DCC deve ser maior que zero.
 - Aceitar análises
 - Adicione o total opcional cotado em DCC para comparar as duas formas de pagamento.
@@ -523,10 +523,10 @@ O Balkan Converter para Android inclui o recurso Custo real, que compara uma ofe
 - Análise opcional
 - As tarifas não podem ser negativas.
 - Baixe no Google Play
-- Baixe o Balkan Currency Converter no Google Play
+- Baixe o BALCO Converter no Google Play
 - Buscando as taxas de referência mais recentes…
 - Calculadora de diferença cambial
-- Calculadora de tarifas internacionais e DCC | Balkan Converter
+- Calculadora de tarifas internacionais e DCC | BALCO Converter
 - Carregando as taxas mais recentes…
 - Com base nesses valores, a conversão oferecida custaria cerca de {difference} menos.
 - Com base nesses valores, ambas as opções têm o mesmo custo estimado.
@@ -556,7 +556,7 @@ O Balkan Converter para Android inclui o recurso Custo real, que compara uma ofe
 - O valor e as taxas devem ser números positivos.
 - Opções de análise
 - Página inicial
-- Página inicial do Balkan Currency Converter
+- Página inicial do BALCO Converter
 - Percentual da tarifa por transação internacional
 - Política de privacidade
 - Por exemplo, 90
@@ -574,14 +574,14 @@ O Balkan Converter para Android inclui o recurso Custo real, que compara uma ofe
 
 URL: `/pt-br/travel-budget-calculator/`
 
-Title: Calculadora de orçamento de viagem em duas moedas | Balkan Converter
+Title: Calculadora de orçamento de viagem em duas moedas | BALCO Converter
 
 Meta description: Estime um orçamento de viagem por dia e categoria, adicione custos fixos e uma reserva e converta o total com as taxas de referência atuais.
 
 ### Complete visible main content
 
 ```text
-Voltar para Balkan Currency Converter
+Voltar para BALCO Converter
 Ferramenta gratuita de planejamento de viagem
 Calculadora de orçamento de viagem
 Estime o custo da sua viagem em duas moedas. Adicione despesas diárias, custos fixos e uma reserva opcional — sem precisar criar uma conta.
@@ -621,21 +621,21 @@ O que incluir
 Hospedagem, alimentação, transporte local e atividades são valores diários. Adicione voos, passes de trem ou outras despesas únicas aos custos fixos da viagem.
 Moedas para sua viagem
 Mantenha as moedas que você precisa juntas
-Balkan Converter para Android inclui Travel Board e Saved Sets para manter moedas úteis de viagem à mão.
+BALCO Converter para Android inclui Travel Board e Saved Sets para manter moedas úteis de viagem à mão.
 ```
 
 ### Additional dynamic messages
 
-- © 2026 Balkan Currency Converter
+- © 2026 BALCO Converter
 - Aceitar análises
 - Ajude-nos a entender o uso do site. Firebase Analytics permanece desligado a menos que você aceite.
 - Análise opcional
 - API de taxa de referência Frankfurter
 - As taxas de referência devem ser positivas.
 - Baixe no Google Play
-- Baixe o Balkan Currency Converter no Google Play
+- Baixe o BALCO Converter no Google Play
 - Buscando as taxas de referência mais recentes…
-- Calculadora de orçamento de viagem em duas moedas | Balkan Converter
+- Calculadora de orçamento de viagem em duas moedas | BALCO Converter
 - Carregando as taxas mais recentes…
 - Conversão de moedas para Android
 - Conversor de moedas
@@ -663,7 +663,7 @@ Balkan Converter para Android inclui Travel Board e Saved Sets para manter moeda
 - Os dias de viagem devem ser um número inteiro maior que zero.
 - Os valores do orçamento e a reserva não podem ser negativos.
 - Página inicial
-- Página inicial do Balkan Currency Converter
+- Página inicial do BALCO Converter
 - Para
 - Percentual da reserva para imprevistos
 - Planeje uma estimativa do orçamento da viagem nas moedas de destino e de origem.

@@ -355,9 +355,9 @@ test('publication manifest has exactly 107 current, scoped entries', async () =>
       assert.equal(title, before[0].toLocaleUpperCase(locale) + before.slice(1));
       let approved = original.toString('utf8');
       for (const slot of [
-        `<title>${before} — Balkan Currency Converter</title>`,
+        `<title>${before} — BALCO Converter</title>`,
         `<meta name="description" content="${before}">`,
-        `<meta property="og:title" content="${before} — Balkan Currency Converter">`,
+        `<meta property="og:title" content="${before} — BALCO Converter">`,
         `<h1>${before}</h1>`, `<nav aria-label="${before}">`
       ]) {
         assert.equal(approved.split(slot).length - 1, 1, `exact standalone slot:${file}`);

@@ -361,7 +361,7 @@ export function assessCandidateValue(candidate) {
     score -= 2;
     reasons.push('standalone value is too low: specialized forward-looking wage indicator');
   }
-  if (score < 3 && reasons.length === 0) reasons.push('standalone value is too low for Balkan Converter users');
+  if (score < 3 && reasons.length === 0) reasons.push('standalone value is too low for BALCO Converter users');
   return { ok: score >= 3, score, eventType, numericalFacts: [...numericalFacts], reasons };
 }
 

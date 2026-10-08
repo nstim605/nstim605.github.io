@@ -29,7 +29,7 @@ Meta description: Rechnen Sie einen Betrag mit den neuesten verfügbaren Referen
 ### Vollständiger sichtbarer Hauptinhalt
 
 ```text
-Zurück zu Balkan Currency Converter
+Zurück zu BALCO Converter
 Kostenloses Währungstool
 Währungsrechner
 Rechnen Sie einen Betrag von einer Währung in eine andere um und sehen Sie den neuesten verfügbaren Referenzkurs, das Kursdatum und die Datenquelle.
@@ -51,19 +51,19 @@ Das angezeigte Datum verrät Ihnen, welchen Markttag die Referenzdaten repräsen
 Suchen Sie eine andere Ansicht?
 Verfolgen Sie die Entwicklung eines Währungspaars im Wechselkursverlauf; vergleichen Sie einen Betrag in mehreren Währungen mit dem Mehrwährungsrechner; prüfen Sie ein Umtauschangebot mit dem Rechner für Wechselkursabweichungen; oder vergleichen Sie Kartenzahlung, Bargeldabhebung und DCC im Fremdwährungsgebühren- und DCC-Rechner.
 Weitere Tools auf Android
-Mit Balkan Converter umrechnen
+Mit BALCO Converter umrechnen
 Die Android-App bietet zusätzlich einen Rechner, Offline-Kurse, die Reisetafel, die Funktion „Tatsächliche Kosten“, gespeicherte Sets, Verlauf, Diagramme und ein Startbildschirm-Widget.
 ```
 
 ### Weitere dynamische Meldungen
 
-- © 2026 Balkan Currency Converter
+- © 2026 BALCO Converter
 - Abweichungsrechner
 - Analyse ablehnen
 - Analyse zulassen
 - Analyse-Einstellungen
-- Balkan Currency Converter bei Google Play herunterladen
-- Balkan Currency Converter Startseite
+- BALCO Converter bei Google Play herunterladen
+- BALCO Converter Startseite
 - Bei Google Play herunterladen
 - Betrag und Kurse müssen positive Zahlen sein.
 - Datenschutz
@@ -98,14 +98,14 @@ Die Android-App bietet zusätzlich einen Rechner, Offline-Kurse, die Reisetafel,
 
 URL: `/de/exchange-rate-markup-calculator/`
 
-Title: Wechselkursabweichung berechnen | Balkan Currency Converter
+Title: Wechselkursabweichung berechnen | BALCO Converter
 
 Meta description: Vergleichen Sie ein Umtauschangebot mit dem neuesten Referenzkurs. Sehen Sie den angebotenen Betrag, die absolute Differenz und die prozentuale Abweichung vom Referenzergebnis.
 
 ### Vollständiger sichtbarer Hauptinhalt
 
 ```text
-Zurück zu Balkan Currency Converter
+Zurück zu BALCO Converter
 Kostenloses Währungstool
 Kursabweichung berechnen
 Vergleichen Sie den angebotenen Betrag eines Wechselanbieters mit dem neuesten verfügbaren Referenzkurs. Prüfen Sie vor dem Umtausch die Differenz und die prozentuale Abweichung.
@@ -134,19 +134,19 @@ Wichtig zu wissen
 Dies ist ein unverbindlicher Vergleich und keine Finanzberatung. Ein Angebot kann Service- oder Kartengebühren, Kosten für die Bargeldauszahlung oder eine Kursmarge enthalten. Referenzkurse sind keine garantierten Transaktionskurse.
 Möchten Sie eine Kartenzahlung oder Bargeldabhebung mit einem Angebot zur Umrechnung in die Kartenwährung vergleichen? Nutzen Sie den Fremdwährungsgebühren- und DCC-Rechner. Für die schnelle Umrechnung eines Währungspaars öffnen Sie den Währungsrechner. Einen Betrag in mehreren Währungen vergleichen Sie mit dem Mehrwährungsrechner; wie gespeicherte Kurse funktionieren, erklärt der Leitfaden zur Offline-Umrechnung.
 Brauchen Sie das für unterwegs?
-Vergleichen Sie die Kosten in Balkan Converter
+Vergleichen Sie die Kosten in BALCO Converter
 Die Android-App bietet zusätzlich die Funktion „Tatsächliche Kosten“, Offline-Kurse, die Reisetafel, gespeicherte Sets, Diagramme und ein Startbildschirm-Widget.
 ```
 
 ### Weitere dynamische Meldungen
 
-- © 2026 Balkan Currency Converter
+- © 2026 BALCO Converter
 - Abweichungsrechner
 - Analyse ablehnen
 - Analyse zulassen
 - Analyse-Einstellungen
-- Balkan Currency Converter bei Google Play herunterladen
-- Balkan Currency Converter Startseite
+- BALCO Converter bei Google Play herunterladen
+- BALCO Converter Startseite
 - Bei Google Play herunterladen
 - Beträge und Kurse müssen positive Zahlen sein.
 - Das Angebot liegt {percentage} über dem Referenzergebnis.
@@ -181,7 +181,7 @@ Die Android-App bietet zusätzlich die Funktion „Tatsächliche Kosten“, Offl
 - Vergleichen Sie ein Umtauschangebot mit dem neuesten Referenzkurs. Sehen Sie den angebotenen Betrag, die absolute Differenz und die prozentuale Abweichung vom Referenzergebnis.
 - Wählen Sie zwei verschiedene Währungen.
 - Währungsumrechnung für Android
-- Wechselkursabweichung berechnen | Balkan Currency Converter
+- Wechselkursabweichung berechnen | BALCO Converter
 - Zum Beispiel 11 500
 - Zum Rechner
 
@@ -191,12 +191,12 @@ URL: `/de/multi-currency-converter/`
 
 Title: Mehrwährungsrechner | Einen Betrag in mehrere Währungen umrechnen
 
-Meta description: Rechnen Sie einen Betrag mit den neuesten verfügbaren Referenzkursen gleichzeitig in mehrere Währungen um. Kostenlos mit dem Mehrwährungsrechner von Balkan Converter.
+Meta description: Rechnen Sie einen Betrag mit den neuesten verfügbaren Referenzkursen gleichzeitig in mehrere Währungen um. Kostenlos mit dem Mehrwährungsrechner von BALCO Converter.
 
 ### Vollständiger sichtbarer Hauptinhalt
 
 ```text
-Zurück zu Balkan Currency Converter
+Zurück zu BALCO Converter
 Kostenloses Währungstool
 Ein Betrag. Mehrere Währungen.
 Geben Sie einen Betrag ein und vergleichen Sie dessen Wert in mehreren Währungen gleichzeitig mit den neuesten verfügbaren Referenzkursen.
@@ -213,19 +213,19 @@ Die Kurse sind Referenzwerte und können vom Kurs einer Bank, eines Kartenanbiet
 Passendes Werkzeug wählen
 Für ein einzelnes Währungspaar nutzen Sie den Währungsrechner. Die Kursentwicklung sehen Sie im Wechselkursverlauf; ein Umtauschangebot prüfen Sie mit dem Rechner für Wechselkursabweichungen; und wie Umrechnungen ohne Internet funktionieren, erklärt der Leitfaden zur Offline-Umrechnung.
 Mehr Währungen unterwegs
-Reisetafel in Balkan Converter verwenden
+Reisetafel in BALCO Converter verwenden
 Die Android-App hält mehrere Reisewährungen an einem Ort bereit, unterstützt eine frei wählbare Reihenfolge und kann Kurse für die Offline-Nutzung vorbereiten.
 ```
 
 ### Weitere dynamische Meldungen
 
-- © 2026 Balkan Currency Converter
+- © 2026 BALCO Converter
 - Abweichungsrechner
 - Analyse ablehnen
 - Analyse zulassen
 - Analyse-Einstellungen
-- Balkan Currency Converter bei Google Play herunterladen
-- Balkan Currency Converter Startseite
+- BALCO Converter bei Google Play herunterladen
+- BALCO Converter Startseite
 - Behalten Sie mindestens eine Zielwährung bei.
 - Bei Google Play herunterladen
 - Betrag und Basiswechselkurs müssen positive Zahlen sein.
@@ -249,7 +249,7 @@ Die Android-App hält mehrere Reisewährungen an einem Ort bereit, unterstützt 
 - Neueste Referenzkurse werden geladen…
 - Optionale Analyse
 - Rechnen Sie einen Betrag gleichzeitig in mehrere Währungen um.
-- Rechnen Sie einen Betrag mit den neuesten verfügbaren Referenzkursen gleichzeitig in mehrere Währungen um. Kostenlos mit dem Mehrwährungsrechner von Balkan Converter.
+- Rechnen Sie einen Betrag mit den neuesten verfügbaren Referenzkursen gleichzeitig in mehrere Währungen um. Kostenlos mit dem Mehrwährungsrechner von BALCO Converter.
 - Rechnen Sie einen Betrag mit den neuesten verfügbaren Referenzkursen in mehrere Währungen um.
 - Referenzkurse vom {date}.
 - Startseite
@@ -273,7 +273,7 @@ Meta description: Erfahren Sie, wie ein Offline-Währungsrechner gespeicherte We
 ### Vollständiger sichtbarer Hauptinhalt
 
 ```text
-Zurück zu Balkan Currency Converter
+Zurück zu BALCO Converter
 Leitfaden zur Offline-Umrechnung
 Offline-Währungsumrechner: So funktionieren gespeicherte Kurse
 Ein Währungsrechner kann ohne Internet weiterarbeiten, indem er die zuletzt erfolgreich auf Ihrem Gerät gespeicherten Wechselkurse verwendet. Diese Kurse sind nützliche Referenzwerte, bleiben aber an ihr ursprüngliches Kursdatum gebunden, bis die App sie wieder online aktualisieren kann.
@@ -290,7 +290,7 @@ Was ein gespeicherter Offline-Kurs bedeutet
 Der gespeicherte Datensatz ist eine Momentaufnahme der letzten erfolgreichen Referenzkursabfrage. Damit kann die App ohne Netzwerkverbindung umrechnen; die Werte werden jedoch nicht aktualisiert, solange das Gerät offline ist.
 Prüfen Sie immer das angezeigte Kursdatum. Ein Ergebnis mit den Kursen von gestern kann für die Planung weiterhin nützlich sein, garantiert aber nicht den Kurs, den eine Bank, ein Kartenanbieter oder eine Wechselstube heute anbietet.
 Was passiert, sobald wieder Internet verfügbar ist?
-Balkan Converter verwendet für normale Umrechnungen und die Vorbereitung gespeicherter Sets denselben lokalen Kursspeicher. Eine erfolgreiche Online-Aktualisierung ersetzt den älteren Datensatz und aktualisiert Kursdatum und Speicherzeitpunkt.
+BALCO Converter verwendet für normale Umrechnungen und die Vorbereitung gespeicherter Sets denselben lokalen Kursspeicher. Eine erfolgreiche Online-Aktualisierung ersetzt den älteren Datensatz und aktualisiert Kursdatum und Speicherzeitpunkt.
 Wenn die Aktualisierung fehlschlägt, verwendet die App weiterhin die zuvor gespeicherten Kurse, statt sie zu löschen.
 Gespeichertes Set für die Offline-Nutzung vorbereiten
 Erstellen oder öffnen Sie in der Android-App ein gespeichertes Set mit den benötigten Währungen. Wählen Sie bei bestehender Internetverbindung „Kurse offline speichern“. Die App aktualisiert den gemeinsamen Kursdatensatz und bestätigt die Offline-Bereitschaft, sobald der gespeicherte Satz alle enthaltenen Währungen umfasst.
@@ -299,7 +299,7 @@ Auch außerhalb von Reisen nützlich
 Die Offline-Umrechnung kann bei einer schlechten Verbindung, einer Roaming-Unterbrechung, einem vorübergehenden Dienstausfall oder immer dann helfen, wenn eine schnelle Schätzung anhand eines Referenzkurses besser ist als gar kein Ergebnis.
 Für den schnellen Blick auf ein gespeichertes Währungspaar nutzen Sie den Widget-Leitfaden für Android. Für Online-Umrechnungen öffnen Sie den Währungsrechner, vergleichen einen Betrag in mehreren Währungen mit dem Mehrwährungsrechner oder prüfen ein Umtauschangebot mit dem Rechner für Wechselkursabweichungen.
 Referenzkurs mit Datum griffbereit
-Gespeicherte Kurse in Balkan Converter verwenden
+Gespeicherte Kurse in BALCO Converter verwenden
 Die Android-App kann den zuletzt erfolgreich gespeicherten Wechselkursdatensatz ohne Verbindung wiederverwenden und kennzeichnet gespeicherte Daten sowie deren Kursdatum deutlich.
 ```
 
@@ -311,14 +311,14 @@ Die Android-App kann den zuletzt erfolgreich gespeicherten Wechselkursdatensatz 
 
 URL: `/de/exchange-rate-history/`
 
-Title: Wechselkursverlauf und Währungsdiagramm | Balkan Converter
+Title: Wechselkursverlauf und Währungsdiagramm | BALCO Converter
 
 Meta description: Sehen Sie die Wechselkursentwicklung über 30 Tage, 90 Tage oder ein Jahr, stellen Sie ein Währungspaar grafisch dar und rufen Sie den Referenzkurs für ein bestimmtes Datum ab.
 
 ### Vollständiger sichtbarer Hauptinhalt
 
 ```text
-Zurück zu Balkan Currency Converter
+Zurück zu BALCO Converter
 Werkzeug für historische Referenzkurse
 Wechselkursverlauf und Währungsdiagramm
 Sehen Sie, wie sich ein Währungspaar über 30 Tage, 90 Tage oder ein Jahr entwickelt hat, und rufen Sie den Referenzkurs für ein bestimmtes Datum ab.
@@ -357,19 +357,19 @@ Zeiträume und Trends
 Nutzen Sie das Diagramm, um Richtung und Schwankungen zu erkennen, nicht um die nächste Entwicklung vorherzusagen. Einige Anbieter veröffentlichen nicht an jedem Kalendertag. Wenn die API Daten für ein anderes verfügbares Datum liefert, zeigt die Abfrage dieses tatsächliche Kursdatum an, statt es als den ausgewählten Tag auszugeben.
 Für eine Umrechnung zum neuesten verfügbaren Kurs nutzen Sie den Währungsrechner. Um ein Umtauschangebot mit dem Ergebnis zum Referenzkurs zu vergleichen, öffnen Sie den Rechner für Wechselkursabweichungen.
 Wichtige Währungspaare griffbereit
-Diagramme in Balkan Converter anzeigen
+Diagramme in BALCO Converter anzeigen
 Die Android-App umfasst 30-Tage-Kursdiagramme, angeheftete Paare, Offline-Referenzkurse und weitere Währungswerkzeuge.
 ```
 
 ### Weitere dynamische Meldungen
 
 - {count} Referenzkurse mit Datum geladen.
-- © 2026 Balkan Currency Converter
+- © 2026 BALCO Converter
 - Analyse ablehnen
 - Analyse zulassen
 - Analyse-Einstellungen
-- Balkan Currency Converter bei Google Play herunterladen
-- Balkan Currency Converter Startseite
+- BALCO Converter bei Google Play herunterladen
+- BALCO Converter Startseite
 - Bedienelemente und Diagramm zum Wechselkursverlauf
 - Bei Google Play herunterladen
 - Datenschutz
@@ -408,7 +408,7 @@ Die Android-App umfasst 30-Tage-Kursdiagramme, angeheftete Paare, Offline-Refere
 - Wählen Sie zwei verschiedene Währungen.
 - Währungsumrechnung für Android
 - Wechselkursverlauf {base}/{quote}
-- Wechselkursverlauf und Währungsdiagramm | Balkan Converter
+- Wechselkursverlauf und Währungsdiagramm | BALCO Converter
 - Zeigen Sie historische Referenzkurse in einem Diagramm an und rufen Sie einen Kurs für ein bestimmtes Datum ab.
 - Zum Wechselkursverlauf
 
@@ -416,14 +416,14 @@ Die Android-App umfasst 30-Tage-Kursdiagramme, angeheftete Paare, Offline-Refere
 
 URL: `/de/currency-converter-widget/`
 
-Title: Währungs-Widget für Android | Balkan Converter
+Title: Währungs-Widget für Android | BALCO Converter
 
 Meta description: Fügen Sie dem Android-Startbildschirm ein Währungs-Widget hinzu, um schnell auf einen gespeicherten Wechselkurs, das Kursdatum, die Tauschfunktion und die App-Verknüpfung zuzugreifen.
 
 ### Vollständiger sichtbarer Hauptinhalt
 
 ```text
-Zurück zu Balkan Currency Converter
+Zurück zu BALCO Converter
 Anleitung für den Android-Startbildschirm
 Währungs-Widget für Android
 Behalten Sie ein wichtiges Währungspaar auf dem Startbildschirm. Das Balkan-Converter-Widget zeigt den gespeicherten Referenzkurs und sein Kursdatum, öffnet das Paar in der App und bietet im breiten Layout eine schnelle Tauschfunktion.
@@ -433,27 +433,27 @@ Vier schnelle Schritte
 Währungs-Widget hinzufügen
 Die Launcher-Beschriftungen variieren geringfügig je nach Android-Gerät, der Standardablauf auf dem Startbildschirm ist jedoch derselbe.
 Währungspaar vorbereiten
-Öffnen Sie Balkan Converter, wählen Sie die gewünschten Währungen aus und lassen Sie die neuesten Referenzkurse erfolgreich laden.
+Öffnen Sie BALCO Converter, wählen Sie die gewünschten Währungen aus und lassen Sie die neuesten Referenzkurse erfolgreich laden.
 Öffnen Sie Widgets
 Halten Sie einen freien Bereich des Android-Startbildschirms gedrückt und wählen Sie anschließend Widgets.
 Widget platzieren
-Suchen Sie Balkan Converter und ziehen Sie das Währungs-Widget in einen freien Bereich Ihres Startbildschirms.
+Suchen Sie BALCO Converter und ziehen Sie das Währungs-Widget in einen freien Bereich Ihres Startbildschirms.
 Größe anpassen und verwenden
 Passen Sie die Größe an. Tippen Sie auf die Karte, um das Paar in der App zu öffnen. Das breitere Widget zeigt zusätzlich eine Tauschschaltfläche.
 Was das Widget anzeigt
 Die Widget-Karte zeigt den Referenzkurs des gewählten Paars, einen Aktualitätsstatus und das Kursdatum. Jedes neue Widget übernimmt zunächst das zuletzt in der App verwendete Paar und merkt sich danach seine eigene Auswahl.
-Wenn Sie auf das Widget tippen, öffnet Balkan Converter das gewählte Währungspaar. Bei mittlerer Widget-Breite kehrt die Tauschfunktion das Paar direkt auf dem Startbildschirm um.
+Wenn Sie auf das Widget tippen, öffnet BALCO Converter das gewählte Währungspaar. Bei mittlerer Widget-Breite kehrt die Tauschfunktion das Paar direkt auf dem Startbildschirm um.
 Warum das Datum wichtig ist
-Das Widget verwendet den zuletzt erfolgreich gespeicherten Kursdatensatz der App und ist keine eigenständige Echtzeit-Kursquelle. Wenn Balkan Converter die Kurse erfolgreich aktualisiert, erhalten installierte Widgets die neuen gespeicherten Daten.
+Das Widget verwendet den zuletzt erfolgreich gespeicherten Kursdatensatz der App und ist keine eigenständige Echtzeit-Kursquelle. Wenn BALCO Converter die Kurse erfolgreich aktualisiert, erhalten installierte Widgets die neuen gespeicherten Daten.
 Ohne Internet bleibt der zuvor gespeicherte Referenzkurs für Schätzungen verfügbar; das Kursdatum zeigt, wie aktuell die Daten sind. Mehr dazu erfahren Sie im Leitfaden zur Offline-Umrechnung.
 Kompaktes oder breites Layout?
 Im kompakten Layout bleiben Kurs und Datum auf kleiner Fläche sichtbar. Verbreitern Sie das Widget, wenn neben dem Kurs eine eigene Tauschfunktion angezeigt werden soll.
 Android-Launcher steuern die genaue Rastergröße, sodass die verfügbaren Größenänderungsschritte zwischen Telefonen und Tablets unterschiedlich sein können.
 Für mehrere Währungen auf einmal
 Öffnen Sie die App, um einen Betrag einzugeben, Währungen umzurechnen, den Wechselkursverlauf anzusehen, mehrere Währungen zu vergleichen oder gespeicherte Kurse für die Offline-Nutzung vorzubereiten.
-Das Widget dient als schnelle Übersicht und Verknüpfung; den vollständigen Umrechnungsablauf bietet Balkan Converter.
+Das Widget dient als schnelle Übersicht und Verknüpfung; den vollständigen Umrechnungsablauf bietet BALCO Converter.
 Umrechnung auf einen Blick
-Balkan Converter zum Startbildschirm hinzufügen
+BALCO Converter zum Startbildschirm hinzufügen
 Installieren Sie die Android-App, laden Sie das gewünschte Währungspaar und platzieren Sie das Währungs-Widget an einer gut erreichbaren Stelle.
 ```
 
@@ -465,14 +465,14 @@ Installieren Sie die Android-App, laden Sie das gewünschte Währungspaar und pl
 
 URL: `/de/foreign-transaction-fee-calculator/`
 
-Title: Fremdwährungsgebühren und DCC berechnen | Balkan Converter
+Title: Fremdwährungsgebühren und DCC berechnen | BALCO Converter
 
 Meta description: Vergleichen Sie eine Kartenzahlung oder Bargeldabhebung in Landeswährung mit einem DCC-Angebot. Berücksichtigen Sie dabei die Fremdwährungsgebühr und feste Gebühren anhand aktueller Referenzkurse.
 
 ### Vollständiger sichtbarer Hauptinhalt
 
 ```text
-Zurück zu Balkan Currency Converter
+Zurück zu BALCO Converter
 Vergleich von Kartenzahlung und Bargeldabhebung
 Gebühren und DCC vergleichen
 In Landeswährung bezahlen oder die angebotene Umrechnung nutzen? Schätzen Sie beide Optionen anhand des zuletzt verfügbaren Referenzwechselkurses und der von Ihnen eingegebenen Gebühren.
@@ -513,19 +513,19 @@ Wenn Sie lediglich ein Umtauschangebot mit dem Ergebnis zum Referenzkurs verglei
 Referenzkurs und Kursdatum
 Referenzkurse bieten einen neutralen Vergleichswert, aber keinen garantierten Transaktionskurs. Das Ergebnis zeigt das von der Referenzkurs-API von Frankfurter gelieferte Marktdatum.
 Auf dem Smartphone vergleichen
-Umtauschangebote mit Balkan Converter prüfen
-Balkan Converter für Android enthält die Funktion „Tatsächliche Kosten“, mit der Sie ein Umtauschangebot samt Gebühren mit dem Ergebnis zum Referenzkurs vergleichen können.
+Umtauschangebote mit BALCO Converter prüfen
+BALCO Converter für Android enthält die Funktion „Tatsächliche Kosten“, mit der Sie ein Umtauschangebot samt Gebühren mit dem Ergebnis zum Referenzkurs vergleichen können.
 ```
 
 ### Weitere dynamische Meldungen
 
-- © 2026 Balkan Currency Converter
+- © 2026 BALCO Converter
 - Abweichungsrechner
 - Analyse ablehnen
 - Analyse zulassen
 - Analyse-Einstellungen
-- Balkan Currency Converter bei Google Play herunterladen
-- Balkan Currency Converter Startseite
+- BALCO Converter bei Google Play herunterladen
+- BALCO Converter Startseite
 - Bei Google Play herunterladen
 - Betrag und Kurse müssen positive Zahlen sein.
 - Datenschutz
@@ -540,7 +540,7 @@ Balkan Converter für Android enthält die Funktion „Tatsächliche Kosten“, 
 - Farbthema wechseln
 - Fremdwährungsgebühr ({percentage} %)
 - Fremdwährungsgebühr in Prozent
-- Fremdwährungsgebühren und DCC berechnen | Balkan Converter
+- Fremdwährungsgebühren und DCC berechnen | BALCO Converter
 - Fremdwährungsgebühren- und DCC-Rechner
 - Fremdwährungsgebühren-Rechner
 - Für dieses Währungspaar ist kein Referenzkurs verfügbar.
@@ -577,14 +577,14 @@ Balkan Converter für Android enthält die Funktion „Tatsächliche Kosten“, 
 
 URL: `/de/travel-budget-calculator/`
 
-Title: Reisebudgetrechner in zwei Währungen | Balkan Converter
+Title: Reisebudgetrechner in zwei Währungen | BALCO Converter
 
 Meta description: Schätzen Sie Ihr Reisebudget nach Tagen und Kategorien, ergänzen Sie feste Kosten und eine Reserve und rechnen Sie die Gesamtsumme anschließend mit aktuellen Referenzkursen um.
 
 ### Vollständiger sichtbarer Hauptinhalt
 
 ```text
-Zurück zu Balkan Currency Converter
+Zurück zu BALCO Converter
 Kostenloser Reisebudgetrechner
 Reisebudgetrechner
 Schätzen Sie die Kosten Ihrer Reise in zwei Währungen. Erfassen Sie tägliche Ausgaben, feste Kosten und eine optionale Reserve – ohne Konto.
@@ -624,17 +624,17 @@ Welche Kosten gehören hinein?
 Unterkunft, Verpflegung, Transport vor Ort und Aktivitäten sind Tagesbeträge. Fügen Sie Flüge, Bahnpässe oder andere einmalige Ausgaben zu den festen Reisekosten hinzu.
 Währungen für Ihre Reise
 Benötigte Währungen auf einen Blick
-Balkan Converter für Android enthält die Reisetafel und gespeicherte Sets, damit wichtige Reisewährungen schnell verfügbar sind.
+BALCO Converter für Android enthält die Reisetafel und gespeicherte Sets, damit wichtige Reisewährungen schnell verfügbar sind.
 ```
 
 ### Weitere dynamische Meldungen
 
-- © 2026 Balkan Currency Converter
+- © 2026 BALCO Converter
 - Analyse ablehnen
 - Analyse zulassen
 - Analyse-Einstellungen
-- Balkan Currency Converter bei Google Play herunterladen
-- Balkan Currency Converter Startseite
+- BALCO Converter bei Google Play herunterladen
+- BALCO Converter Startseite
 - Bei Google Play herunterladen
 - Budgetbeträge und Reserve dürfen nicht negativ sein.
 - Das Budget wurde mit den neuesten verfügbaren Referenzkursen aktualisiert.
@@ -665,7 +665,7 @@ Balkan Converter für Android enthält die Reisetafel und gespeicherte Sets, dam
 - Referenzkurse vom {date}.
 - Referenzkurse vom {date}. Quelle: Referenzkurs-API von Frankfurter.
 - Referenzwechselkurse müssen positiv sein.
-- Reisebudgetrechner in zwei Währungen | Balkan Converter
+- Reisebudgetrechner in zwei Währungen | BALCO Converter
 - Reserve in Prozent
 - Schätzen Sie ein mehrtägiges Reisebudget nach Kategorien in Zielwährung und eigener Währung.
 - Schätzen Sie Ihr Reisebudget nach Tagen und Kategorien, ergänzen Sie feste Kosten und eine Reserve und rechnen Sie die Gesamtsumme anschließend mit aktuellen Referenzkursen um.

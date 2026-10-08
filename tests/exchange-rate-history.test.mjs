@@ -85,7 +85,7 @@ test('history page is indexable, linked, and uses privacy-aware analytics', asyn
     fs.readFile(path.join(root, 'multi-currency-converter/index.html'), 'utf8'),
     fs.readFile(path.join(root, 'sitemap.xml'), 'utf8')
   ]);
-  assert.match(page, /<title>Exchange Rate History &amp; Currency Chart \| Balkan Converter<\/title>/);
+  assert.match(page, /<title>Exchange Rate History &amp; Currency Chart \| BALCO Converter<\/title>/);
   assert.match(page, /rel="canonical" href="https:\/\/balkanconverter\.com\/exchange-rate-history\/"/);
   assert.match(page, /<h1 id="history-title">Exchange Rate History &amp; Currency Chart<\/h1>/);
   assert.equal((page.match(/<h1\b/g) || []).length, 1);

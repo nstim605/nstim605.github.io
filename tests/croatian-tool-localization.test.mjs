@@ -14,13 +14,13 @@ const slugs = [
 ];
 const identity = {
   'currency-converter': ['Pretvarač valuta | Preračunavanje po aktualnom tečaju', 'Pretvarač valuta'],
-  'exchange-rate-markup-calculator': ['Usporedba ponude s referentnim tečajem | Balkan Currency Converter', 'Kalkulator razlike tečaja'],
+  'exchange-rate-markup-calculator': ['Usporedba ponude s referentnim tečajem | BALCO Converter', 'Kalkulator razlike tečaja'],
   'multi-currency-converter': ['Viševalutni pretvarač | Jedan iznos u više valuta', 'Viševalutni pretvarač'],
   'offline-currency-converter': ['Pretvarač valuta bez interneta | Kako rade spremljeni tečajevi', 'Pretvarač valuta bez interneta: kako rade spremljeni tečajevi'],
-  'exchange-rate-history': ['Povijest i grafikon tečaja | Balkan Converter', 'Povijest i grafikon tečaja'],
-  'currency-converter-widget': ['Widget pretvarača valuta za Android | Balkan Converter', 'Widget pretvarača valuta za Android'],
-  'foreign-transaction-fee-calculator': ['Kalkulator naknada i DCC-a | Balkan Converter', 'Kalkulator naknada i DCC-a'],
-  'travel-budget-calculator': ['Kalkulator proračuna putovanja u dvije valute | Balkan Converter', 'Kalkulator proračuna putovanja']
+  'exchange-rate-history': ['Povijest i grafikon tečaja | BALCO Converter', 'Povijest i grafikon tečaja'],
+  'currency-converter-widget': ['Widget pretvarača valuta za Android | BALCO Converter', 'Widget pretvarača valuta za Android'],
+  'foreign-transaction-fee-calculator': ['Kalkulator naknada i DCC-a | BALCO Converter', 'Kalkulator naknada i DCC-a'],
+  'travel-budget-calculator': ['Kalkulator proračuna putovanja u dvije valute | BALCO Converter', 'Kalkulator proračuna putovanja']
 };
 
 function visibleMain(html) {

@@ -19,7 +19,7 @@ const tools = [
 ];
 const interactiveTools = new Set(tools.filter(slug =>
   !['offline-currency-converter', 'currency-converter-widget'].includes(slug)));
-const protectedCopy = /Balkan Currency Converter|Balkan Converter|Google Play|Firebase Analytics|Frankfurter|Android|DCC|Dynamic Currency Conversion|https?:\/\/\S+/g;
+const protectedCopy = /BALCO Converter|BALCO Converter|Google Play|Firebase Analytics|Frankfurter|Android|DCC|Dynamic Currency Conversion|https?:\/\/\S+/g;
 const acceptableSharedTerms = /^(?:[A-Z]{3} — .+|Minimum|Maximum|Optional|Privacy|Widgets)$/u;
 
 const routeFor = locale => locale.url === '/' ? '' : locale.url.slice(1, -1);

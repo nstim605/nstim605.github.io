@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "task": "Authorized website-only visual refresh for Balkan Converter 1.5 (11), 2026-08-31",
+  "task": "Authorized website-only visual refresh for BALCO Converter 1.5 (11), 2026-08-31",
   "files": [
     {
       "file": "tools/localize-site.mjs",

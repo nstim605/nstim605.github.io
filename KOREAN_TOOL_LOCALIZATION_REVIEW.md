@@ -18,7 +18,7 @@ Meta description: 최신 기준 환율로 두 통화 사이의 금액을 환산�
 ### Complete visible main content
 
 ```text
-Balkan Currency Converter(으)로 돌아가기
+BALCO Converter(으)로 돌아가기
 무료 통화 도구
 환율 계산기
 두 통화 사이의 금액을 환산하고 최신 기준 환율과 날짜, 출처를 확인하세요.
@@ -40,13 +40,13 @@ Frankfurter 기준 환율 API
 다른 관점이 필요하신가요?
 통화쌍의 변동은 환율 기록에서 확인하고, 한 금액을 여러 통화로 비교하려면 다중 통화 환산기, 환전 제시액을 확인하려면 환율 차이 계산기, 카드·현금 인출·DCC 비용을 비교하려면 수수료 및 DCC 계산기를 이용하세요.
 Android의 더 많은 도구
-Balkan Converter으로 변환
+BALCO Converter으로 변환
 Android 앱에서는 계산기, 오프라인 환율, 여행 통화 보드, 실제 비용, 저장된 세트, 기록, 차트, 홈 화면 위젯을 이용할 수 있습니다.
 ```
 
 ### Additional dynamic messages
 
-- © 2026 Balkan Currency Converter
+- © 2026 BALCO Converter
 - 0보다 큰 금액을 입력하세요.
 - 개인 정보 보호 정책
 - 개인정보 보호
@@ -77,22 +77,22 @@ Android 앱에서는 계산기, 오프라인 환율, 여행 통화 보드, 실�
 - 환율 날짜를 확인할 수 없습니다.
 - 환율을 불러오지 못했습니다. 인터넷 연결을 확인하고 다시 시도하세요.
 - Android의 통화 변환
-- Balkan Currency Converter 홈
+- BALCO Converter 홈
 - Google Play에서 다운로드
-- Google Play에서 Balkan Currency Converter 받기
+- Google Play에서 BALCO Converter 받기
 
 ## 환율 차이 계산기
 
 URL: `/ko/exchange-rate-markup-calculator/`
 
-Title: 환율 차이 계산기 | Balkan Currency Converter
+Title: 환율 차이 계산기 | BALCO Converter
 
 Meta description: 환전 제안을 최신 기준 환율과 비교해 수령액, 차액, 실제 환율 차이율을 계산하세요.
 
 ### Complete visible main content
 
 ```text
-Balkan Currency Converter(으)로 돌아가기
+BALCO Converter(으)로 돌아가기
 무료 통화 도구
 환율 차이 계산기
 환전 서비스가 제시한 금액을 최신 기준 환율과 비교하고, 환전 전에 차액과 실제 차이율을 확인하세요.
@@ -121,13 +121,13 @@ RSD — 세르비아 디나르
 이 결과는 정보 제공을 위한 비교이며 금융 조언이 아닙니다. 제시 금액에는 서비스 수수료, 카드 수수료, 현금 취급 수수료 또는 제공업체의 스프레드가 포함될 수 있습니다. 기준 환율은 실제 거래 환율을 보장하지 않습니다.
 카드 또는 ATM 거래를 카드 통화로 제시된 환산액과 비교하려면 수수료 및 DCC 계산기를 이용하세요. 한 통화쌍을 빠르게 환산하려면 통화 환산기를 여세요. 한 금액을 여러 통화로 비교하려면 다중 통화 환산기, 저장한 환율의 작동 방식은 오프라인 이용 안내에서 확인할 수 있습니다.
 이동 중에도 이것이 필요합니까?
-Balkan Converter의 비용 비교
+BALCO Converter의 비용 비교
 Android 앱에서는 실제 비용, 오프라인 환율, 여행 통화 보드, 저장된 세트, 차트, 홈 화면 위젯을 이용할 수 있습니다.
 ```
 
 ### Additional dynamic messages
 
-- © 2026 Balkan Currency Converter
+- © 2026 BALCO Converter
 - 0보다 큰 금액을 두 개 입력하세요.
 - 개인 정보 보호 정책
 - 개인정보 보호
@@ -162,14 +162,14 @@ Android 앱에서는 실제 비용, 오프라인 환율, 여행 통화 보드, �
 - 최신 기준 환율을 불러오는 중…
 - 최신 환율을 불러오는 중…
 - 환율 계산기
-- 환율 차이 계산기 | Balkan Currency Converter
+- 환율 차이 계산기 | BALCO Converter
 - 환율을 불러오지 못했습니다. 인터넷 연결을 확인하고 다시 시도하세요.
 - 환전 제안을 최신 기준 환율과 비교하고 실제 환율 차이율을 계산하세요.
 - 환전 제안을 최신 기준 환율과 비교해 수령액, 차액, 실제 환율 차이율을 계산하세요.
 - Android의 통화 변환
-- Balkan Currency Converter 홈
+- BALCO Converter 홈
 - Google Play에서 다운로드
-- Google Play에서 Balkan Currency Converter 받기
+- Google Play에서 BALCO Converter 받기
 
 ## 다중 통화 변환기
 
@@ -177,12 +177,12 @@ URL: `/ko/multi-currency-converter/`
 
 Title: 다중 통화 변환기 | 하나의 금액을 여러 통화로 변환
 
-Meta description: 사용 가능한 최신 기준 환율을 사용하여 한 금액을 여러 통화로 동시에 변환하세요. Balkan Converter의 무료 다중 통화 변환기입니다.
+Meta description: 사용 가능한 최신 기준 환율을 사용하여 한 금액을 여러 통화로 동시에 변환하세요. BALCO Converter의 무료 다중 통화 변환기입니다.
 
 ### Complete visible main content
 
 ```text
-Balkan Currency Converter(으)로 돌아가기
+BALCO Converter(으)로 돌아가기
 무료 통화 도구
 다중 통화 변환기
 한 금액을 입력하고 최신 기준 환율로 여러 통화의 값을 동시에 비교하세요.
@@ -199,13 +199,13 @@ Balkan Currency Converter(으)로 돌아가기
 올바른 보기 선택
 한 통화쌍을 환산하려면 통화 환산기를 이용하세요. 변동은 환율 기록에서 확인하고, 제시액은 환율 차이 계산기로 비교할 수 있습니다. 인터넷 없이 저장 환율을 사용하는 방법은 오프라인 이용 안내를 확인하세요.
 이동 중에도 더 많은 통화를 이용할 수 있습니다.
-Balkan Converter 여행 통화 보드 사용
+BALCO Converter 여행 통화 보드 사용
 Android 앱에서는 여러 여행 통화를 한곳에 모아 순서를 바꾸고 오프라인용 환율을 저장할 수 있습니다.
 ```
 
 ### Additional dynamic messages
 
-- © 2026 Balkan Currency Converter
+- © 2026 BALCO Converter
 - 0보다 큰 금액을 입력하세요.
 - 각 대상 통화를 한 번만 선택하십시오.
 - 개인 정보 보호 정책
@@ -227,7 +227,7 @@ Android 앱에서는 여러 여행 통화를 한곳에 모아 순서를 바꾸�
 - 분석 거부
 - 분석 선택
 - 분석 수락
-- 사용 가능한 최신 기준 환율을 사용하여 한 금액을 여러 통화로 동시에 변환하세요. Balkan Converter의 무료 다중 통화 변환기입니다.
+- 사용 가능한 최신 기준 환율을 사용하여 한 금액을 여러 통화로 동시에 변환하세요. BALCO Converter의 무료 다중 통화 변환기입니다.
 - 사이트 이용 현황 파악에 동의해 주세요. 동의하기 전에는 Firebase Analytics가 꺼진 상태로 유지됩니다.
 - 색상 테마 전환
 - 선택사항
@@ -244,9 +244,9 @@ Android 앱에서는 여러 여행 통화를 한곳에 모아 순서를 바꾸�
 - 환율 계산기
 - 환율을 불러오지 못했습니다. 인터넷 연결을 확인하고 다시 시도하세요.
 - Android의 통화 변환
-- Balkan Currency Converter 홈
+- BALCO Converter 홈
 - Google Play에서 다운로드
-- Google Play에서 Balkan Currency Converter 받기
+- Google Play에서 BALCO Converter 받기
 
 ## 오프라인 환율 계산기: 저장된 환율의 작동 방식
 
@@ -259,7 +259,7 @@ Meta description: 오프라인 통화 변환기가 날짜가 적혀 있고 저�
 ### Complete visible main content
 
 ```text
-Balkan Currency Converter(으)로 돌아가기
+BALCO Converter(으)로 돌아가기
 오프라인 환율 안내
 오프라인 환율 계산기: 저장된 환율의 작동 방식
 환산기는 기기에 마지막으로 저장된 환율을 사용해 인터넷 없이도 작동할 수 있습니다. 이 환율은 참고용이며, 앱이 온라인에서 다시 갱신할 때까지 저장 당시 날짜의 값으로 유지됩니다.
@@ -276,7 +276,7 @@ Balkan Currency Converter(으)로 돌아가기
 저장된 데이터는 마지막으로 성공한 기준 환율 응답의 스냅샷입니다. 인터넷 없이도 환산할 수 있지만 기기가 오프라인인 동안에는 값이 갱신되지 않습니다.
 표시된 환율 날짜를 항상 확인하세요. 어제의 환율을 기준으로 한 결과는 여전히 계획에 유용할 수 있지만 은행, 카드 제공업체 또는 환전소가 오늘 제공할 환율을 약속하는 것은 아닙니다.
 인터넷이 다시 돌아오면 어떻게 되나요?
-Balkan Converter는 일반 환산과 저장된 세트의 오프라인 준비에 동일한 로컬 환율 캐시를 사용합니다. 온라인 갱신에 성공하면 이전 캐시를 새 데이터로 교체하고 데이터 날짜와 저장 시간을 업데이트합니다.
+BALCO Converter는 일반 환산과 저장된 세트의 오프라인 준비에 동일한 로컬 환율 캐시를 사용합니다. 온라인 갱신에 성공하면 이전 캐시를 새 데이터로 교체하고 데이터 날짜와 저장 시간을 업데이트합니다.
 새로 고침이 실패하면 앱은 삭제하는 대신 이전에 캐시된 속도로 돌아갑니다.
 오프라인 사용을 위해 저장된 세트 준비
 Android 앱에서 필요한 통화에 대한 저장된 세트를 생성하거나 엽니다. 연결된 상태에서 다음을 선택하세요. 오프라인 환율 저장. 앱은 공유 환율 데이터 세트를 새로 고치고 저장된 캐시에 해당 세트의 모든 통화가 포함되면 준비 상태를 확인합니다.
@@ -285,7 +285,7 @@ Android 앱에서 필요한 통화에 대한 저장된 세트를 생성하거나
 오프라인 환산은 연결 불량, 로밍 중단, 일시적인 서비스 장애 등 결과가 전혀 없는 것보다 빠른 참고용 추정이 유용한 상황에 도움이 됩니다.
 저장한 통화쌍에 빠르게 접근하려면 Android 위젯 안내를 확인하세요. 온라인 환산에는 통화 환산기, 한 금액의 여러 통화 비교에는 다중 통화 환산기, 제시액 확인에는 환율 차이 계산기를 이용할 수 있습니다.
 날짜가 적힌 참고 자료를 편리하게 보관하세요
-Balkan Converter에서 저장된 환율 사용
+BALCO Converter에서 저장된 환율 사용
 Android 앱은 연결 없이 최근에 성공한 환율 캐시를 재사용할 수 있으며 캐시된 데이터와 환율 날짜를 명확하게 식별합니다.
 ```
 
@@ -297,14 +297,14 @@ Android 앱은 연결 없이 최근에 성공한 환율 캐시를 재사용할 �
 
 URL: `/ko/exchange-rate-history/`
 
-Title: 환율 내역 및 환율 차트 | Balkan Converter
+Title: 환율 내역 및 환율 차트 | BALCO Converter
 
 Meta description: 30일, 90일 또는 1년 환율 내역을 확인하고, 통화 쌍을 차트로 표시하고, 특정 날짜의 기준 환율을 찾아보세요.
 
 ### Complete visible main content
 
 ```text
-Balkan Currency Converter(으)로 돌아가기
+BALCO Converter(으)로 돌아가기
 과거 기준 환율 도구
 환율 내역 및 환율 차트
 30일, 90일 또는 1년 동안 통화 쌍이 어떻게 이동했는지 살펴보고 특정 날짜의 기준 환율을 찾아보세요.
@@ -343,7 +343,7 @@ Frankfurter 기준 환율 API
 차트를 사용하여 다음 움직임을 예측하는 것이 아니라 방향과 변화를 확인하세요. 일부 제공업체는 매일 게시하지 않습니다. API가 사용 가능한 다른 날짜의 데이터를 반환하는 경우 조회에서는 선택한 날짜로 표시하는 대신 실제 데이터 날짜를 보고합니다.
 사용 가능한 최신 환율로 환산하려면 통화 환산기를 이용하세요. 환전 제시액과 기준 환율 결과를 비교하려면 환율 차이 계산기를 여세요.
 유용한 쌍을 가까이에 두십시오
-Balkan Converter의 차트 보기
+BALCO Converter의 차트 보기
 Android 앱에는 30일 환율 차트, 고정된 통화 쌍, 오프라인 기준 환율 등 다양한 통화 도구가 있습니다.
 ```
 
@@ -351,7 +351,7 @@ Android 앱에는 30일 환율 차트, 고정된 통화 쌍, 오프라인 기준
 
 - {base}/{quote} 환율 내역
 - {from}부터 {to}까지 {base}/{quote} 기준 환율 기록입니다. 최저 {minimum}, 최고 {maximum}.
-- © 2026 Balkan Currency Converter
+- © 2026 BALCO Converter
 - 30일, 90일 또는 1년 환율 내역을 확인하고, 통화 쌍을 차트로 표시하고, 특정 날짜의 기준 환율을 찾아보세요.
 - 개인 정보 보호 정책
 - 개인정보 보호
@@ -389,58 +389,58 @@ Android 앱에는 30일 환율 차트, 고정된 통화 쌍, 오프라인 기준
 - 해당 날짜 및 쌍에 대한 과거 환율을 로드할 수 없습니다.
 - 홈
 - 환율 계산기
-- 환율 내역 및 환율 차트 | Balkan Converter
+- 환율 내역 및 환율 차트 | BALCO Converter
 - 환율 내역 차트
 - 환율 내역으로 건너뛰기
 - 환율 이력 관리 및 차트
 - Android의 통화 변환
 - API가 {date} 날짜의 기준 환율 데이터를 반환했습니다.
-- Balkan Currency Converter 홈
+- BALCO Converter 홈
 - Google Play에서 다운로드
-- Google Play에서 Balkan Currency Converter 받기
+- Google Play에서 BALCO Converter 받기
 
 ## Android용 환율 계산기 위젯
 
 URL: `/ko/currency-converter-widget/`
 
-Title: Android용 환율 계산기 위젯 | Balkan Converter
+Title: Android용 환율 계산기 위젯 | BALCO Converter
 
 Meta description: 캐시된 환율, 환율 날짜, 스왑 작업 및 앱 바로가기에 빠르게 액세스하려면 Android 홈 화면에 통화 변환기 위젯을 추가하세요.
 
 ### Complete visible main content
 
 ```text
-Balkan Currency Converter(으)로 돌아가기
+BALCO Converter(으)로 돌아가기
 Android 홈 화면 가이드
 Android용 환율 계산기 위젯
-홈 화면에 자주 쓰는 통화 쌍을 하나 두세요. Balkan Converter 위젯은 저장된 기준 환율과 데이터 날짜를 보여 주고, 앱에서 해당 통화 쌍을 열며, 넓은 레이아웃에서는 빠른 통화 교환을 지원합니다.
+홈 화면에 자주 쓰는 통화 쌍을 하나 두세요. BALCO Converter 위젯은 저장된 기준 환율과 데이터 날짜를 보여 주고, 앱에서 해당 통화 쌍을 열며, 넓은 레이아웃에서는 빠른 통화 교환을 지원합니다.
 위젯을 추가하는 방법
-일반 Android 홈 화면에 표시된 실제 Balkan Converter 위젯.
+일반 Android 홈 화면에 표시된 실제 BALCO Converter 위젯.
 네 가지 빠른 단계
 통화 위젯 추가
 런처 라벨은 Android 기기에 따라 조금씩 다르지만 표준 홈 화면 흐름은 동일합니다.
 한 쌍을 준비하세요
-Balkan Converter를 열고 원하는 통화를 선택한 다음 최신 기준 환율을 불러오세요.
+BALCO Converter를 열고 원하는 통화를 선택한 다음 최신 기준 환율을 불러오세요.
 오픈 위젯
 Android 홈 화면의 빈 부분을 길게 터치한 후 다음을 선택하세요. 위젯.
 위젯 배치
-Balkan Converter를 찾아 통화 위젯을 홈 화면의 빈 공간으로 드래그하세요.
+BALCO Converter를 찾아 통화 위젯을 홈 화면의 빈 공간으로 드래그하세요.
 크기 조정 및 사용
 크기에 맞게 크기를 조정하세요. 카드를 탭하여 앱에서 해당 쌍을 엽니다. 더 넓은 위젯에는 교체 버튼도 표시됩니다.
 위젯에 표시되는 내용
 카드에는 선택한 통화 쌍의 기준 환율, 데이터 상태, 환율 날짜가 표시됩니다. 각 위젯은 앱에서 가장 최근에 사용한 통화 쌍으로 시작한 뒤 자체 설정을 기억합니다.
-위젯을 탭하면 해당 통화가 준비된 Balkan Converter이 열립니다. 중간 너비 위젯의 경우 스왑 컨트롤은 홈 화면에서 직접 쌍을 반대로 바꿉니다.
+위젯을 탭하면 해당 통화가 준비된 BALCO Converter이 열립니다. 중간 너비 위젯의 경우 스왑 컨트롤은 홈 화면에서 직접 쌍을 반대로 바꿉니다.
 날짜가 중요한 이유
-위젯은 앱의 최근에 성공적으로 캐시된 비율 데이터세트를 사용합니다. 독립적인 라이브 시장 피드가 아닙니다. Balkan Converter이 속도를 성공적으로 새로 고치면 설치된 위젯이 업데이트된 캐시 데이터를 수신합니다.
+위젯은 앱의 최근에 성공적으로 캐시된 비율 데이터세트를 사용합니다. 독립적인 라이브 시장 피드가 아닙니다. BALCO Converter이 속도를 성공적으로 새로 고치면 설치된 위젯이 업데이트된 캐시 데이터를 수신합니다.
 연결이 없어도 마지막으로 저장한 기준 환율은 추정에 사용할 수 있으며, 표시된 날짜로 데이터가 얼마나 오래되었는지 알 수 있습니다. 자세한 내용은 오프라인 이용 안내를 확인하세요.
 작거나 넓은 레이아웃?
 컴팩트 레이아웃은 작은 공간에서도 환율과 날짜를 보여 줍니다. 환율 옆에 전용 통화 교환 버튼을 표시하려면 위젯 너비를 늘리세요.
 Android 런처는 정확한 그리드 크기를 제어하므로 사용 가능한 크기 조정 단계는 휴대폰과 태블릿마다 다를 수 있습니다.
 둘 이상의 빠른 쌍의 경우
 앱을 열어 금액 입력, 통화 환산, 환율 기록 확인, 여러 통화 비교, 오프라인용 환율 저장을 할 수 있습니다.
-위젯은 빠른 확인과 바로가기를 위한 기능이며, 전체 환산 기능은 Balkan Converter 앱에서 이용할 수 있습니다.
+위젯은 빠른 확인과 바로가기를 위한 기능이며, 전체 환산 기능은 BALCO Converter 앱에서 이용할 수 있습니다.
 변환 개요
-홈 화면에 Balkan Converter 추가
+홈 화면에 BALCO Converter 추가
 Android 앱을 설치해 원하는 통화 쌍을 불러온 다음, 실제 통화 위젯을 사용하기 편한 위치에 배치하세요.
 ```
 
@@ -452,14 +452,14 @@ Android 앱을 설치해 원하는 통화 쌍을 불러온 다음, 실제 통화
 
 URL: `/ko/foreign-transaction-fee-calculator/`
 
-Title: 해외 거래 수수료 및 DCC 계산기 | Balkan Converter
+Title: 해외 거래 수수료 및 DCC 계산기 | BALCO Converter
 
 Meta description: 현지 통화로 결제하는 방법을 DCC 카드나 ATM 견적과 비교해 보세요. 현재 기준율을 사용하여 해외 거래 및 고정 수수료를 포함합니다.
 
 ### Complete visible main content
 
 ```text
-Balkan Currency Converter(으)로 돌아가기
+BALCO Converter(으)로 돌아가기
 카드와 ATM 비교
 해외 거래 수수료 및 DCC 계산기
 현지 통화로 지불하시겠습니까, 아니면 제공되는 환전을 사용하시겠습니까? 최신 기준 환율과 입력한 수수료를 사용해 두 옵션을 모두 계산하세요.
@@ -500,13 +500,13 @@ DCC 실제 차이율
 기준 환율 및 날짜
 기준 환율은 중립적인 비교 기준이며 실제 거래 환율을 보장하지 않습니다. 결과에는 Frankfurter 기준 환율 API가 제공한 시장 날짜가 표시됩니다.
 휴대폰으로 비교해보세요
-Balkan Converter의 교환 제안을 확인하세요.
-Android용 Balkan Converter에는 환전 제안과 수수료를 기준 결과와 비교하는 실제 비용 기능이 있습니다.
+BALCO Converter의 교환 제안을 확인하세요.
+Android용 BALCO Converter에는 환전 제안과 수수료를 기준 결과와 비교하는 실제 비용 기능이 있습니다.
 ```
 
 ### Additional dynamic messages
 
-- © 2026 Balkan Currency Converter
+- © 2026 BALCO Converter
 - 0 이상의 수수료를 입력하세요.
 - 0보다 큰 구매 또는 출금 금액을 입력하세요.
 - 0보다 큰 DCC 제시 총액을 입력하거나 비워 두세요.
@@ -542,7 +542,7 @@ Android용 Balkan Converter에는 환전 제안과 수수료를 기준 결과와
 - 최신 기준 환율을 불러오는 중…
 - 최신 환율을 불러오는 중…
 - 통화 변환기
-- 해외 거래 수수료 및 DCC 계산기 | Balkan Converter
+- 해외 거래 수수료 및 DCC 계산기 | BALCO Converter
 - 해외 거래 수수료 비율
 - 해외 거래 수수료({percentage}%)
 - 해외거래수수료 계산기
@@ -554,25 +554,25 @@ Android용 Balkan Converter에는 환전 제안과 수수료를 기준 결과와
 - 환율 계산기
 - 환율을 불러오지 못했습니다. 인터넷 연결을 확인하고 다시 시도하세요.
 - Android의 통화 변환
-- Balkan Currency Converter 홈
+- BALCO Converter 홈
 - DCC 제시 총액은 0보다 커야 합니다.
 - DCC가 기준 결과보다 낮은 금액
 - DCC가 기준 결과보다 낮음
 - Google Play에서 다운로드
-- Google Play에서 Balkan Currency Converter 받기
+- Google Play에서 BALCO Converter 받기
 
 ## 여행 예산 계산기
 
 URL: `/ko/travel-budget-calculator/`
 
-Title: 두 가지 통화로 된 여행 예산 계산기 | Balkan Converter
+Title: 두 가지 통화로 된 여행 예산 계산기 | BALCO Converter
 
 Meta description: 일수와 항목별 여행 예산을 계산하고 고정 비용과 예비비를 더한 뒤, 현재 기준 환율로 총액을 환산하세요.
 
 ### Complete visible main content
 
 ```text
-Balkan Currency Converter(으)로 돌아가기
+BALCO Converter(으)로 돌아가기
 무료 여행 계획 도구
 여행 예산 계산기
 두 가지 통화로 여행 비용을 추정해 보세요. 일일 경비와 고정 비용, 선택적 예비비를 입력하세요. 계정은 필요하지 않습니다.
@@ -612,12 +612,12 @@ Balkan Currency Converter(으)로 돌아가기
 숙박, 식사, 현지 교통 및 활동은 일일 금액입니다. 고정 여행 비용에 항공편, 철도 패스 또는 기타 일회성 비용을 추가하세요.
 여행에 필요한 통화
 필요한 통화를 함께 보관하세요
-Android용 Balkan Converter의 여행 통화 보드와 저장된 세트를 이용하면 여행에 필요한 통화를 한곳에서 관리할 수 있습니다.
+Android용 BALCO Converter의 여행 통화 보드와 저장된 세트를 이용하면 여행에 필요한 통화를 한곳에서 관리할 수 있습니다.
 ```
 
 ### Additional dynamic messages
 
-- © 2026 Balkan Currency Converter
+- © 2026 BALCO Converter
 - 0보다 큰 여행 일수를 입력하세요.
 - 0보다 큰 예산 금액을 하나 이상 입력하세요.
 - 개인 정보 보호 정책
@@ -629,7 +629,7 @@ Android용 Balkan Converter의 여행 통화 보드와 저장된 세트를 이�
 - 기준 환율은 0보다 커야 합니다.
 - 다중 통화 변환기
 - 두 가지 다른 통화를 선택하세요.
-- 두 가지 통화로 된 여행 예산 계산기 | Balkan Converter
+- 두 가지 통화로 된 여행 예산 계산기 | BALCO Converter
 - 메인 네비게이션
 - 모든 필드에 유효한 숫자를 입력하세요.
 - 목적지와 자국 통화로 예상 여행 예산을 계획하세요.
@@ -660,10 +660,10 @@ Android용 Balkan Converter의 여행 통화 보드와 저장된 세트를 이�
 - 환율 계산기
 - 환율을 불러오지 못했습니다. 인터넷 연결을 확인하고 다시 시도하세요.
 - Android의 통화 변환
-- Balkan Currency Converter 홈
+- BALCO Converter 홈
 - Frankfurter 기준 환율 API
 - Google Play에서 다운로드
-- Google Play에서 Balkan Currency Converter 받기
+- Google Play에서 BALCO Converter 받기
 
 ## Open language questions
 

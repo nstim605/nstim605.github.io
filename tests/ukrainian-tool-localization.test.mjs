@@ -14,13 +14,13 @@ const slugs = [
 ];
 const identity = {
   'currency-converter': ['Конвертер валют | Конвертація за актуальними курсами онлайн', 'Конвертер валют'],
-  'exchange-rate-markup-calculator': ['Калькулятор відхилення курсу | Balkan Currency Converter', 'Калькулятор відхилення курсу'],
+  'exchange-rate-markup-calculator': ['Калькулятор відхилення курсу | BALCO Converter', 'Калькулятор відхилення курсу'],
   'multi-currency-converter': ['Мультивалютний конвертер | Одна сума в кількох валютах', 'Мультивалютний конвертер'],
   'offline-currency-converter': ['Конвертер валют без інтернету | Як працюють збережені курси', 'Конвертер валют без інтернету: як працюють збережені курси'],
-  'exchange-rate-history': ['Історія курсу та валютний графік | Balkan Converter', 'Історія курсу та валютний графік'],
-  'currency-converter-widget': ['Віджет конвертера валют для Android | Balkan Converter', 'Віджет конвертера валют для Android'],
-  'foreign-transaction-fee-calculator': ['Калькулятор комісії за операцію в іноземній валюті та DCC | Balkan Converter', 'Калькулятор комісії за операцію в іноземній валюті та DCC'],
-  'travel-budget-calculator': ['Калькулятор бюджету подорожі у двох валютах | Balkan Converter', 'Калькулятор бюджету подорожі']
+  'exchange-rate-history': ['Історія курсу та валютний графік | BALCO Converter', 'Історія курсу та валютний графік'],
+  'currency-converter-widget': ['Віджет конвертера валют для Android | BALCO Converter', 'Віджет конвертера валют для Android'],
+  'foreign-transaction-fee-calculator': ['Калькулятор комісії за операцію в іноземній валюті та DCC | BALCO Converter', 'Калькулятор комісії за операцію в іноземній валюті та DCC'],
+  'travel-budget-calculator': ['Калькулятор бюджету подорожі у двох валютах | BALCO Converter', 'Калькулятор бюджету подорожі']
 };
 
 function visibleMain(html) {
@@ -69,7 +69,7 @@ test('all Ukrainian tools use reviewed terminology and preserve behavior-facing 
     assert.doesNotMatch(html, /<option value="([A-Z]{3})">(?!\1<)[A-Z]{3}<\/option>/u);
     assert.match(html, /src="\/assets\/google-play-badge-en\.png"/);
     assert.match(html, /https:\/\/play\.google\.com\/store\/apps\/details\?id=io\.github\.nstim605\.balkanconverter/);
-    assert.match(html, /aria-label="Завантажте Balkan Currency Converter із Google Play"/);
+    assert.match(html, /aria-label="Завантажте BALCO Converter із Google Play"/);
     for (const value of [
       html.match(/<meta name="description" content="([^"]+)">/)?.[1],
       html.match(/<meta property="og:title" content="([^"]+)">/)?.[1],

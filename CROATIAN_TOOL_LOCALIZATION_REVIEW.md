@@ -28,7 +28,7 @@ Meta description: Pretvorite iznos između dvije valute s najnovijim dostupnim r
 ### Cjelovit vidljivi tekst glavnog sadržaja
 
 ```text
-Natrag na Balkan Currency Converter
+Natrag na BALCO Converter
 Besplatan alat za valute
 Pretvarač valuta
 Pretvorite iznos između dvije valute i pogledajte najnoviji dostupni referentni tečaj, njegov datum i izvor.
@@ -50,13 +50,13 @@ Prikazani datum pokazuje na koji se tržišni dan odnose referentni podaci.
 Trebate drukčiji prikaz?
 Pogledajte kako se valutni par mijenjao u odjeljku Povijest tečaja; usporedite jedan iznos u više valuta pomoću Viševalutnog pretvarača; provjerite ponudu mjenjačnice u Kalkulatoru razlike tečaja; ili usporedite troškove plaćanja karticom, podizanja gotovine i DCC-a u Kalkulatoru naknada i DCC-a.
 Više alata na Androidu
-Preračunavajte valute uz Balkan Converter
+Preračunavajte valute uz BALCO Converter
 Android aplikacija nudi kalkulator, spremljene tečajeve za rad bez interneta, Viševalutnu ploču, Stvarni trošak razmjene, spremljene skupove, povijest tečaja, grafikone i widget za početni zaslon.
 ```
 
 ### Dodatne dinamičke poruke
 
-- © 2026 Balkan Currency Converter
+- © 2026 BALCO Converter
 - Datum
 - Datum tečaja nije dostupan.
 - Dohvaćanje najnovijih referentnih tečajeva…
@@ -72,7 +72,7 @@ Android aplikacija nudi kalkulator, spremljene tečajeve za rad bez interneta, V
 - Odaberite dvije različite valute.
 - Odbij analitiku
 - Početna
-- Početna stranica Balkan Currency Converter
+- Početna stranica BALCO Converter
 - Politika privatnosti
 - Pomozite nam razumjeti kako se stranica koristi. Firebase Analytics ostaje isključen dok ne prihvatite.
 - Preskoči na pretvarač
@@ -80,7 +80,7 @@ Android aplikacija nudi kalkulator, spremljene tečajeve za rad bez interneta, V
 - Pretvorite između dvije valute koristeći najnovije dostupne referentne tečajeve.
 - Pretvorite iznos između dvije valute koristeći najnovije dostupne referentne tečajeve.
 - Pretvorite iznos između dvije valute s najnovijim dostupnim referentnim tečajevima. Pogledajte tečaj, datum tečaja i izvor podataka.
-- Preuzmite Balkan Currency Converter na Google Playu
+- Preuzmite BALCO Converter na Google Playu
 - Preuzmite na Google Playu
 - Prihvati analitiku
 - Prijeđi na svijetlu temu
@@ -99,14 +99,14 @@ Android aplikacija nudi kalkulator, spremljene tečajeve za rad bez interneta, V
 
 URL: `/hr/exchange-rate-markup-calculator/`
 
-Title: Usporedba ponude s referentnim tečajem | Balkan Currency Converter
+Title: Usporedba ponude s referentnim tečajem | BALCO Converter
 
 Meta description: Usporedite ponudu mjenjačnice s najnovijim referentnim tečajem. Izračunajte referentni rezultat, ponuđeni iznos i razliku između njih.
 
 ### Cjelovit vidljivi tekst glavnog sadržaja
 
 ```text
-Natrag na Balkan Currency Converter
+Natrag na BALCO Converter
 Besplatan alat za valute
 Kalkulator razlike tečaja
 Usporedite iznos koji nudi mjenjačnica s najnovijim dostupnim referentnim tečajem. Prije zamjene pogledajte razliku u novcu i postotku.
@@ -135,13 +135,13 @@ Važno je znati
 Ovo je informativna usporedba, a ne financijski savjet. Ponuda može uključivati naknadu za uslugu, kartične troškove, rukovanje gotovinom ili tečajnu razliku pružatelja usluge. Referentni tečaj nije zajamčeni tečaj transakcije.
 Uspoređujete plaćanje karticom ili podizanje gotovine s ponuđenom konverzijom u valutu kartice? Koristite Kalkulator naknada i DCC-a. Za brz preračun valutnog para otvorite Pretvarač valuta. Za usporedbu jednog iznosa u više valuta koristite Viševalutni pretvarač, a o spremljenim podacima pročitajte u vodiču za preračun bez interneta.
 Trebate ovo u pokretu?
-Usporedite troškove u aplikaciji Balkan Converter
+Usporedite troškove u aplikaciji BALCO Converter
 Android aplikacija nudi Stvarni trošak razmjene, spremljene tečajeve za rad bez interneta, Viševalutnu ploču, spremljene skupove, grafikone i widget za početni zaslon.
 ```
 
 ### Dodatne dinamičke poruke
 
-- © 2026 Balkan Currency Converter
+- © 2026 BALCO Converter
 - Datum
 - Dobivate više za
 - Dohvaćanje najnovijih referentnih tečajeva…
@@ -158,14 +158,14 @@ Android aplikacija nudi Stvarni trošak razmjene, spremljene tečajeve za rad be
 - Odaberite dvije različite valute.
 - Odbij analitiku
 - Početna
-- Početna stranica Balkan Currency Converter
+- Početna stranica BALCO Converter
 - Podaci o referentnom tečaju nisu potpuni.
 - Pogledajte koliko ponuda mjenjačnice odstupa od najnovijeg referentnog tečaja.
 - Politika privatnosti
 - Pomozite nam razumjeti kako se stranica koristi. Firebase Analytics ostaje isključen dok ne prihvatite.
 - Ponuda je {percentage} ispod referentnog rezultata.
 - Ponuda je {percentage} iznad referentnog rezultata.
-- Preuzmite Balkan Currency Converter na Google Playu
+- Preuzmite BALCO Converter na Google Playu
 - Preuzmite na Google Playu
 - Prihvati analitiku
 - Prijeđi na kalkulator
@@ -181,7 +181,7 @@ Android aplikacija nudi Stvarni trošak razmjene, spremljene tečajeve za rad be
 - Tečajeve nije moguće učitati. Provjerite internetsku vezu i pokušajte ponovno.
 - Učitavanje najnovijih tečajeva…
 - Unesite dva iznosa veća od nule.
-- Usporedba ponude s referentnim tečajem | Balkan Currency Converter
+- Usporedba ponude s referentnim tečajem | BALCO Converter
 - Usporedite ponudu mjenjačnice s najnovijim referentnim tečajem i izračunajte razliku.
 - Usporedite ponudu mjenjačnice s najnovijim referentnim tečajem.
 - Usporedite ponudu mjenjačnice s najnovijim referentnim tečajem. Izračunajte referentni rezultat, ponuđeni iznos i razliku između njih.
@@ -192,12 +192,12 @@ URL: `/hr/multi-currency-converter/`
 
 Title: Viševalutni pretvarač | Jedan iznos u više valuta
 
-Meta description: Preračunajte jedan iznos odjednom u više valuta po najnovijim dostupnim referentnim tečajevima. Besplatan alat Balkan Convertera.
+Meta description: Preračunajte jedan iznos odjednom u više valuta po najnovijim dostupnim referentnim tečajevima. Besplatan alat BALCO Convertera.
 
 ### Cjelovit vidljivi tekst glavnog sadržaja
 
 ```text
-Natrag na Balkan Currency Converter
+Natrag na BALCO Converter
 Besplatan alat za valute
 Viševalutni pretvarač
 Unesite jedan iznos i odmah pogledajte njegovu vrijednost u više valuta po najnovijim dostupnim referentnim tečajevima.
@@ -214,13 +214,13 @@ Tečajevi su referentne vrijednosti i mogu se razlikovati od tečaja banke, kart
 Odaberite odgovarajući alat
 Za jedan valutni par koristite Pretvarač valuta. Kretanje tečaja kroz vrijeme možete vidjeti u Povijesti tečaja, ponudu mjenjačnice provjeriti u Kalkulatoru razlike tečaja, a način rada bez interneta saznati u vodiču za preračun bez interneta.
 Više valuta u pokretu
-Koristite Viševalutnu ploču u aplikaciji Balkan Converter
+Koristite Viševalutnu ploču u aplikaciji BALCO Converter
 Android aplikacija drži više valuta za putovanje na jednom mjestu, omogućuje promjenu redoslijeda i pripremu tečajeva za rad bez interneta.
 ```
 
 ### Dodatne dinamičke poruke
 
-- © 2026 Balkan Currency Converter
+- © 2026 BALCO Converter
 - Ciljane valute moraju se razlikovati od osnovne valute.
 - Ciljna valuta
 - Datum
@@ -239,14 +239,14 @@ Android aplikacija drži više valuta za putovanje na jednom mjestu, omogućuje 
 - Odbij analitiku
 - Ostavite barem jednu ciljnu valutu.
 - Početna
-- Početna stranica Balkan Currency Converter
+- Početna stranica BALCO Converter
 - Politika privatnosti
 - Pomozite nam razumjeti kako se stranica koristi. Firebase Analytics ostaje isključen dok ne prihvatite.
 - Preračunajte jedan iznos istodobno u više valuta.
-- Preračunajte jedan iznos odjednom u više valuta po najnovijim dostupnim referentnim tečajevima. Besplatan alat Balkan Convertera.
+- Preračunajte jedan iznos odjednom u više valuta po najnovijim dostupnim referentnim tečajevima. Besplatan alat BALCO Convertera.
 - Preračunajte jedan iznos u više valuta po najnovijim dostupnim referentnim tečajevima.
 - Preskoči na pretvarač
-- Preuzmite Balkan Currency Converter na Google Playu
+- Preuzmite BALCO Converter na Google Playu
 - Preuzmite na Google Playu
 - Prihvati analitiku
 - Prijeđi na svijetlu temu
@@ -274,7 +274,7 @@ Meta description: Saznajte kako pretvarač valuta koristi spremljene tečajeve b
 ### Cjelovit vidljivi tekst glavnog sadržaja
 
 ```text
-Natrag na Balkan Currency Converter
+Natrag na BALCO Converter
 Vodič za tečajeve bez interneta
 Pretvarač valuta bez interneta: kako rade spremljeni tečajevi
 Pretvarač može raditi bez interneta koristeći posljednje tečajeve koji su uspješno spremljeni na uređaju. Ti su tečajevi korisni kao referentni podaci, ali ostaju vezani uz svoj izvorni datum dok ih aplikacija ne osvježi putem interneta.
@@ -291,7 +291,7 @@ Bez interneta preračuni koriste spremljeni skup te jasno prikazuju da se upotre
 Spremljeni podaci preslika su posljednjeg uspješnog odgovora servisa za referentne tečajeve. Omogućuju preračunavanje bez mrežne veze, ali se vrijednosti ne ažuriraju dok je uređaj izvan mreže.
 Uvijek provjerite prikazani datum tečaja. Rezultat zasnovan na jučerašnjim tečajevima može biti koristan za planiranje, ali ne jamči tečaj koji će banka, kartična kuća ili mjenjačnica ponuditi danas.
 Što se događa kada se internet vrati?
-Balkan Converter koristi jednu zajedničku lokalnu predmemoriju tečajeva za običnu konverziju i pripremu spremljenih skupova. Uspješno osvježavanje putem interneta zamjenjuje stariji skup te ažurira datum tečaja i vrijeme spremanja.
+BALCO Converter koristi jednu zajedničku lokalnu predmemoriju tečajeva za običnu konverziju i pripremu spremljenih skupova. Uspješno osvježavanje putem interneta zamjenjuje stariji skup te ažurira datum tečaja i vrijeme spremanja.
 Ako osvježavanje ne uspije, aplikacija zadržava prethodne predmemorirane tečajeve umjesto da ih izbriše.
 Pripremite spremljeni skup za rad bez interneta
 U Android aplikaciji izradite ili otvorite spremljeni skup potrebnih valuta. Dok ste povezani s internetom, odaberite Spremi tečajeve za rad bez interneta. Aplikacija osvježava zajednički skup podataka tečaja i potvrđuje spremnost kada spremljena predmemorija sadrži sve valute u tom skupu.
@@ -300,7 +300,7 @@ Korisno i izvan putovanja
 Preračunavanje bez interneta može pomoći pri slaboj vezi, prekidu roaminga, privremenoj nedostupnosti servisa ili u drugim situacijama kada je približna procjena korisnija od izostanka rezultata.
 Za brz pristup posljednjem spremljenom valutnom paru otvorite vodič za Android widget. Za mrežni preračun koristite Pretvarač valuta, usporedite jedan iznos u više valuta u Viševalutnom pretvaraču ili provjerite ponudu mjenjačnice u Kalkulatoru razlike tečaja.
 Neka vam spremljeni tečajevi budu pri ruci
-Koristite spremljene tečajeve u aplikaciji Balkan Converter
+Koristite spremljene tečajeve u aplikaciji BALCO Converter
 Android aplikacija može bez veze koristiti posljednju uspješno spremljenu predmemoriju tečajeva te jasno označava predmemorirane podatke i datum tečaja.
 ```
 
@@ -312,14 +312,14 @@ Android aplikacija može bez veze koristiti posljednju uspješno spremljenu pred
 
 URL: `/hr/exchange-rate-history/`
 
-Title: Povijest i grafikon tečaja | Balkan Converter
+Title: Povijest i grafikon tečaja | BALCO Converter
 
 Meta description: Pogledajte povijest tečaja valutnog para za 30 dana, 90 dana ili jednu godinu te pronađite referentni tečaj za određeni datum.
 
 ### Cjelovit vidljivi tekst glavnog sadržaja
 
 ```text
-Natrag na Balkan Currency Converter
+Natrag na BALCO Converter
 Alat za povijest tečaja
 Povijest i grafikon tečaja
 Istražite kako se valutni par kretao tijekom 30 dana, 90 dana ili jedne godine i potražite referentni tečaj za određeni datum.
@@ -358,13 +358,13 @@ Datumi i trendovi
 Koristite grafikon da vidite smjer i varijaciju, a ne da predvidite sljedeći potez. Neki pružatelji usluga ne objavljuju svaki kalendarski dan. Ako API vrati podatke s drugog dostupnog datuma, pretraživanje će prijaviti taj stvarni datum umjesto da ga predstavi kao dan koji ste odabrali.
 Za preračun po posljednjem dostupnom tečaju koristite Pretvarač valuta. Za usporedbu ponude mjenjačnice s referentnim rezultatom otvorite Kalkulator razlike tečaja.
 Neka vam važni valutni parovi budu pri ruci
-Pogledajte grafikone u aplikaciji Balkan Converter
+Pogledajte grafikone u aplikaciji BALCO Converter
 Android aplikacija nudi grafikone tečaja za 30 dana, prikvačene parove, spremljene referentne tečajeve i druge valutne alate.
 ```
 
 ### Dodatne dinamičke poruke
 
-- © 2026 Balkan Currency Converter
+- © 2026 BALCO Converter
 - API je vratio referentne podatke s datumom {date}.
 - Dohvaćanje povijesnih referentnih tečajeva…
 - Dohvaćanje referentnog tečaja za odabrani datum…
@@ -382,7 +382,7 @@ Android aplikacija nudi grafikone tečaja za 30 dana, prikvačene parove, spreml
 - Odabrali ste {selectedDate}; najbliži dostupni objavljeni podaci koje vraća API imaju datum {date}.
 - Odbij analitiku
 - Početna
-- Početna stranica Balkan Currency Converter
+- Početna stranica BALCO Converter
 - Pogledajte povijesne referentne tečajeve, prilagodljiv grafikon, statistiku razdoblja i tečaj za određeni datum.
 - Pogledajte povijest tečaja valutnog para za 30 dana, 90 dana ili jednu godinu te pronađite referentni tečaj za određeni datum.
 - Politika privatnosti
@@ -391,11 +391,11 @@ Android aplikacija nudi grafikone tečaja za 30 dana, prikvačene parove, spreml
 - Potreban je barem jedan valjani povijesni tečaj.
 - Povijesne tečajeve nije moguće učitati. Provjerite vezu i pokušajte ponovno.
 - Povijesni tečaj prema datumu
-- Povijest i grafikon tečaja | Balkan Converter
+- Povijest i grafikon tečaja | BALCO Converter
 - Povijest referentnog tečaja {base}/{quote} od {from} do {to}. Minimum: {minimum}, maksimum: {maximum}.
 - Povijest tečaja {base}/{quote}
 - Pretraživanje tečaja…
-- Preuzmite Balkan Currency Converter na Google Playu
+- Preuzmite BALCO Converter na Google Playu
 - Preuzmite na Google Playu
 - Prihvati analitiku
 - Prijeđi na povijest tečaja
@@ -418,44 +418,44 @@ Android aplikacija nudi grafikone tečaja za 30 dana, prikvačene parove, spreml
 
 URL: `/hr/currency-converter-widget/`
 
-Title: Widget pretvarača valuta za Android | Balkan Converter
+Title: Widget pretvarača valuta za Android | BALCO Converter
 
 Meta description: Dodajte widget pretvarača valuta na početni zaslon Android uređaja za brz pristup spremljenom tečaju, datumu tečaja, zamjeni valuta i otvaranju aplikacije.
 
 ### Cjelovit vidljivi tekst glavnog sadržaja
 
 ```text
-Natrag na Balkan Currency Converter
+Natrag na BALCO Converter
 Vodič za početni zaslon Android uređaja
 Widget pretvarača valuta za Android
-Držite važan valutni par na početnom zaslonu. Widget Balkan Convertera prikazuje spremljeni referentni tečaj i njegov datum, otvara taj par u aplikaciji, a u širem prikazu omogućuje brzu zamjenu valuta.
+Držite važan valutni par na početnom zaslonu. Widget BALCO Convertera prikazuje spremljeni referentni tečaj i njegov datum, otvara taj par u aplikaciji, a u širem prikazu omogućuje brzu zamjenu valuta.
 Kako dodati widget
-Widget Balkan Convertera iz produkcijske verzije na uobičajenom početnom zaslonu Android uređaja.
+Widget BALCO Convertera iz produkcijske verzije na uobičajenom početnom zaslonu Android uređaja.
 Četiri brza koraka
 Dodajte valutni widget
 Nazivi opcija mogu se malo razlikovati među Android uređajima, ali je uobičajeni postupak na početnom zaslonu isti.
 Pripremite par
-Otvorite Balkan Converter, odaberite valute koje želite i dopustite da se najnoviji referentni tečajevi uspješno učitaju.
+Otvorite BALCO Converter, odaberite valute koje želite i dopustite da se najnoviji referentni tečajevi uspješno učitaju.
 Otvorite odjeljak Widgeti
 Dodirnite i držite prazno mjesto na početnom zaslonu Android uređaja, a zatim odaberite Widgeti.
 Postavite ga
-Pronađite Balkan Converter i povucite valutni widget na slobodno mjesto na početnom zaslonu.
+Pronađite BALCO Converter i povucite valutni widget na slobodno mjesto na početnom zaslonu.
 Prilagodite veličinu i koristite ga
 Prilagodite veličinu po potrebi. Dodirnite karticu kako biste otvorili taj par u aplikaciji; širi widget ima i gumb za zamjenu valuta.
 Što widget prikazuje
 Kartica prikazuje referentni tečaj za odabrani par plus oznaku svježine i datum tečaja. Svaki widget počinje s parom koji je zadnji korišten u aplikaciji, a zatim pamti vlastiti par.
-Dodirom na widget otvara se Balkan Converter s već odabranim valutama. Na widgetu srednje širine gumb za zamjenu mijenja njihov redoslijed izravno na početnom zaslonu.
+Dodirom na widget otvara se BALCO Converter s već odabranim valutama. Na widgetu srednje širine gumb za zamjenu mijenja njihov redoslijed izravno na početnom zaslonu.
 Zašto je datum bitan
-Widget koristi posljednji uspješno spremljen skup tečajeva iz aplikacije; nije neovisan izvor tržišnih podataka uživo. Kada Balkan Converter uspješno osvježi tečajeve, instalirani widgeti dobivaju ažurirane predmemorirane podatke.
+Widget koristi posljednji uspješno spremljen skup tečajeva iz aplikacije; nije neovisan izvor tržišnih podataka uživo. Kada BALCO Converter uspješno osvježi tečajeve, instalirani widgeti dobivaju ažurirane predmemorirane podatke.
 Bez interneta za približne izračune ostaje dostupan prethodni referentni tečaj, a datum pokazuje koliko su podaci svježi. Više o tome pročitajte u vodiču za preračun bez interneta.
 Kompaktan ili širok prikaz?
 Kompaktan prikaz zauzima manje mjesta, a tečaj i datum ostaju vidljivi. Proširite widget ako želite zaseban gumb za zamjenu valuta.
 Pokretači sustava Android određuju točnu veličinu mreže, pa se dostupni koraci za promjenu veličine mogu razlikovati između telefona i tableta.
 Kada trebate više valutnih parova
 Otvorite aplikaciju kako biste unijeli iznos, izvršili preračun, pogledali grafikon tečaja, usporedili više valuta ili pripremili spremljene tečajeve za rad bez interneta.
-Widget služi za brz pregled i otvaranje aplikacije, dok Balkan Converter omogućuje cijeli postupak preračunavanja.
+Widget služi za brz pregled i otvaranje aplikacije, dok BALCO Converter omogućuje cijeli postupak preračunavanja.
 Tečaj na prvi pogled
-Dodajte Balkan Converter na svoj početni zaslon
+Dodajte BALCO Converter na svoj početni zaslon
 Instalirajte Android aplikaciju, otvorite željeni valutni par i postavite widget na mjesto koje vam najviše odgovara.
 ```
 
@@ -467,14 +467,14 @@ Instalirajte Android aplikaciju, otvorite željeni valutni par i postavite widge
 
 URL: `/hr/foreign-transaction-fee-calculator/`
 
-Title: Kalkulator naknada i DCC-a | Balkan Converter
+Title: Kalkulator naknada i DCC-a | BALCO Converter
 
 Meta description: Usporedite plaćanje u lokalnoj valuti s DCC ponudom trgovca ili bankomata. Uključite postotnu i fiksnu naknadu prema aktualnim referentnim tečajevima.
 
 ### Cjelovit vidljivi tekst glavnog sadržaja
 
 ```text
-Natrag na Balkan Currency Converter
+Natrag na BALCO Converter
 Usporedba kartice i bankomata
 Kalkulator naknada i DCC-a
 Plaćati u lokalnoj valuti ili koristiti ponuđenu konverziju? Procijenite obje opcije prema najnovijem dostupnom referentnom tečaju i naknadama koje unesete.
@@ -515,13 +515,13 @@ Koristite Kalkulator razlike tečaja ako želite samo usporediti ponudu mjenjač
 Referentni tečaj i datum
 Referentni tečaj služi kao neutralna osnova za usporedbu i ne jamči tečaj transakcije. Uz rezultat je prikazan tržišni datum koji je vratio Frankfurter API za referentne tečajeve.
 Usporedite na svom telefonu
-Provjerite ponude za razmjenu u aplikaciji Balkan Converter
-Balkan Converter za Android ima zaslon Stvarni trošak razmjene za usporedbu ponude mjenjačnice i njezinih naknada s referentnim rezultatom.
+Provjerite ponude za razmjenu u aplikaciji BALCO Converter
+BALCO Converter za Android ima zaslon Stvarni trošak razmjene za usporedbu ponude mjenjačnice i njezinih naknada s referentnim rezultatom.
 ```
 
 ### Dodatne dinamičke poruke
 
-- © 2026 Balkan Currency Converter
+- © 2026 BALCO Converter
 - Datum
 - Datum referentnog tečaja nije dostupan.
 - DCC je ispod referentnog rezultata
@@ -530,7 +530,7 @@ Balkan Converter za Android ima zaslon Stvarni trošak razmjene za usporedbu pon
 - Glavna navigacija
 - Izbori analitike
 - Iznos i tečajevi moraju biti pozitivni brojevi.
-- Kalkulator naknada i DCC-a | Balkan Converter
+- Kalkulator naknada i DCC-a | BALCO Converter
 - Kalkulator naknada za transakcije u inozemstvu
 - Konverzija valuta za Android
 - Na primjer, 90
@@ -545,11 +545,11 @@ Balkan Converter za Android ima zaslon Stvarni trošak razmjene za usporedbu pon
 - Odaberite dvije različite valute.
 - Odbij analitiku
 - Početna
-- Početna stranica Balkan Currency Converter
+- Početna stranica BALCO Converter
 - Politika privatnosti
 - Pomozite nam razumjeti kako se stranica koristi. Firebase Analytics ostaje isključen dok ne prihvatite.
 - Ponuđeni iznos DCC-a mora biti veći od nule.
-- Preuzmite Balkan Currency Converter na Google Playu
+- Preuzmite BALCO Converter na Google Playu
 - Preuzmite na Google Playu
 - Prihvati analitiku
 - Prijeđi na kalkulator
@@ -579,14 +579,14 @@ Balkan Converter za Android ima zaslon Stvarni trošak razmjene za usporedbu pon
 
 URL: `/hr/travel-budget-calculator/`
 
-Title: Kalkulator proračuna putovanja u dvije valute | Balkan Converter
+Title: Kalkulator proračuna putovanja u dvije valute | BALCO Converter
 
 Meta description: Procijenite proračun putovanja po danima i kategorijama, dodajte fiksne troškove i rezervu te preračunajte ukupan iznos po aktualnom referentnom tečaju.
 
 ### Cjelovit vidljivi tekst glavnog sadržaja
 
 ```text
-Natrag na Balkan Currency Converter
+Natrag na BALCO Converter
 Besplatan alat za procjenu proračuna putovanja
 Kalkulator proračuna putovanja
 Procijenite trošak svog putovanja u dvije valute. Dodajte dnevne troškove, fiksne troškove i neobaveznu rezervu — registracija nije potrebna.
@@ -626,12 +626,12 @@ Usporedite jedan iznos u više valuta pomoću Viševalutnog pretvarača, obavite
 Smještaj, prehrana, lokalni prijevoz i aktivnosti dnevni su iznosi. Dodajte letove, željezničke karte ili druge jednokratne troškove pod fiksne troškove putovanja.
 Valute za vaše putovanje
 Držite potrebne valute na jednom mjestu
-Balkan Converter za Android nudi Viševalutnu ploču i spremljene skupove kako bi vam potrebne valute za putovanje bile pri ruci.
+BALCO Converter za Android nudi Viševalutnu ploču i spremljene skupove kako bi vam potrebne valute za putovanje bile pri ruci.
 ```
 
 ### Dodatne dinamičke poruke
 
-- © 2026 Balkan Currency Converter
+- © 2026 BALCO Converter
 - Dani putovanja moraju biti cijeli broj veći od nule.
 - Datum
 - Datum referentnog tečaja nije dostupan.
@@ -640,18 +640,18 @@ Balkan Converter za Android nudi Viševalutnu ploču i spremljene skupove kako b
 - Glavna navigacija
 - Izbori analitike
 - Iznosi troškova i rezerva ne mogu biti negativni.
-- Kalkulator proračuna putovanja u dvije valute | Balkan Converter
+- Kalkulator proračuna putovanja u dvije valute | BALCO Converter
 - Konverzija valuta za Android
 - Navigacija podnožja
 - Neobavezna analitika
 - Odaberite dvije različite valute.
 - Odbij analitiku
 - Početna
-- Početna stranica Balkan Currency Converter
+- Početna stranica BALCO Converter
 - Politika privatnosti
 - Pomozite nam razumjeti kako se stranica koristi. Firebase Analytics ostaje isključen dok ne prihvatite.
 - Pretvarač valuta
-- Preuzmite Balkan Currency Converter na Google Playu
+- Preuzmite BALCO Converter na Google Playu
 - Preuzmite na Google Playu
 - Prihvati analitiku
 - Prijeđi na kalkulator

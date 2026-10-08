@@ -18,7 +18,7 @@ Meta description: Umbreyttu upphæð milli tveggja gjaldmiðla með nýjustu fá
 ### Complete visible main content
 
 ```text
-Aftur í Balkan Currency Converter
+Aftur í BALCO Converter
 Ókeypis gjaldeyristæki
 Gjaldmiðlabreytir
 Umbreyttu upphæð milli tveggja gjaldmiðla og sjáðu nýjasta tiltæka viðmiðunargengið, dagsetningu þess og uppruna.
@@ -40,19 +40,19 @@ Dagsetningin sem birtist segir þér hvaða markaðsdag viðmiðunargögnin ták
 Þarftu aðra sýn?
 Fylgstu með þróun gjaldmiðlapars í gengissögunni, berðu eina upphæð saman í mörgum gjaldmiðlum með fjölgjaldmiðlareiknivélinni, mettu skiptitilboð með reiknivélinni fyrir gengisálag eða berðu saman kostnað við kort, reiðufjárúttekt og DCC með gjalda- og DCC-reiknivélinni.
 Fleiri verkfæri á Android
-Umbreyttu með Balkan Converter
+Umbreyttu með BALCO Converter
 Android appið bætir við reiknivél, gjöldum án nettengingar, ferðaborði, raunkostnaði, vistuðum settum, sögu, töflum og heimaskjágræju.
 ```
 
 ### Additional dynamic messages
 
-- © 2026 Balkan Currency Converter
+- © 2026 BALCO Converter
 - Aðalleiðsögn
-- Balkan Currency Converter heimili
+- BALCO Converter heimili
 - Dagsetning gengis er ekki tiltæk.
 - Ekki tókst að hlaða gengunum. Athugaðu tenginguna og reyndu aftur.
 - Farðu í breytir
-- Fáðu Balkan Currency Converter á Google Play
+- Fáðu BALCO Converter á Google Play
 - Fáðu það á Google Play
 - Fjölmynt
 - Fótleiðsögn
@@ -89,14 +89,14 @@ Android appið bætir við reiknivél, gjöldum án nettengingar, ferðaborði, 
 
 URL: `/is/exchange-rate-markup-calculator/`
 
-Title: Gengisálagningarreiknivél | Balkan Currency Converter
+Title: Gengisálagningarreiknivél | BALCO Converter
 
 Meta description: Berðu skiptitilboð saman við nýjasta viðmiðunargengið. Reiknaðu upphæðina sem þú færð, mismuninn og raunverulegt gengisálag.
 
 ### Complete visible main content
 
 ```text
-Aftur í Balkan Currency Converter
+Aftur í BALCO Converter
 Ókeypis gjaldeyristæki
 Gengisálagningarreiknivél
 Berðu saman upphæðina sem skiptiþjónusta býður upp á við nýjasta tiltæka viðmiðunargengi. Sjáðu muninn og skilvirka álagningu áður en þú skiptir.
@@ -125,15 +125,15 @@ Mikilvægt að vita
 Þetta er upplýsandi samanburður, ekki fjármálaráðgjöf. Tilboð getur innihaldið þjónustugjöld, kortagjöld, kostnað við reiðufé eða gengismun þjónustuveitanda. Viðmiðunargengi eru ekki tryggð viðskiptagengi.
 Ertu að bera saman kortagreiðslu eða reiðufjárúttekt við boðna umbreytingu í kortagjaldmiðil? Notaðu gjalda- og DCC-reiknivélina. Opnaðu gjaldeyrisreiknivélina fyrir hraðan útreikning á gjaldmiðlapari. Berðu eina upphæð saman í mörgum gjaldmiðlum með fjölgjaldmiðlareiknivélina; leiðbeiningarnar um notkun án internets útskýrir hvernig vistuð gengi virka.
 Þarftu þetta á ferðinni?
-Berðu saman kostnað í Balkan Converter
+Berðu saman kostnað í BALCO Converter
 Android appið bætir við raunkostnaði, gjöldum án nettengingar, ferðaborði, vistuðum settum, töflum og heimaskjágræju.
 ```
 
 ### Additional dynamic messages
 
-- © 2026 Balkan Currency Converter
+- © 2026 BALCO Converter
 - Aðalleiðsögn
-- Balkan Currency Converter heimili
+- BALCO Converter heimili
 - Berðu saman skiptitilboð við nýjasta viðmiðunargengið og reiknaðu út virka álagningu.
 - Berðu saman skiptitilboð við nýjustu viðmiðunargengi.
 - Berðu skiptitilboð saman við nýjasta viðmiðunargengið. Reiknaðu upphæðina sem þú færð, mismuninn og raunverulegt gengisálag.
@@ -141,11 +141,11 @@ Android appið bætir við raunkostnaði, gjöldum án nettengingar, ferðaborð
 - Ekki tókst að hlaða gengunum. Athugaðu tenginguna og reyndu aftur.
 - Engum viðmiðunartöxtum var skilað.
 - Farðu í reiknivél
-- Fáðu Balkan Currency Converter á Google Play
+- Fáðu BALCO Converter á Google Play
 - Fáðu það á Google Play
 - Fótleiðsögn
 - Gefa
-- Gengisálagningarreiknivél | Balkan Currency Converter
+- Gengisálagningarreiknivél | BALCO Converter
 - Gjaldmiðlabreytir
 - Greiningarval
 - Gögn um viðmiðunarhlutfall eru ófullnægjandi.
@@ -185,12 +185,12 @@ URL: `/is/multi-currency-converter/`
 
 Title: Multi-gjaldmiðilsbreytir | Umbreyttu einni upphæð í marga gjaldmiðla
 
-Meta description: Umbreyttu einni upphæð í nokkra gjaldmiðla í einu með nýjustu tiltæku viðmiðunargenginu. Ókeypis fjölgjaldeyrisbreytir frá Balkan Converter.
+Meta description: Umbreyttu einni upphæð í nokkra gjaldmiðla í einu með nýjustu tiltæku viðmiðunargenginu. Ókeypis fjölgjaldeyrisbreytir frá BALCO Converter.
 
 ### Complete visible main content
 
 ```text
-Aftur í Balkan Currency Converter
+Aftur í BALCO Converter
 Ókeypis gjaldeyristæki
 Multi-gjaldmiðilsbreytir
 Sláðu inn eina upphæð og berðu gildi hennar samtímis saman í nokkrum gjaldmiðlum með nýjustu tiltæku viðmiðunargengunum.
@@ -207,19 +207,19 @@ Verð eru viðmiðunargildi og geta verið frábrugðin því gjaldi sem banki, 
 Veldu rétta sýn
 Notaðu gjaldeyrisreiknivélina fyrir eitt gjaldmiðlapar. Skoðaðu þróunina í gengissögunni, mettu skiptitilboð með reiknivélinni fyrir gengisálag og lestu í leiðbeiningunum um notkun án internets hvernig vistuð gengi eru notuð án internets.
 Fleiri gjaldmiðlar á ferðinni
-Notaðu Travel Board í Balkan Converter
+Notaðu Travel Board í BALCO Converter
 Android-appið heldur nokkrum ferðagjaldmiðlum saman, leyfir breytta röð og getur undirbúið gengi til notkunar án internets.
 ```
 
 ### Additional dynamic messages
 
-- © 2026 Balkan Currency Converter
+- © 2026 BALCO Converter
 - Aðalleiðsögn
-- Balkan Currency Converter heimili
+- BALCO Converter heimili
 - Dagsetning
 - Ekki tókst að hlaða gengunum. Athugaðu tenginguna og reyndu aftur.
 - Farðu í breytir
-- Fáðu Balkan Currency Converter á Google Play
+- Fáðu BALCO Converter á Google Play
 - Fáðu það á Google Play
 - Fjarlægðu markgjaldmiðil
 - Fjölgjaldeyrisbreytir
@@ -250,7 +250,7 @@ Android-appið heldur nokkrum ferðagjaldmiðlum saman, leyfir breytta röð og 
 - Sækir nýjustu viðmiðunargengin…
 - Til
 - Umbreyttu einni upphæð í nokkra gjaldmiðla á sama tíma.
-- Umbreyttu einni upphæð í nokkra gjaldmiðla í einu með nýjustu tiltæku viðmiðunargenginu. Ókeypis fjölgjaldeyrisbreytir frá Balkan Converter.
+- Umbreyttu einni upphæð í nokkra gjaldmiðla í einu með nýjustu tiltæku viðmiðunargenginu. Ókeypis fjölgjaldeyrisbreytir frá BALCO Converter.
 - Umbreyttu einni upphæð í nokkra gjaldmiðla með því að nota nýjustu tiltæku viðmiðunargengi.
 - Umreikningur gjaldmiðils fyrir Android
 - Umreiknuð upphæð
@@ -274,7 +274,7 @@ Meta description: Lærðu hvernig gjaldeyrisbreytir án nettengingar notar dagse
 ### Complete visible main content
 
 ```text
-Aftur í Balkan Currency Converter
+Aftur í BALCO Converter
 Leiðbeiningar um gengi án nettengingar
 Gjaldmiðlabreytir án nettengingar: Hvernig vistuð gengi virkar
 Umbreytir getur haldið áfram að vinna án internets með því að nota nýjustu gengi sem hann hefur vistað í tækinu þínu. Þessi gjöld eru gagnleg viðmiðunargögn - en þau eru bundin við upphaflega dagsetningu þar til appið getur endurnýjað þau á netinu.
@@ -291,7 +291,7 @@ Hvað þýðir vistað gjald án nettengingar
 Vistuðu gögnin eru skyndimynd af nýjasta árangursríka svari með viðmiðunargengi. Þau má nota til útreikninga án nettengingar, en gildin uppfærast ekki meðan tækið er án internets.
 Athugaðu alltaf gjalddagsetninguna sem birtist. Niðurstaða byggð á gengi gærdagsins gæti samt verið gagnleg við skipulagningu, en hún er ekki loforð um það gengi sem banki, kortafyrirtæki eða skiptiskrifstofa mun bjóða upp á í dag.
 Hvað gerist þegar internetið kemur aftur?
-Balkan Converter notar eitt sameiginlegt staðbundið verðskyndiminni fyrir venjulega umbreytingu og undirbúning vistaðs setts. Vel heppnuð endurnýjun á netinu kemur í stað eldri skyndiminni gagnasafnsins og uppfærir dagsetningu þess og sparar tíma.
+BALCO Converter notar eitt sameiginlegt staðbundið verðskyndiminni fyrir venjulega umbreytingu og undirbúning vistaðs setts. Vel heppnuð endurnýjun á netinu kemur í stað eldri skyndiminni gagnasafnsins og uppfærir dagsetningu þess og sparar tíma.
 Ef endurnýjunin mistekst fellur appið aftur í fyrri hraða í skyndiminni í stað þess að eyða þeim.
 Undirbúðu vistað sett til notkunar án nettengingar
 Í Android appinu skaltu búa til eða opna vistað sett fyrir þá gjaldmiðla sem þú þarft. Þegar þú ert tengdur skaltu velja Vista gengi til notkunar án internets. Forritið endurnýjar samnýtt gengisgagnasett og staðfestir viðbúnað þegar vistaða skyndiminni inniheldur hvern gjaldmiðil í því setti.
@@ -300,7 +300,7 @@ Gagnlegt umfram ferðalög
 Umbreyting án nettengingar getur hjálpað til við lélega tengingu, reikiröskun, tímabundið þjónustuleysi eða hvaða aðstæður sem er þar sem skjót viðmiðunarmat er gagnlegra en engin niðurstaða.
 Skoðaðu leiðbeiningarnar fyrir Android-græjuna til að fá skjótan aðgang að vistuðu gjaldmiðlapari. Notaðu gjaldeyrisreiknivélina fyrir útreikning á netinu, berðu eina upphæð saman í mörgum gjaldmiðlum með fjölgjaldmiðlareiknivélina eða mettu skiptitilboð með reiknivélina fyrir gengisálag.
 Hafðu dagsett tilvísun við höndina
-Notaðu vistuð gengi í Balkan Converter
+Notaðu vistuð gengi í BALCO Converter
 Android appið getur endurnýtt nýjasta árangursríka gengisskyndiminni án tengingar og auðkennir gögn í skyndiminni og gengisdagsetningu þess greinilega.
 ```
 
@@ -312,14 +312,14 @@ Android appið getur endurnýtt nýjasta árangursríka gengisskyndiminni án te
 
 URL: `/is/exchange-rate-history/`
 
-Title: Gengissaga og myntmynd | Balkan Converter
+Title: Gengissaga og myntmynd | BALCO Converter
 
 Meta description: Skoðaðu 30 daga, 90 daga eða eins árs gengissögu, kortaðu gjaldmiðlapar og flettu upp viðmiðunargengi fyrir tiltekna dagsetningu.
 
 ### Complete visible main content
 
 ```text
-Aftur í Balkan Currency Converter
+Aftur í BALCO Converter
 Sögulegt viðmiðunarhlutfall tól
 Gengissaga og gjaldmiðilsrit
 Kannaðu hvernig gjaldmiðlapar færðist yfir 30 daga, 90 daga eða eitt ár og flettu upp viðmiðunargengi fyrir tiltekna dagsetningu.
@@ -358,7 +358,7 @@ Dagsetningar og stefnur
 Notaðu töfluna til að sjá stefnu og afbrigði, ekki til að spá fyrir um næstu hreyfingu. Sumar veitendur birta ekki á hverjum almanaksdegi. Ef API skilar gögnum frá annarri tiltækri dagsetningu tilkynnir uppflettingin þessa raunverulegu gagnadagsetningu í stað þess að kynna hana sem daginn sem þú valdir.
 Notaðu gjaldeyrisreiknivélina fyrir útreikning með nýjasta tiltæka genginu. Opnaðu reiknivélina fyrir gengisálag til að bera skiptitilboð saman við niðurstöðuna samkvæmt viðmiðunargenginu.
 Haltu gagnlegum pörum nálægt
-Skoðaðu töflur í Balkan Converter
+Skoðaðu töflur í BALCO Converter
 Android appið inniheldur 30 daga vaxtatöflur, fest pör, ótengd viðmiðunargengi og önnur gjaldmiðlaverkfæri.
 ```
 
@@ -367,20 +367,20 @@ Android appið inniheldur 30 daga vaxtatöflur, fest pör, ótengd viðmiðunarg
 - {base} til {quote} viðmiðunarhlutfallssögu frá {from} til {to}. Lágmark {minimum}, hámark {maximum}.
 - {base}/{quote} gengissaga
 - {count} dagsett viðmiðunargengi hlaðið.
-- © 2026 Balkan Currency Converter
+- © 2026 BALCO Converter
 - Aðalleiðsögn
 - API skilaði tilvísunargögnum dagsettum {date}.
 - Áskilið er að minnsta kosti eitt gilt sögulegt gengi.
-- Balkan Currency Converter heimili
+- BALCO Converter heimili
 - Ekki var hægt að hlaða söguleg gengi. Athugaðu tenginguna þína og reyndu aftur.
 - Ekki var hægt að hlaða sögulegu gengi fyrir þá dagsetningu og pör.
 - Engin söguleg gengi eru tiltæk fyrir þetta val.
 - Farðu í gengissögu
-- Fáðu Balkan Currency Converter á Google Play
+- Fáðu BALCO Converter á Google Play
 - Fáðu það á Google Play
 - Fjölmynt
 - Fótleiðsögn
-- Gengissaga og myntmynd | Balkan Converter
+- Gengissaga og myntmynd | BALCO Converter
 - Gengissögurit
 - Gengissögustýringar og graf
 - Gjaldeyrisbreytir
@@ -420,44 +420,44 @@ Android appið inniheldur 30 daga vaxtatöflur, fest pör, ótengd viðmiðunarg
 
 URL: `/is/currency-converter-widget/`
 
-Title: Gjaldmiðlabreytibúnaður fyrir Android | Balkan Converter
+Title: Gjaldmiðlabreytibúnaður fyrir Android | BALCO Converter
 
 Meta description: Bættu gjaldeyrisbreytibúnaði við Android heimaskjáinn þinn til að fá skjótan aðgang að gengi í skyndiminni, gengisdagsetningu, skiptiaðgerð og flýtileið fyrir forrit.
 
 ### Complete visible main content
 
 ```text
-Aftur í Balkan Currency Converter
+Aftur í BALCO Converter
 Android leiðarvísir fyrir heimaskjáinn
 Gjaldmiðlabreytir græja fyrir Android
-Hafðu gagnlegt gjaldmiðlapar á heimaskjánum. Balkan Converter-græjan sýnir vistað viðmiðunargengi og dagsetningu gagnanna, opnar parið í appinu og býður upp á skjót skipti í breiðu útliti.
+Hafðu gagnlegt gjaldmiðlapar á heimaskjánum. BALCO Converter-græjan sýnir vistað viðmiðunargengi og dagsetningu gagnanna, opnar parið í appinu og býður upp á skjót skipti í breiðu útliti.
 Hvernig á að bæta við búnaðinum
-Raunveruleg Balkan Converter-græja á venjulegum Android-heimaskjá.
+Raunveruleg BALCO Converter-græja á venjulegum Android-heimaskjá.
 Fjögur fljótleg skref
 Bættu við gjaldeyrisgræjunni
 Sjósetjamerki eru örlítið breytileg eftir Android tæki, en staðlað flæði heimaskjásins er það sama.
 Undirbúa par
-Opnaðu Balkan Converter, veldu gjaldmiðlana sem þú vilt og láttu nýjustu viðmiðunargengi hlaðast með góðum árangri.
+Opnaðu BALCO Converter, veldu gjaldmiðlana sem þú vilt og láttu nýjustu viðmiðunargengi hlaðast með góðum árangri.
 Opnaðu græjur
 Haltu inni tómum hluta Android heimaskjásins og veldu síðan Græjur.
 Settu það
-Finndu Balkan Converter og dragðu gjaldeyrisgræjuna á laust svæði á heimaskjánum þínum.
+Finndu BALCO Converter og dragðu gjaldeyrisgræjuna á laust svæði á heimaskjánum þínum.
 Breyta stærð og nota
 Breyttu stærðinni til að passa. Pikkaðu á kortið til að opna það par í appinu; breiðari búnaðurinn sýnir einnig skiptahnapp.
 Það sem búnaðurinn sýnir
 Kortið sýnir viðmiðunarhlutfall fyrir valið par ásamt ferskleikamerki og gjalddagsetningu. Hver búnaður byrjar á parinu sem síðast var notað í appinu og man síðan sitt eigið par.
-Með því að smella á græjuna opnast Balkan Converter með þá gjaldmiðla tilbúna. Á meðalbreiðri græju snýr skiptistýringin við parinu beint á heimaskjánum.
+Með því að smella á græjuna opnast BALCO Converter með þá gjaldmiðla tilbúna. Á meðalbreiðri græju snýr skiptistýringin við parinu beint á heimaskjánum.
 Hvers vegna dagsetningin skiptir máli
-Græjan notar nýjasta gengissafnið sem appið vistaði með góðum árangri; hún er ekki sjálfstæður markaðsgagnastraumur í rauntíma. Þegar Balkan Converter endurnýjar gengin fá uppsettar græjur uppfærð skyndiminnisgögn.
+Græjan notar nýjasta gengissafnið sem appið vistaði með góðum árangri; hún er ekki sjálfstæður markaðsgagnastraumur í rauntíma. Þegar BALCO Converter endurnýjar gengin fá uppsettar græjur uppfærð skyndiminnisgögn.
 Án internets má enn nota síðast vistaða viðmiðunargengið til áætlana, en dagsetningin sýnir aldur gagnanna. Lestu meira í leiðbeiningunum um notkun án internets.
 Lítið eða breitt skipulag?
 Fyrirferðarlítið skipulag heldur hraða og dagsetningu sýnilegri á minna plássi. Gerðu græjuna breiðari þegar þú vilt sérstaka skiptiaðgerð samhliða genginu.
 Android sjósetjarar stjórna nákvæmri riststærð, þannig að tiltæk stærðarþrep geta verið mismunandi milli síma og spjaldtölva.
 Fyrir fleiri en eitt fljótlegt par
 Opnaðu appið til að slá inn upphæð, reikna milli gjaldmiðla, skoða gengissöguna, bera saman marga gjaldmiðla eða vista gengi til notkunar án internets.
-Græjan er hönnuð sem fljótleg sýn og flýtileið, en Balkan Converter veitir fullkomið umbreytingarverkflæði.
+Græjan er hönnuð sem fljótleg sýn og flýtileið, en BALCO Converter veitir fullkomið umbreytingarverkflæði.
 Umbreyting í hnotskurn
-Bættu Balkan Converter við heimaskjáinn þinn
+Bættu BALCO Converter við heimaskjáinn þinn
 Settu upp Android-appið, hlaðaðu valið gjaldmiðlapar og settu síðan raunverulegu gjaldeyrisgræjuna þar sem auðveldast er að nálgast hana.
 ```
 
@@ -469,14 +469,14 @@ Settu upp Android-appið, hlaðaðu valið gjaldmiðlapar og settu síðan raunv
 
 URL: `/is/foreign-transaction-fee-calculator/`
 
-Title: Gjald fyrir erlend viðskipti og DCC reiknivél | Balkan Converter
+Title: Gjald fyrir erlend viðskipti og DCC reiknivél | BALCO Converter
 
 Meta description: Berðu saman greiðslu í staðbundnum gjaldmiðli við DCC-tilboð við kortagreiðslu eða hraðbanka. Taktu með prósentugjald fyrir erlend viðskipti og föst gjöld samkvæmt gildandi viðmiðunargengi.
 
 ### Complete visible main content
 
 ```text
-Aftur í Balkan Currency Converter
+Aftur í BALCO Converter
 Samanburður korta og hraðbanka
 Erlend viðskiptagjald og DCC reiknivél
 Borga í staðbundinni gjaldmiðli eða nota umreikninginn sem boðið er upp á? Áætlaðu báða valkostina út frá nýjustu fáanlegu viðmiðunargenginu og gjöldunum sem þú slærð inn.
@@ -517,16 +517,16 @@ Ef þú vilt aðeins bera skiptitilboð saman við niðurstöðuna samkvæmt vi�
 Viðmiðunarhlutfall og dagsetning
 Viðmiðunargengi veita hlutlausan samanburðargrunn, ekki tryggt viðskiptagengi. Niðurstaðan sýnir markaðsdagsetninguna sem Frankfurter-API fyrir viðmiðunargengi skilar.
 Berðu saman í símanum þínum
-Athugaðu skiptitilboð með Balkan Converter
-Balkan Converter fyrir Android inniheldur raunkostnað við að bera saman skiptitilboð og gjöld þess með viðmiðunarniðurstöðu.
+Athugaðu skiptitilboð með BALCO Converter
+BALCO Converter fyrir Android inniheldur raunkostnað við að bera saman skiptitilboð og gjöld þess með viðmiðunarniðurstöðu.
 ```
 
 ### Additional dynamic messages
 
-- © 2026 Balkan Currency Converter
+- © 2026 BALCO Converter
 - Aðalleiðsögn
 - Áætlaðu kortakostnað í staðbundnum gjaldmiðli og berðu saman valfrjálsa DCC tilboð.
-- Balkan Currency Converter heimili
+- BALCO Converter heimili
 - Berðu saman áætlaðan heimagjaldmiðilskostnað við að greiða í staðbundinni mynt við valfrjálsa Dynamic Currency Conversion tilboð.
 - Berðu saman greiðslu í staðbundnum gjaldmiðli við DCC-tilboð við kortagreiðslu eða hraðbanka. Taktu með prósentugjald fyrir erlend viðskipti og föst gjöld samkvæmt gildandi viðmiðunargengi.
 - Berðu saman staðbundið gjaldmiðilskort eða hraðbankafærslu með boðinu umreikningi.
@@ -540,13 +540,13 @@ Balkan Converter fyrir Android inniheldur raunkostnað við að bera saman skipt
 - Erlent viðskiptagjald ({percentage}%)
 - Erlent viðskiptagjald og DCC reiknivél
 - Farðu í reiknivél
-- Fáðu Balkan Currency Converter á Google Play
+- Fáðu BALCO Converter á Google Play
 - Fáðu það á Google Play
 - Fótleiðsögn
 - Frankfurter API viðmiðunarhlutfall
 - Frá
 - Gefa
-- Gjald fyrir erlend viðskipti og DCC reiknivél | Balkan Converter
+- Gjald fyrir erlend viðskipti og DCC reiknivél | BALCO Converter
 - Gjaldeyrisbreytir
 - Gjaldmiðlabreytir
 - Gjöld mega ekki vera neikvæð.
@@ -586,14 +586,14 @@ Balkan Converter fyrir Android inniheldur raunkostnað við að bera saman skipt
 
 URL: `/is/travel-budget-calculator/`
 
-Title: Ferðakostnaðarreikningur í tveimur gjaldmiðlum | Balkan Converter
+Title: Ferðakostnaðarreikningur í tveimur gjaldmiðlum | BALCO Converter
 
 Meta description: Áætlaðu kostnaðarhámark ferðar eftir degi og flokkum, bættu við föstum kostnaði og biðminni, umbreyttu síðan heildartölunni með núverandi viðmiðunartaxta.
 
 ### Complete visible main content
 
 ```text
-Aftur í Balkan Currency Converter
+Aftur í BALCO Converter
 Ókeypis ferðaáætlunartæki
 Reiknivél fyrir ferðakostnað
 Áætlaðu kostnað ferðarinnar í tveimur gjaldmiðlum. Bættu við daglegum útgjöldum, föstum kostnaði og valfrjálsu biðminni - engin reikningur krafist.
@@ -633,25 +633,25 @@ Hvað á að innihalda
 Gisting, máltíðir, staðbundnar samgöngur og afþreying eru daglegar upphæðir. Bættu við flugi, lestarkortum eða öðrum einskiptiskostnaði undir föstum ferðakostnaði.
 Gjaldmiðlar fyrir ferðina þína
 Hafðu þá gjaldmiðla sem þú þarft saman
-Balkan Converter fyrir Android inniheldur ferðabretti og vistuð sett til að hafa gagnlega ferðagjaldmiðla við höndina.
+BALCO Converter fyrir Android inniheldur ferðabretti og vistuð sett til að hafa gagnlega ferðagjaldmiðla við höndina.
 ```
 
 ### Additional dynamic messages
 
-- © 2026 Balkan Currency Converter
+- © 2026 BALCO Converter
 - Aðalleiðsögn
 - Áætlaðu daglegan ferðakostnað, fastan kostnað og biðminni í tveimur gjaldmiðlum.
 - Áætlaðu kostnaðarhámark ferðar eftir degi og flokkum, bættu við föstum kostnaði og biðminni, umbreyttu síðan heildartölunni með núverandi viðmiðunartaxta.
 - Áætlaðu margra daga ferðaáætlun eftir flokkum í áfangastað og heimagjaldmiðlum.
-- Balkan Currency Converter heimili
+- BALCO Converter heimili
 - Dagsetning
 - Dagsetning viðmiðunargengis er ekki tiltæk.
 - Ekki tókst að hlaða gengunum. Athugaðu tenginguna og reyndu aftur.
 - Farðu í reiknivél
-- Fáðu Balkan Currency Converter á Google Play
+- Fáðu BALCO Converter á Google Play
 - Fáðu það á Google Play
 - Ferðadagar verða að vera heil tala stærri en núll.
-- Ferðakostnaðarreikningur í tveimur gjaldmiðlum | Balkan Converter
+- Ferðakostnaðarreikningur í tveimur gjaldmiðlum | BALCO Converter
 - Fjárhagsáætlun uppfærð frá nýjustu fáanlegu viðmiðunartöxtum.
 - Fjárhæðir fjárhagsáætlunar og biðminni geta ekki verið neikvæðar.
 - Fjölgjaldeyrisbreytir

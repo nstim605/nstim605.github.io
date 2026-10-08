@@ -18,7 +18,7 @@ Meta description: Omvandla ett belopp mellan två valutor med de senaste tillgä
 ### Complete visible main content
 
 ```text
-Tillbaka till Balkan Currency Converter
+Tillbaka till BALCO Converter
 Gratis valutaverktyg
 Valutaomvandlare
 Konvertera ett belopp mellan två valutor och se den senaste tillgängliga referenskursen, dess datum och dess källa.
@@ -40,18 +40,18 @@ Det visade datumet talar om vilken marknadsdag referensdatan representerar.
 Behöver du en annan syn?
 Följ utvecklingen för ett valutapar i valutakurshistoriken, jämför ett belopp i flera valutor med multivalutaomvandlaren, bedöm ett växlingserbjudande med kalkylatorn för kurspåslag eller jämför kostnader för kort, kontantuttag och DCC med avgifts- och DCC-kalkylatorn.
 Fler verktyg på Android
-Konvertera med Balkan Converter
+Konvertera med BALCO Converter
 Android-appen innehåller kalkylator, kurser för användning utan internet, Resepanel, Faktisk kostnad, sparade uppsättningar, historik, diagram och en widget för startskärmen.
 ```
 
 ### Additional dynamic messages
 
-- © 2026 Balkan Currency Converter
+- © 2026 BALCO Converter
 - Acceptera analyser
 - Analytics val
 - Ange ett belopp som är större än noll.
 - Avvisa analyser
-- Balkan Currency Converter hem
+- BALCO Converter hem
 - Belopp och kurser måste vara positiva tal.
 - Betygsätt
 - Byt färgtema
@@ -77,7 +77,7 @@ Android-appen innehåller kalkylator, kurser för användning utan internet, Res
 - Sekretess
 - Sekretesspolicy
 - Sidfotsnavigering
-- Skaffa Balkan Currency Converter på Google Play
+- Skaffa BALCO Converter på Google Play
 - Skaffa den på Google Play
 - Valfri analys
 - Valfritt
@@ -89,14 +89,14 @@ Android-appen innehåller kalkylator, kurser för användning utan internet, Res
 
 URL: `/sv/exchange-rate-markup-calculator/`
 
-Title: Kalkylator för kurspåslag | Balkan Currency Converter
+Title: Kalkylator för kurspåslag | BALCO Converter
 
 Meta description: Jämför ett växlingserbjudande med den senaste referenskursen. Beräkna beloppet du får, skillnaden och det effektiva kurspåslaget.
 
 ### Complete visible main content
 
 ```text
-Tillbaka till Balkan Currency Converter
+Tillbaka till BALCO Converter
 Gratis valutaverktyg
 Kalkylator för kurspåslag
 Jämför beloppet som en växlingstjänst erbjuder med den senaste tillgängliga referenskursen. Se skillnaden och det effektiva kurspåslaget innan du växlar.
@@ -125,18 +125,18 @@ Viktigt att veta
 Detta är en vägledande jämförelse, inte finansiell rådgivning. Ett erbjudande kan innehålla serviceavgifter, kortavgifter, kontanthantering eller leverantörens kursspread. Referenskurser är inte garanterade transaktionskurser.
 Jämför du en kortbetalning eller ett kontantuttag med erbjuden omvandling till kortets valuta? Använd avgifts- och DCC-kalkylatorn. Öppna valutaomvandlaren för en snabb omvandling av ett valutapar. Jämför ett belopp i flera valutor med multivalutaomvandlaren; guiden för användning utan internet förklarar hur sparade kurser fungerar.
 Behöver du detta på språng?
-Jämför kostnader i Balkan Converter
+Jämför kostnader i BALCO Converter
 Android-appen innehåller Faktisk kostnad, kurser för användning utan internet, Resepanel, sparade uppsättningar, diagram och en widget för startskärmen.
 ```
 
 ### Additional dynamic messages
 
-- © 2026 Balkan Currency Converter
+- © 2026 BALCO Converter
 - Acceptera analyser
 - Analytics val
 - Ange två belopp större än noll.
 - Avvisa analyser
-- Balkan Currency Converter hem
+- BALCO Converter hem
 - Belopp och kurser måste vara positiva tal.
 - Beräkningen uppdaterad från de senaste tillgängliga referensräntorna.
 - Betygsätt
@@ -157,7 +157,7 @@ Android-appen innehåller Faktisk kostnad, kurser för användning utan internet
 - Jämför ett byteserbjudande med den senaste referenskursen och beräkna det effektiva påslaget.
 - Jämför ett byteserbjudande med den senaste referenskursen.
 - Jämför ett växlingserbjudande med den senaste referenskursen. Beräkna beloppet du får, skillnaden och det effektiva kurspåslaget.
-- Kalkylator för kurspåslag | Balkan Currency Converter
+- Kalkylator för kurspåslag | BALCO Converter
 - Kurserna kunde inte läsas in. Kontrollera anslutningen och försök igen.
 - Läs mer
 - Läser in de senaste kurserna…
@@ -167,7 +167,7 @@ Android-appen innehåller Faktisk kostnad, kurser för användning utan internet
 - Sekretess
 - Sekretesspolicy
 - Sidfotsnavigering
-- Skaffa Balkan Currency Converter på Google Play
+- Skaffa BALCO Converter på Google Play
 - Skaffa den på Google Play
 - Till exempel 11 500
 - Uppgifterna om referenskurser är ofullständiga.
@@ -183,12 +183,12 @@ URL: `/sv/multi-currency-converter/`
 
 Title: Multi-Currency Converter | Konvertera ett belopp till flera valutor
 
-Meta description: Omvandla ett belopp till flera valutor samtidigt med de senaste tillgängliga referenskurserna. En kostnadsfri multivalutaomvandlare från Balkan Converter.
+Meta description: Omvandla ett belopp till flera valutor samtidigt med de senaste tillgängliga referenskurserna. En kostnadsfri multivalutaomvandlare från BALCO Converter.
 
 ### Complete visible main content
 
 ```text
-Tillbaka till Balkan Currency Converter
+Tillbaka till BALCO Converter
 Gratis valutaverktyg
 Multi-valutakonverterare
 Ange ett belopp och jämför dess värde i flera valutor samtidigt med de senaste tillgängliga referenskurserna.
@@ -205,18 +205,18 @@ Kurserna är referensvärden och kan skilja sig från kursen som en bank, kortut
 Välj rätt vy
 Använd valutaomvandlaren för ett valutapar. Se utvecklingen i valutakurshistoriken, bedöm ett växlingserbjudande med kalkylatorn för kurspåslag och läs i guiden för användning utan internet hur sparade kurser används utan internet.
 Fler valutor på språng
-Använd Travel Board i Balkan Converter
+Använd Travel Board i BALCO Converter
 Android-appen samlar flera resevalutor, låter dig ändra ordningen och kan förbereda kurser för användning utan internet.
 ```
 
 ### Additional dynamic messages
 
-- © 2026 Balkan Currency Converter
+- © 2026 BALCO Converter
 - Acceptera analyser
 - Analytics val
 - Ange ett belopp som är större än noll.
 - Avvisa analyser
-- Balkan Currency Converter hem
+- BALCO Converter hem
 - Behåll minst en målvaluta.
 - Belopp och basränta måste vara positiva tal.
 - Betygsätt
@@ -241,14 +241,14 @@ Android-appen samlar flera resevalutor, låter dig ändra ordningen och kan för
 - Multi-valuta omvandlare
 - Målvaluta
 - Målvalutor måste skilja sig från basvalutan.
-- Omvandla ett belopp till flera valutor samtidigt med de senaste tillgängliga referenskurserna. En kostnadsfri multivalutaomvandlare från Balkan Converter.
+- Omvandla ett belopp till flera valutor samtidigt med de senaste tillgängliga referenskurserna. En kostnadsfri multivalutaomvandlare från BALCO Converter.
 - Omvandlingar uppdaterade från de senaste tillgängliga referenskurserna.
 - Referenskurs
 - Referenskurser daterade {date}.
 - Sekretess
 - Sekretesspolicy
 - Sidfotsnavigering
-- Skaffa Balkan Currency Converter på Google Play
+- Skaffa BALCO Converter på Google Play
 - Skaffa den på Google Play
 - Ta bort målvaluta
 - Valfri analys
@@ -270,7 +270,7 @@ Meta description: Lär dig hur en offlinevalutakonverterare använder daterade, 
 ### Complete visible main content
 
 ```text
-Tillbaka till Balkan Currency Converter
+Tillbaka till BALCO Converter
 Offline växelkursguide
 Offline valutaomvandlare: Hur sparade kurser fungerar
 En valutaomvandlare kan fortsätta fungera utan internet med de senaste kurserna som sparats på enheten. Kurserna är användbara referensdata, men behåller sitt ursprungliga datum tills appen kan uppdatera dem online.
@@ -287,7 +287,7 @@ Vad en sparad offlinehastighet betyder
 De sparade uppgifterna är en ögonblicksbild av det senaste lyckade svaret med referenskurser. De kan användas för omvandlingar utan nätverksanslutning, men värdena uppdateras inte medan enheten är offline.
 Kontrollera alltid det visade kursdatumet. Ett resultat baserat på gårdagens kurser kan fortfarande vara användbart för planering, men garanterar inte den kurs som en bank, kortutgivare eller växlingskontor erbjuder i dag.
 Vad händer när internet kommer tillbaka?
-Balkan Converter använder en gemensam lokal kurscache för vanlig omvandling och förberedelse av sparade uppsättningar. En lyckad onlineuppdatering ersätter den äldre datauppsättningen i cachen och uppdaterar kursdatum och lagringstid.
+BALCO Converter använder en gemensam lokal kurscache för vanlig omvandling och förberedelse av sparade uppsättningar. En lyckad onlineuppdatering ersätter den äldre datauppsättningen i cachen och uppdaterar kursdatum och lagringstid.
 Om uppdateringen misslyckas, faller appen tillbaka till de tidigare cachade hastigheterna istället för att ta bort dem.
 Förbered en sparad uppsättning för offlineanvändning
 Skapa eller öppna en sparad uppsättning med önskade valutor i Android-appen. Välj följande när du är online: Spara kurser för användning utan internet. Appen uppdaterar den gemensamma kursdatauppsättningen och bekräftar att den är klar när cachen innehåller alla valutor i uppsättningen.
@@ -296,7 +296,7 @@ Användbart bortom resor
 Offlinekonvertering kan hjälpa till under en dålig anslutning, roamingavbrott, ett tillfälligt tjänsteavbrott eller varje situation där en snabb referensuppskattning är mer användbar än inget resultat.
 Se guiden till Android-widgeten för snabb åtkomst till ett sparat valutapar. Använd valutaomvandlaren för onlineomvandling, jämför ett belopp i flera valutor med multivalutaomvandlaren eller bedöm ett växlingserbjudande med kalkylatorn för kurspåslag.
 Håll en daterad referens till hands
-Använd sparade kurser i Balkan Converter
+Använd sparade kurser i BALCO Converter
 Android-appen kan återanvända sin senaste framgångsrika växelkurscache utan anslutning och identifierar tydligt cachad data och dess kursdatum.
 ```
 
@@ -308,14 +308,14 @@ Android-appen kan återanvända sin senaste framgångsrika växelkurscache utan 
 
 URL: `/sv/exchange-rate-history/`
 
-Title: Växelkurshistorik och valutadiagram | Balkan Converter
+Title: Växelkurshistorik och valutadiagram | BALCO Converter
 
 Meta description: Se 30-dagars, 90-dagars eller ettårig växelkurshistorik, kartlägg ett valutapar och slå upp referenskursen för ett specifikt datum.
 
 ### Complete visible main content
 
 ```text
-Tillbaka till Balkan Currency Converter
+Tillbaka till BALCO Converter
 Verktyg för historiska referenskurser
 Växelkurshistorik och valutadiagram
 Utforska hur ett valutapar rörde sig under 30 dagar, 90 dagar eller ett år och slå upp referenskursen för ett specifikt datum.
@@ -354,7 +354,7 @@ Datum och trender
 Använd diagrammet för att se riktning och variation, inte för att förutsäga nästa rörelse. Vissa leverantörer publicerar inte data varje kalenderdag. Om API: et returnerar data från ett annat tillgängligt datum visar sökningen det faktiska datadatumet i stället för datumet du valde.
 Använd valutaomvandlaren för omvandling med den senaste tillgängliga kursen. Öppna kalkylatorn för kurspåslag för att jämföra ett växlingserbjudande med resultatet enligt referenskursen.
 Håll användbara par nära
-Visa diagram i Balkan Converter
+Visa diagram i BALCO Converter
 Android-appen innehåller 30-dagarskursdiagram, fästade par, offlinereferenskurser och andra valutaverktyg.
 ```
 
@@ -362,12 +362,12 @@ Android-appen innehåller 30-dagarskursdiagram, fästade par, offlinereferenskur
 
 - {base}/{quote} valutakurshistorik
 - {count} daterade referenskurser lästes in.
-- © 2026 Balkan Currency Converter
+- © 2026 BALCO Converter
 - Acceptera analyser
 - Analytics val
 - API: et returnerade referensdata daterade {date}.
 - Avvisa analyser
-- Balkan Currency Converter hem
+- BALCO Converter hem
 - Byt färgtema
 - Byt till ljustema
 - Byt till mörkt tema
@@ -396,7 +396,7 @@ Android-appen innehåller 30-dagarskursdiagram, fästade par, offlinereferenskur
 - Sekretesspolicy
 - Senaste tillgängliga data under denna period: {date}.
 - Sidfotsnavigering
-- Skaffa Balkan Currency Converter på Google Play
+- Skaffa BALCO Converter på Google Play
 - Skaffa den på Google Play
 - Slår upp kursen...
 - Valfri analys
@@ -408,51 +408,51 @@ Android-appen innehåller 30-dagarskursdiagram, fästade par, offlinereferenskur
 - Välj ett giltigt datum som inte ligger i framtiden.
 - Välj ett giltigt historiskt datum.
 - Välj två olika valutor.
-- Växelkurshistorik och valutadiagram | Balkan Converter
+- Växelkurshistorik och valutadiagram | BALCO Converter
 - Växelkurshistorikdiagram
 
 ## Widget för valutaomvandlare för Android
 
 URL: `/sv/currency-converter-widget/`
 
-Title: Widget för valutaomvandlare för Android | Balkan Converter
+Title: Widget för valutaomvandlare för Android | BALCO Converter
 
 Meta description: Lägg till en valutaomvandlarwidget på din Android-startskärm för snabb åtkomst till en cachad växelkurs, kursdatum, växlingsåtgärd och appgenväg.
 
 ### Complete visible main content
 
 ```text
-Tillbaka till Balkan Currency Converter
+Tillbaka till BALCO Converter
 Android startskärmsguide
 Widget för valutaomvandlare för Android
-Ha ett användbart valutapar på startskärmen. Balkan Converter-widgeten visar den sparade referenskursen och datadatumet, öppnar paret i appen och gör det möjligt att snabbt byta valutor i den breda layouten.
+Ha ett användbart valutapar på startskärmen. BALCO Converter-widgeten visar den sparade referenskursen och datadatumet, öppnar paret i appen och gör det möjligt att snabbt byta valutor i den breda layouten.
 Hur man lägger till widgeten
-Den faktiska Balkan Converter-widgeten på en vanlig Android-startskärm.
+Den faktiska BALCO Converter-widgeten på en vanlig Android-startskärm.
 Fyra snabba steg
 Lägg till valutawidgeten
 Launcheretiketter varierar något beroende på Android-enhet, men standardflödet på hemskärmen är detsamma.
 Förbered ett par
-Öppna Balkan Converter, välj de valutor du vill ha och låt de senaste referenskurserna laddas.
+Öppna BALCO Converter, välj de valutor du vill ha och låt de senaste referenskurserna laddas.
 Öppna widgets
 Peka och håll kvar en tom del av Android-startskärmen och välj sedan Widgets.
 Placera den
-Hitta Balkan Converter och dra valutawidgeten till ett ledigt område på din startskärm.
+Hitta BALCO Converter och dra valutawidgeten till ett ledigt område på din startskärm.
 Ändra storlek och använd
 Anpassa storleken efter behov. Tryck på kortet för att öppna paret i appen; den breda widgeten visar också en knapp för att byta valutor.
 Vad widgeten visar
 Kortet visar referenskursen för det valda paret samt aktualitetsstatus och kursdatum. Varje widget börjar med det senast använda paret i appen och kommer sedan ihåg sitt eget par.
-När du trycker på widgeten öppnas Balkan Converter med valutorna klara. På en medelbred widget kan du byta valutorna direkt på startskärmen.
+När du trycker på widgeten öppnas BALCO Converter med valutorna klara. På en medelbred widget kan du byta valutorna direkt på startskärmen.
 Varför datumet spelar roll
-Widgeten använder appens senast sparade fungerande kursdata; den är inte ett fristående marknadsflöde i realtid. När Balkan Converter uppdaterar kurserna får installerade widgetar de uppdaterade cachedatauppgifterna.
+Widgeten använder appens senast sparade fungerande kursdata; den är inte ett fristående marknadsflöde i realtid. När BALCO Converter uppdaterar kurserna får installerade widgetar de uppdaterade cachedatauppgifterna.
 Utan internet kan den senast sparade referenskursen fortfarande användas för uppskattningar, medan datumet visar hur gamla uppgifterna är. Läs mer i guiden för användning utan internet.
 Liten eller bred layout?
 Den kompakta layouten visar kurs och datum på mindre utrymme. Gör widgeten bredare om du också vill ha en särskild knapp för att byta valutor.
 Android-starter styr den exakta rutnätsstorleken, så de tillgängliga storleksstegen kan skilja sig åt mellan telefoner och surfplattor.
 För mer än ett snabbt par
 Öppna appen för att ange ett belopp, omvandla valutor, se valutakurshistoriken, jämföra flera valutor eller spara kurser för användning utan internet.
-Widgeten är utformad som en snabb blick och genväg, medan Balkan Converter tillhandahåller hela konverteringsarbetsflödet.
+Widgeten är utformad som en snabb blick och genväg, medan BALCO Converter tillhandahåller hela konverteringsarbetsflödet.
 Konvertering i en blick
-Lägg till Balkan Converter på din startskärm
+Lägg till BALCO Converter på din startskärm
 Installera Android-appen, läs in önskat valutapar och placera sedan den faktiska valutawidgeten där den är lättast att nå.
 ```
 
@@ -464,14 +464,14 @@ Installera Android-appen, läs in önskat valutapar och placera sedan den faktis
 
 URL: `/sv/foreign-transaction-fee-calculator/`
 
-Title: Utlandstransaktionsavgift & DCC-kalkylator | Balkan Converter
+Title: Utlandstransaktionsavgift & DCC-kalkylator | BALCO Converter
 
 Meta description: Jämför betalning i lokal valuta med ett DCC-erbjudande vid kortbetalning eller bankomat. Ta med procentuella utlandsavgifter och fasta avgifter med aktuella referenskurser.
 
 ### Complete visible main content
 
 ```text
-Tillbaka till Balkan Currency Converter
+Tillbaka till BALCO Converter
 Jämförelse av kort och bankomat
 Utlandstransaktionsavgift & DCC-kalkylator
 Betala i lokal valuta eller använda den erbjudna konverteringen? Beräkna båda alternativen med den senaste tillgängliga referenskursen och avgifterna du anger.
@@ -512,13 +512,13 @@ Om du bara vill jämföra ett växlingserbjudande med resultatet enligt referens
 Referenskurs och datum
 Referenskurser ger en neutral jämförelsepunkt, inte en garanterad transaktionskurs. Resultatet visar marknadsdatumet som returneras av Frankfurters API för referenskurser.
 Jämför på din telefon
-Kontrollera utbyteserbjudanden med Balkan Converter
-Balkan Converter för Android inkluderar faktisk kostnad för att jämföra ett utbyteserbjudande och dess avgifter med ett referensresultat.
+Kontrollera utbyteserbjudanden med BALCO Converter
+BALCO Converter för Android inkluderar faktisk kostnad för att jämföra ett utbyteserbjudande och dess avgifter med ett referensresultat.
 ```
 
 ### Additional dynamic messages
 
-- © 2026 Balkan Currency Converter
+- © 2026 BALCO Converter
 - Acceptera analyser
 - Analytics val
 - Ange avgifter på noll eller mer.
@@ -526,7 +526,7 @@ Balkan Converter för Android inkluderar faktisk kostnad för att jämföra ett 
 - Ange ett köp- eller uttagsbelopp som är större än noll.
 - Avgifter kan inte vara negativa.
 - Avvisa analyser
-- Balkan Currency Converter hem
+- BALCO Converter hem
 - Baserat på dessa värden har båda alternativen samma uppskattade kostnad.
 - Baserat på dessa värden skulle betalning i lokal valuta kosta cirka {difference} mindre.
 - Baserat på dessa värden skulle den erbjudna konverteringen kosta cirka {difference} mindre.
@@ -561,11 +561,11 @@ Balkan Converter för Android inkluderar faktisk kostnad för att jämföra ett 
 - Sekretess
 - Sekretesspolicy
 - Sidfotsnavigering
-- Skaffa Balkan Currency Converter på Google Play
+- Skaffa BALCO Converter på Google Play
 - Skaffa den på Google Play
 - Till exempel 90
 - Uppskatta kortkostnader i lokal valuta och jämför en valfri DCC offert.
-- Utlandstransaktionsavgift & DCC-kalkylator | Balkan Converter
+- Utlandstransaktionsavgift & DCC-kalkylator | BALCO Converter
 - Utlandstransaktionsavgift och DCC-kalkylator
 - Utländsk transaktionsavgift ({percentage}%)
 - Utländsk transaktionsavgift i procent
@@ -578,14 +578,14 @@ Balkan Converter för Android inkluderar faktisk kostnad för att jämföra ett 
 
 URL: `/sv/travel-budget-calculator/`
 
-Title: Resebudgetkalkylator i två valutor | Balkan Converter
+Title: Resebudgetkalkylator i två valutor | BALCO Converter
 
 Meta description: Beräkna en resebudget per dag och kategori, lägg till fasta kostnader och en reserv och omvandla sedan totalsumman med aktuella referenskurser.
 
 ### Complete visible main content
 
 ```text
-Tillbaka till Balkan Currency Converter
+Tillbaka till BALCO Converter
 Gratis reseplaneringsverktyg
 Resebudgetkalkylator
 Uppskatta kostnaden för din resa i två valutor. Lägg till dagliga utgifter, fasta kostnader och en valfri buffert – inget konto krävs.
@@ -625,12 +625,12 @@ Vad ska inkluderas
 Boende, mat, lokaltrafik och aktiviteter anges per dag. Lägg till flygbiljetter, tågluffarkort och andra engångsutgifter under fasta resekostnader.
 Valuta för din resa
 Håll ihop de valutor du behöver
-Balkan Converter för Android inkluderar Travel Board och sparade set för att hålla användbara resvalutor nära till hands.
+BALCO Converter för Android inkluderar Travel Board och sparade set för att hålla användbara resvalutor nära till hands.
 ```
 
 ### Additional dynamic messages
 
-- © 2026 Balkan Currency Converter
+- © 2026 BALCO Converter
 - Acceptera analyser
 - Akutbuffertprocent
 - Analytics val
@@ -639,7 +639,7 @@ Balkan Converter för Android inkluderar Travel Board och sparade set för att h
 - Ange giltiga nummer i varje fält.
 - Ange minst ett budgetbelopp som är större än noll.
 - Avvisa analyser
-- Balkan Currency Converter hem
+- BALCO Converter hem
 - Belopp
 - Beräkna dagliga resekostnader, fasta kostnader och en buffert i två valutor.
 - Beräkna en flerdagars resebudget per kategori i destinations- och hemmavalutor.
@@ -670,12 +670,12 @@ Balkan Converter för Android inkluderar Travel Board och sparade set för att h
 - Referenskurser daterade {date}. Källa: Frankfurters API för referenskurser.
 - Referensräntor måste vara positiva.
 - Resdagar måste vara ett heltal större än noll.
-- Resebudgetkalkylator i två valutor | Balkan Converter
+- Resebudgetkalkylator i två valutor | BALCO Converter
 - Resultat
 - Sekretess
 - Sekretesspolicy
 - Sidfotsnavigering
-- Skaffa Balkan Currency Converter på Google Play
+- Skaffa BALCO Converter på Google Play
 - Skaffa den på Google Play
 - Valfri analys
 - Valutaomvandlare

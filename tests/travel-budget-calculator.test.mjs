@@ -44,7 +44,7 @@ test('page is indexable, distinct, linked, and privacy-aware', async () => {
     fs.readFile(path.join(root, 'index.html'), 'utf8'),
     fs.readFile(path.join(root, 'sitemap.xml'), 'utf8')
   ]);
-  assert.match(page, /<title>Travel Budget Calculator in Two Currencies \| Balkan Converter<\/title>/);
+  assert.match(page, /<title>Travel Budget Calculator in Two Currencies \| BALCO Converter<\/title>/);
   assert.match(page, /rel="canonical" href="https:\/\/balkanconverter\.com\/travel-budget-calculator\/"/);
   assert.equal((page.match(/<h1\b/g) || []).length, 1);
   for (const href of ['/multi-currency-converter/', '/currency-converter/', '/offline-currency-converter/']) assert.match(page, new RegExp(`href="${href}"`));

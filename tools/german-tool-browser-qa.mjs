@@ -84,7 +84,7 @@ try {
       });
       if (!response?.ok() || result.lang !== 'de' || result.horizontalOverflow > 1 || !result.h1Visible || !result.badgeLoaded ||
           result.badgeSource !== '/assets/google-play-badge-en.png' ||
-          result.badgeLabel !== 'Balkan Currency Converter bei Google Play herunterladen' ||
+          result.badgeLabel !== 'BALCO Converter bei Google Play herunterladen' ||
           result.playHref !== 'https://play.google.com/store/apps/details?id=io.github.nstim605.balkanconverter') {
         throw new Error(`${tool} @ ${width}: ${JSON.stringify(result)}`);
       }
