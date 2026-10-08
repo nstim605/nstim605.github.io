@@ -6,7 +6,7 @@ import test from 'node:test';
 const root = path.resolve(import.meta.dirname, '..');
 const stories = JSON.parse(await fs.readFile(path.join(root, 'news/data/stories.json'), 'utf8')).stories;
 
-test('news indexes are static, localized, filterable, and linked from supported homepages', async () => {
+test('news indexes remain generated but hidden from public navigation and indexing', async () => {
   const [en, sr, ru, script, css, enHome, srHome, ruHome] = await Promise.all([
     fs.readFile(path.join(root, 'news/index.html'), 'utf8'),
     fs.readFile(path.join(root, 'sr/news/index.html'), 'utf8'),
@@ -26,14 +26,15 @@ test('news indexes are static, localized, filterable, and linked from supported 
     assert.match(page, /hreflang="sr"/);
     assert.match(page, /hreflang="ru"/);
     assert.match(page, /"@type": "CollectionPage"/);
+    assert.match(page, /<meta name="robots" content="noindex,nofollow">/);
   }
   assert.match(script, /URLSearchParams/);
   assert.match(script, /aria-pressed/);
   assert.match(css, /@media \(max-width: 540px\)/);
   assert.match(css, /grid-template-columns: 1fr/);
-  assert.match(enHome, /href="\/news\/">News</);
-  assert.match(srHome, /href="\/sr\/news\/">Вести</);
-  assert.match(ruHome, /href="\/ru\/news\/">Новости</);
+  assert.doesNotMatch(enHome, /href="\/news\/">News</);
+  assert.doesNotMatch(srHome, /href="\/sr\/news\/">Вести</);
+  assert.doesNotMatch(ruHome, /href="\/ru\/news\/">Новости</);
 });
 
 test('every approved story has three crawlable equivalents with complete article metadata', async () => {
@@ -48,6 +49,7 @@ test('every approved story has three crawlable equivalents with complete article
       assert.match(page, /"mainEntityOfPage":/);
       assert.match(page, /<meta property="og:type" content="article">/);
       assert.match(page, /<meta name="twitter:card" content="summary_large_image">/);
+      assert.match(page, /<meta name="robots" content="noindex,nofollow">/);
       assert.match(page, new RegExp(`hreflang="${locale}" href="https://balkanconverter\\.com${canonicalPath}"`));
       assert.match(page, /rel="external noopener"/);
       assert.match(page, /currency-converter\/\?source=/);
@@ -56,15 +58,16 @@ test('every approved story has three crawlable equivalents with complete article
   }
 });
 
-test('only approved stories enter the general sitemap and automated candidates remain non-indexable', async () => {
+test('hidden news is absent from both sitemaps and the advertised robots sitemap list', async () => {
   const [sitemap, newsSitemap, inbox, robots] = await Promise.all([
     fs.readFile(path.join(root, 'sitemap.xml'), 'utf8'),
     fs.readFile(path.join(root, 'news-sitemap.xml'), 'utf8'),
     fs.readFile(path.join(root, 'news/data/inbox.json'), 'utf8'),
     fs.readFile(path.join(root, 'robots.txt'), 'utf8')
   ]);
-  for (const story of stories) assert.match(sitemap, new RegExp(`/news/${story.slug}/`));
+  for (const story of stories) assert.doesNotMatch(sitemap, new RegExp(`/news/${story.slug}/`));
   for (const candidate of JSON.parse(inbox).candidates) assert.doesNotMatch(sitemap, new RegExp(candidate.id));
   assert.match(newsSitemap, /xmlns:news="http:\/\/www\.google\.com\/schemas\/sitemap-news\/0\.9"/);
-  assert.match(robots, /Sitemap: https:\/\/balkanconverter\.com\/news-sitemap\.xml/);
+  assert.doesNotMatch(newsSitemap, /<url>/);
+  assert.doesNotMatch(robots, /Sitemap: https:\/\/balkanconverter\.com\/news-sitemap\.xml/);
 });

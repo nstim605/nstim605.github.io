@@ -6,27 +6,27 @@ function duplicates(values) {
   return [...counts].filter(([, count]) => count > 1).map(([value]) => value).sort();
 }
 
-export function expectedSitemapUrls(manifest, origin = defaultOrigin, stories = []) {
+export function expectedSitemapUrls(manifest, origin = defaultOrigin, stories = [], { includeNews = true } = {}) {
   if (!Array.isArray(manifest?.locales)) throw new TypeError('Locale manifest must contain a locales array');
   const localeUrls = manifest.locales.flatMap(locale => {
-    const routes = [locale.url, locale.privacyUrl, ...Object.values(locale.toolUrls ?? {}), locale.newsUrl].filter(Boolean);
+    const routes = [locale.url, locale.privacyUrl, ...Object.values(locale.toolUrls ?? {}), includeNews ? locale.newsUrl : null].filter(Boolean);
     if (routes.some(route => typeof route !== 'string' || !route.startsWith('/'))) {
       throw new TypeError(`Locale ${locale.webLocale ?? locale.androidLocale ?? 'unknown'} contains an invalid route`);
     }
     return routes.map(route => new URL(route, origin).href);
   });
-  const newsLocales = manifest.locales.filter(locale => locale.newsUrl);
-  const storyUrls = stories
+  const newsLocales = includeNews ? manifest.locales.filter(locale => locale.newsUrl) : [];
+  const storyUrls = (includeNews ? stories : [])
     .filter(story => story?.status === 'published' && story?.indexable === true)
     .flatMap(story => newsLocales.map(locale => new URL(`${locale.newsUrl}${story.slug}/`, origin).href));
   return [...localeUrls, ...storyUrls];
 }
 
-export function validateSitemapUrlSet(sitemap, manifest, origin = defaultOrigin, stories = []) {
+export function validateSitemapUrlSet(sitemap, manifest, origin = defaultOrigin, stories = [], options = {}) {
   const blocks = [...sitemap.matchAll(/<url>([\s\S]*?)<\/url>/g)].map(match => match[1]);
   const malformedBlocks = blocks.filter(block => (block.match(/<loc>[^<]+<\/loc>/g) ?? []).length !== 1);
   const actualUrls = blocks.flatMap(block => [...block.matchAll(/<loc>([^<]+)<\/loc>/g)].map(match => match[1]));
-  const expectedUrls = expectedSitemapUrls(manifest, origin, stories);
+  const expectedUrls = expectedSitemapUrls(manifest, origin, stories, options);
   const expectedSet = new Set(expectedUrls);
   const actualSet = new Set(actualUrls);
   const missingUrls = [...expectedSet].filter(url => !actualSet.has(url)).sort();

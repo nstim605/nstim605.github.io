@@ -7,6 +7,8 @@ const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '../..')
 const origin = 'https://balkanconverter.com';
 const storyDataPath = path.join(root, 'news', 'data', 'stories.json');
 const generatedPathsPath = path.join(root, 'news', 'data', 'generated-pages.json');
+const newsConfig = JSON.parse(await fs.readFile(path.join(root, 'news', 'config.json'), 'utf8'));
+const newsPublic = newsConfig.public === true;
 
 const currencyMeta = {
   EUR: { flag: '🇪🇺', target: 'RSD' },
@@ -103,7 +105,7 @@ function header(locale, slug = '') {
   <header class="site-header">
     <div class="shell nav-wrap">
       <a class="brand" href="${copy.prefix}/" aria-label="Balkan Currency Converter">
-        <img src="/assets/icons/v1-5-11/app-icon-v1-5-11.png" width="42" height="42" alt="">
+        <img src="/assets/icons/v1-603/app-icon-v1-603.png" width="42" height="42" alt="">
         <span dir="ltr">Balkan Currency Converter</span>
       </a>
       <nav class="nav-links" aria-label="${locale === 'en' ? 'Main navigation' : locale === 'sr' ? 'Главна навигација' : 'Основная навигация'}">
@@ -131,7 +133,7 @@ function footer(locale) {
   return `  <footer class="site-footer">
     <div class="shell footer-grid">
       <div class="footer-brand">
-        <img src="/assets/icons/v1-5-11/app-icon-v1-5-11.png" width="44" height="44" alt="">
+        <img src="/assets/icons/v1-603/app-icon-v1-603.png" width="44" height="44" alt="">
         <div><strong dir="ltr">Balkan Currency Converter</strong><span>${copy.footer}</span></div>
       </div>
       <nav aria-label="${locale === 'en' ? 'Footer navigation' : locale === 'sr' ? 'Навигација у подножју' : 'Навигация в подвале'}">
@@ -144,7 +146,8 @@ function footer(locale) {
   </footer>`;
 }
 
-function pageShell({ locale, slug = '', title, description, type = 'website', jsonLd, body, robots = 'index,follow,max-image-preview:large' }) {
+function pageShell({ locale, slug = '', title, description, type = 'website', jsonLd, body,
+  robots = newsPublic ? 'index,follow,max-image-preview:large' : 'noindex,nofollow' }) {
   const canonical = absolute(newsRoute(locale, slug));
   return `<!doctype html>
 <html lang="${ui[locale].htmlLocale}">
@@ -163,16 +166,16 @@ ${alternates(slug)}
   <meta property="og:title" content="${escapeHtml(title)}">
   <meta property="og:description" content="${escapeHtml(description)}">
   <meta property="og:url" content="${canonical}">
-  <meta property="og:image" content="${origin}/assets/og-v1-5-11.png">
-  <meta property="og:image:width" content="1200">
-  <meta property="og:image:height" content="630">
+  <meta property="og:image" content="${origin}/assets/og-v1-603.png">
+  <meta property="og:image:width" content="1024">
+  <meta property="og:image:height" content="500">
   <meta property="og:image:alt" content="Balkan Currency Converter">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="${escapeHtml(title)}">
   <meta name="twitter:description" content="${escapeHtml(description)}">
-  <meta name="twitter:image" content="${origin}/assets/og-v1-5-11.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="/assets/icons/v1-5-11/favicon-32.png">
-  <link rel="apple-touch-icon" sizes="180x180" href="/assets/icons/v1-5-11/apple-touch-icon-180.png">
+  <meta name="twitter:image" content="${origin}/assets/og-v1-603.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/icons/v1-603/favicon-32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/icons/v1-603/apple-touch-icon-180.png">
   <link rel="stylesheet" href="/styles.css">
   <link rel="stylesheet" href="/news/news.css">
   <script type="application/ld+json">
@@ -314,6 +317,18 @@ async function updateSitemaps(stories) {
   const sitemapPath = path.join(root, 'sitemap.xml');
   let sitemap = await fs.readFile(sitemapPath, 'utf8');
   sitemap = sitemap.replace(/\s*<!-- news:start -->[\s\S]*?<!-- news:end -->\s*/g, '\n');
+  const robotsPath = path.join(root, 'robots.txt');
+  let robots = await fs.readFile(robotsPath, 'utf8');
+  robots = robots.replace(/\r?\nSitemap: https:\/\/balkanconverter\.com\/news-sitemap\.xml\s*/g, '\n');
+
+  if (!newsPublic) {
+    await fs.writeFile(sitemapPath, sitemap, 'utf8');
+    await fs.writeFile(robotsPath, robots.trimEnd() + '\n', 'utf8');
+    await fs.writeFile(path.join(root, 'news-sitemap.xml'),
+      '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">\n</urlset>\n',
+      'utf8');
+    return;
+  }
   const indexAlternates = SUPPORTED_NEWS_LOCALES.map(locale => ({ locale, route: newsRoute(locale) }));
   const blocks = SUPPORTED_NEWS_LOCALES.map(locale => sitemapBlock(newsRoute(locale), null, indexAlternates));
   for (const story of stories) {
@@ -332,6 +347,8 @@ async function updateSitemaps(stories) {
   }));
   const newsSitemap = `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">\n${newsBlocks.join('\n')}\n</urlset>\n`;
   await fs.writeFile(path.join(root, 'news-sitemap.xml'), newsSitemap, 'utf8');
+  await fs.writeFile(robotsPath,
+    `${robots.trimEnd()}\nSitemap: https://balkanconverter.com/news-sitemap.xml\n`, 'utf8');
 }
 
 async function removeStalePages(nextPaths) {
@@ -346,7 +363,7 @@ async function removeStalePages(nextPaths) {
   }
 }
 
-async function ensureHomepageLinks() {
+async function syncHomepageLinks() {
   const pages = [
     ['index.html', '<a href="#screenshots">Screenshots</a>', '<a href="#screenshots">Screenshots</a>\n        <a href="/news/">News</a>'],
     ['sr/index.html', '<a href="#screenshots">Снимци екрана</a>', '<a href="#screenshots">Снимци екрана</a>\n        <a href="/sr/news/">Вести</a>'],
@@ -354,10 +371,13 @@ async function ensureHomepageLinks() {
   ];
   for (const [relativePath, anchor, replacement] of pages) {
     const file = path.join(root, relativePath);
-    const html = await fs.readFile(file, 'utf8');
-    if (html.includes(replacement)) continue;
-    if (!html.includes(anchor)) throw new Error(`Cannot locate navigation anchor in ${relativePath}`);
-    await fs.writeFile(file, html.replace(anchor, replacement), 'utf8');
+    let html = await fs.readFile(file, 'utf8');
+    html = html.replace(/\s*<a href="\/(?:sr\/|ru\/)?news\/">[^<]+<\/a>/g, '');
+    if (newsPublic) {
+      if (!html.includes(anchor)) throw new Error(`Cannot locate navigation anchor in ${relativePath}`);
+      html = html.replace(anchor, replacement);
+    }
+    await fs.writeFile(file, html, 'utf8');
   }
 }
 
@@ -393,7 +413,7 @@ async function main() {
   await removeStalePages(generated);
   await fs.writeFile(generatedPathsPath, `${JSON.stringify(generated.map(item => path.relative(root, item).replaceAll('\\', '/')), null, 2)}\n`, 'utf8');
   await updateSitemaps(stories);
-  await ensureHomepageLinks();
+  await syncHomepageLinks();
   console.log(`Generated ${generated.length} news pages from ${stories.length} quality-approved stories.`);
 }
 

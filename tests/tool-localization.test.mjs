@@ -134,10 +134,10 @@ test('localized tool pages resolve local assets and include one consent template
   }
 });
 
-test('sitemap contains every locale, tool, and approved news URL once with complete alternates', async () => {
+test('sitemap contains every public locale and tool URL once with complete alternates', async () => {
   const sitemap = await fs.readFile(path.join(root, 'sitemap.xml'), 'utf8');
   const locations = [...sitemap.matchAll(/<loc>([^<]+)<\/loc>/g)].map(match => match[1]);
-  const expected = expectedSitemapUrls(inventory, undefined, newsData.stories);
+  const expected = expectedSitemapUrls(inventory, undefined, newsData.stories, { includeNews: false });
   assert.equal(locations.length, expected.length);
   assert.equal(new Set(locations).size, locations.length);
   assert.deepEqual(new Set(locations), new Set(expected));
