@@ -1,14 +1,14 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-07T23:10:12.261Z",
+  "generatedAt": "2026-10-08T06:14:40.880Z",
   "contentProvider": "ManualReviewContentProvider",
   "summary": {
     "candidatesInspected": 1,
-    "reconsideredDrafts": 3,
+    "reconsideredDrafts": 2,
     "proposed": 0,
     "openDrafts": 2,
     "publicationReady": 0,
-    "rejected": 2,
+    "rejected": 1,
     "duplicates": 0
   },
   "proposed": [
@@ -69,18 +69,11 @@
   ],
   "rejected": [
     {
-      "id": "e67cb5eff5f8900dbb229048",
-      "title": "Federal Reserve Board and Federal Open Market Committee release economic projections from the September 15-16 FOMC meeting",
-      "reasons": [
-        "candidate is older than 21 days"
-      ],
-      "reconsideredDraft": true
-    },
-    {
-      "id": "726a58fffd86d7420bf997c3",
-      "title": "Minutes of the Federal Open Market Committee, September 15-16, 2026",
+      "id": "2f6429df844d1d75e012d2b5",
+      "title": "Piero Cipollone: Interview with Corriere della Sera",
       "reasons": [
         "candidate does not contain a supported monetary-policy signal",
+        "title matches an excluded low-priority content type",
         "standalone value is too low for Balkan Converter users"
       ]
     }

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-07T23:10:12.261Z",
+  "updatedAt": "2026-10-08T06:14:40.880Z",
   "processed": {
     "061eab95e5dd71a42692ee0d": {
       "status": "rejected",
@@ -658,6 +658,15 @@
         "standalone value is too low for Balkan Converter users"
       ],
       "processedAt": "2026-10-07T23:10:12.261Z"
+    },
+    "2f6429df844d1d75e012d2b5": {
+      "status": "rejected",
+      "reasons": [
+        "candidate does not contain a supported monetary-policy signal",
+        "title matches an excluded low-priority content type",
+        "standalone value is too low for Balkan Converter users"
+      ],
+      "processedAt": "2026-10-08T06:14:40.880Z"
     }
   }
 }

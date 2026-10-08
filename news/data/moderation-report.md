@@ -1,15 +1,15 @@
 # Financial News moderation report
 
-Generated from official machine-readable sources at 2026-10-07T23:10:12.261Z.
+Generated from official machine-readable sources at 2026-10-08T06:14:40.880Z.
 
 ## Run summary
 
 - Candidates inspected: 1
-- Existing open drafts re-evaluated: 3
+- Existing open drafts re-evaluated: 2
 - New moderation drafts: 0
 - Open moderation drafts: 2
 - Publication-ready open drafts: 0
-- Rejected by the candidate quality gate: 2
+- Rejected by the candidate quality gate: 1
 - Duplicates: 0
 - Content provider: ManualReviewContentProvider
 
@@ -24,8 +24,7 @@ Merging this PR must never publish an incomplete draft. A draft becomes public o
 
 ## Rejected candidates
 
-- **Federal Reserve Board and Federal Open Market Committee release economic projections from the September 15-16 FOMC meeting** — candidate is older than 21 days
-- **Minutes of the Federal Open Market Committee, September 15-16, 2026** — candidate does not contain a supported monetary-policy signal; standalone value is too low for Balkan Converter users
+- **Piero Cipollone: Interview with Corriere della Sera** — candidate does not contain a supported monetary-policy signal; title matches an excluded low-priority content type; standalone value is too low for Balkan Converter users
 
 ## Duplicates
 
