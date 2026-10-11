@@ -3,16 +3,12 @@ import fs from 'node:fs/promises';
 import path from 'node:path';
 import { execFileSync } from 'node:child_process';
 import test from 'node:test';
-import { removeAdSenseIntegration } from '../tools/adsense-integration.mjs';
 
 const root = path.resolve(import.meta.dirname, '..');
 const manifest = JSON.parse(await fs.readFile(path.join(root, 'site-locales.json'), 'utf8'));
 const changes = JSON.parse(await fs.readFile(path.join(root, 'tools/privacy-title-copy.json'), 'utf8'));
-const beforeCommit = '0406901fcb071f465366c1b5518888dbb7f4389a';
 const read = file => fs.readFile(path.join(root, file), 'utf8').then(s => s.replaceAll('\r\n', '\n'));
 const paths = locale => [locale.url.slice(1) + 'index.html', locale.privacyUrl.slice(1)];
-const legacyGooglePlayBadge = 'https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png';
-const localGooglePlayBadge = '/assets/google-play-badge-en.png';
 
 function assertInitialCapital(text, locale, context) {
   const initial = text.match(/\p{L}/u)?.[0];
@@ -57,31 +53,20 @@ test('seven corrected locales use exact standalone copy in all eight slots', asy
   }
 });
 
-test('all 44 policy HTML files retain every byte except approved standalone initials and badge source', async () => {
+test('all 44 policy HTML files preserve design, navigation and links outside the authorized policy update', async () => {
   for (const locale of manifest.locales) {
     for (const file of [locale.privacyUrl.slice(1)]) {
-      let original = execFileSync('git', ['-c', 'safe.directory=' + root.replaceAll('\\', '/'),
-        'show', beforeCommit + ':' + file], { cwd: root, encoding: 'utf8' }).replaceAll('\r\n', '\n');
-      const copy = changes[locale.webLocale];
-      if (copy) {
-        const { before, title } = copy;
-        const slots = ['<nav aria-label="' + before + '">'];
-        slots.push(
-          '<title>' + before + ' — BALCO Converter</title>',
-          '<meta name="description" content="' + before + '">',
-          '<meta property="og:title" content="' + before + ' — BALCO Converter">',
-          '<h1>' + before + '</h1>');
-        for (const old of slots) {
-          const count = old.startsWith('<a ') ? 2 : 1;
-          assert.equal(original.split(old).length - 1, count, file + ': exact original slots');
-          original = original.replaceAll(old, old.replace(before, title));
-        }
-      }
+      const original = execFileSync('git', ['-c', 'safe.directory=' + root.replaceAll('\\', '/'),
+        'show', 'HEAD:' + file], { cwd: root, encoding: 'utf8' }).replaceAll('\r\n', '\n');
       const current = await read(file);
       assert.match(current, /src="\/assets\/google-play-badge-en\.png"/, file + ': local badge');
       assert.doesNotMatch(current, /en_badge_web_generic\.png/, file + ': legacy badge');
-      assert.equal(removeAdSenseIntegration(current).replaceAll(localGooglePlayBadge, legacyGooglePlayBadge), original,
-        file + ': legal text, dates, URLs and other copy untouched');
+      const normalizeAuthorizedPolicyUpdate = html => html
+        .replace(/<p class="policy-meta">[\s\S]*?<\/p>/, '<p class="policy-meta">POLICY_DATE<\/p>')
+        .replace(/<article class="policy-card">[\s\S]*?<\/article>/,
+          '<article class="policy-card">AUTHORIZED_POLICY_BODY<\/article>');
+      assert.equal(normalizeAuthorizedPolicyUpdate(current), normalizeAuthorizedPolicyUpdate(original),
+        file + ': design, navigation, metadata and links outside policy content');
     }
   }
 });

@@ -425,7 +425,9 @@ function sourceStrings(html) {
   const withoutScripts = html.replace(/<script[\s\S]*?<\/script>/g, '');
   const values = new Set();
   withoutScripts.replace(/>([^<>]+)</g, (_, value) => {
-    const text = value.trim(); if (/[\p{L}\p{N}]/u.test(text) && text !== '2026') values.add(text); return _;
+    const text = value.trim();
+    if (/[\p{L}\p{N}]/u.test(text) && text !== '2026' && !/^\d{4}-\d{2}-\d{2}$/.test(text)) values.add(text);
+    return _;
   });
   withoutScripts.replace(/\b(?:aria-label|title|alt|data-label-light|data-label-dark)="([^"]+)"/g, (_, value) => { if (value) values.add(value); return _; });
   withoutScripts.replace(/<meta\s+(?:name|property)="(?:description|og:title|og:description|og:image:alt|twitter:title|twitter:description)"\s+content="([^"]+)"/g, (_, value) => { values.add(value); return _; });

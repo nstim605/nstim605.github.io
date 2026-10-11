@@ -7,6 +7,7 @@ const root = path.resolve(import.meta.dirname, '..');
 const androidRoot = path.resolve(process.env.ANDROID_SOURCE_ROOT || path.join(root, '..'));
 const manifest = JSON.parse(await fs.readFile(path.join(root, 'site-locales.json'), 'utf8'));
 const legacy = JSON.parse(await fs.readFile(path.join(root, 'tools', 'privacy-policy-phase1d.json'), 'utf8'));
+const currentPolicyDate = '2026-10-11';
 const resourceFolders = {
   'es-ES': 'values-es-rES', 'es-419': 'values-b+es+419', 'pt-BR': 'values-pt-rBR',
   'pt-PT': 'values-pt-rPT', 'zh-Hans': 'values-b+zh+Hans', 'zh-Hant': 'values-b+zh+Hant'
@@ -63,7 +64,7 @@ test('all 44 public policies use the Android rewarded-ad disclosure and current 
       `${locale.webLocale}: advertising section`);
     assert.ok(html.includes(`<p>${htmlEscape(copy.advertising)}</p>`),
       `${locale.webLocale}: rewarded-ad disclosure`);
-    assert.ok(html.includes(`<p class="policy-meta">${htmlEscape(copy.lastUpdated)}</p>`),
+    assert.ok(html.includes(`<p class="policy-meta">${currentPolicyDate}</p>`),
       `${locale.webLocale}: policy date`);
     assert.ok(!html.includes(htmlEscape(legacy[locale.webLocale].advertisingSummary)),
       `${locale.webLocale}: obsolete no-rewarded-ad claim`);
@@ -77,6 +78,6 @@ test('the English policy template uses the same authoritative disclosure', async
     expected(locale)
   ]);
   assert.ok(html.includes(`<p>${htmlEscape(copy.advertising)}</p>`));
-  assert.ok(html.includes(`<p class="policy-meta">${htmlEscape(copy.lastUpdated)}</p>`));
+  assert.ok(html.includes(`<p class="policy-meta">${currentPolicyDate}</p>`));
   assert.ok(!html.includes('The app uses no interstitial, rewarded or other full-screen ads.'));
 });

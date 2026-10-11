@@ -37,7 +37,9 @@ function visibleStrings(html) {
     .replace(/<section\b[^>]*\blang="en"[^>]*>[\s\S]*?<\/section>/g, '');
   const values = new Set();
   withoutScripts.replace(/>([^<>]+)</g, (_, value) => {
-    const text = value.trim(); if (/[\p{L}\p{N}]/u.test(text) && text !== '2026') values.add(text); return _;
+    const text = value.trim();
+    if (/[\p{L}\p{N}]/u.test(text) && text !== '2026' && !/^\d{4}-\d{2}-\d{2}$/.test(text)) values.add(text);
+    return _;
   });
   withoutScripts.replace(/\b(?:aria-label|title|alt|data-label-light|data-label-dark)="([^"]+)"/g,
     (_, value) => { if (value) values.add(value); return _; });

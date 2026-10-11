@@ -274,6 +274,23 @@ test('publication manifest has exactly 107 current, scoped entries', async () =>
     assert.ok(entry.reason.length >= 20, `missing visual change reason:${key}`);
     acceptedSupersessions.set(key, { ...previous, acceptedSha256: entry.acceptedSha256 });
   }
+  const policySupersessions = JSON.parse(await fs.readFile(path.join(root,
+    'tools', 'scanner-unlimited-policy-integrity.json'), 'utf8'));
+  assert.equal(policySupersessions.schemaVersion, 1);
+  assert.equal(policySupersessions.task,
+    'Publish Scanner Unlimited privacy disclosure in all 44 locales, 2026-10-11');
+  assert.equal(policySupersessions.files.length, 45);
+  const policySupersessionKeys = new Set();
+  for (const entry of policySupersessions.files) {
+    const key = `Website:${entry.file}`;
+    assert.equal(policySupersessionKeys.has(key), false, `duplicate policy supersession:${key}`);
+    assert.match(entry.historicalSha256, /^[a-f0-9]{64}$/);
+    assert.match(entry.acceptedSha256, /^[a-f0-9]{64}$/);
+    assert.notEqual(entry.historicalSha256, entry.acceptedSha256);
+    assert.ok(entry.reason.length >= 20, `missing policy supersession reason:${key}`);
+    policySupersessionKeys.add(key);
+    acceptedSupersessions.set(key, entry);
+  }
   const rows = markdown.split(/\r?\n/)
     .filter(line => line.startsWith('|Android|') || line.startsWith('|Website|'))
     .map(line => line.slice(1, -1).split('|'));
@@ -341,7 +358,7 @@ test('publication manifest has exactly 107 current, scoped entries', async () =>
     }
     const titleCopy = Object.entries(standaloneTitles).find(([locale]) =>
       file === locale.toLowerCase() + '/privacy-policy.html')?.[1];
-    if (repository === 'Website' && titleCopy) {
+    if (repository === 'Website' && titleCopy && !policySupersessionKeys.has(`Website:${file}`)) {
       // Authenticate the old policy, then allow only the five standalone initial
       // letters. The complete legal body, date, URLs and other bytes stay pinned.
       const { stdout: original } = await execFileAsync('git', [

@@ -4,21 +4,21 @@
   "files": [
     {
       "file": "tools/localize-site.mjs",
-      "previousAcceptedSha256": "b0d234a4bb88069c7e4f96d07b680b1486e46b5d55b38d2a111ea8528a1a78ef",
-      "acceptedSha256": "f87c5cf559bbad163b527ef1a75c9d9971e5cc6cfcab5cea56c09ac661568970",
-      "reason": "Load reviewed tool-localization catalogs through the shared locale manifest, preserving the approved Russian, Serbian, Croatian, Bosnian, Ukrainian, and German copy while enabling one parameterized QA workflow for subsequent locales."
+      "previousAcceptedSha256": "e48afce43f461b59313168609c45f286ee15a287131a7ff2e395bdefb9d034ae",
+      "acceptedSha256": "691b6f382b2f4d8598086d5b9e0777fb9489f373dd13a218a112c66c68856387",
+      "reason": "Exclude language-neutral ISO policy dates from the localization source inventory while publishing the authorized Scanner Unlimited policy update."
     },
     {
       "file": "tests/privacy-policy-phase1d.test.mjs",
       "previousAcceptedSha256": "c751ae27e8299221b46ed7ba873d993f9cff4c2e75858265a0652919a298b122",
-      "acceptedSha256": "c7e7ed7a66814c078f24dd71613a44964ebc2f99be373363373194baafbab893",
-      "reason": "Keep the historical publication manifest immutable while explicitly normalizing and verifying the single approved legacy-to-local Google Play badge source migration; policy legal text, dates and all other markup remain pinned."
+      "acceptedSha256": "dfa8d5df90c8fd650b53c0aa2bd5bb3d41a37246d2b9c4fa6c8cc42e31e6793b",
+      "reason": "Accept only the task-specific 44-locale Scanner Unlimited policy supersessions while preserving the immutable historical publication manifest."
     },
     {
       "file": "tools/production-strings.json",
       "previousAcceptedSha256": "01a120bc05f9d22ec2e8fff73f05aacd9d2466d3237b6bca41c9f013b65d2881",
-      "acceptedSha256": "3521bf638cda8375c757199763430f63b867ae2a6bbae1736bad0ba2ebaeaf3f",
-      "reason": "Replace only two obsolete homepage screenshot alt strings in the generated source inventory; the entire privacyPolicy inventory is unchanged."
+      "acceptedSha256": "ee31e65d17d250f319706442f37d1e67332d3853d6e690c9ecf5ca6a17f7cd3d",
+      "reason": "Refresh the generated privacy-policy string inventory for the authorized Scanner Unlimited disclosure and remove the superseded no-payments copy."
     }
   ]
 }

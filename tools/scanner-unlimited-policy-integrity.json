@@ -1,0 +1,276 @@
+{
+  "schemaVersion": 1,
+  "task": "Publish Scanner Unlimited privacy disclosure in all 44 locales, 2026-10-11",
+  "files": [
+    {
+      "file": "tools/templates/privacy-policy.html",
+      "historicalSha256": "aa1ee5d52a7f80bf1fdae65cbddb054f20d6d49ec01339e97a70561b1133a36a",
+      "acceptedSha256": "0a3da66625a268e57c8e3f9390d441ebf874cea6aaa6d15ab0a986fe7954a41a",
+      "reason": "Authorized current Scanner Unlimited purchase disclosure and publication date for the public privacy policy."
+    },
+    {
+      "file": "privacy-policy.html",
+      "historicalSha256": "4a1f90b31dd282c435aff113233b1104502bd2a86601e56b9b03766dcdd3cebd",
+      "acceptedSha256": "c62e542a0627573a9bf3e975ceb8ead5a69e4c42f2ce80f5378ebd30fc4a0289",
+      "reason": "Authorized current Scanner Unlimited purchase disclosure and publication date for the public privacy policy."
+    },
+    {
+      "file": "sr/privacy-policy.html",
+      "historicalSha256": "7a1e22fe525ca08bb0dad441ee7ead4a19f6e81bb3829f06ba1b7eef7f10bc74",
+      "acceptedSha256": "aaeee33df8834b7fc75d83022a4ff599e964e1015791b9beec4f842ac5ae2968",
+      "reason": "Authorized current Scanner Unlimited purchase disclosure and publication date for the public privacy policy."
+    },
+    {
+      "file": "bs/privacy-policy.html",
+      "historicalSha256": "55bf5108cd77d6cf182dd0885d60d205a66f6521bbf028f1b88898a61bfc4dab",
+      "acceptedSha256": "697147239e2220fb0603b7a7ea951492f7bfc21c6932f122115a32f406a246d3",
+      "reason": "Authorized current Scanner Unlimited purchase disclosure and publication date for the public privacy policy."
+    },
+    {
+      "file": "hr/privacy-policy.html",
+      "historicalSha256": "65f659d811dcf8071780fe51263ea473fead66202d8e5fc65b109c27e1aa8ed4",
+      "acceptedSha256": "0938e34162e0b4f97f923cdc9980476e711c6e3df80982166f055cca1601fda2",
+      "reason": "Authorized current Scanner Unlimited purchase disclosure and publication date for the public privacy policy."
+    },
+    {
+      "file": "sq/privacy-policy.html",
+      "historicalSha256": "c50cc0980cff2f6710926aa59a5cced2ef5d64823cc6849bb579b6e977a460b5",
+      "acceptedSha256": "c022948cade120d41965924fc02a516cee4218e3e0184b3205bb32b25dd0ac45",
+      "reason": "Authorized current Scanner Unlimited purchase disclosure and publication date for the public privacy policy."
+    },
+    {
+      "file": "mk/privacy-policy.html",
+      "historicalSha256": "2f7e678c1ecab1b37db08f4645cc1585228815dc179802a4cefd3f844b411f35",
+      "acceptedSha256": "aaaff95ae2d8208caf60edf10c357b2deaa573bbd1e6894d338ec515ff8f2656",
+      "reason": "Authorized current Scanner Unlimited purchase disclosure and publication date for the public privacy policy."
+    },
+    {
+      "file": "bg/privacy-policy.html",
+      "historicalSha256": "091d505d07ccf32a78070d40648d50b74fb068cf57a80ef5e925a75548314ac1",
+      "acceptedSha256": "2ea509b64f48eea938f1eb36ab59c224d70ff311fdce5e17314319a8d19c311d",
+      "reason": "Authorized current Scanner Unlimited purchase disclosure and publication date for the public privacy policy."
+    },
+    {
+      "file": "ro/privacy-policy.html",
+      "historicalSha256": "bc11e68662ded5a8de6c3ea73c1136a5d595005670868d1e9720f319baddcd1a",
+      "acceptedSha256": "df860328a70888c5c602f3d0bb762405103a1a2fbc61f92857ec4021c8471a07",
+      "reason": "Authorized current Scanner Unlimited purchase disclosure and publication date for the public privacy policy."
+    },
+    {
+      "file": "hu/privacy-policy.html",
+      "historicalSha256": "963572ae62617dc2803829675a7716e1bdfa4882c7bf9c351421af0fd2004d66",
+      "acceptedSha256": "c0610af28f78ff146c15481c91a55a30a91c65c1dbac50c1c37e3b196898b4c5",
+      "reason": "Authorized current Scanner Unlimited purchase disclosure and publication date for the public privacy policy."
+    },
+    {
+      "file": "pl/privacy-policy.html",
+      "historicalSha256": "657d8bb5fe60b9662972b1390a7a05cd4c1255466e5025ddfb687ed2d864dc50",
+      "acceptedSha256": "7ef1b013a0c4ea5778bab1f5d9f2be61a22cf75b344a90849d22cdde9f4058fd",
+      "reason": "Authorized current Scanner Unlimited purchase disclosure and publication date for the public privacy policy."
+    },
+    {
+      "file": "cs/privacy-policy.html",
+      "historicalSha256": "e07e8fa2f8e4d618ff767a5a8b8fa40fa8abdda327251a23e9a65b30dd0b93b6",
+      "acceptedSha256": "165aacb4e7a878a644bebfe246502357ca96ec9b695628b85da57b63b75c4a28",
+      "reason": "Authorized current Scanner Unlimited purchase disclosure and publication date for the public privacy policy."
+    },
+    {
+      "file": "sk/privacy-policy.html",
+      "historicalSha256": "1d187ace3adfe9f3de01c0a7b7dc1d9f7e9d8079f0d6ed66c41d3831c535e2e4",
+      "acceptedSha256": "d493cd79515b8468bc7052935a81a001b9e3dfce7b69eb0ae43ef59796eddb2e",
+      "reason": "Authorized current Scanner Unlimited purchase disclosure and publication date for the public privacy policy."
+    },
+    {
+      "file": "sl/privacy-policy.html",
+      "historicalSha256": "ed226220ec226e1bc048e2c231d8cca86a0e24bdd3db9a2e0ba6478cafb90add",
+      "acceptedSha256": "e8778828a95ceae2bc0469aa3b494d95eea84b050baf629da42b07f684857f89",
+      "reason": "Authorized current Scanner Unlimited purchase disclosure and publication date for the public privacy policy."
+    },
+    {
+      "file": "de/privacy-policy.html",
+      "historicalSha256": "dd422ad3b92e608186452f65156b38170add012945ca8acafc833fbdfcb674b7",
+      "acceptedSha256": "f1873fe7a2eeafa2079f875b501e3784891ea8e90c43da21f794d59fd08aeb86",
+      "reason": "Authorized current Scanner Unlimited purchase disclosure and publication date for the public privacy policy."
+    },
+    {
+      "file": "fr/privacy-policy.html",
+      "historicalSha256": "64ab92a9df139dee57536cd50a0767a5c0c0cf968e83f582c824ccbecf2ad8dd",
+      "acceptedSha256": "f96b58c3dae56b7089e20159711e08be1763293771bfb5fa2108a62cef249e27",
+      "reason": "Authorized current Scanner Unlimited purchase disclosure and publication date for the public privacy policy."
+    },
+    {
+      "file": "it/privacy-policy.html",
+      "historicalSha256": "29e67e713e04df62694699f0786358f887af72228d52c31264533cd3372d4e03",
+      "acceptedSha256": "d891251deb63d4887d94738105eeab02bf3d09d7938d644fbd839d580c2570a9",
+      "reason": "Authorized current Scanner Unlimited purchase disclosure and publication date for the public privacy policy."
+    },
+    {
+      "file": "es-es/privacy-policy.html",
+      "historicalSha256": "78ee6ae5670598e0326d3b63e872a4aeac8b02637c294b3451c9474a901b7d2f",
+      "acceptedSha256": "3dc7a57a4751d512ee7952f7ee734821c76d14d0450262da3c7ec393a4874f70",
+      "reason": "Authorized current Scanner Unlimited purchase disclosure and publication date for the public privacy policy."
+    },
+    {
+      "file": "es-419/privacy-policy.html",
+      "historicalSha256": "b0f8554b39ea2a04df9ba7618df1f3b1173d840a9160540826ba8e1861fcec8c",
+      "acceptedSha256": "cab0a3f44504c9001050220ad4c72c6a6a93e3cd60764a66c384395ef2189f7c",
+      "reason": "Authorized current Scanner Unlimited purchase disclosure and publication date for the public privacy policy."
+    },
+    {
+      "file": "pt-br/privacy-policy.html",
+      "historicalSha256": "bc5e29205bfa2ea7f4c27d52a5dfc5b1c826195e58eafd883de112f6e997b673",
+      "acceptedSha256": "8f2a9f28f83074ab891bcdb5fd03512eb74cf2255a93143b849d326fd447f2e7",
+      "reason": "Authorized current Scanner Unlimited purchase disclosure and publication date for the public privacy policy."
+    },
+    {
+      "file": "pt-pt/privacy-policy.html",
+      "historicalSha256": "6cf6ab8965f796b2411756c0b672b5ee3570b960cde15d17262493c06a5a1da7",
+      "acceptedSha256": "45b130b272c17ff6feeff2cf2830b89e10cf0f88c3933fe9dc5b2f2205920336",
+      "reason": "Authorized current Scanner Unlimited purchase disclosure and publication date for the public privacy policy."
+    },
+    {
+      "file": "nl/privacy-policy.html",
+      "historicalSha256": "ce1a89ca1a7e6fbc5a2265870b49b04b563621a1d360435cfeec9acb2f2ca5c1",
+      "acceptedSha256": "300345bc7c504d0ba76af719de028c87bbeceebfe37e9e0c841ad8408e26c2fc",
+      "reason": "Authorized current Scanner Unlimited purchase disclosure and publication date for the public privacy policy."
+    },
+    {
+      "file": "da/privacy-policy.html",
+      "historicalSha256": "4dfde66f0945b12df41b3eb692f23852a0bbd7a3498ffcb6e89763853cb72fe4",
+      "acceptedSha256": "f729e2c6f76f0d4ad5bedefe2052139e1560b667eb4dad83d937a604686afd15",
+      "reason": "Authorized current Scanner Unlimited purchase disclosure and publication date for the public privacy policy."
+    },
+    {
+      "file": "sv/privacy-policy.html",
+      "historicalSha256": "a4d950b4eab4710649b0e56ba6c24371f0a314435a55c7bba20dac9437a26158",
+      "acceptedSha256": "ce94ba9fa0661e1ce0be80f43a63147465605a5b24118987e6a68a9004aff113",
+      "reason": "Authorized current Scanner Unlimited purchase disclosure and publication date for the public privacy policy."
+    },
+    {
+      "file": "nb/privacy-policy.html",
+      "historicalSha256": "554135194117d08d88284be39764c7339c97346cbf89649485537d666e43f22a",
+      "acceptedSha256": "c408502edaa1192916eb16c0d1e336ca334fb00745f46820eb2a65704eca7606",
+      "reason": "Authorized current Scanner Unlimited purchase disclosure and publication date for the public privacy policy."
+    },
+    {
+      "file": "fi/privacy-policy.html",
+      "historicalSha256": "0e0f4899c7be91d538d4565ad4fb8f3d42f48d9ffe92e11ce5438d63435f45a1",
+      "acceptedSha256": "20754f2fcf01adbd2a963f7000ee49c4f43e298f973ff4f06c014cbeba5941fc",
+      "reason": "Authorized current Scanner Unlimited purchase disclosure and publication date for the public privacy policy."
+    },
+    {
+      "file": "is/privacy-policy.html",
+      "historicalSha256": "6c379f089087ac9e3eca72286e112ba10662e22b59518839ec3e2d61b589deab",
+      "acceptedSha256": "d99a43e81fa2dcfdc5e9152b77a8c3e6b6ee99725ad903a5de32b3c7bda38e03",
+      "reason": "Authorized current Scanner Unlimited purchase disclosure and publication date for the public privacy policy."
+    },
+    {
+      "file": "el/privacy-policy.html",
+      "historicalSha256": "e9a5a1b1845848ec2ddfa5a1bb89d8c4ed450e293200aadc131c53fab267f7ad",
+      "acceptedSha256": "6097bd56fbbc4166d3ab4b63ab490f9885db14c17d49893297d1210038545ce7",
+      "reason": "Authorized current Scanner Unlimited purchase disclosure and publication date for the public privacy policy."
+    },
+    {
+      "file": "tr/privacy-policy.html",
+      "historicalSha256": "0e218dc01bf278ba4dbc0d382315596645db29e7a75c8de4a5605d2790e66432",
+      "acceptedSha256": "d89ced8819fc8dfd7591cdfd82695f8a539b88418f5ea8ff33aeb80540ddc7c4",
+      "reason": "Authorized current Scanner Unlimited purchase disclosure and publication date for the public privacy policy."
+    },
+    {
+      "file": "ru/privacy-policy.html",
+      "historicalSha256": "38eb4f2756d902f62e8d234c6b5416005cbeacd34aeaca6fa2715f3c193c0cfa",
+      "acceptedSha256": "74dea55573a63c7dad4159c63bcdf39ab1773e52d14cc6c4a7e1924784cce981",
+      "reason": "Authorized current Scanner Unlimited purchase disclosure and publication date for the public privacy policy."
+    },
+    {
+      "file": "uk/privacy-policy.html",
+      "historicalSha256": "0bb217627a9e54260eefdb50ff94c5e57243e1b4e744278dfafc3ba30a612a82",
+      "acceptedSha256": "1efa4ce10c4460b3d8eea3fb9d0255b7f6404f718d7c6cb29935e6fe978e5f00",
+      "reason": "Authorized current Scanner Unlimited purchase disclosure and publication date for the public privacy policy."
+    },
+    {
+      "file": "ar/privacy-policy.html",
+      "historicalSha256": "a9d82a2eb2a2e0cb1d5ac2754fdf56face0d044b4de52f52f81e7adcb60d6db7",
+      "acceptedSha256": "6ca18ae719b9d2be90081affb36d87e5c55747317f6259d50160cd46e634b9c7",
+      "reason": "Authorized current Scanner Unlimited purchase disclosure and publication date for the public privacy policy."
+    },
+    {
+      "file": "he/privacy-policy.html",
+      "historicalSha256": "a1c727289c76f20dba08a537650e29147152d69adbea1aba625293651bf3e876",
+      "acceptedSha256": "230cb83604bd8c4c09c60f3908be2b1922e1f1c82d8dd72309d8ebed536c8844",
+      "reason": "Authorized current Scanner Unlimited purchase disclosure and publication date for the public privacy policy."
+    },
+    {
+      "file": "fa/privacy-policy.html",
+      "historicalSha256": "74d4bd2976c77a35d9204fa53d5bb423a10221f2772da5531e9627b2c44e3876",
+      "acceptedSha256": "eeefb2e01ae77324ac335eab0ae99531b9b5ea5f1bc70de6a84172882550058d",
+      "reason": "Authorized current Scanner Unlimited purchase disclosure and publication date for the public privacy policy."
+    },
+    {
+      "file": "ur/privacy-policy.html",
+      "historicalSha256": "79bf19b804199b79fcb9fedce306cf014eebd37d16599cbfa22b23e7beeea614",
+      "acceptedSha256": "be400377b272011eb2652396add9469949f149633fc4d808dea04729b5711197",
+      "reason": "Authorized current Scanner Unlimited purchase disclosure and publication date for the public privacy policy."
+    },
+    {
+      "file": "hi/privacy-policy.html",
+      "historicalSha256": "d64e219c74cb35e2d6e953d7b2f6e87a5de9fef833c9955d8413f295a29400d5",
+      "acceptedSha256": "61d1d6a435f5f17618f80df6dc24da1c623b0f25c9085fcc0116f22b27eed5c7",
+      "reason": "Authorized current Scanner Unlimited purchase disclosure and publication date for the public privacy policy."
+    },
+    {
+      "file": "bn/privacy-policy.html",
+      "historicalSha256": "d87430f3c4c972d2b391cdb5f13cb05de43278defb663e6a3c889e2a8c43d533",
+      "acceptedSha256": "0a9af1303c89cb70b9d4ab38e7463c6da70f51d9916e22f9fa30063b87a67ba5",
+      "reason": "Authorized current Scanner Unlimited purchase disclosure and publication date for the public privacy policy."
+    },
+    {
+      "file": "id/privacy-policy.html",
+      "historicalSha256": "cdf211ef118c65b2420bac52ee15da33fc6e887d6845424a2cfaeb121875e966",
+      "acceptedSha256": "0da10b5305e8330128dcaeaea25eed3eb004c06abf0ae9c0c08da207eab62692",
+      "reason": "Authorized current Scanner Unlimited purchase disclosure and publication date for the public privacy policy."
+    },
+    {
+      "file": "ms/privacy-policy.html",
+      "historicalSha256": "58b4217ed42999d24a018ab6ce36301a10ea2bdd4dee447b2acd6cbbd06c8265",
+      "acceptedSha256": "fe91f3f842299c21ea29a1d89895068bbc1c9bbe790673e6b6f55c6820ea0617",
+      "reason": "Authorized current Scanner Unlimited purchase disclosure and publication date for the public privacy policy."
+    },
+    {
+      "file": "th/privacy-policy.html",
+      "historicalSha256": "2996307e2253c1467680af7611d41127f25a99af1a12efa640ae1647d12d1fef",
+      "acceptedSha256": "edf37ce33d952a6507f0daf31008c62616f385d705493726fdf18700c5ed3986",
+      "reason": "Authorized current Scanner Unlimited purchase disclosure and publication date for the public privacy policy."
+    },
+    {
+      "file": "vi/privacy-policy.html",
+      "historicalSha256": "0099edbea53930cd4443bbaa0679ae66fc811bc6d312627d853209313df3c592",
+      "acceptedSha256": "20f9a5cbc53649d05651b5fa8a4bb364b063ee3eba36fc01f8f7d77f774356a6",
+      "reason": "Authorized current Scanner Unlimited purchase disclosure and publication date for the public privacy policy."
+    },
+    {
+      "file": "zh-hans/privacy-policy.html",
+      "historicalSha256": "99ea28b78ebfd4d1c5eee7e7d61753287caf03b7bf6b69920cf8d5cb0c8c19ed",
+      "acceptedSha256": "fc378f3a16c7c7aa81cf02e5d4c4386d01512fb4273bbd998501dd83ff4a9aa3",
+      "reason": "Authorized current Scanner Unlimited purchase disclosure and publication date for the public privacy policy."
+    },
+    {
+      "file": "zh-hant/privacy-policy.html",
+      "historicalSha256": "a2df4278fde8ea8a289a07d58637a01267c30ebdc6bce74fc8b3b20fae051318",
+      "acceptedSha256": "db2fea4d28465cab182d539f2de0e6f15d767b335bc299504bf2c2dffb65f7cb",
+      "reason": "Authorized current Scanner Unlimited purchase disclosure and publication date for the public privacy policy."
+    },
+    {
+      "file": "ja/privacy-policy.html",
+      "historicalSha256": "8f865f5d546bf9373766cd8c8b5df1585ecaf8e5ff0d7042bdf835741a0d0b7d",
+      "acceptedSha256": "803ed592604e77bcef3dd08ce7fea7cbfea5e70b88fcc0fca7c4b69e741d991e",
+      "reason": "Authorized current Scanner Unlimited purchase disclosure and publication date for the public privacy policy."
+    },
+    {
+      "file": "ko/privacy-policy.html",
+      "historicalSha256": "55b0ec59ba7d3d5564b789168daad1ac856672181a5dfd20c95f451026c34f04",
+      "acceptedSha256": "8c25716f18c29a3fd87a2a756d0db69c04c1e58aa4d7d61b575ac5d19a1710df",
+      "reason": "Authorized current Scanner Unlimited purchase disclosure and publication date for the public privacy policy."
+    }
+  ]
+}
