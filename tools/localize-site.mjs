@@ -46,11 +46,14 @@ const resourceFolders = {
 const webCopy = JSON.parse(await fs.readFile(path.join(root, 'tools', 'web-copy.json'), 'utf8'));
 const homepageLinkCopy = JSON.parse(await fs.readFile(path.join(root, 'tools', 'homepage-link-copy.json'), 'utf8'));
 const privacyTitleCopy = JSON.parse(await fs.readFile(path.join(root, 'tools', 'privacy-title-copy.json'), 'utf8'));
+const linksCopy = JSON.parse(await fs.readFile(path.join(root, 'tools', 'links-copy.json'), 'utf8'));
+const externalLinks = JSON.parse(await fs.readFile(path.join(root, 'tools', 'external-links.json'), 'utf8')).links;
 const phase1dPolicyCopy = JSON.parse(await fs.readFile(path.join(root, 'tools', 'privacy-policy-phase1d.json'), 'utf8'));
 const phase1dPolicySupplement = JSON.parse(await fs.readFile(path.join(root, 'tools', 'privacy-policy-phase1d-supplement.json'), 'utf8'));
 const homeTemplate = await fs.readFile(path.join(root, 'index.html'), 'utf8');
 const inventoryHomeTemplate = await fs.readFile(path.join(root, 'tools', 'templates', 'index.html'), 'utf8');
 const policyTemplate = await fs.readFile(path.join(root, 'tools', 'templates', 'privacy-policy.html'), 'utf8');
+const linksTemplate = await fs.readFile(path.join(root, 'tools', 'templates', 'links.html'), 'utf8');
 const toolCopyPayload = JSON.parse(await fs.readFile(path.join(root, 'tools', 'tool-copy.json'), 'utf8'));
 const toolCopyOverrides = JSON.parse(await fs.readFile(path.join(root, 'tools', 'tool-copy-overrides.json'), 'utf8'));
 const reviewedToolLocaleManifest = JSON.parse(await fs.readFile(path.join(root, 'tools', 'reviewed-tool-locales.json'), 'utf8'));
@@ -84,6 +87,10 @@ const toolSourceBundles = Object.fromEntries(await Promise.all(toolSlugs.map(asy
   const files = (await fs.readdir(directory)).filter(file => /\.(?:html|js|mjs)$/.test(file));
   return [slug, (await Promise.all(files.map(file => fs.readFile(path.join(directory, file), 'utf8')))).join('\n')];
 })));
+const legacyHomepageKeys = [
+  'offline_ready', 'prepare_offline', 'trip_presets_title', 'trip_presets_explanation',
+  'pinned_pairs_title', 'no_pinned_pairs_body'
+];
 
 function decodeXml(value) {
   return value.replace(/<[^>]+>/g, '').replaceAll('&lt;', '<').replaceAll('&gt;', '>')
@@ -100,20 +107,19 @@ async function androidStrings(locale) {
   const required = ['refresh_rates', 'select_currency', 'search_currency', 'favorites', 'calculator_add',
     'calculator_subtract', 'calculator_multiply', 'calculator_divide', 'history_title', 'history_empty_body',
     'theme', 'theme_dark', 'theme_light', 'about_description', 'data_source', 'disclaimer', 'privacy_policy',
-    'contact_developer', 'privacy_last_updated', 'privacy_policy_body', 'all_currencies', 'offline_ready',
-    'prepare_offline', 'back', 'actual_cost_title', 'actual_cost_explanation', 'travel_board_title',
-    'trip_presets_title', 'trip_presets_explanation', 'pinned_pairs_title', 'no_pinned_pairs_body',
+    'contact_developer', 'privacy_last_updated', 'privacy_policy_body', 'all_currencies',
+    'back', 'actual_cost_title', 'actual_cost_explanation', 'travel_board_title',
     'use_again', 'widget_description', 'move_up', 'move_down', 'add_currency'];
   const missing = required.filter(key => !strings[key]);
   if (missing.length) throw new Error(`${locale.android}: missing Android strings: ${missing.join(', ')}`);
-  return { strings, folder };
+  return { strings, folder, missingHomepage: legacyHomepageKeys.filter(key => !strings[key]) };
 }
 
 const esc = value => String(value).replaceAll('&', '&amp;').replaceAll('"', '&quot;').replaceAll('<', '&lt;').replaceAll('>', '&gt;');
 const brand = 'BALCO Converter';
 const webPolicyDate = value => value;
 
-function localMap(strings, copy, privacyTitle, linkCopy) {
+function localMap(strings, copy, privacyTitle, linkCopy, resourceCopy) {
   const calculator = [strings.calculator_add, strings.calculator_subtract, strings.calculator_multiply, strings.calculator_divide].join(' · ');
   const map = {
     'BALCO Converter — Convert currencies quickly, anywhere': `${brand} — ${copy.h1}`,
@@ -183,6 +189,7 @@ function localMap(strings, copy, privacyTitle, linkCopy) {
     'Currency conversion for Android': strings.about_description,
     'Footer navigation': privacyTitle,
     'Privacy Policy': privacyTitle,
+    'Links': resourceCopy.footerLabel,
     'Analytics choices': copy.analyticsChoices,
     'Contact': strings.contact_developer,
     'Switch to light theme': `${strings.theme}: ${strings.theme_light}`,
@@ -370,14 +377,73 @@ function localizeToolLinks(html, locale) {
   html = html.replace(/href="\/(currency-converter|exchange-rate-markup-calculator|multi-currency-converter|offline-currency-converter|exchange-rate-history|currency-converter-widget|foreign-transaction-fee-calculator|travel-budget-calculator)\/"/g,
     (_, slug) => `href="${base}${slug}/"`);
   html = html.replaceAll('href="/privacy-policy.html', `href="${base}privacy-policy.html`);
+  html = html.replaceAll('href="/links/"', `href="${base}links/"`);
   html = html.replaceAll('href="/"', `href="${base}"`);
   return applyAdSenseIntegration(
     html.replaceAll(legacyGooglePlayBadge, localGooglePlayBadge)
   );
 }
 
+function ensureFooterLinks(html, locale) {
+  const href = urlFor(locale, 'links');
+  const label = esc(linksCopy[locale.web].footerLabel);
+  return html.replace(/(<footer class="site-footer">[\s\S]*?<nav[^>]*>)([\s\S]*?)(<\/nav>)/, (whole, open, content, close) => {
+    if (new RegExp(`href="${href.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}"`).test(content)) return whole;
+    const link = `<a href="${href}">${label}</a>`;
+    const googlePlay = '<a href="https://play.google.com';
+    const separator = content.includes('\n') ? '\n        ' : '';
+    const updated = content.includes(googlePlay)
+      ? content.replace(googlePlay, `${link}${separator}${googlePlay}`)
+      : `${content}${link}`;
+    return `${open}${updated}${close}`;
+  });
+}
+
+function renderExternalLinks() {
+  return externalLinks.map(entry => {
+    const url = new URL(entry.url);
+    if (url.protocol !== 'https:') throw new Error(`${entry.name}: external link must use HTTPS`);
+    const description = linksCopy.en[entry.descriptionKey];
+    if (!description) throw new Error(`${entry.name}: missing English description key ${entry.descriptionKey}`);
+    return `        <li class="resource-item">\n          <h2>${esc(entry.name)}</h2>\n          <p>${esc(description)}</p>\n          <a class="text-link" href="${esc(url.href)}">Visit website <span aria-hidden="true">→</span></a>\n        </li>`;
+  }).join('\n');
+}
+
+function finalizeLinks(html, locale, rawMap, copy, strings) {
+  const resourceCopy = linksCopy[locale.web];
+  const displayMap = {
+    ...rawMap,
+    'Useful Links | BALCO Converter': `${resourceCopy.title} | BALCO Converter`,
+    'Useful app directories and resources related to BALCO Converter.': resourceCopy.metaDescription,
+    'Useful links': resourceCopy.title,
+    'A small collection of app directories and other useful resources related to BALCO Converter. Inclusion does not imply affiliation or endorsement.': resourceCopy.intro,
+    'Android app directory.': resourceCopy.androidAppDirectory,
+    'Visit website': resourceCopy.visitLabel,
+    'Links': resourceCopy.footerLabel
+  };
+  html = html.replace('        <!-- EXTERNAL_LINKS -->', renderExternalLinks());
+  html = applyMap(html, Object.fromEntries(Object.entries(displayMap).map(([key, value]) => [key, esc(value)])));
+  html = html.replace(/<html lang="[^"]+"(?: dir="[^"]+")?>/, `<html lang="${locale.web}"${locale.dir === 'rtl' ? ' dir="rtl"' : ''}>`);
+  html = html.replace(/(?:\s*<link rel="alternate" hreflang="[^"]+" href="[^"]+">)+/g, '');
+  html = html.replace(/  <link rel="canonical"[^>]+>/, `  <link rel="canonical" href="https://balkanconverter.com${urlFor(locale, 'links')}">\n${alternateLinks('links')}`);
+  html = html.replace(/<meta property="og:url" content="[^"]+">/, `<meta property="og:url" content="https://balkanconverter.com${urlFor(locale, 'links')}">`);
+  html = localizeToolLinks(html, locale);
+  html = html.replace('<div class="nav-actions">', `<div class="nav-actions">\n${languageSelector(locale, 'links')}`);
+  html = html.replace('class="brand" href="/"', `class="brand" href="${urlFor(locale, 'home')}"`);
+  html = html.replace(/<a class="back-link" href="\/">/, `<a class="back-link" href="${urlFor(locale, 'home')}">`);
+  html = html.replaceAll('<span>BALCO Converter</span>', '<span dir="ltr">BALCO Converter</span>');
+  html = html.replaceAll('<strong>BALCO Converter</strong>', '<strong dir="ltr">BALCO Converter</strong>');
+  const consent = consentTemplate(copy, 'links').replace('privacy-policy.html#website-analytics', `${urlFor(locale, 'policy')}#website-analytics`);
+  html = html.replace('</body>', `${consent}\n</body>`);
+  html = html.replace(/(<button class="theme-toggle"[^>]*?)\s+data-label-light="[^"]*"/,
+    `$1 data-label-light="${esc(`${strings.theme}: ${strings.theme_light}`)}"`);
+  html = html.replace(/(<button class="theme-toggle"[^>]*?)\s+data-label-dark="[^"]*"/,
+    `$1 data-label-dark="${esc(`${strings.theme}: ${strings.theme_dark}`)}"`);
+  return html.replaceAll(legacyGooglePlayBadge, localGooglePlayBadge);
+}
+
 function finalizeTool(html, locale, slug, rawMap, copy, strings) {
-  const displayMap = { ...rawMap, Tools: homepageLinkCopy[locale.web].toolsLabel };
+  const displayMap = { ...rawMap, Tools: homepageLinkCopy[locale.web].toolsLabel, Links: linksCopy[locale.web].footerLabel };
   const escapedMap = Object.fromEntries(Object.entries(displayMap).map(([key, value]) => [key, esc(value)]));
   html = applyRichCopy(html, locale.web);
   html = applyJsonLdMap(html, rawMap);
@@ -436,8 +502,8 @@ function sourceStrings(html) {
   return [...values];
 }
 
-const sourceInventory = { source: ['tools/templates/index.html', 'tools/templates/privacy-policy.html'],
-  home: sourceStrings(inventoryHomeTemplate), privacyPolicy: sourceStrings(policyTemplate) };
+const sourceInventory = { source: ['tools/templates/index.html', 'tools/templates/privacy-policy.html', 'tools/templates/links.html'],
+  home: sourceStrings(inventoryHomeTemplate), privacyPolicy: sourceStrings(policyTemplate), links: sourceStrings(linksTemplate) };
 await writeGeneratedJson(path.join(root, 'tools', 'production-strings.json'), sourceInventory, {
   getRunTimestamp,
   generatedAtIndex: 1
@@ -445,6 +511,7 @@ await writeGeneratedJson(path.join(root, 'tools', 'production-strings.json'), so
 
 const generated = [];
 const sources = [];
+const skippedHomepageLocales = [];
 for (const locale of locales) {
   const copy = webCopy[locale.web];
   const policyCopy = { ...phase1dPolicyCopy[locale.web], ...phase1dPolicySupplement[locale.web] };
@@ -453,47 +520,66 @@ for (const locale of locales) {
   if (!copy.marketingSummary) throw new Error(`${locale.android}: missing localized marketing summary (${locale.web})`);
   if (!homepageLinkCopy[locale.web]?.offlineGuide) throw new Error(`${locale.android}: missing localized homepage offline guide link (${locale.web})`);
   if (!homepageLinkCopy[locale.web]?.toolsLabel) throw new Error(`${locale.android}: missing localized tools navigation label (${locale.web})`);
-  const { strings, folder } = await androidStrings(locale);
+  if (!linksCopy[locale.web]) throw new Error(`${locale.android}: missing links page copy (${locale.web})`);
+  const { strings, folder, missingHomepage } = await androidStrings(locale);
   // Explicit standalone copy; never change case inside the legal policy body.
   const privacyTitle = privacyTitleCopy[locale.web]?.title ?? strings.privacy_policy;
-  const map = localMap(strings, copy, privacyTitle, homepageLinkCopy[locale.web]);
-  let home = locale.android === 'en' ? homeTemplate : applyMap(homeTemplate, map);
+  const map = localMap(strings, copy, privacyTitle, homepageLinkCopy[locale.web], linksCopy[locale.web]);
+  let home;
+  if (missingHomepage.length === 0) {
+    home = locale.android === 'en' ? homeTemplate : applyMap(homeTemplate, map);
+    if (locale.android !== 'en') {
+      const rawToolMap = toolCopyPayload.locales[locale.web];
+      if (!rawToolMap) throw new Error(`${locale.web}: missing tool localization catalog`);
+      // Serbian tool copy is deliberately scoped to the eight tool routes. The
+      // homepage has its own approved localization and must not inherit tool QA edits.
+      const homeToolOverrides = ['hr', 'sr'].includes(locale.web) ? toolCopyOverrides : effectiveToolCopyOverrides;
+      const toolMap = resolveToolMessages(locale.web, rawToolMap, homeToolOverrides, toolTerminologyReplacements);
+      home = applyMap(home, Object.fromEntries(Object.entries(toolMap).map(([key, value]) => [key, esc(value)])));
+      home = localizeToolLinks(home, locale);
+    }
+    home = finalize(home, locale, 'home', copy, strings);
+  } else {
+    home = await fs.readFile(path.join(root, locale.route, 'index.html'), 'utf8');
+    skippedHomepageLocales.push(locale.web);
+  }
   let policy = policyTemplate.replace(/    <article class="policy-card">[\s\S]*?    <\/article>/, policyArticle(strings, copy, policyCopy));
   policy = applyMap(policy, map);
   policy = policy.replace(/<p class="policy-meta">[\s\S]*?<\/p>/, `<p class="policy-meta">${esc(webPolicyDate(strings.privacy_last_updated))}</p>`);
-  if (locale.android !== 'en') {
-    const rawToolMap = toolCopyPayload.locales[locale.web];
-    if (!rawToolMap) throw new Error(`${locale.web}: missing tool localization catalog`);
-    // Serbian tool copy is deliberately scoped to the eight tool routes. The
-    // homepage has its own approved localization and must not inherit tool QA edits.
-    const homeToolOverrides = ['hr', 'sr'].includes(locale.web) ? toolCopyOverrides : effectiveToolCopyOverrides;
-    const toolMap = resolveToolMessages(locale.web, rawToolMap, homeToolOverrides, toolTerminologyReplacements);
-    home = applyMap(home, Object.fromEntries(Object.entries(toolMap).map(([key, value]) => [key, esc(value)])));
-    home = localizeToolLinks(home, locale);
-  }
-  home = finalize(home, locale, 'home', copy, strings);
   policy = finalize(policy, locale, 'policy', copy, strings);
   const directory = path.join(root, locale.route);
   await fs.mkdir(directory, { recursive: true });
-  if (!preserved.has(locale.android)) await fs.writeFile(path.join(directory, 'index.html'), home);
+  const homePath = path.join(directory, 'index.html');
+  const homeWithLinks = ensureFooterLinks(home, locale);
+  if (!preserved.has(locale.android) || homeWithLinks !== home) await fs.writeFile(homePath, homeWithLinks);
   if (preserveExistingPolicies) {
     const preservedPath = path.join(directory, 'privacy-policy.html');
     const existingPolicy = await fs.readFile(preservedPath, 'utf8');
-    const migratedPolicy = applyAdSenseIntegration(
+    const migratedPolicy = ensureFooterLinks(applyAdSenseIntegration(
       existingPolicy.replaceAll(legacyGooglePlayBadge, localGooglePlayBadge),
       { privacyPolicy: true }
-    );
+    ), locale);
     if (migratedPolicy !== existingPolicy) await fs.writeFile(preservedPath, migratedPolicy);
   } else {
     await fs.writeFile(path.join(directory, 'privacy-policy.html'), policy);
   }
+  const linksDirectory = path.join(directory, 'links');
+  await fs.mkdir(linksDirectory, { recursive: true });
+  await fs.writeFile(path.join(linksDirectory, 'index.html'), finalizeLinks(linksTemplate, locale, map, copy, strings));
   if (!preserved.has(locale.android)) generated.push(locale.android);
   if (locale.android !== 'en') {
     const rawMap = resolveToolMessages(locale.web, toolCopyPayload.locales[locale.web], effectiveToolCopyOverrides, effectiveToolTerminologyReplacements);
     for (const slug of toolSlugs) {
-      const directory = path.join(root, locale.route, slug);
-      await fs.mkdir(directory, { recursive: true });
-      await fs.writeFile(path.join(directory, 'index.html'), finalizeTool(toolTemplates[slug], locale, slug, mapForTool(rawMap, slug), copy, strings));
+      const toolDirectory = path.join(root, locale.route, slug);
+      const toolPath = path.join(toolDirectory, 'index.html');
+      await fs.mkdir(toolDirectory, { recursive: true });
+      if (missingHomepage.length === 0) {
+        await fs.writeFile(toolPath, finalizeTool(toolTemplates[slug], locale, slug, mapForTool(rawMap, slug), copy, strings));
+      } else {
+        const existingTool = await fs.readFile(toolPath, 'utf8');
+        const migratedTool = ensureFooterLinks(existingTool, locale);
+        if (migratedTool !== existingTool) await fs.writeFile(toolPath, migratedTool);
+      }
     }
   }
   sources.push({ locale: locale.android, webLocale: locale.web, androidResource: `app/src/main/res/${folder}/strings.xml` });
@@ -502,7 +588,8 @@ for (const locale of locales) {
 const manifest = { androidSource: '../app/src/main/res/xml/locales_config.xml',
   preservedLocales: [...preserved], generatedLocales: generated, terminologySources: sources,
   locales: locales.map(locale => ({ androidLocale: locale.android, webLocale: locale.web, hreflang: locale.web,
-    url: urlFor(locale), privacyUrl: urlFor(locale, 'policy'),
+    url: urlFor(locale), ...(['en', 'sr', 'ru'].includes(locale.web) ? { newsUrl: urlFor(locale, 'news') } : {}),
+    privacyUrl: urlFor(locale, 'policy'), linksUrl: urlFor(locale, 'links'),
     toolUrls: Object.fromEntries(toolSlugs.map(slug => [slug, urlFor(locale, slug)])), dir: locale.dir, name: locale.name })) };
 await writeGeneratedJson(path.join(root, 'site-locales.json'), manifest, { getRunTimestamp });
 
@@ -510,8 +597,8 @@ const xmlEsc = value => value.replaceAll('&', '&amp;');
 const sitemapLinks = page => locales.map(locale => `    <xhtml:link rel="alternate" hreflang="${locale.web}" href="${xmlEsc(`https://balkanconverter.com${urlFor(locale, page)}`)}" />`)
   .concat(`    <xhtml:link rel="alternate" hreflang="x-default" href="${xmlEsc(`https://balkanconverter.com${urlFor(locales[0], page)}`)}" />`).join('\n');
 const urls = [];
-for (const page of ['home', 'policy', ...toolSlugs]) for (const locale of locales) {
+for (const page of ['home', 'policy', 'links', ...toolSlugs]) for (const locale of locales) {
   urls.push(`  <url>\n    <loc>${xmlEsc(`https://balkanconverter.com${urlFor(locale, page)}`)}</loc>\n${sitemapLinks(page)}\n  </url>`);
 }
 await fs.writeFile(path.join(root, 'sitemap.xml'), `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">\n${urls.join('\n')}\n</urlset>\n`);
-console.log(`Generated ${generated.length} locales from local Android resources; preserved ${preserved.size}; total ${locales.length}.`);
+console.log(`Generated ${generated.length} locales from local Android resources; preserved ${preserved.size}; total ${locales.length}; retained ${skippedHomepageLocales.length} existing homepages because legacy Android homepage strings are no longer present.`);

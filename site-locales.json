@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-09T12:24:56.997Z",
+  "generatedAt": "2026-10-13T04:58:42.164Z",
   "androidSource": "../app/src/main/res/xml/locales_config.xml",
   "preservedLocales": [
     "en"
@@ -279,6 +279,7 @@
       "url": "/",
       "newsUrl": "/news/",
       "privacyUrl": "/privacy-policy.html",
+      "linksUrl": "/links/",
       "toolUrls": {
         "currency-converter": "/currency-converter/",
         "exchange-rate-markup-calculator": "/exchange-rate-markup-calculator/",
@@ -299,6 +300,7 @@
       "url": "/sr/",
       "newsUrl": "/sr/news/",
       "privacyUrl": "/sr/privacy-policy.html",
+      "linksUrl": "/sr/links/",
       "toolUrls": {
         "currency-converter": "/sr/currency-converter/",
         "exchange-rate-markup-calculator": "/sr/exchange-rate-markup-calculator/",
@@ -318,6 +320,7 @@
       "hreflang": "bs",
       "url": "/bs/",
       "privacyUrl": "/bs/privacy-policy.html",
+      "linksUrl": "/bs/links/",
       "toolUrls": {
         "currency-converter": "/bs/currency-converter/",
         "exchange-rate-markup-calculator": "/bs/exchange-rate-markup-calculator/",
@@ -337,6 +340,7 @@
       "hreflang": "hr",
       "url": "/hr/",
       "privacyUrl": "/hr/privacy-policy.html",
+      "linksUrl": "/hr/links/",
       "toolUrls": {
         "currency-converter": "/hr/currency-converter/",
         "exchange-rate-markup-calculator": "/hr/exchange-rate-markup-calculator/",
@@ -356,6 +360,7 @@
       "hreflang": "sq",
       "url": "/sq/",
       "privacyUrl": "/sq/privacy-policy.html",
+      "linksUrl": "/sq/links/",
       "toolUrls": {
         "currency-converter": "/sq/currency-converter/",
         "exchange-rate-markup-calculator": "/sq/exchange-rate-markup-calculator/",
@@ -375,6 +380,7 @@
       "hreflang": "mk",
       "url": "/mk/",
       "privacyUrl": "/mk/privacy-policy.html",
+      "linksUrl": "/mk/links/",
       "toolUrls": {
         "currency-converter": "/mk/currency-converter/",
         "exchange-rate-markup-calculator": "/mk/exchange-rate-markup-calculator/",
@@ -394,6 +400,7 @@
       "hreflang": "bg",
       "url": "/bg/",
       "privacyUrl": "/bg/privacy-policy.html",
+      "linksUrl": "/bg/links/",
       "toolUrls": {
         "currency-converter": "/bg/currency-converter/",
         "exchange-rate-markup-calculator": "/bg/exchange-rate-markup-calculator/",
@@ -413,6 +420,7 @@
       "hreflang": "ro",
       "url": "/ro/",
       "privacyUrl": "/ro/privacy-policy.html",
+      "linksUrl": "/ro/links/",
       "toolUrls": {
         "currency-converter": "/ro/currency-converter/",
         "exchange-rate-markup-calculator": "/ro/exchange-rate-markup-calculator/",
@@ -432,6 +440,7 @@
       "hreflang": "hu",
       "url": "/hu/",
       "privacyUrl": "/hu/privacy-policy.html",
+      "linksUrl": "/hu/links/",
       "toolUrls": {
         "currency-converter": "/hu/currency-converter/",
         "exchange-rate-markup-calculator": "/hu/exchange-rate-markup-calculator/",
@@ -451,6 +460,7 @@
       "hreflang": "pl",
       "url": "/pl/",
       "privacyUrl": "/pl/privacy-policy.html",
+      "linksUrl": "/pl/links/",
       "toolUrls": {
         "currency-converter": "/pl/currency-converter/",
         "exchange-rate-markup-calculator": "/pl/exchange-rate-markup-calculator/",
@@ -470,6 +480,7 @@
       "hreflang": "cs",
       "url": "/cs/",
       "privacyUrl": "/cs/privacy-policy.html",
+      "linksUrl": "/cs/links/",
       "toolUrls": {
         "currency-converter": "/cs/currency-converter/",
         "exchange-rate-markup-calculator": "/cs/exchange-rate-markup-calculator/",
@@ -489,6 +500,7 @@
       "hreflang": "sk",
       "url": "/sk/",
       "privacyUrl": "/sk/privacy-policy.html",
+      "linksUrl": "/sk/links/",
       "toolUrls": {
         "currency-converter": "/sk/currency-converter/",
         "exchange-rate-markup-calculator": "/sk/exchange-rate-markup-calculator/",
@@ -508,6 +520,7 @@
       "hreflang": "sl",
       "url": "/sl/",
       "privacyUrl": "/sl/privacy-policy.html",
+      "linksUrl": "/sl/links/",
       "toolUrls": {
         "currency-converter": "/sl/currency-converter/",
         "exchange-rate-markup-calculator": "/sl/exchange-rate-markup-calculator/",
@@ -527,6 +540,7 @@
       "hreflang": "de",
       "url": "/de/",
       "privacyUrl": "/de/privacy-policy.html",
+      "linksUrl": "/de/links/",
       "toolUrls": {
         "currency-converter": "/de/currency-converter/",
         "exchange-rate-markup-calculator": "/de/exchange-rate-markup-calculator/",
@@ -546,6 +560,7 @@
       "hreflang": "fr",
       "url": "/fr/",
       "privacyUrl": "/fr/privacy-policy.html",
+      "linksUrl": "/fr/links/",
       "toolUrls": {
         "currency-converter": "/fr/currency-converter/",
         "exchange-rate-markup-calculator": "/fr/exchange-rate-markup-calculator/",
@@ -565,6 +580,7 @@
       "hreflang": "it",
       "url": "/it/",
       "privacyUrl": "/it/privacy-policy.html",
+      "linksUrl": "/it/links/",
       "toolUrls": {
         "currency-converter": "/it/currency-converter/",
         "exchange-rate-markup-calculator": "/it/exchange-rate-markup-calculator/",
@@ -584,6 +600,7 @@
       "hreflang": "es-ES",
       "url": "/es-es/",
       "privacyUrl": "/es-es/privacy-policy.html",
+      "linksUrl": "/es-es/links/",
       "toolUrls": {
         "currency-converter": "/es-es/currency-converter/",
         "exchange-rate-markup-calculator": "/es-es/exchange-rate-markup-calculator/",
@@ -603,6 +620,7 @@
       "hreflang": "es-419",
       "url": "/es-419/",
       "privacyUrl": "/es-419/privacy-policy.html",
+      "linksUrl": "/es-419/links/",
       "toolUrls": {
         "currency-converter": "/es-419/currency-converter/",
         "exchange-rate-markup-calculator": "/es-419/exchange-rate-markup-calculator/",
@@ -622,6 +640,7 @@
       "hreflang": "pt-BR",
       "url": "/pt-br/",
       "privacyUrl": "/pt-br/privacy-policy.html",
+      "linksUrl": "/pt-br/links/",
       "toolUrls": {
         "currency-converter": "/pt-br/currency-converter/",
         "exchange-rate-markup-calculator": "/pt-br/exchange-rate-markup-calculator/",
@@ -641,6 +660,7 @@
       "hreflang": "pt-PT",
       "url": "/pt-pt/",
       "privacyUrl": "/pt-pt/privacy-policy.html",
+      "linksUrl": "/pt-pt/links/",
       "toolUrls": {
         "currency-converter": "/pt-pt/currency-converter/",
         "exchange-rate-markup-calculator": "/pt-pt/exchange-rate-markup-calculator/",
@@ -660,6 +680,7 @@
       "hreflang": "nl",
       "url": "/nl/",
       "privacyUrl": "/nl/privacy-policy.html",
+      "linksUrl": "/nl/links/",
       "toolUrls": {
         "currency-converter": "/nl/currency-converter/",
         "exchange-rate-markup-calculator": "/nl/exchange-rate-markup-calculator/",
@@ -679,6 +700,7 @@
       "hreflang": "da",
       "url": "/da/",
       "privacyUrl": "/da/privacy-policy.html",
+      "linksUrl": "/da/links/",
       "toolUrls": {
         "currency-converter": "/da/currency-converter/",
         "exchange-rate-markup-calculator": "/da/exchange-rate-markup-calculator/",
@@ -698,6 +720,7 @@
       "hreflang": "sv",
       "url": "/sv/",
       "privacyUrl": "/sv/privacy-policy.html",
+      "linksUrl": "/sv/links/",
       "toolUrls": {
         "currency-converter": "/sv/currency-converter/",
         "exchange-rate-markup-calculator": "/sv/exchange-rate-markup-calculator/",
@@ -717,6 +740,7 @@
       "hreflang": "nb",
       "url": "/nb/",
       "privacyUrl": "/nb/privacy-policy.html",
+      "linksUrl": "/nb/links/",
       "toolUrls": {
         "currency-converter": "/nb/currency-converter/",
         "exchange-rate-markup-calculator": "/nb/exchange-rate-markup-calculator/",
@@ -736,6 +760,7 @@
       "hreflang": "fi",
       "url": "/fi/",
       "privacyUrl": "/fi/privacy-policy.html",
+      "linksUrl": "/fi/links/",
       "toolUrls": {
         "currency-converter": "/fi/currency-converter/",
         "exchange-rate-markup-calculator": "/fi/exchange-rate-markup-calculator/",
@@ -755,6 +780,7 @@
       "hreflang": "is",
       "url": "/is/",
       "privacyUrl": "/is/privacy-policy.html",
+      "linksUrl": "/is/links/",
       "toolUrls": {
         "currency-converter": "/is/currency-converter/",
         "exchange-rate-markup-calculator": "/is/exchange-rate-markup-calculator/",
@@ -774,6 +800,7 @@
       "hreflang": "el",
       "url": "/el/",
       "privacyUrl": "/el/privacy-policy.html",
+      "linksUrl": "/el/links/",
       "toolUrls": {
         "currency-converter": "/el/currency-converter/",
         "exchange-rate-markup-calculator": "/el/exchange-rate-markup-calculator/",
@@ -793,6 +820,7 @@
       "hreflang": "tr",
       "url": "/tr/",
       "privacyUrl": "/tr/privacy-policy.html",
+      "linksUrl": "/tr/links/",
       "toolUrls": {
         "currency-converter": "/tr/currency-converter/",
         "exchange-rate-markup-calculator": "/tr/exchange-rate-markup-calculator/",
@@ -813,6 +841,7 @@
       "url": "/ru/",
       "newsUrl": "/ru/news/",
       "privacyUrl": "/ru/privacy-policy.html",
+      "linksUrl": "/ru/links/",
       "toolUrls": {
         "currency-converter": "/ru/currency-converter/",
         "exchange-rate-markup-calculator": "/ru/exchange-rate-markup-calculator/",
@@ -832,6 +861,7 @@
       "hreflang": "uk",
       "url": "/uk/",
       "privacyUrl": "/uk/privacy-policy.html",
+      "linksUrl": "/uk/links/",
       "toolUrls": {
         "currency-converter": "/uk/currency-converter/",
         "exchange-rate-markup-calculator": "/uk/exchange-rate-markup-calculator/",
@@ -851,6 +881,7 @@
       "hreflang": "ar",
       "url": "/ar/",
       "privacyUrl": "/ar/privacy-policy.html",
+      "linksUrl": "/ar/links/",
       "toolUrls": {
         "currency-converter": "/ar/currency-converter/",
         "exchange-rate-markup-calculator": "/ar/exchange-rate-markup-calculator/",
@@ -870,6 +901,7 @@
       "hreflang": "he",
       "url": "/he/",
       "privacyUrl": "/he/privacy-policy.html",
+      "linksUrl": "/he/links/",
       "toolUrls": {
         "currency-converter": "/he/currency-converter/",
         "exchange-rate-markup-calculator": "/he/exchange-rate-markup-calculator/",
@@ -889,6 +921,7 @@
       "hreflang": "fa",
       "url": "/fa/",
       "privacyUrl": "/fa/privacy-policy.html",
+      "linksUrl": "/fa/links/",
       "toolUrls": {
         "currency-converter": "/fa/currency-converter/",
         "exchange-rate-markup-calculator": "/fa/exchange-rate-markup-calculator/",
@@ -908,6 +941,7 @@
       "hreflang": "ur",
       "url": "/ur/",
       "privacyUrl": "/ur/privacy-policy.html",
+      "linksUrl": "/ur/links/",
       "toolUrls": {
         "currency-converter": "/ur/currency-converter/",
         "exchange-rate-markup-calculator": "/ur/exchange-rate-markup-calculator/",
@@ -927,6 +961,7 @@
       "hreflang": "hi",
       "url": "/hi/",
       "privacyUrl": "/hi/privacy-policy.html",
+      "linksUrl": "/hi/links/",
       "toolUrls": {
         "currency-converter": "/hi/currency-converter/",
         "exchange-rate-markup-calculator": "/hi/exchange-rate-markup-calculator/",
@@ -946,6 +981,7 @@
       "hreflang": "bn",
       "url": "/bn/",
       "privacyUrl": "/bn/privacy-policy.html",
+      "linksUrl": "/bn/links/",
       "toolUrls": {
         "currency-converter": "/bn/currency-converter/",
         "exchange-rate-markup-calculator": "/bn/exchange-rate-markup-calculator/",
@@ -965,6 +1001,7 @@
       "hreflang": "id",
       "url": "/id/",
       "privacyUrl": "/id/privacy-policy.html",
+      "linksUrl": "/id/links/",
       "toolUrls": {
         "currency-converter": "/id/currency-converter/",
         "exchange-rate-markup-calculator": "/id/exchange-rate-markup-calculator/",
@@ -984,6 +1021,7 @@
       "hreflang": "ms",
       "url": "/ms/",
       "privacyUrl": "/ms/privacy-policy.html",
+      "linksUrl": "/ms/links/",
       "toolUrls": {
         "currency-converter": "/ms/currency-converter/",
         "exchange-rate-markup-calculator": "/ms/exchange-rate-markup-calculator/",
@@ -1003,6 +1041,7 @@
       "hreflang": "th",
       "url": "/th/",
       "privacyUrl": "/th/privacy-policy.html",
+      "linksUrl": "/th/links/",
       "toolUrls": {
         "currency-converter": "/th/currency-converter/",
         "exchange-rate-markup-calculator": "/th/exchange-rate-markup-calculator/",
@@ -1022,6 +1061,7 @@
       "hreflang": "vi",
       "url": "/vi/",
       "privacyUrl": "/vi/privacy-policy.html",
+      "linksUrl": "/vi/links/",
       "toolUrls": {
         "currency-converter": "/vi/currency-converter/",
         "exchange-rate-markup-calculator": "/vi/exchange-rate-markup-calculator/",
@@ -1041,6 +1081,7 @@
       "hreflang": "zh-Hans",
       "url": "/zh-hans/",
       "privacyUrl": "/zh-hans/privacy-policy.html",
+      "linksUrl": "/zh-hans/links/",
       "toolUrls": {
         "currency-converter": "/zh-hans/currency-converter/",
         "exchange-rate-markup-calculator": "/zh-hans/exchange-rate-markup-calculator/",
@@ -1060,6 +1101,7 @@
       "hreflang": "zh-Hant",
       "url": "/zh-hant/",
       "privacyUrl": "/zh-hant/privacy-policy.html",
+      "linksUrl": "/zh-hant/links/",
       "toolUrls": {
         "currency-converter": "/zh-hant/currency-converter/",
         "exchange-rate-markup-calculator": "/zh-hant/exchange-rate-markup-calculator/",
@@ -1079,6 +1121,7 @@
       "hreflang": "ja",
       "url": "/ja/",
       "privacyUrl": "/ja/privacy-policy.html",
+      "linksUrl": "/ja/links/",
       "toolUrls": {
         "currency-converter": "/ja/currency-converter/",
         "exchange-rate-markup-calculator": "/ja/exchange-rate-markup-calculator/",
@@ -1098,6 +1141,7 @@
       "hreflang": "ko",
       "url": "/ko/",
       "privacyUrl": "/ko/privacy-policy.html",
+      "linksUrl": "/ko/links/",
       "toolUrls": {
         "currency-converter": "/ko/currency-converter/",
         "exchange-rate-markup-calculator": "/ko/exchange-rate-markup-calculator/",

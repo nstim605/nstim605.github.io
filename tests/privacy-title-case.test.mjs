@@ -64,7 +64,8 @@ test('all 44 policy HTML files preserve design, navigation and links outside the
       const normalizeAuthorizedPolicyUpdate = html => html
         .replace(/<p class="policy-meta">[\s\S]*?<\/p>/, '<p class="policy-meta">POLICY_DATE<\/p>')
         .replace(/<article class="policy-card">[\s\S]*?<\/article>/,
-          '<article class="policy-card">AUTHORIZED_POLICY_BODY<\/article>');
+          '<article class="policy-card">AUTHORIZED_POLICY_BODY<\/article>')
+        .replace(/<a href="\/(?:[^"/]+\/)?links\/">[^<]+<\/a>\s*/g, '');
       assert.equal(normalizeAuthorizedPolicyUpdate(current), normalizeAuthorizedPolicyUpdate(original),
         file + ': design, navigation, metadata and links outside policy content');
     }
@@ -75,7 +76,7 @@ test('generator uses explicit standalone copy without case-transforming legal te
   const generator = await read('tools/localize-site.mjs');
   assert.ok(generator.includes("'privacy-title-copy.json'"));
   assert.ok(generator.includes('privacyTitleCopy[locale.web]?.title ?? strings.privacy_policy'));
-  assert.ok(generator.includes('localMap(strings, copy, privacyTitle, homepageLinkCopy[locale.web])'));
+  assert.ok(generator.includes('localMap(strings, copy, privacyTitle, homepageLinkCopy[locale.web], linksCopy[locale.web])'));
   assert.ok(generator.includes("'Privacy': privacyTitle"));
   assert.ok(generator.includes("'Privacy Policy': privacyTitle"));
   assert.doesNotMatch(generator, /to(?:Locale)?UpperCase|text-transform|capitalize/);

@@ -1,0 +1,354 @@
+{
+  "en": {
+    "title": "Useful links",
+    "metaDescription": "Useful app directories and resources related to BALCO Converter.",
+    "intro": "A small collection of app directories and other useful resources related to BALCO Converter. Inclusion does not imply affiliation or endorsement.",
+    "androidAppDirectory": "Android app directory.",
+    "visitLabel": "Visit website",
+    "footerLabel": "Links"
+  },
+  "sr": {
+    "title": "Корисни линкови",
+    "metaDescription": "Корисни каталози апликација и ресурси повезани са BALCO Converter-ом.",
+    "intro": "Мала збирка каталога апликација и других корисних ресурса повезаних са BALCO Converter-ом. Уврштавање не подразумева повезаност нити препоруку.",
+    "androidAppDirectory": "Каталог Android апликација.",
+    "visitLabel": "Посети веб-сајт",
+    "footerLabel": "Линкови"
+  },
+  "bs": {
+    "title": "Korisni linkovi",
+    "metaDescription": "Korisni direktoriji aplikacija i resursi povezani s BALCO Converterom.",
+    "intro": "Mala zbirka direktorija aplikacija i drugih korisnih resursa povezanih s BALCO Converterom. Uvrštavanje ne podrazumijeva povezanost ni preporuku.",
+    "androidAppDirectory": "Direktorij Android aplikacija.",
+    "visitLabel": "Posjetite web-stranicu",
+    "footerLabel": "Linkovi"
+  },
+  "hr": {
+    "title": "Korisne poveznice",
+    "metaDescription": "Korisni imenici aplikacija i resursi povezani s BALCO Converterom.",
+    "intro": "Mala zbirka imenika aplikacija i drugih korisnih resursa povezanih s BALCO Converterom. Uvrštavanje ne podrazumijeva povezanost ni preporuku.",
+    "androidAppDirectory": "Imenik Android aplikacija.",
+    "visitLabel": "Posjetite web-mjesto",
+    "footerLabel": "Poveznice"
+  },
+  "sq": {
+    "title": "Lidhje të dobishme",
+    "metaDescription": "Drejtori aplikacionesh dhe burime të dobishme që lidhen me BALCO Converter.",
+    "intro": "Një përmbledhje e vogël drejtorish aplikacionesh dhe burimesh të tjera të dobishme që lidhen me BALCO Converter. Përfshirja nuk nënkupton lidhje apo rekomandim.",
+    "androidAppDirectory": "Drejtori aplikacionesh Android.",
+    "visitLabel": "Vizitoni faqen",
+    "footerLabel": "Lidhje"
+  },
+  "mk": {
+    "title": "Корисни врски",
+    "metaDescription": "Корисни каталози на апликации и ресурси поврзани со BALCO Converter.",
+    "intro": "Мала збирка каталози на апликации и други корисни ресурси поврзани со BALCO Converter. Вклучувањето не значи поврзаност или препорака.",
+    "androidAppDirectory": "Каталог на Android апликации.",
+    "visitLabel": "Посетете ја веб-страницата",
+    "footerLabel": "Врски"
+  },
+  "bg": {
+    "title": "Полезни връзки",
+    "metaDescription": "Полезни каталози за приложения и ресурси, свързани с BALCO Converter.",
+    "intro": "Малка колекция от каталози за приложения и други полезни ресурси, свързани с BALCO Converter. Включването не означава партньорство или препоръка.",
+    "androidAppDirectory": "Каталог за приложения за Android.",
+    "visitLabel": "Посетете уебсайта",
+    "footerLabel": "Връзки"
+  },
+  "ro": {
+    "title": "Linkuri utile",
+    "metaDescription": "Directoare de aplicații și resurse utile legate de BALCO Converter.",
+    "intro": "O mică selecție de directoare de aplicații și alte resurse utile legate de BALCO Converter. Includerea nu implică afiliere sau recomandare.",
+    "androidAppDirectory": "Director de aplicații Android.",
+    "visitLabel": "Vizitați site-ul",
+    "footerLabel": "Linkuri"
+  },
+  "hu": {
+    "title": "Hasznos linkek",
+    "metaDescription": "Hasznos alkalmazáskatalógusok és a BALCO Converterhez kapcsolódó források.",
+    "intro": "A BALCO Converterhez kapcsolódó alkalmazáskatalógusok és más hasznos források kis gyűjteménye. A felsorolás nem jelent kapcsolatot vagy ajánlást.",
+    "androidAppDirectory": "Android-alkalmazáskatalógus.",
+    "visitLabel": "Webhely megnyitása",
+    "footerLabel": "Linkek"
+  },
+  "pl": {
+    "title": "Przydatne linki",
+    "metaDescription": "Przydatne katalogi aplikacji i zasoby związane z BALCO Converter.",
+    "intro": "Niewielki zbiór katalogów aplikacji i innych przydatnych zasobów związanych z BALCO Converter. Umieszczenie na liście nie oznacza powiązania ani rekomendacji.",
+    "androidAppDirectory": "Katalog aplikacji na Androida.",
+    "visitLabel": "Odwiedź witrynę",
+    "footerLabel": "Linki"
+  },
+  "cs": {
+    "title": "Užitečné odkazy",
+    "metaDescription": "Užitečné katalogy aplikací a zdroje související s BALCO Converterem.",
+    "intro": "Malá sbírka katalogů aplikací a dalších užitečných zdrojů souvisejících s BALCO Converterem. Uvedení neznamená propojení ani doporučení.",
+    "androidAppDirectory": "Katalog aplikací pro Android.",
+    "visitLabel": "Navštívit web",
+    "footerLabel": "Odkazy"
+  },
+  "sk": {
+    "title": "Užitočné odkazy",
+    "metaDescription": "Užitočné katalógy aplikácií a zdroje súvisiace s BALCO Converterom.",
+    "intro": "Malá zbierka katalógov aplikácií a ďalších užitočných zdrojov súvisiacich s BALCO Converterom. Uvedenie neznamená prepojenie ani odporúčanie.",
+    "androidAppDirectory": "Katalóg aplikácií pre Android.",
+    "visitLabel": "Navštíviť web",
+    "footerLabel": "Odkazy"
+  },
+  "sl": {
+    "title": "Uporabne povezave",
+    "metaDescription": "Uporabni imeniki aplikacij in viri, povezani z BALCO Converterjem.",
+    "intro": "Majhna zbirka imenikov aplikacij in drugih uporabnih virov, povezanih z BALCO Converterjem. Vključitev ne pomeni povezanosti ali priporočila.",
+    "androidAppDirectory": "Imenik aplikacij za Android.",
+    "visitLabel": "Obiščite spletno mesto",
+    "footerLabel": "Povezave"
+  },
+  "de": {
+    "title": "Nützliche Links",
+    "metaDescription": "Nützliche App-Verzeichnisse und Ressourcen rund um BALCO Converter.",
+    "intro": "Eine kleine Sammlung von App-Verzeichnissen und weiteren nützlichen Ressourcen rund um BALCO Converter. Die Aufnahme bedeutet keine Partnerschaft oder Empfehlung.",
+    "androidAppDirectory": "Verzeichnis für Android-Apps.",
+    "visitLabel": "Website besuchen",
+    "footerLabel": "Links"
+  },
+  "fr": {
+    "title": "Liens utiles",
+    "metaDescription": "Annuaires d’applications et ressources utiles liés à BALCO Converter.",
+    "intro": "Une petite sélection d’annuaires d’applications et d’autres ressources utiles liés à BALCO Converter. Leur présence n’implique aucune affiliation ni recommandation.",
+    "androidAppDirectory": "Annuaire d’applications Android.",
+    "visitLabel": "Visiter le site",
+    "footerLabel": "Liens"
+  },
+  "it": {
+    "title": "Link utili",
+    "metaDescription": "Directory di app e risorse utili relative a BALCO Converter.",
+    "intro": "Una piccola raccolta di directory di app e altre risorse utili relative a BALCO Converter. L’inclusione non implica affiliazione o approvazione.",
+    "androidAppDirectory": "Directory di app Android.",
+    "visitLabel": "Visita il sito",
+    "footerLabel": "Link"
+  },
+  "es-ES": {
+    "title": "Enlaces útiles",
+    "metaDescription": "Directorios de aplicaciones y recursos útiles relacionados con BALCO Converter.",
+    "intro": "Una pequeña colección de directorios de aplicaciones y otros recursos útiles relacionados con BALCO Converter. Su inclusión no implica afiliación ni recomendación.",
+    "androidAppDirectory": "Directorio de aplicaciones Android.",
+    "visitLabel": "Visitar sitio web",
+    "footerLabel": "Enlaces"
+  },
+  "es-419": {
+    "title": "Enlaces útiles",
+    "metaDescription": "Directorios de aplicaciones y recursos útiles relacionados con BALCO Converter.",
+    "intro": "Una pequeña colección de directorios de aplicaciones y otros recursos útiles relacionados con BALCO Converter. Su inclusión no implica afiliación ni recomendación.",
+    "androidAppDirectory": "Directorio de aplicaciones Android.",
+    "visitLabel": "Visitar sitio web",
+    "footerLabel": "Enlaces"
+  },
+  "pt-BR": {
+    "title": "Links úteis",
+    "metaDescription": "Diretórios de aplicativos e recursos úteis relacionados ao BALCO Converter.",
+    "intro": "Uma pequena coleção de diretórios de aplicativos e outros recursos úteis relacionados ao BALCO Converter. A inclusão não implica afiliação nem recomendação.",
+    "androidAppDirectory": "Diretório de aplicativos Android.",
+    "visitLabel": "Visitar site",
+    "footerLabel": "Links"
+  },
+  "pt-PT": {
+    "title": "Ligações úteis",
+    "metaDescription": "Diretórios de aplicações e recursos úteis relacionados com o BALCO Converter.",
+    "intro": "Uma pequena coleção de diretórios de aplicações e outros recursos úteis relacionados com o BALCO Converter. A inclusão não implica afiliação nem recomendação.",
+    "androidAppDirectory": "Diretório de aplicações Android.",
+    "visitLabel": "Visitar o site",
+    "footerLabel": "Ligações"
+  },
+  "nl": {
+    "title": "Nuttige links",
+    "metaDescription": "Nuttige appcatalogi en bronnen met betrekking tot BALCO Converter.",
+    "intro": "Een kleine verzameling appcatalogi en andere nuttige bronnen met betrekking tot BALCO Converter. Vermelding betekent geen samenwerking of aanbeveling.",
+    "androidAppDirectory": "Catalogus voor Android-apps.",
+    "visitLabel": "Website bezoeken",
+    "footerLabel": "Links"
+  },
+  "da": {
+    "title": "Nyttige links",
+    "metaDescription": "Nyttige app-kataloger og ressourcer med relation til BALCO Converter.",
+    "intro": "En lille samling af app-kataloger og andre nyttige ressourcer med relation til BALCO Converter. En opførelse betyder ikke tilknytning eller anbefaling.",
+    "androidAppDirectory": "Katalog over Android-apps.",
+    "visitLabel": "Besøg webstedet",
+    "footerLabel": "Links"
+  },
+  "sv": {
+    "title": "Användbara länkar",
+    "metaDescription": "Användbara appkataloger och resurser med anknytning till BALCO Converter.",
+    "intro": "En liten samling appkataloger och andra användbara resurser med anknytning till BALCO Converter. Att en webbplats finns med innebär inte samarbete eller rekommendation.",
+    "androidAppDirectory": "Katalog över Android-appar.",
+    "visitLabel": "Besök webbplatsen",
+    "footerLabel": "Länkar"
+  },
+  "nb": {
+    "title": "Nyttige lenker",
+    "metaDescription": "Nyttige appkataloger og ressurser knyttet til BALCO Converter.",
+    "intro": "En liten samling appkataloger og andre nyttige ressurser knyttet til BALCO Converter. Oppføring innebærer ikke tilknytning eller anbefaling.",
+    "androidAppDirectory": "Katalog over Android-apper.",
+    "visitLabel": "Besøk nettstedet",
+    "footerLabel": "Lenker"
+  },
+  "fi": {
+    "title": "Hyödyllisiä linkkejä",
+    "metaDescription": "Hyödyllisiä sovellushakemistoja ja BALCO Converteriin liittyviä resursseja.",
+    "intro": "Pieni kokoelma sovellushakemistoja ja muita BALCO Converteriin liittyviä hyödyllisiä resursseja. Listaus ei tarkoita kumppanuutta tai suositusta.",
+    "androidAppDirectory": "Android-sovellushakemisto.",
+    "visitLabel": "Siirry verkkosivustolle",
+    "footerLabel": "Linkit"
+  },
+  "is": {
+    "title": "Gagnlegir tenglar",
+    "metaDescription": "Gagnleg forritasöfn og efni sem tengist BALCO Converter.",
+    "intro": "Lítið safn forritaskráa og annarra gagnlegra heimilda sem tengjast BALCO Converter. Skráning felur ekki í sér tengsl eða meðmæli.",
+    "androidAppDirectory": "Skrá yfir Android-forrit.",
+    "visitLabel": "Heimsækja vefsvæði",
+    "footerLabel": "Tenglar"
+  },
+  "el": {
+    "title": "Χρήσιμοι σύνδεσμοι",
+    "metaDescription": "Χρήσιμοι κατάλογοι εφαρμογών και πόροι σχετικά με το BALCO Converter.",
+    "intro": "Μια μικρή συλλογή καταλόγων εφαρμογών και άλλων χρήσιμων πόρων σχετικά με το BALCO Converter. Η συμπερίληψη δεν υποδηλώνει συνεργασία ή σύσταση.",
+    "androidAppDirectory": "Κατάλογος εφαρμογών Android.",
+    "visitLabel": "Επίσκεψη στον ιστότοπο",
+    "footerLabel": "Σύνδεσμοι"
+  },
+  "tr": {
+    "title": "Faydalı bağlantılar",
+    "metaDescription": "BALCO Converter ile ilgili faydalı uygulama dizinleri ve kaynaklar.",
+    "intro": "BALCO Converter ile ilgili uygulama dizinleri ve diğer faydalı kaynaklardan oluşan küçük bir koleksiyon. Listede yer almak bağlılık veya öneri anlamına gelmez.",
+    "androidAppDirectory": "Android uygulama dizini.",
+    "visitLabel": "Web sitesini ziyaret et",
+    "footerLabel": "Bağlantılar"
+  },
+  "ru": {
+    "title": "Полезные ссылки",
+    "metaDescription": "Полезные каталоги приложений и ресурсы, связанные с BALCO Converter.",
+    "intro": "Небольшая подборка каталогов приложений и других полезных ресурсов, связанных с BALCO Converter. Размещение в списке не означает партнёрство или рекомендацию.",
+    "androidAppDirectory": "Каталог Android-приложений.",
+    "visitLabel": "Перейти на сайт",
+    "footerLabel": "Ссылки"
+  },
+  "uk": {
+    "title": "Корисні посилання",
+    "metaDescription": "Корисні каталоги застосунків і ресурси, пов’язані з BALCO Converter.",
+    "intro": "Невелика добірка каталогів застосунків та інших корисних ресурсів, пов’язаних із BALCO Converter. Наявність у списку не означає партнерства чи рекомендації.",
+    "androidAppDirectory": "Каталог застосунків для Android.",
+    "visitLabel": "Перейти на сайт",
+    "footerLabel": "Посилання"
+  },
+  "ar": {
+    "title": "روابط مفيدة",
+    "metaDescription": "أدلة تطبيقات وموارد مفيدة مرتبطة بـ BALCO Converter.",
+    "intro": "مجموعة صغيرة من أدلة التطبيقات والموارد المفيدة الأخرى المرتبطة بـ BALCO Converter. لا يعني الإدراج وجود شراكة أو توصية.",
+    "androidAppDirectory": "دليل تطبيقات Android.",
+    "visitLabel": "زيارة الموقع",
+    "footerLabel": "روابط"
+  },
+  "he": {
+    "title": "קישורים שימושיים",
+    "metaDescription": "ספריות אפליקציות ומשאבים שימושיים הקשורים ל-BALCO Converter.",
+    "intro": "אוסף קטן של ספריות אפליקציות ומשאבים שימושיים נוספים הקשורים ל-BALCO Converter. ההכללה אינה מעידה על שותפות או המלצה.",
+    "androidAppDirectory": "ספריית אפליקציות Android.",
+    "visitLabel": "ביקור באתר",
+    "footerLabel": "קישורים"
+  },
+  "fa": {
+    "title": "پیوندهای مفید",
+    "metaDescription": "فهرست‌های برنامه و منابع مفید مرتبط با BALCO Converter.",
+    "intro": "مجموعه‌ای کوچک از فهرست‌های برنامه و منابع مفید دیگر مرتبط با BALCO Converter. درج در این فهرست به معنای وابستگی یا تأیید نیست.",
+    "androidAppDirectory": "فهرست برنامه‌های Android.",
+    "visitLabel": "بازدید از وب‌سایت",
+    "footerLabel": "پیوندها"
+  },
+  "ur": {
+    "title": "مفید روابط",
+    "metaDescription": "BALCO Converter سے متعلق مفید ایپ ڈائریکٹریاں اور وسائل۔",
+    "intro": "BALCO Converter سے متعلق ایپ ڈائریکٹریوں اور دیگر مفید وسائل کا ایک مختصر مجموعہ۔ فہرست میں شمولیت وابستگی یا توثیق ظاہر نہیں کرتی۔",
+    "androidAppDirectory": "Android ایپس کی ڈائریکٹری۔",
+    "visitLabel": "ویب سائٹ دیکھیں",
+    "footerLabel": "روابط"
+  },
+  "hi": {
+    "title": "उपयोगी लिंक",
+    "metaDescription": "BALCO Converter से संबंधित उपयोगी ऐप निर्देशिकाएँ और संसाधन।",
+    "intro": "BALCO Converter से संबंधित ऐप निर्देशिकाओं और अन्य उपयोगी संसाधनों का एक छोटा संग्रह। सूची में शामिल होना किसी संबद्धता या समर्थन का संकेत नहीं है।",
+    "androidAppDirectory": "Android ऐप निर्देशिका।",
+    "visitLabel": "वेबसाइट पर जाएँ",
+    "footerLabel": "लिंक"
+  },
+  "bn": {
+    "title": "দরকারি লিংক",
+    "metaDescription": "BALCO Converter সম্পর্কিত দরকারি অ্যাপ ডিরেক্টরি ও রিসোর্স।",
+    "intro": "BALCO Converter সম্পর্কিত অ্যাপ ডিরেক্টরি ও অন্যান্য দরকারি রিসোর্সের একটি ছোট সংগ্রহ। তালিকাভুক্ত হওয়া কোনো সম্পর্ক বা অনুমোদন বোঝায় না।",
+    "androidAppDirectory": "Android অ্যাপ ডিরেক্টরি।",
+    "visitLabel": "ওয়েবসাইট দেখুন",
+    "footerLabel": "লিংক"
+  },
+  "id": {
+    "title": "Tautan berguna",
+    "metaDescription": "Direktori aplikasi dan sumber daya berguna yang terkait dengan BALCO Converter.",
+    "intro": "Kumpulan kecil direktori aplikasi dan sumber daya berguna lainnya yang terkait dengan BALCO Converter. Pencantuman tidak menyiratkan afiliasi atau dukungan.",
+    "androidAppDirectory": "Direktori aplikasi Android.",
+    "visitLabel": "Kunjungi situs",
+    "footerLabel": "Tautan"
+  },
+  "ms": {
+    "title": "Pautan berguna",
+    "metaDescription": "Direktori aplikasi dan sumber berguna yang berkaitan dengan BALCO Converter.",
+    "intro": "Koleksi kecil direktori aplikasi dan sumber berguna lain yang berkaitan dengan BALCO Converter. Penyenaraian tidak menunjukkan gabungan atau sokongan.",
+    "androidAppDirectory": "Direktori aplikasi Android.",
+    "visitLabel": "Lawati laman web",
+    "footerLabel": "Pautan"
+  },
+  "th": {
+    "title": "ลิงก์ที่เป็นประโยชน์",
+    "metaDescription": "ไดเรกทอรีแอปและแหล่งข้อมูลที่เป็นประโยชน์ซึ่งเกี่ยวข้องกับ BALCO Converter",
+    "intro": "ชุดรวมขนาดเล็กของไดเรกทอรีแอปและแหล่งข้อมูลที่เป็นประโยชน์อื่น ๆ ซึ่งเกี่ยวข้องกับ BALCO Converter การรวมไว้ไม่ได้หมายถึงความร่วมมือหรือการรับรอง",
+    "androidAppDirectory": "ไดเรกทอรีแอป Android",
+    "visitLabel": "เยี่ยมชมเว็บไซต์",
+    "footerLabel": "ลิงก์"
+  },
+  "vi": {
+    "title": "Liên kết hữu ích",
+    "metaDescription": "Các thư mục ứng dụng và tài nguyên hữu ích liên quan đến BALCO Converter.",
+    "intro": "Một bộ sưu tập nhỏ gồm các thư mục ứng dụng và tài nguyên hữu ích khác liên quan đến BALCO Converter. Việc liệt kê không ngụ ý quan hệ liên kết hoặc sự chứng thực.",
+    "androidAppDirectory": "Thư mục ứng dụng Android.",
+    "visitLabel": "Truy cập trang web",
+    "footerLabel": "Liên kết"
+  },
+  "zh-Hans": {
+    "title": "实用链接",
+    "metaDescription": "与 BALCO Converter 相关的实用应用目录和资源。",
+    "intro": "与 BALCO Converter 相关的应用目录和其他实用资源的小型合集。收录并不表示存在关联或推荐关系。",
+    "androidAppDirectory": "Android 应用目录。",
+    "visitLabel": "访问网站",
+    "footerLabel": "链接"
+  },
+  "zh-Hant": {
+    "title": "實用連結",
+    "metaDescription": "與 BALCO Converter 相關的實用應用程式目錄和資源。",
+    "intro": "與 BALCO Converter 相關的應用程式目錄和其他實用資源的小型集合。收錄並不表示存在關聯或推薦關係。",
+    "androidAppDirectory": "Android 應用程式目錄。",
+    "visitLabel": "造訪網站",
+    "footerLabel": "連結"
+  },
+  "ja": {
+    "title": "便利なリンク",
+    "metaDescription": "BALCO Converter に関連する便利なアプリディレクトリとリソース。",
+    "intro": "BALCO Converter に関連するアプリディレクトリやその他の便利なリソースをまとめています。掲載は提携や推奨を意味するものではありません。",
+    "androidAppDirectory": "Android アプリディレクトリ。",
+    "visitLabel": "ウェブサイトを見る",
+    "footerLabel": "リンク"
+  },
+  "ko": {
+    "title": "유용한 링크",
+    "metaDescription": "BALCO Converter와 관련된 유용한 앱 디렉터리 및 자료입니다.",
+    "intro": "BALCO Converter와 관련된 앱 디렉터리와 기타 유용한 자료를 모은 작은 목록입니다. 목록에 포함되었다고 해서 제휴나 추천을 의미하지는 않습니다.",
+    "androidAppDirectory": "Android 앱 디렉터리.",
+    "visitLabel": "웹사이트 방문",
+    "footerLabel": "링크"
+  }
+}

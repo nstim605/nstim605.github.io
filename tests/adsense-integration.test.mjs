@@ -19,10 +19,10 @@ function fileForUrl(url) {
     : path.join(root, pathname.replace(/^\//, '').replace(/\/$/, '/index.html'));
 }
 
-test('all 440 sitemap pages have one correct AdSense script and protected main content', async () => {
+test('all 484 sitemap pages have one correct AdSense script and protected main content', async () => {
   const manifest = JSON.parse(await fs.readFile(path.join(root, 'site-locales.json'), 'utf8'));
-  const urls = manifest.locales.flatMap(locale => [locale.url, locale.privacyUrl, ...Object.values(locale.toolUrls)]);
-  assert.equal(urls.length, 440);
+  const urls = manifest.locales.flatMap(locale => [locale.url, locale.privacyUrl, locale.linksUrl, ...Object.values(locale.toolUrls)]);
+  assert.equal(urls.length, 484);
 
   for (const url of urls) {
     const file = fileForUrl(url);

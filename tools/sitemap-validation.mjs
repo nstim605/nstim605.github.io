@@ -9,7 +9,7 @@ function duplicates(values) {
 export function expectedSitemapUrls(manifest, origin = defaultOrigin, stories = [], { includeNews = true } = {}) {
   if (!Array.isArray(manifest?.locales)) throw new TypeError('Locale manifest must contain a locales array');
   const localeUrls = manifest.locales.flatMap(locale => {
-    const routes = [locale.url, locale.privacyUrl, ...Object.values(locale.toolUrls ?? {}), includeNews ? locale.newsUrl : null].filter(Boolean);
+    const routes = [locale.url, locale.privacyUrl, locale.linksUrl, ...Object.values(locale.toolUrls ?? {}), includeNews ? locale.newsUrl : null].filter(Boolean);
     if (routes.some(route => typeof route !== 'string' || !route.startsWith('/'))) {
       throw new TypeError(`Locale ${locale.webLocale ?? locale.androidLocale ?? 'unknown'} contains an invalid route`);
     }

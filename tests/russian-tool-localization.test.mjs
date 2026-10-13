@@ -87,7 +87,7 @@ test('Russian rich messages are complete sentences and retain locale-specific to
   assert.deepEqual(foundIds, expectedIds);
 });
 
-test('official local Google Play badge is used by all 440 active locale pages', async () => {
+test('official local Google Play badge is used by all 484 active locale pages', async () => {
   const badge = await fs.readFile(path.join(root, 'assets/google-play-badge-en.png'));
   assert.deepEqual([...badge.subarray(0, 8)], [137, 80, 78, 71, 13, 10, 26, 10]);
   assert.equal(badge.readUInt32BE(16), 478);
@@ -95,7 +95,7 @@ test('official local Google Play badge is used by all 440 active locale pages', 
   let checked = 0;
   for (const locale of inventory.locales) {
     const route = locale.url === '/' ? '' : locale.url.slice(1, -1);
-    for (const relative of ['index.html', 'privacy-policy.html', ...toolSlugs.map(slug => `${slug}/index.html`)]) {
+    for (const relative of ['index.html', 'privacy-policy.html', 'links/index.html', ...toolSlugs.map(slug => `${slug}/index.html`)]) {
       const html = await fs.readFile(path.join(root, route, relative), 'utf8');
       assert.doesNotMatch(html, new RegExp(legacyBadge.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')));
       assert.match(html, /src="\/assets\/google-play-badge-en\.png"/);
@@ -103,5 +103,5 @@ test('official local Google Play badge is used by all 440 active locale pages', 
       checked += 1;
     }
   }
-  assert.equal(checked, 440);
+  assert.equal(checked, 484);
 });

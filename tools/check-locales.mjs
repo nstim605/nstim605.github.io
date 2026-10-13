@@ -14,7 +14,8 @@ const warnings = [];
 const pages = new Map();
 const expectedHreflangs = manifest.locales.map(locale => locale.hreflang);
 const intentionalEnglish = new Set(['BALCO Converter', 'Google Play', '© 2026 BALCO Converter',
-  'Google Privacy Policy', 'Google Analytics', 'Google advertising policies', 'google_play_click']);
+  'Google Privacy Policy', 'Google Analytics', 'Google advertising policies', 'google_play_click',
+  'Links', 'Crypto']);
 
 if (android.length !== 44) errors.push(`Expected 44 Android locales, found ${android.length}`);
 if (JSON.stringify(android) !== JSON.stringify(web)) errors.push(`Locale mismatch: Android=${android.join(',')} website=${web.join(',')}`);
@@ -49,7 +50,7 @@ function visibleStrings(html) {
 }
 
 for (const locale of manifest.locales) {
-  for (const [page, url] of [['home', locale.url], ['policy', locale.privacyUrl]]) {
+  for (const [page, url] of [['home', locale.url], ['policy', locale.privacyUrl], ['links', locale.linksUrl]]) {
     const full = fileForUrl(url);
     let html;
     try { html = await fs.readFile(full, 'utf8'); } catch { errors.push(`Missing ${full}`); continue; }
@@ -65,14 +66,15 @@ for (const locale of manifest.locales) {
       if ((html.match(new RegExp(`rel="alternate" hreflang="${hreflang.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}"`, 'g')) ?? []).length !== 1) errors.push(`Missing/duplicate hreflang ${hreflang} in ${full}`);
     }
     if ((html.match(/rel="alternate" hreflang="x-default"/g) ?? []).length !== 1) errors.push(`Missing/duplicate x-default in ${full}`);
-    if ((html.match(/class="language-menu"/g) ?? []).length !== 1) errors.push(`Missing language selector ${full}`);
-    if ((html.match(/aria-current="page"/g) ?? []).length !== 1) errors.push(`Bad current language ${full}`);
+    const languageMenu = html.match(/<div class="language-menu">([\s\S]*?)<\/div>/)?.[1] ?? '';
+    if (!languageMenu) errors.push(`Missing language selector ${full}`);
+    if ((languageMenu.match(/aria-current="page"/g) ?? []).length !== 1) errors.push(`Bad current language ${full}`);
     if (!html.includes('analytics-consent-template')) errors.push(`Missing consent localization ${full}`);
     if (!html.includes('analytics-consent-accept') || !html.includes('analytics-consent-reject')) errors.push(`Incomplete consent actions ${full}`);
     if (!html.includes('play.google.com/store/apps/details?id=io.github.nstim605.balkanconverter')) errors.push(`Missing Google Play ${full}`);
     if (page === 'policy' && (!html.includes('id="website-analytics"') || !html.includes('id="contact"'))) errors.push(`Missing policy anchors ${full}`);
     if (locale.androidLocale !== 'en') {
-      const sourceSet = new Set(page === 'home' ? inventory.home : inventory.privacyPolicy);
+      const sourceSet = new Set(page === 'home' ? inventory.home : page === 'policy' ? inventory.privacyPolicy : inventory.links);
       for (const value of visibleStrings(html)) {
         if (sourceSet.has(value) && !intentionalEnglish.has(value) && !(locale.androidLocale === 'de' && value === 'Screenshots')) errors.push(`Untranslated source string in ${full}: ${value}`);
       }
@@ -100,7 +102,7 @@ for (const [full, html] of pages) {
 }
 
 const sitemap = await fs.readFile(path.join(root, 'sitemap.xml'), 'utf8');
-const sitemapValidation = validateSitemapUrlSet(sitemap, manifest);
+const sitemapValidation = validateSitemapUrlSet(sitemap, manifest, undefined, [], { includeNews: false });
 const blocks = sitemapValidation.blocks;
 const expectedAlternateCount = expectedHreflangs.length + 1;
 errors.push(...sitemapValidation.errors);
