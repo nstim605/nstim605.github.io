@@ -50,6 +50,10 @@ test('current screenshot and icon assets have approved dimensions', async () => 
   const icon = await fs.readFile(path.join(root, 'assets', 'icons', 'v1-603', 'app-icon-v1-603.png'));
   assert.deepEqual(pngDimensions(icon), { width: 512, height: 512 });
   assert.deepEqual(await fs.readFile(path.join(root, 'assets', 'app-icon.png')), icon);
+  const rootFavicon = await fs.readFile(path.join(root, 'favicon.ico'));
+  assert.equal(rootFavicon.readUInt16LE(0), 0);
+  assert.equal(rootFavicon.readUInt16LE(2), 1);
+  assert.equal(rootFavicon.readUInt16LE(4), 4);
   const social = await fs.readFile(path.join(root, 'assets', 'og-v1-603.png'));
   assert.deepEqual(pngDimensions(social), { width: 1024, height: 500 });
 });
