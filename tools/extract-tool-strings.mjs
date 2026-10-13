@@ -25,6 +25,8 @@ function decode(value) {
 function add(value) {
   const text = decode(value);
   if (!/[\p{L}]/u.test(text)) return;
+  // The compact header label is localized through homepage-link-copy.json.
+  if (text === 'Tools') return;
   if (/^(?:BALCO Converter|BALCO Converter|Google Play|Frankfurter|DCC|EUR|USD|RSD)$/.test(text)) return;
   if (/^(?:https?:|\/)/.test(text)) return;
   strings.add(text);
@@ -59,9 +61,9 @@ for (const slug of toolSlugs) {
   }
 }
 
-// Homepage tool navigation is part of the same localized user journey.
+// The compact homepage Tools menu is part of the same localized user journey.
 const home = await fs.readFile(path.join(root, 'index.html'), 'utf8');
-const navigation = home.match(/<section class="section shell tool-promo"[\s\S]*?<\/section>/)?.[0];
+const navigation = home.match(/<details class="tools-menu">[\s\S]*?<\/details>/)?.[0];
 if (navigation) collectHtml(navigation);
 
 const values = [...strings].sort((a, b) => a.localeCompare(b, 'en'));

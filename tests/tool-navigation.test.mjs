@@ -4,33 +4,49 @@ import path from 'node:path';
 import test from 'node:test';
 
 const root = path.resolve(import.meta.dirname, '..');
+const menuSlugs = [
+  'currency-converter',
+  'exchange-rate-markup-calculator',
+  'multi-currency-converter',
+  'exchange-rate-history',
+  'currency-converter-widget',
+  'foreign-transaction-fee-calculator',
+  'travel-budget-calculator'
+];
+const toolPages = [...menuSlugs.slice(0, 3), 'offline-currency-converter', ...menuSlugs.slice(3)];
+const expectedHrefs = menuSlugs.map(slug => `/${slug}/`);
 
-test('tool navigation renders arrows for every link except the last one', async () => {
-  const [home, styles] = await Promise.all([
+function linksIn(html, className) {
+  const block = html.match(new RegExp(`<nav class="${className}"[^>]*>([\\s\\S]*?)<\\/nav>`))?.[1] ?? '';
+  return [...block.matchAll(/<a\b[^>]*href="([^"]+)"[^>]*>/g)].map(match => match[1]);
+}
+
+test('homepage replaces the large tools block with a compact header menu', async () => {
+  const [home, styles, script] = await Promise.all([
     fs.readFile(path.join(root, 'index.html'), 'utf8'),
-    fs.readFile(path.join(root, 'styles.css'), 'utf8')
+    fs.readFile(path.join(root, 'styles.css'), 'utf8'),
+    fs.readFile(path.join(root, 'script.js'), 'utf8')
   ]);
-  const navigation = home.match(/<div class="tool-promo-actions">([\s\S]*?)<\/div>/)?.[1];
-  assert.ok(navigation, 'tool navigation should exist');
 
-  const links = [...navigation.matchAll(/<a\b[^>]*href="([^"]+)"[^>]*>([\s\S]*?)<\/a>/g)];
-  assert.equal(links.length, 7);
-  assert.deepEqual(links.map((link) => link[1]), [
-    '/currency-converter/',
-    '/exchange-rate-markup-calculator/',
-    '/multi-currency-converter/',
-    '/exchange-rate-history/',
-    '/currency-converter-widget/',
-    '/foreign-transaction-fee-calculator/',
-    '/travel-budget-calculator/'
-  ]);
-  assert.match(links.at(-1)?.[2] ?? '', /^Travel budget calculator\s*<span aria-hidden="true">→<\/span>$/);
-  assert.ok(links.slice(0, -1).every((link) => /<span aria-hidden="true">→<\/span>/.test(link[2])));
-  assert.match(styles, /\.tool-promo-actions\s*>\s*a:last-child\s*>\s*\[aria-hidden="true"\]\s*\{\s*display:\s*none;\s*\}/);
-  assert.match(styles, /\.tool-promo\s*>\s*div\s*\{[^}]*min-width:\s*0;/);
-  assert.match(styles, /\.tool-promo\s+h2\s*\{[^}]*overflow-wrap:\s*anywhere;/);
-  assert.match(styles, /\.tool-promo-actions\s*\{[^}]*flex-wrap:\s*wrap;/);
-  assert.match(styles, /\.tool-promo-actions\s*\{[^}]*min-width:\s*0;/);
-  assert.doesNotMatch(styles, /\.tool-promo-actions\s*\{[^}]*flex-shrink:\s*0;/);
-  assert.match(styles, /\.tool-promo-actions\s*>\s*a\s*\{[^}]*max-width:\s*100%;[^}]*white-space:\s*normal;/);
+  assert.doesNotMatch(home, /tool-promo|tool-promo-actions/);
+  assert.match(home, /<details class="tools-menu">\s*<summary>Tools<\/summary>/);
+  assert.deepEqual(linksIn(home, 'tools-menu-panel'), expectedHrefs);
+  assert.match(styles, /\.tools-menu-panel\s*\{[^}]*position:\s*absolute;/);
+  assert.match(styles, /@media \(max-width:\s*980px\)[\s\S]*\.tools-menu-panel\s*\{[^}]*position:\s*fixed;/);
+  assert.match(script, /event\.key !== 'Escape'/);
+  assert.match(script, /openMenu\.querySelector\('summary'\)\?\.focus\(\)/);
+});
+
+test('tool pages retain crawlable header and secondary navigation', async () => {
+  for (const slug of toolPages) {
+    const html = await fs.readFile(path.join(root, slug, 'index.html'), 'utf8');
+    assert.deepEqual(linksIn(html, 'tools-menu-panel'), expectedHrefs, `${slug}: header menu`);
+    const related = linksIn(html, 'related-tools shell');
+    assert.equal(related.length, menuSlugs.includes(slug) ? 6 : 7, `${slug}: related links`);
+    assert.ok(related.every(href => expectedHrefs.includes(href)), `${slug}: known related routes`);
+    if (menuSlugs.includes(slug)) {
+      assert.match(html, new RegExp(`href="/${slug}/" aria-current="page"`), `${slug}: current page`);
+      assert.ok(!related.includes(`/${slug}/`), `${slug}: current page omitted from related links`);
+    }
+  }
 });

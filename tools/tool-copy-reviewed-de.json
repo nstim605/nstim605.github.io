@@ -1,4 +1,6 @@
 {
+  "Android widget guide": "Android-Widget-Anleitung",
+  "Card & DCC fee calculator": "Gebühren- und DCC-Rechner",
   ". The app refreshes the shared rate dataset and confirms readiness when the saved cache contains every currency in that set.": ". Die App aktualisiert den gemeinsamen Kursdatensatz und bestätigt die Offline-Bereitschaft, sobald der gespeicherte Satz alle enthaltenen Währungen umfasst.",
   "{base} to {quote} reference-rate history from {from} to {to}. Minimum {minimum}, maximum {maximum}.": "Referenzkursverlauf {base}/{quote} vom {from} bis {to}. Minimum {minimum}, Maximum {maximum}.",
   "{base}/{quote} exchange-rate history": "Wechselkursverlauf {base}/{quote}",

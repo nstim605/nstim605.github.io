@@ -127,6 +127,7 @@ function localMap(strings, copy, privacyTitle, linkCopy) {
     'Features': copy.features,
     'Screenshots': copy.screenshots,
     'Privacy': privacyTitle,
+    'Tools': linkCopy.toolsLabel,
     'Switch color theme': strings.theme,
     'Get BALCO Converter on Google Play': `${brand} — Google Play`,
     'Get it on Google Play': 'Google Play',
@@ -376,7 +377,8 @@ function localizeToolLinks(html, locale) {
 }
 
 function finalizeTool(html, locale, slug, rawMap, copy, strings) {
-  const escapedMap = Object.fromEntries(Object.entries(rawMap).map(([key, value]) => [key, esc(value)]));
+  const displayMap = { ...rawMap, Tools: homepageLinkCopy[locale.web].toolsLabel };
+  const escapedMap = Object.fromEntries(Object.entries(displayMap).map(([key, value]) => [key, esc(value)]));
   html = applyRichCopy(html, locale.web);
   html = applyJsonLdMap(html, rawMap);
   html = applyMap(html, escapedMap);
@@ -450,6 +452,7 @@ for (const locale of locales) {
   if (!policyCopy) throw new Error(`${locale.android}: missing Phase 1D policy copy (${locale.web})`);
   if (!copy.marketingSummary) throw new Error(`${locale.android}: missing localized marketing summary (${locale.web})`);
   if (!homepageLinkCopy[locale.web]?.offlineGuide) throw new Error(`${locale.android}: missing localized homepage offline guide link (${locale.web})`);
+  if (!homepageLinkCopy[locale.web]?.toolsLabel) throw new Error(`${locale.android}: missing localized tools navigation label (${locale.web})`);
   const { strings, folder } = await androidStrings(locale);
   // Explicit standalone copy; never change case inside the legal policy body.
   const privacyTitle = privacyTitleCopy[locale.web]?.title ?? strings.privacy_policy;

@@ -29,4 +29,28 @@
 
   systemDark.addEventListener('change', updateLabel);
   updateLabel();
+
+  const headerMenus = [...document.querySelectorAll('.tools-menu, .language-selector')];
+  for (const menu of headerMenus) {
+    menu.addEventListener('toggle', function () {
+      if (!menu.open) return;
+      for (const otherMenu of headerMenus) {
+        if (otherMenu !== menu) otherMenu.open = false;
+      }
+    });
+  }
+
+  document.addEventListener('pointerdown', function (event) {
+    for (const menu of headerMenus) {
+      if (menu.open && !menu.contains(event.target)) menu.open = false;
+    }
+  });
+
+  document.addEventListener('keydown', function (event) {
+    if (event.key !== 'Escape') return;
+    const openMenu = headerMenus.find(menu => menu.open);
+    if (!openMenu) return;
+    openMenu.open = false;
+    openMenu.querySelector('summary')?.focus();
+  });
 })();

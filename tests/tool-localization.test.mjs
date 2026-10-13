@@ -104,19 +104,19 @@ test('every localized tool page has correct language, direction, canonical, href
   }
 });
 
-test('localized homepages and tool navigation preserve locale routes', async () => {
+test('localized homepages use compact tool menus and preserve locale routes', async () => {
   for (const locale of inventory.locales.filter(locale => locale.webLocale !== 'en')) {
     const route = routeFor(locale);
     const home = await fs.readFile(path.join(root, route, 'index.html'), 'utf8');
     for (const slug of tools.filter(slug => slug !== 'offline-currency-converter')) {
       assert.match(home, new RegExp(`href="${urlFor(locale, slug).replaceAll('/', '\\/')}"`), `${locale.webLocale}: ${slug}`);
     }
-    const navigation = home.match(/<div class="tool-promo-actions">([\s\S]*?)<\/div>/)?.[1];
-    assert.ok(navigation, `${locale.webLocale}: tool navigation missing`);
+    assert.doesNotMatch(home, /tool-promo|tool-promo-actions/, `${locale.webLocale}: obsolete tool block`);
+    const navigation = home.match(/<nav class="tools-menu-panel"[^>]*>([\s\S]*?)<\/nav>/)?.[1];
+    assert.ok(navigation, `${locale.webLocale}: tools menu missing`);
     const links = [...navigation.matchAll(/<a\b[^>]*href="([^"]+)"[^>]*>([\s\S]*?)<\/a>/g)];
     assert.equal(links.length, 7, `${locale.webLocale}: tool navigation item count`);
-    assert.ok(links.slice(0, -1).every(link => /<span aria-hidden="true">→<\/span>/.test(link[2])), `${locale.webLocale}: intermediate arrow missing`);
-    assert.match(links.at(-1)?.[2] ?? '', /<span aria-hidden="true">→<\/span>/, `${locale.webLocale}: final arrow markup missing`);
+    assert.ok(links.every(link => !/<span aria-hidden="true">→<\/span>/.test(link[2])), `${locale.webLocale}: legacy button arrow remains`);
   }
 });
 

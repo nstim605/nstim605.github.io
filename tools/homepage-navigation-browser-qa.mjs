@@ -58,18 +58,18 @@ page.on('console', message => {
 
 const failures = [];
 let checks = 0;
+let toolChecks = 0;
 try {
   for (const locale of inventory.locales) {
     const expectedLinks = navigationSlugs.map(slug => locale.toolUrls[slug]);
     for (const width of widths) {
       await page.setViewportSize({ width, height: 1000 });
       const response = await page.goto(`http://127.0.0.1:${port}${locale.url}`, { waitUntil: 'domcontentloaded' });
+      await page.locator('.tools-menu > summary').click();
       const result = await page.evaluate(() => {
-        const cards = [...document.querySelectorAll('.tool-promo-actions > a')];
+        const cards = [...document.querySelectorAll('.tools-menu-panel > a')];
         const rects = cards.map(card => {
           const rect = card.getBoundingClientRect();
-          const arrow = card.querySelector('[aria-hidden="true"]');
-          const arrowRect = arrow?.getBoundingClientRect();
           return {
             left: rect.left,
             right: rect.right,
@@ -80,10 +80,7 @@ try {
             scrollWidth: card.scrollWidth,
             clientWidth: card.clientWidth,
             scrollHeight: card.scrollHeight,
-            clientHeight: card.clientHeight,
-            arrowDisplay: arrow ? getComputedStyle(arrow).display : null,
-            arrowLeft: arrowRect?.left ?? null,
-            arrowRight: arrowRect?.right ?? null
+            clientHeight: card.clientHeight
           };
         });
         const overlaps = [];
@@ -99,7 +96,7 @@ try {
         return {
           htmlLang: document.documentElement.lang,
           htmlDir: document.documentElement.dir || 'ltr',
-          computedDirection: getComputedStyle(document.querySelector('.tool-promo-actions')).direction,
+          computedDirection: getComputedStyle(document.querySelector('.tools-menu-panel')).direction,
           viewportWidth: document.documentElement.clientWidth,
           documentWidth: document.documentElement.scrollWidth,
           bodyWidth: document.body.scrollWidth,
@@ -130,16 +127,13 @@ try {
         rect.width > 0 && rect.height > 0
         && rect.scrollWidth <= rect.clientWidth + 1
         && rect.scrollHeight <= rect.clientHeight + 1);
-      const intermediateArrowsVisible = result.rects.slice(0, -1).every(rect =>
-        rect.arrowDisplay !== 'none'
-        && rect.arrowLeft >= rect.left - 1
-        && rect.arrowRight <= rect.right + 1);
-      const arrowsFollowDirection = result.rects.slice(0, -1).every(rect => {
-        const arrowCenter = (rect.arrowLeft + rect.arrowRight) / 2;
-        const cardCenter = (rect.left + rect.right) / 2;
-        return locale.dir === 'rtl' ? arrowCenter < cardCenter : arrowCenter > cardCenter;
-      });
-      const finalArrowHidden = result.rects.at(-1)?.arrowDisplay === 'none';
+      await page.keyboard.press('Escape');
+      const escapeClosedAndFocused = await page.evaluate(() =>
+        !document.querySelector('.tools-menu').open
+        && document.activeElement === document.querySelector('.tools-menu > summary'));
+      await page.locator('.tools-menu > summary').press('Enter');
+      const keyboardOpen = await page.locator('.tools-menu').evaluate(menu => menu.open);
+      await page.keyboard.press('Escape');
       const matches = response?.ok()
         && result.htmlLang === locale.webLocale
         && result.htmlDir === locale.dir
@@ -151,14 +145,40 @@ try {
         && cardInsideViewport
         && labelsVisible
         && result.overlaps.length === 0
-        && intermediateArrowsVisible
-        && arrowsFollowDirection
-        && finalArrowHidden;
+        && escapeClosedAndFocused
+        && keyboardOpen;
 
       if (!matches) {
         failures.push(`${locale.webLocale} @ ${width}px: ${JSON.stringify({ expectedLinks, expectedDir: locale.dir, ...result })}`);
       }
       checks += 1;
+    }
+  }
+
+  for (const slug of navigationSlugs) {
+    for (const width of [320, 390, 1440]) {
+      await page.setViewportSize({ width, height: 1000 });
+      const response = await page.goto(`http://127.0.0.1:${port}/${slug}/`, { waitUntil: 'domcontentloaded' });
+      await page.locator('.tools-menu > summary').click();
+      const result = await page.evaluate(() => ({
+        documentWidth: document.documentElement.scrollWidth,
+        bodyWidth: document.body.scrollWidth,
+        hrefs: [...document.querySelectorAll('.tools-menu-panel > a')].map(link => link.getAttribute('href')),
+        currentHref: document.querySelector('.tools-menu-panel > a[aria-current="page"]')?.getAttribute('href') ?? null,
+        relatedHrefs: [...document.querySelectorAll('.related-tools a')].map(link => link.getAttribute('href')),
+        appBeforeRelated: Boolean(document.querySelector('.calculator-cta')?.compareDocumentPosition(document.querySelector('.related-tools')) & Node.DOCUMENT_POSITION_FOLLOWING)
+      }));
+      const expectedLinks = navigationSlugs.map(item => `/${item}/`);
+      const matches = response?.ok()
+        && result.documentWidth <= width
+        && result.bodyWidth <= width
+        && JSON.stringify(result.hrefs) === JSON.stringify(expectedLinks)
+        && result.currentHref === `/${slug}/`
+        && result.relatedHrefs.length === navigationSlugs.length - 1
+        && !result.relatedHrefs.includes(`/${slug}/`)
+        && result.appBeforeRelated;
+      if (!matches) failures.push(`tool ${slug} @ ${width}px: ${JSON.stringify(result)}`);
+      toolChecks += 1;
     }
   }
 } finally {
@@ -173,4 +193,4 @@ if (failures.length) {
   throw new Error(`Homepage navigation browser QA failed (${failures.length}):\n${failures.join('\n')}`);
 }
 
-console.log(`Homepage navigation browser QA PASS: ${inventory.locales.length} locales × ${widths.length} widths = ${checks} checks.`);
+console.log(`Navigation browser QA PASS: ${checks} localized homepage checks and ${toolChecks} English tool-page checks.`);
