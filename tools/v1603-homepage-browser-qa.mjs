@@ -80,7 +80,7 @@ try {
           screenshotCards: screenshots.length,
           featureCards: document.querySelectorAll('.feature-card').length,
           failedImages: screenshots.filter(image => !image.complete || image.naturalWidth !== 333 || image.naturalHeight !== 592).length,
-          heroCurrent: document.querySelector('.phone-frame img')?.getAttribute('src') === '/assets/screenshots/v1-603/screenshot-1.png',
+          heroCurrent: document.querySelector('.phone-frame img')?.getAttribute('src') === '/assets/screenshots/v1-607/screenshot-1.png',
           newsLinks: document.querySelectorAll('a[href*="/news/"]').length
         };
       });

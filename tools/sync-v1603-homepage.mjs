@@ -114,8 +114,9 @@ function renderFeatureGrid(features, eol) {
 function renderScreenshotGrid(features, eol) {
   return `<div class="screenshot-grid">${eol}${features.map((feature, index) => {
     const number = index + 1;
+    const release = number === 1 ? 'v1-607' : 'v1-603';
     return `          <figure class="screenshot-card">${eol}` +
-      `            <img src="/assets/screenshots/v1-603/screenshot-${number}.png" ` +
+      `            <img src="/assets/screenshots/${release}/screenshot-${number}.png" ` +
       `width="333" height="592" decoding="async" loading="lazy" ` +
       `alt="${escapeHtml(`${feature.title}. ${feature.description}`)}">${eol}` +
       `            <figcaption><strong>${escapeHtml(feature.title)}</strong><span>${escapeHtml(feature.description)}</span></figcaption>${eol}` +
@@ -166,7 +167,7 @@ export function updateHomepage(html, { listing, strings, locale }) {
       points.map(point => `          <li>${escapeHtml(point)}</li>`).join(eol) + `${eol}        </ul>`)
     .replace(/<figure class="phone-frame(?: phone-frame-v1603)?">[\s\S]*?<\/figure>/,
       `<figure class="phone-frame phone-frame-v1603">${eol}` +
-      `          <img src="/assets/screenshots/v1-603/screenshot-1.png" width="333" height="592" decoding="async" ` +
+      `          <img src="/assets/screenshots/v1-607/screenshot-1.png" width="333" height="592" decoding="async" ` +
       `alt="${escapeHtml(`${features[0].title}. ${features[0].description}`)}" fetchpriority="high">${eol}` +
       '        </figure>')
     .replace(/\s*<div class="rate-note rate-note-bottom"[\s\S]*?<\/div>/, '')

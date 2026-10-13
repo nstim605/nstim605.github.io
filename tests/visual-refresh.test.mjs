@@ -21,7 +21,8 @@ for (const locale of locales) test(`${locale.webLocale}: release 1.603 homepage 
   const listing = listingByLocale.get(listingLocale(locale.androidLocale));
   assert.ok(listing);
   assert.match(html, new RegExp(`<meta name="description" content="${listing.shortDescription.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}"`));
-  assert.equal((html.match(/assets\/screenshots\/v1-603\/screenshot-/g) ?? []).length, 7);
+  assert.equal((html.match(/assets\/screenshots\/v1-607\/screenshot-1\.png/g) ?? []).length, 2);
+  assert.equal((html.match(/assets\/screenshots\/v1-603\/screenshot-/g) ?? []).length, 5);
   assert.equal((html.match(/<figure class="screenshot-card">/g) ?? []).length, 6);
   assert.equal((html.match(/<article class="feature-card/g) ?? []).length, 6);
   assert.match(html, /assets\/icons\/v1-603\/app-icon-v1-603\.png/);
@@ -33,7 +34,10 @@ for (const locale of locales) test(`${locale.webLocale}: release 1.603 homepage 
   assert.match(html, new RegExp(`<html lang="${locale.hreflang}"${locale.dir === 'rtl' ? ' dir="rtl"' : ''}>`));
 });
 
-test('release 1.603 screenshot and icon assets have approved dimensions', async () => {
+test('current screenshot and icon assets have approved dimensions', async () => {
+  const currentHero = await fs.readFile(path.join(root, 'assets', 'screenshots', 'v1-607', 'screenshot-1.png'));
+  assert.deepEqual(pngDimensions(currentHero), { width: 333, height: 592 });
+  assert.ok(currentHero.length > 50_000 && currentHero.length < 250_000);
   for (let number = 1; number <= 6; number += 1) {
     const bytes = await fs.readFile(path.join(root, 'assets', 'screenshots', 'v1-603', `screenshot-${number}.png`));
     assert.deepEqual(pngDimensions(bytes), { width: 333, height: 592 });
@@ -52,7 +56,8 @@ test('homepage template, responsive layout and web manifest use the current rele
     fs.readFile(path.join(root, 'styles.css'), 'utf8'),
     fs.readFile(path.join(root, 'site.webmanifest'), 'utf8')
   ]);
-  assert.equal((template.match(/assets\/screenshots\/v1-603\/screenshot-/g) ?? []).length, 7);
+  assert.equal((template.match(/assets\/screenshots\/v1-607\/screenshot-1\.png/g) ?? []).length, 2);
+  assert.equal((template.match(/assets\/screenshots\/v1-603\/screenshot-/g) ?? []).length, 5);
   assert.match(css, /\.screenshot-grid\s*\{[^}]*grid-template-columns:\s*repeat\(3, 1fr\)/);
   assert.match(css, /@media \(max-width: 980px\)[\s\S]*?\.screenshot-grid\s*\{[^}]*repeat\(2, 1fr\)/);
   assert.match(css, /@media \(max-width: 540px\)[\s\S]*?\.feature-grid, \.screenshot-grid\s*\{[^}]*grid-template-columns:\s*1fr/);
