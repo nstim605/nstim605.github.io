@@ -114,7 +114,7 @@ function renderFeatureGrid(features, eol) {
 function renderScreenshotGrid(features, eol) {
   return `<div class="screenshot-grid">${eol}${features.map((feature, index) => {
     const number = index + 1;
-    const release = number === 1 ? 'v1-607' : 'v1-603';
+    const release = [1, 5].includes(number) ? 'v1-607' : 'v1-603';
     return `          <figure class="screenshot-card">${eol}` +
       `            <img src="/assets/screenshots/${release}/screenshot-${number}.png" ` +
       `width="333" height="592" decoding="async" loading="lazy" ` +
