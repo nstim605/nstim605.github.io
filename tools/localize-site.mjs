@@ -378,6 +378,7 @@ function localizeToolLinks(html, locale) {
     (_, slug) => `href="${base}${slug}/"`);
   html = html.replaceAll('href="/privacy-policy.html', `href="${base}privacy-policy.html`);
   html = html.replaceAll('href="/links/"', `href="${base}links/"`);
+  html = html.replaceAll('href="/#', `href="${base}#`);
   html = html.replaceAll('href="/"', `href="${base}"`);
   return applyAdSenseIntegration(
     html.replaceAll(legacyGooglePlayBadge, localGooglePlayBadge)
@@ -443,7 +444,18 @@ function finalizeLinks(html, locale, rawMap, copy, strings) {
 }
 
 function finalizeTool(html, locale, slug, rawMap, copy, strings) {
-  const displayMap = { ...rawMap, Tools: homepageLinkCopy[locale.web].toolsLabel, Links: linksCopy[locale.web].footerLabel };
+  const privacyTitle = privacyTitleCopy[locale.web]?.title ?? strings.privacy_policy;
+  const displayMap = {
+    ...rawMap,
+    'Main navigation': copy.features,
+    Features: copy.features,
+    Screenshots: copy.screenshots,
+    Privacy: privacyTitle,
+    Tools: homepageLinkCopy[locale.web].toolsLabel,
+    Links: linksCopy[locale.web].footerLabel,
+    'Get BALCO Converter on Google Play': `${brand} — Google Play`,
+    'Get it on Google Play': 'Google Play'
+  };
   const escapedMap = Object.fromEntries(Object.entries(displayMap).map(([key, value]) => [key, esc(value)]));
   html = applyRichCopy(html, locale.web);
   html = applyJsonLdMap(html, rawMap);
@@ -456,7 +468,7 @@ function finalizeTool(html, locale, slug, rawMap, copy, strings) {
   html = localizeToolLinks(html, locale);
   html = html.replace(/  <link rel="canonical"[^>]+>/, `  <link rel="canonical" href="https://balkanconverter.com${urlFor(locale, slug)}">\n${alternateLinks(slug)}`);
   html = html.replace(/<meta property="og:url" content="[^"]+">/, `<meta property="og:url" content="https://balkanconverter.com${urlFor(locale, slug)}">`);
-  html = html.replace('<div class="nav-actions">', `<div class="nav-actions">\n${languageSelector(locale, slug)}`);
+  html = standardizeLocalizedToolHeader(html, locale, slug, copy, strings);
   html = html.replace('class="brand" href="/"', `class="brand" href="${urlFor(locale, 'home')}"`);
   html = html.replace(/<a class="back-link" href="\/">/, `<a class="back-link" href="${urlFor(locale, 'home')}">`);
   html = html.replaceAll('href="../assets/', 'href="../../assets/').replaceAll('src="../assets/', 'src="../../assets/');
@@ -474,6 +486,47 @@ function finalizeTool(html, locale, slug, rawMap, copy, strings) {
   html = html.replace(/(<button class="theme-toggle"[^>]*?)\s+data-label-dark="[^"]*"/,
     `$1 data-label-dark="${esc(`${strings.theme}: ${strings.theme_dark}`)}"`);
   return html.replaceAll(legacyGooglePlayBadge, localGooglePlayBadge);
+}
+
+function standardizeEnglishToolHeader(html, slug) {
+  const navigation = `      <nav class="nav-links" aria-label="Main navigation"><a href="/#features">Features</a><a href="/#screenshots">Screenshots</a><a href="/privacy-policy.html">Privacy</a></nav>`;
+  html = html.replace(/[ \t]*<nav class="nav-links"[\s\S]*?<\/nav>/, navigation);
+
+  const selector = languageSelector(locales[0], slug).trim();
+  html = html.replace(/\s*<details class="language-selector">[\s\S]*?<\/details>/, '');
+  html = html.replace(/(<details class="tools-menu">[\s\S]*?<\/details>)/, `$1\n        ${selector}`);
+  html = html.replaceAll('<span>BALCO Converter</span>', '<span dir="ltr">BALCO Converter</span>');
+
+  const header = html.match(/<header class="site-header">[\s\S]*?<\/header>/)?.[0] ?? '';
+  if (!/<a class="play-link play-link-small"/.test(header)) {
+    html = html.replace(
+      /(<button class="theme-toggle"[\s\S]*?<\/button>)/,
+      `$1\n        <a class="play-link play-link-small" href="https://play.google.com/store/apps/details?id=io.github.nstim605.balkanconverter" aria-label="Get BALCO Converter on Google Play"><img src="/assets/google-play-badge-en.png" width="162" height="48" alt="Get it on Google Play"></a>`
+    );
+  }
+  return html;
+}
+
+function standardizeLocalizedToolHeader(html, locale, slug, copy, strings) {
+  const home = urlFor(locale, 'home');
+  const privacy = urlFor(locale, 'policy');
+  const privacyTitle = privacyTitleCopy[locale.web]?.title ?? strings.privacy_policy;
+  const navigation = `      <nav class="nav-links" aria-label="${esc(copy.features)}"><a href="${home}#features">${esc(copy.features)}</a><a href="${home}#screenshots">${esc(copy.screenshots)}</a><a href="${privacy}">${esc(privacyTitle)}</a></nav>`;
+  html = html.replace(/[ \t]*<nav class="nav-links"[\s\S]*?<\/nav>/, navigation);
+
+  const selector = languageSelector(locale, slug).trim();
+  html = /<details class="language-selector">[\s\S]*?<\/details>/.test(html)
+    ? html.replace(/<details class="language-selector">[\s\S]*?<\/details>/, selector)
+    : html.replace('<div class="nav-actions">', `<div class="nav-actions">\n${selector}`);
+
+  const header = html.match(/<header class="site-header">[\s\S]*?<\/header>/)?.[0] ?? '';
+  if (!/<a class="play-link play-link-small"/.test(header)) {
+    html = html.replace(
+      /(<button class="theme-toggle"[\s\S]*?<\/button>)/,
+      `$1\n        <a class="play-link play-link-small" href="https://play.google.com/store/apps/details?id=io.github.nstim605.balkanconverter" aria-label="${brand} — Google Play"><img src="/assets/google-play-badge-en.png" width="162" height="48" alt="Google Play"></a>`
+    );
+  }
+  return html;
 }
 
 function mapForTool(rawMap, slug) {
@@ -500,6 +553,12 @@ function sourceStrings(html) {
   withoutScripts.replace(/\b(?:aria-label|title|alt|data-label-light|data-label-dark)="([^"]+)"/g, (_, value) => { if (value) values.add(value); return _; });
   withoutScripts.replace(/<meta\s+(?:name|property)="(?:description|og:title|og:description|og:image:alt|twitter:title|twitter:description)"\s+content="([^"]+)"/g, (_, value) => { values.add(value); return _; });
   return [...values];
+}
+
+for (const slug of toolSlugs) {
+  const standardized = standardizeEnglishToolHeader(toolTemplates[slug], slug);
+  toolTemplates[slug] = standardized;
+  await fs.writeFile(path.join(root, slug, 'index.html'), standardized);
 }
 
 const sourceInventory = { source: ['tools/templates/index.html', 'tools/templates/privacy-policy.html', 'tools/templates/links.html'],
@@ -577,7 +636,7 @@ for (const locale of locales) {
         await fs.writeFile(toolPath, finalizeTool(toolTemplates[slug], locale, slug, mapForTool(rawMap, slug), copy, strings));
       } else {
         const existingTool = await fs.readFile(toolPath, 'utf8');
-        const migratedTool = ensureFooterLinks(existingTool, locale);
+        const migratedTool = standardizeLocalizedToolHeader(ensureFooterLinks(existingTool, locale), locale, slug, copy, strings);
         if (migratedTool !== existingTool) await fs.writeFile(toolPath, migratedTool);
       }
     }

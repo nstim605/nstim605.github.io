@@ -52,6 +52,9 @@ test('tool pages retain crawlable header and secondary navigation', async () => 
     const html = await fs.readFile(path.join(root, slug, 'index.html'), 'utf8');
     assert.match(html, /assets\/icons\/v1-603\/app-icon-v1-603\.png/, `${slug}: current app icon`);
     assert.doesNotMatch(html, /assets\/icons\/v1-5-11\//, `${slug}: no legacy icon assets`);
+    assert.deepEqual(linksIn(html, 'nav-links'), ['/#features', '/#screenshots', '/privacy-policy.html'], `${slug}: consistent primary navigation`);
+    assert.match(html, /<details class="language-selector">/, `${slug}: language selector`);
+    assert.match(html, /<a class="play-link play-link-small"/, `${slug}: Google Play action`);
     assert.deepEqual(linksIn(html, 'tools-menu-panel'), expectedHrefs, `${slug}: header menu`);
     const related = linksIn(html, 'related-tools shell');
     assert.equal(related.length, menuSlugs.includes(slug) ? 6 : 7, `${slug}: related links`);
@@ -59,6 +62,25 @@ test('tool pages retain crawlable header and secondary navigation', async () => 
     if (menuSlugs.includes(slug)) {
       assert.match(html, new RegExp(`href="/${slug}/" aria-current="page"`), `${slug}: current page`);
       assert.ok(!related.includes(`/${slug}/`), `${slug}: current page omitted from related links`);
+    }
+  }
+});
+
+test('every localized tool page uses the same locale-level header actions', async () => {
+  const manifest = JSON.parse(await fs.readFile(path.join(root, 'site-locales.json'), 'utf8'));
+
+  for (const locale of manifest.locales) {
+    const homePath = new URL(locale.url, 'https://balkanconverter.com').pathname;
+    const directory = homePath === '/' ? root : path.join(root, homePath.slice(1, -1));
+    const expectedPrimaryLinks = [`${homePath}#features`, `${homePath}#screenshots`, locale.privacyUrl];
+
+    for (const slug of toolPages) {
+      const html = await fs.readFile(path.join(directory, slug, 'index.html'), 'utf8');
+      assert.deepEqual(linksIn(html, 'nav-links'), expectedPrimaryLinks, `${locale.webLocale}/${slug}: primary navigation`);
+      assert.match(html, /<details class="tools-menu">/, `${locale.webLocale}/${slug}: Tools action`);
+      assert.match(html, /<details class="language-selector">/, `${locale.webLocale}/${slug}: language action`);
+      assert.match(html, /<button class="theme-toggle"/, `${locale.webLocale}/${slug}: theme action`);
+      assert.match(html, /<a class="play-link play-link-small"/, `${locale.webLocale}/${slug}: Google Play action`);
     }
   }
 });
