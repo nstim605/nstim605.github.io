@@ -85,6 +85,9 @@ test('every localized tool page has correct language, direction, canonical, href
       assert.deepEqual(hreflangs, expectedHreflangs, `${locale.webLocale}/${slug}: complete hreflang set`);
       assert.match(html, /src="\.\.\/\.\.\/script\.js"/, `${locale.webLocale}/${slug}: shared site script`);
       assert.doesNotMatch(html, /src="\.\/[^\"]+\.js"/, `${locale.webLocale}/${slug}: copied script path`);
+      assert.match(html, /assets\/icons\/v1-603\/app-icon-v1-603\.png/, `${locale.webLocale}/${slug}: current app icon`);
+      assert.match(html, /assets\/icons\/v1-603\/favicon-32\.png/, `${locale.webLocale}/${slug}: current favicon`);
+      assert.doesNotMatch(html, /assets\/icons\/v1-5-11\//, `${locale.webLocale}/${slug}: no legacy icon assets`);
       assert.match(html, new RegExp(`href="${urlFor(locale, 'currency-converter').replaceAll('/', '\\/')}"`));
       if (interactiveTools.has(slug)) {
         assert.match(html, new RegExp(`src="\\.\\.\\/\\.\\.\\/${slug}\\/[^\"]+\\.js"`), `${locale.webLocale}/${slug}: shared calculator script`);

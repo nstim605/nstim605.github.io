@@ -40,6 +40,8 @@ test('homepage replaces the large tools block with a compact header menu', async
 test('tool pages retain crawlable header and secondary navigation', async () => {
   for (const slug of toolPages) {
     const html = await fs.readFile(path.join(root, slug, 'index.html'), 'utf8');
+    assert.match(html, /assets\/icons\/v1-603\/app-icon-v1-603\.png/, `${slug}: current app icon`);
+    assert.doesNotMatch(html, /assets\/icons\/v1-5-11\//, `${slug}: no legacy icon assets`);
     assert.deepEqual(linksIn(html, 'tools-menu-panel'), expectedHrefs, `${slug}: header menu`);
     const related = linksIn(html, 'related-tools shell');
     assert.equal(related.length, menuSlugs.includes(slug) ? 6 : 7, `${slug}: related links`);
