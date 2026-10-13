@@ -37,6 +37,16 @@ test('homepage replaces the large tools block with a compact header menu', async
   assert.match(script, /openMenu\.querySelector\('summary'\)\?\.focus\(\)/);
 });
 
+test('localized desktop header labels stay on one line and collapse before they crowd', async () => {
+  const styles = await fs.readFile(path.join(root, 'styles.css'), 'utf8');
+
+  assert.match(styles, /\.brand\s*\{[^}]*flex:\s*0 0 auto;[^}]*white-space:\s*nowrap;/);
+  assert.match(styles, /\.nav-links a\s*\{[^}]*font-size:\s*\.95rem;[^}]*white-space:\s*nowrap;/);
+  assert.match(styles, /\.nav-actions\s*\{[^}]*flex:\s*0 0 auto;/);
+  assert.match(styles, /\.tools-menu summary\s*\{[^}]*white-space:\s*nowrap;/);
+  assert.match(styles, /@media \(max-width:\s*1230px\)[\s\S]*?\.nav-links\s*\{[^}]*display:\s*none;/);
+});
+
 test('tool pages retain crawlable header and secondary navigation', async () => {
   for (const slug of toolPages) {
     const html = await fs.readFile(path.join(root, slug, 'index.html'), 'utf8');
