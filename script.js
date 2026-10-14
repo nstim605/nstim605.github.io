@@ -30,13 +30,16 @@
   systemDark.addEventListener('change', updateLabel);
   updateLabel();
 
-  const headerMenus = [...document.querySelectorAll('.tools-menu, .language-selector')];
+  const headerMenus = [...document.querySelectorAll('.mobile-nav-menu, .tools-menu, .language-selector')];
   for (const menu of headerMenus) {
     menu.addEventListener('toggle', function () {
       if (!menu.open) return;
       for (const otherMenu of headerMenus) {
         if (otherMenu !== menu) otherMenu.open = false;
       }
+    });
+    menu.addEventListener('click', function (event) {
+      if (event.target.closest('a')) menu.open = false;
     });
   }
 

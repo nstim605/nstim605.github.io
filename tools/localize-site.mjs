@@ -342,6 +342,18 @@ function languageSelector(current, page) {
   return `        <details class="language-selector">\n          <summary aria-label="${current.name}"><span aria-hidden="true">🌐</span><span>${current.name}</span></summary>\n          <div class="language-menu">\n${links}\n          </div>\n        </details>\n`;
 }
 
+function ensureMobileNavigation(html) {
+  html = html.replace(/\s*<details class="mobile-nav-menu">[\s\S]*?<\/details>/, '');
+  const navigation = html.match(/<nav class="nav-links" aria-label="([^"]+)">([\s\S]*?)<\/nav>/);
+  if (!navigation) return html;
+  const [, label, links] = navigation;
+  const mobile = `        <details class="mobile-nav-menu">
+          <summary aria-label="${label}"><span aria-hidden="true">☰</span></summary>
+          <nav class="mobile-nav-menu-panel" aria-label="${label}">${links}</nav>
+        </details>`;
+  return html.replace('<div class="nav-actions">', `<div class="nav-actions">\n${mobile}`);
+}
+
 function finalize(html, locale, page, copy, strings) {
   const prefix = locale.route ? '../' : '';
   html = html.replace(/<html lang="[^"]+"(?: dir="[^"]+")?>/, `<html lang="${locale.web}"${locale.dir === 'rtl' ? ' dir="rtl"' : ''}>`);
@@ -369,7 +381,7 @@ function finalize(html, locale, page, copy, strings) {
     : html.replace('</body>', `${consent}\n</body>`);
   const marketingDescription = `${strings.about_description} ${strings.actual_cost_title} · ${strings.travel_board_title} · ${strings.trip_presets_title} · ${strings.prepare_offline} · ${strings.pinned_pairs_title} · ${strings.history_title} · ${strings.widget_description}.`;
   html = html.replace(/"description": "[^"]+"/, `"description": ${JSON.stringify(marketingDescription)}`);
-  return applyAdSenseIntegration(html, { privacyPolicy: page === 'policy' });
+  return applyAdSenseIntegration(ensureMobileNavigation(html), { privacyPolicy: page === 'policy' });
 }
 
 function localizeToolLinks(html, locale) {
@@ -454,7 +466,7 @@ function finalizeLinks(html, locale, rawMap, copy, strings) {
     `$1 data-label-light="${esc(`${strings.theme}: ${strings.theme_light}`)}"`);
   html = html.replace(/(<button class="theme-toggle"[^>]*?)\s+data-label-dark="[^"]*"/,
     `$1 data-label-dark="${esc(`${strings.theme}: ${strings.theme_dark}`)}"`);
-  return html.replaceAll(legacyGooglePlayBadge, localGooglePlayBadge);
+  return ensureMobileNavigation(html.replaceAll(legacyGooglePlayBadge, localGooglePlayBadge));
 }
 
 function finalizeTool(html, locale, slug, rawMap, copy, strings) {
@@ -499,7 +511,7 @@ function finalizeTool(html, locale, slug, rawMap, copy, strings) {
     `$1 data-label-light="${esc(`${strings.theme}: ${strings.theme_light}`)}"`);
   html = html.replace(/(<button class="theme-toggle"[^>]*?)\s+data-label-dark="[^"]*"/,
     `$1 data-label-dark="${esc(`${strings.theme}: ${strings.theme_dark}`)}"`);
-  return html.replaceAll(legacyGooglePlayBadge, localGooglePlayBadge);
+  return ensureMobileNavigation(html.replaceAll(legacyGooglePlayBadge, localGooglePlayBadge));
 }
 
 function standardizeEnglishToolHeader(html, slug) {
@@ -518,7 +530,7 @@ function standardizeEnglishToolHeader(html, slug) {
       `$1\n        <a class="play-link play-link-small" href="https://play.google.com/store/apps/details?id=io.github.nstim605.balkanconverter" aria-label="Get BALCO Converter on Google Play"><img src="/assets/google-play-badge-en.png" width="162" height="48" alt="Get it on Google Play"></a>`
     );
   }
-  return html;
+  return ensureMobileNavigation(html);
 }
 
 function standardizeLocalizedToolHeader(html, locale, slug, copy, strings) {
@@ -540,7 +552,7 @@ function standardizeLocalizedToolHeader(html, locale, slug, copy, strings) {
       `$1\n        <a class="play-link play-link-small" href="https://play.google.com/store/apps/details?id=io.github.nstim605.balkanconverter" aria-label="${brand} — Google Play"><img src="/assets/google-play-badge-en.png" width="162" height="48" alt="Google Play"></a>`
     );
   }
-  return html;
+  return ensureMobileNavigation(html);
 }
 
 function mapForTool(rawMap, slug) {
@@ -623,15 +635,15 @@ for (const locale of locales) {
   const directory = path.join(root, locale.route);
   await fs.mkdir(directory, { recursive: true });
   const homePath = path.join(directory, 'index.html');
-  const homeWithLinks = ensureFooterLinks(ensureFeatureIcons(home), locale);
+  const homeWithLinks = ensureMobileNavigation(ensureFooterLinks(ensureFeatureIcons(home), locale));
   if (!preserved.has(locale.android) || homeWithLinks !== home) await fs.writeFile(homePath, homeWithLinks);
   if (preserveExistingPolicies) {
     const preservedPath = path.join(directory, 'privacy-policy.html');
     const existingPolicy = await fs.readFile(preservedPath, 'utf8');
-    const migratedPolicy = ensureFooterLinks(applyAdSenseIntegration(
+    const migratedPolicy = ensureMobileNavigation(ensureFooterLinks(applyAdSenseIntegration(
       existingPolicy.replaceAll(legacyGooglePlayBadge, localGooglePlayBadge),
       { privacyPolicy: true }
-    ), locale);
+    ), locale));
     if (migratedPolicy !== existingPolicy) await fs.writeFile(preservedPath, migratedPolicy);
   } else {
     await fs.writeFile(path.join(directory, 'privacy-policy.html'), policy);

@@ -37,6 +37,22 @@ test('homepage replaces the large tools block with a compact header menu', async
   assert.match(script, /openMenu\.querySelector\('summary'\)\?\.focus\(\)/);
 });
 
+test('mobile header exposes the primary navigation without horizontal button crowding', async () => {
+  const [home, styles, script] = await Promise.all([
+    fs.readFile(path.join(root, 'index.html'), 'utf8'),
+    fs.readFile(path.join(root, 'styles.css'), 'utf8'),
+    fs.readFile(path.join(root, 'script.js'), 'utf8')
+  ]);
+  assert.deepEqual(linksIn(home, 'mobile-nav-menu-panel'), ['#features', '#screenshots', 'privacy-policy.html']);
+  assert.match(home, /<details class="mobile-nav-menu">\s*<summary aria-label="Main navigation"><span aria-hidden="true">☰<\/span><\/summary>/);
+  assert.match(styles, /\.mobile-nav-menu\s*\{[^}]*display:\s*none;/);
+  assert.match(styles, /@media \(max-width:\s*1230px\)[\s\S]*?\.mobile-nav-menu\s*\{[^}]*display:\s*block;/);
+  assert.match(styles, /@media \(max-width:\s*540px\)[\s\S]*?\.brand span\s*\{[^}]*display:\s*none;/);
+  assert.match(styles, /@media \(max-width:\s*420px\)[\s\S]*?\.nav-wrap, \.nav-actions\s*\{[^}]*gap:\s*7px;/);
+  assert.match(script, /\.mobile-nav-menu, \.tools-menu, \.language-selector/);
+  assert.match(script, /event\.target\.closest\('a'\)/);
+});
+
 test('localized desktop header labels stay on one line and collapse before they crowd', async () => {
   const styles = await fs.readFile(path.join(root, 'styles.css'), 'utf8');
 
@@ -73,10 +89,18 @@ test('every localized tool page uses the same locale-level header actions', asyn
     const homePath = new URL(locale.url, 'https://balkanconverter.com').pathname;
     const directory = homePath === '/' ? root : path.join(root, homePath.slice(1, -1));
     const expectedPrimaryLinks = [`${homePath}#features`, `${homePath}#screenshots`, locale.privacyUrl];
+    const home = await fs.readFile(path.join(directory, 'index.html'), 'utf8');
+
+    assert.deepEqual(linksIn(home, 'mobile-nav-menu-panel'), [
+      '#features',
+      '#screenshots',
+      path.basename(locale.privacyUrl)
+    ], `${locale.webLocale}: mobile homepage navigation`);
 
     for (const slug of toolPages) {
       const html = await fs.readFile(path.join(directory, slug, 'index.html'), 'utf8');
       assert.deepEqual(linksIn(html, 'nav-links'), expectedPrimaryLinks, `${locale.webLocale}/${slug}: primary navigation`);
+      assert.deepEqual(linksIn(html, 'mobile-nav-menu-panel'), expectedPrimaryLinks, `${locale.webLocale}/${slug}: mobile primary navigation`);
       assert.match(html, /<details class="tools-menu">/, `${locale.webLocale}/${slug}: Tools action`);
       assert.match(html, /<details class="language-selector">/, `${locale.webLocale}/${slug}: language action`);
       assert.match(html, /<button class="theme-toggle"/, `${locale.webLocale}/${slug}: theme action`);
