@@ -67,11 +67,25 @@
   <header class="site-header">
     <div class="shell nav-wrap">
       <a class="brand" href="/sk/" aria-label="BALCO Converter">
-        <img src="../assets/app-icon.png" width="42" height="42" alt="">
+        <img src="../assets/icons/v1-603/app-icon-v1-603.png" width="42" height="42" alt="">
         <span dir="ltr">BALCO Converter</span>
       </a>
+      <nav class="nav-links" aria-label="Funkcie">
+        <a href="/sk/#features">Funkcie</a>
+        <a href="/sk/#screenshots">Snímky obrazovky</a>
+        <a href="/sk/privacy-policy.html">Zásady ochrany osobných údajov</a>
+      </nav>
       <div class="nav-actions">
-        <details class="language-selector">
+        <details class="mobile-nav-menu">
+          <summary aria-label="Funkcie"><span aria-hidden="true">☰</span></summary>
+          <nav class="mobile-nav-menu-panel" aria-label="Funkcie">
+        <a href="/sk/#features">Funkcie</a>
+        <a href="/sk/#screenshots">Snímky obrazovky</a>
+        <a href="/sk/privacy-policy.html">Zásady ochrany osobných údajov</a>
+      </nav>
+        </details>
+        <details class="tools-menu"><summary>Nástroje</summary><nav class="tools-menu-panel" aria-label="Nástroje"><a href="/sk/currency-converter/">Prevodník mien</a><a href="/sk/exchange-rate-markup-calculator/">Kalkulačka kurzovej odchýlky</a><a href="/sk/multi-currency-converter/">Konvertor viacerých mien</a><a href="/sk/exchange-rate-history/">História výmenných kurzov</a><a href="/sk/currency-converter-widget/">Sprievodca widgetom pre Android</a><a href="/sk/foreign-transaction-fee-calculator/">Karta a kalkulačka poplatkov DCC</a><a href="/sk/travel-budget-calculator/">Kalkulačka cestovného rozpočtu</a></nav></details>
+<details class="language-selector">
           <summary aria-label="Slovenčina"><span aria-hidden="true">🌐</span><span>Slovenčina</span></summary>
           <div class="language-menu">
           <a href="/privacy-policy.html" hreflang="en" lang="en">English</a>
@@ -121,7 +135,9 @@
           </div>
         </details>
 
-        <button class="theme-toggle" type="button" data-label-light="Téma: Svetlá téma" data-label-dark="Téma: Tmavá téma" aria-label="Téma" title="Téma"><span aria-hidden="true">◐</span></button>
+        <button class="theme-toggle" type="button" data-label-light="Téma: Svetlá téma" data-label-dark="Téma: Tmavá téma" aria-label="Téma" title="Téma">
+          <span class="theme-icon" aria-hidden="true">◐</span>
+        </button>
         <a class="play-link play-link-small" href="https://play.google.com/store/apps/details?id=io.github.nstim605.balkanconverter" aria-label="BALCO Converter — Google Play">
           <img src="/assets/google-play-badge-en.png" width="162" height="48" alt="Google Play">
         </a>

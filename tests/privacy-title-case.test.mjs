@@ -45,15 +45,15 @@ test('seven corrected locales use exact standalone copy in all eight slots', asy
     const { before, title } = changes[locale.webLocale];
     assert.equal(title.slice(1), before.slice(1), locale.webLocale + ': wording unchanged');
     const [home, policy] = await Promise.all(paths(locale).map(read));
-    assert.equal(home.split(title).length - 1, 3, locale.webLocale + ': home slots');
-    assert.equal(policy.split(title).length - 1, 5, locale.webLocale + ': policy slots');
+    assert.equal(home.split(title).length - 1, 4, locale.webLocale + ': home slots');
+    assert.equal(policy.split(title).length - 1, 7, locale.webLocale + ': policy slots');
     assert.ok(policy.includes('<h1>' + title + '</h1>'));
     assert.ok(home.includes('<nav aria-label="' + title + '">'));
     assert.ok(policy.includes('<nav aria-label="' + title + '">'));
   }
 });
 
-test('all 44 policy HTML files preserve design, navigation and links outside the authorized policy update', async () => {
+test('all 44 policy HTML files preserve content and metadata outside authorized policy and header updates', async () => {
   for (const locale of manifest.locales) {
     for (const file of [locale.privacyUrl.slice(1)]) {
       const original = execFileSync('git', ['-c', 'safe.directory=' + root.replaceAll('\\', '/'),
@@ -62,12 +62,14 @@ test('all 44 policy HTML files preserve design, navigation and links outside the
       assert.match(current, /src="\/assets\/google-play-badge-en\.png"/, file + ': local badge');
       assert.doesNotMatch(current, /en_badge_web_generic\.png/, file + ': legacy badge');
       const normalizeAuthorizedPolicyUpdate = html => html
+        .replace(/<header class="site-header">[\s\S]*?<\/header>/,
+          '<header class="site-header">AUTHORIZED_SITE_HEADER<\/header>')
         .replace(/<p class="policy-meta">[\s\S]*?<\/p>/, '<p class="policy-meta">POLICY_DATE<\/p>')
         .replace(/<article class="policy-card">[\s\S]*?<\/article>/,
           '<article class="policy-card">AUTHORIZED_POLICY_BODY<\/article>')
         .replace(/<a href="\/(?:[^"/]+\/)?links\/">[^<]+<\/a>\s*/g, '');
       assert.equal(normalizeAuthorizedPolicyUpdate(current), normalizeAuthorizedPolicyUpdate(original),
-        file + ': design, navigation, metadata and links outside policy content');
+        file + ': content, metadata and links outside policy and header updates');
     }
   }
 });

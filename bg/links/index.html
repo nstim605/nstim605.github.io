@@ -81,8 +81,22 @@
         <img src="/assets/icons/v1-603/app-icon-v1-603.png" width="42" height="42" alt="">
         <span dir="ltr">BALCO Converter</span>
       </a>
+      <nav class="nav-links" aria-label="Характеристики">
+        <a href="/bg/#features">Характеристики</a>
+        <a href="/bg/#screenshots">Екранни снимки</a>
+        <a href="/bg/privacy-policy.html">Политика за поверителност</a>
+      </nav>
       <div class="nav-actions">
-        <details class="language-selector">
+        <details class="mobile-nav-menu">
+          <summary aria-label="Характеристики"><span aria-hidden="true">☰</span></summary>
+          <nav class="mobile-nav-menu-panel" aria-label="Характеристики">
+        <a href="/bg/#features">Характеристики</a>
+        <a href="/bg/#screenshots">Екранни снимки</a>
+        <a href="/bg/privacy-policy.html">Политика за поверителност</a>
+      </nav>
+        </details>
+        <details class="tools-menu"><summary>Инструменти</summary><nav class="tools-menu-panel" aria-label="Инструменти"><a href="/bg/currency-converter/">Конвертор на валута</a><a href="/bg/exchange-rate-markup-calculator/">Калкулатор за курсова разлика</a><a href="/bg/multi-currency-converter/">Мултивалутен конвертор</a><a href="/bg/exchange-rate-history/">История на обменните курсове</a><a href="/bg/currency-converter-widget/">Android ръководство за джаджи</a><a href="/bg/foreign-transaction-fee-calculator/">Карта и DCC калкулатор на такси</a><a href="/bg/travel-budget-calculator/">Калкулатор на бюджета за пътуване</a></nav></details>
+<details class="language-selector">
           <summary aria-label="Български"><span aria-hidden="true">🌐</span><span>Български</span></summary>
           <div class="language-menu">
           <a href="/links/" hreflang="en" lang="en">English</a>
@@ -132,7 +146,9 @@
           </div>
         </details>
 
-        <button class="theme-toggle" type="button" aria-label="Тема" title="Тема" data-label-light="Тема: Светла" data-label-dark="Тема: Тъмна"><span aria-hidden="true">◐</span></button>
+        <button class="theme-toggle" type="button" data-label-light="Тема: Лека тема" data-label-dark="Тема: Тъмна тема" aria-label="Тема" title="Тема">
+          <span class="theme-icon" aria-hidden="true">◐</span>
+        </button>
         <a class="play-link play-link-small" href="https://play.google.com/store/apps/details?id=io.github.nstim605.balkanconverter" aria-label="BALCO Converter — Google Play">
           <img src="/assets/google-play-badge-en.png" width="162" height="48" alt="Google Play">
         </a>

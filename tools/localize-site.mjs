@@ -354,6 +354,26 @@ function ensureMobileNavigation(html) {
   return html.replace('<div class="nav-actions">', `<div class="nav-actions">\n${mobile}`);
 }
 
+function synchronizeHeaderWithHome(html, homeHtml, locale, page) {
+  const header = homeHtml.match(/<header class="site-header">[\s\S]*?<\/header>/)?.[0];
+  if (!header) throw new Error(`${locale.web}/${page}: homepage header not found`);
+
+  const selectorToken = '<!-- PAGE_LANGUAGE_SELECTOR -->';
+  let pageHeader = header.replace(/\s*<details class="language-selector">[\s\S]*?<\/details>/, `\n${selectorToken}`);
+  const home = urlFor(locale, 'home');
+  const policy = urlFor(locale, 'policy');
+  pageHeader = pageHeader
+    .replaceAll('href="#features"', `href="${home}#features"`)
+    .replaceAll('href="#screenshots"', `href="${home}#screenshots"`)
+    .replaceAll('href="privacy-policy.html"', `href="${policy}"`)
+    .replace(selectorToken, languageSelector(locale, page).trim());
+  if (page === 'links') {
+    pageHeader = pageHeader.replace(/src="(?:\.\.\/)?assets\//g, 'src="/assets/');
+  }
+
+  return html.replace(/<header class="site-header">[\s\S]*?<\/header>/, pageHeader);
+}
+
 function finalize(html, locale, page, copy, strings) {
   const prefix = locale.route ? '../' : '';
   html = html.replace(/<html lang="[^"]+"(?: dir="[^"]+")?>/, `<html lang="${locale.web}"${locale.dir === 'rtl' ? ' dir="rtl"' : ''}>`);
@@ -641,16 +661,22 @@ for (const locale of locales) {
     const preservedPath = path.join(directory, 'privacy-policy.html');
     const existingPolicy = await fs.readFile(preservedPath, 'utf8');
     const migratedPolicy = ensureMobileNavigation(ensureFooterLinks(applyAdSenseIntegration(
+      synchronizeHeaderWithHome(
       existingPolicy.replaceAll(legacyGooglePlayBadge, localGooglePlayBadge),
+      homeWithLinks,
+      locale,
+      'policy'
+      ),
       { privacyPolicy: true }
     ), locale));
     if (migratedPolicy !== existingPolicy) await fs.writeFile(preservedPath, migratedPolicy);
   } else {
-    await fs.writeFile(path.join(directory, 'privacy-policy.html'), policy);
+    await fs.writeFile(path.join(directory, 'privacy-policy.html'), synchronizeHeaderWithHome(policy, homeWithLinks, locale, 'policy'));
   }
   const linksDirectory = path.join(directory, 'links');
   await fs.mkdir(linksDirectory, { recursive: true });
-  await fs.writeFile(path.join(linksDirectory, 'index.html'), finalizeLinks(linksTemplate, locale, map, copy, strings));
+  const links = finalizeLinks(linksTemplate, locale, map, copy, strings);
+  await fs.writeFile(path.join(linksDirectory, 'index.html'), synchronizeHeaderWithHome(links, homeWithLinks, locale, 'links'));
   if (!preserved.has(locale.android)) generated.push(locale.android);
   if (locale.android !== 'en') {
     const rawMap = resolveToolMessages(locale.web, toolCopyPayload.locales[locale.web], effectiveToolCopyOverrides, effectiveToolTerminologyReplacements);

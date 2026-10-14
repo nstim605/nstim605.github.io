@@ -81,8 +81,22 @@
         <img src="/assets/icons/v1-603/app-icon-v1-603.png" width="42" height="42" alt="">
         <span dir="ltr">BALCO Converter</span>
       </a>
+      <nav class="nav-links" aria-label="Funktionen">
+        <a href="/de/#features">Funktionen</a>
+        <a href="/de/#screenshots">Screenshots</a>
+        <a href="/de/privacy-policy.html">Datenschutzrichtlinie</a>
+      </nav>
       <div class="nav-actions">
-        <details class="language-selector">
+        <details class="mobile-nav-menu">
+          <summary aria-label="Funktionen"><span aria-hidden="true">☰</span></summary>
+          <nav class="mobile-nav-menu-panel" aria-label="Funktionen">
+        <a href="/de/#features">Funktionen</a>
+        <a href="/de/#screenshots">Screenshots</a>
+        <a href="/de/privacy-policy.html">Datenschutzrichtlinie</a>
+      </nav>
+        </details>
+        <details class="tools-menu"><summary>Werkzeuge</summary><nav class="tools-menu-panel" aria-label="Werkzeuge"><a href="/de/currency-converter/">Währungsrechner</a><a href="/de/exchange-rate-markup-calculator/">Abweichungsrechner</a><a href="/de/multi-currency-converter/">Mehrwährungsrechner</a><a href="/de/exchange-rate-history/">Wechselkursverlauf</a><a href="/de/currency-converter-widget/">Android Widget-Anleitung</a><a href="/de/foreign-transaction-fee-calculator/">Karten- und DCC-Gebührenrechner</a><a href="/de/travel-budget-calculator/">Reisebudgetrechner</a></nav></details>
+<details class="language-selector">
           <summary aria-label="Deutsch"><span aria-hidden="true">🌐</span><span>Deutsch</span></summary>
           <div class="language-menu">
           <a href="/links/" hreflang="en" lang="en">English</a>
@@ -132,7 +146,9 @@
           </div>
         </details>
 
-        <button class="theme-toggle" type="button" aria-label="Design" title="Design" data-label-light="Design: Hell" data-label-dark="Design: Dunkel"><span aria-hidden="true">◐</span></button>
+        <button class="theme-toggle" type="button" data-label-light="Thema: Lichtthema" data-label-dark="Thema: Dunkles Thema" aria-label="Thema" title="Thema">
+          <span class="theme-icon" aria-hidden="true">◐</span>
+        </button>
         <a class="play-link play-link-small" href="https://play.google.com/store/apps/details?id=io.github.nstim605.balkanconverter" aria-label="BALCO Converter — Google Play">
           <img src="/assets/google-play-badge-en.png" width="162" height="48" alt="Google Play">
         </a>

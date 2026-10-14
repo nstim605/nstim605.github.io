@@ -67,11 +67,25 @@
   <header class="site-header">
     <div class="shell nav-wrap">
       <a class="brand" href="/hi/" aria-label="BALCO Converter">
-        <img src="../assets/app-icon.png" width="42" height="42" alt="">
+        <img src="../assets/icons/v1-603/app-icon-v1-603.png" width="42" height="42" alt="">
         <span dir="ltr">BALCO Converter</span>
       </a>
+      <nav class="nav-links" aria-label="सुविधाएँ">
+        <a href="/hi/#features">सुविधाएँ</a>
+        <a href="/hi/#screenshots">स्क्रीनशॉट</a>
+        <a href="/hi/privacy-policy.html">गोपनीयता नीति</a>
+      </nav>
       <div class="nav-actions">
-        <details class="language-selector">
+        <details class="mobile-nav-menu">
+          <summary aria-label="सुविधाएँ"><span aria-hidden="true">☰</span></summary>
+          <nav class="mobile-nav-menu-panel" aria-label="सुविधाएँ">
+        <a href="/hi/#features">सुविधाएँ</a>
+        <a href="/hi/#screenshots">स्क्रीनशॉट</a>
+        <a href="/hi/privacy-policy.html">गोपनीयता नीति</a>
+      </nav>
+        </details>
+        <details class="tools-menu"><summary>टूल</summary><nav class="tools-menu-panel" aria-label="टूल"><a href="/hi/currency-converter/">मुद्रा परिवर्तक</a><a href="/hi/exchange-rate-markup-calculator/">दर-अंतर कैलकुलेटर</a><a href="/hi/multi-currency-converter/">बहु-मुद्रा परिवर्तक</a><a href="/hi/exchange-rate-history/">विनिमय दर इतिहास</a><a href="/hi/currency-converter-widget/">Android विजेट गाइड</a><a href="/hi/foreign-transaction-fee-calculator/">कार्ड और DCC शुल्क कैलकुलेटर</a><a href="/hi/travel-budget-calculator/">यात्रा बजट कैलकुलेटर</a></nav></details>
+<details class="language-selector">
           <summary aria-label="हिन्दी"><span aria-hidden="true">🌐</span><span>हिन्दी</span></summary>
           <div class="language-menu">
           <a href="/privacy-policy.html" hreflang="en" lang="en">English</a>
@@ -121,7 +135,9 @@
           </div>
         </details>
 
-        <button class="theme-toggle" type="button" data-label-light="विषय: प्रकाश विषय" data-label-dark="विषय: डार्क थीम" aria-label="विषय" title="विषय"><span aria-hidden="true">◐</span></button>
+        <button class="theme-toggle" type="button" data-label-light="विषय: प्रकाश विषय" data-label-dark="विषय: डार्क थीम" aria-label="विषय" title="विषय">
+          <span class="theme-icon" aria-hidden="true">◐</span>
+        </button>
         <a class="play-link play-link-small" href="https://play.google.com/store/apps/details?id=io.github.nstim605.balkanconverter" aria-label="BALCO Converter — Google Play">
           <img src="/assets/google-play-badge-en.png" width="162" height="48" alt="Google Play">
         </a>

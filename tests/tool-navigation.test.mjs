@@ -21,6 +21,13 @@ function linksIn(html, className) {
   return [...block.matchAll(/<a\b[^>]*href="([^"]+)"[^>]*>/g)].map(match => match[1]);
 }
 
+function fileForUrl(url) {
+  const pathname = new URL(url, 'https://balkanconverter.com').pathname;
+  return pathname.endsWith('/')
+    ? path.join(root, ...pathname.slice(1).split('/').filter(Boolean), 'index.html')
+    : path.join(root, ...pathname.slice(1).split('/'));
+}
+
 test('homepage replaces the large tools block with a compact header menu', async () => {
   const [home, styles, script] = await Promise.all([
     fs.readFile(path.join(root, 'index.html'), 'utf8'),
@@ -105,6 +112,27 @@ test('every localized tool page uses the same locale-level header actions', asyn
       assert.match(html, /<details class="language-selector">/, `${locale.webLocale}/${slug}: language action`);
       assert.match(html, /<button class="theme-toggle"/, `${locale.webLocale}/${slug}: theme action`);
       assert.match(html, /<a class="play-link play-link-small"/, `${locale.webLocale}/${slug}: Google Play action`);
+    }
+  }
+});
+
+test('privacy and links pages keep the complete locale-level site header', async () => {
+  const manifest = JSON.parse(await fs.readFile(path.join(root, 'site-locales.json'), 'utf8'));
+
+  for (const locale of manifest.locales) {
+    const expectedPrimaryLinks = [`${locale.url}#features`, `${locale.url}#screenshots`, locale.privacyUrl];
+    const expectedToolLinks = menuSlugs.map(slug => locale.toolUrls[slug]);
+
+    for (const pageUrl of [locale.privacyUrl, locale.linksUrl]) {
+      const html = await fs.readFile(fileForUrl(pageUrl), 'utf8');
+      assert.deepEqual(linksIn(html, 'nav-links'), expectedPrimaryLinks, `${pageUrl}: desktop primary navigation`);
+      assert.deepEqual(linksIn(html, 'mobile-nav-menu-panel'), expectedPrimaryLinks, `${pageUrl}: mobile primary navigation`);
+      assert.deepEqual(linksIn(html, 'tools-menu-panel'), expectedToolLinks, `${pageUrl}: Tools navigation`);
+      assert.match(html, /<details class="language-selector">/, `${pageUrl}: language action`);
+      assert.match(html, /<button class="theme-toggle"/, `${pageUrl}: theme action`);
+      assert.match(html, /<a class="play-link play-link-small"/, `${pageUrl}: Google Play action`);
+      assert.match(html, /assets\/icons\/v1-603\/app-icon-v1-603\.png/, `${pageUrl}: current app icon`);
+      assert.doesNotMatch(html, /<a href="#(?:features|screenshots)">/, `${pageUrl}: no broken local section links`);
     }
   }
 });

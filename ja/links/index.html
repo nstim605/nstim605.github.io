@@ -81,8 +81,22 @@
         <img src="/assets/icons/v1-603/app-icon-v1-603.png" width="42" height="42" alt="">
         <span dir="ltr">BALCO Converter</span>
       </a>
+      <nav class="nav-links" aria-label="機能">
+        <a href="/ja/#features">機能</a>
+        <a href="/ja/#screenshots">スクリーンショット</a>
+        <a href="/ja/privacy-policy.html">プライバシーポリシー</a>
+      </nav>
       <div class="nav-actions">
-        <details class="language-selector">
+        <details class="mobile-nav-menu">
+          <summary aria-label="機能"><span aria-hidden="true">☰</span></summary>
+          <nav class="mobile-nav-menu-panel" aria-label="機能">
+        <a href="/ja/#features">機能</a>
+        <a href="/ja/#screenshots">スクリーンショット</a>
+        <a href="/ja/privacy-policy.html">プライバシーポリシー</a>
+      </nav>
+        </details>
+        <details class="tools-menu"><summary>ツール</summary><nav class="tools-menu-panel" aria-label="ツール"><a href="/ja/currency-converter/">通貨換算機</a><a href="/ja/exchange-rate-markup-calculator/">為替レート差額計算</a><a href="/ja/multi-currency-converter/">多通貨コンバータ</a><a href="/ja/exchange-rate-history/">為替レートの履歴</a><a href="/ja/currency-converter-widget/">Android ウィジェット ガイド</a><a href="/ja/foreign-transaction-fee-calculator/">カードと DCC の手数料計算ツール</a><a href="/ja/travel-budget-calculator/">旅行予算計算ツール</a></nav></details>
+<details class="language-selector">
           <summary aria-label="日本語"><span aria-hidden="true">🌐</span><span>日本語</span></summary>
           <div class="language-menu">
           <a href="/links/" hreflang="en" lang="en">English</a>
@@ -132,7 +146,9 @@
           </div>
         </details>
 
-        <button class="theme-toggle" type="button" aria-label="テーマ" title="テーマ" data-label-light="テーマ: ライト" data-label-dark="テーマ: ダーク"><span aria-hidden="true">◐</span></button>
+        <button class="theme-toggle" type="button" data-label-light="テーマ: ライトテーマ" data-label-dark="テーマ: ダークテーマ" aria-label="テーマ" title="テーマ">
+          <span class="theme-icon" aria-hidden="true">◐</span>
+        </button>
         <a class="play-link play-link-small" href="https://play.google.com/store/apps/details?id=io.github.nstim605.balkanconverter" aria-label="BALCO Converter — Google Play">
           <img src="/assets/google-play-badge-en.png" width="162" height="48" alt="Google Play">
         </a>
