@@ -150,62 +150,31 @@
     <header class="policy-hero">
       <p class="eyebrow">BALCO Converter</p>
       <h1>隐私政策</h1>
-      <p class="policy-meta">2026-10-11</p>
+      <p class="policy-meta">2026-10-21</p>
     </header>
     <article class="policy-card">
-      <p>BALCO Converter 不需要帐户。在正常使用过程中，开发者不会直接收集您的姓名、电话号码、精确位置、联系人、照片或麦克风数据。</p>
+      <!-- PRIVACY_1_612_START -->
+      <p id="app-identity">BALCO Converter 由 TimPixelLab 提供，无需应用账号。应用不会访问通讯录、精确位置或麦克风。货币计算和历史记录均在本地处理；下文所述的网络和 SDK 处理与此分开进行。</p>
 
-      <!-- ADSENSE_DISCLOSURE_START -->
-      <section lang="en" aria-labelledby="website-advertising">
-        <h2 id="website-advertising">Website advertising (Google AdSense)</h2>
-        <p>balkanconverter.com uses Google AdSense to display advertising. Google and its advertising partners may process technical request information, consent signals, ad interactions, approximate location derived from an IP address, and cookies or similar browser storage where permitted.</p>
-        <p>For visitors in the EEA, the United Kingdom, and Switzerland, Google's certified consent platform presents advertising choices. Depending on the visitor's region and choices, Google may show personalized or non-personalized ads. A visitor can refuse consent or manage individual purposes without losing access to the calculators or other site content.</p>
-        <p>Advertising consent is separate from the optional Firebase Analytics choice described below. Learn more in the <a href="https://policies.google.com/privacy">Google Privacy Policy</a> and <a href="https://policies.google.com/technologies/ads">Google advertising policies</a>.</p>
-      </section>
-      <!-- ADSENSE_DISCLOSURE_END -->
+      <p id="exchange-rates">汇率请求发送至 Frankfurter；加密货币请求通过 HTTPS 发送至 CoinGecko 或 Kraken。服务提供商会收到 IP 地址等网络信息，以及所请求的货币、币种标识符或日期，但不会收到输入的换算金额、已保存组合的名称、历史记录或搜索文本。汇率和目录会缓存以供离线使用。</p>
 
-      <h2 id="website-analytics">可选分析</h2>
+      <p id="on-device-recognition">价格扫描器使用相机和随应用提供的 Google ML Kit 在设备上识别文本。BALCO 不会上传或保存相机图像；从其他应用选中的文本也在本地解析。ML Kit 会单独向 Google 发送技术遥测数据，包括设备/应用信息、安装标识符、处理时间、配置、输入/输出大小和错误。使用情况分析开关不控制此 SDK 遥测。详见 https://developers.google.com/ml-kit/android-data-disclosure。</p>
 
-      <p>网站仅在您同意后加载 Firebase Analytics 和 Google Analytics，用于统计页面浏览量和指向 Google Play 的点击（包括 google_play_click 事件）。可能会使用第一方 Cookie 或标识符。如果拒绝，则不会发送任何分析事件。您可以在“分析选项”中更改选择或撤回同意。</p>
+      <p id="app-advertising-consent">Google Mobile Ads 提供横幅广告和可选的激励广告。激励广告仅在您请求时开始播放，并且只有在 SDK 确认奖励后才发放 20 BALCO Points (BP)。经验证的 BALCO Plus 可移除广告。Google 可能收集并分享根据 IP 推断的大致位置、设备/应用标识符、互动、诊断数据和同意信号，用于广告、衡量和防欺诈。UMP 管理适用的广告同意和隐私选项。这些选择与使用情况分析相互独立。详见 https://policies.google.com/privacy 和 https://policies.google.com/technologies/ads。</p>
 
-      <p>了解详情: <a href="https://policies.google.com/privacy">Google Privacy Policy</a> · <a href="https://support.google.com/analytics/answer/11593727">Google Analytics</a>.</p>
+      <p id="android-analytics">在您选择启用使用情况分析之前，Google Analytics for Firebase 保持关闭；拒绝不会限制功能。启用后，它会处理应用实例标识符、设备/应用环境、大致地理信息、会话、屏幕活动和功能事件，包括 Plus 购买与恢复事件。商店集成还可能报告商品信息和购买价格。BALCO 不会在其分析事件中发送换算金额、货币对、历史记录、已保存组合、扫描或选中的文本。应用不会设置开发者定义的 User-ID，且已禁用 Analytics 广告 ID 收集。您可在设置中关闭使用情况分析；这会停止后续收集并重置本地分析状态，但不会删除先前已传输或汇总的数据。服务提供商的数据保留取决于其条款和服务设置。 已关联的 Google Analytics 与 AdMob 服务会交换分析数据，包括与购买有关的指标，用于变现报告和改进广告服务。</p>
 
-      <p>汇率和货币目录是从法兰克福 API 检索的，该 API 可能会接收您的 IP 地址等网络信息。最新成功的汇率数据集和货币目录缓存在您的设备上，以便可以离线继续转换。</p>
+      <p id="payments-scanner-unlimited">付款由应用商店处理，而非 BALCO。在 Google Play 版本中，BALCO Plus 提供按月和按年自动续订的方案；您可在 Google Play 中管理或取消。现有的 Scanner Unlimited 购买权益可恢复。为授予和恢复访问权限，BALCO 通过商店 SDK 处理商品 ID、购买状态、购买确认状态和购买令牌。应用不会收到银行卡或银行账户详情，也不会将购买令牌发送至开发者运营的服务器或其分析事件。等待确认的令牌会私密保存，直到处理完成。Plus 访问权限会再次向商店核实。BP 余额、近期 BP 交易、奖励去重标识符、主题解锁和每日免费扫描使用情况均保存在本地。</p>
 
-      <p>该应用程序使用 Google 移动广告来展示广告。根据您所在的地区、同意选择、设备设置和 Google 配置，Google 可能会处理广告标识符、IP 地址、设备和应用信息、广告互动、诊断和同意信号等信息，以提供、衡量、保护和个性化或限制广告。 Google 的用户消息平台 (UMP) 请求并存储适用的同意选择，并在需要时提供隐私选项。了解更多信息，请访问 <a href="https://policies.google.com/privacy">Google Privacy Policy</a> 和 <a href="https://policies.google.com/technologies/ads">Google advertising policies</a>.</p>
+      <p id="local-app-data">Android 备份和设备转移不包括主要偏好设置（含换算历史、收藏、已保存组合和常规设置）、缓存的 Plus 权益、等待确认的令牌，以及 Firebase 同意状态/排队中的分析数据。与 BP 有关的数据、已解锁主题、每日扫描额度、加密货币偏好设置/缓存和小组件设置，可能由 Android 备份或转移，具体取决于设备设置。没有 BALCO 账号或开发者运营的云同步；不保证能够恢复。本地数据会保留到清除数据或卸载应用为止；Android 备份和服务提供商记录可能单独继续保留。清除应用数据或卸载应用不会取消商店订阅。</p>
 
-      <p>您的设置、主题、上次使用的货币对、兑换历史记录、缓存汇率和缓存货币目录都存储在本地应用数据中。 BALCO Converter 从 Android 云备份和设备传输中排除其本地首选项。此数据将保留，直到您清除它、清除应用程序数据或卸载应用程序。 Google SDK 可能会维护自己的本地操作和同意状态。</p>
+      <p id="contact">联系开发者会打开您选择的邮件应用，并带有您的电子邮件/消息、应用/Android 版本和设备型号。是否发送由您决定；开发者接收您发送的内容，并用于回复支持请求。如有隐私问题或请求，请联系 nstim605@gmail.com；部分数据由 Google 或其他服务提供商控制。Google Play 评价不会向 BALCO 提供评分、评价文本或提交确认。经检查的网络传输使用 HTTPS/TLS，而非端到端加密。BALCO 是通用工具，并非专门面向儿童。此政策可能随应用或服务变化而更新。</p>
 
-      <p>如果您联系开发人员，您输入的信息将传递到您选择的电子邮件应用程序。 BALCO Converter 本身不发送或保留该消息。</p>
+      <h2 id="website-analytics">网站隐私</h2>
+      <p>balkanconverter.com 仅在您选择接受分析后使用可选的 Firebase/Google Analytics。它衡量页面、流量来源/广告系列标签、浏览器/设备环境，以及点击 Google Play 链接等互动。Google 会收到请求的技术信息，并可能使用第一方标识符或 Cookie。拒绝分析会阻止加载这些库。您的选择保存在浏览器中；可通过页脚的分析选项更改，或清除网站数据。此分析集成拒绝广告存储、广告用户数据和广告个性化。存在受支持的 QA 标记时，本地/QA 流量会被排除。</p>
 
-      <p>BALCO Converter 是一种通用实用程序，并非专门针对儿童。当应用程序或其服务发生变化时，本政策可能会更新。如有疑问，请使用应用程序中的“联系开发人员”。</p>
-
-      <!-- SCANNER_UNLIMITED_POLICY_START -->
-      <h2 id="payments-scanner-unlimited">无限扫描 — Google Play</h2>
-      <p>Google Play 处理 Scanner Unlimited 的付款；这是一项一次性非消耗型购买，而不是订阅。BALCO Converter 不接收或存储支付卡或银行账户信息。为授予、确认和恢复 Unlimited，应用会使用通过 Google Play Billing 收到的产品 ID（scanner_unlimited）、购买状态、确认状态（acknowledgement）和购买令牌。应用在本地存储特定商店的 Unlimited 权益。购买数据会与 Google Play 交换；应用不会将其发送到开发者运营的服务器、Firebase Analytics 或 Google Mobile Ads。如果 Google Play 成功完成所有权检查后不再报告该购买，本地权益将被移除。</p>
-      <p>免费版每天可扫描 5 次。您可以购买扫描器的无限使用权限。次日将再提供 5 次免费扫描。 无限制是一次性购买，而不是订阅。它仅删除扫描仪限制，不会删除横幅广告。</p>
-      <!-- SCANNER_UNLIMITED_POLICY_END -->
-
-      <!-- PHASE1D_POLICY_START -->
-      <h2 id="android-analytics">Android 应用分析与同意</h2>
-      <p>Android 应用仅在您明确同意后使用 Google Analytics for Firebase。在您选择之前，分析功能处于关闭状态；拒绝不会减少应用功能；之后可在“设置”中开启或关闭“使用情况分析”。应用分析同意与广告及 UMP 选择相互独立，也与网站分析同意相互独立。</p>
-      <p>同意后，Firebase 可能会处理应用实例 ID、应用生命周期/会话/屏幕活动、常规应用/操作系统/设备/语言环境，以及 Google 根据经过遮蔽的 IP 地址推断的大致地理区域。BALCO Converter 使用取值有限的事件来了解功能使用情况并改进应用。不会向 Analytics 发送输入或换算金额、币种或币种对、报价、费用、实际汇率、汇率日期、损失、已保存集合的名称或内容、换算历史、固定币种对内容、小组件币种或用户输入的文字。应用不会设置开发者定义的 User-ID，并且已关闭 Analytics 广告 ID 收集。</p>
-      <p>关闭“使用情况分析”会停止今后的 Android 分析数据收集，并触发 Firebase Analytics 的本地重置。这并不保证删除已传输给 Google 或已由 Google 汇总的数据。服务器端处理和保留期限取决于 Google/Firebase 条款及 Firebase 和 Google Analytics 控制台设置。</p>
-
-      <h2 id="app-advertising-consent">广告同意单独管理</h2>
-      <p>1.603 版广告更新：Android 应用包含 AdMob 横幅，以及用于获取扫描次数的可选激励广告。只有在您主动选择明确标注的优惠后才会显示；关闭或加载失败不会影响正常使用，且仅在广告 SDK 确认奖励后增加 10 次额外扫描。应用仅在本地保存剩余奖励次数和随机奖励会话标识以防重复发放，不保存扫描文字或图像。不使用插页式广告、激励插页式广告或自动显示的全屏广告。广告与 UMP 选择独立于可选的 Firebase Analytics 选择。</p>
-
-      <h2 id="local-app-data">本地应用数据与应用内评价</h2>
-      <p>换算历史、收藏、已保存集合及其名称和币种、固定币种对、离线汇率和时间戳、小组件/主题/声音及其他设置、Analytics 选择，以及评价资格的本地计数器和日期，均存储在设备的私有 SharedPreferences 中。应用 SharedPreferences 不纳入 Android 云备份和设备转移；相关数据会保留到用户清除、清除应用数据或卸载应用。应用没有账户或云同步。Google Play 应用内评价流程不会向应用提供星级或评价文字，也不会告知评价卡是否显示或评价是否提交。</p>
-
-      <h2 id="website-qa-isolation">网站 Analytics 测试隔离</h2>
-      <p>存在已认可的 QA 标记时，本地流量和 QA 测试流量会在技术上排除在 Analytics 之外。</p>
-
-      <h2 id="security">安全</h2>
-      <p>经检查的网络传输使用 HTTPS/TLS。我们不声称具备端到端加密、独立认证、渗透测试或正式安全审计。</p>
-      <!-- PHASE1D_POLICY_END -->
-
-      <h2 id="contact">联系开发商</h2>
+      <p id="website-advertising">网站还单独使用 Google AdSense。在允许的情况下，Google 和广告合作伙伴可能处理技术请求、同意、广告互动、大致位置，以及 Cookie 或类似存储。适用的同意提示允许您拒绝或管理广告用途，而不会失去网站访问权限；广告选择与可选分析相互独立。托管服务商和汇率提供商可能收到请求/IP 信息。详见 https://policies.google.com/privacy 和 https://policies.google.com/technologies/ads。</p>
+      <!-- PRIVACY_1_612_END -->
     </article>
   </main>
 

@@ -39,71 +39,31 @@
     <header class="policy-hero">
       <p class="eyebrow">BALCO Converter</p>
       <h1>Privacy Policy</h1>
-      <p class="policy-meta">2026-10-11</p>
+      <p class="policy-meta">2026-10-21</p>
     </header>
     <article class="policy-card">
-      <p>BALCO Converter respects your privacy. This Privacy Policy explains what information is used when you use the application or visit balkanconverter.com.</p>
+      <!-- PRIVACY_1_612_START -->
+      <p id="app-identity">BALCO Converter is provided by TimPixelLab. No app account is required. The app does not access contacts, precise location or the microphone. Its currency calculations and history are local; the network and SDK processing described below are separate.</p>
 
-      <h2>Information We Collect</h2>
-      <p>BALCO Converter does not require an account. Except for the optional website analytics described below, the developer does not directly collect your name, email address, phone number, precise location, contacts, photos, microphone data, or other personal information during normal use.</p>
+      <p id="exchange-rates">Exchange-rate requests go to Frankfurter; cryptocurrency requests go to CoinGecko or Kraken over HTTPS. Providers receive network information such as an IP address and requested currencies, coin identifiers or dates, but not entered conversion amounts, saved-set names, history or search text. Rates and catalogs are cached for offline use.</p>
 
-      <!-- PHASE1D_POLICY_START -->
-      <h2 id="android-analytics">Android app analytics and consent</h2>
-      <p>Google Analytics for Firebase is used in the Android app only if you explicitly opt in. Analytics is disabled before that choice, rejecting it does not reduce app functionality, and you can enable or disable Usage analytics later in Settings. Android analytics consent is separate from advertising and UMP choices and from website analytics consent.</p>
-      <p>After opt-in, Firebase may process an app-instance ID; app lifecycle, session and screen activity; standard app, operating-system, device and language context; and coarse geography derived by Google from masked IP addresses. BALCO Converter uses low-cardinality events to understand feature use and improve the app. It does not send entered or converted amounts, currencies or pairs, exchange offers, fees, effective rates, rate dates, loss values, Saved Set names or contents, conversion history, pinned-pair contents, widget currencies or user-entered text to Analytics. The app sets no developer-defined User-ID, and Analytics Advertising ID collection is disabled.</p>
-      <p>Turning Usage analytics off stops future Android analytics collection and invokes Firebase's local analytics reset behavior. It does not guarantee deletion of data already transmitted or aggregated by Google. Google/Firebase processing and server-side retention depend on their terms and the applicable Firebase and Google Analytics Console settings.</p>
+      <p id="on-device-recognition">The price scanner uses the camera and bundled Google ML Kit to recognize text on the device. BALCO does not upload or save camera images; selected text from another app is also parsed locally. ML Kit separately sends technical telemetry to Google, including device/app information, installation identifiers, processing time, configuration, input/output sizes and errors. This SDK telemetry is not controlled by the Usage analytics switch. See https://developers.google.com/ml-kit/android-data-disclosure.</p>
 
-      <h2 id="app-advertising-consent">Advertising consent is separate</h2>
-      <p>Advertising update for version 1.603: the Android app contains an AdMob banner and an optional rewarded ad for scanner uses. A rewarded ad is shown only after you choose the clearly labeled offer; closing or failing it does not remove normal app access, and 10 bonus scans are added only after the ad SDK confirms the reward. The app stores the remaining bonus-scan balance and a random reward-session identifier locally to prevent duplicate grants. These local values contain no scanned text or image. The app does not use interstitial, rewarded-interstitial, or automatically shown full-screen ads. Advertising and UMP choices remain separate from the optional Firebase Analytics choice.</p>
+      <p id="app-advertising-consent">Google Mobile Ads provides a banner and optional rewarded ads. A rewarded ad starts only when requested and grants 20 BALCO Points (BP) only after the SDK confirms the reward. Verified BALCO Plus removes ads. Google may collect and share IP-derived approximate location, device/app identifiers, interactions, diagnostics and consent signals for advertising, measurement and fraud prevention. UMP manages applicable advertising consent and Privacy Options. These choices are separate from Usage analytics. See https://policies.google.com/privacy and https://policies.google.com/technologies/ads.</p>
 
-      <h2 id="local-app-data">Local app data and in-app review</h2>
-      <p>Conversion history, Favorites, Saved Sets and their names and currencies, pinned pairs, offline rates and timestamps, widget preferences, theme, sound and other settings, analytics choice, and review eligibility counters and dates are stored in private SharedPreferences on the device. App SharedPreferences are excluded from Android cloud backup and device transfer; they remain until cleared, app data is cleared, or the app is uninstalled. There is no app account or cloud sync. The Google Play In-App Review flow does not give the app a star rating, review text, or confirmation that the review card was shown or a review was submitted.</p>
-      <!-- PHASE1D_POLICY_END -->
+      <p id="android-analytics">Google Analytics for Firebase stays off until you opt in to Usage analytics; refusing does not limit functionality. After opt-in it processes app-instance identifiers, device/app context, approximate geography, sessions, screen activity and feature events, including Plus purchase and restoration events. Store integrations may also report product information and purchase prices. BALCO does not send conversion amounts, currency pairs, history, saved sets, scanned or selected text in its analytics events. No developer-defined User-ID is set, and Analytics advertising-ID collection is disabled. You can turn Usage analytics off in Settings; this stops future collection and resets local analytics state, but does not delete previously transmitted or aggregated data. Provider retention depends on their terms and service settings. The linked Google Analytics and AdMob services exchange analytics data, including purchase-related metrics, for monetization reporting and to improve advertising services.</p>
 
-      <!-- ADSENSE_DISCLOSURE_START -->
-      <section lang="en" aria-labelledby="website-advertising">
-        <h2 id="website-advertising">Website advertising (Google AdSense)</h2>
-        <p>balkanconverter.com uses Google AdSense to display advertising. Google and its advertising partners may process technical request information, consent signals, ad interactions, approximate location derived from an IP address, and cookies or similar browser storage where permitted.</p>
-        <p>For visitors in the EEA, the United Kingdom, and Switzerland, Google's certified consent platform presents advertising choices. Depending on the visitor's region and choices, Google may show personalized or non-personalized ads. A visitor can refuse consent or manage individual purposes without losing access to the calculators or other site content.</p>
-        <p>Advertising consent is separate from the optional Firebase Analytics choice described below. Learn more in the <a href="https://policies.google.com/privacy">Google Privacy Policy</a> and <a href="https://policies.google.com/technologies/ads">Google advertising policies</a>.</p>
-      </section>
-      <!-- ADSENSE_DISCLOSURE_END -->
+      <p id="payments-scanner-unlimited">Payments are handled by the app store, not by BALCO. In the Google Play version, BALCO Plus has monthly and yearly auto-renewing plans; you manage or cancel them in Google Play. Existing Scanner Unlimited ownership can be restored. To grant and restore access, BALCO processes product IDs, purchase states, acknowledgment status and purchase tokens through the store SDK. It does not receive card or bank details or send purchase tokens to a developer-operated server or its analytics events. Pending acknowledgment tokens are stored privately until processed. Plus access is rechecked with the store. BP balances, recent BP transactions, reward-deduplication identifiers, theme unlocks and daily free-scan usage are stored locally.</p>
 
-      <h2 id="website-analytics">Website Analytics and Consent</h2>
-      <p>balkanconverter.com uses Firebase Analytics, provided by Google Analytics, only after you select <strong>Accept analytics</strong>. Analytics helps measure page views, traffic sources and campaign parameters such as UTM tags, referring pages, browser and device information, and aggregated engagement with the website.</p>
-      <p>The website records a custom <code>google_play_click</code> event when an enabled visitor selects a Google Play link. The event includes the destination URL and the link's location on the page, such as the header, hero, download section, or footer.</p>
-      <p>Firebase Analytics may use first-party cookies or similar first-party identifiers, where available, to distinguish browsers and sessions and provide analytics reports. Google may also receive technical request information such as an IP address when processing analytics events. Advertising storage, advertising user data, and advertising personalization consent remain disabled by this website integration.</p>
-      <p>If you select <strong>Reject analytics</strong>, the Firebase and Google Analytics libraries are not loaded and no analytics events are sent. Your choice is stored locally in your browser so the website can remember it. You can change the choice using <strong>Analytics choices</strong> in the footer or by clearing this site's browser data.</p>
-      <p>Learn more in the <a href="https://policies.google.com/privacy">Google Privacy Policy</a> and Google's information about <a href="https://support.google.com/analytics/answer/11593727">data collected by Google Analytics</a>.</p>
+      <p id="local-app-data">Android backup and device transfer exclude the main preferences (including conversion history, favorites, saved sets and general settings), cached Plus entitlement, pending acknowledgment tokens and Firebase consent/queued analytics. BP-related data, unlocked themes, daily scanner allowance, cryptocurrency preferences/cache and widget settings may be backed up or transferred by Android, depending on device settings. There is no BALCO account or developer-operated cloud sync; restoration is not guaranteed. Local data remains until cleared or the app is uninstalled; Android backups and provider records may remain separately. Clearing app data or uninstalling does not cancel a store subscription.</p>
 
-      <h2>Exchange Rate Data</h2>
-      <p>Exchange rates, historical chart data, and the currency catalog are retrieved from the Frankfurter API, which uses institutional and non-commercial data sources. Frankfurter or its hosting provider may receive network information such as your IP address when processing a request. Requests may include currency codes and, for historical charts, a date range; they do not include an entered amount, Saved Set name, history, locale, or other user-entered text.</p>
-      <p>BALCO Converter does not use this information to identify or track users.</p>
+      <p id="contact">Contact developer opens your chosen email app with your email/message and app/Android version and device model. Sending is your choice; the developer receives what you send and uses it to answer support requests. For privacy questions or requests, contact nstim605@gmail.com; some data is controlled by Google or other providers. Google Play reviews do not reveal a rating, review text or submission confirmation to BALCO. Reviewed network transfers use HTTPS/TLS, not end-to-end encryption. BALCO is a general-purpose utility, not specifically directed at children. This policy may change when the app or its services change.</p>
 
-      <h2>Advertising</h2>
-      <p>The app uses Google Mobile Ads to display banner advertising. Depending on your region, consent choices, device settings, and Google's configuration, Google may process information such as advertising identifiers, IP address, device and app information, ad interactions, diagnostics, and consent signals to provide, measure, secure, and personalize or limit ads. Google's User Messaging Platform (UMP) requests and stores applicable consent choices and provides Privacy Options when required.</p>
-      <p>Learn more in the <a href="https://policies.google.com/privacy">Google Privacy Policy</a> and <a href="https://policies.google.com/technologies/ads">Google advertising policies</a>.</p>
+      <h2 id="website-analytics">Website privacy</h2>
+      <p>balkanconverter.com uses optional Firebase/Google Analytics only after Accept analytics. It measures pages, traffic sources/campaign tags, browser/device context and interactions such as Google Play link clicks. Google receives technical request information and may use first-party identifiers or cookies. Reject analytics prevents loading these libraries. Your choice is stored in your browser; change it through Analytics choices in the footer or clear site data. This analytics integration denies advertising storage, advertising user data and advertising personalization. Local/QA traffic is excluded when the supported QA marker is present.</p>
 
-      <h2>Local Data</h2>
-      <p>Your settings, theme, favorites, last-used currency pair, conversion history, cached rates, and cached currency catalog are stored locally in app data and are not sent to the developer. BALCO Converter excludes its local preferences from Android cloud backup and device transfer. Google SDKs may maintain their own local operational and consent state.</p>
-
-      <h2>Data Retention</h2>
-      <p>Locally stored settings, conversion history, cached rates, and cached currency data remain on your device until you clear them, clear the application's data, or uninstall the application.</p>
-
-      <!-- SCANNER_UNLIMITED_POLICY_START -->
-      <h2 id="payments-scanner-unlimited">Payments and Scanner Unlimited</h2>
-      <p>Google Play handles the monetary payment for Scanner Unlimited, a one-time non-consumable purchase, not a subscription. BALCO Converter does not receive or store payment-card or bank-account details. To grant, confirm, and restore Unlimited, the app uses the product ID (scanner_unlimited), purchase state, acknowledgement status, and purchase token received through Google Play Billing. The app stores the store-specific Unlimited entitlement locally. Purchase data is exchanged with Google Play; the app does not send it to a developer-operated server, Firebase Analytics, or Google Mobile Ads. If a successful Google Play ownership check no longer reports the purchase, the local entitlement is removed.</p>
-      <p>Without Unlimited, 5 successful scanner uses are available per local calendar day. A voluntarily viewed rewarded ad adds 10 bonus scans only after the ad SDK confirms the reward. With verified Unlimited, rewarded top-ups are not needed. Unlimited is a one-time purchase, not a subscription. It removes only the scanner limit and does not remove the banner ad.</p>
-      <!-- SCANNER_UNLIMITED_POLICY_END -->
-
-      <h2 id="contact">Contacting the Developer</h2>
-      <p>If you choose to contact the developer, you may voluntarily provide your email address and message. That information is passed to the email application you select. BALCO Converter does not send emails directly or retain your message on developer-operated servers. For questions, use <strong>Contact developer</strong> in the app.</p>
-
-      <h2>Children</h2>
-      <p>BALCO Converter is a general-purpose utility and is not specifically directed at children.</p>
-
-      <h2>Changes to This Policy</h2>
-      <p>This policy may be updated when the app or its services change. The latest version will remain available within the application and on this page.</p>
+      <p id="website-advertising">The website separately uses Google AdSense. Google and advertising partners may process technical requests, consent, ad interactions, approximate location and cookies or similar storage where permitted. Applicable consent messages let you refuse or manage advertising purposes without losing access to the site; advertising choices are separate from optional analytics. Hosting and rate providers may receive request/IP information. See https://policies.google.com/privacy and https://policies.google.com/technologies/ads.</p>
+      <!-- PRIVACY_1_612_END -->
     </article>
   </main>
 

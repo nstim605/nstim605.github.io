@@ -33,6 +33,19 @@ function protectMainContent(html) {
 }
 
 function ensurePrivacyDisclosure(html) {
+  // The current policy owns a reviewed, localized AdSense paragraph. Re-running
+  // general site tooling must not append the retired English-only disclosure.
+  if (html.includes('<!-- PRIVACY_1_612_START -->')) {
+    const articles = [...html.matchAll(/<!-- PRIVACY_1_612_START -->([\s\S]*?)<!-- PRIVACY_1_612_END -->/g)];
+    const disclosures = [...html.matchAll(/<p id="website-advertising">([^<]+)<\/p>/g)];
+    if (articles.length !== 1 || disclosures.length !== 1
+        || !articles[0][1].includes(disclosures[0][0])
+        || !disclosures[0][1].includes('Google AdSense')
+        || html.includes('<!-- ADSENSE_DISCLOSURE_START -->')) {
+      throw new Error('Current policy has an invalid or duplicate localized AdSense disclosure');
+    }
+    return html;
+  }
   const existing = /[ \t]*<!-- ADSENSE_DISCLOSURE_START -->[\s\S]*?<!-- ADSENSE_DISCLOSURE_END -->\s*<h2 id="website-analytics">/;
   if (existing.test(html)) {
     return html.replace(existing, `${disclosure}\n\n      <h2 id="website-analytics">`);

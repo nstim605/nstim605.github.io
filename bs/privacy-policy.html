@@ -150,77 +150,31 @@
     <header class="policy-hero">
       <p class="eyebrow">BALCO Converter</p>
       <h1>Politika privatnosti</h1>
-      <p class="policy-meta">2026-10-11</p>
+      <p class="policy-meta">2026-10-21</p>
     </header>
     <article class="policy-card">
-      <p>BALCO Converter poštuje vašu privatnost. Ova Politika privatnosti objašnjava koje se informacije koriste kada koristite aplikaciju ili posjetite balkanconverter.com.</p>
+      <!-- PRIVACY_1_612_START -->
+      <p id="app-identity">BALCO Converter pruža TimPixelLab. Račun u aplikaciji nije potreban. Aplikacija ne pristupa kontaktima, preciznoj lokaciji ni mikrofonu. Izračuni valuta i historija su lokalni; mrežna obrada i obrada putem SDK-a opisane u nastavku su odvojene.</p>
 
-      <h2>Informacije koje prikupljamo</h2>
-      <p>BALCO Converter ne zahtijeva nalog. Osim opcionalne analize web stranice opisane u nastavku, programer ne prikuplja direktno vaše ime, adresu e-pošte, broj telefona, preciznu lokaciju, kontakte, fotografije, podatke o mikrofonu ili druge lične podatke tokom normalne upotrebe.</p>
+      <p id="exchange-rates">Zahtjevi za devizne kurseve šalju se servisu Frankfurter; zahtjevi za kriptovalute servisima CoinGecko ili Kraken putem HTTPS-a. Pružaoci dobijaju mrežne informacije, poput IP adrese, i tražene valute, identifikatore kriptovaluta ili datume, ali ne i unesene iznose konverzija, nazive sačuvanih skupova, historiju ili tekst pretrage. Kursevi i katalozi spremaju se u predmemoriju za korištenje van mreže.</p>
 
-      <!-- PHASE1D_POLICY_START -->
-      <h2 id="android-analytics">Analitika Android aplikacije i pristanak</h2>
-      <p>Google Analytics for Firebase koristi se u Android aplikaciji samo ako izričito pristanete. Analitika je isključena prije tog izbora, odbijanje ne umanjuje funkcionalnost aplikacije, a Analitiku korištenja kasnije možete uključiti ili isključiti u Postavkama. Pristanak za analitiku aplikacije odvojen je od izbora za oglašavanje i UMP te od pristanka za analitiku web-stranice.</p>
-      <p>Nakon pristanka Firebase može obrađivati ID instance aplikacije; aktivnosti životnog ciklusa, sesija i ekrana; standardni kontekst aplikacije, operativnog sistema, uređaja i jezika; te približnu geografsku lokaciju koju Google izvodi iz maskirane IP adrese. BALCO Converter koristi događaje niske kardinalnosti da razumije korištenje funkcija i poboljša aplikaciju. Analitici ne šalje unesene ili konvertovane iznose, valute ili parove, ponude, naknade, efektivne kurseve, datume kursa, gubitke, nazive ili sadržaj Sačuvanih skupova, historiju, sadržaj zakačenih parova, valute widgeta ni korisnički tekst. Aplikacija ne postavlja korisnički ID programera, a prikupljanje oglasnog ID-a u Analitici je isključeno.</p>
-      <p>Isključivanje Analitike korištenja zaustavlja buduće prikupljanje Android analitike i pokreće lokalno resetovanje Firebase analitike. To ne garantuje brisanje podataka koje je Google već primio ili agregirao. Obrada i čuvanje na serveru zavise od Google/Firebase uslova i postavki u Firebase i Google Analytics konzolama.</p>
+      <p id="on-device-recognition">Skener cijena koristi kameru i ugrađeni Google ML Kit za prepoznavanje teksta na uređaju. BALCO ne šalje niti čuva slike kamere; tekst odabran u drugoj aplikaciji također se analizira lokalno. ML Kit zasebno šalje Googleu tehničku telemetriju, uključujući informacije o uređaju/aplikaciji, identifikatore instalacije, vrijeme obrade, konfiguraciju, veličine ulaznih/izlaznih podataka i greške. Prekidač Analitika korištenja ne upravlja ovom SDK telemetrijom. Pogledajte https://developers.google.com/ml-kit/android-data-disclosure.</p>
 
-      <h2 id="app-advertising-consent">Pristanak za oglašavanje je odvojen</h2>
-      <p>Ažuriranje oglasa za verziju 1.603: Android aplikacija sadrži AdMob baner i opcionalni nagrađeni oglas za korištenja skenera. Prikazuje se samo nakon odabira jasno označene ponude; zatvaranje ili greška ne ograničavaju normalnu upotrebu, a 10 dodatnih skeniranja dodaje se tek nakon potvrde SDK-a oglasa. Preostali bonus i nasumični ID sesije nagrade čuvaju se lokalno radi sprečavanja dupliranja, bez skeniranog teksta ili slike. Nema međuprostornih, nagrađenih međuprostornih ni automatskih oglasa preko cijelog ekrana. Izbori oglasa i UMP-a odvojeni su od opcionalnog Firebase Analyticsa.</p>
+      <p id="app-advertising-consent">Google Mobile Ads pruža baner i opcionalne oglase s nagradom. Oglas s nagradom pokreće se samo na zahtjev i dodjeljuje 20 BALCO Points (BP) tek kada SDK potvrdi nagradu. Provjereni BALCO Plus uklanja oglase. Google može prikupljati i dijeliti približnu lokaciju izvedenu iz IP adrese, identifikatore uređaja/aplikacije, interakcije, dijagnostiku i signale pristanka za oglašavanje, mjerenje i sprečavanje prevara. UMP upravlja primjenjivim pristankom za oglašavanje i opcijama privatnosti. Ovi izbori su odvojeni od Analitike korištenja. Pogledajte https://policies.google.com/privacy i https://policies.google.com/technologies/ads.</p>
 
-      <h2 id="local-app-data">Lokalni podaci aplikacije i ocjena u aplikaciji</h2>
-      <p>Historija konverzija, Favoriti, Sačuvani skupovi i njihovi nazivi i valute, zakačeni parovi, offline kursevi i vremenske oznake, postavke widgeta, teme, zvuka i druge postavke, izbor analitike te lokalni brojači i datumi za podobnost za ocjenu čuvaju se u privatnim SharedPreferences na uređaju. SharedPreferences aplikacije isključeni su iz Android sigurnosne kopije u oblaku i prijenosa uređaja; ostaju dok ih ne izbrišete, ne izbrišete podatke aplikacije ili je ne deinstalirate. Nema računa ni sinhronizacije u oblaku. Google Play tok za ocjenu u aplikaciji ne daje aplikaciji ocjenu, tekst recenzije niti potvrdu da je kartica prikazana ili recenzija poslana.</p>
+      <p id="android-analytics">Google Analytics for Firebase ostaje isključen dok ne pristanete na Analitiku korištenja; odbijanje ne ograničava funkcionalnost. Nakon pristanka obrađuje identifikatore instance aplikacije, kontekst uređaja/aplikacije, približne geografske podatke, sesije, aktivnost ekrana i događaje funkcija, uključujući kupovinu i vraćanje Plusa. Integracije prodavnica mogu prijavljivati i informacije o proizvodima i kupovne cijene. BALCO u svojim analitičkim događajima ne šalje iznose konverzija, valutne parove, historiju, sačuvane skupove, skenirani ili odabrani tekst. Ne postavlja se User-ID koji određuje programer, a prikupljanje reklamnog ID-a u Analyticsu je onemogućeno. Analitiku korištenja možete isključiti u Postavkama; to zaustavlja buduće prikupljanje i resetuje lokalno stanje analitike, ali ne briše ranije poslane ili agregirane podatke. Čuvanje podataka kod pružalaca zavisi od njihovih uslova i postavki usluga. Povezane usluge Google Analytics i AdMob razmjenjuju analitičke podatke, uključujući pokazatelje vezane za kupovine, radi izvještavanja o monetizaciji i poboljšanja usluga oglašavanja.</p>
 
-      <h2 id="website-qa-isolation">Izolacija testova analitike web-stranice</h2>
-      <p>Lokalni i QA testni saobraćaj tehnički je isključen iz analitike kada je prisutna prihvaćena QA oznaka.</p>
+      <p id="payments-scanner-unlimited">Plaćanja obrađuje prodavnica aplikacija, a ne BALCO. U verziji za Google Play, BALCO Plus ima mjesečne i godišnje planove koji se automatski obnavljaju; njima upravljate ili ih otkazujete u Google Playu. Postojeća kupovina Scanner Unlimited može se vratiti. Da bi dodijelio i vratio pristup, BALCO putem SDK-a prodavnice obrađuje ID-ove proizvoda, stanja kupovina, status potvrde i tokene kupovina. Ne dobija podatke o kartici ili bankovnom računu i ne šalje tokene kupovina na server kojim upravlja programer niti u svojim analitičkim događajima. Tokeni koji čekaju potvrdu čuvaju se privatno do obrade. Pristup Plusu ponovo se provjerava kod prodavnice. BP stanje, nedavne BP transakcije, identifikatori za sprečavanje duplih nagrada, otključane teme i korištenje dnevnih besplatnih skeniranja čuvaju se lokalno.</p>
 
-      <h2 id="security">Sigurnost</h2>
-      <p>Pregledani mrežni prijenosi koriste HTTPS/TLS. Ne tvrdimo da postoje end-to-end šifriranje, nezavisna certifikacija, penetracijsko testiranje ili formalna sigurnosna revizija.</p>
-      <!-- PHASE1D_POLICY_END -->
+      <p id="local-app-data">Android sigurnosna kopija i prijenos uređaja isključuju glavne postavke (uključujući historiju konverzija, favorite, sačuvane skupove i opće postavke), predmemorirano pravo na Plus, tokene koji čekaju potvrdu i Firebase pristanak/analitičke podatke na čekanju. Podatke vezane za BP, otključane teme, dnevni limit skenera, postavke/predmemoriju kriptovaluta i postavke vidžeta Android može sigurnosno kopirati ili prenijeti, zavisno od postavki uređaja. Nema BALCO računa ni sinhronizacije u oblaku kojom upravlja programer; vraćanje nije zagarantovano. Lokalni podaci ostaju dok se ne izbrišu ili dok se aplikacija ne deinstalira; Android sigurnosne kopije i zapisi pružalaca mogu ostati zasebno. Brisanje podataka aplikacije ili deinstalacija ne otkazuju pretplatu u prodavnici.</p>
 
-      <!-- ADSENSE_DISCLOSURE_START -->
-      <section lang="en" aria-labelledby="website-advertising">
-        <h2 id="website-advertising">Website advertising (Google AdSense)</h2>
-        <p>balkanconverter.com uses Google AdSense to display advertising. Google and its advertising partners may process technical request information, consent signals, ad interactions, approximate location derived from an IP address, and cookies or similar browser storage where permitted.</p>
-        <p>For visitors in the EEA, the United Kingdom, and Switzerland, Google's certified consent platform presents advertising choices. Depending on the visitor's region and choices, Google may show personalized or non-personalized ads. A visitor can refuse consent or manage individual purposes without losing access to the calculators or other site content.</p>
-        <p>Advertising consent is separate from the optional Firebase Analytics choice described below. Learn more in the <a href="https://policies.google.com/privacy">Google Privacy Policy</a> and <a href="https://policies.google.com/technologies/ads">Google advertising policies</a>.</p>
-      </section>
-      <!-- ADSENSE_DISCLOSURE_END -->
+      <p id="contact">Kontaktirajte programera otvara odabranu aplikaciju za e-poštu s vašom e-poštom/porukom, verzijom aplikacije/Androida i modelom uređaja. Vi birate hoćete li poslati poruku; programer dobija ono što pošaljete i koristi to da odgovori na zahtjeve za podršku. Za pitanja ili zahtjeve u vezi s privatnošću obratite se na nstim605@gmail.com; nekim podacima upravljaju Google ili drugi pružaoci. Google Play recenzije ne otkrivaju BALCO-u ocjenu, tekst recenzije ni potvrdu slanja. Pregledani mrežni prijenosi koriste HTTPS/TLS, a ne šifriranje od kraja do kraja. BALCO je alat opće namjene, nije posebno namijenjen djeci. Ova politika može se promijeniti kada se promijene aplikacija ili njene usluge.</p>
 
-      <h2 id="website-analytics">Analitika web stranice i saglasnost</h2>
-      <p>balkanconverter.com koristi Firebase Analytics, koje daje Google Analytics, samo nakon što odaberete <strong>Prihvati analitiku</strong>. Analitika pomaže u mjerenju prikaza stranica, izvora prometa i parametara kampanje kao što su UTM oznake, stranice koje upućuju, informacije o pregledniku i uređaju, te zbirni angažman na web stranici.</p>
-      <p>Web stranica bilježi običaj <code>google_play_click</code> događaj kada omogućeni posjetitelj odabere Google Play vezu. Događaj uključuje odredišni URL i lokaciju veze na stranici, kao što je zaglavlje, heroj, odjeljak za preuzimanje ili podnožje.</p>
-      <p>Firebase Analytics može koristiti kolačiće prve strane ili slične identifikatore prve strane, gdje su dostupni, za razlikovanje pretraživača i sesija i pružanje analitičkih izvještaja. Google također može primiti informacije o tehničkim zahtjevima kao što je IP adresa prilikom obrade analitičkih događaja. Integracija ove web stranice onemogućuje pohranu oglašavanja, korisničke podatke o oglašavanju i pristanak za personalizaciju oglašavanja.</p>
-      <p>Ako odaberete <strong>Odbaciti analitiku</strong>, Firebase i Google Analytics biblioteke se ne učitavaju i ne šalju se analitički događaji. Vaš izbor se pohranjuje lokalno u vašem pretraživaču tako da ga web stranica može zapamtiti. Izbor možete promijeniti koristeći <strong>Izbori analitike</strong> u podnožju ili brisanjem podataka pretraživača ove stranice.</p>
-      <p>Saznajte više u <a href="https://policies.google.com/privacy">Googleova politika privatnosti</a> i Googleove informacije o <a href="https://support.google.com/analytics/answer/11593727">podaci prikupljeni od strane Google Analytics</a>.</p>
+      <h2 id="website-analytics">Privatnost na web-stranici</h2>
+      <p>balkanconverter.com koristi opcionalni Firebase/Google Analytics tek nakon izbora Prihvati analitiku. Mjeri stranice, izvore saobraćaja/oznake kampanja, kontekst preglednika/uređaja i interakcije poput klikova na Google Play veze. Google dobija tehničke informacije o zahtjevima i može koristiti vlastite identifikatore ili kolačiće. Odbij analitiku sprečava učitavanje ovih biblioteka. Vaš izbor čuva se u pregledniku; promijenite ga putem opcija analitike u podnožju ili izbrišite podatke stranice. Ova analitička integracija odbija pohranu za oglašavanje, korisničke podatke za oglašavanje i personalizaciju oglasa. Lokalni/QA saobraćaj je isključen kada je prisutna podržana QA oznaka.</p>
 
-      <h2>Podaci o kursu</h2>
-      <p>Devizni kursevi, istorijski podaci grafikona i katalog valuta su preuzeti iz Frankfurter API, koji koristi institucionalne i nekomercijalne izvore podataka. Frankfurter ili njegov hosting provajder mogu primiti mrežne informacije kao što je vaša IP adresa prilikom obrade zahtjeva.</p>
-      <p>BALCO Converter ne koristi ove informacije za identifikaciju ili praćenje korisnika.</p>
-
-      <h2>Oglašavanje</h2>
-      <p>Aplikacija koristi Google Mobile Ads za prikazivanje baner reklama. Ovisno o vašoj regiji, izboru pristanka, postavkama uređaja i Googleovoj konfiguraciji, Google može obraditi informacije kao što su identifikatori oglašavanja, IP adresa, informacije o uređaju i aplikaciji, interakcije s oglasima, dijagnostika i signali pristanka za pružanje, mjerenje, osiguranje i personaliziranje ili ograničavanje oglasa. Googleova platforma za razmjenu poruka korisnika (UMP) zahtijeva i pohranjuje primjenjive izbore pristanka i pruža opcije privatnosti kada je to potrebno.</p>
-      <p>Saznajte više u <a href="https://policies.google.com/privacy">Googleova politika privatnosti</a> i <a href="https://policies.google.com/technologies/ads">Google pravila oglašavanja</a>.</p>
-
-      <h2>Lokalni podaci</h2>
-      <p>Vaše postavke, tema, favoriti, posljednji korišteni valutni par, historija konverzije, keširani kursevi i keširani katalog valuta pohranjuju se lokalno u podacima aplikacije i ne šalju se programeru. BALCO Converter isključuje svoje lokalne postavke iz Android sigurnosne kopije u oblaku i prijenosa uređaja. Google SDK-ovi mogu održavati vlastito lokalno operativno stanje i stanje pristanka.</p>
-
-      <h2>Zadržavanje podataka</h2>
-      <p>Lokalno pohranjene postavke, historija konverzije, keširane stope i keširani podaci o valuti ostaju na vašem uređaju dok ih ne obrišete, izbrišete podatke aplikacije ili deinstalirate aplikaciju.</p>
-
-      <!-- SCANNER_UNLIMITED_POLICY_START -->
-      <h2 id="payments-scanner-unlimited">Neograničeni skener — Google Play</h2>
-      <p>Google Play obrađuje novčano plaćanje za Scanner Unlimited, jednokratnu nepotrošnu kupovinu, a ne pretplatu. BALCO Converter ne prima niti čuva podatke o platnoj kartici ili bankovnom računu. Da bi dodijelila, potvrdila i obnovila Unlimited, aplikacija koristi ID proizvoda (scanner_unlimited), stanje kupovine, status potvrde (acknowledgement) i token kupovine primljen putem Google Play Billinga. Aplikacija lokalno čuva pravo Unlimited za određenu prodavnicu. Podaci o kupovini razmjenjuju se s Google Playom; aplikacija ih ne šalje na server kojim upravlja programer, u Firebase Analytics niti Google Mobile Ads. Ako uspješna Google Play provjera vlasništva više ne prijavi kupovinu, lokalno pravo se uklanja.</p>
-      <p>Besplatna verzija omogućava 5 skeniranja dnevno. Možete kupiti neograničeno korištenje skenera. Još 5 besplatnih skeniranja bit će dostupno sljedećeg dana. Unlimited je jednokratna kupovina, a ne pretplata. Uklanja samo ograničenje skenera i ne uklanja baner oglas.</p>
-      <!-- SCANNER_UNLIMITED_POLICY_END -->
-
-      <h2 id="contact">Kontaktiranje programera</h2>
-      <p>Ako odlučite kontaktirati programera, možete dobrovoljno dati svoju adresu e-pošte i poruku. Te informacije se prosljeđuju u aplikaciju e-pošte koju odaberete. BALCO Converter ne šalje e-poštu direktno niti zadržava vašu poruku na serverima kojima upravljaju programeri. Za pitanja, koristite <strong>Kontaktirajte programera</strong> u aplikaciji.</p>
-
-      <h2>Djeca</h2>
-      <p>BALCO Converter je uslužni program opšte namjene i nije posebno usmjeren na djecu.</p>
-
-      <h2>Promjene ove politike</h2>
-      <p>Ova politika se može ažurirati kada se aplikacija ili njene usluge promijene. Najnovija verzija će ostati dostupna unutar aplikacije i na ovoj stranici.</p>
+      <p id="website-advertising">Stranica zasebno koristi Google AdSense. Google i reklamni partneri mogu obrađivati tehničke zahtjeve, pristanak, interakcije s oglasima, približnu lokaciju i kolačiće ili sličnu pohranu gdje je dozvoljeno. Primjenjive poruke o pristanku omogućavaju da odbijete ili upravljate svrhama oglašavanja bez gubitka pristupa stranici; izbori za oglašavanje odvojeni su od opcionalne analitike. Pružaoci hostinga i kurseva mogu dobijati informacije o zahtjevima/IP adresi. Pogledajte https://policies.google.com/privacy i https://policies.google.com/technologies/ads.</p>
+      <!-- PRIVACY_1_612_END -->
     </article>
   </main>
 

@@ -9,6 +9,7 @@ import {
   adsenseScriptUrl,
   applyAdSenseIntegration
 } from '../tools/adsense-integration.mjs';
+import { htmlEscape, renderPolicyArticle } from '../tools/sync-current-privacy.mjs';
 
 const root = path.resolve(import.meta.dirname, '..');
 
@@ -40,15 +41,31 @@ test('all 484 sitemap pages have one correct AdSense script and protected main c
   }
 });
 
-test('all localized privacy pages contain one shared AdSense disclosure', async () => {
+test('all localized privacy pages contain one current localized AdSense disclosure', async () => {
   const manifest = JSON.parse(await fs.readFile(path.join(root, 'site-locales.json'), 'utf8'));
   for (const locale of manifest.locales) {
     const html = await fs.readFile(fileForUrl(locale.privacyUrl), 'utf8');
-    assert.equal((html.match(/ADSENSE_DISCLOSURE_START/g) ?? []).length, 1, locale.webLocale);
+    const copy = JSON.parse(await fs.readFile(path.join(root, 'tools', 'privacy-1.612',
+      `${locale.webLocale}.json`), 'utf8'));
+    assert.equal((html.match(/PRIVACY_1_612_START/g) ?? []).length, 1, locale.webLocale);
     assert.equal((html.match(/id="website-advertising"/g) ?? []).length, 1, locale.webLocale);
-    assert.match(html, /Google AdSense/);
-    assert.match(html, /personalized or non-personalized ads/);
+    assert.ok(html.includes(`<p id="website-advertising">${htmlEscape(copy.web[1])}</p>`), locale.webLocale);
+    assert.match(copy.web[1], /Google AdSense/);
+    assert.doesNotMatch(html, /ADSENSE_DISCLOSURE_START/);
+    assert.equal(applyAdSenseIntegration(html, { privacyPolicy: true }), html,
+      `${locale.webLocale}: general generation preserves localized disclosure`);
   }
+});
+
+test('current privacy AdSense integration refuses missing or duplicate localized disclosure', async () => {
+  const copy = JSON.parse(await fs.readFile(path.join(root, 'tools', 'privacy-1.612', 'en.json'), 'utf8'));
+  const article = renderPolicyArticle(copy);
+  const fixture = `<html><head></head><body><main>${article}</main></body></html>`;
+  assert.throws(() => applyAdSenseIntegration(fixture.replace('id="website-advertising"', 'id="missing"'),
+    { privacyPolicy: true }), /invalid or duplicate localized/);
+  assert.throws(() => applyAdSenseIntegration(fixture.replace('</article>',
+    '<p id="website-advertising">Google AdSense duplicate</p></article>'),
+  { privacyPolicy: true }), /invalid or duplicate localized/);
 });
 
 test('ads.txt is distinct from app-ads.txt and uses the verified publisher account', async () => {

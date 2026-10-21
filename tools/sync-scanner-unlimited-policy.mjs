@@ -2,6 +2,10 @@ import fs from 'node:fs/promises';
 import path from 'node:path';
 import { createRunTimestamp, writeGeneratedJson } from './generated-json.mjs';
 
+// This historical generator contains pre-Points rewards and obsolete billing/backup claims.
+// Fail before reading or writing any policy; never silently resurrect its old disclosures.
+throw new Error('Legacy Scanner Unlimited policy generator is retired. Use node tools/sync-current-privacy.mjs --check, review the current 44 locale sources, then --patch or --apply.');
+
 const root = path.resolve(import.meta.dirname, '..');
 const androidRoot = path.resolve(process.env.ANDROID_SOURCE_ROOT || path.join(root, '..'));
 const manifest = JSON.parse(await fs.readFile(path.join(root, 'site-locales.json'), 'utf8'));
