@@ -12,9 +12,9 @@ const hiddenNews = { includeNews: false };
 
 test('current sitemap exactly matches all locale and page routes', () => {
   const result = validateSitemapUrlSet(sitemap, manifest, undefined, newsData.stories, hiddenNews);
-  assert.equal(expectedSitemapUrls(manifest, undefined, newsData.stories, hiddenNews).length, 484);
-  assert.equal(result.expectedUrls.length, 484);
-  assert.equal(result.actualUrls.length, 484);
+  assert.equal(expectedSitemapUrls(manifest, undefined, newsData.stories, hiddenNews).length, 572);
+  assert.equal(result.expectedUrls.length, 572);
+  assert.equal(result.actualUrls.length, 572);
   assert.equal(result.ok, true);
   assert.deepEqual(result.errors, []);
 });
@@ -23,7 +23,7 @@ test('expected URLs grow from manifest routes without a hardcoded page count', (
   const expandedManifest = structuredClone(manifest);
   expandedManifest.locales[0].toolUrls.futureTool = '/future-tool/';
   const urls = expectedSitemapUrls(expandedManifest, undefined, newsData.stories, hiddenNews);
-  assert.equal(urls.length, 485);
+  assert.equal(urls.length, 573);
   assert.ok(urls.includes('https://balkanconverter.com/future-tool/'));
 });
 

@@ -291,7 +291,11 @@
         "travel-budget-calculator": "/travel-budget-calculator/"
       },
       "dir": "ltr",
-      "name": "English"
+      "name": "English",
+      "updatesUrl": "/updates/",
+      "updateArticleUrls": {
+        "version-1-604": "/updates/version-1-604/"
+      }
     },
     {
       "androidLocale": "sr",
@@ -312,7 +316,11 @@
         "travel-budget-calculator": "/sr/travel-budget-calculator/"
       },
       "dir": "ltr",
-      "name": "Српски"
+      "name": "Српски",
+      "updatesUrl": "/sr/updates/",
+      "updateArticleUrls": {
+        "version-1-604": "/sr/updates/version-1-604/"
+      }
     },
     {
       "androidLocale": "bs",
@@ -332,7 +340,11 @@
         "travel-budget-calculator": "/bs/travel-budget-calculator/"
       },
       "dir": "ltr",
-      "name": "Bosanski"
+      "name": "Bosanski",
+      "updatesUrl": "/bs/updates/",
+      "updateArticleUrls": {
+        "version-1-604": "/bs/updates/version-1-604/"
+      }
     },
     {
       "androidLocale": "hr",
@@ -352,7 +364,11 @@
         "travel-budget-calculator": "/hr/travel-budget-calculator/"
       },
       "dir": "ltr",
-      "name": "Hrvatski"
+      "name": "Hrvatski",
+      "updatesUrl": "/hr/updates/",
+      "updateArticleUrls": {
+        "version-1-604": "/hr/updates/version-1-604/"
+      }
     },
     {
       "androidLocale": "sq",
@@ -372,7 +388,11 @@
         "travel-budget-calculator": "/sq/travel-budget-calculator/"
       },
       "dir": "ltr",
-      "name": "Shqip"
+      "name": "Shqip",
+      "updatesUrl": "/sq/updates/",
+      "updateArticleUrls": {
+        "version-1-604": "/sq/updates/version-1-604/"
+      }
     },
     {
       "androidLocale": "mk",
@@ -392,7 +412,11 @@
         "travel-budget-calculator": "/mk/travel-budget-calculator/"
       },
       "dir": "ltr",
-      "name": "Македонски"
+      "name": "Македонски",
+      "updatesUrl": "/mk/updates/",
+      "updateArticleUrls": {
+        "version-1-604": "/mk/updates/version-1-604/"
+      }
     },
     {
       "androidLocale": "bg",
@@ -412,7 +436,11 @@
         "travel-budget-calculator": "/bg/travel-budget-calculator/"
       },
       "dir": "ltr",
-      "name": "Български"
+      "name": "Български",
+      "updatesUrl": "/bg/updates/",
+      "updateArticleUrls": {
+        "version-1-604": "/bg/updates/version-1-604/"
+      }
     },
     {
       "androidLocale": "ro",
@@ -432,7 +460,11 @@
         "travel-budget-calculator": "/ro/travel-budget-calculator/"
       },
       "dir": "ltr",
-      "name": "Română"
+      "name": "Română",
+      "updatesUrl": "/ro/updates/",
+      "updateArticleUrls": {
+        "version-1-604": "/ro/updates/version-1-604/"
+      }
     },
     {
       "androidLocale": "hu",
@@ -452,7 +484,11 @@
         "travel-budget-calculator": "/hu/travel-budget-calculator/"
       },
       "dir": "ltr",
-      "name": "Magyar"
+      "name": "Magyar",
+      "updatesUrl": "/hu/updates/",
+      "updateArticleUrls": {
+        "version-1-604": "/hu/updates/version-1-604/"
+      }
     },
     {
       "androidLocale": "pl",
@@ -472,7 +508,11 @@
         "travel-budget-calculator": "/pl/travel-budget-calculator/"
       },
       "dir": "ltr",
-      "name": "Polski"
+      "name": "Polski",
+      "updatesUrl": "/pl/updates/",
+      "updateArticleUrls": {
+        "version-1-604": "/pl/updates/version-1-604/"
+      }
     },
     {
       "androidLocale": "cs",
@@ -492,7 +532,11 @@
         "travel-budget-calculator": "/cs/travel-budget-calculator/"
       },
       "dir": "ltr",
-      "name": "Čeština"
+      "name": "Čeština",
+      "updatesUrl": "/cs/updates/",
+      "updateArticleUrls": {
+        "version-1-604": "/cs/updates/version-1-604/"
+      }
     },
     {
       "androidLocale": "sk",
@@ -512,7 +556,11 @@
         "travel-budget-calculator": "/sk/travel-budget-calculator/"
       },
       "dir": "ltr",
-      "name": "Slovenčina"
+      "name": "Slovenčina",
+      "updatesUrl": "/sk/updates/",
+      "updateArticleUrls": {
+        "version-1-604": "/sk/updates/version-1-604/"
+      }
     },
     {
       "androidLocale": "sl",
@@ -532,7 +580,11 @@
         "travel-budget-calculator": "/sl/travel-budget-calculator/"
       },
       "dir": "ltr",
-      "name": "Slovenščina"
+      "name": "Slovenščina",
+      "updatesUrl": "/sl/updates/",
+      "updateArticleUrls": {
+        "version-1-604": "/sl/updates/version-1-604/"
+      }
     },
     {
       "androidLocale": "de",
@@ -552,7 +604,11 @@
         "travel-budget-calculator": "/de/travel-budget-calculator/"
       },
       "dir": "ltr",
-      "name": "Deutsch"
+      "name": "Deutsch",
+      "updatesUrl": "/de/updates/",
+      "updateArticleUrls": {
+        "version-1-604": "/de/updates/version-1-604/"
+      }
     },
     {
       "androidLocale": "fr",
@@ -572,7 +628,11 @@
         "travel-budget-calculator": "/fr/travel-budget-calculator/"
       },
       "dir": "ltr",
-      "name": "Français"
+      "name": "Français",
+      "updatesUrl": "/fr/updates/",
+      "updateArticleUrls": {
+        "version-1-604": "/fr/updates/version-1-604/"
+      }
     },
     {
       "androidLocale": "it",
@@ -592,7 +652,11 @@
         "travel-budget-calculator": "/it/travel-budget-calculator/"
       },
       "dir": "ltr",
-      "name": "Italiano"
+      "name": "Italiano",
+      "updatesUrl": "/it/updates/",
+      "updateArticleUrls": {
+        "version-1-604": "/it/updates/version-1-604/"
+      }
     },
     {
       "androidLocale": "es-ES",
@@ -612,7 +676,11 @@
         "travel-budget-calculator": "/es-es/travel-budget-calculator/"
       },
       "dir": "ltr",
-      "name": "Español (España)"
+      "name": "Español (España)",
+      "updatesUrl": "/es-es/updates/",
+      "updateArticleUrls": {
+        "version-1-604": "/es-es/updates/version-1-604/"
+      }
     },
     {
       "androidLocale": "es-419",
@@ -632,7 +700,11 @@
         "travel-budget-calculator": "/es-419/travel-budget-calculator/"
       },
       "dir": "ltr",
-      "name": "Español (Latinoamérica)"
+      "name": "Español (Latinoamérica)",
+      "updatesUrl": "/es-419/updates/",
+      "updateArticleUrls": {
+        "version-1-604": "/es-419/updates/version-1-604/"
+      }
     },
     {
       "androidLocale": "pt-BR",
@@ -652,7 +724,11 @@
         "travel-budget-calculator": "/pt-br/travel-budget-calculator/"
       },
       "dir": "ltr",
-      "name": "Português (Brasil)"
+      "name": "Português (Brasil)",
+      "updatesUrl": "/pt-br/updates/",
+      "updateArticleUrls": {
+        "version-1-604": "/pt-br/updates/version-1-604/"
+      }
     },
     {
       "androidLocale": "pt-PT",
@@ -672,7 +748,11 @@
         "travel-budget-calculator": "/pt-pt/travel-budget-calculator/"
       },
       "dir": "ltr",
-      "name": "Português (Portugal)"
+      "name": "Português (Portugal)",
+      "updatesUrl": "/pt-pt/updates/",
+      "updateArticleUrls": {
+        "version-1-604": "/pt-pt/updates/version-1-604/"
+      }
     },
     {
       "androidLocale": "nl",
@@ -692,7 +772,11 @@
         "travel-budget-calculator": "/nl/travel-budget-calculator/"
       },
       "dir": "ltr",
-      "name": "Nederlands"
+      "name": "Nederlands",
+      "updatesUrl": "/nl/updates/",
+      "updateArticleUrls": {
+        "version-1-604": "/nl/updates/version-1-604/"
+      }
     },
     {
       "androidLocale": "da",
@@ -712,7 +796,11 @@
         "travel-budget-calculator": "/da/travel-budget-calculator/"
       },
       "dir": "ltr",
-      "name": "Dansk"
+      "name": "Dansk",
+      "updatesUrl": "/da/updates/",
+      "updateArticleUrls": {
+        "version-1-604": "/da/updates/version-1-604/"
+      }
     },
     {
       "androidLocale": "sv",
@@ -732,7 +820,11 @@
         "travel-budget-calculator": "/sv/travel-budget-calculator/"
       },
       "dir": "ltr",
-      "name": "Svenska"
+      "name": "Svenska",
+      "updatesUrl": "/sv/updates/",
+      "updateArticleUrls": {
+        "version-1-604": "/sv/updates/version-1-604/"
+      }
     },
     {
       "androidLocale": "nb",
@@ -752,7 +844,11 @@
         "travel-budget-calculator": "/nb/travel-budget-calculator/"
       },
       "dir": "ltr",
-      "name": "Norsk bokmål"
+      "name": "Norsk bokmål",
+      "updatesUrl": "/nb/updates/",
+      "updateArticleUrls": {
+        "version-1-604": "/nb/updates/version-1-604/"
+      }
     },
     {
       "androidLocale": "fi",
@@ -772,7 +868,11 @@
         "travel-budget-calculator": "/fi/travel-budget-calculator/"
       },
       "dir": "ltr",
-      "name": "Suomi"
+      "name": "Suomi",
+      "updatesUrl": "/fi/updates/",
+      "updateArticleUrls": {
+        "version-1-604": "/fi/updates/version-1-604/"
+      }
     },
     {
       "androidLocale": "is",
@@ -792,7 +892,11 @@
         "travel-budget-calculator": "/is/travel-budget-calculator/"
       },
       "dir": "ltr",
-      "name": "Íslenska"
+      "name": "Íslenska",
+      "updatesUrl": "/is/updates/",
+      "updateArticleUrls": {
+        "version-1-604": "/is/updates/version-1-604/"
+      }
     },
     {
       "androidLocale": "el",
@@ -812,7 +916,11 @@
         "travel-budget-calculator": "/el/travel-budget-calculator/"
       },
       "dir": "ltr",
-      "name": "Ελληνικά"
+      "name": "Ελληνικά",
+      "updatesUrl": "/el/updates/",
+      "updateArticleUrls": {
+        "version-1-604": "/el/updates/version-1-604/"
+      }
     },
     {
       "androidLocale": "tr",
@@ -832,7 +940,11 @@
         "travel-budget-calculator": "/tr/travel-budget-calculator/"
       },
       "dir": "ltr",
-      "name": "Türkçe"
+      "name": "Türkçe",
+      "updatesUrl": "/tr/updates/",
+      "updateArticleUrls": {
+        "version-1-604": "/tr/updates/version-1-604/"
+      }
     },
     {
       "androidLocale": "ru",
@@ -853,7 +965,11 @@
         "travel-budget-calculator": "/ru/travel-budget-calculator/"
       },
       "dir": "ltr",
-      "name": "Русский"
+      "name": "Русский",
+      "updatesUrl": "/ru/updates/",
+      "updateArticleUrls": {
+        "version-1-604": "/ru/updates/version-1-604/"
+      }
     },
     {
       "androidLocale": "uk",
@@ -873,7 +989,11 @@
         "travel-budget-calculator": "/uk/travel-budget-calculator/"
       },
       "dir": "ltr",
-      "name": "Українська"
+      "name": "Українська",
+      "updatesUrl": "/uk/updates/",
+      "updateArticleUrls": {
+        "version-1-604": "/uk/updates/version-1-604/"
+      }
     },
     {
       "androidLocale": "ar",
@@ -893,7 +1013,11 @@
         "travel-budget-calculator": "/ar/travel-budget-calculator/"
       },
       "dir": "rtl",
-      "name": "العربية"
+      "name": "العربية",
+      "updatesUrl": "/ar/updates/",
+      "updateArticleUrls": {
+        "version-1-604": "/ar/updates/version-1-604/"
+      }
     },
     {
       "androidLocale": "iw",
@@ -913,7 +1037,11 @@
         "travel-budget-calculator": "/he/travel-budget-calculator/"
       },
       "dir": "rtl",
-      "name": "עברית"
+      "name": "עברית",
+      "updatesUrl": "/he/updates/",
+      "updateArticleUrls": {
+        "version-1-604": "/he/updates/version-1-604/"
+      }
     },
     {
       "androidLocale": "fa",
@@ -933,7 +1061,11 @@
         "travel-budget-calculator": "/fa/travel-budget-calculator/"
       },
       "dir": "rtl",
-      "name": "فارسی"
+      "name": "فارسی",
+      "updatesUrl": "/fa/updates/",
+      "updateArticleUrls": {
+        "version-1-604": "/fa/updates/version-1-604/"
+      }
     },
     {
       "androidLocale": "ur",
@@ -953,7 +1085,11 @@
         "travel-budget-calculator": "/ur/travel-budget-calculator/"
       },
       "dir": "rtl",
-      "name": "اردو"
+      "name": "اردو",
+      "updatesUrl": "/ur/updates/",
+      "updateArticleUrls": {
+        "version-1-604": "/ur/updates/version-1-604/"
+      }
     },
     {
       "androidLocale": "hi",
@@ -973,7 +1109,11 @@
         "travel-budget-calculator": "/hi/travel-budget-calculator/"
       },
       "dir": "ltr",
-      "name": "हिन्दी"
+      "name": "हिन्दी",
+      "updatesUrl": "/hi/updates/",
+      "updateArticleUrls": {
+        "version-1-604": "/hi/updates/version-1-604/"
+      }
     },
     {
       "androidLocale": "bn",
@@ -993,7 +1133,11 @@
         "travel-budget-calculator": "/bn/travel-budget-calculator/"
       },
       "dir": "ltr",
-      "name": "বাংলা"
+      "name": "বাংলা",
+      "updatesUrl": "/bn/updates/",
+      "updateArticleUrls": {
+        "version-1-604": "/bn/updates/version-1-604/"
+      }
     },
     {
       "androidLocale": "in",
@@ -1013,7 +1157,11 @@
         "travel-budget-calculator": "/id/travel-budget-calculator/"
       },
       "dir": "ltr",
-      "name": "Bahasa Indonesia"
+      "name": "Bahasa Indonesia",
+      "updatesUrl": "/id/updates/",
+      "updateArticleUrls": {
+        "version-1-604": "/id/updates/version-1-604/"
+      }
     },
     {
       "androidLocale": "ms",
@@ -1033,7 +1181,11 @@
         "travel-budget-calculator": "/ms/travel-budget-calculator/"
       },
       "dir": "ltr",
-      "name": "Bahasa Melayu"
+      "name": "Bahasa Melayu",
+      "updatesUrl": "/ms/updates/",
+      "updateArticleUrls": {
+        "version-1-604": "/ms/updates/version-1-604/"
+      }
     },
     {
       "androidLocale": "th",
@@ -1053,7 +1205,11 @@
         "travel-budget-calculator": "/th/travel-budget-calculator/"
       },
       "dir": "ltr",
-      "name": "ไทย"
+      "name": "ไทย",
+      "updatesUrl": "/th/updates/",
+      "updateArticleUrls": {
+        "version-1-604": "/th/updates/version-1-604/"
+      }
     },
     {
       "androidLocale": "vi",
@@ -1073,7 +1229,11 @@
         "travel-budget-calculator": "/vi/travel-budget-calculator/"
       },
       "dir": "ltr",
-      "name": "Tiếng Việt"
+      "name": "Tiếng Việt",
+      "updatesUrl": "/vi/updates/",
+      "updateArticleUrls": {
+        "version-1-604": "/vi/updates/version-1-604/"
+      }
     },
     {
       "androidLocale": "zh-Hans",
@@ -1093,7 +1253,11 @@
         "travel-budget-calculator": "/zh-hans/travel-budget-calculator/"
       },
       "dir": "ltr",
-      "name": "简体中文"
+      "name": "简体中文",
+      "updatesUrl": "/zh-hans/updates/",
+      "updateArticleUrls": {
+        "version-1-604": "/zh-hans/updates/version-1-604/"
+      }
     },
     {
       "androidLocale": "zh-Hant",
@@ -1113,7 +1277,11 @@
         "travel-budget-calculator": "/zh-hant/travel-budget-calculator/"
       },
       "dir": "ltr",
-      "name": "繁體中文"
+      "name": "繁體中文",
+      "updatesUrl": "/zh-hant/updates/",
+      "updateArticleUrls": {
+        "version-1-604": "/zh-hant/updates/version-1-604/"
+      }
     },
     {
       "androidLocale": "ja",
@@ -1133,7 +1301,11 @@
         "travel-budget-calculator": "/ja/travel-budget-calculator/"
       },
       "dir": "ltr",
-      "name": "日本語"
+      "name": "日本語",
+      "updatesUrl": "/ja/updates/",
+      "updateArticleUrls": {
+        "version-1-604": "/ja/updates/version-1-604/"
+      }
     },
     {
       "androidLocale": "ko",
@@ -1153,7 +1325,11 @@
         "travel-budget-calculator": "/ko/travel-budget-calculator/"
       },
       "dir": "ltr",
-      "name": "한국어"
+      "name": "한국어",
+      "updatesUrl": "/ko/updates/",
+      "updateArticleUrls": {
+        "version-1-604": "/ko/updates/version-1-604/"
+      }
     }
   ]
 }

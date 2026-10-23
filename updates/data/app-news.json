@@ -1,0 +1,1674 @@
+{
+  "en": {
+    "title": "What’s New",
+    "cards": [
+      {
+        "id": "Keyboard",
+        "title": "Keyboard fonts and sizes",
+        "body": "Customize the calculator buttons in Settings: choose a standard, classic, monospace or Gothic font and one of three symbol sizes. A preview shows your choice, and your preferences are saved.",
+        "version": "1.613",
+        "published": false,
+        "status": "Coming in 1.613"
+      },
+      {
+        "id": "ProcessText",
+        "title": "Selected-text conversion",
+        "body": "Selected text: 149.99 EUR → 17,529.33 RSD (1 EUR = 116.87 RSD)"
+      },
+      {
+        "id": "PriceScanner",
+        "title": "Price scanner",
+        "body": "Camera access is needed to scan a price. Images stay on this device and are not saved."
+      },
+      {
+        "id": "ActualCost",
+        "title": "Actual cost",
+        "body": "Compare the offer with the reference rate."
+      },
+      {
+        "id": "TravelBoard",
+        "title": "Travel board",
+        "body": "Tap a currency to make it the base currency."
+      },
+      {
+        "id": "Crypto",
+        "title": "Crypto",
+        "body": "Crypto rates"
+      }
+    ]
+  },
+  "sr": {
+    "title": "Шта је ново",
+    "cards": [
+      {
+        "id": "Keyboard",
+        "title": "Фонтови и величине тастатуре",
+        "body": "Прилагодите тастере калкулатора у подешавањима: изаберите стандардни, класични, фонт једнаке ширине или готички фонт и једну од три величине знакова. Преглед приказује ваш избор, а подешавања се чувају.",
+        "version": "1.613",
+        "published": false,
+        "status": "Ускоро у верзији 1.613"
+      },
+      {
+        "id": "ProcessText",
+        "title": "Конверзија изабраног текста",
+        "body": "Изабрани текст: 149,99 EUR → 17.529,33 RSD (1 EUR = 116,87 RSD)"
+      },
+      {
+        "id": "PriceScanner",
+        "title": "Скенер цена",
+        "body": "Приступ камери је потребан за скенирање цене. Слике остају на уређају и не чувају се."
+      },
+      {
+        "id": "ActualCost",
+        "title": "Стварни трошак",
+        "body": "Упоредите услове размене са референтним курсом апликације."
+      },
+      {
+        "id": "TravelBoard",
+        "title": "Мулти-валутна путна табла",
+        "body": "Додирните валуту да бисте је поставили као основну."
+      },
+      {
+        "id": "Crypto",
+        "title": "Криптовалуте",
+        "body": "Курсеви криптовалута"
+      }
+    ]
+  },
+  "bs": {
+    "title": "Šta je novo",
+    "cards": [
+      {
+        "id": "Keyboard",
+        "title": "Fontovi i veličine tastature",
+        "body": "Prilagodite tipke kalkulatora u postavkama: izaberite standardni, klasični, font jednake širine ili gotički font i jednu od tri veličine znakova. Pregled prikazuje vaš izbor, a postavke se čuvaju.",
+        "version": "1.613",
+        "published": false,
+        "status": "Uskoro u verziji 1.613"
+      },
+      {
+        "id": "ProcessText",
+        "title": "Pretvaranje odabranog teksta",
+        "body": "Odabrani tekst: 149,99 EUR → 17.529,33 RSD (1 EUR = 116,87 RSD)"
+      },
+      {
+        "id": "PriceScanner",
+        "title": "Skener cijena",
+        "body": "Pristup kameri je potreban za skeniranje cijene. Slike ostaju na uređaju i ne čuvaju se."
+      },
+      {
+        "id": "ActualCost",
+        "title": "Stvarni trošak",
+        "body": "Uporedite uslove razmjene s referentnim kursom aplikacije."
+      },
+      {
+        "id": "TravelBoard",
+        "title": "Pregled valuta za putovanja",
+        "body": "Dodirnite valutu da je postavite kao osnovnu."
+      },
+      {
+        "id": "Crypto",
+        "title": "Kriptovalute",
+        "body": "Kursevi kriptovaluta"
+      }
+    ]
+  },
+  "hr": {
+    "title": "Što je novo",
+    "cards": [
+      {
+        "id": "Keyboard",
+        "title": "Fontovi i veličine tipkovnice",
+        "body": "Prilagodite tipke kalkulatora u postavkama: odaberite standardni, klasični, font jednake širine ili gotički font i jednu od tri veličine znakova. Pregled prikazuje vaš odabir, a postavke se spremaju.",
+        "version": "1.613",
+        "published": false,
+        "status": "Uskoro u verziji 1.613"
+      },
+      {
+        "id": "ProcessText",
+        "title": "Pretvorba odabranog teksta",
+        "body": "Odabrani tekst: 149,99 EUR → 17.529,33 RSD (1 EUR = 116,87 RSD)"
+      },
+      {
+        "id": "PriceScanner",
+        "title": "Skener cijena",
+        "body": "Pristup kameri potreban je za skeniranje cijene. Slike ostaju na uređaju i ne spremaju se."
+      },
+      {
+        "id": "ActualCost",
+        "title": "Stvarni trošak",
+        "body": "Usporedite uvjete zamjene s referentnim tečajem aplikacije."
+      },
+      {
+        "id": "TravelBoard",
+        "title": "Pregled valuta za putovanja",
+        "body": "Dodirnite valutu da biste je postavili kao osnovnu."
+      },
+      {
+        "id": "Crypto",
+        "title": "Kriptovalute",
+        "body": "Tečajevi kriptovaluta"
+      }
+    ]
+  },
+  "sq": {
+    "title": "Të rejat",
+    "cards": [
+      {
+        "id": "Keyboard",
+        "title": "Fontet dhe madhësitë e tastierës",
+        "body": "Personalizoni butonat e kalkulatorit te Cilësimet: zgjidhni fontin standard, klasik, me gjerësi fikse ose gotik dhe një nga tri madhësitë e simboleve. Pamja paraprake tregon zgjedhjen tuaj dhe preferencat ruhen.",
+        "version": "1.613",
+        "published": false,
+        "status": "Së shpejti në versionin 1.613"
+      },
+      {
+        "id": "ProcessText",
+        "title": "Konvertimi i tekstit të zgjedhur",
+        "body": "Teksti i zgjedhur: 149,99 EUR → 17 529,33 RSD (1 EUR = 116,87 RSD)"
+      },
+      {
+        "id": "PriceScanner",
+        "title": "Skaneri i çmimeve",
+        "body": "Nevojitet qasja në kamerë për të skanuar çmimin. Imazhet mbeten në pajisje dhe nuk ruhen."
+      },
+      {
+        "id": "ActualCost",
+        "title": "Kostoja reale",
+        "body": "Krahasoni kushtet e këmbimit me kursin e referencës së aplikacionit."
+      },
+      {
+        "id": "TravelBoard",
+        "title": "Bordi i udhëtimit me shumë monedha",
+        "body": "Prekni një valutë për ta bërë valutën bazë."
+      },
+      {
+        "id": "Crypto",
+        "title": "Kriptomonedhat",
+        "body": "Kurset e kriptomonedhave"
+      }
+    ]
+  },
+  "mk": {
+    "title": "Што има ново",
+    "cards": [
+      {
+        "id": "Keyboard",
+        "title": "Фонтови и големини на тастатурата",
+        "body": "Приспособете ги копчињата на калкулаторот во поставките: изберете стандарден, класичен, фонт со еднаква ширина или готски фонт и една од трите големини на знаците. Прегледот го прикажува вашиот избор, а поставките се зачувуваат.",
+        "version": "1.613",
+        "published": false,
+        "status": "Наскоро во верзијата 1.613"
+      },
+      {
+        "id": "ProcessText",
+        "title": "Конверзија на избран текст",
+        "body": "Избран текст: 149,99 EUR → 17.529,33 RSD (1 EUR = 116,87 RSD)"
+      },
+      {
+        "id": "PriceScanner",
+        "title": "Скенер на цени",
+        "body": "Потребен е пристап до камерата за скенирање цена. Сликите остануваат на уредот и не се зачувуваат."
+      },
+      {
+        "id": "ActualCost",
+        "title": "Вистински трошок",
+        "body": "Споредете ги условите за размена со референтниот курс на апликацијата."
+      },
+      {
+        "id": "TravelBoard",
+        "title": "Патувачка табла со повеќе валути",
+        "body": "Допрете валута за да ја поставите како основна."
+      },
+      {
+        "id": "Crypto",
+        "title": "Криптовалути",
+        "body": "Курсеви на криптовалути"
+      }
+    ]
+  },
+  "bg": {
+    "title": "Какво е новото",
+    "cards": [
+      {
+        "id": "Keyboard",
+        "title": "Шрифтове и размери на клавиатурата",
+        "body": "Персонализирайте бутоните на калкулатора в настройките: изберете стандартен, класически, моноширинен или готически шрифт и един от трите размера на символите. Визуализацията показва избора ви, а предпочитанията се запазват.",
+        "version": "1.613",
+        "published": false,
+        "status": "Скоро във версия 1.613"
+      },
+      {
+        "id": "ProcessText",
+        "title": "Преобразуване на избран текст",
+        "body": "Избран текст: 149,99 EUR → 17 529,33 RSD (1 EUR = 116,87 RSD)"
+      },
+      {
+        "id": "PriceScanner",
+        "title": "Скенер за цени",
+        "body": "За сканиране на цена е нужен достъп до камерата. Изображенията остават на устройството и не се запазват."
+      },
+      {
+        "id": "ActualCost",
+        "title": "Реална цена",
+        "body": "Сравнете условията за обмен с референтния курс на приложението."
+      },
+      {
+        "id": "TravelBoard",
+        "title": "Мултивалутно табло за пътуване",
+        "body": "Докоснете валута, за да я зададете като основна."
+      },
+      {
+        "id": "Crypto",
+        "title": "Криптовалути",
+        "body": "Курсове на криптовалути"
+      }
+    ]
+  },
+  "ro": {
+    "title": "Noutăți",
+    "cards": [
+      {
+        "id": "Keyboard",
+        "title": "Fonturi și dimensiuni ale tastaturii",
+        "body": "Personalizați butoanele calculatorului în Setări: alegeți un font standard, clasic, monospațiat sau gotic și una dintre cele trei dimensiuni ale simbolurilor. Previzualizarea arată alegerea făcută, iar preferințele sunt salvate.",
+        "version": "1.613",
+        "published": false,
+        "status": "În curând în versiunea 1.613"
+      },
+      {
+        "id": "ProcessText",
+        "title": "Conversia textului selectat",
+        "body": "Text selectat: 149,99 EUR → 17.529,33 RSD (1 EUR = 116,87 RSD)"
+      },
+      {
+        "id": "PriceScanner",
+        "title": "Scaner de prețuri",
+        "body": "Accesul la cameră este necesar pentru scanarea prețului. Imaginile rămân pe dispozitiv și nu sunt salvate."
+      },
+      {
+        "id": "ActualCost",
+        "title": "Costul real",
+        "body": "Comparați condițiile de schimb cu cursul de referință al aplicației."
+      },
+      {
+        "id": "TravelBoard",
+        "title": "Panou valutar pentru călătorii",
+        "body": "Atingeți o monedă pentru a o seta drept monedă de bază."
+      },
+      {
+        "id": "Crypto",
+        "title": "Criptomonede",
+        "body": "Cursuri pentru criptomonede"
+      }
+    ]
+  },
+  "hu": {
+    "title": "Újdonságok",
+    "cards": [
+      {
+        "id": "Keyboard",
+        "title": "A billentyűzet betűtípusa és mérete",
+        "body": "Szabja testre a számológép gombjait a Beállításokban: válasszon normál, klasszikus, rögzített szélességű vagy gótikus betűtípust és a három jelméret egyikét. Az előnézet megmutatja a választását, és a beállítások mentésre kerülnek.",
+        "version": "1.613",
+        "published": false,
+        "status": "Hamarosan az 1.613-as verzióban"
+      },
+      {
+        "id": "ProcessText",
+        "title": "Kijelölt szöveg átváltása",
+        "body": "Kijelölt szöveg: 149,99 EUR → 17 529,33 RSD (1 EUR = 116,87 RSD)"
+      },
+      {
+        "id": "PriceScanner",
+        "title": "Árleolvasó",
+        "body": "Az ár beolvasásához kamera-hozzáférés szükséges. A képek az eszközön maradnak, és nem kerülnek mentésre."
+      },
+      {
+        "id": "ActualCost",
+        "title": "Tényleges költség",
+        "body": "Hasonlítsa össze az átváltás feltételeit az alkalmazás referenciaárfolyamával."
+      },
+      {
+        "id": "TravelBoard",
+        "title": "Utazási valutaáttekintő",
+        "body": "Koppints egy pénznemre, hogy alapértelmezetté tedd."
+      },
+      {
+        "id": "Crypto",
+        "title": "Kriptovaluták",
+        "body": "Kriptovaluta-árfolyamok"
+      }
+    ]
+  },
+  "pl": {
+    "title": "Co nowego",
+    "cards": [
+      {
+        "id": "Keyboard",
+        "title": "Czcionki i rozmiary klawiatury",
+        "body": "Dostosuj przyciski kalkulatora w Ustawieniach: wybierz czcionkę standardową, klasyczną, o stałej szerokości lub gotycką oraz jeden z trzech rozmiarów znaków. Podgląd pokazuje Twój wybór, a ustawienia są zapisywane.",
+        "version": "1.613",
+        "published": false,
+        "status": "Wkrótce w wersji 1.613"
+      },
+      {
+        "id": "ProcessText",
+        "title": "Konwersja zaznaczonego tekstu",
+        "body": "Zaznaczony tekst: 149,99 EUR → 17 529,33 RSD (1 EUR = 116,87 RSD)"
+      },
+      {
+        "id": "PriceScanner",
+        "title": "Skaner cen",
+        "body": "Dostęp do aparatu jest potrzebny do skanowania ceny. Obrazy pozostają na urządzeniu i nie są zapisywane."
+      },
+      {
+        "id": "ActualCost",
+        "title": "Rzeczywisty koszt",
+        "body": "Porównaj warunki wymiany z kursem referencyjnym aplikacji."
+      },
+      {
+        "id": "TravelBoard",
+        "title": "Przelicznik podróżny",
+        "body": "Dotknij waluty, aby ustawić ją jako bazową."
+      },
+      {
+        "id": "Crypto",
+        "title": "Kryptowaluty",
+        "body": "Kursy kryptowalut"
+      }
+    ]
+  },
+  "cs": {
+    "title": "Co je nového",
+    "cards": [
+      {
+        "id": "Keyboard",
+        "title": "Písma a velikosti klávesnice",
+        "body": "Přizpůsobte si tlačítka kalkulačky v Nastavení: vyberte standardní, klasické, neproporcionální nebo gotické písmo a jednu ze tří velikostí znaků. Náhled ukáže váš výběr a předvolby se uloží.",
+        "version": "1.613",
+        "published": false,
+        "status": "Již brzy ve verzi 1.613"
+      },
+      {
+        "id": "ProcessText",
+        "title": "Převod vybraného textu",
+        "body": "Vybraný text: 149,99 EUR → 17 529,33 RSD (1 EUR = 116,87 RSD)"
+      },
+      {
+        "id": "PriceScanner",
+        "title": "Skener cen",
+        "body": "Ke skenování ceny je potřeba přístup k fotoaparátu. Snímky zůstávají v zařízení a neukládají se."
+      },
+      {
+        "id": "ActualCost",
+        "title": "Skutečné náklady",
+        "body": "Porovnejte podmínky směny s referenčním kurzem aplikace."
+      },
+      {
+        "id": "TravelBoard",
+        "title": "Přehled měn na cesty",
+        "body": "Klepnutím na měnu ji nastavíte jako základní."
+      },
+      {
+        "id": "Crypto",
+        "title": "Kryptoměny",
+        "body": "Kurzy kryptoměn"
+      }
+    ]
+  },
+  "sk": {
+    "title": "Čo je nové",
+    "cards": [
+      {
+        "id": "Keyboard",
+        "title": "Písma a veľkosti klávesnice",
+        "body": "Prispôsobte si tlačidlá kalkulačky v Nastaveniach: vyberte štandardné, klasické, neproporcionálne alebo gotické písmo a jednu z troch veľkostí znakov. Ukážka zobrazí váš výber a predvoľby sa uložia.",
+        "version": "1.613",
+        "published": false,
+        "status": "Čoskoro vo verzii 1.613"
+      },
+      {
+        "id": "ProcessText",
+        "title": "Konverzia vybraného textu",
+        "body": "Vybraný text: 149,99 EUR → 17 529,33 RSD (1 EUR = 116,87 RSD)"
+      },
+      {
+        "id": "PriceScanner",
+        "title": "Skener cien",
+        "body": "Na skenovanie ceny je potrebný prístup ku kamere. Obrázky zostávajú v zariadení a neukladajú sa."
+      },
+      {
+        "id": "ActualCost",
+        "title": "Skutočné náklady",
+        "body": "Porovnajte podmienky výmeny s referenčným kurzom aplikácie."
+      },
+      {
+        "id": "TravelBoard",
+        "title": "Prehľad mien na cesty",
+        "body": "Ťuknutím na menu ju nastavíte ako základnú."
+      },
+      {
+        "id": "Crypto",
+        "title": "Kryptomeny",
+        "body": "Kurzy kryptomien"
+      }
+    ]
+  },
+  "sl": {
+    "title": "Novosti",
+    "cards": [
+      {
+        "id": "Keyboard",
+        "title": "Pisave in velikosti tipkovnice",
+        "body": "Prilagodite gumbe kalkulatorja v nastavitvah: izberite standardno, klasično, enako široko ali gotsko pisavo in eno od treh velikosti znakov. Predogled pokaže vašo izbiro, nastavitve pa se shranijo.",
+        "version": "1.613",
+        "published": false,
+        "status": "Kmalu v različici 1.613"
+      },
+      {
+        "id": "ProcessText",
+        "title": "Pretvorba izbranega besedila",
+        "body": "Izbrano besedilo: 149,99 EUR → 17.529,33 RSD (1 EUR = 116,87 RSD)"
+      },
+      {
+        "id": "PriceScanner",
+        "title": "Bralnik cen",
+        "body": "Za branje cene je potreben dostop do kamere. Slike ostanejo v napravi in se ne shranijo."
+      },
+      {
+        "id": "ActualCost",
+        "title": "Dejanski stroški",
+        "body": "Primerjajte pogoje menjave z referenčnim tečajem aplikacije."
+      },
+      {
+        "id": "TravelBoard",
+        "title": "Večvalutna potovalna tabla",
+        "body": "Dotaknite se valute, da jo nastavite kot osnovno."
+      },
+      {
+        "id": "Crypto",
+        "title": "Kriptovalute",
+        "body": "Tečaji kriptovalut"
+      }
+    ]
+  },
+  "de": {
+    "title": "Neuigkeiten",
+    "cards": [
+      {
+        "id": "Keyboard",
+        "title": "Schriftarten und Größen der Tastatur",
+        "body": "Passen Sie die Rechnertasten in den Einstellungen an: Wählen Sie eine Standardschrift, klassische Schrift, Monospace- oder gotische Schrift und eine von drei Zeichengrößen. Eine Vorschau zeigt Ihre Auswahl; Ihre Einstellungen werden gespeichert.",
+        "version": "1.613",
+        "published": false,
+        "status": "Demnächst in Version 1.613"
+      },
+      {
+        "id": "ProcessText",
+        "title": "Konvertierung von ausgewähltem Text",
+        "body": "Ausgewählter Text: 149,99 EUR → 17.529,33 RSD (1 EUR = 116,87 RSD)"
+      },
+      {
+        "id": "PriceScanner",
+        "title": "Preisscanner",
+        "body": "Zum Scannen eines Preises ist Kamerazugriff nötig. Bilder bleiben auf diesem Gerät und werden nicht gespeichert."
+      },
+      {
+        "id": "ActualCost",
+        "title": "Tatsächliche Kosten",
+        "body": "Vergleichen Sie die Wechselkonditionen mit dem Referenzkurs der App."
+      },
+      {
+        "id": "TravelBoard",
+        "title": "Reisetafel mit mehreren Währungen",
+        "body": "Tippen Sie auf eine Währung, um sie als Basiswährung festzulegen."
+      },
+      {
+        "id": "Crypto",
+        "title": "Kryptowährungen",
+        "body": "Kryptokurse"
+      }
+    ]
+  },
+  "fr": {
+    "title": "Nouveautés",
+    "cards": [
+      {
+        "id": "Keyboard",
+        "title": "Polices et tailles du clavier",
+        "body": "Personnalisez les touches de la calculatrice dans les paramètres : choisissez une police standard, classique, à chasse fixe ou gothique et l’une des trois tailles de caractères. Un aperçu montre votre choix et vos préférences sont enregistrées.",
+        "version": "1.613",
+        "published": false,
+        "status": "Bientôt dans la version 1.613"
+      },
+      {
+        "id": "ProcessText",
+        "title": "Conversion du texte sélectionné",
+        "body": "Texte sélectionné: 149,99 EUR → 17 529,33 RSD (1 EUR = 116,87 RSD)"
+      },
+      {
+        "id": "PriceScanner",
+        "title": "Scanner de prix",
+        "body": "L’accès à l’appareil photo est nécessaire pour scanner un prix. Les images restent sur cet appareil et ne sont pas enregistrées."
+      },
+      {
+        "id": "ActualCost",
+        "title": "Coût réel",
+        "body": "Comparez les conditions de change au taux de référence de l’application."
+      },
+      {
+        "id": "TravelBoard",
+        "title": "Tableau de voyage multi-devises",
+        "body": "Touchez une devise pour la définir comme devise de base."
+      },
+      {
+        "id": "Crypto",
+        "title": "Cryptomonnaies",
+        "body": "Cours des cryptomonnaies"
+      }
+    ]
+  },
+  "it": {
+    "title": "Novità",
+    "cards": [
+      {
+        "id": "Keyboard",
+        "title": "Caratteri e dimensioni della tastiera",
+        "body": "Personalizza i pulsanti della calcolatrice nelle Impostazioni: scegli un carattere standard, classico, a larghezza fissa o gotico e una delle tre dimensioni dei simboli. L’anteprima mostra la tua scelta e le preferenze vengono salvate.",
+        "version": "1.613",
+        "published": false,
+        "status": "In arrivo nella versione 1.613"
+      },
+      {
+        "id": "ProcessText",
+        "title": "Conversione del testo selezionato",
+        "body": "Testo selezionato: 149,99 EUR → 17.529,33 RSD (1 EUR = 116,87 RSD)"
+      },
+      {
+        "id": "PriceScanner",
+        "title": "Scanner prezzi",
+        "body": "Per scansionare un prezzo è necessario accedere alla fotocamera. Le immagini restano sul dispositivo e non vengono salvate."
+      },
+      {
+        "id": "ActualCost",
+        "title": "Costo effettivo",
+        "body": "Confronta le condizioni di cambio con il tasso di riferimento dell’app."
+      },
+      {
+        "id": "TravelBoard",
+        "title": "Tabellone da viaggio multivaluta",
+        "body": "Tocca una valuta per impostarla come valuta di base."
+      },
+      {
+        "id": "Crypto",
+        "title": "Criptovalute",
+        "body": "Tassi delle criptovalute"
+      }
+    ]
+  },
+  "es-ES": {
+    "title": "Novedades",
+    "cards": [
+      {
+        "id": "Keyboard",
+        "title": "Fuentes y tamaños del teclado",
+        "body": "Personaliza los botones de la calculadora en Ajustes: elige una fuente estándar, clásica, monoespaciada o gótica y uno de los tres tamaños de símbolos. La vista previa muestra tu elección y se guardan tus preferencias.",
+        "version": "1.613",
+        "published": false,
+        "status": "Próximamente en la versión 1.613"
+      },
+      {
+        "id": "ProcessText",
+        "title": "Conversión del texto seleccionado",
+        "body": "Texto seleccionado: 149,99 EUR → 17.529,33 RSD (1 EUR = 116,87 RSD)"
+      },
+      {
+        "id": "PriceScanner",
+        "title": "Escáner de precios",
+        "body": "Se necesita acceso a la cámara para escanear un precio. Las imágenes permanecen en el dispositivo y no se guardan."
+      },
+      {
+        "id": "ActualCost",
+        "title": "Costo real",
+        "body": "Compara las condiciones de cambio con el tipo de referencia de la aplicación."
+      },
+      {
+        "id": "TravelBoard",
+        "title": "Tabla de viajes multidivisa",
+        "body": "Toque una divisa para convertirla en la divisa base."
+      },
+      {
+        "id": "Crypto",
+        "title": "Criptomonedas",
+        "body": "Tipos de criptomonedas"
+      }
+    ]
+  },
+  "es-419": {
+    "title": "Novedades",
+    "cards": [
+      {
+        "id": "Keyboard",
+        "title": "Fuentes y tamaños del teclado",
+        "body": "Personaliza los botones de la calculadora en Configuración: elige una fuente estándar, clásica, monoespaciada o gótica y uno de los tres tamaños de símbolos. La vista previa muestra tu elección y se guardan tus preferencias.",
+        "version": "1.613",
+        "published": false,
+        "status": "Próximamente en la versión 1.613"
+      },
+      {
+        "id": "ProcessText",
+        "title": "Conversión del texto seleccionado",
+        "body": "Texto seleccionado: 149.99 EUR → 17,529.33 RSD (1 EUR = 116.87 RSD)"
+      },
+      {
+        "id": "PriceScanner",
+        "title": "Escáner de precios",
+        "body": "Se necesita acceso a la cámara para escanear un precio. Las imágenes permanecen en el dispositivo y no se guardan."
+      },
+      {
+        "id": "ActualCost",
+        "title": "Costo real",
+        "body": "Compara las condiciones de cambio con el tipo de referencia de la aplicación."
+      },
+      {
+        "id": "TravelBoard",
+        "title": "Tabla de viajes multidivisa",
+        "body": "Toca una moneda para convertirla en la moneda base."
+      },
+      {
+        "id": "Crypto",
+        "title": "Criptomonedas",
+        "body": "Tipos de criptomonedas"
+      }
+    ]
+  },
+  "pt-BR": {
+    "title": "Novidades",
+    "cards": [
+      {
+        "id": "Keyboard",
+        "title": "Fontes e tamanhos do teclado",
+        "body": "Personalize os botões da calculadora nas Configurações: escolha uma fonte padrão, clássica, monoespaçada ou gótica e um dos três tamanhos de símbolos. A prévia mostra sua escolha, e suas preferências são salvas.",
+        "version": "1.613",
+        "published": false,
+        "status": "Em breve na versão 1.613"
+      },
+      {
+        "id": "ProcessText",
+        "title": "Conversão do texto selecionado",
+        "body": "Texto selecionado: 149,99 EUR → 17.529,33 RSD (1 EUR = 116,87 RSD)"
+      },
+      {
+        "id": "PriceScanner",
+        "title": "Leitor de preços",
+        "body": "O acesso à câmera é necessário para escanear um preço. As imagens ficam no dispositivo e não são salvas."
+      },
+      {
+        "id": "ActualCost",
+        "title": "Custo real",
+        "body": "Compare as condições de câmbio com a taxa de referência do app."
+      },
+      {
+        "id": "TravelBoard",
+        "title": "Quadro de viagens em várias moedas",
+        "body": "Toque em uma moeda para torná-la a moeda base."
+      },
+      {
+        "id": "Crypto",
+        "title": "Criptomoedas",
+        "body": "Cotações de criptomoedas"
+      }
+    ]
+  },
+  "pt-PT": {
+    "title": "Novidades",
+    "cards": [
+      {
+        "id": "Keyboard",
+        "title": "Tipos de letra e tamanhos do teclado",
+        "body": "Personalize os botões da calculadora nas Definições: escolha um tipo de letra padrão, clássico, monoespaçado ou gótico e um dos três tamanhos de símbolos. A pré-visualização mostra a sua escolha e as suas preferências são guardadas.",
+        "version": "1.613",
+        "published": false,
+        "status": "Em breve na versão 1.613"
+      },
+      {
+        "id": "ProcessText",
+        "title": "Conversão do texto selecionado",
+        "body": "Texto selecionado: 149,99 EUR → 17 529,33 RSD (1 EUR = 116,87 RSD)"
+      },
+      {
+        "id": "PriceScanner",
+        "title": "Leitor de preços",
+        "body": "É necessário acesso à câmara para digitalizar um preço. As imagens ficam no dispositivo e não são guardadas."
+      },
+      {
+        "id": "ActualCost",
+        "title": "Custo real",
+        "body": "Compare as condições de câmbio com a taxa de referência da aplicação."
+      },
+      {
+        "id": "TravelBoard",
+        "title": "Quadro de viagens em várias moedas",
+        "body": "Toque numa moeda para a tornar a moeda base."
+      },
+      {
+        "id": "Crypto",
+        "title": "Criptomoedas",
+        "body": "Taxas de criptomoedas"
+      }
+    ]
+  },
+  "nl": {
+    "title": "Wat is er nieuw",
+    "cards": [
+      {
+        "id": "Keyboard",
+        "title": "Lettertypen en groottes van het toetsenbord",
+        "body": "Pas de rekenmachineknoppen aan in Instellingen: kies een standaard, klassiek, monospace- of gotisch lettertype en een van drie tekengroottes. Een voorbeeld toont je keuze en je voorkeuren worden opgeslagen.",
+        "version": "1.613",
+        "published": false,
+        "status": "Binnenkort in versie 1.613"
+      },
+      {
+        "id": "ProcessText",
+        "title": "Conversie van geselecteerde tekst",
+        "body": "Geselecteerde tekst: 149,99 EUR → 17.529,33 RSD (1 EUR = 116,87 RSD)"
+      },
+      {
+        "id": "PriceScanner",
+        "title": "Prijsscanner",
+        "body": "Cameratoegang is nodig om een prijs te scannen. Afbeeldingen blijven op dit apparaat en worden niet opgeslagen."
+      },
+      {
+        "id": "ActualCost",
+        "title": "Werkelijke kosten",
+        "body": "Vergelijk de wisselvoorwaarden met de referentiekoers van de app."
+      },
+      {
+        "id": "TravelBoard",
+        "title": "Reisvalutaoverzicht",
+        "body": "Tik op een valuta om deze als basisvaluta te gebruiken."
+      },
+      {
+        "id": "Crypto",
+        "title": "Crypto",
+        "body": "Cryptokoersen"
+      }
+    ]
+  },
+  "da": {
+    "title": "Nyheder",
+    "cards": [
+      {
+        "id": "Keyboard",
+        "title": "Tastaturets skrifttyper og størrelser",
+        "body": "Tilpas lommeregnerens knapper i Indstillinger: vælg en standard-, klassisk, monospace- eller gotisk skrifttype og en af tre tegnstørrelser. En forhåndsvisning viser dit valg, og dine indstillinger gemmes.",
+        "version": "1.613",
+        "published": false,
+        "status": "Kommer i version 1.613"
+      },
+      {
+        "id": "ProcessText",
+        "title": "Konvertering af markeret tekst",
+        "body": "Markeret tekst: 149,99 EUR → 17.529,33 RSD (1 EUR = 116,87 RSD)"
+      },
+      {
+        "id": "PriceScanner",
+        "title": "Prisscanner",
+        "body": "Kameraadgang er nødvendig for at scanne en pris. Billeder bliver på enheden og gemmes ikke."
+      },
+      {
+        "id": "ActualCost",
+        "title": "Faktiske omkostninger",
+        "body": "Sammenlign vekselvilkårene med appens referencekurs."
+      },
+      {
+        "id": "TravelBoard",
+        "title": "Rejsevalutaoversigt",
+        "body": "Tryk på en valuta for at gøre den til basisvaluta."
+      },
+      {
+        "id": "Crypto",
+        "title": "Krypto",
+        "body": "Kryptokurser"
+      }
+    ]
+  },
+  "sv": {
+    "title": "Nyheter",
+    "cards": [
+      {
+        "id": "Keyboard",
+        "title": "Tangentbordets typsnitt och storlekar",
+        "body": "Anpassa kalkylatorns knappar i Inställningar: välj ett standard-, klassiskt, fastbredds- eller gotiskt typsnitt och en av tre teckenstorlekar. En förhandsvisning visar ditt val och dina inställningar sparas.",
+        "version": "1.613",
+        "published": false,
+        "status": "Kommer i version 1.613"
+      },
+      {
+        "id": "ProcessText",
+        "title": "Konvertering av markerad text",
+        "body": "Markerad text: 149,99 EUR → 17 529,33 RSD (1 EUR = 116,87 RSD)"
+      },
+      {
+        "id": "PriceScanner",
+        "title": "Prisskanner",
+        "body": "Kameraåtkomst behövs för att skanna ett pris. Bilderna stannar på enheten och sparas inte."
+      },
+      {
+        "id": "ActualCost",
+        "title": "Faktisk kostnad",
+        "body": "Jämför växlingsvillkoren med appens referenskurs."
+      },
+      {
+        "id": "TravelBoard",
+        "title": "Resevalutaöversikt",
+        "body": "Tryck på en valuta för att göra den till basvaluta."
+      },
+      {
+        "id": "Crypto",
+        "title": "Krypto",
+        "body": "Kryptokurser"
+      }
+    ]
+  },
+  "nb": {
+    "title": "Nyheter",
+    "cards": [
+      {
+        "id": "Keyboard",
+        "title": "Tastaturets skrifttyper og størrelser",
+        "body": "Tilpass kalkulatorknappene i Innstillinger: velg en standard, klassisk, monospace- eller gotisk skrifttype og én av tre tegnstørrelser. En forhåndsvisning viser valget ditt, og innstillingene lagres.",
+        "version": "1.613",
+        "published": false,
+        "status": "Kommer i versjon 1.613"
+      },
+      {
+        "id": "ProcessText",
+        "title": "Konvertering av markert tekst",
+        "body": "Markert tekst: 149,99 EUR → 17 529,33 RSD (1 EUR = 116,87 RSD)"
+      },
+      {
+        "id": "PriceScanner",
+        "title": "Prisskanner",
+        "body": "Kameratilgang er nødvendig for å skanne en pris. Bilder blir på enheten og lagres ikke."
+      },
+      {
+        "id": "ActualCost",
+        "title": "Faktisk kostnad",
+        "body": "Sammenlign vekslingsvilkårene med appens referansekurs."
+      },
+      {
+        "id": "TravelBoard",
+        "title": "Reisevalutaoversikt",
+        "body": "Trykk på en valuta for å gjøre den til basisvaluta."
+      },
+      {
+        "id": "Crypto",
+        "title": "Krypto",
+        "body": "Kryptokurser"
+      }
+    ]
+  },
+  "fi": {
+    "title": "Uutta",
+    "cards": [
+      {
+        "id": "Keyboard",
+        "title": "Näppäimistön fontit ja koot",
+        "body": "Mukauta laskimen painikkeita asetuksissa: valitse tavallinen, klassinen, tasalevyinen tai goottilainen fontti ja yksi kolmesta merkkikoosta. Esikatselu näyttää valintasi, ja asetuksesi tallennetaan.",
+        "version": "1.613",
+        "published": false,
+        "status": "Tulossa versioon 1.613"
+      },
+      {
+        "id": "ProcessText",
+        "title": "Valitun tekstin muunnos",
+        "body": "Valittu teksti: 149,99 EUR → 17 529,33 RSD (1 EUR = 116,87 RSD)"
+      },
+      {
+        "id": "PriceScanner",
+        "title": "Hintaskanneri",
+        "body": "Hinnan skannaamiseen tarvitaan kameran käyttöoikeus. Kuvat pysyvät laitteella eikä niitä tallenneta."
+      },
+      {
+        "id": "ActualCost",
+        "title": "Todelliset kustannukset",
+        "body": "Vertaa valuutanvaihdon ehtoja sovelluksen viitekurssiin."
+      },
+      {
+        "id": "TravelBoard",
+        "title": "Matkavaluuttojen näkymä",
+        "body": "Aseta valuutta perusvaluutaksi napauttamalla sitä."
+      },
+      {
+        "id": "Crypto",
+        "title": "Kryptovaluutat",
+        "body": "Kryptovaluuttakurssit"
+      }
+    ]
+  },
+  "is": {
+    "title": "Nýtt",
+    "cards": [
+      {
+        "id": "Keyboard",
+        "title": "Letur og stærðir lyklaborðs",
+        "body": "Sérsníddu hnappa reiknivélarinnar í stillingum: veldu hefðbundið, klassískt, jafnbreitt eða gotneskt letur og eina af þremur táknastærðum. Forskoðun sýnir valið þitt og stillingarnar vistast.",
+        "version": "1.613",
+        "published": false,
+        "status": "Væntanlegt í útgáfu 1.613"
+      },
+      {
+        "id": "ProcessText",
+        "title": "Umbreyting valins texta",
+        "body": "Valinn texti: 149,99 EUR → 17.529,33 RSD (1 EUR = 116,87 RSD)"
+      },
+      {
+        "id": "PriceScanner",
+        "title": "Verðskanni",
+        "body": "Aðgangur að myndavél er nauðsynlegur til að skanna verð. Myndir eru áfram í tækinu og eru ekki vistaðar."
+      },
+      {
+        "id": "ActualCost",
+        "title": "Raunverulegur kostnaður",
+        "body": "Berðu saman skiptikjörin og viðmiðunargengi appsins."
+      },
+      {
+        "id": "TravelBoard",
+        "title": "Yfirlit yfir ferðagjaldmiðla",
+        "body": "Pikkaðu á gjaldmiðil til að gera hann að grunngjaldmiðli."
+      },
+      {
+        "id": "Crypto",
+        "title": "Rafmyntir",
+        "body": "Gengi rafmynta"
+      }
+    ]
+  },
+  "el": {
+    "title": "Τι νέο υπάρχει",
+    "cards": [
+      {
+        "id": "Keyboard",
+        "title": "Γραμματοσειρές και μεγέθη πληκτρολογίου",
+        "body": "Προσαρμόστε τα κουμπιά της αριθμομηχανής στις Ρυθμίσεις: επιλέξτε τυπική, κλασική, σταθερού πλάτους ή γοτθική γραμματοσειρά και ένα από τα τρία μεγέθη συμβόλων. Η προεπισκόπηση δείχνει την επιλογή σας και οι προτιμήσεις σας αποθηκεύονται.",
+        "version": "1.613",
+        "published": false,
+        "status": "Σύντομα στην έκδοση 1.613"
+      },
+      {
+        "id": "ProcessText",
+        "title": "Μετατροπή επιλεγμένου κειμένου",
+        "body": "Επιλεγμένο κείμενο: 149,99 EUR → 17.529,33 RSD (1 EUR = 116,87 RSD)"
+      },
+      {
+        "id": "PriceScanner",
+        "title": "Σαρωτής τιμών",
+        "body": "Απαιτείται πρόσβαση στην κάμερα για τη σάρωση τιμής. Οι εικόνες παραμένουν στη συσκευή και δεν αποθηκεύονται."
+      },
+      {
+        "id": "ActualCost",
+        "title": "Πραγματικό κόστος",
+        "body": "Συγκρίνετε τους όρους συναλλαγής με την ισοτιμία αναφοράς της εφαρμογής."
+      },
+      {
+        "id": "TravelBoard",
+        "title": "Πίνακας ταξιδιωτικών νομισμάτων",
+        "body": "Πατήστε ένα νόμισμα για να το ορίσετε ως βασικό."
+      },
+      {
+        "id": "Crypto",
+        "title": "Κρυπτονομίσματα",
+        "body": "Ισοτιμίες κρυπτονομισμάτων"
+      }
+    ]
+  },
+  "tr": {
+    "title": "Yenilikler",
+    "cards": [
+      {
+        "id": "Keyboard",
+        "title": "Klavye yazı tipleri ve boyutları",
+        "body": "Ayarlar’dan hesap makinesi düğmelerini özelleştirin: standart, klasik, eş aralıklı veya Gotik yazı tipini ve üç simge boyutundan birini seçin. Önizleme seçiminizi gösterir ve tercihleriniz kaydedilir.",
+        "version": "1.613",
+        "published": false,
+        "status": "Yakında 1.613 sürümünde"
+      },
+      {
+        "id": "ProcessText",
+        "title": "Seçili metni dönüştürme",
+        "body": "Seçili metin: 149,99 EUR → 17.529,33 RSD (1 EUR = 116,87 RSD)"
+      },
+      {
+        "id": "PriceScanner",
+        "title": "Fiyat tarayıcı",
+        "body": "Fiyat taramak için kamera erişimi gerekir. Görüntüler bu cihazda kalır ve kaydedilmez."
+      },
+      {
+        "id": "ActualCost",
+        "title": "Gerçek maliyet",
+        "body": "Döviz bozdurma koşullarını uygulamanın referans kuruyla karşılaştırın."
+      },
+      {
+        "id": "TravelBoard",
+        "title": "Çoklu para birimi seyahat panosu",
+        "body": "Baz para birimi yapmak için bir para birimine dokunun."
+      },
+      {
+        "id": "Crypto",
+        "title": "Kripto paralar",
+        "body": "Kripto para kurları"
+      }
+    ]
+  },
+  "ru": {
+    "title": "Что нового",
+    "cards": [
+      {
+        "id": "Keyboard",
+        "title": "Шрифты и размеры клавиатуры",
+        "body": "Настройте кнопки калькулятора в настройках: выберите обычный, классический, моноширинный или готический шрифт и один из трёх размеров символов. Предпросмотр показывает ваш выбор, а настройки сохраняются.",
+        "version": "1.613",
+        "published": false,
+        "status": "Скоро в версии 1.613"
+      },
+      {
+        "id": "ProcessText",
+        "title": "Конвертация выделенного текста",
+        "body": "Выделенный текст: 149,99 EUR → 17 529,33 RSD (1 EUR = 116,87 RSD)"
+      },
+      {
+        "id": "PriceScanner",
+        "title": "Сканер цен",
+        "body": "Для сканирования цены нужен доступ к камере. Изображения не сохраняются на устройстве."
+      },
+      {
+        "id": "ActualCost",
+        "title": "Фактическая стоимость",
+        "body": "Сравните предложение с базовым курсом."
+      },
+      {
+        "id": "TravelBoard",
+        "title": "Табло путешествий",
+        "body": "Нажмите на валюту, чтобы сделать её базовой."
+      },
+      {
+        "id": "Crypto",
+        "title": "Криптовалюты",
+        "body": "Курсы криптовалют"
+      }
+    ]
+  },
+  "uk": {
+    "title": "Що нового",
+    "cards": [
+      {
+        "id": "Keyboard",
+        "title": "Шрифти й розміри клавіатури",
+        "body": "Налаштуйте кнопки калькулятора в налаштуваннях: виберіть звичайний, класичний, моноширинний або готичний шрифт і один із трьох розмірів символів. Попередній перегляд показує ваш вибір, а налаштування зберігаються.",
+        "version": "1.613",
+        "published": false,
+        "status": "Незабаром у версії 1.613"
+      },
+      {
+        "id": "ProcessText",
+        "title": "Перетворення виділеного тексту",
+        "body": "Виділений текст: 149,99 EUR → 17 529,33 RSD (1 EUR = 116,87 RSD)"
+      },
+      {
+        "id": "PriceScanner",
+        "title": "Сканер цін",
+        "body": "Для сканування ціни потрібен доступ до камери. Зображення залишаються на пристрої та не зберігаються."
+      },
+      {
+        "id": "ActualCost",
+        "title": "Фактична вартість",
+        "body": "Порівняйте умови обміну з довідковим курсом застосунку."
+      },
+      {
+        "id": "TravelBoard",
+        "title": "Табло валют для подорожей",
+        "body": "Торкніться валюти, щоб зробити її базовою."
+      },
+      {
+        "id": "Crypto",
+        "title": "Криптовалюти",
+        "body": "Курси криптовалют"
+      }
+    ]
+  },
+  "ar": {
+    "title": "ما الجديد",
+    "cards": [
+      {
+        "id": "Keyboard",
+        "title": "خطوط لوحة المفاتيح وأحجامها",
+        "body": "خصّص أزرار الآلة الحاسبة في الإعدادات: اختر الخط القياسي أو الكلاسيكي أو أحادي المسافة أو القوطي، وأحد أحجام الرموز الثلاثة. تُظهر المعاينة اختيارك، ويتم حفظ تفضيلاتك.",
+        "version": "1.613",
+        "published": false,
+        "status": "قريبًا في الإصدار 1.613"
+      },
+      {
+        "id": "ProcessText",
+        "title": "تحويل النص المحدد",
+        "body": "النص المحدد: 149.99 EUR → 17,529.33 RSD (1 EUR = 116.87 RSD)"
+      },
+      {
+        "id": "PriceScanner",
+        "title": "ماسح الأسعار",
+        "body": "يلزم الوصول إلى الكاميرا لمسح السعر. تبقى الصور على هذا الجهاز ولا يتم حفظها."
+      },
+      {
+        "id": "ActualCost",
+        "title": "التكلفة الفعلية",
+        "body": "قارن شروط الصرف بالسعر المرجعي للتطبيق."
+      },
+      {
+        "id": "TravelBoard",
+        "title": "لوحة السفر متعددة العملات",
+        "body": "اضغط على عملة لجعلها العملة الأساسية."
+      },
+      {
+        "id": "Crypto",
+        "title": "العملات المشفرة",
+        "body": "أسعار العملات المشفرة"
+      }
+    ]
+  },
+  "he": {
+    "title": "מה חדש",
+    "cards": [
+      {
+        "id": "Keyboard",
+        "title": "גופנים וגדלים של המקלדת",
+        "body": "התאימו את כפתורי המחשבון בהגדרות: בחרו גופן רגיל, קלאסי, ברוחב קבוע או גותי ואחד משלושה גדלים של סימנים. תצוגה מקדימה מציגה את הבחירה שלכם, וההעדפות נשמרות.",
+        "version": "1.613",
+        "published": false,
+        "status": "בקרוב בגרסה 1.613"
+      },
+      {
+        "id": "ProcessText",
+        "title": "המרת טקסט שנבחר",
+        "body": "הטקסט שנבחר: 149.99 EUR → 17,529.33 RSD (1 EUR = 116.87 RSD)"
+      },
+      {
+        "id": "PriceScanner",
+        "title": "סורק מחירים",
+        "body": "נדרשת גישה למצלמה כדי לסרוק מחיר. התמונות נשארות במכשיר ואינן נשמרות."
+      },
+      {
+        "id": "ActualCost",
+        "title": "עלות בפועל",
+        "body": "השוו את תנאי ההמרה לשער הייחוס של האפליקציה."
+      },
+      {
+        "id": "TravelBoard",
+        "title": "לוח נסיעות רב מטבעות",
+        "body": "יש להקיש על מטבע כדי להפוך אותו למטבע הבסיס."
+      },
+      {
+        "id": "Crypto",
+        "title": "מטבעות קריפטוגרפיים",
+        "body": "שערי קריפטו"
+      }
+    ]
+  },
+  "fa": {
+    "title": "تازه‌ها",
+    "cards": [
+      {
+        "id": "Keyboard",
+        "title": "قلم‌ها و اندازه‌های صفحه‌کلید",
+        "body": "دکمه‌های ماشین‌حساب را در تنظیمات شخصی‌سازی کنید: قلم معمولی، کلاسیک، تک‌عرض یا گوتیک و یکی از سه اندازهٔ نمادها را انتخاب کنید. پیش‌نمایش، انتخاب شما را نشان می‌دهد و ترجیحاتتان ذخیره می‌شود.",
+        "version": "1.613",
+        "published": false,
+        "status": "به‌زودی در نسخهٔ 1.613"
+      },
+      {
+        "id": "ProcessText",
+        "title": "تبدیل متن انتخاب‌شده",
+        "body": "متن انتخاب‌شده: ۱۴۹٫۹۹ EUR → ۱۷٬۵۲۹٫۳۳ RSD (1 EUR = ۱۱۶٫۸۷ RSD)"
+      },
+      {
+        "id": "PriceScanner",
+        "title": "اسکنر قیمت",
+        "body": "برای اسکن قیمت، دسترسی به دوربین لازم است. تصاویر روی این دستگاه می‌مانند و ذخیره نمی‌شوند."
+      },
+      {
+        "id": "ActualCost",
+        "title": "هزینه واقعی",
+        "body": "شرایط تبدیل را با نرخ مرجع برنامه مقایسه کنید."
+      },
+      {
+        "id": "TravelBoard",
+        "title": "تابلوی مسافرتی چند ارزی",
+        "body": "روی ارزی بزنید تا ارز پایه شود."
+      },
+      {
+        "id": "Crypto",
+        "title": "رمزارز",
+        "body": "نرخ رمزارزها"
+      }
+    ]
+  },
+  "ur": {
+    "title": "نیا کیا ہے",
+    "cards": [
+      {
+        "id": "Keyboard",
+        "title": "کی بورڈ کے فونٹ اور سائز",
+        "body": "ترتیبات میں کیلکولیٹر کے بٹن اپنی پسند کے مطابق بنائیں: معیاری، کلاسیکی، یکساں چوڑائی والا یا گوتھک فونٹ اور علامتوں کے تین سائز میں سے ایک منتخب کریں۔ پیش منظر آپ کا انتخاب دکھاتا ہے اور آپ کی ترجیحات محفوظ ہو جاتی ہیں۔",
+        "version": "1.613",
+        "published": false,
+        "status": "جلد ہی ورژن 1.613 میں"
+      },
+      {
+        "id": "ProcessText",
+        "title": "منتخب متن کی تبدیلی",
+        "body": "منتخب متن: 149.99 EUR → 17,529.33 RSD (1 EUR = 116.87 RSD)"
+      },
+      {
+        "id": "PriceScanner",
+        "title": "قیمت اسکینر",
+        "body": "قیمت اسکین کرنے کے لیے کیمرے تک رسائی درکار ہے۔ تصاویر اسی آلے پر رہتی ہیں اور محفوظ نہیں کی جاتیں۔"
+      },
+      {
+        "id": "ActualCost",
+        "title": "حقیقی لاگت",
+        "body": "زر مبادلہ کی شرائط کا ایپ کے حوالہ ریٹ سے موازنہ کریں۔"
+      },
+      {
+        "id": "TravelBoard",
+        "title": "سفری کرنسی جدول",
+        "body": "کسی کرنسی کو بنیادی کرنسی بنانے کے لیے اس پر ٹیپ کریں۔"
+      },
+      {
+        "id": "Crypto",
+        "title": "کرپٹو",
+        "body": "کرپٹو شرحیں"
+      }
+    ]
+  },
+  "hi": {
+    "title": "नया क्या है",
+    "cards": [
+      {
+        "id": "Keyboard",
+        "title": "कीपैड के फ़ॉन्ट और आकार",
+        "body": "सेटिंग में कैलकुलेटर के बटन अपनी पसंद के अनुसार बदलें: मानक, क्लासिक, मोनोस्पेस या गॉथिक फ़ॉन्ट और चिह्नों के तीन आकारों में से एक चुनें। प्रीव्यू में आपका चयन दिखता है और आपकी पसंद सहेजी जाती है।",
+        "version": "1.613",
+        "published": false,
+        "status": "संस्करण 1.613 में जल्द आ रहा है"
+      },
+      {
+        "id": "ProcessText",
+        "title": "चुने गए टेक्स्ट का रूपांतरण",
+        "body": "चुना गया टेक्स्ट: 149.99 EUR → 17,529.33 RSD (1 EUR = 116.87 RSD)"
+      },
+      {
+        "id": "PriceScanner",
+        "title": "कीमत स्कैनर",
+        "body": "कीमत स्कैन करने के लिए कैमरा एक्सेस चाहिए। चित्र इस डिवाइस पर रहते हैं और सहेजे नहीं जाते।"
+      },
+      {
+        "id": "ActualCost",
+        "title": "वास्तविक लागत",
+        "body": "विनिमय की शर्तों की तुलना ऐप की संदर्भ दर से करें।"
+      },
+      {
+        "id": "TravelBoard",
+        "title": "यात्रा बोर्ड",
+        "body": "किसी मुद्रा को आधार मुद्रा बनाने के लिए उस पर टैप करें।"
+      },
+      {
+        "id": "Crypto",
+        "title": "क्रिप्टो",
+        "body": "क्रिप्टो दरें"
+      }
+    ]
+  },
+  "bn": {
+    "title": "নতুন কী",
+    "cards": [
+      {
+        "id": "Keyboard",
+        "title": "কীপ্যাডের ফন্ট ও আকার",
+        "body": "সেটিংসে ক্যালকুলেটরের বোতাম নিজের মতো করে সাজান: স্ট্যান্ডার্ড, ক্লাসিক, মনোস্পেস বা গথিক ফন্ট এবং চিহ্নের তিনটি আকারের মধ্যে একটি বেছে নিন। প্রিভিউতে আপনার পছন্দ দেখা যায় এবং সেটিংস সংরক্ষিত থাকে।",
+        "version": "1.613",
+        "published": false,
+        "status": "শীঘ্রই সংস্করণ 1.613-এ আসছে"
+      },
+      {
+        "id": "ProcessText",
+        "title": "নির্বাচিত লেখা রূপান্তর",
+        "body": "নির্বাচিত লেখা: ১৪৯.৯৯ EUR → ১৭,৫২৯.৩৩ RSD (1 EUR = ১১৬.৮৭ RSD)"
+      },
+      {
+        "id": "PriceScanner",
+        "title": "দাম স্ক্যানার",
+        "body": "দাম স্ক্যান করতে ক্যামেরার অনুমতি প্রয়োজন। ছবি এই ডিভাইসেই থাকে এবং সংরক্ষণ করা হয় না।"
+      },
+      {
+        "id": "ActualCost",
+        "title": "প্রকৃত খরচ",
+        "body": "বিনিময়ের শর্ত অ্যাপের রেফারেন্স হারের সঙ্গে তুলনা করুন।"
+      },
+      {
+        "id": "TravelBoard",
+        "title": "ভ্রমণ বোর্ড",
+        "body": "কোনো মুদ্রাকে ভিত্তি মুদ্রা করতে সেটিতে ট্যাপ করুন।"
+      },
+      {
+        "id": "Crypto",
+        "title": "ক্রিপ্টো",
+        "body": "ক্রিপ্টো হার"
+      }
+    ]
+  },
+  "id": {
+    "title": "Yang Baru",
+    "cards": [
+      {
+        "id": "Keyboard",
+        "title": "Font dan ukuran papan tombol",
+        "body": "Sesuaikan tombol kalkulator di Setelan: pilih font standar, klasik, monospace, atau Gotik dan salah satu dari tiga ukuran simbol. Pratinjau menampilkan pilihan Anda, dan preferensi Anda disimpan.",
+        "version": "1.613",
+        "published": false,
+        "status": "Segera hadir di versi 1.613"
+      },
+      {
+        "id": "ProcessText",
+        "title": "Konversi teks terpilih",
+        "body": "Teks yang dipilih: 149,99 EUR → 17.529,33 RSD (1 EUR = 116,87 RSD)"
+      },
+      {
+        "id": "PriceScanner",
+        "title": "Pemindai harga",
+        "body": "Akses kamera diperlukan untuk memindai harga. Gambar tetap berada di perangkat ini dan tidak disimpan."
+      },
+      {
+        "id": "ActualCost",
+        "title": "Biaya sebenarnya",
+        "body": "Bandingkan ketentuan penukaran dengan kurs referensi aplikasi."
+      },
+      {
+        "id": "TravelBoard",
+        "title": "Ringkasan mata uang perjalanan",
+        "body": "Ketuk mata uang untuk menjadikannya mata uang dasar."
+      },
+      {
+        "id": "Crypto",
+        "title": "Kripto",
+        "body": "Kurs kripto"
+      }
+    ]
+  },
+  "ms": {
+    "title": "Apa yang Baharu",
+    "cards": [
+      {
+        "id": "Keyboard",
+        "title": "Fon dan saiz pad kekunci",
+        "body": "Sesuaikan butang kalkulator dalam Tetapan: pilih fon standard, klasik, monospace atau Gotik dan salah satu daripada tiga saiz simbol. Pratonton memaparkan pilihan anda dan pilihan anda disimpan.",
+        "version": "1.613",
+        "published": false,
+        "status": "Akan datang dalam versi 1.613"
+      },
+      {
+        "id": "ProcessText",
+        "title": "Penukaran teks terpilih",
+        "body": "Teks yang dipilih: 149.99 EUR → 17,529.33 RSD (1 EUR = 116.87 RSD)"
+      },
+      {
+        "id": "PriceScanner",
+        "title": "Pengimbas harga",
+        "body": "Akses kamera diperlukan untuk mengimbas harga. Imej kekal pada peranti ini dan tidak disimpan."
+      },
+      {
+        "id": "ActualCost",
+        "title": "Kos sebenar",
+        "body": "Bandingkan syarat pertukaran dengan kadar rujukan aplikasi."
+      },
+      {
+        "id": "TravelBoard",
+        "title": "Ringkasan mata wang perjalanan",
+        "body": "Ketik mata wang untuk menjadikannya mata wang asas."
+      },
+      {
+        "id": "Crypto",
+        "title": "Kripto",
+        "body": "Kadar kripto"
+      }
+    ]
+  },
+  "th": {
+    "title": "มีอะไรใหม่",
+    "cards": [
+      {
+        "id": "Keyboard",
+        "title": "แบบอักษรและขนาดของแป้นกด",
+        "body": "ปรับแต่งปุ่มเครื่องคิดเลขในการตั้งค่า: เลือกแบบอักษรมาตรฐาน คลาสสิก ความกว้างคงที่ หรือกอทิก และเลือกขนาดสัญลักษณ์ได้สามขนาด ตัวอย่างจะแสดงสิ่งที่คุณเลือก และระบบจะบันทึกการตั้งค่าไว้",
+        "version": "1.613",
+        "published": false,
+        "status": "เร็วๆ นี้ในเวอร์ชัน 1.613"
+      },
+      {
+        "id": "ProcessText",
+        "title": "แปลงข้อความที่เลือก",
+        "body": "ข้อความที่เลือก: 149.99 EUR → 17,529.33 RSD (1 EUR = 116.87 RSD)"
+      },
+      {
+        "id": "PriceScanner",
+        "title": "เครื่องสแกนราคา",
+        "body": "ต้องใช้สิทธิ์เข้าถึงกล้องเพื่อสแกนราคา รูปภาพจะอยู่ในอุปกรณ์นี้และไม่ถูกบันทึก"
+      },
+      {
+        "id": "ActualCost",
+        "title": "ค่าใช้จ่ายจริง",
+        "body": "เปรียบเทียบเงื่อนไขการแลกเปลี่ยนกับอัตราอ้างอิงของแอป"
+      },
+      {
+        "id": "TravelBoard",
+        "title": "ตารางสกุลเงินสำหรับเดินทาง",
+        "body": "แตะสกุลเงินเพื่อกำหนดเป็นสกุลเงินหลัก"
+      },
+      {
+        "id": "Crypto",
+        "title": "คริปโท",
+        "body": "อัตราคริปโท"
+      }
+    ]
+  },
+  "vi": {
+    "title": "Có gì mới",
+    "cards": [
+      {
+        "id": "Keyboard",
+        "title": "Phông chữ và kích thước bàn phím",
+        "body": "Tùy chỉnh các nút máy tính trong Cài đặt: chọn phông chữ tiêu chuẩn, cổ điển, đơn cách hoặc Gothic và một trong ba kích thước ký hiệu. Bản xem trước hiển thị lựa chọn của bạn và các tùy chọn được lưu lại.",
+        "version": "1.613",
+        "published": false,
+        "status": "Sắp có trong phiên bản 1.613"
+      },
+      {
+        "id": "ProcessText",
+        "title": "Chuyển đổi văn bản đã chọn",
+        "body": "Văn bản đã chọn: 149,99 EUR → 17.529,33 RSD (1 EUR = 116,87 RSD)"
+      },
+      {
+        "id": "PriceScanner",
+        "title": "Trình quét giá",
+        "body": "Cần quyền truy cập máy ảnh để quét giá. Hình ảnh chỉ ở trên thiết bị này và không được lưu."
+      },
+      {
+        "id": "ActualCost",
+        "title": "Chi phí thực tế",
+        "body": "So sánh điều kiện đổi tiền với tỷ giá tham chiếu của ứng dụng."
+      },
+      {
+        "id": "TravelBoard",
+        "title": "Bảng tiền tệ du lịch",
+        "body": "Nhấn vào một tiền tệ để đặt làm tiền tệ cơ sở."
+      },
+      {
+        "id": "Crypto",
+        "title": "Tiền mã hóa",
+        "body": "Tỷ giá tiền mã hóa"
+      }
+    ]
+  },
+  "zh-Hans": {
+    "title": "新功能",
+    "cards": [
+      {
+        "id": "Keyboard",
+        "title": "键盘字体与字号",
+        "body": "在设置中自定义计算器按钮：选择标准、经典、等宽或哥特字体，以及三种符号大小之一。预览会显示您的选择，偏好设置也会保存。",
+        "version": "1.613",
+        "published": false,
+        "status": "即将在 1.613 版推出"
+      },
+      {
+        "id": "ProcessText",
+        "title": "所选文本换算",
+        "body": "所选文本: 149.99 EUR → 17,529.33 RSD (1 EUR = 116.87 RSD)"
+      },
+      {
+        "id": "PriceScanner",
+        "title": "价格扫描器",
+        "body": "扫描价格需要相机权限。图像只在此设备上处理且不会保存。"
+      },
+      {
+        "id": "ActualCost",
+        "title": "实际成本",
+        "body": "将兑换条件与应用的参考汇率进行比较。"
+      },
+      {
+        "id": "TravelBoard",
+        "title": "旅行看板",
+        "body": "点按一种货币，将其设为基准货币。"
+      },
+      {
+        "id": "Crypto",
+        "title": "加密货币",
+        "body": "加密货币汇率"
+      }
+    ]
+  },
+  "zh-Hant": {
+    "title": "最新消息",
+    "cards": [
+      {
+        "id": "Keyboard",
+        "title": "鍵盤字型與字級",
+        "body": "在設定中自訂計算機按鈕：選擇標準、經典、等寬或哥德字型，以及三種符號大小之一。預覽會顯示您的選擇，偏好設定也會儲存。",
+        "version": "1.613",
+        "published": false,
+        "status": "即將在 1.613 版推出"
+      },
+      {
+        "id": "ProcessText",
+        "title": "所選文字換算",
+        "body": "所選文字: 149.99 EUR → 17,529.33 RSD (1 EUR = 116.87 RSD)"
+      },
+      {
+        "id": "PriceScanner",
+        "title": "價格掃描器",
+        "body": "掃描價格需要相機權限。影像只在此裝置上處理且不會儲存。"
+      },
+      {
+        "id": "ActualCost",
+        "title": "實際成本",
+        "body": "將兌換條件與應用程式的參考匯率進行比較。"
+      },
+      {
+        "id": "TravelBoard",
+        "title": "旅行看板",
+        "body": "點選一種貨幣，將它設為基準貨幣。"
+      },
+      {
+        "id": "Crypto",
+        "title": "加密貨幣",
+        "body": "加密貨幣匯率"
+      }
+    ]
+  },
+  "ja": {
+    "title": "新機能",
+    "cards": [
+      {
+        "id": "Keyboard",
+        "title": "キーパッドのフォントとサイズ",
+        "body": "設定で電卓ボタンをカスタマイズできます。標準、クラシック、等幅、ブラックレター（ゴシック体）のフォントと、3段階の文字サイズから選べます。プレビューで見た目を確認でき、設定は保存されます。",
+        "version": "1.613",
+        "published": false,
+        "status": "バージョン1.613で近日公開"
+      },
+      {
+        "id": "ProcessText",
+        "title": "選択したテキストの換算",
+        "body": "選択したテキスト: 149.99 EUR → 17,529.33 RSD (1 EUR = 116.87 RSD)"
+      },
+      {
+        "id": "PriceScanner",
+        "title": "価格スキャナー",
+        "body": "価格のスキャンにはカメラへのアクセスが必要です。画像は端末内で処理され、保存されません。"
+      },
+      {
+        "id": "ActualCost",
+        "title": "実際のコスト",
+        "body": "両替条件をアプリの参考レートと比較します。"
+      },
+      {
+        "id": "TravelBoard",
+        "title": "旅行ボード",
+        "body": "通貨をタップすると基準通貨になります。"
+      },
+      {
+        "id": "Crypto",
+        "title": "暗号資産",
+        "body": "暗号資産レート"
+      }
+    ]
+  },
+  "ko": {
+    "title": "새로운 기능",
+    "cards": [
+      {
+        "id": "Keyboard",
+        "title": "키패드 글꼴과 크기",
+        "body": "설정에서 계산기 버튼을 꾸며 보세요. 기본, 클래식, 고정폭, 블랙레터(고딕) 글꼴과 세 가지 기호 크기 중에서 선택할 수 있습니다. 미리보기로 선택한 모양을 확인할 수 있으며 설정은 저장됩니다.",
+        "version": "1.613",
+        "published": false,
+        "status": "버전 1.613에서 곧 제공"
+      },
+      {
+        "id": "ProcessText",
+        "title": "선택한 텍스트 변환",
+        "body": "선택한 텍스트: 149.99 EUR → 17,529.33 RSD (1 EUR = 116.87 RSD)"
+      },
+      {
+        "id": "PriceScanner",
+        "title": "가격 스캐너",
+        "body": "가격을 스캔하려면 카메라 접근 권한이 필요합니다. 이미지는 기기에만 남으며 저장되지 않습니다."
+      },
+      {
+        "id": "ActualCost",
+        "title": "실제 비용",
+        "body": "환전 조건을 앱의 기준 환율과 비교하세요."
+      },
+      {
+        "id": "TravelBoard",
+        "title": "여행 보드",
+        "body": "통화를 탭하면 기준 통화로 설정됩니다."
+      },
+      {
+        "id": "Crypto",
+        "title": "암호화폐",
+        "body": "암호화폐 환율"
+      }
+    ]
+  }
+}

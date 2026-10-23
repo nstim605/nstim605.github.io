@@ -82,6 +82,34 @@ for (const locale of manifest.locales) {
   }
 }
 
+const updateRoutes = [];
+for (const locale of manifest.locales) {
+  for (const [kind, url] of [['updates', locale.updatesUrl], ['article', locale.updateArticleUrls?.['version-1-604']]]) {
+    updateRoutes.push(url);
+    const full = fileForUrl(url);
+    let html;
+    try { html = await fs.readFile(full, 'utf8'); } catch { errors.push(`Missing ${full}`); continue; }
+    pages.set(full, html);
+    const dir = locale.dir === 'rtl' ? ' dir="rtl"' : '';
+    if (!html.includes(`<html lang="${locale.hreflang}"${dir}>`)) errors.push(`Bad update lang/dir ${full}`);
+    if (!html.includes(`rel="canonical" href="https://balkanconverter.com${url}"`)) errors.push(`Bad update canonical ${full}`);
+    for (const hreflang of expectedHreflangs) {
+      if ((html.match(new RegExp(`rel="alternate" hreflang="${hreflang.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}"`, 'g')) ?? []).length !== 1) errors.push(`Missing/duplicate update hreflang ${hreflang} in ${full}`);
+    }
+    if ((html.match(/rel="alternate" hreflang="x-default"/g) ?? []).length !== 1) errors.push(`Missing/duplicate update x-default in ${full}`);
+    if (kind === 'article') {
+      const rawJsonLd = html.match(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/)?.[1];
+      if (!rawJsonLd) errors.push(`Missing Article JSON-LD ${full}`);
+      else {
+        try {
+          const data = JSON.parse(rawJsonLd);
+          if (data['@type'] !== 'Article' || data.datePublished !== '2026-10-10' || data.inLanguage !== locale.hreflang) errors.push(`Bad Article JSON-LD ${full}`);
+        } catch { errors.push(`Invalid Article JSON-LD ${full}`); }
+      }
+    }
+  }
+}
+
 for (const [full, html] of pages) {
   const currentUrl = `https://balkanconverter.com/${path.relative(root, full).replaceAll('\\', '/').replace(/index\.html$/, '')}`;
   for (const match of html.matchAll(/\bhref="([^"]+)"/g)) {

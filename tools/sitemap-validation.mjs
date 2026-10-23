@@ -6,10 +6,10 @@ function duplicates(values) {
   return [...counts].filter(([, count]) => count > 1).map(([value]) => value).sort();
 }
 
-export function expectedSitemapUrls(manifest, origin = defaultOrigin, stories = [], { includeNews = true } = {}) {
+export function expectedSitemapUrls(manifest, origin = defaultOrigin, stories = [], { includeNews = true, additionalRoutes = [] } = {}) {
   if (!Array.isArray(manifest?.locales)) throw new TypeError('Locale manifest must contain a locales array');
   const localeUrls = manifest.locales.flatMap(locale => {
-    const routes = [locale.url, locale.privacyUrl, locale.linksUrl, ...Object.values(locale.toolUrls ?? {}), includeNews ? locale.newsUrl : null].filter(Boolean);
+    const routes = [locale.url, locale.privacyUrl, locale.linksUrl, ...Object.values(locale.toolUrls ?? {}), locale.updatesUrl, ...Object.values(locale.updateArticleUrls ?? {}), includeNews ? locale.newsUrl : null].filter(Boolean);
     if (routes.some(route => typeof route !== 'string' || !route.startsWith('/'))) {
       throw new TypeError(`Locale ${locale.webLocale ?? locale.androidLocale ?? 'unknown'} contains an invalid route`);
     }
@@ -19,7 +19,11 @@ export function expectedSitemapUrls(manifest, origin = defaultOrigin, stories = 
   const storyUrls = (includeNews ? stories : [])
     .filter(story => story?.status === 'published' && story?.indexable === true)
     .flatMap(story => newsLocales.map(locale => new URL(`${locale.newsUrl}${story.slug}/`, origin).href));
-  return [...localeUrls, ...storyUrls];
+  const additionalUrls = additionalRoutes.map(route => {
+    if (typeof route !== 'string' || !route.startsWith('/')) throw new TypeError(`Invalid additional sitemap route ${route}`);
+    return new URL(route, origin).href;
+  });
+  return [...localeUrls, ...storyUrls, ...additionalUrls];
 }
 
 export function validateSitemapUrlSet(sitemap, manifest, origin = defaultOrigin, stories = [], options = {}) {

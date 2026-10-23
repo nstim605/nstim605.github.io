@@ -28,7 +28,7 @@ function fileForUrl(url) {
     : path.join(root, ...pathname.slice(1).split('/'));
 }
 
-test('homepage replaces the large tools block with a compact header menu', async () => {
+test('homepage keeps tool routes but hides their header menu', async () => {
   const [home, styles, script] = await Promise.all([
     fs.readFile(path.join(root, 'index.html'), 'utf8'),
     fs.readFile(path.join(root, 'styles.css'), 'utf8'),
@@ -38,6 +38,7 @@ test('homepage replaces the large tools block with a compact header menu', async
   assert.doesNotMatch(home, /tool-promo|tool-promo-actions/);
   assert.match(home, /<details class="tools-menu">\s*<summary>Tools<\/summary>/);
   assert.deepEqual(linksIn(home, 'tools-menu-panel'), expectedHrefs);
+  assert.match(styles, /\.site-header \.tools-menu\s*\{[^}]*display:\s*none;/);
   assert.match(styles, /\.tools-menu-panel\s*\{[^}]*position:\s*absolute;/);
   assert.match(styles, /@media \(max-width:\s*980px\)[\s\S]*\.tools-menu-panel\s*\{[^}]*position:\s*fixed;/);
   assert.match(script, /event\.key !== 'Escape'/);
@@ -50,7 +51,7 @@ test('mobile header exposes the primary navigation without horizontal button cro
     fs.readFile(path.join(root, 'styles.css'), 'utf8'),
     fs.readFile(path.join(root, 'script.js'), 'utf8')
   ]);
-  assert.deepEqual(linksIn(home, 'mobile-nav-menu-panel'), ['#features', '#screenshots', 'privacy-policy.html']);
+  assert.deepEqual(linksIn(home, 'mobile-nav-menu-panel'), ['#features', '#screenshots', '/updates/', 'privacy-policy.html']);
   assert.match(home, /<details class="mobile-nav-menu">\s*<summary aria-label="Main navigation"><span aria-hidden="true">☰<\/span><\/summary>/);
   assert.match(styles, /\.mobile-nav-menu\s*\{[^}]*display:\s*none;/);
   assert.match(styles, /@media \(max-width:\s*1230px\)[\s\S]*?\.mobile-nav-menu\s*\{[^}]*display:\s*block;/);
@@ -101,6 +102,7 @@ test('every localized tool page uses the same locale-level header actions', asyn
     assert.deepEqual(linksIn(home, 'mobile-nav-menu-panel'), [
       '#features',
       '#screenshots',
+      locale.updatesUrl,
       path.basename(locale.privacyUrl)
     ], `${locale.webLocale}: mobile homepage navigation`);
 

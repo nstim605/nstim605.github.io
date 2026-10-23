@@ -96,6 +96,8 @@ button, a { -webkit-tap-highlight-color: transparent; }
 .mobile-nav-menu-panel a { display: block; padding: 10px 11px; border-radius: 10px; color: var(--muted); font-size: .92rem; font-weight: 650; text-decoration: none; }
 .mobile-nav-menu-panel a:hover, .mobile-nav-menu-panel a:focus-visible { background: var(--primary-soft); color: var(--primary); }
 .tools-menu { position: relative; }
+/* Keep tool pages and their routes available; only hide their header entry. */
+.site-header .tools-menu { display: none; }
 .tools-menu summary {
   min-height: 44px;
   display: flex;
@@ -216,6 +218,37 @@ h3 { margin-bottom: 10px; font-size: min(1.2rem, 9cqi); letter-spacing: -.02em; 
 .text-link { color: var(--primary); font-weight: 800; text-decoration: none; }
 .quick-points { display: flex; gap: 12px 22px; flex-wrap: wrap; padding: 0; margin: 28px 0 0; list-style: none; color: var(--muted); font-size: .92rem; font-weight: 650; }
 .quick-points li::before { content: "✓"; margin-inline-end: 7px; color: var(--success); font-weight: 900; }
+
+.updates-main { padding-block: clamp(64px, 9vw, 108px); min-height: 72vh; }
+.updates-hero { max-width: 800px; margin-bottom: clamp(56px, 8vw, 96px); }
+.updates-hero h1, .release-article h1 { max-width: 900px; }
+.update-card {
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+  gap: 28px;
+  padding: clamp(24px, 5vw, 44px);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-xl);
+  background: var(--surface);
+  box-shadow: var(--shadow-small);
+}
+.update-card time, .release-article time { color: var(--muted); font-weight: 700; }
+.update-card h3 { margin-top: 12px; font-size: clamp(1.5rem, 3vw, 2.25rem); }
+.update-card p { max-width: 650px; margin-bottom: 0; color: var(--muted); }
+.update-card .text-link { flex: 0 0 auto; }
+.release-article { max-width: 900px; }
+.release-article > .eyebrow { margin-top: 48px; }
+.release-article .policy-card { margin-block: 36px; }
+.app-updates-grid { display: grid; gap: 20px; max-width: 900px; }
+.app-update-card { padding: clamp(22px, 4vw, 36px); border: 1px solid var(--border); border-radius: 20px; background: var(--surface); }
+.app-update-card h2 { font-size: clamp(1.3rem, 3vw, 1.65rem); margin: 0 0 12px; overflow-wrap: anywhere; }
+.app-update-card p { margin: 0; color: var(--muted); line-height: 1.7; }
+.app-update-card .upcoming-release { color: var(--primary); margin-bottom: 12px; }
+.updates-archive { margin-block: 32px 0; }
+@media (max-width: 680px) {
+  .update-card { align-items: start; flex-direction: column; }
+}
 
 .hero-visual { position: relative; min-height: 560px; display: grid; place-items: center; }
 .hero-visual::before {

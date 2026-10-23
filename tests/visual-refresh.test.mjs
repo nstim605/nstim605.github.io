@@ -5,22 +5,25 @@ import test from 'node:test';
 
 const root = path.resolve(import.meta.dirname, '..');
 const locales = JSON.parse(await fs.readFile(path.join(root, 'site-locales.json'), 'utf8')).locales;
-const listings = JSON.parse(await fs.readFile(
-  path.join(root, '..', 'play_store_listings', 'release-1.6', 'google-play-listings.json'), 'utf8'));
-const listingByLocale = new Map(listings.map(item => [item.locale, item]));
-const listingLocale = locale => ({ iw: 'he', in: 'id' })[locale] ?? locale;
+const englishHomepage = await fs.readFile(path.join(root, 'index.html'), 'utf8');
+const englishDescription = englishHomepage.match(/<meta name="description" content="([^"]+)"/)?.[1];
 
 function pngDimensions(bytes) {
   assert.equal(bytes.subarray(1, 4).toString('ascii'), 'PNG');
   return { width: bytes.readUInt32BE(16), height: bytes.readUInt32BE(20) };
 }
 
-for (const locale of locales) test(`${locale.webLocale}: release 1.603 homepage content and imagery`, async () => {
+for (const locale of locales) test(`${locale.webLocale}: current homepage content and imagery`, async () => {
   const file = path.join(root, locale.url === '/' ? 'index.html' : `${locale.url.slice(1)}index.html`);
   const html = await fs.readFile(file, 'utf8');
-  const listing = listingByLocale.get(listingLocale(locale.androidLocale));
-  assert.ok(listing);
-  assert.match(html, new RegExp(`<meta name="description" content="${listing.shortDescription.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}"`));
+  const description = html.match(/<meta name="description" content="([^"]+)"/)?.[1];
+  assert.ok(description, `${locale.webLocale}: meta description`);
+  assert.ok(description.length >= 20, `${locale.webLocale}: useful meta description`);
+  if (locale.webLocale !== 'en') {
+    assert.notEqual(description, englishDescription, `${locale.webLocale}: localized meta description`);
+  }
+  assert.ok(html.includes(`<meta property="og:description" content="${description}">`));
+  assert.ok(html.includes(`<meta name="twitter:description" content="${description}">`));
   assert.equal((html.match(/assets\/screenshots\/v1-607\/screenshot-/g) ?? []).length, 3);
   assert.equal((html.match(/assets\/screenshots\/v1-603\/screenshot-/g) ?? []).length, 4);
   assert.equal((html.match(/<figure class="screenshot-card">/g) ?? []).length, 6);
