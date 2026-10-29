@@ -1,24 +1,8 @@
 import fs from 'node:fs';
 import path from 'node:path';
 
-const upcoming = {
-  en: 'Coming in 1.613', sr: 'Ускоро у верзији 1.613', bs: 'Uskoro u verziji 1.613',
-  hr: 'Uskoro u verziji 1.613', sq: 'Së shpejti në versionin 1.613', mk: 'Наскоро во верзијата 1.613',
-  bg: 'Скоро във версия 1.613', ro: 'În curând în versiunea 1.613', hu: 'Hamarosan az 1.613-as verzióban',
-  pl: 'Wkrótce w wersji 1.613', cs: 'Již brzy ve verzi 1.613', sk: 'Čoskoro vo verzii 1.613',
-  sl: 'Kmalu v različici 1.613', de: 'Demnächst in Version 1.613', fr: 'Bientôt dans la version 1.613',
-  it: 'In arrivo nella versione 1.613', 'es-ES': 'Próximamente en la versión 1.613',
-  'es-419': 'Próximamente en la versión 1.613', 'pt-BR': 'Em breve na versão 1.613',
-  'pt-PT': 'Em breve na versão 1.613', nl: 'Binnenkort in versie 1.613', da: 'Kommer i version 1.613',
-  sv: 'Kommer i version 1.613', nb: 'Kommer i versjon 1.613', fi: 'Tulossa versioon 1.613',
-  is: 'Væntanlegt í útgáfu 1.613', el: 'Σύντομα στην έκδοση 1.613', tr: 'Yakında 1.613 sürümünde',
-  ru: 'Скоро в версии 1.613', uk: 'Незабаром у версії 1.613', ar: 'قريبًا في الإصدار 1.613',
-  he: 'בקרוב בגרסה 1.613', fa: 'به‌زودی در نسخهٔ 1.613', ur: 'جلد ہی ورژن 1.613 میں',
-  hi: 'संस्करण 1.613 में जल्द आ रहा है', bn: 'শীঘ্রই সংস্করণ 1.613-এ আসছে',
-  id: 'Segera hadir di versi 1.613', ms: 'Akan datang dalam versi 1.613', th: 'เร็วๆ นี้ในเวอร์ชัน 1.613',
-  vi: 'Sắp có trong phiên bản 1.613', 'zh-Hans': '即将在 1.613 版推出', 'zh-Hant': '即將在 1.613 版推出',
-  ja: 'バージョン1.613で近日公開', ko: '버전 1.613에서 곧 제공'
-};
+const currentRelease = {version: '1.614', published: true};
+const currentReleaseFeatures = ['ShoppingCart', 'Themes', 'RewardedAds', 'PriceConversion', 'Navigation'];
 
 const features = [
   ['Keyboard', 'updates_keypad_title', 'updates_keypad_body'],
@@ -59,18 +43,27 @@ export function loadAppNews(root, manifest) {
       if (!value) throw new Error(`Missing ${key} in ${directory}`);
       return value;
     };
-    const status = upcoming[locale.hreflang];
-    if (!status) throw new Error(`Missing upcoming release status for ${locale.hreflang}`);
+    const releaseFile = path.join(androidRoot, 'app', 'src', 'google', 'res', path.basename(directory), 'updates_release.xml');
+    const releaseXml = fs.readFileSync(releaseFile, 'utf8');
+    const releaseArray = releaseXml.match(/<string-array\b[^>]*\bname="updates_current_release"[^>]*>([\s\S]*?)<\/string-array>/)?.[1];
+    if (!releaseArray) throw new Error(`Missing current release array in ${releaseFile}`);
+    const releaseValues = [...releaseArray.matchAll(/<item\b[^>]*>([\s\S]*?)<\/item>/g)].map(match => androidText(match[1]));
+    if (releaseValues.length !== currentReleaseFeatures.length * 2 || releaseValues.some(value => !value)) {
+      throw new Error(`Expected five title/body pairs in ${releaseFile}`);
+    }
+    const currentCards = currentReleaseFeatures.map((id, index) => ({
+      id, title: releaseValues[index * 2], body: releaseValues[index * 2 + 1], ...currentRelease
+    }));
     const exampleNumber = new Intl.NumberFormat(locale.hreflang, {minimumFractionDigits: 2, maximumFractionDigits: 2});
     // The app illustrates this card with the same source, rate, and result.
     const selectedTextExample = `${required('process_text_result_title')}: ${exampleNumber.format(149.99)} EUR → ${exampleNumber.format(149.99 * 116.87)} RSD (1 EUR = ${exampleNumber.format(116.87)} RSD)`;
     result[locale.hreflang] = {
       title: required('menu_whats_new'),
-      cards: features.map(([id, title, body]) => ({
+      cards: [...currentCards, ...features.map(([id, title, body]) => ({
         id, title: required(title), ...(body ? {body: required(body)} : {}),
         ...(id === 'ProcessText' ? {body: selectedTextExample} : {}),
-        ...(id === 'Keyboard' ? {version: '1.613', published: false, status} : {})
-      }))
+        ...(id === 'Keyboard' ? {version: '1.613', published: true} : {})
+      }))]
     };
   }
   return result;
@@ -78,7 +71,7 @@ export function loadAppNews(root, manifest) {
 
 export function renderNewsCards(news) {
   return news.cards.map(card => `      <article class="app-update-card" data-app-feature="${card.id}">
-${card.status ? `        <p class="eyebrow upcoming-release">${escapeHtml(card.status)}</p>\n` : ''}        <h2>${escapeHtml(card.title)}</h2>
+${card.version ? `        <p class="eyebrow upcoming-release">${escapeHtml(card.version)}</p>\n` : ''}        <h2>${escapeHtml(card.title)}</h2>
 ${card.body ? `        <p>${escapeHtml(card.body)}</p>\n` : ''}      </article>`).join('\n');
 }
 

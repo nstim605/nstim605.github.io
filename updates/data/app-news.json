@@ -3,12 +3,46 @@
     "title": "What’s New",
     "cards": [
       {
+        "id": "ShoppingCart",
+        "title": "Shopping cart",
+        "body": "Scan prices or add items manually. See each item’s price and the total in your chosen currency. Five free additions per day, then 1 BP per new item.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "Themes",
+        "title": "24 color themes",
+        "body": "Choose a palette from the new grid picker. Five themes are free; unlock each of the other 19 for 60 BP forever. Previously unlocked themes stay available.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "RewardedAds",
+        "title": "BALCO Points and ads",
+        "body": "Rewarded ads now load when you open the relevant section and open after one tap as soon as they are ready. Subscription status is clearer, with an option to retry verification.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "PriceConversion",
+        "title": "Clearer price conversion",
+        "body": "Fixed Bitcoin conversion, made selected amounts easier to distinguish, and improved price labels in the scanner. Text selected in other apps is converted only after access is confirmed.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "Navigation",
+        "title": "Easier navigation",
+        "body": "Shopping cart is below conversion history in the menu. Actual Cost is now called Exchange rate comparison. What’s New is inside About.",
+        "version": "1.614",
+        "published": true
+      },
+      {
         "id": "Keyboard",
         "title": "Keyboard fonts and sizes",
         "body": "Customize the calculator buttons in Settings: choose a standard, classic, monospace or Gothic font and one of three symbol sizes. A preview shows your choice, and your preferences are saved.",
         "version": "1.613",
-        "published": false,
-        "status": "Coming in 1.613"
+        "published": true
       },
       {
         "id": "ProcessText",
@@ -22,7 +56,7 @@
       },
       {
         "id": "ActualCost",
-        "title": "Actual cost",
+        "title": "Exchange rate comparison",
         "body": "Compare the offer with the reference rate."
       },
       {
@@ -41,12 +75,46 @@
     "title": "Шта је ново",
     "cards": [
       {
+        "id": "ShoppingCart",
+        "title": "Корпа за куповину",
+        "body": "Скенирајте цене или ручно додајте артикле. Погледајте цену сваког артикла и укупан износ у изабраној валути. Пет бесплатних додавања дневно, а затим 1 BP по новом артиклу.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "Themes",
+        "title": "24 теме у боји",
+        "body": "Изаберите палету из новог мрежног приказа. Пет тема је бесплатно; сваку од преосталих 19 откључајте заувек за 60 BP. Раније откључане теме остају доступне.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "RewardedAds",
+        "title": "BALCO Points и огласи",
+        "body": "Огласи са наградом сада се учитавају када отворите одговарајући одељак и покрећу се након једног додира чим буду спремни. Статус претплате је јаснији, уз могућност поновне провере.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "PriceConversion",
+        "title": "Јасније прерачунавање цена",
+        "body": "Исправљено је прерачунавање биткоина, олакшано разликовање изабраних износа и побољшане ознаке цена у скенеру. Текст изабран у другим апликацијама прерачунава се тек након потврде приступа.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "Navigation",
+        "title": "Лакша навигација",
+        "body": "Корпа за куповину је у менију испод историје конверзија. Стварни трошак сада се зове Поређење курсева. Шта је ново налази се у одељку О апликацији.",
+        "version": "1.614",
+        "published": true
+      },
+      {
         "id": "Keyboard",
         "title": "Фонтови и величине тастатуре",
         "body": "Прилагодите тастере калкулатора у подешавањима: изаберите стандардни, класични, фонт једнаке ширине или готички фонт и једну од три величине знакова. Преглед приказује ваш избор, а подешавања се чувају.",
         "version": "1.613",
-        "published": false,
-        "status": "Ускоро у верзији 1.613"
+        "published": true
       },
       {
         "id": "ProcessText",
@@ -60,7 +128,7 @@
       },
       {
         "id": "ActualCost",
-        "title": "Стварни трошак",
+        "title": "Поређење курсева",
         "body": "Упоредите услове размене са референтним курсом апликације."
       },
       {
@@ -79,12 +147,46 @@
     "title": "Šta je novo",
     "cards": [
       {
+        "id": "ShoppingCart",
+        "title": "Korpa za kupovinu",
+        "body": "Skenirajte cijene ili ručno dodajte artikle. Pogledajte cijenu svakog artikla i ukupan iznos u odabranoj valuti. Pet besplatnih dodavanja dnevno, zatim 1 BP po novom artiklu.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "Themes",
+        "title": "24 teme u boji",
+        "body": "Odaberite paletu iz novog mrežnog prikaza. Pet tema je besplatno; svaku od preostalih 19 otključajte zauvijek za 60 BP. Prethodno otključane teme ostaju dostupne.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "RewardedAds",
+        "title": "BALCO Points i oglasi",
+        "body": "Oglasi s nagradom sada se učitavaju kada otvorite odgovarajući odjeljak i pokreću se nakon jednog dodira čim budu spremni. Status pretplate je jasniji, uz mogućnost ponovne provjere.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "PriceConversion",
+        "title": "Jasnije preračunavanje cijena",
+        "body": "Ispravljeno je preračunavanje bitcoina, olakšano razlikovanje odabranih iznosa i poboljšane oznake cijena u skeneru. Tekst odabran u drugim aplikacijama preračunava se tek nakon potvrde pristupa.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "Navigation",
+        "title": "Lakša navigacija",
+        "body": "Korpa za kupovinu je u meniju ispod historije konverzija. Stvarni trošak sada se zove Poređenje kurseva. Šta je novo nalazi se u odjeljku O ovoj aplikaciji.",
+        "version": "1.614",
+        "published": true
+      },
+      {
         "id": "Keyboard",
         "title": "Fontovi i veličine tastature",
         "body": "Prilagodite tipke kalkulatora u postavkama: izaberite standardni, klasični, font jednake širine ili gotički font i jednu od tri veličine znakova. Pregled prikazuje vaš izbor, a postavke se čuvaju.",
         "version": "1.613",
-        "published": false,
-        "status": "Uskoro u verziji 1.613"
+        "published": true
       },
       {
         "id": "ProcessText",
@@ -98,7 +200,7 @@
       },
       {
         "id": "ActualCost",
-        "title": "Stvarni trošak",
+        "title": "Poređenje kurseva",
         "body": "Uporedite uslove razmjene s referentnim kursom aplikacije."
       },
       {
@@ -117,12 +219,46 @@
     "title": "Što je novo",
     "cards": [
       {
+        "id": "ShoppingCart",
+        "title": "Košarica za kupnju",
+        "body": "Skenirajte cijene ili ručno dodajte artikle. Pogledajte cijenu svakog artikla i ukupan iznos u odabranoj valuti. Pet besplatnih dodavanja dnevno, zatim 1 BP po novom artiklu.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "Themes",
+        "title": "24 teme u boji",
+        "body": "Odaberite paletu u novom mrežnom prikazu. Pet tema je besplatno; svaku od preostalih 19 otključajte zauvijek za 60 BP. Prethodno otključane teme ostaju dostupne.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "RewardedAds",
+        "title": "BALCO Points i oglasi",
+        "body": "Oglasi s nagradom sada se učitavaju kad otvorite odgovarajući odjeljak i pokreću se nakon jednog dodira čim budu spremni. Status pretplate je jasniji, uz mogućnost ponovne provjere.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "PriceConversion",
+        "title": "Jasniji preračun cijena",
+        "body": "Ispravljen je preračun bitcoina, olakšano razlikovanje odabranih iznosa i poboljšane oznake cijena u skeneru. Tekst odabran u drugim aplikacijama preračunava se tek nakon potvrde pristupa.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "Navigation",
+        "title": "Lakša navigacija",
+        "body": "Košarica za kupnju nalazi se u izborniku ispod povijesti konverzija. Stvarni trošak sada se zove Usporedba tečajeva. Što je novo nalazi se u odjeljku O ovoj aplikaciji.",
+        "version": "1.614",
+        "published": true
+      },
+      {
         "id": "Keyboard",
         "title": "Fontovi i veličine tipkovnice",
         "body": "Prilagodite tipke kalkulatora u postavkama: odaberite standardni, klasični, font jednake širine ili gotički font i jednu od tri veličine znakova. Pregled prikazuje vaš odabir, a postavke se spremaju.",
         "version": "1.613",
-        "published": false,
-        "status": "Uskoro u verziji 1.613"
+        "published": true
       },
       {
         "id": "ProcessText",
@@ -136,7 +272,7 @@
       },
       {
         "id": "ActualCost",
-        "title": "Stvarni trošak",
+        "title": "Usporedba tečajeva",
         "body": "Usporedite uvjete zamjene s referentnim tečajem aplikacije."
       },
       {
@@ -155,12 +291,46 @@
     "title": "Të rejat",
     "cards": [
       {
+        "id": "ShoppingCart",
+        "title": "Shporta e blerjeve",
+        "body": "Skanoni çmimet ose shtoni artikuj manualisht. Shihni çmimin e çdo artikulli dhe totalin në monedhën e zgjedhur. Pesë shtime falas në ditë, pastaj 1 BP për çdo artikull të ri.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "Themes",
+        "title": "24 tema me ngjyra",
+        "body": "Zgjidhni një paletë nga përzgjedhësi i ri me kuadrate. Pesë tema janë falas; zhbllokoni përgjithmonë secilën nga 19 temat e tjera për 60 BP. Temat e zhbllokuara më parë mbeten të disponueshme.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "RewardedAds",
+        "title": "BALCO Points dhe reklamat",
+        "body": "Reklamat me shpërblim tani ngarkohen kur hapni seksionin përkatës dhe hapen pas një prekjeje sapo të jenë gati. Statusi i abonimit është më i qartë, me mundësinë për të riprovuar verifikimin.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "PriceConversion",
+        "title": "Konvertim më i qartë i çmimeve",
+        "body": "U korrigjua konvertimi i Bitcoin, shumat e zgjedhura dallohen më lehtë dhe etiketat e çmimeve në skaner u përmirësuan. Teksti i zgjedhur në aplikacione të tjera konvertohet vetëm pasi të konfirmohet qasja.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "Navigation",
+        "title": "Navigim më i lehtë",
+        "body": "Shporta e blerjeve ndodhet poshtë historikut të konvertimeve në menu. Kostoja reale tani quhet Krahasimi i kurseve të këmbimit. Të rejat ndodhen brenda seksionit Rreth këtij aplikacioni.",
+        "version": "1.614",
+        "published": true
+      },
+      {
         "id": "Keyboard",
         "title": "Fontet dhe madhësitë e tastierës",
         "body": "Personalizoni butonat e kalkulatorit te Cilësimet: zgjidhni fontin standard, klasik, me gjerësi fikse ose gotik dhe një nga tri madhësitë e simboleve. Pamja paraprake tregon zgjedhjen tuaj dhe preferencat ruhen.",
         "version": "1.613",
-        "published": false,
-        "status": "Së shpejti në versionin 1.613"
+        "published": true
       },
       {
         "id": "ProcessText",
@@ -174,7 +344,7 @@
       },
       {
         "id": "ActualCost",
-        "title": "Kostoja reale",
+        "title": "Krahasimi i kurseve të këmbimit",
         "body": "Krahasoni kushtet e këmbimit me kursin e referencës së aplikacionit."
       },
       {
@@ -193,12 +363,46 @@
     "title": "Што има ново",
     "cards": [
       {
+        "id": "ShoppingCart",
+        "title": "Кошничка за купување",
+        "body": "Скенирајте цени или додавајте артикли рачно. Погледнете ја цената на секој артикл и вкупниот износ во избраната валута. Пет бесплатни додавања дневно, потоа 1 BP по нов артикл.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "Themes",
+        "title": "24 теми во боја",
+        "body": "Изберете палета од новиот мрежен приказ. Пет теми се бесплатни; отклучете ја секоја од останатите 19 засекогаш за 60 BP. Претходно отклучените теми остануваат достапни.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "RewardedAds",
+        "title": "BALCO Points и реклами",
+        "body": "Рекламите со награда сега се вчитуваат кога ќе го отворите соодветниот дел и се отвораат по еден допир штом бидат подготвени. Статусот на претплатата е појасен, со можност за повторна проверка.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "PriceConversion",
+        "title": "Појасно пресметување на цените",
+        "body": "Поправена е конверзијата на биткоин, избраните износи полесно се разликуваат и подобрени се ознаките за цени во скенерот. Текстот избран во други апликации се конвертира само откако ќе се потврди пристапот.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "Navigation",
+        "title": "Полесна навигација",
+        "body": "Кошничка за купување е под историјата на конверзии во менито. Вистински трошок сега се вика Споредба на курсеви. Што има ново се наоѓа во За оваа апликација.",
+        "version": "1.614",
+        "published": true
+      },
+      {
         "id": "Keyboard",
         "title": "Фонтови и големини на тастатурата",
         "body": "Приспособете ги копчињата на калкулаторот во поставките: изберете стандарден, класичен, фонт со еднаква ширина или готски фонт и една од трите големини на знаците. Прегледот го прикажува вашиот избор, а поставките се зачувуваат.",
         "version": "1.613",
-        "published": false,
-        "status": "Наскоро во верзијата 1.613"
+        "published": true
       },
       {
         "id": "ProcessText",
@@ -212,7 +416,7 @@
       },
       {
         "id": "ActualCost",
-        "title": "Вистински трошок",
+        "title": "Споредба на курсеви",
         "body": "Споредете ги условите за размена со референтниот курс на апликацијата."
       },
       {
@@ -231,12 +435,46 @@
     "title": "Какво е новото",
     "cards": [
       {
+        "id": "ShoppingCart",
+        "title": "Кошница за пазаруване",
+        "body": "Сканирайте цени или добавяйте артикули ръчно. Вижте цената на всеки артикул и общата сума в избраната валута. Пет безплатни добавяния на ден, след това 1 BP за всеки нов артикул.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "Themes",
+        "title": "24 цветови теми",
+        "body": "Изберете палитра от новата решетка. Пет теми са безплатни; отключете всяка от останалите 19 завинаги срещу 60 BP. Вече отключените теми остават достъпни.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "RewardedAds",
+        "title": "BALCO Points и реклами",
+        "body": "Рекламите с награда вече се зареждат при отваряне на съответния раздел и се показват след едно докосване, щом са готови. Статусът на абонамента е по-ясен, с възможност за повторна проверка.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "PriceConversion",
+        "title": "По-ясно преобразуване на цени",
+        "body": "Поправено е преобразуването на биткойн, избраните суми се различават по-лесно и етикетите с цени в скенера са подобрени. Текстът, избран в други приложения, се преобразува само след потвърждаване на достъпа.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "Navigation",
+        "title": "По-лесна навигация",
+        "body": "Кошница за пазаруване е под историята на преобразуванията в менюто. Действителна цена вече се нарича Сравнение на валутни курсове. Какво е новото е в раздела Относно това приложение.",
+        "version": "1.614",
+        "published": true
+      },
+      {
         "id": "Keyboard",
         "title": "Шрифтове и размери на клавиатурата",
         "body": "Персонализирайте бутоните на калкулатора в настройките: изберете стандартен, класически, моноширинен или готически шрифт и един от трите размера на символите. Визуализацията показва избора ви, а предпочитанията се запазват.",
         "version": "1.613",
-        "published": false,
-        "status": "Скоро във версия 1.613"
+        "published": true
       },
       {
         "id": "ProcessText",
@@ -250,7 +488,7 @@
       },
       {
         "id": "ActualCost",
-        "title": "Реална цена",
+        "title": "Сравнение на валутни курсове",
         "body": "Сравнете условията за обмен с референтния курс на приложението."
       },
       {
@@ -269,12 +507,46 @@
     "title": "Noutăți",
     "cards": [
       {
+        "id": "ShoppingCart",
+        "title": "Coș de cumpărături",
+        "body": "Scanează prețuri sau adaugă articole manual. Vezi prețul fiecărui articol și totalul în moneda aleasă. Cinci adăugări gratuite pe zi, apoi 1 BP pentru fiecare articol nou.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "Themes",
+        "title": "24 de teme de culori",
+        "body": "Alege o paletă din noua grilă de selecție. Cinci teme sunt gratuite; deblochează fiecare dintre celelalte 19 pentru totdeauna cu 60 BP. Temele deblocate anterior rămân disponibile.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "RewardedAds",
+        "title": "BALCO Points și reclame",
+        "body": "Reclamele cu recompensă se încarcă acum când deschizi secțiunea relevantă și pornesc după o singură atingere imediat ce sunt gata. Starea abonamentului este mai clară, cu opțiunea de a reîncerca verificarea.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "PriceConversion",
+        "title": "Conversii de prețuri mai clare",
+        "body": "Am corectat conversia Bitcoin, am făcut sumele selectate mai ușor de deosebit și am îmbunătățit etichetele de preț din scaner. Textul selectat în alte aplicații este convertit doar după confirmarea accesului.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "Navigation",
+        "title": "Navigare mai ușoară",
+        "body": "Coș de cumpărături se află sub istoricul conversiilor în meniu. Cost real se numește acum Compararea cursurilor valutare. Noutăți se află în Despre această aplicație.",
+        "version": "1.614",
+        "published": true
+      },
+      {
         "id": "Keyboard",
         "title": "Fonturi și dimensiuni ale tastaturii",
         "body": "Personalizați butoanele calculatorului în Setări: alegeți un font standard, clasic, monospațiat sau gotic și una dintre cele trei dimensiuni ale simbolurilor. Previzualizarea arată alegerea făcută, iar preferințele sunt salvate.",
         "version": "1.613",
-        "published": false,
-        "status": "În curând în versiunea 1.613"
+        "published": true
       },
       {
         "id": "ProcessText",
@@ -288,7 +560,7 @@
       },
       {
         "id": "ActualCost",
-        "title": "Costul real",
+        "title": "Compararea cursurilor valutare",
         "body": "Comparați condițiile de schimb cu cursul de referință al aplicației."
       },
       {
@@ -307,12 +579,46 @@
     "title": "Újdonságok",
     "cards": [
       {
+        "id": "ShoppingCart",
+        "title": "Bevásárlókosár",
+        "body": "Olvassa be az árakat, vagy adja hozzá a tételeket kézzel. Minden tétel ára és a végösszeg is megjelenik a választott pénznemben. Naponta öt ingyenes hozzáadás, utána 1 BP minden új tételért.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "Themes",
+        "title": "24 színtéma",
+        "body": "Válasszon palettát az új, rácsos választóból. Öt téma ingyenes; a további 19 mindegyike 60 BP-ért örökre feloldható. A korábban feloldott témák elérhetők maradnak.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "RewardedAds",
+        "title": "BALCO Points és hirdetések",
+        "body": "A jutalmazott hirdetések az adott rész megnyitásakor töltődnek be, és egy koppintás után elindulnak, amint készen állnak. Az előfizetés állapota egyértelműbb, és az ellenőrzés újrapróbálható.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "PriceConversion",
+        "title": "Áttekinthetőbb átváltás",
+        "body": "Javítottuk a Bitcoin átváltását, könnyebben megkülönböztethetők a kijelölt összegek, és jobban olvashatók a beolvasó árcímkéi. A más alkalmazásokban kijelölt szöveg átváltása csak a hozzáférés megerősítése után történik meg.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "Navigation",
+        "title": "Egyszerűbb navigáció",
+        "body": "A Bevásárlókosár az átváltási előzmények alatt található a menüben. A Tényleges költség új neve Árfolyamok összehasonlítása. Az Újdonságok az Erről az alkalmazásról részben található.",
+        "version": "1.614",
+        "published": true
+      },
+      {
         "id": "Keyboard",
         "title": "A billentyűzet betűtípusa és mérete",
         "body": "Szabja testre a számológép gombjait a Beállításokban: válasszon normál, klasszikus, rögzített szélességű vagy gótikus betűtípust és a három jelméret egyikét. Az előnézet megmutatja a választását, és a beállítások mentésre kerülnek.",
         "version": "1.613",
-        "published": false,
-        "status": "Hamarosan az 1.613-as verzióban"
+        "published": true
       },
       {
         "id": "ProcessText",
@@ -326,7 +632,7 @@
       },
       {
         "id": "ActualCost",
-        "title": "Tényleges költség",
+        "title": "Árfolyamok összehasonlítása",
         "body": "Hasonlítsa össze az átváltás feltételeit az alkalmazás referenciaárfolyamával."
       },
       {
@@ -345,12 +651,46 @@
     "title": "Co nowego",
     "cards": [
       {
+        "id": "ShoppingCart",
+        "title": "Koszyk zakupów",
+        "body": "Skanuj ceny lub dodawaj produkty ręcznie. Zobacz cenę każdego produktu i sumę w wybranej walucie. Pięć bezpłatnych dodań dziennie, potem 1 BP za każdy nowy produkt.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "Themes",
+        "title": "24 motywy kolorystyczne",
+        "body": "Wybierz paletę w nowym widoku siatki. Pięć motywów jest bezpłatnych; każdy z pozostałych 19 odblokujesz na zawsze za 60 BP. Wcześniej odblokowane motywy pozostają dostępne.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "RewardedAds",
+        "title": "BALCO Points i reklamy",
+        "body": "Reklamy z nagrodą ładują się teraz po otwarciu odpowiedniej sekcji i uruchamiają po jednym dotknięciu, gdy tylko będą gotowe. Stan subskrypcji jest czytelniejszy, z możliwością ponowienia weryfikacji.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "PriceConversion",
+        "title": "Czytelniejsze przeliczanie cen",
+        "body": "Poprawiliśmy przeliczanie bitcoina, ułatwiliśmy rozróżnianie zaznaczonych kwot i ulepszyliśmy etykiety cen w skanerze. Tekst zaznaczony w innych aplikacjach jest przeliczany dopiero po potwierdzeniu dostępu.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "Navigation",
+        "title": "Łatwiejsza nawigacja",
+        "body": "Koszyk zakupów znajduje się w menu pod historią przeliczeń. Rzeczywisty koszt nosi teraz nazwę Porównanie kursów walut. Co nowego znajduje się w sekcji O tej aplikacji.",
+        "version": "1.614",
+        "published": true
+      },
+      {
         "id": "Keyboard",
         "title": "Czcionki i rozmiary klawiatury",
         "body": "Dostosuj przyciski kalkulatora w Ustawieniach: wybierz czcionkę standardową, klasyczną, o stałej szerokości lub gotycką oraz jeden z trzech rozmiarów znaków. Podgląd pokazuje Twój wybór, a ustawienia są zapisywane.",
         "version": "1.613",
-        "published": false,
-        "status": "Wkrótce w wersji 1.613"
+        "published": true
       },
       {
         "id": "ProcessText",
@@ -364,7 +704,7 @@
       },
       {
         "id": "ActualCost",
-        "title": "Rzeczywisty koszt",
+        "title": "Porównanie kursów walut",
         "body": "Porównaj warunki wymiany z kursem referencyjnym aplikacji."
       },
       {
@@ -383,12 +723,46 @@
     "title": "Co je nového",
     "cards": [
       {
+        "id": "ShoppingCart",
+        "title": "Nákupní košík",
+        "body": "Skenujte ceny nebo přidávejte položky ručně. Zobrazte cenu každé položky i celkovou částku ve zvolené měně. Pět přidání denně zdarma, poté 1 BP za každou novou položku.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "Themes",
+        "title": "24 barevných motivů",
+        "body": "Vyberte paletu v novém přehledu s dlaždicemi. Pět motivů je zdarma; každý ze zbývajících 19 odemknete navždy za 60 BP. Dříve odemčené motivy zůstávají dostupné.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "RewardedAds",
+        "title": "BALCO Points a reklamy",
+        "body": "Reklamy s odměnou se nyní načítají po otevření příslušné sekce a po jednom klepnutí se spustí, jakmile budou připravené. Stav předplatného je přehlednější a ověření lze zopakovat.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "PriceConversion",
+        "title": "Přehlednější přepočet cen",
+        "body": "Opravili jsme převod bitcoinu, usnadnili rozlišení vybraných částek a vylepšili cenové štítky ve skeneru. Text vybraný v jiných aplikacích se převede až po potvrzení přístupu.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "Navigation",
+        "title": "Snazší navigace",
+        "body": "Nákupní košík je v nabídce pod historií převodů. Skutečné náklady se nyní jmenují Porovnání směnných kurzů. Co je nového najdete v části O této aplikaci.",
+        "version": "1.614",
+        "published": true
+      },
+      {
         "id": "Keyboard",
         "title": "Písma a velikosti klávesnice",
         "body": "Přizpůsobte si tlačítka kalkulačky v Nastavení: vyberte standardní, klasické, neproporcionální nebo gotické písmo a jednu ze tří velikostí znaků. Náhled ukáže váš výběr a předvolby se uloží.",
         "version": "1.613",
-        "published": false,
-        "status": "Již brzy ve verzi 1.613"
+        "published": true
       },
       {
         "id": "ProcessText",
@@ -402,7 +776,7 @@
       },
       {
         "id": "ActualCost",
-        "title": "Skutečné náklady",
+        "title": "Porovnání směnných kurzů",
         "body": "Porovnejte podmínky směny s referenčním kurzem aplikace."
       },
       {
@@ -421,12 +795,46 @@
     "title": "Čo je nové",
     "cards": [
       {
+        "id": "ShoppingCart",
+        "title": "Nákupný košík",
+        "body": "Skenujte ceny alebo pridávajte položky ručne. Pozrite si cenu každej položky aj celkovú sumu vo zvolenej mene. Päť pridaní denne zadarmo, potom 1 BP za každú novú položku.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "Themes",
+        "title": "24 farebných motívov",
+        "body": "Vyberte si paletu v novej mriežke. Päť motívov je zadarmo; každý zo zvyšných 19 odomknete navždy za 60 BP. Predtým odomknuté motívy zostávajú dostupné.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "RewardedAds",
+        "title": "BALCO Points a reklamy",
+        "body": "Reklamy s odmenou sa teraz načítajú po otvorení príslušnej sekcie a po jednom ťuknutí sa spustia, keď budú pripravené. Stav predplatného je prehľadnejší a overenie možno zopakovať.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "PriceConversion",
+        "title": "Prehľadnejší prepočet cien",
+        "body": "Opravili sme prevod bitcoinu, uľahčili rozlíšenie vybraných súm a vylepšili cenové štítky v skeneri. Text vybraný v iných aplikáciách sa prevedie až po potvrdení prístupu.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "Navigation",
+        "title": "Jednoduchšia navigácia",
+        "body": "Nákupný košík je v ponuke pod históriou prevodov. Skutočné náklady sa teraz volajú Porovnanie výmenných kurzov. Čo je nové nájdete v časti O tejto aplikácii.",
+        "version": "1.614",
+        "published": true
+      },
+      {
         "id": "Keyboard",
         "title": "Písma a veľkosti klávesnice",
         "body": "Prispôsobte si tlačidlá kalkulačky v Nastaveniach: vyberte štandardné, klasické, neproporcionálne alebo gotické písmo a jednu z troch veľkostí znakov. Ukážka zobrazí váš výber a predvoľby sa uložia.",
         "version": "1.613",
-        "published": false,
-        "status": "Čoskoro vo verzii 1.613"
+        "published": true
       },
       {
         "id": "ProcessText",
@@ -440,7 +848,7 @@
       },
       {
         "id": "ActualCost",
-        "title": "Skutočné náklady",
+        "title": "Porovnanie výmenných kurzov",
         "body": "Porovnajte podmienky výmeny s referenčným kurzom aplikácie."
       },
       {
@@ -459,12 +867,46 @@
     "title": "Novosti",
     "cards": [
       {
+        "id": "ShoppingCart",
+        "title": "Nakupovalna košarica",
+        "body": "Skenirajte cene ali ročno dodajte izdelke. Oglejte si ceno vsakega izdelka in skupni znesek v izbrani valuti. Pet brezplačnih dodajanj na dan, nato 1 BP za vsak nov izdelek.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "Themes",
+        "title": "24 barvnih tem",
+        "body": "Izberite paleto v novem mrežnem prikazu. Pet tem je brezplačnih; vsako od preostalih 19 trajno odklenete za 60 BP. Prej odklenjene teme ostanejo na voljo.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "RewardedAds",
+        "title": "BALCO Points in oglasi",
+        "body": "Oglasi z nagrado se zdaj naložijo ob odprtju ustreznega razdelka in se po enem dotiku začnejo predvajati, takoj ko so pripravljeni. Stanje naročnine je jasnejše, preverjanje pa lahko ponovite.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "PriceConversion",
+        "title": "Preglednejša pretvorba cen",
+        "body": "Popravili smo pretvorbo bitcoina, olajšali razlikovanje med izbranimi zneski in izboljšali oznake cen v skenerju. Besedilo, izbrano v drugih aplikacijah, se pretvori šele po potrditvi dostopa.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "Navigation",
+        "title": "Preprostejša navigacija",
+        "body": "Nakupovalna košarica je v meniju pod zgodovino pretvorb. Dejanski strošek se zdaj imenuje Primerjava tečajev. Novosti so v razdelku O tej aplikaciji.",
+        "version": "1.614",
+        "published": true
+      },
+      {
         "id": "Keyboard",
         "title": "Pisave in velikosti tipkovnice",
         "body": "Prilagodite gumbe kalkulatorja v nastavitvah: izberite standardno, klasično, enako široko ali gotsko pisavo in eno od treh velikosti znakov. Predogled pokaže vašo izbiro, nastavitve pa se shranijo.",
         "version": "1.613",
-        "published": false,
-        "status": "Kmalu v različici 1.613"
+        "published": true
       },
       {
         "id": "ProcessText",
@@ -478,7 +920,7 @@
       },
       {
         "id": "ActualCost",
-        "title": "Dejanski stroški",
+        "title": "Primerjava tečajev",
         "body": "Primerjajte pogoje menjave z referenčnim tečajem aplikacije."
       },
       {
@@ -497,12 +939,46 @@
     "title": "Neuigkeiten",
     "cards": [
       {
+        "id": "ShoppingCart",
+        "title": "Warenkorb",
+        "body": "Scanne Preise oder füge Artikel manuell hinzu. Sieh den Preis jedes Artikels und die Gesamtsumme in deiner gewählten Währung. Fünf kostenlose Ergänzungen pro Tag, danach 1 BP pro neuem Artikel.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "Themes",
+        "title": "24 Farbdesigns",
+        "body": "Wähle eine Palette in der neuen Kachelübersicht. Fünf Designs sind kostenlos; jedes der weiteren 19 kannst du für 60 BP dauerhaft freischalten. Bereits freigeschaltete Designs bleiben verfügbar.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "RewardedAds",
+        "title": "BALCO Points und Werbung",
+        "body": "Werbung mit Belohnung wird jetzt beim Öffnen des jeweiligen Bereichs geladen und startet nach einmaligem Tippen, sobald sie bereit ist. Der Abostatus ist klarer, und die Überprüfung lässt sich wiederholen.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "PriceConversion",
+        "title": "Übersichtlichere Preisumrechnung",
+        "body": "Die Bitcoin-Umrechnung wurde korrigiert. Ausgewählte Beträge sind leichter zu unterscheiden und Preisbeschriftungen im Scanner besser lesbar. In anderen Apps ausgewählter Text wird erst nach bestätigtem Zugriff umgerechnet.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "Navigation",
+        "title": "Einfachere Navigation",
+        "body": "Der Warenkorb steht im Menü unter dem Umrechnungsverlauf. Tatsächliche Kosten heißt jetzt Wechselkursvergleich. Neuigkeiten findest du unter Über diese App.",
+        "version": "1.614",
+        "published": true
+      },
+      {
         "id": "Keyboard",
         "title": "Schriftarten und Größen der Tastatur",
         "body": "Passen Sie die Rechnertasten in den Einstellungen an: Wählen Sie eine Standardschrift, klassische Schrift, Monospace- oder gotische Schrift und eine von drei Zeichengrößen. Eine Vorschau zeigt Ihre Auswahl; Ihre Einstellungen werden gespeichert.",
         "version": "1.613",
-        "published": false,
-        "status": "Demnächst in Version 1.613"
+        "published": true
       },
       {
         "id": "ProcessText",
@@ -516,7 +992,7 @@
       },
       {
         "id": "ActualCost",
-        "title": "Tatsächliche Kosten",
+        "title": "Wechselkursvergleich",
         "body": "Vergleichen Sie die Wechselkonditionen mit dem Referenzkurs der App."
       },
       {
@@ -535,12 +1011,46 @@
     "title": "Nouveautés",
     "cards": [
       {
+        "id": "ShoppingCart",
+        "title": "Panier d’achats",
+        "body": "Scannez les prix ou ajoutez des articles manuellement. Consultez le prix de chaque article et le total dans la devise choisie. Cinq ajouts gratuits par jour, puis 1 BP par nouvel article.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "Themes",
+        "title": "24 thèmes de couleurs",
+        "body": "Choisissez une palette dans la nouvelle grille. Cinq thèmes sont gratuits ; débloquez chacun des 19 autres pour 60 BP, à vie. Les thèmes déjà débloqués restent disponibles.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "RewardedAds",
+        "title": "BALCO Points et publicités",
+        "body": "Les publicités avec récompense se chargent à l’ouverture de la section concernée et s’ouvrent après un seul appui, dès qu’elles sont prêtes. Le statut de l’abonnement est plus clair et vous pouvez relancer sa vérification.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "PriceConversion",
+        "title": "Conversion des prix plus claire",
+        "body": "La conversion du Bitcoin a été corrigée, les montants sélectionnés sont plus faciles à distinguer et les étiquettes de prix du scanner sont plus lisibles. Le texte sélectionné dans une autre application n’est converti qu’après confirmation de l’accès.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "Navigation",
+        "title": "Navigation simplifiée",
+        "body": "Panier d’achats se trouve sous l’historique des conversions dans le menu. Coût réel s’appelle désormais Comparaison des taux de change. Nouveautés se trouve dans À propos de cette application.",
+        "version": "1.614",
+        "published": true
+      },
+      {
         "id": "Keyboard",
         "title": "Polices et tailles du clavier",
         "body": "Personnalisez les touches de la calculatrice dans les paramètres : choisissez une police standard, classique, à chasse fixe ou gothique et l’une des trois tailles de caractères. Un aperçu montre votre choix et vos préférences sont enregistrées.",
         "version": "1.613",
-        "published": false,
-        "status": "Bientôt dans la version 1.613"
+        "published": true
       },
       {
         "id": "ProcessText",
@@ -554,7 +1064,7 @@
       },
       {
         "id": "ActualCost",
-        "title": "Coût réel",
+        "title": "Comparaison des taux de change",
         "body": "Comparez les conditions de change au taux de référence de l’application."
       },
       {
@@ -573,12 +1083,46 @@
     "title": "Novità",
     "cards": [
       {
+        "id": "ShoppingCart",
+        "title": "Carrello della spesa",
+        "body": "Scansiona i prezzi o aggiungi gli articoli manualmente. Visualizza il prezzo di ogni articolo e il totale nella valuta scelta. Cinque aggiunte gratuite al giorno, poi 1 BP per ogni nuovo articolo.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "Themes",
+        "title": "24 temi di colore",
+        "body": "Scegli una palette dalla nuova griglia. Cinque temi sono gratuiti; sblocca ciascuno degli altri 19 per sempre con 60 BP. I temi già sbloccati restano disponibili.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "RewardedAds",
+        "title": "BALCO Points e annunci",
+        "body": "Gli annunci con premio si caricano quando apri la sezione interessata e si aprono con un solo tocco, appena sono pronti. Lo stato dell’abbonamento è più chiaro e puoi riprovare la verifica.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "PriceConversion",
+        "title": "Conversione dei prezzi più chiara",
+        "body": "Corretta la conversione di Bitcoin, resi più riconoscibili gli importi selezionati e migliorate le etichette dei prezzi nello scanner. Il testo selezionato in altre app viene convertito solo dopo la conferma dell’accesso.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "Navigation",
+        "title": "Navigazione più semplice",
+        "body": "Carrello della spesa si trova sotto la cronologia delle conversioni nel menu. Costo effettivo ora si chiama Confronto dei tassi di cambio. Novità si trova in Informazioni su questa app.",
+        "version": "1.614",
+        "published": true
+      },
+      {
         "id": "Keyboard",
         "title": "Caratteri e dimensioni della tastiera",
         "body": "Personalizza i pulsanti della calcolatrice nelle Impostazioni: scegli un carattere standard, classico, a larghezza fissa o gotico e una delle tre dimensioni dei simboli. L’anteprima mostra la tua scelta e le preferenze vengono salvate.",
         "version": "1.613",
-        "published": false,
-        "status": "In arrivo nella versione 1.613"
+        "published": true
       },
       {
         "id": "ProcessText",
@@ -592,7 +1136,7 @@
       },
       {
         "id": "ActualCost",
-        "title": "Costo effettivo",
+        "title": "Confronto dei tassi di cambio",
         "body": "Confronta le condizioni di cambio con il tasso di riferimento dell’app."
       },
       {
@@ -611,12 +1155,46 @@
     "title": "Novedades",
     "cards": [
       {
+        "id": "ShoppingCart",
+        "title": "Cesta de la compra",
+        "body": "Escanea precios o añade artículos manualmente. Consulta el precio de cada artículo y el total en la moneda elegida. Cinco incorporaciones gratuitas al día; después, 1 BP por cada nuevo artículo.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "Themes",
+        "title": "24 temas de color",
+        "body": "Elige una paleta en el nuevo selector en cuadrícula. Cinco temas son gratuitos; desbloquea cada uno de los otros 19 para siempre por 60 BP. Los temas ya desbloqueados siguen disponibles.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "RewardedAds",
+        "title": "BALCO Points y anuncios",
+        "body": "Los anuncios con recompensa se cargan al abrir la sección correspondiente y se abren con un solo toque en cuanto están listos. El estado de la suscripción es más claro y puedes volver a intentar verificarla.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "PriceConversion",
+        "title": "Conversión de precios más clara",
+        "body": "Hemos corregido la conversión de Bitcoin, facilitado la distinción de los importes seleccionados y mejorado las etiquetas de precios del escáner. El texto seleccionado en otras aplicaciones solo se convierte tras confirmar el acceso.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "Navigation",
+        "title": "Navegación más sencilla",
+        "body": "Cesta de la compra está debajo del historial de conversiones en el menú. Costo real ahora se llama Comparación de tipos de cambio. Novedades está dentro de Acerca de esta aplicación.",
+        "version": "1.614",
+        "published": true
+      },
+      {
         "id": "Keyboard",
         "title": "Fuentes y tamaños del teclado",
         "body": "Personaliza los botones de la calculadora en Ajustes: elige una fuente estándar, clásica, monoespaciada o gótica y uno de los tres tamaños de símbolos. La vista previa muestra tu elección y se guardan tus preferencias.",
         "version": "1.613",
-        "published": false,
-        "status": "Próximamente en la versión 1.613"
+        "published": true
       },
       {
         "id": "ProcessText",
@@ -630,7 +1208,7 @@
       },
       {
         "id": "ActualCost",
-        "title": "Costo real",
+        "title": "Comparación de tipos de cambio",
         "body": "Compara las condiciones de cambio con el tipo de referencia de la aplicación."
       },
       {
@@ -649,12 +1227,46 @@
     "title": "Novedades",
     "cards": [
       {
+        "id": "ShoppingCart",
+        "title": "Carrito de compras",
+        "body": "Escanea precios o agrega artículos manualmente. Consulta el precio de cada artículo y el total en la moneda elegida. Cinco incorporaciones gratis al día; después, 1 BP por cada artículo nuevo.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "Themes",
+        "title": "24 temas de color",
+        "body": "Elige una paleta en el nuevo selector en cuadrícula. Cinco temas son gratis; desbloquea cada uno de los otros 19 para siempre por 60 BP. Los temas ya desbloqueados siguen disponibles.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "RewardedAds",
+        "title": "BALCO Points y anuncios",
+        "body": "Los anuncios con recompensa se cargan al abrir la sección correspondiente y se abren con un solo toque en cuanto están listos. El estado de la suscripción es más claro y puedes volver a intentar verificarla.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "PriceConversion",
+        "title": "Conversión de precios más clara",
+        "body": "Corregimos la conversión de Bitcoin, facilitamos la distinción de los importes seleccionados y mejoramos las etiquetas de precios del escáner. El texto seleccionado en otras apps solo se convierte después de confirmar el acceso.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "Navigation",
+        "title": "Navegación más sencilla",
+        "body": "Carrito de compras está debajo del historial de conversiones en el menú. Costo real ahora se llama Comparación de tipos de cambio. Novedades está dentro de Acerca de esta aplicación.",
+        "version": "1.614",
+        "published": true
+      },
+      {
         "id": "Keyboard",
         "title": "Fuentes y tamaños del teclado",
         "body": "Personaliza los botones de la calculadora en Configuración: elige una fuente estándar, clásica, monoespaciada o gótica y uno de los tres tamaños de símbolos. La vista previa muestra tu elección y se guardan tus preferencias.",
         "version": "1.613",
-        "published": false,
-        "status": "Próximamente en la versión 1.613"
+        "published": true
       },
       {
         "id": "ProcessText",
@@ -668,7 +1280,7 @@
       },
       {
         "id": "ActualCost",
-        "title": "Costo real",
+        "title": "Comparación de tipos de cambio",
         "body": "Compara las condiciones de cambio con el tipo de referencia de la aplicación."
       },
       {
@@ -687,12 +1299,46 @@
     "title": "Novidades",
     "cards": [
       {
+        "id": "ShoppingCart",
+        "title": "Carrinho de compras",
+        "body": "Escaneie preços ou adicione produtos manualmente. Veja o preço de cada produto e o total na moeda escolhida. Cinco adições grátis por dia; depois, 1 BP por novo produto.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "Themes",
+        "title": "24 temas de cores",
+        "body": "Escolha uma paleta no novo seletor em grade. Cinco temas são gratuitos; desbloqueie cada um dos outros 19 para sempre por 60 BP. Os temas já desbloqueados continuam disponíveis.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "RewardedAds",
+        "title": "BALCO Points e anúncios",
+        "body": "Os anúncios com recompensa são carregados ao abrir a seção correspondente e abrem com um único toque assim que estão prontos. O status da assinatura está mais claro, com a opção de tentar a verificação novamente.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "PriceConversion",
+        "title": "Conversão de preços mais clara",
+        "body": "Corrigimos a conversão de Bitcoin, facilitamos a distinção dos valores selecionados e melhoramos os rótulos de preços no scanner. O texto selecionado em outros aplicativos só é convertido após a confirmação do acesso.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "Navigation",
+        "title": "Navegação mais simples",
+        "body": "Carrinho de compras fica abaixo do histórico de conversões no menu. Custo real agora se chama Comparação de taxas de câmbio. Novidades fica em Sobre este aplicativo.",
+        "version": "1.614",
+        "published": true
+      },
+      {
         "id": "Keyboard",
         "title": "Fontes e tamanhos do teclado",
         "body": "Personalize os botões da calculadora nas Configurações: escolha uma fonte padrão, clássica, monoespaçada ou gótica e um dos três tamanhos de símbolos. A prévia mostra sua escolha, e suas preferências são salvas.",
         "version": "1.613",
-        "published": false,
-        "status": "Em breve na versão 1.613"
+        "published": true
       },
       {
         "id": "ProcessText",
@@ -706,7 +1352,7 @@
       },
       {
         "id": "ActualCost",
-        "title": "Custo real",
+        "title": "Comparação de taxas de câmbio",
         "body": "Compare as condições de câmbio com a taxa de referência do app."
       },
       {
@@ -725,12 +1371,46 @@
     "title": "Novidades",
     "cards": [
       {
+        "id": "ShoppingCart",
+        "title": "Carrinho de compras",
+        "body": "Leia os preços com a câmara ou adicione produtos manualmente. Veja o preço de cada produto e o total na moeda escolhida. Cinco adições gratuitas por dia; depois, 1 BP por novo produto.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "Themes",
+        "title": "24 temas de cores",
+        "body": "Escolha uma paleta no novo seletor em grelha. Cinco temas são gratuitos; desbloqueie cada um dos outros 19 para sempre por 60 BP. Os temas já desbloqueados continuam disponíveis.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "RewardedAds",
+        "title": "BALCO Points e anúncios",
+        "body": "Os anúncios com recompensa são carregados ao abrir a secção correspondente e abrem com um único toque assim que estão prontos. O estado da subscrição está mais claro, com a opção de repetir a verificação.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "PriceConversion",
+        "title": "Conversão de preços mais clara",
+        "body": "Corrigimos a conversão de Bitcoin, facilitámos a distinção dos valores selecionados e melhorámos as etiquetas de preços no leitor. O texto selecionado noutras aplicações só é convertido após a confirmação do acesso.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "Navigation",
+        "title": "Navegação mais simples",
+        "body": "Carrinho de compras fica abaixo do histórico de conversões no menu. Custo real chama-se agora Comparação de taxas de câmbio. Novidades encontra-se em Sobre esta aplicação.",
+        "version": "1.614",
+        "published": true
+      },
+      {
         "id": "Keyboard",
         "title": "Tipos de letra e tamanhos do teclado",
         "body": "Personalize os botões da calculadora nas Definições: escolha um tipo de letra padrão, clássico, monoespaçado ou gótico e um dos três tamanhos de símbolos. A pré-visualização mostra a sua escolha e as suas preferências são guardadas.",
         "version": "1.613",
-        "published": false,
-        "status": "Em breve na versão 1.613"
+        "published": true
       },
       {
         "id": "ProcessText",
@@ -744,7 +1424,7 @@
       },
       {
         "id": "ActualCost",
-        "title": "Custo real",
+        "title": "Comparação de taxas de câmbio",
         "body": "Compare as condições de câmbio com a taxa de referência da aplicação."
       },
       {
@@ -763,12 +1443,46 @@
     "title": "Wat is er nieuw",
     "cards": [
       {
+        "id": "ShoppingCart",
+        "title": "Winkelmandje",
+        "body": "Scan prijzen of voeg artikelen handmatig toe. Bekijk de prijs van elk artikel en het totaal in de gekozen valuta. Vijf gratis toevoegingen per dag, daarna 1 BP per nieuw artikel.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "Themes",
+        "title": "24 kleurthema’s",
+        "body": "Kies een kleurenpalet in het nieuwe raster. Vijf thema’s zijn gratis; ontgrendel elk van de overige 19 voor altijd voor 60 BP. Eerder ontgrendelde thema’s blijven beschikbaar.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "RewardedAds",
+        "title": "BALCO Points en advertenties",
+        "body": "Advertenties met beloning worden geladen wanneer je het betreffende onderdeel opent en verschijnen na één tik zodra ze klaar zijn. De abonnementsstatus is duidelijker en je kunt de controle opnieuw proberen.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "PriceConversion",
+        "title": "Duidelijkere prijsomrekening",
+        "body": "De Bitcoin-omrekening is hersteld, geselecteerde bedragen zijn beter te onderscheiden en de prijslabels in de scanner zijn verbeterd. Tekst die in andere apps is geselecteerd, wordt pas omgerekend nadat de toegang is bevestigd.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "Navigation",
+        "title": "Eenvoudigere navigatie",
+        "body": "Winkelmandje staat onder de conversiegeschiedenis in het menu. Werkelijke kosten heet nu Wisselkoersvergelijking. Wat is er nieuw staat in Over deze app.",
+        "version": "1.614",
+        "published": true
+      },
+      {
         "id": "Keyboard",
         "title": "Lettertypen en groottes van het toetsenbord",
         "body": "Pas de rekenmachineknoppen aan in Instellingen: kies een standaard, klassiek, monospace- of gotisch lettertype en een van drie tekengroottes. Een voorbeeld toont je keuze en je voorkeuren worden opgeslagen.",
         "version": "1.613",
-        "published": false,
-        "status": "Binnenkort in versie 1.613"
+        "published": true
       },
       {
         "id": "ProcessText",
@@ -782,7 +1496,7 @@
       },
       {
         "id": "ActualCost",
-        "title": "Werkelijke kosten",
+        "title": "Wisselkoersvergelijking",
         "body": "Vergelijk de wisselvoorwaarden met de referentiekoers van de app."
       },
       {
@@ -801,12 +1515,46 @@
     "title": "Nyheder",
     "cards": [
       {
+        "id": "ShoppingCart",
+        "title": "Indkøbskurv",
+        "body": "Scan priser, eller tilføj varer manuelt. Se prisen på hver vare og det samlede beløb i den valgte valuta. Fem gratis tilføjelser om dagen, derefter 1 BP pr. ny vare.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "Themes",
+        "title": "24 farvetemaer",
+        "body": "Vælg en palet i den nye gittervælger. Fem temaer er gratis; lås hvert af de øvrige 19 op for altid for 60 BP. Tidligere oplåste temaer er stadig tilgængelige.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "RewardedAds",
+        "title": "BALCO Points og annoncer",
+        "body": "Belønningsannoncer indlæses, når du åbner den relevante sektion, og åbner efter ét tryk, så snart de er klar. Abonnementsstatus er tydeligere, og du kan prøve bekræftelsen igen.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "PriceConversion",
+        "title": "Tydeligere prisomregning",
+        "body": "Bitcoin-omregningen er rettet, valgte beløb er lettere at skelne fra hinanden, og prisetiketterne i scanneren er forbedret. Tekst valgt i andre apps omregnes først, når adgangen er bekræftet.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "Navigation",
+        "title": "Nemmere navigation",
+        "body": "Indkøbskurv ligger under omregningshistorikken i menuen. Faktiske omkostninger hedder nu Sammenligning af valutakurser. Nyheder findes under Om denne app.",
+        "version": "1.614",
+        "published": true
+      },
+      {
         "id": "Keyboard",
         "title": "Tastaturets skrifttyper og størrelser",
         "body": "Tilpas lommeregnerens knapper i Indstillinger: vælg en standard-, klassisk, monospace- eller gotisk skrifttype og en af tre tegnstørrelser. En forhåndsvisning viser dit valg, og dine indstillinger gemmes.",
         "version": "1.613",
-        "published": false,
-        "status": "Kommer i version 1.613"
+        "published": true
       },
       {
         "id": "ProcessText",
@@ -820,7 +1568,7 @@
       },
       {
         "id": "ActualCost",
-        "title": "Faktiske omkostninger",
+        "title": "Sammenligning af valutakurser",
         "body": "Sammenlign vekselvilkårene med appens referencekurs."
       },
       {
@@ -839,12 +1587,46 @@
     "title": "Nyheter",
     "cards": [
       {
+        "id": "ShoppingCart",
+        "title": "Varukorg",
+        "body": "Skanna priser eller lägg till varor manuellt. Se priset för varje vara och totalsumman i vald valuta. Fem gratis tillägg per dag, därefter 1 BP per ny vara.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "Themes",
+        "title": "24 färgteman",
+        "body": "Välj en palett i den nya rutnätsväljaren. Fem teman är gratis; lås upp vart och ett av de övriga 19 för alltid för 60 BP. Tidigare upplåsta teman finns kvar.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "RewardedAds",
+        "title": "BALCO Points och annonser",
+        "body": "Belöningsannonser laddas när du öppnar rätt avsnitt och öppnas efter ett tryck så snart de är klara. Prenumerationsstatusen är tydligare och du kan försöka verifiera igen.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "PriceConversion",
+        "title": "Tydligare prisomräkning",
+        "body": "Bitcoin-omräkningen har rättats, valda belopp är lättare att skilja åt och prisetiketterna i skannern har förbättrats. Text som valts i andra appar räknas om först när åtkomsten har bekräftats.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "Navigation",
+        "title": "Enklare navigering",
+        "body": "Varukorg ligger under omräkningshistoriken i menyn. Faktisk kostnad heter nu Jämförelse av växelkurser. Nyheter finns under Om den här appen.",
+        "version": "1.614",
+        "published": true
+      },
+      {
         "id": "Keyboard",
         "title": "Tangentbordets typsnitt och storlekar",
         "body": "Anpassa kalkylatorns knappar i Inställningar: välj ett standard-, klassiskt, fastbredds- eller gotiskt typsnitt och en av tre teckenstorlekar. En förhandsvisning visar ditt val och dina inställningar sparas.",
         "version": "1.613",
-        "published": false,
-        "status": "Kommer i version 1.613"
+        "published": true
       },
       {
         "id": "ProcessText",
@@ -858,7 +1640,7 @@
       },
       {
         "id": "ActualCost",
-        "title": "Faktisk kostnad",
+        "title": "Jämförelse av växelkurser",
         "body": "Jämför växlingsvillkoren med appens referenskurs."
       },
       {
@@ -877,12 +1659,46 @@
     "title": "Nyheter",
     "cards": [
       {
+        "id": "ShoppingCart",
+        "title": "Handlekurv",
+        "body": "Skann priser eller legg til varer manuelt. Se prisen på hver vare og totalsummen i valgt valuta. Fem gratis tillegg per dag, deretter 1 BP per ny vare.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "Themes",
+        "title": "24 fargetemaer",
+        "body": "Velg en palett i den nye rutenettvelgeren. Fem temaer er gratis; lås opp hvert av de andre 19 for alltid for 60 BP. Tidligere opplåste temaer er fortsatt tilgjengelige.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "RewardedAds",
+        "title": "BALCO Points og annonser",
+        "body": "Belønningsannonser lastes når du åpner den aktuelle delen, og åpnes etter ett trykk så snart de er klare. Abonnementsstatusen er tydeligere, og du kan prøve bekreftelsen på nytt.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "PriceConversion",
+        "title": "Tydeligere prisomregning",
+        "body": "Bitcoin-omregningen er rettet, valgte beløp er enklere å skille fra hverandre, og prisetikettene i skanneren er forbedret. Tekst valgt i andre apper omregnes først når tilgangen er bekreftet.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "Navigation",
+        "title": "Enklere navigering",
+        "body": "Handlekurv ligger under omregningshistorikken i menyen. Faktisk kostnad heter nå Sammenligning av valutakurser. Nyheter finnes under Om denne appen.",
+        "version": "1.614",
+        "published": true
+      },
+      {
         "id": "Keyboard",
         "title": "Tastaturets skrifttyper og størrelser",
         "body": "Tilpass kalkulatorknappene i Innstillinger: velg en standard, klassisk, monospace- eller gotisk skrifttype og én av tre tegnstørrelser. En forhåndsvisning viser valget ditt, og innstillingene lagres.",
         "version": "1.613",
-        "published": false,
-        "status": "Kommer i versjon 1.613"
+        "published": true
       },
       {
         "id": "ProcessText",
@@ -896,7 +1712,7 @@
       },
       {
         "id": "ActualCost",
-        "title": "Faktisk kostnad",
+        "title": "Sammenligning av valutakurser",
         "body": "Sammenlign vekslingsvilkårene med appens referansekurs."
       },
       {
@@ -915,12 +1731,46 @@
     "title": "Uutta",
     "cards": [
       {
+        "id": "ShoppingCart",
+        "title": "Ostoskori",
+        "body": "Skannaa hinnat tai lisää tuotteet käsin. Näet kunkin tuotteen hinnan ja yhteissumman valitsemassasi valuutassa. Viisi ilmaista lisäystä päivässä, sen jälkeen 1 BP jokaista uutta tuotetta kohti.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "Themes",
+        "title": "24 väriteemaa",
+        "body": "Valitse väripaletti uudesta ruudukkovalitsimesta. Viisi teemaa on ilmaisia; saat jokaisen 19 muusta teemasta pysyvästi käyttöösi 60 BP:llä. Aiemmin avatut teemat säilyvät käytössä.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "RewardedAds",
+        "title": "BALCO Points ja mainokset",
+        "body": "Palkkiomainokset latautuvat, kun avaat kyseisen osion, ja avautuvat yhdellä napautuksella heti, kun ne ovat valmiita. Tilauksen tila näkyy selkeämmin, ja voit yrittää vahvistusta uudelleen.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "PriceConversion",
+        "title": "Selkeämpi hintojen muuntaminen",
+        "body": "Bitcoin-muunnos on korjattu, valitut summat on helpompi erottaa toisistaan ja skannerin hintamerkintöjä on parannettu. Muissa sovelluksissa valittu teksti muunnetaan vasta, kun käyttöoikeus on vahvistettu.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "Navigation",
+        "title": "Helpompi navigointi",
+        "body": "Ostoskori löytyy valikosta muuntohistorian alta. Todelliset kustannukset on nyt Valuuttakurssien vertailu. Uutta löytyy osiosta Tietoja tästä sovelluksesta.",
+        "version": "1.614",
+        "published": true
+      },
+      {
         "id": "Keyboard",
         "title": "Näppäimistön fontit ja koot",
         "body": "Mukauta laskimen painikkeita asetuksissa: valitse tavallinen, klassinen, tasalevyinen tai goottilainen fontti ja yksi kolmesta merkkikoosta. Esikatselu näyttää valintasi, ja asetuksesi tallennetaan.",
         "version": "1.613",
-        "published": false,
-        "status": "Tulossa versioon 1.613"
+        "published": true
       },
       {
         "id": "ProcessText",
@@ -934,7 +1784,7 @@
       },
       {
         "id": "ActualCost",
-        "title": "Todelliset kustannukset",
+        "title": "Valuuttakurssien vertailu",
         "body": "Vertaa valuutanvaihdon ehtoja sovelluksen viitekurssiin."
       },
       {
@@ -953,12 +1803,46 @@
     "title": "Nýtt",
     "cards": [
       {
+        "id": "ShoppingCart",
+        "title": "Innkaupakarfa",
+        "body": "Skannaðu verð eða bættu vörum við handvirkt. Sjáðu verð hverrar vöru og heildarupphæð í valinni mynt. Fimm ókeypis viðbætur á dag, síðan 1 BP fyrir hverja nýja vöru.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "Themes",
+        "title": "24 litaþemu",
+        "body": "Veldu litasamsetningu í nýja reitavalinu. Fimm þemu eru ókeypis; opnaðu hvert hinna 19 varanlega fyrir 60 BP. Þemu sem þegar hafa verið opnuð eru áfram tiltæk.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "RewardedAds",
+        "title": "BALCO Points og auglýsingar",
+        "body": "Auglýsingar með umbun hlaðast þegar þú opnar viðeigandi hluta og opnast eftir eina snertingu um leið og þær eru tilbúnar. Staða áskriftar er skýrari og hægt er að reyna staðfestingu aftur.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "PriceConversion",
+        "title": "Skýrari umreikningur verðs",
+        "body": "Umreikningur Bitcoin hefur verið lagfærður, auðveldara er að greina valdar upphæðir og verðmerkingar í skannanum hafa verið bættar. Texti valinn í öðrum öppum er aðeins umreiknaður eftir að aðgangur hefur verið staðfestur.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "Navigation",
+        "title": "Einfaldari yfirsýn",
+        "body": "Innkaupakarfa er fyrir neðan umreikningsferil í valmyndinni. Raunverulegur kostnaður heitir nú Gengissamanburður. Nýtt er undir Um þetta app.",
+        "version": "1.614",
+        "published": true
+      },
+      {
         "id": "Keyboard",
         "title": "Letur og stærðir lyklaborðs",
         "body": "Sérsníddu hnappa reiknivélarinnar í stillingum: veldu hefðbundið, klassískt, jafnbreitt eða gotneskt letur og eina af þremur táknastærðum. Forskoðun sýnir valið þitt og stillingarnar vistast.",
         "version": "1.613",
-        "published": false,
-        "status": "Væntanlegt í útgáfu 1.613"
+        "published": true
       },
       {
         "id": "ProcessText",
@@ -972,7 +1856,7 @@
       },
       {
         "id": "ActualCost",
-        "title": "Raunverulegur kostnaður",
+        "title": "Gengissamanburður",
         "body": "Berðu saman skiptikjörin og viðmiðunargengi appsins."
       },
       {
@@ -991,12 +1875,46 @@
     "title": "Τι νέο υπάρχει",
     "cards": [
       {
+        "id": "ShoppingCart",
+        "title": "Καλάθι αγορών",
+        "body": "Σαρώστε τιμές ή προσθέστε προϊόντα χειροκίνητα. Δείτε την τιμή κάθε προϊόντος και το σύνολο στο νόμισμα που επιλέξατε. Πέντε δωρεάν προσθήκες την ημέρα και μετά 1 BP ανά νέο προϊόν.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "Themes",
+        "title": "24 χρωματικά θέματα",
+        "body": "Επιλέξτε μια παλέτα από το νέο πλέγμα. Πέντε θέματα είναι δωρεάν· ξεκλειδώστε καθένα από τα υπόλοιπα 19 για πάντα με 60 BP. Τα ήδη ξεκλειδωμένα θέματα παραμένουν διαθέσιμα.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "RewardedAds",
+        "title": "BALCO Points και διαφημίσεις",
+        "body": "Οι διαφημίσεις με ανταμοιβή φορτώνονται όταν ανοίγετε τη σχετική ενότητα και ανοίγουν με ένα πάτημα μόλις είναι έτοιμες. Η κατάσταση της συνδρομής είναι σαφέστερη, με δυνατότητα επανάληψης της επαλήθευσης.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "PriceConversion",
+        "title": "Σαφέστερη μετατροπή τιμών",
+        "body": "Διορθώθηκε η μετατροπή Bitcoin, τα επιλεγμένα ποσά διακρίνονται ευκολότερα και βελτιώθηκαν οι ετικέτες τιμών στον σαρωτή. Το κείμενο που επιλέγετε σε άλλες εφαρμογές μετατρέπεται μόνο αφού επιβεβαιωθεί η πρόσβαση.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "Navigation",
+        "title": "Ευκολότερη πλοήγηση",
+        "body": "Το Καλάθι αγορών βρίσκεται κάτω από το ιστορικό μετατροπών στο μενού. Το Πραγματικό κόστος ονομάζεται πλέον Σύγκριση ισοτιμιών. Το Τι νέο υπάρχει βρίσκεται στην ενότητα Σχετικά με αυτήν την εφαρμογή.",
+        "version": "1.614",
+        "published": true
+      },
+      {
         "id": "Keyboard",
         "title": "Γραμματοσειρές και μεγέθη πληκτρολογίου",
         "body": "Προσαρμόστε τα κουμπιά της αριθμομηχανής στις Ρυθμίσεις: επιλέξτε τυπική, κλασική, σταθερού πλάτους ή γοτθική γραμματοσειρά και ένα από τα τρία μεγέθη συμβόλων. Η προεπισκόπηση δείχνει την επιλογή σας και οι προτιμήσεις σας αποθηκεύονται.",
         "version": "1.613",
-        "published": false,
-        "status": "Σύντομα στην έκδοση 1.613"
+        "published": true
       },
       {
         "id": "ProcessText",
@@ -1010,7 +1928,7 @@
       },
       {
         "id": "ActualCost",
-        "title": "Πραγματικό κόστος",
+        "title": "Σύγκριση ισοτιμιών",
         "body": "Συγκρίνετε τους όρους συναλλαγής με την ισοτιμία αναφοράς της εφαρμογής."
       },
       {
@@ -1029,12 +1947,46 @@
     "title": "Yenilikler",
     "cards": [
       {
+        "id": "ShoppingCart",
+        "title": "Alışveriş sepeti",
+        "body": "Fiyatları tarayın veya ürünleri elle ekleyin. Her ürünün fiyatını ve toplamı seçtiğiniz para biriminde görün. Günde beş ücretsiz ekleme, ardından her yeni ürün için 1 BP.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "Themes",
+        "title": "24 renk teması",
+        "body": "Yeni ızgara seçicisinden bir palet seçin. Beş tema ücretsizdir; diğer 19 temanın her birini 60 BP karşılığında kalıcı olarak açabilirsiniz. Daha önce açılan temalar kullanılabilir durumda kalır.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "RewardedAds",
+        "title": "BALCO Points ve reklamlar",
+        "body": "Ödüllü reklamlar ilgili bölümü açtığınızda yüklenir ve hazır olur olmaz tek dokunuşla açılır. Abonelik durumu daha net gösterilir ve doğrulamayı yeniden deneyebilirsiniz.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "PriceConversion",
+        "title": "Daha anlaşılır fiyat dönüşümü",
+        "body": "Bitcoin dönüşümü düzeltildi, seçili tutarları ayırt etmek kolaylaştırıldı ve tarayıcıdaki fiyat etiketleri iyileştirildi. Diğer uygulamalarda seçilen metin yalnızca erişim onaylandıktan sonra dönüştürülür.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "Navigation",
+        "title": "Daha kolay gezinme",
+        "body": "Alışveriş sepeti, menüde dönüşüm geçmişinin altında yer alır. Gerçek maliyet artık Döviz kuru karşılaştırması olarak adlandırılır. Yenilikler, Bu uygulama hakkında bölümündedir.",
+        "version": "1.614",
+        "published": true
+      },
+      {
         "id": "Keyboard",
         "title": "Klavye yazı tipleri ve boyutları",
         "body": "Ayarlar’dan hesap makinesi düğmelerini özelleştirin: standart, klasik, eş aralıklı veya Gotik yazı tipini ve üç simge boyutundan birini seçin. Önizleme seçiminizi gösterir ve tercihleriniz kaydedilir.",
         "version": "1.613",
-        "published": false,
-        "status": "Yakında 1.613 sürümünde"
+        "published": true
       },
       {
         "id": "ProcessText",
@@ -1048,7 +2000,7 @@
       },
       {
         "id": "ActualCost",
-        "title": "Gerçek maliyet",
+        "title": "Döviz kuru karşılaştırması",
         "body": "Döviz bozdurma koşullarını uygulamanın referans kuruyla karşılaştırın."
       },
       {
@@ -1067,12 +2019,46 @@
     "title": "Что нового",
     "cards": [
       {
+        "id": "ShoppingCart",
+        "title": "Корзина покупок",
+        "body": "Сканируйте цены или добавляйте товары вручную. Цена каждого товара и общая сумма отображаются в выбранной валюте. Пять бесплатных добавлений в день, затем 1 BP за новый товар.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "Themes",
+        "title": "24 цветовые темы",
+        "body": "Выбирайте палитру в новом меню с сеткой образцов. Пять тем бесплатны, каждую из остальных 19 можно открыть навсегда за 60 BP. Ранее открытые темы сохраняются.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "RewardedAds",
+        "title": "BALCO Points и реклама",
+        "body": "Реклама с вознаграждением загружается при открытии нужного раздела и запускается после одного нажатия, как только будет готова. Статус подписки стал понятнее, а проверку можно повторить.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "PriceConversion",
+        "title": "Улучшения конвертации цен",
+        "body": "Исправлена конвертация Bitcoin, выбранные суммы стало легче различать, а подписи цен в сканере — читать. Текст, выделенный в других приложениях, конвертируется только после подтверждения доступа.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "Navigation",
+        "title": "Улучшения навигации",
+        "body": "«Корзина покупок» находится под историей конвертаций в меню. «Фактическая стоимость» теперь называется «Сравнение курсов». «Что нового» перенесено в «Об этом приложении».",
+        "version": "1.614",
+        "published": true
+      },
+      {
         "id": "Keyboard",
         "title": "Шрифты и размеры клавиатуры",
         "body": "Настройте кнопки калькулятора в настройках: выберите обычный, классический, моноширинный или готический шрифт и один из трёх размеров символов. Предпросмотр показывает ваш выбор, а настройки сохраняются.",
         "version": "1.613",
-        "published": false,
-        "status": "Скоро в версии 1.613"
+        "published": true
       },
       {
         "id": "ProcessText",
@@ -1086,7 +2072,7 @@
       },
       {
         "id": "ActualCost",
-        "title": "Фактическая стоимость",
+        "title": "Сравнение курсов",
         "body": "Сравните предложение с базовым курсом."
       },
       {
@@ -1105,12 +2091,46 @@
     "title": "Що нового",
     "cards": [
       {
+        "id": "ShoppingCart",
+        "title": "Кошик покупок",
+        "body": "Скануйте ціни або додавайте товари вручну. Ціна кожного товару та загальна сума відображаються у вибраній валюті. П’ять безкоштовних додавань на день, потім 1 BP за новий товар.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "Themes",
+        "title": "24 колірні теми",
+        "body": "Вибирайте палітру в новому меню із сіткою зразків. П’ять тем безкоштовні, кожну з решти 19 можна відкрити назавжди за 60 BP. Раніше відкриті теми зберігаються.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "RewardedAds",
+        "title": "BALCO Points і реклама",
+        "body": "Реклама з винагородою завантажується під час відкриття потрібного розділу й запускається після одного натискання, щойно буде готова. Статус підписки став зрозумілішим, а перевірку можна повторити.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "PriceConversion",
+        "title": "Зрозуміліша конвертація цін",
+        "body": "Виправлено конвертацію Bitcoin, вибрані суми стало легше розрізняти, а підписи цін у сканері — читати. Текст, виділений в інших програмах, конвертується лише після підтвердження доступу.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "Navigation",
+        "title": "Зручніша навігація",
+        "body": "«Кошик покупок» розташований під історією конвертацій у меню. «Фактична вартість» тепер називається «Порівняння курсів». «Що нового» перенесено до розділу «Про цю програму».",
+        "version": "1.614",
+        "published": true
+      },
+      {
         "id": "Keyboard",
         "title": "Шрифти й розміри клавіатури",
         "body": "Налаштуйте кнопки калькулятора в налаштуваннях: виберіть звичайний, класичний, моноширинний або готичний шрифт і один із трьох розмірів символів. Попередній перегляд показує ваш вибір, а налаштування зберігаються.",
         "version": "1.613",
-        "published": false,
-        "status": "Незабаром у версії 1.613"
+        "published": true
       },
       {
         "id": "ProcessText",
@@ -1124,7 +2144,7 @@
       },
       {
         "id": "ActualCost",
-        "title": "Фактична вартість",
+        "title": "Порівняння курсів",
         "body": "Порівняйте умови обміну з довідковим курсом застосунку."
       },
       {
@@ -1143,12 +2163,46 @@
     "title": "ما الجديد",
     "cards": [
       {
+        "id": "ShoppingCart",
+        "title": "سلة المشتريات",
+        "body": "امسح الأسعار أو أضف المنتجات يدويًا. اعرض سعر كل منتج والمجموع بالعملة التي تختارها. خمس إضافات مجانية يوميًا، ثم 1 BP لكل منتج جديد.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "Themes",
+        "title": "24 سمة لونية",
+        "body": "اختر مجموعة ألوان من منتقي السمات الشبكي الجديد. خمس سمات مجانية؛ ويمكن فتح كل سمة من السمات الـ19 الأخرى مقابل 60 BP إلى الأبد. تظل السمات التي فتحتها سابقًا متاحة.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "RewardedAds",
+        "title": "BALCO Points والإعلانات",
+        "body": "تُحمَّل إعلانات المكافآت الآن عند فتح القسم المناسب، وتُعرض بعد نقرة واحدة بمجرد جاهزيتها. أصبحت حالة الاشتراك أوضح، مع خيار إعادة محاولة التحقق.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "PriceConversion",
+        "title": "تحويل أسعار أوضح",
+        "body": "أُصلح تحويل البيتكوين، وأصبح تمييز المبالغ المحددة أسهل، وتحسنت ملصقات الأسعار في الماسح. لا يُحوَّل النص المحدد في التطبيقات الأخرى إلا بعد تأكيد إمكانية الوصول إلى الميزة.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "Navigation",
+        "title": "تنقل أسهل",
+        "body": "توجد سلة المشتريات أسفل سجل التحويلات في القائمة. أصبح اسم التكلفة الفعلية الآن «مقارنة أسعار الصرف». وتجد «ما الجديد» داخل «حول هذا التطبيق».",
+        "version": "1.614",
+        "published": true
+      },
+      {
         "id": "Keyboard",
         "title": "خطوط لوحة المفاتيح وأحجامها",
         "body": "خصّص أزرار الآلة الحاسبة في الإعدادات: اختر الخط القياسي أو الكلاسيكي أو أحادي المسافة أو القوطي، وأحد أحجام الرموز الثلاثة. تُظهر المعاينة اختيارك، ويتم حفظ تفضيلاتك.",
         "version": "1.613",
-        "published": false,
-        "status": "قريبًا في الإصدار 1.613"
+        "published": true
       },
       {
         "id": "ProcessText",
@@ -1162,7 +2216,7 @@
       },
       {
         "id": "ActualCost",
-        "title": "التكلفة الفعلية",
+        "title": "مقارنة أسعار الصرف",
         "body": "قارن شروط الصرف بالسعر المرجعي للتطبيق."
       },
       {
@@ -1181,12 +2235,46 @@
     "title": "מה חדש",
     "cards": [
       {
+        "id": "ShoppingCart",
+        "title": "סל קניות",
+        "body": "סרקו מחירים או הוסיפו פריטים ידנית. הציגו את המחיר של כל פריט ואת הסכום הכולל במטבע שבחרתם. חמש הוספות חינם ביום, ולאחר מכן 1 BP לכל פריט חדש.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "Themes",
+        "title": "24 ערכות צבעים",
+        "body": "בחרו פלטת צבעים בבורר הרשת החדש. חמש ערכות הן בחינם; אפשר לפתוח כל אחת מ־19 הערכות האחרות תמורת 60 BP לצמיתות. ערכות שכבר פתחתם נשארות זמינות.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "RewardedAds",
+        "title": "BALCO Points ופרסומות",
+        "body": "פרסומות מתגמלות נטענות כעת בפתיחת המסך המתאים ונפתחות לאחר לחיצה אחת ברגע שהן מוכנות. מצב המינוי מוצג בצורה ברורה יותר, עם אפשרות לנסות שוב את האימות.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "PriceConversion",
+        "title": "המרת מחירים ברורה יותר",
+        "body": "תוקנה המרת ביטקוין, קל יותר להבחין בין הסכומים שנבחרו ותוויות המחירים בסורק שופרו. טקסט שנבחר באפליקציות אחרות מומר רק לאחר אישור הגישה לתכונה.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "Navigation",
+        "title": "ניווט קל יותר",
+        "body": "סל הקניות נמצא מתחת להיסטוריית ההמרות בתפריט. השם של עלות בפועל שונה להשוואת שערי חליפין. מה חדש נמצא בתוך על האפליקציה הזו.",
+        "version": "1.614",
+        "published": true
+      },
+      {
         "id": "Keyboard",
         "title": "גופנים וגדלים של המקלדת",
         "body": "התאימו את כפתורי המחשבון בהגדרות: בחרו גופן רגיל, קלאסי, ברוחב קבוע או גותי ואחד משלושה גדלים של סימנים. תצוגה מקדימה מציגה את הבחירה שלכם, וההעדפות נשמרות.",
         "version": "1.613",
-        "published": false,
-        "status": "בקרוב בגרסה 1.613"
+        "published": true
       },
       {
         "id": "ProcessText",
@@ -1200,7 +2288,7 @@
       },
       {
         "id": "ActualCost",
-        "title": "עלות בפועל",
+        "title": "השוואת שערי חליפין",
         "body": "השוו את תנאי ההמרה לשער הייחוס של האפליקציה."
       },
       {
@@ -1219,12 +2307,46 @@
     "title": "تازه‌ها",
     "cards": [
       {
+        "id": "ShoppingCart",
+        "title": "سبد خرید",
+        "body": "قیمت‌ها را اسکن کنید یا کالاها را دستی اضافه کنید. قیمت هر کالا و مجموع را به ارز دلخواه ببینید. روزانه پنج افزودن رایگان دارید و پس از آن هر کالای جدید 1 BP هزینه دارد.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "Themes",
+        "title": "24 تم رنگی",
+        "body": "از انتخابگر شبکه‌ای جدید، ترکیب رنگ دلخواه را انتخاب کنید. پنج تم رایگان است؛ هرکدام از 19 تم دیگر را با 60 BP برای همیشه باز کنید. تم‌هایی که قبلاً باز کرده‌اید در دسترس می‌مانند.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "RewardedAds",
+        "title": "BALCO Points و تبلیغات",
+        "body": "تبلیغات پاداش‌دار اکنون با باز کردن بخش مربوطه بارگیری می‌شوند و پس از یک ضربه، به‌محض آماده شدن نمایش داده می‌شوند. وضعیت اشتراک روشن‌تر شده و می‌توانید تأیید آن را دوباره امتحان کنید.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "PriceConversion",
+        "title": "تبدیل روشن‌تر قیمت‌ها",
+        "body": "تبدیل بیت‌کوین اصلاح شد، تشخیص مبلغ‌های انتخاب‌شده آسان‌تر شد و برچسب قیمت‌ها در اسکنر بهبود یافت. متن انتخاب‌شده در برنامه‌های دیگر تنها پس از تأیید دسترسی به قابلیت تبدیل می‌شود.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "Navigation",
+        "title": "پیمایش آسان‌تر",
+        "body": "سبد خرید در منو زیر تاریخچه تبدیل‌ها قرار دارد. نام هزینه واقعی به مقایسه نرخ ارز تغییر کرده است. تازه‌ها در بخش درباره این برنامه قرار دارد.",
+        "version": "1.614",
+        "published": true
+      },
+      {
         "id": "Keyboard",
         "title": "قلم‌ها و اندازه‌های صفحه‌کلید",
         "body": "دکمه‌های ماشین‌حساب را در تنظیمات شخصی‌سازی کنید: قلم معمولی، کلاسیک، تک‌عرض یا گوتیک و یکی از سه اندازهٔ نمادها را انتخاب کنید. پیش‌نمایش، انتخاب شما را نشان می‌دهد و ترجیحاتتان ذخیره می‌شود.",
         "version": "1.613",
-        "published": false,
-        "status": "به‌زودی در نسخهٔ 1.613"
+        "published": true
       },
       {
         "id": "ProcessText",
@@ -1238,7 +2360,7 @@
       },
       {
         "id": "ActualCost",
-        "title": "هزینه واقعی",
+        "title": "مقایسه نرخ ارز",
         "body": "شرایط تبدیل را با نرخ مرجع برنامه مقایسه کنید."
       },
       {
@@ -1257,12 +2379,46 @@
     "title": "نیا کیا ہے",
     "cards": [
       {
+        "id": "ShoppingCart",
+        "title": "خریداری کی ٹوکری",
+        "body": "قیمتیں اسکین کریں یا اشیا دستی طور پر شامل کریں۔ ہر شے کی قیمت اور کل رقم اپنی منتخب کرنسی میں دیکھیں۔ روزانہ پانچ اضافے مفت ہیں، پھر ہر نئی شے کے لیے 1 BP۔",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "Themes",
+        "title": "24 رنگوں کی تھیمز",
+        "body": "نئے گرڈ پکَر سے رنگوں کا مجموعہ منتخب کریں۔ پانچ تھیمز مفت ہیں؛ باقی 19 میں سے ہر تھیم کو 60 BP میں ہمیشہ کے لیے کھولیں۔ پہلے سے کھولی گئی تھیمز دستیاب رہیں گی۔",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "RewardedAds",
+        "title": "BALCO Points اور اشتہارات",
+        "body": "انعامی اشتہارات اب متعلقہ حصہ کھولنے پر لوڈ ہوتے ہیں اور ایک بار ٹیپ کرنے کے بعد تیار ہوتے ہی کھل جاتے ہیں۔ سبسکرپشن کی حیثیت زیادہ واضح ہے اور تصدیق دوبارہ آزمانے کا اختیار موجود ہے۔",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "PriceConversion",
+        "title": "قیمتوں کی زیادہ واضح تبدیلی",
+        "body": "بٹ کوائن کی تبدیلی درست کی گئی، منتخب رقوم میں فرق کرنا آسان ہوا اور اسکینر میں قیمتوں کے لیبل بہتر ہوئے۔ دوسری ایپس میں منتخب متن صرف فیچر تک رسائی کی تصدیق کے بعد تبدیل ہوتا ہے۔",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "Navigation",
+        "title": "آسان نیویگیشن",
+        "body": "مینو میں خریداری کی ٹوکری تبدیلیوں کی تاریخ کے نیچے ہے۔ اصل لاگت کا نام اب شرح مبادلہ کا موازنہ ہے۔ نیا کیا ہے اب اس ایپ کے بارے میں کے اندر ہے۔",
+        "version": "1.614",
+        "published": true
+      },
+      {
         "id": "Keyboard",
         "title": "کی بورڈ کے فونٹ اور سائز",
         "body": "ترتیبات میں کیلکولیٹر کے بٹن اپنی پسند کے مطابق بنائیں: معیاری، کلاسیکی، یکساں چوڑائی والا یا گوتھک فونٹ اور علامتوں کے تین سائز میں سے ایک منتخب کریں۔ پیش منظر آپ کا انتخاب دکھاتا ہے اور آپ کی ترجیحات محفوظ ہو جاتی ہیں۔",
         "version": "1.613",
-        "published": false,
-        "status": "جلد ہی ورژن 1.613 میں"
+        "published": true
       },
       {
         "id": "ProcessText",
@@ -1276,7 +2432,7 @@
       },
       {
         "id": "ActualCost",
-        "title": "حقیقی لاگت",
+        "title": "شرح مبادلہ کا موازنہ",
         "body": "زر مبادلہ کی شرائط کا ایپ کے حوالہ ریٹ سے موازنہ کریں۔"
       },
       {
@@ -1295,12 +2451,46 @@
     "title": "नया क्या है",
     "cards": [
       {
+        "id": "ShoppingCart",
+        "title": "खरीदारी की टोकरी",
+        "body": "कीमतें स्कैन करें या सामान मैन्युअल रूप से जोड़ें। हर सामान की कीमत और कुल राशि अपनी चुनी हुई मुद्रा में देखें। रोज़ पाँच बार मुफ़्त जोड़ें, फिर हर नए सामान के लिए 1 BP।",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "Themes",
+        "title": "24 रंग थीम",
+        "body": "नए ग्रिड पिकर से रंगों का संयोजन चुनें। पाँच थीम मुफ़्त हैं; बाकी 19 में से हर थीम को 60 BP में हमेशा के लिए अनलॉक करें। पहले से अनलॉक की गई थीम उपलब्ध रहेंगी।",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "RewardedAds",
+        "title": "BALCO Points और विज्ञापन",
+        "body": "इनाम वाले विज्ञापन अब संबंधित सेक्शन खोलने पर लोड होते हैं और एक टैप के बाद तैयार होते ही खुल जाते हैं। सदस्यता की स्थिति ज़्यादा स्पष्ट है और सत्यापन दोबारा आज़माने का विकल्प भी है।",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "PriceConversion",
+        "title": "कीमतों का ज़्यादा स्पष्ट रूपांतरण",
+        "body": "बिटकॉइन रूपांतरण ठीक किया गया, चुनी गई राशियों में अंतर पहचानना आसान हुआ और स्कैनर में कीमतों के लेबल बेहतर हुए। दूसरे ऐप में चुना गया टेक्स्ट सुविधा तक पहुँच की पुष्टि के बाद ही रूपांतरित होता है।",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "Navigation",
+        "title": "आसान नेविगेशन",
+        "body": "मेन्यू में खरीदारी की टोकरी रूपांतरण इतिहास के नीचे है। वास्तविक लागत का नाम अब विनिमय दरों की तुलना है। इस ऐप के बारे में खोलकर नया क्या है देखें।",
+        "version": "1.614",
+        "published": true
+      },
+      {
         "id": "Keyboard",
         "title": "कीपैड के फ़ॉन्ट और आकार",
         "body": "सेटिंग में कैलकुलेटर के बटन अपनी पसंद के अनुसार बदलें: मानक, क्लासिक, मोनोस्पेस या गॉथिक फ़ॉन्ट और चिह्नों के तीन आकारों में से एक चुनें। प्रीव्यू में आपका चयन दिखता है और आपकी पसंद सहेजी जाती है।",
         "version": "1.613",
-        "published": false,
-        "status": "संस्करण 1.613 में जल्द आ रहा है"
+        "published": true
       },
       {
         "id": "ProcessText",
@@ -1314,7 +2504,7 @@
       },
       {
         "id": "ActualCost",
-        "title": "वास्तविक लागत",
+        "title": "विनिमय दरों की तुलना",
         "body": "विनिमय की शर्तों की तुलना ऐप की संदर्भ दर से करें।"
       },
       {
@@ -1333,12 +2523,46 @@
     "title": "নতুন কী",
     "cards": [
       {
+        "id": "ShoppingCart",
+        "title": "কেনাকাটার ঝুড়ি",
+        "body": "দাম স্ক্যান করুন বা নিজে পণ্য যোগ করুন। প্রতিটি পণ্যের দাম ও মোট খরচ আপনার পছন্দের মুদ্রায় দেখুন। প্রতিদিন পাঁচবার বিনামূল্যে যোগ করুন, এরপর প্রতিটি নতুন পণ্যের জন্য 1 BP।",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "Themes",
+        "title": "24টি রঙের থিম",
+        "body": "নতুন গ্রিড পিকার থেকে রঙের সমন্বয় বেছে নিন। পাঁচটি থিম বিনামূল্যে; বাকি 19টির প্রতিটি 60 BP দিয়ে চিরতরে আনলক করুন। আগে আনলক করা থিমগুলো ব্যবহার করতে পারবেন।",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "RewardedAds",
+        "title": "BALCO Points ও বিজ্ঞাপন",
+        "body": "পুরস্কারের বিজ্ঞাপন এখন সংশ্লিষ্ট বিভাগ খুললেই লোড হয় এবং একবার ট্যাপ করার পর প্রস্তুত হলেই খুলে যায়। সাবস্ক্রিপশনের অবস্থা আরও স্পষ্টভাবে দেখানো হয়, সঙ্গে যাচাই আবার চেষ্টা করার সুযোগ আছে।",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "PriceConversion",
+        "title": "দামের আরও স্পষ্ট রূপান্তর",
+        "body": "বিটকয়েন রূপান্তর ঠিক করা হয়েছে, নির্বাচিত অঙ্কগুলো আলাদা করে চেনা সহজ হয়েছে এবং স্ক্যানারে দামের লেবেল উন্নত হয়েছে। অন্য অ্যাপে নির্বাচিত লেখা কেবল সুবিধাটি ব্যবহারের অনুমতি নিশ্চিত হওয়ার পর রূপান্তরিত হয়।",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "Navigation",
+        "title": "আরও সহজ নেভিগেশন",
+        "body": "মেনুতে কেনাকাটার ঝুড়ি রূপান্তরের ইতিহাসের নিচে রয়েছে। প্রকৃত খরচের নাম এখন বিনিময় হারের তুলনা। নতুন কী রয়েছে এই অ্যাপ সম্পর্কে বিভাগের মধ্যে।",
+        "version": "1.614",
+        "published": true
+      },
+      {
         "id": "Keyboard",
         "title": "কীপ্যাডের ফন্ট ও আকার",
         "body": "সেটিংসে ক্যালকুলেটরের বোতাম নিজের মতো করে সাজান: স্ট্যান্ডার্ড, ক্লাসিক, মনোস্পেস বা গথিক ফন্ট এবং চিহ্নের তিনটি আকারের মধ্যে একটি বেছে নিন। প্রিভিউতে আপনার পছন্দ দেখা যায় এবং সেটিংস সংরক্ষিত থাকে।",
         "version": "1.613",
-        "published": false,
-        "status": "শীঘ্রই সংস্করণ 1.613-এ আসছে"
+        "published": true
       },
       {
         "id": "ProcessText",
@@ -1352,7 +2576,7 @@
       },
       {
         "id": "ActualCost",
-        "title": "প্রকৃত খরচ",
+        "title": "বিনিময় হারের তুলনা",
         "body": "বিনিময়ের শর্ত অ্যাপের রেফারেন্স হারের সঙ্গে তুলনা করুন।"
       },
       {
@@ -1371,12 +2595,46 @@
     "title": "Yang Baru",
     "cards": [
       {
+        "id": "ShoppingCart",
+        "title": "Keranjang belanja",
+        "body": "Pindai harga atau tambahkan barang secara manual. Lihat harga tiap barang dan totalnya dalam mata uang pilihan Anda. Lima penambahan gratis per hari, lalu 1 BP untuk setiap barang baru.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "Themes",
+        "title": "24 tema warna",
+        "body": "Pilih palet dari pemilih tema berbentuk kisi yang baru. Lima tema gratis; buka masing-masing dari 19 tema lainnya seharga 60 BP selamanya. Tema yang sudah dibuka tetap tersedia.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "RewardedAds",
+        "title": "BALCO Points dan iklan",
+        "body": "Iklan berhadiah kini dimuat saat Anda membuka bagian terkait dan terbuka setelah satu ketukan begitu siap. Status langganan lebih jelas, dengan opsi untuk mencoba verifikasi lagi.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "PriceConversion",
+        "title": "Konversi harga lebih jelas",
+        "body": "Konversi Bitcoin diperbaiki, jumlah yang dipilih lebih mudah dibedakan, dan label harga pada pemindai ditingkatkan. Teks yang dipilih di aplikasi lain dikonversi hanya setelah akses dikonfirmasi.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "Navigation",
+        "title": "Navigasi lebih mudah",
+        "body": "Keranjang belanja berada di bawah riwayat konversi pada menu. Biaya Aktual kini bernama Perbandingan kurs. Yang Baru berada di dalam Tentang aplikasi ini.",
+        "version": "1.614",
+        "published": true
+      },
+      {
         "id": "Keyboard",
         "title": "Font dan ukuran papan tombol",
         "body": "Sesuaikan tombol kalkulator di Setelan: pilih font standar, klasik, monospace, atau Gotik dan salah satu dari tiga ukuran simbol. Pratinjau menampilkan pilihan Anda, dan preferensi Anda disimpan.",
         "version": "1.613",
-        "published": false,
-        "status": "Segera hadir di versi 1.613"
+        "published": true
       },
       {
         "id": "ProcessText",
@@ -1390,7 +2648,7 @@
       },
       {
         "id": "ActualCost",
-        "title": "Biaya sebenarnya",
+        "title": "Perbandingan kurs",
         "body": "Bandingkan ketentuan penukaran dengan kurs referensi aplikasi."
       },
       {
@@ -1409,12 +2667,46 @@
     "title": "Apa yang Baharu",
     "cards": [
       {
+        "id": "ShoppingCart",
+        "title": "Bakul beli-belah",
+        "body": "Imbas harga atau tambah barang secara manual. Lihat harga setiap barang dan jumlah keseluruhan dalam mata wang pilihan anda. Lima penambahan percuma sehari, kemudian 1 BP bagi setiap barang baharu.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "Themes",
+        "title": "24 tema warna",
+        "body": "Pilih palet daripada pemilih grid baharu. Lima tema adalah percuma; buka setiap satu daripada 19 tema lain dengan 60 BP untuk selama-lamanya. Tema yang telah dibuka kekal tersedia.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "RewardedAds",
+        "title": "BALCO Points dan iklan",
+        "body": "Iklan ganjaran kini dimuatkan apabila anda membuka bahagian berkaitan dan dibuka selepas satu ketikan sebaik sahaja sedia. Status langganan lebih jelas, dengan pilihan untuk mencuba pengesahan semula.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "PriceConversion",
+        "title": "Penukaran harga lebih jelas",
+        "body": "Penukaran Bitcoin telah dibetulkan, amaun yang dipilih lebih mudah dibezakan dan label harga dalam pengimbas ditambah baik. Teks yang dipilih dalam aplikasi lain hanya ditukar selepas akses disahkan.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "Navigation",
+        "title": "Navigasi lebih mudah",
+        "body": "Bakul beli-belah terletak di bawah sejarah penukaran dalam menu. Kos Sebenar kini dinamakan Perbandingan kadar pertukaran. Apa yang Baharu berada dalam Mengenai aplikasi ini.",
+        "version": "1.614",
+        "published": true
+      },
+      {
         "id": "Keyboard",
         "title": "Fon dan saiz pad kekunci",
         "body": "Sesuaikan butang kalkulator dalam Tetapan: pilih fon standard, klasik, monospace atau Gotik dan salah satu daripada tiga saiz simbol. Pratonton memaparkan pilihan anda dan pilihan anda disimpan.",
         "version": "1.613",
-        "published": false,
-        "status": "Akan datang dalam versi 1.613"
+        "published": true
       },
       {
         "id": "ProcessText",
@@ -1428,7 +2720,7 @@
       },
       {
         "id": "ActualCost",
-        "title": "Kos sebenar",
+        "title": "Perbandingan kadar pertukaran",
         "body": "Bandingkan syarat pertukaran dengan kadar rujukan aplikasi."
       },
       {
@@ -1447,12 +2739,46 @@
     "title": "มีอะไรใหม่",
     "cards": [
       {
+        "id": "ShoppingCart",
+        "title": "ตะกร้าสินค้า",
+        "body": "สแกนราคาหรือเพิ่มสินค้าเอง ดูราคาของสินค้าแต่ละชิ้นและยอดรวมในสกุลเงินที่คุณเลือก เพิ่มฟรีวันละ 5 รายการ หลังจากนั้นใช้ 1 BP ต่อสินค้าใหม่หนึ่งรายการ",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "Themes",
+        "title": "ธีมสี 24 แบบ",
+        "body": "เลือกชุดสีจากตัวเลือกแบบตารางใหม่ มีธีมฟรี 5 แบบ และปลดล็อกอีก 19 แบบได้ในราคาแบบละ 60 BP เพื่อใช้ตลอดไป ธีมที่ปลดล็อกไว้แล้วยังคงใช้งานได้",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "RewardedAds",
+        "title": "BALCO Points และโฆษณา",
+        "body": "โฆษณาแบบมีรางวัลจะโหลดเมื่อคุณเปิดส่วนที่เกี่ยวข้อง และเปิดทันทีที่พร้อมหลังจากแตะเพียงครั้งเดียว สถานะการสมัครสมาชิกชัดเจนขึ้น พร้อมตัวเลือกให้ลองตรวจสอบอีกครั้ง",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "PriceConversion",
+        "title": "แปลงราคาได้ชัดเจนขึ้น",
+        "body": "แก้ไขการแปลงบิตคอยน์ ทำให้แยกจำนวนเงินที่เลือกได้ง่ายขึ้น และปรับปรุงป้ายราคาในเครื่องสแกน ข้อความที่เลือกจากแอปอื่นจะถูกแปลงหลังจากยืนยันสิทธิ์เข้าถึงฟีเจอร์แล้วเท่านั้น",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "Navigation",
+        "title": "ใช้งานเมนูได้ง่ายขึ้น",
+        "body": "ตะกร้าสินค้าอยู่ใต้ประวัติการแปลงในเมนู ต้นทุนจริงเปลี่ยนชื่อเป็นเปรียบเทียบอัตราแลกเปลี่ยน และมีอะไรใหม่อยู่ในเกี่ยวกับแอพนี้",
+        "version": "1.614",
+        "published": true
+      },
+      {
         "id": "Keyboard",
         "title": "แบบอักษรและขนาดของแป้นกด",
         "body": "ปรับแต่งปุ่มเครื่องคิดเลขในการตั้งค่า: เลือกแบบอักษรมาตรฐาน คลาสสิก ความกว้างคงที่ หรือกอทิก และเลือกขนาดสัญลักษณ์ได้สามขนาด ตัวอย่างจะแสดงสิ่งที่คุณเลือก และระบบจะบันทึกการตั้งค่าไว้",
         "version": "1.613",
-        "published": false,
-        "status": "เร็วๆ นี้ในเวอร์ชัน 1.613"
+        "published": true
       },
       {
         "id": "ProcessText",
@@ -1466,7 +2792,7 @@
       },
       {
         "id": "ActualCost",
-        "title": "ค่าใช้จ่ายจริง",
+        "title": "เปรียบเทียบอัตราแลกเปลี่ยน",
         "body": "เปรียบเทียบเงื่อนไขการแลกเปลี่ยนกับอัตราอ้างอิงของแอป"
       },
       {
@@ -1485,12 +2811,46 @@
     "title": "Có gì mới",
     "cards": [
       {
+        "id": "ShoppingCart",
+        "title": "Giỏ hàng",
+        "body": "Quét giá hoặc thêm sản phẩm thủ công. Xem giá từng sản phẩm và tổng tiền bằng loại tiền bạn chọn. Miễn phí năm lượt thêm mỗi ngày, sau đó 1 BP cho mỗi sản phẩm mới.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "Themes",
+        "title": "24 chủ đề màu sắc",
+        "body": "Chọn bảng màu từ bộ chọn dạng lưới mới. Năm chủ đề miễn phí; mở khóa vĩnh viễn từng chủ đề trong 19 chủ đề còn lại với 60 BP. Các chủ đề đã mở khóa vẫn sử dụng được.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "RewardedAds",
+        "title": "BALCO Points và quảng cáo",
+        "body": "Quảng cáo có thưởng giờ tải khi bạn mở mục tương ứng và mở ngay khi sẵn sàng sau một lần chạm. Trạng thái gói đăng ký rõ ràng hơn, kèm tùy chọn thử xác minh lại.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "PriceConversion",
+        "title": "Quy đổi giá rõ ràng hơn",
+        "body": "Đã sửa lỗi quy đổi Bitcoin, giúp phân biệt các số tiền được chọn dễ hơn và cải thiện nhãn giá trong trình quét. Văn bản được chọn trong ứng dụng khác chỉ được quy đổi sau khi xác nhận quyền truy cập tính năng.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "Navigation",
+        "title": "Điều hướng dễ dàng hơn",
+        "body": "Giỏ hàng nằm dưới lịch sử quy đổi trong menu. Chi phí thực tế nay có tên So sánh tỷ giá. Có gì mới nằm trong Giới thiệu về ứng dụng này.",
+        "version": "1.614",
+        "published": true
+      },
+      {
         "id": "Keyboard",
         "title": "Phông chữ và kích thước bàn phím",
         "body": "Tùy chỉnh các nút máy tính trong Cài đặt: chọn phông chữ tiêu chuẩn, cổ điển, đơn cách hoặc Gothic và một trong ba kích thước ký hiệu. Bản xem trước hiển thị lựa chọn của bạn và các tùy chọn được lưu lại.",
         "version": "1.613",
-        "published": false,
-        "status": "Sắp có trong phiên bản 1.613"
+        "published": true
       },
       {
         "id": "ProcessText",
@@ -1504,7 +2864,7 @@
       },
       {
         "id": "ActualCost",
-        "title": "Chi phí thực tế",
+        "title": "So sánh tỷ giá",
         "body": "So sánh điều kiện đổi tiền với tỷ giá tham chiếu của ứng dụng."
       },
       {
@@ -1523,12 +2883,46 @@
     "title": "新功能",
     "cards": [
       {
+        "id": "ShoppingCart",
+        "title": "购物车",
+        "body": "扫描价格或手动添加商品，以所选货币查看每件商品的价格和总额。每天可免费添加五次，之后每添加一件新商品需 1 BP。",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "Themes",
+        "title": "24 款配色主题",
+        "body": "在全新的网格选择器中挑选配色。五款主题免费，其余 19 款每款可用 60 BP 永久解锁。此前已解锁的主题仍可使用。",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "RewardedAds",
+        "title": "BALCO Points 与广告",
+        "body": "激励广告现在会在打开相关页面时加载，点击一次后即可在广告准备好时自动播放。订阅状态更清晰，并可重新尝试验证。",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "PriceConversion",
+        "title": "更清晰的价格换算",
+        "body": "修复了比特币换算问题，让所选金额更易区分，并改善了扫描器中的价格标签。从其他应用中选取的文本，仅在确认功能使用权限后才会换算。",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "Navigation",
+        "title": "更便捷的导航",
+        "body": "菜单中的购物车位于换算历史下方。“实际费用”现已更名为“汇率比较”。“新功能”位于“关于这个应用程序”中。",
+        "version": "1.614",
+        "published": true
+      },
+      {
         "id": "Keyboard",
         "title": "键盘字体与字号",
         "body": "在设置中自定义计算器按钮：选择标准、经典、等宽或哥特字体，以及三种符号大小之一。预览会显示您的选择，偏好设置也会保存。",
         "version": "1.613",
-        "published": false,
-        "status": "即将在 1.613 版推出"
+        "published": true
       },
       {
         "id": "ProcessText",
@@ -1542,7 +2936,7 @@
       },
       {
         "id": "ActualCost",
-        "title": "实际成本",
+        "title": "汇率比较",
         "body": "将兑换条件与应用的参考汇率进行比较。"
       },
       {
@@ -1561,12 +2955,46 @@
     "title": "最新消息",
     "cards": [
       {
+        "id": "ShoppingCart",
+        "title": "購物車",
+        "body": "掃描價格或手動新增商品，以所選貨幣查看每件商品的價格和總額。每天可免費新增五次，之後每新增一件商品需 1 BP。",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "Themes",
+        "title": "24 款配色主題",
+        "body": "在全新的格狀選擇器中挑選配色。五款主題免費，其餘 19 款每款可用 60 BP 永久解鎖。先前已解鎖的主題仍可使用。",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "RewardedAds",
+        "title": "BALCO Points 與廣告",
+        "body": "獎勵廣告現在會在開啟相關頁面時載入，點選一次後即可在廣告準備好時自動播放。訂閱狀態更清楚，並可重新嘗試驗證。",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "PriceConversion",
+        "title": "更清楚的價格換算",
+        "body": "修正了比特幣換算問題，讓所選金額更容易區分，並改善了掃描器中的價格標籤。從其他應用程式選取的文字，僅在確認功能使用權限後才會換算。",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "Navigation",
+        "title": "更便捷的導覽",
+        "body": "選單中的購物車位於換算紀錄下方。「實際費用」現已更名為「匯率比較」。「最新消息」位於「關於這個應用程式」中。",
+        "version": "1.614",
+        "published": true
+      },
+      {
         "id": "Keyboard",
         "title": "鍵盤字型與字級",
         "body": "在設定中自訂計算機按鈕：選擇標準、經典、等寬或哥德字型，以及三種符號大小之一。預覽會顯示您的選擇，偏好設定也會儲存。",
         "version": "1.613",
-        "published": false,
-        "status": "即將在 1.613 版推出"
+        "published": true
       },
       {
         "id": "ProcessText",
@@ -1580,7 +3008,7 @@
       },
       {
         "id": "ActualCost",
-        "title": "實際成本",
+        "title": "匯率比較",
         "body": "將兌換條件與應用程式的參考匯率進行比較。"
       },
       {
@@ -1599,12 +3027,46 @@
     "title": "新機能",
     "cards": [
       {
+        "id": "ShoppingCart",
+        "title": "買い物かご",
+        "body": "価格をスキャンするか、商品を手動で追加できます。各商品の価格と合計を選んだ通貨で確認できます。1日5回まで無料で追加でき、その後は新しい商品1件につき1 BPです。",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "Themes",
+        "title": "24種類のカラーテーマ",
+        "body": "新しいグリッド形式の選択画面から配色を選べます。5種類は無料で、残り19種類はそれぞれ60 BPで永久に解除できます。以前に解除したテーマも引き続き使えます。",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "RewardedAds",
+        "title": "BALCO Pointsと広告",
+        "body": "リワード広告は該当する画面を開いたときに読み込まれ、1回タップすると準備ができ次第再生されます。定期購入の状態がわかりやすくなり、確認を再試行できるようになりました。",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "PriceConversion",
+        "title": "価格換算がより明確に",
+        "body": "ビットコインの換算を修正し、選択した金額を区別しやすくしました。スキャナーの価格ラベルも改善しました。他のアプリで選択したテキストは、機能の利用権限を確認してから換算されます。",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "Navigation",
+        "title": "使いやすくなったメニュー",
+        "body": "買い物かごはメニューの換算履歴の下にあります。実際の費用は為替レート比較に名前を変更しました。新機能はこのアプリについての中にあります。",
+        "version": "1.614",
+        "published": true
+      },
+      {
         "id": "Keyboard",
         "title": "キーパッドのフォントとサイズ",
         "body": "設定で電卓ボタンをカスタマイズできます。標準、クラシック、等幅、ブラックレター（ゴシック体）のフォントと、3段階の文字サイズから選べます。プレビューで見た目を確認でき、設定は保存されます。",
         "version": "1.613",
-        "published": false,
-        "status": "バージョン1.613で近日公開"
+        "published": true
       },
       {
         "id": "ProcessText",
@@ -1618,7 +3080,7 @@
       },
       {
         "id": "ActualCost",
-        "title": "実際のコスト",
+        "title": "為替レート比較",
         "body": "両替条件をアプリの参考レートと比較します。"
       },
       {
@@ -1637,12 +3099,46 @@
     "title": "새로운 기능",
     "cards": [
       {
+        "id": "ShoppingCart",
+        "title": "장바구니",
+        "body": "가격을 스캔하거나 상품을 직접 추가하세요. 선택한 통화로 상품별 가격과 합계를 확인할 수 있습니다. 하루 다섯 번 무료로 추가할 수 있으며, 이후에는 새 상품 하나당 1 BP가 필요합니다.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "Themes",
+        "title": "24가지 색상 테마",
+        "body": "새로운 격자형 선택 화면에서 색상 조합을 고르세요. 다섯 가지 테마는 무료이며, 나머지 19가지는 각각 60 BP로 영구 이용할 수 있습니다. 이전에 잠금 해제한 테마도 계속 사용할 수 있습니다.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "RewardedAds",
+        "title": "BALCO Points와 광고",
+        "body": "이제 보상형 광고는 해당 화면을 열 때 로드되며, 한 번 누르면 준비되는 즉시 열립니다. 구독 상태가 더 명확하게 표시되고 확인을 다시 시도할 수 있습니다.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "PriceConversion",
+        "title": "더 명확한 가격 변환",
+        "body": "비트코인 변환을 수정하고, 선택한 금액을 쉽게 구분하도록 개선했으며, 스캐너의 가격 표시를 개선했습니다. 다른 앱에서 선택한 텍스트는 기능 이용 권한이 확인된 후에만 변환됩니다.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "Navigation",
+        "title": "더 편리한 메뉴",
+        "body": "장바구니는 메뉴의 변환 내역 아래에 있습니다. 실제 비용의 이름이 환율 비교로 바뀌었습니다. 새로운 기능은 이 앱 정보 안에 있습니다.",
+        "version": "1.614",
+        "published": true
+      },
+      {
         "id": "Keyboard",
         "title": "키패드 글꼴과 크기",
         "body": "설정에서 계산기 버튼을 꾸며 보세요. 기본, 클래식, 고정폭, 블랙레터(고딕) 글꼴과 세 가지 기호 크기 중에서 선택할 수 있습니다. 미리보기로 선택한 모양을 확인할 수 있으며 설정은 저장됩니다.",
         "version": "1.613",
-        "published": false,
-        "status": "버전 1.613에서 곧 제공"
+        "published": true
       },
       {
         "id": "ProcessText",
@@ -1656,7 +3152,7 @@
       },
       {
         "id": "ActualCost",
-        "title": "실제 비용",
+        "title": "환율 비교",
         "body": "환전 조건을 앱의 기준 환율과 비교하세요."
       },
       {

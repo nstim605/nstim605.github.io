@@ -4,6 +4,8 @@ import { fileURLToPath } from "node:url";
 import { escapeHtml, loadAppNews, renderNewsCards, renderNewsHeader } from "./app-news.mjs";
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
+const currentNewsOnly = process.argv.includes('--current-news-only');
+const currentNewsLastmod = '2026-10-29';
 const base = "https://balkanconverter.com";
 const play = "https://play.google.com/store/apps/details?id=io.github.nstim605.balkanconverter";
 
@@ -67,7 +69,7 @@ for (const locale of locales) {
   entry.updatesUrl = `${locale.dir ? `/${locale.dir}` : ""}/updates/`;
   entry.updateArticleUrls = {"version-1-604": `${entry.updatesUrl}version-1-604/`};
 }
-fs.writeFileSync(localeManifestPath, `${JSON.stringify(localeManifest, null, 2)}\n`);
+if (!currentNewsOnly) fs.writeFileSync(localeManifestPath, `${JSON.stringify(localeManifest, null, 2)}\n`);
 const appNews = loadAppNews(root, localeManifest);
 fs.mkdirSync(path.join(root, "updates", "data"), {recursive: true});
 fs.writeFileSync(path.join(root, "updates", "data", "app-news.json"), `${JSON.stringify(appNews, null, 2)}\n`);
@@ -85,7 +87,7 @@ for (const locale of locales) {
   const updatesDir = path.join(root, locale.dir, "updates");
   const articleDir = path.join(updatesDir, "version-1-604");
   const homepageHtml = fs.readFileSync(path.join(root, locale.dir, "index.html"), "utf8");
-  fs.mkdirSync(articleDir, {recursive: true});
+  fs.mkdirSync(currentNewsOnly ? updatesDir : articleDir, {recursive: true});
   const indexHtml = `<!doctype html>
 <html ${htmlAttrs}>
 <head>
@@ -138,7 +140,25 @@ ${alternates("version-1-604/")}
 </html>
 `;
   fs.writeFileSync(path.join(updatesDir, "index.html"), indexHtml);
-  fs.writeFileSync(path.join(articleDir, "index.html"), articleHtml);
+  if (!currentNewsOnly) fs.writeFileSync(path.join(articleDir, "index.html"), articleHtml);
+}
+
+if (currentNewsOnly) {
+  const sitemapPath = path.join(root, 'sitemap.xml');
+  const sitemap = fs.readFileSync(sitemapPath, 'utf8');
+  const currentUrls = new Set(locales.map(locale => `${base}${localePath(locale)}`));
+  let changedUrls = 0;
+  const updated = sitemap.replace(/<url>[\s\S]*?<\/url>/g, block => {
+    const url = block.match(/<loc>([^<]+)<\/loc>/)?.[1];
+    if (!currentUrls.has(url)) return block;
+    if (!/<lastmod>[^<]+<\/lastmod>/.test(block)) throw new Error(`Missing lastmod for ${url}`);
+    changedUrls += 1;
+    return block.replace(/<lastmod>[^<]+<\/lastmod>/, `<lastmod>${currentNewsLastmod}</lastmod>`);
+  });
+  if (changedUrls !== locales.length) throw new Error(`Expected ${locales.length} current update URLs, found ${changedUrls}`);
+  fs.writeFileSync(sitemapPath, updated);
+  console.log(`Generated ${locales.length} current update pages, app-news.json and their sitemap dates only.`);
+  process.exit(0);
 }
 
 const releaseCatalog = {
@@ -179,7 +199,7 @@ const sitemapAlternates = suffix => locales.map(locale => `    <xhtml:link rel="
 const updateEntries = [];
 for (const suffix of ["", "version-1-604/"]) {
   for (const locale of locales) {
-    updateEntries.push(`  <url>\n    <loc>${base}${localePath(locale, suffix)}</loc>\n    <lastmod>${suffix ? '2026-10-15' : '2026-10-24'}</lastmod>\n${sitemapAlternates(suffix)}\n  </url>`);
+    updateEntries.push(`  <url>\n    <loc>${base}${localePath(locale, suffix)}</loc>\n    <lastmod>${suffix ? '2026-10-15' : currentNewsLastmod}</lastmod>\n${sitemapAlternates(suffix)}\n  </url>`);
   }
 }
 sitemap = sitemap.replace(/\s*<\/urlset>\s*$/, `\n${updateEntries.join("\n")}\n</urlset>\n`);
