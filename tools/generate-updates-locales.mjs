@@ -2,6 +2,7 @@ import fs from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 import { escapeHtml, loadAppNews, renderNewsCards, renderNewsHeader } from "./app-news.mjs";
+import { ensureStoreLinks } from "./store-links.mjs";
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const currentNewsOnly = process.argv.includes('--current-news-only');
@@ -139,8 +140,8 @@ ${alternates("version-1-604/")}
 </body>
 </html>
 `;
-  fs.writeFileSync(path.join(updatesDir, "index.html"), indexHtml);
-  if (!currentNewsOnly) fs.writeFileSync(path.join(articleDir, "index.html"), articleHtml);
+  fs.writeFileSync(path.join(updatesDir, "index.html"), ensureStoreLinks(indexHtml));
+  if (!currentNewsOnly) fs.writeFileSync(path.join(articleDir, "index.html"), ensureStoreLinks(articleHtml));
 }
 
 if (currentNewsOnly) {

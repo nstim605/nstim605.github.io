@@ -54,7 +54,7 @@ test('mobile header exposes the primary navigation without horizontal button cro
   assert.deepEqual(linksIn(home, 'mobile-nav-menu-panel'), ['#features', '#screenshots', '/updates/', 'privacy-policy.html']);
   assert.match(home, /<details class="mobile-nav-menu">\s*<summary aria-label="Main navigation"><span aria-hidden="true">☰<\/span><\/summary>/);
   assert.match(styles, /\.mobile-nav-menu\s*\{[^}]*display:\s*none;/);
-  assert.match(styles, /@media \(max-width:\s*1230px\)[\s\S]*?\.mobile-nav-menu\s*\{[^}]*display:\s*block;/);
+  assert.match(styles, /@media \(max-width:\s*1430px\)[\s\S]*?\.mobile-nav-menu\s*\{[^}]*display:\s*block;/);
   assert.match(styles, /@media \(max-width:\s*540px\)[\s\S]*?\.brand span\s*\{[^}]*display:\s*none;/);
   assert.match(styles, /@media \(max-width:\s*420px\)[\s\S]*?\.nav-wrap, \.nav-actions\s*\{[^}]*gap:\s*7px;/);
   assert.match(script, /\.mobile-nav-menu, \.tools-menu, \.language-selector/);
@@ -68,7 +68,7 @@ test('localized desktop header labels stay on one line and collapse before they 
   assert.match(styles, /\.nav-links a\s*\{[^}]*font-size:\s*\.95rem;[^}]*white-space:\s*nowrap;/);
   assert.match(styles, /\.nav-actions\s*\{[^}]*flex:\s*0 0 auto;/);
   assert.match(styles, /\.tools-menu summary\s*\{[^}]*white-space:\s*nowrap;/);
-  assert.match(styles, /@media \(max-width:\s*1230px\)[\s\S]*?\.nav-links\s*\{[^}]*display:\s*none;/);
+  assert.match(styles, /@media \(max-width:\s*1430px\)[\s\S]*?\.nav-links\s*\{[^}]*display:\s*none;/);
 });
 
 test('tool pages retain crawlable header and secondary navigation', async () => {

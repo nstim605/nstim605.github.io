@@ -3,6 +3,7 @@ import path from 'node:path';
 import { applyAdSenseIntegration } from './adsense-integration.mjs';
 import { createRunTimestamp, writeGeneratedJson } from './generated-json.mjs';
 import { resolveToolMessages } from './tool-localization-data.mjs';
+import { ensureStoreLinks } from './store-links.mjs';
 
 const root = path.resolve(import.meta.dirname, '..');
 const androidRoot = path.resolve(process.env.ANDROID_SOURCE_ROOT || path.join(root, '..'));
@@ -186,6 +187,7 @@ function localMap(strings, copy, privacyTitle, linkCopy, resourceCopy) {
     'Ready when you are': copy.seeApp,
     'Take the converter with you': copy.ctaHeading,
     'Download BALCO Converter for Android from Google Play.': `${brand} — Google Play`,
+    'Download BALCO Converter for Android from Google Play / AppGallery.': `${brand} — Google Play / AppGallery`,
     'Currency conversion for Android': strings.about_description,
     'Footer navigation': privacyTitle,
     'Privacy Policy': privacyTitle,
@@ -602,7 +604,7 @@ function sourceStrings(html) {
 }
 
 for (const slug of toolSlugs) {
-  const standardized = standardizeEnglishToolHeader(toolTemplates[slug], slug);
+  const standardized = ensureStoreLinks(standardizeEnglishToolHeader(toolTemplates[slug], slug));
   toolTemplates[slug] = standardized;
   await fs.writeFile(path.join(root, slug, 'index.html'), standardized);
 }
@@ -655,7 +657,7 @@ for (const locale of locales) {
   const directory = path.join(root, locale.route);
   await fs.mkdir(directory, { recursive: true });
   const homePath = path.join(directory, 'index.html');
-  const homeWithLinks = ensureMobileNavigation(ensureFooterLinks(ensureFeatureIcons(home), locale));
+  const homeWithLinks = ensureStoreLinks(ensureMobileNavigation(ensureFooterLinks(ensureFeatureIcons(home), locale)));
   if (!preserved.has(locale.android) || homeWithLinks !== home) await fs.writeFile(homePath, homeWithLinks);
   if (preserveExistingPolicies) {
     const preservedPath = path.join(directory, 'privacy-policy.html');
@@ -669,13 +671,14 @@ for (const locale of locales) {
       ),
       { privacyPolicy: true }
     ), locale));
-    if (migratedPolicy !== existingPolicy) await fs.writeFile(preservedPath, migratedPolicy);
+    const policyWithStores = ensureStoreLinks(migratedPolicy);
+    if (policyWithStores !== existingPolicy) await fs.writeFile(preservedPath, policyWithStores);
   } else {
-    await fs.writeFile(path.join(directory, 'privacy-policy.html'), synchronizeHeaderWithHome(policy, homeWithLinks, locale, 'policy'));
+    await fs.writeFile(path.join(directory, 'privacy-policy.html'), ensureStoreLinks(synchronizeHeaderWithHome(policy, homeWithLinks, locale, 'policy')));
   }
   const linksDirectory = path.join(directory, 'links');
   await fs.mkdir(linksDirectory, { recursive: true });
-  const links = finalizeLinks(linksTemplate, locale, map, copy, strings);
+  const links = ensureStoreLinks(finalizeLinks(linksTemplate, locale, map, copy, strings));
   await fs.writeFile(path.join(linksDirectory, 'index.html'), synchronizeHeaderWithHome(links, homeWithLinks, locale, 'links'));
   if (!preserved.has(locale.android)) generated.push(locale.android);
   if (locale.android !== 'en') {
@@ -685,10 +688,10 @@ for (const locale of locales) {
       const toolPath = path.join(toolDirectory, 'index.html');
       await fs.mkdir(toolDirectory, { recursive: true });
       if (missingHomepage.length === 0) {
-        await fs.writeFile(toolPath, finalizeTool(toolTemplates[slug], locale, slug, mapForTool(rawMap, slug), copy, strings));
+        await fs.writeFile(toolPath, ensureStoreLinks(finalizeTool(toolTemplates[slug], locale, slug, mapForTool(rawMap, slug), copy, strings)));
       } else {
         const existingTool = await fs.readFile(toolPath, 'utf8');
-        const migratedTool = standardizeLocalizedToolHeader(ensureFooterLinks(existingTool, locale), locale, slug, copy, strings);
+        const migratedTool = ensureStoreLinks(standardizeLocalizedToolHeader(ensureFooterLinks(existingTool, locale), locale, slug, copy, strings));
         if (migratedTool !== existingTool) await fs.writeFile(toolPath, migratedTool);
       }
     }
