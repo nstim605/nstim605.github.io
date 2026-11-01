@@ -3,6 +3,14 @@
     "title": "What’s New",
     "cards": [
       {
+        "id": "CartExperience",
+        "title": "Shopping cart and feedback",
+        "body": "• More compact cart: items and totals are easier to see. • On first use of the cart: 10 free additions in the first 24 hours, then 5 per day. • Reply email is optional. Feedback is sent through your email app. • Updated Help and BP theme explanations; full license texts are available offline.",
+        "version": "1.617",
+        "published": false,
+        "statusLabel": "Coming in 1.617"
+      },
+      {
         "id": "CartContinuous",
         "title": "Scanning your shopping is easier!",
         "body": "• Add items to your cart one after another with “Add and scan next” — the camera stays open and you confirm every price yourself. • The item count and running total in your chosen currency are now shown right in the scanner. • Finished shopping? Tap “Add and open cart”.",
@@ -82,6 +90,14 @@
   "sr": {
     "title": "Шта је ново",
     "cards": [
+      {
+        "id": "CartExperience",
+        "title": "Корпа и повратне информације",
+        "body": "• Компактнија корпа: производи и укупан износ су прегледнији. • При првом коришћењу корпе: 10 бесплатних додавања у прва 24 сата, затим 5 дневно. • Имејл за одговор није обавезан. Порука се шаље преко апликације за е-пошту. • Ажурирана помоћ и објашњења тема за BP; пуни текстови лиценци доступни су без интернета.",
+        "version": "1.617",
+        "published": false,
+        "statusLabel": "Ускоро у верзији 1.617"
+      },
       {
         "id": "CartContinuous",
         "title": "Скенирање куповине је сада лакше!",
@@ -163,6 +179,14 @@
     "title": "Šta je novo",
     "cards": [
       {
+        "id": "CartExperience",
+        "title": "Korpa i povratne informacije",
+        "body": "• Kompaktnija korpa: proizvodi i ukupan iznos su pregledniji. • Pri prvom korištenju korpe: 10 besplatnih dodavanja u prva 24 sata, zatim 5 dnevno. • Email za odgovor nije obavezan. Poruka se šalje putem aplikacije za email. • Ažurirana pomoć i objašnjenja tema za BP; puni tekstovi licenci dostupni su bez interneta.",
+        "version": "1.617",
+        "published": false,
+        "statusLabel": "Uskoro u verziji 1.617"
+      },
+      {
         "id": "CartContinuous",
         "title": "Skeniranje kupovine sada je lakše!",
         "body": "• Dodajte proizvode u korpu jedan za drugim pomoću dugmeta „Dodaj i skeniraj sljedeći” — kamera ostaje otvorena, a svaku cijenu potvrđujete sami. • Broj proizvoda i trenutni ukupni iznos u odabranoj valuti sada su vidljivi direktno u skeneru. • Završili ste kupovinu? Dodirnite „Dodaj i otvori korpu”.",
@@ -242,6 +266,14 @@
   "hr": {
     "title": "Što je novo",
     "cards": [
+      {
+        "id": "CartExperience",
+        "title": "Košarica i povratne informacije",
+        "body": "• Kompaktnija košarica: proizvodi i ukupan iznos pregledniji su. • Pri prvom korištenju košarice: 10 besplatnih dodavanja u prva 24 sata, zatim 5 dnevno. • Email za odgovor nije obavezan. Poruka se šalje putem aplikacije za e-poštu. • Ažurirana pomoć i objašnjenja tema za BP; puni tekstovi licenci dostupni su bez interneta.",
+        "version": "1.617",
+        "published": false,
+        "statusLabel": "Uskoro u verziji 1.617"
+      },
       {
         "id": "CartContinuous",
         "title": "Skeniranje kupnje sada je jednostavnije!",
@@ -323,6 +355,14 @@
     "title": "Të rejat",
     "cards": [
       {
+        "id": "CartExperience",
+        "title": "Shporta dhe komentet",
+        "body": "• Shportë më kompakte: produktet dhe totali shihen më lehtë. • Në përdorimin e parë të shportës: 10 shtime falas në 24 orët e para, pastaj 5 në ditë. • Emaili për përgjigje është opsional. Komentet dërgohen përmes aplikacionit të emailit. • Ndihmë dhe sqarime të përditësuara për temat me BP; tekstet e plota të licencave janë të disponueshme pa internet.",
+        "version": "1.617",
+        "published": false,
+        "statusLabel": "Së shpejti në versionin 1.617"
+      },
+      {
         "id": "CartContinuous",
         "title": "Skanimi i blerjeve është më i lehtë!",
         "body": "• Shtoni produktet në shportë njëri pas tjetrit me “Shto dhe skano tjetrin” — kamera qëndron e hapur dhe çdo çmim e konfirmoni vetë. • Numri i produkteve dhe totali aktual në monedhën e zgjedhur shfaqen tani drejtpërdrejt në skaner. • Përfunduat blerjet? Prekni “Shto dhe hap shportën”.",
@@ -402,6 +442,14 @@
   "mk": {
     "title": "Што има ново",
     "cards": [
+      {
+        "id": "CartExperience",
+        "title": "Кошничка и повратни информации",
+        "body": "• Покомпактна кошничка: производите и вкупниот износ се попрегледни. • При првото користење на кошничката: 10 бесплатни додавања во првите 24 часа, потоа 5 дневно. • Е-поштата за одговор не е задолжителна. Пораката се испраќа преку апликација за е-пошта. • Ажурирани помош и објаснувања за темите со BP; целосните лиценци се достапни без интернет.",
+        "version": "1.617",
+        "published": false,
+        "statusLabel": "Наскоро во верзијата 1.617"
+      },
       {
         "id": "CartContinuous",
         "title": "Скенирањето на купувањата е полесно!",
@@ -483,6 +531,14 @@
     "title": "Какво е новото",
     "cards": [
       {
+        "id": "CartExperience",
+        "title": "Количка и обратна връзка",
+        "body": "• По-компактна количка: продуктите и общата сума се виждат по-ясно. • При първо използване на количката: 10 безплатни добавяния през първите 24 часа, след това 5 на ден. • Имейлът за отговор е незадължителен. Отзивът се изпраща чрез приложението за имейл. • Обновени помощ и пояснения за темите с BP; пълните текстове на лицензите са достъпни офлайн.",
+        "version": "1.617",
+        "published": false,
+        "statusLabel": "Очаквайте във версия 1.617"
+      },
+      {
         "id": "CartContinuous",
         "title": "Сканирането на покупките е по-лесно!",
         "body": "• Добавяйте продукти в кошницата един след друг с „Добави и сканирай следващия“ — камерата остава отворена, а всяка цена потвърждавате сами. • Броят на продуктите и текущата обща сума в избраната валута вече се виждат направо в скенера. • Приключихте с покупките? Докоснете „Добави и отвори количката“.",
@@ -562,6 +618,14 @@
   "ro": {
     "title": "Noutăți",
     "cards": [
+      {
+        "id": "CartExperience",
+        "title": "Coșul și feedbackul",
+        "body": "• Coș mai compact: produsele și totalul sunt mai ușor de văzut. • La prima utilizare a coșului: 10 adăugări gratuite în primele 24 de ore, apoi 5 pe zi. • Emailul pentru răspuns este opțional. Feedbackul se trimite prin aplicația de email. • Ajutor și explicații actualizate pentru temele cu BP; textele complete ale licențelor sunt disponibile offline.",
+        "version": "1.617",
+        "published": false,
+        "statusLabel": "În curând în versiunea 1.617"
+      },
       {
         "id": "CartContinuous",
         "title": "Scanarea cumpărăturilor este mai simplă!",
@@ -643,6 +707,14 @@
     "title": "Újdonságok",
     "cards": [
       {
+        "id": "CartExperience",
+        "title": "Kosár és visszajelzés",
+        "body": "• Kompaktabb kosár: a termékek és a végösszeg jobban láthatók. • A kosár első használatakor: 10 ingyenes hozzáadás az első 24 órában, utána napi 5. • A válaszhoz megadott email nem kötelező. A visszajelzést a levelezőalkalmazás küldi el. • Frissült a súgó és a BP-témák leírása; a teljes licencszövegek offline is elérhetők.",
+        "version": "1.617",
+        "published": false,
+        "statusLabel": "Hamarosan az 1.617-os verzióban"
+      },
+      {
         "id": "CartContinuous",
         "title": "Egyszerűbb lett a vásárlások beolvasása!",
         "body": "• A „Hozzáadás és következő beolvasása” gombbal egymás után tehetsz termékeket a kosárba — a kamera nyitva marad, és minden árat te erősítesz meg. • A termékek száma és az aktuális végösszeg a választott pénznemben már közvetlenül a beolvasóban látható. • Végeztél a vásárlással? Koppints a „Hozzáadás és kosár megnyitása” gombra.",
@@ -722,6 +794,14 @@
   "pl": {
     "title": "Co nowego",
     "cards": [
+      {
+        "id": "CartExperience",
+        "title": "Koszyk i opinie",
+        "body": "• Bardziej kompaktowy koszyk: produkty i suma są lepiej widoczne. • Przy pierwszym użyciu koszyka: 10 bezpłatnych dodań przez pierwsze 24 godziny, potem 5 dziennie. • Email do odpowiedzi jest opcjonalny. Opinia jest wysyłana przez aplikację pocztową. • Zaktualizowana pomoc i objaśnienia motywów za BP; pełne teksty licencji są dostępne offline.",
+        "version": "1.617",
+        "published": false,
+        "statusLabel": "Wkrótce w wersji 1.617"
+      },
       {
         "id": "CartContinuous",
         "title": "Skanowanie zakupów jest teraz wygodniejsze!",
@@ -803,6 +883,14 @@
     "title": "Co je nového",
     "cards": [
       {
+        "id": "CartExperience",
+        "title": "Košík a zpětná vazba",
+        "body": "• Kompaktnější košík: zboží a celková cena jsou lépe vidět. • Při prvním použití košíku: 10 bezplatných přidání během prvních 24 hodin, pak 5 denně. • Email pro odpověď je volitelný. Zpětná vazba se odesílá přes emailovou aplikaci. • Aktualizovaná nápověda a vysvětlení motivů za BP; úplné texty licencí jsou dostupné offline.",
+        "version": "1.617",
+        "published": false,
+        "statusLabel": "Již brzy ve verzi 1.617"
+      },
+      {
         "id": "CartContinuous",
         "title": "Skenování nákupu je teď pohodlnější!",
         "body": "• Přidávejte zboží do košíku jedno po druhém tlačítkem „Přidat a naskenovat další“ — fotoaparát zůstane otevřený a každou cenu potvrdíte sami. • Počet položek a průběžný součet ve zvolené měně nyní uvidíte přímo ve skeneru. • Máte nakoupeno? Klepněte na „Přidat a otevřít košík“.",
@@ -882,6 +970,14 @@
   "sk": {
     "title": "Čo je nové",
     "cards": [
+      {
+        "id": "CartExperience",
+        "title": "Košík a spätná väzba",
+        "body": "• Kompaktnejší košík: tovar a celková cena sú lepšie viditeľné. • Pri prvom použití košíka: 10 bezplatných pridaní počas prvých 24 hodín, potom 5 denne. • Email na odpoveď je nepovinný. Spätná väzba sa odosiela cez emailovú aplikáciu. • Aktualizovaný pomocník a vysvetlenia tém za BP; úplné texty licencií sú dostupné offline.",
+        "version": "1.617",
+        "published": false,
+        "statusLabel": "Už čoskoro vo verzii 1.617"
+      },
       {
         "id": "CartContinuous",
         "title": "Skenovanie nákupu je teraz pohodlnejšie!",
@@ -963,6 +1059,14 @@
     "title": "Novosti",
     "cards": [
       {
+        "id": "CartExperience",
+        "title": "Košarica in povratne informacije",
+        "body": "• Bolj strnjena košarica: izdelki in skupni znesek so bolj pregledni. • Ob prvi uporabi košarice: 10 brezplačnih dodajanj v prvih 24 urah, nato 5 na dan. • Email za odgovor ni obvezen. Sporočilo se pošlje prek emailne aplikacije. • Posodobljena pomoč in pojasnila tem za BP; celotna besedila licenc so na voljo brez interneta.",
+        "version": "1.617",
+        "published": false,
+        "statusLabel": "Kmalu v različici 1.617"
+      },
+      {
         "id": "CartContinuous",
         "title": "Skeniranje nakupov je zdaj preprostejše!",
         "body": "• Izdelke dodajajte v košarico enega za drugim z gumbom »Dodaj in skeniraj naslednjega« — kamera ostane odprta, vsako ceno pa potrdite sami. • Število izdelkov in trenutni skupni znesek v izbrani valuti sta zdaj prikazana neposredno v bralniku. • Ste končali z nakupovanjem? Tapnite »Dodaj in odpri košarico«.",
@@ -1042,6 +1146,14 @@
   "de": {
     "title": "Neuigkeiten",
     "cards": [
+      {
+        "id": "CartExperience",
+        "title": "Warenkorb und Feedback",
+        "body": "• Kompakterer Warenkorb: Artikel und Gesamtsumme sind besser sichtbar. • Bei erster Nutzung des Warenkorbs: 10 kostenlose Ergänzungen in den ersten 24 Stunden, danach 5 täglich. • Die Antwort-E-Mail ist optional. Feedback wird über die E-Mail-App gesendet. • Aktualisierte Hilfe und Erläuterungen zu BP-Themen; vollständige Lizenztexte sind offline verfügbar.",
+        "version": "1.617",
+        "published": false,
+        "statusLabel": "Demnächst in Version 1.617"
+      },
       {
         "id": "CartContinuous",
         "title": "Einkäufe jetzt bequemer scannen!",
@@ -1123,6 +1235,14 @@
     "title": "Nouveautés",
     "cards": [
       {
+        "id": "CartExperience",
+        "title": "Panier et commentaires",
+        "body": "• Panier plus compact : articles et total sont plus visibles. • À la première utilisation du panier : 10 ajouts gratuits en 24 heures, puis 5 par jour. • L’email de réponse est facultatif. Les commentaires sont envoyés via votre application de messagerie. • Aide et explications des thèmes BP mises à jour ; textes complets des licences disponibles hors ligne.",
+        "version": "1.617",
+        "published": false,
+        "statusLabel": "Bientôt dans la version 1.617"
+      },
+      {
         "id": "CartContinuous",
         "title": "Scanner vos achats devient plus simple !",
         "body": "• Ajoutez les articles au panier à la suite avec « Ajouter et scanner le suivant » — la caméra reste ouverte et vous confirmez chaque prix. • Le nombre d’articles et le total en cours dans la devise choisie s’affichent désormais directement dans le scanner. • Vos achats sont terminés ? Appuyez sur « Ajouter et ouvrir le panier ».",
@@ -1202,6 +1322,14 @@
   "it": {
     "title": "Novità",
     "cards": [
+      {
+        "id": "CartExperience",
+        "title": "Carrello e feedback",
+        "body": "• Carrello più compatto: articoli e totale sono più visibili. • Al primo utilizzo del carrello: 10 aggiunte gratuite nelle prime 24 ore, poi 5 al giorno. • L’email per la risposta è facoltativa. Il feedback viene inviato tramite l’app di posta. • Guida e spiegazioni dei temi BP aggiornate; testi completi delle licenze disponibili offline.",
+        "version": "1.617",
+        "published": false,
+        "statusLabel": "In arrivo nella versione 1.617"
+      },
       {
         "id": "CartContinuous",
         "title": "Scansionare la spesa è più semplice!",
@@ -1283,6 +1411,14 @@
     "title": "Novedades",
     "cards": [
       {
+        "id": "CartExperience",
+        "title": "Cesta y comentarios",
+        "body": "• Cesta más compacta: los productos y el total se ven mejor. • Al usar la cesta por primera vez: 10 adiciones gratis en las primeras 24 horas, después 5 al día. • El email de respuesta es opcional. Los comentarios se envían desde tu aplicación de correo. • Ayuda y explicaciones de los temas con BP actualizadas; licencias completas disponibles sin conexión.",
+        "version": "1.617",
+        "published": false,
+        "statusLabel": "Próximamente en la versión 1.617"
+      },
+      {
         "id": "CartContinuous",
         "title": "¡Escanear tus compras es más cómodo!",
         "body": "• Añade productos al carrito uno tras otro con «Añadir y escanear el siguiente»: la cámara permanece abierta y tú confirmas cada precio. • Ahora puedes ver el número de productos y el total acumulado en la moneda elegida directamente en el escáner. • ¿Has terminado la compra? Pulsa «Añadir y abrir la cesta».",
@@ -1362,6 +1498,14 @@
   "es-419": {
     "title": "Novedades",
     "cards": [
+      {
+        "id": "CartExperience",
+        "title": "Carrito y comentarios",
+        "body": "• Carrito más compacto: los productos y el total se ven mejor. • Al usar el carrito por primera vez: 10 adiciones gratis en las primeras 24 horas, después 5 al día. • El email de respuesta es opcional. Los comentarios se envían desde tu app de correo. • Ayuda y explicaciones de los temas con BP actualizadas; licencias completas disponibles sin conexión.",
+        "version": "1.617",
+        "published": false,
+        "statusLabel": "Próximamente en la versión 1.617"
+      },
       {
         "id": "CartContinuous",
         "title": "¡Escanear tus compras es más fácil!",
@@ -1443,6 +1587,14 @@
     "title": "Novidades",
     "cards": [
       {
+        "id": "CartExperience",
+        "title": "Carrinho e feedback",
+        "body": "• Carrinho mais compacto: produtos e total ficam mais visíveis. • No primeiro uso do carrinho: 10 adições grátis nas primeiras 24 horas, depois 5 por dia. • O email para resposta é opcional. O feedback é enviado pelo aplicativo de email. • Ajuda e explicações dos temas com BP atualizadas; textos completos das licenças disponíveis offline.",
+        "version": "1.617",
+        "published": false,
+        "statusLabel": "Em breve na versão 1.617"
+      },
+      {
         "id": "CartContinuous",
         "title": "Escanear suas compras ficou mais fácil!",
         "body": "• Adicione produtos ao carrinho em sequência com “Adicionar e escanear o próximo”: a câmera continua aberta e você confirma cada preço. • A quantidade de produtos e o total atualizado na moeda escolhida agora aparecem diretamente no scanner. • Terminou as compras? Toque em “Adicionar e abrir o carrinho”.",
@@ -1522,6 +1674,14 @@
   "pt-PT": {
     "title": "Novidades",
     "cards": [
+      {
+        "id": "CartExperience",
+        "title": "Carrinho e comentários",
+        "body": "• Carrinho mais compacto: produtos e total ficam mais visíveis. • Na primeira utilização do carrinho: 10 adições grátis nas primeiras 24 horas, depois 5 por dia. • O email para resposta é opcional. Os comentários são enviados pela aplicação de email. • Ajuda e explicações dos temas com BP atualizadas; textos completos das licenças disponíveis offline.",
+        "version": "1.617",
+        "published": false,
+        "statusLabel": "Em breve na versão 1.617"
+      },
       {
         "id": "CartContinuous",
         "title": "Digitalizar as compras ficou mais fácil!",
@@ -1603,6 +1763,14 @@
     "title": "Wat is er nieuw",
     "cards": [
       {
+        "id": "CartExperience",
+        "title": "Winkelmandje en feedback",
+        "body": "• Compacter winkelmandje: artikelen en totaal zijn beter zichtbaar. • Bij het eerste gebruik: 10 gratis toevoegingen aan het mandje in de eerste 24 uur, daarna 5 per dag. • Een antwoordmailadres is optioneel. Feedback wordt via je mailapp verstuurd. • Hulp en uitleg over BP-thema’s bijgewerkt; volledige licentieteksten zijn offline beschikbaar.",
+        "version": "1.617",
+        "published": false,
+        "statusLabel": "Binnenkort in versie 1.617"
+      },
+      {
         "id": "CartContinuous",
         "title": "Boodschappen scannen gaat nu makkelijker!",
         "body": "• Voeg artikelen achter elkaar toe aan je winkelmandje met ‘Toevoegen en volgende scannen’ — de camera blijft open en je bevestigt elke prijs zelf. • Het aantal artikelen en het lopende totaal in je gekozen valuta zijn nu direct in de scanner zichtbaar. • Klaar met winkelen? Tik op ‘Toevoegen en winkelmand openen’.",
@@ -1682,6 +1850,14 @@
   "da": {
     "title": "Nyheder",
     "cards": [
+      {
+        "id": "CartExperience",
+        "title": "Indkøbskurv og feedback",
+        "body": "• Mere kompakt kurv: varer og totalbeløb er lettere at se. • Ved første brug af kurven: 10 gratis tilføjelser i de første 24 timer, derefter 5 om dagen. • Email til svar er valgfri. Feedback sendes via din mailapp. • Opdateret hjælp og forklaringer om BP-temaer; fulde licenstekster er tilgængelige offline.",
+        "version": "1.617",
+        "published": false,
+        "statusLabel": "Kommer i version 1.617"
+      },
       {
         "id": "CartContinuous",
         "title": "Det er blevet nemmere at scanne indkøb!",
@@ -1763,6 +1939,14 @@
     "title": "Nyheter",
     "cards": [
       {
+        "id": "CartExperience",
+        "title": "Varukorg och feedback",
+        "body": "• Kompaktare varukorg: varor och totalsumma syns tydligare. • Första gången du använder varukorgen: 10 gratis tillägg under de första 24 timmarna, sedan 5 per dag. • E-post för svar är valfri. Feedback skickas via din e-postapp. • Uppdaterad hjälp och förklaringar av BP-teman; fullständiga licenstexter finns offline.",
+        "version": "1.617",
+        "published": false,
+        "statusLabel": "Kommer i version 1.617"
+      },
+      {
         "id": "CartContinuous",
         "title": "Nu är det enklare att skanna dina inköp!",
         "body": "• Lägg till varor i kundvagnen efter varandra med ”Lägg till och skanna nästa” — kameran förblir öppen och du bekräftar själv varje pris. • Antalet varor och den löpande summan i din valda valuta visas nu direkt i skannern. • Har du handlat klart? Tryck på ”Lägg till och öppna varukorgen”.",
@@ -1842,6 +2026,14 @@
   "nb": {
     "title": "Nyheter",
     "cards": [
+      {
+        "id": "CartExperience",
+        "title": "Handlekurv og tilbakemeldinger",
+        "body": "• Mer kompakt kurv: varer og totalsum er lettere å se. • Ved første bruk av kurven: 10 gratis tillegg de første 24 timene, deretter 5 per dag. • E-post for svar er valgfritt. Tilbakemeldinger sendes via e-postappen din. • Oppdatert hjelp og forklaringer om BP-temaer; fullstendige lisenstekster er tilgjengelige frakoblet.",
+        "version": "1.617",
+        "published": false,
+        "statusLabel": "Kommer i versjon 1.617"
+      },
       {
         "id": "CartContinuous",
         "title": "Det er blitt enklere å skanne innkjøp!",
@@ -1923,6 +2115,14 @@
     "title": "Uutta",
     "cards": [
       {
+        "id": "CartExperience",
+        "title": "Ostoskori ja palaute",
+        "body": "• Tiiviimpi ostoskori: tuotteet ja loppusumma näkyvät paremmin. • Ostoskorin ensimmäisellä käyttökerralla: 10 ilmaista lisäystä ensimmäisten 24 tunnin aikana, sitten 5 päivässä. • Vastaussähköposti on vapaaehtoinen. Palaute lähetetään sähköpostisovelluksella. • Ohje ja BP-teemojen selitykset päivitetty; täydet lisenssitekstit ovat saatavilla ilman verkkoyhteyttä.",
+        "version": "1.617",
+        "published": false,
+        "statusLabel": "Tulossa versiossa 1.617"
+      },
+      {
         "id": "CartContinuous",
         "title": "Ostosten skannaaminen on nyt helpompaa!",
         "body": "• Lisää tuotteita ostoskoriin peräkkäin painikkeella ”Lisää ja skannaa seuraava” — kamera pysyy auki ja vahvistat jokaisen hinnan itse. • Tuotteiden määrä ja kertyvä yhteissumma valitussa valuutassa näkyvät nyt suoraan skannerissa. • Ostokset tehty? Napauta ”Lisää ja avaa ostoskori”.",
@@ -2002,6 +2202,14 @@
   "is": {
     "title": "Nýtt",
     "cards": [
+      {
+        "id": "CartExperience",
+        "title": "Karfa og ábendingar",
+        "body": "• Þéttari karfa: vörur og heildarverð sjást betur. • Við fyrstu notkun körfunnar: 10 ókeypis viðbætur fyrstu 24 klukkustundirnar, síðan 5 á dag. • Netfang fyrir svar er valfrjálst. Ábendingar eru sendar með tölvupóstforritinu þínu. • Uppfærð hjálp og skýringar á BP-þemum; leyfistextar í heild eru aðgengilegir án nettengingar.",
+        "version": "1.617",
+        "published": false,
+        "statusLabel": "Væntanlegt í útgáfu 1.617"
+      },
       {
         "id": "CartContinuous",
         "title": "Nú er auðveldara að skanna innkaupin!",
@@ -2083,6 +2291,14 @@
     "title": "Τι νέο υπάρχει",
     "cards": [
       {
+        "id": "CartExperience",
+        "title": "Καλάθι και σχόλια",
+        "body": "• Πιο συμπαγές καλάθι: προϊόντα και σύνολο φαίνονται καλύτερα. • Στην πρώτη χρήση του καλαθιού: 10 δωρεάν προσθήκες στις πρώτες 24 ώρες, μετά 5 την ημέρα. • Το email απάντησης είναι προαιρετικό. Τα σχόλια στέλνονται μέσω της εφαρμογής email. • Ενημερώθηκαν η βοήθεια και οι εξηγήσεις για θέματα με BP· πλήρεις άδειες διαθέσιμες εκτός σύνδεσης.",
+        "version": "1.617",
+        "published": false,
+        "statusLabel": "Έρχεται στην έκδοση 1.617"
+      },
+      {
         "id": "CartContinuous",
         "title": "Η σάρωση των αγορών έγινε ευκολότερη!",
         "body": "• Προσθέστε προϊόντα στο καλάθι διαδοχικά με το «Προσθήκη και σάρωση επόμενου» — η κάμερα μένει ανοιχτή και επιβεβαιώνετε κάθε τιμή. • Ο αριθμός των προϊόντων και το τρέχον σύνολο στο επιλεγμένο νόμισμα εμφανίζονται πλέον απευθείας στον σαρωτή. • Ολοκληρώσατε τις αγορές; Πατήστε «Προσθήκη και άνοιγμα καλαθιού».",
@@ -2162,6 +2378,14 @@
   "tr": {
     "title": "Yenilikler",
     "cards": [
+      {
+        "id": "CartExperience",
+        "title": "Alışveriş sepeti ve geri bildirim",
+        "body": "• Daha kompakt sepet: ürünler ve toplam tutar daha net görünür. • Sepetin ilk kullanımında: ilk 24 saatte 10 ücretsiz ekleme, ardından günde 5. • Yanıt e-postası isteğe bağlıdır. Geri bildirim e-posta uygulamanızla gönderilir. • Yardım ve BP teması açıklamaları güncellendi; lisansların tam metinleri çevrimdışı kullanılabilir.",
+        "version": "1.617",
+        "published": false,
+        "statusLabel": "Yakında 1.617 sürümünde"
+      },
       {
         "id": "CartContinuous",
         "title": "Alışverişleri taramak artık daha kolay!",
@@ -2243,6 +2467,14 @@
     "title": "Что нового",
     "cards": [
       {
+        "id": "CartExperience",
+        "title": "Корзина и обратная связь",
+        "body": "• Корзина стала компактнее: товары и итог лучше видны. • При первом использовании корзины — 10 бесплатных добавлений за первые 24 часа, затем 5 в день. • Email для ответа необязателен. Отзыв отправляется через почтовое приложение. • Обновили справку и пояснения к темам за BP; полные тексты лицензий доступны без интернета.",
+        "version": "1.617",
+        "published": false,
+        "statusLabel": "Готовится обновление 1.617"
+      },
+      {
         "id": "CartContinuous",
         "title": "Покупки сканировать стало удобнее!",
         "body": "• Добавляйте товары в корзину подряд с кнопкой «Добавить и сканировать следующий» — камера остаётся открытой, каждую цену вы подтверждаете сами. • Количество товаров и текущий итог в выбранной валюте теперь видны прямо в сканере. • Закончили покупки? Нажмите «Добавить и открыть корзину».",
@@ -2322,6 +2554,14 @@
   "uk": {
     "title": "Що нового",
     "cards": [
+      {
+        "id": "CartExperience",
+        "title": "Кошик і зворотний зв’язок",
+        "body": "• Кошик став компактнішим: товари й підсумок краще видно. • При першому використанні кошика — 10 безкоштовних додавань за перші 24 години, потім 5 на день. • Email для відповіді необов’язковий. Відгук надсилається через поштовий застосунок. • Оновлено довідку та пояснення тем за BP; повні тексти ліцензій доступні без інтернету.",
+        "version": "1.617",
+        "published": false,
+        "statusLabel": "Готується оновлення 1.617"
+      },
       {
         "id": "CartContinuous",
         "title": "Сканувати покупки стало зручніше!",
@@ -2403,6 +2643,14 @@
     "title": "ما الجديد",
     "cards": [
       {
+        "id": "CartExperience",
+        "title": "سلة التسوق والملاحظات",
+        "body": "• سلة أكثر اختصارًا: المنتجات والمجموع أوضح. • عند أول استخدام للسلة: 10 إضافات مجانية خلال أول 24 ساعة، ثم 5 يوميًا. • بريد الرد اختياري. تُرسل الملاحظات عبر تطبيق البريد الإلكتروني. • تحديث المساعدة وشرح السمات مقابل BP؛ نصوص التراخيص الكاملة متاحة دون إنترنت.",
+        "version": "1.617",
+        "published": false,
+        "statusLabel": "قريبًا في الإصدار 1.617"
+      },
+      {
         "id": "CartContinuous",
         "title": "أصبح مسح مشترياتك أسهل!",
         "body": "• أضف المنتجات إلى السلة تباعًا باستخدام «إضافة ومسح المنتج التالي» — تبقى الكاميرا مفتوحة وتؤكد كل سعر بنفسك. • يظهر الآن عدد المنتجات والمجموع الحالي بالعملة التي اخترتها مباشرةً في الماسح. • انتهيت من التسوق؟ اضغط على «إضافة وفتح السلة».",
@@ -2482,6 +2730,14 @@
   "he": {
     "title": "מה חדש",
     "cards": [
+      {
+        "id": "CartExperience",
+        "title": "סל קניות ומשוב",
+        "body": "• סל קומפקטי יותר: קל יותר לראות את הפריטים והסכום הכולל. • בשימוש הראשון בסל: 10 הוספות בחינם ב־24 השעות הראשונות, ואז 5 ביום. • כתובת אימייל לתשובה אינה חובה. המשוב נשלח דרך אפליקציית האימייל. • עודכנו העזרה וההסברים על ערכות נושא תמורת BP; נוסחי הרישיונות המלאים זמינים ללא אינטרנט.",
+        "version": "1.617",
+        "published": false,
+        "statusLabel": "בקרוב בגרסה 1.617"
+      },
       {
         "id": "CartContinuous",
         "title": "עכשיו קל יותר לסרוק את הקניות!",
@@ -2563,6 +2819,14 @@
     "title": "تازه‌ها",
     "cards": [
       {
+        "id": "CartExperience",
+        "title": "سبد خرید و بازخورد",
+        "body": "• سبد جمع‌وجورتر: کالاها و جمع کل بهتر دیده می‌شوند. • در اولین استفاده از سبد: 10 افزودن رایگان در 24 ساعت اول، سپس روزی 5 بار. • ایمیل پاسخ اختیاری است. بازخورد از طریق برنامه ایمیل ارسال می‌شود. • راهنما و توضیحات پوسته‌های BP به‌روز شد؛ متن کامل مجوزها آفلاین در دسترس است.",
+        "version": "1.617",
+        "published": false,
+        "statusLabel": "به‌زودی در نسخهٔ 1.617"
+      },
+      {
         "id": "CartContinuous",
         "title": "اسکن خریدها آسان‌تر شد!",
         "body": "• با «افزودن و اسکن کالای بعدی» کالاها را پشت سر هم به سبد اضافه کنید — دوربین باز می‌ماند و هر قیمت را خودتان تأیید می‌کنید. • تعداد کالاها و مجموع فعلی به ارز انتخابی اکنون مستقیماً در اسکنر نمایش داده می‌شوند. • خریدتان تمام شد؟ روی «افزودن و باز کردن سبد» بزنید.",
@@ -2642,6 +2906,14 @@
   "ur": {
     "title": "نیا کیا ہے",
     "cards": [
+      {
+        "id": "CartExperience",
+        "title": "خریداری کی ٹوکری اور رائے",
+        "body": "• ٹوکری اب مختصر ہے: اشیا اور کل رقم زیادہ واضح ہیں۔ • ٹوکری کے پہلے استعمال پر: پہلے 24 گھنٹوں میں 10 بار مفت اضافہ، پھر روزانہ 5 بار۔ • جواب کے لیے ای میل اختیاری ہے۔ رائے آپ کی ای میل ایپ سے بھیجی جاتی ہے۔ • مدد اور BP تھیمز کی وضاحتیں اپ ڈیٹ؛ لائسنس کے مکمل متن آف لائن دستیاب ہیں۔",
+        "version": "1.617",
+        "published": false,
+        "statusLabel": "جلد ورژن 1.617 میں"
+      },
       {
         "id": "CartContinuous",
         "title": "خریداری اسکین کرنا اب زیادہ آسان ہے!",
@@ -2723,6 +2995,14 @@
     "title": "नया क्या है",
     "cards": [
       {
+        "id": "CartExperience",
+        "title": "खरीदारी की टोकरी और सुझाव",
+        "body": "• टोकरी अब छोटी और व्यवस्थित है: सामान और कुल राशि अधिक साफ़ दिखते हैं। • टोकरी के पहले इस्तेमाल पर: पहले 24 घंटों में 10 बार मुफ़्त जोड़ें, फिर रोज़ 5 बार। • जवाब के लिए ईमेल देना वैकल्पिक है। सुझाव आपके ईमेल ऐप से भेजे जाते हैं। • सहायता और BP थीम की जानकारी अपडेट की गई; लाइसेंस के पूरे पाठ ऑफ़लाइन उपलब्ध हैं।",
+        "version": "1.617",
+        "published": false,
+        "statusLabel": "जल्द आ रहा है संस्करण 1.617"
+      },
+      {
         "id": "CartContinuous",
         "title": "खरीदारी स्कैन करना अब और आसान!",
         "body": "• “जोड़ें और अगला उत्पाद स्कैन करें” से सामान एक के बाद एक कार्ट में जोड़ें — कैमरा खुला रहता है और हर कीमत की पुष्टि आप खुद करते हैं। • सामान की संख्या और चुनी गई मुद्रा में अब तक का कुल मूल्य अब सीधे स्कैनर में दिखता है। • खरीदारी पूरी हुई? “जोड़ें और कार्ट खोलें” पर टैप करें।",
@@ -2802,6 +3082,14 @@
   "bn": {
     "title": "নতুন কী",
     "cards": [
+      {
+        "id": "CartExperience",
+        "title": "কেনাকাটার ঝুড়ি ও মতামত",
+        "body": "• ঝুড়ি এখন আরও সংক্ষিপ্ত: পণ্য ও মোট দাম সহজে দেখা যায়। • ঝুড়ির প্রথম ব্যবহারে: প্রথম 24 ঘণ্টায় 10 বার বিনামূল্যে যোগ করুন, তারপর দিনে 5 বার। • উত্তরের জন্য ইমেইল দেওয়া ঐচ্ছিক। মতামত আপনার ইমেইল অ্যাপ দিয়ে পাঠানো হয়। • সহায়তা ও BP থিমের ব্যাখ্যা আপডেট করা হয়েছে; লাইসেন্সের সম্পূর্ণ পাঠ অফলাইনে পাওয়া যায়।",
+        "version": "1.617",
+        "published": false,
+        "statusLabel": "শীঘ্রই আসছে সংস্করণ 1.617"
+      },
       {
         "id": "CartContinuous",
         "title": "কেনাকাটা স্ক্যান করা এখন আরও সহজ!",
@@ -2883,6 +3171,14 @@
     "title": "Yang Baru",
     "cards": [
       {
+        "id": "CartExperience",
+        "title": "Keranjang dan masukan",
+        "body": "• Keranjang lebih ringkas: barang dan total lebih mudah dilihat. • Saat pertama memakai keranjang: 10 penambahan gratis dalam 24 jam pertama, lalu 5 per hari. • Email balasan bersifat opsional. Masukan dikirim melalui aplikasi email Anda. • Bantuan dan penjelasan tema BP diperbarui; teks lisensi lengkap tersedia offline.",
+        "version": "1.617",
+        "published": false,
+        "statusLabel": "Segera hadir di versi 1.617"
+      },
+      {
         "id": "CartContinuous",
         "title": "Memindai belanjaan kini lebih mudah!",
         "body": "• Tambahkan barang ke keranjang secara berurutan dengan “Tambah dan pindai berikutnya” — kamera tetap terbuka dan setiap harga Anda konfirmasi sendiri. • Jumlah barang dan total berjalan dalam mata uang pilihan kini terlihat langsung di pemindai. • Selesai berbelanja? Ketuk “Tambah dan buka keranjang”.",
@@ -2962,6 +3258,14 @@
   "ms": {
     "title": "Apa yang Baharu",
     "cards": [
+      {
+        "id": "CartExperience",
+        "title": "Troli dan maklum balas",
+        "body": "• Troli lebih padat: barangan dan jumlah lebih mudah dilihat. • Pada penggunaan pertama troli: 10 penambahan percuma dalam 24 jam pertama, kemudian 5 sehari. • Email untuk balasan adalah pilihan. Maklum balas dihantar melalui aplikasi email anda. • Bantuan dan penjelasan tema BP dikemas kini; teks lesen penuh tersedia di luar talian.",
+        "version": "1.617",
+        "published": false,
+        "statusLabel": "Akan datang dalam versi 1.617"
+      },
       {
         "id": "CartContinuous",
         "title": "Mengimbas barangan kini lebih mudah!",
@@ -3043,6 +3347,14 @@
     "title": "มีอะไรใหม่",
     "cards": [
       {
+        "id": "CartExperience",
+        "title": "ตะกร้าสินค้าและความคิดเห็น",
+        "body": "• ตะกร้ากระชับขึ้น มองเห็นสินค้าและยอดรวมได้ง่ายขึ้น • เมื่อใช้ตะกร้าครั้งแรก เพิ่มสินค้าฟรี 10 ครั้งใน 24 ชั่วโมงแรก จากนั้นวันละ 5 ครั้ง • ไม่จำเป็นต้องกรอกอีเมลสำหรับตอบกลับ ส่งความคิดเห็นผ่านแอปอีเมลของคุณ • อัปเดตความช่วยเหลือและคำอธิบายธีมที่ใช้ BP พร้อมข้อความใบอนุญาตฉบับเต็มแบบออฟไลน์",
+        "version": "1.617",
+        "published": false,
+        "statusLabel": "เร็ว ๆ นี้ในเวอร์ชัน 1.617"
+      },
+      {
         "id": "CartContinuous",
         "title": "สแกนสินค้าที่ซื้อได้สะดวกยิ่งขึ้น!",
         "body": "• เพิ่มสินค้าลงตะกร้าต่อเนื่องด้วยปุ่ม “เพิ่มและสแกนสินค้าถัดไป” — กล้องจะยังเปิดอยู่ และคุณยืนยันราคาทุกรายการด้วยตัวเอง • ตอนนี้จำนวนสินค้าและยอดรวมปัจจุบันในสกุลเงินที่เลือกจะแสดงในหน้าสแกนโดยตรง • ซื้อของเสร็จแล้ว? แตะ “เพิ่มและเปิดตะกร้า”",
@@ -3122,6 +3434,14 @@
   "vi": {
     "title": "Có gì mới",
     "cards": [
+      {
+        "id": "CartExperience",
+        "title": "Giỏ hàng và phản hồi",
+        "body": "• Giỏ hàng gọn hơn: dễ xem sản phẩm và tổng tiền hơn. • Lần đầu dùng giỏ hàng: 10 lượt thêm miễn phí trong 24 giờ đầu, sau đó 5 lượt mỗi ngày. • Email nhận trả lời là tùy chọn. Phản hồi được gửi qua ứng dụng email của bạn. • Cập nhật trợ giúp và giải thích về giao diện đổi bằng BP; toàn văn giấy phép có sẵn ngoại tuyến.",
+        "version": "1.617",
+        "published": false,
+        "statusLabel": "Sắp có trong phiên bản 1.617"
+      },
       {
         "id": "CartContinuous",
         "title": "Quét hàng khi mua sắm dễ dàng hơn!",
@@ -3203,6 +3523,14 @@
     "title": "新功能",
     "cards": [
       {
+        "id": "CartExperience",
+        "title": "购物车与反馈",
+        "body": "• 购物车更紧凑，商品和总价一目了然。 • 首次使用购物车：前24小时可免费添加10次，此后每天5次。 • 回复邮箱为选填项，反馈通过您的邮件应用发送。 • 更新了帮助和BP主题说明；完整许可证文本可离线查看。",
+        "version": "1.617",
+        "published": false,
+        "statusLabel": "即将在 1.617 版本推出"
+      },
+      {
         "id": "CartContinuous",
         "title": "扫描购物商品更方便了！",
         "body": "• 点击“添加并扫描下一件”即可连续添加商品——相机保持开启，每个价格仍由您亲自确认。 • 商品数量和所选货币的当前总额现在直接显示在扫描界面中。 • 购物结束？点击“添加并打开购物篮”。",
@@ -3282,6 +3610,14 @@
   "zh-Hant": {
     "title": "最新消息",
     "cards": [
+      {
+        "id": "CartExperience",
+        "title": "購物車與意見回饋",
+        "body": "• 購物車更精簡，商品和總價一目了然。 • 首次使用購物車：前24小時可免費新增10次，此後每天5次。 • 回覆信箱為選填項，意見透過您的郵件應用程式傳送。 • 更新了說明及BP主題解釋；完整授權條款可離線查看。",
+        "version": "1.617",
+        "published": false,
+        "statusLabel": "即將於 1.617 版本推出"
+      },
       {
         "id": "CartContinuous",
         "title": "掃描購物商品更方便了！",
@@ -3363,6 +3699,14 @@
     "title": "新機能",
     "cards": [
       {
+        "id": "CartExperience",
+        "title": "買い物かごとフィードバック",
+        "body": "• かごがコンパクトになり、商品と合計が見やすくなりました。 • かごの初回利用から24時間は10回まで無料で追加でき、その後は1日5回までです。 • 返信用メールアドレスは任意です。フィードバックはメールアプリから送信します。 • ヘルプとBPで交換するテーマの説明を更新。ライセンス全文をオフラインで確認できます。",
+        "version": "1.617",
+        "published": false,
+        "statusLabel": "バージョン1.617で近日公開"
+      },
+      {
         "id": "CartContinuous",
         "title": "買い物のスキャンがもっと便利に！",
         "body": "• 「追加して次の商品をスキャン」で商品を続けてカートに追加できます。カメラは開いたままで、価格は毎回ご自身で確認します。 • 商品数と選択した通貨での現在の合計が、スキャナー画面に直接表示されるようになりました。 • 買い物が終わったら「追加してカートを開く」をタップしてください。",
@@ -3442,6 +3786,14 @@
   "ko": {
     "title": "새로운 기능",
     "cards": [
+      {
+        "id": "CartExperience",
+        "title": "장바구니 및 의견 보내기",
+        "body": "• 장바구니가 간결해져 상품과 합계가 더 잘 보입니다. • 장바구니 첫 사용 시 처음 24시간 동안 10회 무료로 추가할 수 있으며, 이후에는 하루 5회입니다. • 답변용 이메일은 선택 사항입니다. 의견은 이메일 앱을 통해 전송됩니다. • 도움말과 BP 테마 설명을 업데이트했습니다. 라이선스 전문을 오프라인에서 볼 수 있습니다.",
+        "version": "1.617",
+        "published": false,
+        "statusLabel": "버전 1.617에서 곧 제공"
+      },
       {
         "id": "CartContinuous",
         "title": "장보기 스캔이 더 편리해졌어요!",

@@ -27,6 +27,7 @@ function androidText(value) {
 export function loadAppNews(root, manifest) {
   const androidRoot = path.resolve(process.env.ANDROID_SOURCE_ROOT || path.join(root, '..'));
   const upcomingLabels = JSON.parse(fs.readFileSync(path.join(root, 'tools', 'app-news-upcoming.json'), 'utf8'));
+  const uxUpcomingLabels = JSON.parse(fs.readFileSync(path.join(root, 'tools', 'app-news-upcoming-1-617.json'), 'utf8'));
   const result = {};
   for (const locale of manifest.locales) {
     const source = manifest.terminologySources.find(item => item.locale === locale.androidLocale);
@@ -61,6 +62,12 @@ export function loadAppNews(root, manifest) {
     result[locale.hreflang] = {
       title: required('menu_whats_new'),
       cards: [{
+        id: 'CartExperience',
+        title: required('updates_ux_title'),
+        body: required('updates_ux_body'),
+        version: '1.617', published: false,
+        statusLabel: uxUpcomingLabels[locale.hreflang] || (() => { throw new Error(`Missing upcoming label for ${locale.hreflang}`); })()
+      }, {
         id: 'CartContinuous',
         title: required('updates_cart_continuous_title'),
         body: required('updates_cart_continuous_body'),
@@ -78,7 +85,7 @@ export function loadAppNews(root, manifest) {
 
 export function renderNewsCards(news) {
   return news.cards.map(card => {
-    const body = card.id === 'CartContinuous'
+    const body = ['CartContinuous', 'CartExperience'].includes(card.id)
       ? `        <ul>${card.body.slice(2).split(' • ').map(line => `<li>${escapeHtml(line)}</li>`).join('')}</ul>\n`
       : card.body ? `        <p>${escapeHtml(card.body)}</p>\n` : '';
     return `      <article class="app-update-card" data-app-feature="${card.id}">
