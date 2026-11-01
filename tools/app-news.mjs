@@ -26,6 +26,7 @@ function androidText(value) {
 // The published HTML and JSON remain standalone; Android sources are needed only at generation time.
 export function loadAppNews(root, manifest) {
   const androidRoot = path.resolve(process.env.ANDROID_SOURCE_ROOT || path.join(root, '..'));
+  const upcomingLabels = JSON.parse(fs.readFileSync(path.join(root, 'tools', 'app-news-upcoming.json'), 'utf8'));
   const result = {};
   for (const locale of manifest.locales) {
     const source = manifest.terminologySources.find(item => item.locale === locale.androidLocale);
@@ -59,7 +60,13 @@ export function loadAppNews(root, manifest) {
     const selectedTextExample = `${required('process_text_result_title')}: ${exampleNumber.format(149.99)} EUR → ${exampleNumber.format(149.99 * 116.87)} RSD (1 EUR = ${exampleNumber.format(116.87)} RSD)`;
     result[locale.hreflang] = {
       title: required('menu_whats_new'),
-      cards: [...currentCards, ...features.map(([id, title, body]) => ({
+      cards: [{
+        id: 'CartContinuous',
+        title: required('updates_cart_continuous_title'),
+        body: required('updates_cart_continuous_body'),
+        version: '1.616', published: false,
+        statusLabel: upcomingLabels[locale.hreflang] || (() => { throw new Error(`Missing upcoming label for ${locale.hreflang}`); })()
+      }, ...currentCards, ...features.map(([id, title, body]) => ({
         id, title: required(title), ...(body ? {body: required(body)} : {}),
         ...(id === 'ProcessText' ? {body: selectedTextExample} : {}),
         ...(id === 'Keyboard' ? {version: '1.613', published: true} : {})
@@ -70,9 +77,14 @@ export function loadAppNews(root, manifest) {
 }
 
 export function renderNewsCards(news) {
-  return news.cards.map(card => `      <article class="app-update-card" data-app-feature="${card.id}">
-${card.version ? `        <p class="eyebrow upcoming-release">${escapeHtml(card.version)}</p>\n` : ''}        <h2>${escapeHtml(card.title)}</h2>
-${card.body ? `        <p>${escapeHtml(card.body)}</p>\n` : ''}      </article>`).join('\n');
+  return news.cards.map(card => {
+    const body = card.id === 'CartContinuous'
+      ? `        <ul>${card.body.slice(2).split(' • ').map(line => `<li>${escapeHtml(line)}</li>`).join('')}</ul>\n`
+      : card.body ? `        <p>${escapeHtml(card.body)}</p>\n` : '';
+    return `      <article class="app-update-card" data-app-feature="${card.id}">
+${card.version ? `        <p class="eyebrow upcoming-release">${escapeHtml(card.statusLabel || card.version)}</p>\n` : ''}        <h2>${escapeHtml(card.title)}</h2>
+${body}      </article>`;
+  }).join('\n');
 }
 
 export function renderNewsHeader(homepage, locale, news, manifest) {

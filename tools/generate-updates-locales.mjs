@@ -6,7 +6,7 @@ import { ensureStoreLinks } from "./store-links.mjs";
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const currentNewsOnly = process.argv.includes('--current-news-only');
-const currentNewsLastmod = '2026-10-29';
+const currentNewsLastmod = '2026-11-01';
 const base = "https://balkanconverter.com";
 const play = "https://play.google.com/store/apps/details?id=io.github.nstim605.balkanconverter";
 
@@ -100,7 +100,7 @@ for (const locale of locales) {
   <link rel="canonical" href="${updates}">
 ${alternates()}
   <link rel="icon" href="/assets/icons/v1-603/app-icon-v1-603.png">
-  <link rel="stylesheet" href="/styles.css?v=20261024">
+  <link rel="stylesheet" href="/styles.css?v=20261101">
 </head>
 <body>
   <a class="skip-link" href="#main">${escapeHtml(news.title)}</a>

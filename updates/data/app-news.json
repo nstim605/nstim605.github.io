@@ -3,6 +3,14 @@
     "title": "What’s New",
     "cards": [
       {
+        "id": "CartContinuous",
+        "title": "Scanning your shopping is easier!",
+        "body": "• Add items to your cart one after another with “Add and scan next” — the camera stays open and you confirm every price yourself. • The item count and running total in your chosen currency are now shown right in the scanner. • Finished shopping? Tap “Add and open cart”.",
+        "version": "1.616",
+        "published": false,
+        "statusLabel": "Coming in 1.616"
+      },
+      {
         "id": "ShoppingCart",
         "title": "Shopping cart",
         "body": "Scan prices or add items manually. See each item’s price and the total in your chosen currency. Five free additions per day, then 1 BP per new item.",
@@ -74,6 +82,14 @@
   "sr": {
     "title": "Шта је ново",
     "cards": [
+      {
+        "id": "CartContinuous",
+        "title": "Скенирање куповине је сада лакше!",
+        "body": "• Додајте производе у корпу један за другим помоћу дугмета „Додај и скенирај следећи” — камера остаје отворена, а сваку цену потврђујете сами. • Број производа и тренутни укупан износ у изабраној валути сада су видљиви директно у скенеру. • Завршили сте куповину? Додирните „Додај и отвори корпу”.",
+        "version": "1.616",
+        "published": false,
+        "statusLabel": "Ускоро у верзији 1.616"
+      },
       {
         "id": "ShoppingCart",
         "title": "Корпа за куповину",
@@ -147,6 +163,14 @@
     "title": "Šta je novo",
     "cards": [
       {
+        "id": "CartContinuous",
+        "title": "Skeniranje kupovine sada je lakše!",
+        "body": "• Dodajte proizvode u korpu jedan za drugim pomoću dugmeta „Dodaj i skeniraj sljedeći” — kamera ostaje otvorena, a svaku cijenu potvrđujete sami. • Broj proizvoda i trenutni ukupni iznos u odabranoj valuti sada su vidljivi direktno u skeneru. • Završili ste kupovinu? Dodirnite „Dodaj i otvori korpu”.",
+        "version": "1.616",
+        "published": false,
+        "statusLabel": "Uskoro u verziji 1.616"
+      },
+      {
         "id": "ShoppingCart",
         "title": "Korpa za kupovinu",
         "body": "Skenirajte cijene ili ručno dodajte artikle. Pogledajte cijenu svakog artikla i ukupan iznos u odabranoj valuti. Pet besplatnih dodavanja dnevno, zatim 1 BP po novom artiklu.",
@@ -218,6 +242,14 @@
   "hr": {
     "title": "Što je novo",
     "cards": [
+      {
+        "id": "CartContinuous",
+        "title": "Skeniranje kupnje sada je jednostavnije!",
+        "body": "• Dodajte proizvode u košaricu jedan za drugim tipkom „Dodaj i skeniraj sljedeći” — kamera ostaje otvorena, a svaku cijenu potvrđujete sami. • Broj proizvoda i trenutačni ukupni iznos u odabranoj valuti sada su vidljivi izravno u skeneru. • Završili ste kupnju? Dodirnite „Dodaj i otvori košaricu”.",
+        "version": "1.616",
+        "published": false,
+        "statusLabel": "Uskoro u verziji 1.616"
+      },
       {
         "id": "ShoppingCart",
         "title": "Košarica za kupnju",
@@ -291,6 +323,14 @@
     "title": "Të rejat",
     "cards": [
       {
+        "id": "CartContinuous",
+        "title": "Skanimi i blerjeve është më i lehtë!",
+        "body": "• Shtoni produktet në shportë njëri pas tjetrit me “Shto dhe skano tjetrin” — kamera qëndron e hapur dhe çdo çmim e konfirmoni vetë. • Numri i produkteve dhe totali aktual në monedhën e zgjedhur shfaqen tani drejtpërdrejt në skaner. • Përfunduat blerjet? Prekni “Shto dhe hap shportën”.",
+        "version": "1.616",
+        "published": false,
+        "statusLabel": "Së shpejti në versionin 1.616"
+      },
+      {
         "id": "ShoppingCart",
         "title": "Shporta e blerjeve",
         "body": "Skanoni çmimet ose shtoni artikuj manualisht. Shihni çmimin e çdo artikulli dhe totalin në monedhën e zgjedhur. Pesë shtime falas në ditë, pastaj 1 BP për çdo artikull të ri.",
@@ -362,6 +402,14 @@
   "mk": {
     "title": "Што има ново",
     "cards": [
+      {
+        "id": "CartContinuous",
+        "title": "Скенирањето на купувањата е полесно!",
+        "body": "• Додавајте производи во кошничката еден по друг со „Додај и скенирај го следниот” — камерата останува отворена, а секоја цена ја потврдувате сами. • Бројот на производи и тековниот вкупен износ во избраната валута сега се прикажуваат директно во скенерот. • Завршивте со купувањето? Допрете „Додај и отвори ја кошничката”.",
+        "version": "1.616",
+        "published": false,
+        "statusLabel": "Наскоро во верзијата 1.616"
+      },
       {
         "id": "ShoppingCart",
         "title": "Кошничка за купување",
@@ -435,6 +483,14 @@
     "title": "Какво е новото",
     "cards": [
       {
+        "id": "CartContinuous",
+        "title": "Сканирането на покупките е по-лесно!",
+        "body": "• Добавяйте продукти в кошницата един след друг с „Добави и сканирай следващия“ — камерата остава отворена, а всяка цена потвърждавате сами. • Броят на продуктите и текущата обща сума в избраната валута вече се виждат направо в скенера. • Приключихте с покупките? Докоснете „Добави и отвори количката“.",
+        "version": "1.616",
+        "published": false,
+        "statusLabel": "Очаквайте във версия 1.616"
+      },
+      {
         "id": "ShoppingCart",
         "title": "Кошница за пазаруване",
         "body": "Сканирайте цени или добавяйте артикули ръчно. Вижте цената на всеки артикул и общата сума в избраната валута. Пет безплатни добавяния на ден, след това 1 BP за всеки нов артикул.",
@@ -506,6 +562,14 @@
   "ro": {
     "title": "Noutăți",
     "cards": [
+      {
+        "id": "CartContinuous",
+        "title": "Scanarea cumpărăturilor este mai simplă!",
+        "body": "• Adaugă produse în coș unul după altul cu „Adaugă și scanează următorul” — camera rămâne deschisă, iar fiecare preț este confirmat de tine. • Numărul de produse și totalul curent în moneda aleasă sunt afișate acum direct în scaner. • Ai terminat cumpărăturile? Atinge „Adaugă și deschide coșul”.",
+        "version": "1.616",
+        "published": false,
+        "statusLabel": "În curând în versiunea 1.616"
+      },
       {
         "id": "ShoppingCart",
         "title": "Coș de cumpărături",
@@ -579,6 +643,14 @@
     "title": "Újdonságok",
     "cards": [
       {
+        "id": "CartContinuous",
+        "title": "Egyszerűbb lett a vásárlások beolvasása!",
+        "body": "• A „Hozzáadás és következő beolvasása” gombbal egymás után tehetsz termékeket a kosárba — a kamera nyitva marad, és minden árat te erősítesz meg. • A termékek száma és az aktuális végösszeg a választott pénznemben már közvetlenül a beolvasóban látható. • Végeztél a vásárlással? Koppints a „Hozzáadás és kosár megnyitása” gombra.",
+        "version": "1.616",
+        "published": false,
+        "statusLabel": "Hamarosan az 1.616-os verzióban"
+      },
+      {
         "id": "ShoppingCart",
         "title": "Bevásárlókosár",
         "body": "Olvassa be az árakat, vagy adja hozzá a tételeket kézzel. Minden tétel ára és a végösszeg is megjelenik a választott pénznemben. Naponta öt ingyenes hozzáadás, utána 1 BP minden új tételért.",
@@ -650,6 +722,14 @@
   "pl": {
     "title": "Co nowego",
     "cards": [
+      {
+        "id": "CartContinuous",
+        "title": "Skanowanie zakupów jest teraz wygodniejsze!",
+        "body": "• Dodawaj produkty do koszyka jeden po drugim przyciskiem „Dodaj i zeskanuj następny” — aparat pozostaje otwarty, a każdą cenę potwierdzasz samodzielnie. • Liczba produktów i bieżąca suma w wybranej walucie są teraz widoczne bezpośrednio w skanerze. • Koniec zakupów? Naciśnij „Dodaj i otwórz koszyk”.",
+        "version": "1.616",
+        "published": false,
+        "statusLabel": "Wkrótce w wersji 1.616"
+      },
       {
         "id": "ShoppingCart",
         "title": "Koszyk zakupów",
@@ -723,6 +803,14 @@
     "title": "Co je nového",
     "cards": [
       {
+        "id": "CartContinuous",
+        "title": "Skenování nákupu je teď pohodlnější!",
+        "body": "• Přidávejte zboží do košíku jedno po druhém tlačítkem „Přidat a naskenovat další“ — fotoaparát zůstane otevřený a každou cenu potvrdíte sami. • Počet položek a průběžný součet ve zvolené měně nyní uvidíte přímo ve skeneru. • Máte nakoupeno? Klepněte na „Přidat a otevřít košík“.",
+        "version": "1.616",
+        "published": false,
+        "statusLabel": "Již brzy ve verzi 1.616"
+      },
+      {
         "id": "ShoppingCart",
         "title": "Nákupní košík",
         "body": "Skenujte ceny nebo přidávejte položky ručně. Zobrazte cenu každé položky i celkovou částku ve zvolené měně. Pět přidání denně zdarma, poté 1 BP za každou novou položku.",
@@ -794,6 +882,14 @@
   "sk": {
     "title": "Čo je nové",
     "cards": [
+      {
+        "id": "CartContinuous",
+        "title": "Skenovanie nákupu je teraz pohodlnejšie!",
+        "body": "• Pridávajte tovar do košíka jeden po druhom tlačidlom „Pridať a naskenovať ďalší“ — fotoaparát zostane otvorený a každú cenu potvrdíte sami. • Počet položiek a priebežný súčet vo vybranej mene teraz uvidíte priamo v skeneri. • Máte nakúpené? Ťuknite na „Pridať a otvoriť košík“.",
+        "version": "1.616",
+        "published": false,
+        "statusLabel": "Už čoskoro vo verzii 1.616"
+      },
       {
         "id": "ShoppingCart",
         "title": "Nákupný košík",
@@ -867,6 +963,14 @@
     "title": "Novosti",
     "cards": [
       {
+        "id": "CartContinuous",
+        "title": "Skeniranje nakupov je zdaj preprostejše!",
+        "body": "• Izdelke dodajajte v košarico enega za drugim z gumbom »Dodaj in skeniraj naslednjega« — kamera ostane odprta, vsako ceno pa potrdite sami. • Število izdelkov in trenutni skupni znesek v izbrani valuti sta zdaj prikazana neposredno v bralniku. • Ste končali z nakupovanjem? Tapnite »Dodaj in odpri košarico«.",
+        "version": "1.616",
+        "published": false,
+        "statusLabel": "Kmalu v različici 1.616"
+      },
+      {
         "id": "ShoppingCart",
         "title": "Nakupovalna košarica",
         "body": "Skenirajte cene ali ročno dodajte izdelke. Oglejte si ceno vsakega izdelka in skupni znesek v izbrani valuti. Pet brezplačnih dodajanj na dan, nato 1 BP za vsak nov izdelek.",
@@ -938,6 +1042,14 @@
   "de": {
     "title": "Neuigkeiten",
     "cards": [
+      {
+        "id": "CartContinuous",
+        "title": "Einkäufe jetzt bequemer scannen!",
+        "body": "• Füge Artikel mit „Hinzufügen und nächsten scannen“ nacheinander zum Warenkorb hinzu — die Kamera bleibt offen und du bestätigst jeden Preis selbst. • Artikelanzahl und laufende Summe in deiner gewählten Währung sind jetzt direkt im Scanner sichtbar. • Einkauf fertig? Tippe auf „Hinzufügen und Warenkorb öffnen“.",
+        "version": "1.616",
+        "published": false,
+        "statusLabel": "Demnächst in Version 1.616"
+      },
       {
         "id": "ShoppingCart",
         "title": "Warenkorb",
@@ -1011,6 +1123,14 @@
     "title": "Nouveautés",
     "cards": [
       {
+        "id": "CartContinuous",
+        "title": "Scanner vos achats devient plus simple !",
+        "body": "• Ajoutez les articles au panier à la suite avec « Ajouter et scanner le suivant » — la caméra reste ouverte et vous confirmez chaque prix. • Le nombre d’articles et le total en cours dans la devise choisie s’affichent désormais directement dans le scanner. • Vos achats sont terminés ? Appuyez sur « Ajouter et ouvrir le panier ».",
+        "version": "1.616",
+        "published": false,
+        "statusLabel": "Bientôt dans la version 1.616"
+      },
+      {
         "id": "ShoppingCart",
         "title": "Panier d’achats",
         "body": "Scannez les prix ou ajoutez des articles manuellement. Consultez le prix de chaque article et le total dans la devise choisie. Cinq ajouts gratuits par jour, puis 1 BP par nouvel article.",
@@ -1082,6 +1202,14 @@
   "it": {
     "title": "Novità",
     "cards": [
+      {
+        "id": "CartContinuous",
+        "title": "Scansionare la spesa è più semplice!",
+        "body": "• Aggiungi i prodotti al carrello uno dopo l’altro con «Aggiungi e scansiona il prossimo»: la fotocamera resta aperta e confermi ogni prezzo personalmente. • Il numero di prodotti e il totale aggiornato nella valuta scelta sono ora visibili direttamente nello scanner. • Hai finito la spesa? Tocca «Aggiungi e apri il carrello».",
+        "version": "1.616",
+        "published": false,
+        "statusLabel": "In arrivo nella versione 1.616"
+      },
       {
         "id": "ShoppingCart",
         "title": "Carrello della spesa",
@@ -1155,6 +1283,14 @@
     "title": "Novedades",
     "cards": [
       {
+        "id": "CartContinuous",
+        "title": "¡Escanear tus compras es más cómodo!",
+        "body": "• Añade productos al carrito uno tras otro con «Añadir y escanear el siguiente»: la cámara permanece abierta y tú confirmas cada precio. • Ahora puedes ver el número de productos y el total acumulado en la moneda elegida directamente en el escáner. • ¿Has terminado la compra? Pulsa «Añadir y abrir la cesta».",
+        "version": "1.616",
+        "published": false,
+        "statusLabel": "Próximamente en la versión 1.616"
+      },
+      {
         "id": "ShoppingCart",
         "title": "Cesta de la compra",
         "body": "Escanea precios o añade artículos manualmente. Consulta el precio de cada artículo y el total en la moneda elegida. Cinco incorporaciones gratuitas al día; después, 1 BP por cada nuevo artículo.",
@@ -1226,6 +1362,14 @@
   "es-419": {
     "title": "Novedades",
     "cards": [
+      {
+        "id": "CartContinuous",
+        "title": "¡Escanear tus compras es más fácil!",
+        "body": "• Agrega productos al carrito uno tras otro con «Agregar y escanear el siguiente»: la cámara permanece abierta y tú confirmas cada precio. • Ahora puedes ver la cantidad de productos y el total acumulado en la moneda elegida directamente en el escáner. • ¿Terminaste tus compras? Toca «Agregar y abrir el carrito».",
+        "version": "1.616",
+        "published": false,
+        "statusLabel": "Próximamente en la versión 1.616"
+      },
       {
         "id": "ShoppingCart",
         "title": "Carrito de compras",
@@ -1299,6 +1443,14 @@
     "title": "Novidades",
     "cards": [
       {
+        "id": "CartContinuous",
+        "title": "Escanear suas compras ficou mais fácil!",
+        "body": "• Adicione produtos ao carrinho em sequência com “Adicionar e escanear o próximo”: a câmera continua aberta e você confirma cada preço. • A quantidade de produtos e o total atualizado na moeda escolhida agora aparecem diretamente no scanner. • Terminou as compras? Toque em “Adicionar e abrir o carrinho”.",
+        "version": "1.616",
+        "published": false,
+        "statusLabel": "Em breve na versão 1.616"
+      },
+      {
         "id": "ShoppingCart",
         "title": "Carrinho de compras",
         "body": "Escaneie preços ou adicione produtos manualmente. Veja o preço de cada produto e o total na moeda escolhida. Cinco adições grátis por dia; depois, 1 BP por novo produto.",
@@ -1370,6 +1522,14 @@
   "pt-PT": {
     "title": "Novidades",
     "cards": [
+      {
+        "id": "CartContinuous",
+        "title": "Digitalizar as compras ficou mais fácil!",
+        "body": "• Adicione produtos ao carrinho em sequência com «Adicionar e digitalizar o seguinte»: a câmara mantém-se aberta e confirma cada preço individualmente. • O número de produtos e o total atualizado na moeda escolhida aparecem agora diretamente no leitor. • Terminou as compras? Toque em «Adicionar e abrir o carrinho».",
+        "version": "1.616",
+        "published": false,
+        "statusLabel": "Em breve na versão 1.616"
+      },
       {
         "id": "ShoppingCart",
         "title": "Carrinho de compras",
@@ -1443,6 +1603,14 @@
     "title": "Wat is er nieuw",
     "cards": [
       {
+        "id": "CartContinuous",
+        "title": "Boodschappen scannen gaat nu makkelijker!",
+        "body": "• Voeg artikelen achter elkaar toe aan je winkelmandje met ‘Toevoegen en volgende scannen’ — de camera blijft open en je bevestigt elke prijs zelf. • Het aantal artikelen en het lopende totaal in je gekozen valuta zijn nu direct in de scanner zichtbaar. • Klaar met winkelen? Tik op ‘Toevoegen en winkelmand openen’.",
+        "version": "1.616",
+        "published": false,
+        "statusLabel": "Binnenkort in versie 1.616"
+      },
+      {
         "id": "ShoppingCart",
         "title": "Winkelmandje",
         "body": "Scan prijzen of voeg artikelen handmatig toe. Bekijk de prijs van elk artikel en het totaal in de gekozen valuta. Vijf gratis toevoegingen per dag, daarna 1 BP per nieuw artikel.",
@@ -1514,6 +1682,14 @@
   "da": {
     "title": "Nyheder",
     "cards": [
+      {
+        "id": "CartContinuous",
+        "title": "Det er blevet nemmere at scanne indkøb!",
+        "body": "• Tilføj varer til kurven én efter én med »Tilføj og scan næste« — kameraet forbliver åbent, og du bekræfter selv hver pris. • Antallet af varer og den løbende total i din valgte valuta vises nu direkte i scanneren. • Færdig med at handle? Tryk på »Tilføj og åbn kurven«.",
+        "version": "1.616",
+        "published": false,
+        "statusLabel": "Kommer i version 1.616"
+      },
       {
         "id": "ShoppingCart",
         "title": "Indkøbskurv",
@@ -1587,6 +1763,14 @@
     "title": "Nyheter",
     "cards": [
       {
+        "id": "CartContinuous",
+        "title": "Nu är det enklare att skanna dina inköp!",
+        "body": "• Lägg till varor i kundvagnen efter varandra med ”Lägg till och skanna nästa” — kameran förblir öppen och du bekräftar själv varje pris. • Antalet varor och den löpande summan i din valda valuta visas nu direkt i skannern. • Har du handlat klart? Tryck på ”Lägg till och öppna varukorgen”.",
+        "version": "1.616",
+        "published": false,
+        "statusLabel": "Kommer i version 1.616"
+      },
+      {
         "id": "ShoppingCart",
         "title": "Varukorg",
         "body": "Skanna priser eller lägg till varor manuellt. Se priset för varje vara och totalsumman i vald valuta. Fem gratis tillägg per dag, därefter 1 BP per ny vara.",
@@ -1658,6 +1842,14 @@
   "nb": {
     "title": "Nyheter",
     "cards": [
+      {
+        "id": "CartContinuous",
+        "title": "Det er blitt enklere å skanne innkjøp!",
+        "body": "• Legg varer i handlekurven én etter én med «Legg til og skann neste» — kameraet forblir åpent, og du bekrefter hver pris selv. • Antall varer og løpende totalsum i valgt valuta vises nå direkte i skanneren. • Ferdig med å handle? Trykk på «Legg til og åpne handlekurven».",
+        "version": "1.616",
+        "published": false,
+        "statusLabel": "Kommer i versjon 1.616"
+      },
       {
         "id": "ShoppingCart",
         "title": "Handlekurv",
@@ -1731,6 +1923,14 @@
     "title": "Uutta",
     "cards": [
       {
+        "id": "CartContinuous",
+        "title": "Ostosten skannaaminen on nyt helpompaa!",
+        "body": "• Lisää tuotteita ostoskoriin peräkkäin painikkeella ”Lisää ja skannaa seuraava” — kamera pysyy auki ja vahvistat jokaisen hinnan itse. • Tuotteiden määrä ja kertyvä yhteissumma valitussa valuutassa näkyvät nyt suoraan skannerissa. • Ostokset tehty? Napauta ”Lisää ja avaa ostoskori”.",
+        "version": "1.616",
+        "published": false,
+        "statusLabel": "Tulossa versiossa 1.616"
+      },
+      {
         "id": "ShoppingCart",
         "title": "Ostoskori",
         "body": "Skannaa hinnat tai lisää tuotteet käsin. Näet kunkin tuotteen hinnan ja yhteissumman valitsemassasi valuutassa. Viisi ilmaista lisäystä päivässä, sen jälkeen 1 BP jokaista uutta tuotetta kohti.",
@@ -1802,6 +2002,14 @@
   "is": {
     "title": "Nýtt",
     "cards": [
+      {
+        "id": "CartContinuous",
+        "title": "Nú er auðveldara að skanna innkaupin!",
+        "body": "• Bættu vörum í körfuna hverri á eftir annarri með „Bæta við og skanna næstu vöru“ — myndavélin helst opin og þú staðfestir hvert verð sjálf(ur). • Fjöldi vara og uppsöfnuð heildarupphæð í völdum gjaldmiðli birtast nú beint í skannanum. • Búin(n) að versla? Ýttu á „Bæta við og opna körfu“.",
+        "version": "1.616",
+        "published": false,
+        "statusLabel": "Væntanlegt í útgáfu 1.616"
+      },
       {
         "id": "ShoppingCart",
         "title": "Innkaupakarfa",
@@ -1875,6 +2083,14 @@
     "title": "Τι νέο υπάρχει",
     "cards": [
       {
+        "id": "CartContinuous",
+        "title": "Η σάρωση των αγορών έγινε ευκολότερη!",
+        "body": "• Προσθέστε προϊόντα στο καλάθι διαδοχικά με το «Προσθήκη και σάρωση επόμενου» — η κάμερα μένει ανοιχτή και επιβεβαιώνετε κάθε τιμή. • Ο αριθμός των προϊόντων και το τρέχον σύνολο στο επιλεγμένο νόμισμα εμφανίζονται πλέον απευθείας στον σαρωτή. • Ολοκληρώσατε τις αγορές; Πατήστε «Προσθήκη και άνοιγμα καλαθιού».",
+        "version": "1.616",
+        "published": false,
+        "statusLabel": "Έρχεται στην έκδοση 1.616"
+      },
+      {
         "id": "ShoppingCart",
         "title": "Καλάθι αγορών",
         "body": "Σαρώστε τιμές ή προσθέστε προϊόντα χειροκίνητα. Δείτε την τιμή κάθε προϊόντος και το σύνολο στο νόμισμα που επιλέξατε. Πέντε δωρεάν προσθήκες την ημέρα και μετά 1 BP ανά νέο προϊόν.",
@@ -1946,6 +2162,14 @@
   "tr": {
     "title": "Yenilikler",
     "cards": [
+      {
+        "id": "CartContinuous",
+        "title": "Alışverişleri taramak artık daha kolay!",
+        "body": "• “Ekle ve sonrakini tara” ile ürünleri sepete art arda ekleyin — kamera açık kalır ve her fiyatı kendiniz onaylarsınız. • Ürün sayısı ve seçtiğiniz para birimindeki güncel toplam artık doğrudan tarayıcıda görünür. • Alışveriş bitti mi? “Ekle ve sepeti aç” düğmesine dokunun.",
+        "version": "1.616",
+        "published": false,
+        "statusLabel": "Yakında 1.616 sürümünde"
+      },
       {
         "id": "ShoppingCart",
         "title": "Alışveriş sepeti",
@@ -2019,6 +2243,14 @@
     "title": "Что нового",
     "cards": [
       {
+        "id": "CartContinuous",
+        "title": "Покупки сканировать стало удобнее!",
+        "body": "• Добавляйте товары в корзину подряд с кнопкой «Добавить и сканировать следующий» — камера остаётся открытой, каждую цену вы подтверждаете сами. • Количество товаров и текущий итог в выбранной валюте теперь видны прямо в сканере. • Закончили покупки? Нажмите «Добавить и открыть корзину».",
+        "version": "1.616",
+        "published": false,
+        "statusLabel": "Готовится обновление 1.616"
+      },
+      {
         "id": "ShoppingCart",
         "title": "Корзина покупок",
         "body": "Сканируйте цены или добавляйте товары вручную. Цена каждого товара и общая сумма отображаются в выбранной валюте. Пять бесплатных добавлений в день, затем 1 BP за новый товар.",
@@ -2090,6 +2322,14 @@
   "uk": {
     "title": "Що нового",
     "cards": [
+      {
+        "id": "CartContinuous",
+        "title": "Сканувати покупки стало зручніше!",
+        "body": "• Додавайте товари до кошика поспіль кнопкою «Додати й сканувати наступний» — камера залишається відкритою, кожну ціну ви підтверджуєте самі. • Кількість товарів і поточна сума у вибраній валюті тепер відображаються просто в сканері. • Закінчили покупки? Натисніть «Додати й відкрити кошик».",
+        "version": "1.616",
+        "published": false,
+        "statusLabel": "Готується оновлення 1.616"
+      },
       {
         "id": "ShoppingCart",
         "title": "Кошик покупок",
@@ -2163,6 +2403,14 @@
     "title": "ما الجديد",
     "cards": [
       {
+        "id": "CartContinuous",
+        "title": "أصبح مسح مشترياتك أسهل!",
+        "body": "• أضف المنتجات إلى السلة تباعًا باستخدام «إضافة ومسح المنتج التالي» — تبقى الكاميرا مفتوحة وتؤكد كل سعر بنفسك. • يظهر الآن عدد المنتجات والمجموع الحالي بالعملة التي اخترتها مباشرةً في الماسح. • انتهيت من التسوق؟ اضغط على «إضافة وفتح السلة».",
+        "version": "1.616",
+        "published": false,
+        "statusLabel": "قريبًا في الإصدار 1.616"
+      },
+      {
         "id": "ShoppingCart",
         "title": "سلة المشتريات",
         "body": "امسح الأسعار أو أضف المنتجات يدويًا. اعرض سعر كل منتج والمجموع بالعملة التي تختارها. خمس إضافات مجانية يوميًا، ثم 1 BP لكل منتج جديد.",
@@ -2234,6 +2482,14 @@
   "he": {
     "title": "מה חדש",
     "cards": [
+      {
+        "id": "CartContinuous",
+        "title": "עכשיו קל יותר לסרוק את הקניות!",
+        "body": "• אפשר להוסיף מוצרים לסל בזה אחר זה עם „הוספה וסריקת הפריט הבא” — המצלמה נשארת פתוחה וכל מחיר מאושר על ידך. • מספר המוצרים והסכום המצטבר במטבע שבחרת מוצגים עכשיו ישירות בסורק. • סיימת לקנות? יש ללחוץ על „הוספה ופתיחת הסל”.",
+        "version": "1.616",
+        "published": false,
+        "statusLabel": "בקרוב בגרסה 1.616"
+      },
       {
         "id": "ShoppingCart",
         "title": "סל קניות",
@@ -2307,6 +2563,14 @@
     "title": "تازه‌ها",
     "cards": [
       {
+        "id": "CartContinuous",
+        "title": "اسکن خریدها آسان‌تر شد!",
+        "body": "• با «افزودن و اسکن کالای بعدی» کالاها را پشت سر هم به سبد اضافه کنید — دوربین باز می‌ماند و هر قیمت را خودتان تأیید می‌کنید. • تعداد کالاها و مجموع فعلی به ارز انتخابی اکنون مستقیماً در اسکنر نمایش داده می‌شوند. • خریدتان تمام شد؟ روی «افزودن و باز کردن سبد» بزنید.",
+        "version": "1.616",
+        "published": false,
+        "statusLabel": "به‌زودی در نسخهٔ 1.616"
+      },
+      {
         "id": "ShoppingCart",
         "title": "سبد خرید",
         "body": "قیمت‌ها را اسکن کنید یا کالاها را دستی اضافه کنید. قیمت هر کالا و مجموع را به ارز دلخواه ببینید. روزانه پنج افزودن رایگان دارید و پس از آن هر کالای جدید 1 BP هزینه دارد.",
@@ -2378,6 +2642,14 @@
   "ur": {
     "title": "نیا کیا ہے",
     "cards": [
+      {
+        "id": "CartContinuous",
+        "title": "خریداری اسکین کرنا اب زیادہ آسان ہے!",
+        "body": "• «شامل کریں اور اگلی چیز اسکین کریں» کے ذریعے اشیا ایک کے بعد ایک ٹوکری میں شامل کریں — کیمرا کھلا رہتا ہے اور آپ ہر قیمت کی خود تصدیق کرتے ہیں۔ • اشیا کی تعداد اور منتخب کرنسی میں موجودہ کل رقم اب براہ راست اسکینر میں دکھائی دیتی ہے۔ • خریداری مکمل ہوگئی؟ «شامل کریں اور ٹوکری کھولیں» پر ٹیپ کریں۔",
+        "version": "1.616",
+        "published": false,
+        "statusLabel": "جلد ورژن 1.616 میں"
+      },
       {
         "id": "ShoppingCart",
         "title": "خریداری کی ٹوکری",
@@ -2451,6 +2723,14 @@
     "title": "नया क्या है",
     "cards": [
       {
+        "id": "CartContinuous",
+        "title": "खरीदारी स्कैन करना अब और आसान!",
+        "body": "• “जोड़ें और अगला उत्पाद स्कैन करें” से सामान एक के बाद एक कार्ट में जोड़ें — कैमरा खुला रहता है और हर कीमत की पुष्टि आप खुद करते हैं। • सामान की संख्या और चुनी गई मुद्रा में अब तक का कुल मूल्य अब सीधे स्कैनर में दिखता है। • खरीदारी पूरी हुई? “जोड़ें और कार्ट खोलें” पर टैप करें।",
+        "version": "1.616",
+        "published": false,
+        "statusLabel": "जल्द आ रहा है संस्करण 1.616"
+      },
+      {
         "id": "ShoppingCart",
         "title": "खरीदारी की टोकरी",
         "body": "कीमतें स्कैन करें या सामान मैन्युअल रूप से जोड़ें। हर सामान की कीमत और कुल राशि अपनी चुनी हुई मुद्रा में देखें। रोज़ पाँच बार मुफ़्त जोड़ें, फिर हर नए सामान के लिए 1 BP।",
@@ -2522,6 +2802,14 @@
   "bn": {
     "title": "নতুন কী",
     "cards": [
+      {
+        "id": "CartContinuous",
+        "title": "কেনাকাটা স্ক্যান করা এখন আরও সহজ!",
+        "body": "• “যোগ করে পরের পণ্য স্ক্যান করুন” দিয়ে একের পর এক পণ্য কার্টে যোগ করুন — ক্যামেরা খোলা থাকে এবং প্রতিটি দাম আপনি নিজে নিশ্চিত করেন। • পণ্যের সংখ্যা ও নির্বাচিত মুদ্রায় বর্তমান মোট দাম এখন সরাসরি স্ক্যানারে দেখা যায়। • কেনাকাটা শেষ? “যোগ করে কার্ট খুলুন”-এ ট্যাপ করুন।",
+        "version": "1.616",
+        "published": false,
+        "statusLabel": "শীঘ্রই আসছে সংস্করণ 1.616"
+      },
       {
         "id": "ShoppingCart",
         "title": "কেনাকাটার ঝুড়ি",
@@ -2595,6 +2883,14 @@
     "title": "Yang Baru",
     "cards": [
       {
+        "id": "CartContinuous",
+        "title": "Memindai belanjaan kini lebih mudah!",
+        "body": "• Tambahkan barang ke keranjang secara berurutan dengan “Tambah dan pindai berikutnya” — kamera tetap terbuka dan setiap harga Anda konfirmasi sendiri. • Jumlah barang dan total berjalan dalam mata uang pilihan kini terlihat langsung di pemindai. • Selesai berbelanja? Ketuk “Tambah dan buka keranjang”.",
+        "version": "1.616",
+        "published": false,
+        "statusLabel": "Segera hadir di versi 1.616"
+      },
+      {
         "id": "ShoppingCart",
         "title": "Keranjang belanja",
         "body": "Pindai harga atau tambahkan barang secara manual. Lihat harga tiap barang dan totalnya dalam mata uang pilihan Anda. Lima penambahan gratis per hari, lalu 1 BP untuk setiap barang baru.",
@@ -2666,6 +2962,14 @@
   "ms": {
     "title": "Apa yang Baharu",
     "cards": [
+      {
+        "id": "CartContinuous",
+        "title": "Mengimbas barangan kini lebih mudah!",
+        "body": "• Tambah barangan ke troli satu demi satu dengan “Tambah dan imbas seterusnya” — kamera kekal terbuka dan anda mengesahkan setiap harga sendiri. • Bilangan barangan dan jumlah semasa dalam mata wang pilihan kini dipaparkan terus dalam pengimbas. • Selesai membeli-belah? Ketik “Tambah dan buka troli”.",
+        "version": "1.616",
+        "published": false,
+        "statusLabel": "Akan datang dalam versi 1.616"
+      },
       {
         "id": "ShoppingCart",
         "title": "Bakul beli-belah",
@@ -2739,6 +3043,14 @@
     "title": "มีอะไรใหม่",
     "cards": [
       {
+        "id": "CartContinuous",
+        "title": "สแกนสินค้าที่ซื้อได้สะดวกยิ่งขึ้น!",
+        "body": "• เพิ่มสินค้าลงตะกร้าต่อเนื่องด้วยปุ่ม “เพิ่มและสแกนสินค้าถัดไป” — กล้องจะยังเปิดอยู่ และคุณยืนยันราคาทุกรายการด้วยตัวเอง • ตอนนี้จำนวนสินค้าและยอดรวมปัจจุบันในสกุลเงินที่เลือกจะแสดงในหน้าสแกนโดยตรง • ซื้อของเสร็จแล้ว? แตะ “เพิ่มและเปิดตะกร้า”",
+        "version": "1.616",
+        "published": false,
+        "statusLabel": "เร็ว ๆ นี้ในเวอร์ชัน 1.616"
+      },
+      {
         "id": "ShoppingCart",
         "title": "ตะกร้าสินค้า",
         "body": "สแกนราคาหรือเพิ่มสินค้าเอง ดูราคาของสินค้าแต่ละชิ้นและยอดรวมในสกุลเงินที่คุณเลือก เพิ่มฟรีวันละ 5 รายการ หลังจากนั้นใช้ 1 BP ต่อสินค้าใหม่หนึ่งรายการ",
@@ -2810,6 +3122,14 @@
   "vi": {
     "title": "Có gì mới",
     "cards": [
+      {
+        "id": "CartContinuous",
+        "title": "Quét hàng khi mua sắm dễ dàng hơn!",
+        "body": "• Thêm lần lượt các món hàng vào giỏ bằng “Thêm và quét sản phẩm tiếp theo” — máy ảnh vẫn mở và bạn tự xác nhận từng giá. • Số món hàng và tổng tiền hiện tại theo loại tiền đã chọn nay hiển thị ngay trong trình quét. • Mua sắm xong? Nhấn “Thêm và mở giỏ hàng”.",
+        "version": "1.616",
+        "published": false,
+        "statusLabel": "Sắp có trong phiên bản 1.616"
+      },
       {
         "id": "ShoppingCart",
         "title": "Giỏ hàng",
@@ -2883,6 +3203,14 @@
     "title": "新功能",
     "cards": [
       {
+        "id": "CartContinuous",
+        "title": "扫描购物商品更方便了！",
+        "body": "• 点击“添加并扫描下一件”即可连续添加商品——相机保持开启，每个价格仍由您亲自确认。 • 商品数量和所选货币的当前总额现在直接显示在扫描界面中。 • 购物结束？点击“添加并打开购物篮”。",
+        "version": "1.616",
+        "published": false,
+        "statusLabel": "即将在 1.616 版本推出"
+      },
+      {
         "id": "ShoppingCart",
         "title": "购物车",
         "body": "扫描价格或手动添加商品，以所选货币查看每件商品的价格和总额。每天可免费添加五次，之后每添加一件新商品需 1 BP。",
@@ -2954,6 +3282,14 @@
   "zh-Hant": {
     "title": "最新消息",
     "cards": [
+      {
+        "id": "CartContinuous",
+        "title": "掃描購物商品更方便了！",
+        "body": "• 點選「加入並掃描下一件」即可連續新增商品——相機保持開啟，每個價格仍由您親自確認。 • 商品數量及所選貨幣的目前總額現在直接顯示在掃描畫面中。 • 購物結束？點選「加入並開啟購物籃」。",
+        "version": "1.616",
+        "published": false,
+        "statusLabel": "即將於 1.616 版本推出"
+      },
       {
         "id": "ShoppingCart",
         "title": "購物車",
@@ -3027,6 +3363,14 @@
     "title": "新機能",
     "cards": [
       {
+        "id": "CartContinuous",
+        "title": "買い物のスキャンがもっと便利に！",
+        "body": "• 「追加して次の商品をスキャン」で商品を続けてカートに追加できます。カメラは開いたままで、価格は毎回ご自身で確認します。 • 商品数と選択した通貨での現在の合計が、スキャナー画面に直接表示されるようになりました。 • 買い物が終わったら「追加してカートを開く」をタップしてください。",
+        "version": "1.616",
+        "published": false,
+        "statusLabel": "バージョン1.616で近日公開"
+      },
+      {
         "id": "ShoppingCart",
         "title": "買い物かご",
         "body": "価格をスキャンするか、商品を手動で追加できます。各商品の価格と合計を選んだ通貨で確認できます。1日5回まで無料で追加でき、その後は新しい商品1件につき1 BPです。",
@@ -3098,6 +3442,14 @@
   "ko": {
     "title": "새로운 기능",
     "cards": [
+      {
+        "id": "CartContinuous",
+        "title": "장보기 스캔이 더 편리해졌어요!",
+        "body": "• ‘추가하고 다음 상품 스캔’으로 상품을 연속해서 장바구니에 담으세요. 카메라는 계속 열려 있고, 가격은 매번 직접 확인합니다. • 상품 수와 선택한 통화로 계산한 현재 합계가 이제 스캐너 화면에 바로 표시됩니다. • 장보기를 마쳤나요? ‘추가하고 장바구니 열기’를 누르세요.",
+        "version": "1.616",
+        "published": false,
+        "statusLabel": "버전 1.616에서 곧 제공"
+      },
       {
         "id": "ShoppingCart",
         "title": "장바구니",
