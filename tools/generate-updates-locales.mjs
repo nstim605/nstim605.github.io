@@ -6,7 +6,7 @@ import { ensureStoreLinks } from "./store-links.mjs";
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const currentNewsOnly = process.argv.includes('--current-news-only');
-const currentNewsLastmod = '2026-11-01';
+const currentNewsLastmod = '2026-11-02';
 const base = "https://balkanconverter.com";
 const play = "https://play.google.com/store/apps/details?id=io.github.nstim605.balkanconverter";
 

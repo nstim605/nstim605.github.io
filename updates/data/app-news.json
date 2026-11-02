@@ -3,6 +3,14 @@
     "title": "What’s New",
     "cards": [
       {
+        "id": "ScannerAccuracy",
+        "title": "Improved price scanner",
+        "body": "• Improved recognition of price tags, catalogues and menus, including small or raised decimal digits. • Better distinction between the main price, product codes, pack quantities and reference prices per kilogram. • Refined price checks across multiple frames to prevent random reading errors from gaining false confirmation.",
+        "version": "1.618",
+        "published": false,
+        "statusLabel": "Coming in 1.618"
+      },
+      {
         "id": "CartExperience",
         "title": "Shopping cart and feedback",
         "body": "• More compact cart: items and totals are easier to see. • On first use of the cart: 10 free additions in the first 24 hours, then 5 per day. • Reply email is optional. Feedback is sent through your email app. • Updated Help and BP theme explanations; full license texts are available offline.",
@@ -90,6 +98,14 @@
   "sr": {
     "title": "Шта је ново",
     "cards": [
+      {
+        "id": "ScannerAccuracy",
+        "title": "Побољшан скенер цена",
+        "body": "• Побољшано препознавање ценовних ознака, каталога и менија, укључујући ситне или подигнуте децималне цифре. • Боље разликовање главне цене од шифара артикала, количине у паковању и референтне цене по килограму. • Дорађена провера цене кроз више кадрова како случајне грешке у читању не би добијале лажну потврду.",
+        "version": "1.618",
+        "published": false,
+        "statusLabel": "Ускоро у верзији 1.618"
+      },
       {
         "id": "CartExperience",
         "title": "Корпа и повратне информације",
@@ -179,6 +195,14 @@
     "title": "Šta je novo",
     "cards": [
       {
+        "id": "ScannerAccuracy",
+        "title": "Poboljšan skener cijena",
+        "body": "• Poboljšano prepoznavanje cjenovnih oznaka, kataloga i menija, uključujući sitne ili podignute decimalne cifre. • Bolje razlikovanje glavne cijene od šifri artikala, količine u pakovanju i referentne cijene po kilogramu. • Dorađena provjera cijene kroz više kadrova kako slučajne greške u čitanju ne bi dobijale lažnu potvrdu.",
+        "version": "1.618",
+        "published": false,
+        "statusLabel": "Uskoro u verziji 1.618"
+      },
+      {
         "id": "CartExperience",
         "title": "Korpa i povratne informacije",
         "body": "• Kompaktnija korpa: proizvodi i ukupan iznos su pregledniji. • Pri prvom korištenju korpe: 10 besplatnih dodavanja u prva 24 sata, zatim 5 dnevno. • Email za odgovor nije obavezan. Poruka se šalje putem aplikacije za email. • Ažurirana pomoć i objašnjenja tema za BP; puni tekstovi licenci dostupni su bez interneta.",
@@ -266,6 +290,14 @@
   "hr": {
     "title": "Što je novo",
     "cards": [
+      {
+        "id": "ScannerAccuracy",
+        "title": "Poboljšan skener cijena",
+        "body": "• Poboljšano prepoznavanje cjenovnih oznaka, kataloga i jelovnika, uključujući sitne ili podignute decimalne znamenke. • Bolje razlikovanje glavne cijene od šifri artikala, količine u pakiranju i referentne cijene po kilogramu. • Dorađena provjera cijene kroz više kadrova kako slučajne pogreške u čitanju ne bi dobivale lažnu potvrdu.",
+        "version": "1.618",
+        "published": false,
+        "statusLabel": "Uskoro u verziji 1.618"
+      },
       {
         "id": "CartExperience",
         "title": "Košarica i povratne informacije",
@@ -355,6 +387,14 @@
     "title": "Të rejat",
     "cards": [
       {
+        "id": "ScannerAccuracy",
+        "title": "Skaner i përmirësuar i çmimeve",
+        "body": "• Njohje më e mirë e etiketave të çmimeve, katalogëve dhe menyve, përfshirë shifrat dhjetore të vogla ose të ngritura. • Dallim më i mirë i çmimit kryesor nga kodet e artikujve, sasia në paketim dhe çmimi referues për kilogram. • Verifikim më i mirë i çmimit në disa kuadro, që gabimet rastësore të leximit të mos marrin konfirmim të rremë.",
+        "version": "1.618",
+        "published": false,
+        "statusLabel": "Së shpejti në versionin 1.618"
+      },
+      {
         "id": "CartExperience",
         "title": "Shporta dhe komentet",
         "body": "• Shportë më kompakte: produktet dhe totali shihen më lehtë. • Në përdorimin e parë të shportës: 10 shtime falas në 24 orët e para, pastaj 5 në ditë. • Emaili për përgjigje është opsional. Komentet dërgohen përmes aplikacionit të emailit. • Ndihmë dhe sqarime të përditësuara për temat me BP; tekstet e plota të licencave janë të disponueshme pa internet.",
@@ -442,6 +482,14 @@
   "mk": {
     "title": "Што има ново",
     "cards": [
+      {
+        "id": "ScannerAccuracy",
+        "title": "Подобрен скенер за цени",
+        "body": "• Подобрено препознавање ценовни етикети, каталози и менија, вклучувајќи ситни или подигнати децимални цифри. • Подобро разликување на главната цена од шифрите на артикли, количината во пакувањето и референтната цена по килограм. • Доработена проверка на цената низ повеќе кадри за случајните грешки при читање да не добиваат лажна потврда.",
+        "version": "1.618",
+        "published": false,
+        "statusLabel": "Наскоро во верзијата 1.618"
+      },
       {
         "id": "CartExperience",
         "title": "Кошничка и повратни информации",
@@ -531,6 +579,14 @@
     "title": "Какво е новото",
     "cards": [
       {
+        "id": "ScannerAccuracy",
+        "title": "Подобрен скенер за цени",
+        "body": "• Подобрено разпознаване на ценови етикети, каталози и менюта, включително малки или повдигнати десетични цифри. • По-добро разграничаване на основната цена от артикулни кодове, брой в опаковката и референтна цена за килограм. • Прецизирана проверка на цената през няколко кадъра, за да не получават случайните грешки при четене фалшиво потвърждение.",
+        "version": "1.618",
+        "published": false,
+        "statusLabel": "Очаквайте във версия 1.618"
+      },
+      {
         "id": "CartExperience",
         "title": "Количка и обратна връзка",
         "body": "• По-компактна количка: продуктите и общата сума се виждат по-ясно. • При първо използване на количката: 10 безплатни добавяния през първите 24 часа, след това 5 на ден. • Имейлът за отговор е незадължителен. Отзивът се изпраща чрез приложението за имейл. • Обновени помощ и пояснения за темите с BP; пълните текстове на лицензите са достъпни офлайн.",
@@ -618,6 +674,14 @@
   "ro": {
     "title": "Noutăți",
     "cards": [
+      {
+        "id": "ScannerAccuracy",
+        "title": "Scaner de prețuri îmbunătățit",
+        "body": "• Recunoaștere îmbunătățită a etichetelor de preț, cataloagelor și meniurilor, inclusiv a zecimalelor mici sau ridicate. • Distincție mai bună între prețul principal, codurile produselor, cantitatea din ambalaj și prețul de referință pe kilogram. • Verificare mai atentă a prețului în mai multe cadre, pentru a evita confirmarea falsă a erorilor aleatorii de citire.",
+        "version": "1.618",
+        "published": false,
+        "statusLabel": "În curând în versiunea 1.618"
+      },
       {
         "id": "CartExperience",
         "title": "Coșul și feedbackul",
@@ -707,6 +771,14 @@
     "title": "Újdonságok",
     "cards": [
       {
+        "id": "ScannerAccuracy",
+        "title": "Továbbfejlesztett árleolvasó",
+        "body": "• Javítottuk az árcímkék, katalógusok és étlapok felismerését, beleértve az apró vagy megemelt tizedesjegyeket. • Jobban elkülönül a fő ár a cikkszámoktól, a csomagban lévő mennyiségtől és a kilogrammonkénti tájékoztató ártól. • Pontosítottuk az ár több képkockán át végzett ellenőrzését, hogy a véletlen olvasási hibák ne kapjanak téves megerősítést.",
+        "version": "1.618",
+        "published": false,
+        "statusLabel": "Hamarosan az 1.618-os verzióban"
+      },
+      {
         "id": "CartExperience",
         "title": "Kosár és visszajelzés",
         "body": "• Kompaktabb kosár: a termékek és a végösszeg jobban láthatók. • A kosár első használatakor: 10 ingyenes hozzáadás az első 24 órában, utána napi 5. • A válaszhoz megadott email nem kötelező. A visszajelzést a levelezőalkalmazás küldi el. • Frissült a súgó és a BP-témák leírása; a teljes licencszövegek offline is elérhetők.",
@@ -794,6 +866,14 @@
   "pl": {
     "title": "Co nowego",
     "cards": [
+      {
+        "id": "ScannerAccuracy",
+        "title": "Ulepszony skaner cen",
+        "body": "• Ulepszyliśmy rozpoznawanie etykiet cenowych, katalogów i menu, w tym małych lub podniesionych cyfr po przecinku. • Lepsze odróżnianie głównej ceny od kodów produktów, ilości w opakowaniu i ceny referencyjnej za kilogram. • Dopracowaliśmy weryfikację ceny w kilku klatkach, aby przypadkowe błędy odczytu nie otrzymywały fałszywego potwierdzenia.",
+        "version": "1.618",
+        "published": false,
+        "statusLabel": "Wkrótce w wersji 1.618"
+      },
       {
         "id": "CartExperience",
         "title": "Koszyk i opinie",
@@ -883,6 +963,14 @@
     "title": "Co je nového",
     "cards": [
       {
+        "id": "ScannerAccuracy",
+        "title": "Vylepšený skener cen",
+        "body": "• Vylepšili jsme rozpoznávání cenovek, katalogů a jídelních lístků včetně malých nebo vyvýšených desetinných číslic. • Lepší rozlišení hlavní ceny od kódů zboží, množství v balení a referenční ceny za kilogram. • Zpřesnili jsme ověřování ceny v několika snímcích, aby náhodné chyby čtení nezískávaly falešné potvrzení.",
+        "version": "1.618",
+        "published": false,
+        "statusLabel": "Již brzy ve verzi 1.618"
+      },
+      {
         "id": "CartExperience",
         "title": "Košík a zpětná vazba",
         "body": "• Kompaktnější košík: zboží a celková cena jsou lépe vidět. • Při prvním použití košíku: 10 bezplatných přidání během prvních 24 hodin, pak 5 denně. • Email pro odpověď je volitelný. Zpětná vazba se odesílá přes emailovou aplikaci. • Aktualizovaná nápověda a vysvětlení motivů za BP; úplné texty licencí jsou dostupné offline.",
@@ -970,6 +1058,14 @@
   "sk": {
     "title": "Čo je nové",
     "cards": [
+      {
+        "id": "ScannerAccuracy",
+        "title": "Vylepšený skener cien",
+        "body": "• Vylepšili sme rozpoznávanie cenoviek, katalógov a jedálnych lístkov vrátane malých alebo vyvýšených desatinných číslic. • Lepšie rozlíšenie hlavnej ceny od kódov tovaru, množstva v balení a referenčnej ceny za kilogram. • Spresnili sme overovanie ceny vo viacerých snímkach, aby náhodné chyby čítania nezískavali falošné potvrdenie.",
+        "version": "1.618",
+        "published": false,
+        "statusLabel": "Už čoskoro vo verzii 1.618"
+      },
       {
         "id": "CartExperience",
         "title": "Košík a spätná väzba",
@@ -1059,6 +1155,14 @@
     "title": "Novosti",
     "cards": [
       {
+        "id": "ScannerAccuracy",
+        "title": "Izboljšan bralnik cen",
+        "body": "• Izboljšano prepoznavanje cenovnih oznak, katalogov in jedilnikov, vključno z majhnimi ali dvignjenimi decimalnimi števkami. • Boljše razlikovanje glavne cene od šifer izdelkov, količine v pakiranju in referenčne cene na kilogram. • Izpopolnjeno preverjanje cene na več sličicah, da naključne napake pri branju ne dobijo napačne potrditve.",
+        "version": "1.618",
+        "published": false,
+        "statusLabel": "Kmalu v različici 1.618"
+      },
+      {
         "id": "CartExperience",
         "title": "Košarica in povratne informacije",
         "body": "• Bolj strnjena košarica: izdelki in skupni znesek so bolj pregledni. • Ob prvi uporabi košarice: 10 brezplačnih dodajanj v prvih 24 urah, nato 5 na dan. • Email za odgovor ni obvezen. Sporočilo se pošlje prek emailne aplikacije. • Posodobljena pomoč in pojasnila tem za BP; celotna besedila licenc so na voljo brez interneta.",
@@ -1146,6 +1250,14 @@
   "de": {
     "title": "Neuigkeiten",
     "cards": [
+      {
+        "id": "ScannerAccuracy",
+        "title": "Verbesserter Preisscanner",
+        "body": "• Verbesserte Erkennung von Preisschildern, Prospekten und Speisekarten, auch mit kleinen oder hochgestellten Nachkommastellen. • Bessere Unterscheidung des Hauptpreises von Artikelnummern, Packungsmengen und Vergleichspreisen pro Kilogramm. • Verfeinerte Preisprüfung über mehrere Kamerabilder, damit zufällige Lesefehler nicht fälschlich bestätigt werden.",
+        "version": "1.618",
+        "published": false,
+        "statusLabel": "Demnächst in Version 1.618"
+      },
       {
         "id": "CartExperience",
         "title": "Warenkorb und Feedback",
@@ -1235,6 +1347,14 @@
     "title": "Nouveautés",
     "cards": [
       {
+        "id": "ScannerAccuracy",
+        "title": "Scanner de prix amélioré",
+        "body": "• Meilleure reconnaissance des étiquettes, catalogues et menus, y compris des décimales petites ou surélevées. • Meilleure distinction du prix principal, des références produit, des quantités par paquet et du prix de référence au kilogramme. • Vérification du prix affinée sur plusieurs images pour éviter de confirmer à tort des erreurs de lecture aléatoires.",
+        "version": "1.618",
+        "published": false,
+        "statusLabel": "Bientôt dans la version 1.618"
+      },
+      {
         "id": "CartExperience",
         "title": "Panier et commentaires",
         "body": "• Panier plus compact : articles et total sont plus visibles. • À la première utilisation du panier : 10 ajouts gratuits en 24 heures, puis 5 par jour. • L’email de réponse est facultatif. Les commentaires sont envoyés via votre application de messagerie. • Aide et explications des thèmes BP mises à jour ; textes complets des licences disponibles hors ligne.",
@@ -1322,6 +1442,14 @@
   "it": {
     "title": "Novità",
     "cards": [
+      {
+        "id": "ScannerAccuracy",
+        "title": "Scanner dei prezzi migliorato",
+        "body": "• Migliorato il riconoscimento di cartellini, cataloghi e menu, anche con cifre decimali piccole o rialzate. • Migliore distinzione del prezzo principale da codici prodotto, quantità nella confezione e prezzi di riferimento al chilogrammo. • Affinata la verifica del prezzo su più fotogrammi per evitare false conferme di errori di lettura casuali.",
+        "version": "1.618",
+        "published": false,
+        "statusLabel": "In arrivo nella versione 1.618"
+      },
       {
         "id": "CartExperience",
         "title": "Carrello e feedback",
@@ -1411,6 +1539,14 @@
     "title": "Novedades",
     "cards": [
       {
+        "id": "ScannerAccuracy",
+        "title": "Escáner de precios mejorado",
+        "body": "• Mejor reconocimiento de etiquetas de precios, catálogos y menús, incluidos los decimales pequeños o elevados. • Mejor distinción entre el precio principal, los códigos de producto, la cantidad por envase y el precio de referencia por kilogramo. • Verificación del precio más precisa en varios fotogramas para evitar confirmar por error lecturas incorrectas aisladas.",
+        "version": "1.618",
+        "published": false,
+        "statusLabel": "Próximamente en la versión 1.618"
+      },
+      {
         "id": "CartExperience",
         "title": "Cesta y comentarios",
         "body": "• Cesta más compacta: los productos y el total se ven mejor. • Al usar la cesta por primera vez: 10 adiciones gratis en las primeras 24 horas, después 5 al día. • El email de respuesta es opcional. Los comentarios se envían desde tu aplicación de correo. • Ayuda y explicaciones de los temas con BP actualizadas; licencias completas disponibles sin conexión.",
@@ -1498,6 +1634,14 @@
   "es-419": {
     "title": "Novedades",
     "cards": [
+      {
+        "id": "ScannerAccuracy",
+        "title": "Escáner de precios mejorado",
+        "body": "• Mejor reconocimiento de etiquetas de precios, catálogos y menús, incluidos los decimales pequeños o elevados. • Mejor distinción entre el precio principal, los códigos de producto, la cantidad por empaque y el precio de referencia por kilogramo. • Verificación del precio más precisa en varios fotogramas para evitar confirmar por error lecturas incorrectas aisladas.",
+        "version": "1.618",
+        "published": false,
+        "statusLabel": "Próximamente en la versión 1.618"
+      },
       {
         "id": "CartExperience",
         "title": "Carrito y comentarios",
@@ -1587,6 +1731,14 @@
     "title": "Novidades",
     "cards": [
       {
+        "id": "ScannerAccuracy",
+        "title": "Scanner de preços aprimorado",
+        "body": "• Melhor reconhecimento de etiquetas de preços, catálogos e cardápios, incluindo casas decimais pequenas ou elevadas. • Melhor distinção entre o preço principal, códigos de produtos, quantidade na embalagem e preço de referência por quilograma. • Verificação do preço aprimorada em vários quadros para evitar a confirmação indevida de erros aleatórios de leitura.",
+        "version": "1.618",
+        "published": false,
+        "statusLabel": "Em breve na versão 1.618"
+      },
+      {
         "id": "CartExperience",
         "title": "Carrinho e feedback",
         "body": "• Carrinho mais compacto: produtos e total ficam mais visíveis. • No primeiro uso do carrinho: 10 adições grátis nas primeiras 24 horas, depois 5 por dia. • O email para resposta é opcional. O feedback é enviado pelo aplicativo de email. • Ajuda e explicações dos temas com BP atualizadas; textos completos das licenças disponíveis offline.",
@@ -1674,6 +1826,14 @@
   "pt-PT": {
     "title": "Novidades",
     "cards": [
+      {
+        "id": "ScannerAccuracy",
+        "title": "Leitor de preços melhorado",
+        "body": "• Melhor reconhecimento de etiquetas de preços, catálogos e ementas, incluindo casas decimais pequenas ou elevadas. • Melhor distinção entre o preço principal, códigos de produtos, quantidade na embalagem e preço de referência por quilograma. • Verificação do preço aperfeiçoada em vários fotogramas para evitar a confirmação indevida de erros aleatórios de leitura.",
+        "version": "1.618",
+        "published": false,
+        "statusLabel": "Em breve na versão 1.618"
+      },
       {
         "id": "CartExperience",
         "title": "Carrinho e comentários",
@@ -1763,6 +1923,14 @@
     "title": "Wat is er nieuw",
     "cards": [
       {
+        "id": "ScannerAccuracy",
+        "title": "Verbeterde prijsscanner",
+        "body": "• Betere herkenning van prijskaartjes, folders en menukaarten, ook met kleine of verhoogde cijfers achter de komma. • Beter onderscheid tussen de hoofdprijs, artikelnummers, verpakkingsaantallen en de referentieprijs per kilogram. • Verfijnde prijscontrole over meerdere camerabeelden om te voorkomen dat toevallige leesfouten ten onrechte worden bevestigd.",
+        "version": "1.618",
+        "published": false,
+        "statusLabel": "Binnenkort in versie 1.618"
+      },
+      {
         "id": "CartExperience",
         "title": "Winkelmandje en feedback",
         "body": "• Compacter winkelmandje: artikelen en totaal zijn beter zichtbaar. • Bij het eerste gebruik: 10 gratis toevoegingen aan het mandje in de eerste 24 uur, daarna 5 per dag. • Een antwoordmailadres is optioneel. Feedback wordt via je mailapp verstuurd. • Hulp en uitleg over BP-thema’s bijgewerkt; volledige licentieteksten zijn offline beschikbaar.",
@@ -1850,6 +2018,14 @@
   "da": {
     "title": "Nyheder",
     "cards": [
+      {
+        "id": "ScannerAccuracy",
+        "title": "Forbedret prisscanner",
+        "body": "• Bedre genkendelse af prisskilte, kataloger og menuer, også med små eller hævede decimaler. • Bedre skelnen mellem hovedprisen, varenumre, antal i pakken og referenceprisen pr. kilogram. • Forbedret kontrol af prisen på tværs af flere billeder, så tilfældige læsefejl ikke bekræftes fejlagtigt.",
+        "version": "1.618",
+        "published": false,
+        "statusLabel": "Kommer i version 1.618"
+      },
       {
         "id": "CartExperience",
         "title": "Indkøbskurv og feedback",
@@ -1939,6 +2115,14 @@
     "title": "Nyheter",
     "cards": [
       {
+        "id": "ScannerAccuracy",
+        "title": "Förbättrad prisskanner",
+        "body": "• Bättre avläsning av prislappar, kataloger och menyer, även med små eller upphöjda decimalsiffror. • Bättre åtskillnad mellan huvudpriset, artikelnummer, mängden i förpackningen och jämförpriset per kilogram. • Förfinad kontroll av priset i flera bildrutor så att tillfälliga avläsningsfel inte bekräftas felaktigt.",
+        "version": "1.618",
+        "published": false,
+        "statusLabel": "Kommer i version 1.618"
+      },
+      {
         "id": "CartExperience",
         "title": "Varukorg och feedback",
         "body": "• Kompaktare varukorg: varor och totalsumma syns tydligare. • Första gången du använder varukorgen: 10 gratis tillägg under de första 24 timmarna, sedan 5 per dag. • E-post för svar är valfri. Feedback skickas via din e-postapp. • Uppdaterad hjälp och förklaringar av BP-teman; fullständiga licenstexter finns offline.",
@@ -2026,6 +2210,14 @@
   "nb": {
     "title": "Nyheter",
     "cards": [
+      {
+        "id": "ScannerAccuracy",
+        "title": "Forbedret prisskanner",
+        "body": "• Bedre gjenkjenning av prislapper, kataloger og menyer, også med små eller hevede desimalsifre. • Bedre skille mellom hovedprisen, varenumre, mengden i pakken og referanseprisen per kilogram. • Forbedret kontroll av prisen over flere bilder, slik at tilfeldige lesefeil ikke blir feilaktig bekreftet.",
+        "version": "1.618",
+        "published": false,
+        "statusLabel": "Kommer i versjon 1.618"
+      },
       {
         "id": "CartExperience",
         "title": "Handlekurv og tilbakemeldinger",
@@ -2115,6 +2307,14 @@
     "title": "Uutta",
     "cards": [
       {
+        "id": "ScannerAccuracy",
+        "title": "Parannettu hintaskanneri",
+        "body": "• Hintalappujen, kuvastojen ja ruokalistojen tunnistusta on parannettu, myös pienten tai korotettujen desimaalien osalta. • Päähinta erottuu paremmin tuotekoodeista, pakkausmääristä ja kilohinnasta. • Hinnan tarkistusta useasta kuvasta on tarkennettu, jotta satunnaiset lukuvirheet eivät saa virheellistä vahvistusta.",
+        "version": "1.618",
+        "published": false,
+        "statusLabel": "Tulossa versiossa 1.618"
+      },
+      {
         "id": "CartExperience",
         "title": "Ostoskori ja palaute",
         "body": "• Tiiviimpi ostoskori: tuotteet ja loppusumma näkyvät paremmin. • Ostoskorin ensimmäisellä käyttökerralla: 10 ilmaista lisäystä ensimmäisten 24 tunnin aikana, sitten 5 päivässä. • Vastaussähköposti on vapaaehtoinen. Palaute lähetetään sähköpostisovelluksella. • Ohje ja BP-teemojen selitykset päivitetty; täydet lisenssitekstit ovat saatavilla ilman verkkoyhteyttä.",
@@ -2202,6 +2402,14 @@
   "is": {
     "title": "Nýtt",
     "cards": [
+      {
+        "id": "ScannerAccuracy",
+        "title": "Endurbættur verðskanni",
+        "body": "• Betri lestur verðmiða, vörulista og matseðla, einnig þegar aukastafir eru smáir eða upphækkaðir. • Betri aðgreining aðalverðs frá vörunúmerum, magni í pakkningu og viðmiðunarverði á kílógramm. • Bætt sannprófun verðs yfir marga myndramma til að koma í veg fyrir að tilviljanakenndar lesvillur fái ranga staðfestingu.",
+        "version": "1.618",
+        "published": false,
+        "statusLabel": "Væntanlegt í útgáfu 1.618"
+      },
       {
         "id": "CartExperience",
         "title": "Karfa og ábendingar",
@@ -2291,6 +2499,14 @@
     "title": "Τι νέο υπάρχει",
     "cards": [
       {
+        "id": "ScannerAccuracy",
+        "title": "Βελτιωμένος σαρωτής τιμών",
+        "body": "• Καλύτερη αναγνώριση ετικετών τιμών, καταλόγων και μενού, ακόμη και με μικρά ή υπερυψωμένα δεκαδικά ψηφία. • Καλύτερος διαχωρισμός της κύριας τιμής από κωδικούς προϊόντων, ποσότητες συσκευασίας και τιμές αναφοράς ανά κιλό. • Βελτιωμένος έλεγχος της τιμής σε διαδοχικά καρέ, ώστε τυχαία σφάλματα ανάγνωσης να μην επιβεβαιώνονται λανθασμένα.",
+        "version": "1.618",
+        "published": false,
+        "statusLabel": "Έρχεται στην έκδοση 1.618"
+      },
+      {
         "id": "CartExperience",
         "title": "Καλάθι και σχόλια",
         "body": "• Πιο συμπαγές καλάθι: προϊόντα και σύνολο φαίνονται καλύτερα. • Στην πρώτη χρήση του καλαθιού: 10 δωρεάν προσθήκες στις πρώτες 24 ώρες, μετά 5 την ημέρα. • Το email απάντησης είναι προαιρετικό. Τα σχόλια στέλνονται μέσω της εφαρμογής email. • Ενημερώθηκαν η βοήθεια και οι εξηγήσεις για θέματα με BP· πλήρεις άδειες διαθέσιμες εκτός σύνδεσης.",
@@ -2378,6 +2594,14 @@
   "tr": {
     "title": "Yenilikler",
     "cards": [
+      {
+        "id": "ScannerAccuracy",
+        "title": "Geliştirilmiş fiyat tarayıcı",
+        "body": "• Küçük veya yukarıda yazılmış ondalık basamaklar dahil fiyat etiketleri, kataloglar ve menülerin tanınması iyileştirildi. • Ana fiyatın ürün kodlarından, paket miktarlarından ve kilogram başına referans fiyatlardan ayrılması geliştirildi. • Rastgele okuma hatalarının yanlışlıkla doğrulanmasını önlemek için birden fazla karede fiyat kontrolü iyileştirildi.",
+        "version": "1.618",
+        "published": false,
+        "statusLabel": "Yakında 1.618 sürümünde"
+      },
       {
         "id": "CartExperience",
         "title": "Alışveriş sepeti ve geri bildirim",
@@ -2467,6 +2691,14 @@
     "title": "Что нового",
     "cards": [
       {
+        "id": "ScannerAccuracy",
+        "title": "Улучшили сканер цен",
+        "body": "• Доработали распознавание ценников, каталогов и меню, включая цены с мелкими или приподнятыми копейками. • Улучшили отделение основной цены от артикулов, количества в упаковке и справочной цены за килограмм. • Уточнили проверку цены по нескольким кадрам, чтобы случайные ошибки чтения не получали ложного подтверждения.",
+        "version": "1.618",
+        "published": false,
+        "statusLabel": "Готовится обновление 1.618"
+      },
+      {
         "id": "CartExperience",
         "title": "Корзина и обратная связь",
         "body": "• Корзина стала компактнее: товары и итог лучше видны. • При первом использовании корзины — 10 бесплатных добавлений за первые 24 часа, затем 5 в день. • Email для ответа необязателен. Отзыв отправляется через почтовое приложение. • Обновили справку и пояснения к темам за BP; полные тексты лицензий доступны без интернета.",
@@ -2554,6 +2786,14 @@
   "uk": {
     "title": "Що нового",
     "cards": [
+      {
+        "id": "ScannerAccuracy",
+        "title": "Покращили сканер цін",
+        "body": "• Доопрацювали розпізнавання цінників, каталогів і меню, зокрема цін із дрібними або піднятими копійками. • Покращили відокремлення основної ціни від артикулів, кількості в упаковці та довідкової ціни за кілограм. • Уточнили перевірку ціни за кількома кадрами, щоб випадкові помилки зчитування не отримували хибного підтвердження.",
+        "version": "1.618",
+        "published": false,
+        "statusLabel": "Готується оновлення 1.618"
+      },
       {
         "id": "CartExperience",
         "title": "Кошик і зворотний зв’язок",
@@ -2643,6 +2883,14 @@
     "title": "ما الجديد",
     "cards": [
       {
+        "id": "ScannerAccuracy",
+        "title": "تحسين ماسح الأسعار",
+        "body": "• تحسين قراءة بطاقات الأسعار والكتالوجات وقوائم الطعام، بما فيها الأرقام العشرية الصغيرة أو المرتفعة. • تمييز أفضل للسعر الأساسي عن رموز المنتجات وكميات العبوات والسعر المرجعي لكل كيلوغرام. • تحسين التحقق من السعر عبر عدة إطارات لمنع تأكيد أخطاء القراءة العشوائية بشكل خاطئ.",
+        "version": "1.618",
+        "published": false,
+        "statusLabel": "قريبًا في الإصدار 1.618"
+      },
+      {
         "id": "CartExperience",
         "title": "سلة التسوق والملاحظات",
         "body": "• سلة أكثر اختصارًا: المنتجات والمجموع أوضح. • عند أول استخدام للسلة: 10 إضافات مجانية خلال أول 24 ساعة، ثم 5 يوميًا. • بريد الرد اختياري. تُرسل الملاحظات عبر تطبيق البريد الإلكتروني. • تحديث المساعدة وشرح السمات مقابل BP؛ نصوص التراخيص الكاملة متاحة دون إنترنت.",
@@ -2730,6 +2978,14 @@
   "he": {
     "title": "מה חדש",
     "cards": [
+      {
+        "id": "ScannerAccuracy",
+        "title": "שיפרנו את סורק המחירים",
+        "body": "• שיפרנו זיהוי של תגי מחיר, קטלוגים ותפריטים, כולל ספרות עשרוניות קטנות או מוגבהות. • שיפרנו את ההבחנה בין המחיר הראשי, מק״טים, כמויות באריזה ומחיר ייחוס לקילוגרם. • דייקנו את בדיקת המחיר במספר פריימים כדי ששגיאות קריאה אקראיות לא יקבלו אישור שגוי.",
+        "version": "1.618",
+        "published": false,
+        "statusLabel": "בקרוב בגרסה 1.618"
+      },
       {
         "id": "CartExperience",
         "title": "סל קניות ומשוב",
@@ -2819,6 +3075,14 @@
     "title": "تازه‌ها",
     "cards": [
       {
+        "id": "ScannerAccuracy",
+        "title": "بهبود اسکنر قیمت",
+        "body": "• تشخیص بهتر برچسب‌های قیمت، کاتالوگ‌ها و منوها، از جمله رقم‌های اعشاری کوچک یا بالانویس. • تفکیک بهتر قیمت اصلی از کد کالا، تعداد در بسته و قیمت مرجع هر کیلوگرم. • بهبود بررسی قیمت در چند فریم برای جلوگیری از تأیید نادرست خطاهای تصادفی خواندن.",
+        "version": "1.618",
+        "published": false,
+        "statusLabel": "به‌زودی در نسخهٔ 1.618"
+      },
+      {
         "id": "CartExperience",
         "title": "سبد خرید و بازخورد",
         "body": "• سبد جمع‌وجورتر: کالاها و جمع کل بهتر دیده می‌شوند. • در اولین استفاده از سبد: 10 افزودن رایگان در 24 ساعت اول، سپس روزی 5 بار. • ایمیل پاسخ اختیاری است. بازخورد از طریق برنامه ایمیل ارسال می‌شود. • راهنما و توضیحات پوسته‌های BP به‌روز شد؛ متن کامل مجوزها آفلاین در دسترس است.",
@@ -2906,6 +3170,14 @@
   "ur": {
     "title": "نیا کیا ہے",
     "cards": [
+      {
+        "id": "ScannerAccuracy",
+        "title": "قیمت اسکینر میں بہتری",
+        "body": "• قیمت کے ٹیگ، کیٹلاگ اور مینو کی بہتر شناخت، بشمول چھوٹے یا اوپر لکھے ہوئے اعشاری ہندسے۔ • اصل قیمت کو پروڈکٹ کوڈ، پیک کی مقدار اور فی کلوگرام حوالہ قیمت سے بہتر طور پر الگ کیا جاتا ہے۔ • متعدد فریموں میں قیمت کی جانچ بہتر بنائی گئی ہے تاکہ پڑھنے کی اتفاقی غلطیوں کی غلط تصدیق نہ ہو۔",
+        "version": "1.618",
+        "published": false,
+        "statusLabel": "جلد ورژن 1.618 میں"
+      },
       {
         "id": "CartExperience",
         "title": "خریداری کی ٹوکری اور رائے",
@@ -2995,6 +3267,14 @@
     "title": "नया क्या है",
     "cards": [
       {
+        "id": "ScannerAccuracy",
+        "title": "बेहतर मूल्य स्कैनर",
+        "body": "• मूल्य टैग, कैटलॉग और मेन्यू की पहचान बेहतर हुई, छोटे या ऊपर लिखे दशमलव अंकों वाले दाम भी। • मुख्य कीमत को उत्पाद कोड, पैक की मात्रा और प्रति किलोग्राम संदर्भ कीमत से बेहतर अलग किया जाता है। • कई फ़्रेम में कीमत की जाँच सुधारी गई है, ताकि पढ़ने की आकस्मिक गलतियों को सही मानकर पुष्टि न मिले।",
+        "version": "1.618",
+        "published": false,
+        "statusLabel": "जल्द आ रहा है संस्करण 1.618"
+      },
+      {
         "id": "CartExperience",
         "title": "खरीदारी की टोकरी और सुझाव",
         "body": "• टोकरी अब छोटी और व्यवस्थित है: सामान और कुल राशि अधिक साफ़ दिखते हैं। • टोकरी के पहले इस्तेमाल पर: पहले 24 घंटों में 10 बार मुफ़्त जोड़ें, फिर रोज़ 5 बार। • जवाब के लिए ईमेल देना वैकल्पिक है। सुझाव आपके ईमेल ऐप से भेजे जाते हैं। • सहायता और BP थीम की जानकारी अपडेट की गई; लाइसेंस के पूरे पाठ ऑफ़लाइन उपलब्ध हैं।",
@@ -3082,6 +3362,14 @@
   "bn": {
     "title": "নতুন কী",
     "cards": [
+      {
+        "id": "ScannerAccuracy",
+        "title": "উন্নত মূল্য স্ক্যানার",
+        "body": "• ছোট বা উপরে লেখা দশমিক অঙ্কসহ মূল্য ট্যাগ, ক্যাটালগ ও মেনু শনাক্তকরণ উন্নত করা হয়েছে। • মূল দামকে পণ্যের কোড, প্যাকেটের পরিমাণ ও প্রতি কিলোগ্রামের তুলনামূলক দাম থেকে আরও ভালোভাবে আলাদা করা হয়। • একাধিক ফ্রেমে দাম যাচাই উন্নত করা হয়েছে, যাতে পড়ার আকস্মিক ভুলগুলো ভুলভাবে নিশ্চিত না হয়।",
+        "version": "1.618",
+        "published": false,
+        "statusLabel": "শীঘ্রই আসছে সংস্করণ 1.618"
+      },
       {
         "id": "CartExperience",
         "title": "কেনাকাটার ঝুড়ি ও মতামত",
@@ -3171,6 +3459,14 @@
     "title": "Yang Baru",
     "cards": [
       {
+        "id": "ScannerAccuracy",
+        "title": "Pemindai harga ditingkatkan",
+        "body": "• Pengenalan label harga, katalog, dan menu ditingkatkan, termasuk angka desimal kecil atau yang dicetak lebih tinggi. • Pembedaan harga utama dari kode produk, jumlah dalam kemasan, dan harga acuan per kilogram ditingkatkan. • Pemeriksaan harga di beberapa bingkai disempurnakan agar kesalahan baca acak tidak mendapat konfirmasi yang keliru.",
+        "version": "1.618",
+        "published": false,
+        "statusLabel": "Segera hadir di versi 1.618"
+      },
+      {
         "id": "CartExperience",
         "title": "Keranjang dan masukan",
         "body": "• Keranjang lebih ringkas: barang dan total lebih mudah dilihat. • Saat pertama memakai keranjang: 10 penambahan gratis dalam 24 jam pertama, lalu 5 per hari. • Email balasan bersifat opsional. Masukan dikirim melalui aplikasi email Anda. • Bantuan dan penjelasan tema BP diperbarui; teks lisensi lengkap tersedia offline.",
@@ -3258,6 +3554,14 @@
   "ms": {
     "title": "Apa yang Baharu",
     "cards": [
+      {
+        "id": "ScannerAccuracy",
+        "title": "Pengimbas harga ditambah baik",
+        "body": "• Pengecaman tanda harga, katalog dan menu ditambah baik, termasuk digit perpuluhan kecil atau yang dicetak lebih tinggi. • Pembezaan harga utama daripada kod produk, kuantiti dalam bungkusan dan harga rujukan sekilogram ditambah baik. • Semakan harga merentas beberapa bingkai diperhalus supaya ralat bacaan rawak tidak mendapat pengesahan yang salah.",
+        "version": "1.618",
+        "published": false,
+        "statusLabel": "Akan datang dalam versi 1.618"
+      },
       {
         "id": "CartExperience",
         "title": "Troli dan maklum balas",
@@ -3347,6 +3651,14 @@
     "title": "มีอะไรใหม่",
     "cards": [
       {
+        "id": "ScannerAccuracy",
+        "title": "ปรับปรุงเครื่องสแกนราคา",
+        "body": "• ปรับปรุงการอ่านป้ายราคา แค็ตตาล็อก และเมนู รวมถึงเลขทศนิยมขนาดเล็กหรือที่พิมพ์ยกสูง • แยกราคาหลักออกจากรหัสสินค้า จำนวนในบรรจุภัณฑ์ และราคาอ้างอิงต่อกิโลกรัมได้ดีขึ้น • ปรับปรุงการตรวจสอบราคาจากหลายเฟรม เพื่อไม่ให้ข้อผิดพลาดในการอ่านเป็นครั้งคราวได้รับการยืนยันอย่างผิดพลาด",
+        "version": "1.618",
+        "published": false,
+        "statusLabel": "เร็ว ๆ นี้ในเวอร์ชัน 1.618"
+      },
+      {
         "id": "CartExperience",
         "title": "ตะกร้าสินค้าและความคิดเห็น",
         "body": "• ตะกร้ากระชับขึ้น มองเห็นสินค้าและยอดรวมได้ง่ายขึ้น • เมื่อใช้ตะกร้าครั้งแรก เพิ่มสินค้าฟรี 10 ครั้งใน 24 ชั่วโมงแรก จากนั้นวันละ 5 ครั้ง • ไม่จำเป็นต้องกรอกอีเมลสำหรับตอบกลับ ส่งความคิดเห็นผ่านแอปอีเมลของคุณ • อัปเดตความช่วยเหลือและคำอธิบายธีมที่ใช้ BP พร้อมข้อความใบอนุญาตฉบับเต็มแบบออฟไลน์",
@@ -3434,6 +3746,14 @@
   "vi": {
     "title": "Có gì mới",
     "cards": [
+      {
+        "id": "ScannerAccuracy",
+        "title": "Cải thiện trình quét giá",
+        "body": "• Cải thiện nhận dạng nhãn giá, danh mục và thực đơn, kể cả chữ số thập phân nhỏ hoặc được in cao lên. • Phân biệt tốt hơn giá chính với mã sản phẩm, số lượng trong gói và giá tham chiếu mỗi kilôgam. • Tinh chỉnh việc kiểm tra giá qua nhiều khung hình để tránh xác nhận nhầm các lỗi đọc ngẫu nhiên.",
+        "version": "1.618",
+        "published": false,
+        "statusLabel": "Sắp có trong phiên bản 1.618"
+      },
       {
         "id": "CartExperience",
         "title": "Giỏ hàng và phản hồi",
@@ -3523,6 +3843,14 @@
     "title": "新功能",
     "cards": [
       {
+        "id": "ScannerAccuracy",
+        "title": "价格扫描器改进",
+        "body": "• 改进价签、商品目录和菜单的识别，支持更好地读取字号较小或位置抬高的小数部分。 • 更好地区分商品主价格、货号、包装数量和每千克参考价格。 • 优化多帧价格核验，避免将偶发的识别错误误当作有效确认。",
+        "version": "1.618",
+        "published": false,
+        "statusLabel": "即将在 1.618 版本推出"
+      },
+      {
         "id": "CartExperience",
         "title": "购物车与反馈",
         "body": "• 购物车更紧凑，商品和总价一目了然。 • 首次使用购物车：前24小时可免费添加10次，此后每天5次。 • 回复邮箱为选填项，反馈通过您的邮件应用发送。 • 更新了帮助和BP主题说明；完整许可证文本可离线查看。",
@@ -3610,6 +3938,14 @@
   "zh-Hant": {
     "title": "最新消息",
     "cards": [
+      {
+        "id": "ScannerAccuracy",
+        "title": "價格掃描器改進",
+        "body": "• 改善價標、商品目錄和菜單的辨識，更準確地讀取字體較小或位置抬高的小數部分。 • 更清楚地區分商品主價格、貨號、包裝數量和每公斤參考價格。 • 優化多影格價格核驗，避免將偶發的辨識錯誤誤當作有效確認。",
+        "version": "1.618",
+        "published": false,
+        "statusLabel": "即將於 1.618 版本推出"
+      },
       {
         "id": "CartExperience",
         "title": "購物車與意見回饋",
@@ -3699,6 +4035,14 @@
     "title": "新機能",
     "cards": [
       {
+        "id": "ScannerAccuracy",
+        "title": "価格スキャナーを改善",
+        "body": "• 値札、カタログ、メニューの認識を改善。小さい文字や上付きで印刷された小数部分にも対応を強化しました。 • 商品の価格と商品コード、包装内の数量、1キログラムあたりの参考価格を区別しやすくしました。 • 複数フレームでの価格検証を見直し、偶発的な読み取りミスが誤って裏付けられるのを防ぎます。",
+        "version": "1.618",
+        "published": false,
+        "statusLabel": "バージョン1.618で近日公開"
+      },
+      {
         "id": "CartExperience",
         "title": "買い物かごとフィードバック",
         "body": "• かごがコンパクトになり、商品と合計が見やすくなりました。 • かごの初回利用から24時間は10回まで無料で追加でき、その後は1日5回までです。 • 返信用メールアドレスは任意です。フィードバックはメールアプリから送信します。 • ヘルプとBPで交換するテーマの説明を更新。ライセンス全文をオフラインで確認できます。",
@@ -3786,6 +4130,14 @@
   "ko": {
     "title": "새로운 기능",
     "cards": [
+      {
+        "id": "ScannerAccuracy",
+        "title": "가격 스캐너 개선",
+        "body": "• 작거나 위로 올려 인쇄된 소수 부분을 포함해 가격표, 카탈로그, 메뉴의 인식을 개선했습니다. • 주요 가격을 상품 코드, 포장 수량, 킬로그램당 참고 가격과 더 잘 구분합니다. • 여러 프레임의 가격 검증을 개선해 우연한 읽기 오류가 잘못된 확인 근거로 쓰이지 않도록 했습니다.",
+        "version": "1.618",
+        "published": false,
+        "statusLabel": "버전 1.618에서 곧 제공"
+      },
       {
         "id": "CartExperience",
         "title": "장바구니 및 의견 보내기",
