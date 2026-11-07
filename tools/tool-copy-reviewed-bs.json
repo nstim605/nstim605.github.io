@@ -182,7 +182,7 @@
   "Show exchange-rate history": "Prikaži historiju kursa",
   "Source: Frankfurter public reference-rate API.": "Izvor: javni Frankfurter API za referentne kurseve.",
   "Specific day": "Određen dan",
-  "The Android app includes 30-day rate charts, pinned pairs, offline reference rates and other currency tools.": "Android aplikacija nudi grafikone kursa za 30 dana, prikvačene parove, referentne kurseve bez interneta i druge valutne alate.",
+  "The Android app includes 30-day rate charts, offline reference rates and other currency tools.": "Android aplikacija nudi grafikone kursa za 30 dana, referentne kurseve bez interneta i druge valutne alate.",
   "The same base and target currencies selected above will be used.": "Koristit će se ista osnovna i ciljna valuta odabrana iznad.",
   "The API returned reference data dated {date}.": "API je vratio referentne podatke sa datumom {date}.",
   "Use the chart to see direction and variation, not to predict the next move. Some providers do not publish on every calendar day. If the API returns data from another available date, the lookup reports that actual data date instead of presenting it as the day you selected.": "Koristite grafikon da vidite smjer i promjene, a ne da predviđate buduće kretanje. Podaci se ne objavljuju svakog kalendarskog dana. Ako API vrati podatke za drugi dostupni datum, prikazuje se stvarni datum tih podataka, a ne odabrani datum.",

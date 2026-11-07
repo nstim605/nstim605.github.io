@@ -386,7 +386,7 @@
     "The Android app adds a calculator, offline rates, Travel Board, Actual Cost, saved sets, history, charts, and a home-screen widget.",
     "The Android app adds Actual Cost, offline rates, Travel Board, saved sets, charts, and a home-screen widget.",
     "The Android app can reuse its latest successful exchange-rate cache without a connection and clearly identifies cached data and its rate date.",
-    "The Android app includes 30-day rate charts, pinned pairs, offline reference rates and other currency tools.",
+    "The Android app includes 30-day rate charts, offline reference rates and other currency tools.",
     "The Android app keeps several trip currencies together, supports reordering, and can prepare rates for offline use.",
     "The API returned reference data dated {date}.",
     "The app requests the latest available reference-rate dataset and records its rate date and save time.",

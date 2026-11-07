@@ -182,7 +182,7 @@
   "Show exchange-rate history": "Показати історію курсу",
   "Source: Frankfurter public reference-rate API.": "Джерело: загальнодоступний API довідкових курсів Frankfurter.",
   "Specific day": "Конкретна дата",
-  "The Android app includes 30-day rate charts, pinned pairs, offline reference rates and other currency tools.": "Застосунок для Android містить 30-денні графіки курсів, закріплені пари, довідкові курси для роботи без інтернету та інші валютні інструменти.",
+  "The Android app includes 30-day rate charts, offline reference rates and other currency tools.": "Застосунок для Android містить 30-денні графіки курсів, довідкові курси для роботи без інтернету та інші валютні інструменти.",
   "The same base and target currencies selected above will be used.": "Буде використано базову й цільову валюти, вибрані вище.",
   "The API returned reference data dated {date}.": "API повернув довідкові дані за {date}.",
   "Use the chart to see direction and variation, not to predict the next move. Some providers do not publish on every calendar day. If the API returns data from another available date, the lookup reports that actual data date instead of presenting it as the day you selected.": "Використовуйте графік, щоб оцінити напрямок і коливання курсу, а не прогнозувати його наступну зміну. Дані публікуються не за кожен календарний день. Якщо API поверне значення за іншу доступну дату, результат покаже фактичну дату даних, а не вибраний вами день.",

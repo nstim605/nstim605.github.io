@@ -366,7 +366,7 @@
   "The Android app adds a calculator, offline rates, Travel Board, Actual Cost, saved sets, history, charts, and a home-screen widget.": "האפליקציה Android מוסיפה מחשבון, תעריפים לא מקוונים, לוח נסיעות, עלות בפועל, סטים שמורים, היסטוריה, תרשימים ווידג'ט למסך הבית.",
   "The Android app adds Actual Cost, offline rates, Travel Board, saved sets, charts, and a home-screen widget.": "האפליקציה Android מוסיפה עלות בפועל, תעריפים לא מקוונים, לוח טיולים, סטים שמורים, תרשימים ווידג'ט למסך הבית.",
   "The Android app can reuse its latest successful exchange-rate cache without a connection and clearly identifies cached data and its rate date.": "אפליקציית Android יכולה לעשות שימוש חוזר במטמון שער החליפין המוצלח האחרון שלה ללא חיבור ומזהה בבירור את הנתונים המאוחסנים במטמון ואת תאריך השער שלהם.",
-  "The Android app includes 30-day rate charts, pinned pairs, offline reference rates and other currency tools.": "אפליקציית Android כוללת טבלאות תעריפים ל-30 יום, צמדים מוצמדים, שערי ייחוס לא מקוונים וכלי מטבע אחרים.",
+  "The Android app includes 30-day rate charts, offline reference rates and other currency tools.": "אפליקציית Android כוללת טבלאות תעריפים ל-30 יום, שערי ייחוס לא מקוונים וכלי מטבע אחרים.",
   "The Android app keeps several trip currencies together, supports reordering, and can prepare rates for offline use.": "אפליקציית Android שומרת מספר מטבעות טיול ביחד, תומכת בהזמנה מחדש ויכולה להכין תעריפים לשימוש לא מקוון.",
   "The API returned reference data dated {date}.": "ה-API החזיר נתוני התייחסות מתוארכים {date}.",
   "The app requests the latest available reference-rate dataset and records its rate date and save time.": "האפליקציה מבקשת את מערך שערי הייחוס העדכני ביותר ומתעדת את תאריך השער ואת זמן השמירה.",

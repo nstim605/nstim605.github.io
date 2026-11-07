@@ -185,7 +185,7 @@
   "Show exchange-rate history": "Показать историю курса",
   "Source: Frankfurter public reference-rate API.": "Источник: общедоступный API справочных курсов Frankfurter.",
   "Specific day": "Выбранная дата",
-  "The Android app includes 30-day rate charts, pinned pairs, offline reference rates and other currency tools.": "В приложении для Android доступны графики курса за 30 дней, закреплённые пары, сохранённые курсы без интернета и другие валютные инструменты.",
+  "The Android app includes 30-day rate charts, offline reference rates and other currency tools.": "В приложении для Android доступны графики курса за 30 дней, сохранённые курсы без интернета и другие валютные инструменты.",
   "The same base and target currencies selected above will be used.": "Будут использованы те же исходная валюта и валюта результата, которые выбраны выше.",
   "The API returned reference data dated {date}.": "Сервис вернул справочные данные за {date}.",
   "Use the chart to see direction and variation, not to predict the next move. Some providers do not publish on every calendar day. If the API returns data from another available date, the lookup reports that actual data date instead of presenting it as the day you selected.": "Используйте график, чтобы увидеть направление и колебания курса, а не для прогноза. Данные публикуются не за каждый календарный день. Если сервис вернёт курс за ближайшую доступную дату, страница покажет фактическую дату данных.",

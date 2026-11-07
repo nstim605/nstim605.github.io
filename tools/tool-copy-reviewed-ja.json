@@ -366,7 +366,7 @@
   "The Android app adds a calculator, offline rates, Travel Board, Actual Cost, saved sets, history, charts, and a home-screen widget.": "Android アプリでは、計算機能、オフラインレート、トラベルボード、実質交換コスト、保存セット、レート履歴、チャート、ホーム画面ウィジェットも利用できます。",
   "The Android app adds Actual Cost, offline rates, Travel Board, saved sets, charts, and a home-screen widget.": "Android アプリでは、実質交換コスト、オフラインレート、トラベルボード、保存セット、チャート、ホーム画面ウィジェットも利用できます。",
   "The Android app can reuse its latest successful exchange-rate cache without a connection and clearly identifies cached data and its rate date.": "Android アプリは、接続なしで最新の成功した為替レート キャッシュを再利用でき、キャッシュされたデータとそのレート日付を明確に識別します。",
-  "The Android app includes 30-day rate charts, pinned pairs, offline reference rates and other currency tools.": "Android アプリには、30 日レート チャート、固定ペア、オフライン参照レート、その他の通貨ツールが含まれています。",
+  "The Android app includes 30-day rate charts, offline reference rates and other currency tools.": "Android アプリには、30 日レート チャート、オフライン参照レート、その他の通貨ツールが含まれています。",
   "The Android app keeps several trip currencies together, supports reordering, and can prepare rates for offline use.": "Android アプリは、複数の旅行通貨をまとめて管理し、再注文をサポートし、オフラインで使用するためのレートを準備できます。",
   "The API returned reference data dated {date}.": "API は、{date} という日付の参照データを返しました。",
   "The app requests the latest available reference-rate dataset and records its rate date and save time.": "アプリは、利用可能な最新の参照レート データセットを要求し、そのレートの日付と保存時間を記録します。",

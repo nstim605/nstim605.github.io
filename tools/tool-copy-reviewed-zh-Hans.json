@@ -366,7 +366,7 @@
   "The Android app adds a calculator, offline rates, Travel Board, Actual Cost, saved sets, history, charts, and a home-screen widget.": "Android 应用还提供计算器、离线汇率、旅行货币看板、实际兑换成本、已保存组合、汇率历史、图表和主屏幕小组件。",
   "The Android app adds Actual Cost, offline rates, Travel Board, saved sets, charts, and a home-screen widget.": "Android 应用还提供实际兑换成本、离线汇率、旅行货币看板、已保存组合、图表和主屏幕小组件。",
   "The Android app can reuse its latest successful exchange-rate cache without a connection and clearly identifies cached data and its rate date.": "Android 应用可以在没有连接的情况下重复使用其最新成功的汇率缓存，并清楚地识别缓存的数据及其汇率日期。",
-  "The Android app includes 30-day rate charts, pinned pairs, offline reference rates and other currency tools.": "Android 应用程序包括 30 天汇率图表、固定货币对、离线参考汇率和其他货币工具。",
+  "The Android app includes 30-day rate charts, offline reference rates and other currency tools.": "Android 应用程序包括 30 天汇率图表、离线参考汇率和其他货币工具。",
   "The Android app keeps several trip currencies together, supports reordering, and can prepare rates for offline use.": "Android 应用可集中显示多种旅行货币，支持调整顺序，并可准备汇率供离线使用。",
   "The API returned reference data dated {date}.": "API 返回了日期为 {date} 的参考数据。",
   "The app requests the latest available reference-rate dataset and records its rate date and save time.": "应用会请求最新可用的参考汇率数据，并记录汇率日期和保存时间。",

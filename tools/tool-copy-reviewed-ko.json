@@ -366,7 +366,7 @@
   "The Android app adds a calculator, offline rates, Travel Board, Actual Cost, saved sets, history, charts, and a home-screen widget.": "Android 앱에서는 계산기, 오프라인 환율, 여행 통화 보드, 실제 비용, 저장된 세트, 기록, 차트, 홈 화면 위젯을 이용할 수 있습니다.",
   "The Android app adds Actual Cost, offline rates, Travel Board, saved sets, charts, and a home-screen widget.": "Android 앱에서는 실제 비용, 오프라인 환율, 여행 통화 보드, 저장된 세트, 차트, 홈 화면 위젯을 이용할 수 있습니다.",
   "The Android app can reuse its latest successful exchange-rate cache without a connection and clearly identifies cached data and its rate date.": "Android 앱은 연결 없이 최근에 성공한 환율 캐시를 재사용할 수 있으며 캐시된 데이터와 환율 날짜를 명확하게 식별합니다.",
-  "The Android app includes 30-day rate charts, pinned pairs, offline reference rates and other currency tools.": "Android 앱에는 30일 환율 차트, 고정된 통화 쌍, 오프라인 기준 환율 등 다양한 통화 도구가 있습니다.",
+  "The Android app includes 30-day rate charts, offline reference rates and other currency tools.": "Android 앱에는 30일 환율 차트, 오프라인 기준 환율 등 다양한 통화 도구가 있습니다.",
   "The Android app keeps several trip currencies together, supports reordering, and can prepare rates for offline use.": "Android 앱에서는 여러 여행 통화를 한곳에 모아 순서를 바꾸고 오프라인용 환율을 저장할 수 있습니다.",
   "The API returned reference data dated {date}.": "API가 {date} 날짜의 기준 환율 데이터를 반환했습니다.",
   "The app requests the latest available reference-rate dataset and records its rate date and save time.": "앱은 사용 가능한 최신 기준 환율 데이터 세트를 요청하고 해당 환율 날짜와 저장 시간을 기록합니다.",

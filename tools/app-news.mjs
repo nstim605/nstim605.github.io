@@ -26,9 +26,8 @@ function androidText(value) {
 // The published HTML and JSON remain standalone; Android sources are needed only at generation time.
 export function loadAppNews(root, manifest) {
   const androidRoot = path.resolve(process.env.ANDROID_SOURCE_ROOT || path.join(root, '..'));
-  const upcomingLabels = JSON.parse(fs.readFileSync(path.join(root, 'tools', 'app-news-upcoming.json'), 'utf8'));
-  const uxUpcomingLabels = JSON.parse(fs.readFileSync(path.join(root, 'tools', 'app-news-upcoming-1-617.json'), 'utf8'));
-  const scannerUpcomingLabels = JSON.parse(fs.readFileSync(path.join(root, 'tools', 'app-news-upcoming-1-618.json'), 'utf8'));
+  // These features are public in Google Play 1.619, verified on 2026-11-07.
+  // Store-specific labels do not imply availability in the AppGallery version.
   const result = {};
   for (const locale of manifest.locales) {
     const source = manifest.terminologySources.find(item => item.locale === locale.androidLocale);
@@ -66,20 +65,20 @@ export function loadAppNews(root, manifest) {
         id: 'ScannerAccuracy',
         title: required('updates_scanner_accuracy_title'),
         body: required('updates_scanner_accuracy_body'),
-        version: '1.618', published: false,
-        statusLabel: scannerUpcomingLabels[locale.hreflang] || (() => { throw new Error(`Missing upcoming label for ${locale.hreflang}`); })()
+        version: '1.618', published: true,
+        statusLabel: 'Google Play · 1.618'
       }, {
         id: 'CartExperience',
         title: required('updates_ux_title'),
         body: required('updates_ux_body'),
-        version: '1.617', published: false,
-        statusLabel: uxUpcomingLabels[locale.hreflang] || (() => { throw new Error(`Missing upcoming label for ${locale.hreflang}`); })()
+        version: '1.617', published: true,
+        statusLabel: 'Google Play · 1.617'
       }, {
         id: 'CartContinuous',
         title: required('updates_cart_continuous_title'),
         body: required('updates_cart_continuous_body'),
-        version: '1.616', published: false,
-        statusLabel: upcomingLabels[locale.hreflang] || (() => { throw new Error(`Missing upcoming label for ${locale.hreflang}`); })()
+        version: '1.616', published: true,
+        statusLabel: 'Google Play · 1.616'
       }, ...currentCards, ...features.map(([id, title, body]) => ({
         id, title: required(title), ...(body ? {body: required(body)} : {}),
         ...(id === 'ProcessText' ? {body: selectedTextExample} : {}),
