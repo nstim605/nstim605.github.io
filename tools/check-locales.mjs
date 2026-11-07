@@ -1,6 +1,7 @@
 import fs from 'node:fs/promises';
 import path from 'node:path';
 import { validateSitemapUrlSet } from './sitemap-validation.mjs';
+import { searchHreflang } from './locale-navigation.mjs';
 
 const root = path.resolve(import.meta.dirname, '..');
 const manifest = JSON.parse(await fs.readFile(path.join(root, 'site-locales.json'), 'utf8'));
@@ -12,7 +13,7 @@ const web = manifest.locales.map(locale => locale.androidLocale);
 const errors = [];
 const warnings = [];
 const pages = new Map();
-const expectedHreflangs = manifest.locales.map(locale => locale.hreflang);
+const expectedHreflangs = manifest.locales.map(locale => searchHreflang(locale.webLocale));
 const intentionalEnglish = new Set(['BALCO Converter', 'Google Play', '© 2026 BALCO Converter',
   'Google Privacy Policy', 'Google Analytics', 'Google advertising policies', 'google_play_click',
   'Links', 'Crypto']);

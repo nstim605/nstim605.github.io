@@ -3,6 +3,7 @@ import path from "node:path";
 import { fileURLToPath } from "node:url";
 import { escapeHtml, loadAppNews, renderNewsCards, renderNewsHeader } from "./app-news.mjs";
 import { ensureStoreLinks } from "./store-links.mjs";
+import { searchHreflang, skipLinkLabel } from "./locale-navigation.mjs";
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const currentNewsOnly = process.argv.includes('--current-news-only');
@@ -76,7 +77,7 @@ fs.mkdirSync(path.join(root, "updates", "data"), {recursive: true});
 fs.writeFileSync(path.join(root, "updates", "data", "app-news.json"), `${JSON.stringify(appNews, null, 2)}\n`);
 
 const localePath = (locale, suffix = "") => `${locale.dir ? `/${locale.dir}` : ""}/updates/${suffix}`;
-const alternates = (suffix = "") => locales.map(locale => `  <link rel="alternate" hreflang="${locale.hreflang}" href="${base}${localePath(locale, suffix)}">`).concat(`  <link rel="alternate" hreflang="x-default" href="${base}/updates/${suffix}">`).join("\n");
+const alternates = (suffix = "") => locales.map(locale => `  <link rel="alternate" hreflang="${searchHreflang(locale.hreflang)}" href="${base}${localePath(locale, suffix)}">`).concat(`  <link rel="alternate" hreflang="x-default" href="${base}/updates/${suffix}">`).join("\n");
 const escJson = value => JSON.stringify(value).slice(1, -1);
 
 for (const locale of locales) {
@@ -103,7 +104,7 @@ ${alternates()}
   <link rel="stylesheet" href="/styles.css?v=20261101">
 </head>
 <body>
-  <a class="skip-link" href="#main">${escapeHtml(news.title)}</a>
+  <a class="skip-link" href="#main">${escapeHtml(skipLinkLabel(locale.hreflang))}</a>
   ${renderNewsHeader(homepageHtml, locale, news, localeManifest)}
   <main id="main" class="updates-main shell">
     <section class="updates-hero"><p class="eyebrow">BALCO Converter</p><h1>${escapeHtml(news.title)}</h1></section>
@@ -196,7 +197,7 @@ for (const locale of locales) {
 const sitemapPath = path.join(root, "sitemap.xml");
 let sitemap = fs.readFileSync(sitemapPath, "utf8");
 sitemap = sitemap.replace(/\s*<url>\s*<loc>https:\/\/balkanconverter\.com\/[^<]*updates\/[^<]*<\/loc>[\s\S]*?<\/url>/g, "");
-const sitemapAlternates = suffix => locales.map(locale => `    <xhtml:link rel="alternate" hreflang="${locale.hreflang}" href="${base}${localePath(locale, suffix)}" />`).concat(`    <xhtml:link rel="alternate" hreflang="x-default" href="${base}/updates/${suffix}" />`).join("\n");
+const sitemapAlternates = suffix => locales.map(locale => `    <xhtml:link rel="alternate" hreflang="${searchHreflang(locale.hreflang)}" href="${base}${localePath(locale, suffix)}" />`).concat(`    <xhtml:link rel="alternate" hreflang="x-default" href="${base}/updates/${suffix}" />`).join("\n");
 const updateEntries = [];
 for (const suffix of ["", "version-1-604/"]) {
   for (const locale of locales) {

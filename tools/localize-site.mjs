@@ -4,6 +4,7 @@ import { applyAdSenseIntegration } from './adsense-integration.mjs';
 import { createRunTimestamp, writeGeneratedJson } from './generated-json.mjs';
 import { resolveToolMessages } from './tool-localization-data.mjs';
 import { ensureStoreLinks } from './store-links.mjs';
+import { searchHreflang, skipLinkLabel, updateGenericNavigation, updateSearchAlternates } from './locale-navigation.mjs';
 
 const root = path.resolve(import.meta.dirname, '..');
 const androidRoot = path.resolve(process.env.ANDROID_SOURCE_ROOT || path.join(root, '..'));
@@ -120,7 +121,7 @@ const esc = value => String(value).replaceAll('&', '&amp;').replaceAll('"', '&qu
 const brand = 'BALCO Converter';
 const webPolicyDate = value => value;
 
-function localMap(strings, copy, privacyTitle, linkCopy, resourceCopy) {
+function localMap(strings, copy, privacyTitle, linkCopy, resourceCopy, locale) {
   const calculator = [strings.calculator_add, strings.calculator_subtract, strings.calculator_multiply, strings.calculator_divide].join(' · ');
   const map = {
     'BALCO Converter — Convert currencies quickly, anywhere': `${brand} — ${copy.h1}`,
@@ -128,7 +129,7 @@ function localMap(strings, copy, privacyTitle, linkCopy, resourceCopy) {
     'Convert currencies worldwide with travel-ready tools, offline rates, and a clear view of exchange costs.': copy.marketingSummary,
     'Convert currencies quickly, anywhere. Latest rates, offline access, favorites, history, charts and a built-in calculator.': copy.marketingSummary,
     'BALCO Converter app preview': `${brand} — ${copy.seeApp}`,
-    'Skip to content': copy.seeApp,
+    'Skip to content': skipLinkLabel(locale.web),
     'BALCO Converter home': brand,
     'Main navigation': copy.features,
     'Features': copy.features,
@@ -335,7 +336,7 @@ function urlFor(locale, page = 'home') {
 }
 
 function alternateLinks(page) {
-  return locales.map(locale => `  <link rel="alternate" hreflang="${locale.web}" href="https://balkanconverter.com${urlFor(locale, page)}">`)
+  return locales.map(locale => `  <link rel="alternate" hreflang="${searchHreflang(locale.web)}" href="https://balkanconverter.com${urlFor(locale, page)}">`)
     .concat(`  <link rel="alternate" hreflang="x-default" href="https://balkanconverter.com${urlFor(locales[0], page)}">`).join('\n');
 }
 
@@ -631,7 +632,7 @@ for (const locale of locales) {
   const { strings, folder, missingHomepage } = await androidStrings(locale);
   // Explicit standalone copy; never change case inside the legal policy body.
   const privacyTitle = privacyTitleCopy[locale.web]?.title ?? strings.privacy_policy;
-  const map = localMap(strings, copy, privacyTitle, homepageLinkCopy[locale.web], linksCopy[locale.web]);
+  const map = localMap(strings, copy, privacyTitle, homepageLinkCopy[locale.web], linksCopy[locale.web], locale);
   let home;
   if (missingHomepage.length === 0) {
     home = locale.android === 'en' ? homeTemplate : applyMap(homeTemplate, map);
@@ -657,7 +658,7 @@ for (const locale of locales) {
   const directory = path.join(root, locale.route);
   await fs.mkdir(directory, { recursive: true });
   const homePath = path.join(directory, 'index.html');
-  const homeWithLinks = ensureStoreLinks(ensureMobileNavigation(ensureFooterLinks(ensureFeatureIcons(home), locale)));
+  const homeWithLinks = updateGenericNavigation(ensureStoreLinks(ensureMobileNavigation(ensureFooterLinks(ensureFeatureIcons(home), locale))), locale.web);
   if (!preserved.has(locale.android) || homeWithLinks !== home) await fs.writeFile(homePath, homeWithLinks);
   if (preserveExistingPolicies) {
     const preservedPath = path.join(directory, 'privacy-policy.html');
@@ -671,14 +672,14 @@ for (const locale of locales) {
       ),
       { privacyPolicy: true }
     ), locale));
-    const policyWithStores = ensureStoreLinks(migratedPolicy);
+    const policyWithStores = updateGenericNavigation(ensureStoreLinks(migratedPolicy), locale.web);
     if (policyWithStores !== existingPolicy) await fs.writeFile(preservedPath, policyWithStores);
   } else {
-    await fs.writeFile(path.join(directory, 'privacy-policy.html'), ensureStoreLinks(synchronizeHeaderWithHome(policy, homeWithLinks, locale, 'policy')));
+    await fs.writeFile(path.join(directory, 'privacy-policy.html'), updateGenericNavigation(ensureStoreLinks(synchronizeHeaderWithHome(policy, homeWithLinks, locale, 'policy')), locale.web));
   }
   const linksDirectory = path.join(directory, 'links');
   await fs.mkdir(linksDirectory, { recursive: true });
-  const links = ensureStoreLinks(finalizeLinks(linksTemplate, locale, map, copy, strings));
+  const links = updateGenericNavigation(ensureStoreLinks(finalizeLinks(linksTemplate, locale, map, copy, strings)), locale.web);
   await fs.writeFile(path.join(linksDirectory, 'index.html'), synchronizeHeaderWithHome(links, homeWithLinks, locale, 'links'));
   if (!preserved.has(locale.android)) generated.push(locale.android);
   if (locale.android !== 'en') {
@@ -691,7 +692,7 @@ for (const locale of locales) {
         await fs.writeFile(toolPath, ensureStoreLinks(finalizeTool(toolTemplates[slug], locale, slug, mapForTool(rawMap, slug), copy, strings)));
       } else {
         const existingTool = await fs.readFile(toolPath, 'utf8');
-        const migratedTool = ensureStoreLinks(standardizeLocalizedToolHeader(ensureFooterLinks(existingTool, locale), locale, slug, copy, strings));
+        const migratedTool = updateSearchAlternates(ensureStoreLinks(standardizeLocalizedToolHeader(ensureFooterLinks(existingTool, locale), locale, slug, copy, strings)));
         if (migratedTool !== existingTool) await fs.writeFile(toolPath, migratedTool);
       }
     }
@@ -708,7 +709,7 @@ const manifest = { androidSource: '../app/src/main/res/xml/locales_config.xml',
 await writeGeneratedJson(path.join(root, 'site-locales.json'), manifest, { getRunTimestamp });
 
 const xmlEsc = value => value.replaceAll('&', '&amp;');
-const sitemapLinks = page => locales.map(locale => `    <xhtml:link rel="alternate" hreflang="${locale.web}" href="${xmlEsc(`https://balkanconverter.com${urlFor(locale, page)}`)}" />`)
+const sitemapLinks = page => locales.map(locale => `    <xhtml:link rel="alternate" hreflang="${searchHreflang(locale.web)}" href="${xmlEsc(`https://balkanconverter.com${urlFor(locale, page)}`)}" />`)
   .concat(`    <xhtml:link rel="alternate" hreflang="x-default" href="${xmlEsc(`https://balkanconverter.com${urlFor(locales[0], page)}`)}" />`).join('\n');
 const urls = [];
 for (const page of ['home', 'policy', 'links', ...toolSlugs]) for (const locale of locales) {

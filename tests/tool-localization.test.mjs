@@ -4,6 +4,7 @@ import path from 'node:path';
 import test from 'node:test';
 import { resolveToolMessages } from '../tools/tool-localization-data.mjs';
 import { expectedSitemapUrls } from '../tools/sitemap-validation.mjs';
+import { searchHreflang } from '../tools/locale-navigation.mjs';
 
 const root = path.resolve(import.meta.dirname, '..');
 const inventory = JSON.parse(await fs.readFile(path.join(root, 'site-locales.json'), 'utf8'));
@@ -24,7 +25,7 @@ const acceptableSharedTerms = /^(?:[A-Z]{3} — .+|Minimum|Maximum|Optional|Priv
 
 const routeFor = locale => locale.url === '/' ? '' : locale.url.slice(1, -1);
 const urlFor = (locale, slug) => `/${routeFor(locale) ? `${routeFor(locale)}/` : ''}${slug}/`;
-const expectedHreflangs = new Set([...inventory.locales.map(locale => locale.webLocale), 'x-default']);
+const expectedHreflangs = new Set([...inventory.locales.map(locale => searchHreflang(locale.webLocale)), 'x-default']);
 
 test('production inventory contains 44 locale variants and eight tools', () => {
   assert.equal(inventory.locales.length, 44);
