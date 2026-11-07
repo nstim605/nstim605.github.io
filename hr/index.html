@@ -71,7 +71,7 @@
   <link rel="icon" type="image/png" sizes="96x96" href="/assets/icons/v1-603/favicon-96.png">
   <link rel="apple-touch-icon" sizes="180x180" href="/assets/icons/v1-603/apple-touch-icon-180.png">
   <link rel="manifest" href="../site.webmanifest">
-  <link rel="stylesheet" href="../styles.css?v=20261029-appgallery">
+  <link rel="stylesheet" href="../styles.css?v=20261107-locales">
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -181,8 +181,8 @@
     <section class="hero shell" aria-labelledby="hero-title">
       <div class="hero-copy">
         <p class="eyebrow"><span class="status-dot"></span> Brz, jednostavan pretvarač valuta za svakodnevnu upotrebu.</p>
-        <h1 id="hero-title">Pretvorite valute brzo, bilo gdje</h1>
-        <p class="hero-lede">BALCO Converter globalni je pretvarač valuta i kalkulator za putovanja, kupnju i svakodnevnu usporedbu cijena. Pretvarajte fiat valute prema ažuriranim referentnim tečajevima, a bez interneta nastavite s posljednjim uspješno spremljenim tečajevima.</p>
+        <h1 id="hero-title">Razumijte cijene u inozemstvu u svojoj valuti</h1>
+        <p class="hero-lede">Unesite iznos ili skenirajte cjenovnu oznaku i provjerite rezultat. Prethodno preuzeti tečajevi ostaju dostupni bez interneta.</p>
         <div class="hero-actions">
           <div class="store-links">
             <a class="play-link" href="https://play.google.com/store/apps/details?id=io.github.nstim605.balkanconverter" aria-label="BALCO Converter — Google Play">
@@ -197,6 +197,7 @@
           <li>Skener cijena</li>
           <li>offline pretvarač</li>
         </ul>
+        <p class="access-note">Google Play: 5 besplatnih skeniranja cijena dnevno, oglasi i neobavezne kupnje u aplikaciji. <a class="text-link" href="#google-play-access">Besplatni limiti, BP i BALCO Plus</a>.</p>
       </div>
       <div class="hero-visual" aria-label="BALCO Converter — Pogledajte aplikaciju">
         <figure class="phone-frame phone-frame-v1603">
@@ -211,7 +212,7 @@
           <p class="eyebrow">Značajke</p>
           <h2 id="features-title">Korisni alati, bez nereda</h2>
         </div>
-        <p>Pretvarač valuta sa stvarnim troškom, putnim pločama i offline tečajevima</p>
+        <p>Preračunavanje cijena, usporedba troškova zamjene novca i spremljeni tečajevi za vaša putovanja.</p>
       </div>
       <div class="feature-grid">
         <article class="feature-card">
@@ -222,7 +223,7 @@
         <article class="feature-card">
           <span class="feature-mark" data-feature-icon="scanner" aria-hidden="true"><svg viewBox="0 0 24 24" focusable="false"><path d="M4 8V6a2 2 0 0 1 2-2h2M16 4h2a2 2 0 0 1 2 2v2M20 16v2a2 2 0 0 1-2 2h-2M8 20H6a2 2 0 0 1-2-2v-2M7 12h10"/></svg></span>
           <h3>Skener cijena</h3>
-          <p>Dodirnite kameru na glavnom zaslonu, odaberite izvornu i ciljnu valutu, zatim držite ispisanu cijenu unutar okvira. Potvrdite prepoznatu vrijednost da biste je upotrijebili u pretvaraču.</p>
+          <p>Očitajte ispisanu cijenu kamerom i preračunajte je u poznatu valutu. Prije potvrde provjerite prepoznati iznos i odabranu valutu.</p>
         </article>
         <article class="feature-card">
           <span class="feature-mark" aria-hidden="true">%</span>
@@ -232,7 +233,7 @@
         <article class="feature-card">
           <span class="feature-mark" data-feature-icon="travel" aria-hidden="true"><svg viewBox="0 0 24 24" focusable="false"><path d="M17.8 19.2 16 11l3.5-3.5C21 6 21.5 4 20.5 3s-3-.5-4.5 1L12.5 7.5 4.3 5.7c-.5-.1-.9.1-1.1.5l-.3.5c-.2.4-.1.9.3 1.2l5.3 3.9-2 2-2.2-.7c-.5-.2-1 .1-1.3.5l-.2.3c-.3.5-.1 1.1.3 1.4l3.9 2.8c.4.3 1 .3 1.4-.1L12 16l3.9 5.3c.3.4.8.5 1.2.3l.5-.3c.4-.2.6-.7.5-1.1Z"/></svg></span>
           <h3>Pregled valuta za putovanja</h3>
-          <p>Dodirnite valutu da biste je postavili kao osnovnu.</p>
+          <p>Usporedite jedan iznos u više valuta odjednom. Dodirnite valutu da biste je postavili kao osnovnu.</p>
         </article>
         <article class="feature-card">
           <span class="feature-mark" data-feature-icon="offline" aria-hidden="true"><svg viewBox="0 0 24 24" focusable="false"><path d="m2 2 20 20M8.5 16.5a5 5 0 0 1 7 0M5 12.9a10 10 0 0 1 5.2-2.7M19 12.9a10 10 0 0 0-2-1.5M2 8.8a15 15 0 0 1 4.2-2.6M22 8.8a15 15 0 0 0-11.3-4.7M12 20h.01"/></svg></span>
@@ -243,6 +244,34 @@
           <span class="feature-mark" aria-hidden="true">₿</span>
           <h3>Kriptovalute</h3>
           <p>Otvorite „Kriptovalute“ u izborniku da biste pretvarali podržane novčiće i obične valute. Tržišni podaci obično dolaze s CoinGecka, a Kraken je rezervni izvor za podržane parove.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section shell shopping-section" id="shopping" aria-labelledby="shopping-title">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">U verziji s Google Playa</p>
+          <h2 id="shopping-title">Od cjenovne oznake do ukupnog iznosa kupnje</h2>
+        </div>
+        <p>Provjerite svaku cijenu i pogledajte ukupan iznos u odabranoj valuti.</p>
+      </div>
+      <div class="shopping-grid">
+        <article class="shopping-card" aria-labelledby="cart-title">
+          <h3 id="cart-title">Košarica za kupnju</h3>
+          <p>Dodajte cijene kamerom ili ih unesite ručno. Provjerite svaki iznos i valutu, a zatim po potrebi prilagodite količine.</p>
+          <p>Pogledajte preračunatu cijenu svakog artikla i ukupan iznos u odabranoj valuti.</p>
+        </article>
+        <article class="shopping-card" id="google-play-access" aria-labelledby="access-title">
+          <h3 id="access-title">Besplatna upotreba i neobavezni dodaci</h3>
+          <p>Verzija s Google Playa uključuje 5 besplatnih skeniranja cijena dnevno. Sadrži oglase, BALCO Points (BP) za dodatnu upotrebu i neobaveznu pretplatu BALCO Plus.</p>
+          <details class="access-details">
+            <summary>Limiti, BP i pojedinosti pretplate</summary>
+            <p><strong>Skener cijena:</strong> 5 besplatnih dovršenih konverzija dnevno. Svako dodatno obično skeniranje stoji 2 BP.</p>
+            <p><strong>Košarica za kupnju:</strong> Zaseban limit od 10 besplatnih dodavanja tijekom prva 24 sata od prve upotrebe, a zatim 5 besplatnih dodavanja dnevno. Ručno dodavanje i dodavanje skenerom dijele ovaj limit košarice. Svaki dodatni artikl u košarici stoji 1 BP.</p>
+            <p><strong>BALCO Points:</strong> Kada je oglas dostupan, gledanje nagradnog oglasa do kraja donosi 20 BP. Konverzija odabranog teksta stoji 1 BP; trajno otključavanje dodatne teme stoji 60 BP po temi.</p>
+            <p><strong>BALCO Plus:</strong> Neobavezna mjesečna ili godišnja pretplata s automatskim obnavljanjem. Dok je aktivna, uklanja oglase i uključuje neograničenu upotrebu značajki koje se inače naplaćuju, uključujući dodavanje u košaricu, kao i sve dodatne teme. Pristup temama putem pretplate traje dok je pretplata aktivna. Upravljajte pretplatom ili je otkažite u Google Playu.</p>
+          </details>
         </article>
       </div>
     </section>

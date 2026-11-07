@@ -1,0 +1,1674 @@
+{
+  "en": {
+    "heroTitle": "Understand prices abroad in your own currency",
+    "heroDescription": "Enter an amount or scan a price tag and check the result. Previously downloaded exchange rates remain available offline.",
+    "accessNote": "Google Play: 5 free price scans per day, ads and optional in-app purchases.",
+    "accessLink": "Free limits, BP and BALCO Plus",
+    "featureSummary": "Price conversions, exchange-cost comparisons and saved rates for your travels.",
+    "scannerDescription": "Read a printed price with the camera and convert it into a familiar currency. Check the detected amount and selected currency before confirming.",
+    "travelDescription": "Compare one amount in several currencies at once. Tap a currency to make it the base currency.",
+    "storeScope": "In the Google Play version",
+    "shoppingTitle": "From a price tag to your shopping total",
+    "shoppingSubtitle": "Check each price and see the total in your chosen currency.",
+    "cartTitle": "Shopping Cart",
+    "cartParagraphs": [
+      "Add prices with the camera or enter them manually. Check each amount and currency, then adjust quantities as needed.",
+      "See the converted cost of each item and the total in your chosen currency."
+    ],
+    "accessTitle": "Free use and optional extras",
+    "accessSummary": "The Google Play version includes 5 free price scans per day. It has ads, BALCO Points (BP) for additional use and an optional BALCO Plus subscription.",
+    "detailsTitle": "Limits, BP and subscription details",
+    "details": [
+      {
+        "label": "Price scanner",
+        "text": "5 free completed conversions per day. Each additional ordinary scan costs 2 BP."
+      },
+      {
+        "label": "Shopping Cart",
+        "text": "A separate allowance of 10 free additions during the first 24 hours from first use, then 5 free additions per day. Manual and scanner additions share this cart allowance. Each additional cart item costs 1 BP."
+      },
+      {
+        "label": "BALCO Points",
+        "text": "Completing a rewarded ad earns 20 BP when an ad is available. Selected-text conversion costs 1 BP; a permanent extra-theme unlock costs 60 BP per theme."
+      },
+      {
+        "label": "BALCO Plus",
+        "text": "An optional monthly or yearly auto-renewing subscription. While active, it removes ads and includes unlimited paid features, including cart additions, and all extra themes. Subscription access to themes lasts while the subscription is active. Manage or cancel it in Google Play."
+      }
+    ]
+  },
+  "sr": {
+    "heroTitle": "Разумите цене у иностранству у својој валути",
+    "heroDescription": "Унесите износ или скенирајте ценовну етикету и проверите резултат. Претходно преузети курсеви остају доступни без интернета.",
+    "accessNote": "Google Play: 5 бесплатних скенирања цена дневно, огласи и опционе куповине у апликацији.",
+    "accessLink": "Бесплатни лимити, BP и BALCO Plus",
+    "featureSummary": "Конверзије цена, поређење трошкова мењања новца и сачувани курсеви за ваша путовања.",
+    "scannerDescription": "Очитајте одштампану цену камером и претворите је у познату валуту. Пре потврде проверите препознати износ и изабрану валуту.",
+    "travelDescription": "Упоредите један износ у више валута одједном. Додирните валуту да бисте је поставили као основну.",
+    "storeScope": "У верзији са Google Play-а",
+    "shoppingTitle": "Од ценовне етикете до укупног износа куповине",
+    "shoppingSubtitle": "Проверите сваку цену и погледајте укупан износ у изабраној валути.",
+    "cartTitle": "Корпа за куповину",
+    "cartParagraphs": [
+      "Додајте цене камером или их унесите ручно. Проверите сваки износ и валуту, па по потреби прилагодите количине.",
+      "Погледајте прерачунату цену сваког артикла и укупан износ у изабраној валути."
+    ],
+    "accessTitle": "Бесплатно коришћење и опциони додаци",
+    "accessSummary": "Верзија са Google Play-а укључује 5 бесплатних скенирања цена дневно. Садржи огласе, BALCO Points (BP) за додатно коришћење и опциону претплату BALCO Plus.",
+    "detailsTitle": "Лимити, BP и детаљи претплате",
+    "details": [
+      {
+        "label": "Скенер цена",
+        "text": "5 бесплатних завршених конверзија дневно. Свако додатно обично скенирање кошта 2 BP."
+      },
+      {
+        "label": "Корпа за куповину",
+        "text": "Засебан лимит од 10 бесплатних додавања током прва 24 сата од првог коришћења, а затим 5 бесплатних додавања дневно. Ручно додавање и додавање скенером деле овај лимит корпе. Сваки додатни артикал у корпи кошта 1 BP."
+      },
+      {
+        "label": "BALCO Points",
+        "text": "Када је оглас доступан, гледање наградног огласа до краја доноси 20 BP. Конверзија изабраног текста кошта 1 BP; трајно откључавање додатне теме кошта 60 BP по теми."
+      },
+      {
+        "label": "BALCO Plus",
+        "text": "Опциона месечна или годишња претплата са аутоматским обнављањем. Док је активна, уклања огласе и укључује неограничено коришћење функција које се иначе наплаћују, укључујући додавање у корпу, као и све додатне теме. Приступ темама преко претплате траје док је претплата активна. Управљајте претплатом или је откажите у Google Play-у."
+      }
+    ]
+  },
+  "bs": {
+    "heroTitle": "Razumijte cijene u inostranstvu u svojoj valuti",
+    "heroDescription": "Unesite iznos ili skenirajte cjenovnu oznaku i provjerite rezultat. Prethodno preuzeti kursevi ostaju dostupni bez interneta.",
+    "accessNote": "Google Play: 5 besplatnih skeniranja cijena dnevno, oglasi i opcionalne kupovine u aplikaciji.",
+    "accessLink": "Besplatni limiti, BP i BALCO Plus",
+    "featureSummary": "Konverzije cijena, poređenje troškova razmjene novca i sačuvani kursevi za vaša putovanja.",
+    "scannerDescription": "Očitajte štampanu cijenu kamerom i pretvorite je u poznatu valutu. Prije potvrde provjerite prepoznati iznos i odabranu valutu.",
+    "travelDescription": "Uporedite jedan iznos u više valuta odjednom. Dodirnite valutu da biste je postavili kao osnovnu.",
+    "storeScope": "U verziji s Google Playa",
+    "shoppingTitle": "Od cjenovne oznake do ukupnog iznosa kupovine",
+    "shoppingSubtitle": "Provjerite svaku cijenu i pogledajte ukupan iznos u odabranoj valuti.",
+    "cartTitle": "Korpa za kupovinu",
+    "cartParagraphs": [
+      "Dodajte cijene kamerom ili ih unesite ručno. Provjerite svaki iznos i valutu, pa po potrebi prilagodite količine.",
+      "Pogledajte preračunatu cijenu svakog artikla i ukupan iznos u odabranoj valuti."
+    ],
+    "accessTitle": "Besplatno korištenje i opcionalni dodaci",
+    "accessSummary": "Verzija s Google Playa uključuje 5 besplatnih skeniranja cijena dnevno. Sadrži oglase, BALCO Points (BP) za dodatno korištenje i opcionalnu pretplatu BALCO Plus.",
+    "detailsTitle": "Limiti, BP i detalji pretplate",
+    "details": [
+      {
+        "label": "Skener cijena",
+        "text": "5 besplatnih završenih konverzija dnevno. Svako dodatno obično skeniranje košta 2 BP."
+      },
+      {
+        "label": "Korpa za kupovinu",
+        "text": "Zaseban limit od 10 besplatnih dodavanja tokom prva 24 sata od prvog korištenja, a zatim 5 besplatnih dodavanja dnevno. Ručno dodavanje i dodavanje skenerom dijele ovaj limit korpe. Svaki dodatni artikal u korpi košta 1 BP."
+      },
+      {
+        "label": "BALCO Points",
+        "text": "Kada je oglas dostupan, gledanje nagradnog oglasa do kraja donosi 20 BP. Konverzija odabranog teksta košta 1 BP; trajno otključavanje dodatne teme košta 60 BP po temi."
+      },
+      {
+        "label": "BALCO Plus",
+        "text": "Opcionalna mjesečna ili godišnja pretplata s automatskim obnavljanjem. Dok je aktivna, uklanja oglase i uključuje neograničeno korištenje funkcija koje se inače naplaćuju, uključujući dodavanje u korpu, kao i sve dodatne teme. Pristup temama putem pretplate traje dok je pretplata aktivna. Upravljajte pretplatom ili je otkažite u Google Playu."
+      }
+    ]
+  },
+  "hr": {
+    "heroTitle": "Razumijte cijene u inozemstvu u svojoj valuti",
+    "heroDescription": "Unesite iznos ili skenirajte cjenovnu oznaku i provjerite rezultat. Prethodno preuzeti tečajevi ostaju dostupni bez interneta.",
+    "accessNote": "Google Play: 5 besplatnih skeniranja cijena dnevno, oglasi i neobavezne kupnje u aplikaciji.",
+    "accessLink": "Besplatni limiti, BP i BALCO Plus",
+    "featureSummary": "Preračunavanje cijena, usporedba troškova zamjene novca i spremljeni tečajevi za vaša putovanja.",
+    "scannerDescription": "Očitajte ispisanu cijenu kamerom i preračunajte je u poznatu valutu. Prije potvrde provjerite prepoznati iznos i odabranu valutu.",
+    "travelDescription": "Usporedite jedan iznos u više valuta odjednom. Dodirnite valutu da biste je postavili kao osnovnu.",
+    "storeScope": "U verziji s Google Playa",
+    "shoppingTitle": "Od cjenovne oznake do ukupnog iznosa kupnje",
+    "shoppingSubtitle": "Provjerite svaku cijenu i pogledajte ukupan iznos u odabranoj valuti.",
+    "cartTitle": "Košarica za kupnju",
+    "cartParagraphs": [
+      "Dodajte cijene kamerom ili ih unesite ručno. Provjerite svaki iznos i valutu, a zatim po potrebi prilagodite količine.",
+      "Pogledajte preračunatu cijenu svakog artikla i ukupan iznos u odabranoj valuti."
+    ],
+    "accessTitle": "Besplatna upotreba i neobavezni dodaci",
+    "accessSummary": "Verzija s Google Playa uključuje 5 besplatnih skeniranja cijena dnevno. Sadrži oglase, BALCO Points (BP) za dodatnu upotrebu i neobaveznu pretplatu BALCO Plus.",
+    "detailsTitle": "Limiti, BP i pojedinosti pretplate",
+    "details": [
+      {
+        "label": "Skener cijena",
+        "text": "5 besplatnih dovršenih konverzija dnevno. Svako dodatno obično skeniranje stoji 2 BP."
+      },
+      {
+        "label": "Košarica za kupnju",
+        "text": "Zaseban limit od 10 besplatnih dodavanja tijekom prva 24 sata od prve upotrebe, a zatim 5 besplatnih dodavanja dnevno. Ručno dodavanje i dodavanje skenerom dijele ovaj limit košarice. Svaki dodatni artikl u košarici stoji 1 BP."
+      },
+      {
+        "label": "BALCO Points",
+        "text": "Kada je oglas dostupan, gledanje nagradnog oglasa do kraja donosi 20 BP. Konverzija odabranog teksta stoji 1 BP; trajno otključavanje dodatne teme stoji 60 BP po temi."
+      },
+      {
+        "label": "BALCO Plus",
+        "text": "Neobavezna mjesečna ili godišnja pretplata s automatskim obnavljanjem. Dok je aktivna, uklanja oglase i uključuje neograničenu upotrebu značajki koje se inače naplaćuju, uključujući dodavanje u košaricu, kao i sve dodatne teme. Pristup temama putem pretplate traje dok je pretplata aktivna. Upravljajte pretplatom ili je otkažite u Google Playu."
+      }
+    ]
+  },
+  "sq": {
+    "heroTitle": "Kuptoni çmimet jashtë vendit në monedhën tuaj",
+    "heroDescription": "Futni një shumë ose skanoni një etiketë çmimi dhe kontrolloni rezultatin. Kurset e këmbimit të shkarkuara më parë mbeten të disponueshme pa internet.",
+    "accessNote": "Google Play: 5 skanime falas të çmimeve në ditë, reklama dhe blerje opsionale brenda aplikacionit.",
+    "accessLink": "Kufijtë falas, BP dhe BALCO Plus",
+    "featureSummary": "Konvertime çmimesh, krahasime të kostove të këmbimit dhe kurse të ruajtura për udhëtimet tuaja.",
+    "scannerDescription": "Lexoni një çmim të shtypur me kamerën dhe konvertojeni në një monedhë që e njihni mirë. Kontrolloni shumën e njohur dhe monedhën e zgjedhur përpara se të konfirmoni.",
+    "travelDescription": "Krahasoni një shumë në disa monedha njëkohësisht. Prekni një monedhë për ta caktuar si monedhën bazë.",
+    "storeScope": "Në versionin e Google Play",
+    "shoppingTitle": "Nga etiketa e çmimit te totali i blerjeve",
+    "shoppingSubtitle": "Kontrolloni çdo çmim dhe shihni totalin në monedhën e zgjedhur.",
+    "cartTitle": "Shporta e blerjeve",
+    "cartParagraphs": [
+      "Shtoni çmime me kamerën ose futini manualisht. Kontrolloni çdo shumë dhe monedhë, pastaj përshtatni sasitë sipas nevojës.",
+      "Shihni koston e konvertuar të çdo artikulli dhe totalin në monedhën e zgjedhur."
+    ],
+    "accessTitle": "Përdorim falas dhe shtesa opsionale",
+    "accessSummary": "Versioni i Google Play përfshin 5 skanime falas të çmimeve në ditë. Ka reklama, BALCO Points (BP) për përdorim shtesë dhe një abonim opsional BALCO Plus.",
+    "detailsTitle": "Kufijtë, BP dhe hollësitë e abonimit",
+    "details": [
+      {
+        "label": "Skaneri i çmimeve",
+        "text": "5 konvertime të përfunduara falas në ditë. Çdo skanim i zakonshëm shtesë kushton 2 BP."
+      },
+      {
+        "label": "Shporta e blerjeve",
+        "text": "Një kuotë e veçantë prej 10 shtimesh falas gjatë 24 orëve të para nga përdorimi i parë, pastaj 5 shtime falas në ditë. Shtimet manuale dhe ato me skaner ndajnë të njëjtën kuotë të shportës. Çdo artikull shtesë në shportë kushton 1 BP."
+      },
+      {
+        "label": "BALCO Points",
+        "text": "Shikimi deri në fund i një reklame me shpërblim jep 20 BP kur ka një reklamë të disponueshme. Konvertimi i tekstit të përzgjedhur kushton 1 BP; zhbllokimi i përhershëm i një teme shtesë kushton 60 BP për temë."
+      },
+      {
+        "label": "BALCO Plus",
+        "text": "Një abonim opsional mujor ose vjetor që rinovohet automatikisht. Gjatë kohës që është aktiv, heq reklamat dhe përfshin përdorim pa kufi të funksioneve që zakonisht paguhen, përfshirë shtimet në shportë, si dhe të gjitha temat shtesë. Qasja te temat përmes abonimit zgjat sa kohë abonimi është aktiv. Menaxhojeni ose anulojeni në Google Play."
+      }
+    ]
+  },
+  "mk": {
+    "heroTitle": "Разберете ги цените во странство во вашата валута",
+    "heroDescription": "Внесете износ или скенирајте ценовна етикета и проверете го резултатот. Претходно преземените девизни курсеви остануваат достапни без интернет.",
+    "accessNote": "Google Play: 5 бесплатни скенирања на цени дневно, реклами и незадолжителни купувања во апликацијата.",
+    "accessLink": "Бесплатни лимити, BP и BALCO Plus",
+    "featureSummary": "Конверзии на цени, споредби на трошоците за менување пари и зачувани курсеви за вашите патувања.",
+    "scannerDescription": "Прочитајте отпечатена цена со камерата и претворете ја во позната валута. Пред да потврдите, проверете ги препознаениот износ и избраната валута.",
+    "travelDescription": "Споредете еден износ во повеќе валути одеднаш. Допрете валута за да ја поставите како основна.",
+    "storeScope": "Во верзијата од Google Play",
+    "shoppingTitle": "Од ценовна етикета до вкупниот износ на купувањето",
+    "shoppingSubtitle": "Проверете ја секоја цена и погледнете го вкупниот износ во избраната валута.",
+    "cartTitle": "Кошничка за купување",
+    "cartParagraphs": [
+      "Додајте цени со камерата или внесете ги рачно. Проверете го секој износ и избраната валута, а потоа приспособете ги количините по потреба.",
+      "Погледнете ја пресметаната цена на секој артикл и вкупниот износ во избраната валута."
+    ],
+    "accessTitle": "Бесплатно користење и незадолжителни додатоци",
+    "accessSummary": "Верзијата од Google Play вклучува 5 бесплатни скенирања на цени дневно. Содржи реклами, BALCO Points (BP) за дополнително користење и незадолжителна претплата BALCO Plus.",
+    "detailsTitle": "Лимити, BP и детали за претплатата",
+    "details": [
+      {
+        "label": "Скенер за цени",
+        "text": "5 бесплатни завршени конверзии дневно. Секое дополнително обично скенирање чини 2 BP."
+      },
+      {
+        "label": "Кошничка за купување",
+        "text": "Посебен лимит од 10 бесплатни додавања во првите 24 часа од првото користење, а потоа 5 бесплатни додавања дневно. Рачното додавање и додавањето со скенер го делат овој лимит на кошничката. Секој дополнителен артикл во кошничката чини 1 BP."
+      },
+      {
+        "label": "BALCO Points",
+        "text": "Кога има достапна реклама, гледањето реклама со награда до крај носи 20 BP. Конверзијата на избран текст чини 1 BP; трајното отклучување дополнителна тема чини 60 BP по тема."
+      },
+      {
+        "label": "BALCO Plus",
+        "text": "Незадолжителна месечна или годишна претплата со автоматско обновување. Додека е активна, ги отстранува рекламите и вклучува неограничено користење на функциите што инаку се наплаќаат, вклучувајќи додавање во кошничката, како и сите дополнителни теми. Пристапот до темите преку претплатата трае додека претплатата е активна. Управувајте со неа или откажете ја во Google Play."
+      }
+    ]
+  },
+  "bg": {
+    "heroTitle": "Разбирайте цените в чужбина във вашата валута",
+    "heroDescription": "Въведете сума или сканирайте ценови етикет и проверете резултата. Предварително изтеглените валутни курсове остават достъпни без интернет.",
+    "accessNote": "Google Play: 5 безплатни сканирания на цени на ден, реклами и покупки в приложението по избор.",
+    "accessLink": "Безплатни лимити, BP и BALCO Plus",
+    "featureSummary": "Преизчисляване на цени, сравнение на разходите за обмяна и запазени курсове за вашите пътувания.",
+    "scannerDescription": "Прочетете отпечатана цена с камерата и я преизчислете в позната валута. Проверете разпознатата сума и избраната валута, преди да потвърдите.",
+    "travelDescription": "Сравнете една сума в няколко валути едновременно. Докоснете валута, за да я зададете като основна.",
+    "storeScope": "Във версията от Google Play",
+    "shoppingTitle": "От ценовия етикет до общата сума на покупките",
+    "shoppingSubtitle": "Проверете всяка цена и вижте общата сума в избраната валута.",
+    "cartTitle": "Кошница за покупки",
+    "cartParagraphs": [
+      "Добавяйте цени с камерата или ги въвеждайте ръчно. Проверете всяка сума и валута, след което коригирайте количествата според нуждите си.",
+      "Вижте преизчислената цена на всеки артикул и общата сума в избраната валута."
+    ],
+    "accessTitle": "Безплатно ползване и допълнения по избор",
+    "accessSummary": "Версията от Google Play включва 5 безплатни сканирания на цени на ден. Тя съдържа реклами, BALCO Points (BP) за допълнително ползване и абонамент BALCO Plus по избор.",
+    "detailsTitle": "Лимити, BP и подробности за абонамента",
+    "details": [
+      {
+        "label": "Скенер за цени",
+        "text": "5 безплатни завършени конверсии на ден. Всяко допълнително обикновено сканиране струва 2 BP."
+      },
+      {
+        "label": "Кошница за покупки",
+        "text": "Отделен лимит от 10 безплатни добавяния през първите 24 часа от първото използване, а след това 5 безплатни добавяния на ден. Ръчното добавяне и добавянето със скенера споделят този лимит на кошницата. Всеки допълнителен артикул в кошницата струва 1 BP."
+      },
+      {
+        "label": "BALCO Points",
+        "text": "Гледането на реклама с награда докрай носи 20 BP, когато има налична реклама. Конвертирането на избран текст струва 1 BP; постоянното отключване на допълнителна тема струва 60 BP за тема."
+      },
+      {
+        "label": "BALCO Plus",
+        "text": "Месечен или годишен абонамент по избор с автоматично подновяване. Докато е активен, премахва рекламите и включва неограничено ползване на иначе платените функции, включително добавянията в кошницата, както и всички допълнителни теми. Достъпът до темите чрез абонамента продължава, докато абонаментът е активен. Управлявайте го или го прекратете в Google Play."
+      }
+    ]
+  },
+  "ro": {
+    "heroTitle": "Înțelege prețurile din străinătate în moneda ta",
+    "heroDescription": "Introdu o sumă sau scanează o etichetă de preț și verifică rezultatul. Cursurile valutare descărcate anterior rămân disponibile fără internet.",
+    "accessNote": "Google Play: 5 scanări gratuite de prețuri pe zi, reclame și achiziții opționale în aplicație.",
+    "accessLink": "Limite gratuite, BP și BALCO Plus",
+    "featureSummary": "Conversii de prețuri, comparații ale costurilor de schimb valutar și cursuri salvate pentru călătoriile tale.",
+    "scannerDescription": "Citește un preț tipărit cu ajutorul camerei și convertește-l într-o monedă familiară. Verifică suma detectată și moneda selectată înainte de a confirma.",
+    "travelDescription": "Compară o sumă în mai multe monede simultan. Atinge o monedă pentru a o seta ca monedă de bază.",
+    "storeScope": "În versiunea de pe Google Play",
+    "shoppingTitle": "De la eticheta de preț la totalul cumpărăturilor",
+    "shoppingSubtitle": "Verifică fiecare preț și vezi totalul în moneda aleasă.",
+    "cartTitle": "Coș de cumpărături",
+    "cartParagraphs": [
+      "Adaugă prețuri cu ajutorul camerei sau introdu-le manual. Verifică fiecare sumă și monedă, apoi ajustează cantitățile după nevoie.",
+      "Vezi costul convertit al fiecărui articol și totalul în moneda aleasă."
+    ],
+    "accessTitle": "Utilizare gratuită și opțiuni suplimentare",
+    "accessSummary": "Versiunea de pe Google Play include 5 scanări gratuite de prețuri pe zi. Conține reclame, BALCO Points (BP) pentru utilizare suplimentară și un abonament opțional BALCO Plus.",
+    "detailsTitle": "Limite, BP și detalii despre abonament",
+    "details": [
+      {
+        "label": "Scaner de prețuri",
+        "text": "5 conversii finalizate gratuit pe zi. Fiecare scanare obișnuită suplimentară costă 2 BP."
+      },
+      {
+        "label": "Coș de cumpărături",
+        "text": "O limită separată de 10 adăugări gratuite în primele 24 de ore de la prima utilizare, apoi 5 adăugări gratuite pe zi. Adăugările manuale și cele prin scanare folosesc aceeași limită a coșului. Fiecare articol suplimentar adăugat în coș costă 1 BP."
+      },
+      {
+        "label": "BALCO Points",
+        "text": "Vizionarea completă a unei reclame cu recompensă oferă 20 BP, atunci când este disponibilă o reclamă. Conversia textului selectat costă 1 BP; deblocarea permanentă a unei teme suplimentare costă 60 BP pentru fiecare temă."
+      },
+      {
+        "label": "BALCO Plus",
+        "text": "Un abonament opțional lunar sau anual, cu reînnoire automată. Cât timp este activ, elimină reclamele și include utilizarea nelimitată a funcțiilor care în mod normal sunt contra cost, inclusiv adăugările în coș, precum și toate temele suplimentare. Accesul la teme prin abonament durează cât timp abonamentul este activ. Gestionează-l sau anulează-l în Google Play."
+      }
+    ]
+  },
+  "hu": {
+    "heroTitle": "Értsd meg a külföldi árakat a saját pénznemedben",
+    "heroDescription": "Írj be egy összeget, vagy olvass be egy árcímkét, és ellenőrizd az eredményt. A korábban letöltött árfolyamok internet nélkül is elérhetők maradnak.",
+    "accessNote": "Google Play: napi 5 ingyenes árbeolvasás, hirdetések és választható alkalmazáson belüli vásárlások.",
+    "accessLink": "Ingyenes keretek, BP és BALCO Plus",
+    "featureSummary": "Árak átváltása, pénzváltási költségek összehasonlítása és mentett árfolyamok az utazásaidhoz.",
+    "scannerDescription": "Olvass be egy nyomtatott árat a kamerával, és váltsd át egy ismerős pénznemre. Jóváhagyás előtt ellenőrizd a felismert összeget és a kiválasztott pénznemet.",
+    "travelDescription": "Hasonlíts össze egy összeget egyszerre több pénznemben. Koppints egy pénznemre, hogy az legyen az alappénznem.",
+    "storeScope": "A Google Play-verzióban",
+    "shoppingTitle": "Az árcímkétől a vásárlás végösszegéig",
+    "shoppingSubtitle": "Ellenőrizz minden árat, és nézd meg a végösszeget a választott pénznemben.",
+    "cartTitle": "Bevásárlókosár",
+    "cartParagraphs": [
+      "Adj hozzá árakat a kamerával, vagy írd be őket kézzel. Ellenőrizd az összegeket és a pénznemeket, majd szükség szerint módosítsd a mennyiségeket.",
+      "Nézd meg az egyes tételek átváltott árát és a végösszeget a választott pénznemben."
+    ],
+    "accessTitle": "Ingyenes használat és választható extrák",
+    "accessSummary": "A Google Play-verzió napi 5 ingyenes árbeolvasást tartalmaz. Hirdetéseket jelenít meg, a további használathoz BALCO Points (BP) pontokat, valamint választható BALCO Plus-előfizetést kínál.",
+    "detailsTitle": "Keretek, BP és az előfizetés részletei",
+    "details": [
+      {
+        "label": "Árbeolvasó",
+        "text": "Naponta 5 ingyenes, befejezett átváltás. Minden további normál beolvasás ára 2 BP."
+      },
+      {
+        "label": "Bevásárlókosár",
+        "text": "Külön keret: 10 ingyenes hozzáadás az első használattól számított első 24 órában, utána napi 5 ingyenes hozzáadás. A kézi és a beolvasással történő hozzáadások ugyanazt a kosárkeretet használják. Minden további kosártétel ára 1 BP."
+      },
+      {
+        "label": "BALCO Points",
+        "text": "Egy jutalmat adó hirdetés végignézésével 20 BP szerezhető, ha van elérhető hirdetés. A kijelölt szöveg átváltása 1 BP; egy extra téma végleges feloldása témánként 60 BP."
+      },
+      {
+        "label": "BALCO Plus",
+        "text": "Választható havi vagy éves, automatikusan megújuló előfizetés. Amíg aktív, eltávolítja a hirdetéseket, korlátlanul használhatók vele az egyébként fizetős funkciók, beleértve a kosárhoz adást, és minden extra téma elérhető. Az előfizetéssel elérhető témákhoz való hozzáférés az előfizetés aktív időszakára szól. Az előfizetést a Google Playben kezelheted vagy mondhatod le."
+      }
+    ]
+  },
+  "pl": {
+    "heroTitle": "Zrozum ceny za granicą we własnej walucie",
+    "heroDescription": "Wpisz kwotę lub zeskanuj etykietę cenową i sprawdź wynik. Pobrane wcześniej kursy walut pozostają dostępne bez internetu.",
+    "accessNote": "Google Play: 5 bezpłatnych skanów cen dziennie, reklamy i opcjonalne zakupy w aplikacji.",
+    "accessLink": "Bezpłatne limity, BP i BALCO Plus",
+    "featureSummary": "Przeliczanie cen, porównywanie kosztów wymiany walut i zapisane kursy na podróż.",
+    "scannerDescription": "Odczytaj wydrukowaną cenę aparatem i przelicz ją na znajomą walutę. Przed potwierdzeniem sprawdź rozpoznaną kwotę i wybraną walutę.",
+    "travelDescription": "Porównaj jedną kwotę w kilku walutach jednocześnie. Dotknij waluty, aby ustawić ją jako bazową.",
+    "storeScope": "W wersji z Google Play",
+    "shoppingTitle": "Od etykiety cenowej do sumy zakupów",
+    "shoppingSubtitle": "Sprawdź każdą cenę i zobacz sumę w wybranej walucie.",
+    "cartTitle": "Koszyk zakupów",
+    "cartParagraphs": [
+      "Dodawaj ceny aparatem lub wpisuj je ręcznie. Sprawdź każdą kwotę i walutę, a następnie dostosuj ilości według potrzeb.",
+      "Zobacz przeliczony koszt każdego produktu i sumę w wybranej walucie."
+    ],
+    "accessTitle": "Bezpłatne korzystanie i opcjonalne dodatki",
+    "accessSummary": "Wersja z Google Play obejmuje 5 bezpłatnych skanów cen dziennie. Zawiera reklamy, BALCO Points (BP) do dodatkowego korzystania z funkcji oraz opcjonalną subskrypcję BALCO Plus.",
+    "detailsTitle": "Limity, BP i szczegóły subskrypcji",
+    "details": [
+      {
+        "label": "Skaner cen",
+        "text": "5 bezpłatnych, ukończonych przeliczeń dziennie. Każdy dodatkowy zwykły skan kosztuje 2 BP."
+      },
+      {
+        "label": "Koszyk zakupów",
+        "text": "Osobny limit 10 bezpłatnych dodań przez pierwsze 24 godziny od pierwszego użycia, a następnie 5 bezpłatnych dodań dziennie. Dodawanie ręczne i skanerem korzysta z tego samego limitu koszyka. Każdy dodatkowy produkt w koszyku kosztuje 1 BP."
+      },
+      {
+        "label": "BALCO Points",
+        "text": "Obejrzenie całej reklamy z nagrodą daje 20 BP, jeśli reklama jest dostępna. Przeliczenie zaznaczonego tekstu kosztuje 1 BP, a trwałe odblokowanie dodatkowego motywu — 60 BP za motyw."
+      },
+      {
+        "label": "BALCO Plus",
+        "text": "Opcjonalna subskrypcja miesięczna lub roczna, odnawiana automatycznie. Gdy jest aktywna, usuwa reklamy i zapewnia nieograniczone korzystanie z funkcji, które normalnie są płatne, w tym dodawanie do koszyka, oraz dostęp do wszystkich dodatkowych motywów. Dostęp do motywów w ramach subskrypcji trwa, dopóki subskrypcja jest aktywna. Zarządzaj nią lub anuluj ją w Google Play."
+      }
+    ]
+  },
+  "cs": {
+    "heroTitle": "Rozumějte cenám v zahraničí ve vlastní měně",
+    "heroDescription": "Zadejte částku nebo naskenujte cenovku a zkontrolujte výsledek. Dříve stažené měnové kurzy zůstávají dostupné bez internetu.",
+    "accessNote": "Google Play: 5 bezplatných skenování cen denně, reklamy a volitelné nákupy v aplikaci.",
+    "accessLink": "Bezplatné limity, BP a BALCO Plus",
+    "featureSummary": "Přepočty cen, porovnání nákladů na směnu a uložené kurzy na cesty.",
+    "scannerDescription": "Načtěte vytištěnou cenu fotoaparátem a převeďte ji do známé měny. Před potvrzením zkontrolujte rozpoznanou částku a vybranou měnu.",
+    "travelDescription": "Porovnejte jednu částku v několika měnách najednou. Klepnutím na měnu ji nastavíte jako základní.",
+    "storeScope": "Ve verzi z Google Play",
+    "shoppingTitle": "Od cenovky k celkové částce nákupu",
+    "shoppingSubtitle": "Zkontrolujte každou cenu a podívejte se na celkovou částku ve vybrané měně.",
+    "cartTitle": "Nákupní košík",
+    "cartParagraphs": [
+      "Přidávejte ceny fotoaparátem nebo je zadávejte ručně. Zkontrolujte každou částku a měnu a poté podle potřeby upravte množství.",
+      "Podívejte se na přepočtenou cenu každé položky a celkovou částku ve vybrané měně."
+    ],
+    "accessTitle": "Bezplatné používání a volitelné doplňky",
+    "accessSummary": "Verze z Google Play zahrnuje 5 bezplatných skenování cen denně. Obsahuje reklamy, BALCO Points (BP) pro další použití a volitelné předplatné BALCO Plus.",
+    "detailsTitle": "Limity, BP a podrobnosti předplatného",
+    "details": [
+      {
+        "label": "Skener cen",
+        "text": "5 bezplatných dokončených převodů denně. Každé další běžné skenování stojí 2 BP."
+      },
+      {
+        "label": "Nákupní košík",
+        "text": "Samostatný limit 10 bezplatných přidání během prvních 24 hodin od prvního použití, poté 5 bezplatných přidání denně. Ruční přidávání i přidávání skenerem čerpají ze stejného limitu košíku. Každá další položka přidaná do košíku stojí 1 BP."
+      },
+      {
+        "label": "BALCO Points",
+        "text": "Zhlédnutím celé reklamy s odměnou získáte 20 BP, pokud je reklama k dispozici. Převod vybraného textu stojí 1 BP; trvalé odemknutí dalšího motivu stojí 60 BP za motiv."
+      },
+      {
+        "label": "BALCO Plus",
+        "text": "Volitelné měsíční nebo roční předplatné s automatickým obnovováním. Dokud je aktivní, odstraňuje reklamy a zahrnuje neomezené používání jinak placených funkcí, včetně přidávání do košíku, a všechny další motivy. Přístup k motivům v rámci předplatného trvá po dobu aktivního předplatného. Spravujte ho nebo zrušte v Google Play."
+      }
+    ]
+  },
+  "sk": {
+    "heroTitle": "Rozumejte cenám v zahraničí vo vlastnej mene",
+    "heroDescription": "Zadajte sumu alebo naskenujte cenovku a skontrolujte výsledok. Predtým stiahnuté výmenné kurzy zostávajú dostupné bez internetu.",
+    "accessNote": "Google Play: 5 bezplatných skenovaní cien denne, reklamy a voliteľné nákupy v aplikácii.",
+    "accessLink": "Bezplatné limity, BP a BALCO Plus",
+    "featureSummary": "Prepočty cien, porovnanie nákladov na výmenu peňazí a uložené kurzy na cesty.",
+    "scannerDescription": "Načítajte vytlačenú cenu fotoaparátom a preveďte ju do známej meny. Pred potvrdením skontrolujte rozpoznanú sumu a vybranú menu.",
+    "travelDescription": "Porovnajte jednu sumu vo viacerých menách naraz. Ťuknutím na menu ju nastavíte ako základnú.",
+    "storeScope": "Vo verzii z Google Play",
+    "shoppingTitle": "Od cenovky k celkovej sume nákupu",
+    "shoppingSubtitle": "Skontrolujte každú cenu a pozrite si celkovú sumu vo vybranej mene.",
+    "cartTitle": "Nákupný košík",
+    "cartParagraphs": [
+      "Pridávajte ceny fotoaparátom alebo ich zadávajte ručne. Skontrolujte každú sumu a menu a potom podľa potreby upravte množstvá.",
+      "Pozrite si prepočítanú cenu každej položky a celkovú sumu vo vybranej mene."
+    ],
+    "accessTitle": "Bezplatné používanie a voliteľné doplnky",
+    "accessSummary": "Verzia z Google Play zahŕňa 5 bezplatných skenovaní cien denne. Obsahuje reklamy, BALCO Points (BP) na ďalšie používanie a voliteľné predplatné BALCO Plus.",
+    "detailsTitle": "Limity, BP a podrobnosti predplatného",
+    "details": [
+      {
+        "label": "Skener cien",
+        "text": "5 bezplatných dokončených prevodov denne. Každé ďalšie bežné skenovanie stojí 2 BP."
+      },
+      {
+        "label": "Nákupný košík",
+        "text": "Samostatný limit 10 bezplatných pridaní počas prvých 24 hodín od prvého použitia, potom 5 bezplatných pridaní denne. Ručné pridávanie aj pridávanie skenerom čerpajú z rovnakého limitu košíka. Každá ďalšia položka pridaná do košíka stojí 1 BP."
+      },
+      {
+        "label": "BALCO Points",
+        "text": "Pozretím celej reklamy s odmenou získate 20 BP, ak je reklama dostupná. Prevod vybraného textu stojí 1 BP; trvalé odomknutie ďalšej témy stojí 60 BP za tému."
+      },
+      {
+        "label": "BALCO Plus",
+        "text": "Voliteľné mesačné alebo ročné predplatné s automatickým obnovovaním. Kým je aktívne, odstraňuje reklamy a zahŕňa neobmedzené používanie inak platených funkcií, vrátane pridávania do košíka, a všetky ďalšie témy. Prístup k témam cez predplatné trvá počas aktívneho predplatného. Spravujte ho alebo zrušte v Google Play."
+      }
+    ]
+  },
+  "sl": {
+    "heroTitle": "Razumite cene v tujini v svoji valuti",
+    "heroDescription": "Vnesite znesek ali skenirajte cenovno oznako in preverite rezultat. Prej preneseni menjalni tečaji ostanejo na voljo brez interneta.",
+    "accessNote": "Google Play: 5 brezplačnih skeniranj cen na dan, oglasi in izbirni nakupi v aplikaciji.",
+    "accessLink": "Omejitve brezplačne uporabe, BP in BALCO Plus",
+    "featureSummary": "Pretvorbe cen, primerjave stroškov menjave denarja in shranjeni tečaji za vaša potovanja.",
+    "scannerDescription": "S kamero preberite natisnjeno ceno in jo pretvorite v znano valuto. Pred potrditvijo preverite prepoznani znesek in izbrano valuto.",
+    "travelDescription": "Primerjajte en znesek v več valutah hkrati. Tapnite valuto, da jo nastavite kot osnovno.",
+    "storeScope": "V različici iz Google Play",
+    "shoppingTitle": "Od cenovne oznake do skupnega zneska nakupa",
+    "shoppingSubtitle": "Preverite vsako ceno in si oglejte skupni znesek v izbrani valuti.",
+    "cartTitle": "Nakupovalna košarica",
+    "cartParagraphs": [
+      "Dodajte cene s kamero ali jih vnesite ročno. Preverite vsak znesek in valuto, nato po potrebi prilagodite količine.",
+      "Oglejte si pretvorjeno ceno vsakega izdelka in skupni znesek v izbrani valuti."
+    ],
+    "accessTitle": "Brezplačna uporaba in izbirni dodatki",
+    "accessSummary": "Različica iz Google Play vključuje 5 brezplačnih skeniranj cen na dan. Vsebuje oglase, BALCO Points (BP) za dodatno uporabo in izbirno naročnino BALCO Plus.",
+    "detailsTitle": "Omejitve, BP in podrobnosti naročnine",
+    "details": [
+      {
+        "label": "Skener cen",
+        "text": "5 brezplačnih dokončanih pretvorb na dan. Vsako dodatno običajno skeniranje stane 2 BP."
+      },
+      {
+        "label": "Nakupovalna košarica",
+        "text": "Ločena omejitev 10 brezplačnih dodajanj v prvih 24 urah od prve uporabe, nato 5 brezplačnih dodajanj na dan. Ročno dodajanje in dodajanje s skenerjem si delita to omejitev košarice. Vsak dodaten izdelek v košarici stane 1 BP."
+      },
+      {
+        "label": "BALCO Points",
+        "text": "Ogled oglasa z nagrado do konca prinese 20 BP, kadar je oglas na voljo. Pretvorba izbranega besedila stane 1 BP; trajno odklepanje dodatne teme stane 60 BP na temo."
+      },
+      {
+        "label": "BALCO Plus",
+        "text": "Izbirna mesečna ali letna naročnina s samodejnim podaljševanjem. Dokler je aktivna, odstrani oglase in vključuje neomejeno uporabo sicer plačljivih funkcij, vključno z dodajanjem v košarico, ter vse dodatne teme. Dostop do tem prek naročnine traja, dokler je naročnina aktivna. Upravljajte jo ali prekličite v Google Play."
+      }
+    ]
+  },
+  "de": {
+    "heroTitle": "Preise im Ausland in Ihrer eigenen Währung verstehen",
+    "heroDescription": "Geben Sie einen Betrag ein oder scannen Sie ein Preisschild und prüfen Sie das Ergebnis. Bereits heruntergeladene Wechselkurse bleiben offline verfügbar.",
+    "accessNote": "Google Play: 5 kostenlose Preisscans pro Tag, Werbung und optionale In-App-Käufe.",
+    "accessLink": "Kostenlose Kontingente, BP und BALCO Plus",
+    "featureSummary": "Preise umrechnen, Wechselkosten vergleichen und gespeicherte Kurse auf Reisen nutzen.",
+    "scannerDescription": "Lesen Sie einen gedruckten Preis mit der Kamera ein und rechnen Sie ihn in eine vertraute Währung um. Prüfen Sie den erkannten Betrag und die ausgewählte Währung vor dem Bestätigen.",
+    "travelDescription": "Vergleichen Sie einen Betrag gleichzeitig in mehreren Währungen. Tippen Sie auf eine Währung, um sie als Basiswährung festzulegen.",
+    "storeScope": "In der Google-Play-Version",
+    "shoppingTitle": "Vom Preisschild zur Einkaufssumme",
+    "shoppingSubtitle": "Prüfen Sie jeden Preis und sehen Sie die Gesamtsumme in Ihrer gewählten Währung.",
+    "cartTitle": "Einkaufswagen",
+    "cartParagraphs": [
+      "Fügen Sie Preise mit der Kamera hinzu oder geben Sie sie manuell ein. Prüfen Sie jeden Betrag und jede Währung und passen Sie die Mengen nach Bedarf an.",
+      "Sehen Sie den umgerechneten Preis jedes Artikels und die Gesamtsumme in Ihrer gewählten Währung."
+    ],
+    "accessTitle": "Kostenlose Nutzung und optionale Extras",
+    "accessSummary": "Die Google-Play-Version bietet 5 kostenlose Preisscans pro Tag. Sie enthält Werbung, BALCO Points (BP) für zusätzliche Nutzung und ein optionales BALCO Plus-Abonnement.",
+    "detailsTitle": "Kontingente, BP und Abonnementdetails",
+    "details": [
+      {
+        "label": "Preisscanner",
+        "text": "5 kostenlose abgeschlossene Umrechnungen pro Tag. Jeder weitere normale Scan kostet 2 BP."
+      },
+      {
+        "label": "Einkaufswagen",
+        "text": "Ein separates Kontingent: In den ersten 24 Stunden ab der ersten Nutzung können Sie 10 Artikel kostenlos hinzufügen, danach 5 pro Tag. Manuell und per Scanner hinzugefügte Artikel nutzen dasselbe Warenkorbkontingent. Jeder weitere hinzugefügte Artikel kostet 1 BP."
+      },
+      {
+        "label": "BALCO Points",
+        "text": "Wenn eine belohnte Anzeige verfügbar ist, erhalten Sie für das vollständige Ansehen 20 BP. Die Umrechnung markierten Textes kostet 1 BP; die dauerhafte Freischaltung eines zusätzlichen Designs kostet 60 BP pro Design."
+      },
+      {
+        "label": "BALCO Plus",
+        "text": "Ein optionales Monats- oder Jahresabonnement mit automatischer Verlängerung. Solange es aktiv ist, entfernt es Werbung und bietet unbegrenzte Nutzung kostenpflichtiger Funktionen, einschließlich des Hinzufügens von Artikeln zum Einkaufswagen, sowie alle zusätzlichen Designs. Der Zugang zu Designs über das Abonnement gilt nur während seiner Laufzeit. Verwalten oder kündigen Sie es in Google Play."
+      }
+    ]
+  },
+  "fr": {
+    "heroTitle": "Comprenez les prix à l’étranger dans votre monnaie",
+    "heroDescription": "Saisissez un montant ou scannez une étiquette de prix, puis vérifiez le résultat. Les taux de change déjà téléchargés restent disponibles hors ligne.",
+    "accessNote": "Google Play : 5 scans de prix gratuits par jour, publicités et achats intégrés facultatifs.",
+    "accessLink": "Quotas gratuits, BP et BALCO Plus",
+    "featureSummary": "Conversion des prix, comparaison des frais de change et taux enregistrés pour vos voyages.",
+    "scannerDescription": "Lisez un prix imprimé avec l’appareil photo et convertissez-le dans une monnaie familière. Vérifiez le montant reconnu et la monnaie sélectionnée avant de confirmer.",
+    "travelDescription": "Comparez un même montant dans plusieurs monnaies à la fois. Touchez une monnaie pour en faire la monnaie de référence.",
+    "storeScope": "Dans la version Google Play",
+    "shoppingTitle": "De l’étiquette au total de vos achats",
+    "shoppingSubtitle": "Vérifiez chaque prix et consultez le total dans la monnaie de votre choix.",
+    "cartTitle": "Panier",
+    "cartParagraphs": [
+      "Ajoutez des prix avec l’appareil photo ou saisissez-les manuellement. Vérifiez chaque montant et chaque monnaie, puis ajustez les quantités si nécessaire.",
+      "Consultez le coût converti de chaque article et le total dans la monnaie de votre choix."
+    ],
+    "accessTitle": "Utilisation gratuite et options facultatives",
+    "accessSummary": "La version Google Play comprend 5 scans de prix gratuits par jour. Elle propose des publicités, des BALCO Points (BP) pour une utilisation supplémentaire et un abonnement BALCO Plus facultatif.",
+    "detailsTitle": "Quotas, BP et conditions de l’abonnement",
+    "details": [
+      {
+        "label": "Scanner de prix",
+        "text": "5 conversions finalisées gratuites par jour. Chaque scan ordinaire supplémentaire coûte 2 BP."
+      },
+      {
+        "label": "Panier",
+        "text": "Un quota distinct de 10 ajouts gratuits pendant les premières 24 heures suivant la première utilisation, puis 5 ajouts gratuits par jour. Les ajouts manuels et par scanner partagent ce quota du panier. Chaque article supplémentaire ajouté coûte 1 BP."
+      },
+      {
+        "label": "BALCO Points",
+        "text": "Regarder une publicité récompensée jusqu’au bout rapporte 20 BP lorsqu’une publicité est disponible. La conversion de texte sélectionné coûte 1 BP ; le déblocage permanent d’un thème supplémentaire coûte 60 BP par thème."
+      },
+      {
+        "label": "BALCO Plus",
+        "text": "Un abonnement facultatif mensuel ou annuel à renouvellement automatique. Tant qu’il est actif, il supprime les publicités et donne un accès illimité aux fonctions payantes, y compris aux ajouts au panier, ainsi qu’à tous les thèmes supplémentaires. L’accès aux thèmes inclus dans l’abonnement dure uniquement pendant sa période d’activité. Gérez ou résiliez l’abonnement dans Google Play."
+      }
+    ]
+  },
+  "it": {
+    "heroTitle": "Capisci i prezzi all’estero nella tua valuta",
+    "heroDescription": "Inserisci un importo o scansiona un cartellino e controlla il risultato. I tassi di cambio già scaricati restano disponibili offline.",
+    "accessNote": "Google Play: 5 scansioni di prezzi gratuite al giorno, pubblicità e acquisti in-app facoltativi.",
+    "accessLink": "Limiti gratuiti, BP e BALCO Plus",
+    "featureSummary": "Conversioni di prezzi, confronti dei costi di cambio e tassi salvati per i tuoi viaggi.",
+    "scannerDescription": "Leggi un prezzo stampato con la fotocamera e convertilo in una valuta familiare. Controlla l’importo riconosciuto e la valuta selezionata prima di confermare.",
+    "travelDescription": "Confronta un importo in più valute contemporaneamente. Tocca una valuta per impostarla come valuta di base.",
+    "storeScope": "Nella versione Google Play",
+    "shoppingTitle": "Dal cartellino al totale della spesa",
+    "shoppingSubtitle": "Controlla ogni prezzo e visualizza il totale nella valuta che preferisci.",
+    "cartTitle": "Carrello",
+    "cartParagraphs": [
+      "Aggiungi i prezzi con la fotocamera o inseriscili manualmente. Controlla ogni importo e valuta, poi modifica le quantità secondo necessità.",
+      "Visualizza il costo convertito di ogni articolo e il totale nella valuta che preferisci."
+    ],
+    "accessTitle": "Utilizzo gratuito ed extra facoltativi",
+    "accessSummary": "La versione Google Play include 5 scansioni di prezzi gratuite al giorno. Prevede pubblicità, BALCO Points (BP) per utilizzi aggiuntivi e un abbonamento BALCO Plus facoltativo.",
+    "detailsTitle": "Limiti, BP e dettagli dell’abbonamento",
+    "details": [
+      {
+        "label": "Scanner prezzi",
+        "text": "5 conversioni completate gratuite al giorno. Ogni ulteriore scansione ordinaria costa 2 BP."
+      },
+      {
+        "label": "Carrello",
+        "text": "Una quota separata di 10 aggiunte gratuite nelle prime 24 ore dal primo utilizzo, poi 5 aggiunte gratuite al giorno. Gli inserimenti manuali e tramite scanner condividono questa quota del carrello. Ogni articolo aggiuntivo inserito costa 1 BP."
+      },
+      {
+        "label": "BALCO Points",
+        "text": "La visione completa di un annuncio con premio assegna 20 BP, quando è disponibile un annuncio. La conversione del testo selezionato costa 1 BP; lo sblocco permanente di un tema aggiuntivo costa 60 BP per tema."
+      },
+      {
+        "label": "BALCO Plus",
+        "text": "Un abbonamento facoltativo mensile o annuale con rinnovo automatico. Finché è attivo, rimuove la pubblicità e offre l’uso illimitato delle funzioni a pagamento, comprese le aggiunte al carrello, e tutti i temi aggiuntivi. L’accesso ai temi tramite abbonamento dura solo mentre l’abbonamento è attivo. Puoi gestirlo o annullarlo in Google Play."
+      }
+    ]
+  },
+  "es-ES": {
+    "heroTitle": "Entiende los precios en el extranjero en tu moneda",
+    "heroDescription": "Introduce un importe o escanea una etiqueta de precio y comprueba el resultado. Los tipos de cambio descargados previamente siguen disponibles sin conexión.",
+    "accessNote": "Google Play: 5 escaneos de precios gratuitos al día, anuncios y compras opcionales en la aplicación.",
+    "accessLink": "Límites gratuitos, BP y BALCO Plus",
+    "featureSummary": "Conversiones de precios, comparaciones del coste del cambio y tipos guardados para tus viajes.",
+    "scannerDescription": "Lee un precio impreso con la cámara y conviértelo a una moneda que conozcas. Comprueba el importe detectado y la moneda seleccionada antes de confirmar.",
+    "travelDescription": "Compara un importe en varias monedas a la vez. Toca una moneda para convertirla en la moneda base.",
+    "storeScope": "En la versión de Google Play",
+    "shoppingTitle": "De la etiqueta al total de tu compra",
+    "shoppingSubtitle": "Comprueba cada precio y consulta el total en la moneda que elijas.",
+    "cartTitle": "Carrito de la compra",
+    "cartParagraphs": [
+      "Añade precios con la cámara o introdúcelos manualmente. Comprueba cada importe y moneda, y ajusta las cantidades cuando lo necesites.",
+      "Consulta el coste convertido de cada artículo y el total en la moneda que elijas."
+    ],
+    "accessTitle": "Uso gratuito y extras opcionales",
+    "accessSummary": "La versión de Google Play incluye 5 escaneos de precios gratuitos al día. Tiene anuncios, BALCO Points (BP) para usos adicionales y una suscripción opcional a BALCO Plus.",
+    "detailsTitle": "Límites, BP y detalles de la suscripción",
+    "details": [
+      {
+        "label": "Escáner de precios",
+        "text": "5 conversiones completadas gratuitas al día. Cada escaneo normal adicional cuesta 2 BP."
+      },
+      {
+        "label": "Carrito de la compra",
+        "text": "Un cupo independiente de 10 incorporaciones gratuitas durante las primeras 24 horas desde el primer uso; después, 5 incorporaciones gratuitas al día. Los artículos introducidos manualmente o con el escáner comparten este cupo del carrito. Cada artículo adicional añadido cuesta 1 BP."
+      },
+      {
+        "label": "BALCO Points",
+        "text": "Ver un anuncio con recompensa hasta el final otorga 20 BP cuando hay un anuncio disponible. Convertir texto seleccionado cuesta 1 BP; desbloquear permanentemente un tema adicional cuesta 60 BP por tema."
+      },
+      {
+        "label": "BALCO Plus",
+        "text": "Una suscripción opcional mensual o anual con renovación automática. Mientras está activa, elimina los anuncios e incluye el uso ilimitado de las funciones de pago, incluidas las incorporaciones al carrito, y todos los temas adicionales. El acceso a los temas mediante la suscripción dura solo mientras esta esté activa. Gestiona o cancela la suscripción en Google Play."
+      }
+    ]
+  },
+  "es-419": {
+    "heroTitle": "Entiende los precios en el extranjero en tu moneda",
+    "heroDescription": "Ingresa un monto o escanea una etiqueta de precio y revisa el resultado. Los tipos de cambio descargados previamente siguen disponibles sin conexión.",
+    "accessNote": "Google Play: 5 escaneos de precios gratis al día, anuncios y compras opcionales en la app.",
+    "accessLink": "Límites gratuitos, BP y BALCO Plus",
+    "featureSummary": "Conversión de precios, comparación de costos de cambio y tipos de cambio guardados para tus viajes.",
+    "scannerDescription": "Lee un precio impreso con la cámara y conviértelo a una moneda que conozcas. Revisa el monto detectado y la moneda seleccionada antes de confirmar.",
+    "travelDescription": "Compara un monto en varias monedas a la vez. Toca una moneda para establecerla como moneda base.",
+    "storeScope": "En la versión de Google Play",
+    "shoppingTitle": "De la etiqueta al total de tus compras",
+    "shoppingSubtitle": "Revisa cada precio y consulta el total en la moneda que elijas.",
+    "cartTitle": "Carrito de compras",
+    "cartParagraphs": [
+      "Agrega precios con la cámara o ingrésalos manualmente. Revisa cada monto y moneda, y ajusta las cantidades según lo necesites.",
+      "Consulta el costo convertido de cada artículo y el total en la moneda que elijas."
+    ],
+    "accessTitle": "Uso gratuito y extras opcionales",
+    "accessSummary": "La versión de Google Play incluye 5 escaneos de precios gratis al día. Tiene anuncios, BALCO Points (BP) para usos adicionales y una suscripción opcional a BALCO Plus.",
+    "detailsTitle": "Límites, BP y detalles de la suscripción",
+    "details": [
+      {
+        "label": "Escáner de precios",
+        "text": "5 conversiones completadas gratis al día. Cada escaneo normal adicional cuesta 2 BP."
+      },
+      {
+        "label": "Carrito de compras",
+        "text": "Un cupo independiente para agregar 10 artículos gratis durante las primeras 24 horas desde el primer uso; después, 5 artículos gratis al día. Los artículos ingresados manualmente o con el escáner comparten este cupo del carrito. Agregar cada artículo adicional cuesta 1 BP."
+      },
+      {
+        "label": "BALCO Points",
+        "text": "Ver un anuncio con recompensa hasta el final otorga 20 BP cuando hay un anuncio disponible. Convertir texto seleccionado cuesta 1 BP; desbloquear permanentemente un tema adicional cuesta 60 BP por tema."
+      },
+      {
+        "label": "BALCO Plus",
+        "text": "Una suscripción opcional mensual o anual con renovación automática. Mientras está activa, elimina los anuncios e incluye el uso ilimitado de las funciones de pago, como agregar artículos al carrito, y todos los temas adicionales. El acceso a los temas mediante la suscripción dura solo mientras esta esté activa. Administra o cancela la suscripción en Google Play."
+      }
+    ]
+  },
+  "pt-BR": {
+    "heroTitle": "Entenda os preços no exterior na sua moeda",
+    "heroDescription": "Digite um valor ou escaneie uma etiqueta de preço e confira o resultado. As taxas de câmbio baixadas anteriormente continuam disponíveis sem internet.",
+    "accessNote": "Google Play: 5 leituras de preços gratuitas por dia, anúncios e compras opcionais no app.",
+    "accessLink": "Limites gratuitos, BP e BALCO Plus",
+    "featureSummary": "Conversão de preços, comparação de custos de câmbio e taxas salvas para suas viagens.",
+    "scannerDescription": "Leia um preço impresso com a câmera e converta para uma moeda familiar. Confira o valor reconhecido e a moeda selecionada antes de confirmar.",
+    "travelDescription": "Compare um valor em várias moedas ao mesmo tempo. Toque em uma moeda para defini-la como moeda-base.",
+    "storeScope": "Na versão do Google Play",
+    "shoppingTitle": "Da etiqueta ao total das suas compras",
+    "shoppingSubtitle": "Confira cada preço e veja o total na moeda que você escolher.",
+    "cartTitle": "Carrinho de compras",
+    "cartParagraphs": [
+      "Adicione preços com a câmera ou digite manualmente. Confira cada valor e moeda e ajuste as quantidades quando necessário.",
+      "Veja o custo convertido de cada item e o total na moeda que você escolher."
+    ],
+    "accessTitle": "Uso gratuito e extras opcionais",
+    "accessSummary": "A versão do Google Play inclui 5 leituras de preços gratuitas por dia. Ela tem anúncios, BALCO Points (BP) para usos adicionais e uma assinatura opcional do BALCO Plus.",
+    "detailsTitle": "Limites, BP e detalhes da assinatura",
+    "details": [
+      {
+        "label": "Leitor de preços",
+        "text": "5 conversões concluídas gratuitas por dia. Cada leitura comum adicional custa 2 BP."
+      },
+      {
+        "label": "Carrinho de compras",
+        "text": "Uma cota separada de 10 inclusões gratuitas nas primeiras 24 horas a partir do primeiro uso; depois, 5 inclusões gratuitas por dia. Os itens adicionados manualmente ou pelo leitor compartilham essa cota do carrinho. Cada item adicional incluído custa 1 BP."
+      },
+      {
+        "label": "BALCO Points",
+        "text": "Assistir a um anúncio com recompensa até o fim rende 20 BP quando há um anúncio disponível. A conversão de texto selecionado custa 1 BP; o desbloqueio permanente de um tema extra custa 60 BP por tema."
+      },
+      {
+        "label": "BALCO Plus",
+        "text": "Uma assinatura opcional mensal ou anual com renovação automática. Enquanto estiver ativa, ela remove os anúncios e inclui o uso ilimitado dos recursos pagos, inclusive as inclusões no carrinho, e todos os temas extras. O acesso aos temas pela assinatura dura apenas enquanto ela estiver ativa. Gerencie ou cancele a assinatura no Google Play."
+      }
+    ]
+  },
+  "pt-PT": {
+    "heroTitle": "Compreenda os preços no estrangeiro na sua moeda",
+    "heroDescription": "Introduza um valor ou leia uma etiqueta de preço com a câmara e verifique o resultado. As taxas de câmbio já descarregadas continuam disponíveis sem ligação à internet.",
+    "accessNote": "Google Play: 5 leituras de preços gratuitas por dia, anúncios e compras opcionais na aplicação.",
+    "accessLink": "Limites gratuitos, BP e BALCO Plus",
+    "featureSummary": "Conversão de preços, comparação dos custos de câmbio e taxas guardadas para as suas viagens.",
+    "scannerDescription": "Leia um preço impresso com a câmara e converta-o numa moeda familiar. Verifique o valor reconhecido e a moeda selecionada antes de confirmar.",
+    "travelDescription": "Compare um valor em várias moedas ao mesmo tempo. Toque numa moeda para a definir como moeda de base.",
+    "storeScope": "Na versão do Google Play",
+    "shoppingTitle": "Da etiqueta ao total das suas compras",
+    "shoppingSubtitle": "Verifique cada preço e veja o total na moeda que escolher.",
+    "cartTitle": "Carrinho de compras",
+    "cartParagraphs": [
+      "Adicione preços com a câmara ou introduza-os manualmente. Verifique cada valor e moeda e ajuste as quantidades conforme necessário.",
+      "Veja o custo convertido de cada artigo e o total na moeda que escolher."
+    ],
+    "accessTitle": "Utilização gratuita e extras opcionais",
+    "accessSummary": "A versão do Google Play inclui 5 leituras de preços gratuitas por dia. Tem anúncios, BALCO Points (BP) para utilizações adicionais e uma subscrição opcional do BALCO Plus.",
+    "detailsTitle": "Limites, BP e detalhes da subscrição",
+    "details": [
+      {
+        "label": "Leitor de preços",
+        "text": "5 conversões concluídas gratuitas por dia. Cada leitura normal adicional custa 2 BP."
+      },
+      {
+        "label": "Carrinho de compras",
+        "text": "Um limite separado de 10 adições gratuitas nas primeiras 24 horas a contar da primeira utilização, depois 5 adições gratuitas por dia. Os artigos adicionados manualmente ou pelo leitor partilham este limite do carrinho. Cada artigo adicional acrescentado custa 1 BP."
+      },
+      {
+        "label": "BALCO Points",
+        "text": "Ver um anúncio com recompensa até ao fim dá 20 BP quando há um anúncio disponível. A conversão de texto selecionado custa 1 BP; o desbloqueio permanente de um tema extra custa 60 BP por tema."
+      },
+      {
+        "label": "BALCO Plus",
+        "text": "Uma subscrição opcional mensal ou anual com renovação automática. Enquanto estiver ativa, remove os anúncios e inclui a utilização ilimitada das funcionalidades pagas, incluindo as adições ao carrinho, e todos os temas extra. O acesso aos temas através da subscrição dura apenas enquanto esta estiver ativa. Faça a gestão ou o cancelamento da subscrição no Google Play."
+      }
+    ]
+  },
+  "nl": {
+    "heroTitle": "Begrijp prijzen in het buitenland in je eigen valuta",
+    "heroDescription": "Voer een bedrag in of scan een prijskaartje en controleer het resultaat. Eerder gedownloade wisselkoersen blijven offline beschikbaar.",
+    "accessNote": "Google Play: 5 gratis prijsscans per dag, advertenties en optionele in-appaankopen.",
+    "accessLink": "Gratis limieten, BP en BALCO Plus",
+    "featureSummary": "Prijzen omrekenen, wisselkosten vergelijken en opgeslagen koersen gebruiken op reis.",
+    "scannerDescription": "Lees een gedrukte prijs met de camera en reken die om naar een vertrouwde valuta. Controleer het herkende bedrag en de geselecteerde valuta voordat je bevestigt.",
+    "travelDescription": "Vergelijk een bedrag tegelijk in meerdere valuta. Tik op een valuta om die als basisvaluta in te stellen.",
+    "storeScope": "In de Google Play-versie",
+    "shoppingTitle": "Van prijskaartje naar je boodschappentotaal",
+    "shoppingSubtitle": "Controleer elke prijs en bekijk het totaal in de valuta die je kiest.",
+    "cartTitle": "Winkelmandje",
+    "cartParagraphs": [
+      "Voeg prijzen toe met de camera of voer ze handmatig in. Controleer elk bedrag en elke valuta en pas de aantallen zo nodig aan.",
+      "Bekijk de omgerekende kosten per artikel en het totaal in de valuta die je kiest."
+    ],
+    "accessTitle": "Gratis gebruik en optionele extra’s",
+    "accessSummary": "De Google Play-versie biedt 5 gratis prijsscans per dag. Deze versie bevat advertenties, BALCO Points (BP) voor extra gebruik en een optioneel BALCO Plus-abonnement.",
+    "detailsTitle": "Limieten, BP en abonnementsdetails",
+    "details": [
+      {
+        "label": "Prijsscanner",
+        "text": "5 gratis voltooide omrekeningen per dag. Elke extra gewone scan kost 2 BP."
+      },
+      {
+        "label": "Winkelmandje",
+        "text": "Een apart tegoed van 10 gratis toevoegingen in de eerste 24 uur vanaf het eerste gebruik, daarna 5 gratis toevoegingen per dag. Handmatig en met de scanner toegevoegde artikelen delen dit tegoed voor het winkelmandje. Elk extra toegevoegd artikel kost 1 BP."
+      },
+      {
+        "label": "BALCO Points",
+        "text": "Een beloningsadvertentie volledig bekijken levert 20 BP op wanneer er een advertentie beschikbaar is. Geselecteerde tekst omrekenen kost 1 BP; een extra thema permanent ontgrendelen kost 60 BP per thema."
+      },
+      {
+        "label": "BALCO Plus",
+        "text": "Een optioneel maand- of jaarabonnement dat automatisch wordt verlengd. Zolang het actief is, verwijdert het advertenties en biedt het onbeperkt gebruik van betaalde functies, waaronder toevoegingen aan het winkelmandje, en alle extra thema’s. Toegang tot thema’s via het abonnement geldt alleen zolang het abonnement actief is. Beheer of annuleer het in Google Play."
+      }
+    ]
+  },
+  "da": {
+    "heroTitle": "Forstå priser i udlandet i din egen valuta",
+    "heroDescription": "Indtast et beløb, eller scan et prisskilt, og kontrollér resultatet. Tidligere hentede valutakurser er fortsat tilgængelige uden internet.",
+    "accessNote": "Google Play: 5 gratis prisscanninger om dagen, annoncer og valgfrie køb i appen.",
+    "accessLink": "Gratis grænser, BP og BALCO Plus",
+    "featureSummary": "Omregning af priser, sammenligning af vekslingsomkostninger og gemte kurser til dine rejser.",
+    "scannerDescription": "Læs en trykt pris med kameraet, og omregn den til en velkendt valuta. Kontrollér det genkendte beløb og den valgte valuta, før du bekræfter.",
+    "travelDescription": "Sammenlign et beløb i flere valutaer på én gang. Tryk på en valuta for at bruge den som basisvaluta.",
+    "storeScope": "I Google Play-versionen",
+    "shoppingTitle": "Fra prisskilt til din samlede indkøbspris",
+    "shoppingSubtitle": "Kontrollér hver pris, og se totalen i din valgte valuta.",
+    "cartTitle": "Indkøbskurv",
+    "cartParagraphs": [
+      "Tilføj priser med kameraet, eller indtast dem manuelt. Kontrollér hvert beløb og hver valuta, og justér antallet efter behov.",
+      "Se den omregnede pris for hver vare og totalen i din valgte valuta."
+    ],
+    "accessTitle": "Gratis brug og valgfrie tilvalg",
+    "accessSummary": "Google Play-versionen omfatter 5 gratis prisscanninger om dagen. Den har annoncer, BALCO Points (BP) til yderligere brug og et valgfrit BALCO Plus-abonnement.",
+    "detailsTitle": "Grænser, BP og abonnementsvilkår",
+    "details": [
+      {
+        "label": "Prisscanner",
+        "text": "5 gratis gennemførte omregninger om dagen. Hver yderligere almindelig scanning koster 2 BP."
+      },
+      {
+        "label": "Indkøbskurv",
+        "text": "En særskilt kvote på 10 gratis tilføjelser i de første 24 timer fra første brug, derefter 5 gratis tilføjelser om dagen. Manuelle tilføjelser og tilføjelser med scanneren deler denne kvote til indkøbskurven. Hver yderligere vare, der tilføjes, koster 1 BP."
+      },
+      {
+        "label": "BALCO Points",
+        "text": "Du får 20 BP for at se en belønningsannonce til ende, når en annonce er tilgængelig. Omregning af markeret tekst koster 1 BP; permanent oplåsning af et ekstra tema koster 60 BP pr. tema."
+      },
+      {
+        "label": "BALCO Plus",
+        "text": "Et valgfrit måneds- eller årsabonnement med automatisk fornyelse. Mens det er aktivt, fjerner det annoncer og giver ubegrænset brug af betalingsfunktioner, herunder tilføjelser til indkøbskurven, samt alle ekstra temaer. Adgang til temaer via abonnementet gælder kun, mens abonnementet er aktivt. Administrér eller opsig det i Google Play."
+      }
+    ]
+  },
+  "sv": {
+    "heroTitle": "Förstå priser utomlands i din egen valuta",
+    "heroDescription": "Ange ett belopp eller skanna en prislapp och kontrollera resultatet. Tidigare nedladdade växelkurser finns kvar även utan internet.",
+    "accessNote": "Google Play: 5 kostnadsfria prisskanningar per dag, annonser och valfria köp i appen.",
+    "accessLink": "Gratisgränser, BP och BALCO Plus",
+    "featureSummary": "Prisomräkning, jämförelser av växlingskostnader och sparade kurser för dina resor.",
+    "scannerDescription": "Läs ett tryckt pris med kameran och räkna om det till en välbekant valuta. Kontrollera det identifierade beloppet och den valda valutan innan du bekräftar.",
+    "travelDescription": "Jämför ett belopp i flera valutor samtidigt. Tryck på en valuta för att använda den som basvaluta.",
+    "storeScope": "I Google Play-versionen",
+    "shoppingTitle": "Från prislapp till summan av dina inköp",
+    "shoppingSubtitle": "Kontrollera varje pris och se totalsumman i din valda valuta.",
+    "cartTitle": "Varukorg",
+    "cartParagraphs": [
+      "Lägg till priser med kameran eller ange dem manuellt. Kontrollera varje belopp och valuta och ändra antalet vid behov.",
+      "Se den omräknade kostnaden för varje vara och totalsumman i din valda valuta."
+    ],
+    "accessTitle": "Gratis användning och valfria tillägg",
+    "accessSummary": "Google Play-versionen innehåller 5 kostnadsfria prisskanningar per dag. Den har annonser, BALCO Points (BP) för ytterligare användning och en valfri BALCO Plus-prenumeration.",
+    "detailsTitle": "Gränser, BP och prenumerationsvillkor",
+    "details": [
+      {
+        "label": "Prisskanner",
+        "text": "5 kostnadsfria slutförda omräkningar per dag. Varje ytterligare vanlig skanning kostar 2 BP."
+      },
+      {
+        "label": "Varukorg",
+        "text": "En separat kvot med 10 kostnadsfria tillägg under de första 24 timmarna från första användningen, därefter 5 kostnadsfria tillägg per dag. Varor som läggs till manuellt eller med skannern delar denna varukorgskvot. Varje ytterligare vara som läggs till kostar 1 BP."
+      },
+      {
+        "label": "BALCO Points",
+        "text": "Du får 20 BP när du ser en belöningsannons till slut, om en annons finns tillgänglig. Omräkning av markerad text kostar 1 BP; permanent upplåsning av ett extra tema kostar 60 BP per tema."
+      },
+      {
+        "label": "BALCO Plus",
+        "text": "En valfri månads- eller årsprenumeration som förnyas automatiskt. Så länge den är aktiv tar den bort annonser och ger obegränsad användning av betalfunktioner, inklusive tillägg till varukorgen, samt alla extra teman. Tillgången till teman via prenumerationen gäller bara medan prenumerationen är aktiv. Hantera eller avsluta den i Google Play."
+      }
+    ]
+  },
+  "nb": {
+    "heroTitle": "Forstå priser i utlandet i din egen valuta",
+    "heroDescription": "Skriv inn et beløp eller skann en prislapp og sjekk resultatet. Valutakurser som er lastet ned tidligere, er fortsatt tilgjengelige uten internett.",
+    "accessNote": "Google Play: 5 gratis prisskanninger per dag, annonser og valgfrie kjøp i appen.",
+    "accessLink": "Gratisgrenser, BP og BALCO Plus",
+    "featureSummary": "Prisomregning, sammenligning av vekslingskostnader og lagrede kurser til reisene dine.",
+    "scannerDescription": "Les en trykt pris med kameraet og regn den om til en kjent valuta. Sjekk det gjenkjente beløpet og den valgte valutaen før du bekrefter.",
+    "travelDescription": "Sammenlign ett beløp i flere valutaer samtidig. Trykk på en valuta for å bruke den som basisvaluta.",
+    "storeScope": "I Google Play-versjonen",
+    "shoppingTitle": "Fra prislapp til summen av innkjøpene dine",
+    "shoppingSubtitle": "Sjekk hver pris og se totalsummen i valutaen du velger.",
+    "cartTitle": "Handlekurv",
+    "cartParagraphs": [
+      "Legg til priser med kameraet eller skriv dem inn manuelt. Sjekk hvert beløp og hver valuta, og juster antallet ved behov.",
+      "Se den omregnede kostnaden for hver vare og totalsummen i valutaen du velger."
+    ],
+    "accessTitle": "Gratis bruk og valgfrie tillegg",
+    "accessSummary": "Google Play-versjonen inkluderer 5 gratis prisskanninger per dag. Den har annonser, BALCO Points (BP) for ekstra bruk og et valgfritt BALCO Plus-abonnement.",
+    "detailsTitle": "Grenser, BP og abonnementsvilkår",
+    "details": [
+      {
+        "label": "Prisskanner",
+        "text": "5 gratis fullførte omregninger per dag. Hver ekstra vanlig skanning koster 2 BP."
+      },
+      {
+        "label": "Handlekurv",
+        "text": "En separat kvote på 10 gratis tillegg de første 24 timene fra første bruk, deretter 5 gratis tillegg per dag. Varer som legges til manuelt eller med skanneren, deler denne handlekurvkvoten. Hver ekstra vare som legges til, koster 1 BP."
+      },
+      {
+        "label": "BALCO Points",
+        "text": "Du får 20 BP når du ser en belønningsannonse helt ferdig, når en annonse er tilgjengelig. Omregning av merket tekst koster 1 BP; permanent opplåsing av et ekstra tema koster 60 BP per tema."
+      },
+      {
+        "label": "BALCO Plus",
+        "text": "Et valgfritt måneds- eller årsabonnement som fornyes automatisk. Så lenge det er aktivt, fjerner det annonser og gir ubegrenset bruk av betalte funksjoner, inkludert tillegg i handlekurven, samt alle ekstra temaer. Tilgang til temaer gjennom abonnementet gjelder bare mens abonnementet er aktivt. Administrer eller avslutt det i Google Play."
+      }
+    ]
+  },
+  "fi": {
+    "heroTitle": "Ymmärrä ulkomaiset hinnat omassa valuutassasi",
+    "heroDescription": "Syötä summa tai skannaa hintalappu ja tarkista tulos. Aiemmin ladatut valuuttakurssit ovat käytettävissä myös ilman verkkoyhteyttä.",
+    "accessNote": "Google Play: 5 maksutonta hintaskannausta päivässä, mainoksia ja valinnaisia sovelluksen sisäisiä ostoja.",
+    "accessLink": "Maksuttomat käyttörajat, BP ja BALCO Plus",
+    "featureSummary": "Hintojen muuntaminen, valuutanvaihdon kulujen vertailu ja tallennetut kurssit matkoillesi.",
+    "scannerDescription": "Lue painettu hinta kameralla ja muunna se tuttuun valuuttaan. Tarkista tunnistettu summa ja valittu valuutta ennen vahvistamista.",
+    "travelDescription": "Vertaa samaa summaa useissa valuutoissa kerralla. Napauta valuuttaa, niin se asetetaan perusvaluutaksi.",
+    "storeScope": "Google Play -versiossa",
+    "shoppingTitle": "Hintalapusta ostosten yhteissummaan",
+    "shoppingSubtitle": "Tarkista jokainen hinta ja katso yhteissumma valitsemassasi valuutassa.",
+    "cartTitle": "Ostoskori",
+    "cartParagraphs": [
+      "Lisää hinnat kameralla tai syötä ne käsin. Tarkista jokainen summa ja valuutta ja muuta määriä tarvittaessa.",
+      "Katso jokaisen tuotteen muunnettu hinta ja yhteissumma valitsemassasi valuutassa."
+    ],
+    "accessTitle": "Maksuton käyttö ja valinnaiset lisät",
+    "accessSummary": "Google Play -versio sisältää 5 maksutonta hintaskannausta päivässä. Siinä on mainoksia, BALCO Points (BP) lisäkäyttöä varten ja valinnainen BALCO Plus -tilaus.",
+    "detailsTitle": "Käyttörajat, BP ja tilauksen tiedot",
+    "details": [
+      {
+        "label": "Hintaskanneri",
+        "text": "5 maksutonta loppuun suoritettua muunnosta päivässä. Jokainen tavallinen lisäskannaus maksaa 2 BP."
+      },
+      {
+        "label": "Ostoskori",
+        "text": "Erillinen kiintiö: 10 maksutonta lisäystä ensimmäisten 24 tunnin aikana ensimmäisestä käyttökerrasta, sen jälkeen 5 maksutonta lisäystä päivässä. Käsin ja skannerilla tehdyt lisäykset käyttävät samaa ostoskorin kiintiötä. Jokainen kiintiön ylittävä tuotteen lisäys maksaa 1 BP."
+      },
+      {
+        "label": "BALCO Points",
+        "text": "Palkkiomainoksen katsominen loppuun antaa 20 BP, kun mainos on saatavilla. Valitun tekstin muuntaminen maksaa 1 BP; lisäteeman pysyvä avaaminen maksaa 60 BP teemaa kohden."
+      },
+      {
+        "label": "BALCO Plus",
+        "text": "Valinnainen kuukausi- tai vuositilaus, joka uusiutuu automaattisesti. Voimassa oleva tilaus poistaa mainokset ja sisältää maksullisten toimintojen rajattoman käytön, myös tuotteiden lisäämisen ostoskoriin, sekä kaikki lisäteemat. Tilaukseen kuuluva teemojen käyttöoikeus kestää vain tilauksen voimassaolon ajan. Hallitse tilausta tai peruuta se Google Playssa."
+      }
+    ]
+  },
+  "is": {
+    "heroTitle": "Skildu verð erlendis í þínum eigin gjaldmiðli",
+    "heroDescription": "Sláðu inn upphæð eða skannaðu verðmiða og athugaðu niðurstöðuna. Gengi sem hefur verið sótt er áfram tiltækt án nettengingar.",
+    "accessNote": "Google Play: 5 ókeypis verðskannanir á dag, auglýsingar og valfrjáls kaup í appinu.",
+    "accessLink": "Ókeypis notkunarmörk, BP og BALCO Plus",
+    "featureSummary": "Umbreyting verðs, samanburður á gjaldeyriskostnaði og vistað gengi fyrir ferðalögin þín.",
+    "scannerDescription": "Lestu prentað verð með myndavélinni og umbreyttu því í kunnuglegan gjaldmiðil. Athugaðu upphæðina sem var lesin og valinn gjaldmiðil áður en þú staðfestir.",
+    "travelDescription": "Berðu sömu upphæð saman í mörgum gjaldmiðlum í einu. Pikkaðu á gjaldmiðil til að velja hann sem grunngjaldmiðil.",
+    "storeScope": "Í Google Play-útgáfunni",
+    "shoppingTitle": "Frá verðmiða að heildarupphæð innkaupanna",
+    "shoppingSubtitle": "Athugaðu hvert verð og sjáðu heildina í gjaldmiðlinum sem þú velur.",
+    "cartTitle": "Innkaupakarfa",
+    "cartParagraphs": [
+      "Bættu við verði með myndavélinni eða sláðu það inn handvirkt. Athugaðu hverja upphæð og gjaldmiðil og breyttu fjölda eftir þörfum.",
+      "Sjáðu umreiknað verð hverrar vöru og heildina í gjaldmiðlinum sem þú velur."
+    ],
+    "accessTitle": "Ókeypis notkun og valfrjálsir aukakostir",
+    "accessSummary": "Google Play-útgáfan býður upp á 5 ókeypis verðskannanir á dag. Hún inniheldur auglýsingar, BALCO Points (BP) fyrir viðbótarnotkun og valfrjálsa BALCO Plus-áskrift.",
+    "detailsTitle": "Notkunarmörk, BP og áskriftarskilmálar",
+    "details": [
+      {
+        "label": "Verðskanni",
+        "text": "5 ókeypis staðfestar umbreytingar á dag. Hver venjuleg skönnun umfram það kostar 2 BP."
+      },
+      {
+        "label": "Innkaupakarfa",
+        "text": "Sérstakur kvóti leyfir að bæta 10 vörum ókeypis við á fyrstu 24 klukkustundunum frá fyrstu notkun, síðan 5 vörum ókeypis á dag. Handvirkar viðbætur og viðbætur með skannanum nota sama kvóta fyrir körfuna. Hver viðbótarvara umfram kvótann kostar 1 BP."
+      },
+      {
+        "label": "BALCO Points",
+        "text": "Þú færð 20 BP fyrir að horfa til enda á auglýsingu með umbun þegar auglýsing er tiltæk. Umbreyting valins texta kostar 1 BP; varanleg opnun aukaþema kostar 60 BP fyrir hvert þema."
+      },
+      {
+        "label": "BALCO Plus",
+        "text": "Valfrjáls mánaðar- eða ársáskrift sem endurnýjast sjálfkrafa. Meðan hún er virk fjarlægir hún auglýsingar og veitir ótakmarkaða notkun gjaldskyldra eiginleika, þar á meðal að bæta vörum í körfuna, og aðgang að öllum aukaþemum. Aðgangur að þemum í gegnum áskrift gildir aðeins meðan áskriftin er virk. Stjórnaðu henni eða segðu henni upp í Google Play."
+      }
+    ]
+  },
+  "el": {
+    "heroTitle": "Κατανοήστε τις τιμές στο εξωτερικό στο δικό σας νόμισμα",
+    "heroDescription": "Εισαγάγετε ένα ποσό ή σαρώστε μια ετικέτα τιμής και ελέγξτε το αποτέλεσμα. Οι ισοτιμίες που έχετε ήδη κατεβάσει παραμένουν διαθέσιμες χωρίς σύνδεση στο διαδίκτυο.",
+    "accessNote": "Google Play: 5 δωρεάν σαρώσεις τιμών την ημέρα, διαφημίσεις και προαιρετικές αγορές εντός εφαρμογής.",
+    "accessLink": "Δωρεάν όρια, BP και BALCO Plus",
+    "featureSummary": "Μετατροπές τιμών, συγκρίσεις κόστους συναλλάγματος και αποθηκευμένες ισοτιμίες για τα ταξίδια σας.",
+    "scannerDescription": "Διαβάστε μια τυπωμένη τιμή με την κάμερα και μετατρέψτε τη σε ένα οικείο νόμισμα. Ελέγξτε το ποσό που αναγνωρίστηκε και το επιλεγμένο νόμισμα πριν από την επιβεβαίωση.",
+    "travelDescription": "Συγκρίνετε ένα ποσό σε πολλά νομίσματα ταυτόχρονα. Πατήστε ένα νόμισμα για να το ορίσετε ως βασικό.",
+    "storeScope": "Στην έκδοση του Google Play",
+    "shoppingTitle": "Από την ετικέτα τιμής στο σύνολο των αγορών σας",
+    "shoppingSubtitle": "Ελέγξτε κάθε τιμή και δείτε το σύνολο στο νόμισμα που επιλέξατε.",
+    "cartTitle": "Καλάθι αγορών",
+    "cartParagraphs": [
+      "Προσθέστε τιμές με την κάμερα ή εισαγάγετέ τις χειροκίνητα. Ελέγξτε κάθε ποσό και νόμισμα και προσαρμόστε τις ποσότητες όπως χρειάζεται.",
+      "Δείτε το κόστος κάθε προϊόντος μετά τη μετατροπή και το σύνολο στο νόμισμα που επιλέξατε."
+    ],
+    "accessTitle": "Δωρεάν χρήση και προαιρετικές παροχές",
+    "accessSummary": "Η έκδοση του Google Play περιλαμβάνει 5 δωρεάν σαρώσεις τιμών την ημέρα. Περιέχει διαφημίσεις, BALCO Points (BP) για επιπλέον χρήση και μια προαιρετική συνδρομή BALCO Plus.",
+    "detailsTitle": "Όρια, BP και λεπτομέρειες συνδρομής",
+    "details": [
+      {
+        "label": "Σαρωτής τιμών",
+        "text": "5 δωρεάν ολοκληρωμένες μετατροπές την ημέρα. Κάθε επιπλέον απλή σάρωση κοστίζει 2 BP."
+      },
+      {
+        "label": "Καλάθι αγορών",
+        "text": "Ξεχωριστό όριο 10 δωρεάν προσθηκών κατά τις πρώτες 24 ώρες από την πρώτη χρήση και στη συνέχεια 5 δωρεάν προσθήκες την ημέρα. Οι χειροκίνητες προσθήκες και οι προσθήκες με τον σαρωτή μοιράζονται αυτό το όριο του καλαθιού. Κάθε επιπλέον προϊόν στο καλάθι κοστίζει 1 BP."
+      },
+      {
+        "label": "BALCO Points",
+        "text": "Η παρακολούθηση μιας διαφήμισης με ανταμοιβή μέχρι το τέλος προσφέρει 20 BP, εφόσον υπάρχει διαθέσιμη διαφήμιση. Η μετατροπή επιλεγμένου κειμένου κοστίζει 1 BP· το μόνιμο ξεκλείδωμα ενός πρόσθετου θέματος κοστίζει 60 BP ανά θέμα."
+      },
+      {
+        "label": "BALCO Plus",
+        "text": "Προαιρετική μηνιαία ή ετήσια συνδρομή με αυτόματη ανανέωση. Όσο είναι ενεργή, αφαιρεί τις διαφημίσεις και περιλαμβάνει απεριόριστη χρήση των λειτουργιών που κανονικά χρεώνονται, συμπεριλαμβανομένων των προσθηκών στο καλάθι, καθώς και όλα τα πρόσθετα θέματα. Η πρόσβαση στα θέματα μέσω της συνδρομής διαρκεί όσο η συνδρομή είναι ενεργή. Διαχειριστείτε ή ακυρώστε τη στο Google Play."
+      }
+    ]
+  },
+  "tr": {
+    "heroTitle": "Yurt dışındaki fiyatları kendi para biriminizde anlayın",
+    "heroDescription": "Bir tutar girin veya fiyat etiketini tarayıp sonucu kontrol edin. Daha önce indirilen döviz kurları çevrimdışı da kullanılabilir.",
+    "accessNote": "Google Play: günde 5 ücretsiz fiyat taraması, reklamlar ve isteğe bağlı uygulama içi satın almalar.",
+    "accessLink": "Ücretsiz kullanım sınırları, BP ve BALCO Plus",
+    "featureSummary": "Seyahatleriniz için fiyat dönüşümleri, döviz bozdurma maliyeti karşılaştırmaları ve kayıtlı kurlar.",
+    "scannerDescription": "Basılı bir fiyatı kamerayla okuyup alışık olduğunuz para birimine dönüştürün. Onaylamadan önce tanınan tutarı ve seçili para birimini kontrol edin.",
+    "travelDescription": "Bir tutarı aynı anda birden fazla para biriminde karşılaştırın. Temel para birimi olarak kullanmak için bir para birimine dokunun.",
+    "storeScope": "Google Play sürümünde",
+    "shoppingTitle": "Fiyat etiketinden alışveriş toplamınıza",
+    "shoppingSubtitle": "Her fiyatı kontrol edin ve toplamı seçtiğiniz para biriminde görün.",
+    "cartTitle": "Alışveriş Sepeti",
+    "cartParagraphs": [
+      "Fiyatları kamerayla ekleyin veya elle girin. Her tutarı ve para birimini kontrol edin, ardından adetleri gerektiği gibi düzenleyin.",
+      "Her ürünün dönüştürülmüş maliyetini ve toplamı seçtiğiniz para biriminde görün."
+    ],
+    "accessTitle": "Ücretsiz kullanım ve isteğe bağlı ek özellikler",
+    "accessSummary": "Google Play sürümü günde 5 ücretsiz fiyat taraması içerir. Reklamlar, ek kullanım için BALCO Points (BP) ve isteğe bağlı BALCO Plus aboneliği sunar.",
+    "detailsTitle": "Kullanım sınırları, BP ve abonelik ayrıntıları",
+    "details": [
+      {
+        "label": "Fiyat tarayıcı",
+        "text": "Günde 5 ücretsiz tamamlanmış dönüşüm. Her ek normal tarama 2 BP tutarındadır."
+      },
+      {
+        "label": "Alışveriş Sepeti",
+        "text": "İlk kullanımdan itibaren ilk 24 saat boyunca 10 ücretsiz ekleme, ardından günde 5 ücretsiz ekleme sağlayan ayrı bir kota vardır. Elle ve tarayıcıyla yapılan eklemeler aynı sepet kotasını kullanır. Kotayı aşan her yeni ürün ekleme 1 BP tutarındadır."
+      },
+      {
+        "label": "BALCO Points",
+        "text": "Reklam mevcut olduğunda, ödüllü bir reklamı sonuna kadar izlemek 20 BP kazandırır. Seçili metni dönüştürmek 1 BP, ek bir temayı kalıcı olarak açmak ise tema başına 60 BP tutarındadır."
+      },
+      {
+        "label": "BALCO Plus",
+        "text": "Otomatik yenilenen, isteğe bağlı aylık veya yıllık abonelik. Etkin olduğu sürece reklamları kaldırır; sepete ürün ekleme dahil ücretli özelliklerin sınırsız kullanımını ve tüm ek temaları sunar. Abonelik üzerinden temalara erişim yalnızca abonelik etkin olduğu sürece geçerlidir. Aboneliğinizi Google Play üzerinden yönetebilir veya iptal edebilirsiniz."
+      }
+    ]
+  },
+  "ru": {
+    "heroTitle": "Понимайте цены в поездке — в своей валюте",
+    "heroDescription": "Введите сумму или отсканируйте ценник и проверьте результат. Курсы, загруженные заранее, доступны без интернета.",
+    "accessNote": "В Google Play: 5 бесплатных сканирований в день, реклама и необязательные покупки.",
+    "accessLink": "Лимиты, BP и BALCO Plus",
+    "featureSummary": "Пересчёт цен, сравнение стоимости обмена и сохранённые курсы для поездок.",
+    "scannerDescription": "Считайте напечатанную цену камерой и пересчитайте её в знакомую валюту. Перед подтверждением проверьте распознанную сумму и выбранную валюту.",
+    "travelDescription": "Сравнивайте одну сумму сразу в нескольких валютах. Нажмите на валюту, чтобы сделать её базовой.",
+    "storeScope": "В версии Google Play",
+    "shoppingTitle": "От ценника до итога покупок",
+    "shoppingSubtitle": "Проверяйте каждую цену и смотрите общий итог в выбранной валюте.",
+    "cartTitle": "Корзина покупок",
+    "cartParagraphs": [
+      "Добавляйте цены камерой или вручную. Проверяйте сумму и валюту каждого товара, меняйте количество.",
+      "Смотрите стоимость каждого товара и общий итог в выбранной валюте."
+    ],
+    "accessTitle": "Бесплатное использование и дополнения",
+    "accessSummary": "В версии Google Play — 5 бесплатных сканирований в день. Есть реклама, BALCO Points (BP) для дополнительного использования и необязательная подписка BALCO Plus.",
+    "detailsTitle": "Подробнее о лимитах, BP и подписке",
+    "details": [
+      {
+        "label": "Сканер цен",
+        "text": "5 бесплатных завершённых пересчётов в день. Каждое дополнительное обычное сканирование стоит 2 BP."
+      },
+      {
+        "label": "Корзина",
+        "text": "отдельный лимит — 10 бесплатных добавлений в первые 24 часа с первого использования, затем 5 добавлений в день. Ручной ввод и добавления сканером используют один лимит корзины. Каждое дополнительное добавление стоит 1 BP."
+      },
+      {
+        "label": "BALCO Points",
+        "text": "полный просмотр рекламы с вознаграждением приносит 20 BP, когда такая реклама доступна. Пересчёт выделенного текста стоит 1 BP, постоянная разблокировка дополнительной темы — 60 BP за тему."
+      },
+      {
+        "label": "BALCO Plus",
+        "text": "необязательная ежемесячная или годовая подписка с автоматическим продлением. Пока подписка активна, она убирает рекламу и даёт неограниченный доступ к платным функциям, включая добавления в корзину, и всем дополнительным темам. Доступ к темам по подписке действует до её окончания. Управлять подпиской и отменять её можно в Google Play."
+      }
+    ]
+  },
+  "uk": {
+    "heroTitle": "Розумійте ціни за кордоном у своїй валюті",
+    "heroDescription": "Введіть суму або відскануйте цінник і перевірте результат. Раніше завантажені курси валют залишаються доступними без інтернету.",
+    "accessNote": "Google Play: 5 безкоштовних сканувань цін на день, реклама й необов’язкові покупки в застосунку.",
+    "accessLink": "Безкоштовні ліміти, BP і BALCO Plus",
+    "featureSummary": "Перерахунок цін, порівняння витрат на обмін валют і збережені курси для подорожей.",
+    "scannerDescription": "Зчитайте надруковану ціну камерою та переведіть її у звичну валюту. Перед підтвердженням перевірте розпізнану суму й вибрану валюту.",
+    "travelDescription": "Порівняйте одну суму в кількох валютах одночасно. Торкніться валюти, щоб зробити її базовою.",
+    "storeScope": "У версії з Google Play",
+    "shoppingTitle": "Від цінника до загальної суми покупок",
+    "shoppingSubtitle": "Перевірте кожну ціну й перегляньте загальну суму у вибраній валюті.",
+    "cartTitle": "Кошик покупок",
+    "cartParagraphs": [
+      "Додавайте ціни камерою або вводьте їх вручну. Перевірте кожну суму й валюту, а потім за потреби змініть кількість товарів.",
+      "Перегляньте перераховану вартість кожного товару й загальну суму у вибраній валюті."
+    ],
+    "accessTitle": "Безкоштовне користування й додаткові можливості",
+    "accessSummary": "Версія з Google Play включає 5 безкоштовних сканувань цін на день. Вона містить рекламу, BALCO Points (BP) для додаткового користування та необов’язкову підписку BALCO Plus.",
+    "detailsTitle": "Ліміти, BP і подробиці підписки",
+    "details": [
+      {
+        "label": "Сканер цін",
+        "text": "5 безкоштовних завершених конвертацій на день. Кожне додаткове звичайне сканування коштує 2 BP."
+      },
+      {
+        "label": "Кошик покупок",
+        "text": "Окремий ліміт: 10 безкоштовних додавань протягом перших 24 годин від першого використання, потім 5 безкоштовних додавань на день. Додавання вручну й сканером використовують спільний ліміт кошика. Кожен додатковий товар у кошику коштує 1 BP."
+      },
+      {
+        "label": "BALCO Points",
+        "text": "Повний перегляд реклами з винагородою дає 20 BP, якщо реклама доступна. Конвертація вибраного тексту коштує 1 BP; постійне розблокування додаткової теми — 60 BP за тему."
+      },
+      {
+        "label": "BALCO Plus",
+        "text": "Необов’язкова місячна або річна підписка з автоматичним поновленням. Поки вона активна, прибирає рекламу й надає необмежене користування функціями, які зазвичай платні, зокрема додаванням у кошик, а також усі додаткові теми. Доступ до тем за підпискою триває, поки підписка активна. Керуйте нею або скасуйте її в Google Play."
+      }
+    ]
+  },
+  "ar": {
+    "heroTitle": "افهم الأسعار في الخارج بعملتك",
+    "heroDescription": "أدخل مبلغًا أو امسح بطاقة سعر وتحقق من النتيجة. تبقى أسعار الصرف التي نزلتها سابقًا متاحة دون اتصال بالإنترنت.",
+    "accessNote": "Google Play: 5 عمليات مسح أسعار مجانية يوميًا، مع إعلانات ومشتريات اختيارية داخل التطبيق.",
+    "accessLink": "الحدود المجانية وBP وBALCO Plus",
+    "featureSummary": "تحويل الأسعار ومقارنة تكاليف الصرف واستخدام الأسعار المحفوظة في رحلاتك.",
+    "scannerDescription": "اقرأ سعرًا مطبوعًا بالكاميرا وحوّله إلى عملة مألوفة. تحقق من المبلغ المكتشف والعملة المحددة قبل التأكيد.",
+    "travelDescription": "قارن مبلغًا واحدًا بعدة عملات في الوقت نفسه. اضغط على عملة لجعلها العملة الأساسية.",
+    "storeScope": "في إصدار Google Play",
+    "shoppingTitle": "من بطاقة السعر إلى إجمالي مشترياتك",
+    "shoppingSubtitle": "تحقق من كل سعر واطّلع على الإجمالي بالعملة التي تختارها.",
+    "cartTitle": "سلة المشتريات",
+    "cartParagraphs": [
+      "أضف الأسعار بالكاميرا أو أدخلها يدويًا. تحقق من كل مبلغ وعملة، ثم عدّل الكميات حسب الحاجة.",
+      "اطّلع على تكلفة كل سلعة بعد التحويل وعلى الإجمالي بالعملة التي تختارها."
+    ],
+    "accessTitle": "استخدام مجاني وإضافات اختيارية",
+    "accessSummary": "يشمل إصدار Google Play 5 عمليات مسح أسعار مجانية يوميًا. ويتضمن إعلانات وBALCO Points (BP) للاستخدام الإضافي واشتراك BALCO Plus اختياريًا.",
+    "detailsTitle": "تفاصيل الحدود وBP والاشتراك",
+    "details": [
+      {
+        "label": "ماسح الأسعار",
+        "text": "5 عمليات تحويل مكتملة مجانية يوميًا. تكلف كل عملية مسح عادية إضافية 2 BP."
+      },
+      {
+        "label": "سلة المشتريات",
+        "text": "حصة منفصلة من 10 إضافات مجانية خلال أول 24 ساعة من أول استخدام، ثم 5 إضافات مجانية يوميًا. تشترك الإضافات اليدوية وإضافات الماسح في حصة السلة هذه. تكلف كل سلعة إضافية في السلة 1 BP."
+      },
+      {
+        "label": "BALCO Points",
+        "text": "عندما يتوفر إعلان بمكافأة، تمنحك مشاهدته حتى النهاية 20 BP. يكلف تحويل النص المحدد 1 BP، ويكلف الفتح الدائم لمظهر إضافي 60 BP لكل مظهر."
+      },
+      {
+        "label": "BALCO Plus",
+        "text": "اشتراك اختياري شهري أو سنوي يتجدد تلقائيًا. أثناء سريانه، يزيل الإعلانات ويتيح استخدام الميزات المدفوعة بلا حدود، بما فيها إضافات السلة، وجميع المظاهر الإضافية. يستمر الوصول إلى المظاهر عبر الاشتراك ما دام الاشتراك ساريًا. يمكنك إدارته أو إلغاؤه في Google Play."
+      }
+    ]
+  },
+  "he": {
+    "heroTitle": "להבין מחירים בחו״ל במטבע שלכם",
+    "heroDescription": "הזינו סכום או סרקו תג מחיר ובדקו את התוצאה. שערי חליפין שהורדו קודם נשארים זמינים גם ללא חיבור לאינטרנט.",
+    "accessNote": "Google Play: 5 סריקות מחיר בחינם ביום, עם פרסומות ורכישות אופציונליות באפליקציה.",
+    "accessLink": "מכסות חינם, BP ו-BALCO Plus",
+    "featureSummary": "המרת מחירים, השוואת עלויות המרה ושערים שמורים לנסיעות שלכם.",
+    "scannerDescription": "קראו מחיר מודפס באמצעות המצלמה והמירו אותו למטבע מוכר. בדקו את הסכום שזוהה ואת המטבע שנבחר לפני האישור.",
+    "travelDescription": "השוו סכום אחד בכמה מטבעות בו-זמנית. הקישו על מטבע כדי להפוך אותו למטבע הבסיס.",
+    "storeScope": "בגרסת Google Play",
+    "shoppingTitle": "מתג המחיר לסכום הקניות הכולל",
+    "shoppingSubtitle": "בדקו כל מחיר וראו את הסכום הכולל במטבע שבחרתם.",
+    "cartTitle": "סל קניות",
+    "cartParagraphs": [
+      "הוסיפו מחירים באמצעות המצלמה או הזינו אותם ידנית. בדקו כל סכום ומטבע, ואז התאימו את הכמויות לפי הצורך.",
+      "ראו את המחיר המומר של כל פריט ואת הסכום הכולל במטבע שבחרתם."
+    ],
+    "accessTitle": "שימוש חינם ותוספות אופציונליות",
+    "accessSummary": "גרסת Google Play כוללת 5 סריקות מחיר בחינם ביום. יש בה פרסומות, BALCO Points (BP) לשימוש נוסף ומינוי אופציונלי ל-BALCO Plus.",
+    "detailsTitle": "פרטים על המכסות, BP והמינוי",
+    "details": [
+      {
+        "label": "סורק מחירים",
+        "text": "5 המרות שהושלמו בחינם ביום. כל סריקה רגילה נוספת עולה 2 BP."
+      },
+      {
+        "label": "סל קניות",
+        "text": "מכסה נפרדת של 10 הוספות בחינם ב-24 השעות הראשונות מהשימוש הראשון, ולאחר מכן 5 הוספות בחינם ביום. הוספות ידניות והוספות מהסורק חולקות את מכסת הסל הזו. כל פריט נוסף שמוסיפים לסל עולה 1 BP."
+      },
+      {
+        "label": "BALCO Points",
+        "text": "כשזמינה פרסומת עם תגמול, צפייה בה עד הסוף מעניקה 20 BP. המרת טקסט נבחר עולה 1 BP; פתיחה קבועה של ערכת עיצוב נוספת עולה 60 BP לכל ערכה."
+      },
+      {
+        "label": "BALCO Plus",
+        "text": "מינוי חודשי או שנתי אופציונלי שמתחדש אוטומטית. כל עוד הוא פעיל, הוא מסיר פרסומות וכולל שימוש ללא הגבלה בתכונות בתשלום, כולל הוספות לסל, ובכל ערכות העיצוב הנוספות. הגישה לערכות העיצוב דרך המינוי נמשכת רק כל עוד המינוי פעיל. אפשר לנהל או לבטל אותו ב-Google Play."
+      }
+    ]
+  },
+  "fa": {
+    "heroTitle": "قیمت‌های خارج از کشور را با ارز خودتان بسنجید",
+    "heroDescription": "مبلغی وارد کنید یا برچسب قیمت را اسکن کنید و نتیجه را بررسی کنید. نرخ‌های ارزی که قبلاً دانلود کرده‌اید، بدون اینترنت هم در دسترس می‌مانند.",
+    "accessNote": "Google Play: روزانه 5 اسکن رایگان قیمت، همراه با تبلیغات و خریدهای درون‌برنامه‌ای اختیاری.",
+    "accessLink": "سهمیه‌های رایگان، BP و BALCO Plus",
+    "featureSummary": "تبدیل قیمت‌ها، مقایسه هزینه‌های تبدیل ارز و نرخ‌های ذخیره‌شده برای سفرهای شما.",
+    "scannerDescription": "قیمت چاپ‌شده را با دوربین بخوانید و به ارزی آشنا تبدیل کنید. پیش از تأیید، مبلغ شناسایی‌شده و ارز انتخابی را بررسی کنید.",
+    "travelDescription": "یک مبلغ را هم‌زمان در چند ارز مقایسه کنید. روی یک ارز بزنید تا ارز پایه شود.",
+    "storeScope": "در نسخه Google Play",
+    "shoppingTitle": "از برچسب قیمت تا جمع خریدهایتان",
+    "shoppingSubtitle": "هر قیمت را بررسی کنید و جمع خرید را با ارز انتخابی خود ببینید.",
+    "cartTitle": "سبد خرید",
+    "cartParagraphs": [
+      "قیمت‌ها را با دوربین اضافه کنید یا دستی وارد کنید. هر مبلغ و ارز را بررسی کنید، سپس تعداد را در صورت نیاز تغییر دهید.",
+      "هزینه تبدیل‌شده هر کالا و جمع خرید را با ارز انتخابی خود ببینید."
+    ],
+    "accessTitle": "استفاده رایگان و امکانات اختیاری",
+    "accessSummary": "نسخه Google Play روزانه 5 اسکن رایگان قیمت دارد. این نسخه شامل تبلیغات، BALCO Points (BP) برای استفاده بیشتر و اشتراک اختیاری BALCO Plus است.",
+    "detailsTitle": "جزئیات سهمیه‌ها، BP و اشتراک",
+    "details": [
+      {
+        "label": "اسکنر قیمت",
+        "text": "روزانه 5 تبدیل تکمیل‌شده رایگان. هر اسکن عادی اضافه 2 BP هزینه دارد."
+      },
+      {
+        "label": "سبد خرید",
+        "text": "سهمیه‌ای جداگانه شامل 10 افزودن رایگان در 24 ساعت اول از نخستین استفاده، سپس روزانه 5 افزودن رایگان. افزودن دستی و افزودن با اسکنر از همین سهمیه سبد استفاده می‌کنند. افزودن هر کالای اضافه به سبد 1 BP هزینه دارد."
+      },
+      {
+        "label": "BALCO Points",
+        "text": "وقتی تبلیغ پاداش‌دار در دسترس باشد، تماشای کامل آن 20 BP به شما می‌دهد. تبدیل متن انتخاب‌شده 1 BP و باز کردن دائمی هر پوسته اضافه 60 BP هزینه دارد."
+      },
+      {
+        "label": "BALCO Plus",
+        "text": "اشتراک اختیاری ماهانه یا سالانه با تمدید خودکار. تا زمانی که فعال باشد، تبلیغات را حذف می‌کند و استفاده نامحدود از امکانات پولی، از جمله افزودن به سبد، و همه پوسته‌های اضافه را فراهم می‌کند. دسترسی اشتراکی به پوسته‌ها فقط تا زمان فعال بودن اشتراک ادامه دارد. آن را در Google Play مدیریت یا لغو کنید."
+      }
+    ]
+  },
+  "ur": {
+    "heroTitle": "بیرونِ ملک قیمتیں اپنی کرنسی میں سمجھیں",
+    "heroDescription": "رقم درج کریں یا قیمت کا ٹیگ اسکین کریں اور نتیجہ دیکھیں۔ پہلے سے ڈاؤن لوڈ کی گئی شرحِ مبادلہ انٹرنیٹ کے بغیر بھی دستیاب رہتی ہے۔",
+    "accessNote": "Google Play: روزانہ قیمت کے 5 مفت اسکین، اشتہارات اور ایپ کے اندر اختیاری خریداریاں۔",
+    "accessLink": "مفت حدود، BP اور BALCO Plus",
+    "featureSummary": "آپ کے سفر کے لیے قیمتوں کی تبدیلی، کرنسی تبدیل کرنے کے اخراجات کا موازنہ اور محفوظ شرحِ مبادلہ۔",
+    "scannerDescription": "کیمرے سے چھپی ہوئی قیمت پڑھیں اور اسے جانی پہچانی کرنسی میں تبدیل کریں۔ تصدیق سے پہلے شناخت شدہ رقم اور منتخب کرنسی ضرور دیکھیں۔",
+    "travelDescription": "ایک رقم کا بیک وقت کئی کرنسیوں میں موازنہ کریں۔ کسی کرنسی پر ٹیپ کر کے اسے بنیادی کرنسی بنائیں۔",
+    "storeScope": "Google Play کے نسخے میں",
+    "shoppingTitle": "قیمت کے ٹیگ سے خریداری کے کل خرچ تک",
+    "shoppingSubtitle": "ہر قیمت کی جانچ کریں اور اپنی منتخب کرنسی میں کل رقم دیکھیں۔",
+    "cartTitle": "خریداری کی ٹوکری",
+    "cartParagraphs": [
+      "کیمرے سے قیمتیں شامل کریں یا خود درج کریں۔ ہر رقم اور کرنسی کی جانچ کریں، پھر ضرورت کے مطابق تعداد بدلیں۔",
+      "ہر چیز کی تبدیل شدہ قیمت اور اپنی منتخب کرنسی میں کل رقم دیکھیں۔"
+    ],
+    "accessTitle": "مفت استعمال اور اختیاری اضافی سہولتیں",
+    "accessSummary": "Google Play کے نسخے میں روزانہ قیمت کے 5 مفت اسکین شامل ہیں۔ اس میں اشتہارات، اضافی استعمال کے لیے BALCO Points (BP) اور اختیاری BALCO Plus سبسکرپشن موجود ہے۔",
+    "detailsTitle": "حدود، BP اور سبسکرپشن کی تفصیلات",
+    "details": [
+      {
+        "label": "قیمت کا اسکینر",
+        "text": "روزانہ 5 مکمل تبدیلیاں مفت ہیں۔ ہر اضافی عام اسکین کی لاگت 2 BP ہے۔"
+      },
+      {
+        "label": "خریداری کی ٹوکری",
+        "text": "الگ سہولت کے تحت پہلی بار استعمال کے بعد ابتدائی 24 گھنٹوں میں 10 چیزیں مفت شامل کریں، پھر روزانہ 5 چیزیں مفت شامل کریں۔ خود درج کی گئی اور اسکینر سے شامل کی گئی چیزیں ٹوکری کی اسی حد میں شمار ہوتی ہیں۔ ٹوکری میں ہر اضافی چیز شامل کرنے کی لاگت 1 BP ہے۔"
+      },
+      {
+        "label": "BALCO Points",
+        "text": "جب انعامی اشتہار دستیاب ہو، تو اسے مکمل دیکھنے پر 20 BP ملتے ہیں۔ منتخب متن کی تبدیلی کی لاگت 1 BP ہے؛ ہر اضافی تھیم کو مستقل کھولنے کی لاگت 60 BP ہے۔"
+      },
+      {
+        "label": "BALCO Plus",
+        "text": "اختیاری ماہانہ یا سالانہ سبسکرپشن جو خودکار طور پر تجدید ہوتی ہے۔ فعال رہنے کے دوران یہ اشتہارات ہٹاتی ہے اور بامعاوضہ سہولتوں، بشمول ٹوکری میں چیزیں شامل کرنے، کا لامحدود استعمال اور تمام اضافی تھیمز فراہم کرتی ہے۔ سبسکرپشن کے ذریعے تھیمز تک رسائی صرف اس کے فعال رہنے تک ہوتی ہے۔ اسے Google Play میں منظم یا منسوخ کریں۔"
+      }
+    ]
+  },
+  "hi": {
+    "heroTitle": "विदेश की कीमतें अपनी मुद्रा में समझें",
+    "heroDescription": "राशि डालें या कीमत का टैग स्कैन करें और नतीजा जाँचें। पहले डाउनलोड की गई विनिमय दरें इंटरनेट के बिना भी उपलब्ध रहती हैं।",
+    "accessNote": "Google Play: हर दिन कीमत के 5 मुफ़्त स्कैन, विज्ञापन और वैकल्पिक इन-ऐप खरीदारी।",
+    "accessLink": "मुफ़्त सीमाएँ, BP और BALCO Plus",
+    "featureSummary": "यात्रा के लिए कीमतों का रूपांतरण, मुद्रा बदलने की लागत की तुलना और सहेजी गई दरें।",
+    "scannerDescription": "कैमरे से छपी हुई कीमत पढ़ें और उसे अपनी परिचित मुद्रा में बदलें। पुष्टि करने से पहले पहचानी गई राशि और चुनी गई मुद्रा जाँचें।",
+    "travelDescription": "एक ही राशि की कई मुद्राओं में एक साथ तुलना करें। किसी मुद्रा को आधार मुद्रा बनाने के लिए उस पर टैप करें।",
+    "storeScope": "Google Play संस्करण में",
+    "shoppingTitle": "कीमत के टैग से खरीदारी के कुल खर्च तक",
+    "shoppingSubtitle": "हर कीमत जाँचें और अपनी चुनी हुई मुद्रा में कुल खर्च देखें।",
+    "cartTitle": "खरीदारी की टोकरी",
+    "cartParagraphs": [
+      "कैमरे से कीमतें जोड़ें या खुद दर्ज करें। हर राशि और मुद्रा जाँचें, फिर ज़रूरत के अनुसार मात्रा बदलें।",
+      "हर वस्तु की बदली हुई कीमत और अपनी चुनी हुई मुद्रा में कुल खर्च देखें।"
+    ],
+    "accessTitle": "मुफ़्त इस्तेमाल और वैकल्पिक अतिरिक्त सुविधाएँ",
+    "accessSummary": "Google Play संस्करण में हर दिन कीमत के 5 मुफ़्त स्कैन मिलते हैं। इसमें विज्ञापन, अतिरिक्त इस्तेमाल के लिए BALCO Points (BP) और वैकल्पिक BALCO Plus सदस्यता है।",
+    "detailsTitle": "सीमाओं, BP और सदस्यता की जानकारी",
+    "details": [
+      {
+        "label": "कीमत स्कैनर",
+        "text": "हर दिन 5 पूरे किए गए रूपांतरण मुफ़्त। हर अतिरिक्त सामान्य स्कैन की लागत 2 BP है।"
+      },
+      {
+        "label": "खरीदारी की टोकरी",
+        "text": "अलग सीमा के तहत पहली बार इस्तेमाल से शुरुआती 24 घंटों में 10 बार मुफ़्त वस्तु जोड़ें, फिर हर दिन 5 बार मुफ़्त जोड़ें। खुद दर्ज की गई और स्कैनर से जोड़ी गई वस्तुएँ टोकरी की इसी सीमा में गिनी जाती हैं। टोकरी में हर अतिरिक्त वस्तु जोड़ने की लागत 1 BP है।"
+      },
+      {
+        "label": "BALCO Points",
+        "text": "इनाम वाला विज्ञापन उपलब्ध होने पर उसे पूरा देखने से 20 BP मिलते हैं। चुने हुए टेक्स्ट के रूपांतरण की लागत 1 BP है; हर अतिरिक्त थीम को स्थायी रूप से अनलॉक करने की लागत 60 BP है।"
+      },
+      {
+        "label": "BALCO Plus",
+        "text": "वैकल्पिक मासिक या वार्षिक सदस्यता, जो अपने-आप नवीनीकृत होती है। सक्रिय रहने पर यह विज्ञापन हटाती है और टोकरी में वस्तुएँ जोड़ने सहित सशुल्क सुविधाओं का असीमित इस्तेमाल तथा सभी अतिरिक्त थीम देती है। सदस्यता से मिली थीम की पहुँच सदस्यता सक्रिय रहने तक ही रहती है। इसे Google Play में प्रबंधित या रद्द करें।"
+      }
+    ]
+  },
+  "bn": {
+    "heroTitle": "বিদেশের দাম নিজের মুদ্রায় বুঝুন",
+    "heroDescription": "একটি পরিমাণ লিখুন বা দামের ট্যাগ স্ক্যান করে ফলাফল যাচাই করুন। আগে ডাউনলোড করা বিনিময় হার ইন্টারনেট ছাড়াও ব্যবহার করা যায়।",
+    "accessNote": "Google Play: প্রতিদিন 5টি বিনামূল্যের দাম স্ক্যান, বিজ্ঞাপন ও অ্যাপের মধ্যে ঐচ্ছিক কেনাকাটা।",
+    "accessLink": "বিনামূল্যের সীমা, BP ও BALCO Plus",
+    "featureSummary": "ভ্রমণের জন্য দাম রূপান্তর, মুদ্রা বদলের খরচ তুলনা ও সংরক্ষিত বিনিময় হার।",
+    "scannerDescription": "ক্যামেরায় ছাপা দাম পড়ুন এবং পরিচিত মুদ্রায় রূপান্তর করুন। নিশ্চিত করার আগে শনাক্ত করা পরিমাণ ও নির্বাচিত মুদ্রা যাচাই করুন।",
+    "travelDescription": "একই পরিমাণ একসঙ্গে একাধিক মুদ্রায় তুলনা করুন। কোনো মুদ্রাকে মূল মুদ্রা করতে সেটিতে ট্যাপ করুন।",
+    "storeScope": "Google Play সংস্করণে",
+    "shoppingTitle": "দামের ট্যাগ থেকে কেনাকাটার মোট খরচ",
+    "shoppingSubtitle": "প্রতিটি দাম যাচাই করুন এবং পছন্দের মুদ্রায় মোট খরচ দেখুন।",
+    "cartTitle": "কেনাকাটার ঝুড়ি",
+    "cartParagraphs": [
+      "ক্যামেরা দিয়ে দাম যোগ করুন বা নিজে লিখুন। প্রতিটি পরিমাণ ও মুদ্রা যাচাই করে প্রয়োজনমতো পণ্যের সংখ্যা বদলান।",
+      "প্রতিটি পণ্যের রূপান্তরিত দাম এবং পছন্দের মুদ্রায় মোট খরচ দেখুন।"
+    ],
+    "accessTitle": "বিনামূল্যে ব্যবহার ও ঐচ্ছিক বাড়তি সুবিধা",
+    "accessSummary": "Google Play সংস্করণে প্রতিদিন 5টি বিনামূল্যের দাম স্ক্যান পাওয়া যায়। এতে বিজ্ঞাপন, বাড়তি ব্যবহারের জন্য BALCO Points (BP) এবং ঐচ্ছিক BALCO Plus সাবস্ক্রিপশন রয়েছে।",
+    "detailsTitle": "সীমা, BP ও সাবস্ক্রিপশনের বিস্তারিত",
+    "details": [
+      {
+        "label": "দাম স্ক্যানার",
+        "text": "প্রতিদিন 5টি সম্পন্ন রূপান্তর বিনামূল্যে। প্রতিটি অতিরিক্ত সাধারণ স্ক্যানের খরচ 2 BP।"
+      },
+      {
+        "label": "কেনাকাটার ঝুড়ি",
+        "text": "আলাদা সীমার আওতায় প্রথম ব্যবহারের পর প্রথম 24 ঘণ্টায় 10 বার বিনামূল্যে পণ্য যোগ করা যায়, এরপর প্রতিদিন 5 বার। নিজে লিখে ও স্ক্যানার দিয়ে যোগ করা পণ্য ঝুড়ির এই একই সীমায় গণনা হয়। ঝুড়িতে প্রতিটি অতিরিক্ত পণ্য যোগ করার খরচ 1 BP।"
+      },
+      {
+        "label": "BALCO Points",
+        "text": "পুরস্কারযুক্ত বিজ্ঞাপন উপলভ্য থাকলে সেটি পুরো দেখলে 20 BP পাওয়া যায়। নির্বাচিত লেখা রূপান্তরের খরচ 1 BP; প্রতিটি বাড়তি থিম স্থায়ীভাবে আনলক করার খরচ 60 BP।"
+      },
+      {
+        "label": "BALCO Plus",
+        "text": "ঐচ্ছিক মাসিক বা বার্ষিক সাবস্ক্রিপশন, যা স্বয়ংক্রিয়ভাবে নবায়ন হয়। সক্রিয় থাকলে এটি বিজ্ঞাপন সরায় এবং ঝুড়িতে পণ্য যোগ করাসহ অর্থের বিনিময়ে পাওয়া সুবিধাগুলোর সীমাহীন ব্যবহার ও সব বাড়তি থিম দেয়। সাবস্ক্রিপশনের মাধ্যমে থিম ব্যবহারের সুযোগ শুধু সাবস্ক্রিপশন সক্রিয় থাকা পর্যন্ত থাকে। Google Play-তে এটি পরিচালনা বা বাতিল করুন।"
+      }
+    ]
+  },
+  "id": {
+    "heroTitle": "Pahami harga di luar negeri dalam mata uang Anda",
+    "heroDescription": "Masukkan jumlah atau pindai label harga, lalu periksa hasilnya. Kurs yang sudah diunduh tetap tersedia tanpa internet.",
+    "accessNote": "Google Play: 5 pemindaian harga gratis per hari, dengan iklan dan pembelian opsional dalam aplikasi.",
+    "accessLink": "Batas gratis, BP, dan BALCO Plus",
+    "featureSummary": "Konversi harga, perbandingan biaya penukaran, dan kurs tersimpan untuk perjalanan Anda.",
+    "scannerDescription": "Baca harga tercetak dengan kamera dan konversikan ke mata uang yang Anda kenal. Periksa jumlah yang terdeteksi dan mata uang pilihan sebelum mengonfirmasi.",
+    "travelDescription": "Bandingkan satu jumlah dalam beberapa mata uang sekaligus. Ketuk mata uang untuk menjadikannya mata uang dasar.",
+    "storeScope": "Dalam versi Google Play",
+    "shoppingTitle": "Dari label harga ke total belanja",
+    "shoppingSubtitle": "Periksa setiap harga dan lihat totalnya dalam mata uang pilihan Anda.",
+    "cartTitle": "Keranjang belanja",
+    "cartParagraphs": [
+      "Tambahkan harga dengan kamera atau masukkan secara manual. Periksa setiap jumlah dan mata uang, lalu sesuaikan jumlah barang jika perlu.",
+      "Lihat harga hasil konversi setiap barang dan totalnya dalam mata uang pilihan Anda."
+    ],
+    "accessTitle": "Penggunaan gratis dan tambahan opsional",
+    "accessSummary": "Versi Google Play mencakup 5 pemindaian harga gratis per hari. Ada iklan, BALCO Points (BP) untuk penggunaan tambahan, dan langganan BALCO Plus opsional.",
+    "detailsTitle": "Rincian batas, BP, dan langganan",
+    "details": [
+      {
+        "label": "Pemindai harga",
+        "text": "5 konversi yang diselesaikan gratis per hari. Setiap pemindaian biasa tambahan berbiaya 2 BP."
+      },
+      {
+        "label": "Keranjang belanja",
+        "text": "Kuota terpisah berupa 10 penambahan gratis selama 24 jam pertama sejak penggunaan pertama, lalu 5 penambahan gratis per hari. Penambahan manual dan melalui pemindai berbagi kuota keranjang ini. Setiap barang tambahan yang dimasukkan ke keranjang berbiaya 1 BP."
+      },
+      {
+        "label": "BALCO Points",
+        "text": "Menonton iklan berhadiah hingga selesai memberi 20 BP jika iklan tersedia. Konversi teks yang dipilih berbiaya 1 BP; membuka tema tambahan secara permanen berbiaya 60 BP per tema."
+      },
+      {
+        "label": "BALCO Plus",
+        "text": "Langganan opsional bulanan atau tahunan yang diperpanjang otomatis. Selama aktif, langganan menghapus iklan dan mencakup penggunaan fitur berbayar tanpa batas, termasuk penambahan ke keranjang, serta semua tema tambahan. Akses tema melalui langganan berlaku selama langganan aktif. Kelola atau batalkan di Google Play."
+      }
+    ]
+  },
+  "ms": {
+    "heroTitle": "Fahami harga di luar negara dalam mata wang anda",
+    "heroDescription": "Masukkan amaun atau imbas tanda harga dan semak hasilnya. Kadar pertukaran yang telah dimuat turun kekal tersedia tanpa internet.",
+    "accessNote": "Google Play: 5 imbasan harga percuma sehari, dengan iklan dan pembelian dalam aplikasi secara pilihan.",
+    "accessLink": "Had percuma, BP dan BALCO Plus",
+    "featureSummary": "Penukaran harga, perbandingan kos pertukaran dan kadar tersimpan untuk perjalanan anda.",
+    "scannerDescription": "Baca harga bercetak dengan kamera dan tukarkannya kepada mata wang yang anda kenali. Semak amaun yang dikesan dan mata wang yang dipilih sebelum mengesahkan.",
+    "travelDescription": "Bandingkan satu amaun dalam beberapa mata wang serentak. Ketik mata wang untuk menjadikannya mata wang asas.",
+    "storeScope": "Dalam versi Google Play",
+    "shoppingTitle": "Daripada tanda harga kepada jumlah belian anda",
+    "shoppingSubtitle": "Semak setiap harga dan lihat jumlahnya dalam mata wang pilihan anda.",
+    "cartTitle": "Troli beli-belah",
+    "cartParagraphs": [
+      "Tambah harga menggunakan kamera atau masukkannya secara manual. Semak setiap amaun dan mata wang, kemudian laraskan kuantiti mengikut keperluan.",
+      "Lihat kos setiap barang selepas penukaran dan jumlahnya dalam mata wang pilihan anda."
+    ],
+    "accessTitle": "Penggunaan percuma dan tambahan pilihan",
+    "accessSummary": "Versi Google Play merangkumi 5 imbasan harga percuma sehari. Ia mempunyai iklan, BALCO Points (BP) untuk penggunaan tambahan dan langganan BALCO Plus secara pilihan.",
+    "detailsTitle": "Butiran had, BP dan langganan",
+    "details": [
+      {
+        "label": "Pengimbas harga",
+        "text": "5 penukaran yang diselesaikan secara percuma sehari. Setiap imbasan biasa tambahan berharga 2 BP."
+      },
+      {
+        "label": "Troli beli-belah",
+        "text": "Kuota berasingan sebanyak 10 penambahan percuma dalam 24 jam pertama sejak penggunaan pertama, kemudian 5 penambahan percuma sehari. Penambahan manual dan melalui pengimbas berkongsi kuota troli ini. Setiap barang tambahan yang dimasukkan ke troli berharga 1 BP."
+      },
+      {
+        "label": "BALCO Points",
+        "text": "Menonton iklan ganjaran hingga selesai memberikan 20 BP apabila iklan tersedia. Penukaran teks yang dipilih berharga 1 BP; membuka tema tambahan secara kekal berharga 60 BP bagi setiap tema."
+      },
+      {
+        "label": "BALCO Plus",
+        "text": "Langganan bulanan atau tahunan secara pilihan yang diperbaharui secara automatik. Semasa aktif, langganan membuang iklan dan merangkumi penggunaan ciri berbayar tanpa had, termasuk penambahan ke troli, serta semua tema tambahan. Akses kepada tema melalui langganan kekal selagi langganan aktif. Urus atau batalkannya dalam Google Play."
+      }
+    ]
+  },
+  "th": {
+    "heroTitle": "เข้าใจราคาต่างประเทศในสกุลเงินของคุณ",
+    "heroDescription": "กรอกจำนวนเงินหรือสแกนป้ายราคา แล้วตรวจสอบผลลัพธ์ อัตราแลกเปลี่ยนที่ดาวน์โหลดไว้ก่อนหน้ายังคงใช้ได้แม้ไม่มีอินเทอร์เน็ต",
+    "accessNote": "Google Play: สแกนราคาฟรี 5 ครั้งต่อวัน มีโฆษณาและการซื้อในแอปแบบเลือกได้",
+    "accessLink": "สิทธิ์ใช้งานฟรี BP และ BALCO Plus",
+    "featureSummary": "แปลงราคา เปรียบเทียบค่าใช้จ่ายในการแลกเงิน และใช้อัตราที่บันทึกไว้ระหว่างเดินทาง",
+    "scannerDescription": "ใช้กล้องอ่านราคาที่พิมพ์ไว้แล้วแปลงเป็นสกุลเงินที่คุ้นเคย ตรวจสอบจำนวนเงินที่ตรวจพบและสกุลเงินที่เลือกก่อนยืนยัน",
+    "travelDescription": "เปรียบเทียบจำนวนเงินเดียวกันในหลายสกุลเงินพร้อมกัน แตะสกุลเงินเพื่อใช้เป็นสกุลเงินหลัก",
+    "storeScope": "ในเวอร์ชัน Google Play",
+    "shoppingTitle": "จากป้ายราคาสู่ยอดซื้อรวม",
+    "shoppingSubtitle": "ตรวจสอบแต่ละราคาและดูยอดรวมในสกุลเงินที่คุณเลือก",
+    "cartTitle": "ตะกร้าสินค้า",
+    "cartParagraphs": [
+      "เพิ่มราคาด้วยกล้องหรือกรอกเอง ตรวจสอบจำนวนเงินและสกุลเงินของแต่ละรายการ แล้วปรับจำนวนสินค้าตามต้องการ",
+      "ดูราคาหลังแปลงของสินค้าแต่ละรายการและยอดรวมในสกุลเงินที่คุณเลือก"
+    ],
+    "accessTitle": "ใช้งานฟรีและตัวเลือกเสริม",
+    "accessSummary": "เวอร์ชัน Google Play ให้สแกนราคาฟรี 5 ครั้งต่อวัน มีโฆษณา BALCO Points (BP) สำหรับใช้งานเพิ่มเติม และการสมัคร BALCO Plus แบบเลือกได้",
+    "detailsTitle": "รายละเอียดสิทธิ์ใช้งาน BP และการสมัครสมาชิก",
+    "details": [
+      {
+        "label": "เครื่องสแกนราคา",
+        "text": "แปลงราคาจนเสร็จฟรี 5 ครั้งต่อวัน การสแกนปกติแต่ละครั้งที่เกินสิทธิ์ใช้ 2 BP"
+      },
+      {
+        "label": "ตะกร้าสินค้า",
+        "text": "มีสิทธิ์แยกต่างหากให้เพิ่มสินค้าฟรี 10 ครั้งใน 24 ชั่วโมงแรกนับจากการใช้งานครั้งแรก จากนั้นเพิ่มฟรี 5 ครั้งต่อวัน การกรอกเองและการเพิ่มด้วยเครื่องสแกนใช้สิทธิ์ตะกร้าร่วมกัน การเพิ่มสินค้าแต่ละรายการที่เกินสิทธิ์ใช้ 1 BP"
+      },
+      {
+        "label": "BALCO Points",
+        "text": "เมื่อมีโฆษณาแบบให้รางวัล การดูจนจบจะได้รับ 20 BP การแปลงข้อความที่เลือกใช้ 1 BP และการปลดล็อกธีมเพิ่มเติมแบบถาวรใช้ 60 BP ต่อธีม"
+      },
+      {
+        "label": "BALCO Plus",
+        "text": "การสมัครสมาชิกรายเดือนหรือรายปีแบบเลือกได้และต่ออายุอัตโนมัติ ระหว่างที่สมาชิกยังมีผล จะไม่มีโฆษณา ใช้ฟีเจอร์แบบเสียค่าใช้จ่ายได้ไม่จำกัด รวมถึงการเพิ่มสินค้าในตะกร้า และใช้ธีมเพิ่มเติมทั้งหมดได้ สิทธิ์ใช้ธีมจากการสมัครสมาชิกมีเฉพาะช่วงที่สมาชิกยังมีผล จัดการหรือยกเลิกได้ใน Google Play"
+      }
+    ]
+  },
+  "vi": {
+    "heroTitle": "Hiểu giá ở nước ngoài bằng đồng tiền của bạn",
+    "heroDescription": "Nhập số tiền hoặc quét nhãn giá rồi kiểm tra kết quả. Tỷ giá đã tải xuống vẫn dùng được khi không có mạng.",
+    "accessNote": "Google Play: 5 lượt quét giá miễn phí mỗi ngày, có quảng cáo và mua hàng tùy chọn trong ứng dụng.",
+    "accessLink": "Hạn mức miễn phí, BP và BALCO Plus",
+    "featureSummary": "Quy đổi giá, so sánh chi phí đổi tiền và dùng tỷ giá đã lưu cho chuyến đi của bạn.",
+    "scannerDescription": "Dùng máy ảnh đọc giá in sẵn và quy đổi sang đồng tiền quen thuộc. Kiểm tra số tiền nhận diện được và loại tiền đã chọn trước khi xác nhận.",
+    "travelDescription": "So sánh cùng một số tiền bằng nhiều loại tiền cùng lúc. Chạm vào một loại tiền để chọn làm tiền cơ sở.",
+    "storeScope": "Trong phiên bản Google Play",
+    "shoppingTitle": "Từ nhãn giá đến tổng tiền mua sắm",
+    "shoppingSubtitle": "Kiểm tra từng mức giá và xem tổng tiền theo loại tiền bạn chọn.",
+    "cartTitle": "Giỏ hàng",
+    "cartParagraphs": [
+      "Thêm giá bằng máy ảnh hoặc nhập thủ công. Kiểm tra từng số tiền và loại tiền, rồi điều chỉnh số lượng khi cần.",
+      "Xem giá đã quy đổi của từng món và tổng tiền theo loại tiền bạn chọn."
+    ],
+    "accessTitle": "Sử dụng miễn phí và tùy chọn bổ sung",
+    "accessSummary": "Phiên bản Google Play có 5 lượt quét giá miễn phí mỗi ngày. Phiên bản này có quảng cáo, BALCO Points (BP) để dùng thêm và gói đăng ký BALCO Plus tùy chọn.",
+    "detailsTitle": "Chi tiết hạn mức, BP và gói đăng ký",
+    "details": [
+      {
+        "label": "Quét giá",
+        "text": "5 lượt quy đổi hoàn tất miễn phí mỗi ngày. Mỗi lượt quét thông thường vượt hạn mức tốn 2 BP."
+      },
+      {
+        "label": "Giỏ hàng",
+        "text": "Hạn mức riêng gồm 10 lượt thêm miễn phí trong 24 giờ đầu kể từ lần sử dụng đầu tiên, sau đó là 5 lượt thêm miễn phí mỗi ngày. Thêm thủ công và thêm bằng trình quét dùng chung hạn mức giỏ hàng này. Mỗi món thêm vào giỏ vượt hạn mức tốn 1 BP."
+      },
+      {
+        "label": "BALCO Points",
+        "text": "Khi có quảng cáo nhận thưởng, xem hết quảng cáo sẽ nhận được 20 BP. Quy đổi văn bản đã chọn tốn 1 BP; mở khóa vĩnh viễn giao diện bổ sung tốn 60 BP cho mỗi giao diện."
+      },
+      {
+        "label": "BALCO Plus",
+        "text": "Gói đăng ký tháng hoặc năm tùy chọn, tự động gia hạn. Khi còn hiệu lực, gói loại bỏ quảng cáo và cho phép dùng không giới hạn các tính năng trả phí, bao gồm thêm vào giỏ hàng, cùng mọi giao diện bổ sung. Quyền dùng giao diện qua gói đăng ký chỉ kéo dài khi gói còn hiệu lực. Quản lý hoặc hủy trong Google Play."
+      }
+    ]
+  },
+  "zh-Hans": {
+    "heroTitle": "用自己的货币看懂国外价格",
+    "heroDescription": "输入金额或扫描价签，然后核对结果。之前下载的汇率在离线时仍可使用。",
+    "accessNote": "Google Play：每天免费扫描价格5次，含广告和可选的应用内购买。",
+    "accessLink": "免费额度、BP与BALCO Plus",
+    "featureSummary": "为旅行提供价格换算、换汇成本比较和已保存的汇率。",
+    "scannerDescription": "用相机读取印刷价格，并换算为熟悉的货币。确认前，请核对识别出的金额和所选货币。",
+    "travelDescription": "同时比较同一金额在多种货币中的数值。点按某种货币即可将其设为基准货币。",
+    "storeScope": "Google Play版本提供",
+    "shoppingTitle": "从价签到购物总额",
+    "shoppingSubtitle": "核对每项价格，并以所选货币查看总额。",
+    "cartTitle": "购物车",
+    "cartParagraphs": [
+      "用相机添加价格或手动输入。核对每项金额和货币，再按需调整数量。",
+      "查看每件商品换算后的价格，以及以所选货币计算的总额。"
+    ],
+    "accessTitle": "免费使用与可选附加功能",
+    "accessSummary": "Google Play版本每天提供5次免费价格扫描，含广告，并提供用于额外使用的BALCO Points（BP）和可选的BALCO Plus订阅。",
+    "detailsTitle": "额度、BP和订阅详情",
+    "details": [
+      {
+        "label": "价格扫描器",
+        "text": "每天可免费完成5次换算。每次额外的普通扫描需2 BP。"
+      },
+      {
+        "label": "购物车",
+        "text": "购物车有独立额度：首次使用起的前24小时内可免费添加10次，之后每天可免费添加5次。手动添加与扫描添加共用这一购物车额度。超出额度后，每添加一件商品需1 BP。"
+      },
+      {
+        "label": "BALCO Points",
+        "text": "有奖励广告可看时，完整观看可获得20 BP。换算所选文本需1 BP；永久解锁额外主题需每个主题60 BP。"
+      },
+      {
+        "label": "BALCO Plus",
+        "text": "可选的按月或按年自动续订订阅。订阅有效期间可去除广告，无限使用付费功能（包括添加购物车商品），并使用所有额外主题。通过订阅获得的主题使用权仅在订阅有效期间保留。可在Google Play中管理或取消订阅。"
+      }
+    ]
+  },
+  "zh-Hant": {
+    "heroTitle": "用自己的貨幣看懂國外價格",
+    "heroDescription": "輸入金額或掃描價標，再核對結果。先前下載的匯率在離線時仍可使用。",
+    "accessNote": "Google Play：每天免費掃描價格5次，含廣告及可選的應用程式內購買。",
+    "accessLink": "免費額度、BP與BALCO Plus",
+    "featureSummary": "為旅程提供價格換算、換匯成本比較及已儲存的匯率。",
+    "scannerDescription": "用相機讀取印刷價格，並換算為熟悉的貨幣。確認前，請核對辨識出的金額和所選貨幣。",
+    "travelDescription": "同時比較同一金額在多種貨幣中的數值。點一下某種貨幣，即可將它設為基準貨幣。",
+    "storeScope": "Google Play版本提供",
+    "shoppingTitle": "從價標到購物總額",
+    "shoppingSubtitle": "核對每項價格，並以所選貨幣查看總額。",
+    "cartTitle": "購物車",
+    "cartParagraphs": [
+      "用相機新增價格或手動輸入。核對每項金額和貨幣，再依需要調整數量。",
+      "查看每件商品換算後的價格，以及以所選貨幣計算的總額。"
+    ],
+    "accessTitle": "免費使用與可選附加功能",
+    "accessSummary": "Google Play版本每天提供5次免費價格掃描，含廣告，並提供用於額外使用的BALCO Points（BP）及可選的BALCO Plus訂閱。",
+    "detailsTitle": "額度、BP及訂閱詳情",
+    "details": [
+      {
+        "label": "價格掃描器",
+        "text": "每天可免費完成5次換算。每次額外的一般掃描需2 BP。"
+      },
+      {
+        "label": "購物車",
+        "text": "購物車有獨立額度：首次使用起的前24小時內可免費新增10次，之後每天可免費新增5次。手動新增與掃描新增共用這項購物車額度。超出額度後，每新增一件商品需1 BP。"
+      },
+      {
+        "label": "BALCO Points",
+        "text": "有獎勵廣告可看時，完整觀看可獲得20 BP。換算所選文字需1 BP；永久解鎖額外主題需每個主題60 BP。"
+      },
+      {
+        "label": "BALCO Plus",
+        "text": "可選的按月或按年自動續訂訂閱。訂閱有效期間可移除廣告，無限使用付費功能（包括新增購物車商品），並使用所有額外主題。透過訂閱取得的主題使用權僅在訂閱有效期間保留。可在Google Play中管理或取消訂閱。"
+      }
+    ]
+  },
+  "ja": {
+    "heroTitle": "海外の価格を、いつもの通貨で把握",
+    "heroDescription": "金額を入力するか値札をスキャンして、結果を確認できます。ダウンロード済みの為替レートはオフラインでも使えます。",
+    "accessNote": "Google Play：価格スキャンは1日5回無料。広告と任意のアプリ内購入があります。",
+    "accessLink": "無料枠、BP、BALCO Plusについて",
+    "featureSummary": "旅行に役立つ価格換算、両替コストの比較、保存済みレート。",
+    "scannerDescription": "カメラで印刷された価格を読み取り、使い慣れた通貨に換算します。確定する前に、認識された金額と選択した通貨を確認してください。",
+    "travelDescription": "同じ金額を複数の通貨で同時に比較できます。通貨をタップすると基準通貨に切り替わります。",
+    "storeScope": "Google Play版の機能",
+    "shoppingTitle": "値札から買い物の合計金額まで",
+    "shoppingSubtitle": "それぞれの価格を確認し、選んだ通貨で合計を把握できます。",
+    "cartTitle": "買い物かご",
+    "cartParagraphs": [
+      "カメラで価格を追加するか、手入力できます。各金額と通貨を確認し、必要に応じて数量を調整してください。",
+      "各商品の換算後の価格と、選んだ通貨での合計を確認できます。"
+    ],
+    "accessTitle": "無料利用と任意の追加機能",
+    "accessSummary": "Google Play版では価格スキャンが1日5回無料です。広告が表示され、追加利用向けのBALCO Points（BP）と、任意のBALCO Plus定期購入があります。",
+    "detailsTitle": "利用枠、BP、定期購入の詳細",
+    "details": [
+      {
+        "label": "価格スキャナー",
+        "text": "換算の完了が1日5回まで無料です。無料枠を超える通常のスキャンは1回2 BPです。"
+      },
+      {
+        "label": "買い物かご",
+        "text": "独立した無料枠があり、初回利用から最初の24時間は10回、その後は1日5回まで無料で追加できます。手入力とスキャナーからの追加は、この買い物かごの無料枠を共有します。枠を超える商品の追加は1件1 BPです。"
+      },
+      {
+        "label": "BALCO Points",
+        "text": "リワード広告が利用可能な場合、最後まで視聴すると20 BPを獲得できます。選択したテキストの換算は1 BP、追加テーマの永久解除はテーマごとに60 BPです。"
+      },
+      {
+        "label": "BALCO Plus",
+        "text": "任意の月額または年額の自動更新定期購入です。有効期間中は広告が非表示になり、買い物かごへの追加を含む有料機能を無制限に利用でき、すべての追加テーマも使えます。定期購入によるテーマの利用は、定期購入が有効な間に限られます。Google Playで管理または解約できます。"
+      }
+    ]
+  },
+  "ko": {
+    "heroTitle": "해외 가격을 익숙한 통화로 알아보세요",
+    "heroDescription": "금액을 입력하거나 가격표를 스캔한 뒤 결과를 확인하세요. 미리 내려받은 환율은 인터넷 없이도 사용할 수 있습니다.",
+    "accessNote": "Google Play: 하루 5회 무료 가격 스캔, 광고 및 선택적 인앱 구매가 제공됩니다.",
+    "accessLink": "무료 한도, BP 및 BALCO Plus",
+    "featureSummary": "여행에 필요한 가격 환산, 환전 비용 비교, 저장된 환율을 제공합니다.",
+    "scannerDescription": "카메라로 인쇄된 가격을 읽고 익숙한 통화로 환산하세요. 확정하기 전에 인식된 금액과 선택한 통화를 확인하세요.",
+    "travelDescription": "같은 금액을 여러 통화로 한 번에 비교하세요. 통화를 누르면 기준 통화로 설정됩니다.",
+    "storeScope": "Google Play 버전에서 제공",
+    "shoppingTitle": "가격표부터 장보기 총액까지",
+    "shoppingSubtitle": "각 가격을 확인하고 선택한 통화로 총액을 확인하세요.",
+    "cartTitle": "장바구니",
+    "cartParagraphs": [
+      "카메라로 가격을 추가하거나 직접 입력하세요. 각 금액과 통화를 확인한 뒤 필요에 따라 수량을 조절하세요.",
+      "각 상품의 환산 가격과 선택한 통화로 계산된 총액을 확인하세요."
+    ],
+    "accessTitle": "무료 이용과 선택적 추가 기능",
+    "accessSummary": "Google Play 버전은 하루 5회 무료 가격 스캔을 제공합니다. 광고가 포함되어 있으며, 추가 이용을 위한 BALCO Points(BP)와 선택적 BALCO Plus 구독이 있습니다.",
+    "detailsTitle": "한도, BP 및 구독 안내",
+    "details": [
+      {
+        "label": "가격 스캐너",
+        "text": "하루 5회까지 완료된 환산이 무료입니다. 한도를 넘는 일반 스캔은 회당 2 BP입니다."
+      },
+      {
+        "label": "장바구니",
+        "text": "별도 한도로 첫 사용부터 처음 24시간 동안 10회 무료 추가가 가능하며, 이후에는 하루 5회 무료로 추가할 수 있습니다. 직접 입력과 스캐너를 통한 추가는 이 장바구니 한도를 함께 사용합니다. 한도를 넘는 장바구니 상품 추가는 건당 1 BP입니다."
+      },
+      {
+        "label": "BALCO Points",
+        "text": "보상형 광고가 있을 때 끝까지 시청하면 20 BP를 받습니다. 선택한 텍스트 환산은 1 BP이며, 추가 테마 영구 잠금 해제는 테마당 60 BP입니다."
+      },
+      {
+        "label": "BALCO Plus",
+        "text": "선택적 월간 또는 연간 자동 갱신 구독입니다. 구독이 활성화된 동안 광고가 제거되고 장바구니 추가를 포함한 유료 기능을 무제한으로 이용하며 모든 추가 테마를 사용할 수 있습니다. 구독으로 제공되는 테마 이용 권한은 구독이 활성화된 동안 유지됩니다. Google Play에서 관리하거나 취소할 수 있습니다."
+      }
+    ]
+  }
+}

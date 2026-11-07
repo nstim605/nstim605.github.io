@@ -71,7 +71,7 @@
   <link rel="icon" type="image/png" sizes="96x96" href="/assets/icons/v1-603/favicon-96.png">
   <link rel="apple-touch-icon" sizes="180x180" href="/assets/icons/v1-603/apple-touch-icon-180.png">
   <link rel="manifest" href="../site.webmanifest">
-  <link rel="stylesheet" href="../styles.css?v=20261029-appgallery">
+  <link rel="stylesheet" href="../styles.css?v=20261107-locales">
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -181,8 +181,8 @@
     <section class="hero shell" aria-labelledby="hero-title">
       <div class="hero-copy">
         <p class="eyebrow"><span class="status-dot"></span> Rýchly a jednoduchý prevodník mien na každodenné použitie.</p>
-        <h1 id="hero-title">Prepočítavajte meny rýchlo, kdekoľvek</h1>
-        <p class="hero-lede">BALCO Converter je globálny prevodník mien a menová kalkulačka na cestovanie, nakupovanie a každodenné porovnávanie cien. Prepočítavajte fiat meny podľa aktualizovaných referenčných kurzov a bez internetu používajte posledné úspešne uložené kurzy.</p>
+        <h1 id="hero-title">Rozumejte cenám v zahraničí vo vlastnej mene</h1>
+        <p class="hero-lede">Zadajte sumu alebo naskenujte cenovku a skontrolujte výsledok. Predtým stiahnuté výmenné kurzy zostávajú dostupné bez internetu.</p>
         <div class="hero-actions">
           <div class="store-links">
             <a class="play-link" href="https://play.google.com/store/apps/details?id=io.github.nstim605.balkanconverter" aria-label="BALCO Converter — Google Play">
@@ -197,6 +197,7 @@
           <li>Skener cien</li>
           <li>offline prevodník</li>
         </ul>
+        <p class="access-note">Google Play: 5 bezplatných skenovaní cien denne, reklamy a voliteľné nákupy v aplikácii. <a class="text-link" href="#google-play-access">Bezplatné limity, BP a BALCO Plus</a>.</p>
       </div>
       <div class="hero-visual" aria-label="BALCO Converter — Pozrieť aplikáciu">
         <figure class="phone-frame phone-frame-v1603">
@@ -211,7 +212,7 @@
           <p class="eyebrow">Funkcie</p>
           <h2 id="features-title">Užitočné nástroje bez zbytočností</h2>
         </div>
-        <p>Prevodník mien so skutočnou cenou, cestovnou tabuľou a offline kurzmi</p>
+        <p>Prepočty cien, porovnanie nákladov na výmenu peňazí a uložené kurzy na cesty.</p>
       </div>
       <div class="feature-grid">
         <article class="feature-card">
@@ -222,7 +223,7 @@
         <article class="feature-card">
           <span class="feature-mark" data-feature-icon="scanner" aria-hidden="true"><svg viewBox="0 0 24 24" focusable="false"><path d="M4 8V6a2 2 0 0 1 2-2h2M16 4h2a2 2 0 0 1 2 2v2M20 16v2a2 2 0 0 1-2 2h-2M8 20H6a2 2 0 0 1-2-2v-2M7 12h10"/></svg></span>
           <h3>Skener cien</h3>
-          <p>Ťuknite na fotoaparát na hlavnej obrazovke, vyberte zdrojovú a cieľovú menu a podržte vytlačenú cenu v rámčeku. Potvrďte rozpoznanú hodnotu, aby sa použila v prevodníku.</p>
+          <p>Načítajte vytlačenú cenu fotoaparátom a preveďte ju do známej meny. Pred potvrdením skontrolujte rozpoznanú sumu a vybranú menu.</p>
         </article>
         <article class="feature-card">
           <span class="feature-mark" aria-hidden="true">%</span>
@@ -232,7 +233,7 @@
         <article class="feature-card">
           <span class="feature-mark" data-feature-icon="travel" aria-hidden="true"><svg viewBox="0 0 24 24" focusable="false"><path d="M17.8 19.2 16 11l3.5-3.5C21 6 21.5 4 20.5 3s-3-.5-4.5 1L12.5 7.5 4.3 5.7c-.5-.1-.9.1-1.1.5l-.3.5c-.2.4-.1.9.3 1.2l5.3 3.9-2 2-2.2-.7c-.5-.2-1 .1-1.3.5l-.2.3c-.3.5-.1 1.1.3 1.4l3.9 2.8c.4.3 1 .3 1.4-.1L12 16l3.9 5.3c.3.4.8.5 1.2.3l.5-.3c.4-.2.6-.7.5-1.1Z"/></svg></span>
           <h3>Prehľad mien na cesty</h3>
-          <p>Ťuknutím na menu ju nastavíte ako základnú.</p>
+          <p>Porovnajte jednu sumu vo viacerých menách naraz. Ťuknutím na menu ju nastavíte ako základnú.</p>
         </article>
         <article class="feature-card">
           <span class="feature-mark" data-feature-icon="offline" aria-hidden="true"><svg viewBox="0 0 24 24" focusable="false"><path d="m2 2 20 20M8.5 16.5a5 5 0 0 1 7 0M5 12.9a10 10 0 0 1 5.2-2.7M19 12.9a10 10 0 0 0-2-1.5M2 8.8a15 15 0 0 1 4.2-2.6M22 8.8a15 15 0 0 0-11.3-4.7M12 20h.01"/></svg></span>
@@ -243,6 +244,34 @@
           <span class="feature-mark" aria-hidden="true">₿</span>
           <h3>Kryptomeny</h3>
           <p>V ponuke otvorte Kryptomeny a prevádzajte medzi podporovanými kryptomenami a fiat menami. Trhové údaje zvyčajne pochádzajú z CoinGecko, pričom Kraken je sekundárnym zdrojom pre podporované páry.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section shell shopping-section" id="shopping" aria-labelledby="shopping-title">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">Vo verzii z Google Play</p>
+          <h2 id="shopping-title">Od cenovky k celkovej sume nákupu</h2>
+        </div>
+        <p>Skontrolujte každú cenu a pozrite si celkovú sumu vo vybranej mene.</p>
+      </div>
+      <div class="shopping-grid">
+        <article class="shopping-card" aria-labelledby="cart-title">
+          <h3 id="cart-title">Nákupný košík</h3>
+          <p>Pridávajte ceny fotoaparátom alebo ich zadávajte ručne. Skontrolujte každú sumu a menu a potom podľa potreby upravte množstvá.</p>
+          <p>Pozrite si prepočítanú cenu každej položky a celkovú sumu vo vybranej mene.</p>
+        </article>
+        <article class="shopping-card" id="google-play-access" aria-labelledby="access-title">
+          <h3 id="access-title">Bezplatné používanie a voliteľné doplnky</h3>
+          <p>Verzia z Google Play zahŕňa 5 bezplatných skenovaní cien denne. Obsahuje reklamy, BALCO Points (BP) na ďalšie používanie a voliteľné predplatné BALCO Plus.</p>
+          <details class="access-details">
+            <summary>Limity, BP a podrobnosti predplatného</summary>
+            <p><strong>Skener cien:</strong> 5 bezplatných dokončených prevodov denne. Každé ďalšie bežné skenovanie stojí 2 BP.</p>
+            <p><strong>Nákupný košík:</strong> Samostatný limit 10 bezplatných pridaní počas prvých 24 hodín od prvého použitia, potom 5 bezplatných pridaní denne. Ručné pridávanie aj pridávanie skenerom čerpajú z rovnakého limitu košíka. Každá ďalšia položka pridaná do košíka stojí 1 BP.</p>
+            <p><strong>BALCO Points:</strong> Pozretím celej reklamy s odmenou získate 20 BP, ak je reklama dostupná. Prevod vybraného textu stojí 1 BP; trvalé odomknutie ďalšej témy stojí 60 BP za tému.</p>
+            <p><strong>BALCO Plus:</strong> Voliteľné mesačné alebo ročné predplatné s automatickým obnovovaním. Kým je aktívne, odstraňuje reklamy a zahŕňa neobmedzené používanie inak platených funkcií, vrátane pridávania do košíka, a všetky ďalšie témy. Prístup k témam cez predplatné trvá počas aktívneho predplatného. Spravujte ho alebo zrušte v Google Play.</p>
+          </details>
         </article>
       </div>
     </section>

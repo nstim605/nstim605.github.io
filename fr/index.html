@@ -71,7 +71,7 @@
   <link rel="icon" type="image/png" sizes="96x96" href="/assets/icons/v1-603/favicon-96.png">
   <link rel="apple-touch-icon" sizes="180x180" href="/assets/icons/v1-603/apple-touch-icon-180.png">
   <link rel="manifest" href="../site.webmanifest">
-  <link rel="stylesheet" href="../styles.css?v=20261029-appgallery">
+  <link rel="stylesheet" href="../styles.css?v=20261107-locales">
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -181,8 +181,8 @@
     <section class="hero shell" aria-labelledby="hero-title">
       <div class="hero-copy">
         <p class="eyebrow"><span class="status-dot"></span> Un convertisseur de devises simple et rapide pour un usage quotidien.</p>
-        <h1 id="hero-title">Convertissez vos devises rapidement, où que vous soyez</h1>
-        <p class="hero-lede">BALCO Converter est un convertisseur de devises et un calculateur de monnaie pour les voyages, les achats et la comparaison des prix. Convertissez des monnaies fiduciaires avec des taux de référence actualisés, puis continuez hors ligne avec les derniers taux enregistrés avec succès.</p>
+        <h1 id="hero-title">Comprenez les prix à l’étranger dans votre monnaie</h1>
+        <p class="hero-lede">Saisissez un montant ou scannez une étiquette de prix, puis vérifiez le résultat. Les taux de change déjà téléchargés restent disponibles hors ligne.</p>
         <div class="hero-actions">
           <div class="store-links">
             <a class="play-link" href="https://play.google.com/store/apps/details?id=io.github.nstim605.balkanconverter" aria-label="BALCO Converter — Google Play">
@@ -197,6 +197,7 @@
           <li>Scanner de prix</li>
           <li>convertisseur hors ligne</li>
         </ul>
+        <p class="access-note">Google Play : 5 scans de prix gratuits par jour, publicités et achats intégrés facultatifs. <a class="text-link" href="#google-play-access">Quotas gratuits, BP et BALCO Plus</a>.</p>
       </div>
       <div class="hero-visual" aria-label="BALCO Converter — Voir l’application">
         <figure class="phone-frame phone-frame-v1603">
@@ -211,7 +212,7 @@
           <p class="eyebrow">Fonctionnalités</p>
           <h2 id="features-title">Des outils utiles, sans superflu</h2>
         </div>
-        <p>Convertisseur avec coût réel, tableau de voyage et taux hors connexion</p>
+        <p>Conversion des prix, comparaison des frais de change et taux enregistrés pour vos voyages.</p>
       </div>
       <div class="feature-grid">
         <article class="feature-card">
@@ -222,7 +223,7 @@
         <article class="feature-card">
           <span class="feature-mark" data-feature-icon="scanner" aria-hidden="true"><svg viewBox="0 0 24 24" focusable="false"><path d="M4 8V6a2 2 0 0 1 2-2h2M16 4h2a2 2 0 0 1 2 2v2M20 16v2a2 2 0 0 1-2 2h-2M8 20H6a2 2 0 0 1-2-2v-2M7 12h10"/></svg></span>
           <h3>Scanner de prix</h3>
-          <p>Touchez l’appareil photo sur l’écran principal, choisissez les devises source et cible, puis placez un prix imprimé dans le cadre. Confirmez la valeur détectée pour l’utiliser dans le convertisseur.</p>
+          <p>Lisez un prix imprimé avec l’appareil photo et convertissez-le dans une monnaie familière. Vérifiez le montant reconnu et la monnaie sélectionnée avant de confirmer.</p>
         </article>
         <article class="feature-card">
           <span class="feature-mark" aria-hidden="true">%</span>
@@ -232,7 +233,7 @@
         <article class="feature-card">
           <span class="feature-mark" data-feature-icon="travel" aria-hidden="true"><svg viewBox="0 0 24 24" focusable="false"><path d="M17.8 19.2 16 11l3.5-3.5C21 6 21.5 4 20.5 3s-3-.5-4.5 1L12.5 7.5 4.3 5.7c-.5-.1-.9.1-1.1.5l-.3.5c-.2.4-.1.9.3 1.2l5.3 3.9-2 2-2.2-.7c-.5-.2-1 .1-1.3.5l-.2.3c-.3.5-.1 1.1.3 1.4l3.9 2.8c.4.3 1 .3 1.4-.1L12 16l3.9 5.3c.3.4.8.5 1.2.3l.5-.3c.4-.2.6-.7.5-1.1Z"/></svg></span>
           <h3>Tableau de voyage multi-devises</h3>
-          <p>Touchez une devise pour la définir comme devise de base.</p>
+          <p>Comparez un même montant dans plusieurs monnaies à la fois. Touchez une monnaie pour en faire la monnaie de référence.</p>
         </article>
         <article class="feature-card">
           <span class="feature-mark" data-feature-icon="offline" aria-hidden="true"><svg viewBox="0 0 24 24" focusable="false"><path d="m2 2 20 20M8.5 16.5a5 5 0 0 1 7 0M5 12.9a10 10 0 0 1 5.2-2.7M19 12.9a10 10 0 0 0-2-1.5M2 8.8a15 15 0 0 1 4.2-2.6M22 8.8a15 15 0 0 0-11.3-4.7M12 20h.01"/></svg></span>
@@ -243,6 +244,34 @@
           <span class="feature-mark" aria-hidden="true">₿</span>
           <h3>Cryptomonnaies</h3>
           <p>Ouvrez « Cryptomonnaies » dans le menu pour convertir les cryptomonnaies et monnaies fiduciaires compatibles. Les données viennent normalement de CoinGecko, avec Kraken comme source secondaire pour les paires compatibles.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section shell shopping-section" id="shopping" aria-labelledby="shopping-title">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">Dans la version Google Play</p>
+          <h2 id="shopping-title">De l’étiquette au total de vos achats</h2>
+        </div>
+        <p>Vérifiez chaque prix et consultez le total dans la monnaie de votre choix.</p>
+      </div>
+      <div class="shopping-grid">
+        <article class="shopping-card" aria-labelledby="cart-title">
+          <h3 id="cart-title">Panier</h3>
+          <p>Ajoutez des prix avec l’appareil photo ou saisissez-les manuellement. Vérifiez chaque montant et chaque monnaie, puis ajustez les quantités si nécessaire.</p>
+          <p>Consultez le coût converti de chaque article et le total dans la monnaie de votre choix.</p>
+        </article>
+        <article class="shopping-card" id="google-play-access" aria-labelledby="access-title">
+          <h3 id="access-title">Utilisation gratuite et options facultatives</h3>
+          <p>La version Google Play comprend 5 scans de prix gratuits par jour. Elle propose des publicités, des BALCO Points (BP) pour une utilisation supplémentaire et un abonnement BALCO Plus facultatif.</p>
+          <details class="access-details">
+            <summary>Quotas, BP et conditions de l’abonnement</summary>
+            <p><strong>Scanner de prix:</strong> 5 conversions finalisées gratuites par jour. Chaque scan ordinaire supplémentaire coûte 2 BP.</p>
+            <p><strong>Panier:</strong> Un quota distinct de 10 ajouts gratuits pendant les premières 24 heures suivant la première utilisation, puis 5 ajouts gratuits par jour. Les ajouts manuels et par scanner partagent ce quota du panier. Chaque article supplémentaire ajouté coûte 1 BP.</p>
+            <p><strong>BALCO Points:</strong> Regarder une publicité récompensée jusqu’au bout rapporte 20 BP lorsqu’une publicité est disponible. La conversion de texte sélectionné coûte 1 BP ; le déblocage permanent d’un thème supplémentaire coûte 60 BP par thème.</p>
+            <p><strong>BALCO Plus:</strong> Un abonnement facultatif mensuel ou annuel à renouvellement automatique. Tant qu’il est actif, il supprime les publicités et donne un accès illimité aux fonctions payantes, y compris aux ajouts au panier, ainsi qu’à tous les thèmes supplémentaires. L’accès aux thèmes inclus dans l’abonnement dure uniquement pendant sa période d’activité. Gérez ou résiliez l’abonnement dans Google Play.</p>
+          </details>
         </article>
       </div>
     </section>

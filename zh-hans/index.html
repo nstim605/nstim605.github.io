@@ -71,7 +71,7 @@
   <link rel="icon" type="image/png" sizes="96x96" href="/assets/icons/v1-603/favicon-96.png">
   <link rel="apple-touch-icon" sizes="180x180" href="/assets/icons/v1-603/apple-touch-icon-180.png">
   <link rel="manifest" href="../site.webmanifest">
-  <link rel="stylesheet" href="../styles.css?v=20261029-appgallery">
+  <link rel="stylesheet" href="../styles.css?v=20261107-locales">
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -181,8 +181,8 @@
     <section class="hero shell" aria-labelledby="hero-title">
       <div class="hero-copy">
         <p class="eyebrow"><span class="status-dot"></span> 适合日常使用的快速、简单的货币转换器。</p>
-        <h1 id="hero-title">随时随地快速换算货币</h1>
-        <p class="hero-lede">BALCO Converter 是适合旅行、购物和价格比较的全球货币转换器与货币计算器。使用更新后的参考汇率换算法定货币；没有网络时，可继续使用最近一次成功保存的汇率。</p>
+        <h1 id="hero-title">用自己的货币看懂国外价格</h1>
+        <p class="hero-lede">输入金额或扫描价签，然后核对结果。之前下载的汇率在离线时仍可使用。</p>
         <div class="hero-actions">
           <div class="store-links">
             <a class="play-link" href="https://play.google.com/store/apps/details?id=io.github.nstim605.balkanconverter" aria-label="BALCO Converter — Google Play">
@@ -197,6 +197,7 @@
           <li>价格扫描器</li>
           <li>离线货币转换</li>
         </ul>
+        <p class="access-note">Google Play：每天免费扫描价格5次，含广告和可选的应用内购买。 <a class="text-link" href="#google-play-access">免费额度、BP与BALCO Plus</a>.</p>
       </div>
       <div class="hero-visual" aria-label="BALCO Converter — 查看应用">
         <figure class="phone-frame phone-frame-v1603">
@@ -211,7 +212,7 @@
           <p class="eyebrow">功能</p>
           <h2 id="features-title">实用工具，简洁易用</h2>
         </div>
-        <p>货币转换器，支持实际换汇成本、旅行看板和离线汇率</p>
+        <p>为旅行提供价格换算、换汇成本比较和已保存的汇率。</p>
       </div>
       <div class="feature-grid">
         <article class="feature-card">
@@ -222,7 +223,7 @@
         <article class="feature-card">
           <span class="feature-mark" data-feature-icon="scanner" aria-hidden="true"><svg viewBox="0 0 24 24" focusable="false"><path d="M4 8V6a2 2 0 0 1 2-2h2M16 4h2a2 2 0 0 1 2 2v2M20 16v2a2 2 0 0 1-2 2h-2M8 20H6a2 2 0 0 1-2-2v-2M7 12h10"/></svg></span>
           <h3>价格扫描器</h3>
-          <p>点按主屏幕上的相机，选择源货币和目标货币，然后将印刷价格置于框内。确认识别出的数值即可在换算器中使用。图像不会保存。免费扫描器每天可完成五次换算。</p>
+          <p>用相机读取印刷价格，并换算为熟悉的货币。确认前，请核对识别出的金额和所选货币。</p>
         </article>
         <article class="feature-card">
           <span class="feature-mark" aria-hidden="true">%</span>
@@ -232,7 +233,7 @@
         <article class="feature-card">
           <span class="feature-mark" data-feature-icon="travel" aria-hidden="true"><svg viewBox="0 0 24 24" focusable="false"><path d="M17.8 19.2 16 11l3.5-3.5C21 6 21.5 4 20.5 3s-3-.5-4.5 1L12.5 7.5 4.3 5.7c-.5-.1-.9.1-1.1.5l-.3.5c-.2.4-.1.9.3 1.2l5.3 3.9-2 2-2.2-.7c-.5-.2-1 .1-1.3.5l-.2.3c-.3.5-.1 1.1.3 1.4l3.9 2.8c.4.3 1 .3 1.4-.1L12 16l3.9 5.3c.3.4.8.5 1.2.3l.5-.3c.4-.2.6-.7.5-1.1Z"/></svg></span>
           <h3>旅行看板</h3>
-          <p>点按一种货币，将其设为基准货币。</p>
+          <p>同时比较同一金额在多种货币中的数值。点按某种货币即可将其设为基准货币。</p>
         </article>
         <article class="feature-card">
           <span class="feature-mark" data-feature-icon="offline" aria-hidden="true"><svg viewBox="0 0 24 24" focusable="false"><path d="m2 2 20 20M8.5 16.5a5 5 0 0 1 7 0M5 12.9a10 10 0 0 1 5.2-2.7M19 12.9a10 10 0 0 0-2-1.5M2 8.8a15 15 0 0 1 4.2-2.6M22 8.8a15 15 0 0 0-11.3-4.7M12 20h.01"/></svg></span>
@@ -243,6 +244,34 @@
           <span class="feature-mark" aria-hidden="true">₿</span>
           <h3>加密货币</h3>
           <p>从菜单打开“加密货币”，即可在支持的币种与法定货币之间换算。市场数据通常来自 CoinGecko，Kraken 是支持交易对的备用来源。离线时可能显示已保存的价格，数据也可能存在延迟。</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section shell shopping-section" id="shopping" aria-labelledby="shopping-title">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">Google Play版本提供</p>
+          <h2 id="shopping-title">从价签到购物总额</h2>
+        </div>
+        <p>核对每项价格，并以所选货币查看总额。</p>
+      </div>
+      <div class="shopping-grid">
+        <article class="shopping-card" aria-labelledby="cart-title">
+          <h3 id="cart-title">购物车</h3>
+          <p>用相机添加价格或手动输入。核对每项金额和货币，再按需调整数量。</p>
+          <p>查看每件商品换算后的价格，以及以所选货币计算的总额。</p>
+        </article>
+        <article class="shopping-card" id="google-play-access" aria-labelledby="access-title">
+          <h3 id="access-title">免费使用与可选附加功能</h3>
+          <p>Google Play版本每天提供5次免费价格扫描，含广告，并提供用于额外使用的BALCO Points（BP）和可选的BALCO Plus订阅。</p>
+          <details class="access-details">
+            <summary>额度、BP和订阅详情</summary>
+            <p><strong>价格扫描器:</strong> 每天可免费完成5次换算。每次额外的普通扫描需2 BP。</p>
+            <p><strong>购物车:</strong> 购物车有独立额度：首次使用起的前24小时内可免费添加10次，之后每天可免费添加5次。手动添加与扫描添加共用这一购物车额度。超出额度后，每添加一件商品需1 BP。</p>
+            <p><strong>BALCO Points:</strong> 有奖励广告可看时，完整观看可获得20 BP。换算所选文本需1 BP；永久解锁额外主题需每个主题60 BP。</p>
+            <p><strong>BALCO Plus:</strong> 可选的按月或按年自动续订订阅。订阅有效期间可去除广告，无限使用付费功能（包括添加购物车商品），并使用所有额外主题。通过订阅获得的主题使用权仅在订阅有效期间保留。可在Google Play中管理或取消订阅。</p>
+          </details>
         </article>
       </div>
     </section>

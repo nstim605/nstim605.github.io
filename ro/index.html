@@ -71,7 +71,7 @@
   <link rel="icon" type="image/png" sizes="96x96" href="/assets/icons/v1-603/favicon-96.png">
   <link rel="apple-touch-icon" sizes="180x180" href="/assets/icons/v1-603/apple-touch-icon-180.png">
   <link rel="manifest" href="../site.webmanifest">
-  <link rel="stylesheet" href="../styles.css?v=20261029-appgallery">
+  <link rel="stylesheet" href="../styles.css?v=20261107-locales">
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -181,8 +181,8 @@
     <section class="hero shell" aria-labelledby="hero-title">
       <div class="hero-copy">
         <p class="eyebrow"><span class="status-dot"></span> Un convertor valutar rapid și simplu pentru uz zilnic.</p>
-        <h1 id="hero-title">Convertește rapid valute, oriunde</h1>
-        <p class="hero-lede">BALCO Converter este un convertor valutar global și un calculator pentru călătorii, cumpărături și compararea prețurilor. Convertește monede fiat folosind cursuri de referință actualizate, iar fără internet continuă cu ultimele cursuri salvate cu succes.</p>
+        <h1 id="hero-title">Înțelege prețurile din străinătate în moneda ta</h1>
+        <p class="hero-lede">Introdu o sumă sau scanează o etichetă de preț și verifică rezultatul. Cursurile valutare descărcate anterior rămân disponibile fără internet.</p>
         <div class="hero-actions">
           <div class="store-links">
             <a class="play-link" href="https://play.google.com/store/apps/details?id=io.github.nstim605.balkanconverter" aria-label="BALCO Converter — Google Play">
@@ -197,6 +197,7 @@
           <li>Scaner de prețuri</li>
           <li>convertor offline</li>
         </ul>
+        <p class="access-note">Google Play: 5 scanări gratuite de prețuri pe zi, reclame și achiziții opționale în aplicație. <a class="text-link" href="#google-play-access">Limite gratuite, BP și BALCO Plus</a>.</p>
       </div>
       <div class="hero-visual" aria-label="BALCO Converter — Vezi aplicația">
         <figure class="phone-frame phone-frame-v1603">
@@ -211,7 +212,7 @@
           <p class="eyebrow">Funcții</p>
           <h2 id="features-title">Instrumente utile, fără aglomerație</h2>
         </div>
-        <p>Convertor valutar cu cost real, panou de călătorie și cursuri offline</p>
+        <p>Conversii de prețuri, comparații ale costurilor de schimb valutar și cursuri salvate pentru călătoriile tale.</p>
       </div>
       <div class="feature-grid">
         <article class="feature-card">
@@ -222,7 +223,7 @@
         <article class="feature-card">
           <span class="feature-mark" data-feature-icon="scanner" aria-hidden="true"><svg viewBox="0 0 24 24" focusable="false"><path d="M4 8V6a2 2 0 0 1 2-2h2M16 4h2a2 2 0 0 1 2 2v2M20 16v2a2 2 0 0 1-2 2h-2M8 20H6a2 2 0 0 1-2-2v-2M7 12h10"/></svg></span>
           <h3>Scaner de prețuri</h3>
-          <p>Atingeți camera pe ecranul principal, alegeți moneda sursă și cea țintă, apoi țineți un preț tipărit în interiorul cadrului. Confirmați valoarea detectată pentru a o folosi în convertor.</p>
+          <p>Citește un preț tipărit cu ajutorul camerei și convertește-l într-o monedă familiară. Verifică suma detectată și moneda selectată înainte de a confirma.</p>
         </article>
         <article class="feature-card">
           <span class="feature-mark" aria-hidden="true">%</span>
@@ -232,7 +233,7 @@
         <article class="feature-card">
           <span class="feature-mark" data-feature-icon="travel" aria-hidden="true"><svg viewBox="0 0 24 24" focusable="false"><path d="M17.8 19.2 16 11l3.5-3.5C21 6 21.5 4 20.5 3s-3-.5-4.5 1L12.5 7.5 4.3 5.7c-.5-.1-.9.1-1.1.5l-.3.5c-.2.4-.1.9.3 1.2l5.3 3.9-2 2-2.2-.7c-.5-.2-1 .1-1.3.5l-.2.3c-.3.5-.1 1.1.3 1.4l3.9 2.8c.4.3 1 .3 1.4-.1L12 16l3.9 5.3c.3.4.8.5 1.2.3l.5-.3c.4-.2.6-.7.5-1.1Z"/></svg></span>
           <h3>Panou valutar pentru călătorii</h3>
-          <p>Atingeți o monedă pentru a o seta drept monedă de bază.</p>
+          <p>Compară o sumă în mai multe monede simultan. Atinge o monedă pentru a o seta ca monedă de bază.</p>
         </article>
         <article class="feature-card">
           <span class="feature-mark" data-feature-icon="offline" aria-hidden="true"><svg viewBox="0 0 24 24" focusable="false"><path d="m2 2 20 20M8.5 16.5a5 5 0 0 1 7 0M5 12.9a10 10 0 0 1 5.2-2.7M19 12.9a10 10 0 0 0-2-1.5M2 8.8a15 15 0 0 1 4.2-2.6M22 8.8a15 15 0 0 0-11.3-4.7M12 20h.01"/></svg></span>
@@ -243,6 +244,34 @@
           <span class="feature-mark" aria-hidden="true">₿</span>
           <h3>Criptomonede</h3>
           <p>Deschideți Criptomonede din meniu pentru a converti între criptomonedele acceptate și monedele fiduciare. Datele pieței provin de obicei de la CoinGecko, iar Kraken este o sursă secundară pentru perechile acceptate.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section shell shopping-section" id="shopping" aria-labelledby="shopping-title">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">În versiunea de pe Google Play</p>
+          <h2 id="shopping-title">De la eticheta de preț la totalul cumpărăturilor</h2>
+        </div>
+        <p>Verifică fiecare preț și vezi totalul în moneda aleasă.</p>
+      </div>
+      <div class="shopping-grid">
+        <article class="shopping-card" aria-labelledby="cart-title">
+          <h3 id="cart-title">Coș de cumpărături</h3>
+          <p>Adaugă prețuri cu ajutorul camerei sau introdu-le manual. Verifică fiecare sumă și monedă, apoi ajustează cantitățile după nevoie.</p>
+          <p>Vezi costul convertit al fiecărui articol și totalul în moneda aleasă.</p>
+        </article>
+        <article class="shopping-card" id="google-play-access" aria-labelledby="access-title">
+          <h3 id="access-title">Utilizare gratuită și opțiuni suplimentare</h3>
+          <p>Versiunea de pe Google Play include 5 scanări gratuite de prețuri pe zi. Conține reclame, BALCO Points (BP) pentru utilizare suplimentară și un abonament opțional BALCO Plus.</p>
+          <details class="access-details">
+            <summary>Limite, BP și detalii despre abonament</summary>
+            <p><strong>Scaner de prețuri:</strong> 5 conversii finalizate gratuit pe zi. Fiecare scanare obișnuită suplimentară costă 2 BP.</p>
+            <p><strong>Coș de cumpărături:</strong> O limită separată de 10 adăugări gratuite în primele 24 de ore de la prima utilizare, apoi 5 adăugări gratuite pe zi. Adăugările manuale și cele prin scanare folosesc aceeași limită a coșului. Fiecare articol suplimentar adăugat în coș costă 1 BP.</p>
+            <p><strong>BALCO Points:</strong> Vizionarea completă a unei reclame cu recompensă oferă 20 BP, atunci când este disponibilă o reclamă. Conversia textului selectat costă 1 BP; deblocarea permanentă a unei teme suplimentare costă 60 BP pentru fiecare temă.</p>
+            <p><strong>BALCO Plus:</strong> Un abonament opțional lunar sau anual, cu reînnoire automată. Cât timp este activ, elimină reclamele și include utilizarea nelimitată a funcțiilor care în mod normal sunt contra cost, inclusiv adăugările în coș, precum și toate temele suplimentare. Accesul la teme prin abonament durează cât timp abonamentul este activ. Gestionează-l sau anulează-l în Google Play.</p>
+          </details>
         </article>
       </div>
     </section>

@@ -71,7 +71,7 @@
   <link rel="icon" type="image/png" sizes="96x96" href="/assets/icons/v1-603/favicon-96.png">
   <link rel="apple-touch-icon" sizes="180x180" href="/assets/icons/v1-603/apple-touch-icon-180.png">
   <link rel="manifest" href="../site.webmanifest">
-  <link rel="stylesheet" href="../styles.css?v=20261029-appgallery">
+  <link rel="stylesheet" href="../styles.css?v=20261107-locales">
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -181,8 +181,8 @@
     <section class="hero shell" aria-labelledby="hero-title">
       <div class="hero-copy">
         <p class="eyebrow"><span class="status-dot"></span> Um conversor de moeda rápido e simples para uso diário.</p>
-        <h1 id="hero-title">Converta moedas rapidamente, onde quer que esteja</h1>
-        <p class="hero-lede">BALCO Converter é um conversor de moedas e calculadora cambial para viagens, compras e comparação de preços. Converta moedas fiduciárias com taxas de referência atualizadas e continue sem internet com as últimas taxas guardadas com êxito.</p>
+        <h1 id="hero-title">Compreenda os preços no estrangeiro na sua moeda</h1>
+        <p class="hero-lede">Introduza um valor ou leia uma etiqueta de preço com a câmara e verifique o resultado. As taxas de câmbio já descarregadas continuam disponíveis sem ligação à internet.</p>
         <div class="hero-actions">
           <div class="store-links">
             <a class="play-link" href="https://play.google.com/store/apps/details?id=io.github.nstim605.balkanconverter" aria-label="BALCO Converter — Google Play">
@@ -197,6 +197,7 @@
           <li>Leitor de preços</li>
           <li>conversor offline</li>
         </ul>
+        <p class="access-note">Google Play: 5 leituras de preços gratuitas por dia, anúncios e compras opcionais na aplicação. <a class="text-link" href="#google-play-access">Limites gratuitos, BP e BALCO Plus</a>.</p>
       </div>
       <div class="hero-visual" aria-label="BALCO Converter — Ver a aplicação">
         <figure class="phone-frame phone-frame-v1603">
@@ -211,7 +212,7 @@
           <p class="eyebrow">Funcionalidades</p>
           <h2 id="features-title">Ferramentas úteis, sem complicações</h2>
         </div>
-        <p>Conversor com custo real, painel de viagem e taxas offline</p>
+        <p>Conversão de preços, comparação dos custos de câmbio e taxas guardadas para as suas viagens.</p>
       </div>
       <div class="feature-grid">
         <article class="feature-card">
@@ -222,7 +223,7 @@
         <article class="feature-card">
           <span class="feature-mark" data-feature-icon="scanner" aria-hidden="true"><svg viewBox="0 0 24 24" focusable="false"><path d="M4 8V6a2 2 0 0 1 2-2h2M16 4h2a2 2 0 0 1 2 2v2M20 16v2a2 2 0 0 1-2 2h-2M8 20H6a2 2 0 0 1-2-2v-2M7 12h10"/></svg></span>
           <h3>Leitor de preços</h3>
-          <p>Toque na câmara no ecrã principal, escolha as moedas de origem e destino e mantenha um preço impresso dentro da moldura. Confirme o valor detetado para o usar no conversor.</p>
+          <p>Leia um preço impresso com a câmara e converta-o numa moeda familiar. Verifique o valor reconhecido e a moeda selecionada antes de confirmar.</p>
         </article>
         <article class="feature-card">
           <span class="feature-mark" aria-hidden="true">%</span>
@@ -232,7 +233,7 @@
         <article class="feature-card">
           <span class="feature-mark" data-feature-icon="travel" aria-hidden="true"><svg viewBox="0 0 24 24" focusable="false"><path d="M17.8 19.2 16 11l3.5-3.5C21 6 21.5 4 20.5 3s-3-.5-4.5 1L12.5 7.5 4.3 5.7c-.5-.1-.9.1-1.1.5l-.3.5c-.2.4-.1.9.3 1.2l5.3 3.9-2 2-2.2-.7c-.5-.2-1 .1-1.3.5l-.2.3c-.3.5-.1 1.1.3 1.4l3.9 2.8c.4.3 1 .3 1.4-.1L12 16l3.9 5.3c.3.4.8.5 1.2.3l.5-.3c.4-.2.6-.7.5-1.1Z"/></svg></span>
           <h3>Quadro de viagens em várias moedas</h3>
-          <p>Toque numa moeda para a tornar a moeda base.</p>
+          <p>Compare um valor em várias moedas ao mesmo tempo. Toque numa moeda para a definir como moeda de base.</p>
         </article>
         <article class="feature-card">
           <span class="feature-mark" data-feature-icon="offline" aria-hidden="true"><svg viewBox="0 0 24 24" focusable="false"><path d="m2 2 20 20M8.5 16.5a5 5 0 0 1 7 0M5 12.9a10 10 0 0 1 5.2-2.7M19 12.9a10 10 0 0 0-2-1.5M2 8.8a15 15 0 0 1 4.2-2.6M22 8.8a15 15 0 0 0-11.3-4.7M12 20h.01"/></svg></span>
@@ -243,6 +244,34 @@
           <span class="feature-mark" aria-hidden="true">₿</span>
           <h3>Criptomoedas</h3>
           <p>Abra «Criptomoedas» no menu para converter moedas suportadas e moedas fiduciárias. Os dados vêm normalmente da CoinGecko, com a Kraken como fonte secundária para pares suportados.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section shell shopping-section" id="shopping" aria-labelledby="shopping-title">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">Na versão do Google Play</p>
+          <h2 id="shopping-title">Da etiqueta ao total das suas compras</h2>
+        </div>
+        <p>Verifique cada preço e veja o total na moeda que escolher.</p>
+      </div>
+      <div class="shopping-grid">
+        <article class="shopping-card" aria-labelledby="cart-title">
+          <h3 id="cart-title">Carrinho de compras</h3>
+          <p>Adicione preços com a câmara ou introduza-os manualmente. Verifique cada valor e moeda e ajuste as quantidades conforme necessário.</p>
+          <p>Veja o custo convertido de cada artigo e o total na moeda que escolher.</p>
+        </article>
+        <article class="shopping-card" id="google-play-access" aria-labelledby="access-title">
+          <h3 id="access-title">Utilização gratuita e extras opcionais</h3>
+          <p>A versão do Google Play inclui 5 leituras de preços gratuitas por dia. Tem anúncios, BALCO Points (BP) para utilizações adicionais e uma subscrição opcional do BALCO Plus.</p>
+          <details class="access-details">
+            <summary>Limites, BP e detalhes da subscrição</summary>
+            <p><strong>Leitor de preços:</strong> 5 conversões concluídas gratuitas por dia. Cada leitura normal adicional custa 2 BP.</p>
+            <p><strong>Carrinho de compras:</strong> Um limite separado de 10 adições gratuitas nas primeiras 24 horas a contar da primeira utilização, depois 5 adições gratuitas por dia. Os artigos adicionados manualmente ou pelo leitor partilham este limite do carrinho. Cada artigo adicional acrescentado custa 1 BP.</p>
+            <p><strong>BALCO Points:</strong> Ver um anúncio com recompensa até ao fim dá 20 BP quando há um anúncio disponível. A conversão de texto selecionado custa 1 BP; o desbloqueio permanente de um tema extra custa 60 BP por tema.</p>
+            <p><strong>BALCO Plus:</strong> Uma subscrição opcional mensal ou anual com renovação automática. Enquanto estiver ativa, remove os anúncios e inclui a utilização ilimitada das funcionalidades pagas, incluindo as adições ao carrinho, e todos os temas extra. O acesso aos temas através da subscrição dura apenas enquanto esta estiver ativa. Faça a gestão ou o cancelamento da subscrição no Google Play.</p>
+          </details>
         </article>
       </div>
     </section>

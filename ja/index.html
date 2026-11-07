@@ -71,7 +71,7 @@
   <link rel="icon" type="image/png" sizes="96x96" href="/assets/icons/v1-603/favicon-96.png">
   <link rel="apple-touch-icon" sizes="180x180" href="/assets/icons/v1-603/apple-touch-icon-180.png">
   <link rel="manifest" href="../site.webmanifest">
-  <link rel="stylesheet" href="../styles.css?v=20261029-appgallery">
+  <link rel="stylesheet" href="../styles.css?v=20261107-locales">
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -181,8 +181,8 @@
     <section class="hero shell" aria-labelledby="hero-title">
       <div class="hero-copy">
         <p class="eyebrow"><span class="status-dot"></span> 日常的に使用できる高速でシンプルな通貨換算ツール。</p>
-        <h1 id="hero-title">どこでもすばやく通貨を換算</h1>
-        <p class="hero-lede">BALCO Converter は、海外旅行、買い物、価格比較に使える世界の通貨換算・為替計算アプリです。更新された参考為替レートで法定通貨を換算し、インターネットに接続できないときは最後に正常保存されたレートを利用できます。</p>
+        <h1 id="hero-title">海外の価格を、いつもの通貨で把握</h1>
+        <p class="hero-lede">金額を入力するか値札をスキャンして、結果を確認できます。ダウンロード済みの為替レートはオフラインでも使えます。</p>
         <div class="hero-actions">
           <div class="store-links">
             <a class="play-link" href="https://play.google.com/store/apps/details?id=io.github.nstim605.balkanconverter" aria-label="BALCO Converter — Google Play">
@@ -197,6 +197,7 @@
           <li>価格スキャナー</li>
           <li>オフライン通貨換算</li>
         </ul>
+        <p class="access-note">Google Play：価格スキャンは1日5回無料。広告と任意のアプリ内購入があります。 <a class="text-link" href="#google-play-access">無料枠、BP、BALCO Plusについて</a>.</p>
       </div>
       <div class="hero-visual" aria-label="BALCO Converter — アプリを見る">
         <figure class="phone-frame phone-frame-v1603">
@@ -211,7 +212,7 @@
           <p class="eyebrow">機能</p>
           <h2 id="features-title">必要なツールを、すっきり使いやすく</h2>
         </div>
-        <p>実質両替コスト、旅行ボード、オフラインレート対応の通貨換算</p>
+        <p>旅行に役立つ価格換算、両替コストの比較、保存済みレート。</p>
       </div>
       <div class="feature-grid">
         <article class="feature-card">
@@ -222,7 +223,7 @@
         <article class="feature-card">
           <span class="feature-mark" data-feature-icon="scanner" aria-hidden="true"><svg viewBox="0 0 24 24" focusable="false"><path d="M4 8V6a2 2 0 0 1 2-2h2M16 4h2a2 2 0 0 1 2 2v2M20 16v2a2 2 0 0 1-2 2h-2M8 20H6a2 2 0 0 1-2-2v-2M7 12h10"/></svg></span>
           <h3>価格スキャナー</h3>
-          <p>メイン画面のカメラをタップし、換算元と換算先の通貨を選んで、印刷された価格を枠内に入れます。検出された値を確認するとコンバーターで使用できます。画像は保存されません。無料スキャナーでは1日に5回まで換算を完了できます。</p>
+          <p>カメラで印刷された価格を読み取り、使い慣れた通貨に換算します。確定する前に、認識された金額と選択した通貨を確認してください。</p>
         </article>
         <article class="feature-card">
           <span class="feature-mark" aria-hidden="true">%</span>
@@ -232,7 +233,7 @@
         <article class="feature-card">
           <span class="feature-mark" data-feature-icon="travel" aria-hidden="true"><svg viewBox="0 0 24 24" focusable="false"><path d="M17.8 19.2 16 11l3.5-3.5C21 6 21.5 4 20.5 3s-3-.5-4.5 1L12.5 7.5 4.3 5.7c-.5-.1-.9.1-1.1.5l-.3.5c-.2.4-.1.9.3 1.2l5.3 3.9-2 2-2.2-.7c-.5-.2-1 .1-1.3.5l-.2.3c-.3.5-.1 1.1.3 1.4l3.9 2.8c.4.3 1 .3 1.4-.1L12 16l3.9 5.3c.3.4.8.5 1.2.3l.5-.3c.4-.2.6-.7.5-1.1Z"/></svg></span>
           <h3>旅行ボード</h3>
-          <p>通貨をタップすると基準通貨になります。</p>
+          <p>同じ金額を複数の通貨で同時に比較できます。通貨をタップすると基準通貨に切り替わります。</p>
         </article>
         <article class="feature-card">
           <span class="feature-mark" data-feature-icon="offline" aria-hidden="true"><svg viewBox="0 0 24 24" focusable="false"><path d="m2 2 20 20M8.5 16.5a5 5 0 0 1 7 0M5 12.9a10 10 0 0 1 5.2-2.7M19 12.9a10 10 0 0 0-2-1.5M2 8.8a15 15 0 0 1 4.2-2.6M22 8.8a15 15 0 0 0-11.3-4.7M12 20h.01"/></svg></span>
@@ -243,6 +244,34 @@
           <span class="feature-mark" aria-hidden="true">₿</span>
           <h3>暗号資産</h3>
           <p>メニューから「暗号資産」を開くと、対応する暗号資産と法定通貨を換算できます。市場データは通常CoinGeckoから取得し、対応ペアにはKrakenを予備のデータ元として使用します。オフラインでは保存済み価格が表示されることがあり、データは遅延する場合があります。</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section shell shopping-section" id="shopping" aria-labelledby="shopping-title">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">Google Play版の機能</p>
+          <h2 id="shopping-title">値札から買い物の合計金額まで</h2>
+        </div>
+        <p>それぞれの価格を確認し、選んだ通貨で合計を把握できます。</p>
+      </div>
+      <div class="shopping-grid">
+        <article class="shopping-card" aria-labelledby="cart-title">
+          <h3 id="cart-title">買い物かご</h3>
+          <p>カメラで価格を追加するか、手入力できます。各金額と通貨を確認し、必要に応じて数量を調整してください。</p>
+          <p>各商品の換算後の価格と、選んだ通貨での合計を確認できます。</p>
+        </article>
+        <article class="shopping-card" id="google-play-access" aria-labelledby="access-title">
+          <h3 id="access-title">無料利用と任意の追加機能</h3>
+          <p>Google Play版では価格スキャンが1日5回無料です。広告が表示され、追加利用向けのBALCO Points（BP）と、任意のBALCO Plus定期購入があります。</p>
+          <details class="access-details">
+            <summary>利用枠、BP、定期購入の詳細</summary>
+            <p><strong>価格スキャナー:</strong> 換算の完了が1日5回まで無料です。無料枠を超える通常のスキャンは1回2 BPです。</p>
+            <p><strong>買い物かご:</strong> 独立した無料枠があり、初回利用から最初の24時間は10回、その後は1日5回まで無料で追加できます。手入力とスキャナーからの追加は、この買い物かごの無料枠を共有します。枠を超える商品の追加は1件1 BPです。</p>
+            <p><strong>BALCO Points:</strong> リワード広告が利用可能な場合、最後まで視聴すると20 BPを獲得できます。選択したテキストの換算は1 BP、追加テーマの永久解除はテーマごとに60 BPです。</p>
+            <p><strong>BALCO Plus:</strong> 任意の月額または年額の自動更新定期購入です。有効期間中は広告が非表示になり、買い物かごへの追加を含む有料機能を無制限に利用でき、すべての追加テーマも使えます。定期購入によるテーマの利用は、定期購入が有効な間に限られます。Google Playで管理または解約できます。</p>
+          </details>
         </article>
       </div>
     </section>

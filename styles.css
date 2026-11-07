@@ -224,6 +224,7 @@ h3 { margin-bottom: 10px; font-size: min(1.2rem, 9cqi); letter-spacing: -.02em; 
 .quick-points { display: flex; gap: 12px 22px; flex-wrap: wrap; padding: 0; margin: 28px 0 0; list-style: none; color: var(--muted); font-size: .92rem; font-weight: 650; }
 .quick-points li::before { content: "✓"; margin-inline-end: 7px; color: var(--success); font-weight: 900; }
 .access-note { max-width: 650px; margin: 20px 0 0; color: var(--muted); font-size: .9rem; }
+.shopping-section bdi, .access-note bdi { white-space: nowrap; }
 .shopping-section { padding-top: 0; }
 .shopping-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); align-items: start; gap: 18px; }
 .shopping-card { min-width: 0; container-type: inline-size; padding: clamp(24px, 4vw, 36px); border: 1px solid var(--border); border-radius: var(--radius-lg); background: var(--surface); box-shadow: var(--shadow-small); scroll-margin-top: 110px; }

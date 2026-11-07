@@ -71,7 +71,7 @@
   <link rel="icon" type="image/png" sizes="96x96" href="/assets/icons/v1-603/favicon-96.png">
   <link rel="apple-touch-icon" sizes="180x180" href="/assets/icons/v1-603/apple-touch-icon-180.png">
   <link rel="manifest" href="../site.webmanifest">
-  <link rel="stylesheet" href="../styles.css?v=20261029-appgallery">
+  <link rel="stylesheet" href="../styles.css?v=20261107-locales">
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -181,8 +181,8 @@
     <section class="hero shell" aria-labelledby="hero-title">
       <div class="hero-copy">
         <p class="eyebrow"><span class="status-dot"></span> En snabb, enkel valutaomvandlare för dagligt bruk.</p>
-        <h1 id="hero-title">Omvandla valutor snabbt, var du än är</h1>
-        <p class="hero-lede">BALCO Converter är en global valutaomvandlare och valutakalkylator för resor, shopping och prisjämförelser. Omvandla fiatvalutor med uppdaterade referenskurser och använd de senast sparade kurserna när internet saknas.</p>
+        <h1 id="hero-title">Förstå priser utomlands i din egen valuta</h1>
+        <p class="hero-lede">Ange ett belopp eller skanna en prislapp och kontrollera resultatet. Tidigare nedladdade växelkurser finns kvar även utan internet.</p>
         <div class="hero-actions">
           <div class="store-links">
             <a class="play-link" href="https://play.google.com/store/apps/details?id=io.github.nstim605.balkanconverter" aria-label="BALCO Converter — Google Play">
@@ -197,6 +197,7 @@
           <li>Prisskanner</li>
           <li>offline valutaomvandlare</li>
         </ul>
+        <p class="access-note">Google Play: 5 kostnadsfria prisskanningar per dag, annonser och valfria köp i appen. <a class="text-link" href="#google-play-access">Gratisgränser, BP och BALCO Plus</a>.</p>
       </div>
       <div class="hero-visual" aria-label="BALCO Converter — Visa appen">
         <figure class="phone-frame phone-frame-v1603">
@@ -211,7 +212,7 @@
           <p class="eyebrow">Funktioner</p>
           <h2 id="features-title">Användbara verktyg utan onödigt krångel</h2>
         </div>
-        <p>Valutaomvandlare med verklig kostnad, resetavla och offlinekurser</p>
+        <p>Prisomräkning, jämförelser av växlingskostnader och sparade kurser för dina resor.</p>
       </div>
       <div class="feature-grid">
         <article class="feature-card">
@@ -222,7 +223,7 @@
         <article class="feature-card">
           <span class="feature-mark" data-feature-icon="scanner" aria-hidden="true"><svg viewBox="0 0 24 24" focusable="false"><path d="M4 8V6a2 2 0 0 1 2-2h2M16 4h2a2 2 0 0 1 2 2v2M20 16v2a2 2 0 0 1-2 2h-2M8 20H6a2 2 0 0 1-2-2v-2M7 12h10"/></svg></span>
           <h3>Prisskanner</h3>
-          <p>Tryck på kameran på huvudskärmen, välj käll- och målvaluta och håll ett tryckt pris inom ramen. Bekräfta det identifierade värdet för att använda det i omvandlaren.</p>
+          <p>Läs ett tryckt pris med kameran och räkna om det till en välbekant valuta. Kontrollera det identifierade beloppet och den valda valutan innan du bekräftar.</p>
         </article>
         <article class="feature-card">
           <span class="feature-mark" aria-hidden="true">%</span>
@@ -232,7 +233,7 @@
         <article class="feature-card">
           <span class="feature-mark" data-feature-icon="travel" aria-hidden="true"><svg viewBox="0 0 24 24" focusable="false"><path d="M17.8 19.2 16 11l3.5-3.5C21 6 21.5 4 20.5 3s-3-.5-4.5 1L12.5 7.5 4.3 5.7c-.5-.1-.9.1-1.1.5l-.3.5c-.2.4-.1.9.3 1.2l5.3 3.9-2 2-2.2-.7c-.5-.2-1 .1-1.3.5l-.2.3c-.3.5-.1 1.1.3 1.4l3.9 2.8c.4.3 1 .3 1.4-.1L12 16l3.9 5.3c.3.4.8.5 1.2.3l.5-.3c.4-.2.6-.7.5-1.1Z"/></svg></span>
           <h3>Resevalutaöversikt</h3>
-          <p>Tryck på en valuta för att göra den till basvaluta.</p>
+          <p>Jämför ett belopp i flera valutor samtidigt. Tryck på en valuta för att använda den som basvaluta.</p>
         </article>
         <article class="feature-card">
           <span class="feature-mark" data-feature-icon="offline" aria-hidden="true"><svg viewBox="0 0 24 24" focusable="false"><path d="m2 2 20 20M8.5 16.5a5 5 0 0 1 7 0M5 12.9a10 10 0 0 1 5.2-2.7M19 12.9a10 10 0 0 0-2-1.5M2 8.8a15 15 0 0 1 4.2-2.6M22 8.8a15 15 0 0 0-11.3-4.7M12 20h.01"/></svg></span>
@@ -243,6 +244,34 @@
           <span class="feature-mark" aria-hidden="true">₿</span>
           <h3>Krypto</h3>
           <p>Öppna ”Krypto” i menyn för att omvandla mellan mynt och fiatvalutor som stöds. Data kommer normalt från CoinGecko, med Kraken som sekundär källa.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section shell shopping-section" id="shopping" aria-labelledby="shopping-title">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">I Google Play-versionen</p>
+          <h2 id="shopping-title">Från prislapp till summan av dina inköp</h2>
+        </div>
+        <p>Kontrollera varje pris och se totalsumman i din valda valuta.</p>
+      </div>
+      <div class="shopping-grid">
+        <article class="shopping-card" aria-labelledby="cart-title">
+          <h3 id="cart-title">Varukorg</h3>
+          <p>Lägg till priser med kameran eller ange dem manuellt. Kontrollera varje belopp och valuta och ändra antalet vid behov.</p>
+          <p>Se den omräknade kostnaden för varje vara och totalsumman i din valda valuta.</p>
+        </article>
+        <article class="shopping-card" id="google-play-access" aria-labelledby="access-title">
+          <h3 id="access-title">Gratis användning och valfria tillägg</h3>
+          <p>Google Play-versionen innehåller 5 kostnadsfria prisskanningar per dag. Den har annonser, BALCO Points (BP) för ytterligare användning och en valfri BALCO Plus-prenumeration.</p>
+          <details class="access-details">
+            <summary>Gränser, BP och prenumerationsvillkor</summary>
+            <p><strong>Prisskanner:</strong> 5 kostnadsfria slutförda omräkningar per dag. Varje ytterligare vanlig skanning kostar 2 BP.</p>
+            <p><strong>Varukorg:</strong> En separat kvot med 10 kostnadsfria tillägg under de första 24 timmarna från första användningen, därefter 5 kostnadsfria tillägg per dag. Varor som läggs till manuellt eller med skannern delar denna varukorgskvot. Varje ytterligare vara som läggs till kostar 1 BP.</p>
+            <p><strong>BALCO Points:</strong> Du får 20 BP när du ser en belöningsannons till slut, om en annons finns tillgänglig. Omräkning av markerad text kostar 1 BP; permanent upplåsning av ett extra tema kostar 60 BP per tema.</p>
+            <p><strong>BALCO Plus:</strong> En valfri månads- eller årsprenumeration som förnyas automatiskt. Så länge den är aktiv tar den bort annonser och ger obegränsad användning av betalfunktioner, inklusive tillägg till varukorgen, samt alla extra teman. Tillgången till teman via prenumerationen gäller bara medan prenumerationen är aktiv. Hantera eller avsluta den i Google Play.</p>
+          </details>
         </article>
       </div>
     </section>
