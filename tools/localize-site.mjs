@@ -5,6 +5,7 @@ import { createRunTimestamp, writeGeneratedJson } from './generated-json.mjs';
 import { resolveToolMessages } from './tool-localization-data.mjs';
 import { ensureStoreLinks } from './store-links.mjs';
 import { searchHreflang, skipLinkLabel, updateGenericNavigation, updateSearchAlternates } from './locale-navigation.mjs';
+import { updateHomepageSeo, validateHomepageSeoCopy } from './sync-homepage-seo.mjs';
 
 const root = path.resolve(import.meta.dirname, '..');
 const androidRoot = path.resolve(process.env.ANDROID_SOURCE_ROOT || path.join(root, '..'));
@@ -46,6 +47,8 @@ const resourceFolders = {
   'pt-PT': 'values-pt-rPT', 'zh-Hans': 'values-b+zh+Hans', 'zh-Hant': 'values-b+zh+Hant'
 };
 const webCopy = JSON.parse(await fs.readFile(path.join(root, 'tools', 'web-copy.json'), 'utf8'));
+const homepageSeoCopy = JSON.parse(await fs.readFile(path.join(root, 'tools', 'homepage-seo-copy.json'), 'utf8'));
+validateHomepageSeoCopy(homepageSeoCopy, locales.map(locale => locale.web));
 const homepageLinkCopy = JSON.parse(await fs.readFile(path.join(root, 'tools', 'homepage-link-copy.json'), 'utf8'));
 const privacyTitleCopy = JSON.parse(await fs.readFile(path.join(root, 'tools', 'privacy-title-copy.json'), 'utf8'));
 const linksCopy = JSON.parse(await fs.readFile(path.join(root, 'tools', 'links-copy.json'), 'utf8'));
@@ -658,7 +661,10 @@ for (const locale of locales) {
   const directory = path.join(root, locale.route);
   await fs.mkdir(directory, { recursive: true });
   const homePath = path.join(directory, 'index.html');
-  const homeWithLinks = updateGenericNavigation(ensureStoreLinks(ensureMobileNavigation(ensureFooterLinks(ensureFeatureIcons(home), locale))), locale.web);
+  const homeWithNavigation = updateGenericNavigation(ensureStoreLinks(ensureMobileNavigation(ensureFooterLinks(ensureFeatureIcons(home), locale))), locale.web);
+  // Apply the approved locale metadata after either regeneration or retention
+  // of an existing homepage, including the preserved English homepage.
+  const homeWithLinks = updateHomepageSeo(homeWithNavigation, homepageSeoCopy[locale.web]);
   if (!preserved.has(locale.android) || homeWithLinks !== home) await fs.writeFile(homePath, homeWithLinks);
   if (preserveExistingPolicies) {
     const preservedPath = path.join(directory, 'privacy-policy.html');
