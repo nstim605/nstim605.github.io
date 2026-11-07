@@ -46,7 +46,6 @@
   "To": "У",
   "From": "Из",
   "Your conversion": "Резултат прерачуна",
-
   "A provider can advertise “no commission” while using a less favourable exchange rate. That shortfall is effectively a cost hidden in the rate.": "Понуђач може оглашавати размену „без провизије“, а ипак користити неповољнији курс. Разлика у односу на референтни резултат тада представља трошак скривен у курсу. Позитиван проценат значи да добијате мање од референтног резултата, а негативан да је понуђени износ већи.",
   "A reference rate is unavailable for this currency pair.": "Референтни курс за овај валутни пар није доступан.",
   "Above reference by": "Изнад референтног резултата за",
@@ -86,7 +85,6 @@
   "You receive less by": "Добијате мање за",
   "You receive more by": "Добијате више за",
   "Your comparison": "Резултат поређења",
-
   "+ Add another currency": "+ Додај валуту",
   "A multi-currency view is useful when a journey crosses several countries, when you compare prices across markets, or when you plan a budget in more than one currency.": "Прерачунајте један износ одједном у више валута. То је корисно када поредите цене у различитим земљама, планирате буџет у више валута или намеравате да посетите више земаља.",
   "Amount and base rate must be positive numbers.": "Износ и основни курс морају бити позитивни бројеви.",
@@ -111,7 +109,6 @@
   "Target currencies must be different from the base currency.": "Циљне валуте морају се разликовати од основне валуте.",
   "The Android app keeps several trip currencies together, supports reordering, and can prepare rates for offline use.": "Апликација за Android држи више валута за путовање на једном месту, омогућава промену редоследа и припрему курсева за рад без интернета.",
   "Use Travel Board in BALCO Converter": "Користите Мултивалутну таблу у апликацији BALCO Converter",
-
   "A clear guide to converting currencies without internet using dated, saved exchange rates.": "Јасан водич за прерачун валута без интернета помоћу сачуваних курсева са назначеним датумом.",
   "A converter can keep working without internet by using the latest exchange rates it successfully saved on your device. Those rates are useful reference data—but they remain tied to their original date until the app can refresh them online.": "Конвертор може да ради без интернета користећи последње курсеве који су успешно сачувани на уређају. Ти курсеви су корисни као референтни подаци, али остају везани за свој првобитни датум док их апликација не освежи преко интернета.",
   "A practical guide to using dated, saved exchange rates for currency conversion without internet.": "Практичан водич за коришћење сачуваних курсева са датумом при прерачуну валута без интернета.",
@@ -147,7 +144,6 @@
   "What a saved offline rate means": "Шта значи сачувани офлајн курс",
   "What happens when internet returns?": "Шта се дешава када се интернет врати?",
   "When offline, conversions use that saved dataset and show that cached data is being used, together with the rate date.": "Без интернета прерачуни користе сачувани скуп. Апликација приказује да се користе кеширани подаци, заједно са датумом курса.",
-
   "{base} to {quote} reference-rate history from {from} to {to}. Minimum {minimum}, maximum {maximum}.": "Историја референтног курса {base}/{quote} од {from} до {to}. Минимум: {minimum}, максимум: {maximum}.",
   "{base}/{quote} exchange-rate history": "Историја курса {base}/{quote}",
   "{count} dated reference rates loaded.": "Број учитаних референтних курсева са датумом: {count}.",
@@ -173,7 +169,6 @@
   "Historical reference-rate tool": "Алат за историју курсева",
   "Historical trend": "Кретање курса",
   "Invalid historical-rate response.": "Сервис је вратио неисправне податке о историјском курсу.",
-  "Keep useful pairs close": "Нека вам важни валутни парови буду при руци",
   "Latest available rate": "Последњи доступан курс",
   "Loading history…": "Учитавање историје…",
   "Look up a historical rate": "Пронађи курс за датум",
@@ -195,7 +190,6 @@
   "View historical reference rates, a responsive currency chart, period statistics, and a rate for a specific date.": "Погледајте историјске референтне курсеве, прилагодљив графикон, статистику периода и курс за одређени датум.",
   "What historical reference rates show": "Шта показују историјски референтни курсеви",
   "You selected {selectedDate}; the nearest available published data returned by the API is dated {date}.": "Изабрали сте {selectedDate}; најближи доступни објављени подаци које је сервис вратио односе се на {date}.",
-
   "Add a currency converter widget to an Android home screen and use its cached reference rate.": "Додајте виџет конвертора валута на почетни екран Android уређаја и користите његов сачувани референтни курс.",
   "Add a currency converter widget to your Android home screen for quick access to a cached exchange rate, rate date, swap action and app shortcut.": "Додајте виџет конвертора валута на почетни екран Android уређаја за брз приступ сачуваном курсу, датуму курса, замени валута и отварању апликације.",
   "Add the currency widget": "Додајте валутни виџет",
@@ -234,7 +228,6 @@
   "The widget uses the app’s latest successfully cached rate dataset; it is not an independent live market feed. When BALCO Converter successfully refreshes its rates, installed widgets receive the updated cached data.": "Виџет користи последњи успешно сачуван скуп курсева из апликације; није независан извор курсева уживо. Када BALCO Converter успешно освежи курсеве, инсталирани виџети добијају ажуриране кеширане податке.",
   "What the widget shows": "Шта виџет приказује",
   "Why the date matters": "Зашто је датум курса важан",
-
   "A different comparison?": "Други начин поређења",
   "Add the optional DCC quoted total to compare both payment options.": "Да бисте упоредили обе опције плаћања, унесите и опционални коначни износ понуде DCC.",
   "Added to the local-currency estimate, in your home/card currency": "Унесите у валути картице. Ова провизија додаје се само процени плаћања у локалној валути.",
@@ -289,7 +282,6 @@
   "What Dynamic Currency Conversion means": "Шта је динамичка конверзија валуте (DCC)",
   "What this estimate cannot know": "Ограничења процене",
   "Your bank, card network, merchant or ATM may use a different exchange rate or charge another fee you did not enter. A fixed ATM fee is separate from a percentage foreign transaction fee.": "Ваша банка, платна мрежа, продавац или банкомат могу користити другачији курс или наплатити додатну провизију коју нисте унели. Фиксна провизија банкомата одвојена је од процентуалне провизије за трансакцију у иностранству.",
-
   "A quick estimate, not a trip planner": "Брза процена, а не планер путовања",
   "Accommodation": "Смештај",
   "Accommodation per day": "Смештај по дану",
@@ -340,7 +332,6 @@
   "Use it to establish a practical starting budget. Actual prices, card fees and exchange rates can change.": "Користите резултат као практичну полазну процену. Стварне цене, провизије по картици и курсеви могу се променити.",
   "Useful currency tools for a trip": "Корисни валутни алати за путовање",
   "What to include": "Које трошкове укључити",
-
   "© 2026 BALCO Converter": "© 2026 BALCO Converter",
   "1 year": "Једна година",
   "30 days": "30 дана",

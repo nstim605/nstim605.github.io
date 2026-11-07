@@ -44,7 +44,6 @@
   "To": "В",
   "From": "Из",
   "Your conversion": "Результат конвертации",
-
   "A provider can advertise “no commission” while using a less favourable exchange rate. That shortfall is effectively a cost hidden in the rate.": "Даже при обмене «без комиссии» расходы могут быть заложены в менее выгодный курс. Сравнение со справочным курсом помогает увидеть эту разницу. Положительное значение означает, что вы получите меньше суммы по справочному курсу; отрицательное — что предложенная сумма выше справочного результата.",
   "A reference rate is unavailable for this currency pair.": "Для этой валютной пары нет справочного курса.",
   "Above reference by": "Выше справочного результата на",
@@ -84,7 +83,6 @@
   "You receive less by": "Вы получите меньше на",
   "You receive more by": "Вы получите больше на",
   "Your comparison": "Результат сравнения",
-
   "+ Add another currency": "+ Добавить валюту",
   "A multi-currency view is useful when a journey crosses several countries, when you compare prices across markets, or when you plan a budget in more than one currency.": "Пересчитывайте одну сумму сразу в несколько валют. Это удобно, когда вы сравниваете цены в разных странах, планируете бюджет в нескольких валютах или собираетесь посетить несколько стран.",
   "Amount and base rate must be positive numbers.": "Сумма и исходный курс должны быть положительными числами.",
@@ -109,7 +107,6 @@
   "Target currencies must be different from the base currency.": "Валюты результата должны отличаться от исходной валюты.",
   "The Android app keeps several trip currencies together, supports reordering, and can prepare rates for offline use.": "Приложение для Android показывает несколько валют поездки вместе, позволяет менять их порядок и подготавливать курсы для работы без интернета.",
   "Use Travel Board in BALCO Converter": "Используйте Мультивалютное табло в BALCO Converter",
-
   "A clear guide to converting currencies without internet using dated, saved exchange rates.": "Понятное руководство по конвертации валют без интернета с использованием сохранённых курсов и их дат.",
   "A converter can keep working without internet by using the latest exchange rates it successfully saved on your device. Those rates are useful reference data—but they remain tied to their original date until the app can refresh them online.": "Конвертер может работать без интернета, используя последние курсы, успешно сохранённые на устройстве. Они подходят для приблизительных расчётов, но относятся к указанной дате и не обновятся, пока приложение снова не подключится к сети.",
   "A practical guide to using dated, saved exchange rates for currency conversion without internet.": "Практическое руководство по использованию сохранённых курсов с указанной датой для расчётов без интернета.",
@@ -145,7 +142,6 @@
   "What a saved offline rate means": "Что означает сохранённый офлайн-курс",
   "What happens when internet returns?": "Что происходит после подключения к интернету",
   "When offline, conversions use that saved dataset and show that cached data is being used, together with the rate date.": "Без интернета расчёты используют сохранённый набор. Приложение сообщает, что данные кэшированы, и показывает дату курса.",
-
   "{base} to {quote} reference-rate history from {from} to {to}. Minimum {minimum}, maximum {maximum}.": "История справочного курса {base}/{quote} с {from} по {to}. Минимум: {minimum}, максимум: {maximum}.",
   "{base}/{quote} exchange-rate history": "История курса {base}/{quote}",
   "{count} dated reference rates loaded.": "Загружено справочных курсов с датами: {count}.",
@@ -156,7 +152,6 @@
   "Daily reference-rate observations; this is not an intraday trading chart.": "Справочные курсы по дням; это не внутридневной биржевой график.",
   "Dates and trends": "Даты и динамика",
   "Each point represents the published reference rate for one date. The minimum, maximum and average summarize the selected period; they are not forecasts.": "Каждая точка показывает опубликованный справочный курс за определённую дату. Минимум, максимум и среднее характеризуют выбранный период, но не являются прогнозом.",
-  "Exchange Rate History": "История курсов",
   "Exchange Rate History & Currency Chart": "История и график валютного курса",
   "Exchange Rate History & Currency Chart | BALCO Converter": "История и график валютного курса | BALCO Converter",
   "Exchange-rate history": "История курса",
@@ -172,7 +167,6 @@
   "Historical reference-rate tool": "Инструмент истории курсов",
   "Historical trend": "Динамика курса",
   "Invalid historical-rate response.": "Сервис вернул некорректные данные об историческом курсе.",
-  "Keep useful pairs close": "Сохраняйте нужные валютные пары",
   "Latest available rate": "Последний доступный курс",
   "Loading history…": "Загружаем историю…",
   "Look up a historical rate": "Найти курс на дату",
@@ -194,7 +188,6 @@
   "View historical reference rates, a responsive currency chart, period statistics, and a rate for a specific date.": "Просматривайте исторические справочные курсы, адаптивный график, статистику за период и курс на выбранную дату.",
   "What historical reference rates show": "Что показывают исторические справочные курсы",
   "You selected {selectedDate}; the nearest available published data returned by the API is dated {date}.": "Вы выбрали {selectedDate}; ближайшие опубликованные данные, возвращённые сервисом, относятся к {date}.",
-
   "Add a currency converter widget to an Android home screen and use its cached reference rate.": "Добавьте виджет конвертера валют на главный экран Android и используйте сохранённый справочный курс.",
   "Add a currency converter widget to your Android home screen for quick access to a cached exchange rate, rate date, swap action and app shortcut.": "Добавьте виджет конвертера валют на главный экран Android для быстрого доступа к сохранённому курсу, его дате, смене валют местами и открытию приложения.",
   "Add the currency widget": "Добавьте валютный виджет",
@@ -233,7 +226,6 @@
   "The widget uses the app’s latest successfully cached rate dataset; it is not an independent live market feed. When BALCO Converter successfully refreshes its rates, installed widgets receive the updated cached data.": "Виджет использует последний успешно сохранённый набор курсов приложения, а не отдельный поток рыночных данных. После успешного обновления курсов в BALCO Converter установленные виджеты получают новые сохранённые данные.",
   "What the widget shows": "Что показывает виджет",
   "Why the date matters": "Почему важна дата курса",
-
   "A different comparison?": "Другие инструменты",
   "Add the optional DCC quoted total to compare both payment options.": "Чтобы сравнить оба варианта оплаты, добавьте необязательную итоговую сумму предложения DCC.",
   "Added to the local-currency estimate, in your home/card currency": "Введите в валюте карты. Комиссия добавляется только к оценке оплаты в местной валюте.",
@@ -288,7 +280,6 @@
   "What Dynamic Currency Conversion means": "Что такое конвертация DCC",
   "What this estimate cannot know": "Ограничения расчёта",
   "Your bank, card network, merchant or ATM may use a different exchange rate or charge another fee you did not enter. A fixed ATM fee is separate from a percentage foreign transaction fee.": "Расчёт учитывает введённые вами данные и комиссии. Банк, платёжная система, продавец или банкомат могут применять другой курс и дополнительные комиссии. Поэтому фактическая сумма списания может отличаться от расчётной.",
-
   "A quick estimate, not a trip planner": "Быстрая оценка, а не планировщик поездки",
   "Accommodation": "Проживание",
   "Accommodation per day": "Проживание в день",

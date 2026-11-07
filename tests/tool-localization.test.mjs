@@ -36,7 +36,7 @@ test('production inventory contains 44 locale variants and eight tools', () => {
 
 test('translation catalog is complete, non-empty, and preserves placeholders', () => {
   const placeholders = value => [...value.matchAll(/\{[A-Za-z][A-Za-z0-9]*\}/g)].map(match => match[0]).sort();
-  assert.equal(source.strings.length, 433);
+  assert.equal(source.strings.length, 432);
   for (const locale of inventory.locales) {
     const rawMessages = copy.locales[locale.webLocale];
     assert.ok(rawMessages, `${locale.webLocale}: catalog missing`);
