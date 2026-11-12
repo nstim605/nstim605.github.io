@@ -3,6 +3,20 @@
     "title": "What’s New",
     "cards": [
       {
+        "id": "ChartsAndConversion",
+        "version": "1.620",
+        "versionCode": 37,
+        "published": true,
+        "statusLabel": "Google Play · 1.620",
+        "title": "Clearer charts and easier conversion!",
+        "bullets": [
+          "Charts now include a numeric scale, a latest-rate marker, and labels for the lowest and highest values. It is easier to follow exchange-rate changes.",
+          "After swapping currencies, the top field is ready for input. Your entered number is kept, so you can continue calculating without extra taps.",
+          "Improved data loading when the app starts.",
+          "Improved wording and translations, and aligned the license list."
+        ]
+      },
+      {
         "id": "ScannerAccuracy",
         "title": "Improved price scanner",
         "body": "• Improved recognition of price tags, catalogues and menus, including small or raised decimal digits. • Better distinction between the main price, product codes, pack quantities and reference prices per kilogram. • Refined price checks across multiple frames to prevent random reading errors from gaining false confirmation.",
@@ -98,6 +112,20 @@
   "sr": {
     "title": "Шта је ново",
     "cards": [
+      {
+        "id": "ChartsAndConversion",
+        "version": "1.620",
+        "versionCode": 37,
+        "published": true,
+        "statusLabel": "Google Play · 1.620",
+        "title": "Јаснији графикони и једноставнија конверзија!",
+        "bullets": [
+          "Графикони сада имају бројчану скалу, ознаку последњег курса и ознаке најниже и највише вредности. Промене курса се лакше прате.",
+          "Када замените редослед валута, горње поље је одмах спремно за унос. Унети број се задржава, па можете да наставите рачунање без додатних додира.",
+          "Дорађено је учитавање података при покретању апликације.",
+          "Побољшане су формулације и преводи, а листа лиценци је поравната."
+        ]
+      },
       {
         "id": "ScannerAccuracy",
         "title": "Побољшан скенер цена",
@@ -195,6 +223,20 @@
     "title": "Šta je novo",
     "cards": [
       {
+        "id": "ChartsAndConversion",
+        "version": "1.620",
+        "versionCode": 37,
+        "published": true,
+        "statusLabel": "Google Play · 1.620",
+        "title": "Pregledniji grafikoni i jednostavnija konverzija!",
+        "bullets": [
+          "Grafikoni sada imaju brojčanu skalu, oznaku posljednjeg kursa i oznake najniže i najviše vrijednosti. Promjene kursa lakše se prate.",
+          "Kada zamijenite redoslijed valuta, gornje polje odmah je spremno za unos. Uneseni broj ostaje sačuvan pa možete nastaviti računanje bez dodatnih dodira.",
+          "Dorađeno je učitavanje podataka pri pokretanju aplikacije.",
+          "Poboljšane su formulacije i prijevodi, a lista licenci je poravnata."
+        ]
+      },
+      {
         "id": "ScannerAccuracy",
         "title": "Poboljšan skener cijena",
         "body": "• Poboljšano prepoznavanje cjenovnih oznaka, kataloga i menija, uključujući sitne ili podignute decimalne cifre. • Bolje razlikovanje glavne cijene od šifri artikala, količine u pakovanju i referentne cijene po kilogramu. • Dorađena provjera cijene kroz više kadrova kako slučajne greške u čitanju ne bi dobijale lažnu potvrdu.",
@@ -290,6 +332,20 @@
   "hr": {
     "title": "Što je novo",
     "cards": [
+      {
+        "id": "ChartsAndConversion",
+        "version": "1.620",
+        "versionCode": 37,
+        "published": true,
+        "statusLabel": "Google Play · 1.620",
+        "title": "Pregledniji grafikoni i jednostavnija pretvorba!",
+        "bullets": [
+          "Grafikoni sada imaju brojčanu ljestvicu, oznaku posljednjeg tečaja te oznake najniže i najviše vrijednosti. Promjene tečaja lakše je pratiti.",
+          "Nakon zamjene redoslijeda valuta gornje je polje odmah spremno za unos. Uneseni se broj zadržava pa možete nastaviti računati bez dodatnih dodira.",
+          "Dorađeno je učitavanje podataka pri pokretanju aplikacije.",
+          "Poboljšane su formulacije i prijevodi te je poravnat popis licenci."
+        ]
+      },
       {
         "id": "ScannerAccuracy",
         "title": "Poboljšan skener cijena",
@@ -387,6 +443,20 @@
     "title": "Të rejat",
     "cards": [
       {
+        "id": "ChartsAndConversion",
+        "version": "1.620",
+        "versionCode": 37,
+        "published": true,
+        "statusLabel": "Google Play · 1.620",
+        "title": "Grafikë më të qartë dhe konvertim më i lehtë!",
+        "bullets": [
+          "Grafikët tani kanë një shkallë numerike, një shenjë për kursin e fundit dhe etiketa për vlerën minimale e maksimale. Ndryshimet e kursit ndiqen më lehtë.",
+          "Pas ndërrimit të vendeve të monedhave, fusha e sipërme është menjëherë gati për shkrim. Numri i futur ruhet, kështu që mund të vazhdoni llogaritjen pa prekje shtesë.",
+          "Përmirësuam ngarkimin e të dhënave gjatë nisjes së aplikacionit.",
+          "Përmirësuam formulimet dhe përkthimet dhe rreshtuam listën e licencave."
+        ]
+      },
+      {
         "id": "ScannerAccuracy",
         "title": "Skaner i përmirësuar i çmimeve",
         "body": "• Njohje më e mirë e etiketave të çmimeve, katalogëve dhe menyve, përfshirë shifrat dhjetore të vogla ose të ngritura. • Dallim më i mirë i çmimit kryesor nga kodet e artikujve, sasia në paketim dhe çmimi referues për kilogram. • Verifikim më i mirë i çmimit në disa kuadro, që gabimet rastësore të leximit të mos marrin konfirmim të rremë.",
@@ -482,6 +552,20 @@
   "mk": {
     "title": "Што има ново",
     "cards": [
+      {
+        "id": "ChartsAndConversion",
+        "version": "1.620",
+        "versionCode": 37,
+        "published": true,
+        "statusLabel": "Google Play · 1.620",
+        "title": "Појасни графикони и полесна конверзија!",
+        "bullets": [
+          "Графиконите сега имаат бројчана скала, ознака за последниот курс и ознаки за најниската и највисоката вредност. Промените на курсот полесно се следат.",
+          "По замената на редоследот на валутите, горното поле е веднаш подготвено за внес. Внесениот број се задржува, па може да продолжите со пресметката без дополнителни допири.",
+          "Го доработивме вчитувањето на податоците при стартување на апликацијата.",
+          "Ги подобривме формулациите и преводите и го порамнивме списокот со лиценци."
+        ]
+      },
       {
         "id": "ScannerAccuracy",
         "title": "Подобрен скенер за цени",
@@ -579,6 +663,20 @@
     "title": "Какво е новото",
     "cards": [
       {
+        "id": "ChartsAndConversion",
+        "version": "1.620",
+        "versionCode": 37,
+        "published": true,
+        "statusLabel": "Google Play · 1.620",
+        "title": "По-ясни графики и по-удобно преобразуване!",
+        "bullets": [
+          "Графиките вече имат числова скала, маркер за последния курс и надписи за минималната и максималната стойност. Така промените в курса се проследяват по-лесно.",
+          "След размяна на валутите горното поле е веднага готово за въвеждане. Въведеното число се запазва, така че можете да продължите изчислението без допълнителни докосвания.",
+          "Подобрихме зареждането на данни при стартиране на приложението.",
+          "Подобрихме формулировките и преводите и подравнихме списъка с лицензи."
+        ]
+      },
+      {
         "id": "ScannerAccuracy",
         "title": "Подобрен скенер за цени",
         "body": "• Подобрено разпознаване на ценови етикети, каталози и менюта, включително малки или повдигнати десетични цифри. • По-добро разграничаване на основната цена от артикулни кодове, брой в опаковката и референтна цена за килограм. • Прецизирана проверка на цената през няколко кадъра, за да не получават случайните грешки при четене фалшиво потвърждение.",
@@ -674,6 +772,20 @@
   "ro": {
     "title": "Noutăți",
     "cards": [
+      {
+        "id": "ChartsAndConversion",
+        "version": "1.620",
+        "versionCode": 37,
+        "published": true,
+        "statusLabel": "Google Play · 1.620",
+        "title": "Grafice mai clare și conversii mai ușoare!",
+        "bullets": [
+          "Graficele includ acum o scară numerică, un marcaj pentru ultimul curs și etichete pentru valorile minimă și maximă. Evoluția cursului este mai ușor de urmărit.",
+          "După inversarea monedelor, câmpul de sus este imediat pregătit pentru introducerea datelor. Numărul introdus se păstrează, astfel încât puteți continua calculul fără atingeri suplimentare.",
+          "Am îmbunătățit încărcarea datelor la pornirea aplicației.",
+          "Am îmbunătățit formulările și traducerile și am aliniat lista de licențe."
+        ]
+      },
       {
         "id": "ScannerAccuracy",
         "title": "Scaner de prețuri îmbunătățit",
@@ -771,6 +883,20 @@
     "title": "Újdonságok",
     "cards": [
       {
+        "id": "ChartsAndConversion",
+        "version": "1.620",
+        "versionCode": 37,
+        "published": true,
+        "statusLabel": "Google Play · 1.620",
+        "title": "Áttekinthetőbb grafikonok, kényelmesebb átváltás!",
+        "bullets": [
+          "A grafikonokon mostantól számozott skála, a legutóbbi árfolyam jelölése, valamint a legkisebb és legnagyobb érték felirata is látható. Így könnyebb követni az árfolyam változását.",
+          "A pénznemek felcserélése után a felső mező azonnal szerkeszthető. A beírt szám megmarad, így további koppintások nélkül folytathatod a számítást.",
+          "Javítottuk az adatok betöltését az alkalmazás indításakor.",
+          "Javítottuk a szövegezést és a fordításokat, valamint egységesítettük a licenclista igazítását."
+        ]
+      },
+      {
         "id": "ScannerAccuracy",
         "title": "Továbbfejlesztett árleolvasó",
         "body": "• Javítottuk az árcímkék, katalógusok és étlapok felismerését, beleértve az apró vagy megemelt tizedesjegyeket. • Jobban elkülönül a fő ár a cikkszámoktól, a csomagban lévő mennyiségtől és a kilogrammonkénti tájékoztató ártól. • Pontosítottuk az ár több képkockán át végzett ellenőrzését, hogy a véletlen olvasási hibák ne kapjanak téves megerősítést.",
@@ -866,6 +992,20 @@
   "pl": {
     "title": "Co nowego",
     "cards": [
+      {
+        "id": "ChartsAndConversion",
+        "version": "1.620",
+        "versionCode": 37,
+        "published": true,
+        "statusLabel": "Google Play · 1.620",
+        "title": "Czytelniejsze wykresy i wygodniejsze przeliczanie!",
+        "bullets": [
+          "Wykresy mają teraz skalę liczbową, oznaczenie ostatniego kursu oraz etykiety wartości minimalnej i maksymalnej. Łatwiej śledzić zmiany kursu.",
+          "Po zamianie walut miejscami górne pole jest od razu gotowe do wpisywania. Wprowadzona liczba pozostaje bez zmian, więc możesz kontynuować obliczenia bez dodatkowych dotknięć.",
+          "Usprawniliśmy wczytywanie danych przy uruchamianiu aplikacji.",
+          "Poprawiliśmy sformułowania i tłumaczenia oraz wyrównaliśmy listę licencji."
+        ]
+      },
       {
         "id": "ScannerAccuracy",
         "title": "Ulepszony skaner cen",
@@ -963,6 +1103,20 @@
     "title": "Co je nového",
     "cards": [
       {
+        "id": "ChartsAndConversion",
+        "version": "1.620",
+        "versionCode": 37,
+        "published": true,
+        "statusLabel": "Google Play · 1.620",
+        "title": "Přehlednější grafy a pohodlnější převody!",
+        "bullets": [
+          "Grafy nyní mají číselnou stupnici, značku posledního kurzu a popisky nejnižší a nejvyšší hodnoty. Změny kurzu se tak snáze sledují.",
+          "Po prohození měn je horní pole ihned připravené k zadávání. Zadané číslo zůstává zachováno, takže můžete pokračovat ve výpočtu bez dalšího klepání.",
+          "Vylepšili jsme načítání dat při spuštění aplikace.",
+          "Upravili jsme formulace a překlady a zarovnali seznam licencí."
+        ]
+      },
+      {
         "id": "ScannerAccuracy",
         "title": "Vylepšený skener cen",
         "body": "• Vylepšili jsme rozpoznávání cenovek, katalogů a jídelních lístků včetně malých nebo vyvýšených desetinných číslic. • Lepší rozlišení hlavní ceny od kódů zboží, množství v balení a referenční ceny za kilogram. • Zpřesnili jsme ověřování ceny v několika snímcích, aby náhodné chyby čtení nezískávaly falešné potvrzení.",
@@ -1058,6 +1212,20 @@
   "sk": {
     "title": "Čo je nové",
     "cards": [
+      {
+        "id": "ChartsAndConversion",
+        "version": "1.620",
+        "versionCode": 37,
+        "published": true,
+        "statusLabel": "Google Play · 1.620",
+        "title": "Prehľadnejšie grafy a pohodlnejšie prevody!",
+        "bullets": [
+          "Grafy teraz obsahujú číselnú stupnicu, označenie posledného kurzu a popisy najnižšej a najvyššej hodnoty. Zmeny kurzu sa tak ľahšie sledujú.",
+          "Po prehodení mien je horné pole okamžite pripravené na zadávanie. Zadané číslo zostáva zachované, takže môžete pokračovať vo výpočte bez ďalších ťuknutí.",
+          "Vylepšili sme načítanie údajov pri spustení aplikácie.",
+          "Upravili sme formulácie a preklady a zarovnali zoznam licencií."
+        ]
+      },
       {
         "id": "ScannerAccuracy",
         "title": "Vylepšený skener cien",
@@ -1155,6 +1323,20 @@
     "title": "Novosti",
     "cards": [
       {
+        "id": "ChartsAndConversion",
+        "version": "1.620",
+        "versionCode": 37,
+        "published": true,
+        "statusLabel": "Google Play · 1.620",
+        "title": "Preglednejši grafi in priročnejše pretvarjanje!",
+        "bullets": [
+          "Grafi imajo zdaj številsko lestvico, oznako zadnjega tečaja ter oznaki najnižje in najvišje vrednosti. Spremembe tečaja je tako lažje spremljati.",
+          "Po zamenjavi vrstnega reda valut je zgornje polje takoj pripravljeno za vnos. Vneseno število se ohrani, zato lahko nadaljujete izračun brez dodatnih dotikov.",
+          "Izboljšali smo nalaganje podatkov ob zagonu aplikacije.",
+          "Izboljšali smo besedila in prevode ter poravnali seznam licenc."
+        ]
+      },
+      {
         "id": "ScannerAccuracy",
         "title": "Izboljšan bralnik cen",
         "body": "• Izboljšano prepoznavanje cenovnih oznak, katalogov in jedilnikov, vključno z majhnimi ali dvignjenimi decimalnimi števkami. • Boljše razlikovanje glavne cene od šifer izdelkov, količine v pakiranju in referenčne cene na kilogram. • Izpopolnjeno preverjanje cene na več sličicah, da naključne napake pri branju ne dobijo napačne potrditve.",
@@ -1250,6 +1432,20 @@
   "de": {
     "title": "Neuigkeiten",
     "cards": [
+      {
+        "id": "ChartsAndConversion",
+        "version": "1.620",
+        "versionCode": 37,
+        "published": true,
+        "statusLabel": "Google Play · 1.620",
+        "title": "Übersichtlichere Diagramme und bequemeres Umrechnen!",
+        "bullets": [
+          "Die Diagramme haben jetzt eine Zahlenskala, eine Markierung für den neuesten Kurs sowie Beschriftungen für den niedrigsten und höchsten Wert. So lassen sich Kursänderungen leichter verfolgen.",
+          "Nach dem Tauschen der Währungen ist das obere Feld sofort zur Eingabe bereit. Die eingegebene Zahl bleibt erhalten. Du kannst direkt weiterrechnen, ohne das Feld erst antippen zu müssen.",
+          "Das Laden der Daten beim App-Start wurde verbessert.",
+          "Formulierungen und Übersetzungen wurden verbessert und die Lizenzliste wurde ausgerichtet."
+        ]
+      },
       {
         "id": "ScannerAccuracy",
         "title": "Verbesserter Preisscanner",
@@ -1347,6 +1543,20 @@
     "title": "Nouveautés",
     "cards": [
       {
+        "id": "ChartsAndConversion",
+        "version": "1.620",
+        "versionCode": 37,
+        "published": true,
+        "statusLabel": "Google Play · 1.620",
+        "title": "Des graphiques plus clairs, des conversions plus pratiques !",
+        "bullets": [
+          "Les graphiques affichent désormais une échelle numérique, un repère pour le dernier taux et des libellés pour les valeurs minimale et maximale. Il est plus facile de suivre les variations du taux.",
+          "Après avoir inversé les devises, le champ du haut est immédiatement prêt à la saisie. Le nombre saisi est conservé pour poursuivre le calcul sans appuis supplémentaires.",
+          "Le chargement des données au démarrage de l’application a été amélioré.",
+          "Les formulations et les traductions ont été améliorées, et la liste des licences a été alignée."
+        ]
+      },
+      {
         "id": "ScannerAccuracy",
         "title": "Scanner de prix amélioré",
         "body": "• Meilleure reconnaissance des étiquettes, catalogues et menus, y compris des décimales petites ou surélevées. • Meilleure distinction du prix principal, des références produit, des quantités par paquet et du prix de référence au kilogramme. • Vérification du prix affinée sur plusieurs images pour éviter de confirmer à tort des erreurs de lecture aléatoires.",
@@ -1442,6 +1652,20 @@
   "it": {
     "title": "Novità",
     "cards": [
+      {
+        "id": "ChartsAndConversion",
+        "version": "1.620",
+        "versionCode": 37,
+        "published": true,
+        "statusLabel": "Google Play · 1.620",
+        "title": "Grafici più chiari e conversioni più comode!",
+        "bullets": [
+          "I grafici ora mostrano una scala numerica, un indicatore dell’ultimo tasso e le etichette dei valori minimo e massimo. Seguire le variazioni del tasso è più semplice.",
+          "Dopo aver scambiato le valute, il campo superiore è subito pronto per l’inserimento. Il numero digitato viene mantenuto, così puoi continuare il calcolo senza ulteriori tocchi.",
+          "Abbiamo migliorato il caricamento dei dati all’avvio dell’app.",
+          "Abbiamo migliorato testi e traduzioni e allineato l’elenco delle licenze."
+        ]
+      },
       {
         "id": "ScannerAccuracy",
         "title": "Scanner dei prezzi migliorato",
@@ -1539,6 +1763,20 @@
     "title": "Novedades",
     "cards": [
       {
+        "id": "ChartsAndConversion",
+        "version": "1.620",
+        "versionCode": 37,
+        "published": true,
+        "statusLabel": "Google Play · 1.620",
+        "title": "¡Gráficos más claros y conversiones más cómodas!",
+        "bullets": [
+          "Los gráficos ahora incluyen una escala numérica, una marca del último tipo de cambio y etiquetas de los valores mínimo y máximo. Así es más fácil seguir los cambios del tipo de cambio.",
+          "Al intercambiar las monedas, el campo superior queda listo para escribir. El número introducido se conserva para que puedas continuar el cálculo sin pulsaciones adicionales.",
+          "Hemos mejorado la carga de datos al iniciar la aplicación.",
+          "Hemos mejorado los textos y las traducciones y alineado la lista de licencias."
+        ]
+      },
+      {
         "id": "ScannerAccuracy",
         "title": "Escáner de precios mejorado",
         "body": "• Mejor reconocimiento de etiquetas de precios, catálogos y menús, incluidos los decimales pequeños o elevados. • Mejor distinción entre el precio principal, los códigos de producto, la cantidad por envase y el precio de referencia por kilogramo. • Verificación del precio más precisa en varios fotogramas para evitar confirmar por error lecturas incorrectas aisladas.",
@@ -1634,6 +1872,20 @@
   "es-419": {
     "title": "Novedades",
     "cards": [
+      {
+        "id": "ChartsAndConversion",
+        "version": "1.620",
+        "versionCode": 37,
+        "published": true,
+        "statusLabel": "Google Play · 1.620",
+        "title": "¡Gráficos más claros y conversiones más cómodas!",
+        "bullets": [
+          "Los gráficos ahora incluyen una escala numérica, una marca del último tipo de cambio y etiquetas de los valores mínimo y máximo. Así es más fácil seguir las variaciones del tipo de cambio.",
+          "Al intercambiar las monedas, el campo superior queda listo para escribir. El número ingresado se conserva para que puedas continuar el cálculo sin toques adicionales.",
+          "Mejoramos la carga de datos al iniciar la app.",
+          "Mejoramos los textos y las traducciones y alineamos la lista de licencias."
+        ]
+      },
       {
         "id": "ScannerAccuracy",
         "title": "Escáner de precios mejorado",
@@ -1731,6 +1983,20 @@
     "title": "Novidades",
     "cards": [
       {
+        "id": "ChartsAndConversion",
+        "version": "1.620",
+        "versionCode": 37,
+        "published": true,
+        "statusLabel": "Google Play · 1.620",
+        "title": "Gráficos mais claros e conversões mais práticas!",
+        "bullets": [
+          "Os gráficos agora têm uma escala numérica, um marcador da última cotação e rótulos dos valores mínimo e máximo. Ficou mais fácil acompanhar as mudanças na cotação.",
+          "Ao inverter as moedas, o campo superior fica pronto para digitação. O número inserido é mantido para você continuar o cálculo sem toques extras.",
+          "Melhoramos o carregamento de dados ao iniciar o aplicativo.",
+          "Melhoramos os textos e as traduções e alinhamos a lista de licenças."
+        ]
+      },
+      {
         "id": "ScannerAccuracy",
         "title": "Scanner de preços aprimorado",
         "body": "• Melhor reconhecimento de etiquetas de preços, catálogos e cardápios, incluindo casas decimais pequenas ou elevadas. • Melhor distinção entre o preço principal, códigos de produtos, quantidade na embalagem e preço de referência por quilograma. • Verificação do preço aprimorada em vários quadros para evitar a confirmação indevida de erros aleatórios de leitura.",
@@ -1826,6 +2092,20 @@
   "pt-PT": {
     "title": "Novidades",
     "cards": [
+      {
+        "id": "ChartsAndConversion",
+        "version": "1.620",
+        "versionCode": 37,
+        "published": true,
+        "statusLabel": "Google Play · 1.620",
+        "title": "Gráficos mais claros e conversões mais práticas!",
+        "bullets": [
+          "Os gráficos incluem agora uma escala numérica, um marcador da última taxa e etiquetas dos valores mínimo e máximo. É mais fácil acompanhar as variações da taxa de câmbio.",
+          "Ao inverter as moedas, o campo superior fica imediatamente pronto para introduzir dados. O número introduzido mantém-se, permitindo continuar o cálculo sem toques adicionais.",
+          "Melhorámos o carregamento de dados ao iniciar a aplicação.",
+          "Melhorámos os textos e as traduções e alinhámos a lista de licenças."
+        ]
+      },
       {
         "id": "ScannerAccuracy",
         "title": "Leitor de preços melhorado",
@@ -1923,6 +2203,20 @@
     "title": "Wat is er nieuw",
     "cards": [
       {
+        "id": "ChartsAndConversion",
+        "version": "1.620",
+        "versionCode": 37,
+        "published": true,
+        "statusLabel": "Google Play · 1.620",
+        "title": "Duidelijkere grafieken en makkelijker omrekenen!",
+        "bullets": [
+          "De grafieken hebben nu een numerieke schaal, een markering voor de laatste koers en labels voor de laagste en hoogste waarde. Zo volg je koersveranderingen makkelijker.",
+          "Na het omwisselen van de valuta is het bovenste veld meteen klaar voor invoer. Het ingevoerde getal blijft behouden, zodat je zonder extra tikken verder kunt rekenen.",
+          "Het laden van gegevens bij het starten van de app is verbeterd.",
+          "Teksten en vertalingen zijn verbeterd en de licentielijst is uitgelijnd."
+        ]
+      },
+      {
         "id": "ScannerAccuracy",
         "title": "Verbeterde prijsscanner",
         "body": "• Betere herkenning van prijskaartjes, folders en menukaarten, ook met kleine of verhoogde cijfers achter de komma. • Beter onderscheid tussen de hoofdprijs, artikelnummers, verpakkingsaantallen en de referentieprijs per kilogram. • Verfijnde prijscontrole over meerdere camerabeelden om te voorkomen dat toevallige leesfouten ten onrechte worden bevestigd.",
@@ -2018,6 +2312,20 @@
   "da": {
     "title": "Nyheder",
     "cards": [
+      {
+        "id": "ChartsAndConversion",
+        "version": "1.620",
+        "versionCode": 37,
+        "published": true,
+        "statusLabel": "Google Play · 1.620",
+        "title": "Tydeligere grafer og nemmere omregning!",
+        "bullets": [
+          "Graferne har nu en talskala, en markering af den seneste kurs og etiketter for den laveste og højeste værdi. Det er lettere at følge kursændringer.",
+          "Når du bytter om på valutaerne, er det øverste felt straks klar til indtastning. Det indtastede tal bevares, så du kan fortsætte beregningen uden ekstra tryk.",
+          "Indlæsningen af data ved appens opstart er forbedret.",
+          "Formuleringer og oversættelser er forbedret, og licenslisten er justeret, så teksten flugter."
+        ]
+      },
       {
         "id": "ScannerAccuracy",
         "title": "Forbedret prisscanner",
@@ -2115,6 +2423,20 @@
     "title": "Nyheter",
     "cards": [
       {
+        "id": "ChartsAndConversion",
+        "version": "1.620",
+        "versionCode": 37,
+        "published": true,
+        "statusLabel": "Google Play · 1.620",
+        "title": "Tydligare diagram och smidigare omräkning!",
+        "bullets": [
+          "Diagrammen har nu en sifferskala, en markering för den senaste kursen och etiketter för det lägsta och högsta värdet. Det blir enklare att följa kursförändringar.",
+          "När du byter plats på valutorna är det övre fältet genast redo för inmatning. Det inmatade talet behålls så att du kan fortsätta beräkningen utan extra tryck.",
+          "Inläsningen av data när appen startar har förbättrats.",
+          "Formuleringar och översättningar har förbättrats, och textjusteringen i licenslistan har rättats till."
+        ]
+      },
+      {
         "id": "ScannerAccuracy",
         "title": "Förbättrad prisskanner",
         "body": "• Bättre avläsning av prislappar, kataloger och menyer, även med små eller upphöjda decimalsiffror. • Bättre åtskillnad mellan huvudpriset, artikelnummer, mängden i förpackningen och jämförpriset per kilogram. • Förfinad kontroll av priset i flera bildrutor så att tillfälliga avläsningsfel inte bekräftas felaktigt.",
@@ -2210,6 +2532,20 @@
   "nb": {
     "title": "Nyheter",
     "cards": [
+      {
+        "id": "ChartsAndConversion",
+        "version": "1.620",
+        "versionCode": 37,
+        "published": true,
+        "statusLabel": "Google Play · 1.620",
+        "title": "Tydeligere grafer og enklere omregning!",
+        "bullets": [
+          "Grafene har nå en tallskala, en markering av den siste kursen og etiketter for laveste og høyeste verdi. Det er enklere å følge kursendringer.",
+          "Når du bytter om på valutaene, er det øverste feltet straks klart for inntasting. Tallet du skrev inn, beholdes slik at du kan fortsette beregningen uten ekstra trykk.",
+          "Innlastingen av data ved oppstart av appen er forbedret.",
+          "Formuleringer og oversettelser er forbedret, og teksten i lisenslisten er rettet inn."
+        ]
+      },
       {
         "id": "ScannerAccuracy",
         "title": "Forbedret prisskanner",
@@ -2307,6 +2643,20 @@
     "title": "Uutta",
     "cards": [
       {
+        "id": "ChartsAndConversion",
+        "version": "1.620",
+        "versionCode": 37,
+        "published": true,
+        "statusLabel": "Google Play · 1.620",
+        "title": "Selkeämmät kaaviot ja sujuvampi valuutanmuunnos!",
+        "bullets": [
+          "Kaavioissa on nyt numeroasteikko, viimeisimmän kurssin merkki sekä pienimmän ja suurimman arvon merkinnät. Kurssimuutoksia on helpompi seurata.",
+          "Kun vaihdat valuuttojen paikat, ylempi kenttä on heti valmis syöttöä varten. Syötetty luku säilyy, joten voit jatkaa laskemista ilman ylimääräisiä napautuksia.",
+          "Tietojen latausta sovelluksen käynnistyessä on parannettu.",
+          "Sanamuotoja ja käännöksiä on parannettu, ja lisenssiluettelon tekstit on tasattu."
+        ]
+      },
+      {
         "id": "ScannerAccuracy",
         "title": "Parannettu hintaskanneri",
         "body": "• Hintalappujen, kuvastojen ja ruokalistojen tunnistusta on parannettu, myös pienten tai korotettujen desimaalien osalta. • Päähinta erottuu paremmin tuotekoodeista, pakkausmääristä ja kilohinnasta. • Hinnan tarkistusta useasta kuvasta on tarkennettu, jotta satunnaiset lukuvirheet eivät saa virheellistä vahvistusta.",
@@ -2402,6 +2752,20 @@
   "is": {
     "title": "Nýtt",
     "cards": [
+      {
+        "id": "ChartsAndConversion",
+        "version": "1.620",
+        "versionCode": 37,
+        "published": true,
+        "statusLabel": "Google Play · 1.620",
+        "title": "Skýrari línurit og þægilegri umreikningur!",
+        "bullets": [
+          "Línuritin sýna nú talnakvarða, merki við nýjasta gengið og merkingar fyrir lægsta og hæsta gildi. Þannig er auðveldara að fylgjast með gengisbreytingum.",
+          "Eftir að gjaldmiðlarnir hafa skipt um sæti er efri reiturinn strax tilbúinn til innsláttar. Talan sem þú slóst inn helst óbreytt, svo þú getur haldið áfram að reikna án aukasmella.",
+          "Hleðsla gagna við ræsingu appsins hefur verið bætt.",
+          "Orðalag og þýðingar hafa verið bætt og texti leyfislistans jafnaður."
+        ]
+      },
       {
         "id": "ScannerAccuracy",
         "title": "Endurbættur verðskanni",
@@ -2499,6 +2863,20 @@
     "title": "Τι νέο υπάρχει",
     "cards": [
       {
+        "id": "ChartsAndConversion",
+        "version": "1.620",
+        "versionCode": 37,
+        "published": true,
+        "statusLabel": "Google Play · 1.620",
+        "title": "Πιο κατανοητά γραφήματα και πιο εύκολη μετατροπή!",
+        "bullets": [
+          "Τα γραφήματα διαθέτουν πλέον αριθμητική κλίμακα, δείκτη της τελευταίας ισοτιμίας και ετικέτες της ελάχιστης και μέγιστης τιμής. Είναι πιο εύκολο να παρακολουθείτε τις μεταβολές της ισοτιμίας.",
+          "Μετά την εναλλαγή των νομισμάτων, το επάνω πεδίο είναι αμέσως έτοιμο για εισαγωγή. Ο αριθμός που πληκτρολογήσατε διατηρείται, ώστε να συνεχίσετε τον υπολογισμό χωρίς επιπλέον πατήματα.",
+          "Βελτιώσαμε τη φόρτωση δεδομένων κατά την εκκίνηση της εφαρμογής.",
+          "Βελτιώσαμε τις διατυπώσεις και τις μεταφράσεις και ευθυγραμμίσαμε τη λίστα αδειών χρήσης."
+        ]
+      },
+      {
         "id": "ScannerAccuracy",
         "title": "Βελτιωμένος σαρωτής τιμών",
         "body": "• Καλύτερη αναγνώριση ετικετών τιμών, καταλόγων και μενού, ακόμη και με μικρά ή υπερυψωμένα δεκαδικά ψηφία. • Καλύτερος διαχωρισμός της κύριας τιμής από κωδικούς προϊόντων, ποσότητες συσκευασίας και τιμές αναφοράς ανά κιλό. • Βελτιωμένος έλεγχος της τιμής σε διαδοχικά καρέ, ώστε τυχαία σφάλματα ανάγνωσης να μην επιβεβαιώνονται λανθασμένα.",
@@ -2594,6 +2972,20 @@
   "tr": {
     "title": "Yenilikler",
     "cards": [
+      {
+        "id": "ChartsAndConversion",
+        "version": "1.620",
+        "versionCode": 37,
+        "published": true,
+        "statusLabel": "Google Play · 1.620",
+        "title": "Daha anlaşılır grafikler, daha kolay dönüşüm!",
+        "bullets": [
+          "Grafiklere sayısal ölçek, son kur işareti ve en düşük ve en yüksek değer etiketleri eklendi. Kur değişimlerini takip etmek artık daha kolay.",
+          "Para birimlerinin yerini değiştirdiğinizde üst alan hemen girişe hazır olur. Girdiğiniz sayı korunur; ek dokunuşlar olmadan hesaplamaya devam edebilirsiniz.",
+          "Uygulama açılırken verilerin yüklenmesi iyileştirildi.",
+          "Metinler ve çeviriler iyileştirildi, lisans listesi hizalandı."
+        ]
+      },
       {
         "id": "ScannerAccuracy",
         "title": "Geliştirilmiş fiyat tarayıcı",
@@ -2691,6 +3083,20 @@
     "title": "Что нового",
     "cards": [
       {
+        "id": "ChartsAndConversion",
+        "version": "1.620",
+        "versionCode": 37,
+        "published": true,
+        "statusLabel": "Google Play · 1.620",
+        "title": "Графики стали понятнее, а конвертация — удобнее!",
+        "bullets": [
+          "На графиках появились числовая шкала, отметка последнего курса и подписи минимального и максимального значений. Теперь проще следить за изменением курса.",
+          "После перестановки валют верхнее поле сразу готово к вводу. Введённое число сохраняется — можно продолжать расчёт без лишних нажатий.",
+          "Доработали загрузку данных при запуске приложения.",
+          "Улучшили формулировки и переводы, выровняли список лицензий."
+        ]
+      },
+      {
         "id": "ScannerAccuracy",
         "title": "Улучшили сканер цен",
         "body": "• Доработали распознавание ценников, каталогов и меню, включая цены с мелкими или приподнятыми копейками. • Улучшили отделение основной цены от артикулов, количества в упаковке и справочной цены за килограмм. • Уточнили проверку цены по нескольким кадрам, чтобы случайные ошибки чтения не получали ложного подтверждения.",
@@ -2786,6 +3192,20 @@
   "uk": {
     "title": "Що нового",
     "cards": [
+      {
+        "id": "ChartsAndConversion",
+        "version": "1.620",
+        "versionCode": 37,
+        "published": true,
+        "statusLabel": "Google Play · 1.620",
+        "title": "Графіки стали зрозумілішими, а конвертація — зручнішою!",
+        "bullets": [
+          "На графіках з’явилися числова шкала, позначка останнього курсу та підписи мінімального й максимального значень. Тепер простіше стежити за змінами курсу.",
+          "Після перестановки валют верхнє поле одразу готове до введення. Введене число зберігається — можна продовжувати розрахунок без зайвих натискань.",
+          "Доопрацювали завантаження даних під час запуску застосунку.",
+          "Покращили формулювання й переклади та вирівняли список ліцензій."
+        ]
+      },
       {
         "id": "ScannerAccuracy",
         "title": "Покращили сканер цін",
@@ -2883,6 +3303,20 @@
     "title": "ما الجديد",
     "cards": [
       {
+        "id": "ChartsAndConversion",
+        "version": "1.620",
+        "versionCode": 37,
+        "published": true,
+        "statusLabel": "Google Play · 1.620",
+        "title": "رسوم بيانية أوضح وتحويل أسهل!",
+        "bullets": [
+          "أضفنا إلى الرسوم البيانية تدريجًا رقميًا ومؤشرًا لأحدث سعر صرف وتسميات لأدنى سعر وأعلاه، لتسهيل متابعة تغيرات الأسعار.",
+          "بعد تبديل موضعي العملتين، يصبح الحقل العلوي جاهزًا للإدخال فورًا. يُحفظ الرقم الذي أدخلته، لتواصل الحساب دون نقرات إضافية.",
+          "حسّنا تحميل البيانات عند بدء تشغيل التطبيق.",
+          "حسّنا الصياغة والترجمات ووحّدنا محاذاة قائمة التراخيص."
+        ]
+      },
+      {
         "id": "ScannerAccuracy",
         "title": "تحسين ماسح الأسعار",
         "body": "• تحسين قراءة بطاقات الأسعار والكتالوجات وقوائم الطعام، بما فيها الأرقام العشرية الصغيرة أو المرتفعة. • تمييز أفضل للسعر الأساسي عن رموز المنتجات وكميات العبوات والسعر المرجعي لكل كيلوغرام. • تحسين التحقق من السعر عبر عدة إطارات لمنع تأكيد أخطاء القراءة العشوائية بشكل خاطئ.",
@@ -2978,6 +3412,20 @@
   "he": {
     "title": "מה חדש",
     "cards": [
+      {
+        "id": "ChartsAndConversion",
+        "version": "1.620",
+        "versionCode": 37,
+        "published": true,
+        "statusLabel": "Google Play · 1.620",
+        "title": "תרשימים ברורים יותר והמרה נוחה יותר!",
+        "bullets": [
+          "לתרשימים נוספו סולם מספרי, סמן לשער העדכני ותוויות מינימום ומקסימום, כדי להקל על המעקב אחר שינויים בשער.",
+          "לאחר החלפת מיקומי המטבעות, השדה העליון מוכן מיד להזנה. המספר שהוזן נשמר, ואפשר להמשיך בחישוב ללא הקשות נוספות.",
+          "שיפרנו את טעינת הנתונים בעת הפעלת האפליקציה.",
+          "שיפרנו ניסוחים ותרגומים ויישרנו את רשימת הרישיונות."
+        ]
+      },
       {
         "id": "ScannerAccuracy",
         "title": "שיפרנו את סורק המחירים",
@@ -3075,6 +3523,20 @@
     "title": "تازه‌ها",
     "cards": [
       {
+        "id": "ChartsAndConversion",
+        "version": "1.620",
+        "versionCode": 37,
+        "published": true,
+        "statusLabel": "Google Play · 1.620",
+        "title": "نمودارهای واضح‌تر، تبدیل آسان‌تر!",
+        "bullets": [
+          "مقیاس عددی، نشانگر آخرین نرخ و برچسب‌های کمینه و بیشینه به نمودارها اضافه شده‌اند تا دنبال‌کردن تغییرات نرخ آسان‌تر شود.",
+          "پس از جابه‌جایی ارزها، کادر بالا بلافاصله برای ورود عدد آماده است. عدد واردشده حفظ می‌شود و می‌توانید بدون لمس‌های اضافی به محاسبه ادامه دهید.",
+          "بارگذاری داده‌ها هنگام راه‌اندازی برنامه بهبود یافته است.",
+          "متن‌ها و ترجمه‌ها بهبود یافته‌اند و فهرست مجوزها هم‌تراز شده است."
+        ]
+      },
+      {
         "id": "ScannerAccuracy",
         "title": "بهبود اسکنر قیمت",
         "body": "• تشخیص بهتر برچسب‌های قیمت، کاتالوگ‌ها و منوها، از جمله رقم‌های اعشاری کوچک یا بالانویس. • تفکیک بهتر قیمت اصلی از کد کالا، تعداد در بسته و قیمت مرجع هر کیلوگرم. • بهبود بررسی قیمت در چند فریم برای جلوگیری از تأیید نادرست خطاهای تصادفی خواندن.",
@@ -3170,6 +3632,20 @@
   "ur": {
     "title": "نیا کیا ہے",
     "cards": [
+      {
+        "id": "ChartsAndConversion",
+        "version": "1.620",
+        "versionCode": 37,
+        "published": true,
+        "statusLabel": "Google Play · 1.620",
+        "title": "زیادہ واضح گراف اور آسان تبدیلی!",
+        "bullets": [
+          "گراف میں عددی پیمانہ، تازہ ترین شرح کا نشان اور کم سے کم اور زیادہ سے زیادہ شرح کے لیبل شامل کیے گئے ہیں، تاکہ شرح میں تبدیلیوں کو سمجھنا آسان ہو۔",
+          "کرنسیوں کی جگہ بدلنے کے بعد اوپر والا خانہ فوراً اندراج کے لیے تیار ہوتا ہے۔ درج کیا گیا عدد برقرار رہتا ہے، اس لیے اضافی ٹیپ کیے بغیر حساب جاری رکھ سکتے ہیں۔",
+          "ایپ شروع ہوتے وقت ڈیٹا لوڈ کرنے کے عمل کو بہتر بنایا گیا ہے۔",
+          "عبارت اور ترجمے بہتر کیے گئے ہیں اور لائسنسوں کی فہرست یکساں طور پر سیدھ میں کی گئی ہے۔"
+        ]
+      },
       {
         "id": "ScannerAccuracy",
         "title": "قیمت اسکینر میں بہتری",
@@ -3267,6 +3743,20 @@
     "title": "नया क्या है",
     "cards": [
       {
+        "id": "ChartsAndConversion",
+        "version": "1.620",
+        "versionCode": 37,
+        "published": true,
+        "statusLabel": "Google Play · 1.620",
+        "title": "ज़्यादा स्पष्ट ग्राफ़ और आसान रूपांतरण!",
+        "bullets": [
+          "ग्राफ़ में संख्यात्मक पैमाना, ताज़ा दर का चिह्न और न्यूनतम व अधिकतम दर के लेबल जोड़े गए हैं, ताकि दर में बदलाव समझना आसान हो।",
+          "मुद्राओं की जगह बदलते ही ऊपर वाला फ़ील्ड इनपुट के लिए तैयार रहता है। दर्ज की गई संख्या बनी रहती है, ताकि बिना अतिरिक्त टैप के गणना जारी रख सकें।",
+          "ऐप शुरू होते समय डेटा लोड करने की प्रक्रिया में सुधार किया गया है।",
+          "शब्दावली और अनुवाद सुधारे गए हैं और लाइसेंस सूची का संरेखण ठीक किया गया है।"
+        ]
+      },
+      {
         "id": "ScannerAccuracy",
         "title": "बेहतर मूल्य स्कैनर",
         "body": "• मूल्य टैग, कैटलॉग और मेन्यू की पहचान बेहतर हुई, छोटे या ऊपर लिखे दशमलव अंकों वाले दाम भी। • मुख्य कीमत को उत्पाद कोड, पैक की मात्रा और प्रति किलोग्राम संदर्भ कीमत से बेहतर अलग किया जाता है। • कई फ़्रेम में कीमत की जाँच सुधारी गई है, ताकि पढ़ने की आकस्मिक गलतियों को सही मानकर पुष्टि न मिले।",
@@ -3362,6 +3852,20 @@
   "bn": {
     "title": "নতুন কী",
     "cards": [
+      {
+        "id": "ChartsAndConversion",
+        "version": "1.620",
+        "versionCode": 37,
+        "published": true,
+        "statusLabel": "Google Play · 1.620",
+        "title": "আরও স্পষ্ট গ্রাফ, আরও সহজ রূপান্তর!",
+        "bullets": [
+          "গ্রাফে সংখ্যার স্কেল, সর্বশেষ হারের চিহ্ন এবং সর্বনিম্ন ও সর্বোচ্চ হারের লেবেল যোগ হয়েছে, যাতে হারের পরিবর্তন সহজে বোঝা যায়।",
+          "মুদ্রার অবস্থান বদলানোর পর উপরের ঘরটি সঙ্গে সঙ্গে ইনপুটের জন্য প্রস্তুত থাকে। লেখা সংখ্যাটি বজায় থাকে, তাই বাড়তি ট্যাপ ছাড়াই হিসাব চালিয়ে যেতে পারেন।",
+          "অ্যাপ চালুর সময় ডেটা লোড করার প্রক্রিয়া উন্নত করা হয়েছে।",
+          "লেখা ও অনুবাদ উন্নত করা হয়েছে এবং লাইসেন্সের তালিকা সমানভাবে সাজানো হয়েছে।"
+        ]
+      },
       {
         "id": "ScannerAccuracy",
         "title": "উন্নত মূল্য স্ক্যানার",
@@ -3459,6 +3963,20 @@
     "title": "Yang Baru",
     "cards": [
       {
+        "id": "ChartsAndConversion",
+        "version": "1.620",
+        "versionCode": 37,
+        "published": true,
+        "statusLabel": "Google Play · 1.620",
+        "title": "Grafik lebih jelas, konversi lebih mudah!",
+        "bullets": [
+          "Grafik kini dilengkapi skala angka, penanda kurs terbaru, serta label minimum dan maksimum agar perubahan kurs lebih mudah diikuti.",
+          "Setelah posisi mata uang ditukar, kolom atas langsung siap diisi. Angka yang dimasukkan tetap tersimpan, sehingga Anda dapat melanjutkan perhitungan tanpa ketukan tambahan.",
+          "Pemuatan data saat aplikasi dimulai telah ditingkatkan.",
+          "Penyusunan kata dan terjemahan diperbaiki, serta perataan daftar lisensi dirapikan."
+        ]
+      },
+      {
         "id": "ScannerAccuracy",
         "title": "Pemindai harga ditingkatkan",
         "body": "• Pengenalan label harga, katalog, dan menu ditingkatkan, termasuk angka desimal kecil atau yang dicetak lebih tinggi. • Pembedaan harga utama dari kode produk, jumlah dalam kemasan, dan harga acuan per kilogram ditingkatkan. • Pemeriksaan harga di beberapa bingkai disempurnakan agar kesalahan baca acak tidak mendapat konfirmasi yang keliru.",
@@ -3554,6 +4072,20 @@
   "ms": {
     "title": "Apa yang Baharu",
     "cards": [
+      {
+        "id": "ChartsAndConversion",
+        "version": "1.620",
+        "versionCode": 37,
+        "published": true,
+        "statusLabel": "Google Play · 1.620",
+        "title": "Graf lebih jelas, penukaran lebih mudah!",
+        "bullets": [
+          "Graf kini mempunyai skala angka, penanda kadar terkini serta label minimum dan maksimum supaya perubahan kadar lebih mudah diikuti.",
+          "Selepas kedudukan mata wang ditukar, medan atas terus sedia untuk input. Nombor yang dimasukkan dikekalkan, jadi anda boleh meneruskan pengiraan tanpa ketikan tambahan.",
+          "Pemuatan data semasa aplikasi dimulakan telah ditambah baik.",
+          "Susunan kata dan terjemahan ditambah baik, serta penjajaran senarai lesen dikemaskan."
+        ]
+      },
       {
         "id": "ScannerAccuracy",
         "title": "Pengimbas harga ditambah baik",
@@ -3651,6 +4183,20 @@
     "title": "มีอะไรใหม่",
     "cards": [
       {
+        "id": "ChartsAndConversion",
+        "version": "1.620",
+        "versionCode": 37,
+        "published": true,
+        "statusLabel": "Google Play · 1.620",
+        "title": "กราฟชัดเจนขึ้น แปลงสกุลเงินได้สะดวกขึ้น!",
+        "bullets": [
+          "กราฟมีสเกลตัวเลข จุดแสดงอัตราล่าสุด และป้ายค่าต่ำสุดกับสูงสุดแล้ว จึงติดตามการเปลี่ยนแปลงของอัตราได้ง่ายขึ้น",
+          "เมื่อสลับสกุลเงิน ช่องด้านบนจะพร้อมรับข้อมูลทันที ตัวเลขที่ป้อนไว้ยังคงอยู่ จึงคำนวณต่อได้โดยไม่ต้องแตะเพิ่ม",
+          "ปรับปรุงการโหลดข้อมูลเมื่อเปิดแอป",
+          "ปรับปรุงข้อความและคำแปล พร้อมจัดแนวรายการใบอนุญาตให้สม่ำเสมอ"
+        ]
+      },
+      {
         "id": "ScannerAccuracy",
         "title": "ปรับปรุงเครื่องสแกนราคา",
         "body": "• ปรับปรุงการอ่านป้ายราคา แค็ตตาล็อก และเมนู รวมถึงเลขทศนิยมขนาดเล็กหรือที่พิมพ์ยกสูง • แยกราคาหลักออกจากรหัสสินค้า จำนวนในบรรจุภัณฑ์ และราคาอ้างอิงต่อกิโลกรัมได้ดีขึ้น • ปรับปรุงการตรวจสอบราคาจากหลายเฟรม เพื่อไม่ให้ข้อผิดพลาดในการอ่านเป็นครั้งคราวได้รับการยืนยันอย่างผิดพลาด",
@@ -3746,6 +4292,20 @@
   "vi": {
     "title": "Có gì mới",
     "cards": [
+      {
+        "id": "ChartsAndConversion",
+        "version": "1.620",
+        "versionCode": 37,
+        "published": true,
+        "statusLabel": "Google Play · 1.620",
+        "title": "Biểu đồ rõ hơn, quy đổi dễ hơn!",
+        "bullets": [
+          "Biểu đồ có thêm thang số, điểm đánh dấu tỷ giá mới nhất cùng nhãn thấp nhất và cao nhất, giúp dễ theo dõi biến động tỷ giá.",
+          "Sau khi hoán đổi vị trí các loại tiền, ô phía trên sẵn sàng để nhập ngay. Số đã nhập được giữ nguyên để bạn tiếp tục tính mà không cần chạm thêm.",
+          "Cải thiện quá trình tải dữ liệu khi khởi động ứng dụng.",
+          "Cải thiện cách diễn đạt, bản dịch và căn chỉnh danh sách giấy phép."
+        ]
+      },
       {
         "id": "ScannerAccuracy",
         "title": "Cải thiện trình quét giá",
@@ -3843,6 +4403,20 @@
     "title": "新功能",
     "cards": [
       {
+        "id": "ChartsAndConversion",
+        "version": "1.620",
+        "versionCode": 37,
+        "published": true,
+        "statusLabel": "Google Play · 1.620",
+        "title": "图表更清晰，换算更方便！",
+        "bullets": [
+          "图表新增数字刻度、最新汇率标记以及最低和最高汇率标签，方便查看汇率变化。",
+          "交换币种后，可立即在上方输入框中输入。已输入的数值会保留，无需额外点击即可继续计算。",
+          "改进了应用启动时的数据加载。",
+          "改进了文案和翻译，并统一了许可证列表的对齐方式。"
+        ]
+      },
+      {
         "id": "ScannerAccuracy",
         "title": "价格扫描器改进",
         "body": "• 改进价签、商品目录和菜单的识别，支持更好地读取字号较小或位置抬高的小数部分。 • 更好地区分商品主价格、货号、包装数量和每千克参考价格。 • 优化多帧价格核验，避免将偶发的识别错误误当作有效确认。",
@@ -3938,6 +4512,20 @@
   "zh-Hant": {
     "title": "最新消息",
     "cards": [
+      {
+        "id": "ChartsAndConversion",
+        "version": "1.620",
+        "versionCode": 37,
+        "published": true,
+        "statusLabel": "Google Play · 1.620",
+        "title": "圖表更清晰，換算更方便！",
+        "bullets": [
+          "圖表新增數值刻度、最新匯率標記，以及最低和最高匯率標籤，方便查看匯率變化。",
+          "交換幣別後，可立即在上方輸入欄位輸入。已輸入的數值會保留，無須額外點選即可繼續計算。",
+          "改善了應用程式啟動時的資料載入。",
+          "改善了文案和翻譯，並統一授權條款清單的對齊方式。"
+        ]
+      },
       {
         "id": "ScannerAccuracy",
         "title": "價格掃描器改進",
@@ -4035,6 +4623,20 @@
     "title": "新機能",
     "cards": [
       {
+        "id": "ChartsAndConversion",
+        "version": "1.620",
+        "versionCode": 37,
+        "published": true,
+        "statusLabel": "Google Play · 1.620",
+        "title": "グラフが見やすく、換算が便利に！",
+        "bullets": [
+          "グラフに数値目盛り、最新レートのマーカー、最小値・最大値の表示を追加し、レートの変動を追いやすくしました。",
+          "通貨を入れ替えると、上の欄ですぐに入力できます。入力済みの数値は保持されるため、追加のタップなしで計算を続けられます。",
+          "アプリ起動時のデータ読み込みを改善しました。",
+          "文言と翻訳を改善し、ライセンス一覧の配置をそろえました。"
+        ]
+      },
+      {
         "id": "ScannerAccuracy",
         "title": "価格スキャナーを改善",
         "body": "• 値札、カタログ、メニューの認識を改善。小さい文字や上付きで印刷された小数部分にも対応を強化しました。 • 商品の価格と商品コード、包装内の数量、1キログラムあたりの参考価格を区別しやすくしました。 • 複数フレームでの価格検証を見直し、偶発的な読み取りミスが誤って裏付けられるのを防ぎます。",
@@ -4130,6 +4732,20 @@
   "ko": {
     "title": "새로운 기능",
     "cards": [
+      {
+        "id": "ChartsAndConversion",
+        "version": "1.620",
+        "versionCode": 37,
+        "published": true,
+        "statusLabel": "Google Play · 1.620",
+        "title": "더 알기 쉬운 차트, 더 편리한 환산!",
+        "bullets": [
+          "차트에 숫자 눈금, 최신 환율 표시, 최솟값과 최댓값 라벨을 추가해 환율 변화를 더 쉽게 확인할 수 있습니다.",
+          "통화 위치를 바꾸면 위쪽 입력란에 바로 입력할 수 있습니다. 입력한 숫자는 유지되므로 추가로 누르지 않고 계산을 이어 갈 수 있습니다.",
+          "앱 시작 시 데이터를 불러오는 과정을 개선했습니다.",
+          "문구와 번역을 개선하고 라이선스 목록의 정렬을 맞췄습니다."
+        ]
+      },
       {
         "id": "ScannerAccuracy",
         "title": "가격 스캐너 개선",

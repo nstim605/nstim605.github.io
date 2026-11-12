@@ -1,0 +1,486 @@
+{
+  "en": {
+    "title": "Clearer charts and easier conversion!",
+    "bullets": [
+      "Charts now include a numeric scale, a latest-rate marker, and labels for the lowest and highest values. It is easier to follow exchange-rate changes.",
+      "After swapping currencies, the top field is ready for input. Your entered number is kept, so you can continue calculating without extra taps.",
+      "Improved data loading when the app starts.",
+      "Improved wording and translations, and aligned the license list."
+    ],
+    "storeNotes": "• Charts: numeric scale, latest-rate marker, minimum and maximum labels.\n• Swap currencies and keep your entered number, with the top field ready to edit.\n• Improved startup data loading.\n• Improved wording, translations and license-list alignment.",
+    "body": "• Charts now include a numeric scale, a latest-rate marker, and labels for the lowest and highest values. It is easier to follow exchange-rate changes.\n\n• After swapping currencies, the top field is ready for input. Your entered number is kept, so you can continue calculating without extra taps.\n\n• Improved data loading when the app starts.\n\n• Improved wording and translations, and aligned the license list."
+  },
+  "sr": {
+    "title": "Јаснији графикони и једноставнија конверзија!",
+    "bullets": [
+      "Графикони сада имају бројчану скалу, ознаку последњег курса и ознаке најниже и највише вредности. Промене курса се лакше прате.",
+      "Када замените редослед валута, горње поље је одмах спремно за унос. Унети број се задржава, па можете да наставите рачунање без додатних додира.",
+      "Дорађено је учитавање података при покретању апликације.",
+      "Побољшане су формулације и преводи, а листа лиценци је поравната."
+    ],
+    "storeNotes": "• Графикони: бројчана скала, последњи курс, најнижа и највиша вредност.\n• После замене редоследа валута број се задржава, а горње поље је спремно за унос.\n• Дорађено учитавање података при покретању.\n• Побољшани текстови, преводи и поравнање листе лиценци.",
+    "body": "• Графикони сада имају бројчану скалу, ознаку последњег курса и ознаке најниже и највише вредности. Промене курса се лакше прате.\n\n• Када замените редослед валута, горње поље је одмах спремно за унос. Унети број се задржава, па можете да наставите рачунање без додатних додира.\n\n• Дорађено је учитавање података при покретању апликације.\n\n• Побољшане су формулације и преводи, а листа лиценци је поравната."
+  },
+  "bs": {
+    "title": "Pregledniji grafikoni i jednostavnija konverzija!",
+    "bullets": [
+      "Grafikoni sada imaju brojčanu skalu, oznaku posljednjeg kursa i oznake najniže i najviše vrijednosti. Promjene kursa lakše se prate.",
+      "Kada zamijenite redoslijed valuta, gornje polje odmah je spremno za unos. Uneseni broj ostaje sačuvan pa možete nastaviti računanje bez dodatnih dodira.",
+      "Dorađeno je učitavanje podataka pri pokretanju aplikacije.",
+      "Poboljšane su formulacije i prijevodi, a lista licenci je poravnata."
+    ],
+    "storeNotes": "• Grafikoni: brojčana skala, posljednji kurs, najniža i najviša vrijednost.\n• Nakon zamjene redoslijeda valuta broj se zadržava, a gornje polje je spremno za unos.\n• Dorađeno učitavanje podataka pri pokretanju.\n• Poboljšani tekstovi, prijevodi i poravnanje liste licenci.",
+    "body": "• Grafikoni sada imaju brojčanu skalu, oznaku posljednjeg kursa i oznake najniže i najviše vrijednosti. Promjene kursa lakše se prate.\n\n• Kada zamijenite redoslijed valuta, gornje polje odmah je spremno za unos. Uneseni broj ostaje sačuvan pa možete nastaviti računanje bez dodatnih dodira.\n\n• Dorađeno je učitavanje podataka pri pokretanju aplikacije.\n\n• Poboljšane su formulacije i prijevodi, a lista licenci je poravnata."
+  },
+  "hr": {
+    "title": "Pregledniji grafikoni i jednostavnija pretvorba!",
+    "bullets": [
+      "Grafikoni sada imaju brojčanu ljestvicu, oznaku posljednjeg tečaja te oznake najniže i najviše vrijednosti. Promjene tečaja lakše je pratiti.",
+      "Nakon zamjene redoslijeda valuta gornje je polje odmah spremno za unos. Uneseni se broj zadržava pa možete nastaviti računati bez dodatnih dodira.",
+      "Dorađeno je učitavanje podataka pri pokretanju aplikacije.",
+      "Poboljšane su formulacije i prijevodi te je poravnat popis licenci."
+    ],
+    "storeNotes": "• Grafikoni: brojčana ljestvica, posljednji tečaj, najniža i najviša vrijednost.\n• Nakon zamjene redoslijeda valuta broj ostaje, a gornje je polje spremno za unos.\n• Dorađeno učitavanje podataka pri pokretanju.\n• Poboljšani tekstovi, prijevodi i poravnanje popisa licenci.",
+    "body": "• Grafikoni sada imaju brojčanu ljestvicu, oznaku posljednjeg tečaja te oznake najniže i najviše vrijednosti. Promjene tečaja lakše je pratiti.\n\n• Nakon zamjene redoslijeda valuta gornje je polje odmah spremno za unos. Uneseni se broj zadržava pa možete nastaviti računati bez dodatnih dodira.\n\n• Dorađeno je učitavanje podataka pri pokretanju aplikacije.\n\n• Poboljšane su formulacije i prijevodi te je poravnat popis licenci."
+  },
+  "sq": {
+    "title": "Grafikë më të qartë dhe konvertim më i lehtë!",
+    "bullets": [
+      "Grafikët tani kanë një shkallë numerike, një shenjë për kursin e fundit dhe etiketa për vlerën minimale e maksimale. Ndryshimet e kursit ndiqen më lehtë.",
+      "Pas ndërrimit të vendeve të monedhave, fusha e sipërme është menjëherë gati për shkrim. Numri i futur ruhet, kështu që mund të vazhdoni llogaritjen pa prekje shtesë.",
+      "Përmirësuam ngarkimin e të dhënave gjatë nisjes së aplikacionit.",
+      "Përmirësuam formulimet dhe përkthimet dhe rreshtuam listën e licencave."
+    ],
+    "storeNotes": "• Grafikë me shkallë numerike, kursin e fundit dhe vlerat minimale e maksimale.\n• Pas ndërrimit të monedhave, numri ruhet dhe fusha e sipërme është gati për shkrim.\n• Ngarkim i përmirësuar i të dhënave gjatë nisjes.\n• Formulime, përkthime dhe rreshtim më i mirë i listës së licencave.",
+    "body": "• Grafikët tani kanë një shkallë numerike, një shenjë për kursin e fundit dhe etiketa për vlerën minimale e maksimale. Ndryshimet e kursit ndiqen më lehtë.\n\n• Pas ndërrimit të vendeve të monedhave, fusha e sipërme është menjëherë gati për shkrim. Numri i futur ruhet, kështu që mund të vazhdoni llogaritjen pa prekje shtesë.\n\n• Përmirësuam ngarkimin e të dhënave gjatë nisjes së aplikacionit.\n\n• Përmirësuam formulimet dhe përkthimet dhe rreshtuam listën e licencave."
+  },
+  "mk": {
+    "title": "Појасни графикони и полесна конверзија!",
+    "bullets": [
+      "Графиконите сега имаат бројчана скала, ознака за последниот курс и ознаки за најниската и највисоката вредност. Промените на курсот полесно се следат.",
+      "По замената на редоследот на валутите, горното поле е веднаш подготвено за внес. Внесениот број се задржува, па може да продолжите со пресметката без дополнителни допири.",
+      "Го доработивме вчитувањето на податоците при стартување на апликацијата.",
+      "Ги подобривме формулациите и преводите и го порамнивме списокот со лиценци."
+    ],
+    "storeNotes": "• Графикони: бројчана скала, последен курс, најниска и највисока вредност.\n• По замената на редоследот на валутите, бројот се задржува, а горното поле е подготвено за внес.\n• Доработено вчитување податоци при стартување.\n• Подобрени текстови, преводи и порамнување на списокот со лиценци.",
+    "body": "• Графиконите сега имаат бројчана скала, ознака за последниот курс и ознаки за најниската и највисоката вредност. Промените на курсот полесно се следат.\n\n• По замената на редоследот на валутите, горното поле е веднаш подготвено за внес. Внесениот број се задржува, па може да продолжите со пресметката без дополнителни допири.\n\n• Го доработивме вчитувањето на податоците при стартување на апликацијата.\n\n• Ги подобривме формулациите и преводите и го порамнивме списокот со лиценци."
+  },
+  "bg": {
+    "title": "По-ясни графики и по-удобно преобразуване!",
+    "bullets": [
+      "Графиките вече имат числова скала, маркер за последния курс и надписи за минималната и максималната стойност. Така промените в курса се проследяват по-лесно.",
+      "След размяна на валутите горното поле е веднага готово за въвеждане. Въведеното число се запазва, така че можете да продължите изчислението без допълнителни докосвания.",
+      "Подобрихме зареждането на данни при стартиране на приложението.",
+      "Подобрихме формулировките и преводите и подравнихме списъка с лицензи."
+    ],
+    "storeNotes": "• Графики: числова скала, последен курс, минимум и максимум.\n• След размяна на валутите числото се запазва, а горното поле е готово за въвеждане.\n• Подобрено зареждане на данни при стартиране.\n• Подобрени текстове, преводи и подравняване на списъка с лицензи.",
+    "body": "• Графиките вече имат числова скала, маркер за последния курс и надписи за минималната и максималната стойност. Така промените в курса се проследяват по-лесно.\n\n• След размяна на валутите горното поле е веднага готово за въвеждане. Въведеното число се запазва, така че можете да продължите изчислението без допълнителни докосвания.\n\n• Подобрихме зареждането на данни при стартиране на приложението.\n\n• Подобрихме формулировките и преводите и подравнихме списъка с лицензи."
+  },
+  "ro": {
+    "title": "Grafice mai clare și conversii mai ușoare!",
+    "bullets": [
+      "Graficele includ acum o scară numerică, un marcaj pentru ultimul curs și etichete pentru valorile minimă și maximă. Evoluția cursului este mai ușor de urmărit.",
+      "După inversarea monedelor, câmpul de sus este imediat pregătit pentru introducerea datelor. Numărul introdus se păstrează, astfel încât puteți continua calculul fără atingeri suplimentare.",
+      "Am îmbunătățit încărcarea datelor la pornirea aplicației.",
+      "Am îmbunătățit formulările și traducerile și am aliniat lista de licențe."
+    ],
+    "storeNotes": "• Grafice cu scară numerică, ultimul curs și valorile minimă și maximă.\n• După inversarea monedelor, numărul introdus se păstrează, iar câmpul de sus este gata de editare.\n• Încărcare a datelor îmbunătățită la pornire.\n• Formulări, traduceri și alinierea listei de licențe îmbunătățite.",
+    "body": "• Graficele includ acum o scară numerică, un marcaj pentru ultimul curs și etichete pentru valorile minimă și maximă. Evoluția cursului este mai ușor de urmărit.\n\n• După inversarea monedelor, câmpul de sus este imediat pregătit pentru introducerea datelor. Numărul introdus se păstrează, astfel încât puteți continua calculul fără atingeri suplimentare.\n\n• Am îmbunătățit încărcarea datelor la pornirea aplicației.\n\n• Am îmbunătățit formulările și traducerile și am aliniat lista de licențe."
+  },
+  "hu": {
+    "title": "Áttekinthetőbb grafikonok, kényelmesebb átváltás!",
+    "bullets": [
+      "A grafikonokon mostantól számozott skála, a legutóbbi árfolyam jelölése, valamint a legkisebb és legnagyobb érték felirata is látható. Így könnyebb követni az árfolyam változását.",
+      "A pénznemek felcserélése után a felső mező azonnal szerkeszthető. A beírt szám megmarad, így további koppintások nélkül folytathatod a számítást.",
+      "Javítottuk az adatok betöltését az alkalmazás indításakor.",
+      "Javítottuk a szövegezést és a fordításokat, valamint egységesítettük a licenclista igazítását."
+    ],
+    "storeNotes": "• Grafikonok: számozott skála, legutóbbi árfolyam, minimum és maximum.\n• A pénznemek felcserélésekor a beírt szám megmarad, a felső mező azonnal szerkeszthető.\n• Javított adatbetöltés indításkor.\n• Javított szövegek, fordítások és licenclista-igazítás.",
+    "body": "• A grafikonokon mostantól számozott skála, a legutóbbi árfolyam jelölése, valamint a legkisebb és legnagyobb érték felirata is látható. Így könnyebb követni az árfolyam változását.\n\n• A pénznemek felcserélése után a felső mező azonnal szerkeszthető. A beírt szám megmarad, így további koppintások nélkül folytathatod a számítást.\n\n• Javítottuk az adatok betöltését az alkalmazás indításakor.\n\n• Javítottuk a szövegezést és a fordításokat, valamint egységesítettük a licenclista igazítását."
+  },
+  "pl": {
+    "title": "Czytelniejsze wykresy i wygodniejsze przeliczanie!",
+    "bullets": [
+      "Wykresy mają teraz skalę liczbową, oznaczenie ostatniego kursu oraz etykiety wartości minimalnej i maksymalnej. Łatwiej śledzić zmiany kursu.",
+      "Po zamianie walut miejscami górne pole jest od razu gotowe do wpisywania. Wprowadzona liczba pozostaje bez zmian, więc możesz kontynuować obliczenia bez dodatkowych dotknięć.",
+      "Usprawniliśmy wczytywanie danych przy uruchamianiu aplikacji.",
+      "Poprawiliśmy sformułowania i tłumaczenia oraz wyrównaliśmy listę licencji."
+    ],
+    "storeNotes": "• Wykresy: skala liczbowa, ostatni kurs, minimum i maksimum.\n• Po zamianie walut liczba pozostaje bez zmian, a górne pole jest gotowe do edycji.\n• Usprawnione wczytywanie danych przy uruchamianiu.\n• Poprawione teksty, tłumaczenia i wyrównanie listy licencji.",
+    "body": "• Wykresy mają teraz skalę liczbową, oznaczenie ostatniego kursu oraz etykiety wartości minimalnej i maksymalnej. Łatwiej śledzić zmiany kursu.\n\n• Po zamianie walut miejscami górne pole jest od razu gotowe do wpisywania. Wprowadzona liczba pozostaje bez zmian, więc możesz kontynuować obliczenia bez dodatkowych dotknięć.\n\n• Usprawniliśmy wczytywanie danych przy uruchamianiu aplikacji.\n\n• Poprawiliśmy sformułowania i tłumaczenia oraz wyrównaliśmy listę licencji."
+  },
+  "cs": {
+    "title": "Přehlednější grafy a pohodlnější převody!",
+    "bullets": [
+      "Grafy nyní mají číselnou stupnici, značku posledního kurzu a popisky nejnižší a nejvyšší hodnoty. Změny kurzu se tak snáze sledují.",
+      "Po prohození měn je horní pole ihned připravené k zadávání. Zadané číslo zůstává zachováno, takže můžete pokračovat ve výpočtu bez dalšího klepání.",
+      "Vylepšili jsme načítání dat při spuštění aplikace.",
+      "Upravili jsme formulace a překlady a zarovnali seznam licencí."
+    ],
+    "storeNotes": "• Grafy: číselná stupnice, poslední kurz, minimum a maximum.\n• Po prohození měn zadané číslo zůstává a horní pole je připravené k úpravám.\n• Vylepšené načítání dat při spuštění.\n• Upravené texty, překlady a zarovnání seznamu licencí.",
+    "body": "• Grafy nyní mají číselnou stupnici, značku posledního kurzu a popisky nejnižší a nejvyšší hodnoty. Změny kurzu se tak snáze sledují.\n\n• Po prohození měn je horní pole ihned připravené k zadávání. Zadané číslo zůstává zachováno, takže můžete pokračovat ve výpočtu bez dalšího klepání.\n\n• Vylepšili jsme načítání dat při spuštění aplikace.\n\n• Upravili jsme formulace a překlady a zarovnali seznam licencí."
+  },
+  "sk": {
+    "title": "Prehľadnejšie grafy a pohodlnejšie prevody!",
+    "bullets": [
+      "Grafy teraz obsahujú číselnú stupnicu, označenie posledného kurzu a popisy najnižšej a najvyššej hodnoty. Zmeny kurzu sa tak ľahšie sledujú.",
+      "Po prehodení mien je horné pole okamžite pripravené na zadávanie. Zadané číslo zostáva zachované, takže môžete pokračovať vo výpočte bez ďalších ťuknutí.",
+      "Vylepšili sme načítanie údajov pri spustení aplikácie.",
+      "Upravili sme formulácie a preklady a zarovnali zoznam licencií."
+    ],
+    "storeNotes": "• Grafy: číselná stupnica, posledný kurz, minimum a maximum.\n• Po prehodení mien zadané číslo zostáva a horné pole je pripravené na úpravy.\n• Vylepšené načítanie údajov pri spustení.\n• Upravené texty, preklady a zarovnanie zoznamu licencií.",
+    "body": "• Grafy teraz obsahujú číselnú stupnicu, označenie posledného kurzu a popisy najnižšej a najvyššej hodnoty. Zmeny kurzu sa tak ľahšie sledujú.\n\n• Po prehodení mien je horné pole okamžite pripravené na zadávanie. Zadané číslo zostáva zachované, takže môžete pokračovať vo výpočte bez ďalších ťuknutí.\n\n• Vylepšili sme načítanie údajov pri spustení aplikácie.\n\n• Upravili sme formulácie a preklady a zarovnali zoznam licencií."
+  },
+  "sl": {
+    "title": "Preglednejši grafi in priročnejše pretvarjanje!",
+    "bullets": [
+      "Grafi imajo zdaj številsko lestvico, oznako zadnjega tečaja ter oznaki najnižje in najvišje vrednosti. Spremembe tečaja je tako lažje spremljati.",
+      "Po zamenjavi vrstnega reda valut je zgornje polje takoj pripravljeno za vnos. Vneseno število se ohrani, zato lahko nadaljujete izračun brez dodatnih dotikov.",
+      "Izboljšali smo nalaganje podatkov ob zagonu aplikacije.",
+      "Izboljšali smo besedila in prevode ter poravnali seznam licenc."
+    ],
+    "storeNotes": "• Grafi: številska lestvica, zadnji tečaj, najnižja in najvišja vrednost.\n• Po zamenjavi valut se število ohrani, zgornje polje pa je pripravljeno za vnos.\n• Izboljšano nalaganje podatkov ob zagonu.\n• Izboljšana besedila, prevodi in poravnava seznama licenc.",
+    "body": "• Grafi imajo zdaj številsko lestvico, oznako zadnjega tečaja ter oznaki najnižje in najvišje vrednosti. Spremembe tečaja je tako lažje spremljati.\n\n• Po zamenjavi vrstnega reda valut je zgornje polje takoj pripravljeno za vnos. Vneseno število se ohrani, zato lahko nadaljujete izračun brez dodatnih dotikov.\n\n• Izboljšali smo nalaganje podatkov ob zagonu aplikacije.\n\n• Izboljšali smo besedila in prevode ter poravnali seznam licenc."
+  },
+  "de": {
+    "title": "Übersichtlichere Diagramme und bequemeres Umrechnen!",
+    "bullets": [
+      "Die Diagramme haben jetzt eine Zahlenskala, eine Markierung für den neuesten Kurs sowie Beschriftungen für den niedrigsten und höchsten Wert. So lassen sich Kursänderungen leichter verfolgen.",
+      "Nach dem Tauschen der Währungen ist das obere Feld sofort zur Eingabe bereit. Die eingegebene Zahl bleibt erhalten. Du kannst direkt weiterrechnen, ohne das Feld erst antippen zu müssen.",
+      "Das Laden der Daten beim App-Start wurde verbessert.",
+      "Formulierungen und Übersetzungen wurden verbessert und die Lizenzliste wurde ausgerichtet."
+    ],
+    "storeNotes": "• Diagramme mit Zahlenskala, neuestem Kurs sowie Minimum und Maximum.\n• Beim Währungstausch bleibt die eingegebene Zahl erhalten; das obere Feld ist sofort bearbeitbar.\n• Verbessertes Laden der Daten beim Start.\n• Verbesserte Texte, Übersetzungen und Ausrichtung der Lizenzliste.",
+    "body": "• Die Diagramme haben jetzt eine Zahlenskala, eine Markierung für den neuesten Kurs sowie Beschriftungen für den niedrigsten und höchsten Wert. So lassen sich Kursänderungen leichter verfolgen.\n\n• Nach dem Tauschen der Währungen ist das obere Feld sofort zur Eingabe bereit. Die eingegebene Zahl bleibt erhalten. Du kannst direkt weiterrechnen, ohne das Feld erst antippen zu müssen.\n\n• Das Laden der Daten beim App-Start wurde verbessert.\n\n• Formulierungen und Übersetzungen wurden verbessert und die Lizenzliste wurde ausgerichtet."
+  },
+  "fr": {
+    "title": "Des graphiques plus clairs, des conversions plus pratiques !",
+    "bullets": [
+      "Les graphiques affichent désormais une échelle numérique, un repère pour le dernier taux et des libellés pour les valeurs minimale et maximale. Il est plus facile de suivre les variations du taux.",
+      "Après avoir inversé les devises, le champ du haut est immédiatement prêt à la saisie. Le nombre saisi est conservé pour poursuivre le calcul sans appuis supplémentaires.",
+      "Le chargement des données au démarrage de l’application a été amélioré.",
+      "Les formulations et les traductions ont été améliorées, et la liste des licences a été alignée."
+    ],
+    "storeNotes": "• Graphiques : échelle numérique, dernier taux, minimum et maximum.\n• Après inversion des devises, le nombre saisi est conservé et le champ du haut est prêt à la saisie.\n• Chargement des données amélioré au démarrage.\n• Textes, traductions et alignement de la liste des licences améliorés.",
+    "body": "• Les graphiques affichent désormais une échelle numérique, un repère pour le dernier taux et des libellés pour les valeurs minimale et maximale. Il est plus facile de suivre les variations du taux.\n\n• Après avoir inversé les devises, le champ du haut est immédiatement prêt à la saisie. Le nombre saisi est conservé pour poursuivre le calcul sans appuis supplémentaires.\n\n• Le chargement des données au démarrage de l’application a été amélioré.\n\n• Les formulations et les traductions ont été améliorées, et la liste des licences a été alignée."
+  },
+  "it": {
+    "title": "Grafici più chiari e conversioni più comode!",
+    "bullets": [
+      "I grafici ora mostrano una scala numerica, un indicatore dell’ultimo tasso e le etichette dei valori minimo e massimo. Seguire le variazioni del tasso è più semplice.",
+      "Dopo aver scambiato le valute, il campo superiore è subito pronto per l’inserimento. Il numero digitato viene mantenuto, così puoi continuare il calcolo senza ulteriori tocchi.",
+      "Abbiamo migliorato il caricamento dei dati all’avvio dell’app.",
+      "Abbiamo migliorato testi e traduzioni e allineato l’elenco delle licenze."
+    ],
+    "storeNotes": "• Grafici con scala numerica, ultimo tasso, minimo e massimo.\n• Scambiando le valute, il numero inserito resta e il campo superiore è subito modificabile.\n• Caricamento dei dati migliorato all’avvio.\n• Testi, traduzioni e allineamento dell’elenco delle licenze migliorati.",
+    "body": "• I grafici ora mostrano una scala numerica, un indicatore dell’ultimo tasso e le etichette dei valori minimo e massimo. Seguire le variazioni del tasso è più semplice.\n\n• Dopo aver scambiato le valute, il campo superiore è subito pronto per l’inserimento. Il numero digitato viene mantenuto, così puoi continuare il calcolo senza ulteriori tocchi.\n\n• Abbiamo migliorato il caricamento dei dati all’avvio dell’app.\n\n• Abbiamo migliorato testi e traduzioni e allineato l’elenco delle licenze."
+  },
+  "es-ES": {
+    "title": "¡Gráficos más claros y conversiones más cómodas!",
+    "bullets": [
+      "Los gráficos ahora incluyen una escala numérica, una marca del último tipo de cambio y etiquetas de los valores mínimo y máximo. Así es más fácil seguir los cambios del tipo de cambio.",
+      "Al intercambiar las monedas, el campo superior queda listo para escribir. El número introducido se conserva para que puedas continuar el cálculo sin pulsaciones adicionales.",
+      "Hemos mejorado la carga de datos al iniciar la aplicación.",
+      "Hemos mejorado los textos y las traducciones y alineado la lista de licencias."
+    ],
+    "storeNotes": "• Gráficos: escala numérica, último tipo de cambio, mínimo y máximo.\n• Al intercambiar monedas, el número se conserva y el campo superior queda listo para escribir.\n• Mejor carga de datos al iniciar la aplicación.\n• Textos, traducciones y alineación de la lista de licencias mejorados.",
+    "body": "• Los gráficos ahora incluyen una escala numérica, una marca del último tipo de cambio y etiquetas de los valores mínimo y máximo. Así es más fácil seguir los cambios del tipo de cambio.\n\n• Al intercambiar las monedas, el campo superior queda listo para escribir. El número introducido se conserva para que puedas continuar el cálculo sin pulsaciones adicionales.\n\n• Hemos mejorado la carga de datos al iniciar la aplicación.\n\n• Hemos mejorado los textos y las traducciones y alineado la lista de licencias."
+  },
+  "es-419": {
+    "title": "¡Gráficos más claros y conversiones más cómodas!",
+    "bullets": [
+      "Los gráficos ahora incluyen una escala numérica, una marca del último tipo de cambio y etiquetas de los valores mínimo y máximo. Así es más fácil seguir las variaciones del tipo de cambio.",
+      "Al intercambiar las monedas, el campo superior queda listo para escribir. El número ingresado se conserva para que puedas continuar el cálculo sin toques adicionales.",
+      "Mejoramos la carga de datos al iniciar la app.",
+      "Mejoramos los textos y las traducciones y alineamos la lista de licencias."
+    ],
+    "storeNotes": "• Gráficos: escala numérica, último tipo de cambio, mínimo y máximo.\n• Al intercambiar monedas, el número se conserva y el campo superior queda listo para escribir.\n• Mejor carga de datos al iniciar la app.\n• Textos, traducciones y alineación de la lista de licencias mejorados.",
+    "body": "• Los gráficos ahora incluyen una escala numérica, una marca del último tipo de cambio y etiquetas de los valores mínimo y máximo. Así es más fácil seguir las variaciones del tipo de cambio.\n\n• Al intercambiar las monedas, el campo superior queda listo para escribir. El número ingresado se conserva para que puedas continuar el cálculo sin toques adicionales.\n\n• Mejoramos la carga de datos al iniciar la app.\n\n• Mejoramos los textos y las traducciones y alineamos la lista de licencias."
+  },
+  "pt-BR": {
+    "title": "Gráficos mais claros e conversões mais práticas!",
+    "bullets": [
+      "Os gráficos agora têm uma escala numérica, um marcador da última cotação e rótulos dos valores mínimo e máximo. Ficou mais fácil acompanhar as mudanças na cotação.",
+      "Ao inverter as moedas, o campo superior fica pronto para digitação. O número inserido é mantido para você continuar o cálculo sem toques extras.",
+      "Melhoramos o carregamento de dados ao iniciar o aplicativo.",
+      "Melhoramos os textos e as traduções e alinhamos a lista de licenças."
+    ],
+    "storeNotes": "• Gráficos: escala numérica, última cotação, mínimo e máximo.\n• Ao inverter as moedas, o número é mantido e o campo superior fica pronto para digitação.\n• Carregamento de dados aprimorado na inicialização.\n• Textos, traduções e alinhamento da lista de licenças melhorados.",
+    "body": "• Os gráficos agora têm uma escala numérica, um marcador da última cotação e rótulos dos valores mínimo e máximo. Ficou mais fácil acompanhar as mudanças na cotação.\n\n• Ao inverter as moedas, o campo superior fica pronto para digitação. O número inserido é mantido para você continuar o cálculo sem toques extras.\n\n• Melhoramos o carregamento de dados ao iniciar o aplicativo.\n\n• Melhoramos os textos e as traduções e alinhamos a lista de licenças."
+  },
+  "pt-PT": {
+    "title": "Gráficos mais claros e conversões mais práticas!",
+    "bullets": [
+      "Os gráficos incluem agora uma escala numérica, um marcador da última taxa e etiquetas dos valores mínimo e máximo. É mais fácil acompanhar as variações da taxa de câmbio.",
+      "Ao inverter as moedas, o campo superior fica imediatamente pronto para introduzir dados. O número introduzido mantém-se, permitindo continuar o cálculo sem toques adicionais.",
+      "Melhorámos o carregamento de dados ao iniciar a aplicação.",
+      "Melhorámos os textos e as traduções e alinhámos a lista de licenças."
+    ],
+    "storeNotes": "• Gráficos: escala numérica, última taxa, mínimo e máximo.\n• Ao inverter as moedas, o número mantém-se e o campo superior fica pronto a editar.\n• Carregamento de dados melhorado no arranque.\n• Textos, traduções e alinhamento da lista de licenças melhorados.",
+    "body": "• Os gráficos incluem agora uma escala numérica, um marcador da última taxa e etiquetas dos valores mínimo e máximo. É mais fácil acompanhar as variações da taxa de câmbio.\n\n• Ao inverter as moedas, o campo superior fica imediatamente pronto para introduzir dados. O número introduzido mantém-se, permitindo continuar o cálculo sem toques adicionais.\n\n• Melhorámos o carregamento de dados ao iniciar a aplicação.\n\n• Melhorámos os textos e as traduções e alinhámos a lista de licenças."
+  },
+  "nl": {
+    "title": "Duidelijkere grafieken en makkelijker omrekenen!",
+    "bullets": [
+      "De grafieken hebben nu een numerieke schaal, een markering voor de laatste koers en labels voor de laagste en hoogste waarde. Zo volg je koersveranderingen makkelijker.",
+      "Na het omwisselen van de valuta is het bovenste veld meteen klaar voor invoer. Het ingevoerde getal blijft behouden, zodat je zonder extra tikken verder kunt rekenen.",
+      "Het laden van gegevens bij het starten van de app is verbeterd.",
+      "Teksten en vertalingen zijn verbeterd en de licentielijst is uitgelijnd."
+    ],
+    "storeNotes": "• Grafieken: numerieke schaal, laatste koers, minimum en maximum.\n• Na het omwisselen van valuta blijft je getal behouden en kun je meteen bovenaan verder typen.\n• Verbeterd laden van gegevens bij het starten.\n• Verbeterde teksten, vertalingen en uitlijning van de licentielijst.",
+    "body": "• De grafieken hebben nu een numerieke schaal, een markering voor de laatste koers en labels voor de laagste en hoogste waarde. Zo volg je koersveranderingen makkelijker.\n\n• Na het omwisselen van de valuta is het bovenste veld meteen klaar voor invoer. Het ingevoerde getal blijft behouden, zodat je zonder extra tikken verder kunt rekenen.\n\n• Het laden van gegevens bij het starten van de app is verbeterd.\n\n• Teksten en vertalingen zijn verbeterd en de licentielijst is uitgelijnd."
+  },
+  "da": {
+    "title": "Tydeligere grafer og nemmere omregning!",
+    "bullets": [
+      "Graferne har nu en talskala, en markering af den seneste kurs og etiketter for den laveste og højeste værdi. Det er lettere at følge kursændringer.",
+      "Når du bytter om på valutaerne, er det øverste felt straks klar til indtastning. Det indtastede tal bevares, så du kan fortsætte beregningen uden ekstra tryk.",
+      "Indlæsningen af data ved appens opstart er forbedret.",
+      "Formuleringer og oversættelser er forbedret, og licenslisten er justeret, så teksten flugter."
+    ],
+    "storeNotes": "• Grafer med talskala, seneste kurs samt minimum og maksimum.\n• Byt valutaerne om og behold dit tal; det øverste felt er straks klar til indtastning.\n• Forbedret dataindlæsning ved opstart.\n• Forbedrede tekster, oversættelser og tekstjustering i licenslisten.",
+    "body": "• Graferne har nu en talskala, en markering af den seneste kurs og etiketter for den laveste og højeste værdi. Det er lettere at følge kursændringer.\n\n• Når du bytter om på valutaerne, er det øverste felt straks klar til indtastning. Det indtastede tal bevares, så du kan fortsætte beregningen uden ekstra tryk.\n\n• Indlæsningen af data ved appens opstart er forbedret.\n\n• Formuleringer og oversættelser er forbedret, og licenslisten er justeret, så teksten flugter."
+  },
+  "sv": {
+    "title": "Tydligare diagram och smidigare omräkning!",
+    "bullets": [
+      "Diagrammen har nu en sifferskala, en markering för den senaste kursen och etiketter för det lägsta och högsta värdet. Det blir enklare att följa kursförändringar.",
+      "När du byter plats på valutorna är det övre fältet genast redo för inmatning. Det inmatade talet behålls så att du kan fortsätta beräkningen utan extra tryck.",
+      "Inläsningen av data när appen startar har förbättrats.",
+      "Formuleringar och översättningar har förbättrats, och textjusteringen i licenslistan har rättats till."
+    ],
+    "storeNotes": "• Diagram med sifferskala, senaste kurs samt lägsta och högsta värde.\n• Vid valutabyte behålls ditt tal och det övre fältet är genast redo för inmatning.\n• Förbättrad datainläsning vid start.\n• Förbättrade texter, översättningar och textjustering i licenslistan.",
+    "body": "• Diagrammen har nu en sifferskala, en markering för den senaste kursen och etiketter för det lägsta och högsta värdet. Det blir enklare att följa kursförändringar.\n\n• När du byter plats på valutorna är det övre fältet genast redo för inmatning. Det inmatade talet behålls så att du kan fortsätta beräkningen utan extra tryck.\n\n• Inläsningen av data när appen startar har förbättrats.\n\n• Formuleringar och översättningar har förbättrats, och textjusteringen i licenslistan har rättats till."
+  },
+  "nb": {
+    "title": "Tydeligere grafer og enklere omregning!",
+    "bullets": [
+      "Grafene har nå en tallskala, en markering av den siste kursen og etiketter for laveste og høyeste verdi. Det er enklere å følge kursendringer.",
+      "Når du bytter om på valutaene, er det øverste feltet straks klart for inntasting. Tallet du skrev inn, beholdes slik at du kan fortsette beregningen uten ekstra trykk.",
+      "Innlastingen av data ved oppstart av appen er forbedret.",
+      "Formuleringer og oversettelser er forbedret, og teksten i lisenslisten er rettet inn."
+    ],
+    "storeNotes": "• Grafer med tallskala, siste kurs og laveste og høyeste verdi.\n• Bytt om på valutaene og behold tallet; det øverste feltet er straks klart for inntasting.\n• Forbedret datainnlasting ved oppstart.\n• Forbedrede tekster, oversettelser og tekstjustering i lisenslisten.",
+    "body": "• Grafene har nå en tallskala, en markering av den siste kursen og etiketter for laveste og høyeste verdi. Det er enklere å følge kursendringer.\n\n• Når du bytter om på valutaene, er det øverste feltet straks klart for inntasting. Tallet du skrev inn, beholdes slik at du kan fortsette beregningen uten ekstra trykk.\n\n• Innlastingen av data ved oppstart av appen er forbedret.\n\n• Formuleringer og oversettelser er forbedret, og teksten i lisenslisten er rettet inn."
+  },
+  "fi": {
+    "title": "Selkeämmät kaaviot ja sujuvampi valuutanmuunnos!",
+    "bullets": [
+      "Kaavioissa on nyt numeroasteikko, viimeisimmän kurssin merkki sekä pienimmän ja suurimman arvon merkinnät. Kurssimuutoksia on helpompi seurata.",
+      "Kun vaihdat valuuttojen paikat, ylempi kenttä on heti valmis syöttöä varten. Syötetty luku säilyy, joten voit jatkaa laskemista ilman ylimääräisiä napautuksia.",
+      "Tietojen latausta sovelluksen käynnistyessä on parannettu.",
+      "Sanamuotoja ja käännöksiä on parannettu, ja lisenssiluettelon tekstit on tasattu."
+    ],
+    "storeNotes": "• Kaaviot: numeroasteikko, viimeisin kurssi sekä pienin ja suurin arvo.\n• Valuuttojen paikkoja vaihdettaessa luku säilyy ja ylempi kenttä on heti muokattavissa.\n• Parannettu tietojen lataus käynnistettäessä.\n• Parannetut tekstit, käännökset ja lisenssiluettelon tasaus.",
+    "body": "• Kaavioissa on nyt numeroasteikko, viimeisimmän kurssin merkki sekä pienimmän ja suurimman arvon merkinnät. Kurssimuutoksia on helpompi seurata.\n\n• Kun vaihdat valuuttojen paikat, ylempi kenttä on heti valmis syöttöä varten. Syötetty luku säilyy, joten voit jatkaa laskemista ilman ylimääräisiä napautuksia.\n\n• Tietojen latausta sovelluksen käynnistyessä on parannettu.\n\n• Sanamuotoja ja käännöksiä on parannettu, ja lisenssiluettelon tekstit on tasattu."
+  },
+  "is": {
+    "title": "Skýrari línurit og þægilegri umreikningur!",
+    "bullets": [
+      "Línuritin sýna nú talnakvarða, merki við nýjasta gengið og merkingar fyrir lægsta og hæsta gildi. Þannig er auðveldara að fylgjast með gengisbreytingum.",
+      "Eftir að gjaldmiðlarnir hafa skipt um sæti er efri reiturinn strax tilbúinn til innsláttar. Talan sem þú slóst inn helst óbreytt, svo þú getur haldið áfram að reikna án aukasmella.",
+      "Hleðsla gagna við ræsingu appsins hefur verið bætt.",
+      "Orðalag og þýðingar hafa verið bætt og texti leyfislistans jafnaður."
+    ],
+    "storeNotes": "• Línurit með talnakvarða, nýjasta gengi og lægsta og hæsta gildi.\n• Þegar gjaldmiðlar skipta um sæti helst talan og efri reiturinn er tilbúinn til innsláttar.\n• Bætt hleðsla gagna við ræsingu.\n• Bætt orðalag, þýðingar og jöfnun leyfislistans.",
+    "body": "• Línuritin sýna nú talnakvarða, merki við nýjasta gengið og merkingar fyrir lægsta og hæsta gildi. Þannig er auðveldara að fylgjast með gengisbreytingum.\n\n• Eftir að gjaldmiðlarnir hafa skipt um sæti er efri reiturinn strax tilbúinn til innsláttar. Talan sem þú slóst inn helst óbreytt, svo þú getur haldið áfram að reikna án aukasmella.\n\n• Hleðsla gagna við ræsingu appsins hefur verið bætt.\n\n• Orðalag og þýðingar hafa verið bætt og texti leyfislistans jafnaður."
+  },
+  "el": {
+    "title": "Πιο κατανοητά γραφήματα και πιο εύκολη μετατροπή!",
+    "bullets": [
+      "Τα γραφήματα διαθέτουν πλέον αριθμητική κλίμακα, δείκτη της τελευταίας ισοτιμίας και ετικέτες της ελάχιστης και μέγιστης τιμής. Είναι πιο εύκολο να παρακολουθείτε τις μεταβολές της ισοτιμίας.",
+      "Μετά την εναλλαγή των νομισμάτων, το επάνω πεδίο είναι αμέσως έτοιμο για εισαγωγή. Ο αριθμός που πληκτρολογήσατε διατηρείται, ώστε να συνεχίσετε τον υπολογισμό χωρίς επιπλέον πατήματα.",
+      "Βελτιώσαμε τη φόρτωση δεδομένων κατά την εκκίνηση της εφαρμογής.",
+      "Βελτιώσαμε τις διατυπώσεις και τις μεταφράσεις και ευθυγραμμίσαμε τη λίστα αδειών χρήσης."
+    ],
+    "storeNotes": "• Γραφήματα με αριθμητική κλίμακα, τελευταία ισοτιμία, ελάχιστο και μέγιστο.\n• Με την εναλλαγή νομισμάτων ο αριθμός διατηρείται και το επάνω πεδίο είναι έτοιμο για εισαγωγή.\n• Βελτιωμένη φόρτωση δεδομένων στην εκκίνηση.\n• Βελτιωμένα κείμενα, μεταφράσεις και στοίχιση λίστας αδειών.",
+    "body": "• Τα γραφήματα διαθέτουν πλέον αριθμητική κλίμακα, δείκτη της τελευταίας ισοτιμίας και ετικέτες της ελάχιστης και μέγιστης τιμής. Είναι πιο εύκολο να παρακολουθείτε τις μεταβολές της ισοτιμίας.\n\n• Μετά την εναλλαγή των νομισμάτων, το επάνω πεδίο είναι αμέσως έτοιμο για εισαγωγή. Ο αριθμός που πληκτρολογήσατε διατηρείται, ώστε να συνεχίσετε τον υπολογισμό χωρίς επιπλέον πατήματα.\n\n• Βελτιώσαμε τη φόρτωση δεδομένων κατά την εκκίνηση της εφαρμογής.\n\n• Βελτιώσαμε τις διατυπώσεις και τις μεταφράσεις και ευθυγραμμίσαμε τη λίστα αδειών χρήσης."
+  },
+  "tr": {
+    "title": "Daha anlaşılır grafikler, daha kolay dönüşüm!",
+    "bullets": [
+      "Grafiklere sayısal ölçek, son kur işareti ve en düşük ve en yüksek değer etiketleri eklendi. Kur değişimlerini takip etmek artık daha kolay.",
+      "Para birimlerinin yerini değiştirdiğinizde üst alan hemen girişe hazır olur. Girdiğiniz sayı korunur; ek dokunuşlar olmadan hesaplamaya devam edebilirsiniz.",
+      "Uygulama açılırken verilerin yüklenmesi iyileştirildi.",
+      "Metinler ve çeviriler iyileştirildi, lisans listesi hizalandı."
+    ],
+    "storeNotes": "• Grafikler: sayısal ölçek, son kur, en düşük ve en yüksek değerler.\n• Para birimleri yer değiştirince girilen sayı korunur, üst alan girişe hazırdır.\n• Başlangıçta veri yükleme iyileştirildi.\n• Metinler, çeviriler ve lisans listesi hizalaması iyileştirildi.",
+    "body": "• Grafiklere sayısal ölçek, son kur işareti ve en düşük ve en yüksek değer etiketleri eklendi. Kur değişimlerini takip etmek artık daha kolay.\n\n• Para birimlerinin yerini değiştirdiğinizde üst alan hemen girişe hazır olur. Girdiğiniz sayı korunur; ek dokunuşlar olmadan hesaplamaya devam edebilirsiniz.\n\n• Uygulama açılırken verilerin yüklenmesi iyileştirildi.\n\n• Metinler ve çeviriler iyileştirildi, lisans listesi hizalandı."
+  },
+  "ru": {
+    "title": "Графики стали понятнее, а конвертация — удобнее!",
+    "bullets": [
+      "На графиках появились числовая шкала, отметка последнего курса и подписи минимального и максимального значений. Теперь проще следить за изменением курса.",
+      "После перестановки валют верхнее поле сразу готово к вводу. Введённое число сохраняется — можно продолжать расчёт без лишних нажатий.",
+      "Доработали загрузку данных при запуске приложения.",
+      "Улучшили формулировки и переводы, выровняли список лицензий."
+    ],
+    "storeNotes": "• Графики: числовая шкала, отметка последнего курса, минимум и максимум.\n• После перестановки валют верхнее поле готово к вводу, введённое число сохраняется.\n• Доработана загрузка данных при запуске.\n• Улучшены формулировки, переводы и выравнивание списка лицензий.",
+    "body": "• На графиках появились числовая шкала, отметка последнего курса и подписи минимального и максимального значений. Теперь проще следить за изменением курса.\n\n• После перестановки валют верхнее поле сразу готово к вводу. Введённое число сохраняется — можно продолжать расчёт без лишних нажатий.\n\n• Доработали загрузку данных при запуске приложения.\n\n• Улучшили формулировки и переводы, выровняли список лицензий."
+  },
+  "uk": {
+    "title": "Графіки стали зрозумілішими, а конвертація — зручнішою!",
+    "bullets": [
+      "На графіках з’явилися числова шкала, позначка останнього курсу та підписи мінімального й максимального значень. Тепер простіше стежити за змінами курсу.",
+      "Після перестановки валют верхнє поле одразу готове до введення. Введене число зберігається — можна продовжувати розрахунок без зайвих натискань.",
+      "Доопрацювали завантаження даних під час запуску застосунку.",
+      "Покращили формулювання й переклади та вирівняли список ліцензій."
+    ],
+    "storeNotes": "• Графіки: числова шкала, останній курс, мінімум і максимум.\n• Після перестановки валют число зберігається, а верхнє поле готове до введення.\n• Доопрацьоване завантаження даних під час запуску.\n• Покращені тексти, переклади й вирівнювання списку ліцензій.",
+    "body": "• На графіках з’явилися числова шкала, позначка останнього курсу та підписи мінімального й максимального значень. Тепер простіше стежити за змінами курсу.\n\n• Після перестановки валют верхнє поле одразу готове до введення. Введене число зберігається — можна продовжувати розрахунок без зайвих натискань.\n\n• Доопрацювали завантаження даних під час запуску застосунку.\n\n• Покращили формулювання й переклади та вирівняли список ліцензій."
+  },
+  "ar": {
+    "title": "رسوم بيانية أوضح وتحويل أسهل!",
+    "bullets": [
+      "أضفنا إلى الرسوم البيانية تدريجًا رقميًا ومؤشرًا لأحدث سعر صرف وتسميات لأدنى سعر وأعلاه، لتسهيل متابعة تغيرات الأسعار.",
+      "بعد تبديل موضعي العملتين، يصبح الحقل العلوي جاهزًا للإدخال فورًا. يُحفظ الرقم الذي أدخلته، لتواصل الحساب دون نقرات إضافية.",
+      "حسّنا تحميل البيانات عند بدء تشغيل التطبيق.",
+      "حسّنا الصياغة والترجمات ووحّدنا محاذاة قائمة التراخيص."
+    ],
+    "storeNotes": "• تدريج رقمي ومؤشر لأحدث سعر صرف وتسميات لأدنى سعر وأعلاه في الرسوم البيانية.\n• بعد تبديل العملتين، أدخل مباشرة في الحقل العلوي مع الاحتفاظ بالرقم السابق، دون نقرات إضافية.\n• تحسين تحميل البيانات عند بدء التشغيل.\n• تحسين الصياغة والترجمات ومحاذاة قائمة التراخيص.",
+    "body": "• أضفنا إلى الرسوم البيانية تدريجًا رقميًا ومؤشرًا لأحدث سعر صرف وتسميات لأدنى سعر وأعلاه، لتسهيل متابعة تغيرات الأسعار.\n\n• بعد تبديل موضعي العملتين، يصبح الحقل العلوي جاهزًا للإدخال فورًا. يُحفظ الرقم الذي أدخلته، لتواصل الحساب دون نقرات إضافية.\n\n• حسّنا تحميل البيانات عند بدء تشغيل التطبيق.\n\n• حسّنا الصياغة والترجمات ووحّدنا محاذاة قائمة التراخيص."
+  },
+  "iw": {
+    "title": "תרשימים ברורים יותר והמרה נוחה יותר!",
+    "bullets": [
+      "לתרשימים נוספו סולם מספרי, סמן לשער העדכני ותוויות מינימום ומקסימום, כדי להקל על המעקב אחר שינויים בשער.",
+      "לאחר החלפת מיקומי המטבעות, השדה העליון מוכן מיד להזנה. המספר שהוזן נשמר, ואפשר להמשיך בחישוב ללא הקשות נוספות.",
+      "שיפרנו את טעינת הנתונים בעת הפעלת האפליקציה.",
+      "שיפרנו ניסוחים ותרגומים ויישרנו את רשימת הרישיונות."
+    ],
+    "storeNotes": "• סולם מספרי, סמן לשער העדכני ותוויות מינימום ומקסימום בתרשימים.\n• אחרי החלפת המטבעות, השדה העליון מוכן מיד להזנה והמספר נשמר, ללא הקשות נוספות.\n• שיפור טעינת הנתונים בהפעלת האפליקציה.\n• שיפור ניסוחים ותרגומים ויישור רשימת הרישיונות.",
+    "body": "• לתרשימים נוספו סולם מספרי, סמן לשער העדכני ותוויות מינימום ומקסימום, כדי להקל על המעקב אחר שינויים בשער.\n\n• לאחר החלפת מיקומי המטבעות, השדה העליון מוכן מיד להזנה. המספר שהוזן נשמר, ואפשר להמשיך בחישוב ללא הקשות נוספות.\n\n• שיפרנו את טעינת הנתונים בעת הפעלת האפליקציה.\n\n• שיפרנו ניסוחים ותרגומים ויישרנו את רשימת הרישיונות."
+  },
+  "fa": {
+    "title": "نمودارهای واضح‌تر، تبدیل آسان‌تر!",
+    "bullets": [
+      "مقیاس عددی، نشانگر آخرین نرخ و برچسب‌های کمینه و بیشینه به نمودارها اضافه شده‌اند تا دنبال‌کردن تغییرات نرخ آسان‌تر شود.",
+      "پس از جابه‌جایی ارزها، کادر بالا بلافاصله برای ورود عدد آماده است. عدد واردشده حفظ می‌شود و می‌توانید بدون لمس‌های اضافی به محاسبه ادامه دهید.",
+      "بارگذاری داده‌ها هنگام راه‌اندازی برنامه بهبود یافته است.",
+      "متن‌ها و ترجمه‌ها بهبود یافته‌اند و فهرست مجوزها هم‌تراز شده است."
+    ],
+    "storeNotes": "• مقیاس عددی، نشانگر آخرین نرخ و برچسب‌های کمینه و بیشینه در نمودارها.\n• پس از جابه‌جایی ارزها، کادر بالا آمادهٔ ورود است و عدد حفظ می‌شود؛ بدون لمس اضافی ادامه دهید.\n• بهبود بارگذاری داده‌ها هنگام راه‌اندازی.\n• بهبود متن‌ها و ترجمه‌ها و هم‌ترازی فهرست مجوزها.",
+    "body": "• مقیاس عددی، نشانگر آخرین نرخ و برچسب‌های کمینه و بیشینه به نمودارها اضافه شده‌اند تا دنبال‌کردن تغییرات نرخ آسان‌تر شود.\n\n• پس از جابه‌جایی ارزها، کادر بالا بلافاصله برای ورود عدد آماده است. عدد واردشده حفظ می‌شود و می‌توانید بدون لمس‌های اضافی به محاسبه ادامه دهید.\n\n• بارگذاری داده‌ها هنگام راه‌اندازی برنامه بهبود یافته است.\n\n• متن‌ها و ترجمه‌ها بهبود یافته‌اند و فهرست مجوزها هم‌تراز شده است."
+  },
+  "ur": {
+    "title": "زیادہ واضح گراف اور آسان تبدیلی!",
+    "bullets": [
+      "گراف میں عددی پیمانہ، تازہ ترین شرح کا نشان اور کم سے کم اور زیادہ سے زیادہ شرح کے لیبل شامل کیے گئے ہیں، تاکہ شرح میں تبدیلیوں کو سمجھنا آسان ہو۔",
+      "کرنسیوں کی جگہ بدلنے کے بعد اوپر والا خانہ فوراً اندراج کے لیے تیار ہوتا ہے۔ درج کیا گیا عدد برقرار رہتا ہے، اس لیے اضافی ٹیپ کیے بغیر حساب جاری رکھ سکتے ہیں۔",
+      "ایپ شروع ہوتے وقت ڈیٹا لوڈ کرنے کے عمل کو بہتر بنایا گیا ہے۔",
+      "عبارت اور ترجمے بہتر کیے گئے ہیں اور لائسنسوں کی فہرست یکساں طور پر سیدھ میں کی گئی ہے۔"
+    ],
+    "storeNotes": "• گراف میں عددی پیمانہ، تازہ شرح کا نشان اور کم سے کم اور زیادہ سے زیادہ شرح کے لیبل۔\n• کرنسیاں بدلنے پر اوپر والا خانہ فوراً تیار؛ درج عدد برقرار، اضافی ٹیپ کی ضرورت نہیں۔\n• آغاز پر ڈیٹا لوڈ کرنے میں بہتری۔\n• بہتر عبارت، ترجمے اور لائسنسوں کی فہرست کی یکساں سیدھ۔",
+    "body": "• گراف میں عددی پیمانہ، تازہ ترین شرح کا نشان اور کم سے کم اور زیادہ سے زیادہ شرح کے لیبل شامل کیے گئے ہیں، تاکہ شرح میں تبدیلیوں کو سمجھنا آسان ہو۔\n\n• کرنسیوں کی جگہ بدلنے کے بعد اوپر والا خانہ فوراً اندراج کے لیے تیار ہوتا ہے۔ درج کیا گیا عدد برقرار رہتا ہے، اس لیے اضافی ٹیپ کیے بغیر حساب جاری رکھ سکتے ہیں۔\n\n• ایپ شروع ہوتے وقت ڈیٹا لوڈ کرنے کے عمل کو بہتر بنایا گیا ہے۔\n\n• عبارت اور ترجمے بہتر کیے گئے ہیں اور لائسنسوں کی فہرست یکساں طور پر سیدھ میں کی گئی ہے۔"
+  },
+  "hi": {
+    "title": "ज़्यादा स्पष्ट ग्राफ़ और आसान रूपांतरण!",
+    "bullets": [
+      "ग्राफ़ में संख्यात्मक पैमाना, ताज़ा दर का चिह्न और न्यूनतम व अधिकतम दर के लेबल जोड़े गए हैं, ताकि दर में बदलाव समझना आसान हो।",
+      "मुद्राओं की जगह बदलते ही ऊपर वाला फ़ील्ड इनपुट के लिए तैयार रहता है। दर्ज की गई संख्या बनी रहती है, ताकि बिना अतिरिक्त टैप के गणना जारी रख सकें।",
+      "ऐप शुरू होते समय डेटा लोड करने की प्रक्रिया में सुधार किया गया है।",
+      "शब्दावली और अनुवाद सुधारे गए हैं और लाइसेंस सूची का संरेखण ठीक किया गया है।"
+    ],
+    "storeNotes": "• ग्राफ़ में संख्यात्मक पैमाना, ताज़ा दर का चिह्न और न्यूनतम/अधिकतम लेबल।\n• मुद्राएँ बदलते ही ऊपर वाला फ़ील्ड तैयार; दर्ज संख्या बनी रहती है, अतिरिक्त टैप की ज़रूरत नहीं।\n• ऐप शुरू होने पर डेटा लोड करने में सुधार।\n• बेहतर शब्दावली, अनुवाद और लाइसेंस सूची का संरेखण।",
+    "body": "• ग्राफ़ में संख्यात्मक पैमाना, ताज़ा दर का चिह्न और न्यूनतम व अधिकतम दर के लेबल जोड़े गए हैं, ताकि दर में बदलाव समझना आसान हो।\n\n• मुद्राओं की जगह बदलते ही ऊपर वाला फ़ील्ड इनपुट के लिए तैयार रहता है। दर्ज की गई संख्या बनी रहती है, ताकि बिना अतिरिक्त टैप के गणना जारी रख सकें।\n\n• ऐप शुरू होते समय डेटा लोड करने की प्रक्रिया में सुधार किया गया है।\n\n• शब्दावली और अनुवाद सुधारे गए हैं और लाइसेंस सूची का संरेखण ठीक किया गया है।"
+  },
+  "bn": {
+    "title": "আরও স্পষ্ট গ্রাফ, আরও সহজ রূপান্তর!",
+    "bullets": [
+      "গ্রাফে সংখ্যার স্কেল, সর্বশেষ হারের চিহ্ন এবং সর্বনিম্ন ও সর্বোচ্চ হারের লেবেল যোগ হয়েছে, যাতে হারের পরিবর্তন সহজে বোঝা যায়।",
+      "মুদ্রার অবস্থান বদলানোর পর উপরের ঘরটি সঙ্গে সঙ্গে ইনপুটের জন্য প্রস্তুত থাকে। লেখা সংখ্যাটি বজায় থাকে, তাই বাড়তি ট্যাপ ছাড়াই হিসাব চালিয়ে যেতে পারেন।",
+      "অ্যাপ চালুর সময় ডেটা লোড করার প্রক্রিয়া উন্নত করা হয়েছে।",
+      "লেখা ও অনুবাদ উন্নত করা হয়েছে এবং লাইসেন্সের তালিকা সমানভাবে সাজানো হয়েছে।"
+    ],
+    "storeNotes": "• গ্রাফে সংখ্যার স্কেল, সর্বশেষ হারের চিহ্ন ও সর্বনিম্ন/সর্বোচ্চ লেবেল।\n• মুদ্রা বদলালেই উপরের ঘরে ইনপুট দিন; লেখা সংখ্যা বজায় থাকে, বাড়তি ট্যাপ লাগে না।\n• অ্যাপ চালুর সময় ডেটা লোডিং উন্নত হয়েছে।\n• উন্নত লেখা, অনুবাদ ও সমানভাবে সাজানো লাইসেন্স তালিকা।",
+    "body": "• গ্রাফে সংখ্যার স্কেল, সর্বশেষ হারের চিহ্ন এবং সর্বনিম্ন ও সর্বোচ্চ হারের লেবেল যোগ হয়েছে, যাতে হারের পরিবর্তন সহজে বোঝা যায়।\n\n• মুদ্রার অবস্থান বদলানোর পর উপরের ঘরটি সঙ্গে সঙ্গে ইনপুটের জন্য প্রস্তুত থাকে। লেখা সংখ্যাটি বজায় থাকে, তাই বাড়তি ট্যাপ ছাড়াই হিসাব চালিয়ে যেতে পারেন।\n\n• অ্যাপ চালুর সময় ডেটা লোড করার প্রক্রিয়া উন্নত করা হয়েছে।\n\n• লেখা ও অনুবাদ উন্নত করা হয়েছে এবং লাইসেন্সের তালিকা সমানভাবে সাজানো হয়েছে।"
+  },
+  "in": {
+    "title": "Grafik lebih jelas, konversi lebih mudah!",
+    "bullets": [
+      "Grafik kini dilengkapi skala angka, penanda kurs terbaru, serta label minimum dan maksimum agar perubahan kurs lebih mudah diikuti.",
+      "Setelah posisi mata uang ditukar, kolom atas langsung siap diisi. Angka yang dimasukkan tetap tersimpan, sehingga Anda dapat melanjutkan perhitungan tanpa ketukan tambahan.",
+      "Pemuatan data saat aplikasi dimulai telah ditingkatkan.",
+      "Penyusunan kata dan terjemahan diperbaiki, serta perataan daftar lisensi dirapikan."
+    ],
+    "storeNotes": "• Grafik dengan skala angka, penanda kurs terbaru, serta label minimum/maksimum.\n• Setelah mata uang ditukar, kolom atas siap diisi dan angka tetap tersimpan, tanpa ketukan tambahan.\n• Pemuatan data saat aplikasi dimulai ditingkatkan.\n• Perbaikan kata, terjemahan, dan perataan daftar lisensi.",
+    "body": "• Grafik kini dilengkapi skala angka, penanda kurs terbaru, serta label minimum dan maksimum agar perubahan kurs lebih mudah diikuti.\n\n• Setelah posisi mata uang ditukar, kolom atas langsung siap diisi. Angka yang dimasukkan tetap tersimpan, sehingga Anda dapat melanjutkan perhitungan tanpa ketukan tambahan.\n\n• Pemuatan data saat aplikasi dimulai telah ditingkatkan.\n\n• Penyusunan kata dan terjemahan diperbaiki, serta perataan daftar lisensi dirapikan."
+  },
+  "ms": {
+    "title": "Graf lebih jelas, penukaran lebih mudah!",
+    "bullets": [
+      "Graf kini mempunyai skala angka, penanda kadar terkini serta label minimum dan maksimum supaya perubahan kadar lebih mudah diikuti.",
+      "Selepas kedudukan mata wang ditukar, medan atas terus sedia untuk input. Nombor yang dimasukkan dikekalkan, jadi anda boleh meneruskan pengiraan tanpa ketikan tambahan.",
+      "Pemuatan data semasa aplikasi dimulakan telah ditambah baik.",
+      "Susunan kata dan terjemahan ditambah baik, serta penjajaran senarai lesen dikemaskan."
+    ],
+    "storeNotes": "• Graf dengan skala angka, penanda kadar terkini serta label minimum/maksimum.\n• Selepas mata wang ditukar, medan atas terus sedia dan nombor dikekalkan, tanpa ketikan tambahan.\n• Pemuatan data semasa aplikasi dimulakan ditambah baik.\n• Penambahbaikan teks, terjemahan dan penjajaran senarai lesen.",
+    "body": "• Graf kini mempunyai skala angka, penanda kadar terkini serta label minimum dan maksimum supaya perubahan kadar lebih mudah diikuti.\n\n• Selepas kedudukan mata wang ditukar, medan atas terus sedia untuk input. Nombor yang dimasukkan dikekalkan, jadi anda boleh meneruskan pengiraan tanpa ketikan tambahan.\n\n• Pemuatan data semasa aplikasi dimulakan telah ditambah baik.\n\n• Susunan kata dan terjemahan ditambah baik, serta penjajaran senarai lesen dikemaskan."
+  },
+  "th": {
+    "title": "กราฟชัดเจนขึ้น แปลงสกุลเงินได้สะดวกขึ้น!",
+    "bullets": [
+      "กราฟมีสเกลตัวเลข จุดแสดงอัตราล่าสุด และป้ายค่าต่ำสุดกับสูงสุดแล้ว จึงติดตามการเปลี่ยนแปลงของอัตราได้ง่ายขึ้น",
+      "เมื่อสลับสกุลเงิน ช่องด้านบนจะพร้อมรับข้อมูลทันที ตัวเลขที่ป้อนไว้ยังคงอยู่ จึงคำนวณต่อได้โดยไม่ต้องแตะเพิ่ม",
+      "ปรับปรุงการโหลดข้อมูลเมื่อเปิดแอป",
+      "ปรับปรุงข้อความและคำแปล พร้อมจัดแนวรายการใบอนุญาตให้สม่ำเสมอ"
+    ],
+    "storeNotes": "• กราฟมีสเกลตัวเลข จุดแสดงอัตราล่าสุด และป้ายค่าต่ำสุด/สูงสุด\n• สลับสกุลเงินแล้วป้อนข้อมูลในช่องบนได้ทันที ตัวเลขเดิมยังอยู่ ไม่ต้องแตะเพิ่ม\n• ปรับปรุงการโหลดข้อมูลเมื่อเปิดแอป\n• ปรับปรุงข้อความ คำแปล และการจัดแนวรายการใบอนุญาต",
+    "body": "• กราฟมีสเกลตัวเลข จุดแสดงอัตราล่าสุด และป้ายค่าต่ำสุดกับสูงสุดแล้ว จึงติดตามการเปลี่ยนแปลงของอัตราได้ง่ายขึ้น\n\n• เมื่อสลับสกุลเงิน ช่องด้านบนจะพร้อมรับข้อมูลทันที ตัวเลขที่ป้อนไว้ยังคงอยู่ จึงคำนวณต่อได้โดยไม่ต้องแตะเพิ่ม\n\n• ปรับปรุงการโหลดข้อมูลเมื่อเปิดแอป\n\n• ปรับปรุงข้อความและคำแปล พร้อมจัดแนวรายการใบอนุญาตให้สม่ำเสมอ"
+  },
+  "vi": {
+    "title": "Biểu đồ rõ hơn, quy đổi dễ hơn!",
+    "bullets": [
+      "Biểu đồ có thêm thang số, điểm đánh dấu tỷ giá mới nhất cùng nhãn thấp nhất và cao nhất, giúp dễ theo dõi biến động tỷ giá.",
+      "Sau khi hoán đổi vị trí các loại tiền, ô phía trên sẵn sàng để nhập ngay. Số đã nhập được giữ nguyên để bạn tiếp tục tính mà không cần chạm thêm.",
+      "Cải thiện quá trình tải dữ liệu khi khởi động ứng dụng.",
+      "Cải thiện cách diễn đạt, bản dịch và căn chỉnh danh sách giấy phép."
+    ],
+    "storeNotes": "• Biểu đồ có thang số, dấu tỷ giá mới nhất và nhãn thấp nhất/cao nhất.\n• Đổi vị trí loại tiền rồi nhập ngay ở ô trên; giữ nguyên số đã nhập, không cần chạm thêm.\n• Cải thiện tải dữ liệu khi mở ứng dụng.\n• Cải thiện câu chữ, bản dịch và căn chỉnh danh sách giấy phép.",
+    "body": "• Biểu đồ có thêm thang số, điểm đánh dấu tỷ giá mới nhất cùng nhãn thấp nhất và cao nhất, giúp dễ theo dõi biến động tỷ giá.\n\n• Sau khi hoán đổi vị trí các loại tiền, ô phía trên sẵn sàng để nhập ngay. Số đã nhập được giữ nguyên để bạn tiếp tục tính mà không cần chạm thêm.\n\n• Cải thiện quá trình tải dữ liệu khi khởi động ứng dụng.\n\n• Cải thiện cách diễn đạt, bản dịch và căn chỉnh danh sách giấy phép."
+  },
+  "zh-Hans": {
+    "title": "图表更清晰，换算更方便！",
+    "bullets": [
+      "图表新增数字刻度、最新汇率标记以及最低和最高汇率标签，方便查看汇率变化。",
+      "交换币种后，可立即在上方输入框中输入。已输入的数值会保留，无需额外点击即可继续计算。",
+      "改进了应用启动时的数据加载。",
+      "改进了文案和翻译，并统一了许可证列表的对齐方式。"
+    ],
+    "storeNotes": "• 图表新增数字刻度、最新汇率标记和最低/最高汇率标签。\n• 交换币种后，上方输入框立即可用，保留已输入的数值，无需额外点击。\n• 改进应用启动时的数据加载。\n• 改进文案和翻译，统一许可证列表的对齐方式。",
+    "body": "• 图表新增数字刻度、最新汇率标记以及最低和最高汇率标签，方便查看汇率变化。\n\n• 交换币种后，可立即在上方输入框中输入。已输入的数值会保留，无需额外点击即可继续计算。\n\n• 改进了应用启动时的数据加载。\n\n• 改进了文案和翻译，并统一了许可证列表的对齐方式。"
+  },
+  "zh-Hant": {
+    "title": "圖表更清晰，換算更方便！",
+    "bullets": [
+      "圖表新增數值刻度、最新匯率標記，以及最低和最高匯率標籤，方便查看匯率變化。",
+      "交換幣別後，可立即在上方輸入欄位輸入。已輸入的數值會保留，無須額外點選即可繼續計算。",
+      "改善了應用程式啟動時的資料載入。",
+      "改善了文案和翻譯，並統一授權條款清單的對齊方式。"
+    ],
+    "storeNotes": "• 圖表新增數值刻度、最新匯率標記和最低/最高匯率標籤。\n• 交換幣別後，上方欄位立即可輸入，保留已輸入的數值，無須額外點選。\n• 改善應用程式啟動時的資料載入。\n• 改善文案和翻譯，統一授權條款清單的對齊方式。",
+    "body": "• 圖表新增數值刻度、最新匯率標記，以及最低和最高匯率標籤，方便查看匯率變化。\n\n• 交換幣別後，可立即在上方輸入欄位輸入。已輸入的數值會保留，無須額外點選即可繼續計算。\n\n• 改善了應用程式啟動時的資料載入。\n\n• 改善了文案和翻譯，並統一授權條款清單的對齊方式。"
+  },
+  "ja": {
+    "title": "グラフが見やすく、換算が便利に！",
+    "bullets": [
+      "グラフに数値目盛り、最新レートのマーカー、最小値・最大値の表示を追加し、レートの変動を追いやすくしました。",
+      "通貨を入れ替えると、上の欄ですぐに入力できます。入力済みの数値は保持されるため、追加のタップなしで計算を続けられます。",
+      "アプリ起動時のデータ読み込みを改善しました。",
+      "文言と翻訳を改善し、ライセンス一覧の配置をそろえました。"
+    ],
+    "storeNotes": "• グラフに数値目盛り、最新レートのマーカー、最小値・最大値を表示。\n• 通貨を入れ替えたら上の欄ですぐ入力。数値を保持し、追加タップなしで計算を続けられます。\n• 起動時のデータ読み込みを改善。\n• 文言・翻訳を改善し、ライセンス一覧の配置を統一。",
+    "body": "• グラフに数値目盛り、最新レートのマーカー、最小値・最大値の表示を追加し、レートの変動を追いやすくしました。\n\n• 通貨を入れ替えると、上の欄ですぐに入力できます。入力済みの数値は保持されるため、追加のタップなしで計算を続けられます。\n\n• アプリ起動時のデータ読み込みを改善しました。\n\n• 文言と翻訳を改善し、ライセンス一覧の配置をそろえました。"
+  },
+  "ko": {
+    "title": "더 알기 쉬운 차트, 더 편리한 환산!",
+    "bullets": [
+      "차트에 숫자 눈금, 최신 환율 표시, 최솟값과 최댓값 라벨을 추가해 환율 변화를 더 쉽게 확인할 수 있습니다.",
+      "통화 위치를 바꾸면 위쪽 입력란에 바로 입력할 수 있습니다. 입력한 숫자는 유지되므로 추가로 누르지 않고 계산을 이어 갈 수 있습니다.",
+      "앱 시작 시 데이터를 불러오는 과정을 개선했습니다.",
+      "문구와 번역을 개선하고 라이선스 목록의 정렬을 맞췄습니다."
+    ],
+    "storeNotes": "• 차트에 숫자 눈금, 최신 환율 표시와 최솟값/최댓값 라벨을 추가했습니다.\n• 통화 위치를 바꾸면 위쪽에 바로 입력할 수 있습니다. 입력 숫자는 유지되며 추가로 누를 필요가 없습니다.\n• 앱 시작 시 데이터 로딩을 개선했습니다.\n• 문구와 번역을 개선하고 라이선스 목록을 정렬했습니다.",
+    "body": "• 차트에 숫자 눈금, 최신 환율 표시, 최솟값과 최댓값 라벨을 추가해 환율 변화를 더 쉽게 확인할 수 있습니다.\n\n• 통화 위치를 바꾸면 위쪽 입력란에 바로 입력할 수 있습니다. 입력한 숫자는 유지되므로 추가로 누르지 않고 계산을 이어 갈 수 있습니다.\n\n• 앱 시작 시 데이터를 불러오는 과정을 개선했습니다.\n\n• 문구와 번역을 개선하고 라이선스 목록의 정렬을 맞췄습니다."
+  }
+}

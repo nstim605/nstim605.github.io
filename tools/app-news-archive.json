@@ -1,0 +1,4226 @@
+{
+  "en": {
+    "title": "What’s New",
+    "cards": [
+      {
+        "id": "ScannerAccuracy",
+        "title": "Improved price scanner",
+        "body": "• Improved recognition of price tags, catalogues and menus, including small or raised decimal digits. • Better distinction between the main price, product codes, pack quantities and reference prices per kilogram. • Refined price checks across multiple frames to prevent random reading errors from gaining false confirmation.",
+        "version": "1.618",
+        "published": true,
+        "statusLabel": "Google Play · 1.618"
+      },
+      {
+        "id": "CartExperience",
+        "title": "Shopping cart and feedback",
+        "body": "• More compact cart: items and totals are easier to see. • On first use of the cart: 10 free additions in the first 24 hours, then 5 per day. • Reply email is optional. Feedback is sent through your email app. • Updated Help and BP theme explanations; full license texts are available offline.",
+        "version": "1.617",
+        "published": true,
+        "statusLabel": "Google Play · 1.617"
+      },
+      {
+        "id": "CartContinuous",
+        "title": "Scanning your shopping is easier!",
+        "body": "• Add items to your cart one after another with “Add and scan next” — the camera stays open and you confirm every price yourself. • The item count and running total in your chosen currency are now shown right in the scanner. • Finished shopping? Tap “Add and open cart”.",
+        "version": "1.616",
+        "published": true,
+        "statusLabel": "Google Play · 1.616"
+      },
+      {
+        "id": "ShoppingCart",
+        "title": "Shopping cart",
+        "body": "Scan prices or add items manually. See each item’s price and the total in your chosen currency. Five free additions per day, then 1 BP per new item.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "Themes",
+        "title": "24 color themes",
+        "body": "Choose a palette from the new grid picker. Five themes are free; unlock each of the other 19 for 60 BP forever. Previously unlocked themes stay available.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "RewardedAds",
+        "title": "BALCO Points and ads",
+        "body": "Rewarded ads now load when you open the relevant section and open after one tap as soon as they are ready. Subscription status is clearer, with an option to retry verification.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "PriceConversion",
+        "title": "Clearer price conversion",
+        "body": "Fixed Bitcoin conversion, made selected amounts easier to distinguish, and improved price labels in the scanner. Text selected in other apps is converted only after access is confirmed.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "Navigation",
+        "title": "Easier navigation",
+        "body": "Shopping cart is below conversion history in the menu. Actual Cost is now called Exchange rate comparison. What’s New is inside About.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "Keyboard",
+        "title": "Keyboard fonts and sizes",
+        "body": "Customize the calculator buttons in Settings: choose a standard, classic, monospace or Gothic font and one of three symbol sizes. A preview shows your choice, and your preferences are saved.",
+        "version": "1.613",
+        "published": true
+      },
+      {
+        "id": "ProcessText",
+        "title": "Selected-text conversion",
+        "body": "Selected text: 149.99 EUR → 17,529.33 RSD (1 EUR = 116.87 RSD)"
+      },
+      {
+        "id": "PriceScanner",
+        "title": "Price scanner",
+        "body": "Camera access is needed to scan a price. Images stay on this device and are not saved."
+      },
+      {
+        "id": "ActualCost",
+        "title": "Exchange rate comparison",
+        "body": "Compare the offer with the reference rate."
+      },
+      {
+        "id": "TravelBoard",
+        "title": "Travel board",
+        "body": "Tap a currency to make it the base currency."
+      },
+      {
+        "id": "Crypto",
+        "title": "Crypto",
+        "body": "Crypto rates"
+      }
+    ]
+  },
+  "sr": {
+    "title": "Шта је ново",
+    "cards": [
+      {
+        "id": "ScannerAccuracy",
+        "title": "Побољшан скенер цена",
+        "body": "• Побољшано препознавање ценовних ознака, каталога и менија, укључујући ситне или подигнуте децималне цифре. • Боље разликовање главне цене од шифара артикала, количине у паковању и референтне цене по килограму. • Дорађена провера цене кроз више кадрова како случајне грешке у читању не би добијале лажну потврду.",
+        "version": "1.618",
+        "published": true,
+        "statusLabel": "Google Play · 1.618"
+      },
+      {
+        "id": "CartExperience",
+        "title": "Корпа и повратне информације",
+        "body": "• Компактнија корпа: производи и укупан износ су прегледнији. • При првом коришћењу корпе: 10 бесплатних додавања у прва 24 сата, затим 5 дневно. • Имејл за одговор није обавезан. Порука се шаље преко апликације за е-пошту. • Ажурирана помоћ и објашњења тема за BP; пуни текстови лиценци доступни су без интернета.",
+        "version": "1.617",
+        "published": true,
+        "statusLabel": "Google Play · 1.617"
+      },
+      {
+        "id": "CartContinuous",
+        "title": "Скенирање куповине је сада лакше!",
+        "body": "• Додајте производе у корпу један за другим помоћу дугмета „Додај и скенирај следећи” — камера остаје отворена, а сваку цену потврђујете сами. • Број производа и тренутни укупан износ у изабраној валути сада су видљиви директно у скенеру. • Завршили сте куповину? Додирните „Додај и отвори корпу”.",
+        "version": "1.616",
+        "published": true,
+        "statusLabel": "Google Play · 1.616"
+      },
+      {
+        "id": "ShoppingCart",
+        "title": "Корпа за куповину",
+        "body": "Скенирајте цене или ручно додајте артикле. Погледајте цену сваког артикла и укупан износ у изабраној валути. Пет бесплатних додавања дневно, а затим 1 BP по новом артиклу.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "Themes",
+        "title": "24 теме у боји",
+        "body": "Изаберите палету из новог мрежног приказа. Пет тема је бесплатно; сваку од преосталих 19 откључајте заувек за 60 BP. Раније откључане теме остају доступне.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "RewardedAds",
+        "title": "BALCO Points и огласи",
+        "body": "Огласи са наградом сада се учитавају када отворите одговарајући одељак и покрећу се након једног додира чим буду спремни. Статус претплате је јаснији, уз могућност поновне провере.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "PriceConversion",
+        "title": "Јасније прерачунавање цена",
+        "body": "Исправљено је прерачунавање биткоина, олакшано разликовање изабраних износа и побољшане ознаке цена у скенеру. Текст изабран у другим апликацијама прерачунава се тек након потврде приступа.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "Navigation",
+        "title": "Лакша навигација",
+        "body": "Корпа за куповину је у менију испод историје конверзија. Стварни трошак сада се зове Поређење курсева. Шта је ново налази се у одељку О апликацији.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "Keyboard",
+        "title": "Фонтови и величине тастатуре",
+        "body": "Прилагодите тастере калкулатора у подешавањима: изаберите стандардни, класични, фонт једнаке ширине или готички фонт и једну од три величине знакова. Преглед приказује ваш избор, а подешавања се чувају.",
+        "version": "1.613",
+        "published": true
+      },
+      {
+        "id": "ProcessText",
+        "title": "Конверзија изабраног текста",
+        "body": "Изабрани текст: 149,99 EUR → 17.529,33 RSD (1 EUR = 116,87 RSD)"
+      },
+      {
+        "id": "PriceScanner",
+        "title": "Скенер цена",
+        "body": "Приступ камери је потребан за скенирање цене. Слике остају на уређају и не чувају се."
+      },
+      {
+        "id": "ActualCost",
+        "title": "Поређење курсева",
+        "body": "Упоредите услове размене са референтним курсом апликације."
+      },
+      {
+        "id": "TravelBoard",
+        "title": "Мулти-валутна путна табла",
+        "body": "Додирните валуту да бисте је поставили као основну."
+      },
+      {
+        "id": "Crypto",
+        "title": "Криптовалуте",
+        "body": "Курсеви криптовалута"
+      }
+    ]
+  },
+  "bs": {
+    "title": "Šta je novo",
+    "cards": [
+      {
+        "id": "ScannerAccuracy",
+        "title": "Poboljšan skener cijena",
+        "body": "• Poboljšano prepoznavanje cjenovnih oznaka, kataloga i menija, uključujući sitne ili podignute decimalne cifre. • Bolje razlikovanje glavne cijene od šifri artikala, količine u pakovanju i referentne cijene po kilogramu. • Dorađena provjera cijene kroz više kadrova kako slučajne greške u čitanju ne bi dobijale lažnu potvrdu.",
+        "version": "1.618",
+        "published": true,
+        "statusLabel": "Google Play · 1.618"
+      },
+      {
+        "id": "CartExperience",
+        "title": "Korpa i povratne informacije",
+        "body": "• Kompaktnija korpa: proizvodi i ukupan iznos su pregledniji. • Pri prvom korištenju korpe: 10 besplatnih dodavanja u prva 24 sata, zatim 5 dnevno. • Email za odgovor nije obavezan. Poruka se šalje putem aplikacije za email. • Ažurirana pomoć i objašnjenja tema za BP; puni tekstovi licenci dostupni su bez interneta.",
+        "version": "1.617",
+        "published": true,
+        "statusLabel": "Google Play · 1.617"
+      },
+      {
+        "id": "CartContinuous",
+        "title": "Skeniranje kupovine sada je lakše!",
+        "body": "• Dodajte proizvode u korpu jedan za drugim pomoću dugmeta „Dodaj i skeniraj sljedeći” — kamera ostaje otvorena, a svaku cijenu potvrđujete sami. • Broj proizvoda i trenutni ukupni iznos u odabranoj valuti sada su vidljivi direktno u skeneru. • Završili ste kupovinu? Dodirnite „Dodaj i otvori korpu”.",
+        "version": "1.616",
+        "published": true,
+        "statusLabel": "Google Play · 1.616"
+      },
+      {
+        "id": "ShoppingCart",
+        "title": "Korpa za kupovinu",
+        "body": "Skenirajte cijene ili ručno dodajte artikle. Pogledajte cijenu svakog artikla i ukupan iznos u odabranoj valuti. Pet besplatnih dodavanja dnevno, zatim 1 BP po novom artiklu.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "Themes",
+        "title": "24 teme u boji",
+        "body": "Odaberite paletu iz novog mrežnog prikaza. Pet tema je besplatno; svaku od preostalih 19 otključajte zauvijek za 60 BP. Prethodno otključane teme ostaju dostupne.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "RewardedAds",
+        "title": "BALCO Points i oglasi",
+        "body": "Oglasi s nagradom sada se učitavaju kada otvorite odgovarajući odjeljak i pokreću se nakon jednog dodira čim budu spremni. Status pretplate je jasniji, uz mogućnost ponovne provjere.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "PriceConversion",
+        "title": "Jasnije preračunavanje cijena",
+        "body": "Ispravljeno je preračunavanje bitcoina, olakšano razlikovanje odabranih iznosa i poboljšane oznake cijena u skeneru. Tekst odabran u drugim aplikacijama preračunava se tek nakon potvrde pristupa.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "Navigation",
+        "title": "Lakša navigacija",
+        "body": "Korpa za kupovinu je u meniju ispod historije konverzija. Stvarni trošak sada se zove Poređenje kurseva. Šta je novo nalazi se u odjeljku O ovoj aplikaciji.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "Keyboard",
+        "title": "Fontovi i veličine tastature",
+        "body": "Prilagodite tipke kalkulatora u postavkama: izaberite standardni, klasični, font jednake širine ili gotički font i jednu od tri veličine znakova. Pregled prikazuje vaš izbor, a postavke se čuvaju.",
+        "version": "1.613",
+        "published": true
+      },
+      {
+        "id": "ProcessText",
+        "title": "Pretvaranje odabranog teksta",
+        "body": "Odabrani tekst: 149,99 EUR → 17.529,33 RSD (1 EUR = 116,87 RSD)"
+      },
+      {
+        "id": "PriceScanner",
+        "title": "Skener cijena",
+        "body": "Pristup kameri je potreban za skeniranje cijene. Slike ostaju na uređaju i ne čuvaju se."
+      },
+      {
+        "id": "ActualCost",
+        "title": "Poređenje kurseva",
+        "body": "Uporedite uslove razmjene s referentnim kursom aplikacije."
+      },
+      {
+        "id": "TravelBoard",
+        "title": "Pregled valuta za putovanja",
+        "body": "Dodirnite valutu da je postavite kao osnovnu."
+      },
+      {
+        "id": "Crypto",
+        "title": "Kriptovalute",
+        "body": "Kursevi kriptovaluta"
+      }
+    ]
+  },
+  "hr": {
+    "title": "Što je novo",
+    "cards": [
+      {
+        "id": "ScannerAccuracy",
+        "title": "Poboljšan skener cijena",
+        "body": "• Poboljšano prepoznavanje cjenovnih oznaka, kataloga i jelovnika, uključujući sitne ili podignute decimalne znamenke. • Bolje razlikovanje glavne cijene od šifri artikala, količine u pakiranju i referentne cijene po kilogramu. • Dorađena provjera cijene kroz više kadrova kako slučajne pogreške u čitanju ne bi dobivale lažnu potvrdu.",
+        "version": "1.618",
+        "published": true,
+        "statusLabel": "Google Play · 1.618"
+      },
+      {
+        "id": "CartExperience",
+        "title": "Košarica i povratne informacije",
+        "body": "• Kompaktnija košarica: proizvodi i ukupan iznos pregledniji su. • Pri prvom korištenju košarice: 10 besplatnih dodavanja u prva 24 sata, zatim 5 dnevno. • Email za odgovor nije obavezan. Poruka se šalje putem aplikacije za e-poštu. • Ažurirana pomoć i objašnjenja tema za BP; puni tekstovi licenci dostupni su bez interneta.",
+        "version": "1.617",
+        "published": true,
+        "statusLabel": "Google Play · 1.617"
+      },
+      {
+        "id": "CartContinuous",
+        "title": "Skeniranje kupnje sada je jednostavnije!",
+        "body": "• Dodajte proizvode u košaricu jedan za drugim tipkom „Dodaj i skeniraj sljedeći” — kamera ostaje otvorena, a svaku cijenu potvrđujete sami. • Broj proizvoda i trenutačni ukupni iznos u odabranoj valuti sada su vidljivi izravno u skeneru. • Završili ste kupnju? Dodirnite „Dodaj i otvori košaricu”.",
+        "version": "1.616",
+        "published": true,
+        "statusLabel": "Google Play · 1.616"
+      },
+      {
+        "id": "ShoppingCart",
+        "title": "Košarica za kupnju",
+        "body": "Skenirajte cijene ili ručno dodajte artikle. Pogledajte cijenu svakog artikla i ukupan iznos u odabranoj valuti. Pet besplatnih dodavanja dnevno, zatim 1 BP po novom artiklu.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "Themes",
+        "title": "24 teme u boji",
+        "body": "Odaberite paletu u novom mrežnom prikazu. Pet tema je besplatno; svaku od preostalih 19 otključajte zauvijek za 60 BP. Prethodno otključane teme ostaju dostupne.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "RewardedAds",
+        "title": "BALCO Points i oglasi",
+        "body": "Oglasi s nagradom sada se učitavaju kad otvorite odgovarajući odjeljak i pokreću se nakon jednog dodira čim budu spremni. Status pretplate je jasniji, uz mogućnost ponovne provjere.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "PriceConversion",
+        "title": "Jasniji preračun cijena",
+        "body": "Ispravljen je preračun bitcoina, olakšano razlikovanje odabranih iznosa i poboljšane oznake cijena u skeneru. Tekst odabran u drugim aplikacijama preračunava se tek nakon potvrde pristupa.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "Navigation",
+        "title": "Lakša navigacija",
+        "body": "Košarica za kupnju nalazi se u izborniku ispod povijesti konverzija. Stvarni trošak sada se zove Usporedba tečajeva. Što je novo nalazi se u odjeljku O ovoj aplikaciji.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "Keyboard",
+        "title": "Fontovi i veličine tipkovnice",
+        "body": "Prilagodite tipke kalkulatora u postavkama: odaberite standardni, klasični, font jednake širine ili gotički font i jednu od tri veličine znakova. Pregled prikazuje vaš odabir, a postavke se spremaju.",
+        "version": "1.613",
+        "published": true
+      },
+      {
+        "id": "ProcessText",
+        "title": "Pretvorba odabranog teksta",
+        "body": "Odabrani tekst: 149,99 EUR → 17.529,33 RSD (1 EUR = 116,87 RSD)"
+      },
+      {
+        "id": "PriceScanner",
+        "title": "Skener cijena",
+        "body": "Pristup kameri potreban je za skeniranje cijene. Slike ostaju na uređaju i ne spremaju se."
+      },
+      {
+        "id": "ActualCost",
+        "title": "Usporedba tečajeva",
+        "body": "Usporedite uvjete zamjene s referentnim tečajem aplikacije."
+      },
+      {
+        "id": "TravelBoard",
+        "title": "Pregled valuta za putovanja",
+        "body": "Dodirnite valutu da biste je postavili kao osnovnu."
+      },
+      {
+        "id": "Crypto",
+        "title": "Kriptovalute",
+        "body": "Tečajevi kriptovaluta"
+      }
+    ]
+  },
+  "sq": {
+    "title": "Të rejat",
+    "cards": [
+      {
+        "id": "ScannerAccuracy",
+        "title": "Skaner i përmirësuar i çmimeve",
+        "body": "• Njohje më e mirë e etiketave të çmimeve, katalogëve dhe menyve, përfshirë shifrat dhjetore të vogla ose të ngritura. • Dallim më i mirë i çmimit kryesor nga kodet e artikujve, sasia në paketim dhe çmimi referues për kilogram. • Verifikim më i mirë i çmimit në disa kuadro, që gabimet rastësore të leximit të mos marrin konfirmim të rremë.",
+        "version": "1.618",
+        "published": true,
+        "statusLabel": "Google Play · 1.618"
+      },
+      {
+        "id": "CartExperience",
+        "title": "Shporta dhe komentet",
+        "body": "• Shportë më kompakte: produktet dhe totali shihen më lehtë. • Në përdorimin e parë të shportës: 10 shtime falas në 24 orët e para, pastaj 5 në ditë. • Emaili për përgjigje është opsional. Komentet dërgohen përmes aplikacionit të emailit. • Ndihmë dhe sqarime të përditësuara për temat me BP; tekstet e plota të licencave janë të disponueshme pa internet.",
+        "version": "1.617",
+        "published": true,
+        "statusLabel": "Google Play · 1.617"
+      },
+      {
+        "id": "CartContinuous",
+        "title": "Skanimi i blerjeve është më i lehtë!",
+        "body": "• Shtoni produktet në shportë njëri pas tjetrit me “Shto dhe skano tjetrin” — kamera qëndron e hapur dhe çdo çmim e konfirmoni vetë. • Numri i produkteve dhe totali aktual në monedhën e zgjedhur shfaqen tani drejtpërdrejt në skaner. • Përfunduat blerjet? Prekni “Shto dhe hap shportën”.",
+        "version": "1.616",
+        "published": true,
+        "statusLabel": "Google Play · 1.616"
+      },
+      {
+        "id": "ShoppingCart",
+        "title": "Shporta e blerjeve",
+        "body": "Skanoni çmimet ose shtoni artikuj manualisht. Shihni çmimin e çdo artikulli dhe totalin në monedhën e zgjedhur. Pesë shtime falas në ditë, pastaj 1 BP për çdo artikull të ri.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "Themes",
+        "title": "24 tema me ngjyra",
+        "body": "Zgjidhni një paletë nga përzgjedhësi i ri me kuadrate. Pesë tema janë falas; zhbllokoni përgjithmonë secilën nga 19 temat e tjera për 60 BP. Temat e zhbllokuara më parë mbeten të disponueshme.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "RewardedAds",
+        "title": "BALCO Points dhe reklamat",
+        "body": "Reklamat me shpërblim tani ngarkohen kur hapni seksionin përkatës dhe hapen pas një prekjeje sapo të jenë gati. Statusi i abonimit është më i qartë, me mundësinë për të riprovuar verifikimin.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "PriceConversion",
+        "title": "Konvertim më i qartë i çmimeve",
+        "body": "U korrigjua konvertimi i Bitcoin, shumat e zgjedhura dallohen më lehtë dhe etiketat e çmimeve në skaner u përmirësuan. Teksti i zgjedhur në aplikacione të tjera konvertohet vetëm pasi të konfirmohet qasja.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "Navigation",
+        "title": "Navigim më i lehtë",
+        "body": "Shporta e blerjeve ndodhet poshtë historikut të konvertimeve në menu. Kostoja reale tani quhet Krahasimi i kurseve të këmbimit. Të rejat ndodhen brenda seksionit Rreth këtij aplikacioni.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "Keyboard",
+        "title": "Fontet dhe madhësitë e tastierës",
+        "body": "Personalizoni butonat e kalkulatorit te Cilësimet: zgjidhni fontin standard, klasik, me gjerësi fikse ose gotik dhe një nga tri madhësitë e simboleve. Pamja paraprake tregon zgjedhjen tuaj dhe preferencat ruhen.",
+        "version": "1.613",
+        "published": true
+      },
+      {
+        "id": "ProcessText",
+        "title": "Konvertimi i tekstit të zgjedhur",
+        "body": "Teksti i zgjedhur: 149,99 EUR → 17 529,33 RSD (1 EUR = 116,87 RSD)"
+      },
+      {
+        "id": "PriceScanner",
+        "title": "Skaneri i çmimeve",
+        "body": "Nevojitet qasja në kamerë për të skanuar çmimin. Imazhet mbeten në pajisje dhe nuk ruhen."
+      },
+      {
+        "id": "ActualCost",
+        "title": "Krahasimi i kurseve të këmbimit",
+        "body": "Krahasoni kushtet e këmbimit me kursin e referencës së aplikacionit."
+      },
+      {
+        "id": "TravelBoard",
+        "title": "Bordi i udhëtimit me shumë monedha",
+        "body": "Prekni një valutë për ta bërë valutën bazë."
+      },
+      {
+        "id": "Crypto",
+        "title": "Kriptomonedhat",
+        "body": "Kurset e kriptomonedhave"
+      }
+    ]
+  },
+  "mk": {
+    "title": "Што има ново",
+    "cards": [
+      {
+        "id": "ScannerAccuracy",
+        "title": "Подобрен скенер за цени",
+        "body": "• Подобрено препознавање ценовни етикети, каталози и менија, вклучувајќи ситни или подигнати децимални цифри. • Подобро разликување на главната цена од шифрите на артикли, количината во пакувањето и референтната цена по килограм. • Доработена проверка на цената низ повеќе кадри за случајните грешки при читање да не добиваат лажна потврда.",
+        "version": "1.618",
+        "published": true,
+        "statusLabel": "Google Play · 1.618"
+      },
+      {
+        "id": "CartExperience",
+        "title": "Кошничка и повратни информации",
+        "body": "• Покомпактна кошничка: производите и вкупниот износ се попрегледни. • При првото користење на кошничката: 10 бесплатни додавања во првите 24 часа, потоа 5 дневно. • Е-поштата за одговор не е задолжителна. Пораката се испраќа преку апликација за е-пошта. • Ажурирани помош и објаснувања за темите со BP; целосните лиценци се достапни без интернет.",
+        "version": "1.617",
+        "published": true,
+        "statusLabel": "Google Play · 1.617"
+      },
+      {
+        "id": "CartContinuous",
+        "title": "Скенирањето на купувањата е полесно!",
+        "body": "• Додавајте производи во кошничката еден по друг со „Додај и скенирај го следниот” — камерата останува отворена, а секоја цена ја потврдувате сами. • Бројот на производи и тековниот вкупен износ во избраната валута сега се прикажуваат директно во скенерот. • Завршивте со купувањето? Допрете „Додај и отвори ја кошничката”.",
+        "version": "1.616",
+        "published": true,
+        "statusLabel": "Google Play · 1.616"
+      },
+      {
+        "id": "ShoppingCart",
+        "title": "Кошничка за купување",
+        "body": "Скенирајте цени или додавајте артикли рачно. Погледнете ја цената на секој артикл и вкупниот износ во избраната валута. Пет бесплатни додавања дневно, потоа 1 BP по нов артикл.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "Themes",
+        "title": "24 теми во боја",
+        "body": "Изберете палета од новиот мрежен приказ. Пет теми се бесплатни; отклучете ја секоја од останатите 19 засекогаш за 60 BP. Претходно отклучените теми остануваат достапни.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "RewardedAds",
+        "title": "BALCO Points и реклами",
+        "body": "Рекламите со награда сега се вчитуваат кога ќе го отворите соодветниот дел и се отвораат по еден допир штом бидат подготвени. Статусот на претплатата е појасен, со можност за повторна проверка.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "PriceConversion",
+        "title": "Појасно пресметување на цените",
+        "body": "Поправена е конверзијата на биткоин, избраните износи полесно се разликуваат и подобрени се ознаките за цени во скенерот. Текстот избран во други апликации се конвертира само откако ќе се потврди пристапот.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "Navigation",
+        "title": "Полесна навигација",
+        "body": "Кошничка за купување е под историјата на конверзии во менито. Вистински трошок сега се вика Споредба на курсеви. Што има ново се наоѓа во За оваа апликација.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "Keyboard",
+        "title": "Фонтови и големини на тастатурата",
+        "body": "Приспособете ги копчињата на калкулаторот во поставките: изберете стандарден, класичен, фонт со еднаква ширина или готски фонт и една од трите големини на знаците. Прегледот го прикажува вашиот избор, а поставките се зачувуваат.",
+        "version": "1.613",
+        "published": true
+      },
+      {
+        "id": "ProcessText",
+        "title": "Конверзија на избран текст",
+        "body": "Избран текст: 149,99 EUR → 17.529,33 RSD (1 EUR = 116,87 RSD)"
+      },
+      {
+        "id": "PriceScanner",
+        "title": "Скенер на цени",
+        "body": "Потребен е пристап до камерата за скенирање цена. Сликите остануваат на уредот и не се зачувуваат."
+      },
+      {
+        "id": "ActualCost",
+        "title": "Споредба на курсеви",
+        "body": "Споредете ги условите за размена со референтниот курс на апликацијата."
+      },
+      {
+        "id": "TravelBoard",
+        "title": "Патувачка табла со повеќе валути",
+        "body": "Допрете валута за да ја поставите како основна."
+      },
+      {
+        "id": "Crypto",
+        "title": "Криптовалути",
+        "body": "Курсеви на криптовалути"
+      }
+    ]
+  },
+  "bg": {
+    "title": "Какво е новото",
+    "cards": [
+      {
+        "id": "ScannerAccuracy",
+        "title": "Подобрен скенер за цени",
+        "body": "• Подобрено разпознаване на ценови етикети, каталози и менюта, включително малки или повдигнати десетични цифри. • По-добро разграничаване на основната цена от артикулни кодове, брой в опаковката и референтна цена за килограм. • Прецизирана проверка на цената през няколко кадъра, за да не получават случайните грешки при четене фалшиво потвърждение.",
+        "version": "1.618",
+        "published": true,
+        "statusLabel": "Google Play · 1.618"
+      },
+      {
+        "id": "CartExperience",
+        "title": "Количка и обратна връзка",
+        "body": "• По-компактна количка: продуктите и общата сума се виждат по-ясно. • При първо използване на количката: 10 безплатни добавяния през първите 24 часа, след това 5 на ден. • Имейлът за отговор е незадължителен. Отзивът се изпраща чрез приложението за имейл. • Обновени помощ и пояснения за темите с BP; пълните текстове на лицензите са достъпни офлайн.",
+        "version": "1.617",
+        "published": true,
+        "statusLabel": "Google Play · 1.617"
+      },
+      {
+        "id": "CartContinuous",
+        "title": "Сканирането на покупките е по-лесно!",
+        "body": "• Добавяйте продукти в кошницата един след друг с „Добави и сканирай следващия“ — камерата остава отворена, а всяка цена потвърждавате сами. • Броят на продуктите и текущата обща сума в избраната валута вече се виждат направо в скенера. • Приключихте с покупките? Докоснете „Добави и отвори количката“.",
+        "version": "1.616",
+        "published": true,
+        "statusLabel": "Google Play · 1.616"
+      },
+      {
+        "id": "ShoppingCart",
+        "title": "Кошница за пазаруване",
+        "body": "Сканирайте цени или добавяйте артикули ръчно. Вижте цената на всеки артикул и общата сума в избраната валута. Пет безплатни добавяния на ден, след това 1 BP за всеки нов артикул.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "Themes",
+        "title": "24 цветови теми",
+        "body": "Изберете палитра от новата решетка. Пет теми са безплатни; отключете всяка от останалите 19 завинаги срещу 60 BP. Вече отключените теми остават достъпни.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "RewardedAds",
+        "title": "BALCO Points и реклами",
+        "body": "Рекламите с награда вече се зареждат при отваряне на съответния раздел и се показват след едно докосване, щом са готови. Статусът на абонамента е по-ясен, с възможност за повторна проверка.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "PriceConversion",
+        "title": "По-ясно преобразуване на цени",
+        "body": "Поправено е преобразуването на биткойн, избраните суми се различават по-лесно и етикетите с цени в скенера са подобрени. Текстът, избран в други приложения, се преобразува само след потвърждаване на достъпа.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "Navigation",
+        "title": "По-лесна навигация",
+        "body": "Кошница за пазаруване е под историята на преобразуванията в менюто. Действителна цена вече се нарича Сравнение на валутни курсове. Какво е новото е в раздела Относно това приложение.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "Keyboard",
+        "title": "Шрифтове и размери на клавиатурата",
+        "body": "Персонализирайте бутоните на калкулатора в настройките: изберете стандартен, класически, моноширинен или готически шрифт и един от трите размера на символите. Визуализацията показва избора ви, а предпочитанията се запазват.",
+        "version": "1.613",
+        "published": true
+      },
+      {
+        "id": "ProcessText",
+        "title": "Преобразуване на избран текст",
+        "body": "Избран текст: 149,99 EUR → 17 529,33 RSD (1 EUR = 116,87 RSD)"
+      },
+      {
+        "id": "PriceScanner",
+        "title": "Скенер за цени",
+        "body": "За сканиране на цена е нужен достъп до камерата. Изображенията остават на устройството и не се запазват."
+      },
+      {
+        "id": "ActualCost",
+        "title": "Сравнение на валутни курсове",
+        "body": "Сравнете условията за обмен с референтния курс на приложението."
+      },
+      {
+        "id": "TravelBoard",
+        "title": "Мултивалутно табло за пътуване",
+        "body": "Докоснете валута, за да я зададете като основна."
+      },
+      {
+        "id": "Crypto",
+        "title": "Криптовалути",
+        "body": "Курсове на криптовалути"
+      }
+    ]
+  },
+  "ro": {
+    "title": "Noutăți",
+    "cards": [
+      {
+        "id": "ScannerAccuracy",
+        "title": "Scaner de prețuri îmbunătățit",
+        "body": "• Recunoaștere îmbunătățită a etichetelor de preț, cataloagelor și meniurilor, inclusiv a zecimalelor mici sau ridicate. • Distincție mai bună între prețul principal, codurile produselor, cantitatea din ambalaj și prețul de referință pe kilogram. • Verificare mai atentă a prețului în mai multe cadre, pentru a evita confirmarea falsă a erorilor aleatorii de citire.",
+        "version": "1.618",
+        "published": true,
+        "statusLabel": "Google Play · 1.618"
+      },
+      {
+        "id": "CartExperience",
+        "title": "Coșul și feedbackul",
+        "body": "• Coș mai compact: produsele și totalul sunt mai ușor de văzut. • La prima utilizare a coșului: 10 adăugări gratuite în primele 24 de ore, apoi 5 pe zi. • Emailul pentru răspuns este opțional. Feedbackul se trimite prin aplicația de email. • Ajutor și explicații actualizate pentru temele cu BP; textele complete ale licențelor sunt disponibile offline.",
+        "version": "1.617",
+        "published": true,
+        "statusLabel": "Google Play · 1.617"
+      },
+      {
+        "id": "CartContinuous",
+        "title": "Scanarea cumpărăturilor este mai simplă!",
+        "body": "• Adaugă produse în coș unul după altul cu „Adaugă și scanează următorul” — camera rămâne deschisă, iar fiecare preț este confirmat de tine. • Numărul de produse și totalul curent în moneda aleasă sunt afișate acum direct în scaner. • Ai terminat cumpărăturile? Atinge „Adaugă și deschide coșul”.",
+        "version": "1.616",
+        "published": true,
+        "statusLabel": "Google Play · 1.616"
+      },
+      {
+        "id": "ShoppingCart",
+        "title": "Coș de cumpărături",
+        "body": "Scanează prețuri sau adaugă articole manual. Vezi prețul fiecărui articol și totalul în moneda aleasă. Cinci adăugări gratuite pe zi, apoi 1 BP pentru fiecare articol nou.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "Themes",
+        "title": "24 de teme de culori",
+        "body": "Alege o paletă din noua grilă de selecție. Cinci teme sunt gratuite; deblochează fiecare dintre celelalte 19 pentru totdeauna cu 60 BP. Temele deblocate anterior rămân disponibile.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "RewardedAds",
+        "title": "BALCO Points și reclame",
+        "body": "Reclamele cu recompensă se încarcă acum când deschizi secțiunea relevantă și pornesc după o singură atingere imediat ce sunt gata. Starea abonamentului este mai clară, cu opțiunea de a reîncerca verificarea.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "PriceConversion",
+        "title": "Conversii de prețuri mai clare",
+        "body": "Am corectat conversia Bitcoin, am făcut sumele selectate mai ușor de deosebit și am îmbunătățit etichetele de preț din scaner. Textul selectat în alte aplicații este convertit doar după confirmarea accesului.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "Navigation",
+        "title": "Navigare mai ușoară",
+        "body": "Coș de cumpărături se află sub istoricul conversiilor în meniu. Cost real se numește acum Compararea cursurilor valutare. Noutăți se află în Despre această aplicație.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "Keyboard",
+        "title": "Fonturi și dimensiuni ale tastaturii",
+        "body": "Personalizați butoanele calculatorului în Setări: alegeți un font standard, clasic, monospațiat sau gotic și una dintre cele trei dimensiuni ale simbolurilor. Previzualizarea arată alegerea făcută, iar preferințele sunt salvate.",
+        "version": "1.613",
+        "published": true
+      },
+      {
+        "id": "ProcessText",
+        "title": "Conversia textului selectat",
+        "body": "Text selectat: 149,99 EUR → 17.529,33 RSD (1 EUR = 116,87 RSD)"
+      },
+      {
+        "id": "PriceScanner",
+        "title": "Scaner de prețuri",
+        "body": "Accesul la cameră este necesar pentru scanarea prețului. Imaginile rămân pe dispozitiv și nu sunt salvate."
+      },
+      {
+        "id": "ActualCost",
+        "title": "Compararea cursurilor valutare",
+        "body": "Comparați condițiile de schimb cu cursul de referință al aplicației."
+      },
+      {
+        "id": "TravelBoard",
+        "title": "Panou valutar pentru călătorii",
+        "body": "Atingeți o monedă pentru a o seta drept monedă de bază."
+      },
+      {
+        "id": "Crypto",
+        "title": "Criptomonede",
+        "body": "Cursuri pentru criptomonede"
+      }
+    ]
+  },
+  "hu": {
+    "title": "Újdonságok",
+    "cards": [
+      {
+        "id": "ScannerAccuracy",
+        "title": "Továbbfejlesztett árleolvasó",
+        "body": "• Javítottuk az árcímkék, katalógusok és étlapok felismerését, beleértve az apró vagy megemelt tizedesjegyeket. • Jobban elkülönül a fő ár a cikkszámoktól, a csomagban lévő mennyiségtől és a kilogrammonkénti tájékoztató ártól. • Pontosítottuk az ár több képkockán át végzett ellenőrzését, hogy a véletlen olvasási hibák ne kapjanak téves megerősítést.",
+        "version": "1.618",
+        "published": true,
+        "statusLabel": "Google Play · 1.618"
+      },
+      {
+        "id": "CartExperience",
+        "title": "Kosár és visszajelzés",
+        "body": "• Kompaktabb kosár: a termékek és a végösszeg jobban láthatók. • A kosár első használatakor: 10 ingyenes hozzáadás az első 24 órában, utána napi 5. • A válaszhoz megadott email nem kötelező. A visszajelzést a levelezőalkalmazás küldi el. • Frissült a súgó és a BP-témák leírása; a teljes licencszövegek offline is elérhetők.",
+        "version": "1.617",
+        "published": true,
+        "statusLabel": "Google Play · 1.617"
+      },
+      {
+        "id": "CartContinuous",
+        "title": "Egyszerűbb lett a vásárlások beolvasása!",
+        "body": "• A „Hozzáadás és következő beolvasása” gombbal egymás után tehetsz termékeket a kosárba — a kamera nyitva marad, és minden árat te erősítesz meg. • A termékek száma és az aktuális végösszeg a választott pénznemben már közvetlenül a beolvasóban látható. • Végeztél a vásárlással? Koppints a „Hozzáadás és kosár megnyitása” gombra.",
+        "version": "1.616",
+        "published": true,
+        "statusLabel": "Google Play · 1.616"
+      },
+      {
+        "id": "ShoppingCart",
+        "title": "Bevásárlókosár",
+        "body": "Olvassa be az árakat, vagy adja hozzá a tételeket kézzel. Minden tétel ára és a végösszeg is megjelenik a választott pénznemben. Naponta öt ingyenes hozzáadás, utána 1 BP minden új tételért.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "Themes",
+        "title": "24 színtéma",
+        "body": "Válasszon palettát az új, rácsos választóból. Öt téma ingyenes; a további 19 mindegyike 60 BP-ért örökre feloldható. A korábban feloldott témák elérhetők maradnak.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "RewardedAds",
+        "title": "BALCO Points és hirdetések",
+        "body": "A jutalmazott hirdetések az adott rész megnyitásakor töltődnek be, és egy koppintás után elindulnak, amint készen állnak. Az előfizetés állapota egyértelműbb, és az ellenőrzés újrapróbálható.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "PriceConversion",
+        "title": "Áttekinthetőbb átváltás",
+        "body": "Javítottuk a Bitcoin átváltását, könnyebben megkülönböztethetők a kijelölt összegek, és jobban olvashatók a beolvasó árcímkéi. A más alkalmazásokban kijelölt szöveg átváltása csak a hozzáférés megerősítése után történik meg.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "Navigation",
+        "title": "Egyszerűbb navigáció",
+        "body": "A Bevásárlókosár az átváltási előzmények alatt található a menüben. A Tényleges költség új neve Árfolyamok összehasonlítása. Az Újdonságok az Erről az alkalmazásról részben található.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "Keyboard",
+        "title": "A billentyűzet betűtípusa és mérete",
+        "body": "Szabja testre a számológép gombjait a Beállításokban: válasszon normál, klasszikus, rögzített szélességű vagy gótikus betűtípust és a három jelméret egyikét. Az előnézet megmutatja a választását, és a beállítások mentésre kerülnek.",
+        "version": "1.613",
+        "published": true
+      },
+      {
+        "id": "ProcessText",
+        "title": "Kijelölt szöveg átváltása",
+        "body": "Kijelölt szöveg: 149,99 EUR → 17 529,33 RSD (1 EUR = 116,87 RSD)"
+      },
+      {
+        "id": "PriceScanner",
+        "title": "Árleolvasó",
+        "body": "Az ár beolvasásához kamera-hozzáférés szükséges. A képek az eszközön maradnak, és nem kerülnek mentésre."
+      },
+      {
+        "id": "ActualCost",
+        "title": "Árfolyamok összehasonlítása",
+        "body": "Hasonlítsa össze az átváltás feltételeit az alkalmazás referenciaárfolyamával."
+      },
+      {
+        "id": "TravelBoard",
+        "title": "Utazási valutaáttekintő",
+        "body": "Koppints egy pénznemre, hogy alapértelmezetté tedd."
+      },
+      {
+        "id": "Crypto",
+        "title": "Kriptovaluták",
+        "body": "Kriptovaluta-árfolyamok"
+      }
+    ]
+  },
+  "pl": {
+    "title": "Co nowego",
+    "cards": [
+      {
+        "id": "ScannerAccuracy",
+        "title": "Ulepszony skaner cen",
+        "body": "• Ulepszyliśmy rozpoznawanie etykiet cenowych, katalogów i menu, w tym małych lub podniesionych cyfr po przecinku. • Lepsze odróżnianie głównej ceny od kodów produktów, ilości w opakowaniu i ceny referencyjnej za kilogram. • Dopracowaliśmy weryfikację ceny w kilku klatkach, aby przypadkowe błędy odczytu nie otrzymywały fałszywego potwierdzenia.",
+        "version": "1.618",
+        "published": true,
+        "statusLabel": "Google Play · 1.618"
+      },
+      {
+        "id": "CartExperience",
+        "title": "Koszyk i opinie",
+        "body": "• Bardziej kompaktowy koszyk: produkty i suma są lepiej widoczne. • Przy pierwszym użyciu koszyka: 10 bezpłatnych dodań przez pierwsze 24 godziny, potem 5 dziennie. • Email do odpowiedzi jest opcjonalny. Opinia jest wysyłana przez aplikację pocztową. • Zaktualizowana pomoc i objaśnienia motywów za BP; pełne teksty licencji są dostępne offline.",
+        "version": "1.617",
+        "published": true,
+        "statusLabel": "Google Play · 1.617"
+      },
+      {
+        "id": "CartContinuous",
+        "title": "Skanowanie zakupów jest teraz wygodniejsze!",
+        "body": "• Dodawaj produkty do koszyka jeden po drugim przyciskiem „Dodaj i zeskanuj następny” — aparat pozostaje otwarty, a każdą cenę potwierdzasz samodzielnie. • Liczba produktów i bieżąca suma w wybranej walucie są teraz widoczne bezpośrednio w skanerze. • Koniec zakupów? Naciśnij „Dodaj i otwórz koszyk”.",
+        "version": "1.616",
+        "published": true,
+        "statusLabel": "Google Play · 1.616"
+      },
+      {
+        "id": "ShoppingCart",
+        "title": "Koszyk zakupów",
+        "body": "Skanuj ceny lub dodawaj produkty ręcznie. Zobacz cenę każdego produktu i sumę w wybranej walucie. Pięć bezpłatnych dodań dziennie, potem 1 BP za każdy nowy produkt.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "Themes",
+        "title": "24 motywy kolorystyczne",
+        "body": "Wybierz paletę w nowym widoku siatki. Pięć motywów jest bezpłatnych; każdy z pozostałych 19 odblokujesz na zawsze za 60 BP. Wcześniej odblokowane motywy pozostają dostępne.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "RewardedAds",
+        "title": "BALCO Points i reklamy",
+        "body": "Reklamy z nagrodą ładują się teraz po otwarciu odpowiedniej sekcji i uruchamiają po jednym dotknięciu, gdy tylko będą gotowe. Stan subskrypcji jest czytelniejszy, z możliwością ponowienia weryfikacji.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "PriceConversion",
+        "title": "Czytelniejsze przeliczanie cen",
+        "body": "Poprawiliśmy przeliczanie bitcoina, ułatwiliśmy rozróżnianie zaznaczonych kwot i ulepszyliśmy etykiety cen w skanerze. Tekst zaznaczony w innych aplikacjach jest przeliczany dopiero po potwierdzeniu dostępu.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "Navigation",
+        "title": "Łatwiejsza nawigacja",
+        "body": "Koszyk zakupów znajduje się w menu pod historią przeliczeń. Rzeczywisty koszt nosi teraz nazwę Porównanie kursów walut. Co nowego znajduje się w sekcji O tej aplikacji.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "Keyboard",
+        "title": "Czcionki i rozmiary klawiatury",
+        "body": "Dostosuj przyciski kalkulatora w Ustawieniach: wybierz czcionkę standardową, klasyczną, o stałej szerokości lub gotycką oraz jeden z trzech rozmiarów znaków. Podgląd pokazuje Twój wybór, a ustawienia są zapisywane.",
+        "version": "1.613",
+        "published": true
+      },
+      {
+        "id": "ProcessText",
+        "title": "Konwersja zaznaczonego tekstu",
+        "body": "Zaznaczony tekst: 149,99 EUR → 17 529,33 RSD (1 EUR = 116,87 RSD)"
+      },
+      {
+        "id": "PriceScanner",
+        "title": "Skaner cen",
+        "body": "Dostęp do aparatu jest potrzebny do skanowania ceny. Obrazy pozostają na urządzeniu i nie są zapisywane."
+      },
+      {
+        "id": "ActualCost",
+        "title": "Porównanie kursów walut",
+        "body": "Porównaj warunki wymiany z kursem referencyjnym aplikacji."
+      },
+      {
+        "id": "TravelBoard",
+        "title": "Przelicznik podróżny",
+        "body": "Dotknij waluty, aby ustawić ją jako bazową."
+      },
+      {
+        "id": "Crypto",
+        "title": "Kryptowaluty",
+        "body": "Kursy kryptowalut"
+      }
+    ]
+  },
+  "cs": {
+    "title": "Co je nového",
+    "cards": [
+      {
+        "id": "ScannerAccuracy",
+        "title": "Vylepšený skener cen",
+        "body": "• Vylepšili jsme rozpoznávání cenovek, katalogů a jídelních lístků včetně malých nebo vyvýšených desetinných číslic. • Lepší rozlišení hlavní ceny od kódů zboží, množství v balení a referenční ceny za kilogram. • Zpřesnili jsme ověřování ceny v několika snímcích, aby náhodné chyby čtení nezískávaly falešné potvrzení.",
+        "version": "1.618",
+        "published": true,
+        "statusLabel": "Google Play · 1.618"
+      },
+      {
+        "id": "CartExperience",
+        "title": "Košík a zpětná vazba",
+        "body": "• Kompaktnější košík: zboží a celková cena jsou lépe vidět. • Při prvním použití košíku: 10 bezplatných přidání během prvních 24 hodin, pak 5 denně. • Email pro odpověď je volitelný. Zpětná vazba se odesílá přes emailovou aplikaci. • Aktualizovaná nápověda a vysvětlení motivů za BP; úplné texty licencí jsou dostupné offline.",
+        "version": "1.617",
+        "published": true,
+        "statusLabel": "Google Play · 1.617"
+      },
+      {
+        "id": "CartContinuous",
+        "title": "Skenování nákupu je teď pohodlnější!",
+        "body": "• Přidávejte zboží do košíku jedno po druhém tlačítkem „Přidat a naskenovat další“ — fotoaparát zůstane otevřený a každou cenu potvrdíte sami. • Počet položek a průběžný součet ve zvolené měně nyní uvidíte přímo ve skeneru. • Máte nakoupeno? Klepněte na „Přidat a otevřít košík“.",
+        "version": "1.616",
+        "published": true,
+        "statusLabel": "Google Play · 1.616"
+      },
+      {
+        "id": "ShoppingCart",
+        "title": "Nákupní košík",
+        "body": "Skenujte ceny nebo přidávejte položky ručně. Zobrazte cenu každé položky i celkovou částku ve zvolené měně. Pět přidání denně zdarma, poté 1 BP za každou novou položku.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "Themes",
+        "title": "24 barevných motivů",
+        "body": "Vyberte paletu v novém přehledu s dlaždicemi. Pět motivů je zdarma; každý ze zbývajících 19 odemknete navždy za 60 BP. Dříve odemčené motivy zůstávají dostupné.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "RewardedAds",
+        "title": "BALCO Points a reklamy",
+        "body": "Reklamy s odměnou se nyní načítají po otevření příslušné sekce a po jednom klepnutí se spustí, jakmile budou připravené. Stav předplatného je přehlednější a ověření lze zopakovat.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "PriceConversion",
+        "title": "Přehlednější přepočet cen",
+        "body": "Opravili jsme převod bitcoinu, usnadnili rozlišení vybraných částek a vylepšili cenové štítky ve skeneru. Text vybraný v jiných aplikacích se převede až po potvrzení přístupu.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "Navigation",
+        "title": "Snazší navigace",
+        "body": "Nákupní košík je v nabídce pod historií převodů. Skutečné náklady se nyní jmenují Porovnání směnných kurzů. Co je nového najdete v části O této aplikaci.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "Keyboard",
+        "title": "Písma a velikosti klávesnice",
+        "body": "Přizpůsobte si tlačítka kalkulačky v Nastavení: vyberte standardní, klasické, neproporcionální nebo gotické písmo a jednu ze tří velikostí znaků. Náhled ukáže váš výběr a předvolby se uloží.",
+        "version": "1.613",
+        "published": true
+      },
+      {
+        "id": "ProcessText",
+        "title": "Převod vybraného textu",
+        "body": "Vybraný text: 149,99 EUR → 17 529,33 RSD (1 EUR = 116,87 RSD)"
+      },
+      {
+        "id": "PriceScanner",
+        "title": "Skener cen",
+        "body": "Ke skenování ceny je potřeba přístup k fotoaparátu. Snímky zůstávají v zařízení a neukládají se."
+      },
+      {
+        "id": "ActualCost",
+        "title": "Porovnání směnných kurzů",
+        "body": "Porovnejte podmínky směny s referenčním kurzem aplikace."
+      },
+      {
+        "id": "TravelBoard",
+        "title": "Přehled měn na cesty",
+        "body": "Klepnutím na měnu ji nastavíte jako základní."
+      },
+      {
+        "id": "Crypto",
+        "title": "Kryptoměny",
+        "body": "Kurzy kryptoměn"
+      }
+    ]
+  },
+  "sk": {
+    "title": "Čo je nové",
+    "cards": [
+      {
+        "id": "ScannerAccuracy",
+        "title": "Vylepšený skener cien",
+        "body": "• Vylepšili sme rozpoznávanie cenoviek, katalógov a jedálnych lístkov vrátane malých alebo vyvýšených desatinných číslic. • Lepšie rozlíšenie hlavnej ceny od kódov tovaru, množstva v balení a referenčnej ceny za kilogram. • Spresnili sme overovanie ceny vo viacerých snímkach, aby náhodné chyby čítania nezískavali falošné potvrdenie.",
+        "version": "1.618",
+        "published": true,
+        "statusLabel": "Google Play · 1.618"
+      },
+      {
+        "id": "CartExperience",
+        "title": "Košík a spätná väzba",
+        "body": "• Kompaktnejší košík: tovar a celková cena sú lepšie viditeľné. • Pri prvom použití košíka: 10 bezplatných pridaní počas prvých 24 hodín, potom 5 denne. • Email na odpoveď je nepovinný. Spätná väzba sa odosiela cez emailovú aplikáciu. • Aktualizovaný pomocník a vysvetlenia tém za BP; úplné texty licencií sú dostupné offline.",
+        "version": "1.617",
+        "published": true,
+        "statusLabel": "Google Play · 1.617"
+      },
+      {
+        "id": "CartContinuous",
+        "title": "Skenovanie nákupu je teraz pohodlnejšie!",
+        "body": "• Pridávajte tovar do košíka jeden po druhom tlačidlom „Pridať a naskenovať ďalší“ — fotoaparát zostane otvorený a každú cenu potvrdíte sami. • Počet položiek a priebežný súčet vo vybranej mene teraz uvidíte priamo v skeneri. • Máte nakúpené? Ťuknite na „Pridať a otvoriť košík“.",
+        "version": "1.616",
+        "published": true,
+        "statusLabel": "Google Play · 1.616"
+      },
+      {
+        "id": "ShoppingCart",
+        "title": "Nákupný košík",
+        "body": "Skenujte ceny alebo pridávajte položky ručne. Pozrite si cenu každej položky aj celkovú sumu vo zvolenej mene. Päť pridaní denne zadarmo, potom 1 BP za každú novú položku.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "Themes",
+        "title": "24 farebných motívov",
+        "body": "Vyberte si paletu v novej mriežke. Päť motívov je zadarmo; každý zo zvyšných 19 odomknete navždy za 60 BP. Predtým odomknuté motívy zostávajú dostupné.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "RewardedAds",
+        "title": "BALCO Points a reklamy",
+        "body": "Reklamy s odmenou sa teraz načítajú po otvorení príslušnej sekcie a po jednom ťuknutí sa spustia, keď budú pripravené. Stav predplatného je prehľadnejší a overenie možno zopakovať.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "PriceConversion",
+        "title": "Prehľadnejší prepočet cien",
+        "body": "Opravili sme prevod bitcoinu, uľahčili rozlíšenie vybraných súm a vylepšili cenové štítky v skeneri. Text vybraný v iných aplikáciách sa prevedie až po potvrdení prístupu.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "Navigation",
+        "title": "Jednoduchšia navigácia",
+        "body": "Nákupný košík je v ponuke pod históriou prevodov. Skutočné náklady sa teraz volajú Porovnanie výmenných kurzov. Čo je nové nájdete v časti O tejto aplikácii.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "Keyboard",
+        "title": "Písma a veľkosti klávesnice",
+        "body": "Prispôsobte si tlačidlá kalkulačky v Nastaveniach: vyberte štandardné, klasické, neproporcionálne alebo gotické písmo a jednu z troch veľkostí znakov. Ukážka zobrazí váš výber a predvoľby sa uložia.",
+        "version": "1.613",
+        "published": true
+      },
+      {
+        "id": "ProcessText",
+        "title": "Konverzia vybraného textu",
+        "body": "Vybraný text: 149,99 EUR → 17 529,33 RSD (1 EUR = 116,87 RSD)"
+      },
+      {
+        "id": "PriceScanner",
+        "title": "Skener cien",
+        "body": "Na skenovanie ceny je potrebný prístup ku kamere. Obrázky zostávajú v zariadení a neukladajú sa."
+      },
+      {
+        "id": "ActualCost",
+        "title": "Porovnanie výmenných kurzov",
+        "body": "Porovnajte podmienky výmeny s referenčným kurzom aplikácie."
+      },
+      {
+        "id": "TravelBoard",
+        "title": "Prehľad mien na cesty",
+        "body": "Ťuknutím na menu ju nastavíte ako základnú."
+      },
+      {
+        "id": "Crypto",
+        "title": "Kryptomeny",
+        "body": "Kurzy kryptomien"
+      }
+    ]
+  },
+  "sl": {
+    "title": "Novosti",
+    "cards": [
+      {
+        "id": "ScannerAccuracy",
+        "title": "Izboljšan bralnik cen",
+        "body": "• Izboljšano prepoznavanje cenovnih oznak, katalogov in jedilnikov, vključno z majhnimi ali dvignjenimi decimalnimi števkami. • Boljše razlikovanje glavne cene od šifer izdelkov, količine v pakiranju in referenčne cene na kilogram. • Izpopolnjeno preverjanje cene na več sličicah, da naključne napake pri branju ne dobijo napačne potrditve.",
+        "version": "1.618",
+        "published": true,
+        "statusLabel": "Google Play · 1.618"
+      },
+      {
+        "id": "CartExperience",
+        "title": "Košarica in povratne informacije",
+        "body": "• Bolj strnjena košarica: izdelki in skupni znesek so bolj pregledni. • Ob prvi uporabi košarice: 10 brezplačnih dodajanj v prvih 24 urah, nato 5 na dan. • Email za odgovor ni obvezen. Sporočilo se pošlje prek emailne aplikacije. • Posodobljena pomoč in pojasnila tem za BP; celotna besedila licenc so na voljo brez interneta.",
+        "version": "1.617",
+        "published": true,
+        "statusLabel": "Google Play · 1.617"
+      },
+      {
+        "id": "CartContinuous",
+        "title": "Skeniranje nakupov je zdaj preprostejše!",
+        "body": "• Izdelke dodajajte v košarico enega za drugim z gumbom »Dodaj in skeniraj naslednjega« — kamera ostane odprta, vsako ceno pa potrdite sami. • Število izdelkov in trenutni skupni znesek v izbrani valuti sta zdaj prikazana neposredno v bralniku. • Ste končali z nakupovanjem? Tapnite »Dodaj in odpri košarico«.",
+        "version": "1.616",
+        "published": true,
+        "statusLabel": "Google Play · 1.616"
+      },
+      {
+        "id": "ShoppingCart",
+        "title": "Nakupovalna košarica",
+        "body": "Skenirajte cene ali ročno dodajte izdelke. Oglejte si ceno vsakega izdelka in skupni znesek v izbrani valuti. Pet brezplačnih dodajanj na dan, nato 1 BP za vsak nov izdelek.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "Themes",
+        "title": "24 barvnih tem",
+        "body": "Izberite paleto v novem mrežnem prikazu. Pet tem je brezplačnih; vsako od preostalih 19 trajno odklenete za 60 BP. Prej odklenjene teme ostanejo na voljo.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "RewardedAds",
+        "title": "BALCO Points in oglasi",
+        "body": "Oglasi z nagrado se zdaj naložijo ob odprtju ustreznega razdelka in se po enem dotiku začnejo predvajati, takoj ko so pripravljeni. Stanje naročnine je jasnejše, preverjanje pa lahko ponovite.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "PriceConversion",
+        "title": "Preglednejša pretvorba cen",
+        "body": "Popravili smo pretvorbo bitcoina, olajšali razlikovanje med izbranimi zneski in izboljšali oznake cen v skenerju. Besedilo, izbrano v drugih aplikacijah, se pretvori šele po potrditvi dostopa.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "Navigation",
+        "title": "Preprostejša navigacija",
+        "body": "Nakupovalna košarica je v meniju pod zgodovino pretvorb. Dejanski strošek se zdaj imenuje Primerjava tečajev. Novosti so v razdelku O tej aplikaciji.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "Keyboard",
+        "title": "Pisave in velikosti tipkovnice",
+        "body": "Prilagodite gumbe kalkulatorja v nastavitvah: izberite standardno, klasično, enako široko ali gotsko pisavo in eno od treh velikosti znakov. Predogled pokaže vašo izbiro, nastavitve pa se shranijo.",
+        "version": "1.613",
+        "published": true
+      },
+      {
+        "id": "ProcessText",
+        "title": "Pretvorba izbranega besedila",
+        "body": "Izbrano besedilo: 149,99 EUR → 17.529,33 RSD (1 EUR = 116,87 RSD)"
+      },
+      {
+        "id": "PriceScanner",
+        "title": "Bralnik cen",
+        "body": "Za branje cene je potreben dostop do kamere. Slike ostanejo v napravi in se ne shranijo."
+      },
+      {
+        "id": "ActualCost",
+        "title": "Primerjava tečajev",
+        "body": "Primerjajte pogoje menjave z referenčnim tečajem aplikacije."
+      },
+      {
+        "id": "TravelBoard",
+        "title": "Večvalutna potovalna tabla",
+        "body": "Dotaknite se valute, da jo nastavite kot osnovno."
+      },
+      {
+        "id": "Crypto",
+        "title": "Kriptovalute",
+        "body": "Tečaji kriptovalut"
+      }
+    ]
+  },
+  "de": {
+    "title": "Neuigkeiten",
+    "cards": [
+      {
+        "id": "ScannerAccuracy",
+        "title": "Verbesserter Preisscanner",
+        "body": "• Verbesserte Erkennung von Preisschildern, Prospekten und Speisekarten, auch mit kleinen oder hochgestellten Nachkommastellen. • Bessere Unterscheidung des Hauptpreises von Artikelnummern, Packungsmengen und Vergleichspreisen pro Kilogramm. • Verfeinerte Preisprüfung über mehrere Kamerabilder, damit zufällige Lesefehler nicht fälschlich bestätigt werden.",
+        "version": "1.618",
+        "published": true,
+        "statusLabel": "Google Play · 1.618"
+      },
+      {
+        "id": "CartExperience",
+        "title": "Warenkorb und Feedback",
+        "body": "• Kompakterer Warenkorb: Artikel und Gesamtsumme sind besser sichtbar. • Bei erster Nutzung des Warenkorbs: 10 kostenlose Ergänzungen in den ersten 24 Stunden, danach 5 täglich. • Die Antwort-E-Mail ist optional. Feedback wird über die E-Mail-App gesendet. • Aktualisierte Hilfe und Erläuterungen zu BP-Themen; vollständige Lizenztexte sind offline verfügbar.",
+        "version": "1.617",
+        "published": true,
+        "statusLabel": "Google Play · 1.617"
+      },
+      {
+        "id": "CartContinuous",
+        "title": "Einkäufe jetzt bequemer scannen!",
+        "body": "• Füge Artikel mit „Hinzufügen und nächsten scannen“ nacheinander zum Warenkorb hinzu — die Kamera bleibt offen und du bestätigst jeden Preis selbst. • Artikelanzahl und laufende Summe in deiner gewählten Währung sind jetzt direkt im Scanner sichtbar. • Einkauf fertig? Tippe auf „Hinzufügen und Warenkorb öffnen“.",
+        "version": "1.616",
+        "published": true,
+        "statusLabel": "Google Play · 1.616"
+      },
+      {
+        "id": "ShoppingCart",
+        "title": "Warenkorb",
+        "body": "Scanne Preise oder füge Artikel manuell hinzu. Sieh den Preis jedes Artikels und die Gesamtsumme in deiner gewählten Währung. Fünf kostenlose Ergänzungen pro Tag, danach 1 BP pro neuem Artikel.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "Themes",
+        "title": "24 Farbdesigns",
+        "body": "Wähle eine Palette in der neuen Kachelübersicht. Fünf Designs sind kostenlos; jedes der weiteren 19 kannst du für 60 BP dauerhaft freischalten. Bereits freigeschaltete Designs bleiben verfügbar.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "RewardedAds",
+        "title": "BALCO Points und Werbung",
+        "body": "Werbung mit Belohnung wird jetzt beim Öffnen des jeweiligen Bereichs geladen und startet nach einmaligem Tippen, sobald sie bereit ist. Der Abostatus ist klarer, und die Überprüfung lässt sich wiederholen.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "PriceConversion",
+        "title": "Übersichtlichere Preisumrechnung",
+        "body": "Die Bitcoin-Umrechnung wurde korrigiert. Ausgewählte Beträge sind leichter zu unterscheiden und Preisbeschriftungen im Scanner besser lesbar. In anderen Apps ausgewählter Text wird erst nach bestätigtem Zugriff umgerechnet.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "Navigation",
+        "title": "Einfachere Navigation",
+        "body": "Der Warenkorb steht im Menü unter dem Umrechnungsverlauf. Tatsächliche Kosten heißt jetzt Wechselkursvergleich. Neuigkeiten findest du unter Über diese App.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "Keyboard",
+        "title": "Schriftarten und Größen der Tastatur",
+        "body": "Passen Sie die Rechnertasten in den Einstellungen an: Wählen Sie eine Standardschrift, klassische Schrift, Monospace- oder gotische Schrift und eine von drei Zeichengrößen. Eine Vorschau zeigt Ihre Auswahl; Ihre Einstellungen werden gespeichert.",
+        "version": "1.613",
+        "published": true
+      },
+      {
+        "id": "ProcessText",
+        "title": "Konvertierung von ausgewähltem Text",
+        "body": "Ausgewählter Text: 149,99 EUR → 17.529,33 RSD (1 EUR = 116,87 RSD)"
+      },
+      {
+        "id": "PriceScanner",
+        "title": "Preisscanner",
+        "body": "Zum Scannen eines Preises ist Kamerazugriff nötig. Bilder bleiben auf diesem Gerät und werden nicht gespeichert."
+      },
+      {
+        "id": "ActualCost",
+        "title": "Wechselkursvergleich",
+        "body": "Vergleichen Sie die Wechselkonditionen mit dem Referenzkurs der App."
+      },
+      {
+        "id": "TravelBoard",
+        "title": "Reisetafel mit mehreren Währungen",
+        "body": "Tippen Sie auf eine Währung, um sie als Basiswährung festzulegen."
+      },
+      {
+        "id": "Crypto",
+        "title": "Kryptowährungen",
+        "body": "Kryptokurse"
+      }
+    ]
+  },
+  "fr": {
+    "title": "Nouveautés",
+    "cards": [
+      {
+        "id": "ScannerAccuracy",
+        "title": "Scanner de prix amélioré",
+        "body": "• Meilleure reconnaissance des étiquettes, catalogues et menus, y compris des décimales petites ou surélevées. • Meilleure distinction du prix principal, des références produit, des quantités par paquet et du prix de référence au kilogramme. • Vérification du prix affinée sur plusieurs images pour éviter de confirmer à tort des erreurs de lecture aléatoires.",
+        "version": "1.618",
+        "published": true,
+        "statusLabel": "Google Play · 1.618"
+      },
+      {
+        "id": "CartExperience",
+        "title": "Panier et commentaires",
+        "body": "• Panier plus compact : articles et total sont plus visibles. • À la première utilisation du panier : 10 ajouts gratuits en 24 heures, puis 5 par jour. • L’email de réponse est facultatif. Les commentaires sont envoyés via votre application de messagerie. • Aide et explications des thèmes BP mises à jour ; textes complets des licences disponibles hors ligne.",
+        "version": "1.617",
+        "published": true,
+        "statusLabel": "Google Play · 1.617"
+      },
+      {
+        "id": "CartContinuous",
+        "title": "Scanner vos achats devient plus simple !",
+        "body": "• Ajoutez les articles au panier à la suite avec « Ajouter et scanner le suivant » — la caméra reste ouverte et vous confirmez chaque prix. • Le nombre d’articles et le total en cours dans la devise choisie s’affichent désormais directement dans le scanner. • Vos achats sont terminés ? Appuyez sur « Ajouter et ouvrir le panier ».",
+        "version": "1.616",
+        "published": true,
+        "statusLabel": "Google Play · 1.616"
+      },
+      {
+        "id": "ShoppingCart",
+        "title": "Panier d’achats",
+        "body": "Scannez les prix ou ajoutez des articles manuellement. Consultez le prix de chaque article et le total dans la devise choisie. Cinq ajouts gratuits par jour, puis 1 BP par nouvel article.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "Themes",
+        "title": "24 thèmes de couleurs",
+        "body": "Choisissez une palette dans la nouvelle grille. Cinq thèmes sont gratuits ; débloquez chacun des 19 autres pour 60 BP, à vie. Les thèmes déjà débloqués restent disponibles.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "RewardedAds",
+        "title": "BALCO Points et publicités",
+        "body": "Les publicités avec récompense se chargent à l’ouverture de la section concernée et s’ouvrent après un seul appui, dès qu’elles sont prêtes. Le statut de l’abonnement est plus clair et vous pouvez relancer sa vérification.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "PriceConversion",
+        "title": "Conversion des prix plus claire",
+        "body": "La conversion du Bitcoin a été corrigée, les montants sélectionnés sont plus faciles à distinguer et les étiquettes de prix du scanner sont plus lisibles. Le texte sélectionné dans une autre application n’est converti qu’après confirmation de l’accès.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "Navigation",
+        "title": "Navigation simplifiée",
+        "body": "Panier d’achats se trouve sous l’historique des conversions dans le menu. Coût réel s’appelle désormais Comparaison des taux de change. Nouveautés se trouve dans À propos de cette application.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "Keyboard",
+        "title": "Polices et tailles du clavier",
+        "body": "Personnalisez les touches de la calculatrice dans les paramètres : choisissez une police standard, classique, à chasse fixe ou gothique et l’une des trois tailles de caractères. Un aperçu montre votre choix et vos préférences sont enregistrées.",
+        "version": "1.613",
+        "published": true
+      },
+      {
+        "id": "ProcessText",
+        "title": "Conversion du texte sélectionné",
+        "body": "Texte sélectionné: 149,99 EUR → 17 529,33 RSD (1 EUR = 116,87 RSD)"
+      },
+      {
+        "id": "PriceScanner",
+        "title": "Scanner de prix",
+        "body": "L’accès à l’appareil photo est nécessaire pour scanner un prix. Les images restent sur cet appareil et ne sont pas enregistrées."
+      },
+      {
+        "id": "ActualCost",
+        "title": "Comparaison des taux de change",
+        "body": "Comparez les conditions de change au taux de référence de l’application."
+      },
+      {
+        "id": "TravelBoard",
+        "title": "Tableau de voyage multi-devises",
+        "body": "Touchez une devise pour la définir comme devise de base."
+      },
+      {
+        "id": "Crypto",
+        "title": "Cryptomonnaies",
+        "body": "Cours des cryptomonnaies"
+      }
+    ]
+  },
+  "it": {
+    "title": "Novità",
+    "cards": [
+      {
+        "id": "ScannerAccuracy",
+        "title": "Scanner dei prezzi migliorato",
+        "body": "• Migliorato il riconoscimento di cartellini, cataloghi e menu, anche con cifre decimali piccole o rialzate. • Migliore distinzione del prezzo principale da codici prodotto, quantità nella confezione e prezzi di riferimento al chilogrammo. • Affinata la verifica del prezzo su più fotogrammi per evitare false conferme di errori di lettura casuali.",
+        "version": "1.618",
+        "published": true,
+        "statusLabel": "Google Play · 1.618"
+      },
+      {
+        "id": "CartExperience",
+        "title": "Carrello e feedback",
+        "body": "• Carrello più compatto: articoli e totale sono più visibili. • Al primo utilizzo del carrello: 10 aggiunte gratuite nelle prime 24 ore, poi 5 al giorno. • L’email per la risposta è facoltativa. Il feedback viene inviato tramite l’app di posta. • Guida e spiegazioni dei temi BP aggiornate; testi completi delle licenze disponibili offline.",
+        "version": "1.617",
+        "published": true,
+        "statusLabel": "Google Play · 1.617"
+      },
+      {
+        "id": "CartContinuous",
+        "title": "Scansionare la spesa è più semplice!",
+        "body": "• Aggiungi i prodotti al carrello uno dopo l’altro con «Aggiungi e scansiona il prossimo»: la fotocamera resta aperta e confermi ogni prezzo personalmente. • Il numero di prodotti e il totale aggiornato nella valuta scelta sono ora visibili direttamente nello scanner. • Hai finito la spesa? Tocca «Aggiungi e apri il carrello».",
+        "version": "1.616",
+        "published": true,
+        "statusLabel": "Google Play · 1.616"
+      },
+      {
+        "id": "ShoppingCart",
+        "title": "Carrello della spesa",
+        "body": "Scansiona i prezzi o aggiungi gli articoli manualmente. Visualizza il prezzo di ogni articolo e il totale nella valuta scelta. Cinque aggiunte gratuite al giorno, poi 1 BP per ogni nuovo articolo.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "Themes",
+        "title": "24 temi di colore",
+        "body": "Scegli una palette dalla nuova griglia. Cinque temi sono gratuiti; sblocca ciascuno degli altri 19 per sempre con 60 BP. I temi già sbloccati restano disponibili.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "RewardedAds",
+        "title": "BALCO Points e annunci",
+        "body": "Gli annunci con premio si caricano quando apri la sezione interessata e si aprono con un solo tocco, appena sono pronti. Lo stato dell’abbonamento è più chiaro e puoi riprovare la verifica.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "PriceConversion",
+        "title": "Conversione dei prezzi più chiara",
+        "body": "Corretta la conversione di Bitcoin, resi più riconoscibili gli importi selezionati e migliorate le etichette dei prezzi nello scanner. Il testo selezionato in altre app viene convertito solo dopo la conferma dell’accesso.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "Navigation",
+        "title": "Navigazione più semplice",
+        "body": "Carrello della spesa si trova sotto la cronologia delle conversioni nel menu. Costo effettivo ora si chiama Confronto dei tassi di cambio. Novità si trova in Informazioni su questa app.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "Keyboard",
+        "title": "Caratteri e dimensioni della tastiera",
+        "body": "Personalizza i pulsanti della calcolatrice nelle Impostazioni: scegli un carattere standard, classico, a larghezza fissa o gotico e una delle tre dimensioni dei simboli. L’anteprima mostra la tua scelta e le preferenze vengono salvate.",
+        "version": "1.613",
+        "published": true
+      },
+      {
+        "id": "ProcessText",
+        "title": "Conversione del testo selezionato",
+        "body": "Testo selezionato: 149,99 EUR → 17.529,33 RSD (1 EUR = 116,87 RSD)"
+      },
+      {
+        "id": "PriceScanner",
+        "title": "Scanner prezzi",
+        "body": "Per scansionare un prezzo è necessario accedere alla fotocamera. Le immagini restano sul dispositivo e non vengono salvate."
+      },
+      {
+        "id": "ActualCost",
+        "title": "Confronto dei tassi di cambio",
+        "body": "Confronta le condizioni di cambio con il tasso di riferimento dell’app."
+      },
+      {
+        "id": "TravelBoard",
+        "title": "Tabellone da viaggio multivaluta",
+        "body": "Tocca una valuta per impostarla come valuta di base."
+      },
+      {
+        "id": "Crypto",
+        "title": "Criptovalute",
+        "body": "Tassi delle criptovalute"
+      }
+    ]
+  },
+  "es-ES": {
+    "title": "Novedades",
+    "cards": [
+      {
+        "id": "ScannerAccuracy",
+        "title": "Escáner de precios mejorado",
+        "body": "• Mejor reconocimiento de etiquetas de precios, catálogos y menús, incluidos los decimales pequeños o elevados. • Mejor distinción entre el precio principal, los códigos de producto, la cantidad por envase y el precio de referencia por kilogramo. • Verificación del precio más precisa en varios fotogramas para evitar confirmar por error lecturas incorrectas aisladas.",
+        "version": "1.618",
+        "published": true,
+        "statusLabel": "Google Play · 1.618"
+      },
+      {
+        "id": "CartExperience",
+        "title": "Cesta y comentarios",
+        "body": "• Cesta más compacta: los productos y el total se ven mejor. • Al usar la cesta por primera vez: 10 adiciones gratis en las primeras 24 horas, después 5 al día. • El email de respuesta es opcional. Los comentarios se envían desde tu aplicación de correo. • Ayuda y explicaciones de los temas con BP actualizadas; licencias completas disponibles sin conexión.",
+        "version": "1.617",
+        "published": true,
+        "statusLabel": "Google Play · 1.617"
+      },
+      {
+        "id": "CartContinuous",
+        "title": "¡Escanear tus compras es más cómodo!",
+        "body": "• Añade productos al carrito uno tras otro con «Añadir y escanear el siguiente»: la cámara permanece abierta y tú confirmas cada precio. • Ahora puedes ver el número de productos y el total acumulado en la moneda elegida directamente en el escáner. • ¿Has terminado la compra? Pulsa «Añadir y abrir la cesta».",
+        "version": "1.616",
+        "published": true,
+        "statusLabel": "Google Play · 1.616"
+      },
+      {
+        "id": "ShoppingCart",
+        "title": "Cesta de la compra",
+        "body": "Escanea precios o añade artículos manualmente. Consulta el precio de cada artículo y el total en la moneda elegida. Cinco incorporaciones gratuitas al día; después, 1 BP por cada nuevo artículo.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "Themes",
+        "title": "24 temas de color",
+        "body": "Elige una paleta en el nuevo selector en cuadrícula. Cinco temas son gratuitos; desbloquea cada uno de los otros 19 para siempre por 60 BP. Los temas ya desbloqueados siguen disponibles.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "RewardedAds",
+        "title": "BALCO Points y anuncios",
+        "body": "Los anuncios con recompensa se cargan al abrir la sección correspondiente y se abren con un solo toque en cuanto están listos. El estado de la suscripción es más claro y puedes volver a intentar verificarla.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "PriceConversion",
+        "title": "Conversión de precios más clara",
+        "body": "Hemos corregido la conversión de Bitcoin, facilitado la distinción de los importes seleccionados y mejorado las etiquetas de precios del escáner. El texto seleccionado en otras aplicaciones solo se convierte tras confirmar el acceso.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "Navigation",
+        "title": "Navegación más sencilla",
+        "body": "Cesta de la compra está debajo del historial de conversiones en el menú. Costo real ahora se llama Comparación de tipos de cambio. Novedades está dentro de Acerca de esta aplicación.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "Keyboard",
+        "title": "Fuentes y tamaños del teclado",
+        "body": "Personaliza los botones de la calculadora en Ajustes: elige una fuente estándar, clásica, monoespaciada o gótica y uno de los tres tamaños de símbolos. La vista previa muestra tu elección y se guardan tus preferencias.",
+        "version": "1.613",
+        "published": true
+      },
+      {
+        "id": "ProcessText",
+        "title": "Conversión del texto seleccionado",
+        "body": "Texto seleccionado: 149,99 EUR → 17.529,33 RSD (1 EUR = 116,87 RSD)"
+      },
+      {
+        "id": "PriceScanner",
+        "title": "Escáner de precios",
+        "body": "Se necesita acceso a la cámara para escanear un precio. Las imágenes permanecen en el dispositivo y no se guardan."
+      },
+      {
+        "id": "ActualCost",
+        "title": "Comparación de tipos de cambio",
+        "body": "Compara las condiciones de cambio con el tipo de referencia de la aplicación."
+      },
+      {
+        "id": "TravelBoard",
+        "title": "Tabla de viajes multidivisa",
+        "body": "Toque una divisa para convertirla en la divisa base."
+      },
+      {
+        "id": "Crypto",
+        "title": "Criptomonedas",
+        "body": "Tipos de criptomonedas"
+      }
+    ]
+  },
+  "es-419": {
+    "title": "Novedades",
+    "cards": [
+      {
+        "id": "ScannerAccuracy",
+        "title": "Escáner de precios mejorado",
+        "body": "• Mejor reconocimiento de etiquetas de precios, catálogos y menús, incluidos los decimales pequeños o elevados. • Mejor distinción entre el precio principal, los códigos de producto, la cantidad por empaque y el precio de referencia por kilogramo. • Verificación del precio más precisa en varios fotogramas para evitar confirmar por error lecturas incorrectas aisladas.",
+        "version": "1.618",
+        "published": true,
+        "statusLabel": "Google Play · 1.618"
+      },
+      {
+        "id": "CartExperience",
+        "title": "Carrito y comentarios",
+        "body": "• Carrito más compacto: los productos y el total se ven mejor. • Al usar el carrito por primera vez: 10 adiciones gratis en las primeras 24 horas, después 5 al día. • El email de respuesta es opcional. Los comentarios se envían desde tu app de correo. • Ayuda y explicaciones de los temas con BP actualizadas; licencias completas disponibles sin conexión.",
+        "version": "1.617",
+        "published": true,
+        "statusLabel": "Google Play · 1.617"
+      },
+      {
+        "id": "CartContinuous",
+        "title": "¡Escanear tus compras es más fácil!",
+        "body": "• Agrega productos al carrito uno tras otro con «Agregar y escanear el siguiente»: la cámara permanece abierta y tú confirmas cada precio. • Ahora puedes ver la cantidad de productos y el total acumulado en la moneda elegida directamente en el escáner. • ¿Terminaste tus compras? Toca «Agregar y abrir el carrito».",
+        "version": "1.616",
+        "published": true,
+        "statusLabel": "Google Play · 1.616"
+      },
+      {
+        "id": "ShoppingCart",
+        "title": "Carrito de compras",
+        "body": "Escanea precios o agrega artículos manualmente. Consulta el precio de cada artículo y el total en la moneda elegida. Cinco incorporaciones gratis al día; después, 1 BP por cada artículo nuevo.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "Themes",
+        "title": "24 temas de color",
+        "body": "Elige una paleta en el nuevo selector en cuadrícula. Cinco temas son gratis; desbloquea cada uno de los otros 19 para siempre por 60 BP. Los temas ya desbloqueados siguen disponibles.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "RewardedAds",
+        "title": "BALCO Points y anuncios",
+        "body": "Los anuncios con recompensa se cargan al abrir la sección correspondiente y se abren con un solo toque en cuanto están listos. El estado de la suscripción es más claro y puedes volver a intentar verificarla.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "PriceConversion",
+        "title": "Conversión de precios más clara",
+        "body": "Corregimos la conversión de Bitcoin, facilitamos la distinción de los importes seleccionados y mejoramos las etiquetas de precios del escáner. El texto seleccionado en otras apps solo se convierte después de confirmar el acceso.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "Navigation",
+        "title": "Navegación más sencilla",
+        "body": "Carrito de compras está debajo del historial de conversiones en el menú. Costo real ahora se llama Comparación de tipos de cambio. Novedades está dentro de Acerca de esta aplicación.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "Keyboard",
+        "title": "Fuentes y tamaños del teclado",
+        "body": "Personaliza los botones de la calculadora en Configuración: elige una fuente estándar, clásica, monoespaciada o gótica y uno de los tres tamaños de símbolos. La vista previa muestra tu elección y se guardan tus preferencias.",
+        "version": "1.613",
+        "published": true
+      },
+      {
+        "id": "ProcessText",
+        "title": "Conversión del texto seleccionado",
+        "body": "Texto seleccionado: 149.99 EUR → 17,529.33 RSD (1 EUR = 116.87 RSD)"
+      },
+      {
+        "id": "PriceScanner",
+        "title": "Escáner de precios",
+        "body": "Se necesita acceso a la cámara para escanear un precio. Las imágenes permanecen en el dispositivo y no se guardan."
+      },
+      {
+        "id": "ActualCost",
+        "title": "Comparación de tipos de cambio",
+        "body": "Compara las condiciones de cambio con el tipo de referencia de la aplicación."
+      },
+      {
+        "id": "TravelBoard",
+        "title": "Tabla de viajes multidivisa",
+        "body": "Toca una moneda para convertirla en la moneda base."
+      },
+      {
+        "id": "Crypto",
+        "title": "Criptomonedas",
+        "body": "Tipos de criptomonedas"
+      }
+    ]
+  },
+  "pt-BR": {
+    "title": "Novidades",
+    "cards": [
+      {
+        "id": "ScannerAccuracy",
+        "title": "Scanner de preços aprimorado",
+        "body": "• Melhor reconhecimento de etiquetas de preços, catálogos e cardápios, incluindo casas decimais pequenas ou elevadas. • Melhor distinção entre o preço principal, códigos de produtos, quantidade na embalagem e preço de referência por quilograma. • Verificação do preço aprimorada em vários quadros para evitar a confirmação indevida de erros aleatórios de leitura.",
+        "version": "1.618",
+        "published": true,
+        "statusLabel": "Google Play · 1.618"
+      },
+      {
+        "id": "CartExperience",
+        "title": "Carrinho e feedback",
+        "body": "• Carrinho mais compacto: produtos e total ficam mais visíveis. • No primeiro uso do carrinho: 10 adições grátis nas primeiras 24 horas, depois 5 por dia. • O email para resposta é opcional. O feedback é enviado pelo aplicativo de email. • Ajuda e explicações dos temas com BP atualizadas; textos completos das licenças disponíveis offline.",
+        "version": "1.617",
+        "published": true,
+        "statusLabel": "Google Play · 1.617"
+      },
+      {
+        "id": "CartContinuous",
+        "title": "Escanear suas compras ficou mais fácil!",
+        "body": "• Adicione produtos ao carrinho em sequência com “Adicionar e escanear o próximo”: a câmera continua aberta e você confirma cada preço. • A quantidade de produtos e o total atualizado na moeda escolhida agora aparecem diretamente no scanner. • Terminou as compras? Toque em “Adicionar e abrir o carrinho”.",
+        "version": "1.616",
+        "published": true,
+        "statusLabel": "Google Play · 1.616"
+      },
+      {
+        "id": "ShoppingCart",
+        "title": "Carrinho de compras",
+        "body": "Escaneie preços ou adicione produtos manualmente. Veja o preço de cada produto e o total na moeda escolhida. Cinco adições grátis por dia; depois, 1 BP por novo produto.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "Themes",
+        "title": "24 temas de cores",
+        "body": "Escolha uma paleta no novo seletor em grade. Cinco temas são gratuitos; desbloqueie cada um dos outros 19 para sempre por 60 BP. Os temas já desbloqueados continuam disponíveis.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "RewardedAds",
+        "title": "BALCO Points e anúncios",
+        "body": "Os anúncios com recompensa são carregados ao abrir a seção correspondente e abrem com um único toque assim que estão prontos. O status da assinatura está mais claro, com a opção de tentar a verificação novamente.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "PriceConversion",
+        "title": "Conversão de preços mais clara",
+        "body": "Corrigimos a conversão de Bitcoin, facilitamos a distinção dos valores selecionados e melhoramos os rótulos de preços no scanner. O texto selecionado em outros aplicativos só é convertido após a confirmação do acesso.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "Navigation",
+        "title": "Navegação mais simples",
+        "body": "Carrinho de compras fica abaixo do histórico de conversões no menu. Custo real agora se chama Comparação de taxas de câmbio. Novidades fica em Sobre este aplicativo.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "Keyboard",
+        "title": "Fontes e tamanhos do teclado",
+        "body": "Personalize os botões da calculadora nas Configurações: escolha uma fonte padrão, clássica, monoespaçada ou gótica e um dos três tamanhos de símbolos. A prévia mostra sua escolha, e suas preferências são salvas.",
+        "version": "1.613",
+        "published": true
+      },
+      {
+        "id": "ProcessText",
+        "title": "Conversão do texto selecionado",
+        "body": "Texto selecionado: 149,99 EUR → 17.529,33 RSD (1 EUR = 116,87 RSD)"
+      },
+      {
+        "id": "PriceScanner",
+        "title": "Leitor de preços",
+        "body": "O acesso à câmera é necessário para escanear um preço. As imagens ficam no dispositivo e não são salvas."
+      },
+      {
+        "id": "ActualCost",
+        "title": "Comparação de taxas de câmbio",
+        "body": "Compare as condições de câmbio com a taxa de referência do app."
+      },
+      {
+        "id": "TravelBoard",
+        "title": "Quadro de viagens em várias moedas",
+        "body": "Toque em uma moeda para torná-la a moeda base."
+      },
+      {
+        "id": "Crypto",
+        "title": "Criptomoedas",
+        "body": "Cotações de criptomoedas"
+      }
+    ]
+  },
+  "pt-PT": {
+    "title": "Novidades",
+    "cards": [
+      {
+        "id": "ScannerAccuracy",
+        "title": "Leitor de preços melhorado",
+        "body": "• Melhor reconhecimento de etiquetas de preços, catálogos e ementas, incluindo casas decimais pequenas ou elevadas. • Melhor distinção entre o preço principal, códigos de produtos, quantidade na embalagem e preço de referência por quilograma. • Verificação do preço aperfeiçoada em vários fotogramas para evitar a confirmação indevida de erros aleatórios de leitura.",
+        "version": "1.618",
+        "published": true,
+        "statusLabel": "Google Play · 1.618"
+      },
+      {
+        "id": "CartExperience",
+        "title": "Carrinho e comentários",
+        "body": "• Carrinho mais compacto: produtos e total ficam mais visíveis. • Na primeira utilização do carrinho: 10 adições grátis nas primeiras 24 horas, depois 5 por dia. • O email para resposta é opcional. Os comentários são enviados pela aplicação de email. • Ajuda e explicações dos temas com BP atualizadas; textos completos das licenças disponíveis offline.",
+        "version": "1.617",
+        "published": true,
+        "statusLabel": "Google Play · 1.617"
+      },
+      {
+        "id": "CartContinuous",
+        "title": "Digitalizar as compras ficou mais fácil!",
+        "body": "• Adicione produtos ao carrinho em sequência com «Adicionar e digitalizar o seguinte»: a câmara mantém-se aberta e confirma cada preço individualmente. • O número de produtos e o total atualizado na moeda escolhida aparecem agora diretamente no leitor. • Terminou as compras? Toque em «Adicionar e abrir o carrinho».",
+        "version": "1.616",
+        "published": true,
+        "statusLabel": "Google Play · 1.616"
+      },
+      {
+        "id": "ShoppingCart",
+        "title": "Carrinho de compras",
+        "body": "Leia os preços com a câmara ou adicione produtos manualmente. Veja o preço de cada produto e o total na moeda escolhida. Cinco adições gratuitas por dia; depois, 1 BP por novo produto.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "Themes",
+        "title": "24 temas de cores",
+        "body": "Escolha uma paleta no novo seletor em grelha. Cinco temas são gratuitos; desbloqueie cada um dos outros 19 para sempre por 60 BP. Os temas já desbloqueados continuam disponíveis.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "RewardedAds",
+        "title": "BALCO Points e anúncios",
+        "body": "Os anúncios com recompensa são carregados ao abrir a secção correspondente e abrem com um único toque assim que estão prontos. O estado da subscrição está mais claro, com a opção de repetir a verificação.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "PriceConversion",
+        "title": "Conversão de preços mais clara",
+        "body": "Corrigimos a conversão de Bitcoin, facilitámos a distinção dos valores selecionados e melhorámos as etiquetas de preços no leitor. O texto selecionado noutras aplicações só é convertido após a confirmação do acesso.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "Navigation",
+        "title": "Navegação mais simples",
+        "body": "Carrinho de compras fica abaixo do histórico de conversões no menu. Custo real chama-se agora Comparação de taxas de câmbio. Novidades encontra-se em Sobre esta aplicação.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "Keyboard",
+        "title": "Tipos de letra e tamanhos do teclado",
+        "body": "Personalize os botões da calculadora nas Definições: escolha um tipo de letra padrão, clássico, monoespaçado ou gótico e um dos três tamanhos de símbolos. A pré-visualização mostra a sua escolha e as suas preferências são guardadas.",
+        "version": "1.613",
+        "published": true
+      },
+      {
+        "id": "ProcessText",
+        "title": "Conversão do texto selecionado",
+        "body": "Texto selecionado: 149,99 EUR → 17 529,33 RSD (1 EUR = 116,87 RSD)"
+      },
+      {
+        "id": "PriceScanner",
+        "title": "Leitor de preços",
+        "body": "É necessário acesso à câmara para digitalizar um preço. As imagens ficam no dispositivo e não são guardadas."
+      },
+      {
+        "id": "ActualCost",
+        "title": "Comparação de taxas de câmbio",
+        "body": "Compare as condições de câmbio com a taxa de referência da aplicação."
+      },
+      {
+        "id": "TravelBoard",
+        "title": "Quadro de viagens em várias moedas",
+        "body": "Toque numa moeda para a tornar a moeda base."
+      },
+      {
+        "id": "Crypto",
+        "title": "Criptomoedas",
+        "body": "Taxas de criptomoedas"
+      }
+    ]
+  },
+  "nl": {
+    "title": "Wat is er nieuw",
+    "cards": [
+      {
+        "id": "ScannerAccuracy",
+        "title": "Verbeterde prijsscanner",
+        "body": "• Betere herkenning van prijskaartjes, folders en menukaarten, ook met kleine of verhoogde cijfers achter de komma. • Beter onderscheid tussen de hoofdprijs, artikelnummers, verpakkingsaantallen en de referentieprijs per kilogram. • Verfijnde prijscontrole over meerdere camerabeelden om te voorkomen dat toevallige leesfouten ten onrechte worden bevestigd.",
+        "version": "1.618",
+        "published": true,
+        "statusLabel": "Google Play · 1.618"
+      },
+      {
+        "id": "CartExperience",
+        "title": "Winkelmandje en feedback",
+        "body": "• Compacter winkelmandje: artikelen en totaal zijn beter zichtbaar. • Bij het eerste gebruik: 10 gratis toevoegingen aan het mandje in de eerste 24 uur, daarna 5 per dag. • Een antwoordmailadres is optioneel. Feedback wordt via je mailapp verstuurd. • Hulp en uitleg over BP-thema’s bijgewerkt; volledige licentieteksten zijn offline beschikbaar.",
+        "version": "1.617",
+        "published": true,
+        "statusLabel": "Google Play · 1.617"
+      },
+      {
+        "id": "CartContinuous",
+        "title": "Boodschappen scannen gaat nu makkelijker!",
+        "body": "• Voeg artikelen achter elkaar toe aan je winkelmandje met ‘Toevoegen en volgende scannen’ — de camera blijft open en je bevestigt elke prijs zelf. • Het aantal artikelen en het lopende totaal in je gekozen valuta zijn nu direct in de scanner zichtbaar. • Klaar met winkelen? Tik op ‘Toevoegen en winkelmand openen’.",
+        "version": "1.616",
+        "published": true,
+        "statusLabel": "Google Play · 1.616"
+      },
+      {
+        "id": "ShoppingCart",
+        "title": "Winkelmandje",
+        "body": "Scan prijzen of voeg artikelen handmatig toe. Bekijk de prijs van elk artikel en het totaal in de gekozen valuta. Vijf gratis toevoegingen per dag, daarna 1 BP per nieuw artikel.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "Themes",
+        "title": "24 kleurthema’s",
+        "body": "Kies een kleurenpalet in het nieuwe raster. Vijf thema’s zijn gratis; ontgrendel elk van de overige 19 voor altijd voor 60 BP. Eerder ontgrendelde thema’s blijven beschikbaar.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "RewardedAds",
+        "title": "BALCO Points en advertenties",
+        "body": "Advertenties met beloning worden geladen wanneer je het betreffende onderdeel opent en verschijnen na één tik zodra ze klaar zijn. De abonnementsstatus is duidelijker en je kunt de controle opnieuw proberen.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "PriceConversion",
+        "title": "Duidelijkere prijsomrekening",
+        "body": "De Bitcoin-omrekening is hersteld, geselecteerde bedragen zijn beter te onderscheiden en de prijslabels in de scanner zijn verbeterd. Tekst die in andere apps is geselecteerd, wordt pas omgerekend nadat de toegang is bevestigd.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "Navigation",
+        "title": "Eenvoudigere navigatie",
+        "body": "Winkelmandje staat onder de conversiegeschiedenis in het menu. Werkelijke kosten heet nu Wisselkoersvergelijking. Wat is er nieuw staat in Over deze app.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "Keyboard",
+        "title": "Lettertypen en groottes van het toetsenbord",
+        "body": "Pas de rekenmachineknoppen aan in Instellingen: kies een standaard, klassiek, monospace- of gotisch lettertype en een van drie tekengroottes. Een voorbeeld toont je keuze en je voorkeuren worden opgeslagen.",
+        "version": "1.613",
+        "published": true
+      },
+      {
+        "id": "ProcessText",
+        "title": "Conversie van geselecteerde tekst",
+        "body": "Geselecteerde tekst: 149,99 EUR → 17.529,33 RSD (1 EUR = 116,87 RSD)"
+      },
+      {
+        "id": "PriceScanner",
+        "title": "Prijsscanner",
+        "body": "Cameratoegang is nodig om een prijs te scannen. Afbeeldingen blijven op dit apparaat en worden niet opgeslagen."
+      },
+      {
+        "id": "ActualCost",
+        "title": "Wisselkoersvergelijking",
+        "body": "Vergelijk de wisselvoorwaarden met de referentiekoers van de app."
+      },
+      {
+        "id": "TravelBoard",
+        "title": "Reisvalutaoverzicht",
+        "body": "Tik op een valuta om deze als basisvaluta te gebruiken."
+      },
+      {
+        "id": "Crypto",
+        "title": "Crypto",
+        "body": "Cryptokoersen"
+      }
+    ]
+  },
+  "da": {
+    "title": "Nyheder",
+    "cards": [
+      {
+        "id": "ScannerAccuracy",
+        "title": "Forbedret prisscanner",
+        "body": "• Bedre genkendelse af prisskilte, kataloger og menuer, også med små eller hævede decimaler. • Bedre skelnen mellem hovedprisen, varenumre, antal i pakken og referenceprisen pr. kilogram. • Forbedret kontrol af prisen på tværs af flere billeder, så tilfældige læsefejl ikke bekræftes fejlagtigt.",
+        "version": "1.618",
+        "published": true,
+        "statusLabel": "Google Play · 1.618"
+      },
+      {
+        "id": "CartExperience",
+        "title": "Indkøbskurv og feedback",
+        "body": "• Mere kompakt kurv: varer og totalbeløb er lettere at se. • Ved første brug af kurven: 10 gratis tilføjelser i de første 24 timer, derefter 5 om dagen. • Email til svar er valgfri. Feedback sendes via din mailapp. • Opdateret hjælp og forklaringer om BP-temaer; fulde licenstekster er tilgængelige offline.",
+        "version": "1.617",
+        "published": true,
+        "statusLabel": "Google Play · 1.617"
+      },
+      {
+        "id": "CartContinuous",
+        "title": "Det er blevet nemmere at scanne indkøb!",
+        "body": "• Tilføj varer til kurven én efter én med »Tilføj og scan næste« — kameraet forbliver åbent, og du bekræfter selv hver pris. • Antallet af varer og den løbende total i din valgte valuta vises nu direkte i scanneren. • Færdig med at handle? Tryk på »Tilføj og åbn kurven«.",
+        "version": "1.616",
+        "published": true,
+        "statusLabel": "Google Play · 1.616"
+      },
+      {
+        "id": "ShoppingCart",
+        "title": "Indkøbskurv",
+        "body": "Scan priser, eller tilføj varer manuelt. Se prisen på hver vare og det samlede beløb i den valgte valuta. Fem gratis tilføjelser om dagen, derefter 1 BP pr. ny vare.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "Themes",
+        "title": "24 farvetemaer",
+        "body": "Vælg en palet i den nye gittervælger. Fem temaer er gratis; lås hvert af de øvrige 19 op for altid for 60 BP. Tidligere oplåste temaer er stadig tilgængelige.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "RewardedAds",
+        "title": "BALCO Points og annoncer",
+        "body": "Belønningsannoncer indlæses, når du åbner den relevante sektion, og åbner efter ét tryk, så snart de er klar. Abonnementsstatus er tydeligere, og du kan prøve bekræftelsen igen.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "PriceConversion",
+        "title": "Tydeligere prisomregning",
+        "body": "Bitcoin-omregningen er rettet, valgte beløb er lettere at skelne fra hinanden, og prisetiketterne i scanneren er forbedret. Tekst valgt i andre apps omregnes først, når adgangen er bekræftet.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "Navigation",
+        "title": "Nemmere navigation",
+        "body": "Indkøbskurv ligger under omregningshistorikken i menuen. Faktiske omkostninger hedder nu Sammenligning af valutakurser. Nyheder findes under Om denne app.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "Keyboard",
+        "title": "Tastaturets skrifttyper og størrelser",
+        "body": "Tilpas lommeregnerens knapper i Indstillinger: vælg en standard-, klassisk, monospace- eller gotisk skrifttype og en af tre tegnstørrelser. En forhåndsvisning viser dit valg, og dine indstillinger gemmes.",
+        "version": "1.613",
+        "published": true
+      },
+      {
+        "id": "ProcessText",
+        "title": "Konvertering af markeret tekst",
+        "body": "Markeret tekst: 149,99 EUR → 17.529,33 RSD (1 EUR = 116,87 RSD)"
+      },
+      {
+        "id": "PriceScanner",
+        "title": "Prisscanner",
+        "body": "Kameraadgang er nødvendig for at scanne en pris. Billeder bliver på enheden og gemmes ikke."
+      },
+      {
+        "id": "ActualCost",
+        "title": "Sammenligning af valutakurser",
+        "body": "Sammenlign vekselvilkårene med appens referencekurs."
+      },
+      {
+        "id": "TravelBoard",
+        "title": "Rejsevalutaoversigt",
+        "body": "Tryk på en valuta for at gøre den til basisvaluta."
+      },
+      {
+        "id": "Crypto",
+        "title": "Krypto",
+        "body": "Kryptokurser"
+      }
+    ]
+  },
+  "sv": {
+    "title": "Nyheter",
+    "cards": [
+      {
+        "id": "ScannerAccuracy",
+        "title": "Förbättrad prisskanner",
+        "body": "• Bättre avläsning av prislappar, kataloger och menyer, även med små eller upphöjda decimalsiffror. • Bättre åtskillnad mellan huvudpriset, artikelnummer, mängden i förpackningen och jämförpriset per kilogram. • Förfinad kontroll av priset i flera bildrutor så att tillfälliga avläsningsfel inte bekräftas felaktigt.",
+        "version": "1.618",
+        "published": true,
+        "statusLabel": "Google Play · 1.618"
+      },
+      {
+        "id": "CartExperience",
+        "title": "Varukorg och feedback",
+        "body": "• Kompaktare varukorg: varor och totalsumma syns tydligare. • Första gången du använder varukorgen: 10 gratis tillägg under de första 24 timmarna, sedan 5 per dag. • E-post för svar är valfri. Feedback skickas via din e-postapp. • Uppdaterad hjälp och förklaringar av BP-teman; fullständiga licenstexter finns offline.",
+        "version": "1.617",
+        "published": true,
+        "statusLabel": "Google Play · 1.617"
+      },
+      {
+        "id": "CartContinuous",
+        "title": "Nu är det enklare att skanna dina inköp!",
+        "body": "• Lägg till varor i kundvagnen efter varandra med ”Lägg till och skanna nästa” — kameran förblir öppen och du bekräftar själv varje pris. • Antalet varor och den löpande summan i din valda valuta visas nu direkt i skannern. • Har du handlat klart? Tryck på ”Lägg till och öppna varukorgen”.",
+        "version": "1.616",
+        "published": true,
+        "statusLabel": "Google Play · 1.616"
+      },
+      {
+        "id": "ShoppingCart",
+        "title": "Varukorg",
+        "body": "Skanna priser eller lägg till varor manuellt. Se priset för varje vara och totalsumman i vald valuta. Fem gratis tillägg per dag, därefter 1 BP per ny vara.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "Themes",
+        "title": "24 färgteman",
+        "body": "Välj en palett i den nya rutnätsväljaren. Fem teman är gratis; lås upp vart och ett av de övriga 19 för alltid för 60 BP. Tidigare upplåsta teman finns kvar.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "RewardedAds",
+        "title": "BALCO Points och annonser",
+        "body": "Belöningsannonser laddas när du öppnar rätt avsnitt och öppnas efter ett tryck så snart de är klara. Prenumerationsstatusen är tydligare och du kan försöka verifiera igen.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "PriceConversion",
+        "title": "Tydligare prisomräkning",
+        "body": "Bitcoin-omräkningen har rättats, valda belopp är lättare att skilja åt och prisetiketterna i skannern har förbättrats. Text som valts i andra appar räknas om först när åtkomsten har bekräftats.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "Navigation",
+        "title": "Enklare navigering",
+        "body": "Varukorg ligger under omräkningshistoriken i menyn. Faktisk kostnad heter nu Jämförelse av växelkurser. Nyheter finns under Om den här appen.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "Keyboard",
+        "title": "Tangentbordets typsnitt och storlekar",
+        "body": "Anpassa kalkylatorns knappar i Inställningar: välj ett standard-, klassiskt, fastbredds- eller gotiskt typsnitt och en av tre teckenstorlekar. En förhandsvisning visar ditt val och dina inställningar sparas.",
+        "version": "1.613",
+        "published": true
+      },
+      {
+        "id": "ProcessText",
+        "title": "Konvertering av markerad text",
+        "body": "Markerad text: 149,99 EUR → 17 529,33 RSD (1 EUR = 116,87 RSD)"
+      },
+      {
+        "id": "PriceScanner",
+        "title": "Prisskanner",
+        "body": "Kameraåtkomst behövs för att skanna ett pris. Bilderna stannar på enheten och sparas inte."
+      },
+      {
+        "id": "ActualCost",
+        "title": "Jämförelse av växelkurser",
+        "body": "Jämför växlingsvillkoren med appens referenskurs."
+      },
+      {
+        "id": "TravelBoard",
+        "title": "Resevalutaöversikt",
+        "body": "Tryck på en valuta för att göra den till basvaluta."
+      },
+      {
+        "id": "Crypto",
+        "title": "Krypto",
+        "body": "Kryptokurser"
+      }
+    ]
+  },
+  "nb": {
+    "title": "Nyheter",
+    "cards": [
+      {
+        "id": "ScannerAccuracy",
+        "title": "Forbedret prisskanner",
+        "body": "• Bedre gjenkjenning av prislapper, kataloger og menyer, også med små eller hevede desimalsifre. • Bedre skille mellom hovedprisen, varenumre, mengden i pakken og referanseprisen per kilogram. • Forbedret kontroll av prisen over flere bilder, slik at tilfeldige lesefeil ikke blir feilaktig bekreftet.",
+        "version": "1.618",
+        "published": true,
+        "statusLabel": "Google Play · 1.618"
+      },
+      {
+        "id": "CartExperience",
+        "title": "Handlekurv og tilbakemeldinger",
+        "body": "• Mer kompakt kurv: varer og totalsum er lettere å se. • Ved første bruk av kurven: 10 gratis tillegg de første 24 timene, deretter 5 per dag. • E-post for svar er valgfritt. Tilbakemeldinger sendes via e-postappen din. • Oppdatert hjelp og forklaringer om BP-temaer; fullstendige lisenstekster er tilgjengelige frakoblet.",
+        "version": "1.617",
+        "published": true,
+        "statusLabel": "Google Play · 1.617"
+      },
+      {
+        "id": "CartContinuous",
+        "title": "Det er blitt enklere å skanne innkjøp!",
+        "body": "• Legg varer i handlekurven én etter én med «Legg til og skann neste» — kameraet forblir åpent, og du bekrefter hver pris selv. • Antall varer og løpende totalsum i valgt valuta vises nå direkte i skanneren. • Ferdig med å handle? Trykk på «Legg til og åpne handlekurven».",
+        "version": "1.616",
+        "published": true,
+        "statusLabel": "Google Play · 1.616"
+      },
+      {
+        "id": "ShoppingCart",
+        "title": "Handlekurv",
+        "body": "Skann priser eller legg til varer manuelt. Se prisen på hver vare og totalsummen i valgt valuta. Fem gratis tillegg per dag, deretter 1 BP per ny vare.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "Themes",
+        "title": "24 fargetemaer",
+        "body": "Velg en palett i den nye rutenettvelgeren. Fem temaer er gratis; lås opp hvert av de andre 19 for alltid for 60 BP. Tidligere opplåste temaer er fortsatt tilgjengelige.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "RewardedAds",
+        "title": "BALCO Points og annonser",
+        "body": "Belønningsannonser lastes når du åpner den aktuelle delen, og åpnes etter ett trykk så snart de er klare. Abonnementsstatusen er tydeligere, og du kan prøve bekreftelsen på nytt.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "PriceConversion",
+        "title": "Tydeligere prisomregning",
+        "body": "Bitcoin-omregningen er rettet, valgte beløp er enklere å skille fra hverandre, og prisetikettene i skanneren er forbedret. Tekst valgt i andre apper omregnes først når tilgangen er bekreftet.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "Navigation",
+        "title": "Enklere navigering",
+        "body": "Handlekurv ligger under omregningshistorikken i menyen. Faktisk kostnad heter nå Sammenligning av valutakurser. Nyheter finnes under Om denne appen.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "Keyboard",
+        "title": "Tastaturets skrifttyper og størrelser",
+        "body": "Tilpass kalkulatorknappene i Innstillinger: velg en standard, klassisk, monospace- eller gotisk skrifttype og én av tre tegnstørrelser. En forhåndsvisning viser valget ditt, og innstillingene lagres.",
+        "version": "1.613",
+        "published": true
+      },
+      {
+        "id": "ProcessText",
+        "title": "Konvertering av markert tekst",
+        "body": "Markert tekst: 149,99 EUR → 17 529,33 RSD (1 EUR = 116,87 RSD)"
+      },
+      {
+        "id": "PriceScanner",
+        "title": "Prisskanner",
+        "body": "Kameratilgang er nødvendig for å skanne en pris. Bilder blir på enheten og lagres ikke."
+      },
+      {
+        "id": "ActualCost",
+        "title": "Sammenligning av valutakurser",
+        "body": "Sammenlign vekslingsvilkårene med appens referansekurs."
+      },
+      {
+        "id": "TravelBoard",
+        "title": "Reisevalutaoversikt",
+        "body": "Trykk på en valuta for å gjøre den til basisvaluta."
+      },
+      {
+        "id": "Crypto",
+        "title": "Krypto",
+        "body": "Kryptokurser"
+      }
+    ]
+  },
+  "fi": {
+    "title": "Uutta",
+    "cards": [
+      {
+        "id": "ScannerAccuracy",
+        "title": "Parannettu hintaskanneri",
+        "body": "• Hintalappujen, kuvastojen ja ruokalistojen tunnistusta on parannettu, myös pienten tai korotettujen desimaalien osalta. • Päähinta erottuu paremmin tuotekoodeista, pakkausmääristä ja kilohinnasta. • Hinnan tarkistusta useasta kuvasta on tarkennettu, jotta satunnaiset lukuvirheet eivät saa virheellistä vahvistusta.",
+        "version": "1.618",
+        "published": true,
+        "statusLabel": "Google Play · 1.618"
+      },
+      {
+        "id": "CartExperience",
+        "title": "Ostoskori ja palaute",
+        "body": "• Tiiviimpi ostoskori: tuotteet ja loppusumma näkyvät paremmin. • Ostoskorin ensimmäisellä käyttökerralla: 10 ilmaista lisäystä ensimmäisten 24 tunnin aikana, sitten 5 päivässä. • Vastaussähköposti on vapaaehtoinen. Palaute lähetetään sähköpostisovelluksella. • Ohje ja BP-teemojen selitykset päivitetty; täydet lisenssitekstit ovat saatavilla ilman verkkoyhteyttä.",
+        "version": "1.617",
+        "published": true,
+        "statusLabel": "Google Play · 1.617"
+      },
+      {
+        "id": "CartContinuous",
+        "title": "Ostosten skannaaminen on nyt helpompaa!",
+        "body": "• Lisää tuotteita ostoskoriin peräkkäin painikkeella ”Lisää ja skannaa seuraava” — kamera pysyy auki ja vahvistat jokaisen hinnan itse. • Tuotteiden määrä ja kertyvä yhteissumma valitussa valuutassa näkyvät nyt suoraan skannerissa. • Ostokset tehty? Napauta ”Lisää ja avaa ostoskori”.",
+        "version": "1.616",
+        "published": true,
+        "statusLabel": "Google Play · 1.616"
+      },
+      {
+        "id": "ShoppingCart",
+        "title": "Ostoskori",
+        "body": "Skannaa hinnat tai lisää tuotteet käsin. Näet kunkin tuotteen hinnan ja yhteissumman valitsemassasi valuutassa. Viisi ilmaista lisäystä päivässä, sen jälkeen 1 BP jokaista uutta tuotetta kohti.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "Themes",
+        "title": "24 väriteemaa",
+        "body": "Valitse väripaletti uudesta ruudukkovalitsimesta. Viisi teemaa on ilmaisia; saat jokaisen 19 muusta teemasta pysyvästi käyttöösi 60 BP:llä. Aiemmin avatut teemat säilyvät käytössä.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "RewardedAds",
+        "title": "BALCO Points ja mainokset",
+        "body": "Palkkiomainokset latautuvat, kun avaat kyseisen osion, ja avautuvat yhdellä napautuksella heti, kun ne ovat valmiita. Tilauksen tila näkyy selkeämmin, ja voit yrittää vahvistusta uudelleen.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "PriceConversion",
+        "title": "Selkeämpi hintojen muuntaminen",
+        "body": "Bitcoin-muunnos on korjattu, valitut summat on helpompi erottaa toisistaan ja skannerin hintamerkintöjä on parannettu. Muissa sovelluksissa valittu teksti muunnetaan vasta, kun käyttöoikeus on vahvistettu.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "Navigation",
+        "title": "Helpompi navigointi",
+        "body": "Ostoskori löytyy valikosta muuntohistorian alta. Todelliset kustannukset on nyt Valuuttakurssien vertailu. Uutta löytyy osiosta Tietoja tästä sovelluksesta.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "Keyboard",
+        "title": "Näppäimistön fontit ja koot",
+        "body": "Mukauta laskimen painikkeita asetuksissa: valitse tavallinen, klassinen, tasalevyinen tai goottilainen fontti ja yksi kolmesta merkkikoosta. Esikatselu näyttää valintasi, ja asetuksesi tallennetaan.",
+        "version": "1.613",
+        "published": true
+      },
+      {
+        "id": "ProcessText",
+        "title": "Valitun tekstin muunnos",
+        "body": "Valittu teksti: 149,99 EUR → 17 529,33 RSD (1 EUR = 116,87 RSD)"
+      },
+      {
+        "id": "PriceScanner",
+        "title": "Hintaskanneri",
+        "body": "Hinnan skannaamiseen tarvitaan kameran käyttöoikeus. Kuvat pysyvät laitteella eikä niitä tallenneta."
+      },
+      {
+        "id": "ActualCost",
+        "title": "Valuuttakurssien vertailu",
+        "body": "Vertaa valuutanvaihdon ehtoja sovelluksen viitekurssiin."
+      },
+      {
+        "id": "TravelBoard",
+        "title": "Matkavaluuttojen näkymä",
+        "body": "Aseta valuutta perusvaluutaksi napauttamalla sitä."
+      },
+      {
+        "id": "Crypto",
+        "title": "Kryptovaluutat",
+        "body": "Kryptovaluuttakurssit"
+      }
+    ]
+  },
+  "is": {
+    "title": "Nýtt",
+    "cards": [
+      {
+        "id": "ScannerAccuracy",
+        "title": "Endurbættur verðskanni",
+        "body": "• Betri lestur verðmiða, vörulista og matseðla, einnig þegar aukastafir eru smáir eða upphækkaðir. • Betri aðgreining aðalverðs frá vörunúmerum, magni í pakkningu og viðmiðunarverði á kílógramm. • Bætt sannprófun verðs yfir marga myndramma til að koma í veg fyrir að tilviljanakenndar lesvillur fái ranga staðfestingu.",
+        "version": "1.618",
+        "published": true,
+        "statusLabel": "Google Play · 1.618"
+      },
+      {
+        "id": "CartExperience",
+        "title": "Karfa og ábendingar",
+        "body": "• Þéttari karfa: vörur og heildarverð sjást betur. • Við fyrstu notkun körfunnar: 10 ókeypis viðbætur fyrstu 24 klukkustundirnar, síðan 5 á dag. • Netfang fyrir svar er valfrjálst. Ábendingar eru sendar með tölvupóstforritinu þínu. • Uppfærð hjálp og skýringar á BP-þemum; leyfistextar í heild eru aðgengilegir án nettengingar.",
+        "version": "1.617",
+        "published": true,
+        "statusLabel": "Google Play · 1.617"
+      },
+      {
+        "id": "CartContinuous",
+        "title": "Nú er auðveldara að skanna innkaupin!",
+        "body": "• Bættu vörum í körfuna hverri á eftir annarri með „Bæta við og skanna næstu vöru“ — myndavélin helst opin og þú staðfestir hvert verð sjálf(ur). • Fjöldi vara og uppsöfnuð heildarupphæð í völdum gjaldmiðli birtast nú beint í skannanum. • Búin(n) að versla? Ýttu á „Bæta við og opna körfu“.",
+        "version": "1.616",
+        "published": true,
+        "statusLabel": "Google Play · 1.616"
+      },
+      {
+        "id": "ShoppingCart",
+        "title": "Innkaupakarfa",
+        "body": "Skannaðu verð eða bættu vörum við handvirkt. Sjáðu verð hverrar vöru og heildarupphæð í valinni mynt. Fimm ókeypis viðbætur á dag, síðan 1 BP fyrir hverja nýja vöru.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "Themes",
+        "title": "24 litaþemu",
+        "body": "Veldu litasamsetningu í nýja reitavalinu. Fimm þemu eru ókeypis; opnaðu hvert hinna 19 varanlega fyrir 60 BP. Þemu sem þegar hafa verið opnuð eru áfram tiltæk.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "RewardedAds",
+        "title": "BALCO Points og auglýsingar",
+        "body": "Auglýsingar með umbun hlaðast þegar þú opnar viðeigandi hluta og opnast eftir eina snertingu um leið og þær eru tilbúnar. Staða áskriftar er skýrari og hægt er að reyna staðfestingu aftur.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "PriceConversion",
+        "title": "Skýrari umreikningur verðs",
+        "body": "Umreikningur Bitcoin hefur verið lagfærður, auðveldara er að greina valdar upphæðir og verðmerkingar í skannanum hafa verið bættar. Texti valinn í öðrum öppum er aðeins umreiknaður eftir að aðgangur hefur verið staðfestur.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "Navigation",
+        "title": "Einfaldari yfirsýn",
+        "body": "Innkaupakarfa er fyrir neðan umreikningsferil í valmyndinni. Raunverulegur kostnaður heitir nú Gengissamanburður. Nýtt er undir Um þetta app.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "Keyboard",
+        "title": "Letur og stærðir lyklaborðs",
+        "body": "Sérsníddu hnappa reiknivélarinnar í stillingum: veldu hefðbundið, klassískt, jafnbreitt eða gotneskt letur og eina af þremur táknastærðum. Forskoðun sýnir valið þitt og stillingarnar vistast.",
+        "version": "1.613",
+        "published": true
+      },
+      {
+        "id": "ProcessText",
+        "title": "Umbreyting valins texta",
+        "body": "Valinn texti: 149,99 EUR → 17.529,33 RSD (1 EUR = 116,87 RSD)"
+      },
+      {
+        "id": "PriceScanner",
+        "title": "Verðskanni",
+        "body": "Aðgangur að myndavél er nauðsynlegur til að skanna verð. Myndir eru áfram í tækinu og eru ekki vistaðar."
+      },
+      {
+        "id": "ActualCost",
+        "title": "Gengissamanburður",
+        "body": "Berðu saman skiptikjörin og viðmiðunargengi appsins."
+      },
+      {
+        "id": "TravelBoard",
+        "title": "Yfirlit yfir ferðagjaldmiðla",
+        "body": "Pikkaðu á gjaldmiðil til að gera hann að grunngjaldmiðli."
+      },
+      {
+        "id": "Crypto",
+        "title": "Rafmyntir",
+        "body": "Gengi rafmynta"
+      }
+    ]
+  },
+  "el": {
+    "title": "Τι νέο υπάρχει",
+    "cards": [
+      {
+        "id": "ScannerAccuracy",
+        "title": "Βελτιωμένος σαρωτής τιμών",
+        "body": "• Καλύτερη αναγνώριση ετικετών τιμών, καταλόγων και μενού, ακόμη και με μικρά ή υπερυψωμένα δεκαδικά ψηφία. • Καλύτερος διαχωρισμός της κύριας τιμής από κωδικούς προϊόντων, ποσότητες συσκευασίας και τιμές αναφοράς ανά κιλό. • Βελτιωμένος έλεγχος της τιμής σε διαδοχικά καρέ, ώστε τυχαία σφάλματα ανάγνωσης να μην επιβεβαιώνονται λανθασμένα.",
+        "version": "1.618",
+        "published": true,
+        "statusLabel": "Google Play · 1.618"
+      },
+      {
+        "id": "CartExperience",
+        "title": "Καλάθι και σχόλια",
+        "body": "• Πιο συμπαγές καλάθι: προϊόντα και σύνολο φαίνονται καλύτερα. • Στην πρώτη χρήση του καλαθιού: 10 δωρεάν προσθήκες στις πρώτες 24 ώρες, μετά 5 την ημέρα. • Το email απάντησης είναι προαιρετικό. Τα σχόλια στέλνονται μέσω της εφαρμογής email. • Ενημερώθηκαν η βοήθεια και οι εξηγήσεις για θέματα με BP· πλήρεις άδειες διαθέσιμες εκτός σύνδεσης.",
+        "version": "1.617",
+        "published": true,
+        "statusLabel": "Google Play · 1.617"
+      },
+      {
+        "id": "CartContinuous",
+        "title": "Η σάρωση των αγορών έγινε ευκολότερη!",
+        "body": "• Προσθέστε προϊόντα στο καλάθι διαδοχικά με το «Προσθήκη και σάρωση επόμενου» — η κάμερα μένει ανοιχτή και επιβεβαιώνετε κάθε τιμή. • Ο αριθμός των προϊόντων και το τρέχον σύνολο στο επιλεγμένο νόμισμα εμφανίζονται πλέον απευθείας στον σαρωτή. • Ολοκληρώσατε τις αγορές; Πατήστε «Προσθήκη και άνοιγμα καλαθιού».",
+        "version": "1.616",
+        "published": true,
+        "statusLabel": "Google Play · 1.616"
+      },
+      {
+        "id": "ShoppingCart",
+        "title": "Καλάθι αγορών",
+        "body": "Σαρώστε τιμές ή προσθέστε προϊόντα χειροκίνητα. Δείτε την τιμή κάθε προϊόντος και το σύνολο στο νόμισμα που επιλέξατε. Πέντε δωρεάν προσθήκες την ημέρα και μετά 1 BP ανά νέο προϊόν.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "Themes",
+        "title": "24 χρωματικά θέματα",
+        "body": "Επιλέξτε μια παλέτα από το νέο πλέγμα. Πέντε θέματα είναι δωρεάν· ξεκλειδώστε καθένα από τα υπόλοιπα 19 για πάντα με 60 BP. Τα ήδη ξεκλειδωμένα θέματα παραμένουν διαθέσιμα.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "RewardedAds",
+        "title": "BALCO Points και διαφημίσεις",
+        "body": "Οι διαφημίσεις με ανταμοιβή φορτώνονται όταν ανοίγετε τη σχετική ενότητα και ανοίγουν με ένα πάτημα μόλις είναι έτοιμες. Η κατάσταση της συνδρομής είναι σαφέστερη, με δυνατότητα επανάληψης της επαλήθευσης.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "PriceConversion",
+        "title": "Σαφέστερη μετατροπή τιμών",
+        "body": "Διορθώθηκε η μετατροπή Bitcoin, τα επιλεγμένα ποσά διακρίνονται ευκολότερα και βελτιώθηκαν οι ετικέτες τιμών στον σαρωτή. Το κείμενο που επιλέγετε σε άλλες εφαρμογές μετατρέπεται μόνο αφού επιβεβαιωθεί η πρόσβαση.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "Navigation",
+        "title": "Ευκολότερη πλοήγηση",
+        "body": "Το Καλάθι αγορών βρίσκεται κάτω από το ιστορικό μετατροπών στο μενού. Το Πραγματικό κόστος ονομάζεται πλέον Σύγκριση ισοτιμιών. Το Τι νέο υπάρχει βρίσκεται στην ενότητα Σχετικά με αυτήν την εφαρμογή.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "Keyboard",
+        "title": "Γραμματοσειρές και μεγέθη πληκτρολογίου",
+        "body": "Προσαρμόστε τα κουμπιά της αριθμομηχανής στις Ρυθμίσεις: επιλέξτε τυπική, κλασική, σταθερού πλάτους ή γοτθική γραμματοσειρά και ένα από τα τρία μεγέθη συμβόλων. Η προεπισκόπηση δείχνει την επιλογή σας και οι προτιμήσεις σας αποθηκεύονται.",
+        "version": "1.613",
+        "published": true
+      },
+      {
+        "id": "ProcessText",
+        "title": "Μετατροπή επιλεγμένου κειμένου",
+        "body": "Επιλεγμένο κείμενο: 149,99 EUR → 17.529,33 RSD (1 EUR = 116,87 RSD)"
+      },
+      {
+        "id": "PriceScanner",
+        "title": "Σαρωτής τιμών",
+        "body": "Απαιτείται πρόσβαση στην κάμερα για τη σάρωση τιμής. Οι εικόνες παραμένουν στη συσκευή και δεν αποθηκεύονται."
+      },
+      {
+        "id": "ActualCost",
+        "title": "Σύγκριση ισοτιμιών",
+        "body": "Συγκρίνετε τους όρους συναλλαγής με την ισοτιμία αναφοράς της εφαρμογής."
+      },
+      {
+        "id": "TravelBoard",
+        "title": "Πίνακας ταξιδιωτικών νομισμάτων",
+        "body": "Πατήστε ένα νόμισμα για να το ορίσετε ως βασικό."
+      },
+      {
+        "id": "Crypto",
+        "title": "Κρυπτονομίσματα",
+        "body": "Ισοτιμίες κρυπτονομισμάτων"
+      }
+    ]
+  },
+  "tr": {
+    "title": "Yenilikler",
+    "cards": [
+      {
+        "id": "ScannerAccuracy",
+        "title": "Geliştirilmiş fiyat tarayıcı",
+        "body": "• Küçük veya yukarıda yazılmış ondalık basamaklar dahil fiyat etiketleri, kataloglar ve menülerin tanınması iyileştirildi. • Ana fiyatın ürün kodlarından, paket miktarlarından ve kilogram başına referans fiyatlardan ayrılması geliştirildi. • Rastgele okuma hatalarının yanlışlıkla doğrulanmasını önlemek için birden fazla karede fiyat kontrolü iyileştirildi.",
+        "version": "1.618",
+        "published": true,
+        "statusLabel": "Google Play · 1.618"
+      },
+      {
+        "id": "CartExperience",
+        "title": "Alışveriş sepeti ve geri bildirim",
+        "body": "• Daha kompakt sepet: ürünler ve toplam tutar daha net görünür. • Sepetin ilk kullanımında: ilk 24 saatte 10 ücretsiz ekleme, ardından günde 5. • Yanıt e-postası isteğe bağlıdır. Geri bildirim e-posta uygulamanızla gönderilir. • Yardım ve BP teması açıklamaları güncellendi; lisansların tam metinleri çevrimdışı kullanılabilir.",
+        "version": "1.617",
+        "published": true,
+        "statusLabel": "Google Play · 1.617"
+      },
+      {
+        "id": "CartContinuous",
+        "title": "Alışverişleri taramak artık daha kolay!",
+        "body": "• “Ekle ve sonrakini tara” ile ürünleri sepete art arda ekleyin — kamera açık kalır ve her fiyatı kendiniz onaylarsınız. • Ürün sayısı ve seçtiğiniz para birimindeki güncel toplam artık doğrudan tarayıcıda görünür. • Alışveriş bitti mi? “Ekle ve sepeti aç” düğmesine dokunun.",
+        "version": "1.616",
+        "published": true,
+        "statusLabel": "Google Play · 1.616"
+      },
+      {
+        "id": "ShoppingCart",
+        "title": "Alışveriş sepeti",
+        "body": "Fiyatları tarayın veya ürünleri elle ekleyin. Her ürünün fiyatını ve toplamı seçtiğiniz para biriminde görün. Günde beş ücretsiz ekleme, ardından her yeni ürün için 1 BP.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "Themes",
+        "title": "24 renk teması",
+        "body": "Yeni ızgara seçicisinden bir palet seçin. Beş tema ücretsizdir; diğer 19 temanın her birini 60 BP karşılığında kalıcı olarak açabilirsiniz. Daha önce açılan temalar kullanılabilir durumda kalır.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "RewardedAds",
+        "title": "BALCO Points ve reklamlar",
+        "body": "Ödüllü reklamlar ilgili bölümü açtığınızda yüklenir ve hazır olur olmaz tek dokunuşla açılır. Abonelik durumu daha net gösterilir ve doğrulamayı yeniden deneyebilirsiniz.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "PriceConversion",
+        "title": "Daha anlaşılır fiyat dönüşümü",
+        "body": "Bitcoin dönüşümü düzeltildi, seçili tutarları ayırt etmek kolaylaştırıldı ve tarayıcıdaki fiyat etiketleri iyileştirildi. Diğer uygulamalarda seçilen metin yalnızca erişim onaylandıktan sonra dönüştürülür.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "Navigation",
+        "title": "Daha kolay gezinme",
+        "body": "Alışveriş sepeti, menüde dönüşüm geçmişinin altında yer alır. Gerçek maliyet artık Döviz kuru karşılaştırması olarak adlandırılır. Yenilikler, Bu uygulama hakkında bölümündedir.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "Keyboard",
+        "title": "Klavye yazı tipleri ve boyutları",
+        "body": "Ayarlar’dan hesap makinesi düğmelerini özelleştirin: standart, klasik, eş aralıklı veya Gotik yazı tipini ve üç simge boyutundan birini seçin. Önizleme seçiminizi gösterir ve tercihleriniz kaydedilir.",
+        "version": "1.613",
+        "published": true
+      },
+      {
+        "id": "ProcessText",
+        "title": "Seçili metni dönüştürme",
+        "body": "Seçili metin: 149,99 EUR → 17.529,33 RSD (1 EUR = 116,87 RSD)"
+      },
+      {
+        "id": "PriceScanner",
+        "title": "Fiyat tarayıcı",
+        "body": "Fiyat taramak için kamera erişimi gerekir. Görüntüler bu cihazda kalır ve kaydedilmez."
+      },
+      {
+        "id": "ActualCost",
+        "title": "Döviz kuru karşılaştırması",
+        "body": "Döviz bozdurma koşullarını uygulamanın referans kuruyla karşılaştırın."
+      },
+      {
+        "id": "TravelBoard",
+        "title": "Çoklu para birimi seyahat panosu",
+        "body": "Baz para birimi yapmak için bir para birimine dokunun."
+      },
+      {
+        "id": "Crypto",
+        "title": "Kripto paralar",
+        "body": "Kripto para kurları"
+      }
+    ]
+  },
+  "ru": {
+    "title": "Что нового",
+    "cards": [
+      {
+        "id": "ScannerAccuracy",
+        "title": "Улучшили сканер цен",
+        "body": "• Доработали распознавание ценников, каталогов и меню, включая цены с мелкими или приподнятыми копейками. • Улучшили отделение основной цены от артикулов, количества в упаковке и справочной цены за килограмм. • Уточнили проверку цены по нескольким кадрам, чтобы случайные ошибки чтения не получали ложного подтверждения.",
+        "version": "1.618",
+        "published": true,
+        "statusLabel": "Google Play · 1.618"
+      },
+      {
+        "id": "CartExperience",
+        "title": "Корзина и обратная связь",
+        "body": "• Корзина стала компактнее: товары и итог лучше видны. • При первом использовании корзины — 10 бесплатных добавлений за первые 24 часа, затем 5 в день. • Email для ответа необязателен. Отзыв отправляется через почтовое приложение. • Обновили справку и пояснения к темам за BP; полные тексты лицензий доступны без интернета.",
+        "version": "1.617",
+        "published": true,
+        "statusLabel": "Google Play · 1.617"
+      },
+      {
+        "id": "CartContinuous",
+        "title": "Покупки сканировать стало удобнее!",
+        "body": "• Добавляйте товары в корзину подряд с кнопкой «Добавить и сканировать следующий» — камера остаётся открытой, каждую цену вы подтверждаете сами. • Количество товаров и текущий итог в выбранной валюте теперь видны прямо в сканере. • Закончили покупки? Нажмите «Добавить и открыть корзину».",
+        "version": "1.616",
+        "published": true,
+        "statusLabel": "Google Play · 1.616"
+      },
+      {
+        "id": "ShoppingCart",
+        "title": "Корзина покупок",
+        "body": "Сканируйте цены или добавляйте товары вручную. Цена каждого товара и общая сумма отображаются в выбранной валюте. Пять бесплатных добавлений в день, затем 1 BP за новый товар.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "Themes",
+        "title": "24 цветовые темы",
+        "body": "Выбирайте палитру в новом меню с сеткой образцов. Пять тем бесплатны, каждую из остальных 19 можно открыть навсегда за 60 BP. Ранее открытые темы сохраняются.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "RewardedAds",
+        "title": "BALCO Points и реклама",
+        "body": "Реклама с вознаграждением загружается при открытии нужного раздела и запускается после одного нажатия, как только будет готова. Статус подписки стал понятнее, а проверку можно повторить.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "PriceConversion",
+        "title": "Улучшения конвертации цен",
+        "body": "Исправлена конвертация Bitcoin, выбранные суммы стало легче различать, а подписи цен в сканере — читать. Текст, выделенный в других приложениях, конвертируется только после подтверждения доступа.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "Navigation",
+        "title": "Улучшения навигации",
+        "body": "«Корзина покупок» находится под историей конвертаций в меню. «Фактическая стоимость» теперь называется «Сравнение курсов». «Что нового» перенесено в «Об этом приложении».",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "Keyboard",
+        "title": "Шрифты и размеры клавиатуры",
+        "body": "Настройте кнопки калькулятора в настройках: выберите обычный, классический, моноширинный или готический шрифт и один из трёх размеров символов. Предпросмотр показывает ваш выбор, а настройки сохраняются.",
+        "version": "1.613",
+        "published": true
+      },
+      {
+        "id": "ProcessText",
+        "title": "Конвертация выделенного текста",
+        "body": "Выделенный текст: 149,99 EUR → 17 529,33 RSD (1 EUR = 116,87 RSD)"
+      },
+      {
+        "id": "PriceScanner",
+        "title": "Сканер цен",
+        "body": "Для сканирования цены нужен доступ к камере. Изображения не сохраняются на устройстве."
+      },
+      {
+        "id": "ActualCost",
+        "title": "Сравнение курсов",
+        "body": "Сравните предложение с базовым курсом."
+      },
+      {
+        "id": "TravelBoard",
+        "title": "Табло путешествий",
+        "body": "Нажмите на валюту, чтобы сделать её базовой."
+      },
+      {
+        "id": "Crypto",
+        "title": "Криптовалюты",
+        "body": "Курсы криптовалют"
+      }
+    ]
+  },
+  "uk": {
+    "title": "Що нового",
+    "cards": [
+      {
+        "id": "ScannerAccuracy",
+        "title": "Покращили сканер цін",
+        "body": "• Доопрацювали розпізнавання цінників, каталогів і меню, зокрема цін із дрібними або піднятими копійками. • Покращили відокремлення основної ціни від артикулів, кількості в упаковці та довідкової ціни за кілограм. • Уточнили перевірку ціни за кількома кадрами, щоб випадкові помилки зчитування не отримували хибного підтвердження.",
+        "version": "1.618",
+        "published": true,
+        "statusLabel": "Google Play · 1.618"
+      },
+      {
+        "id": "CartExperience",
+        "title": "Кошик і зворотний зв’язок",
+        "body": "• Кошик став компактнішим: товари й підсумок краще видно. • При першому використанні кошика — 10 безкоштовних додавань за перші 24 години, потім 5 на день. • Email для відповіді необов’язковий. Відгук надсилається через поштовий застосунок. • Оновлено довідку та пояснення тем за BP; повні тексти ліцензій доступні без інтернету.",
+        "version": "1.617",
+        "published": true,
+        "statusLabel": "Google Play · 1.617"
+      },
+      {
+        "id": "CartContinuous",
+        "title": "Сканувати покупки стало зручніше!",
+        "body": "• Додавайте товари до кошика поспіль кнопкою «Додати й сканувати наступний» — камера залишається відкритою, кожну ціну ви підтверджуєте самі. • Кількість товарів і поточна сума у вибраній валюті тепер відображаються просто в сканері. • Закінчили покупки? Натисніть «Додати й відкрити кошик».",
+        "version": "1.616",
+        "published": true,
+        "statusLabel": "Google Play · 1.616"
+      },
+      {
+        "id": "ShoppingCart",
+        "title": "Кошик покупок",
+        "body": "Скануйте ціни або додавайте товари вручну. Ціна кожного товару та загальна сума відображаються у вибраній валюті. П’ять безкоштовних додавань на день, потім 1 BP за новий товар.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "Themes",
+        "title": "24 колірні теми",
+        "body": "Вибирайте палітру в новому меню із сіткою зразків. П’ять тем безкоштовні, кожну з решти 19 можна відкрити назавжди за 60 BP. Раніше відкриті теми зберігаються.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "RewardedAds",
+        "title": "BALCO Points і реклама",
+        "body": "Реклама з винагородою завантажується під час відкриття потрібного розділу й запускається після одного натискання, щойно буде готова. Статус підписки став зрозумілішим, а перевірку можна повторити.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "PriceConversion",
+        "title": "Зрозуміліша конвертація цін",
+        "body": "Виправлено конвертацію Bitcoin, вибрані суми стало легше розрізняти, а підписи цін у сканері — читати. Текст, виділений в інших програмах, конвертується лише після підтвердження доступу.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "Navigation",
+        "title": "Зручніша навігація",
+        "body": "«Кошик покупок» розташований під історією конвертацій у меню. «Фактична вартість» тепер називається «Порівняння курсів». «Що нового» перенесено до розділу «Про цю програму».",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "Keyboard",
+        "title": "Шрифти й розміри клавіатури",
+        "body": "Налаштуйте кнопки калькулятора в налаштуваннях: виберіть звичайний, класичний, моноширинний або готичний шрифт і один із трьох розмірів символів. Попередній перегляд показує ваш вибір, а налаштування зберігаються.",
+        "version": "1.613",
+        "published": true
+      },
+      {
+        "id": "ProcessText",
+        "title": "Перетворення виділеного тексту",
+        "body": "Виділений текст: 149,99 EUR → 17 529,33 RSD (1 EUR = 116,87 RSD)"
+      },
+      {
+        "id": "PriceScanner",
+        "title": "Сканер цін",
+        "body": "Для сканування ціни потрібен доступ до камери. Зображення залишаються на пристрої та не зберігаються."
+      },
+      {
+        "id": "ActualCost",
+        "title": "Порівняння курсів",
+        "body": "Порівняйте умови обміну з довідковим курсом застосунку."
+      },
+      {
+        "id": "TravelBoard",
+        "title": "Табло валют для подорожей",
+        "body": "Торкніться валюти, щоб зробити її базовою."
+      },
+      {
+        "id": "Crypto",
+        "title": "Криптовалюти",
+        "body": "Курси криптовалют"
+      }
+    ]
+  },
+  "ar": {
+    "title": "ما الجديد",
+    "cards": [
+      {
+        "id": "ScannerAccuracy",
+        "title": "تحسين ماسح الأسعار",
+        "body": "• تحسين قراءة بطاقات الأسعار والكتالوجات وقوائم الطعام، بما فيها الأرقام العشرية الصغيرة أو المرتفعة. • تمييز أفضل للسعر الأساسي عن رموز المنتجات وكميات العبوات والسعر المرجعي لكل كيلوغرام. • تحسين التحقق من السعر عبر عدة إطارات لمنع تأكيد أخطاء القراءة العشوائية بشكل خاطئ.",
+        "version": "1.618",
+        "published": true,
+        "statusLabel": "Google Play · 1.618"
+      },
+      {
+        "id": "CartExperience",
+        "title": "سلة التسوق والملاحظات",
+        "body": "• سلة أكثر اختصارًا: المنتجات والمجموع أوضح. • عند أول استخدام للسلة: 10 إضافات مجانية خلال أول 24 ساعة، ثم 5 يوميًا. • بريد الرد اختياري. تُرسل الملاحظات عبر تطبيق البريد الإلكتروني. • تحديث المساعدة وشرح السمات مقابل BP؛ نصوص التراخيص الكاملة متاحة دون إنترنت.",
+        "version": "1.617",
+        "published": true,
+        "statusLabel": "Google Play · 1.617"
+      },
+      {
+        "id": "CartContinuous",
+        "title": "أصبح مسح مشترياتك أسهل!",
+        "body": "• أضف المنتجات إلى السلة تباعًا باستخدام «إضافة ومسح المنتج التالي» — تبقى الكاميرا مفتوحة وتؤكد كل سعر بنفسك. • يظهر الآن عدد المنتجات والمجموع الحالي بالعملة التي اخترتها مباشرةً في الماسح. • انتهيت من التسوق؟ اضغط على «إضافة وفتح السلة».",
+        "version": "1.616",
+        "published": true,
+        "statusLabel": "Google Play · 1.616"
+      },
+      {
+        "id": "ShoppingCart",
+        "title": "سلة المشتريات",
+        "body": "امسح الأسعار أو أضف المنتجات يدويًا. اعرض سعر كل منتج والمجموع بالعملة التي تختارها. خمس إضافات مجانية يوميًا، ثم 1 BP لكل منتج جديد.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "Themes",
+        "title": "24 سمة لونية",
+        "body": "اختر مجموعة ألوان من منتقي السمات الشبكي الجديد. خمس سمات مجانية؛ ويمكن فتح كل سمة من السمات الـ19 الأخرى مقابل 60 BP إلى الأبد. تظل السمات التي فتحتها سابقًا متاحة.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "RewardedAds",
+        "title": "BALCO Points والإعلانات",
+        "body": "تُحمَّل إعلانات المكافآت الآن عند فتح القسم المناسب، وتُعرض بعد نقرة واحدة بمجرد جاهزيتها. أصبحت حالة الاشتراك أوضح، مع خيار إعادة محاولة التحقق.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "PriceConversion",
+        "title": "تحويل أسعار أوضح",
+        "body": "أُصلح تحويل البيتكوين، وأصبح تمييز المبالغ المحددة أسهل، وتحسنت ملصقات الأسعار في الماسح. لا يُحوَّل النص المحدد في التطبيقات الأخرى إلا بعد تأكيد إمكانية الوصول إلى الميزة.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "Navigation",
+        "title": "تنقل أسهل",
+        "body": "توجد سلة المشتريات أسفل سجل التحويلات في القائمة. أصبح اسم التكلفة الفعلية الآن «مقارنة أسعار الصرف». وتجد «ما الجديد» داخل «حول هذا التطبيق».",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "Keyboard",
+        "title": "خطوط لوحة المفاتيح وأحجامها",
+        "body": "خصّص أزرار الآلة الحاسبة في الإعدادات: اختر الخط القياسي أو الكلاسيكي أو أحادي المسافة أو القوطي، وأحد أحجام الرموز الثلاثة. تُظهر المعاينة اختيارك، ويتم حفظ تفضيلاتك.",
+        "version": "1.613",
+        "published": true
+      },
+      {
+        "id": "ProcessText",
+        "title": "تحويل النص المحدد",
+        "body": "النص المحدد: 149.99 EUR → 17,529.33 RSD (1 EUR = 116.87 RSD)"
+      },
+      {
+        "id": "PriceScanner",
+        "title": "ماسح الأسعار",
+        "body": "يلزم الوصول إلى الكاميرا لمسح السعر. تبقى الصور على هذا الجهاز ولا يتم حفظها."
+      },
+      {
+        "id": "ActualCost",
+        "title": "مقارنة أسعار الصرف",
+        "body": "قارن شروط الصرف بالسعر المرجعي للتطبيق."
+      },
+      {
+        "id": "TravelBoard",
+        "title": "لوحة السفر متعددة العملات",
+        "body": "اضغط على عملة لجعلها العملة الأساسية."
+      },
+      {
+        "id": "Crypto",
+        "title": "العملات المشفرة",
+        "body": "أسعار العملات المشفرة"
+      }
+    ]
+  },
+  "he": {
+    "title": "מה חדש",
+    "cards": [
+      {
+        "id": "ScannerAccuracy",
+        "title": "שיפרנו את סורק המחירים",
+        "body": "• שיפרנו זיהוי של תגי מחיר, קטלוגים ותפריטים, כולל ספרות עשרוניות קטנות או מוגבהות. • שיפרנו את ההבחנה בין המחיר הראשי, מק״טים, כמויות באריזה ומחיר ייחוס לקילוגרם. • דייקנו את בדיקת המחיר במספר פריימים כדי ששגיאות קריאה אקראיות לא יקבלו אישור שגוי.",
+        "version": "1.618",
+        "published": true,
+        "statusLabel": "Google Play · 1.618"
+      },
+      {
+        "id": "CartExperience",
+        "title": "סל קניות ומשוב",
+        "body": "• סל קומפקטי יותר: קל יותר לראות את הפריטים והסכום הכולל. • בשימוש הראשון בסל: 10 הוספות בחינם ב־24 השעות הראשונות, ואז 5 ביום. • כתובת אימייל לתשובה אינה חובה. המשוב נשלח דרך אפליקציית האימייל. • עודכנו העזרה וההסברים על ערכות נושא תמורת BP; נוסחי הרישיונות המלאים זמינים ללא אינטרנט.",
+        "version": "1.617",
+        "published": true,
+        "statusLabel": "Google Play · 1.617"
+      },
+      {
+        "id": "CartContinuous",
+        "title": "עכשיו קל יותר לסרוק את הקניות!",
+        "body": "• אפשר להוסיף מוצרים לסל בזה אחר זה עם „הוספה וסריקת הפריט הבא” — המצלמה נשארת פתוחה וכל מחיר מאושר על ידך. • מספר המוצרים והסכום המצטבר במטבע שבחרת מוצגים עכשיו ישירות בסורק. • סיימת לקנות? יש ללחוץ על „הוספה ופתיחת הסל”.",
+        "version": "1.616",
+        "published": true,
+        "statusLabel": "Google Play · 1.616"
+      },
+      {
+        "id": "ShoppingCart",
+        "title": "סל קניות",
+        "body": "סרקו מחירים או הוסיפו פריטים ידנית. הציגו את המחיר של כל פריט ואת הסכום הכולל במטבע שבחרתם. חמש הוספות חינם ביום, ולאחר מכן 1 BP לכל פריט חדש.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "Themes",
+        "title": "24 ערכות צבעים",
+        "body": "בחרו פלטת צבעים בבורר הרשת החדש. חמש ערכות הן בחינם; אפשר לפתוח כל אחת מ־19 הערכות האחרות תמורת 60 BP לצמיתות. ערכות שכבר פתחתם נשארות זמינות.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "RewardedAds",
+        "title": "BALCO Points ופרסומות",
+        "body": "פרסומות מתגמלות נטענות כעת בפתיחת המסך המתאים ונפתחות לאחר לחיצה אחת ברגע שהן מוכנות. מצב המינוי מוצג בצורה ברורה יותר, עם אפשרות לנסות שוב את האימות.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "PriceConversion",
+        "title": "המרת מחירים ברורה יותר",
+        "body": "תוקנה המרת ביטקוין, קל יותר להבחין בין הסכומים שנבחרו ותוויות המחירים בסורק שופרו. טקסט שנבחר באפליקציות אחרות מומר רק לאחר אישור הגישה לתכונה.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "Navigation",
+        "title": "ניווט קל יותר",
+        "body": "סל הקניות נמצא מתחת להיסטוריית ההמרות בתפריט. השם של עלות בפועל שונה להשוואת שערי חליפין. מה חדש נמצא בתוך על האפליקציה הזו.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "Keyboard",
+        "title": "גופנים וגדלים של המקלדת",
+        "body": "התאימו את כפתורי המחשבון בהגדרות: בחרו גופן רגיל, קלאסי, ברוחב קבוע או גותי ואחד משלושה גדלים של סימנים. תצוגה מקדימה מציגה את הבחירה שלכם, וההעדפות נשמרות.",
+        "version": "1.613",
+        "published": true
+      },
+      {
+        "id": "ProcessText",
+        "title": "המרת טקסט שנבחר",
+        "body": "הטקסט שנבחר: 149.99 EUR → 17,529.33 RSD (1 EUR = 116.87 RSD)"
+      },
+      {
+        "id": "PriceScanner",
+        "title": "סורק מחירים",
+        "body": "נדרשת גישה למצלמה כדי לסרוק מחיר. התמונות נשארות במכשיר ואינן נשמרות."
+      },
+      {
+        "id": "ActualCost",
+        "title": "השוואת שערי חליפין",
+        "body": "השוו את תנאי ההמרה לשער הייחוס של האפליקציה."
+      },
+      {
+        "id": "TravelBoard",
+        "title": "לוח נסיעות רב מטבעות",
+        "body": "יש להקיש על מטבע כדי להפוך אותו למטבע הבסיס."
+      },
+      {
+        "id": "Crypto",
+        "title": "מטבעות קריפטוגרפיים",
+        "body": "שערי קריפטו"
+      }
+    ]
+  },
+  "fa": {
+    "title": "تازه‌ها",
+    "cards": [
+      {
+        "id": "ScannerAccuracy",
+        "title": "بهبود اسکنر قیمت",
+        "body": "• تشخیص بهتر برچسب‌های قیمت، کاتالوگ‌ها و منوها، از جمله رقم‌های اعشاری کوچک یا بالانویس. • تفکیک بهتر قیمت اصلی از کد کالا، تعداد در بسته و قیمت مرجع هر کیلوگرم. • بهبود بررسی قیمت در چند فریم برای جلوگیری از تأیید نادرست خطاهای تصادفی خواندن.",
+        "version": "1.618",
+        "published": true,
+        "statusLabel": "Google Play · 1.618"
+      },
+      {
+        "id": "CartExperience",
+        "title": "سبد خرید و بازخورد",
+        "body": "• سبد جمع‌وجورتر: کالاها و جمع کل بهتر دیده می‌شوند. • در اولین استفاده از سبد: 10 افزودن رایگان در 24 ساعت اول، سپس روزی 5 بار. • ایمیل پاسخ اختیاری است. بازخورد از طریق برنامه ایمیل ارسال می‌شود. • راهنما و توضیحات پوسته‌های BP به‌روز شد؛ متن کامل مجوزها آفلاین در دسترس است.",
+        "version": "1.617",
+        "published": true,
+        "statusLabel": "Google Play · 1.617"
+      },
+      {
+        "id": "CartContinuous",
+        "title": "اسکن خریدها آسان‌تر شد!",
+        "body": "• با «افزودن و اسکن کالای بعدی» کالاها را پشت سر هم به سبد اضافه کنید — دوربین باز می‌ماند و هر قیمت را خودتان تأیید می‌کنید. • تعداد کالاها و مجموع فعلی به ارز انتخابی اکنون مستقیماً در اسکنر نمایش داده می‌شوند. • خریدتان تمام شد؟ روی «افزودن و باز کردن سبد» بزنید.",
+        "version": "1.616",
+        "published": true,
+        "statusLabel": "Google Play · 1.616"
+      },
+      {
+        "id": "ShoppingCart",
+        "title": "سبد خرید",
+        "body": "قیمت‌ها را اسکن کنید یا کالاها را دستی اضافه کنید. قیمت هر کالا و مجموع را به ارز دلخواه ببینید. روزانه پنج افزودن رایگان دارید و پس از آن هر کالای جدید 1 BP هزینه دارد.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "Themes",
+        "title": "24 تم رنگی",
+        "body": "از انتخابگر شبکه‌ای جدید، ترکیب رنگ دلخواه را انتخاب کنید. پنج تم رایگان است؛ هرکدام از 19 تم دیگر را با 60 BP برای همیشه باز کنید. تم‌هایی که قبلاً باز کرده‌اید در دسترس می‌مانند.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "RewardedAds",
+        "title": "BALCO Points و تبلیغات",
+        "body": "تبلیغات پاداش‌دار اکنون با باز کردن بخش مربوطه بارگیری می‌شوند و پس از یک ضربه، به‌محض آماده شدن نمایش داده می‌شوند. وضعیت اشتراک روشن‌تر شده و می‌توانید تأیید آن را دوباره امتحان کنید.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "PriceConversion",
+        "title": "تبدیل روشن‌تر قیمت‌ها",
+        "body": "تبدیل بیت‌کوین اصلاح شد، تشخیص مبلغ‌های انتخاب‌شده آسان‌تر شد و برچسب قیمت‌ها در اسکنر بهبود یافت. متن انتخاب‌شده در برنامه‌های دیگر تنها پس از تأیید دسترسی به قابلیت تبدیل می‌شود.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "Navigation",
+        "title": "پیمایش آسان‌تر",
+        "body": "سبد خرید در منو زیر تاریخچه تبدیل‌ها قرار دارد. نام هزینه واقعی به مقایسه نرخ ارز تغییر کرده است. تازه‌ها در بخش درباره این برنامه قرار دارد.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "Keyboard",
+        "title": "قلم‌ها و اندازه‌های صفحه‌کلید",
+        "body": "دکمه‌های ماشین‌حساب را در تنظیمات شخصی‌سازی کنید: قلم معمولی، کلاسیک، تک‌عرض یا گوتیک و یکی از سه اندازهٔ نمادها را انتخاب کنید. پیش‌نمایش، انتخاب شما را نشان می‌دهد و ترجیحاتتان ذخیره می‌شود.",
+        "version": "1.613",
+        "published": true
+      },
+      {
+        "id": "ProcessText",
+        "title": "تبدیل متن انتخاب‌شده",
+        "body": "متن انتخاب‌شده: ۱۴۹٫۹۹ EUR → ۱۷٬۵۲۹٫۳۳ RSD (1 EUR = ۱۱۶٫۸۷ RSD)"
+      },
+      {
+        "id": "PriceScanner",
+        "title": "اسکنر قیمت",
+        "body": "برای اسکن قیمت، دسترسی به دوربین لازم است. تصاویر روی این دستگاه می‌مانند و ذخیره نمی‌شوند."
+      },
+      {
+        "id": "ActualCost",
+        "title": "مقایسه نرخ ارز",
+        "body": "شرایط تبدیل را با نرخ مرجع برنامه مقایسه کنید."
+      },
+      {
+        "id": "TravelBoard",
+        "title": "تابلوی مسافرتی چند ارزی",
+        "body": "روی ارزی بزنید تا ارز پایه شود."
+      },
+      {
+        "id": "Crypto",
+        "title": "رمزارز",
+        "body": "نرخ رمزارزها"
+      }
+    ]
+  },
+  "ur": {
+    "title": "نیا کیا ہے",
+    "cards": [
+      {
+        "id": "ScannerAccuracy",
+        "title": "قیمت اسکینر میں بہتری",
+        "body": "• قیمت کے ٹیگ، کیٹلاگ اور مینو کی بہتر شناخت، بشمول چھوٹے یا اوپر لکھے ہوئے اعشاری ہندسے۔ • اصل قیمت کو پروڈکٹ کوڈ، پیک کی مقدار اور فی کلوگرام حوالہ قیمت سے بہتر طور پر الگ کیا جاتا ہے۔ • متعدد فریموں میں قیمت کی جانچ بہتر بنائی گئی ہے تاکہ پڑھنے کی اتفاقی غلطیوں کی غلط تصدیق نہ ہو۔",
+        "version": "1.618",
+        "published": true,
+        "statusLabel": "Google Play · 1.618"
+      },
+      {
+        "id": "CartExperience",
+        "title": "خریداری کی ٹوکری اور رائے",
+        "body": "• ٹوکری اب مختصر ہے: اشیا اور کل رقم زیادہ واضح ہیں۔ • ٹوکری کے پہلے استعمال پر: پہلے 24 گھنٹوں میں 10 بار مفت اضافہ، پھر روزانہ 5 بار۔ • جواب کے لیے ای میل اختیاری ہے۔ رائے آپ کی ای میل ایپ سے بھیجی جاتی ہے۔ • مدد اور BP تھیمز کی وضاحتیں اپ ڈیٹ؛ لائسنس کے مکمل متن آف لائن دستیاب ہیں۔",
+        "version": "1.617",
+        "published": true,
+        "statusLabel": "Google Play · 1.617"
+      },
+      {
+        "id": "CartContinuous",
+        "title": "خریداری اسکین کرنا اب زیادہ آسان ہے!",
+        "body": "• «شامل کریں اور اگلی چیز اسکین کریں» کے ذریعے اشیا ایک کے بعد ایک ٹوکری میں شامل کریں — کیمرا کھلا رہتا ہے اور آپ ہر قیمت کی خود تصدیق کرتے ہیں۔ • اشیا کی تعداد اور منتخب کرنسی میں موجودہ کل رقم اب براہ راست اسکینر میں دکھائی دیتی ہے۔ • خریداری مکمل ہوگئی؟ «شامل کریں اور ٹوکری کھولیں» پر ٹیپ کریں۔",
+        "version": "1.616",
+        "published": true,
+        "statusLabel": "Google Play · 1.616"
+      },
+      {
+        "id": "ShoppingCart",
+        "title": "خریداری کی ٹوکری",
+        "body": "قیمتیں اسکین کریں یا اشیا دستی طور پر شامل کریں۔ ہر شے کی قیمت اور کل رقم اپنی منتخب کرنسی میں دیکھیں۔ روزانہ پانچ اضافے مفت ہیں، پھر ہر نئی شے کے لیے 1 BP۔",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "Themes",
+        "title": "24 رنگوں کی تھیمز",
+        "body": "نئے گرڈ پکَر سے رنگوں کا مجموعہ منتخب کریں۔ پانچ تھیمز مفت ہیں؛ باقی 19 میں سے ہر تھیم کو 60 BP میں ہمیشہ کے لیے کھولیں۔ پہلے سے کھولی گئی تھیمز دستیاب رہیں گی۔",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "RewardedAds",
+        "title": "BALCO Points اور اشتہارات",
+        "body": "انعامی اشتہارات اب متعلقہ حصہ کھولنے پر لوڈ ہوتے ہیں اور ایک بار ٹیپ کرنے کے بعد تیار ہوتے ہی کھل جاتے ہیں۔ سبسکرپشن کی حیثیت زیادہ واضح ہے اور تصدیق دوبارہ آزمانے کا اختیار موجود ہے۔",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "PriceConversion",
+        "title": "قیمتوں کی زیادہ واضح تبدیلی",
+        "body": "بٹ کوائن کی تبدیلی درست کی گئی، منتخب رقوم میں فرق کرنا آسان ہوا اور اسکینر میں قیمتوں کے لیبل بہتر ہوئے۔ دوسری ایپس میں منتخب متن صرف فیچر تک رسائی کی تصدیق کے بعد تبدیل ہوتا ہے۔",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "Navigation",
+        "title": "آسان نیویگیشن",
+        "body": "مینو میں خریداری کی ٹوکری تبدیلیوں کی تاریخ کے نیچے ہے۔ اصل لاگت کا نام اب شرح مبادلہ کا موازنہ ہے۔ نیا کیا ہے اب اس ایپ کے بارے میں کے اندر ہے۔",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "Keyboard",
+        "title": "کی بورڈ کے فونٹ اور سائز",
+        "body": "ترتیبات میں کیلکولیٹر کے بٹن اپنی پسند کے مطابق بنائیں: معیاری، کلاسیکی، یکساں چوڑائی والا یا گوتھک فونٹ اور علامتوں کے تین سائز میں سے ایک منتخب کریں۔ پیش منظر آپ کا انتخاب دکھاتا ہے اور آپ کی ترجیحات محفوظ ہو جاتی ہیں۔",
+        "version": "1.613",
+        "published": true
+      },
+      {
+        "id": "ProcessText",
+        "title": "منتخب متن کی تبدیلی",
+        "body": "منتخب متن: 149.99 EUR → 17,529.33 RSD (1 EUR = 116.87 RSD)"
+      },
+      {
+        "id": "PriceScanner",
+        "title": "قیمت اسکینر",
+        "body": "قیمت اسکین کرنے کے لیے کیمرے تک رسائی درکار ہے۔ تصاویر اسی آلے پر رہتی ہیں اور محفوظ نہیں کی جاتیں۔"
+      },
+      {
+        "id": "ActualCost",
+        "title": "شرح مبادلہ کا موازنہ",
+        "body": "زر مبادلہ کی شرائط کا ایپ کے حوالہ ریٹ سے موازنہ کریں۔"
+      },
+      {
+        "id": "TravelBoard",
+        "title": "سفری کرنسی جدول",
+        "body": "کسی کرنسی کو بنیادی کرنسی بنانے کے لیے اس پر ٹیپ کریں۔"
+      },
+      {
+        "id": "Crypto",
+        "title": "کرپٹو",
+        "body": "کرپٹو شرحیں"
+      }
+    ]
+  },
+  "hi": {
+    "title": "नया क्या है",
+    "cards": [
+      {
+        "id": "ScannerAccuracy",
+        "title": "बेहतर मूल्य स्कैनर",
+        "body": "• मूल्य टैग, कैटलॉग और मेन्यू की पहचान बेहतर हुई, छोटे या ऊपर लिखे दशमलव अंकों वाले दाम भी। • मुख्य कीमत को उत्पाद कोड, पैक की मात्रा और प्रति किलोग्राम संदर्भ कीमत से बेहतर अलग किया जाता है। • कई फ़्रेम में कीमत की जाँच सुधारी गई है, ताकि पढ़ने की आकस्मिक गलतियों को सही मानकर पुष्टि न मिले।",
+        "version": "1.618",
+        "published": true,
+        "statusLabel": "Google Play · 1.618"
+      },
+      {
+        "id": "CartExperience",
+        "title": "खरीदारी की टोकरी और सुझाव",
+        "body": "• टोकरी अब छोटी और व्यवस्थित है: सामान और कुल राशि अधिक साफ़ दिखते हैं। • टोकरी के पहले इस्तेमाल पर: पहले 24 घंटों में 10 बार मुफ़्त जोड़ें, फिर रोज़ 5 बार। • जवाब के लिए ईमेल देना वैकल्पिक है। सुझाव आपके ईमेल ऐप से भेजे जाते हैं। • सहायता और BP थीम की जानकारी अपडेट की गई; लाइसेंस के पूरे पाठ ऑफ़लाइन उपलब्ध हैं।",
+        "version": "1.617",
+        "published": true,
+        "statusLabel": "Google Play · 1.617"
+      },
+      {
+        "id": "CartContinuous",
+        "title": "खरीदारी स्कैन करना अब और आसान!",
+        "body": "• “जोड़ें और अगला उत्पाद स्कैन करें” से सामान एक के बाद एक कार्ट में जोड़ें — कैमरा खुला रहता है और हर कीमत की पुष्टि आप खुद करते हैं। • सामान की संख्या और चुनी गई मुद्रा में अब तक का कुल मूल्य अब सीधे स्कैनर में दिखता है। • खरीदारी पूरी हुई? “जोड़ें और कार्ट खोलें” पर टैप करें।",
+        "version": "1.616",
+        "published": true,
+        "statusLabel": "Google Play · 1.616"
+      },
+      {
+        "id": "ShoppingCart",
+        "title": "खरीदारी की टोकरी",
+        "body": "कीमतें स्कैन करें या सामान मैन्युअल रूप से जोड़ें। हर सामान की कीमत और कुल राशि अपनी चुनी हुई मुद्रा में देखें। रोज़ पाँच बार मुफ़्त जोड़ें, फिर हर नए सामान के लिए 1 BP।",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "Themes",
+        "title": "24 रंग थीम",
+        "body": "नए ग्रिड पिकर से रंगों का संयोजन चुनें। पाँच थीम मुफ़्त हैं; बाकी 19 में से हर थीम को 60 BP में हमेशा के लिए अनलॉक करें। पहले से अनलॉक की गई थीम उपलब्ध रहेंगी।",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "RewardedAds",
+        "title": "BALCO Points और विज्ञापन",
+        "body": "इनाम वाले विज्ञापन अब संबंधित सेक्शन खोलने पर लोड होते हैं और एक टैप के बाद तैयार होते ही खुल जाते हैं। सदस्यता की स्थिति ज़्यादा स्पष्ट है और सत्यापन दोबारा आज़माने का विकल्प भी है।",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "PriceConversion",
+        "title": "कीमतों का ज़्यादा स्पष्ट रूपांतरण",
+        "body": "बिटकॉइन रूपांतरण ठीक किया गया, चुनी गई राशियों में अंतर पहचानना आसान हुआ और स्कैनर में कीमतों के लेबल बेहतर हुए। दूसरे ऐप में चुना गया टेक्स्ट सुविधा तक पहुँच की पुष्टि के बाद ही रूपांतरित होता है।",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "Navigation",
+        "title": "आसान नेविगेशन",
+        "body": "मेन्यू में खरीदारी की टोकरी रूपांतरण इतिहास के नीचे है। वास्तविक लागत का नाम अब विनिमय दरों की तुलना है। इस ऐप के बारे में खोलकर नया क्या है देखें।",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "Keyboard",
+        "title": "कीपैड के फ़ॉन्ट और आकार",
+        "body": "सेटिंग में कैलकुलेटर के बटन अपनी पसंद के अनुसार बदलें: मानक, क्लासिक, मोनोस्पेस या गॉथिक फ़ॉन्ट और चिह्नों के तीन आकारों में से एक चुनें। प्रीव्यू में आपका चयन दिखता है और आपकी पसंद सहेजी जाती है।",
+        "version": "1.613",
+        "published": true
+      },
+      {
+        "id": "ProcessText",
+        "title": "चुने गए टेक्स्ट का रूपांतरण",
+        "body": "चुना गया टेक्स्ट: 149.99 EUR → 17,529.33 RSD (1 EUR = 116.87 RSD)"
+      },
+      {
+        "id": "PriceScanner",
+        "title": "कीमत स्कैनर",
+        "body": "कीमत स्कैन करने के लिए कैमरा एक्सेस चाहिए। चित्र इस डिवाइस पर रहते हैं और सहेजे नहीं जाते।"
+      },
+      {
+        "id": "ActualCost",
+        "title": "विनिमय दरों की तुलना",
+        "body": "विनिमय की शर्तों की तुलना ऐप की संदर्भ दर से करें।"
+      },
+      {
+        "id": "TravelBoard",
+        "title": "यात्रा बोर्ड",
+        "body": "किसी मुद्रा को आधार मुद्रा बनाने के लिए उस पर टैप करें।"
+      },
+      {
+        "id": "Crypto",
+        "title": "क्रिप्टो",
+        "body": "क्रिप्टो दरें"
+      }
+    ]
+  },
+  "bn": {
+    "title": "নতুন কী",
+    "cards": [
+      {
+        "id": "ScannerAccuracy",
+        "title": "উন্নত মূল্য স্ক্যানার",
+        "body": "• ছোট বা উপরে লেখা দশমিক অঙ্কসহ মূল্য ট্যাগ, ক্যাটালগ ও মেনু শনাক্তকরণ উন্নত করা হয়েছে। • মূল দামকে পণ্যের কোড, প্যাকেটের পরিমাণ ও প্রতি কিলোগ্রামের তুলনামূলক দাম থেকে আরও ভালোভাবে আলাদা করা হয়। • একাধিক ফ্রেমে দাম যাচাই উন্নত করা হয়েছে, যাতে পড়ার আকস্মিক ভুলগুলো ভুলভাবে নিশ্চিত না হয়।",
+        "version": "1.618",
+        "published": true,
+        "statusLabel": "Google Play · 1.618"
+      },
+      {
+        "id": "CartExperience",
+        "title": "কেনাকাটার ঝুড়ি ও মতামত",
+        "body": "• ঝুড়ি এখন আরও সংক্ষিপ্ত: পণ্য ও মোট দাম সহজে দেখা যায়। • ঝুড়ির প্রথম ব্যবহারে: প্রথম 24 ঘণ্টায় 10 বার বিনামূল্যে যোগ করুন, তারপর দিনে 5 বার। • উত্তরের জন্য ইমেইল দেওয়া ঐচ্ছিক। মতামত আপনার ইমেইল অ্যাপ দিয়ে পাঠানো হয়। • সহায়তা ও BP থিমের ব্যাখ্যা আপডেট করা হয়েছে; লাইসেন্সের সম্পূর্ণ পাঠ অফলাইনে পাওয়া যায়।",
+        "version": "1.617",
+        "published": true,
+        "statusLabel": "Google Play · 1.617"
+      },
+      {
+        "id": "CartContinuous",
+        "title": "কেনাকাটা স্ক্যান করা এখন আরও সহজ!",
+        "body": "• “যোগ করে পরের পণ্য স্ক্যান করুন” দিয়ে একের পর এক পণ্য কার্টে যোগ করুন — ক্যামেরা খোলা থাকে এবং প্রতিটি দাম আপনি নিজে নিশ্চিত করেন। • পণ্যের সংখ্যা ও নির্বাচিত মুদ্রায় বর্তমান মোট দাম এখন সরাসরি স্ক্যানারে দেখা যায়। • কেনাকাটা শেষ? “যোগ করে কার্ট খুলুন”-এ ট্যাপ করুন।",
+        "version": "1.616",
+        "published": true,
+        "statusLabel": "Google Play · 1.616"
+      },
+      {
+        "id": "ShoppingCart",
+        "title": "কেনাকাটার ঝুড়ি",
+        "body": "দাম স্ক্যান করুন বা নিজে পণ্য যোগ করুন। প্রতিটি পণ্যের দাম ও মোট খরচ আপনার পছন্দের মুদ্রায় দেখুন। প্রতিদিন পাঁচবার বিনামূল্যে যোগ করুন, এরপর প্রতিটি নতুন পণ্যের জন্য 1 BP।",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "Themes",
+        "title": "24টি রঙের থিম",
+        "body": "নতুন গ্রিড পিকার থেকে রঙের সমন্বয় বেছে নিন। পাঁচটি থিম বিনামূল্যে; বাকি 19টির প্রতিটি 60 BP দিয়ে চিরতরে আনলক করুন। আগে আনলক করা থিমগুলো ব্যবহার করতে পারবেন।",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "RewardedAds",
+        "title": "BALCO Points ও বিজ্ঞাপন",
+        "body": "পুরস্কারের বিজ্ঞাপন এখন সংশ্লিষ্ট বিভাগ খুললেই লোড হয় এবং একবার ট্যাপ করার পর প্রস্তুত হলেই খুলে যায়। সাবস্ক্রিপশনের অবস্থা আরও স্পষ্টভাবে দেখানো হয়, সঙ্গে যাচাই আবার চেষ্টা করার সুযোগ আছে।",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "PriceConversion",
+        "title": "দামের আরও স্পষ্ট রূপান্তর",
+        "body": "বিটকয়েন রূপান্তর ঠিক করা হয়েছে, নির্বাচিত অঙ্কগুলো আলাদা করে চেনা সহজ হয়েছে এবং স্ক্যানারে দামের লেবেল উন্নত হয়েছে। অন্য অ্যাপে নির্বাচিত লেখা কেবল সুবিধাটি ব্যবহারের অনুমতি নিশ্চিত হওয়ার পর রূপান্তরিত হয়।",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "Navigation",
+        "title": "আরও সহজ নেভিগেশন",
+        "body": "মেনুতে কেনাকাটার ঝুড়ি রূপান্তরের ইতিহাসের নিচে রয়েছে। প্রকৃত খরচের নাম এখন বিনিময় হারের তুলনা। নতুন কী রয়েছে এই অ্যাপ সম্পর্কে বিভাগের মধ্যে।",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "Keyboard",
+        "title": "কীপ্যাডের ফন্ট ও আকার",
+        "body": "সেটিংসে ক্যালকুলেটরের বোতাম নিজের মতো করে সাজান: স্ট্যান্ডার্ড, ক্লাসিক, মনোস্পেস বা গথিক ফন্ট এবং চিহ্নের তিনটি আকারের মধ্যে একটি বেছে নিন। প্রিভিউতে আপনার পছন্দ দেখা যায় এবং সেটিংস সংরক্ষিত থাকে।",
+        "version": "1.613",
+        "published": true
+      },
+      {
+        "id": "ProcessText",
+        "title": "নির্বাচিত লেখা রূপান্তর",
+        "body": "নির্বাচিত লেখা: ১৪৯.৯৯ EUR → ১৭,৫২৯.৩৩ RSD (1 EUR = ১১৬.৮৭ RSD)"
+      },
+      {
+        "id": "PriceScanner",
+        "title": "দাম স্ক্যানার",
+        "body": "দাম স্ক্যান করতে ক্যামেরার অনুমতি প্রয়োজন। ছবি এই ডিভাইসেই থাকে এবং সংরক্ষণ করা হয় না।"
+      },
+      {
+        "id": "ActualCost",
+        "title": "বিনিময় হারের তুলনা",
+        "body": "বিনিময়ের শর্ত অ্যাপের রেফারেন্স হারের সঙ্গে তুলনা করুন।"
+      },
+      {
+        "id": "TravelBoard",
+        "title": "ভ্রমণ বোর্ড",
+        "body": "কোনো মুদ্রাকে ভিত্তি মুদ্রা করতে সেটিতে ট্যাপ করুন।"
+      },
+      {
+        "id": "Crypto",
+        "title": "ক্রিপ্টো",
+        "body": "ক্রিপ্টো হার"
+      }
+    ]
+  },
+  "id": {
+    "title": "Yang Baru",
+    "cards": [
+      {
+        "id": "ScannerAccuracy",
+        "title": "Pemindai harga ditingkatkan",
+        "body": "• Pengenalan label harga, katalog, dan menu ditingkatkan, termasuk angka desimal kecil atau yang dicetak lebih tinggi. • Pembedaan harga utama dari kode produk, jumlah dalam kemasan, dan harga acuan per kilogram ditingkatkan. • Pemeriksaan harga di beberapa bingkai disempurnakan agar kesalahan baca acak tidak mendapat konfirmasi yang keliru.",
+        "version": "1.618",
+        "published": true,
+        "statusLabel": "Google Play · 1.618"
+      },
+      {
+        "id": "CartExperience",
+        "title": "Keranjang dan masukan",
+        "body": "• Keranjang lebih ringkas: barang dan total lebih mudah dilihat. • Saat pertama memakai keranjang: 10 penambahan gratis dalam 24 jam pertama, lalu 5 per hari. • Email balasan bersifat opsional. Masukan dikirim melalui aplikasi email Anda. • Bantuan dan penjelasan tema BP diperbarui; teks lisensi lengkap tersedia offline.",
+        "version": "1.617",
+        "published": true,
+        "statusLabel": "Google Play · 1.617"
+      },
+      {
+        "id": "CartContinuous",
+        "title": "Memindai belanjaan kini lebih mudah!",
+        "body": "• Tambahkan barang ke keranjang secara berurutan dengan “Tambah dan pindai berikutnya” — kamera tetap terbuka dan setiap harga Anda konfirmasi sendiri. • Jumlah barang dan total berjalan dalam mata uang pilihan kini terlihat langsung di pemindai. • Selesai berbelanja? Ketuk “Tambah dan buka keranjang”.",
+        "version": "1.616",
+        "published": true,
+        "statusLabel": "Google Play · 1.616"
+      },
+      {
+        "id": "ShoppingCart",
+        "title": "Keranjang belanja",
+        "body": "Pindai harga atau tambahkan barang secara manual. Lihat harga tiap barang dan totalnya dalam mata uang pilihan Anda. Lima penambahan gratis per hari, lalu 1 BP untuk setiap barang baru.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "Themes",
+        "title": "24 tema warna",
+        "body": "Pilih palet dari pemilih tema berbentuk kisi yang baru. Lima tema gratis; buka masing-masing dari 19 tema lainnya seharga 60 BP selamanya. Tema yang sudah dibuka tetap tersedia.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "RewardedAds",
+        "title": "BALCO Points dan iklan",
+        "body": "Iklan berhadiah kini dimuat saat Anda membuka bagian terkait dan terbuka setelah satu ketukan begitu siap. Status langganan lebih jelas, dengan opsi untuk mencoba verifikasi lagi.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "PriceConversion",
+        "title": "Konversi harga lebih jelas",
+        "body": "Konversi Bitcoin diperbaiki, jumlah yang dipilih lebih mudah dibedakan, dan label harga pada pemindai ditingkatkan. Teks yang dipilih di aplikasi lain dikonversi hanya setelah akses dikonfirmasi.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "Navigation",
+        "title": "Navigasi lebih mudah",
+        "body": "Keranjang belanja berada di bawah riwayat konversi pada menu. Biaya Aktual kini bernama Perbandingan kurs. Yang Baru berada di dalam Tentang aplikasi ini.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "Keyboard",
+        "title": "Font dan ukuran papan tombol",
+        "body": "Sesuaikan tombol kalkulator di Setelan: pilih font standar, klasik, monospace, atau Gotik dan salah satu dari tiga ukuran simbol. Pratinjau menampilkan pilihan Anda, dan preferensi Anda disimpan.",
+        "version": "1.613",
+        "published": true
+      },
+      {
+        "id": "ProcessText",
+        "title": "Konversi teks terpilih",
+        "body": "Teks yang dipilih: 149,99 EUR → 17.529,33 RSD (1 EUR = 116,87 RSD)"
+      },
+      {
+        "id": "PriceScanner",
+        "title": "Pemindai harga",
+        "body": "Akses kamera diperlukan untuk memindai harga. Gambar tetap berada di perangkat ini dan tidak disimpan."
+      },
+      {
+        "id": "ActualCost",
+        "title": "Perbandingan kurs",
+        "body": "Bandingkan ketentuan penukaran dengan kurs referensi aplikasi."
+      },
+      {
+        "id": "TravelBoard",
+        "title": "Ringkasan mata uang perjalanan",
+        "body": "Ketuk mata uang untuk menjadikannya mata uang dasar."
+      },
+      {
+        "id": "Crypto",
+        "title": "Kripto",
+        "body": "Kurs kripto"
+      }
+    ]
+  },
+  "ms": {
+    "title": "Apa yang Baharu",
+    "cards": [
+      {
+        "id": "ScannerAccuracy",
+        "title": "Pengimbas harga ditambah baik",
+        "body": "• Pengecaman tanda harga, katalog dan menu ditambah baik, termasuk digit perpuluhan kecil atau yang dicetak lebih tinggi. • Pembezaan harga utama daripada kod produk, kuantiti dalam bungkusan dan harga rujukan sekilogram ditambah baik. • Semakan harga merentas beberapa bingkai diperhalus supaya ralat bacaan rawak tidak mendapat pengesahan yang salah.",
+        "version": "1.618",
+        "published": true,
+        "statusLabel": "Google Play · 1.618"
+      },
+      {
+        "id": "CartExperience",
+        "title": "Troli dan maklum balas",
+        "body": "• Troli lebih padat: barangan dan jumlah lebih mudah dilihat. • Pada penggunaan pertama troli: 10 penambahan percuma dalam 24 jam pertama, kemudian 5 sehari. • Email untuk balasan adalah pilihan. Maklum balas dihantar melalui aplikasi email anda. • Bantuan dan penjelasan tema BP dikemas kini; teks lesen penuh tersedia di luar talian.",
+        "version": "1.617",
+        "published": true,
+        "statusLabel": "Google Play · 1.617"
+      },
+      {
+        "id": "CartContinuous",
+        "title": "Mengimbas barangan kini lebih mudah!",
+        "body": "• Tambah barangan ke troli satu demi satu dengan “Tambah dan imbas seterusnya” — kamera kekal terbuka dan anda mengesahkan setiap harga sendiri. • Bilangan barangan dan jumlah semasa dalam mata wang pilihan kini dipaparkan terus dalam pengimbas. • Selesai membeli-belah? Ketik “Tambah dan buka troli”.",
+        "version": "1.616",
+        "published": true,
+        "statusLabel": "Google Play · 1.616"
+      },
+      {
+        "id": "ShoppingCart",
+        "title": "Bakul beli-belah",
+        "body": "Imbas harga atau tambah barang secara manual. Lihat harga setiap barang dan jumlah keseluruhan dalam mata wang pilihan anda. Lima penambahan percuma sehari, kemudian 1 BP bagi setiap barang baharu.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "Themes",
+        "title": "24 tema warna",
+        "body": "Pilih palet daripada pemilih grid baharu. Lima tema adalah percuma; buka setiap satu daripada 19 tema lain dengan 60 BP untuk selama-lamanya. Tema yang telah dibuka kekal tersedia.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "RewardedAds",
+        "title": "BALCO Points dan iklan",
+        "body": "Iklan ganjaran kini dimuatkan apabila anda membuka bahagian berkaitan dan dibuka selepas satu ketikan sebaik sahaja sedia. Status langganan lebih jelas, dengan pilihan untuk mencuba pengesahan semula.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "PriceConversion",
+        "title": "Penukaran harga lebih jelas",
+        "body": "Penukaran Bitcoin telah dibetulkan, amaun yang dipilih lebih mudah dibezakan dan label harga dalam pengimbas ditambah baik. Teks yang dipilih dalam aplikasi lain hanya ditukar selepas akses disahkan.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "Navigation",
+        "title": "Navigasi lebih mudah",
+        "body": "Bakul beli-belah terletak di bawah sejarah penukaran dalam menu. Kos Sebenar kini dinamakan Perbandingan kadar pertukaran. Apa yang Baharu berada dalam Mengenai aplikasi ini.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "Keyboard",
+        "title": "Fon dan saiz pad kekunci",
+        "body": "Sesuaikan butang kalkulator dalam Tetapan: pilih fon standard, klasik, monospace atau Gotik dan salah satu daripada tiga saiz simbol. Pratonton memaparkan pilihan anda dan pilihan anda disimpan.",
+        "version": "1.613",
+        "published": true
+      },
+      {
+        "id": "ProcessText",
+        "title": "Penukaran teks terpilih",
+        "body": "Teks yang dipilih: 149.99 EUR → 17,529.33 RSD (1 EUR = 116.87 RSD)"
+      },
+      {
+        "id": "PriceScanner",
+        "title": "Pengimbas harga",
+        "body": "Akses kamera diperlukan untuk mengimbas harga. Imej kekal pada peranti ini dan tidak disimpan."
+      },
+      {
+        "id": "ActualCost",
+        "title": "Perbandingan kadar pertukaran",
+        "body": "Bandingkan syarat pertukaran dengan kadar rujukan aplikasi."
+      },
+      {
+        "id": "TravelBoard",
+        "title": "Ringkasan mata wang perjalanan",
+        "body": "Ketik mata wang untuk menjadikannya mata wang asas."
+      },
+      {
+        "id": "Crypto",
+        "title": "Kripto",
+        "body": "Kadar kripto"
+      }
+    ]
+  },
+  "th": {
+    "title": "มีอะไรใหม่",
+    "cards": [
+      {
+        "id": "ScannerAccuracy",
+        "title": "ปรับปรุงเครื่องสแกนราคา",
+        "body": "• ปรับปรุงการอ่านป้ายราคา แค็ตตาล็อก และเมนู รวมถึงเลขทศนิยมขนาดเล็กหรือที่พิมพ์ยกสูง • แยกราคาหลักออกจากรหัสสินค้า จำนวนในบรรจุภัณฑ์ และราคาอ้างอิงต่อกิโลกรัมได้ดีขึ้น • ปรับปรุงการตรวจสอบราคาจากหลายเฟรม เพื่อไม่ให้ข้อผิดพลาดในการอ่านเป็นครั้งคราวได้รับการยืนยันอย่างผิดพลาด",
+        "version": "1.618",
+        "published": true,
+        "statusLabel": "Google Play · 1.618"
+      },
+      {
+        "id": "CartExperience",
+        "title": "ตะกร้าสินค้าและความคิดเห็น",
+        "body": "• ตะกร้ากระชับขึ้น มองเห็นสินค้าและยอดรวมได้ง่ายขึ้น • เมื่อใช้ตะกร้าครั้งแรก เพิ่มสินค้าฟรี 10 ครั้งใน 24 ชั่วโมงแรก จากนั้นวันละ 5 ครั้ง • ไม่จำเป็นต้องกรอกอีเมลสำหรับตอบกลับ ส่งความคิดเห็นผ่านแอปอีเมลของคุณ • อัปเดตความช่วยเหลือและคำอธิบายธีมที่ใช้ BP พร้อมข้อความใบอนุญาตฉบับเต็มแบบออฟไลน์",
+        "version": "1.617",
+        "published": true,
+        "statusLabel": "Google Play · 1.617"
+      },
+      {
+        "id": "CartContinuous",
+        "title": "สแกนสินค้าที่ซื้อได้สะดวกยิ่งขึ้น!",
+        "body": "• เพิ่มสินค้าลงตะกร้าต่อเนื่องด้วยปุ่ม “เพิ่มและสแกนสินค้าถัดไป” — กล้องจะยังเปิดอยู่ และคุณยืนยันราคาทุกรายการด้วยตัวเอง • ตอนนี้จำนวนสินค้าและยอดรวมปัจจุบันในสกุลเงินที่เลือกจะแสดงในหน้าสแกนโดยตรง • ซื้อของเสร็จแล้ว? แตะ “เพิ่มและเปิดตะกร้า”",
+        "version": "1.616",
+        "published": true,
+        "statusLabel": "Google Play · 1.616"
+      },
+      {
+        "id": "ShoppingCart",
+        "title": "ตะกร้าสินค้า",
+        "body": "สแกนราคาหรือเพิ่มสินค้าเอง ดูราคาของสินค้าแต่ละชิ้นและยอดรวมในสกุลเงินที่คุณเลือก เพิ่มฟรีวันละ 5 รายการ หลังจากนั้นใช้ 1 BP ต่อสินค้าใหม่หนึ่งรายการ",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "Themes",
+        "title": "ธีมสี 24 แบบ",
+        "body": "เลือกชุดสีจากตัวเลือกแบบตารางใหม่ มีธีมฟรี 5 แบบ และปลดล็อกอีก 19 แบบได้ในราคาแบบละ 60 BP เพื่อใช้ตลอดไป ธีมที่ปลดล็อกไว้แล้วยังคงใช้งานได้",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "RewardedAds",
+        "title": "BALCO Points และโฆษณา",
+        "body": "โฆษณาแบบมีรางวัลจะโหลดเมื่อคุณเปิดส่วนที่เกี่ยวข้อง และเปิดทันทีที่พร้อมหลังจากแตะเพียงครั้งเดียว สถานะการสมัครสมาชิกชัดเจนขึ้น พร้อมตัวเลือกให้ลองตรวจสอบอีกครั้ง",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "PriceConversion",
+        "title": "แปลงราคาได้ชัดเจนขึ้น",
+        "body": "แก้ไขการแปลงบิตคอยน์ ทำให้แยกจำนวนเงินที่เลือกได้ง่ายขึ้น และปรับปรุงป้ายราคาในเครื่องสแกน ข้อความที่เลือกจากแอปอื่นจะถูกแปลงหลังจากยืนยันสิทธิ์เข้าถึงฟีเจอร์แล้วเท่านั้น",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "Navigation",
+        "title": "ใช้งานเมนูได้ง่ายขึ้น",
+        "body": "ตะกร้าสินค้าอยู่ใต้ประวัติการแปลงในเมนู ต้นทุนจริงเปลี่ยนชื่อเป็นเปรียบเทียบอัตราแลกเปลี่ยน และมีอะไรใหม่อยู่ในเกี่ยวกับแอพนี้",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "Keyboard",
+        "title": "แบบอักษรและขนาดของแป้นกด",
+        "body": "ปรับแต่งปุ่มเครื่องคิดเลขในการตั้งค่า: เลือกแบบอักษรมาตรฐาน คลาสสิก ความกว้างคงที่ หรือกอทิก และเลือกขนาดสัญลักษณ์ได้สามขนาด ตัวอย่างจะแสดงสิ่งที่คุณเลือก และระบบจะบันทึกการตั้งค่าไว้",
+        "version": "1.613",
+        "published": true
+      },
+      {
+        "id": "ProcessText",
+        "title": "แปลงข้อความที่เลือก",
+        "body": "ข้อความที่เลือก: 149.99 EUR → 17,529.33 RSD (1 EUR = 116.87 RSD)"
+      },
+      {
+        "id": "PriceScanner",
+        "title": "เครื่องสแกนราคา",
+        "body": "ต้องใช้สิทธิ์เข้าถึงกล้องเพื่อสแกนราคา รูปภาพจะอยู่ในอุปกรณ์นี้และไม่ถูกบันทึก"
+      },
+      {
+        "id": "ActualCost",
+        "title": "เปรียบเทียบอัตราแลกเปลี่ยน",
+        "body": "เปรียบเทียบเงื่อนไขการแลกเปลี่ยนกับอัตราอ้างอิงของแอป"
+      },
+      {
+        "id": "TravelBoard",
+        "title": "ตารางสกุลเงินสำหรับเดินทาง",
+        "body": "แตะสกุลเงินเพื่อกำหนดเป็นสกุลเงินหลัก"
+      },
+      {
+        "id": "Crypto",
+        "title": "คริปโท",
+        "body": "อัตราคริปโท"
+      }
+    ]
+  },
+  "vi": {
+    "title": "Có gì mới",
+    "cards": [
+      {
+        "id": "ScannerAccuracy",
+        "title": "Cải thiện trình quét giá",
+        "body": "• Cải thiện nhận dạng nhãn giá, danh mục và thực đơn, kể cả chữ số thập phân nhỏ hoặc được in cao lên. • Phân biệt tốt hơn giá chính với mã sản phẩm, số lượng trong gói và giá tham chiếu mỗi kilôgam. • Tinh chỉnh việc kiểm tra giá qua nhiều khung hình để tránh xác nhận nhầm các lỗi đọc ngẫu nhiên.",
+        "version": "1.618",
+        "published": true,
+        "statusLabel": "Google Play · 1.618"
+      },
+      {
+        "id": "CartExperience",
+        "title": "Giỏ hàng và phản hồi",
+        "body": "• Giỏ hàng gọn hơn: dễ xem sản phẩm và tổng tiền hơn. • Lần đầu dùng giỏ hàng: 10 lượt thêm miễn phí trong 24 giờ đầu, sau đó 5 lượt mỗi ngày. • Email nhận trả lời là tùy chọn. Phản hồi được gửi qua ứng dụng email của bạn. • Cập nhật trợ giúp và giải thích về giao diện đổi bằng BP; toàn văn giấy phép có sẵn ngoại tuyến.",
+        "version": "1.617",
+        "published": true,
+        "statusLabel": "Google Play · 1.617"
+      },
+      {
+        "id": "CartContinuous",
+        "title": "Quét hàng khi mua sắm dễ dàng hơn!",
+        "body": "• Thêm lần lượt các món hàng vào giỏ bằng “Thêm và quét sản phẩm tiếp theo” — máy ảnh vẫn mở và bạn tự xác nhận từng giá. • Số món hàng và tổng tiền hiện tại theo loại tiền đã chọn nay hiển thị ngay trong trình quét. • Mua sắm xong? Nhấn “Thêm và mở giỏ hàng”.",
+        "version": "1.616",
+        "published": true,
+        "statusLabel": "Google Play · 1.616"
+      },
+      {
+        "id": "ShoppingCart",
+        "title": "Giỏ hàng",
+        "body": "Quét giá hoặc thêm sản phẩm thủ công. Xem giá từng sản phẩm và tổng tiền bằng loại tiền bạn chọn. Miễn phí năm lượt thêm mỗi ngày, sau đó 1 BP cho mỗi sản phẩm mới.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "Themes",
+        "title": "24 chủ đề màu sắc",
+        "body": "Chọn bảng màu từ bộ chọn dạng lưới mới. Năm chủ đề miễn phí; mở khóa vĩnh viễn từng chủ đề trong 19 chủ đề còn lại với 60 BP. Các chủ đề đã mở khóa vẫn sử dụng được.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "RewardedAds",
+        "title": "BALCO Points và quảng cáo",
+        "body": "Quảng cáo có thưởng giờ tải khi bạn mở mục tương ứng và mở ngay khi sẵn sàng sau một lần chạm. Trạng thái gói đăng ký rõ ràng hơn, kèm tùy chọn thử xác minh lại.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "PriceConversion",
+        "title": "Quy đổi giá rõ ràng hơn",
+        "body": "Đã sửa lỗi quy đổi Bitcoin, giúp phân biệt các số tiền được chọn dễ hơn và cải thiện nhãn giá trong trình quét. Văn bản được chọn trong ứng dụng khác chỉ được quy đổi sau khi xác nhận quyền truy cập tính năng.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "Navigation",
+        "title": "Điều hướng dễ dàng hơn",
+        "body": "Giỏ hàng nằm dưới lịch sử quy đổi trong menu. Chi phí thực tế nay có tên So sánh tỷ giá. Có gì mới nằm trong Giới thiệu về ứng dụng này.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "Keyboard",
+        "title": "Phông chữ và kích thước bàn phím",
+        "body": "Tùy chỉnh các nút máy tính trong Cài đặt: chọn phông chữ tiêu chuẩn, cổ điển, đơn cách hoặc Gothic và một trong ba kích thước ký hiệu. Bản xem trước hiển thị lựa chọn của bạn và các tùy chọn được lưu lại.",
+        "version": "1.613",
+        "published": true
+      },
+      {
+        "id": "ProcessText",
+        "title": "Chuyển đổi văn bản đã chọn",
+        "body": "Văn bản đã chọn: 149,99 EUR → 17.529,33 RSD (1 EUR = 116,87 RSD)"
+      },
+      {
+        "id": "PriceScanner",
+        "title": "Trình quét giá",
+        "body": "Cần quyền truy cập máy ảnh để quét giá. Hình ảnh chỉ ở trên thiết bị này và không được lưu."
+      },
+      {
+        "id": "ActualCost",
+        "title": "So sánh tỷ giá",
+        "body": "So sánh điều kiện đổi tiền với tỷ giá tham chiếu của ứng dụng."
+      },
+      {
+        "id": "TravelBoard",
+        "title": "Bảng tiền tệ du lịch",
+        "body": "Nhấn vào một tiền tệ để đặt làm tiền tệ cơ sở."
+      },
+      {
+        "id": "Crypto",
+        "title": "Tiền mã hóa",
+        "body": "Tỷ giá tiền mã hóa"
+      }
+    ]
+  },
+  "zh-Hans": {
+    "title": "新功能",
+    "cards": [
+      {
+        "id": "ScannerAccuracy",
+        "title": "价格扫描器改进",
+        "body": "• 改进价签、商品目录和菜单的识别，支持更好地读取字号较小或位置抬高的小数部分。 • 更好地区分商品主价格、货号、包装数量和每千克参考价格。 • 优化多帧价格核验，避免将偶发的识别错误误当作有效确认。",
+        "version": "1.618",
+        "published": true,
+        "statusLabel": "Google Play · 1.618"
+      },
+      {
+        "id": "CartExperience",
+        "title": "购物车与反馈",
+        "body": "• 购物车更紧凑，商品和总价一目了然。 • 首次使用购物车：前24小时可免费添加10次，此后每天5次。 • 回复邮箱为选填项，反馈通过您的邮件应用发送。 • 更新了帮助和BP主题说明；完整许可证文本可离线查看。",
+        "version": "1.617",
+        "published": true,
+        "statusLabel": "Google Play · 1.617"
+      },
+      {
+        "id": "CartContinuous",
+        "title": "扫描购物商品更方便了！",
+        "body": "• 点击“添加并扫描下一件”即可连续添加商品——相机保持开启，每个价格仍由您亲自确认。 • 商品数量和所选货币的当前总额现在直接显示在扫描界面中。 • 购物结束？点击“添加并打开购物篮”。",
+        "version": "1.616",
+        "published": true,
+        "statusLabel": "Google Play · 1.616"
+      },
+      {
+        "id": "ShoppingCart",
+        "title": "购物车",
+        "body": "扫描价格或手动添加商品，以所选货币查看每件商品的价格和总额。每天可免费添加五次，之后每添加一件新商品需 1 BP。",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "Themes",
+        "title": "24 款配色主题",
+        "body": "在全新的网格选择器中挑选配色。五款主题免费，其余 19 款每款可用 60 BP 永久解锁。此前已解锁的主题仍可使用。",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "RewardedAds",
+        "title": "BALCO Points 与广告",
+        "body": "激励广告现在会在打开相关页面时加载，点击一次后即可在广告准备好时自动播放。订阅状态更清晰，并可重新尝试验证。",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "PriceConversion",
+        "title": "更清晰的价格换算",
+        "body": "修复了比特币换算问题，让所选金额更易区分，并改善了扫描器中的价格标签。从其他应用中选取的文本，仅在确认功能使用权限后才会换算。",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "Navigation",
+        "title": "更便捷的导航",
+        "body": "菜单中的购物车位于换算历史下方。“实际费用”现已更名为“汇率比较”。“新功能”位于“关于这个应用程序”中。",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "Keyboard",
+        "title": "键盘字体与字号",
+        "body": "在设置中自定义计算器按钮：选择标准、经典、等宽或哥特字体，以及三种符号大小之一。预览会显示您的选择，偏好设置也会保存。",
+        "version": "1.613",
+        "published": true
+      },
+      {
+        "id": "ProcessText",
+        "title": "所选文本换算",
+        "body": "所选文本: 149.99 EUR → 17,529.33 RSD (1 EUR = 116.87 RSD)"
+      },
+      {
+        "id": "PriceScanner",
+        "title": "价格扫描器",
+        "body": "扫描价格需要相机权限。图像只在此设备上处理且不会保存。"
+      },
+      {
+        "id": "ActualCost",
+        "title": "汇率比较",
+        "body": "将兑换条件与应用的参考汇率进行比较。"
+      },
+      {
+        "id": "TravelBoard",
+        "title": "旅行看板",
+        "body": "点按一种货币，将其设为基准货币。"
+      },
+      {
+        "id": "Crypto",
+        "title": "加密货币",
+        "body": "加密货币汇率"
+      }
+    ]
+  },
+  "zh-Hant": {
+    "title": "最新消息",
+    "cards": [
+      {
+        "id": "ScannerAccuracy",
+        "title": "價格掃描器改進",
+        "body": "• 改善價標、商品目錄和菜單的辨識，更準確地讀取字體較小或位置抬高的小數部分。 • 更清楚地區分商品主價格、貨號、包裝數量和每公斤參考價格。 • 優化多影格價格核驗，避免將偶發的辨識錯誤誤當作有效確認。",
+        "version": "1.618",
+        "published": true,
+        "statusLabel": "Google Play · 1.618"
+      },
+      {
+        "id": "CartExperience",
+        "title": "購物車與意見回饋",
+        "body": "• 購物車更精簡，商品和總價一目了然。 • 首次使用購物車：前24小時可免費新增10次，此後每天5次。 • 回覆信箱為選填項，意見透過您的郵件應用程式傳送。 • 更新了說明及BP主題解釋；完整授權條款可離線查看。",
+        "version": "1.617",
+        "published": true,
+        "statusLabel": "Google Play · 1.617"
+      },
+      {
+        "id": "CartContinuous",
+        "title": "掃描購物商品更方便了！",
+        "body": "• 點選「加入並掃描下一件」即可連續新增商品——相機保持開啟，每個價格仍由您親自確認。 • 商品數量及所選貨幣的目前總額現在直接顯示在掃描畫面中。 • 購物結束？點選「加入並開啟購物籃」。",
+        "version": "1.616",
+        "published": true,
+        "statusLabel": "Google Play · 1.616"
+      },
+      {
+        "id": "ShoppingCart",
+        "title": "購物車",
+        "body": "掃描價格或手動新增商品，以所選貨幣查看每件商品的價格和總額。每天可免費新增五次，之後每新增一件商品需 1 BP。",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "Themes",
+        "title": "24 款配色主題",
+        "body": "在全新的格狀選擇器中挑選配色。五款主題免費，其餘 19 款每款可用 60 BP 永久解鎖。先前已解鎖的主題仍可使用。",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "RewardedAds",
+        "title": "BALCO Points 與廣告",
+        "body": "獎勵廣告現在會在開啟相關頁面時載入，點選一次後即可在廣告準備好時自動播放。訂閱狀態更清楚，並可重新嘗試驗證。",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "PriceConversion",
+        "title": "更清楚的價格換算",
+        "body": "修正了比特幣換算問題，讓所選金額更容易區分，並改善了掃描器中的價格標籤。從其他應用程式選取的文字，僅在確認功能使用權限後才會換算。",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "Navigation",
+        "title": "更便捷的導覽",
+        "body": "選單中的購物車位於換算紀錄下方。「實際費用」現已更名為「匯率比較」。「最新消息」位於「關於這個應用程式」中。",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "Keyboard",
+        "title": "鍵盤字型與字級",
+        "body": "在設定中自訂計算機按鈕：選擇標準、經典、等寬或哥德字型，以及三種符號大小之一。預覽會顯示您的選擇，偏好設定也會儲存。",
+        "version": "1.613",
+        "published": true
+      },
+      {
+        "id": "ProcessText",
+        "title": "所選文字換算",
+        "body": "所選文字: 149.99 EUR → 17,529.33 RSD (1 EUR = 116.87 RSD)"
+      },
+      {
+        "id": "PriceScanner",
+        "title": "價格掃描器",
+        "body": "掃描價格需要相機權限。影像只在此裝置上處理且不會儲存。"
+      },
+      {
+        "id": "ActualCost",
+        "title": "匯率比較",
+        "body": "將兌換條件與應用程式的參考匯率進行比較。"
+      },
+      {
+        "id": "TravelBoard",
+        "title": "旅行看板",
+        "body": "點選一種貨幣，將它設為基準貨幣。"
+      },
+      {
+        "id": "Crypto",
+        "title": "加密貨幣",
+        "body": "加密貨幣匯率"
+      }
+    ]
+  },
+  "ja": {
+    "title": "新機能",
+    "cards": [
+      {
+        "id": "ScannerAccuracy",
+        "title": "価格スキャナーを改善",
+        "body": "• 値札、カタログ、メニューの認識を改善。小さい文字や上付きで印刷された小数部分にも対応を強化しました。 • 商品の価格と商品コード、包装内の数量、1キログラムあたりの参考価格を区別しやすくしました。 • 複数フレームでの価格検証を見直し、偶発的な読み取りミスが誤って裏付けられるのを防ぎます。",
+        "version": "1.618",
+        "published": true,
+        "statusLabel": "Google Play · 1.618"
+      },
+      {
+        "id": "CartExperience",
+        "title": "買い物かごとフィードバック",
+        "body": "• かごがコンパクトになり、商品と合計が見やすくなりました。 • かごの初回利用から24時間は10回まで無料で追加でき、その後は1日5回までです。 • 返信用メールアドレスは任意です。フィードバックはメールアプリから送信します。 • ヘルプとBPで交換するテーマの説明を更新。ライセンス全文をオフラインで確認できます。",
+        "version": "1.617",
+        "published": true,
+        "statusLabel": "Google Play · 1.617"
+      },
+      {
+        "id": "CartContinuous",
+        "title": "買い物のスキャンがもっと便利に！",
+        "body": "• 「追加して次の商品をスキャン」で商品を続けてカートに追加できます。カメラは開いたままで、価格は毎回ご自身で確認します。 • 商品数と選択した通貨での現在の合計が、スキャナー画面に直接表示されるようになりました。 • 買い物が終わったら「追加してカートを開く」をタップしてください。",
+        "version": "1.616",
+        "published": true,
+        "statusLabel": "Google Play · 1.616"
+      },
+      {
+        "id": "ShoppingCart",
+        "title": "買い物かご",
+        "body": "価格をスキャンするか、商品を手動で追加できます。各商品の価格と合計を選んだ通貨で確認できます。1日5回まで無料で追加でき、その後は新しい商品1件につき1 BPです。",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "Themes",
+        "title": "24種類のカラーテーマ",
+        "body": "新しいグリッド形式の選択画面から配色を選べます。5種類は無料で、残り19種類はそれぞれ60 BPで永久に解除できます。以前に解除したテーマも引き続き使えます。",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "RewardedAds",
+        "title": "BALCO Pointsと広告",
+        "body": "リワード広告は該当する画面を開いたときに読み込まれ、1回タップすると準備ができ次第再生されます。定期購入の状態がわかりやすくなり、確認を再試行できるようになりました。",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "PriceConversion",
+        "title": "価格換算がより明確に",
+        "body": "ビットコインの換算を修正し、選択した金額を区別しやすくしました。スキャナーの価格ラベルも改善しました。他のアプリで選択したテキストは、機能の利用権限を確認してから換算されます。",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "Navigation",
+        "title": "使いやすくなったメニュー",
+        "body": "買い物かごはメニューの換算履歴の下にあります。実際の費用は為替レート比較に名前を変更しました。新機能はこのアプリについての中にあります。",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "Keyboard",
+        "title": "キーパッドのフォントとサイズ",
+        "body": "設定で電卓ボタンをカスタマイズできます。標準、クラシック、等幅、ブラックレター（ゴシック体）のフォントと、3段階の文字サイズから選べます。プレビューで見た目を確認でき、設定は保存されます。",
+        "version": "1.613",
+        "published": true
+      },
+      {
+        "id": "ProcessText",
+        "title": "選択したテキストの換算",
+        "body": "選択したテキスト: 149.99 EUR → 17,529.33 RSD (1 EUR = 116.87 RSD)"
+      },
+      {
+        "id": "PriceScanner",
+        "title": "価格スキャナー",
+        "body": "価格のスキャンにはカメラへのアクセスが必要です。画像は端末内で処理され、保存されません。"
+      },
+      {
+        "id": "ActualCost",
+        "title": "為替レート比較",
+        "body": "両替条件をアプリの参考レートと比較します。"
+      },
+      {
+        "id": "TravelBoard",
+        "title": "旅行ボード",
+        "body": "通貨をタップすると基準通貨になります。"
+      },
+      {
+        "id": "Crypto",
+        "title": "暗号資産",
+        "body": "暗号資産レート"
+      }
+    ]
+  },
+  "ko": {
+    "title": "새로운 기능",
+    "cards": [
+      {
+        "id": "ScannerAccuracy",
+        "title": "가격 스캐너 개선",
+        "body": "• 작거나 위로 올려 인쇄된 소수 부분을 포함해 가격표, 카탈로그, 메뉴의 인식을 개선했습니다. • 주요 가격을 상품 코드, 포장 수량, 킬로그램당 참고 가격과 더 잘 구분합니다. • 여러 프레임의 가격 검증을 개선해 우연한 읽기 오류가 잘못된 확인 근거로 쓰이지 않도록 했습니다.",
+        "version": "1.618",
+        "published": true,
+        "statusLabel": "Google Play · 1.618"
+      },
+      {
+        "id": "CartExperience",
+        "title": "장바구니 및 의견 보내기",
+        "body": "• 장바구니가 간결해져 상품과 합계가 더 잘 보입니다. • 장바구니 첫 사용 시 처음 24시간 동안 10회 무료로 추가할 수 있으며, 이후에는 하루 5회입니다. • 답변용 이메일은 선택 사항입니다. 의견은 이메일 앱을 통해 전송됩니다. • 도움말과 BP 테마 설명을 업데이트했습니다. 라이선스 전문을 오프라인에서 볼 수 있습니다.",
+        "version": "1.617",
+        "published": true,
+        "statusLabel": "Google Play · 1.617"
+      },
+      {
+        "id": "CartContinuous",
+        "title": "장보기 스캔이 더 편리해졌어요!",
+        "body": "• ‘추가하고 다음 상품 스캔’으로 상품을 연속해서 장바구니에 담으세요. 카메라는 계속 열려 있고, 가격은 매번 직접 확인합니다. • 상품 수와 선택한 통화로 계산한 현재 합계가 이제 스캐너 화면에 바로 표시됩니다. • 장보기를 마쳤나요? ‘추가하고 장바구니 열기’를 누르세요.",
+        "version": "1.616",
+        "published": true,
+        "statusLabel": "Google Play · 1.616"
+      },
+      {
+        "id": "ShoppingCart",
+        "title": "장바구니",
+        "body": "가격을 스캔하거나 상품을 직접 추가하세요. 선택한 통화로 상품별 가격과 합계를 확인할 수 있습니다. 하루 다섯 번 무료로 추가할 수 있으며, 이후에는 새 상품 하나당 1 BP가 필요합니다.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "Themes",
+        "title": "24가지 색상 테마",
+        "body": "새로운 격자형 선택 화면에서 색상 조합을 고르세요. 다섯 가지 테마는 무료이며, 나머지 19가지는 각각 60 BP로 영구 이용할 수 있습니다. 이전에 잠금 해제한 테마도 계속 사용할 수 있습니다.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "RewardedAds",
+        "title": "BALCO Points와 광고",
+        "body": "이제 보상형 광고는 해당 화면을 열 때 로드되며, 한 번 누르면 준비되는 즉시 열립니다. 구독 상태가 더 명확하게 표시되고 확인을 다시 시도할 수 있습니다.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "PriceConversion",
+        "title": "더 명확한 가격 변환",
+        "body": "비트코인 변환을 수정하고, 선택한 금액을 쉽게 구분하도록 개선했으며, 스캐너의 가격 표시를 개선했습니다. 다른 앱에서 선택한 텍스트는 기능 이용 권한이 확인된 후에만 변환됩니다.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "Navigation",
+        "title": "더 편리한 메뉴",
+        "body": "장바구니는 메뉴의 변환 내역 아래에 있습니다. 실제 비용의 이름이 환율 비교로 바뀌었습니다. 새로운 기능은 이 앱 정보 안에 있습니다.",
+        "version": "1.614",
+        "published": true
+      },
+      {
+        "id": "Keyboard",
+        "title": "키패드 글꼴과 크기",
+        "body": "설정에서 계산기 버튼을 꾸며 보세요. 기본, 클래식, 고정폭, 블랙레터(고딕) 글꼴과 세 가지 기호 크기 중에서 선택할 수 있습니다. 미리보기로 선택한 모양을 확인할 수 있으며 설정은 저장됩니다.",
+        "version": "1.613",
+        "published": true
+      },
+      {
+        "id": "ProcessText",
+        "title": "선택한 텍스트 변환",
+        "body": "선택한 텍스트: 149.99 EUR → 17,529.33 RSD (1 EUR = 116.87 RSD)"
+      },
+      {
+        "id": "PriceScanner",
+        "title": "가격 스캐너",
+        "body": "가격을 스캔하려면 카메라 접근 권한이 필요합니다. 이미지는 기기에만 남으며 저장되지 않습니다."
+      },
+      {
+        "id": "ActualCost",
+        "title": "환율 비교",
+        "body": "환전 조건을 앱의 기준 환율과 비교하세요."
+      },
+      {
+        "id": "TravelBoard",
+        "title": "여행 보드",
+        "body": "통화를 탭하면 기준 통화로 설정됩니다."
+      },
+      {
+        "id": "Crypto",
+        "title": "암호화폐",
+        "body": "암호화폐 환율"
+      }
+    ]
+  }
+}

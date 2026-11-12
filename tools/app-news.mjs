@@ -1,89 +1,41 @@
 import fs from 'node:fs';
 import path from 'node:path';
 
-const currentRelease = {version: '1.614', published: true};
-const currentReleaseFeatures = ['ShoppingCart', 'Themes', 'RewardedAds', 'PriceConversion', 'Navigation'];
-
-const features = [
-  ['Keyboard', 'updates_keypad_title', 'updates_keypad_body'],
-  ['ProcessText', 'balco_points_history_process_text'],
-  ['PriceScanner', 'price_scanner_title', 'camera_permission_explanation'],
-  ['ActualCost', 'menu_actual_cost', 'actual_cost_explanation'],
-  ['TravelBoard', 'travel_board_title', 'travel_board_base_hint'],
-  ['Crypto', 'crypto_title', 'crypto_market_title']
-];
+const currentRelease = {
+  id: 'ChartsAndConversion', version: '1.620', versionCode: 37,
+  published: true, statusLabel: 'Google Play · 1.620'
+};
 
 export const escapeHtml = value => value.replaceAll('&', '&amp;').replaceAll('<', '&lt;')
   .replaceAll('>', '&gt;').replaceAll('"', '&quot;');
 
-function androidText(value) {
-  return value.replaceAll('&lt;', '<').replaceAll('&gt;', '>').replaceAll('&quot;', '"')
-    .replaceAll('&apos;', "'").replaceAll('&amp;', '&').replace(/\\(["'])/g, '$1')
-    .replaceAll('\\n', '\n').replace(/\s+/g, ' ').trim();
-}
-
-// Generate the website from the exact localized strings used by UpdatesScreenV2.
-// The published HTML and JSON remain standalone; Android sources are needed only at generation time.
+// Historical cards are the published website snapshot from commit ebe8bde.
+// The 1.620 copy is frozen from release-publication-2026-11-10/news-copy-all-locales.json.
+// Never read mutable Android updates_release.xml to regenerate an older release.
 export function loadAppNews(root, manifest) {
-  const androidRoot = path.resolve(process.env.ANDROID_SOURCE_ROOT || path.join(root, '..'));
-  // These features are public in Google Play 1.619, verified on 2026-11-07.
-  // Store-specific labels do not imply availability in the AppGallery version.
+  const archive = JSON.parse(fs.readFileSync(path.join(root, 'tools', 'app-news-archive.json'), 'utf8'));
+  const release = JSON.parse(fs.readFileSync(path.join(root, 'tools', 'app-news-release-1.620.json'), 'utf8'));
+  const sameLocales = (actual, expected) => JSON.stringify(actual.sort()) === JSON.stringify(expected.sort());
+  if (!sameLocales(Object.keys(archive), manifest.locales.map(locale => locale.hreflang))) {
+    throw new Error('Archived news must cover exactly the website locale inventory');
+  }
+  if (!sameLocales(Object.keys(release), manifest.locales.map(locale => locale.androidLocale))) {
+    throw new Error('Frozen release copy must cover exactly the Android locale mappings');
+  }
   const result = {};
   for (const locale of manifest.locales) {
-    const source = manifest.terminologySources.find(item => item.locale === locale.androidLocale);
-    if (!source) throw new Error(`Missing Android source for ${locale.androidLocale}`);
-    const directory = path.dirname(path.join(androidRoot, source.androidResource));
-    const strings = new Map();
-    for (const file of fs.readdirSync(directory).filter(name => name.endsWith('.xml'))) {
-      const xml = fs.readFileSync(path.join(directory, file), 'utf8');
-      for (const match of xml.matchAll(/<string\b[^>]*\bname="([^"]+)"[^>]*>([\s\S]*?)<\/string>/g)) {
-        strings.set(match[1], androidText(match[2]));
-      }
+    const history = archive[locale.hreflang];
+    const copy = release[locale.androidLocale];
+    const text = value => typeof value === 'string' && value.trim().length > 0;
+    if (!text(copy.title) || !Array.isArray(copy.bullets) || copy.bullets.length !== 4 || !copy.bullets.every(text)) {
+      throw new Error(`Expected a localized title and four release bullets for ${locale.hreflang}`);
     }
-    const required = key => {
-      const value = strings.get(key);
-      if (!value) throw new Error(`Missing ${key} in ${directory}`);
-      return value;
-    };
-    const releaseFile = path.join(androidRoot, 'app', 'src', 'google', 'res', path.basename(directory), 'updates_release.xml');
-    const releaseXml = fs.readFileSync(releaseFile, 'utf8');
-    const releaseArray = releaseXml.match(/<string-array\b[^>]*\bname="updates_current_release"[^>]*>([\s\S]*?)<\/string-array>/)?.[1];
-    if (!releaseArray) throw new Error(`Missing current release array in ${releaseFile}`);
-    const releaseValues = [...releaseArray.matchAll(/<item\b[^>]*>([\s\S]*?)<\/item>/g)].map(match => androidText(match[1]));
-    if (releaseValues.length !== currentReleaseFeatures.length * 2 || releaseValues.some(value => !value)) {
-      throw new Error(`Expected five title/body pairs in ${releaseFile}`);
+    if (!text(history.title) || !Array.isArray(history.cards) || history.cards.some(card => card.id === currentRelease.id)) {
+      throw new Error(`Invalid historical news snapshot for ${locale.hreflang}`);
     }
-    const currentCards = currentReleaseFeatures.map((id, index) => ({
-      id, title: releaseValues[index * 2], body: releaseValues[index * 2 + 1], ...currentRelease
-    }));
-    const exampleNumber = new Intl.NumberFormat(locale.hreflang, {minimumFractionDigits: 2, maximumFractionDigits: 2});
-    // The app illustrates this card with the same source, rate, and result.
-    const selectedTextExample = `${required('process_text_result_title')}: ${exampleNumber.format(149.99)} EUR → ${exampleNumber.format(149.99 * 116.87)} RSD (1 EUR = ${exampleNumber.format(116.87)} RSD)`;
     result[locale.hreflang] = {
-      title: required('menu_whats_new'),
-      cards: [{
-        id: 'ScannerAccuracy',
-        title: required('updates_scanner_accuracy_title'),
-        body: required('updates_scanner_accuracy_body'),
-        version: '1.618', published: true,
-        statusLabel: 'Google Play · 1.618'
-      }, {
-        id: 'CartExperience',
-        title: required('updates_ux_title'),
-        body: required('updates_ux_body'),
-        version: '1.617', published: true,
-        statusLabel: 'Google Play · 1.617'
-      }, {
-        id: 'CartContinuous',
-        title: required('updates_cart_continuous_title'),
-        body: required('updates_cart_continuous_body'),
-        version: '1.616', published: true,
-        statusLabel: 'Google Play · 1.616'
-      }, ...currentCards, ...features.map(([id, title, body]) => ({
-        id, title: required(title), ...(body ? {body: required(body)} : {}),
-        ...(id === 'ProcessText' ? {body: selectedTextExample} : {}),
-        ...(id === 'Keyboard' ? {version: '1.613', published: true} : {})
-      }))]
+      title: history.title,
+      cards: [{...currentRelease, title: copy.title, bullets: copy.bullets}, ...history.cards]
     };
   }
   return result;
@@ -91,8 +43,10 @@ export function loadAppNews(root, manifest) {
 
 export function renderNewsCards(news) {
   return news.cards.map(card => {
-    const body = ['CartContinuous', 'CartExperience', 'ScannerAccuracy'].includes(card.id)
-      ? `        <ul>${card.body.slice(2).split(' • ').map(line => `<li>${escapeHtml(line)}</li>`).join('')}</ul>\n`
+    const bullets = card.bullets || (['CartContinuous', 'CartExperience', 'ScannerAccuracy'].includes(card.id)
+      ? card.body.slice(2).split(' • ') : null);
+    const body = bullets
+      ? `        <ul>${bullets.map(line => `<li>${escapeHtml(line)}</li>`).join('')}</ul>\n`
       : card.body ? `        <p>${escapeHtml(card.body)}</p>\n` : '';
     return `      <article class="app-update-card" data-app-feature="${card.id}">
 ${card.version ? `        <p class="eyebrow upcoming-release">${escapeHtml(card.statusLabel || card.version)}</p>\n` : ''}        <h2>${escapeHtml(card.title)}</h2>

@@ -1,0 +1,1515 @@
+{
+  "schemaVersion": 1,
+  "version": "1.620",
+  "versionCode": 37,
+  "store": "Google Play",
+  "sourceCatalogSha256": "460beb6851d09a3f2dca69eb340b07743f5d2a9aec664f6a8838665f77cb5b6a",
+  "scenes": [
+    "converter",
+    "scanner",
+    "cart",
+    "travel-board",
+    "exchange-comparison",
+    "chart",
+    "settings",
+    "crypto"
+  ],
+  "locales": {
+    "en": {
+      "converter": {
+        "title": "Convert currencies. Keep it simple.",
+        "subtitle": "Everyday calculations, wherever you are."
+      },
+      "scanner": {
+        "title": "Scan a price. See its value.",
+        "subtitle": "Point your camera. Get the conversion."
+      },
+      "cart": {
+        "title": "Cart total",
+        "subtitle": ""
+      },
+      "travel-board": {
+        "title": "One amount. Many currencies.",
+        "subtitle": "Keep your travel currencies together."
+      },
+      "exchange-comparison": {
+        "title": "See what you really receive",
+        "subtitle": "Check percentage and fixed exchange fees."
+      },
+      "chart": {
+        "title": "See how rates move",
+        "subtitle": "Historical rates from the data source"
+      },
+      "settings": {
+        "title": "Settings",
+        "subtitle": "Theme · Font"
+      },
+      "crypto": {
+        "title": "Crypto in your currency",
+        "subtitle": "Compare Bitcoin, Ethereum and more."
+      }
+    },
+    "sr": {
+      "converter": {
+        "title": "Прерачунајте валуте. Без компликација.",
+        "subtitle": "Свакодневни прорачуни, где год да сте."
+      },
+      "scanner": {
+        "title": "Скенирајте цену. Сазнајте вредност.",
+        "subtitle": "Усмерите камеру и погледајте прерачунати износ."
+      },
+      "cart": {
+        "title": "Укупно у корпи",
+        "subtitle": ""
+      },
+      "travel-board": {
+        "title": "Један износ. Више валута.",
+        "subtitle": "Држите валуте за путовање на једном месту."
+      },
+      "exchange-comparison": {
+        "title": "Проверите колико заиста добијате",
+        "subtitle": "Проверите процентуалне и фиксне накнаде за мењање валуте."
+      },
+      "chart": {
+        "title": "Пратите како се курсеви мењају",
+        "subtitle": "Историјски курсеви из извора података"
+      },
+      "settings": {
+        "title": "Подешавања",
+        "subtitle": "Тема · Фонт"
+      },
+      "crypto": {
+        "title": "Криптовалуте у вашој валути",
+        "subtitle": "Упоредите биткоин, етеријум и друге криптовалуте."
+      }
+    },
+    "bs": {
+      "converter": {
+        "title": "Pretvarajte valute. Jednostavno.",
+        "subtitle": "Svakodnevni proračuni, gdje god da ste."
+      },
+      "scanner": {
+        "title": "Skenirajte cijenu. Saznajte vrijednost.",
+        "subtitle": "Usmjerite kameru i pogledajte preračunati iznos."
+      },
+      "cart": {
+        "title": "Ukupan iznos korpe",
+        "subtitle": ""
+      },
+      "travel-board": {
+        "title": "Jedan iznos. Više valuta.",
+        "subtitle": "Držite valute za putovanje na jednom mjestu."
+      },
+      "exchange-comparison": {
+        "title": "Provjerite koliko zaista dobijate",
+        "subtitle": "Provjerite procentualne i fiksne naknade za razmjenu."
+      },
+      "chart": {
+        "title": "Pratite kako se kursevi mijenjaju",
+        "subtitle": "Historijski kursevi iz izvora podataka"
+      },
+      "settings": {
+        "title": "Postavke",
+        "subtitle": "Tema · Font"
+      },
+      "crypto": {
+        "title": "Kriptovalute u vašoj valuti",
+        "subtitle": "Uporedite Bitcoin, Ethereum i druge."
+      }
+    },
+    "hr": {
+      "converter": {
+        "title": "Pretvorite valute. Jednostavno.",
+        "subtitle": "Za svakodnevne izračune, gdje god bili."
+      },
+      "scanner": {
+        "title": "Skenirajte cijenu. Saznajte koliko vrijedi.",
+        "subtitle": "Usmjerite kameru i pogledajte preračunati iznos."
+      },
+      "cart": {
+        "title": "Ukupni iznos košarice",
+        "subtitle": ""
+      },
+      "travel-board": {
+        "title": "Jedan iznos. Više valuta.",
+        "subtitle": "Držite valute za putovanje na jednom mjestu."
+      },
+      "exchange-comparison": {
+        "title": "Saznajte koliko zaista dobivate",
+        "subtitle": "Provjerite postotne i fiksne naknade za zamjenu valuta."
+      },
+      "chart": {
+        "title": "Pratite kako se tečajevi mijenjaju",
+        "subtitle": "Povijesni tečajevi iz izvora podataka"
+      },
+      "settings": {
+        "title": "Postavke",
+        "subtitle": "Tema · Font"
+      },
+      "crypto": {
+        "title": "Kriptovalute u vašoj valuti",
+        "subtitle": "Usporedite Bitcoin, Ethereum i druge."
+      }
+    },
+    "sq": {
+      "converter": {
+        "title": "Konvertoni monedhat. Fare lehtë.",
+        "subtitle": "Llogaritje të përditshme, kudo që të jeni."
+      },
+      "scanner": {
+        "title": "Skanoni çmimin. Shihni vlerën.",
+        "subtitle": "Drejtoni kamerën dhe shihni konvertimin."
+      },
+      "cart": {
+        "title": "Totali i shportës",
+        "subtitle": ""
+      },
+      "travel-board": {
+        "title": "Një shumë. Shumë monedha.",
+        "subtitle": "Mbajini bashkë monedhat që ju duhen në udhëtim."
+      },
+      "exchange-comparison": {
+        "title": "Shihni sa merrni realisht",
+        "subtitle": "Kontrolloni komisionet e këmbimit në përqindje dhe ato fikse."
+      },
+      "chart": {
+        "title": "Shihni si ndryshojnë kurset",
+        "subtitle": "Kurset historike nga burimi i të dhënave"
+      },
+      "settings": {
+        "title": "Cilësimet",
+        "subtitle": "Tema · Fonti"
+      },
+      "crypto": {
+        "title": "Kriptovalutat në monedhën tuaj",
+        "subtitle": "Krahasoni Bitcoin, Ethereum e të tjera."
+      }
+    },
+    "mk": {
+      "converter": {
+        "title": "Конвертирајте валути. Лесно и едноставно.",
+        "subtitle": "За секојдневни пресметки, каде и да сте."
+      },
+      "scanner": {
+        "title": "Скенирајте цена. Видете колку вреди.",
+        "subtitle": "Насочете ја камерата и видете го пресметаниот износ."
+      },
+      "cart": {
+        "title": "Вкупно во кошничката",
+        "subtitle": ""
+      },
+      "travel-board": {
+        "title": "Еден износ. Повеќе валути.",
+        "subtitle": "Чувајте ги валутите за патувањето на едно место."
+      },
+      "exchange-comparison": {
+        "title": "Видете колку навистина добивате",
+        "subtitle": "Проверете ги процентуалните и фиксните провизии за менување валути."
+      },
+      "chart": {
+        "title": "Видете како се менуваат курсевите",
+        "subtitle": "Историски курсеви од изворот на податоци"
+      },
+      "settings": {
+        "title": "Поставки",
+        "subtitle": "Тема · Фонт"
+      },
+      "crypto": {
+        "title": "Криптовалути во вашата валута",
+        "subtitle": "Споредете Bitcoin, Ethereum и други."
+      }
+    },
+    "bg": {
+      "converter": {
+        "title": "Конвертирайте валути. Лесно и удобно.",
+        "subtitle": "За ежедневни сметки, където и да сте."
+      },
+      "scanner": {
+        "title": "Сканирайте цена. Вижте я в друга валута.",
+        "subtitle": "Насочете камерата и вижте преизчислената сума."
+      },
+      "cart": {
+        "title": "Обща сума в кошницата",
+        "subtitle": ""
+      },
+      "travel-board": {
+        "title": "Една сума. Много валути.",
+        "subtitle": "Съберете валутите за пътуването си на едно място."
+      },
+      "exchange-comparison": {
+        "title": "Вижте колко реално получавате",
+        "subtitle": "Проверете процентните и фиксираните такси за обмяна."
+      },
+      "chart": {
+        "title": "Как се движат валутните курсове",
+        "subtitle": "Исторически курсове от източника на данни"
+      },
+      "settings": {
+        "title": "Настройки",
+        "subtitle": "Тема · Шрифт"
+      },
+      "crypto": {
+        "title": "Криптовалути във вашата валута",
+        "subtitle": "Сравнявайте Bitcoin, Ethereum и други."
+      }
+    },
+    "ro": {
+      "converter": {
+        "title": "Convertește valute. Simplu și ușor.",
+        "subtitle": "Pentru calculele de zi cu zi, oriunde te-ai afla."
+      },
+      "scanner": {
+        "title": "Scanează un preț. Vezi cât valorează.",
+        "subtitle": "Îndreaptă camera spre preț și vezi conversia."
+      },
+      "cart": {
+        "title": "Totalul coșului",
+        "subtitle": ""
+      },
+      "travel-board": {
+        "title": "O singură sumă. Mai multe valute.",
+        "subtitle": "Păstrează la un loc valutele pentru călătorie."
+      },
+      "exchange-comparison": {
+        "title": "Vezi cât primești cu adevărat",
+        "subtitle": "Verifică comisioanele de schimb procentuale și fixe."
+      },
+      "chart": {
+        "title": "Vezi cum evoluează cursurile",
+        "subtitle": "Cursuri istorice de la sursa de date"
+      },
+      "settings": {
+        "title": "Setări",
+        "subtitle": "Temă · Font"
+      },
+      "crypto": {
+        "title": "Criptomonede în moneda ta",
+        "subtitle": "Compară Bitcoin, Ethereum și altele."
+      }
+    },
+    "hu": {
+      "converter": {
+        "title": "Valutaátváltás. Egyszerűen.",
+        "subtitle": "Mindennapi számítások, bárhol is jársz."
+      },
+      "scanner": {
+        "title": "Olvass be egy árat. Nézd meg az értékét.",
+        "subtitle": "Irányítsd rá a kamerát, és nézd meg az átváltott összeget."
+      },
+      "cart": {
+        "title": "A kosár végösszege",
+        "subtitle": ""
+      },
+      "travel-board": {
+        "title": "Egy összeg. Több pénznem.",
+        "subtitle": "Tartsd egy helyen az utazásod pénznemeit."
+      },
+      "exchange-comparison": {
+        "title": "Lásd, mennyit kapsz valójában",
+        "subtitle": "Ellenőrizd a százalékos és a fix átváltási díjakat."
+      },
+      "chart": {
+        "title": "Kövesd az árfolyamok alakulását",
+        "subtitle": "Korábbi árfolyamok az adatforrásból"
+      },
+      "settings": {
+        "title": "Beállítások",
+        "subtitle": "Téma · Betűtípus"
+      },
+      "crypto": {
+        "title": "Kriptó a saját pénznemedben",
+        "subtitle": "Hasonlítsd össze a Bitcoint, az Ethereumot és más kriptókat."
+      }
+    },
+    "pl": {
+      "converter": {
+        "title": "Przeliczaj waluty. Prosto i wygodnie.",
+        "subtitle": "Codzienne obliczenia, gdziekolwiek jesteś."
+      },
+      "scanner": {
+        "title": "Zeskanuj cenę. Sprawdź, ile to jest.",
+        "subtitle": "Skieruj aparat na cenę i zobacz przeliczony wynik."
+      },
+      "cart": {
+        "title": "Wartość koszyka",
+        "subtitle": ""
+      },
+      "travel-board": {
+        "title": "Jedna kwota. Wiele walut.",
+        "subtitle": "Miej waluty na podróż w jednym miejscu."
+      },
+      "exchange-comparison": {
+        "title": "Zobacz, ile naprawdę otrzymasz",
+        "subtitle": "Sprawdź procentowe i stałe opłaty za wymianę."
+      },
+      "chart": {
+        "title": "Zobacz, jak zmieniają się kursy",
+        "subtitle": "Historyczne kursy ze źródła danych"
+      },
+      "settings": {
+        "title": "Ustawienia",
+        "subtitle": "Motyw · Krój pisma"
+      },
+      "crypto": {
+        "title": "Kryptowaluty w Twojej walucie",
+        "subtitle": "Porównuj Bitcoina, Ethereum i inne kryptowaluty."
+      }
+    },
+    "cs": {
+      "converter": {
+        "title": "Převádějte měny. Jednoduše.",
+        "subtitle": "Každodenní výpočty, ať jste kdekoli."
+      },
+      "scanner": {
+        "title": "Naskenujte cenu. Zjistěte její hodnotu.",
+        "subtitle": "Namiřte fotoaparát a zobrazte přepočtenou cenu."
+      },
+      "cart": {
+        "title": "Celkem v košíku",
+        "subtitle": ""
+      },
+      "travel-board": {
+        "title": "Jedna částka. Více měn.",
+        "subtitle": "Mějte měny na cesty pohromadě."
+      },
+      "exchange-comparison": {
+        "title": "Zjistěte, kolik opravdu dostanete",
+        "subtitle": "Zkontrolujte procentní a pevné poplatky za směnu."
+      },
+      "chart": {
+        "title": "Sledujte, jak se mění kurzy",
+        "subtitle": "Historické kurzy ze zdroje dat"
+      },
+      "settings": {
+        "title": "Nastavení",
+        "subtitle": "Motiv · Písmo"
+      },
+      "crypto": {
+        "title": "Kryptoměny ve vaší měně",
+        "subtitle": "Porovnejte Bitcoin, Ethereum a další."
+      }
+    },
+    "sk": {
+      "converter": {
+        "title": "Prepočítajte meny. Jednoducho.",
+        "subtitle": "Každodenné výpočty, nech ste kdekoľvek."
+      },
+      "scanner": {
+        "title": "Naskenujte cenu. Zistite jej hodnotu.",
+        "subtitle": "Namierte fotoaparát a zobrazte prepočet."
+      },
+      "cart": {
+        "title": "Spolu za nákup",
+        "subtitle": ""
+      },
+      "travel-board": {
+        "title": "Jedna suma. Viacero mien.",
+        "subtitle": "Majte meny na cesty na jednom mieste."
+      },
+      "exchange-comparison": {
+        "title": "Zistite, koľko skutočne dostanete",
+        "subtitle": "Skontrolujte percentuálne aj fixné poplatky za výmenu."
+      },
+      "chart": {
+        "title": "Sledujte, ako sa menia kurzy",
+        "subtitle": "Historické kurzy zo zdroja údajov"
+      },
+      "settings": {
+        "title": "Nastavenia",
+        "subtitle": "Motív · Písmo"
+      },
+      "crypto": {
+        "title": "Kryptomeny vo vašej mene",
+        "subtitle": "Porovnajte Bitcoin, Ethereum a ďalšie."
+      }
+    },
+    "sl": {
+      "converter": {
+        "title": "Preračunajte valute. Povsem preprosto.",
+        "subtitle": "Vsakdanji izračuni, kjer koli ste."
+      },
+      "scanner": {
+        "title": "Skenirajte ceno. Preverite njeno vrednost.",
+        "subtitle": "Usmerite kamero in si oglejte preračun."
+      },
+      "cart": {
+        "title": "Skupaj v košarici",
+        "subtitle": ""
+      },
+      "travel-board": {
+        "title": "En znesek. Več valut.",
+        "subtitle": "Valute za potovanje imejte na enem mestu."
+      },
+      "exchange-comparison": {
+        "title": "Preverite, koliko zares prejmete",
+        "subtitle": "Preverite odstotne in fiksne menjalne provizije."
+      },
+      "chart": {
+        "title": "Oglejte si gibanje tečajev",
+        "subtitle": "Pretekli tečaji iz vira podatkov"
+      },
+      "settings": {
+        "title": "Nastavitve",
+        "subtitle": "Tema · Pisava"
+      },
+      "crypto": {
+        "title": "Kriptovalute v vaši valuti",
+        "subtitle": "Primerjajte Bitcoin, Ethereum in druge."
+      }
+    },
+    "de": {
+      "converter": {
+        "title": "Währungen umrechnen. Ganz einfach.",
+        "subtitle": "Für alltägliche Berechnungen, wo immer du bist."
+      },
+      "scanner": {
+        "title": "Preis scannen. Umrechnung sehen.",
+        "subtitle": "Richte die Kamera auf den Preis und sieh den umgerechneten Betrag."
+      },
+      "cart": {
+        "title": "Warenkorbsumme",
+        "subtitle": ""
+      },
+      "travel-board": {
+        "title": "Ein Betrag. Viele Währungen.",
+        "subtitle": "Alle Währungen für deine Reise an einem Ort."
+      },
+      "exchange-comparison": {
+        "title": "Sieh, was du wirklich erhältst",
+        "subtitle": "Prüfe prozentuale und feste Wechselgebühren."
+      },
+      "chart": {
+        "title": "So entwickeln sich Wechselkurse",
+        "subtitle": "Historische Kurse aus der Datenquelle"
+      },
+      "settings": {
+        "title": "Einstellungen",
+        "subtitle": "Design · Schriftart"
+      },
+      "crypto": {
+        "title": "Krypto in deiner Währung",
+        "subtitle": "Vergleiche Bitcoin, Ethereum und mehr."
+      }
+    },
+    "fr": {
+      "converter": {
+        "title": "Convertissez les devises. Tout simplement.",
+        "subtitle": "Vos calculs du quotidien, où que vous soyez."
+      },
+      "scanner": {
+        "title": "Scannez un prix. Découvrez sa valeur.",
+        "subtitle": "Pointez l’appareil photo et obtenez le montant converti."
+      },
+      "cart": {
+        "title": "Total du panier",
+        "subtitle": ""
+      },
+      "travel-board": {
+        "title": "Un montant. Plusieurs devises.",
+        "subtitle": "Gardez les devises de votre voyage au même endroit."
+      },
+      "exchange-comparison": {
+        "title": "Voyez combien vous recevez vraiment",
+        "subtitle": "Vérifiez les frais de change, qu’ils soient proportionnels ou fixes."
+      },
+      "chart": {
+        "title": "Suivez l’évolution des taux de change",
+        "subtitle": "Taux historiques de la source de données"
+      },
+      "settings": {
+        "title": "Paramètres",
+        "subtitle": "Thème · Police"
+      },
+      "crypto": {
+        "title": "Les cryptos dans votre devise",
+        "subtitle": "Comparez le Bitcoin, l’Ethereum et d’autres cryptos."
+      }
+    },
+    "it": {
+      "converter": {
+        "title": "Converti valute. In tutta semplicità.",
+        "subtitle": "Per i calcoli di ogni giorno, ovunque ti trovi."
+      },
+      "scanner": {
+        "title": "Scansiona un prezzo. Scopri quanto vale.",
+        "subtitle": "Inquadra il prezzo e ottieni la conversione."
+      },
+      "cart": {
+        "title": "Totale del carrello",
+        "subtitle": ""
+      },
+      "travel-board": {
+        "title": "Un importo. Tante valute.",
+        "subtitle": "Tieni insieme le valute del tuo viaggio."
+      },
+      "exchange-comparison": {
+        "title": "Scopri quanto ricevi davvero",
+        "subtitle": "Controlla le commissioni di cambio percentuali e fisse."
+      },
+      "chart": {
+        "title": "Scopri come cambiano i tassi",
+        "subtitle": "Tassi storici dalla fonte dei dati"
+      },
+      "settings": {
+        "title": "Impostazioni",
+        "subtitle": "Tema · Carattere"
+      },
+      "crypto": {
+        "title": "Cripto nella tua valuta",
+        "subtitle": "Confronta Bitcoin, Ethereum e altre criptovalute."
+      }
+    },
+    "es-ES": {
+      "converter": {
+        "title": "Convierte divisas. Así de fácil.",
+        "subtitle": "Para tus cálculos diarios, estés donde estés."
+      },
+      "scanner": {
+        "title": "Escanea un precio. Ve a cuánto equivale.",
+        "subtitle": "Apunta con la cámara y obtén la conversión."
+      },
+      "cart": {
+        "title": "Total de la cesta",
+        "subtitle": ""
+      },
+      "travel-board": {
+        "title": "Un importe. Muchas divisas.",
+        "subtitle": "Reúne las divisas de tu viaje en un solo lugar."
+      },
+      "exchange-comparison": {
+        "title": "Descubre cuánto recibes realmente",
+        "subtitle": "Consulta las comisiones porcentuales y fijas por cambio de divisas."
+      },
+      "chart": {
+        "title": "Ve cómo varían los tipos de cambio",
+        "subtitle": "Tipos de cambio históricos de la fuente de datos"
+      },
+      "settings": {
+        "title": "Ajustes",
+        "subtitle": "Tema · Fuente"
+      },
+      "crypto": {
+        "title": "Criptomonedas en tu moneda",
+        "subtitle": "Compara Bitcoin, Ethereum y más."
+      }
+    },
+    "es-419": {
+      "converter": {
+        "title": "Convierte monedas. Así de fácil.",
+        "subtitle": "Para tus cálculos diarios, estés donde estés."
+      },
+      "scanner": {
+        "title": "Escanea un precio. Ve a cuánto equivale.",
+        "subtitle": "Apunta la cámara y obtén la conversión."
+      },
+      "cart": {
+        "title": "Total del carrito",
+        "subtitle": ""
+      },
+      "travel-board": {
+        "title": "Un monto. Muchas monedas.",
+        "subtitle": "Reúne las monedas de tu viaje en un solo lugar."
+      },
+      "exchange-comparison": {
+        "title": "Descubre cuánto recibes realmente",
+        "subtitle": "Consulta las comisiones porcentuales y fijas por cambio de moneda."
+      },
+      "chart": {
+        "title": "Ve cómo varían los tipos de cambio",
+        "subtitle": "Tipos de cambio históricos de la fuente de datos"
+      },
+      "settings": {
+        "title": "Ajustes",
+        "subtitle": "Tema · Fuente"
+      },
+      "crypto": {
+        "title": "Criptomonedas en tu moneda",
+        "subtitle": "Compara Bitcoin, Ethereum y más."
+      }
+    },
+    "pt-BR": {
+      "converter": {
+        "title": "Converta moedas. Sem complicação.",
+        "subtitle": "Para os cálculos do dia a dia, onde você estiver."
+      },
+      "scanner": {
+        "title": "Escaneie um preço. Veja quanto vale.",
+        "subtitle": "Aponte a câmera e veja o valor convertido."
+      },
+      "cart": {
+        "title": "Total do carrinho",
+        "subtitle": ""
+      },
+      "travel-board": {
+        "title": "Um valor. Várias moedas.",
+        "subtitle": "Reúna as moedas da sua viagem em um só lugar."
+      },
+      "exchange-comparison": {
+        "title": "Veja quanto você realmente recebe",
+        "subtitle": "Confira as tarifas percentuais e fixas da conversão."
+      },
+      "chart": {
+        "title": "Veja como as taxas variam",
+        "subtitle": "Taxas históricas da fonte de dados"
+      },
+      "settings": {
+        "title": "Configurações",
+        "subtitle": "Tema · Fonte"
+      },
+      "crypto": {
+        "title": "Criptomoedas na sua moeda",
+        "subtitle": "Compare Bitcoin, Ethereum e outras criptomoedas."
+      }
+    },
+    "pt-PT": {
+      "converter": {
+        "title": "Converte moedas. Sem complicações.",
+        "subtitle": "Para os cálculos do dia a dia, onde quer que estejas."
+      },
+      "scanner": {
+        "title": "Digitaliza um preço. Vê quanto vale.",
+        "subtitle": "Aponta a câmara e vê o valor convertido."
+      },
+      "cart": {
+        "title": "Total do cesto",
+        "subtitle": ""
+      },
+      "travel-board": {
+        "title": "Um valor. Várias moedas.",
+        "subtitle": "Reúne as moedas da tua viagem num só lugar."
+      },
+      "exchange-comparison": {
+        "title": "Vê quanto recebes realmente",
+        "subtitle": "Verifica as comissões de câmbio percentuais e fixas."
+      },
+      "chart": {
+        "title": "Vê como as taxas variam",
+        "subtitle": "Taxas históricas da fonte de dados"
+      },
+      "settings": {
+        "title": "Configurações",
+        "subtitle": "Tema · Tipo de letra"
+      },
+      "crypto": {
+        "title": "Criptomoedas na tua moeda",
+        "subtitle": "Compara Bitcoin, Ethereum e outras criptomoedas."
+      }
+    },
+    "nl": {
+      "converter": {
+        "title": "Valuta omrekenen. Lekker eenvoudig.",
+        "subtitle": "Voor je dagelijkse berekeningen, waar je ook bent."
+      },
+      "scanner": {
+        "title": "Scan een prijs. Zie wat die waard is.",
+        "subtitle": "Richt je camera en bekijk het omgerekende bedrag."
+      },
+      "cart": {
+        "title": "Totaal van je mandje",
+        "subtitle": ""
+      },
+      "travel-board": {
+        "title": "Eén bedrag. Meerdere valuta’s.",
+        "subtitle": "Houd de valuta’s voor je reis bij elkaar."
+      },
+      "exchange-comparison": {
+        "title": "Zie hoeveel je écht ontvangt",
+        "subtitle": "Controleer procentuele en vaste wisselkosten."
+      },
+      "chart": {
+        "title": "Zie hoe de wisselkoersen veranderen",
+        "subtitle": "Historische koersen van de gegevensbron"
+      },
+      "settings": {
+        "title": "Instellingen",
+        "subtitle": "Thema · Lettertype"
+      },
+      "crypto": {
+        "title": "Crypto in jouw valuta",
+        "subtitle": "Vergelijk Bitcoin, Ethereum en meer."
+      }
+    },
+    "da": {
+      "converter": {
+        "title": "Omregn valuta. Gør det enkelt.",
+        "subtitle": "Til hverdagens beregninger, uanset hvor du er."
+      },
+      "scanner": {
+        "title": "Scan en pris. Se, hvad den svarer til.",
+        "subtitle": "Peg med kameraet, og få prisen omregnet."
+      },
+      "cart": {
+        "title": "Kurvens samlede pris",
+        "subtitle": ""
+      },
+      "travel-board": {
+        "title": "Ét beløb. Mange valutaer.",
+        "subtitle": "Saml dine rejsevalutaer ét sted."
+      },
+      "exchange-comparison": {
+        "title": "Se, hvad du faktisk får",
+        "subtitle": "Tjek procentvise og faste vekselgebyrer."
+      },
+      "chart": {
+        "title": "Se, hvordan kurserne ændrer sig",
+        "subtitle": "Historiske kurser fra datakilden"
+      },
+      "settings": {
+        "title": "Indstillinger",
+        "subtitle": "Tema · Skrifttype"
+      },
+      "crypto": {
+        "title": "Krypto i din valuta",
+        "subtitle": "Sammenlign Bitcoin, Ethereum og flere."
+      }
+    },
+    "sv": {
+      "converter": {
+        "title": "Räkna om valutor. Så enkelt är det.",
+        "subtitle": "Vardagens uträkningar, var du än är."
+      },
+      "scanner": {
+        "title": "Skanna ett pris. Se vad det blir.",
+        "subtitle": "Rikta kameran och få priset omräknat."
+      },
+      "cart": {
+        "title": "Varukorgens totalsumma",
+        "subtitle": ""
+      },
+      "travel-board": {
+        "title": "Ett belopp. Flera valutor.",
+        "subtitle": "Samla resans valutor på ett ställe."
+      },
+      "exchange-comparison": {
+        "title": "Se hur mycket du faktiskt får",
+        "subtitle": "Kontrollera procentuella och fasta växlingsavgifter."
+      },
+      "chart": {
+        "title": "Se hur kurserna rör sig",
+        "subtitle": "Historiska kurser från datakällan"
+      },
+      "settings": {
+        "title": "Inställningar",
+        "subtitle": "Tema · Typsnitt"
+      },
+      "crypto": {
+        "title": "Krypto i din valuta",
+        "subtitle": "Jämför Bitcoin, Ethereum och fler."
+      }
+    },
+    "nb": {
+      "converter": {
+        "title": "Regn om valuta. Helt enkelt.",
+        "subtitle": "Til hverdagens beregninger, uansett hvor du er."
+      },
+      "scanner": {
+        "title": "Skann en pris. Se hva den tilsvarer.",
+        "subtitle": "Rett kameraet mot prisen og få den regnet om."
+      },
+      "cart": {
+        "title": "Sum i handlekurven",
+        "subtitle": ""
+      },
+      "travel-board": {
+        "title": "Ett beløp. Flere valutaer.",
+        "subtitle": "Samle valutaene du trenger på reisen, på ett sted."
+      },
+      "exchange-comparison": {
+        "title": "Se hva du faktisk får",
+        "subtitle": "Sjekk prosentbaserte og faste vekslingsgebyrer."
+      },
+      "chart": {
+        "title": "Se hvordan kursene endrer seg",
+        "subtitle": "Historiske kurser fra datakilden"
+      },
+      "settings": {
+        "title": "Innstillinger",
+        "subtitle": "Tema · Skrifttype"
+      },
+      "crypto": {
+        "title": "Krypto i din valuta",
+        "subtitle": "Sammenlign Bitcoin, Ethereum og flere."
+      }
+    },
+    "fi": {
+      "converter": {
+        "title": "Muunna valuuttoja. Helposti.",
+        "subtitle": "Arjen laskelmat, missä ikinä oletkin."
+      },
+      "scanner": {
+        "title": "Skannaa hinta. Näe sen arvo.",
+        "subtitle": "Suuntaa kamera hintaan ja näe muunnettu summa."
+      },
+      "cart": {
+        "title": "Ostoskorin summa",
+        "subtitle": ""
+      },
+      "travel-board": {
+        "title": "Yksi summa. Monta valuuttaa.",
+        "subtitle": "Pidä matkasi valuutat yhdessä paikassa."
+      },
+      "exchange-comparison": {
+        "title": "Näe, paljonko saat oikeasti",
+        "subtitle": "Tarkista prosenttiperusteiset ja kiinteät valuutanvaihtomaksut."
+      },
+      "chart": {
+        "title": "Näe, miten kurssit muuttuvat",
+        "subtitle": "Historialliset kurssit tietolähteestä"
+      },
+      "settings": {
+        "title": "Asetukset",
+        "subtitle": "Teema · Fontti"
+      },
+      "crypto": {
+        "title": "Kryptovaluutat omassa valuutassasi",
+        "subtitle": "Vertaa Bitcoinia, Ethereumia ja muita."
+      }
+    },
+    "is": {
+      "converter": {
+        "title": "Umreiknaðu gjaldmiðla. Einfalt og þægilegt.",
+        "subtitle": "Daglegir útreikningar, hvar sem þú ert."
+      },
+      "scanner": {
+        "title": "Skannaðu verð. Sjáðu það í þinni mynt.",
+        "subtitle": "Beindu myndavélinni að verðinu og sjáðu umreikninginn."
+      },
+      "cart": {
+        "title": "Samtals í körfunni",
+        "subtitle": ""
+      },
+      "travel-board": {
+        "title": "Ein upphæð. Margir gjaldmiðlar.",
+        "subtitle": "Hafðu gjaldmiðla ferðarinnar á einum stað."
+      },
+      "exchange-comparison": {
+        "title": "Sjáðu hvað þú færð í raun",
+        "subtitle": "Athugaðu prósentugjöld og föst gjöld við gjaldeyrisskipti."
+      },
+      "chart": {
+        "title": "Sjáðu hvernig gengið breytist",
+        "subtitle": "Sögulegt gengi frá gagnaveitunni"
+      },
+      "settings": {
+        "title": "Stillingar",
+        "subtitle": "Þema · Leturgerð"
+      },
+      "crypto": {
+        "title": "Rafmyntir í þínum gjaldmiðli",
+        "subtitle": "Berðu saman Bitcoin, Ethereum og fleiri rafmyntir."
+      }
+    },
+    "el": {
+      "converter": {
+        "title": "Μετατροπή νομισμάτων. Απλά και εύκολα.",
+        "subtitle": "Για καθημερινούς υπολογισμούς, όπου κι αν βρίσκεσαι."
+      },
+      "scanner": {
+        "title": "Σκάναρε μια τιμή. Δες την αξία της.",
+        "subtitle": "Στρέψε την κάμερα και δες τη μετατροπή."
+      },
+      "cart": {
+        "title": "Σύνολο καλαθιού",
+        "subtitle": ""
+      },
+      "travel-board": {
+        "title": "Ένα ποσό. Πολλά νομίσματα.",
+        "subtitle": "Όλα τα νομίσματα του ταξιδιού σου συγκεντρωμένα."
+      },
+      "exchange-comparison": {
+        "title": "Δες πόσα λαμβάνεις πραγματικά",
+        "subtitle": "Έλεγξε τις ποσοστιαίες και σταθερές προμήθειες συναλλάγματος."
+      },
+      "chart": {
+        "title": "Δες πώς αλλάζουν οι ισοτιμίες",
+        "subtitle": "Ιστορικές ισοτιμίες από την πηγή δεδομένων"
+      },
+      "settings": {
+        "title": "Ρυθμίσεις",
+        "subtitle": "Θέμα · Γραμματοσειρά"
+      },
+      "crypto": {
+        "title": "Κρυπτονομίσματα στο νόμισμά σου",
+        "subtitle": "Σύγκρινε Bitcoin, Ethereum και άλλα."
+      }
+    },
+    "tr": {
+      "converter": {
+        "title": "Para birimlerini çevirin. İşinizi kolaylaştırın.",
+        "subtitle": "Günlük hesaplamalar, nerede olursanız olun."
+      },
+      "scanner": {
+        "title": "Fiyatı tarayın. Karşılığını görün.",
+        "subtitle": "Kamerayı doğrultun. Çevrilen tutarı görün."
+      },
+      "cart": {
+        "title": "Sepet toplamı",
+        "subtitle": ""
+      },
+      "travel-board": {
+        "title": "Tek tutar. Birçok para birimi.",
+        "subtitle": "Seyahatinizdeki para birimleri bir arada."
+      },
+      "exchange-comparison": {
+        "title": "Elinize ne kadar geçeceğini görün",
+        "subtitle": "Yüzdelik ve sabit döviz işlem ücretlerini kontrol edin."
+      },
+      "chart": {
+        "title": "Kurların nasıl değiştiğini görün",
+        "subtitle": "Veri kaynağındaki geçmiş kurlar"
+      },
+      "settings": {
+        "title": "Ayarlar",
+        "subtitle": "Tema · Yazı tipi"
+      },
+      "crypto": {
+        "title": "Kripto değerleri, para biriminizde",
+        "subtitle": "Bitcoin, Ethereum ve diğerlerini karşılaştırın."
+      }
+    },
+    "ru": {
+      "converter": {
+        "title": "Конвертируйте без сложностей",
+        "subtitle": "Расчёты на каждый день — где бы вы ни были."
+      },
+      "scanner": {
+        "title": "Наведите камеру на ценник",
+        "subtitle": "Сканируйте цену и узнайте сумму в своей валюте."
+      },
+      "cart": {
+        "title": "Итог корзины",
+        "subtitle": ""
+      },
+      "travel-board": {
+        "title": "Одна сумма. Разные валюты.",
+        "subtitle": "Держите валюты для поездки под рукой."
+      },
+      "exchange-comparison": {
+        "title": "Узнайте, сколько вы получите",
+        "subtitle": "Проверьте процентные и фиксированные комиссии за обмен."
+      },
+      "chart": {
+        "title": "Как меняется курс валют",
+        "subtitle": "Исторические курсы источника"
+      },
+      "settings": {
+        "title": "Настройки",
+        "subtitle": "Тема · Шрифт"
+      },
+      "crypto": {
+        "title": "Криптовалюта в вашей валюте",
+        "subtitle": "Сравнивайте Bitcoin, Ethereum и другие криптовалюты."
+      }
+    },
+    "uk": {
+      "converter": {
+        "title": "Конвертуйте валюти. Без зайвих клопотів.",
+        "subtitle": "Щоденні розрахунки, де б ви не були."
+      },
+      "scanner": {
+        "title": "Скануйте ціну. Дізнайтеся її вартість.",
+        "subtitle": "Наведіть камеру й отримайте суму у своїй валюті."
+      },
+      "cart": {
+        "title": "Сума кошика",
+        "subtitle": ""
+      },
+      "travel-board": {
+        "title": "Одна сума. Багато валют.",
+        "subtitle": "Зберіть потрібні для подорожі валюти разом."
+      },
+      "exchange-comparison": {
+        "title": "Дізнайтеся, скільки ви отримаєте насправді",
+        "subtitle": "Перевірте відсоткові та фіксовані комісії за обмін."
+      },
+      "chart": {
+        "title": "Стежте, як змінюються курси",
+        "subtitle": "Історичні курси з джерела даних"
+      },
+      "settings": {
+        "title": "Налаштування",
+        "subtitle": "Тема · Шрифт"
+      },
+      "crypto": {
+        "title": "Криптовалюти у вашій валюті",
+        "subtitle": "Порівнюйте Bitcoin, Ethereum та інші криптовалюти."
+      }
+    },
+    "ar": {
+      "converter": {
+        "title": "حوّل العملات. بكل بساطة.",
+        "subtitle": "حساباتك اليومية، أينما كنت."
+      },
+      "scanner": {
+        "title": "امسح السعر ضوئيًا. واعرف قيمته.",
+        "subtitle": "وجّه الكاميرا لتحصل على السعر بعملتك."
+      },
+      "cart": {
+        "title": "إجمالي السلة",
+        "subtitle": ""
+      },
+      "travel-board": {
+        "title": "مبلغ واحد. عملات متعددة.",
+        "subtitle": "اجمع عملات رحلتك في مكان واحد."
+      },
+      "exchange-comparison": {
+        "title": "اعرف المبلغ الذي ستحصل عليه",
+        "subtitle": "تحقّق من رسوم الصرف، سواء كانت نسبة مئوية أو مبلغًا ثابتًا."
+      },
+      "chart": {
+        "title": "تابع تغيّر أسعار الصرف",
+        "subtitle": "أسعار صرف تاريخية من مصدر البيانات"
+      },
+      "settings": {
+        "title": "إعدادات",
+        "subtitle": "المظهر · الخط"
+      },
+      "crypto": {
+        "title": "العملات الرقمية بعملتك",
+        "subtitle": "قارن قيمة بيتكوين وإيثيريوم وغيرها."
+      }
+    },
+    "he": {
+      "converter": {
+        "title": "המרת מטבעות. פשוט וקל.",
+        "subtitle": "חישובים יומיומיים, בכל מקום."
+      },
+      "scanner": {
+        "title": "סורקים מחיר. רואים כמה זה יוצא.",
+        "subtitle": "מכוונים את המצלמה ומקבלים את הסכום במטבע הרצוי."
+      },
+      "cart": {
+        "title": "סכום הסל",
+        "subtitle": ""
+      },
+      "travel-board": {
+        "title": "סכום אחד. מטבעות רבים.",
+        "subtitle": "כל המטבעות לנסיעה, במקום אחד."
+      },
+      "exchange-comparison": {
+        "title": "רואים כמה באמת מקבלים",
+        "subtitle": "בודקים עמלות המרה באחוזים ועמלות בסכום קבוע."
+      },
+      "chart": {
+        "title": "רואים איך שערי החליפין משתנים",
+        "subtitle": "שערים היסטוריים ממקור הנתונים"
+      },
+      "settings": {
+        "title": "הגדרות",
+        "subtitle": "ערכת נושא · גופן"
+      },
+      "crypto": {
+        "title": "שווי הקריפטו במטבע שלכם",
+        "subtitle": "משווים ביטקוין, אתריום ועוד."
+      }
+    },
+    "fa": {
+      "converter": {
+        "title": "تبدیل ارز ساده و بی‌دردسر",
+        "subtitle": "محاسبات روزمره، هر جا که هستید."
+      },
+      "scanner": {
+        "title": "قیمت را اسکن کنید. ارزشش را ببینید.",
+        "subtitle": "دوربین را به سمت قیمت بگیرید و مبلغ تبدیل‌شده را ببینید."
+      },
+      "cart": {
+        "title": "جمع سبد خرید",
+        "subtitle": ""
+      },
+      "travel-board": {
+        "title": "یک مبلغ. چندین ارز.",
+        "subtitle": "ارزهای موردنیاز سفرتان را یک‌جا نگه دارید."
+      },
+      "exchange-comparison": {
+        "title": "ببینید واقعاً چقدر دریافت می‌کنید",
+        "subtitle": "کارمزدهای درصدی و ثابت تبدیل ارز را بررسی کنید."
+      },
+      "chart": {
+        "title": "تغییرات نرخ ارز پیش چشم شما",
+        "subtitle": "نرخ‌های تاریخی از منبع داده"
+      },
+      "settings": {
+        "title": "تنظیمات",
+        "subtitle": "پوسته · قلم"
+      },
+      "crypto": {
+        "title": "قیمت رمزارزها به ارز شما",
+        "subtitle": "بیت‌کوین، اتریوم و رمزارزهای دیگر را مقایسه کنید."
+      }
+    },
+    "ur": {
+      "converter": {
+        "title": "کرنسی کی تبدیلی، اب بالکل آسان",
+        "subtitle": "روزمرہ کے حساب، آپ جہاں بھی ہوں۔"
+      },
+      "scanner": {
+        "title": "قیمت اسکین کریں۔ اپنی کرنسی میں دیکھیں۔",
+        "subtitle": "کیمرے کا رخ قیمت کی طرف کریں اور نتیجہ دیکھیں۔"
+      },
+      "cart": {
+        "title": "ٹوکری کی کل رقم",
+        "subtitle": ""
+      },
+      "travel-board": {
+        "title": "ایک رقم۔ کئی کرنسیاں۔",
+        "subtitle": "سفر میں درکار کرنسیاں ایک جگہ رکھیں۔"
+      },
+      "exchange-comparison": {
+        "title": "جانیں کہ آپ کو کتنی رقم ملے گی",
+        "subtitle": "فیصد اور مقررہ ایکسچینج فیس چیک کریں۔"
+      },
+      "chart": {
+        "title": "دیکھیں شرحِ مبادلہ کیسے بدلتی ہے",
+        "subtitle": "ڈیٹا کے ماخذ سے سابقہ شرحیں"
+      },
+      "settings": {
+        "title": "ترتیبات",
+        "subtitle": "تھیم · فونٹ"
+      },
+      "crypto": {
+        "title": "کرپٹو کی قیمت، آپ کی کرنسی میں",
+        "subtitle": "بٹ کوائن، ایتھیریم اور دیگر کی قیمتوں کا موازنہ کریں۔"
+      }
+    },
+    "hi": {
+      "converter": {
+        "title": "करेंसी का हिसाब, बिल्कुल आसान।",
+        "subtitle": "रोज़मर्रा के हिसाब, आप जहाँ भी हों।"
+      },
+      "scanner": {
+        "title": "दाम स्कैन करें। अपनी करेंसी में देखें।",
+        "subtitle": "कैमरा दाम की ओर करें और बदली हुई रकम देखें।"
+      },
+      "cart": {
+        "title": "टोकरी की कुल कीमत",
+        "subtitle": ""
+      },
+      "travel-board": {
+        "title": "एक रकम। कई करेंसी।",
+        "subtitle": "यात्रा में काम आने वाली करेंसी एक जगह रखें।"
+      },
+      "exchange-comparison": {
+        "title": "जानें, आपको असल में कितना मिलेगा",
+        "subtitle": "प्रतिशत और तय विनिमय शुल्क जाँचें।"
+      },
+      "chart": {
+        "title": "देखें, कैसे बदलती हैं एक्सचेंज दरें",
+        "subtitle": "डेटा स्रोत से पिछली विनिमय दरें"
+      },
+      "settings": {
+        "title": "सेटिंग्स",
+        "subtitle": "थीम · फ़ॉन्ट"
+      },
+      "crypto": {
+        "title": "क्रिप्टो का मूल्य, आपकी करेंसी में",
+        "subtitle": "Bitcoin, Ethereum और अन्य क्रिप्टो की तुलना करें।"
+      }
+    },
+    "bn": {
+      "converter": {
+        "title": "মুদ্রার হিসাব এখন আরও সহজ",
+        "subtitle": "যেখানেই থাকুন, দৈনন্দিন হিসাব করুন সহজে।"
+      },
+      "scanner": {
+        "title": "দাম স্ক্যান করুন। নিজের মুদ্রায় দেখুন।",
+        "subtitle": "দামের দিকে ক্যামেরা ধরুন। রূপান্তরিত মূল্য দেখুন।"
+      },
+      "cart": {
+        "title": "ঝুড়ির মোট দাম",
+        "subtitle": ""
+      },
+      "travel-board": {
+        "title": "একটি অঙ্ক। একাধিক মুদ্রা।",
+        "subtitle": "ভ্রমণের দরকারি মুদ্রাগুলো একসঙ্গে রাখুন।"
+      },
+      "exchange-comparison": {
+        "title": "জানুন কত টাকা হাতে পাবেন",
+        "subtitle": "শতকরা ও নির্দিষ্ট অঙ্কের মুদ্রা বিনিময় ফি দেখুন।"
+      },
+      "chart": {
+        "title": "দেখুন কীভাবে বিনিময় হার বদলায়",
+        "subtitle": "তথ্যের উৎস থেকে ঐতিহাসিক বিনিময় হার"
+      },
+      "settings": {
+        "title": "সেটিংস",
+        "subtitle": "থিম · ফন্ট"
+      },
+      "crypto": {
+        "title": "ক্রিপ্টোর মূল্য নিজের মুদ্রায়",
+        "subtitle": "বিটকয়েন, ইথেরিয়াম ও অন্যান্য ক্রিপ্টোর মূল্য তুলনা করুন।"
+      }
+    },
+    "id": {
+      "converter": {
+        "title": "Konversi mata uang. Semudah itu.",
+        "subtitle": "Hitungan sehari-hari, di mana pun Anda berada."
+      },
+      "scanner": {
+        "title": "Pindai harga. Lihat nilainya.",
+        "subtitle": "Arahkan kamera. Lihat hasil konversinya."
+      },
+      "cart": {
+        "title": "Total keranjang",
+        "subtitle": ""
+      },
+      "travel-board": {
+        "title": "Satu jumlah. Banyak mata uang.",
+        "subtitle": "Satukan mata uang untuk perjalanan Anda."
+      },
+      "exchange-comparison": {
+        "title": "Lihat jumlah yang benar-benar Anda terima",
+        "subtitle": "Periksa biaya penukaran berbasis persentase dan biaya tetap."
+      },
+      "chart": {
+        "title": "Lihat perubahan kurs mata uang",
+        "subtitle": "Kurs historis dari sumber data"
+      },
+      "settings": {
+        "title": "Pengaturan",
+        "subtitle": "Tema · Font"
+      },
+      "crypto": {
+        "title": "Kripto dalam mata uang Anda",
+        "subtitle": "Bandingkan Bitcoin, Ethereum, dan lainnya."
+      }
+    },
+    "ms": {
+      "converter": {
+        "title": "Tukar mata wang. Mudah sahaja.",
+        "subtitle": "Pengiraan harian, di mana-mana sahaja."
+      },
+      "scanner": {
+        "title": "Imbas harga. Lihat nilainya.",
+        "subtitle": "Halakan kamera. Dapatkan nilai tukaran."
+      },
+      "cart": {
+        "title": "Jumlah troli",
+        "subtitle": ""
+      },
+      "travel-board": {
+        "title": "Satu amaun. Pelbagai mata wang.",
+        "subtitle": "Kumpulkan mata wang perjalanan anda di satu tempat."
+      },
+      "exchange-comparison": {
+        "title": "Lihat jumlah yang anda benar-benar terima",
+        "subtitle": "Semak fi pertukaran berasaskan peratusan dan fi tetap."
+      },
+      "chart": {
+        "title": "Lihat perubahan kadar pertukaran",
+        "subtitle": "Kadar sejarah daripada sumber data"
+      },
+      "settings": {
+        "title": "Tetapan",
+        "subtitle": "Tema · Fon"
+      },
+      "crypto": {
+        "title": "Nilai kripto dalam mata wang anda",
+        "subtitle": "Bandingkan Bitcoin, Ethereum dan banyak lagi."
+      }
+    },
+    "th": {
+      "converter": {
+        "title": "แปลงสกุลเงิน ง่ายกว่าที่คิด",
+        "subtitle": "คำนวณได้ทุกวัน ไม่ว่าคุณจะอยู่ที่ไหน"
+      },
+      "scanner": {
+        "title": "สแกนราคา ดูค่าในสกุลเงินของคุณ",
+        "subtitle": "เล็งกล้อง แล้วดูผลการแปลงสกุลเงิน"
+      },
+      "cart": {
+        "title": "ยอดรวมในตะกร้า",
+        "subtitle": ""
+      },
+      "travel-board": {
+        "title": "จำนวนเงินเดียว หลายสกุลเงิน",
+        "subtitle": "รวมสกุลเงินสำหรับการเดินทางไว้ในที่เดียว"
+      },
+      "exchange-comparison": {
+        "title": "รู้ยอดเงินที่คุณ จะได้รับจริง",
+        "subtitle": "ตรวจสอบค่าธรรมเนียมการแลกเปลี่ยนทั้งแบบเปอร์เซ็นต์และแบบคงที่"
+      },
+      "chart": {
+        "title": "ดูแนวโน้ม อัตราแลกเปลี่ยน",
+        "subtitle": "อัตราแลกเปลี่ยนย้อนหลังจากแหล่งข้อมูล"
+      },
+      "settings": {
+        "title": "การตั้งค่า",
+        "subtitle": "ธีม · แบบอักษร"
+      },
+      "crypto": {
+        "title": "ดูมูลค่าคริปโต ในสกุลเงินของคุณ",
+        "subtitle": "เปรียบเทียบ Bitcoin, Ethereum และอีกมากมาย"
+      }
+    },
+    "vi": {
+      "converter": {
+        "title": "Quy đổi tiền tệ. Thật đơn giản.",
+        "subtitle": "Tính toán hằng ngày, dù bạn ở đâu."
+      },
+      "scanner": {
+        "title": "Quét giá. Xem giá trị quy đổi.",
+        "subtitle": "Hướng camera vào giá và xem kết quả quy đổi."
+      },
+      "cart": {
+        "title": "Tổng giỏ hàng",
+        "subtitle": ""
+      },
+      "travel-board": {
+        "title": "Một khoản tiền. Nhiều loại tiền tệ.",
+        "subtitle": "Gom các loại tiền cho chuyến đi vào một nơi."
+      },
+      "exchange-comparison": {
+        "title": "Biết số tiền bạn thực sự nhận được",
+        "subtitle": "Kiểm tra phí đổi tiền theo phần trăm và phí cố định."
+      },
+      "chart": {
+        "title": "Xem tỷ giá thay đổi ra sao",
+        "subtitle": "Tỷ giá lịch sử từ nguồn dữ liệu"
+      },
+      "settings": {
+        "title": "Cài đặt",
+        "subtitle": "Giao diện · Phông chữ"
+      },
+      "crypto": {
+        "title": "Giá trị tiền mã hóa bằng đồng tiền của bạn",
+        "subtitle": "So sánh Bitcoin, Ethereum và nhiều loại khác."
+      }
+    },
+    "zh-Hans": {
+      "converter": {
+        "title": "货币换算 就是这么简单",
+        "subtitle": "无论身在何处，轻松应对日常计算。"
+      },
+      "scanner": {
+        "title": "扫描价格 看看值多少",
+        "subtitle": "将相机对准价格，即可查看换算结果。"
+      },
+      "cart": {
+        "title": "购物车总价",
+        "subtitle": ""
+      },
+      "travel-board": {
+        "title": "一个金额 多种货币",
+        "subtitle": "集中管理旅行所需的多种货币。"
+      },
+      "exchange-comparison": {
+        "title": "算清实际 能拿到多少",
+        "subtitle": "查看按比例收取和固定金额的兑换手续费。"
+      },
+      "chart": {
+        "title": "看看汇率 如何变化",
+        "subtitle": "数据源的历史汇率"
+      },
+      "settings": {
+        "title": "设置",
+        "subtitle": "外观 · 字体"
+      },
+      "crypto": {
+        "title": "用你的货币 查看加密货币价值",
+        "subtitle": "比较比特币、以太坊等加密货币。"
+      }
+    },
+    "zh-Hant": {
+      "converter": {
+        "title": "貨幣換算 就是這麼簡單",
+        "subtitle": "無論身在何處，輕鬆應付日常計算。"
+      },
+      "scanner": {
+        "title": "掃描價格 看看值多少",
+        "subtitle": "將相機對準價格，即可查看換算結果。"
+      },
+      "cart": {
+        "title": "購物車總金額",
+        "subtitle": ""
+      },
+      "travel-board": {
+        "title": "一個金額 多種貨幣",
+        "subtitle": "集中管理旅途中需要的多種貨幣。"
+      },
+      "exchange-comparison": {
+        "title": "算清實際 能拿到多少",
+        "subtitle": "查看按比例收取與固定金額的兌換手續費。"
+      },
+      "chart": {
+        "title": "看看匯率 如何變化",
+        "subtitle": "資料來源的歷史匯率"
+      },
+      "settings": {
+        "title": "設定",
+        "subtitle": "外觀 · 字型"
+      },
+      "crypto": {
+        "title": "用你的貨幣 查看加密貨幣價值",
+        "subtitle": "比較比特幣、以太幣等加密貨幣。"
+      }
+    },
+    "ja": {
+      "converter": {
+        "title": "通貨換算を もっとシンプルに",
+        "subtitle": "毎日の計算を、どこにいても。"
+      },
+      "scanner": {
+        "title": "価格をスキャン。 自分の通貨で確認。",
+        "subtitle": "価格をスキャンして、換算結果を確認。"
+      },
+      "cart": {
+        "title": "買い物かごの合計",
+        "subtitle": ""
+      },
+      "travel-board": {
+        "title": "ひとつの金額を 複数の通貨で",
+        "subtitle": "旅で使う通貨をひとまとめに。"
+      },
+      "exchange-comparison": {
+        "title": "実際に受け取る 金額をチェック",
+        "subtitle": "定率・定額の両替手数料を確認。"
+      },
+      "chart": {
+        "title": "為替レートの 動きをチェック",
+        "subtitle": "データ提供元の過去の為替レート"
+      },
+      "settings": {
+        "title": "設定",
+        "subtitle": "テーマ · フォント"
+      },
+      "crypto": {
+        "title": "暗号資産の価格を 使い慣れた通貨で",
+        "subtitle": "ビットコインやイーサリアムなどを比較。"
+      }
+    },
+    "ko": {
+      "converter": {
+        "title": "환율 계산, 더 간편하게",
+        "subtitle": "어디서든 필요한 일상 속 계산."
+      },
+      "scanner": {
+        "title": "가격을 스캔하고 환산 금액을 확인하세요",
+        "subtitle": "카메라를 비추면 환산 결과를 볼 수 있어요."
+      },
+      "cart": {
+        "title": "장바구니 총액",
+        "subtitle": ""
+      },
+      "travel-board": {
+        "title": "하나의 금액을 여러 통화로",
+        "subtitle": "여행에 필요한 통화를 한곳에 모아 두세요."
+      },
+      "exchange-comparison": {
+        "title": "실제로 받는 금액을 확인하세요",
+        "subtitle": "정률 및 정액 환전 수수료를 확인해 보세요."
+      },
+      "chart": {
+        "title": "환율의 흐름을 한눈에",
+        "subtitle": "데이터 제공처의 과거 환율"
+      },
+      "settings": {
+        "title": "설정",
+        "subtitle": "테마 · 글꼴"
+      },
+      "crypto": {
+        "title": "암호화폐 가치를 내 통화로",
+        "subtitle": "비트코인, 이더리움 등을 비교해 보세요."
+      }
+    }
+  }
+}

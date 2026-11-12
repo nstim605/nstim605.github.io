@@ -6,10 +6,12 @@ import { resolveToolMessages } from './tool-localization-data.mjs';
 import { ensureStoreLinks } from './store-links.mjs';
 import { searchHreflang, skipLinkLabel, updateGenericNavigation, updateSearchAlternates } from './locale-navigation.mjs';
 import { updateHomepageSeo, validateHomepageSeoCopy } from './sync-homepage-seo.mjs';
+import { updateHomepageScreenshots, validateScreenshotCopy } from './sync-homepage-screenshots.mjs';
 
 const root = path.resolve(import.meta.dirname, '..');
 const androidRoot = path.resolve(process.env.ANDROID_SOURCE_ROOT || path.join(root, '..'));
 const getRunTimestamp = createRunTimestamp();
+const homepageScreenshots = JSON.parse(await fs.readFile(path.join(root, 'tools/homepage-screenshots-copy.json'), 'utf8'));
 // The English production homepage contains separately approved metadata that is
 // intentionally newer than the localization template. Never overwrite it while
 // regenerating localized policy pages.
@@ -34,6 +36,7 @@ const locales = [
   ['zh-Hant', 'zh-hant', '繁體中文', 'ltr'], ['ja', 'ja', '日本語', 'ltr'], ['ko', 'ko', '한국어', 'ltr']
 ].map(([android, route, name, dir]) => ({ android, route, name, dir,
   web: android === 'iw' ? 'he' : android === 'in' ? 'id' : android }));
+validateScreenshotCopy(homepageScreenshots, locales.map(locale => ({ webLocale: locale.web })));
 
 const configPath = path.join(androidRoot, 'app', 'src', 'main', 'res', 'xml', 'locales_config.xml');
 const config = await fs.readFile(configPath, 'utf8');
@@ -664,7 +667,9 @@ for (const locale of locales) {
   const homeWithNavigation = updateGenericNavigation(ensureStoreLinks(ensureMobileNavigation(ensureFooterLinks(ensureFeatureIcons(home), locale))), locale.web);
   // Apply the approved locale metadata after either regeneration or retention
   // of an existing homepage, including the preserved English homepage.
-  const homeWithLinks = updateHomepageSeo(homeWithNavigation, homepageSeoCopy[locale.web]);
+  const homeWithLinks = updateHomepageScreenshots(
+    updateHomepageSeo(homeWithNavigation, homepageSeoCopy[locale.web]),
+    { webLocale: locale.web }, homepageScreenshots);
   if (!preserved.has(locale.android) || homeWithLinks !== home) await fs.writeFile(homePath, homeWithLinks);
   if (preserveExistingPolicies) {
     const preservedPath = path.join(directory, 'privacy-policy.html');

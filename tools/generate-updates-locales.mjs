@@ -7,7 +7,7 @@ import { searchHreflang, skipLinkLabel } from "./locale-navigation.mjs";
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const currentNewsOnly = process.argv.includes('--current-news-only');
-const currentNewsLastmod = '2026-11-07';
+const currentNewsLastmod = '2026-11-12';
 const base = "https://balkanconverter.com";
 const play = "https://play.google.com/store/apps/details?id=io.github.nstim605.balkanconverter";
 
